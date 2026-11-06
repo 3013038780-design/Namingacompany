@@ -1,6 +1,6 @@
 {
-  "status": "pipeline_complete_quality_target_not_validated",
-  "summary": "完成12案例、12素材卡、24字面草案（归并12创意家族）。编辑淘汰12字面草案，12进入中文筛查，4中文重点进入英文匹配；2组完成中英文公开使用初筛，另2中文储备。24独立家族的原计划未达到，不能以24字面形式补足。此次证明流程可运行，尚未验证每天20个高质量创意的产能。",
+  "status": "reviewed_rejected_brand_fit",
+  "summary": "首轮已完成12案例、12素材卡与24字面草案（归并12家族）。2组完成中英文公开使用初筛，但用户审阅否决科技AI Lab定位：木上林偏木业/环保家具，借长风及Borrowind未建立足够科技研究品牌气质。2组不再作为备选；公开未检出同名不能代替品牌质量评审。",
   "counts": {
     "cases": 12,
     "materials": 12,
@@ -10,7 +10,8 @@
     "chinese_screened_forms": 12,
     "priority_english_chinese": 4,
     "complete_discussion_pairs": 2,
-    "ready_to_adopt_recommendations": 0
+    "ready_to_adopt_recommendations": 0,
+    "current_shortlisted_pairs": 0
   },
   "pairs": [
     {
@@ -26,7 +27,8 @@
       "source_urls": [
         "https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.7786"
       ],
-      "editorial_status": "讨论样本；尚不作为高质量定名推荐"
+      "editorial_status": "用户否决，不再列入备选",
+      "user_rejection_reason": "中文木业/环保家具联想强，英文幻想游戏感；不符合科技AI Lab定位"
     },
     {
       "id": "C17",
@@ -41,7 +43,8 @@
       "source_urls": [
         "https://ctext.org/xunzi/quan-xue/zh"
       ],
-      "editorial_status": "讨论样本；尚不作为高质量定名推荐"
+      "editorial_status": "用户否决，不再列入备选",
+      "user_rejection_reason": "未形成科技AI Lab气质，英文还带借款联想；不列备选"
     }
   ],
   "reserves": [
@@ -51,7 +54,7 @@
     },
     {
       "name": "深水来",
-      "reason": "直觉英文多已用于游戏，替代构词拗口，保留中文，不计完整交付。"
+      "reason": "已淘汰：水环境/生态联想过强，科技AI Lab定位不足；英文也未达到自然度。"
     }
   ],
   "registration_scope": "GSXT/CNIPA403；Companies House首页可访问但候选搜索不可访问。未完成官方逐名登记/商标核查。",
@@ -61,5 +64,10 @@
     "英文可构成独立同主题品牌，不强求中文动作逐字拼英文",
     "不因无命中自动认定是好名字；人工审美反馈用于校准"
   ],
-  "schedule_created": false
+  "schedule_created": false,
+  "user_review": {
+    "date": "2026-11-06",
+    "current_shortlisted_pairs": 0,
+    "reason": "科技公司与AI Lab定位不符，木、水等组合偏环保家具；所有落选名应列具体原因与占用对象。"
+  }
 }

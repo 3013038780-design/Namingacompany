@@ -1,0 +1,201 @@
+{
+  "date": "2026-11-06",
+  "decisions": [
+    {
+      "id": "R2C01",
+      "name": "余项",
+      "decision": "仅保留中文研究线索",
+      "reason": "未见明确同名命中，但尚未完成品牌审美与英文匹配；余容易被理解成剩余、不重要；常见术语撞名概率高。",
+      "matched_entities": [],
+      "source_urls": [
+        "https://mathworld.wolfram.com/TaylorRemainder.html"
+      ]
+    },
+    {
+      "id": "R2C02",
+      "name": "开集",
+      "decision": "待核实，不列备选",
+      "reason": "深圳开集科技有限公司名称在第三方黄页正文中存在，企业具体科技业务未核实，暂停作为无占用候选。另阜阳开集生物科技为跨行业第三方记录。不是官方工商/商标核验。",
+      "matched_entities": [
+        {
+          "name": "深圳开集科技有限公司",
+          "type": "公司名称第三方记录",
+          "url": "https://www.yellowurl.cn/85565147/hezhunriqi/",
+          "opened": true,
+          "evidence": "页面标题和正文明确公司全称，但仅显示核准日期，未支持具体业务。"
+        },
+        {
+          "name": "阜阳开集生物科技有限公司",
+          "type": "第三方生物科技企业记录",
+          "url": "https://synapse.zhihuiya.com/organization/bfcdeae2035e9c6130946c05f6ded695",
+          "opened": false,
+          "evidence": "仅检索返回公司条目，不以此证明AI行业使用。"
+        }
+      ],
+      "source_urls": [
+        "https://mathworld.wolfram.com/OpenSet.html"
+      ]
+    },
+    {
+      "id": "R2C03",
+      "name": "异步",
+      "decision": "已有科技使用，否决",
+      "reason": "已有异步科技软件开发品牌及广州异步科技有限公司，按已有科技使用否决。",
+      "matched_entities": [
+        {
+          "name": "异步科技",
+          "type": "软件开发品牌官网",
+          "url": "https://www.asynctech.com/",
+          "opened": false,
+          "evidence": "检索返回完整服务介绍：IT/软件开发、微信/APP及行业系统；直开超时。"
+        },
+        {
+          "name": "广州异步科技有限公司",
+          "type": "计算机软件公司招聘页",
+          "url": "https://m.zhipin.com/companys/1e2ab10a1c17f1781HB509q4EFA~.html",
+          "opened": true,
+          "evidence": "BOSS正文确认旗下异步科技品牌和软件开发销售业务。"
+        },
+        {
+          "name": "异步科技",
+          "type": "游戏厂商品牌",
+          "url": "https://www.taptap.cn/developer/253998",
+          "opened": true,
+          "evidence": "TapTap厂商页列趣味答题测试、欢乐打地鼠。"
+        }
+      ],
+      "source_urls": [
+        "https://doc.rust-lang.org/book/ch17-01-futures-and-syntax.html"
+      ]
+    },
+    {
+      "id": "R2C04",
+      "name": "重整",
+      "decision": "品牌评审淘汰",
+      "reason": "破产重整联想强；物理背景是重整化，截取后丢失专业身份。",
+      "matched_entities": [],
+      "source_urls": [
+        "https://www.damtp.cam.ac.uk/user/tong/sft/sfthtml/S3.html"
+      ]
+    },
+    {
+      "id": "R2C05",
+      "name": "演算尺",
+      "decision": "品牌评审淘汰",
+      "reason": "演算尺不是所引slide rule资料的规范中文名；像儿童教具，命名改造不自然。",
+      "matched_entities": [
+        {
+          "name": "一种演算尺 CN2141919Y",
+          "type": "实用新型专利，非品牌占用",
+          "url": "https://patents.google.com/patent/CN2141919Y/zh",
+          "opened": true,
+          "evidence": "摘要为小学生练习数学运算的带视孔/数盘尺。"
+        }
+      ],
+      "source_urls": [
+        "https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/calculating-devices/slide-rules"
+      ]
+    },
+    {
+      "id": "R2C06",
+      "name": "非终态",
+      "decision": "品牌评审淘汰",
+      "reason": "把非终结符压缩成非终态混入了状态机概念，存在术语混淆；本轮不推进。",
+      "matched_entities": [],
+      "source_urls": [
+        "https://web.stanford.edu/class/archive/cs/cs103/cs103.1252/guide_to_cfgs"
+      ]
+    },
+    {
+      "id": "R2C07",
+      "name": "公设之外",
+      "decision": "品牌评审淘汰",
+      "reason": "像论文或书名，尚不能自然成为研究机构称呼。",
+      "matched_entities": [],
+      "source_urls": [
+        "https://plato.stanford.edu/entries/goedel-incompleteness/"
+      ]
+    },
+    {
+      "id": "R2C08",
+      "name": "观测之后",
+      "decision": "品牌评审淘汰",
+      "reason": "像文章标题，时间关系成立但品牌身份不足。",
+      "matched_entities": [],
+      "source_urls": [
+        "https://www.cs.ubc.ca/~poole/aibook/3e/html/ArtInt3e.Ch9.S1.html"
+      ]
+    },
+    {
+      "id": "R2C09",
+      "name": "推演场",
+      "decision": "仅保留中文研究线索",
+      "reason": "未见明确同名命中，但尚未完成品牌审美与英文匹配；此为品牌造词，不是抽象解释中的标准术语；也可能像仿真工具或军事推演平台。",
+      "matched_entities": [],
+      "source_urls": [
+        "https://courses.cs.cornell.edu/cs4120/2022sp/notes/absint/index.html"
+      ]
+    },
+    {
+      "id": "R2C10",
+      "name": "知演",
+      "decision": "已有科技使用，否决",
+      "reason": "已有知演数智AI商业智能品牌及三亚崖州知演科技有限公司软件/AI业务记录，按同一核心名称科技使用否决。",
+      "matched_entities": [
+        {
+          "name": "知演数智 / PathFinder",
+          "type": "AI商业智能品牌及产品",
+          "url": "https://zhiyanshuzhi.com/",
+          "opened": false,
+          "evidence": "检索返回官网完整产品介绍；直接打开502。"
+        },
+        {
+          "name": "三亚崖州知演科技有限公司",
+          "type": "第三方企业资料",
+          "url": "https://www.shuididp.cn/yp-54ea173c879b19d6c845be6d6f43af01.html",
+          "opened": true,
+          "evidence": "正文列软件开发、AI应用/基础软件等经营业务，行业为软件和信息技术服务。"
+        }
+      ],
+      "source_urls": [
+        "https://blog.google/company-news/inside-google/googlers/ask-a-techspert/what-is-a-world-model-project-genie/"
+      ]
+    },
+    {
+      "id": "R2C11",
+      "name": "聚变纪",
+      "decision": "品牌评审淘汰",
+      "reason": "聚变能源公司的主印象强，纪像附加时代后缀，尚未形成适合本Lab的内在关系。",
+      "matched_entities": [],
+      "source_urls": [
+        "https://www.energy.gov/science/doe-explainsfusion-reactions"
+      ]
+    },
+    {
+      "id": "R2C12",
+      "name": "虚时",
+      "decision": "已有科技使用，否决",
+      "reason": "北京虚时科技有限公司 / Intime AI从事三维仿真数据及空间智能，明确已有AI场域使用，否决。",
+      "matched_entities": [
+        {
+          "name": "北京虚时科技有限公司 / Intime AI",
+          "type": "空间智能/三维仿真数据公司",
+          "url": "https://vc.pedaily.cn/company/887132.html",
+          "opened": true,
+          "evidence": "投资界正文第27-34行说明虚时科技=Intime AI、3D资产/空间生成，153-177行列公司全称与软件AI经营范围。"
+        },
+        {
+          "name": "北京虚时科技有限公司",
+          "type": "上市公司半年报披露线索",
+          "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-08-27/daad18da-fc32-405c-ae92-e54f2e6e63cd.PDF",
+          "opened": true,
+          "evidence": "PDF已打开，但全文find未检出精确公司名，因此不把检索摘要声称的投资披露用作独立已验证事实。"
+        }
+      ],
+      "source_urls": [
+        "https://www.hawking.org.uk/in-words/lectures/the-beginning-of-time"
+      ]
+    }
+  ],
+  "current_shortlisted_pairs": 0
+}

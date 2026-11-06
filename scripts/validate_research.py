@@ -14,6 +14,14 @@ def validate(run):
     for c in candidates:
         assert c['name'] and c['meaning'] and c['source_urls'], c['id']
         assert set(c['material_ids']) <= materials, c['id']
+    if 'final' not in data:
+        assert data['run']['stage'] == 'chinese_review', 'incomplete run needs explicit stage'
+        assert data['run']['current_shortlisted_pairs'] == 0
+        assert data['candidates']['candidate_count'] == len(candidates)
+        assert len({c['family_id'] for c in candidates}) == data['candidates']['family_count']
+        assert all(c['new_recommendation'] is False for c in candidates)
+        print(f'{run.name}: Chinese research drafts only; counts/references valid, not final recommendations')
+        return
     counts = data['final']['counts']
     assert counts['cases'] == len(data['cases']['cases'])
     assert counts['materials'] == len(materials)

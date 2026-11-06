@@ -1,6 +1,6 @@
 {
   "run_id": "pilot-2026-11-06",
-  "status": "pipeline_complete_quality_target_not_validated",
+  "status": "reviewed_rejected_brand_fit",
   "mode": "single_pilot_no_schedule_created",
   "objective": "中文为主的持续学习AI Lab品牌命名",
   "pipeline": [
@@ -49,7 +49,8 @@
     "chinese_screened_forms": 12,
     "priority_english_chinese": 4,
     "complete_discussion_pairs": 2,
-    "ready_to_adopt_recommendations": 0
+    "ready_to_adopt_recommendations": 0,
+    "current_shortlisted_pairs": 0
   },
   "completed_date": "2026-11-06",
   "schedule_created": false

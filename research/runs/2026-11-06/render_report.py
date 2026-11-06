@@ -25,17 +25,18 @@ editorial = read('editorial.json', {})
 final = read('final.json', {})
 notes = {r['id']: r for r in editorial.get('rows', [])}
 screens = {r['id']: r for r in screening.get('candidates', [])}
+decisions = {r['id']: r for r in read('decisions.json', {}).get('decisions', [])}
 body = '<p class="eyebrow">NAMING LAB · 2026.11.06 · 最小循环</p><h1>名字如何从研究走到候选</h1>'
 body += '<p class="lead">中文为主。每个创意家族只计一次，历史名字不计新增。此次只试跑，不创建每日自动化。</p>'
 body += '<p>' + esc(final.get('summary', '研究结果整理中')) + '</p>'
-body += '<h2>本轮留下的名字</h2>'
+body += '<h2>首轮讨论样本与审阅结果</h2>'
 for r in final.get('pairs', []):
     body += '<article><h3>' + esc(r['chinese']) + ' <span>/ ' + esc(r['english']) + '</span></h3>'
-    for label, key in [('读音', 'pronunciation'), ('来源与创作', 'origin'), ('组合关系', 'relation'), ('品牌寓意', 'meaning'), ('取舍', 'weakness'), ('初筛结果', 'screening')]:
+    for label, key in [('读音', 'pronunciation'), ('来源与创作', 'origin'), ('组合关系', 'relation'), ('品牌寓意', 'meaning'), ('取舍', 'weakness'), ('初筛结果', 'screening'), ('用户审阅', 'user_rejection_reason')]:
         body += '<p><b>' + label + '</b>　' + esc(r.get(key, '')) + '</p>'
     body += '<p>' + links(r.get('source_urls', [])) + '</p></article>'
 for r in final.get('reserves', []):
-    body += '<p><b>中文储备：' + esc(r['name']) + '</b>　' + esc(r['reason']) + '</p>'
+    body += '<p><b>其他中文提案：' + esc(r['name']) + '</b>　' + esc(r['reason']) + '</p>'
 body += '<h2>案例研究：12 个样本</h2><p>品牌成功不是名字单独造成的。以下区分可核实事实与命名解读。</p>'
 body += table(['品牌', '可核实事实', '命名分析', '来源'], [[esc(c['name']), esc(c['verified_or_bounded_fact']), esc(c['naming_analysis_not_founder_attribution']), links(c['sources'])] for c in cases.get('cases', [])])
 body += '<h2>提炼出的原则</h2><ol>' + ''.join('<li>' + esc(s) + '</li>' for s in cases.get('principles', [])) + '</ol>'
@@ -46,8 +47,10 @@ body += '<h2>全部草案与去留</h2><p>24 个字面草案保守归并为 12 �
 rows = []
 for c in candidates.get('candidates', []):
     n, s = notes.get(c['id'], {}), screens.get(c['id'], {})
-    rows.append([esc(c['id'] + ' · ' + c['name']), esc(n.get('family_id', '')), esc(c['meaning']), esc(n.get('reason', '')), esc(s.get('finding', '未进入占用检索')), links(s.get('evidence_urls', []))])
-body += table(['草案', '家族', '释义', '编辑判断', '公开使用筛查', '证据'], rows)
+    decision = decisions.get(c['id'], {})
+    rows.append([esc(c['id'] + ' · ' + c['name']), esc(n.get('family_id', '')), esc(c['meaning']), esc(decision.get('decision', '')) + '<br>' + esc(decision.get('reason', n.get('reason', ''))), esc(decision.get('usage_finding', s.get('finding', '未进入占用检索'))), links(decision.get('evidence_urls', s.get('evidence_urls', [])))])
+body += table(['草案', '家族', '释义', '最终去留原因', '公开使用筛查', '证据'], rows)
+body += '<p><a href="rejections.md">逐名淘汰原因（Markdown）</a>。占用对象与准确证据边界见 rejection-evidence.json。</p>'
 body += '<h2>审查范围</h2><p>通过仅表示本轮未检出明确同名科技／AI品牌，不表示全球工商或商标可注册。国内官方工商与商标入口本轮返回403；英国登记入口可访问，逐名查询结果以英文筛查文件为准。近似名与完全同名分别记录。</p>'
 body += '<p>已用 Confluence 与 Foldra 做阳性对照，确认现有 AI 与软件产品会被流程否决。</p>'
 body += '<h2>完整研究记录</h2><p>' + ' · '.join(f'<a href="{p.name}">{esc(p.name)}</a>' for p in sorted(ROOT.glob('*.json'))) + '</p>'

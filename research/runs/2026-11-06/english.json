@@ -17,7 +17,7 @@
       ],
       "agent4_precheck": "精确及科技AI相关检索未见明确同名品牌。",
       "agent3_status": "preliminary_clear",
-      "editorial_status": "可讨论，不宣称已是高质量定名"
+      "editorial_status": "用户否决，退出备选；公开使用初筛状态仅为历史筛查记录"
     },
     {
       "candidate_id": "C17",
@@ -33,7 +33,7 @@
       ],
       "agent4_precheck": "精确检索命中个人用户名与borrowing的OCR，不是科技品牌证据。",
       "agent3_status": "public_search_preliminary_clear_with_existing_personal_handles",
-      "editorial_status": "可讨论，英文辨识有取舍",
+      "editorial_status": "用户否决，退出备选；公开使用初筛状态仅为历史筛查记录",
       "agent3_note": "精确、Borrow Wind分词及AI/company/software/model/trademark检索未见明确科技品牌；已有个人用户名。未完成官方登记查询。",
       "existing_personal_handle_url": "https://hypixel.net/members/borrowind.7258706/"
     }
@@ -110,5 +110,6 @@
     "pronunciation": "INK-forth",
     "precheck": "Agent3精确及科技AI检索未见品牌；德国报纸OCR片段非品牌",
     "reason": "主控将中文因近似游戏名称与写作工具局限转储备，不计完整交付"
-  }
+  },
+  "user_review": "两组讨论配对均已被用户否决，不再列入备选。"
 }
