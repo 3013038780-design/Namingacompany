@@ -1,10 +1,10 @@
 # 本仓库的 Agent 执行规则
 
-进行命名研究前，必须完整读取 README.md 中的强制流程1.0、research/preferences.json、research/seed/README.md和初始材料，并扫描全部research/runs下候选及历史记录。
+进行命名研究前，必须完整读取 README.md 中的强制流程（当前1.1）、research/preferences.json、research/seed/README.md和初始材料，并扫描全部research/runs下候选及历史记录。
 
 四个命名角色必须分别由四个不同Agent实际执行；主控不得合并、冒充或跳过角色。依README执行交接、品牌质量门槛、证据核验与返工。资源限制时顺序启动，不以限制为由合并角色。
 
-每个新轮次必须记录protocol_version和真实Agent执行回执；不能补造回执、分数或阅读记录。缺阶段只能标未完成；所有阶段实际执行但无幸存名才可标完整执行但零通过。
+每个新轮次必须记录protocol_version和真实Agent执行回执；不能补造回执、分数或阅读记录。Agent 2必须先提交基于具体A1案例的搜索计划，经主控验收后依用户授权推进；不得直接起名或事后补原则标签。缺阶段只能标未完成；所有阶段实际执行但无幸存名才可标完整执行但零通过。
 
 提交前执行README中的校验。校验失败应修复资料或如实记录未完成，不能关闭校验、删门槛或改版本来放行。README为规范唯一权威；docs/workflow.md为操作说明，不得与README冲突。
 

@@ -1,4 +1,4 @@
-"""Check protocol 1.0 records; this cannot verify real execution or editorial truth."""
+"""Check protocol records; this cannot verify real execution or editorial truth."""
 import hashlib
 import json
 from collections import Counter
@@ -55,19 +55,59 @@ def screen_record(record, language, must_pass=True):
         require(record.get('status') == 'pass_public_precheck', 'final candidate has not passed independent screening')
 
 
+def validate_search_plan(run, require_accepted=False):
+    """Validate traceable fields; editorial merit still requires human/agent review."""
+    plan = json.loads((run / 'search-plan.json').read_text())
+    require(plan.get('no_new_names') is True, 'search plan must not contain new candidate names')
+    fields(plan, ['directions', 'unknown_name_policy', 'pilot_plan'], 'search plan')
+    directions = plan['directions']
+    require(len({d.get('id') for d in directions}) == len(directions), 'duplicate plan direction id')
+    expected = set(CONTRACT['planning']['macro_directions'])
+    require(expected <= {d.get('macro_id') for d in directions}, 'search plan missing macro direction')
+    baseline = run / 'inputs/A1/cases.json'
+    if not baseline.exists():
+        baseline = run / 'cases.json'
+    cases = {c['id']: c for c in json.loads(baseline.read_text())['cases']}
+    for d in directions:
+        fields(d, ['id', 'macro_id', 'case_refs', 'transfer_mechanism', 'questions',
+                   'queries', 'planned_sources', 'selection_criteria', 'rejection_criteria',
+                   'history_risks', 'next_deliverable'], 'plan direction')
+        require(d['macro_id'] in expected, 'invalid plan macro direction')
+        require(len({x.get('case_id') for x in d['case_refs']}) >= 2, 'plan needs concrete cases')
+        for c in d['case_refs']:
+            fields(c, ['case_id', 'name', 'analysis_location', 'case_finding', 'evidence_boundary'], 'plan case')
+            require(c['case_id'] in cases, 'unknown A1 case in search plan')
+            require(c['name'] == cases[c['case_id']]['name'], 'plan A1 case name mismatch')
+        require(all(d[k] for k in ['planned_sources', 'selection_criteria', 'rejection_criteria', 'history_risks', 'next_deliverable']), 'empty plan task fields')
+        require(len(d['questions']) >= 2, 'plan needs concrete reading questions')
+        require(d['queries'].get('zh') and d['queries'].get('en'), 'plan needs Chinese and English queries')
+    if require_accepted:
+        review = json.loads((run / 'plan-review.json').read_text())
+        require(review.get('status') == 'accepted', 'search plan not accepted')
+        reviewed = {x.get('direction_id') for x in review.get('direction_reviews', []) if x.get('status') == 'accepted'}
+        require(reviewed == {d['id'] for d in directions}, 'plan direction review incomplete')
+        reference(run, review['plan_ref'])
+    return {d['id'] for d in directions}
+
+
 def validate(run):
     run = Path(run)
     meta = json.loads((run / 'run.json').read_text())
-    require(meta.get('protocol_version') == CONTRACT['version'], 'new run must declare protocol_version 1.0')
+    require(meta.get('protocol_version') in CONTRACT.get('supported_versions', [CONTRACT['version']]), 'new run must declare protocol_version from supported versions')
+    require(meta['protocol_version'] == CONTRACT['version'] or run.name in CONTRACT.get('prior_protocol_runs', {}).get(meta['protocol_version'], []), 'new run cannot downgrade protocol version')
     require(meta.get('run_id') == run.name, 'run_id must match directory')
     fields(meta, ['date', 'coordinator_id', 'status'], 'run')
     require(meta['status'] in {'in_progress', 'incomplete', 'complete_with_candidates', 'complete_without_candidates'}, 'invalid run status')
     if meta['status'] in {'in_progress', 'incomplete'}:
         final = json.loads((run / 'final.json').read_text()) if (run / 'final.json').exists() else {}
         require(not final.get('candidates'), 'incomplete run cannot advertise final candidates')
+        if meta['protocol_version'] == '1.1' and (run / 'search-plan.json').exists():
+            validate_search_plan(run)
         return 'INCOMPLETE: no workflow compliance claimed'
 
     for filename in CONTRACT['required_files']:
+        if meta['protocol_version'] == '1.0' and filename in {'search-plan.json', 'search-plan.md', 'plan-review.json'}:
+            continue
         require((run / filename).is_file(), f'missing {filename}')
     data = {p.stem: json.loads(p.read_text()) for p in run.glob('*.json')}
     roles = meta.get('roles', {})
@@ -100,6 +140,7 @@ def validate(run):
         fields(p, ['id', 'positive_example', 'counterexample', 'boundary'], 'principle')
     require(len(data['cases']['counterexamples']) >= CONTRACT['counterexample_minimum'], 'missing negative examples')
 
+    plan_ids = validate_search_plan(run, require_accepted=True) if meta['protocol_version'] == '1.1' else None
     materials = data['materials']['materials']
     material_ids = {m['id'] for m in materials}
     require(len(material_ids) == len(materials), 'duplicate material id')
@@ -110,6 +151,10 @@ def validate(run):
     require(sum(bool(m.get('is_classical')) for m in materials) / len(materials) <= CONTRACT['classical_max_share'], 'classical source quota exceeded')
     read_body = []
     for m in materials:
+        if plan_ids is not None:
+            fields(m, CONTRACT['planning']['material_lineage_fields'], 'material lineage')
+            require(m['plan_direction_id'] in plan_ids, 'material plan direction missing')
+            require(m['case_ids'] and set(m['case_ids']) <= {c['id'] for c in cases}, 'material case lineage broken')
         fields(m, ['id', 'family_id', 'category', 'reading_scope', 'reading_location', 'source_urls', 'fact'], 'material')
         if m['reading_scope'] in {'full_text', 'chapter', 'excerpt'}:
             read_body.append(m)
@@ -124,6 +169,8 @@ def validate(run):
     require(len({c['family_id'] for c in candidates}) >= CONTRACT['candidate_family_target'], 'independent candidate family target not met')
     principle_ids = {p['id'] for p in principles}
     for c in candidates:
+        if plan_ids is not None:
+            fields(c, CONTRACT['planning']['candidate_lineage_fields'], 'candidate lineage')
         fields(c, ['id', 'name', 'family_id', 'material_ids', 'principle_ids', 'meaning', 'combination_reason', 'weakness', 'history_check'], 'candidate')
         require(set(c['material_ids']) <= material_ids and c['material_ids'], 'candidate material lineage broken')
         require(set(c['principle_ids']) <= principle_ids and c['principle_ids'], 'candidate principle lineage broken')

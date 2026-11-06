@@ -1,0 +1,76 @@
+{
+  "handoffs": [
+    {
+      "id": "H1",
+      "from": "A1",
+      "to": "A2",
+      "status": "accepted",
+      "timestamp": "2026-11-06T17:26:09+08:00",
+      "reason": "Prior actual105-case research received by A2; case→mechanism→questions→sources trace reviewed after real v1 return and A2 revision. This accepts the planning gate only, not permission for downstream work.",
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "inputs/A1/README.md",
+          "sha256": "72ec38fefa7cec1ad528378a38cb1cd5b156ebe23ed74b1bd7f9a86943a0edd9"
+        },
+        {
+          "path": "inputs/A1/cases.json",
+          "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746"
+        },
+        {
+          "path": "inputs/A1/taxonomy.json",
+          "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+        },
+        {
+          "path": "inputs/execution/README.md",
+          "sha256": "a9507f21acac5685a852fb5be19d0f52b3edc8f847db834f7c56a100ef5b1433"
+        },
+        {
+          "path": "inputs/execution/AGENTS.md",
+          "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+        },
+        {
+          "path": "inputs/execution/preferences.json",
+          "sha256": "9a79a98d21fb32c00e94773574f3bfb43e2659a35c8ffa08639d3c313b02aa6e"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "inputs/A1/cases.json",
+          "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "8ad37583ad25a637de0701b3c90ee1682ceb91b63eafd0139d2993c0b888813a"
+        },
+        {
+          "path": "search-plan.md",
+          "sha256": "c155b479f3e76cb4d542e4db64f16b8d5075e99fb112f3d1e88e01b62b251230"
+        },
+        {
+          "path": "plan-review.json",
+          "sha256": "ed0f153effc420f04436147ee68995ab07f5100977f8d281df3f5b654bc48ea3"
+        },
+        {
+          "path": "reading-access-log.json",
+          "sha256": "78271c4e1bc3b63b1fd14597fb169aa133db2806858027fc7a35d6ae6f1bfcb5"
+        },
+        {
+          "path": "rework.json",
+          "sha256": "c2c691fbab59983b781f30ec4c915f99f7966617ac746306aa3d1d7bb2616da1"
+        }
+      ],
+      "producer_execution_ref": "A1 prior real105-case run, not rerun; A2 actual current search-plan and revision messages",
+      "acceptance_execution_ref": "Actual /root independent plan review, reviews/v1.json return, final plan-review.json"
+    }
+  ],
+  "not_started": [
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7"
+  ],
+  "note": "No zero-input completion receipts fabricated for unstarted stages."
+}

@@ -1,0 +1,1490 @@
+{
+  "protocol_version": "1.1",
+  "author_agent": "/root/agent2_materials_cn",
+  "submitted_at": "2026-11-06T17:18:13+08:00",
+  "status": "search_plan_only_for_review",
+  "no_new_names": true,
+  "scope": "既有案例名、书目和真实学科对象均非新候选；不执行材料批量阅读/命名/注册查询/英文匹配/网站编辑。",
+  "input_receipt": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80",
+      "read_scope": "完整上游文件已在本Agent上一阶段读取并保留；本阶段重新读取规范/偏好、105全名索引与分类原则，并逐案重读所用30案证据字段；seed完整案例释义重新逐项复核。"
+    },
+    {
+      "path": "README.md",
+      "sha256": "a9507f21acac5685a852fb5be19d0f52b3edc8f847db834f7c56a100ef5b1433",
+      "read_scope": "完整上游文件已在本Agent上一阶段读取并保留；本阶段重新读取规范/偏好、105全名索引与分类原则，并逐案重读所用30案证据字段；seed完整案例释义重新逐项复核。"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "9a79a98d21fb32c00e94773574f3bfb43e2659a35c8ffa08639d3c313b02aa6e",
+      "read_scope": "完整上游文件已在本Agent上一阶段读取并保留；本阶段重新读取规范/偏好、105全名索引与分类原则，并逐案重读所用30案证据字段；seed完整案例释义重新逐项复核。"
+    },
+    {
+      "path": "research/seed/README.md",
+      "sha256": "44cb357ed9db7edb5dc6c9a32ef1729e482ab3a9ef1f9dc6598dfbb3fc0d33b3",
+      "read_scope": "完整上游文件已在本Agent上一阶段读取并保留；本阶段重新读取规范/偏好、105全名索引与分类原则，并逐案重读所用30案证据字段；seed完整案例释义重新逐项复核。"
+    },
+    {
+      "path": "research/seed/brand-naming-foundation.md",
+      "sha256": "92cb6c7cd36c201d35900528826a8aa9aca5a75c632df57d30dcaade5547f519",
+      "read_scope": "完整上游文件已在本Agent上一阶段读取并保留；本阶段重新读取规范/偏好、105全名索引与分类原则，并逐案重读所用30案证据字段；seed完整案例释义重新逐项复核。"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/README.md",
+      "sha256": "72ec38fefa7cec1ad528378a38cb1cd5b156ebe23ed74b1bd7f9a86943a0edd9",
+      "read_scope": "完整上游文件已在本Agent上一阶段读取并保留；本阶段重新读取规范/偏好、105全名索引与分类原则，并逐案重读所用30案证据字段；seed完整案例释义重新逐项复核。"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746",
+      "read_scope": "完整上游文件已在本Agent上一阶段读取并保留；本阶段重新读取规范/偏好、105全名索引与分类原则，并逐案重读所用30案证据字段；seed完整案例释义重新逐项复核。"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67",
+      "read_scope": "完整上游文件已在本Agent上一阶段读取并保留；本阶段重新读取规范/偏好、105全名索引与分类原则，并逐案重读所用30案证据字段；seed完整案例释义重新逐项复核。"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent2-materials-cn/materials.json",
+      "sha256": "29351c196c1e9eccb306d5a0c2160b934ea7de2e1887d3072175693b4eb8b6e3",
+      "read_scope": "完整上游文件已在本Agent上一阶段读取并保留；本阶段重新读取规范/偏好、105全名索引与分类原则，并逐案重读所用30案证据字段；seed完整案例释义重新逐项复核。"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "sha256": "ae6454d3c330698afa7d7844353f8709f59fb619500ae14cca10885864213ceb",
+      "read_scope": "完整上游文件已在本Agent上一阶段读取并保留；本阶段重新读取规范/偏好、105全名索引与分类原则，并逐案重读所用30案证据字段；seed完整案例释义重新逐项复核。"
+    }
+  ],
+  "axes": {
+    "source": "S1–S6六宏观来源，S2/S3细分任务仍在原宏观方向内；S7单列未知。",
+    "role": "R1–R6是拟比较角色，不由来源自动推出。",
+    "construction": "熟词、组合、变形、缩写、音译、双语分工都是实现轴，不增为第七来源，不在本轮执行。"
+  },
+  "directions": [
+    {
+      "id": "D1",
+      "macro_id": "S1",
+      "name": "日常物件、身体动作与可使用的界面",
+      "case_refs": [
+        {
+          "case_id": "B025",
+          "name": "Anysphere / Cursor",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B025；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第56行原案例；宏观分析见A1 README一.1及相关P原则",
+          "case_finding": "光标是人开始编辑的位置，Anysphere母机构提供更宽空间。可借手边小物建立使用关系，而不是复制光标。",
+          "evidence_boundary": "文档确认工具及编辑行为；光标→创造位置是编辑分析，不是创始命名动机。Anysphere与Cursor不是双语翻译。",
+          "upstream_sources": [
+            {
+              "url": "https://cursor.com/en-US/terms-of-service",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 56
+            },
+            {
+              "url": "https://docs.cursor.com/en/inline-edit/overview",
+              "access": "prior_review",
+              "reader": "prior_A1",
+              "supports": "官方文档确认AI编程工具与编辑行为；旧文档说明可在光标位置生成代码。",
+              "review_file": "research/runs/2026-11-06/cases.json",
+              "reopened_this_pass": false
+            },
+            {
+              "url": "https://docs.cursor.com/ai-features/rules",
+              "access": "prior_review",
+              "reader": "prior_A1",
+              "supports": "官方文档确认AI编程工具与编辑行为；旧文档说明可在光标位置生成代码。",
+              "review_file": "research/runs/2026-11-06/cases.json",
+              "reopened_this_pass": false
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        },
+        {
+          "case_id": "B013",
+          "name": "Apple / 苹果",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B013；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第35行原案例；宏观分析见A1 README一.1及相关P原则",
+          "case_finding": "Apple先借水果亲近感，让计算进入日常；对象无需解释算法。",
+          "evidence_boundary": "上游主控已读沃兹访谈295–305；水果好感可支持，牛顿/图灵故事不能当已确认动机。",
+          "upstream_sources": [
+            {
+              "url": "https://techbbq.dk/tech-arena-2024-a-conversation-with-steve-wozniak/",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 35
+            },
+            {
+              "url": "https://techbbq.dk/tech-arena-2024-a-conversation-with-steve-wozniak/",
+              "access": "body",
+              "reader": "coordinator",
+              "reading_scope": "原始访谈295–305",
+              "supports": "访谈包含Apple Records相关回忆及水果好感；不把牛顿/图灵故事硬当创始解释。",
+              "checked_at": "2026-11-06",
+              "review_file": "source_review.json"
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        },
+        {
+          "case_id": "B015",
+          "name": "Sony / 索尼",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B015；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第37行原案例；宏观分析见A1 README一.1及相关P原则",
+          "case_finding": "Sony把声音体验和年轻创造群体融合成可称呼的专名。",
+          "evidence_boundary": "官方history17–18有sonus/sonny解释；这是感官与人格，不因拉丁语就归古典哲学。",
+          "upstream_sources": [
+            {
+              "url": "https://www.sony.com.hk/aboutsony/html/en/history.jsp",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 37
+            },
+            {
+              "url": "https://www.sony.com.hk/aboutsony/html/en/history.jsp",
+              "access": "body",
+              "reader": "A1",
+              "reading_scope": "history17–18",
+              "supports": "官方sonus/sonny解释",
+              "checked_at": "2026-11-06"
+            },
+            {
+              "url": "https://www.sony.com.hk/aboutsony/html/en/history.jsp",
+              "access": "body",
+              "reader": "coordinator",
+              "reading_scope": "历史17–18",
+              "supports": "sonus与sonny两来源、年轻团队创造均有官方解释；语种不是来源大类。",
+              "checked_at": "2026-11-06",
+              "review_file": "source_review.json"
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        }
+      ],
+      "transfer_mechanism": {
+        "learn": "先寻找人反复接触、能握持/定位/启用/协作的完整对象或动作，再判断其能建立怎样的人与技术关系。其价值可以是可用与亲近，而不是伪造科学双关。",
+        "do_not_copy": "不复制按键/光标清单；不将任何日常物件都解释为底层AI；不把母产品层级误当一种名字。",
+        "failure_boundary": "只像外设、电商、家居或一次效率功能时，即使熟悉也可能不适于长期Lab。",
+        "possible_roles": [
+          "R1",
+          "R3"
+        ],
+        "construction_axis": "先不定字数或熟词/造词；日常来源不等于必须直接搬物件名。"
+      },
+      "questions": [
+        "人手边哪些对象把意图转成可见行动，并给出操作是否发生的反馈？分别保留什么特征，才能避免只剩通用的开始/帮助？",
+        "中国日常工程与现代工作场景中，哪些小设施让多个动作接续或让别人接管，而其物件本身已有完整称呼？它与算法是否无须硬类比也能建立可使用的机构角色？",
+        "从生活物件迁入技术品牌时，哪些对象容易永久锁死产品类别，哪些能让研究与产品分层？"
+      ],
+      "queries": {
+        "zh": [
+          "人机交互 可供性 意符 映射 控制器 反馈 设计 日常物品",
+          "中国科学技术馆 操作 控制 交接 工具 工作台 工程史"
+        ],
+        "en": [
+          "everyday things affordances signifiers mapping feedback controls",
+          "human computer interaction tangible interfaces handoff tools design history"
+        ]
+      },
+      "planned_sources": [
+        {
+          "id": "D1B",
+          "title": "Don Norman, The Design of Everyday Things",
+          "url": "https://jnd.org/books/",
+          "source_kind": "book_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "拟查日常设计中可供性、意符、反馈的章节主题；版次、目录、授权节选正文位置均待核，不预填章号。",
+          "why_selected": "把物件的实际使用关系与品牌研究连接，避免先列熟词再讲故事。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        },
+        {
+          "id": "D1I",
+          "title": "ACM Interactions及交互研究原论文入口",
+          "url": "https://interactions.acm.org/",
+          "source_kind": "research_news_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "寻找2026-08-08至2026-11-06的可触界面/交接/协作工具研究正文；日期与正文访问待查。",
+          "why_selected": "从真实新使用场景发现物件，不只搜已有科技品牌词。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        },
+        {
+          "id": "D1C",
+          "title": "中国科学技术馆",
+          "url": "https://www.cstm.org.cn/",
+          "source_kind": "institution_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "拟查控制与操作装置的展项说明及科学史材料；不将展项标题当机制正文。",
+          "why_selected": "补中国物质生活和工程使用经验，而不是只借海外软件界面。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        }
+      ],
+      "selection_criteria": [
+        "对象/动作在阅读资料里有清楚用途和可感形态；不依靠两字各有好寓意。",
+        "可说明首先建立何种使用关系；允许不是当前模型机制。"
+      ],
+      "rejection_criteria": [
+        "只得到通用按键词、全部只像工具插件，或需要把物件解释成所有AI能力。",
+        "科学关系不存在却强做双关；物件离开长解释就只剩家居气质。"
+      ],
+      "history_risks": [
+        "上轮空格键、凸点、等高线已研究，不换同类物件重新算同一机制。",
+        "旧计算尺与滑尺几何机制已用；不改叫别的尺具。"
+      ],
+      "next_deliverable": "拟交1张对象—动作—人与技术关系卡，附具体使用步骤、形态和母品牌/产品类别锁定风险；本轮不执行。"
+    },
+    {
+      "id": "D2A",
+      "macro_id": "S2",
+      "name": "自然力量、地域与尺度世界",
+      "case_refs": [
+        {
+          "case_id": "B039",
+          "name": "Mistral AI",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B039；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第70行原案例；宏观分析见A1 README一.2及相关P原则",
+          "case_finding": "Mistral首先是地域强风专名，带来地方身份与动势；不是成长的同义词。",
+          "evidence_boundary": "现有上游主要确认词义与品牌存在，未获得创始人命名动机；欧洲新风叙事为编辑解读。",
+          "upstream_sources": [
+            {
+              "url": "https://legal.mistral.ai/terms/commercial-terms-of-service/",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 70
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        },
+        {
+          "case_id": "B009",
+          "name": "大疆 / DJI",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B009；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第31行原案例；宏观分析见A1 README一.2及相关P原则",
+          "case_finding": "大疆展开可开拓空间，DJI承接机构缩写；公司身份比飞行器规格更宽。",
+          "evidence_boundary": "上游官方解释为Innovation Without Borders；不写大江或某条江的词源。",
+          "upstream_sources": [
+            {
+              "url": "https://www.dji.com/pt/newsroom/news/dji-opens-new-headquarters-for-creative-community-in-the-sky",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 31
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        },
+        {
+          "case_id": "B001",
+          "name": "寒武纪 / Cambricon",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B001；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第23行原案例；宏观分析见A1 README一.2及相关P原则",
+          "case_finding": "寒武纪把有具体内容的生命时代借给技术时代，跨的是时间尺度，不是把生长写漂亮。",
+          "evidence_boundary": "主控原采访83有AI大爆发愿望支持；自然史不能保证AI必然同样爆发。",
+          "upstream_sources": [
+            {
+              "url": "https://ict.cas.cn/xwgg/mtwz/201811/t20181103_5163704.html",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 23
+            },
+            {
+              "url": "https://ict.cas.cn/xwgg/mtwz/201811/t20181103_5163704.html",
+              "access": "body",
+              "reader": "coordinator",
+              "reading_scope": "采访83",
+              "supports": "创始人明确希望AI迎来大爆发；支持生命/地质来源与时代叙事。",
+              "checked_at": "2026-11-06",
+              "review_file": "source_review.json"
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        }
+      ],
+      "transfer_mechanism": {
+        "learn": "寻找本来带着力度、来处、空间或历史阶段的真实自然对象，分别判断借来的是力量还是尺度。",
+        "do_not_copy": "不把所有风、星、地理统一讲成持续成长；不复刻寒武纪某某纪格式。",
+        "failure_boundary": "无具体特征的宏大宇宙词会空泛；轻柔植物/水景不能仅靠附会成为科技身份。",
+        "possible_roles": [
+          "R6",
+          "R2",
+          "R3"
+        ],
+        "construction_axis": "自然专名、空间表达和变形是不同实现方式，尚不选择。"
+      },
+      "questions": [
+        "中国山地、海陆与大气相互作用产生的哪些现象，有明确的驱动力、边界形态或周期条件，能借来力量而非温柔风景？",
+        "哪些真实地理/宇宙尺度对象在普通人眼中有完整空间感，内部又有可读的层次或边界，而不只是大、远、无限？",
+        "哪些自然史阶段的关键是活动范围或组织多样性改变，而非单纯数量增长？需要哪些证据才能避免神化历史？"
+      ],
+      "queries": {
+        "zh": [
+          "中国 地形 风场 狭管效应 大气环流 地理 形成机制",
+          "自然史 环境改变 生态位 多样性 地质记录 博物馆"
+        ],
+        "en": [
+          "regional winds topographic forcing boundary phenomena mechanisms",
+          "natural history transitions ecological diversity spatial expansion evidence"
+        ]
+      },
+      "planned_sources": [
+        {
+          "id": "D2AB",
+          "title": "Carl Sagan, Cosmos",
+          "url": "https://www.penguinrandomhouse.com/search/?q=Carl%20Sagan%20Cosmos",
+          "source_kind": "book_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "拟查从近身经验进入宇宙空间尺度的章节主题；目录和出版社授权节选位置待核，不使用盗版整书。",
+          "why_selected": "检验空间尺度怎样成为完整世界，而不是天文术语清单。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        },
+        {
+          "id": "D2AC",
+          "title": "中国科学院地理科学与资源研究所",
+          "url": "https://www.igsnrr.ac.cn/",
+          "source_kind": "institution_news_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "拟查近90天地形、大气和区域演变研究正文；原论文/研究者解释优先。",
+          "why_selected": "从中国实际地理条件出发，获得可追溯机制与地方感。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        },
+        {
+          "id": "D2AI",
+          "title": "NOAA及NASA自然现象说明入口",
+          "url": "https://www.noaa.gov/",
+          "source_kind": "institution_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "拟找风场驱动与边界条件说明；具体正文链接下一阶段检索定位。",
+          "why_selected": "给自然力度以条件与限制，避免只借漂亮名字。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        }
+      ],
+      "selection_criteria": [
+        "对象有自己的形态、环境条件、力量或时间尺度；能用一句事实说出不同在哪里。",
+        "来处、力量与品牌角色可区分，不强求每对象同时承担全部。"
+      ],
+      "rejection_criteria": [
+        "最终只保留宏大/温柔/生命力等人人可用形容词。",
+        "资料只能支持漂亮景观，无法支持所借力量或时代关系。"
+      ],
+      "history_risks": [
+        "旧上升流、曲流、吸积盘、恒星外流、迁徙中转已研究；任何重访标沿用。",
+        "旧木水家族与长风意象不换字回补。"
+      ],
+      "next_deliverable": "拟交1张以力量/尺度为核心的自然卡，必须带一个容易被品牌误用的条件或限制。"
+    },
+    {
+      "id": "D2B",
+      "macro_id": "S2",
+      "name": "生命中的组织与适应，而非育苗叙事",
+      "case_refs": [
+        {
+          "case_id": "B076",
+          "name": "Sakana AI",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B076；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第141行原案例；宏观分析见A1 README一.2及相关P原则",
+          "case_finding": "Sakana的简单鱼名与鱼群局部规则共享真实组织行为；表层称呼与深层关系都能记住。",
+          "evidence_boundary": "官方seed-round5明确鱼/鱼群/逆向红鱼；不能从群体现象推出公司性能。",
+          "upstream_sources": [
+            {
+              "url": "https://sakana.ai/series-a/",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 141
+            },
+            {
+              "url": "https://sakana.ai/dgm/",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 141
+            },
+            {
+              "url": "https://sakana.ai/seed-round/",
+              "access": "prior_review",
+              "reader": "prior_A1",
+              "supports": "Sakana在日语中意为鱼；公司明确鱼群由简单规则形成整体，连接演化与集体智能研究；逆向红鱼代表探索自己的方向。",
+              "review_file": "research/runs/2026-11-06/cases.json",
+              "reopened_this_pass": false
+            },
+            {
+              "url": "https://sakana.ai/company-info/",
+              "access": "prior_review",
+              "reader": "prior_A1",
+              "supports": "Sakana在日语中意为鱼；公司明确鱼群由简单规则形成整体，连接演化与集体智能研究；逆向红鱼代表探索自己的方向。",
+              "review_file": "research/runs/2026-11-06/cases.json",
+              "reopened_this_pass": false
+            },
+            {
+              "url": "https://sakana.ai/seed-round/",
+              "access": "body",
+              "reader": "coordinator",
+              "reading_scope": "官方起名说明5",
+              "supports": "日语鱼、鱼群简单规则形成整体和逆向红鱼的解释均明确。",
+              "checked_at": "2026-11-06",
+              "review_file": "source_review.json"
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        },
+        {
+          "case_id": "B095",
+          "name": "日行迹 / Analemma",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B095；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第165行原案例；宏观分析见A1 README一.2及相关P原则",
+          "case_finding": "日行迹是同地点同时间观测太阳一年形成的实际形状；名字保留完整现象而非泛化积累。",
+          "evidence_boundary": "团队身份/命名原采访与NASA解释有上游正文核验；经验形成能力是品牌解读。",
+          "upstream_sources": [
+            {
+              "url": "https://analemma.ai/",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 165
+            },
+            {
+              "url": "https://www.36kr.com/p/3680086801936003",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 165
+            },
+            {
+              "url": "https://www.sii.edu.cn/2026/0304/c27a761/page.htm",
+              "access": "body",
+              "reader": "coordinator",
+              "reading_scope": "77–80；另读36氪106–110与NASA APOD2002-07-09说明",
+              "supports": "上海创智学院确认日行迹/Analemma身份，原采访报道明确天文命名；NASA解释同地点同钟表时刻的太阳年度轨迹。时间积累→认识形成是品牌分析，不冒称团队自述动机。",
+              "checked_at": "2026-11-06",
+              "review_file": "source_review.json"
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        }
+      ],
+      "transfer_mechanism": {
+        "learn": "找无需中心指挥却形成可辨别整体的行为，或多次观测显现独特结构的生命/自然关系；保留机制及形态。",
+        "do_not_copy": "不再搜蜂舞、鱼群近义物种、记忆痕迹或可塑性换词；不是所有群居都值得作为同一组织机制。",
+        "failure_boundary": "如果删去物种后与任意成长故事没有差别，就不是独立材料家族。",
+        "possible_roles": [
+          "R5",
+          "R3"
+        ],
+        "construction_axis": "先研究完整现象，不预设动物名直接成为公司名。"
+      },
+      "questions": [
+        "除同步群游与蜂舞编码外，生命群体怎样分配任务、修复错误或改变合作方式？哪些观察能区分真实组织机制与拟人故事？",
+        "哪些行为中个体差异反而使整体更稳健，而不是个体越同质越好？其失败或失灵情形是什么？"
+      ],
+      "queries": {
+        "zh": [
+          "群体行为 任务分配 个体异质性 纠错 动物 行为实验",
+          "中国 生物 群落 自组织 协作 失灵 原始研究"
+        ],
+        "en": [
+          "collective animal behavior task allocation individual heterogeneity error correction",
+          "distributed biological organization diversity robustness experimental evidence"
+        ]
+      },
+      "planned_sources": [
+        {
+          "id": "D2BB",
+          "title": "D’Arcy Thompson, On Growth and Form",
+          "url": "https://archive.org/search?query=title%3A%22On+Growth+and+Form%22+AND+creator%3AThompson",
+          "source_kind": "public_domain_book_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "拟查结构与尺度约束相关章节主题；先核对公开版本目录及正文，不预填章号或将growth收束为成长。",
+          "why_selected": "检验生命形态与约束的关系；不再取上一轮exaptation或育苗材料。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        },
+        {
+          "id": "D2BC",
+          "title": "中国科学院动物研究所",
+          "url": "https://www.ioz.cas.cn/",
+          "source_kind": "institution_news_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "拟查近90天动物行为/合作原报道及原论文；没有合适内容时如实缺额。",
+          "why_selected": "加入中国团队的可观察行为，不只借海外流行科普。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        },
+        {
+          "id": "D2BI",
+          "title": "Max Planck Institute of Animal Behavior",
+          "url": "https://www.ab.mpg.de/",
+          "source_kind": "institution_research_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "拟查集体行为/个体差异研究正文，优先实验及可见行为描述。",
+          "why_selected": "能同时找到组织规律和失效边界。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        }
+      ],
+      "selection_criteria": [
+        "可区分局部行为、信息渠道和整体后果；存在实际观测证据。",
+        "删去专业术语后仍有一个不同于成长的具体关系。"
+      ],
+      "rejection_criteria": [
+        "只换物种而机制仍是Sakana鱼群同步或本项目蜂舞编码。",
+        "以合作等于智能、个体简单等于系统必然强大替代证据。"
+      ],
+      "history_risks": [
+        "旧蜂舞、迁徙、exaptation、神经棘、育苗木家族不计新。",
+        "日行迹/视差是已有参照；不再以重复观测为所有新卡主旨。"
+      ],
+      "next_deliverable": "拟交1张行为—信息—整体结果卡，附相反条件下为何失灵，检验是否独立于旧群体素材。"
+    },
+    {
+      "id": "D3A",
+      "macro_id": "S3",
+      "name": "计算的基本元素、表示与可执行结构",
+      "case_refs": [
+        {
+          "case_id": "B010",
+          "name": "字节跳动 / ByteDance",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B010；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第32行原案例；宏观分析见A1 README一.3及相关P原则",
+          "case_finding": "ByteDance让底层信息单位发生身体动作；关系是一个小构件如何进入活跃世界。",
+          "evidence_boundary": "中英文词义与官网使用明确；动作与生命感是分析，未查到创始人直接说明命名过程。",
+          "upstream_sources": [
+            {
+              "url": "https://www.bytedance.com/",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 32
+            },
+            {
+              "url": "https://www.bytedance.com/?locale=zh",
+              "access": "prior_review",
+              "reader": "prior_A1",
+              "supports": "官网使用这组中英文品牌，使命为激发创造、丰富生活；未找到本轮创始命名过程说明。",
+              "review_file": "research/runs/2026-11-06/cases.json",
+              "reopened_this_pass": false
+            },
+            {
+              "url": "https://www.bytedance.com/",
+              "access": "prior_review",
+              "reader": "prior_A1",
+              "supports": "官网使用这组中英文品牌，使命为激发创造、丰富生活；未找到本轮创始命名过程说明。",
+              "review_file": "research/runs/2026-11-06/cases.json",
+              "reopened_this_pass": false
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        },
+        {
+          "case_id": "B062",
+          "name": "硅基流动 / SiliconFlow",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B062；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第98行原案例；宏观分析见A1 README一.3及相关P原则",
+          "case_finding": "SiliconFlow将计算载体与流动能力连接，机构成为可供别人调用的基础资源。",
+          "evidence_boundary": "上游有中文/英文品牌及业务来源；不是硅真的像液体流动，更非流体性能声明。",
+          "upstream_sources": [
+            {
+              "url": "https://www.siliconflow.cn/about",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 98
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        }
+      ],
+      "transfer_mechanism": {
+        "learn": "寻找计算里被人熟悉却常忽视的构件、表示转换或系统协作关系，明确它如何使其他能力成立。",
+        "do_not_copy": "不把任意物理名词接动作；不只搜常见术语词表；不把闭包改叫随身同行。",
+        "failure_boundary": "失去构件的特定能力、只剩赋能/连接等泛化动词时退回。",
+        "possible_roles": [
+          "R3",
+          "R1"
+        ],
+        "construction_axis": "科学来源可以普通语素组合、短化或整体专名化，但先不执行造词。"
+      },
+      "questions": [
+        "信息在存储、表示、传输、执行之间改变了什么、保留了什么？能否找到一个具体可演示而非抽象连接的关系？",
+        "哪些系统构件平常很小，却负责让互不相同的部分协作，例如接口契约、寻址、权限边界？它们失败时具体发生什么？",
+        "哪些程序结构使既有能力能在新上下文被安全调用，且机制明确不同于闭包、增量编译、异步Future和自举？"
+      ],
+      "queries": {
+        "zh": [
+          "计算机系统 信息表示 编码 执行 接口 契约 机制 例子",
+          "计算机 网络 命名 寻址 端到端原则 能力边界 教材"
+        ],
+        "en": [
+          "computer systems information representation execution interface contracts worked examples",
+          "naming addressing end to end argument capability boundaries computer systems"
+        ]
+      },
+      "planned_sources": [
+        {
+          "id": "D3AB",
+          "title": "Bryant/O’Hallaron, Computer Systems: A Programmer’s Perspective",
+          "url": "https://csapp.cs.cmu.edu/3e/students.html",
+          "source_kind": "book_companion_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "拟查计算机系统概览、信息表示与操作的章节主题；版次目录及合法作者示例位置待核，不预填章号。",
+          "why_selected": "从程序怎样成为可执行行为入手，而不是批量抽术语。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        },
+        {
+          "id": "D3AC",
+          "title": "清华大学出版社计算机系统教材目录与授权样章入口",
+          "url": "https://www.tup.tsinghua.edu.cn/",
+          "source_kind": "publisher_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "先检索信息表示/计算机系统教材的作者与授权样章，逐章确认可读性。",
+          "why_selected": "比较中文工程语汇的真实使用，不由英文直译硬造汉字。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        },
+        {
+          "id": "D3AI",
+          "title": "ACM Digital Library系统论文入口",
+          "url": "https://dl.acm.org/",
+          "source_kind": "paper_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "拟查端到端论证、命名/寻址与能力系统的原论文开放作者版；近期系统新闻只取日期可核实者。",
+          "why_selected": "论文可提供真实问题与失败案例，防止把构件包装成万用智能。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        }
+      ],
+      "selection_criteria": [
+        "能用具体输入—转换—输出说明其独特作用；不是只背定义。",
+        "具有小尺度构件与大尺度系统的真实关系，且不必须自我学习。"
+      ],
+      "rejection_criteria": [
+        "搜到的只有术语大全或词典定义，没有可迁移关系。",
+        "变成旧闭包/重写本/自举/不动点/异步/增量编译机制再命名。"
+      ],
+      "history_risks": [
+        "上轮闭包与高阶函数已研究；本方向可拿它们做泛化失败对照，但不算新增。",
+        "seed中Byte、BitFlip、Quine、Bootstrap、ReLU、Lambda等现有概念不是新候选。"
+      ],
+      "next_deliverable": "拟交1张构件—边界—系统能力卡；必须填若名称只保留泛化动作会损失什么特征。"
+    },
+    {
+      "id": "D3B",
+      "macro_id": "S3",
+      "name": "数学结构、科学方法与跨学科实在关系",
+      "case_refs": [
+        {
+          "case_id": "B002",
+          "name": "Google / 谷歌",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B002；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第24行原案例；宏观分析见A1 README一.3及相关P原则",
+          "case_finding": "Google借大数表达信息规模，变形保留数学对象的尺度资源；不是术语越复杂越好。",
+          "evidence_boundary": "官方来源上游prior_review支持googol文字游戏，本计划未重开；不由中文谷/歌反推英文词源。",
+          "upstream_sources": [
+            {
+              "url": "https://about.google/company-info/our-story/",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 24
+            },
+            {
+              "url": "https://about.google/company-info/our-story/",
+              "access": "prior_review",
+              "reader": "prior_A1",
+              "supports": "名称是 googol（1 后接100个0）的文字游戏，呼应组织全球信息的使命。",
+              "review_file": "research/runs/2026-11-06/cases.json",
+              "reopened_this_pass": false
+            },
+            {
+              "url": "https://blog.google/company-news/inside-google/company-announcements/google-fun-facts-25th-birthday/",
+              "access": "prior_review",
+              "reader": "prior_A1",
+              "supports": "名称是 googol（1 后接100个0）的文字游戏，呼应组织全球信息的使命。",
+              "review_file": "research/runs/2026-11-06/cases.json",
+              "reopened_this_pass": false
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        },
+        {
+          "case_id": "B004",
+          "name": "第四范式 / 4Paradigm",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B004；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第26行原案例；宏观分析见A1 README一.3及相关P原则",
+          "case_finding": "第四范式不是一条算法，而是对知识如何产生的框架选择。",
+          "evidence_boundary": "创始访谈35–40明确Jim Gray演讲与命名联系；序号不保证领先。",
+          "upstream_sources": [
+            {
+              "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2009/10/Fourth_Paradigm.pdf",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 26
+            },
+            {
+              "url": "https://www.nbd.com.cn/articles/2024-08-13/3503085.html",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 26
+            },
+            {
+              "url": "https://www.nbd.com.cn/articles/2024-08-13/3503085.html",
+              "access": "body",
+              "reader": "coordinator",
+              "reading_scope": "创始访谈35–40",
+              "supports": "原始专访明确Jim Gray第四范式演讲和公司命名联系。",
+              "checked_at": "2026-11-06",
+              "review_file": "source_review.json"
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        },
+        {
+          "case_id": "B102",
+          "name": "百奥几何 / BioGeometry",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B102；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第172行原案例；宏观分析见A1 README一.3及相关P原则",
+          "case_finding": "BioGeometry两个世界在分子形状影响功能处实际相遇。",
+          "evidence_boundary": "官网研究方向与构词可解释，未获创始起名访谈；生命/几何关系是分析，不假称官方命名原话。",
+          "upstream_sources": [
+            {
+              "url": "https://www.biogeom.com/zh/",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 172
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        }
+      ],
+      "transfer_mechanism": {
+        "learn": "区分知识对象的尺度、结构关系与研究方法这三个层次；优先找到本来相遇的领域，而不是拿两个高科技名词拼接。",
+        "do_not_copy": "不仿Google拼错大数，不把第四范式复制成下一序号，不照抄数学术语列表。",
+        "failure_boundary": "若关系只在解释者想象中存在，或研究对象无法比旧素材多一个独特结构，停止。",
+        "possible_roles": [
+          "R6",
+          "R3",
+          "R2"
+        ],
+        "construction_axis": "抽象概念也要先找到可被称呼的对象；不提前决定符号/四字长名。"
+      },
+      "questions": [
+        "哪些数学结构在两种实际领域中承担相同的组织或转换作用，能给出同一个具体例子而非泛称秩序？",
+        "一个科学方法如何改变什么能被观测、什么算证据、谁能参与研究？有哪些有历史依据的前后差异？",
+        "模型尺度、表示维数与能力变化有哪些非线性但有条件的关系？哪些热门涌现说法证据不足应弃用？"
+      ],
+      "queries": {
+        "zh": [
+          "数学 结构 跨学科 表示 等价 具体实例 科学方法史",
+          "数据密集科学 科学发现 方法转变 证据 研究史"
+        ],
+        "en": [
+          "mathematical structures cross disciplinary representations equivalence worked examples",
+          "scientific discovery paradigm instruments evidence data intensive science history"
+        ]
+      },
+      "planned_sources": [
+        {
+          "id": "D3BB",
+          "title": "Hey/Tansley/Tolle编 The Fourth Paradigm",
+          "url": "https://www.microsoft.com/en-us/research/publication/fourth-paradigm-data-intensive-scientific-discovery/",
+          "source_kind": "open_book_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "拟查Jim Gray关于eScience的方法论开篇与至少一个不同学科案例；具体目录标题、章节位置和正文均待核。",
+          "why_selected": "从A1第四范式追索到底改变了什么，而非把方法论缩成一个漂亮抽象词。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        },
+        {
+          "id": "D3BC",
+          "title": "中国科学院数学与系统科学研究院",
+          "url": "https://www.amss.ac.cn/",
+          "source_kind": "institution_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "拟找跨学科数学研究的具体对象/应用与原论文；新近报道须有近90天真实日期。",
+          "why_selected": "让中国研究进入数学材料来源，不只引用海外词典。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        },
+        {
+          "id": "D3BI",
+          "title": "Courant/Robbins, What Is Mathematics?",
+          "url": "https://global.oup.com/academic/",
+          "source_kind": "publisher_book_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "拟定位合法目录与授权节选中的几何构造/连续性主题；未确认版次前不填虚构页码。",
+          "why_selected": "比较数学对象为何值得人研究，防止只把数学当科技装饰。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        }
+      ],
+      "selection_criteria": [
+        "两个领域能指向同一可定义关系；至少有一个可解释实例。",
+        "若选择方法层，须说出它改变知识生产中的哪一步。"
+      ],
+      "rejection_criteria": [
+        "只得到无限、秩序、涌现等泛词；没有具体机制或历史条件。",
+        "把流行猜想当确定科学事实，或用专业深度替代名称辨识。"
+      ],
+      "history_risks": [
+        "旧Taylor余项、开集、重整化、公理不完备、贝叶斯、抽象解释、世界模型、聚变、虚时间、对称守恒、费马路径已研究。",
+        "不沿旧莫尔叠加母意象再拆家族；不是换一部书就算新机制。"
+      ],
+      "next_deliverable": "拟交1张真实跨域结构或知识方法卡，附严格的适用条件与不能外推的结论。"
+    },
+    {
+      "id": "D4",
+      "macro_id": "S4",
+      "name": "文化故事、人物与知识传承的完整前史",
+      "case_refs": [
+        {
+          "case_id": "B008",
+          "name": "阿里巴巴 / Alibaba",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B008；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第30行原案例；宏观分析见A1 README一.4及相关P原则",
+          "case_finding": "Alibaba借完整人物及开门情节，让企业成为机会入口；不是从故事任摘漂亮词。",
+          "evidence_boundary": "上游来源为演讲转录线索，未在本次105轮重开；应先核验原演讲正文，不把所有商业故事当官方起名史。",
+          "upstream_sources": [
+            {
+              "url": "https://singjupost.com/jack-ma-alibaba-group-stanford-gsb-2015-entrepreneurial-company-of-the-year-transcript/",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 30
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        },
+        {
+          "case_id": "B047",
+          "name": "Hume AI",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B047；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第78行原案例；宏观分析见A1 README一.4及相关P原则",
+          "case_finding": "Hume借人物关于情感与偏好的具体思想，给AI交互选择一段前史。",
+          "evidence_boundary": "官方Our Academic Origins21–24已核验；人物不是仅凭名气被借用。",
+          "upstream_sources": [
+            {
+              "url": "https://www.hume.ai/about",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 78
+            },
+            {
+              "url": "https://www.hume.ai/about",
+              "access": "body",
+              "reader": "coordinator",
+              "reading_scope": "Our Academic Origins21–24",
+              "supports": "官方明确休谟思想与情感偏好/AI原则的关系。",
+              "checked_at": "2026-11-06",
+              "review_file": "source_review.json"
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        },
+        {
+          "case_id": "B081",
+          "name": "Ndea",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B081；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第146行原案例；宏观分析见A1 README一.4及相关P原则",
+          "case_finding": "Ndea改idea的构词建立在直觉与逻辑这条认识路线之上。",
+          "evidence_boundary": "官网35–38有直接自释；希腊思想与字母改写共同成立，不能由词形臆造古语。",
+          "upstream_sources": [
+            {
+              "url": "https://ndea.com/",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 146
+            },
+            {
+              "url": "https://ndea.com/",
+              "access": "body",
+              "reader": "A1",
+              "reading_scope": "35–38",
+              "supports": "官方希腊思想、idea改写、N ideas",
+              "checked_at": "2026-11-06"
+            },
+            {
+              "url": "https://ndea.com/",
+              "access": "body",
+              "reader": "coordinator",
+              "reading_scope": "A New Research Lab35–38",
+              "supports": "官方说明idea换n与两种希腊思想概念、N ideas；可确认定义而非臆造词根。",
+              "checked_at": "2026-11-06",
+              "review_file": "source_review.json"
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        },
+        {
+          "case_id": "B021",
+          "name": "Oracle / 甲骨文",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B021；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第43行原案例；宏观分析见A1 README一.4及相关P原则",
+          "case_finding": "Oracle/甲骨文让求问、记录与答案在两种文化对象中相接。",
+          "evidence_boundary": "普通词义与中文文化主题可分析；历史创始起名过程未获本轮原始解释，不当作已确认动机。",
+          "upstream_sources": [
+            {
+              "url": "https://www.oracle.com/ua/corporate/",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 43
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        }
+      ],
+      "transfer_mechanism": {
+        "learn": "寻找已有情节、角色、知识实践或思想分歧，判断机构愿意继承的是哪一种行为与立场。现代中国知识史、人物思想与现代文化均在范围内。",
+        "do_not_copy": "不只摘古文双字，不因神话人物有能力就套用；不杜撰虚构语言来源。",
+        "failure_boundary": "删去典故后只剩泛化美德、人物仅是名人光环、或故事角色与团队态度相反，均不可取。",
+        "possible_roles": [
+          "R4",
+          "R2",
+          "R3"
+        ],
+        "construction_axis": "文化出处、短化融合与中文自然语感分开；造词仍是实现方式而非新来源世界。"
+      },
+      "questions": [
+        "中国近现代科学、工艺与知识传播史里，有哪些具体角色或实践改变了人如何求问、验证、记录、传递知识？能否保留其实际动作而非泛称智慧？",
+        "哪些现代文学/艺术叙事能提供一种与技术关系不同的角色，例如承担、翻译、质疑、协作，而不是只有英雄征服未知？",
+        "某思想人物最具辨识的争论究竟是什么？团队若借其前史，会承担哪些与研究方向不相容的联想？"
+      ],
+      "queries": {
+        "zh": [
+          "中国 科学史 知识传播 观测 记录 验证 人物 原始文献",
+          "敦煌 星图 知识组织 器物 现代 科技史 博物馆",
+          "现代文学 艺术 角色 技术 人的关系 作者 访谈"
+        ],
+        "en": [
+          "history of knowledge instruments verification transmission primary sources",
+          "modern literature technology human roles interpretation author interview",
+          "Hume passions preferences philosophy primary text AI naming"
+        ]
+      },
+      "planned_sources": [
+        {
+          "id": "D4C",
+          "title": "中国科学技术馆/敦煌研究院知识史入口",
+          "url": "https://www.dha.ac.cn/",
+          "source_kind": "museum_archive_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "拟查星图、知识记录与技艺传承的馆藏/研究说明，器物年代与现代说明分开；不是古文全书阅读。",
+          "why_selected": "用中国实际知识载体与实践补充人物神话路径。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        },
+        {
+          "id": "D4B",
+          "title": "John Berger, Ways of Seeing",
+          "url": "https://www.penguinrandomhouse.com/search/?q=Ways%20of%20Seeing",
+          "source_kind": "book_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "拟核对合法目录及第一篇图像/观看关系的授权节选；未读正文，不推断命名素材已出现。",
+          "why_selected": "现代文化能提供一种面对世界的姿态，不必都回到古典文学。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        },
+        {
+          "id": "D4I",
+          "title": "British Library学习/馆藏入口",
+          "url": "https://www.bl.uk/",
+          "source_kind": "archive_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "拟查知识载体、科学人物手稿与故事版本；优先馆藏原件说明/作者文本。",
+          "why_selected": "故事版本与人物思想必须有前史，不从二手名言制造出处。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        },
+        {
+          "id": "D4O",
+          "title": "中国哲学书电子化计划（可选，不优先）",
+          "url": "https://ctext.org/zh",
+          "source_kind": "classical_text_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "仅在现代与知识史材料以外出现明确问题时，定点核验《墨经》或《天工开物》相关原段；先确认版本和可读性。",
+          "why_selected": "古文作为可选证据支线，后续素材卡古文≤15%，不因提供入口而强求本轮读古文。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        }
+      ],
+      "selection_criteria": [
+        "原故事/原思想里确有可识别角色、问题与冲突，而非后人标语。",
+        "中国与海外入口并列，文化厚度不按古老程度排序。"
+      ],
+      "rejection_criteria": [
+        "只有摘句集、书评、名言图片，无原文正文。",
+        "典故的第二层增加多个互不相关的寓意，或必须隐藏原故事负面内容。"
+      ],
+      "history_risks": [
+        "旧描漆、劝学、活版、织造计算史、罗塞塔对读、蒙太奇、显影、留白、重写本、爵士即兴已研究，不改名当新增。",
+        "Hume/Ndea等是既有案例，不是候选；不沿既有名字作近音。"
+      ],
+      "next_deliverable": "拟交1张角色/思想/知识实践卡，保存真实情节、取舍与反面联想；可暂不形成名字。"
+    },
+    {
+      "id": "D5",
+      "macro_id": "S5",
+      "name": "心智主体、人与他者关系以及行动经验",
+      "case_refs": [
+        {
+          "case_id": "B023",
+          "name": "Anthropic",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B023；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第54行原案例；宏观分析见A1 README一.5及相关P原则",
+          "case_finding": "Anthropic以人的位置为研究背景，其力量不依赖一个当前模型功能。",
+          "evidence_boundary": "词典已核验人类相关义；不等于公司取名来自人择原理，词义不证明研究路线。",
+          "upstream_sources": [
+            {
+              "url": "https://www.merriam-webster.com/dictionary/anthropic",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 54
+            },
+            {
+              "url": "https://www.anthropic.com/",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 54
+            },
+            {
+              "url": "https://www.merriam-webster.com/dictionary/anthropic",
+              "access": "body",
+              "reader": "coordinator",
+              "reading_scope": "定义42/词史54",
+              "supports": "人类相关词义及希腊语词根；不证明公司来自人择原理。",
+              "checked_at": "2026-11-06",
+              "review_file": "source_review.json"
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        },
+        {
+          "case_id": "B037",
+          "name": "Imbue",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B037；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第68行原案例；宏观分析见A1 README一.5及相关P原则",
+          "case_finding": "Imbue用关系动词表明对他者做什么：赋予能力与价值。",
+          "evidence_boundary": "命名顾问20/32有直接解释，是命名意图证据；宽动词仍要有清楚对象。",
+          "upstream_sources": [
+            {
+              "url": "https://www.ahundredmonkeys.com/case-study/imbue/",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 68
+            },
+            {
+              "url": "https://www.ahundredmonkeys.com/case-study/imbue/",
+              "access": "body",
+              "reader": "coordinator",
+              "reading_scope": "命名顾问20/32",
+              "supports": "顾问确认Generally Intelligent改名及赋予智能/人类价值的解释。",
+              "checked_at": "2026-11-06",
+              "review_file": "source_review.json"
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        },
+        {
+          "case_id": "B027",
+          "name": "Midjourney",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B027；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第58行原案例；宏观分析见A1 README一.5及相关P原则",
+          "case_finding": "Midjourney把公司放在过去与未定未来之间，给出人的处境而非性能指标。",
+          "evidence_boundary": "官网About14–19明确相关自述；途中可能被读成不成熟，不能只讲积极故事。",
+          "upstream_sources": [
+            {
+              "url": "https://www.midjourney.com/home/",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 58
+            },
+            {
+              "url": "https://www.midjourney.com/home/",
+              "access": "body",
+              "reader": "coordinator",
+              "reading_scope": "About14–19",
+              "supports": "官方明确过去/未知未来与我们想成为什么；时间经验成为长期身份。",
+              "checked_at": "2026-11-06",
+              "review_file": "source_review.json"
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        }
+      ],
+      "transfer_mechanism": {
+        "learn": "研究心智的对象、谁与谁发生作用、行动者如何形成理解，而不将每个心理词都缩成记忆或持续成长。",
+        "do_not_copy": "不再把James关系边缘泛化成弦外，不把闭包携境改成同行，不复制之后/再来一次。",
+        "failure_boundary": "只有抽象近义动词、没有关系对象或处境，或者第一联想是教辅/咨询/育儿，先停。",
+        "possible_roles": [
+          "R4",
+          "R1",
+          "R3"
+        ],
+        "construction_axis": "自然动词、熟悉处境可独立成立，但要保留语义的施事、对象与作用。"
+      },
+      "questions": [
+        "认知并非只在脑内发生时，身体、工具和他人怎样共同构成一个具体认识行动？哪一部分可被传递，哪一部分依赖现场？",
+        "赋予、理解、共同完成等关系中，谁是主体、谁保留自主性、谁提供条件？怎样区分帮助别人行动与替别人作主？",
+        "人将一种理解带入新情境时，有哪些不是记忆存储或反馈循环的实际变化，例如技能的协调、判断的分工、注意的组织？"
+      ],
+      "queries": {
+        "zh": [
+          "分布式认知 工具 身体 社会 协调 现场 民族志",
+          "主体性 赋能 自主 行动 认知 关系 研究 具体案例"
+        ],
+        "en": [
+          "distributed cognition artifacts coordination situated action ethnography",
+          "agency scaffolding autonomy human machine relations empirical study"
+        ]
+      },
+      "planned_sources": [
+        {
+          "id": "D5B",
+          "title": "Edwin Hutchins, Cognition in the Wild",
+          "url": "https://mitpress.mit.edu/search/?query=Cognition%20in%20the%20Wild",
+          "source_kind": "book_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "先定位出版社目录/授权节选，拟读舰船导航中的人员—工具协调案例段落；章节/页码待合法正文确认。",
+          "why_selected": "从完整认识实践看主体与关系，不只背一个认知词义。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        },
+        {
+          "id": "D5C",
+          "title": "中国科学院心理研究所",
+          "url": "https://www.psych.ac.cn/",
+          "source_kind": "institution_news_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "拟查近90天具身、合作与决策研究的原报道/原论文；避开上轮CMU触觉报告阈值。",
+          "why_selected": "引入中国认知与行为现场，防止材料都落在海外经典心理学。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        },
+        {
+          "id": "D5I",
+          "title": "Suchman, Plans and Situated Actions（作者/出版社入口）",
+          "url": "https://www.cambridge.org/core/search?q=Plans%20and%20Situated%20Actions",
+          "source_kind": "book_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "拟定位计划与实际行动关系的合法节选；先核对版次，不预填已读章节。",
+          "why_selected": "区分抽象计划与现场完成的动作，为关系角色提供具体事件。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        }
+      ],
+      "selection_criteria": [
+        "至少一个明确行动场景以及主体、对象、条件，能重述而不只说认知。",
+        "关系中的自主性与责任清楚，品牌可以选择其中一个长期位置。"
+      ],
+      "rejection_criteria": [
+        "只把同一业务翻译成理解/察觉/成长的近义词。",
+        "依赖未经证实AI主观意识或把育儿/培训氛围当作赋能。"
+      ],
+      "history_risks": [
+        "旧另解、弦外、察觉、闭包/随行、触媒、蜂舞/行话等不是本轮新材料。",
+        "旧后天/Nurture、二周目已被用户否决，不以行为科学解释救回。"
+      ],
+      "next_deliverable": "拟交1张主体—工具—环境关系卡，并与S1具体物件卡区分：此卡主对象是关系和行动组织，不是物件。"
+    },
+    {
+      "id": "D6",
+      "macro_id": "S6",
+      "name": "研究使命、立场与愿意承担的长期承诺",
+      "case_refs": [
+        {
+          "case_id": "B022",
+          "name": "OpenAI",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B022；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第53行原案例；宏观分析见A1 README一.6及相关P原则",
+          "case_finding": "OpenAI把立场和研究领域写进名称，使组织选择可以被该承诺检验。",
+          "evidence_boundary": "上游已读2015创立声明28–41，只支持当时公开立场，不代表当前所有政策。",
+          "upstream_sources": [
+            {
+              "url": "https://openai.com/index/introducing-openai/",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 53
+            },
+            {
+              "url": "https://openai.com/index/introducing-openai/",
+              "access": "body",
+              "reader": "coordinator",
+              "reading_scope": "2015创立声明28–41",
+              "supports": "历史声明说明广泛人类利益、发表与共享；用于当时命名立场，不推断当前一切政策。",
+              "checked_at": "2026-11-06",
+              "review_file": "source_review.json"
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        },
+        {
+          "case_id": "B033",
+          "name": "Safe Superintelligence / SSI",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B033；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第64行原案例；宏观分析见A1 README一.6及相关P原则",
+          "case_finding": "SSI把能力目标和安全约束组成同一研究对象，而不是能力越大越好。",
+          "evidence_boundary": "官方创立声明4–10已核验使命/名字/产品路线统一；名称不证明安全已实现。",
+          "upstream_sources": [
+            {
+              "url": "https://ssi.inc/",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 64
+            },
+            {
+              "url": "https://ssi.inc/",
+              "access": "body",
+              "reader": "coordinator",
+              "reading_scope": "创立声明4–10",
+              "supports": "明确使命、名字和产品路线统一；直接使命命名的一手例子。",
+              "checked_at": "2026-11-06",
+              "review_file": "source_review.json"
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        },
+        {
+          "case_id": "B034",
+          "name": "Unconventional AI",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B034；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第65行原案例；宏观分析见A1 README一.6及相关P原则",
+          "case_finding": "Unconventional直接声明面对主流研究路线的态度。",
+          "evidence_boundary": "上游词义/官网足以分析立场，未获得本次原始命名访谈；不同不等于有效。",
+          "upstream_sources": [
+            {
+              "url": "https://unconv.ai/",
+              "access": "inherited_not_reopened",
+              "reader": "seed",
+              "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+              "source_line": 65
+            }
+          ],
+          "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+        }
+      ],
+      "transfer_mechanism": {
+        "learn": "先澄清组织长期相信什么以及愿受什么约束，再看名称是否有诚实承诺可以承载。不是把自然意象再说成愿景。",
+        "do_not_copy": "不套开放/安全/通用等现有品牌修饰词，也不暗自替创始人选价值观。",
+        "failure_boundary": "团队没有认可的立场或资料仅给漂亮愿景时，标待联合创始人讨论；不为覆盖S6硬起口号。",
+        "possible_roles": [
+          "R6",
+          "R4",
+          "R3"
+        ],
+        "construction_axis": "直接命题、机构称谓及缩写可以研究；本轮只收主张及承担后果，不生成任何称呼。"
+      },
+      "questions": [
+        "对于使已部署模型继续获得能力的组织，哪些承诺应长期成立，哪些仅是当前技术路线？把能力、自主性、可纠正性和可验证性分别看会出现哪些真正的张力？",
+        "一个主张怎样被实际研究政策检验：谁能获益、谁可控制、什么证据才算进步？哪些词会给组织带来无法承受的承诺？",
+        "现有研究机构如何把对象和约束共同写成使命，而不承诺已实现的结果？有哪些组织因使命与做法脱节而产生的具体反例？"
+      ],
+      "queries": {
+        "zh": [
+          "人工智能 研究机构 使命 自主性 可纠正性 可验证性 原始声明",
+          "持续学习 部署后 能力 人类控制 研究 目标 约束 论文"
+        ],
+        "en": [
+          "AI lab founding statement research mission capability constraints corrigibility agency",
+          "post deployment learning human control verifiability research agenda institutional commitments"
+        ]
+      },
+      "planned_sources": [
+        {
+          "id": "D6B",
+          "title": "Stuart Russell, Human Compatible",
+          "url": "https://humancompatible.ai/",
+          "source_kind": "book_author_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "拟查作者书目与授权节选中目标不确定性/人类偏好相关段落；不声称整书可读。",
+          "why_selected": "把承诺落到真实研究张力，不只收道德形容词。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        },
+        {
+          "id": "D6C",
+          "title": "北京人工智能研究院/智源公开研究议程",
+          "url": "https://www.baai.ac.cn/",
+          "source_kind": "institution_statement_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "拟定位使命、研究议程与成果证据对应关系；近90天内容单列日期，不拿新闻标题证明兑现。",
+          "why_selected": "比较中国研究机构如何陈述存在理由，区别机构名与具体模型名。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        },
+        {
+          "id": "D6I",
+          "title": "Alan Turing Institute公开研究使命/项目入口",
+          "url": "https://www.turing.ac.uk/",
+          "source_kind": "institution_statement_entry",
+          "status": "planned_not_read",
+          "planned_reading_scope": "拟找具体研究项目的目标、约束、评估方式，并选择一项可核验反例。",
+          "why_selected": "机构承诺必须能对应行为；避免只研究商业宣传。",
+          "availability": "not_checked_this_plan",
+          "access_strategy": "只读公开正文/作者或出版社授权节选；若入口无正文，记录失败并改寻原始机构资料，不用书评冒充正文。"
+        }
+      ],
+      "selection_criteria": [
+        "主张指明对象、受益者或约束，能说明组织因此会做/不做哪些事。",
+        "不同于可被任何公司粘贴的领先/赋能愿景。"
+      ],
+      "rejection_criteria": [
+        "尚未与创始团队确认却擅自确立价值立场。",
+        "把目标或信念写成已有能力，或把组织缩成短期营销口号。"
+      ],
+      "history_risks": [
+        "旧通式、不变等泛化抽象词不借主张方向救回。",
+        "OpenAI/SSI/World Labs都是分析案例，不能变形后当新增。"
+      ],
+      "next_deliverable": "拟交1张使命—研究对象—约束—组织行为卡；允许结论是缺创始人共识、暂不能起名。",
+      "known_company_scope": [
+        "用户已明确：AI Lab、使模型出厂后继续获得能力、持续学习。"
+      ],
+      "not_yet_company_commitments": [
+        "开源或封闭策略",
+        "安全与能力的具体优先顺序",
+        "具体治理方式与商业受益分配",
+        "采用哪一条非传统技术路线"
+      ],
+      "research_boundary": "只研究使命如何表达及被行为检验；不把别人的开源、安全或治理承诺搬为本公司已认可价值观。下一阶段可列需联合创始人讨论的选择，不在本轮要求用户回答或替其选择。"
+    }
+  ],
+  "unknown_name_policy": {
+    "macro_id": "S7",
+    "case_refs": [
+      {
+        "case_id": "B005",
+        "name": "NVIDIA / 英伟达",
+        "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B005；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第27行原案例；宏观分析见A1 README一.7及相关P原则",
+        "case_finding": "NVIDIA先作为专名提供身份，由长期底层计算产品填入意义。",
+        "evidence_boundary": "上游词源未知，不能补拉丁语invidia或神话。",
+        "upstream_sources": [
+          {
+            "url": "https://www.nvidia.com/en-au/about-nvidia/corporate-timeline/",
+            "access": "inherited_not_reopened",
+            "reader": "seed",
+            "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+            "source_line": 27
+          }
+        ],
+        "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+      },
+      {
+        "case_id": "B086",
+        "name": "Letta",
+        "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json 的 B086；research/runs/2026-11-06-agent1-baseline105/cases.md中同名条目；seed/brand-naming-foundation.md 第151行原案例；宏观分析见A1 README一.7及相关P原则",
+        "case_finding": "Letta像短称呼，机构经验学习叙事可以与专名相接。",
+        "evidence_boundary": "官网4/13支持学习方向，不支持人名或古语词源。",
+        "upstream_sources": [
+          {
+            "url": "https://www.letta.com/",
+            "access": "inherited_not_reopened",
+            "reader": "seed",
+            "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+            "source_line": 151
+          },
+          {
+            "url": "https://www.letta.com/",
+            "access": "body",
+            "reader": "A1",
+            "reading_scope": "首页4/13",
+            "supports": "研究叙事，未见词源",
+            "checked_at": "2026-11-06"
+          },
+          {
+            "url": "https://www.letta.com/",
+            "access": "body",
+            "reader": "coordinator",
+            "reading_scope": "首页4/13",
+            "supports": "确认研究与持续记忆方向；没找到名字词源，像人名是分析。",
+            "checked_at": "2026-11-06",
+            "review_file": "source_review.json"
+          }
+        ],
+        "reading_status": "upstream_case_read_not_external_reopened_this_plan"
+      }
+    ],
+    "handling": "保留未知标签，仅研究专名如何由使用建立身份；如找到公司一手命名解释再归类。未知词源不当作任意造词授权。",
+    "construction_relation": "造词可在任何来源世界发生，不是S7的同义词。",
+    "new_names": false
+  },
+  "pilot_plan": {
+    "status": "planned_not_executed_requires_next_user_authorization",
+    "target_cards": 8,
+    "sampling": [
+      {
+        "direction_id": "D1",
+        "planned_cards": 1,
+        "why": "拟交1张对象—动作—人与技术关系卡，附具体使用步骤、形态和母品牌/产品类别锁定风险；本轮不执行。"
+      },
+      {
+        "direction_id": "D2A",
+        "planned_cards": 1,
+        "why": "拟交1张以力量/尺度为核心的自然卡，必须带一个容易被品牌误用的条件或限制。"
+      },
+      {
+        "direction_id": "D2B",
+        "planned_cards": 1,
+        "why": "拟交1张行为—信息—整体结果卡，附相反条件下为何失灵，检验是否独立于旧群体素材。"
+      },
+      {
+        "direction_id": "D3A",
+        "planned_cards": 1,
+        "why": "拟交1张构件—边界—系统能力卡；必须填若名称只保留泛化动作会损失什么特征。"
+      },
+      {
+        "direction_id": "D3B",
+        "planned_cards": 1,
+        "why": "拟交1张真实跨域结构或知识方法卡，附严格的适用条件与不能外推的结论。"
+      },
+      {
+        "direction_id": "D4",
+        "planned_cards": 1,
+        "why": "拟交1张角色/思想/知识实践卡，保存真实情节、取舍与反面联想；可暂不形成名字。"
+      },
+      {
+        "direction_id": "D5",
+        "planned_cards": 1,
+        "why": "拟交1张主体—工具—环境关系卡，并与S1具体物件卡区分：此卡主对象是关系和行动组织，不是物件。"
+      },
+      {
+        "direction_id": "D6",
+        "planned_cards": 1,
+        "why": "拟交1张使命—研究对象—约束—组织行为卡；允许结论是缺创始人共识、暂不能起名。"
+      }
+    ],
+    "not_a_quota_template": "8张是跨方向偏差测试，不代表整批要每类等量；失败方向可暂不出卡，但需给原因，不用其他同类补满。",
+    "next_stage_card_fields": [
+      "plan_direction_id",
+      "case_ids",
+      "mechanism_to_material",
+      "distinctive_relation",
+      "naming_potential",
+      "discard_conditions",
+      "source_urls",
+      "reading_scope",
+      "fact",
+      "analysis_vs_fact",
+      "historical_family_check"
+    ],
+    "continue_if": [
+      "每卡至少1处真正读到的正文支持其独特关系；计划入口不能当已读。",
+      "能清楚说出从哪个案例学来何种机制，又与该案例素材有什么实际不同。",
+      "8卡宏观六方向均获检验，且没有全部退化为成长/探索/未知；未知及没有潜力可以作为诚实结果。",
+      "至少6个不同新家族值得保留研究；无需对应6个名字，不能以此宣称24整批完成。"
+    ],
+    "return_if": [
+      "任一卡伪造出处/夸大已读范围：暂停相关家族，扩查全部小批来源。",
+      "2张及以上只有通用寓意、不能还原独特关系：整批退回搜索问题，先调整路径不扩24。",
+      "2张及以上实为历史家族：退回历史去重和检索范围，不以换词补齐。",
+      "某宏观方向缺材料：记录缺口与访问失败，主控审核替代路径；不静默删除S6或把S3拆类假装覆盖。"
+    ],
+    "naming_gate": "只有用户另行授权且素材小批验收后才可创作；未来草案须填material_feature_retained/material_feature_lost/why_name_not_generic。",
+    "later_batch_limits": "后续整批仍24独立家族、至少6类来源、单类≤30%、古文≤15%、2本具体书正文和3篇近90天新闻正文；小批8张不替代这些约束。"
+  },
+  "execution_log": {
+    "external_sources_opened_this_plan": 0,
+    "external_queries_executed_this_plan": 0,
+    "new_material_cards_created": 0,
+    "new_names_created": 0,
+    "note": "所有拟读URL均planned_not_read；既往已读内容仅为历史扫描/反例，未伪装成本轮计划已执行。"
+  }
+}

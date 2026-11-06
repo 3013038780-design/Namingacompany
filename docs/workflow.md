@@ -1,12 +1,12 @@
 # 四 Agent 工作流操作说明
 
-[根目录README](../README.md)是强制流程唯一权威，本文件不重复定义门槛。当前版本1.0，机器阈值见[workflow-contract.json](workflow-contract.json)。主控不得以本文件旧内容替代README。
+[根目录README](../README.md)是强制流程唯一权威，本文件不重复定义门槛。当前版本1.1，机器阈值见[workflow-contract.json](workflow-contract.json)。主控不得以本文件旧内容替代README。
 
 ## 启动与依赖
 
 1. 读取README、最新审美反馈、初始研究材料、全部历史候选，建立本轮历史去重索引。
 2. 为Agent 1、2、3、4建立四个独立执行实例；允许顺序启动。记录真实agent_id和execution_ref。主控另记ID。
-3. 按H1至H7交接。每个交付文件含来源、实际阅读范围和真实状态，主控复核后写验收回执。文件被修改后相关哈希与验收回执须重做。
+3. H1内先验收Agent 2搜索计划（search-plan.json/.md及plan-review.json）；计划须逐方向连接具体A1案例、机制、问题、检索路径和取舍。计划通过不自动授权下一阶段。随后按H1至H7交接。每个交付文件含来源、实际阅读范围和真实状态，主控复核后写验收回执。文件被修改后相关哈希与验收回执须重做。
 4. 零幸存不跳Agent 4，实际调用后提交零输入判断和英文复查回执。不能把未调用标为完成。
 
 ## 每轮文件
@@ -45,3 +45,9 @@ run.json还含date、research_mode（bootstrap/continuation）；首个1.0轮次
 rework.json为可选返工日志，entries每项含candidate_id、language、attempt（1或2）、reason、responsible_role及前后版本引用；有返工就必填，次数不可静默重置。将最终仍无合格英文的中文归储备时，去留记录用NO_ENGLISH_PAIR，不计完整候选。
 
 交接output_refs至少覆盖契约handoff_output_files规定的角色交付文件名；允许放在本轮不可变阶段子目录中。H3至H6的candidate_ids必须与实际进入筛查/通过上游的人口一致，不能用空回执跳过实际幸存者。
+
+## 1.1研究链条补充
+
+依README“二之一”执行搜索计划→6–8张素材小批审阅→扩批→中文创作。计划-only任务不创建虚假素材或候选；run.json标incomplete并明确用户审阅节点。search-plan的入口在实际阅读前标planned_not_read。主控逐方向写accept/return及理由，记录整体状态；只有方向覆盖、案例与机制推理都成立才能验收，不以字段填满代替质量。
+
+新完整轮次的1.1机器检查增加计划文件、六方向覆盖、案例ID引用、主控验收状态，以及材料/候选研究谱系字段。机器不判断推理好坏；主控仍逐项审读。旧1.0产物按原版本读取，不补造新要求下的执行。

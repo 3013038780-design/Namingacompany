@@ -1,0 +1,60 @@
+{
+  "status": "plan_only_no_external_access_checks",
+  "external_queries": [],
+  "external_opened_sources": [],
+  "note": "计划入口尚未外部核验，均planned_not_read。上轮读过的资料不是本计划新阅读，历史扫描不计材料小批执行。",
+  "local_inputs": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80",
+      "read_scope": "完整上游文件已在本Agent上一阶段读取并保留；本阶段重新读取规范/偏好、105全名索引与分类原则，并逐案重读所用30案证据字段；seed完整案例释义重新逐项复核。"
+    },
+    {
+      "path": "README.md",
+      "sha256": "a9507f21acac5685a852fb5be19d0f52b3edc8f847db834f7c56a100ef5b1433",
+      "read_scope": "完整上游文件已在本Agent上一阶段读取并保留；本阶段重新读取规范/偏好、105全名索引与分类原则，并逐案重读所用30案证据字段；seed完整案例释义重新逐项复核。"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "9a79a98d21fb32c00e94773574f3bfb43e2659a35c8ffa08639d3c313b02aa6e",
+      "read_scope": "完整上游文件已在本Agent上一阶段读取并保留；本阶段重新读取规范/偏好、105全名索引与分类原则，并逐案重读所用30案证据字段；seed完整案例释义重新逐项复核。"
+    },
+    {
+      "path": "research/seed/README.md",
+      "sha256": "44cb357ed9db7edb5dc6c9a32ef1729e482ab3a9ef1f9dc6598dfbb3fc0d33b3",
+      "read_scope": "完整上游文件已在本Agent上一阶段读取并保留；本阶段重新读取规范/偏好、105全名索引与分类原则，并逐案重读所用30案证据字段；seed完整案例释义重新逐项复核。"
+    },
+    {
+      "path": "research/seed/brand-naming-foundation.md",
+      "sha256": "92cb6c7cd36c201d35900528826a8aa9aca5a75c632df57d30dcaade5547f519",
+      "read_scope": "完整上游文件已在本Agent上一阶段读取并保留；本阶段重新读取规范/偏好、105全名索引与分类原则，并逐案重读所用30案证据字段；seed完整案例释义重新逐项复核。"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/README.md",
+      "sha256": "72ec38fefa7cec1ad528378a38cb1cd5b156ebe23ed74b1bd7f9a86943a0edd9",
+      "read_scope": "完整上游文件已在本Agent上一阶段读取并保留；本阶段重新读取规范/偏好、105全名索引与分类原则，并逐案重读所用30案证据字段；seed完整案例释义重新逐项复核。"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746",
+      "read_scope": "完整上游文件已在本Agent上一阶段读取并保留；本阶段重新读取规范/偏好、105全名索引与分类原则，并逐案重读所用30案证据字段；seed完整案例释义重新逐项复核。"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67",
+      "read_scope": "完整上游文件已在本Agent上一阶段读取并保留；本阶段重新读取规范/偏好、105全名索引与分类原则，并逐案重读所用30案证据字段；seed完整案例释义重新逐项复核。"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent2-materials-cn/materials.json",
+      "sha256": "29351c196c1e9eccb306d5a0c2160b934ea7de2e1887d3072175693b4eb8b6e3",
+      "read_scope": "完整上游文件已在本Agent上一阶段读取并保留；本阶段重新读取规范/偏好、105全名索引与分类原则，并逐案重读所用30案证据字段；seed完整案例释义重新逐项复核。"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "sha256": "ae6454d3c330698afa7d7844353f8709f59fb619500ae14cca10885864213ceb",
+      "read_scope": "完整上游文件已在本Agent上一阶段读取并保留；本阶段重新读取规范/偏好、105全名索引与分类原则，并逐案重读所用30案证据字段；seed完整案例释义重新逐项复核。"
+    }
+  ],
+  "revision": 2,
+  "revision_scope": "仅重读本地A1 B085/B038条目以选取贴合案例；未执行外部查询或入口访问。"
+}

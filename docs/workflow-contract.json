@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "effective_date": "2026-11-06",
   "legacy_runs": [
     "2026-11-06",
@@ -31,7 +31,10 @@
     "handoffs.json",
     "final.json",
     "rejections.json",
-    "README.md"
+    "README.md",
+    "search-plan.json",
+    "search-plan.md",
+    "plan-review.json"
   ],
   "case_minimum": {
     "bootstrap": 12,
@@ -146,6 +149,45 @@
       "final.json",
       "rejections.json",
       "README.md"
+    ]
+  },
+  "supported_versions": [
+    "1.0",
+    "1.1"
+  ],
+  "planning": {
+    "macro_directions": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6"
+    ],
+    "cases_per_direction_minimum": 2,
+    "questions_per_direction_minimum": 2,
+    "pilot_material_minimum": 6,
+    "pilot_material_maximum": 8,
+    "stage_scope": "Plan approval does not authorize reading batches or naming when user requested plan only.",
+    "material_lineage_fields": [
+      "plan_direction_id",
+      "case_ids",
+      "mechanism_to_material",
+      "distinctive_relation",
+      "naming_potential",
+      "discard_conditions"
+    ],
+    "candidate_lineage_fields": [
+      "material_feature_retained",
+      "material_feature_lost",
+      "why_name_not_generic"
+    ]
+  },
+  "prior_protocol_runs": {
+    "1.0": [
+      "2026-11-06-agent1-baseline105",
+      "2026-11-06-agent1-expansion",
+      "2026-11-06-agent2-materials-cn"
     ]
   }
 }

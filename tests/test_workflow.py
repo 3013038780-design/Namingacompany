@@ -7,7 +7,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from validate_workflow import CONTRACT, validate
+from validate_workflow import CONTRACT, validate, validate_search_plan
 
 
 class WorkflowTests(unittest.TestCase):
@@ -101,6 +101,92 @@ class WorkflowTests(unittest.TestCase):
                              'input_refs': [{'path': 'cases.json', 'sha256': ''}], 'output_refs': outputs})
         self.put('handoffs.json', {'handoffs': handoffs})
         self.refresh_hashes()
+        self.upgrade_fixture_to_11()
+
+    def plan_fixture(self):
+        directions = []
+        for i in range(6):
+            directions.append({'id': f'D{i}', 'macro_id': f'S{i+1}',
+                'case_refs': [{'case_id': f'K{j}', 'name': f'Synthetic case {j}',
+                    'analysis_location': 'synthetic case field', 'case_finding': 'synthetic mechanism',
+                    'evidence_boundary': 'test fixture only'} for j in [0, 1]],
+                'transfer_mechanism': 'synthetic mechanism', 'questions': ['question1', 'question2'],
+                'queries': {'zh': ['中文查询'], 'en': ['English query']},
+                'planned_sources': [{'title': 'Synthetic source', 'access': 'planned_not_read'}],
+                'selection_criteria': ['synthetic'], 'rejection_criteria': ['synthetic'],
+                'history_risks': ['synthetic'], 'next_deliverable': 'material card, not new names'})
+        self.put('search-plan.json', {'no_new_names': True, 'directions': directions,
+            'unknown_name_policy': 'Do not invent etymology', 'pilot_plan': 'Not executed'})
+        (self.run / 'search-plan.md').write_text('Synthetic plan, not actual research.')
+        ref = {'path': 'search-plan.json', 'sha256': hashlib.sha256((self.run / 'search-plan.json').read_bytes()).hexdigest()}
+        self.put('plan-review.json', {'status': 'accepted', 'plan_ref': ref,
+            'direction_reviews': [{'direction_id': d['id'], 'status': 'accepted'} for d in directions]})
+
+    def upgrade_fixture_to_11(self):
+        self.plan_fixture()
+        m = self.get('run.json'); m['protocol_version'] = '1.1'; self.put('run.json', m)
+        materials = self.get('materials.json')
+        for m in materials['materials']:
+            m.update({'plan_direction_id': 'D0', 'case_ids': ['K0', 'K1'],
+                'mechanism_to_material': 'synthetic transfer', 'distinctive_relation': 'synthetic relation',
+                'naming_potential': 'synthetic potential', 'discard_conditions': ['synthetic discard']})
+        self.put('materials.json', materials)
+        candidates = self.get('candidates.json')
+        for c in candidates['candidates']:
+            c.update({'material_feature_retained': 'synthetic retained',
+                'material_feature_lost': 'synthetic lost', 'why_name_not_generic': 'synthetic distinction'})
+        self.put('candidates.json', candidates)
+        self.refresh_hashes()
+
+    def test_complete_11_requires_material_to_plan_lineage(self):
+        self.upgrade_fixture_to_11()
+        self.assertIn('FORMAL CHECKS PASSED', validate(self.run))
+        m = self.get('materials.json'); del m['materials'][0]['mechanism_to_material']; self.put('materials.json', m)
+        with self.assertRaisesRegex(ValueError, 'material lineage: missing mechanism_to_material'):
+            validate(self.run)
+
+    def test_complete_11_requires_candidate_feature_retention(self):
+        self.upgrade_fixture_to_11()
+        c = self.get('candidates.json'); del c['candidates'][0]['material_feature_retained']; self.put('candidates.json', c)
+        with self.assertRaisesRegex(ValueError, 'candidate lineage: missing material_feature_retained'):
+            validate(self.run)
+
+    def test_new_run_cannot_downgrade_to_10(self):
+        m = self.get('run.json'); m['protocol_version'] = '1.0'; self.put('run.json', m)
+        with self.assertRaisesRegex(ValueError, 'cannot downgrade'):
+            validate(self.run)
+
+    def test_recorded_prior_10_run_remains_readable(self):
+        old = self.run.parent / CONTRACT['prior_protocol_runs']['1.0'][0]
+        self.run.rename(old); self.run = old
+        m = self.get('run.json'); m.update(protocol_version='1.0', run_id=old.name, status='incomplete'); self.put('run.json', m)
+        self.put('final.json', {'candidates': []})
+        self.assertIn('INCOMPLETE', validate(self.run))
+
+    def test_plan_requires_full_direction_coverage(self):
+        self.plan_fixture()
+        p = self.get('search-plan.json'); p['directions'].pop(); self.put('search-plan.json', p)
+        with self.assertRaisesRegex(ValueError, 'missing macro direction'):
+            validate_search_plan(self.run)
+
+    def test_plan_cannot_attach_unknown_case(self):
+        self.plan_fixture()
+        p = self.get('search-plan.json'); p['directions'][0]['case_refs'][0]['case_id'] = 'missing'; self.put('search-plan.json', p)
+        with self.assertRaisesRegex(ValueError, 'unknown A1 case'):
+            validate_search_plan(self.run)
+
+    def test_plan_approval_bound_to_reviewed_version(self):
+        self.plan_fixture()
+        self.assertEqual(len(validate_search_plan(self.run, require_accepted=True)), 6)
+        p = self.run / 'search-plan.json'; p.write_text(p.read_text() + '\n')
+        with self.assertRaisesRegex(ValueError, 'stale artifact hash'):
+            validate_search_plan(self.run, require_accepted=True)
+
+    def test_plan_without_acceptance_cannot_pass_gate(self):
+        self.plan_fixture()
+        r = self.get('plan-review.json'); r['status'] = 'returned'; self.put('plan-review.json', r)
+        with self.assertRaisesRegex(ValueError, 'not accepted'):
+            validate_search_plan(self.run, require_accepted=True)
 
     def test_valid_complete_run(self):
         self.assertIn('FORMAL CHECKS PASSED', validate(self.run))
