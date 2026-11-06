@@ -1,0 +1,151 @@
+{
+  "version": "1.0",
+  "effective_date": "2026-11-06",
+  "legacy_runs": [
+    "2026-11-06",
+    "2026-11-06-round2"
+  ],
+  "roles": [
+    "A1",
+    "A2",
+    "A3",
+    "A4"
+  ],
+  "handoffs": [
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7"
+  ],
+  "required_files": [
+    "run.json",
+    "cases.json",
+    "materials.json",
+    "candidates.json",
+    "quality.json",
+    "screening.json",
+    "english.json",
+    "handoffs.json",
+    "final.json",
+    "rejections.json",
+    "README.md"
+  ],
+  "case_minimum": {
+    "bootstrap": 12,
+    "continuation": 6
+  },
+  "case_category_minimum": {
+    "bootstrap": 4,
+    "continuation": 2
+  },
+  "case_categories": [
+    "broad_tech",
+    "current_ai",
+    "rsi_labs"
+  ],
+  "principle_minimum": 6,
+  "counterexample_minimum": 3,
+  "material_family_minimum": 24,
+  "source_category_minimum": 6,
+  "source_category_max_share": 0.3,
+  "classical_max_share": 0.15,
+  "book_minimum": 2,
+  "recent_news_minimum": 3,
+  "recent_news_days": 90,
+  "candidate_family_target": 24,
+  "score_max": 5,
+  "score_minimum": {
+    "zh": {
+      "naturalness": 4,
+      "distinctiveness": 4,
+      "lab_fit": 4,
+      "grounding": 4,
+      "extension": 3,
+      "semantic_coherence": 3
+    },
+    "en": {
+      "pronunciation": 4,
+      "spelling": 4,
+      "grounding": 4,
+      "bilingual_relation": 4,
+      "distinctiveness": 3
+    }
+  },
+  "score_total_minimum": {
+    "zh": 25,
+    "en": 21
+  },
+  "query_minimum": 5,
+  "query_kinds": {
+    "zh": [
+      "exact",
+      "company",
+      "ai_model_software",
+      "traditional_or_variant",
+      "romanization_or_near"
+    ],
+    "en": [
+      "exact",
+      "company_lab",
+      "ai_model",
+      "software_product",
+      "segmentation_variant"
+    ]
+  },
+  "positive_controls_minimum": 2,
+  "positive_control_types": [
+    "company",
+    "product"
+  ],
+  "rework_limit": {
+    "zh": 2,
+    "en": 2
+  },
+  "daily_target": 20,
+  "daily_max_batches": 3,
+  "delivery_timezone": "Asia/Shanghai",
+  "delivery_time": "09:00",
+  "rejection_codes": [
+    "USER_REJECTED",
+    "BRAND_FIT",
+    "UNNATURAL",
+    "SOURCE_INVALID",
+    "EXACT_TECH_USE",
+    "NEAR_MATCH_HOLD",
+    "EVIDENCE_HOLD",
+    "HISTORY_OR_FAMILY_DUPLICATE",
+    "NO_ENGLISH_PAIR",
+    "QUALITY_THRESHOLD"
+  ],
+  "scope_note": "契约检查不能证明真实阅读、执行和审美；必须核对工具执行回执，不允许补造。",
+  "handoff_output_files": {
+    "H1": [
+      "cases.json"
+    ],
+    "H2": [
+      "materials.json",
+      "candidates.json"
+    ],
+    "H3": [
+      "quality.json"
+    ],
+    "H4": [
+      "screening.json"
+    ],
+    "H5": [
+      "english.json",
+      "quality.json"
+    ],
+    "H6": [
+      "screening.json"
+    ],
+    "H7": [
+      "final.json",
+      "rejections.json",
+      "README.md"
+    ]
+  }
+}

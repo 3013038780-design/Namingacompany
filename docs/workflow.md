@@ -1,47 +1,47 @@
-# 四 Agent 命名工作流程
+# 四 Agent 工作流操作说明
 
-## 目标与约束
+[根目录README](../README.md)是强制流程唯一权威，本文件不重复定义门槛。当前版本1.0，机器阈值见[workflow-contract.json](workflow-contract.json)。主控不得以本文件旧内容替代README。
 
-每轮先读取 [最新审美反馈](../research/preferences.json)。通过来源与公开查重不足以进入备选，必须先通过科技公司／AI Lab定位评审。自然意象可以保留，但不以木业、水务、环保家具、养生或育儿气质作为品牌主印象。
+## 启动与依赖
 
-服务于持续学习、出厂后智能强化的 AI Lab，中文为主，允许二至四字及自然短语、熟字组合。没有指定字根；古文素材约占 15%，同时覆盖计算机、数学物理、自然、工艺生活及现代文化。
+1. 读取README、最新审美反馈、初始研究材料、全部历史候选，建立本轮历史去重索引。
+2. 为Agent 1、2、3、4建立四个独立执行实例；允许顺序启动。记录真实agent_id和execution_ref。主控另记ID。
+3. 按H1至H7交接。每个交付文件含来源、实际阅读范围和真实状态，主控复核后写验收回执。文件被修改后相关哈希与验收回执须重做。
+4. 零幸存不跳Agent 4，实际调用后提交零输入判断和英文复查回执。不能把未调用标为完成。
 
-案例研究覆盖广义科技、本轮 AI、RSI 相关 Lab。历史提案不计新增，同一家族只计一次；每轮须读取全部research/runs下的candidates.json及历史去重记录，不只读取第一轮history.json。公开搜索初筛与工商、商标登记分别记录。
+## 每轮文件
 
-## Agent 1 品牌案例研究
+目录为research/runs/<run_id>/，至少保存：run.json、cases.json、materials.json、candidates.json、quality.json、screening.json、english.json、handoffs.json、final.json、rejections.json与README.md。
 
-先读取 [初始研究材料](../research/seed/brand-naming-foundation.md) 及其 [版本说明](../research/seed/README.md)。它是研究起点，不是已经完成核验的结论库；不能只复用试跑的12个案例。
+- run.json：protocol_version、run_id、status、coordinator_id、roles（A1至A4），角色包含agent_id、execution_ref、started_at、completed_at和status；完成角色的status为completed。状态为in_progress、incomplete、complete_with_candidates或complete_without_candidates。
+- handoffs.json：handoffs数组。每项含id（H1至H7）、status、from、to、timestamp、reason、candidate_ids、input_refs、output_refs；每个ref含path和sha256。路径均为本轮目录内的相对路径；推荐引用不可变的阶段版本，禁止引用handoffs.json自身，以免自引用哈希。
+- quality.json：reviews数组。每个评审含candidate_id、language（zh/en）、reviewer（producer/coordinator）、scores与notes；轴名以契约为准。每个notes轴含reason和counter_association；同时记录对方分数未见时已独立提交的执行引用。评审还含name（该次评审的实际中/英文写法）、execution_ref和independent_submission_ref；每个候选每语言每评审版本有一个有效最新评审，旧版本另存返工记录。
+- screening.json：chinese、english两个数组；每项含candidate_id、status、queries与registry_checks。queries每项含query、executed_at、result_summary及evidence；有占用命中时evidence含entity_name、match_type、url和access。登记查询逐入口写status，不能以首页访问替代逐名查询。
+- final.json：candidates数组，只有最终通过的候选，每项含id、family_id、chinese、english及source_ids。中文储备另列，不放这个数组。
+- rejections.json：entries数组，逐名记录candidate_id、name、language、stage、reason_code、reason和evidence；明确占用条目evidence必须含entity_name、match_type、url、checked_at和access。
 
-阅读公司、创始人或实际命名机构的可访问资料，记录品牌、来源链接、实际词源、研究者解读及可迁移原则。品牌使用与命名动机不可混为一谈。优先声音、画面、内在关系和长期延展性，不把成功归因于名字本身。
+候选名和家族的起源见candidates.json：candidates数组每项至少含id、name、family_id、material_ids、principle_ids、meaning、combination_reason、weakness和history_check（status与reason）。素材来源见materials.json的materials数组；每项含id、family_id、category、reading_scope、source_urls、fact与is_classical。案例研究cases.json需含cases、principles和counterexamples。英文english.json含entries数组，每项关联candidate_id并记录name与status，包含所有生成但落选的版本。
 
-交付 cases.json。素材不足或仅有搜索摘要时明确阅读范围，不编造词源。
+## 验收与失败
 
-## Agent 2 素材研究与中文创造
+完整轮次须满足所有角色完成、H1至H7回执齐全、文件引用与哈希有效、双语门槛、独立查重、家族去重及逐名淘汰记录。进行中轮次允许阶段缺项，但必须保留真实进行中状态；不能列最终通过名。
 
-依据原则实际读取新闻、科学资料和可访问书籍章节，形成 materials.json。每卡含来源、阅读范围、事实与命名关系。古文保持少量，正文阅读与摘要阅读分别标记。
+JSON校验只是形式核对。真实执行、来源支持、独立评审和审美由主控审核。2026-11-06与2026-11-06-round2是明确的历史例外，仅作数据一致性校验，不改成1.0合规轮次。
 
-先以不同素材与构词关系形成独立家族，再写候选。每名记录编号、家族编号、读音、来源、释义、组合原因、品牌故事与短板。优先自然称呼；口号、拗口短句、依靠集/里等后缀补形及机械拼字在本阶段淘汰。
+模板和验收格式变更必须同步README与契约并获得用户批准。参考现有历史数据时不能照搬它缺失回执的结构用于新轮次。
 
-交付 candidates.json。24 字面草案不得当作 24 独立创意。
+## 机器字段约定
 
-## Agent 3 使用及登记筛查
+案例cases每项含id、category（broad_tech/current_ai/rsi_labs）、name、word_origin_fact、naming_analysis、reading_scope和sources；每个source含url、access（body表示已读正文）及supports。principles每项含id、positive_example、counterexample、boundary，counterexamples数组独立列至少3条。每个案例至少一个已读正文来源。
 
-依次检索精确中文、无行业限定的中文、繁体、拼音与合理近音，再针对通过中文的英文执行精确、分词和行业检索。科技/AI 公司、模型及软件产品明确同名则否决；跨行业使用披露，近似名单独判断。
+素材source_type为book/news/other；reading_scope为full_text/chapter/excerpt/abstract/snippet，reading_location注明读到哪里。书籍用book_id区分；新闻用published_at记录实际发表日期。计入阅读数量的只能是full_text/chapter/excerpt且有reading_location；不把摘要计作正文。
 
-每项保留查询词、日期、命中页面、实际证据和检索范围。对每个落选名字给出具体原因；占用类原因写明具体公司全称或产品名称，不只写“已注册”或“撞名”。网页使用不是商标已注册；无命中不是全球可注册。官方入口失败时记录失败，候选只可标「公开使用初筛」，不得标「注册核验通过」。
+查询记录含kind，其枚举见契约。占用命中evidence逐条含entity_name、match_type、url、access；未命中仍含实际查询词、执行时间和结果摘要。筛查status通过值为pass_public_precheck，其余为reject_exact_use、hold_near_match、hold_unverified或not_screened_editorial。阳性对照positive_controls每项含entity_type（company/product）、detected:true及来源url。
 
-交付 screening.json。使用已知占用名称做阳性对照，确认流程能实际识别公司和产品。
+最终候选的中文筛查记录须有CN/company、CN/trademark_9、CN/trademark_42及至少一个境外company登记尝试；每项含region、type、status、url、attempted_at、detail。最终候选中不允许这些项目仍为not_checked；入口失效用unavailable并披露。英文复查独立记录自己的queries。此要求是尝试与披露，不是保证注册可用。
 
-## Agent 4 英文匹配
+run.json还含date、research_mode（bootstrap/continuation）；首个1.0轮次默认bootstrap，只有实际读取过已验收案例基线时才能用continuation，须在交接回执中引用该基线。handoffs.json每项from/to以A1/A2/A3/A4/coordinator/user标识角色。
 
-只为通过中文初筛的名字匹配英文，可音译、意译、同主题独立命名或造词。每中文最多两案，记录建议读音、真实构词过程、双语关系及短板。不强求逐字翻译，不编造拉丁或科学词根。
+rework.json为可选返工日志，entries每项含candidate_id、language、attempt（1或2）、reason、responsible_role及前后版本引用；有返工就必填，次数不可静默重置。将最终仍无合格英文的中文归储备时，去留记录用NO_ENGLISH_PAIR，不计完整候选。
 
-交付 english.json；所有英文必须交回 Agent 3 独立复查。英文撞名可重配两轮，仍不自然则保留中文储备，不计完整交付。
-
-## 主控与审阅
-
-顺序：Agent 1 → Agent 2 → 中文编辑评审 → Agent 3 → Agent 4 → Agent 3 英文复查 → 主控终审。允许在依赖明确时并行研究，不允许尚未核查的内容被当作通过。
-
-主控统一提交资料。每轮保存案例、素材、候选、去留、英文和最终结果；既有证据修正留痕。用户反馈进入相应候选 Issue，下一轮读取偏好，不机械复用喜欢的字根。
-
-每日 20 个不同创意家族是目标，达不到如实报告。09:00 Asia/Shanghai 为后续期望交付时间；目前未创建调度。自动化实施和产能验证另行审阅。
+交接output_refs至少覆盖契约handoff_output_files规定的角色交付文件名；允许放在本轮不可变阶段子目录中。H3至H6的candidate_ids必须与实际进入筛查/通过上游的人口一致，不能用空回执跳过实际幸存者。

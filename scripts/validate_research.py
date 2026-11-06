@@ -1,11 +1,16 @@
 """Validate recorded counts, candidate references and screening provenance."""
 import json
+from validate_workflow import CONTRACT, validate as validate_workflow
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 def validate(run):
+    if run.name not in CONTRACT['legacy_runs']:
+        print(f'{run.name}: {validate_workflow(run)}')
+        return
+    print(f'{run.name}: LEGACY DATA ONLY — not protocol 1.0 compliant')
     data = {p.stem: json.loads(p.read_text()) for p in run.glob('*.json')}
     candidates = data['candidates']['candidates']
     by_id = {c['id']: c for c in candidates}
