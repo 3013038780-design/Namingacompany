@@ -4,12 +4,15 @@
 
 ## 阅读入口与当前状态
 
-- [Agent 1：初始105组的命名方向地图与逐案重分析](research/runs/2026-11-06-agent1-baseline105/README.md)：当前主研究入口，区分素材来源、品牌角色与语言构成；本阶段只做研究。
+- [Agent 2：跨领域素材卡与中文草案](research/runs/2026-11-06-agent2-materials-cn/README.md)：基于105组分类展开书籍与新闻阅读；本阶段只交付素材、中文草案及编辑审阅，停在用户审阅，不进入注册筛查与英文匹配。
+- [Agent 1：初始105组的命名方向地图与逐案重分析](research/runs/2026-11-06-agent1-baseline105/README.md)：本轮创作的研究基础，区分素材来源、品牌角色与语言构成；本阶段只做研究。
 - [20个补充案例深析](research/runs/2026-11-06-agent1-expansion/README.md)：保留为案例补充；其中构词与传播技巧不是宏观命名方向的替代。
 - [初始研究材料与完整表格](research/seed/brand-naming-foundation.md)及[版本说明](research/seed/README.md)：用户指定 Page 的完整 313 行正文与表格。
 - [最新审美反馈](research/preferences.json)：用户的喜欢、否决及原因；与全部历史候选一起读取。
 - [首轮全部落选原因](research/runs/2026-11-06/rejections.md)、[第二轮研究与去留](research/runs/2026-11-06-round2/README.md)。
 - [历史背景](research/background/)只作研究线索，不代表当前推荐或已核实结论。
+
+当前Agent 2阶段交付24张素材卡及24个中文草案，扣除1个历史旁支后新增23个独立家族，目标缺1；中文双评过线3案仍未查重。H2因家族缺额退回，停在用户审阅。
 
 历史两轮均未验证符合本规范，不补造角色回执、分数或交接记录。首轮两组配对已被用户否决，当前完整备选为 0 组。尚未启用每日任务；每天 20 个是目标，不是已验证产能。
 

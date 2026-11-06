@@ -1,0 +1,141 @@
+{
+  "handoffs": [
+    {
+      "id": "H1",
+      "from": "A1",
+      "to": "A2",
+      "status": "accepted",
+      "timestamp": "2026-11-06T14:04:00+08:00",
+      "timestamp_note": "Coordinator receipt recording time, not an invented Agent start time.",
+      "reason": "A2实际读取105案分类、7原则、反例与历史后明确接收；源世界与角色分轴可指导多领域取材，未知动机保留边界。",
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "inputs/execution/AGENTS.md",
+          "sha256": "d617441e17e37be205d605201428944f013836e9016dfe591ff8f440f00f3286"
+        },
+        {
+          "path": "inputs/execution/README.md",
+          "sha256": "3650e9252ceeed22d621ce0d2d4b52dcf055ac58a411c81f969091d32c507079"
+        },
+        {
+          "path": "inputs/execution/preferences.json",
+          "sha256": "e807301bbc7557dab7983f3b390213d71a5b682dd2aaab9e33f93c22fb8bfb9b"
+        },
+        {
+          "path": "inputs/A1/README.md",
+          "sha256": "72ec38fefa7cec1ad528378a38cb1cd5b156ebe23ed74b1bd7f9a86943a0edd9"
+        },
+        {
+          "path": "inputs/A1/cases.json",
+          "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746"
+        },
+        {
+          "path": "inputs/A1/taxonomy.json",
+          "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "inputs/A1/README.md",
+          "sha256": "72ec38fefa7cec1ad528378a38cb1cd5b156ebe23ed74b1bd7f9a86943a0edd9"
+        },
+        {
+          "path": "inputs/A1/cases.json",
+          "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746"
+        },
+        {
+          "path": "inputs/A1/taxonomy.json",
+          "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+        }
+      ],
+      "acceptance_execution_ref": "collaboration message /root/agent2_materials_cn: H1接收 accepted in current Codex chat",
+      "producer_execution_ref": "prior /root/agent1_baseline105 delivery, preserved in inputs/A1/run.json"
+    },
+    {
+      "id": "H2",
+      "from": "A2",
+      "to": "coordinator",
+      "status": "returned",
+      "timestamp": "2026-11-06T14:25:04+08:00",
+      "reason": "Actual A2 materials and all24 drafts received, reading and source sample reviewed, but independent new families23/24; cannot accept gate by counting historical moire branch. Delivered to user as drafts with explicit shortfall; no downstream. A2C21 score disagreement resolved by actual producer re-review, remains below gate.",
+      "candidate_ids": [
+        "A2C01",
+        "A2C02",
+        "A2C03",
+        "A2C04",
+        "A2C05",
+        "A2C06",
+        "A2C07",
+        "A2C08",
+        "A2C09",
+        "A2C10",
+        "A2C11",
+        "A2C12",
+        "A2C13",
+        "A2C14",
+        "A2C15",
+        "A2C16",
+        "A2C17",
+        "A2C18",
+        "A2C19",
+        "A2C20",
+        "A2C21",
+        "A2C22",
+        "A2C23",
+        "A2C24"
+      ],
+      "input_refs": [
+        {
+          "path": "inputs/A1/cases.json",
+          "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746"
+        },
+        {
+          "path": "inputs/A1/taxonomy.json",
+          "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "inputs/A2/materials.json",
+          "sha256": "29351c196c1e9eccb306d5a0c2160b934ea7de2e1887d3072175693b4eb8b6e3"
+        },
+        {
+          "path": "inputs/A2/candidates.json",
+          "sha256": "ae6454d3c330698afa7d7844353f8709f59fb619500ae14cca10885864213ceb"
+        },
+        {
+          "path": "inputs/A2/reading-log.json",
+          "sha256": "b587515ad5b3a6f405fda1e6a4e1c4641243f7731a08d5fc6b01047a5d19069d"
+        },
+        {
+          "path": "inputs/A2/producer-quality.json",
+          "sha256": "975a0e20d255248e498cda9d7e7463d2a6653107e5b26a9419cb4949efa48535"
+        },
+        {
+          "path": "inputs/A2/README.md",
+          "sha256": "e592b4c87d7bcc7ae9801d44c36e2ab7c481b7dc799916b46dec4ff7b879ff44"
+        },
+        {
+          "path": "producer-rework.json",
+          "sha256": "292c55f195680d350a8abcb0fd7abc2dc5435d823c7c4c081799ad481724522c"
+        },
+        {
+          "path": "editorial-quality.json",
+          "sha256": "270f196f602be33da6e8ba1390a67259c43b83733ee24132db14c8f1a42f7014"
+        },
+        {
+          "path": "quality-comparison.json",
+          "sha256": "8ac4eeff6d80246744806aab5da0b70c44e092fa71a77932daf3f7d818daee20"
+        },
+        {
+          "path": "source-review.json",
+          "sha256": "2820efd56b0286c353552796d2446b9d5ea49b299762d5b4bc9bdff0964a6cb1"
+        }
+      ],
+      "producer_execution_ref": "collaboration actual /root/agent2_materials_cn delivery; producer-rework.json h2_producer_delivery_receipt",
+      "snapshot_note": "Original eight A2 outputs preserved byte-identically in producer-frozen-outputs.zip. inputs/A2 copies preserve JSON/README bytes; candidates.md and materials.md remove redundant trailing blank line only, logged in format-normalization.json. Main README adds coordinator conclusions."
+    }
+  ],
+  "pending": "H2 returned for one independent-family shortfall. H3-H7 unstarted; user requested material and Chinese draft review only."
+}

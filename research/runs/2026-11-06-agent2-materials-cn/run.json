@@ -1,0 +1,54 @@
+{
+  "protocol_version": "1.0",
+  "run_id": "2026-11-06-agent2-materials-cn",
+  "date": "2026-11-06",
+  "status": "incomplete",
+  "stage": "agent2_materials_and_chinese_drafts",
+  "coordinator_id": "/root",
+  "scope": "User authorized A2 materials and Chinese drafts for review only, using the prior 105-case A1 research. No A3/A4 or final bilingual shortlist authorized in this stage.",
+  "roles": {
+    "A1": {
+      "agent_id": "/root/agent1_baseline105",
+      "status": "completed",
+      "execution_ref": "prior research run 2026-11-06-agent1-baseline105; preserved in inputs/A1/run.json"
+    },
+    "A2": {
+      "agent_id": "/root/agent2_materials_cn",
+      "status": "completed",
+      "execution_ref": "Actual collaboration /root/agent2_materials_cn delivery and one grounding re-review; producer-rework.json contains frozen-output receipt."
+    }
+  },
+  "not_started": [
+    "A3",
+    "A4"
+  ],
+  "targets": {
+    "material_families": 24,
+    "concrete_source_categories": 6,
+    "books_with_body_reading": 2,
+    "news_bodies_last_90_days": 3,
+    "candidate_families": 24
+  },
+  "final_bilingual_candidates": 0,
+  "schedule_created": false,
+  "stage_status": "delivered_for_user_review_with_family_shortfall",
+  "recorded_completed_at": "2026-11-06T14:25:04+08:00",
+  "actual_counts": {
+    "baseline_cases": 105,
+    "material_cards": 24,
+    "new_material_families": 23,
+    "literal_chinese_drafts": 24,
+    "new_candidate_families": 23,
+    "historical_branch_families": 1,
+    "new_family_shortfall": 1,
+    "books_with_body_excerpts": 5,
+    "recent_news_body_sections": 5,
+    "recent_news_primary_publication_dates_confirmed_minimum": 3,
+    "classical_cards": 0,
+    "dual_chinese_editorial_pass": 3,
+    "final_bilingual_candidates": 0,
+    "coordinator_source_cards_audited": 10,
+    "english_or_registration_screening_started": false
+  },
+  "incomplete_reason": "H2 independent-new-family target23/24; stage stopped at user requested Chinese review. A3/A4/H3-H7 not started, not zero-input completed."
+}

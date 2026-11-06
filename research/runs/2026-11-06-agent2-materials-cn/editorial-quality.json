@@ -1,0 +1,1138 @@
+{
+  "reviewer": "/root",
+  "submitted_at": "2026-11-06T14:21:10+08:00",
+  "producer_scores_seen_before_submission": false,
+  "input_disclosure": "Read candidate meanings, provenance and weaknesses; candidates.json also contains qualitative producer dispositions. Numeric producer scores and producer-quality.json not opened. Not a fully blinded consumer test.",
+  "candidate_input_sha256": "d76ac2b92dedd406682429ea95618d36966b98e798139eeed7ff03c4c22d782a",
+  "reviews": [
+    {
+      "candidate_id": "A2C01",
+      "name": "视差",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 5,
+        "semantic_coherence": 4
+      },
+      "total": 27,
+      "notes": {
+        "naturalness": {
+          "reason": "现成双音节称呼",
+          "counter_association": "可能听成视力差"
+        },
+        "distinctiveness": {
+          "reason": "双眼与星距形成清晰画面",
+          "counter_association": "术语熟悉但品牌未必独特"
+        },
+        "lab_fit": {
+          "reason": "观察方法能承载科学研究",
+          "counter_association": "可能被限定为视觉算法"
+        },
+        "grounding": {
+          "reason": "日常视觉与天文测距共享几何",
+          "counter_association": "多视角并不必然正确"
+        },
+        "extension": {
+          "reason": "可延展为不同认识工具",
+          "counter_association": "天文或视觉可能框住业务"
+        },
+        "semantic_coherence": {
+          "reason": "视角差异与认识保持同一主线",
+          "counter_association": "差异并不等于智能强化"
+        }
+      },
+      "quality_pass": true,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C02",
+      "name": "另解",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "total": 21,
+      "notes": {
+        "naturalness": {
+          "reason": "短语自然可说",
+          "counter_association": "像追加答案的残句"
+        },
+        "distinctiveness": {
+          "reason": "缺少独立图像",
+          "counter_association": "易与各种解题内容混同"
+        },
+        "lab_fit": {
+          "reason": "更像题解栏目",
+          "counter_association": "教育辅导第一联想"
+        },
+        "grounding": {
+          "reason": "杜威案例支持更换解释",
+          "counter_association": "不是杜威的原词"
+        },
+        "extension": {
+          "reason": "可谈研究方法但依赖一题语境",
+          "counter_association": "难成为多产品母品牌"
+        },
+        "semantic_coherence": {
+          "reason": "多解释与独立判断一致",
+          "counter_association": "反对共识不必然带来更好认识"
+        }
+      },
+      "quality_pass": false,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C03",
+      "name": "弦外",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "熟悉而简洁的中文",
+          "counter_association": "省略弦外之音略有截短"
+        },
+        "distinctiveness": {
+          "reason": "声音与音乐意象清楚",
+          "counter_association": "文艺品牌也常用这类词"
+        },
+        "lab_fit": {
+          "reason": "文化机构联想先于Lab",
+          "counter_association": "音乐培训或文化公司"
+        },
+        "grounding": {
+          "reason": "James原文已有音乐与认识的比喻",
+          "counter_association": "并非弦理论或现代神经定论"
+        },
+        "extension": {
+          "reason": "可涵盖理解与表达研究",
+          "counter_association": "可能限制为内容创作"
+        },
+        "semantic_coherence": {
+          "reason": "言外关系丰富同一主题",
+          "counter_association": "容易把语境理解夸成意识"
+        }
+      },
+      "quality_pass": false,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C04",
+      "name": "显影",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "现成完整动作词",
+          "counter_association": "像摄影工序"
+        },
+        "distinctiveness": {
+          "reason": "潜像变可见的画面鲜明",
+          "counter_association": "影像品牌辨识压力"
+        },
+        "lab_fit": {
+          "reason": "摄影服务联想较强",
+          "counter_association": "摄影工作室优先"
+        },
+        "grounding": {
+          "reason": "实际实验摄影支持成像关系",
+          "counter_association": "文章未直接建立学习机制"
+        },
+        "extension": {
+          "reason": "可讲发现但仍偏影像",
+          "counter_association": "可能局限视觉产品"
+        },
+        "semantic_coherence": {
+          "reason": "线索到证据主线一致",
+          "counter_association": "显现不能等同能力增长"
+        }
+      },
+      "quality_pass": false,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C05",
+      "name": "随行",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 3
+      },
+      "total": 21,
+      "notes": {
+        "naturalness": {
+          "reason": "现成日常称呼",
+          "counter_association": "也可读作随行人员"
+        },
+        "distinctiveness": {
+          "reason": "泛化陪伴动作",
+          "counter_association": "普通服务品牌难区分"
+        },
+        "lab_fit": {
+          "reason": "出行助手胜于研究身份",
+          "counter_association": "旅行或助手产品"
+        },
+        "grounding": {
+          "reason": "闭包携带环境的类比可解释",
+          "counter_association": "环境关系并非物理随身包"
+        },
+        "extension": {
+          "reason": "产品伴随角色强母品牌弱",
+          "counter_association": "难容纳纯研究姿态"
+        },
+        "semantic_coherence": {
+          "reason": "语境随能力走基本一致",
+          "counter_association": "闭包不意味着经验增长"
+        }
+      },
+      "quality_pass": false,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C06",
+      "name": "通式",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 3
+      },
+      "total": 22,
+      "notes": {
+        "naturalness": {
+          "reason": "中文既有数学用词",
+          "counter_association": "像教材小标题"
+        },
+        "distinctiveness": {
+          "reason": "声音画面平淡",
+          "counter_association": "通识近音增加混同"
+        },
+        "lab_fit": {
+          "reason": "方法抽象有科研身份",
+          "counter_association": "像教学材料产品"
+        },
+        "grounding": {
+          "reason": "高阶函数表达通用方法有据",
+          "counter_association": "非高阶函数标准译名"
+        },
+        "extension": {
+          "reason": "可容纳多个研究问题",
+          "counter_association": "通用承诺可能过大"
+        },
+        "semantic_coherence": {
+          "reason": "普遍形式与方法相连但略泛",
+          "counter_association": "把通用泛化成全能会断裂"
+        }
+      },
+      "quality_pass": false,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C07",
+      "name": "不变",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 2,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 2
+      },
+      "total": 20,
+      "notes": {
+        "naturalness": {
+          "reason": "日常词顺口",
+          "counter_association": "也像口号截句"
+        },
+        "distinctiveness": {
+          "reason": "常用态度词辨识弱",
+          "counter_association": "难以作为独立专名"
+        },
+        "lab_fit": {
+          "reason": "固守不变与研究探索冲突",
+          "counter_association": "保守服务机构"
+        },
+        "grounding": {
+          "reason": "物理不变性真实且严谨",
+          "counter_association": "不能任意推广理想对称"
+        },
+        "extension": {
+          "reason": "长期可讲规律但形象僵固",
+          "counter_association": "难讲方法与机构进步"
+        },
+        "semantic_coherence": {
+          "reason": "日常不变与能力改变形成强张力",
+          "counter_association": "解释不能消除直觉冲突"
+        }
+      },
+      "quality_pass": false,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C08",
+      "name": "莫尔纹",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "既有三音节术语",
+          "counter_association": "莫尔摩尔易误写"
+        },
+        "distinctiveness": {
+          "reason": "有明确干涉纹理画面",
+          "counter_association": "与其他莫尔名易混"
+        },
+        "lab_fit": {
+          "reason": "材料科学气质成立",
+          "counter_association": "可能偏材料或显示设备"
+        },
+        "grounding": {
+          "reason": "图案与材料关系有实际来源",
+          "counter_association": "普通纹样并非报道实验本身"
+        },
+        "extension": {
+          "reason": "可涵盖关系与新结构",
+          "counter_association": "不必然适合通用AI"
+        },
+        "semantic_coherence": {
+          "reason": "错位产生尺度关系一致",
+          "counter_association": "不能把叠加都说成智能涌现"
+        }
+      },
+      "quality_pass": false,
+      "countable_new_family": false,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C09",
+      "name": "一闪",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 3
+      },
+      "total": 22,
+      "notes": {
+        "naturalness": {
+          "reason": "动作简短自然",
+          "counter_association": "像操作提示"
+        },
+        "distinctiveness": {
+          "reason": "突然一闪画面明确",
+          "counter_association": "泛闪类品牌也有同样记点"
+        },
+        "lab_fit": {
+          "reason": "快服务或相机联想较强",
+          "counter_association": "摄影App优先"
+        },
+        "grounding": {
+          "reason": "射电暴的短时事件来源清楚",
+          "counter_association": "不是可见光闪亮"
+        },
+        "extension": {
+          "reason": "瞬间姿态难承载长年机构",
+          "counter_association": "短暂或昙花一现"
+        },
+        "semantic_coherence": {
+          "reason": "捕捉线索一致但力量稍弱",
+          "counter_association": "瞬间发现与长期研究连接较薄"
+        }
+      },
+      "quality_pass": false,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C10",
+      "name": "星间",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 5,
+        "semantic_coherence": 3
+      },
+      "total": 23,
+      "notes": {
+        "naturalness": {
+          "reason": "星体之间可自然理解",
+          "counter_association": "与星间空间略有省略"
+        },
+        "distinctiveness": {
+          "reason": "星字常见独特度不足",
+          "counter_association": "星际星域易混"
+        },
+        "lab_fit": {
+          "reason": "天文探索能容纳科研Lab",
+          "counter_association": "文艺天文品牌也可能"
+        },
+        "grounding": {
+          "reason": "外流塑造周围空间的事实成立",
+          "counter_association": "非原新闻中文原名"
+        },
+        "extension": {
+          "reason": "空间意象可长期开放",
+          "counter_association": "宽泛到失去自有姿态"
+        },
+        "semantic_coherence": {
+          "reason": "词本身未明确带出作用关系",
+          "counter_association": "不能只凭间字说协同智能"
+        }
+      },
+      "quality_pass": false,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C11",
+      "name": "察觉",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "中文常用动词",
+          "counter_association": "像功能按钮"
+        },
+        "distinctiveness": {
+          "reason": "易记但难成为专属称呼",
+          "counter_association": "日常使用频率太高"
+        },
+        "lab_fit": {
+          "reason": "感知判断可承载认知研究",
+          "counter_association": "监控或心理工具联想"
+        },
+        "grounding": {
+          "reason": "检测与报告区别提供素材",
+          "counter_association": "小鼠不能直接推断模型体验"
+        },
+        "extension": {
+          "reason": "可涵盖多模态与判断",
+          "counter_association": "可能局限感知产品"
+        },
+        "semantic_coherence": {
+          "reason": "接收到意义主线连贯",
+          "counter_association": "不能宣称机器有主观意识"
+        }
+      },
+      "quality_pass": false,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C12",
+      "name": "等高线",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "完整三字称呼",
+          "counter_association": "稍像普通地图标注"
+        },
+        "distinctiveness": {
+          "reason": "平面线描立体画面明确",
+          "counter_association": "测绘常用词难独占"
+        },
+        "lab_fit": {
+          "reason": "科学表示与理解有研究身份",
+          "counter_association": "测绘户外第一联想"
+        },
+        "grounding": {
+          "reason": "等海拔连接关系直接真实",
+          "counter_association": "地图不是全部世界知识"
+        },
+        "extension": {
+          "reason": "可容纳表示与世界理解研究",
+          "counter_association": "可能锁定空间领域"
+        },
+        "semantic_coherence": {
+          "reason": "关系使复杂世界可读一致",
+          "counter_association": "表示不必然提供更好决策"
+        }
+      },
+      "quality_pass": true,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C13",
+      "name": "下一镜",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 3,
+        "distinctiveness": 3,
+        "lab_fit": 2,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 3
+      },
+      "total": 18,
+      "notes": {
+        "naturalness": {
+          "reason": "能理解但像未完的操作提示",
+          "counter_association": "下一镜头才是完整常用说法"
+        },
+        "distinctiveness": {
+          "reason": "缺稳定专名声音",
+          "counter_association": "易与下一幕等互换"
+        },
+        "lab_fit": {
+          "reason": "影视产品强于Lab",
+          "counter_association": "短视频剪辑工具"
+        },
+        "grounding": {
+          "reason": "镜头关系的理论有据",
+          "counter_association": "不是蒙太奇标准中文概念"
+        },
+        "extension": {
+          "reason": "下一个暗示过程但角色单薄",
+          "counter_association": "难从剪辑扩到研究机构"
+        },
+        "semantic_coherence": {
+          "reason": "连续镜头与意义可解释",
+          "counter_association": "不能凭下一解释持续学习"
+        }
+      },
+      "quality_pass": false,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C14",
+      "name": "转场",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 3,
+        "extension": 3,
+        "semantic_coherence": 3
+      },
+      "total": 20,
+      "notes": {
+        "naturalness": {
+          "reason": "现成动作词自然",
+          "counter_association": "常被当作剪辑动作"
+        },
+        "distinctiveness": {
+          "reason": "舞台影视惯用词辨识弱",
+          "counter_association": "普通影视服务词"
+        },
+        "lab_fit": {
+          "reason": "场景迁移像功能或服务",
+          "counter_association": "部署迁移工具联想"
+        },
+        "grounding": {
+          "reason": "转场与exaptation仅较宽比喻",
+          "counter_association": "新场景不等于新适应功能"
+        },
+        "extension": {
+          "reason": "机构被限定为转换动作",
+          "counter_association": "长期角色不够清晰"
+        },
+        "semantic_coherence": {
+          "reason": "新用途主线被空间转换稀释",
+          "counter_association": "生物功能变化与场所变化不同"
+        }
+      },
+      "quality_pass": false,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C15",
+      "name": "活版",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "完整技术史名词",
+          "counter_association": "也像工艺门店"
+        },
+        "distinctiveness": {
+          "reason": "可重排字符画面鲜明",
+          "counter_association": "活字活版容易混称"
+        },
+        "lab_fit": {
+          "reason": "出版印刷联想先于研究Lab",
+          "counter_association": "出版社或字体公司"
+        },
+        "grounding": {
+          "reason": "单元重排确有实物机制",
+          "counter_association": "拼排不是智能学习"
+        },
+        "extension": {
+          "reason": "中国知识工具身份可延展",
+          "counter_association": "可能局限文字产品"
+        },
+        "semantic_coherence": {
+          "reason": "部件到表达的主线一致",
+          "counter_association": "模块化不能独自代表认知"
+        }
+      },
+      "quality_pass": false,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C16",
+      "name": "对读",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "total": 21,
+      "notes": {
+        "naturalness": {
+          "reason": "动作可理解但专名感弱",
+          "counter_association": "像研究操作说明"
+        },
+        "distinctiveness": {
+          "reason": "声音温和缺独立画面",
+          "counter_association": "常与对照阅读混用"
+        },
+        "lab_fit": {
+          "reason": "文献翻译工具优先",
+          "counter_association": "阅读App或教研机构"
+        },
+        "grounding": {
+          "reason": "同文对照有译解史依据",
+          "counter_association": "对照不能独自破解未知"
+        },
+        "extension": {
+          "reason": "跨系统理解可延展但词窄",
+          "counter_association": "仍局限阅读行为"
+        },
+        "semantic_coherence": {
+          "reason": "比较到理解主线一致",
+          "counter_association": "不能从文字类比直接承诺泛化"
+        }
+      },
+      "quality_pass": false,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C17",
+      "name": "择径",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 3
+      },
+      "total": 22,
+      "notes": {
+        "naturalness": {
+          "reason": "构词可说但听写有成本",
+          "counter_association": "比选择路径稍书面"
+        },
+        "distinctiveness": {
+          "reason": "择径泽境易混",
+          "counter_association": "近音品牌难区分"
+        },
+        "lab_fit": {
+          "reason": "寻找方法有工程研究身份",
+          "counter_association": "导航工具也自然"
+        },
+        "grounding": {
+          "reason": "介质条件与路径例真实",
+          "counter_association": "光不在主动作选择"
+        },
+        "extension": {
+          "reason": "方法选择可容纳多研究",
+          "counter_association": "容易成为优化功能名"
+        },
+        "semantic_coherence": {
+          "reason": "有效路径与探索同主题",
+          "counter_association": "物理驻时不是全局最优承诺"
+        }
+      },
+      "quality_pass": false,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C18",
+      "name": "留白",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 2,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 3
+      },
+      "total": 21,
+      "notes": {
+        "naturalness": {
+          "reason": "中文熟词自然",
+          "counter_association": "日常工艺品牌称呼"
+        },
+        "distinctiveness": {
+          "reason": "泛设计用语辨识弱",
+          "counter_association": "众多文化语境难区分"
+        },
+        "lab_fit": {
+          "reason": "家居文创联想过强",
+          "counter_association": "设计工作室第一联想"
+        },
+        "grounding": {
+          "reason": "空白组织版面有实际来源",
+          "counter_association": "不是古文出处或数学开集"
+        },
+        "extension": {
+          "reason": "开放性可容纳未来但过泛",
+          "counter_association": "缺独有机构态度"
+        },
+        "semantic_coherence": {
+          "reason": "留空间与未知只是较松类比",
+          "counter_association": "空白不是潜在智能"
+        }
+      },
+      "quality_pass": false,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C19",
+      "name": "织数",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 3,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 22,
+      "notes": {
+        "naturalness": {
+          "reason": "语义可解但口头生硬",
+          "counter_association": "数读音不稳定"
+        },
+        "distinctiveness": {
+          "reason": "织造计算组合有画面",
+          "counter_association": "易误写知数"
+        },
+        "lab_fit": {
+          "reason": "纺织数字化联想强",
+          "counter_association": "行业软件优先"
+        },
+        "grounding": {
+          "reason": "Lovelace比喻提供真实交叉",
+          "counter_association": "真比喻不能保证中文自然"
+        },
+        "extension": {
+          "reason": "可谈计算创作但需解释",
+          "counter_association": "母品牌需依赖背景课"
+        },
+        "semantic_coherence": {
+          "reason": "模式组织与形式产出连贯",
+          "counter_association": "不能把织造当成所有计算机制"
+        }
+      },
+      "quality_pass": false,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C20",
+      "name": "触媒",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 5,
+        "semantic_coherence": 4
+      },
+      "total": 27,
+      "notes": {
+        "naturalness": {
+          "reason": "既有术语声音自然",
+          "counter_association": "触煤可能误听"
+        },
+        "distinctiveness": {
+          "reason": "变化条件的角色鲜明",
+          "counter_association": "部分受众不熟悉此词"
+        },
+        "lab_fit": {
+          "reason": "化学机制有科学研究身份",
+          "counter_association": "化工或传媒公司联想"
+        },
+        "grounding": {
+          "reason": "催化降能垒支持角色类比",
+          "counter_association": "模型增强不是化学催化"
+        },
+        "extension": {
+          "reason": "能容纳多模型多应用研究",
+          "counter_association": "可能泛化成咨询赋能"
+        },
+        "semantic_coherence": {
+          "reason": "为他者促成变化主线一致",
+          "counter_association": "不能保证所有输入都会变强"
+        }
+      },
+      "quality_pass": true,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C21",
+      "name": "行话",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 3,
+        "extension": 4,
+        "semantic_coherence": 3
+      },
+      "total": 22,
+      "notes": {
+        "naturalness": {
+          "reason": "日常固定词称呼自然",
+          "counter_association": "标准读音hang并非xing"
+        },
+        "distinctiveness": {
+          "reason": "圈内语言有记点",
+          "counter_association": "圈内术语也可排外"
+        },
+        "lab_fit": {
+          "reason": "资讯聊天产品联想更强",
+          "counter_association": "行业媒体或社群优先"
+        },
+        "grounding": {
+          "reason": "蜜蜂编码真实但行字靠转义",
+          "counter_association": "行动之行不是行话之行"
+        },
+        "extension": {
+          "reason": "交流与多主体研究可延展",
+          "counter_association": "可能局限聊天工具"
+        },
+        "semantic_coherence": {
+          "reason": "经验传递与行话只部分相接",
+          "counter_association": "双关不能冒充生物学词源"
+        }
+      },
+      "quality_pass": false,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C22",
+      "name": "过境",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 2,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 3
+      },
+      "total": 20,
+      "notes": {
+        "naturalness": {
+          "reason": "常用词自然",
+          "counter_association": "出入境行政用语"
+        },
+        "distinctiveness": {
+          "reason": "常规物流旅行词辨识弱",
+          "counter_association": "容易混于运输服务"
+        },
+        "lab_fit": {
+          "reason": "短暂停留不支持长期Lab身份",
+          "counter_association": "物流旅游第一联想"
+        },
+        "grounding": {
+          "reason": "迁徙中转与补给事实可用",
+          "counter_association": "补给不等于永久能力增长"
+        },
+        "extension": {
+          "reason": "旅程开放但机构主体薄",
+          "counter_association": "短暂停留削弱长期投入"
+        },
+        "semantic_coherence": {
+          "reason": "下一段条件与成长仅间接",
+          "counter_association": "不要把自然故事当智能机制"
+        }
+      },
+      "quality_pass": false,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C23",
+      "name": "空格键",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 3
+      },
+      "total": 23,
+      "notes": {
+        "naturalness": {
+          "reason": "完整日常三字物件名",
+          "counter_association": "外设功能名称太具体"
+        },
+        "distinctiveness": {
+          "reason": "键盘长键图像明确",
+          "counter_association": "键盘品牌也有相同画面"
+        },
+        "lab_fit": {
+          "reason": "计算接口具科技身份",
+          "counter_association": "游戏外设优先于Lab"
+        },
+        "grounding": {
+          "reason": "实体键与程序事件直接相连",
+          "counter_association": "键行为依应用而异"
+        },
+        "extension": {
+          "reason": "可做工具品牌母研究机构偏窄",
+          "counter_association": "可能局限输入工具"
+        },
+        "semantic_coherence": {
+          "reason": "无字也能输入主线清楚",
+          "counter_association": "不能从空格推出无限未知"
+        }
+      },
+      "quality_pass": false,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    },
+    {
+      "candidate_id": "A2C24",
+      "name": "凸点",
+      "language": "zh",
+      "reviewer": "coordinator",
+      "agent_id": "/root",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 3
+      },
+      "total": 21,
+      "notes": {
+        "naturalness": {
+          "reason": "短名词可说但误听多",
+          "counter_association": "秃点突点误听"
+        },
+        "distinctiveness": {
+          "reason": "触点画面鲜明",
+          "counter_association": "几何形状不等于专属识别"
+        },
+        "lab_fit": {
+          "reason": "触觉零件优先于通用Lab",
+          "counter_association": "零件或触觉设备公司"
+        },
+        "grounding": {
+          "reason": "位置编码有真实盲文依据",
+          "counter_association": "单个凸点不是整套文字"
+        },
+        "extension": {
+          "reason": "多感官表示可延展但词窄",
+          "counter_association": "难容纳非感知研究"
+        },
+        "semantic_coherence": {
+          "reason": "小点到编码一致但偏硬件",
+          "counter_association": "不把无障碍经验装饰化"
+        }
+      },
+      "quality_pass": false,
+      "countable_new_family": true,
+      "execution_ref": "Current Codex chat coordinator independent rating before opening producer-quality.json",
+      "independent_submission_ref": "editorial-quality.json:first_submission",
+      "source_audit_scope": "See source-review.json; not a company-use or registration screen."
+    }
+  ],
+  "note": "Editorial judgments only. Quality pass is not a screened recommendation. A3/A4 remain unstarted."
+}

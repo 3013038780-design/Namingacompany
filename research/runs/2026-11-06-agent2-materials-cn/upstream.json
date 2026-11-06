@@ -1,0 +1,33 @@
+{
+  "producer_role": "A1",
+  "producer_agent_id": "/root/agent1_baseline105",
+  "producer_run": "2026-11-06-agent1-baseline105",
+  "copy_method": "coordinator preserved byte-identical upstream snapshots; no additional A1 research execution claimed",
+  "artifacts": [
+    {
+      "original_path": "research/runs/2026-11-06-agent1-baseline105/README.md",
+      "path": "inputs/A1/README.md",
+      "sha256": "72ec38fefa7cec1ad528378a38cb1cd5b156ebe23ed74b1bd7f9a86943a0edd9"
+    },
+    {
+      "original_path": "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "path": "inputs/A1/cases.json",
+      "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746"
+    },
+    {
+      "original_path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "path": "inputs/A1/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+    },
+    {
+      "original_path": "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "path": "inputs/A1/source_review.json",
+      "sha256": "5c78134bd09df433bcfe267ffc1138eef15dc1cdb0d84f42802022b6801723b7"
+    },
+    {
+      "original_path": "research/runs/2026-11-06-agent1-baseline105/run.json",
+      "path": "inputs/A1/run.json",
+      "sha256": "f33a2b7eaa0d7a1be3f6f2facd590edd9ce799235f8c1315b67da4a5956e618c"
+    }
+  ]
+}
