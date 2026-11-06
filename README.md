@@ -4,6 +4,7 @@
 
 ## 阅读入口与当前状态
 
+- [Agent 1：已有案例盘点与20个新增案例深析](research/runs/2026-11-06-agent1-expansion/README.md)：本次只做案例研究，先审阅命名来源、交叉点和品牌成立的条件；未进入创作、查重或英文匹配。
 - [初始研究材料与完整表格](research/seed/brand-naming-foundation.md)及[版本说明](research/seed/README.md)：用户指定 Page 的完整 313 行正文与表格。
 - [最新审美反馈](research/preferences.json)：用户的喜欢、否决及原因；与全部历史候选一起读取。
 - [首轮全部落选原因](research/runs/2026-11-06/rejections.md)、[第二轮研究与去留](research/runs/2026-11-06-round2/README.md)。

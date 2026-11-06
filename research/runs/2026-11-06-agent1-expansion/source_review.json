@@ -1,0 +1,171 @@
+{
+  "reviewer": "/root",
+  "date": "2026-11-06",
+  "status": "reviewed_after_corrections",
+  "scope": "主控阅读全部20案原稿，独立打开每案至少一个主要来源正文，并检查所涉词典释义。复核主要事实及归因边界，不声称重读所有补充链接或重验旧105组。",
+  "new_case_target": 20,
+  "independent_source_observations": [
+    {
+      "name": "PingCAP",
+      "url": "https://pingcap.co.jp/about-us/",
+      "access": "body",
+      "reading_scope": "社名由来段落109–114",
+      "supported_claim_and_boundary": "官方明确Ping命令与CAP定理组合；连接三者是命名愿望，不是已突破定理。"
+    },
+    {
+      "name": "追觅 / Dreame",
+      "url": "https://www.dreame.tech/mobileAbout",
+      "access": "body",
+      "reading_scope": "正文2–13",
+      "supported_claim_and_boundary": "品牌同时使用梦想人生与ALL DREAMS IN ONE DREAME；支持梦想主题呼应，不支持严格音译。"
+    },
+    {
+      "name": "沐曦 / MetaX",
+      "url": "https://www.metax-tech.com/",
+      "access": "body",
+      "reading_scope": "首页产品系列8–11与公司介绍155–159",
+      "supported_claim_and_boundary": "确认双语品牌、GPU及曦字产品体系；首页不能证明Meta+X的历史命名动机。about.html本次直开超时，未把搜索结果误记为已打开。"
+    },
+    {
+      "name": "Raspberry Pi",
+      "url": "https://makezine.com/article/technology/raspberry-pi/10-questions-for-raspberry-pis-eben-upton/",
+      "access": "body",
+      "reading_scope": "创始人问答Where did the name come from，107–109",
+      "supported_claim_and_boundary": "原始访谈明确水果命名传统与Python来源；不能把Pi最初动机改写成圆周率。"
+    },
+    {
+      "name": "Stripe",
+      "url": "https://tim.blog/2018/12/24/the-tim-ferriss-show-patrick-collison/",
+      "access": "body",
+      "reading_scope": "创始人命名问答229–260",
+      "supported_claim_and_boundary": "旧名沟通困难、改找单音节词及可取得的域名有原始访谈支持；不据支付业务编造磁条起名。"
+    },
+    {
+      "name": "Elastic",
+      "url": "https://www.elastic.co/blog/elastic-you-know-for-more-than-search",
+      "access": "body",
+      "reading_scope": "2015年改名声明120–145",
+      "supported_claim_and_boundary": "公司因业务超出搜索改用Elastic，产品保留Elasticsearch；不把删功能词概括为所有公司的必选策略。"
+    },
+    {
+      "name": "ElevenLabs",
+      "url": "https://salesforceventures.com/perspectives/how-elevenlabs-is-making-voice-ai-more-human/",
+      "access": "body",
+      "reading_scope": "CEO活动纪要18–30",
+      "supported_claim_and_boundary": "活动主办方记录Apollo11、SpinalTap与数字偏好；属于原始活动纪要，非公司官网起名公告。数字偏好不是特殊数学性质证明。"
+    },
+    {
+      "name": "Latent Labs",
+      "url": "https://www.latentlabs.com/",
+      "access": "body",
+      "reading_scope": "使命14–19及产品20–43",
+      "supported_claim_and_boundary": "官网确认生成式生物模型与分子设计研究；词义及潜在空间关联可以分析，官网未确认历史起名动机。"
+    },
+    {
+      "name": "Arm",
+      "url": "https://developer.arm.com/community/arm-community-blogs/b/architectures-and-processors-blog/posts/a-brief-history-of-arm-part-1",
+      "access": "body",
+      "reading_scope": "The Beginning/Arm is founded，26–38",
+      "supported_claim_and_boundary": "Acorn早期项目与1990 Advanced RISC Machines历史符合；手臂只作同形联想。"
+    },
+    {
+      "name": "Docker",
+      "url": "https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/",
+      "access": "body",
+      "reading_scope": "Explanation17–36；另读Collins docker定义215–254",
+      "supported_claim_and_boundary": "容器隔离可移植与码头工人词义符合；没有确认创始动机。"
+    },
+    {
+      "name": "燧原 / Enflame",
+      "url": "https://news.pedaily.cn/202609/568862.shtml",
+      "access": "body",
+      "reading_scope": "原始采访31–53",
+      "supported_claim_and_boundary": "正文51确有中文命名说明；英文flame结构仅分析。"
+    },
+    {
+      "name": "Black Forest Labs",
+      "url": "https://bfl.ai/careers",
+      "access": "body",
+      "reading_scope": "办公室段114–119；另读about9–18",
+      "supported_claim_and_boundary": "总部/创立于Freiburg、黑森林边缘有官方正文支持；未直接证明命名因果。"
+    },
+    {
+      "name": "Modal",
+      "url": "https://modal.com/",
+      "access": "body",
+      "reading_scope": "平台62–116；另读Collins modal253–334",
+      "supported_claim_and_boundary": "官方AI训练/推理/沙箱与词典音乐/逻辑/统计义分别支持；未确认公司起名动机。"
+    },
+    {
+      "name": "Granola",
+      "url": "https://www.granola.ai/",
+      "access": "body",
+      "reading_scope": "产品10–23；另读Collins granola219–275",
+      "supported_claim_and_boundary": "AI notepad与早餐食品义分别支持；不当成AI Lab适配结论。"
+    },
+    {
+      "name": "Glean",
+      "url": "https://www.glean.com/about",
+      "access": "body",
+      "reading_scope": "From workplace search to enterprise AI208–231；另读Collins glean241–329",
+      "supported_claim_and_boundary": "企业搜索到AI及拾穗/搜集信息多义分别支持；没有创始命名声明。"
+    },
+    {
+      "name": "Augment Code",
+      "url": "https://www.augmentcode.com/",
+      "access": "body",
+      "reading_scope": "品牌与软件工作流0–53；另读Collins augment218–239",
+      "supported_claim_and_boundary": "增强既有对象词义及软件开发方向符合；没有采用并购消息作命名证据。"
+    },
+    {
+      "name": "Notion",
+      "url": "https://www.notion.com/about",
+      "access": "body",
+      "reading_scope": "工具思想61–90；另读Collins notion218–243",
+      "supported_claim_and_boundary": "增强思想与可组合工作空间有官方叙事；观念词义与动机分开。"
+    },
+    {
+      "name": "Chai Discovery",
+      "url": "https://www.chaidiscovery.com/",
+      "access": "body",
+      "reading_scope": "分子设计14–35/58–73；另读Collins chai218–246",
+      "supported_claim_and_boundary": "饮品词义和分子AI身份分别支持；不把中国茶词源当作公司动机。"
+    },
+    {
+      "name": "EvolutionaryScale",
+      "url": "https://www.evolutionaryscale.ai/blog/esm3-release",
+      "access": "body",
+      "reading_scope": "2024年历史发布23–40",
+      "supported_claim_and_boundary": "演化深时间与计算建模主题符合；不推断当前独立公司状态。"
+    },
+    {
+      "name": "Mechanize",
+      "url": "https://www.mechanize.work/",
+      "access": "body",
+      "reading_scope": "首页2–15；另读Collins mechanize218–239",
+      "supported_claim_and_boundary": "编码智能体环境/评估/RL与动词机械化分别支持；副作用联想标为分析。"
+    }
+  ],
+  "execution_reference": "Current Codex chat: root web.run search/open/find calls; separate from /root/agent1_case_expansion execution.",
+  "reviewed_case_count": 20,
+  "sampling_expansion_reason": "最初抽查8案；发现MetaX访问层级误标和Stripe旧名精度问题，扩大到本批全部20案的主要事实。",
+  "findings": [
+    {
+      "case": "沐曦 / MetaX",
+      "issue": "误将主控分享的搜索返回信息当作成功打开的正文，reader归因错误。",
+      "resolution": "A1删除about来源与字母文化解释，仅保留真实已读首页；不推定英文造词史。",
+      "status": "resolved"
+    },
+    {
+      "case": "Stripe",
+      "issue": "旧名缩写不准确，混入该访谈未支持的邮件或登记问题。",
+      "resolution": "A1重读创始访谈236–246并改为精确公司/产品旧名，只保留拼写和口述摩擦；主控删去原则中未支持的截止时间说法。",
+      "status": "resolved"
+    }
+  ],
+  "editorial_notes": [
+    "主控删除一个反例中的临时英文拼接字符串，避免本轮出现像新提案的例子。",
+    "原则属于编辑分析，不是成功因果结论；未改变根README质量门槛。",
+    "本次未进行注册核验，也没有接收或生成新名字。"
+  ]
+}
