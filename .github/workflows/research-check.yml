@@ -1,0 +1,20 @@
+name: Research data checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/validate_research.py
+      - name: Ensure report matches recorded data
+        run: |
+          python research/runs/2026-11-06/render_report.py
+          git diff --exit-code -- research/runs/2026-11-06/report.html

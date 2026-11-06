@@ -1,0 +1,56 @@
+{
+  "run_id": "pilot-2026-11-06",
+  "status": "pipeline_complete_quality_target_not_validated",
+  "mode": "single_pilot_no_schedule_created",
+  "objective": "中文为主的持续学习AI Lab品牌命名",
+  "pipeline": [
+    "case_research",
+    "source_reading",
+    "chinese_creation",
+    "chinese_screen",
+    "english_pairing",
+    "english_rescreen",
+    "editorial_review"
+  ],
+  "targets": {
+    "cases": 12,
+    "materials": 12,
+    "chinese_candidates": 24,
+    "max_english_shortlist": 8,
+    "max_final_pairs": 5
+  },
+  "constraints": {
+    "no_required_character": true,
+    "classics_source_share_target": 0.15,
+    "historical_names_count_as_new": false,
+    "one_naming_family_counts_once": true,
+    "same_tech_ai_company_model_product_name": "reject",
+    "cross_industry_match": "disclose_and_review",
+    "unverified_occupancy": "hold",
+    "quality_over_quota": true,
+    "website_changes": false
+  },
+  "review_dimensions": [
+    "中文称呼自然度",
+    "记忆辨识度",
+    "语义组合内在关系",
+    "素材与出处真实性",
+    "长期品牌延展",
+    "英文自然度",
+    "占用证据完整度"
+  ],
+  "claim_boundary": "通过仅指本轮公开使用初筛；不表示全球工商或商标可注册。",
+  "actual_counts": {
+    "cases": 12,
+    "materials": 12,
+    "raw_word_forms": 24,
+    "conservative_families": 12,
+    "editorial_rejected_forms": 12,
+    "chinese_screened_forms": 12,
+    "priority_english_chinese": 4,
+    "complete_discussion_pairs": 2,
+    "ready_to_adopt_recommendations": 0
+  },
+  "completed_date": "2026-11-06",
+  "schedule_created": false
+}
