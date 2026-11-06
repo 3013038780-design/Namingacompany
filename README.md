@@ -4,6 +4,8 @@
 
 ## 从这里开始
 
+- [初始研究材料与完整表格](research/seed/brand-naming-foundation.md)：105组背景案例的入口，供后续案例研究使用；[版本说明](research/seed/README.md)。
+
 - [第一轮试跑结果](research/runs/2026-11-06/README.md)：本轮留下什么、为什么留下、还有什么不足。
 - [完整研究报告 HTML](research/runs/2026-11-06/report.html)：下载后用浏览器打开；GitHub 文件页显示源码。
 - [四 Agent 工作流程](docs/workflow.md)：案例、素材、中文创造、占用审核、英文匹配与复查。
