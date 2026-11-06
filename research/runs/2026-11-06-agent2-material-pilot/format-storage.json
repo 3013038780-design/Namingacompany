@@ -1,0 +1,15 @@
+{
+  "by": "/root",
+  "scope": "Display formatting only; no A2 facts, conclusions or actual reading changed.",
+  "original_archive": "revisions/v1-originals.zip",
+  "originals_note": "All four exact v1 files are preserved as zip members matching original A2 rework receipt hashes.",
+  "display_copies": [
+    {
+      "path": "revisions/v1/materials.md",
+      "archive_member": "materials.md",
+      "original_sha256": "43f9fb4972e1d4df470e29b96cac2ce68a37ef760e4959eb977cccdd1a563947",
+      "display_sha256": "b44c8ac8479cfd50ca8d55fc6d2ba5ee928fe1ab83ae944117738ffcb34e3aea",
+      "change": "Remove redundant trailing blank line from browsable display copy; original bytes remain in archive."
+    }
+  ]
+}

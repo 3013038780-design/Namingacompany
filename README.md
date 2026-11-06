@@ -4,7 +4,9 @@
 
 ## 阅读入口与当前状态
 
-- [Agent 2搜索计划：从具体案例到阅读与搜索任务](research/runs/2026-11-06-agent2-search-plan/search-plan.md)：当前入口，只交计划；[主控验收](research/runs/2026-11-06-agent2-search-plan/README.md)。
+- [Agent 2素材小批：8张卡与研究结论](research/runs/2026-11-06-agent2-material-pilot/README.md)：当前入口，5张保留研究、2张保留问题、1张立场讨论；仅素材，不起名字。
+
+- [Agent 2搜索计划：从具体案例到阅读与搜索任务](research/runs/2026-11-06-agent2-search-plan/search-plan.md)：已验收的计划基础；[主控验收](research/runs/2026-11-06-agent2-search-plan/README.md)。
 
 - [Agent 2：跨领域素材卡与中文草案](research/runs/2026-11-06-agent2-materials-cn/README.md)：基于105组分类展开书籍与新闻阅读；本阶段只交付素材、中文草案及编辑审阅，停在用户审阅，不进入注册筛查与英文匹配。
 - [Agent 1：初始105组的命名方向地图与逐案重分析](research/runs/2026-11-06-agent1-baseline105/README.md)：本轮创作的研究基础，区分素材来源、品牌角色与语言构成；本阶段只做研究。
@@ -14,7 +16,7 @@
 - [首轮全部落选原因](research/runs/2026-11-06/rejections.md)、[第二轮研究与去留](research/runs/2026-11-06-round2/README.md)。
 - [历史背景](research/background/)只作研究线索，不代表当前推荐或已核实结论。
 
-上一轮Agent 2的24案因用户指出命名质量和研究衔接不足暂停推进；原评分保留为历史，不作为当前推荐。当前仅交付基于105组案例的搜索计划，不起名字。
+上一轮Agent 2的24案因用户指出命名质量和研究衔接不足暂停推进；原评分保留为历史，不作为当前推荐。当前已按该计划交付8张素材卡；清晰保留5张，未达扩批检查点，不自动扩批或起名字。
 
 历史两轮均未验证符合本规范，不补造角色回执、分数或交接记录。首轮两组配对已被用户否决，当前完整备选为 0 组。尚未启用每日任务；每天 20 个是目标，不是已验证产能。
 
@@ -131,7 +133,7 @@ Agent 4 自评、主控独立复评。发音自然、听写/拼写、构词真�
 
 ## 五 强制交接与返工记录
 
-每轮 `run.json` 必须声明 `protocol_version: "1.0"`、真实状态、四个角色ID/执行回执、主控ID、研究目标和实际数量。`handoffs.json` 必须有以下7项验收回执；每项包含时间、交付方、验收方、输入/输出文件路径与SHA-256、候选ID、`accepted / returned / zero_input`、验收理由。文件内容变化后相关回执须重新验收。
+每轮 `run.json` 必须声明 `protocol_version: "1.1"`（已归档旧轮次保留原版本）、真实状态、四个角色ID/执行回执、主控ID、研究目标和实际数量。`handoffs.json` 必须有以下7项验收回执；每项包含时间、交付方、验收方、输入/输出文件路径与SHA-256、候选ID、`accepted / returned / zero_input`、验收理由。文件内容变化后相关回执须重新验收。
 
 | 交接ID | 交付 → 验收 | 通过条件与失败去向 |
 | --- | --- | --- |

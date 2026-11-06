@@ -1,0 +1,77 @@
+{
+  "agent_id": "/root/agent2_materials_cn",
+  "role": "Agent2",
+  "protocol_version": "1.1",
+  "status": "material_pilot_frozen_after_metadata_rework_submitted_for_coordinator_review",
+  "submitted_at": "2026-11-06T17:57:34+08:00",
+  "inputs": [
+    {
+      "path": "README.md",
+      "sha256": "512fece26e7b753575eefaee7b4794429ebfa08d30d529df4837fc8f8c9c7099"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "3d987140887d57591d1e9967355dba4cae70167b1b6f47eab379987ac13c71a0"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent2-search-plan/search-plan.json",
+      "sha256": "8ad37583ad25a637de0701b3c90ee1682ceb91b63eafd0139d2993c0b888813a"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent2-search-plan/search-plan.md",
+      "sha256": "c155b479f3e76cb4d542e4db64f16b8d5075e99fb112f3d1e88e01b62b251230"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent2-search-plan/plan-review.json",
+      "sha256": "ed0f153effc420f04436147ee68995ab07f5100977f8d281df3f5b654bc48ea3"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "materials.json",
+      "sha256": "4a5ecefea5c3c8f77237b8861da18ad467f1bb38bb426f4488fcb8f7dd483d31"
+    },
+    {
+      "path": "materials.md",
+      "sha256": "2e89e7283d4e016b18ee4d3800975293c3128715d62b05c9dc3bf2d550892abb"
+    },
+    {
+      "path": "reading-log.json",
+      "sha256": "7858697bf3426d5e342d5e52c2572826aeed70036b0a89a52b8daf5a50f42339"
+    },
+    {
+      "path": "research-conclusions.md",
+      "sha256": "bb3f2dba8fdfea671e0bb2e57bed6ed4efd6d0898319fb1382b154e9f9b0963d"
+    }
+  ],
+  "actual_execution": "实际独立Agent2依已验收v2计划搜索并阅读，25计划入口逐项记录未执行/替代/正文情况；主控未代写素材。",
+  "counts": {
+    "material_cards": 8,
+    "macro_directions": 6,
+    "new_chinese_names": 0,
+    "new_english_names": 0,
+    "book_body_count": 2,
+    "recent_news_body_count": 3,
+    "recent_news_excluded_as_material": 1,
+    "classical_cards": 0
+  },
+  "limits": "素材作者去留并非主控验收；P03尺度调整、P05家族边界、P08价值立场保留问题；未执行24扩批/A3/A4/注册查重/网站/commit。",
+  "revision": 2,
+  "rework_ref": {
+    "path": "rework.json",
+    "sha256": "e55202f3db68c59ed5db454ca9d5db95a7cbe3f72b55f79627cee736fdeb1c93"
+  },
+  "freeze_note": "本A2仅修正定位与时间语义；此回执后材料4文件冻结，未改root/旧run/计划/PR；未commit，未起名。"
+}
