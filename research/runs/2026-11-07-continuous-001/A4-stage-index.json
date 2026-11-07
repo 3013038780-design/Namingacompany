@@ -1,11 +1,11 @@
 {
   "agent_id": "/root/continuous_a4",
   "role": "A4",
-  "updated_at": "2026-11-07T21:12:14.315098+08:00",
+  "updated_at": "2026-11-07T21:16:37.462062+08:00",
   "scope": "本角色当前已提交版本索引，非最终推荐或A3执行回执。",
   "existing_reserve_pairs_editorially_reviewed": 3,
   "new_chinese_families_received": 4,
-  "english_versions_submitted": 6,
+  "english_versions_submitted": 7,
   "entries": [
     {
       "english_id": "C1-E01",
@@ -72,6 +72,17 @@
       "preview_ref": "A4-preview-batch6.md",
       "quality_ref": "A4-quality-batch6.json",
       "rework_attempt": 0
+    },
+    {
+      "english_id": "C1-E07",
+      "chinese_id": "C1-C11",
+      "chinese": "回车以后",
+      "english": "Replyrise",
+      "proposal_ref": "A4-batch7.json",
+      "proposal_sha256": "92d88995a96b4db108b157b412112b2309ccc5b8f27287dae441f3cc9f4a2bcd",
+      "preview_ref": "A4-preview-batch7.md",
+      "quality_ref": "A4-quality-batch7.json",
+      "rework_attempt": 1
     }
   ],
   "rework_limits": {
@@ -83,6 +94,13 @@
       "last_A3_decision": "return_for_alternative",
       "outcome": "中文转无合格英文研究储备，不继续第三次英文返工；不是新增名字。",
       "source_ref": "A3-en-batch5.json"
+    },
+    "C1-C11": {
+      "initial": "C1-E06",
+      "attempt1": "C1-E07",
+      "remaining": 1,
+      "status": "new_proposal_awaiting_coordinator_and_original_A3",
+      "source_ref": "A4-batch7.json"
     }
   },
   "semantic_review_refs": [
@@ -91,5 +109,6 @@
   ],
   "new_usage_queries_by_A4": 0,
   "new_registration_queries_by_A4": 0,
-  "original_proposals_and_scores_preserved": true
+  "original_proposals_and_scores_preserved": true,
+  "previous_index_snapshot": "A4-stage-index-6versions.json"
 }

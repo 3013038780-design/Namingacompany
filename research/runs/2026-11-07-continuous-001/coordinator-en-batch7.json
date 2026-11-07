@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T21:18:33.237179+08:00",
+  "independence": "Read producer preview batch7 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C11",
+      "name": "Replyrise",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 3,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 18,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通语素可读",
+          "counter_association": "三音节相似元音连续略拗"
+        },
+        "spelling": {
+          "reason": "语素保留完整拼法",
+          "counter_association": "首次仍需拆词说明"
+        },
+        "grounding": {
+          "reason": "reply对应回应但rise关系薄",
+          "counter_association": "升起只是附加正向动词缺独特来源关系"
+        },
+        "bilingual_relation": {
+          "reason": "共享输入后的回应场景",
+          "counter_association": "只看英文先像回复功能"
+        },
+        "distinctiveness": {
+          "reason": "有单词外壳",
+          "counter_association": "像客服或邮件增长工具难形成独立Lab称呼"
+        }
+      },
+      "decision": "quality_reject",
+      "english_id": "C1-E07"
+    }
+  ]
+}

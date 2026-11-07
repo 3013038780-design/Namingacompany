@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-07T21:16:18.836397+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E07",
+      "chinese_id": "C1-C11",
+      "english": "Replyrise",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "reply和rise是普通词，三音节能顺读，长元音形成节奏。",
+          "counter_association": "复合后的重音是建议，首次应明确如何读。"
+        },
+        "spelling": {
+          "reason": "保留reply、rise两个完整常见拼写。",
+          "counter_association": "连写/分写均需A3独立查；首次可能分写Reply Rise。"
+        },
+        "grounding": {
+          "reason": "输入后求值输出回应是原文关系，升起为受限品牌画面。",
+          "counter_association": "rise不是论文术语或数学上的能力增长结论。"
+        },
+        "bilingual_relation": {
+          "reason": "中文交互时点与英文回应出现承接同一场景。",
+          "counter_association": "英文较偏回应一侧，不能强说完整覆盖执行的所有行为。"
+        },
+        "distinctiveness": {
+          "reason": "短词有回应开始发生的清楚动作，可成为技术研究称呼。",
+          "counter_association": "客服、邮件、对话工具首联想使机构延展需要品牌工作。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；等待主控先读无分预览独评，再读本档并授权原A3。"
+    }
+  ]
+}

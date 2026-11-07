@@ -1,9 +1,11 @@
 {
   "verified_at": "2026-11-07T21:14:02.846259+08:00",
   "catalog_counts": {
-    "discussion_candidates": 24,
+    "discussion_candidates": 23,
     "research_reserves": 1,
-    "total_unique_families": 25
+    "total_unique_families": 24,
+    "withdrawn_families": 1,
+    "historical_unique_families": 25
   },
   "checks": {
     "catalog_idempotent": true,
@@ -26,11 +28,12 @@
     "configuration_verified_in_local_app_record": true,
     "documentation": "https://learn.chatgpt.com/docs/automations?surface=app"
   },
-  "scope_note": "当前研究18材料/12中文草案，2个新增家族双语实际筛查及终审；回车以后正在英文返工，整研究覆盖未完成。",
+  "scope_note": "余量首次放行漏检，补核官方科技企业名单后显式撤回；当前新备选仅活桥/Antspan。全研究继续进行，不把撤回算推荐。",
   "latest_editorial_update": {
     "old_reserves_promoted": 2,
-    "new_families": 2,
+    "new_families": 1,
     "source": "research/runs/2026-11-07-continuous-001/delivery.json",
-    "risk_hold": "Airsung近似Aisung，当前英文不采用；中文研究保留"
+    "risk_hold": "Airsung近似Aisung，当前英文不采用；中文研究保留",
+    "withdrawn_after_correction": 1
   }
 }

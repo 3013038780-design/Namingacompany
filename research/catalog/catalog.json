@@ -2,9 +2,11 @@
   "schema_version": 1,
   "purpose": "持续分类总库；无每日配额。不同英文版本不增加家族数。",
   "counts": {
-    "discussion_candidates": 24,
+    "discussion_candidates": 23,
     "research_reserves": 1,
-    "total_unique_families": 25
+    "total_unique_families": 24,
+    "withdrawn_families": 1,
+    "historical_unique_families": 25
   },
   "worlds": [
     {
@@ -2117,7 +2119,7 @@
       "chinese": "余量",
       "english": "Spare Signal",
       "family_id": "C1-BF-redundancy-enabling-reconstruction",
-      "status": "discussion_candidate",
+      "status": "withdrawn",
       "primary_world": "S3",
       "tags": [
         "信息编码",
@@ -2190,7 +2192,38 @@
         }
       },
       "registration_status": "not_officially_cleared",
-      "registration_note": "原始记录逐入口披露；公开使用初筛不是企业核名或9/42类商标可注册结论。"
+      "registration_note": "原始记录逐入口披露；公开使用初筛不是企业核名或9/42类商标可注册结论。",
+      "review_note": "余量 / Spare Signal撤回已确证：浙江官方2024年度科技型中小企业名单载杭州余量科技有限公司，序5030；余量为核心字号。原筛查漏检及仅以创投后缀排除的判断错误；不再推荐，不靠换英文救回中文。该名单不是当前工商状态或9/42类商标核验。",
+      "revision_history": [
+        {
+          "family_id": "C1-BF-redundancy-enabling-reconstruction",
+          "previous_status": "discussion_candidate",
+          "status": "withdrawn",
+          "reviewer": "/root",
+          "reviewed_at": "2026-11-07T21:17:16.268338+08:00",
+          "reason": "余量 / Spare Signal已撤回：补查出现余量创投实际商业主体及余量科技报道线索，原先仅以较长后缀/非科技排除的口径错误；不继续作为推荐。官方登记未核与公开使用判断分开，原稿、原查询及首次放行保留。",
+          "review_refs": [
+            {
+              "path": "research/runs/2026-11-07-continuous-001/coordinator-C06-withdrawal.json",
+              "sha256": "7d08b6078c782f3f4e2399b67c7bd7f7ead5a5a7c379ab5eb8d85b4b18716c5b"
+            }
+          ]
+        },
+        {
+          "family_id": "C1-BF-redundancy-enabling-reconstruction",
+          "previous_status": "withdrawn",
+          "status": "withdrawn",
+          "reviewer": "/root",
+          "reviewed_at": "2026-11-07T21:19:05.641605+08:00",
+          "reason": "余量 / Spare Signal撤回已确证：浙江官方2024年度科技型中小企业名单载杭州余量科技有限公司，序5030；余量为核心字号。原筛查漏检及仅以创投后缀排除的判断错误；不再推荐，不靠换英文救回中文。该名单不是当前工商状态或9/42类商标核验。",
+          "review_refs": [
+            {
+              "path": "research/runs/2026-11-07-continuous-001/A3-C06-use-addendum.json",
+              "sha256": "9a1a64e40c181d045613003e7737a3a208f72b4cde26dca0fcc0c6f5db3db4ce"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "N0025",

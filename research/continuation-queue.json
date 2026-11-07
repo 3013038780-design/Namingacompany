@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T21:13:31.986083+08:00",
+  "updated_at": "2026-11-07T21:19:05.642669+08:00",
   "policy": "continuous_no_quantity_quota",
   "scheduler": {
     "id": "automation",
@@ -12,13 +12,15 @@
   },
   "catalog": {
     "path": "research/catalog/README.md",
-    "discussion_candidates": 24,
+    "discussion_candidates": 23,
     "research_reserves": 1,
-    "total_unique_families": 25
+    "total_unique_families": 24,
+    "withdrawn_families": 1,
+    "historical_unique_families": 25
   },
   "active_run": "research/runs/2026-11-07-continuous-001",
-  "actual_state": "A4_C11_first_rework_running",
-  "next_action": "原A4交回车以后第一次英文返工，主控先盲评后读producer，过后原A3英文复查；Linewake有真实软件开发品牌已淘汰，不改字母继续使用。",
+  "actual_state": "A4_C11_last_rework_and_A2_material_expansion_running",
+  "next_action": "原A4完成回车以后最后英文返工，先主控质量再原A3独立查询。余量已官方企业名单确证撤回，禁止恢复推荐或换英文救回；原A2继续补6项不同材料推进24研究覆盖。",
   "pending_stages": [
     "A2真实资料→中文创作；先素材小批内部快审",
     "主控独立中文质量→同A3中文使用筛查",
@@ -45,7 +47,12 @@
     {
       "role": "A4",
       "agent_id": "/root/continuous_a4",
-      "task": "C1-C11第一次英文返工attempt1，batch7/C1-E07"
+      "task": "C1-C11最后英文返工attempt2，C1-E08/batch8"
+    },
+    {
+      "role": "A2",
+      "agent_id": "/root/continuous_a2",
+      "task": "18素材基础实际补6项不同关系，不强迫每卡造名"
     }
   ],
   "latest_completed": {
@@ -55,13 +62,14 @@
       "A1接力"
     ],
     "prior_reserves_promoted": 2,
-    "new_creative_families": 2,
+    "new_creative_families": 1,
     "receipts": [
       "research/runs/2026-11-07-continuous-001/reserve-followthrough/A3-review.json",
       "research/runs/2026-11-07-continuous-001/reserve-followthrough/A4-review.json",
       "research/runs/2026-11-07-continuous-001/A1-relay.json",
       "research/runs/2026-11-07-continuous-001/delivery-first.json"
-    ]
+    ],
+    "withdrawn_after_correction": 1
   },
   "latest_material_pilot": {
     "source": "research/runs/2026-11-07-continuous-001/materials-pilot.json",
@@ -79,7 +87,7 @@
       "C1-M07",
       "C1-M08"
     ],
-    "new_names_yet": 2,
+    "new_names_yet": 1,
     "whole_24_family_research_complete": false,
     "cumulative_materials": 18,
     "cumulative_chinese_drafts": 12
