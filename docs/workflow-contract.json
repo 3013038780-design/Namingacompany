@@ -107,10 +107,7 @@
     "zh": 2,
     "en": 2
   },
-  "daily_target": 20,
-  "daily_max_batches": 3,
   "delivery_timezone": "Asia/Shanghai",
-  "delivery_time": "09:00",
   "rejection_codes": [
     "USER_REJECTED",
     "BRAND_FIT",
@@ -189,5 +186,21 @@
       "2026-11-06-agent1-expansion",
       "2026-11-06-agent2-materials-cn"
     ]
+  },
+  "historical_delivery_policy": {
+    "daily_target": 20,
+    "daily_max_batches": 3,
+    "delivery_time": "09:00",
+    "superseded_on": "2026-11-07",
+    "reason": "用户改为无固定数量的持续积累，原质量与研究门槛不变。"
+  },
+  "delivery_policy": {
+    "mode": "continuous_catalog",
+    "quota": null,
+    "stop_at_count": null,
+    "cadence": "hourly_heartbeat",
+    "checkpoint_queue": "research/continuation-queue.json",
+    "catalog": "research/catalog/README.md",
+    "change_scope": "Scheduling and aggregation only; numerical quality, evidence and research gates unchanged."
   }
 }

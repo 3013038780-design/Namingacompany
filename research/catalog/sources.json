@@ -1,0 +1,8 @@
+{
+  "description": "通过实质终审的配对与显式研究储备；新增轮次逐一登记，不从全部草案自动提取推荐。",
+  "sources": [
+    {"path": "research/runs/2026-11-07-live-delivery/delivery.json", "array": "discussion_pairs", "status": "discussion_candidate"},
+    {"path": "research/runs/2026-11-07-continuation/delivery.json", "array": "discussion_pairs", "status": "discussion_candidate"},
+    {"path": "research/runs/2026-11-07-continuation/reserves.json", "array": "items", "status": "research_reserve"}
+  ]
+}

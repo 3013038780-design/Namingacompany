@@ -30,14 +30,17 @@
   },
   "current_stage_authorization": {
     "date": "2026-11-07",
-    "stage": "continuous_four_agent_delivery",
-    "scope": "用户认可已有三组，要求现在继续四Agent，淘汰补充，今天朝累计20组推进；不为数量降低质量。",
+    "stage": "continuous_four_agent_catalog",
+    "scope": "持续研究、创造与查重，不设每天20或累计上限，分类汇入同一总库，一直更新；每个自动工作段保存状态后继续接续。",
     "constraints": [
       "中文更自然好记，不要全像物理术语。",
       "英文必须独立自然有理由，不为避重硬改拼音。",
       "保留真实出处与中英文独立查询记录；已用、重复或同家族不计新增。",
       "来源随候选保存，不增加用户审批素材卡或逐步计划的负担。",
-      "四个不同实际角色及原A3双阶段查重保持，原数值质量和证据标准不降低。"
+      "四个不同实际角色及原A3双阶段查重保持，原数值质量和证据标准不降低。",
+      "无数量配额，不为凑数降低质量；到20不得结束整个研究。",
+      "保留四Agent独立执行与既有评分、来源、家族、查重及返工门槛。",
+      "文件形式统一总库优先，保持现有PR，不改旧网站或擅自部署。"
     ]
   },
   "authorization_history": [
@@ -50,6 +53,18 @@
         "最多3个中文草案、最多2个中文进入筛查、每中文最多1英文",
         "保留质量和使用证据标准，不凑数量；允许完整执行但零通过",
         "原24草案及所有历史家族不算新增；不建每日自动任务"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "stage": "continuous_four_agent_delivery",
+      "scope": "用户认可已有三组，要求现在继续四Agent，淘汰补充，今天朝累计20组推进；不为数量降低质量。",
+      "constraints": [
+        "中文更自然好记，不要全像物理术语。",
+        "英文必须独立自然有理由，不为避重硬改拼音。",
+        "保留真实出处与中英文独立查询记录；已用、重复或同家族不计新增。",
+        "来源随候选保存，不增加用户审批素材卡或逐步计划的负担。",
+        "四个不同实际角色及原A3双阶段查重保持，原数值质量和证据标准不降低。"
       ]
     }
   ],
@@ -71,5 +86,13 @@
     "report": "research/runs/2026-11-07-continuation/README.md",
     "status": "public_use_precheck_discussion_pairs_not_official_registry_clearance",
     "note": "记录已交付，不代表用户已认可新增17组或已验证每天稳定20产能。"
+  },
+  "continuous_delivery": {
+    "enabled": true,
+    "quantity_quota": null,
+    "catalog": "research/catalog/README.md",
+    "queue": "research/continuation-queue.json",
+    "cadence": "hourly_same_thread_heartbeat",
+    "user_wording": "并不是说每一天要多少做，你直接就一直生成，就是一直做一直做；整理成一个总的一直更新。"
   }
 }

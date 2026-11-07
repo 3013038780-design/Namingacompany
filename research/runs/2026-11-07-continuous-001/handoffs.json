@@ -1,0 +1,59 @@
+{
+  "handoffs": [
+    {
+      "id": "H1",
+      "from": "A1",
+      "to": "A2",
+      "status": "accepted",
+      "timestamp": "2026-11-07T19:50:51.128536+08:00",
+      "candidate_ids": [],
+      "reason": "A1真实案例、六原则三反例通过；随后真实A2搜索计划按六宏观方向逐项验收，阶段可继续，未把计划当名字。",
+      "input_refs": [
+        {
+          "path": "A1.json",
+          "sha256": "b3bbd78ef83733b79b7033404dc29727a7e0c749988d06218820850f4de520be"
+        },
+        {
+          "path": "A1.md",
+          "sha256": "50023a0d4970380ebd3afb8969343e6aaadab41c468ae7be66bf2da8f20dcda9"
+        },
+        {
+          "path": "inputs/A1/cases.json",
+          "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "A2-execution.json",
+          "sha256": "1eec4bd33fd86883325ef408e84454f73fc567dac46c71967e86d7f0749fccea"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "cases.json",
+          "sha256": "b4834431a2d2a8c2e3ade0033f152789032fdbdb7ac6a97a201bf7b9c3eb52ab"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        }
+      ],
+      "execution_ref": "本聊天实际spawn_agent continuous_a1、continuous_a2与工具读A1/A2文件及本次逐方向验收。"
+    }
+  ],
+  "pending_handoffs": [
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7"
+  ],
+  "note": "下游尚未实际执行，不用零输入或旧ID伪造完成。"
+}

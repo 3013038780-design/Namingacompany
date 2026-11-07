@@ -1,0 +1,42 @@
+{
+  "protocol_version": "1.1",
+  "run_id": "2026-11-07-continuous-001",
+  "date": "2026-11-07",
+  "coordinator_id": "/root",
+  "status": "in_progress",
+  "research_mode": "continuation",
+  "scope": "持续研究进行中：A1实质研究和A2搜索计划已验收；当前工作段未开始新资料阅读、命名或查重，不计新备选。下一调度直接接续，不等用户批准。",
+  "started_at": "2026-11-07T19:41:18.016539+08:00",
+  "roles": {
+    "A1": {
+      "agent_id": "/root/continuous_a1",
+      "status": "completed",
+      "execution_ref": "本聊天collaboration.spawn_agent continuous_a1实际派发",
+      "completed_at": "2026-11-07T19:43:18.442666+08:00",
+      "output_files": [
+        "A1.md",
+        "A1.json"
+      ]
+    },
+    "A2": {
+      "agent_id": "/root/continuous_a2",
+      "status": "checkpointed_plan_accepted",
+      "execution_ref": "本聊天collaboration.spawn_agent continuous_a2实际派发，收到已验收A1输入，仅搜索计划阶段",
+      "stage_receipt": "A2-execution.json",
+      "plan_completed_at": "2026-11-07T19:49:25.371755+08:00",
+      "next_stage": "material_reading_and_chinese_creation"
+    },
+    "A3": {
+      "agent_id": null,
+      "status": "not_started",
+      "execution_ref": "本轮尚未派发；到该阶段再实际建立角色，禁止继承旧ID伪称本轮已执行。"
+    },
+    "A4": {
+      "agent_id": null,
+      "status": "not_started",
+      "execution_ref": "本轮尚未派发；到该阶段再实际建立角色，禁止继承旧ID伪称本轮已执行。"
+    }
+  },
+  "current_stage": "A2_plan_accepted_material_reading_next",
+  "checkpointed_at": "2026-11-07T19:50:51.128536+08:00"
+}

@@ -1,0 +1,281 @@
+{
+  "derived_from": "A1.json",
+  "formatting_by": "/root",
+  "research_actor": "/root/continuous_a1",
+  "note": "仅将真实A1原始字段整理为规范读取入口，不增加案例、阅读或命名归因。",
+  "cases": [
+    {
+      "id": "B015",
+      "category": "broad_tech",
+      "name": "Sony / 索尼",
+      "primary_source": "S1",
+      "secondary_sources": [
+        "S5"
+      ],
+      "word_origin_fact": "Sony官方历史解释sonus（声音）与sonny（年轻人称呼）融合成名称，并明说易读易发音诉求。",
+      "naming_analysis": "声音体验与年轻创造者是两个真实来源，融合后的称呼先顺口，背景再增加人格。不是先得到一串无义字母再补故事。",
+      "transfer_mechanism": "先找到共享感官、角色或动作的两端，再评价融合后的整体声音。",
+      "evidence_boundary": "官方易跨语言传播属于当时命名诉求，不是所有语言用户实验；中文索尼的具体译名决策未由此文确认。",
+      "reading_scope": "History L13、17–18",
+      "sources": [
+        {
+          "url": "https://www.sony.com.hk/aboutsony/html/en/history.jsp",
+          "access": "body",
+          "reading_scope": "History L13、17–18",
+          "supports": "sonus/sonny融合、年轻创造群体和可读可发音诉求。",
+          "source_type": "primary_company_body",
+          "checked_at": "2026-11-07",
+          "reader": "/root/continuous_a1"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false
+    },
+    {
+      "id": "B008",
+      "category": "broad_tech",
+      "name": "阿里巴巴 / Alibaba",
+      "primary_source": "S4",
+      "secondary_sources": [
+        "S1"
+      ],
+      "word_origin_fact": "Alibaba官方FAQ直接说明全球熟悉、易跨语言发音，并以芝麻开门说明平台为小企业打开机会。",
+      "naming_analysis": "可称呼的故事角色先成立；故事中的开门动作，再接企业提供机会的作用。文化厚度来自完整场景，不来自堆砌典故。",
+      "transfer_mechanism": "在中国知识与工艺实践中寻找可复述的角色—工具—作用关系；学习完整场景，不复制芝麻开门或宝藏字样。",
+      "evidence_boundary": "本轮直接读企业FAQ；未读《一千零一夜》原本，未重看马云完整视频，不把互联网转录当本人新核的原始采访。",
+      "reading_scope": "Corporate Information L23–31",
+      "sources": [
+        {
+          "url": "https://home.alibabagroup.com/en-US/faqs-corporate-information",
+          "access": "body",
+          "reading_scope": "Corporate Information L23–31",
+          "supports": "企业直接解释易发音、全球熟悉和open sesame平台作用。",
+          "source_type": "primary_company_body",
+          "checked_at": "2026-11-07",
+          "reader": "/root/continuous_a1"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false
+    },
+    {
+      "id": "B025",
+      "category": "current_ai",
+      "name": "Anysphere / Cursor",
+      "primary_source": "S1",
+      "secondary_sources": [
+        "S2"
+      ],
+      "word_origin_fact": "Cursor是现有计算界面词；MDN解释鼠标光标提示当前位置可执行的操作。Cursor官方当前文档说明AI助手可搜索、修改文件、运行命令；旧Cmd+K内联编辑工作流已被替代。",
+      "naming_analysis": "名称可从手边的小对象开始，品牌承载的能力可以更宽。行动入口这个阅读不依赖某一版产品功能永远保留。",
+      "transfer_mechanism": "找人每天实际遇见的物件、界面位置或动作及其已有关系，让技术先可接近，再讲研究。",
+      "evidence_boundary": "官方未在本轮材料中说明创始人为何选名；日常入口是研究者分析。鼠标指针与文本插入标记不可无区别混写。旧inline-edit网址重定向，不能复制旧功能陈述当当前事实。",
+      "reading_scope": "L6–25；旧https://cursor.com/docs/inline-edit/overview实际重定向此页；L189–190、297–307",
+      "sources": [
+        {
+          "url": "https://cursor.com/help/ai-features/agent",
+          "access": "body",
+          "reading_scope": "L6–25；旧https://cursor.com/docs/inline-edit/overview实际重定向此页",
+          "supports": "AI助手当前操作范围及Cmd+K工作流变更。",
+          "source_type": "primary_company_body",
+          "checked_at": "2026-11-07",
+          "reader": "/root/continuous_a1"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/cursor",
+          "access": "body",
+          "reading_scope": "L189–190、297–307",
+          "supports": "界面光标提示当前位置操作的技术词义，非公司起名动机。",
+          "source_type": "primary_technical_documentation",
+          "checked_at": "2026-11-07",
+          "reader": "/root/continuous_a1"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false
+    },
+    {
+      "id": "B037",
+      "category": "current_ai",
+      "name": "Imbue",
+      "primary_source": "S5",
+      "secondary_sources": [
+        "S6"
+      ],
+      "word_origin_fact": "实际命名顾问记载Generally Intelligent原名的理解负担、数轮选名，以及Imbue把智能和人类价值赋予计算机的解释。",
+      "naming_analysis": "公司可以用对他者产生何种作用来建立身份，未必以一种物体或一套算法命名。动词必须让人理解关系中的对象。",
+      "transfer_mechanism": "从技术实践中的获得、转换、参与、理解等真实关系寻找自然语言表达；不统一替换成增强或成长同义词。",
+      "evidence_boundary": "项目参与者一致喜欢不等于普遍消费者测试；顾问提及当时美国法律尽调，不等于本轮候选或今天全球权利情况。",
+      "reading_scope": "L15、20、25、29、32",
+      "sources": [
+        {
+          "url": "https://www.ahundredmonkeys.com/case-study/imbue/",
+          "access": "body",
+          "reading_scope": "L15、20、25、29、32",
+          "supports": "参与方自述改名过程、解释与项目判断范围。",
+          "source_type": "primary_naming_participant_body",
+          "checked_at": "2026-11-07",
+          "reader": "/root/continuous_a1"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false
+    },
+    {
+      "id": "B076",
+      "category": "rsi_labs",
+      "name": "Sakana AI",
+      "primary_source": "S2",
+      "secondary_sources": [
+        "S3"
+      ],
+      "word_origin_fact": "Sakana官方明确名称为日语鱼，鱼群图像连接简单规则形成整体及自然启发研究；逆行红鱼另表差异化方向。",
+      "naming_analysis": "日常动物称呼承担易记外壳，真实自然关系承担研究第二层。学习的是对象和组织方式之间的原有联系。",
+      "transfer_mechanism": "寻找未被本项目耗尽的生物行为、环境作用、自然组织关系；先看实际关系，再决定是否值得转成称呼。",
+      "evidence_boundary": "不是所有群体都智能、所有动物都适合品牌；普通动物名不可仅换物种复制；自然规则不证明AI性能。",
+      "reading_scope": "L4–5",
+      "sources": [
+        {
+          "url": "https://sakana.ai/seed-round/",
+          "access": "body",
+          "reading_scope": "L4–5",
+          "supports": "鱼词义、简单规则形成整体、自然启发与逆向红鱼官方说明。",
+          "source_type": "primary_company_body",
+          "checked_at": "2026-11-07",
+          "reader": "/root/continuous_a1"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false
+    },
+    {
+      "id": "B077",
+      "category": "rsi_labs",
+      "name": "Core Automation",
+      "primary_source": "S6",
+      "secondary_sources": [],
+      "word_origin_fact": "Core Automation官网现明确以高度自动化AI Lab为定位，并说先自动化自身工作，为更有创意的研究腾出空间，所得认识反馈进研究。",
+      "naming_analysis": "直接说研究做什么也是独立方向。名字承担一项可理解、可由行为检验的主张，而非藏满典故。",
+      "transfer_mechanism": "从已知团队真实任务找研究对象与作用，若没有自然品牌表达或需要擅自承诺开放/安全就暂不产出。",
+      "evidence_boundary": "本轮无创始命名访谈；core/automation普通词义与官网目标呼应为研究解读，不包装成经确认的命名心路。",
+      "reading_scope": "官网L1–9",
+      "sources": [
+        {
+          "url": "https://www.coreauto.com/",
+          "access": "body",
+          "reading_scope": "官网L1–9",
+          "supports": "自动化自身研究、认识反馈与更大创意空间的直接研究主张。",
+          "source_type": "primary_company_body",
+          "checked_at": "2026-11-07",
+          "reader": "/root/continuous_a1"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false
+    },
+    {
+      "id": "B074",
+      "category": "rsi_labs",
+      "name": "Recursive Superintelligence",
+      "primary_source": "S3",
+      "secondary_sources": [
+        "S6"
+      ],
+      "word_origin_fact": "Recursive官网自述Eureka Machine把构思、实现、验证组织成开放发现过程，前一发现成为后续发现的踏脚石。",
+      "naming_analysis": "计算过程可以承担机构对知识如何产生的看法；词背后的运作关系比只贴上科技术语更重要。",
+      "transfer_mechanism": "继续找不同于已有递归、自举、闭包等家族的新计算关系：表示、组合、校验、共享等机制，找其能被日常语言理解的核心。",
+      "evidence_boundary": "本轮没有把官网自称的首个超智能、性能或新产品规格当独立验证；递归不必然提升智能；未产生任何recursive变体。",
+      "reading_scope": "官网L34–40",
+      "sources": [
+        {
+          "url": "https://recursive.com/",
+          "access": "body",
+          "reading_scope": "官网L34–40",
+          "supports": "构思—实现—验证与发现成为后续起点的公司自述。",
+          "source_type": "primary_company_body",
+          "checked_at": "2026-11-07",
+          "reader": "/root/continuous_a1"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false
+    }
+  ],
+  "principles": [
+    {
+      "id": "C1-P1",
+      "title": "称呼先成立，第二层再增厚",
+      "positive_example": "B015 Sony的可读融合；B025 Cursor的手边对象",
+      "counterexample": "堆入专业来源却读不顺，或需要先读释义才能知道怎样称呼。",
+      "boundary": "顺口不等于好品牌；还需AI Lab身份和真实出处。",
+      "a2_action": "每份草案先做口语称呼检查，再写一个能复述的核心关系。"
+    },
+    {
+      "id": "C1-P2",
+      "title": "一个完整对象或场景比两字各自吉祥更有力",
+      "positive_example": "B008 Alibaba角色和开门情节；B076 Sakana鱼与群体组织",
+      "counterexample": "从两个不相干学科各取漂亮字，事后发明它们的因果。",
+      "boundary": "无需强制每名都做双领域组合；独立熟词同样可成立。",
+      "a2_action": "原文中先定位真实同场关系，记录保留了什么、舍弃了什么。"
+    },
+    {
+      "id": "C1-P3",
+      "title": "科学材料提供关系，不必照搬学术全称",
+      "positive_example": "B074 Recursive；基线B002 Google的大数与变形",
+      "counterexample": "换成冷僻术语并把学术难度当品牌质量；把所有关系都归纳成成长。",
+      "boundary": "技术过程不是性能承诺；物理现象和学习算法只可作有限比喻。",
+      "a2_action": "寻找不同计算机制，再问哪一部分可转成自然可感的称呼；来源真实不能救拗口。"
+    },
+    {
+      "id": "C1-P4",
+      "title": "公司也可以通过对他者产生的作用取得身份",
+      "positive_example": "B037 Imbue；B077 Core Automation对自身研究的作用",
+      "counterexample": "把赋能、增强、成长的空泛近义词批量拼接，或变成服务功能描述。",
+      "boundary": "不能替团队承诺它没有表态的价值立场；命名不是技术验收。",
+      "a2_action": "先说明谁对谁做什么，再从真实的知识或实践中找关系，避免育儿或培训气质。"
+    },
+    {
+      "id": "C1-P5",
+      "title": "宏观来源方向与构词技巧分开",
+      "positive_example": "B015 Sony来源为声音体验，融合只是实现；B008 Alibaba来源为文化角色，专名沿用只是实现",
+      "counterexample": "把音译、缩写、两个字三个字当成全部素材分类，导致搜不到新世界。",
+      "boundary": "同一宏观方向可用多种实现；不能为六类强造均等名额。",
+      "a2_action": "以S1–S6选择阅读世界，以真实关系选择素材，最后再考虑字数、熟词或造词。"
+    },
+    {
+      "id": "C1-P6",
+      "title": "中文和英文可分工，出处和使用筛查分别验证",
+      "positive_example": "基线B053月之暗面/Moonshot主题对应；B015Sony/索尼声音对应",
+      "counterexample": "英文撞名后只改拼音字母；或因中文通过就认为英文可用。",
+      "boundary": "词源、公司历史动机、研究者解读三者不得混写；中英文仍要共享可讲的核心。",
+      "a2_action": "A2中文不为未来英文硬造词；A4再独立构词，A3独立查两种语言。"
+    }
+  ],
+  "counterexamples": [
+    {
+      "id": "C1-X1",
+      "type": "actual_project_report",
+      "case_id": "B037",
+      "example": "Generally Intelligent旧名",
+      "finding": "实际顾问记载有人觉得处理负担较高、玩笑过重；参与方后来选Imbue。",
+      "boundary": "这是该项目反馈，不宣称所有行业双关必差。",
+      "source_url": "https://www.ahundredmonkeys.com/case-study/imbue/"
+    },
+    {
+      "id": "C1-X2",
+      "type": "actual_user_feedback",
+      "example": "木上林/Woodwoken、借长风/Borrowind",
+      "finding": "本项目用户明确认为偏环保家具、定位不符，有出处和未查到占用不能挽救。",
+      "boundary": "不据此禁用自然世界；改的是行业气质与关系，不是把自然全部删除。",
+      "source_ref": "research/preferences.json"
+    },
+    {
+      "id": "C1-X3",
+      "type": "actual_project_family_review",
+      "example": "云形尺与历史演算尺；添一指与添一笔",
+      "finding": "材料科学或工程机制不同，不自动等于新的品牌创意；同模板/核心物象重复已被主控合并淘汰。",
+      "boundary": "品牌家族和材料机制两张账分开，不能靠不同论文标题增加名额。",
+      "source_ref": "research/runs/2026-11-07-continuation/A2-index32.json"
+    }
+  ]
+}

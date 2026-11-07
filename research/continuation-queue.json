@@ -1,0 +1,44 @@
+{
+  "updated_at": "2026-11-07T19:50:51.128536+08:00",
+  "policy": "continuous_no_quantity_quota",
+  "scheduler": {
+    "id": "automation",
+    "kind": "heartbeat",
+    "status": "ACTIVE",
+    "cadence": "hourly",
+    "destination": "existing_chat",
+    "verified_from_app_tool_and_local_record": true,
+    "local_runtime_requirement": "电脑开机、应用运行、仓库与工具可用；定时接续不是无限常驻"
+  },
+  "catalog": {
+    "path": "research/catalog/README.md",
+    "discussion_candidates": 20,
+    "research_reserves": 3
+  },
+  "active_run": "research/runs/2026-11-07-continuous-001",
+  "actual_state": "checkpointed_A2_plan_accepted_ready_for_reading",
+  "next_action": "由下一自动工作段接续本轮A2（原实例可用则followup，不可用则新建真实A2并保留交接）：按已验收search-plan直接读取首批6–8不同关系资料，核实两书具体章节及三篇近90天新闻，内部过程验收后继续中文创作。不重做A1或搜索计划，不等用户审批。",
+  "pending_stages": [
+    "搜索计划已获主控验收；直接开始A2资料阅读",
+    "A2按计划继续阅读与中文创作，先小批过程检查",
+    "双中文质量评审→原A3中文查重→原A4英文→同A3英文查重→主控终审",
+    "合格新增显式汇入总库，保留未通过项及下轮队列"
+  ],
+  "single_writer_policy": "当前研究未归档前不启动另一套同项目命名轮次；唤醒先检查现有角色是否还在运行，若完成则读取真实回执后接续。",
+  "quantity_stop": null,
+  "do_not_repeat": [
+    "先前20讨论配对和3研究储备不再作为新增",
+    "所有历史命名家族与其英文返工版本不作新增",
+    "不重复每天从零研究105案例"
+  ],
+  "role_lifecycle_note": "若跨唤醒原实例不可访问，建立新实际实例并记录交接，不沿用失效ID冒充同一执行；A3双阶段必须由实际同一个审查实例完成，必要时由新A3重做中文和英文两段并分别保留历史。",
+  "checkpoint_refs": [
+    "research/runs/2026-11-07-continuous-001/A1.json",
+    "research/runs/2026-11-07-continuous-001/A2-execution.json",
+    "research/runs/2026-11-07-continuous-001/search-plan.json",
+    "research/runs/2026-11-07-continuous-001/plan-review.json",
+    "research/runs/2026-11-07-continuous-001/handoffs.json",
+    "research/runs/2026-11-07-continuous-001/run.json"
+  ],
+  "in_flight_agents": []
+}
