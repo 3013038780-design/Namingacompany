@@ -1,0 +1,84 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T18:35:22+08:00",
+  "reviews": [
+    {
+      "candidate_id": "CT-E18",
+      "chinese_id": "CT-C13",
+      "english": "Hold to Open",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通动作短语，四音节自然顺读。",
+          "counter_association": "完整称呼长于单词品牌。"
+        },
+        "spelling": {
+          "reason": "三个正常英语词，无变造字母。",
+          "counter_association": "需查HoldToOpen连写。"
+        },
+        "formation": {
+          "reason": "持续保持接触与打开上下文内容同一真实场景。",
+          "counter_association": "open不等于任何界面都相同，更不代表开源立场。"
+        },
+        "bilingual_relation": {
+          "reason": "动作与动作带来展开分工明确。",
+          "counter_association": "不逐字保留long或press。"
+        },
+        "distinctiveness": {
+          "reason": "可称呼且具交互记忆，但独立机构专名感中等。",
+          "counter_association": "像操作提示语。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3。未宣称任何使用或注册可用。"
+    },
+    {
+      "candidate_id": "CT-E19",
+      "chinese_id": "CT-C14",
+      "english": "Ownsignal",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "own与signal正常读音三音节。",
+          "counter_association": "词中n接s需要自然连读。"
+        },
+        "spelling": {
+          "reason": "完整英语词拼接，无随意字母。",
+          "counter_association": "需查Own Signal分词变体。"
+        },
+        "formation": {
+          "reason": "自身信号与工程自监听关系直接相接。",
+          "counter_association": "不是工程标准术语。"
+        },
+        "bilingual_relation": {
+          "reason": "侧音通路与自身输出共同承载同一反馈故事。",
+          "counter_association": "英文较宽，不只音频。"
+        },
+        "distinctiveness": {
+          "reason": "可容纳感知反馈与系统调整研究。",
+          "counter_association": "可能先像个人数据/音频产品。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3。未宣称任何使用或注册可用。"
+    }
+  ]
+}

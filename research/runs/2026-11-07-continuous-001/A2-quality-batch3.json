@@ -1,0 +1,95 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-07T21:04:17.428886+08:00",
+  "scope": "仅producer主观评审；主控封存自身分数后再打开。",
+  "reviews": [
+    {
+      "candidate_id": "C1-C11",
+      "name": "回车以后",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 5,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "完整日常短语，按键动作人人熟悉",
+          "counter_association": "像程序员播客"
+        },
+        "distinctiveness": {
+          "reason": "具体动作后时点有记忆入口",
+          "counter_association": "四字略长"
+        },
+        "lab_fit": {
+          "reason": "计算机交互身份自然，可承接AI研究",
+          "counter_association": "首听也可能技术栏目"
+        },
+        "grounding": {
+          "reason": "交互执行关系有书正文，但按键为品牌经验概括",
+          "counter_association": "没有逐字原文回车"
+        },
+        "extension": {
+          "reason": "可容纳语言行动软件多类研究",
+          "counter_association": "太宽会变泛哲学"
+        },
+        "semantic_coherence": {
+          "reason": "围绕输入后的系统互动",
+          "counter_association": "不能暗示任何提交都成功"
+        }
+      },
+      "decision": "quality_pass",
+      "independent_submission_ref": "A2-quality-batch3.json producer-only submission"
+    },
+    {
+      "candidate_id": "C1-C12",
+      "name": "横风",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 5
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "真实两字词，读音直白",
+          "counter_association": "像户外品牌"
+        },
+        "distinctiveness": {
+          "reason": "风向有鲜明画面",
+          "counter_association": "自然词可能公共使用多"
+        },
+        "lab_fit": {
+          "reason": "有工程科学气质，可容纳研究身份",
+          "counter_association": "也像气象航空机构"
+        },
+        "grounding": {
+          "reason": "有模型及GPS对照但名称省掉条件",
+          "counter_association": "横风不是单独足够的能源"
+        },
+        "extension": {
+          "reason": "自然现象可容纳长期探索",
+          "counter_association": "不应锁死海鸟仿生项目"
+        },
+        "semantic_coherence": {
+          "reason": "横向与风层差异共同构成飞行关系",
+          "counter_association": "不能退化成只要借风都更好"
+        }
+      },
+      "decision": "quality_pass",
+      "independent_submission_ref": "A2-quality-batch3.json producer-only submission"
+    }
+  ]
+}

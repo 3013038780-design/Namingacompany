@@ -1,0 +1,73 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T00:10:14.911597+08:00",
+  "candidates": [
+    {
+      "id": "C1-C23",
+      "name": "活变量",
+      "pinyin": "huó biàn liàng",
+      "material_id": "C1-M31",
+      "material_ids": [
+        "C1-M31"
+      ],
+      "family_id": "C1-BF-variable-with-still-possible-use",
+      "plan_direction_id": "C1-D-S3",
+      "case_ids": [
+        "B074",
+        "B002"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Cornell CS4120（Andrew Myers课程）：Live Variable Analysis",
+          "url": "https://www.cs.cornell.edu/courses/cs4120/2023sp/notes/livevar/",
+          "published_at": "2023",
+          "reading_location": "正文L1–101：定义/寄存器例子、不可判定性/保守估计、use-def/控制流路径与数据流求解；只读本单篇讲义，未读其他课程各章或运行实现",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body"
+        }
+      ],
+      "source_urls": [
+        "https://www.cs.cornell.edu/courses/cs4120/2023sp/notes/livevar/"
+      ],
+      "formation": "从live variable的整项计算对象取三字中文称呼。常见中文也说活跃变量；本次不声称活变量是讲义官方中文译名。活不是积极修饰词，而明确指后续仍可能使用当前值的状态。",
+      "relation_sentence": "一个变量的当前值，只要在某条后续路径上可能先被使用而不是先被覆盖，它在当前位置就仍有需要保留的用途。",
+      "condensation_path": "保留变量这个容易认识的主角与仍有用途的活状态，凝成一个名词，而不把数据流公式写成口号，也不把活扩写成会自我进化。",
+      "meaning": "一个当下的值，仍能参与接下来的计算。",
+      "crossing": "变量是日常科学/计算里大家认识的对象；活让人直观感到它仍在发挥作用，专业第二层则限定何时应该保留、何时已不再需要。",
+      "layers": [
+        "熟字组成、可以直接称呼的三字计算对象",
+        "后续用途决定当前值存活范围的技术关系",
+        "实验室研究信息怎样在实际任务中继续发挥作用"
+      ],
+      "material_feature_retained": "保留值的用途与后续可能使用之间的关系，活不等于变化速度或数值增长。",
+      "material_feature_lost": "名称不包含控制流路径、覆盖前提、保守高估与寄存器分配细节。",
+      "why_name_not_generic": "活与变量属于同一个已有计算定义，不是科学名词加向上/聪明一类好字；有具体主角，不是三字趋向诗句。",
+      "shortcoming": "带术语感，可能像一个编译器工具、编程专栏或技术社群；活也容易被误听为活动变量。它不能只靠准确出处就获得广义AI Lab身份。",
+      "science_boundary": "没有生命/意识结论；不是所有将来被用到的内容都可精确预见，讲义明确保守分析会高估集合。变量即便值不变也能活，数据变化不是定义。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "旧原语为语言基本构件，惰性求值为计算发生时点，因序为事件可比较先后，分身有别为同源状态修改隔离。本项为一个值沿后续路径的用途状态；不以live的英文词面与活桥身体成设施合并，也不凭同字就自动判新。 已检索全部历史活变量/活跃变量/liveness/live variable无既有候选关系命中；未做市场使用查询，不宣称新创术语或注册可用。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是活变量，做人工智能研究。",
+        "活变量发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened"
+    }
+  ],
+  "scope": "同包第二草案，独立文件保留首次已交稿字节；尚未查重或配英文。"
+}

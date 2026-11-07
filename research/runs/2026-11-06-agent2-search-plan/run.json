@@ -1,0 +1,58 @@
+{
+  "protocol_version": "1.1",
+  "run_id": "2026-11-06-agent2-search-plan",
+  "date": "2026-11-06",
+  "status": "incomplete",
+  "stage": "agent2_search_plan_only",
+  "coordinator_id": "/root",
+  "roles": {
+    "A1": {
+      "agent_id": "/root/agent1_baseline105",
+      "status": "completed",
+      "execution_ref": "Prior actual105-case run, not re-executed this turn"
+    },
+    "A2": {
+      "agent_id": "/root/agent2_materials_cn",
+      "status": "completed",
+      "execution_ref": "Actual collaboration /root/agent2_materials_cn search-plan delivery plus real v1→v2 rework, preserved in rework.json and revisions/v1."
+    }
+  },
+  "not_started": [
+    "material_pilot",
+    "name_creation",
+    "A3",
+    "A4"
+  ],
+  "scope": "User explicitly authorized workflow update and Agent2 search plan only. No material batches or names.",
+  "recorded_at": "2026-11-06T17:14:05+08:00",
+  "new_name_count": 0,
+  "schedule_created": false,
+  "input_refs": [
+    {
+      "path": "inputs/A1/README.md",
+      "sha256": "72ec38fefa7cec1ad528378a38cb1cd5b156ebe23ed74b1bd7f9a86943a0edd9"
+    },
+    {
+      "path": "inputs/A1/cases.json",
+      "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746"
+    },
+    {
+      "path": "inputs/A1/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+    }
+  ],
+  "stage_status": "search_plan_delivered_and_reviewed",
+  "recorded_completed_at": "2026-11-06T17:26:09+08:00",
+  "actual_counts": {
+    "baseline_cases": 105,
+    "search_tasks": 8,
+    "macro_directions": 6,
+    "case_references": 23,
+    "planned_source_entries": 25,
+    "new_external_queries": 0,
+    "new_external_source_readings": 0,
+    "material_cards": 0,
+    "new_names": 0
+  },
+  "incomplete_reason": "User requested search plan only; plan reviewed, full four-agent naming cycle not started/completed."
+}

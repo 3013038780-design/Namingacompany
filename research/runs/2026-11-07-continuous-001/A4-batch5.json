@@ -1,0 +1,61 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "submitted_at": "2026-11-07T21:07:10.837849+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch1.json",
+      "sha256": "de29716948169e218e2207fdb612e83e8d0a5e6dbed0e3bc5b92e623f9fae2d4"
+    },
+    {
+      "path": "materials-pilot.json",
+      "sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7"
+    },
+    {
+      "path": "A3-cn-batch1.json",
+      "sha256": "b143727967822d1fa6cb86fddfe18c40cd95bcc7685e7195ecc010e388bbe0b3"
+    },
+    {
+      "path": "A3-en-batch3.json",
+      "sha256": "58124dfdb83a15c09a176fa88759e2a95bdd86ddd87d262d4a58fd3c826803c7"
+    },
+    {
+      "path": "A4-batch3.json",
+      "sha256": "6732d399c2a91c8cf9993e51ee8cfe68d306560bbbe6a6b28f435aa6d28d7da8"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E05",
+      "chinese_id": "C1-C01",
+      "chinese": "由此及彼",
+      "english": "What Follows",
+      "suggested_pronunciation": "wuht FOL-ohz /wʌt ˈfɑloʊz/（建议；what、follow有正常地域元音变体）。",
+      "type": "ordinary_English_phrase",
+      "formation": "what在此提出未知所得，follows用“由此成为推论/结果”的真实英语义，而不只指时间上随后。两个完整普通词形成一个自然研究提问：依据已有信息和关系，能推出什么？这是完整短语的品牌使用，不改Therefrom或Either End的字母，也不声称整句是论文术语。",
+      "bilingual_relation": "中文给沿关系由此及彼的行动，英文问同一关系中能随之得出什么；一个讲推知过程，一个把尚未知的结果留为研究对象。两边共享以已有信息与可检查关系获得另一端认识，不将其解释成只换个观察角度。",
+      "meaning": "面对一个已知事实，不急着宣告全部答案，而是继续问它支持什么结果。公司借这个自然问题表达求知与推理的研究身份，模型、工具和算法均可在其下发展。",
+      "shortcoming": "可能先像出版标题、节目名或剧情预告；日常英语也会把它理解为接下来发生什么，逻辑推论第二层需要研究语境说明。普通短语的专名辨识度中等，不能因语言自然就推断没有商业使用。",
+      "boundary": "follows的结果/推论义由词典支持，约束关系的事实仍来自SICP。固定关系下推知须足够信息且依据有效；名字不是自动发现新规则、任何前提都可推出真结论或能力必然成长的承诺。",
+      "source_urls": [
+        "https://sicp.sourceacademy.org/chapters/3.3.5.html",
+        "https://www.merriam-webster.com/dictionary/follow"
+      ],
+      "read_scope": "复用本A4已实读SICP3.3.5 L264–283；本次新增实际读Merriam-Webster follow正文L91–101、126–159，确认结果/逻辑理解/推论义。另读A3-en-batch3.json中Eitherend实际连接器及过期历史品牌的边界；未执行本英文的使用或登记查询。",
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "usage_screening_performed": false,
+  "rework": {
+    "language": "en",
+    "attempt": 2,
+    "previous_english_id": "C1-E03",
+    "previous_english": "Either End",
+    "initial_english_id": "C1-E01",
+    "reason": "同A3确认Eitherend现售电连接器商品，按用户避已有商业命名偏好主动避让。1992过期第三方品牌记录不称现存注册；本案从自然的推知提问重新构想。",
+    "responsible_role": "A4",
+    "remaining_rework_after_this": 0,
+    "evidence_ref": "A3-en-batch3.json",
+    "failure_policy": "若仍未通过，中文转无合格英文储备；不得继续换字突破两次返工上限。"
+  }
+}

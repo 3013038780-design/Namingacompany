@@ -1,0 +1,46 @@
+{
+  "author_agent": "/root/agent2_materials_cn",
+  "submitted_at": "2026-11-06T17:24:11+08:00",
+  "revision": 2,
+  "previous_version_preserved": [
+    {
+      "path": "revisions/v1/search-plan.json",
+      "sha256": "6a6df48300390189c39959d2204b54d1f4bb4e277782ac7eb7ad80b188575670"
+    },
+    {
+      "path": "revisions/v1/search-plan.md",
+      "sha256": "a88663b2f5e890224ddb02404dfb1ac55d185250424e1462ba125328d99e1717"
+    },
+    {
+      "path": "revisions/v1/reading-access-log.json",
+      "sha256": "2c92b6b9d6e8b8d1af5876d14bfa3a1a6553d15956f2030fbbb10b02c558e0a8"
+    }
+  ],
+  "revised_files": [
+    {
+      "path": "search-plan.json",
+      "sha256": "8ad37583ad25a637de0701b3c90ee1682ceb91b63eafd0139d2993c0b888813a"
+    },
+    {
+      "path": "search-plan.md",
+      "sha256": "c155b479f3e76cb4d542e4db64f16b8d5075e99fb112f3d1e88e01b62b251230"
+    },
+    {
+      "path": "reading-access-log.json",
+      "sha256": "78271c4e1bc3b63b1fd14597fb169aa133db2806858027fc7a35d6ae6f1bfcb5"
+    }
+  ],
+  "changes": [
+    {
+      "request": "D2B案例与搜索问题未实质接通",
+      "action": "撤下B095年度观测案例；选择B085 Plastic并重写为整体状态vs结构变化的问题，加入具体对照、替换Thompson为生物自组织书籍主题；保留对词源证据不足和旧曲流家族风险的边界。"
+    },
+    {
+      "request": "seed路径不准确",
+      "action": "校正directions与S7全部case_refs及可读稿为research/seed/brand-naming-foundation.md。"
+    }
+  ],
+  "unchanged_scope": "其余7个任务的研究链不改；总任务8、六大方向、拟读入口25；外部查询0、入口实际访问0、新名字0、素材批次0。",
+  "no_new_names": true,
+  "acceptance": "submitted_to_coordinator_not_self_accepted"
+}

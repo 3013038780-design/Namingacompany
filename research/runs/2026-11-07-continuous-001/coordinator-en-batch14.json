@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T23:12:35.602542+08:00",
+  "independence": "Read producer preview batch14 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C19",
+      "name": "Ownwrite",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 3,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 19,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个常用词完整读音可叫出",
+          "counter_association": "首次听到不易区分Ownright和Own Write"
+        },
+        "spelling": {
+          "reason": "两个完整词素无任意改字但需要消歧",
+          "counter_association": "最自然听写可成为own right词组"
+        },
+        "grounding": {
+          "reason": "私有改写有直接来源",
+          "counter_association": "own并不代表所有外部资源独占"
+        },
+        "bilingual_relation": {
+          "reason": "英文突出各自写入符合中文一部分",
+          "counter_association": "未呈现同源或初始共享"
+        },
+        "distinctiveness": {
+          "reason": "有完整构词关系而非随机字母",
+          "counter_association": "首先像写作版权工具且词组性强"
+        }
+      },
+      "decision": "quality_reject",
+      "english_id": "C1-E14"
+    }
+  ]
+}

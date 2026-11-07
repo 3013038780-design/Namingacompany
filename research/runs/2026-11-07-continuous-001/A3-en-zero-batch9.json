@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English zero-input review",
+  "checked_at": "2026-11-08T00:03:27.981633+08:00",
+  "inputs": [
+    {
+      "path": "A4-zero-input-batch9.json",
+      "sha256": "38547ae0b9c006f8326970da36f08fb8c8e7b7d4beca649594ebd0e43efc48e7"
+    },
+    {
+      "path": "A4-zero-input-batch9.md",
+      "sha256": "49f2fb6bb9b6c07e1315bd201b049ed1d0c7a19094407d05cccd24cc21ef2864"
+    },
+    {
+      "path": "A3-cn-batch10.json",
+      "sha256": "2179b9ba1b5c71277b1ced490d859f432f06ee4befd57ef3f4d30b549bcaf126"
+    },
+    {
+      "path": "A3-cn-batch10-receipt.json",
+      "sha256": "d8ba6b4447f17647f0b2be3086213243f1ed178ab1d4fde69e80544ec3e57f51"
+    }
+  ],
+  "execution": "实际读上游A4零回执md/json、自身中文正式档/receipt，核A4输入与原中文输出SHA，并确认两中文去留。不将未开始标零。",
+  "upstream_chinese_candidates": 2,
+  "coordinator_quality_passed": 1,
+  "qualified_chinese_inputs_after_A3": 0,
+  "english_inputs_received": 0,
+  "english_outputs_reviewed": 0,
+  "actual_new_external_queries": 0,
+  "actual_new_english_queries": 0,
+  "actual_new_registration_queries": 0,
+  "agent3_cumulative_candidate_queries": 227,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 229,
+  "decision": "completed_zero_english_input_review_matches_upstream",
+  "excluded": [
+    {
+      "id": "C1-C20",
+      "name": "声入纹",
+      "reason": "quality_reject_not_usage_screened"
+    },
+    {
+      "id": "C1-C21",
+      "name": "识局",
+      "reason": "reject_existing_commercial_core_not_ai_model_or_trademark_legal_ruling"
+    }
+  ],
+  "next": "本小包闭环；同一001之后继续不同家族，不停止整体工程。",
+  "unchanged": "未起英文、未更改旧稿/总库/索引、未git；未重开网页或登记入口。"
+}

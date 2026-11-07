@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-07T21:42:35.844766+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E13",
+      "chinese_id": "C1-C13",
+      "english": "Textrove",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "text和rove完整保留，两个音节可读，整体是可称呼专名。",
+          "counter_association": "/kstr/相接有发音成本，也可能按Tex-trove分读。"
+        },
+        "spelling": {
+          "reason": "由text加rove原样拼接，无无义字母或拼音改造。",
+          "counter_association": "初听或许写成Text Rove、TexTrove，需首次说明text+rove。"
+        },
+        "grounding": {
+          "reason": "文字与在其中穿行属于同一可操作知识结构的真实场景，不外加成长动作。",
+          "counter_association": "借用空间动词仍是品牌比喻，不是技术术语，且损失图形视图。"
+        },
+        "bilingual_relation": {
+          "reason": "中文跳读与英文在文字信息中穿行共同指向主动非线性阅读。",
+          "counter_association": "英文漫游也可能无目的，中文还可能是草草略过。"
+        },
+        "distinctiveness": {
+          "reason": "从读者所进入的具体文字空间形成完整新称呼，减少纯网络漫游标签。",
+          "counter_association": "仍有阅读/文本产品印象，未核使用与近似，独特性不来自未查到。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；等待主控先读无分预览独评，再读本档并授权原A3。"
+    }
+  ]
+}

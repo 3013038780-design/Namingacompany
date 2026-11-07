@@ -1,0 +1,999 @@
+{
+  "date": "2026-11-06",
+  "agent": "/root/agent1_case_expansion",
+  "stage": "A1_only",
+  "scope": "20新增案例；不生成新候选、不做注册清查、不启动A2–A4",
+  "cases": [
+    {
+      "id": "A1-01",
+      "name": "Arm",
+      "category": "broad_tech",
+      "region": "international",
+      "scope_note": "命名分析案例，非市场排名或注册核查",
+      "word_origin_fact": "早期处理器项目名Acorn RISC Machine，1990年公司为Advanced RISC Machines。官方历史也提醒，后来的Arm已作为独立品牌延续，不必始终还原旧全称。",
+      "origin_confirmation": "官方历史说明；arm的手臂日常义只是英语同形联想，并非已证实命名动机。",
+      "construction": "技术长名→首字母→可直接读的短词。",
+      "crossing_worlds": "处理器架构的工程历史 × 人能直接叫出的日常词形。技术压缩后留下一个身体部位般熟悉的外壳。",
+      "naming_analysis": "三个字母可以一口说出；不像一串需要逐字念的机构缩写。它把理解全称的门槛推到第二层，专业背景仍然可追溯。",
+      "long_term_story": "名称随产品与商业模式变化继续存在；品牌不需要每次技术变动就重新解释旧全称。",
+      "bilingual_relation": "本案沿用Arm，不把“手臂”造作官方中文名，也不强制为英文缩写逐字配汉字。",
+      "weakness": "过短词搜索噪声大；成功也依赖长期产品使用。不能据此认定任意三字母都有同样辨识。",
+      "principle_ids": [
+        "P1",
+        "P6"
+      ],
+      "tags": [
+        "缩写可发音",
+        "技术历史",
+        "品牌脱离原全称"
+      ],
+      "reading_scope": "已打开所列来源正文的相关段落，具体范围逐源记录；未通读整书或所有链接",
+      "sources": [
+        {
+          "url": "https://developer.arm.com/community/arm-community-blogs/b/architectures-and-processors-blog/posts/a-brief-history-of-arm-part-1",
+          "access": "body",
+          "supports": "Acorn项目、1990公司全名及品牌沿用",
+          "reading_scope": "The Beginning与Arm is founded，正文19–38",
+          "source_type": "official",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        },
+        {
+          "url": "https://www.arm.com/glossary/risc",
+          "access": "body",
+          "supports": "官方术语页仍解释Advanced RISC Machine",
+          "reading_scope": "RISC词条正文1184–1188",
+          "source_type": "official",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        }
+      ],
+      "existing_use_status": "实际品牌使用已获正文支持；本轮不作公司登记或商标清查"
+    },
+    {
+      "id": "A1-02",
+      "name": "Raspberry Pi / 树莓派",
+      "category": "broad_tech",
+      "region": "international",
+      "scope_note": "命名分析案例，非市场排名或注册核查",
+      "word_origin_fact": "创始人Eben Upton解释：Raspberry承接早期计算机的水果命名传统，Pi由原先预想使用的Python缩短而来。Pi又与pie同音，但创始解释不是圆周率。",
+      "origin_confirmation": "创始人原始访谈确认来源；圆周率与馅饼联想须和实际词源分开。",
+      "construction": "普通水果词＋编程语言的短化声音。",
+      "crossing_worlds": "日常食物的亲近感 × 动手编程的真实技术起点；不需要让水果承担全部科学比喻。",
+      "naming_analysis": "Raspberry Pi像可叫出的物件，两个部分都有声音记忆。树莓派保留水果画面与末尾音，中文不是生硬的技术全称翻译。",
+      "long_term_story": "业务和性能超出原先Python单一设想，名字仍能服务通用计算与创作。",
+      "bilingual_relation": "树莓是对象对应，派主要承接Pi的声音；不将中文“派别”解读倒写成原始动机。",
+      "weakness": "Raspberry拼写偏长；对中国读者不是最熟悉的水果。不能把“水果＋任意技术音节”当万能公式。",
+      "principle_ids": [
+        "P1",
+        "P2",
+        "P6"
+      ],
+      "tags": [
+        "日常物件",
+        "声音融合",
+        "编程文化"
+      ],
+      "reading_scope": "已打开所列来源正文的相关段落，具体范围逐源记录；未通读整书或所有链接",
+      "sources": [
+        {
+          "url": "https://makezine.com/article/technology/raspberry-pi/10-questions-for-raspberry-pis-eben-upton/",
+          "access": "body",
+          "supports": "创始人直接解释Raspberry和Pi",
+          "reading_scope": "Where did the name come from问答，约106–109",
+          "source_type": "founder_interview",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        },
+        {
+          "url": "https://www.raspberrypi.com/about/",
+          "access": "body",
+          "supports": "计算机品牌与产品方向",
+          "reading_scope": "We are Raspberry Pi及产品介绍",
+          "source_type": "official",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        }
+      ],
+      "existing_use_status": "实际品牌使用已获正文支持；本轮不作公司登记或商标清查"
+    },
+    {
+      "id": "A1-03",
+      "name": "Docker",
+      "category": "broad_tech",
+      "region": "international",
+      "scope_note": "命名分析案例，非市场排名或注册核查",
+      "word_origin_fact": "docker是码头装卸工；Docker官方文档把容器解释为独立、可移植的应用进程。词义和技术事实可核实，本轮未取得创始人命名过程的一手说明。",
+      "origin_confirmation": "真实词义＋实际品牌/技术正文；命名动机未确认。",
+      "construction": "完整职业名词直接转为软件品牌。",
+      "crossing_worlds": "港口搬运集装箱的人 × 打包、移动、运行软件容器的工具。跨界靠“处理可搬运单元”的角色关系成立。",
+      "naming_analysis": "它命名的是一个能做事的角色，而非长串容器功能。两音节清楚，既有人的动作，也有空间和对象，因而容易形成一致的视觉语言。",
+      "long_term_story": "不同工作负载都可放进容器，角色比某一个部署功能更宽。",
+      "bilingual_relation": "保留Docker作为称呼；“码头工人”是释义，不冒充官方中文品牌。",
+      "weakness": "对不知道容器的人，关联需要讲一次；不能只因“搬运”就推导出学习或进化。",
+      "principle_ids": [
+        "P2",
+        "P3"
+      ],
+      "tags": [
+        "职业角色",
+        "现实与计算映射",
+        "日常词"
+      ],
+      "reading_scope": "已打开所列来源正文的相关段落，具体范围逐源记录；未通读整书或所有链接",
+      "sources": [
+        {
+          "url": "https://www.collinsdictionary.com/dictionary/english/docker",
+          "access": "body",
+          "supports": "码头装卸工词义，正文215–234",
+          "reading_scope": "词条定义部分；不采用网页例句推断公司命名动机",
+          "source_type": "dictionary",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        },
+        {
+          "url": "https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/",
+          "access": "body",
+          "supports": "软件容器独立/自足/可移植",
+          "reading_scope": "Explanation正文17–36",
+          "source_type": "official",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        }
+      ],
+      "existing_use_status": "实际品牌使用已获正文支持；本轮不作公司登记或商标清查"
+    },
+    {
+      "id": "A1-04",
+      "name": "Elastic",
+      "category": "broad_tech",
+      "region": "international",
+      "scope_note": "命名分析案例，非市场排名或注册核查",
+      "word_origin_fact": "Elastic是有弹性、能伸展的英语词。2015年官方改名文章明确：从Elasticsearch改为Elastic，因为公司已不止搜索，且用户一直如此简称。",
+      "origin_confirmation": "官方改名动机确认；弹性与扩展能力的进一步联系属于分析。",
+      "construction": "从既有复合名删除功能限定，保留可独立使用的性质词。",
+      "crossing_worlds": "物体可伸展的性质 × 软件规模与用途的扩展。最有价值的动作其实是减去search。",
+      "naming_analysis": "不需重造陌生词就取得更大的品牌宽度；保留旧读音与认知资产，又让产品边界能继续移动。",
+      "long_term_story": "机构名容纳更多产品，Elasticsearch继续承担具体产品身份。",
+      "bilingual_relation": "英文完整成立；无需为了中文强行翻译为某个看似科技术语。",
+      "weakness": "常用形容词独占难度与搜索噪声高；删除限定只有在剩余部分能站住时有效。",
+      "principle_ids": [
+        "P4",
+        "P6"
+      ],
+      "tags": [
+        "减法命名",
+        "性质词",
+        "机构与产品分工"
+      ],
+      "reading_scope": "已打开所列来源正文的相关段落，具体范围逐源记录；未通读整书或所有链接",
+      "sources": [
+        {
+          "url": "https://www.elastic.co/blog/elastic-you-know-for-more-than-search",
+          "access": "body",
+          "supports": "2015年公司改名及多产品原因",
+          "reading_scope": "改名正文120–145",
+          "source_type": "official",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        }
+      ],
+      "existing_use_status": "实际品牌使用已获正文支持；本轮不作公司登记或商标清查"
+    },
+    {
+      "id": "A1-05",
+      "name": "Stripe",
+      "category": "broad_tech",
+      "region": "international",
+      "scope_note": "命名分析案例，非市场排名或注册核查",
+      "word_origin_fact": "stripe是条纹。创始人Patrick Collison在原始访谈中说，团队寻找单音节、不带强既有关联的英语词，并结合.com取得成本；本轮没有证据证明它因信用卡磁条得名。",
+      "origin_confirmation": "创始人原始访谈确认选择过程；“磁条来源”不采纳。",
+      "construction": "普通单音节词直接品牌化，名称选择同时考虑发音和实际可取得性。",
+      "crossing_worlds": "抽象支付基础设施 × 一个简单、可画的日常词；二者不必存在强制的一一功能映射。",
+      "naming_analysis": "它在写、说和公司称呼中摩擦小。访谈提到公司曾用SlashDevSlashFinance, Inc.，产品为SlashDevSlashPayments；圈内觉得聪明的符号式表达，造成拼写和口头沟通成本。",
+      "long_term_story": "名字不写支付步骤，后续可以容纳更广的经济基础设施。",
+      "bilingual_relation": "本案不自行创造中文品牌；释义“条纹”只帮助理解。",
+      "weakness": "这是反对“每个成功品牌都有精密技术隐喻”的案例，不是所有普通词都会成功的证明。单音节英语也不能直接照搬为中文标准。",
+      "principle_ids": [
+        "P1",
+        "P5",
+        "P8"
+      ],
+      "tags": [
+        "普通词",
+        "实际传播摩擦",
+        "反对事后附会"
+      ],
+      "reading_scope": "已打开所列来源正文的相关段落，具体范围逐源记录；未通读整书或所有链接",
+      "sources": [
+        {
+          "url": "https://tim.blog/2018/12/24/the-tim-ferriss-show-patrick-collison/",
+          "access": "body",
+          "supports": "创始人讲旧名问题、单音节选词与域名选择",
+          "reading_scope": "命名讨论229–260",
+          "source_type": "founder_interview",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        }
+      ],
+      "existing_use_status": "实际品牌使用已获正文支持；本轮不作公司登记或商标清查"
+    },
+    {
+      "id": "A1-06",
+      "name": "平凯星辰 / PingCAP",
+      "category": "broad_tech",
+      "region": "China",
+      "scope_note": "命名分析案例，非市场排名或注册核查",
+      "word_origin_fact": "官方解释Ping来自网络连通命令，CAP来自分布式系统CAP定理，希望把C、A、P联系起来。平凯星辰是其实际中文称呼；中文四字历史构词动机未确认。",
+      "origin_confirmation": "官方日本站及创始人播客确认英文来源；不把愿景写成真正突破CAP定理。",
+      "construction": "命令词＋学科缩写，构成可连续念出的短名。",
+      "crossing_worlds": "工程师每天使用的ping动作 × 分布式系统的理论约束；两个部分共享网络系统语境。",
+      "naming_analysis": "不是任取两个技术词：ping恰好能对CAP做“连接”的动作。圈外人可先记住PingCAP，圈内人随后读到一个完整的技术玩笑和追求。",
+      "long_term_story": "让行业共同知识成为团队身份；产品TiDB可另承载具体数据库说明。",
+      "bilingual_relation": "平凯与PingCAP有声音呼应，星辰增加中文意象；这只是结构观察，不伪称官方词源。",
+      "weakness": "外行需要解释CAP；不能把公司愿景或创始人的玩笑变成分布式系统结论。",
+      "principle_ids": [
+        "P2",
+        "P3",
+        "P6"
+      ],
+      "tags": [
+        "命令",
+        "学科定理",
+        "圈内双关"
+      ],
+      "reading_scope": "已打开所列来源正文的相关段落，具体范围逐源记录；未通读整书或所有链接",
+      "sources": [
+        {
+          "url": "https://pingcap.co.jp/about-us/",
+          "access": "body",
+          "supports": "Ping＋CAP官方释义",
+          "reading_scope": "PingCAPの歴史と社名の由来109–114",
+          "source_type": "official",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        },
+        {
+          "url": "https://kubernetespodcast.com/episode/121-tikv-tidb-and-pingcap/",
+          "access": "body",
+          "supports": "创始人Ed Huang直接解释词义及连接愿望",
+          "reading_scope": "What is the origin of the name PingCAP问答",
+          "source_type": "founder_interview",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        }
+      ],
+      "existing_use_status": "实际品牌使用已获正文支持；本轮不作公司登记或商标清查"
+    },
+    {
+      "id": "A1-07",
+      "name": "燧原 / Enflame",
+      "category": "broad_tech",
+      "region": "China",
+      "scope_note": "命名分析案例，非市场排名或注册核查",
+      "word_origin_fact": "投资界亲访公司的原始报道解释中文取自燧人取火与星火燎原。该说明是采访报道，不冒充官网命名声明。Enflame为实际英文品牌，字形含flame，可形成点燃联想。",
+      "origin_confirmation": "中文有原始采访报道的解释；英文具体历史构词未确认。",
+      "construction": "两段文化表达各提取一字，以同一“火”的过程压缩连接。",
+      "crossing_worlds": "人获得用火技术的起点 × 火由一点扩展到大片的过程；发明与传播共享一个物理意象。",
+      "naming_analysis": "不是“燧很高级、原很宏大”的逐字赞美。两个典故在同一条点火—扩展关系里相遇，省略的部分可被文化记忆补全，因此短而有张力。",
+      "long_term_story": "中文可以讲原创技术如何从起点走向规模应用；英文保留火的动作和力量主题。",
+      "bilingual_relation": "共享火主题，不逐字翻译燧人或原野；Enflame不应被机械拆成未经确认的拉丁语来源。",
+      "weakness": "燧的读写门槛高于熟字；火也能联想到失控，不应把一切火意象都解释成优点。",
+      "principle_ids": [
+        "P2",
+        "P3",
+        "P7"
+      ],
+      "tags": [
+        "文化压缩",
+        "同一动作链",
+        "中文组合"
+      ],
+      "reading_scope": "已打开所列来源正文的相关段落，具体范围逐源记录；未通读整书或所有链接",
+      "sources": [
+        {
+          "url": "https://news.pedaily.cn/202609/568862.shtml",
+          "access": "body",
+          "supports": "中文命名解释；文章31说明采访，51说明取名",
+          "reading_scope": "始于上海部分31–53",
+          "source_type": "original_interview_reporting",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        },
+        {
+          "url": "https://news.fudan.edu.cn/2026/0912/c243a150336/page.htm",
+          "access": "body",
+          "supports": "实际企业身份与AI芯片方向；不用于证明词源",
+          "reading_scope": "校融媒体中心/燧原科技来源，正文95–110",
+          "source_type": "institutional",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        }
+      ],
+      "existing_use_status": "实际品牌使用已获正文支持；本轮不作公司登记或商标清查"
+    },
+    {
+      "id": "A1-08",
+      "name": "沐曦 / MetaX",
+      "category": "broad_tech",
+      "region": "China",
+      "scope_note": "命名分析案例，非市场排名或注册核查",
+      "word_origin_fact": "中文由沐与曦组成，可读作沐浴晨光；这是字面释义，没有查到取自某篇古文的证据。官网实际使用MetaX；本轮没有足够正文证据确认英文历史构词或各字母解释。",
+      "origin_confirmation": "中文字面分析＋官网用名；中英文历史命名动机均未确认。",
+      "construction": "熟悉动词＋较有辨识的日光字；英文短专名承载独立字形。",
+      "crossing_worlds": "身体可感的光照 × 面向未来的公司身份；不是把光直接当成GPU的技术原理。",
+      "naming_analysis": "沐先带出动作和感受，曦补出画面；中文两音节完整、温暖，说明硬科技身份可以由产品与叙事建立，而不必名字里先写算力。",
+      "long_term_story": "同一个曦字可在产品家族延展，但家族延展不应被重复计为独立创意。",
+      "bilingual_relation": "MetaX是独立英文品牌；不擅自宣布Meta＋X是公司确认的历史词源。与中文不逐字对应的事实，不应被补成一段虚构的造词故事。",
+      "weakness": "曦笔画多，口述易与熙/希混淆；诗意本身不自动适合本项目。英文MetaX的命名过程未取得足够正文支持，不作为已核实造词方法。",
+      "principle_ids": [
+        "P5",
+        "P6",
+        "P8"
+      ],
+      "tags": [
+        "可感意象",
+        "双语独立",
+        "品牌与产品家族"
+      ],
+      "reading_scope": "已打开所列来源正文的相关段落，具体范围逐源记录；未通读整书或所有链接",
+      "sources": [
+        {
+          "url": "https://www.metax-tech.com/",
+          "access": "body",
+          "supports": "沐曦/MetaX实际双语使用与GPU产品",
+          "reading_scope": "首页品牌、产品与公司介绍",
+          "source_type": "official",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        }
+      ],
+      "existing_use_status": "实际品牌使用已获正文支持；本轮不作公司登记或商标清查"
+    },
+    {
+      "id": "A1-09",
+      "name": "追觅 / Dreame",
+      "category": "broad_tech",
+      "region": "China",
+      "scope_note": "命名分析案例，非市场排名或注册核查",
+      "word_origin_fact": "追与觅共享主动寻找的含义。中国官网把梦想人生和值得追觅联系，并使用ALL DREAMS IN ONE DREAME。可确认dream主题呼应；不能把Dreame说成追觅的语音音译。",
+      "origin_confirmation": "官方当前品牌叙事确认主题，未取得最初造词全过程。",
+      "construction": "两个同向动作字组成自然称呼；英文以接近dream的字形建立独立名字。",
+      "crossing_worlds": "寻找的行动 × 尚未实现的生活愿望。名字说人的追求，不先限定高速马达或某一类家电。",
+      "naming_analysis": "两个字不需复杂解释就能说出态度，短而有方向。英文增加末尾e形成专名，与中文共享追求主题，保留各自可传播的语言。",
+      "long_term_story": "中文行为范围比某种硬件更宽；名字给技术进入生活的目的留空间。",
+      "bilingual_relation": "主题对应与英文词形变体；不把两个中文动作逐字拼成英文，也不声称发音一致。",
+      "weakness": "两个近义动词若没有自然语感容易显得重复；成功的家用消费品牌也不保证适合AI研究机构。",
+      "principle_ids": [
+        "P1",
+        "P6",
+        "P8"
+      ],
+      "tags": [
+        "动作组合",
+        "声音变形",
+        "人的目标"
+      ],
+      "reading_scope": "已打开所列来源正文的相关段落，具体范围逐源记录；未通读整书或所有链接",
+      "sources": [
+        {
+          "url": "https://www.dreame.tech/mobileAbout",
+          "access": "body",
+          "supports": "梦想人生/ALL DREAMS IN ONE DREAME及科技方向",
+          "reading_scope": "关于追觅正文2–15",
+          "source_type": "official",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        }
+      ],
+      "existing_use_status": "实际品牌使用已获正文支持；本轮不作公司登记或商标清查"
+    },
+    {
+      "id": "A1-10",
+      "name": "Black Forest Labs",
+      "category": "current_ai",
+      "region": "international",
+      "scope_note": "命名分析案例，非市场排名或注册核查",
+      "word_origin_fact": "Black Forest是黑森林这一地理名称；官方说明研究实验室创立于Freiburg并在那里设总部。本轮未找到官方明确说“因此取名”的句子，地理呼应和起源归因分开。",
+      "origin_confirmation": "用名、创立地点官方确认；命名因果未确认。",
+      "construction": "真实地名＋机构属性Labs。",
+      "crossing_worlds": "具体的地方身份 × 图像生成与视觉智能实验室。地名提供背景和想象，Labs清楚说明是什么组织。",
+      "naming_analysis": "Black和Forest都容易理解，组合是一片能想象的地方；不必用复杂学术词来获得研究气质。与抽象AI品牌相比，它有可辨认的地域纹理。",
+      "long_term_story": "地域是起点，不是业务功能；扩展研究产品时无需换名。",
+      "bilingual_relation": "黑森林是地理释义，不在本轮宣称其为官方注册中文名。",
+      "weakness": "地理解释需要准确；不能顺势发明森林集体智能、树木学习等未获支持的技术寓意。",
+      "principle_ids": [
+        "P3",
+        "P5",
+        "P8"
+      ],
+      "tags": [
+        "地理",
+        "研究机构后缀",
+        "具体场所"
+      ],
+      "reading_scope": "已打开所列来源正文的相关段落，具体范围逐源记录；未通读整书或所有链接",
+      "sources": [
+        {
+          "url": "https://bfl.ai/about",
+          "access": "body",
+          "supports": "视觉智能研究与Freiburg/San Francisco实验室",
+          "reading_scope": "About正文及团队介绍",
+          "source_type": "official",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        },
+        {
+          "url": "https://bfl.ai/careers",
+          "access": "body",
+          "supports": "官方声明Freiburg为创立地点和总部",
+          "reading_scope": "Freiburg地点与团队介绍",
+          "source_type": "official",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        }
+      ],
+      "existing_use_status": "实际品牌使用已获正文支持；本轮不作公司登记或商标清查"
+    },
+    {
+      "id": "A1-11",
+      "name": "Modal",
+      "category": "current_ai",
+      "region": "international",
+      "scope_note": "命名分析案例，非市场排名或注册核查",
+      "word_origin_fact": "modal是既有词，在音乐指调式相关，在逻辑涉及必然/可能等情态，在统计可涉及众数。官网是AI训练、推理及沙箱基础设施；本轮未找到公司正式命名动机。",
+      "origin_confirmation": "词典真实多义＋官网用名；不认定源于某一具体分支。",
+      "construction": "单个短学科通用词品牌化。",
+      "crossing_worlds": "同一个mode词义家族中的形式、调式与情态 × 计算平台的可组合能力。跨界入口来自同词的真实多义，而不是公司都在做这些学科。",
+      "naming_analysis": "两音节、五字母、写法整齐；专业身份不依赖完整术语。不同领域的人可以先记住同一声音，再读到自己的第二层。",
+      "long_term_story": "机构名不限定某个模型架构或云资源形态，产品说明补足具体用途。",
+      "bilingual_relation": "保留Modal，不把“模态”当已证实官方中文名。中文释义可多于一种，不宜强压成唯一对应。",
+      "weakness": "与model近形、与modal弹窗等术语重叠，可能增加搜索和听写混淆；多义不是越多越好。",
+      "principle_ids": [
+        "P1",
+        "P3",
+        "P8"
+      ],
+      "tags": [
+        "跨学科多义",
+        "短术语",
+        "独立称呼"
+      ],
+      "reading_scope": "已打开所列来源正文的相关段落，具体范围逐源记录；未通读整书或所有链接",
+      "sources": [
+        {
+          "url": "https://www.collinsdictionary.com/dictionary/english/modal",
+          "access": "body",
+          "supports": "音乐、逻辑与统计词义，正文253–334",
+          "reading_scope": "词条定义部分；不采用网页例句推断公司命名动机",
+          "source_type": "dictionary",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        },
+        {
+          "url": "https://modal.com/",
+          "access": "body",
+          "supports": "AI训练/推理/沙箱平台",
+          "reading_scope": "平台简介62–116",
+          "source_type": "official",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        }
+      ],
+      "existing_use_status": "实际品牌使用已获正文支持；本轮不作公司登记或商标清查"
+    },
+    {
+      "id": "A1-12",
+      "name": "ElevenLabs",
+      "category": "current_ai",
+      "region": "international",
+      "scope_note": "命名分析案例，非市场排名或注册核查",
+      "word_origin_fact": "Salesforce Ventures在CEO炉边谈话记录中说明，11关联创始人的数字偏好、Apollo 11及《This Is Spinal Tap》调到11的文化引用。不是11种模型或11位创始人。",
+      "origin_confirmation": "活动主办/投资方的一手谈话整理，明确列出命名关联；不把数字偏好当数学定理。",
+      "construction": "日常数字词＋Labs。",
+      "crossing_worlds": "登月的挑战尺度 × 流行文化中超出常规刻度的音量。不同入口围绕“再往上一档”的感受相容。",
+      "naming_analysis": "数字本身容易复述，Labs提供研究机构身份；知道影片后，声音AI的关联更有趣，而不知道影片的人仍能叫出名字。",
+      "long_term_story": "Eleven作为母品牌能与不同产品搭配；不需要始终仅指文本转语音。",
+      "bilingual_relation": "数字十一是释义；本轮不编一个官方中文公司名。跨文化传播时，数字可先被记住，典故后讲。",
+      "weakness": "英语Eleven三音节加Labs并不极短；“更大声”不是更智能的技术证据。多出处应保留主线而非堆砌。",
+      "principle_ids": [
+        "P1",
+        "P3",
+        "P7"
+      ],
+      "tags": [
+        "数字",
+        "现代电影",
+        "研究后缀"
+      ],
+      "reading_scope": "已打开所列来源正文的相关段落，具体范围逐源记录；未通读整书或所有链接",
+      "sources": [
+        {
+          "url": "https://salesforceventures.com/perspectives/how-elevenlabs-is-making-voice-ai-more-human/",
+          "access": "body",
+          "supports": "CEO谈话整理中的命名关联",
+          "reading_scope": "开头18–29",
+          "source_type": "first_party_event_report",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        },
+        {
+          "url": "https://elevenlabs.io/about",
+          "access": "body",
+          "supports": "研究与产品身份",
+          "reading_scope": "About正文66–76",
+          "source_type": "official",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        }
+      ],
+      "existing_use_status": "实际品牌使用已获正文支持；本轮不作公司登记或商标清查"
+    },
+    {
+      "id": "A1-13",
+      "name": "Granola",
+      "category": "current_ai",
+      "region": "international",
+      "scope_note": "命名分析案例，非市场排名或注册核查",
+      "word_origin_fact": "granola是含燕麦等谷物、坚果或干果的早餐食物。官网实际把Granola定义为AI notepad；本轮未取得“因混合原料而取名”的创始解释。",
+      "origin_confirmation": "词典和品牌正文确认；命名动机未知，混合食材→会议信息只能标比喻分析。",
+      "construction": "日常食物词直接成为AI工具称呼。",
+      "crossing_worlds": "熟悉、日常的早餐物件 × 人人日常参加会议后的笔记任务。亲近感成立不需要假装它是算法。",
+      "naming_analysis": "一个词、三个常规音节，没有Note/AI功能词仍能被称呼；产品副标题负责说明用途。与Apple相比，新启发是这种方式在本轮AI工具中仍能成立。",
+      "long_term_story": "可从会议笔记延伸到工作记忆等功能，但是否适合作公司母品牌需另判。",
+      "bilingual_relation": "本案保留英文；格兰诺拉之类音译不是本轮推荐。中国用户对食物熟悉程度不同，不能照搬英语亲近感。",
+      "weakness": "主要是产品气质参照，不直接作为本项目AI Lab风格答案；过度解释成“知识营养”反而像保健教育。",
+      "principle_ids": [
+        "P1",
+        "P5",
+        "P8"
+      ],
+      "tags": [
+        "日常食物",
+        "产品人格",
+        "浅层易称呼"
+      ],
+      "reading_scope": "已打开所列来源正文的相关段落，具体范围逐源记录；未通读整书或所有链接",
+      "sources": [
+        {
+          "url": "https://www.collinsdictionary.com/dictionary/english/granola",
+          "access": "body",
+          "supports": "早餐谷物词义，正文219–225",
+          "reading_scope": "词条定义部分；不采用网页例句推断公司命名动机",
+          "source_type": "dictionary",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        },
+        {
+          "url": "https://www.granola.ai/",
+          "access": "body",
+          "supports": "AI notepad产品身份",
+          "reading_scope": "首页10–23及产品笔记演示",
+          "source_type": "official",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        }
+      ],
+      "existing_use_status": "实际品牌使用已获正文支持；本轮不作公司登记或商标清查"
+    },
+    {
+      "id": "A1-14",
+      "name": "Glean",
+      "category": "current_ai",
+      "region": "international",
+      "scope_note": "命名分析案例，非市场排名或注册核查",
+      "word_origin_fact": "glean兼有拾取收割后余粮、逐点收集事实和信息的意思。官方介绍从找不到工作知识的问题出发，发展企业搜索与AI平台。",
+      "origin_confirmation": "词典与官方业务故事确认；创始人选择该词的历史动机未确认。",
+      "construction": "一个既有动词直接作品牌。",
+      "crossing_worlds": "田间拾取散落谷物 × 从分散资料中收集有用知识。两者不是只共享“丰收”寓意，而是共享逐点获得的动作。",
+      "naming_analysis": "一个音节就完成动作和角色想象；不像“智能知识搜索系统”那样只是类别标签。技术变了，找到分散知识的任务仍可保留。",
+      "long_term_story": "从搜索走向企业AI仍有同一核心：在组织已有知识中找出可用内容。",
+      "bilingual_relation": "本轮不把“拾穗”冒充官方中文名；中文读者可借动作理解英文，而非必须采用直译。",
+      "weakness": "词典义包括缓慢或费力搜集，未必都是品牌想传达的效率；不能只挑正面义说故事。",
+      "principle_ids": [
+        "P2",
+        "P3",
+        "P8"
+      ],
+      "tags": [
+        "动词",
+        "既有隐喻",
+        "知识获取"
+      ],
+      "reading_scope": "已打开所列来源正文的相关段落，具体范围逐源记录；未通读整书或所有链接",
+      "sources": [
+        {
+          "url": "https://www.collinsdictionary.com/dictionary/english/glean",
+          "access": "body",
+          "supports": "拾穗与逐点搜集信息，正文273–329",
+          "reading_scope": "词条定义部分；不采用网页例句推断公司命名动机",
+          "source_type": "dictionary",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        },
+        {
+          "url": "https://www.glean.com/about",
+          "access": "body",
+          "supports": "从企业搜索扩展到企业AI的官方叙事",
+          "reading_scope": "From workplace search to enterprise AI，正文208–220",
+          "source_type": "official",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        }
+      ],
+      "existing_use_status": "实际品牌使用已获正文支持；本轮不作公司登记或商标清查"
+    },
+    {
+      "id": "A1-15",
+      "name": "Augment Code",
+      "category": "current_ai",
+      "region": "international",
+      "scope_note": "命名分析案例，非市场排名或注册核查",
+      "word_origin_fact": "augment是通过增加某物而使已有对象更强、更大或更有效。公司实际使用Augment Code，官网描述软件开发与智能体工作流。",
+      "origin_confirmation": "词典及公司用名确认；没有把定义冒充创始命名声明。",
+      "construction": "强动作动词＋早期工作领域。",
+      "crossing_worlds": "已有对象被增加能力的关系 × 开发者和代码系统被工具增强。名字描述的是对别人做什么，而非自己拥有什么。",
+      "naming_analysis": "Augment比泛化的“聪明”更明确：有一个本来存在的对象，其能力被扩展。Code让第一次听见的人知道入口，动作又比具体编码功能更宽。",
+      "long_term_story": "本案也暴露边界：Code有助于清晰，却可能约束未来更广研究；机构与产品可分别承担宽与窄。",
+      "bilingual_relation": "中文释义为增强，不自创官方中文名；中英文配对未必要逐字变成“增强代码”。",
+      "weakness": "含义贴业务但比Granola更描述性；不能因与你们“模型出厂后增强”接近，就直接视为可用品牌。",
+      "principle_ids": [
+        "P2",
+        "P4",
+        "P8"
+      ],
+      "tags": [
+        "赋能关系",
+        "动词",
+        "品牌边界"
+      ],
+      "reading_scope": "已打开所列来源正文的相关段落，具体范围逐源记录；未通读整书或所有链接",
+      "sources": [
+        {
+          "url": "https://www.collinsdictionary.com/dictionary/english/augment",
+          "access": "body",
+          "supports": "通过增加使原对象更强/更有效，正文218–239",
+          "reading_scope": "词条定义部分；不采用网页例句推断公司命名动机",
+          "source_type": "dictionary",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        },
+        {
+          "url": "https://www.augmentcode.com/",
+          "access": "body",
+          "supports": "实际用名与软件开发自动化方向",
+          "reading_scope": "首页品牌及软件工作流介绍；不采用并购/性能营销作命名证据",
+          "source_type": "official",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        }
+      ],
+      "existing_use_status": "实际品牌使用已获正文支持；本轮不作公司登记或商标清查"
+    },
+    {
+      "id": "A1-16",
+      "name": "Notion",
+      "category": "current_ai",
+      "region": "international",
+      "scope_note": "命名分析案例，非市场排名或注册核查",
+      "word_origin_fact": "notion是想法、观念或看法。官方关于页面回溯个人计算、增强智力与可自行组合的工作工具。未找到公司明确的取名历史。",
+      "origin_confirmation": "词典词义与官方思想背景确认；不得说官方宣布源自某一哲学流派。",
+      "construction": "普通抽象名词成为工作平台名称。",
+      "crossing_worlds": "头脑里的想法 × 可以被捕捉、组合、落实的数字工作空间；连接不是某一种笔记格式。",
+      "naming_analysis": "两个音节、常见拼写，比纯AI术语更宽。抽象并不等于空：产品提供了“让想法变成可组织事物”的实际承接。",
+      "long_term_story": "从文档、数据库到AI协作，可以共享同一知识工作主题。",
+      "bilingual_relation": "本案不以“概念”另立中文品牌；无官方中文不等于名字研究不完整。",
+      "weakness": "抽象熟词搜索噪声和通用性高；如果没有具体产品经验承接，很容易只剩好听的空词。",
+      "principle_ids": [
+        "P4",
+        "P5",
+        "P8"
+      ],
+      "tags": [
+        "抽象熟词",
+        "思想与工具",
+        "母品牌宽度"
+      ],
+      "reading_scope": "已打开所列来源正文的相关段落，具体范围逐源记录；未通读整书或所有链接",
+      "sources": [
+        {
+          "url": "https://www.collinsdictionary.com/dictionary/english/notion",
+          "access": "body",
+          "supports": "想法/看法词义，正文218–243",
+          "reading_scope": "词条定义部分；不采用网页例句推断公司命名动机",
+          "source_type": "dictionary",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        },
+        {
+          "url": "https://www.notion.com/about",
+          "access": "body",
+          "supports": "个人计算思想与可组合工作空间",
+          "reading_scope": "About正文61–96",
+          "source_type": "official",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        }
+      ],
+      "existing_use_status": "实际品牌使用已获正文支持；本轮不作公司登记或商标清查"
+    },
+    {
+      "id": "A1-17",
+      "name": "Chai Discovery",
+      "category": "rsi_labs",
+      "region": "international",
+      "scope_note": "AI科学/训练与自动化相邻场域；不是据此认定的RSI公司",
+      "word_origin_fact": "chai是茶、尤其加香料的茶这一既有饮品词；Discovery是发现。官网研究分子设计和生化结构。本轮未找到官方解释为何选择Chai，也没有证据说它是某段AI术语缩写。",
+      "origin_confirmation": "真实词义＋实际品牌；不确认茶就是创始命名来源。",
+      "construction": "短日常词＋研究活动词。",
+      "crossing_worlds": "饮品带来的可称呼性 × Discovery给出的探索方向。它们不一定存在技术机制关系，功能分工本身也能成立。",
+      "naming_analysis": "Chai提供短促而具体的声音，Discovery让机构身份清楚；冷的科学工作与暖的日常词形成适度反差。它提醒我们不必强行让每个字承担AI原理。",
+      "long_term_story": "机构名可讲持续发现；Chai-1等模型又能继承母品牌。",
+      "bilingual_relation": "chai的词源经其他语言与中文茶有联系，不等于公司是中国团队或官方取中国茶意象。",
+      "weakness": "中文读者可能误读成“柴”；没有证据时不能编“泡茶即知识融合”的命名动机。",
+      "principle_ids": [
+        "P1",
+        "P5",
+        "P8"
+      ],
+      "tags": [
+        "日常饮品",
+        "研究活动",
+        "反差"
+      ],
+      "reading_scope": "已打开所列来源正文的相关段落，具体范围逐源记录；未通读整书或所有链接",
+      "sources": [
+        {
+          "url": "https://www.collinsdictionary.com/dictionary/english/chai",
+          "access": "body",
+          "supports": "茶/香料茶词义及语言来源，正文218–246",
+          "reading_scope": "词条定义部分；不采用网页例句推断公司命名动机",
+          "source_type": "dictionary",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        },
+        {
+          "url": "https://www.chaidiscovery.com/",
+          "access": "body",
+          "supports": "AI分子设计研究品牌与方向",
+          "reading_scope": "首页14–35与58–73",
+          "source_type": "official",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        }
+      ],
+      "existing_use_status": "实际品牌使用已获正文支持；本轮不作公司登记或商标清查"
+    },
+    {
+      "id": "A1-18",
+      "name": "EvolutionaryScale",
+      "category": "rsi_labs",
+      "region": "international",
+      "scope_note": "AI科学/训练与自动化相邻场域；不是据此认定的RSI公司",
+      "word_origin_fact": "Evolutionary是演化相关，Scale是尺度、规模。2024年创立发布用ESM3模拟长期演化、使生物学可编程的研究介绍，名字与公开研究内容直接呼应。",
+      "origin_confirmation": "创立研究正文支持主题呼应；没有将研究标题写成完整命名过程自述。",
+      "construction": "形容词＋尺度词的既有英语结构，连写成品牌。",
+      "crossing_worlds": "自然演化的深时间 × 计算训练与模型规模；“尺度”连接两个世界，而不只是给evolution加宏大后缀。",
+      "naming_analysis": "它不是最短，却语法完整，能一口解释研究追求。专业人士看到生物演化，工程师也能读到scale这一熟悉目标。",
+      "long_term_story": "讲的是用计算走进生命的规模与时间，不局限于某一款蛋白模型。",
+      "bilingual_relation": "此处按原英文研究品牌记录，不把“演化尺度”当官方中文公司名；引用的是2024历史发布，不推断当前公司独立状态。",
+      "weakness": "长度和拼写成本明显高于短词；文中的五亿年是研究估算表达，不是模型真的运行五亿年，也不保证自我改进。",
+      "principle_ids": [
+        "P2",
+        "P4",
+        "P7"
+      ],
+      "tags": [
+        "深时间",
+        "规模交叉",
+        "完整短语"
+      ],
+      "reading_scope": "已打开所列来源正文的相关段落，具体范围逐源记录；未通读整书或所有链接",
+      "sources": [
+        {
+          "url": "https://www.evolutionaryscale.ai/blog/esm3-release",
+          "access": "body",
+          "supports": "2024创立叙事、演化和计算建模联系",
+          "reading_scope": "EvolutionaryScale正文23–40；读取的是历史发布",
+          "source_type": "official",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        }
+      ],
+      "existing_use_status": "实际品牌使用已获正文支持；本轮不作公司登记或商标清查"
+    },
+    {
+      "id": "A1-19",
+      "name": "Latent Labs",
+      "category": "rsi_labs",
+      "region": "international",
+      "scope_note": "AI科学/训练与自动化相邻场域；不是据此认定的RSI公司",
+      "word_origin_fact": "latent指已存在但隐藏、未显现的，也可用于潜在能力。公司官网是使生物学可编程的生成模型实验室；AI中的潜变量/潜空间是同词技术入口，未取得本公司明确命名动机。",
+      "origin_confirmation": "词典＋公司正文；潜空间起源不作公司官方归因。",
+      "construction": "既有形容词＋Labs。",
+      "crossing_worlds": "尚未显现的可能性 × 研究把不可见规律变成可设计对象。跨界的主线是从隐藏到显现，不是“潜力无限”的空泛赞美。",
+      "naming_analysis": "Latent短，Labs清楚说明机构；词本身留出未知又不只是神秘。日常与专业义有同一隐藏结构的内核。",
+      "long_term_story": "名字可容纳不同分子模型与研究路线，具体产品Latent-X等再承担系列身份。",
+      "bilingual_relation": "“潜在”是释义而非建议中文品牌；不能为了直译保留英语形容词结构牺牲中文自然度。",
+      "weakness": "潜伏、潜在疾病也属于词义邻近，未必都是好联想；没有证据不能声称公司模型是出厂后持续学习。",
+      "principle_ids": [
+        "P3",
+        "P4",
+        "P8"
+      ],
+      "tags": [
+        "隐藏与显现",
+        "性质词",
+        "研究留白"
+      ],
+      "reading_scope": "已打开所列来源正文的相关段落，具体范围逐源记录；未通读整书或所有链接",
+      "sources": [
+        {
+          "url": "https://www.collinsdictionary.com/dictionary/english/latent",
+          "access": "body",
+          "supports": "隐藏、未显现/未发展的词义，正文286–344",
+          "reading_scope": "词条定义部分；不采用网页例句推断公司命名动机",
+          "source_type": "dictionary",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        },
+        {
+          "url": "https://www.latentlabs.com/",
+          "access": "body",
+          "supports": "生成式生物模型实验室、可编程生物学",
+          "reading_scope": "首页14–19和模型介绍",
+          "source_type": "official",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        }
+      ],
+      "existing_use_status": "实际品牌使用已获正文支持；本轮不作公司登记或商标清查"
+    },
+    {
+      "id": "A1-20",
+      "name": "Mechanize",
+      "category": "rsi_labs",
+      "region": "international",
+      "scope_note": "AI科学/训练与自动化相邻场域；不是据此认定的RSI公司",
+      "word_origin_fact": "mechanize是使原先由人完成的工作由机器执行。官网明确建设前沿编码智能体的环境、评分与强化学习信号。",
+      "origin_confirmation": "词典与实际业务正文支持直接语义联系；未取得取名过程说明。",
+      "construction": "现成动作词直接承担公司名。",
+      "crossing_worlds": "工业时代机械化动词 × 软件工作与AI训练环境。旧动作在新对象上发生，词可以比技术年代更长寿。",
+      "naming_analysis": "语气坚定、任务明确，三音节也能完整称呼；它说明研究身份不必依赖量子、奇点等名词，也能来自普通动词的主张。",
+      "long_term_story": "可以讲工作如何转变，而不是绑定一个模型版本；不过价值立场比中性名称更强。",
+      "bilingual_relation": "保留英文，不把“机械化”当推荐中文；中英文日常情感强度不同。",
+      "weakness": "机械/机械化也可指呆板、去人性；愿景明确会产生争议。好名字可以有立场，但必须是团队愿意承受的立场。",
+      "principle_ids": [
+        "P2",
+        "P4",
+        "P8"
+      ],
+      "tags": [
+        "动词",
+        "旧词新对象",
+        "立场"
+      ],
+      "reading_scope": "已打开所列来源正文的相关段落，具体范围逐源记录；未通读整书或所有链接",
+      "sources": [
+        {
+          "url": "https://www.collinsdictionary.com/dictionary/english/mechanize",
+          "access": "body",
+          "supports": "用机器替代原先人工过程，正文218–239",
+          "reading_scope": "词条定义部分；不采用网页例句推断公司命名动机",
+          "source_type": "dictionary",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        },
+        {
+          "url": "https://www.mechanize.work/",
+          "access": "body",
+          "supports": "编码智能体环境、评估与RL信号",
+          "reading_scope": "首页2–15",
+          "source_type": "official",
+          "checked_at": "2026-11-06",
+          "reader": "A1"
+        }
+      ],
+      "existing_use_status": "实际品牌使用已获正文支持；本轮不作公司登记或商标清查"
+    }
+  ],
+  "principles": [
+    {
+      "id": "P1",
+      "name": "把可称呼性和知识深度分成两层",
+      "positive_example": "Raspberry Pi先像物件称呼，Python起点后讲；ElevenLabs不知影片也能复述。",
+      "counterexample": "旧产品名SlashDevSlashPayments和公司名SlashDevSlashFinance, Inc.的开发者符号语感，带来拼写和口头沟通摩擦；见Stripe创始访谈。",
+      "boundary": "浅层本身要成立；不能用艰深出处来挽救拗口称呼。两音节不是硬规定，短也不是充分条件。",
+      "operational_question": "去掉释义后能否顺畅叫出、口述后能否较稳定地写回？若不能，第二层再深也先退回。"
+    },
+    {
+      "id": "P2",
+      "name": "交叉点优先找角色、动作和关系，不只找两个名词",
+      "positive_example": "Docker是处理容器的角色；PingCAP用ping连接CAP；Glean把拾取动作迁移到知识。",
+      "counterexample": "仅给两个字各写一条吉祥寓意，却说不出二者共同做什么，不具有这些案例的结构。此为失败模式，非另造名字。",
+      "boundary": "分析是可解释的语义关系，不等于创始动机；Chai等任意性品牌不必强装成机制隐喻。",
+      "operational_question": "用一个动词或关系句描述跨界；如果只能用“同时象征A和B”，须再检查是否事后附会。"
+    },
+    {
+      "id": "P3",
+      "name": "专业入口和日常入口必须是同一个词的真实内容",
+      "positive_example": "Glean真有拾穗和搜集信息义；Modal真跨音乐/逻辑；燧原两个文化出处共享火。",
+      "counterexample": "把Raspberry Pi的Pi一概写成圆周率，把Stripe一概写成磁条，会得到漂亮但与已知来源冲突的故事。",
+      "boundary": "并非意义越多越好；不相干的第五第六层会稀释主线，真实多义也可能有负面义。",
+      "operational_question": "每一层能指向独立出处吗？这些层能否回到一个核心动作、对象或态度？"
+    },
+    {
+      "id": "P4",
+      "name": "研究机构名保留变化空间，产品名负责具体入口",
+      "positive_example": "Elastic删除search保留产品；Notion在文档、工作空间和AI中延伸；Augment的Code展示清楚与约束的权衡。",
+      "counterexample": "把当前某一种训练手段完整塞入公司名，技术路线一变便失去解释力；这是一种待避免的限制。",
+      "boundary": "宽不等于抽象空泛；首个产品或团队表达必须能把宽词接到真实活动。",
+      "operational_question": "设想五年后增加三种不同产品，此名是否还成立？若不成立，更适合放在产品层还是机构层？"
+    },
+    {
+      "id": "P5",
+      "name": "普通词获得科技身份需要承接，不需要先伪装成术语",
+      "positive_example": "Granola用产品副标题交代AI笔记；Black Forest加Labs；Stripe靠实际基础设施建立新品牌身份。",
+      "counterexample": "木上林已有真实生态出处，却在用户看来更像家具/环保；真实出处不能代替本项目品牌判断。",
+      "boundary": "不能因一个词来自食物/木/水就自动否决，也不能因Apple成功便说任何水果都适合。行业气质要看名字、承诺、产品及受众合起来的第一理解。",
+      "operational_question": "补上一句真实机构说明后，用户能形成一致身份吗？若仍需很长辩解才能离开错误行业，暂停。"
+    },
+    {
+      "id": "P6",
+      "name": "双语共享身份或主线，不必共享每个字",
+      "positive_example": "追觅/Dreame共享追求梦想主题，树莓派保留对象和声音；PingCAP与平凯星辰各有结构。",
+      "counterexample": "为了逐字对应把中文动作拼成生硬英文，首轮Borrowind已有借款与拼写问题。",
+      "boundary": "关系可以是对象、声音、主题、起点，但不能凭空宣布音译、古语来源或公认读音。",
+      "operational_question": "两种语言单独拿出来都像称呼吗？配对关系能否一句话说清且不依赖虚构词源？"
+    },
+    {
+      "id": "P7",
+      "name": "故事应有主线，允许有支线但不无限加寓意",
+      "positive_example": "燧原点火到扩散；ElevenLabs的Apollo与音量11围绕探索/超出常规刻度；EvolutionaryScale以尺度连接演化和计算。",
+      "counterexample": "将所有正面字义、电影、数字和物理比喻并列，无法判断哪个是核心，只会让品牌解释越来越长。",
+      "boundary": "文化引用不能转成技术能力承诺；五亿年演化与调到11都不是性能保证。",
+      "operational_question": "先选一个主线，再看每层是否强化它；删掉其中任意一层后品牌是否仍能成立？"
+    },
+    {
+      "id": "P8",
+      "name": "好名称分析不等于成功原因证明，更不等于可采用",
+      "positive_example": "Stripe坦承名称选择包含域名取得成本；Modal/Granola可分析词义却没有确认创始动机。",
+      "counterexample": "看到成功公司就为它补上必然成功的精密词源，再把该词作为新推荐，是事后归因与占用混淆。",
+      "boundary": "本批所有名称均为既有使用样本；未进行商标/公司登记核验，也不作为新备选。",
+      "operational_question": "在每条来源旁写清支持词义、实际使用、还是命名动机；三者缺一时不要用另一种证据冒充。"
+    }
+  ],
+  "counterexamples": [
+    {
+      "id": "N1",
+      "name": "SlashDevSlashFinance, Inc. / SlashDevSlashPayments",
+      "type": "actual_prior_name",
+      "failure": "原公司名与产品名的开发者符号表达造成拼写和口头沟通摩擦，见创始访谈；不依据该访谈断言登记被拒或邮件解析失败。",
+      "source_url": "https://tim.blog/2018/12/24/the-tim-ferriss-show-patrick-collison/"
+    },
+    {
+      "id": "N2",
+      "name": "Raspberry Pi=圆周率；Stripe=磁条",
+      "type": "source_attribution_failure",
+      "failure": "两种看似自然的解释都不能替代已获一手支持的命名史；本轮不采用。",
+      "source_urls": [
+        "https://makezine.com/article/technology/raspberry-pi/10-questions-for-raspberry-pis-eben-upton/",
+        "https://tim.blog/2018/12/24/the-tim-ferriss-show-patrick-collison/"
+      ]
+    },
+    {
+      "id": "N3",
+      "name": "木上林 / Woodwoken",
+      "type": "user_rejected_history",
+      "failure": "有真实生态出处仍未达到本项目科技研究机构的身份要求。不能把此个案扩大成自然意象一律不可用。",
+      "source_file": "../2026-11-06/final.json"
+    },
+    {
+      "id": "N4",
+      "name": "借长风 / Borrowind",
+      "type": "user_rejected_history",
+      "failure": "中英逐动作迁移后，英文有借款、听写与幻想游戏等干扰；语义可讲不代表名称成立。",
+      "source_file": "../2026-11-06/final.json"
+    }
+  ]
+}

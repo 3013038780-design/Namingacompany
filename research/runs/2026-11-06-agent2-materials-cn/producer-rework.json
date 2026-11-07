@@ -1,0 +1,101 @@
+{
+  "role": "Agent2_producer",
+  "agent_id": "/root/agent2_materials_cn",
+  "submitted_at": "2026-11-06T14:23:19+08:00",
+  "version": "grounding_rework_1",
+  "original_records_preserved": true,
+  "candidate_id": "A2C21",
+  "name": "行话",
+  "family_id": "F21-dance-code",
+  "axis": "grounding",
+  "original_score": 5,
+  "coordinator_score": 3,
+  "revised_score": 3,
+  "decision": "hold",
+  "revision_reason": "原自评分过度奖励了蜜蜂事实的真实性，没有把中文词与材料之间的命名关系同样严格检查。行话是固定读háng huà的现成词，原稿用行动与编码的连接扩展其含义，读者却可能必须把行临时转读xíng才获得该玩味；这一层不应获得可靠双关或原有词义关系的高分。",
+  "source_fact_remains_valid": "已读Honeybee Democracy出版社节选，舞蹈持续时间/方向编码食源距离/方向，事实没有改变。",
+  "what_the_fact_does_not_establish": "原文并不建立中文行话与蜜蜂舞蹈的词源，也不支持把háng和xíng当成一个无成本读法。群体内部的沟通系统与行话的普通义存在宽泛类比，但不能由此证明经历转为行动这一特定品牌组合已自然成立。",
+  "counter_association": "固定中文词的第一联想是某行业的专门话语，可能显得封闭、资讯化；行动之行的异音联想会增加解释成本。",
+  "why_no_rename": "本次只复评同一案的来源与组合关系，保持原名和全部原始记录，不用改名或改分补足通过数量。",
+  "downstream": "继续hold；不进入Agent3/4，不列正式备选。其他23项不返工。",
+  "h2_producer_delivery_receipt": {
+    "handoff_id": "H2",
+    "delivery_from": "/root/agent2_materials_cn",
+    "delivery_to": "/root",
+    "status": "submitted_for_coordinator_acceptance",
+    "receipt_note": "这是A2真实交付回执，不冒充主控accepted验收。主控独立元数据由主控维护。本次只新增producer-rework.json，没有修改下列冻结输出。",
+    "frozen_outputs": [
+      {
+        "path": "research/runs/2026-11-06-agent2-materials-cn/README.md",
+        "sha256": "e592b4c87d7bcc7ae9801d44c36e2ab7c481b7dc799916b46dec4ff7b879ff44"
+      },
+      {
+        "path": "research/runs/2026-11-06-agent2-materials-cn/materials.md",
+        "sha256": "706d06581058d90eead1715e055d150e98eeb64e99ca539043798d97790a402f"
+      },
+      {
+        "path": "research/runs/2026-11-06-agent2-materials-cn/materials.json",
+        "sha256": "29351c196c1e9eccb306d5a0c2160b934ea7de2e1887d3072175693b4eb8b6e3"
+      },
+      {
+        "path": "research/runs/2026-11-06-agent2-materials-cn/candidates.md",
+        "sha256": "874723f82984d89c39f0c09bd86e9915757f822836cd26da071a5decb941f36a"
+      },
+      {
+        "path": "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+        "sha256": "ae6454d3c330698afa7d7844353f8709f59fb619500ae14cca10885864213ceb"
+      },
+      {
+        "path": "research/runs/2026-11-06-agent2-materials-cn/reading-log.json",
+        "sha256": "b587515ad5b3a6f405fda1e6a4e1c4641243f7731a08d5fc6b01047a5d19069d"
+      },
+      {
+        "path": "research/runs/2026-11-06-agent2-materials-cn/names-preview.json",
+        "sha256": "017e79197e900cb7fbe56270a5e074bddac2a6fc9717fd39d65574df03af4258"
+      },
+      {
+        "path": "research/runs/2026-11-06-agent2-materials-cn/producer-quality.json",
+        "sha256": "975a0e20d255248e498cda9d7e7463d2a6653107e5b26a9419cb4949efa48535"
+      }
+    ],
+    "candidate_ids": [
+      "A2C01",
+      "A2C02",
+      "A2C03",
+      "A2C04",
+      "A2C05",
+      "A2C06",
+      "A2C07",
+      "A2C08",
+      "A2C09",
+      "A2C10",
+      "A2C11",
+      "A2C12",
+      "A2C13",
+      "A2C14",
+      "A2C15",
+      "A2C16",
+      "A2C17",
+      "A2C18",
+      "A2C19",
+      "A2C20",
+      "A2C21",
+      "A2C22",
+      "A2C23",
+      "A2C24"
+    ],
+    "counts": {
+      "material_cards": 24,
+      "literal_chinese_drafts": 24,
+      "new_independent_families": 23,
+      "historical_branch_families": 1,
+      "new_family_target": 24,
+      "new_family_shortfall": 1,
+      "different_books_with_actual_body_excerpts": 5,
+      "recent_news_with_actual_body_sections": 5,
+      "classical_material_cards": 0,
+      "english_or_registration_screening_started": false
+    },
+    "scope": "仅Agent2素材和中文草案交付；完整四Agent循环未执行，质量不足和缺额保留，不宣称注册可用。"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T16:42:40.443978+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A4-preview-batch1.md",
+      "sha256": "b11ae1278029812995db9889e32549505f80c391cb7febd63c68be84303066b4"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A4-quality-batch1.json",
+      "sha256": "dcf40b47889fd3797b462c0b20ed3d337f2db1280c7c69f116d0c95d0434a155"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/coordinator-en-batch1.json",
+      "sha256": "9230c88082a95e2875a3abde04aa47abf92c7e1aa22fe9810b74d4753e926266"
+    }
+  ],
+  "results": [
+    {
+      "candidate_id": "LD-E01",
+      "chinese_candidate_id": "LD-C01",
+      "name": "Inscade",
+      "chinese": "逆级联",
+      "version": 1,
+      "decision": "return_for_alternative",
+      "reason": "有哥伦比亚学校公司COLEGIO INSTITUTO INSCADE SAS历史登记线索（跨行业）；INScade Simulator只在个人简历出现，可能是in SCADE连写，不能确认独立同名软件。不标EXACT_TECH_USE；主控选择另配英文以减少已有专名重合。",
+      "query_logs": [
+        {
+          "category": "exact_no_industry",
+          "query": "\"Inscade\"",
+          "executed_on": "2026-11-07",
+          "summary": "返回学校历史文件和简历inSCADE线索；事实与品牌判定分开。"
+        },
+        {
+          "category": "company_lab",
+          "query": "\"Inscade\" company lab",
+          "executed_on": "2026-11-07",
+          "summary": "返回学校历史文件和简历inSCADE线索；事实与品牌判定分开。"
+        },
+        {
+          "category": "AI_model",
+          "query": "\"Inscade\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "返回学校历史文件和简历inSCADE线索；事实与品牌判定分开。"
+        },
+        {
+          "category": "software_product",
+          "query": "\"Inscade\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "返回学校历史文件和简历inSCADE线索；事实与品牌判定分开。"
+        },
+        {
+          "category": "variants",
+          "query": "\"In Scade\" \"Enscade\" software",
+          "executed_on": "2026-11-07",
+          "summary": "返回学校历史文件和简历inSCADE线索；事实与品牌判定分开。"
+        },
+        {
+          "category": "targeted_software",
+          "query": "\"INScade\" simulator",
+          "executed_on": "2026-11-07",
+          "summary": "返回学校历史文件和简历inSCADE线索；事实与品牌判定分开。"
+        },
+        {
+          "category": "cross_industry",
+          "query": "\"Inscade\" institute school",
+          "executed_on": "2026-11-07",
+          "summary": "返回学校历史文件和简历inSCADE线索；事实与品牌判定分开。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://bibliotecadigital.ccb.org.co/bitstreams/8a442687-9951-4a45-ab2e-75ede1ecd31e/download",
+          "status": "official_search_text_pdf_no_readable_lines",
+          "finding": "商会检索文本列COLEGIO INSTITUTO INSCADE SAS；打开PDF无文本，截图超时，不能称独立读完正文。跨行业，不证明科技占用。"
+        },
+        {
+          "url": "https://www.xing.com/profile/Ghiouane_Abdelilah",
+          "status": "body_read",
+          "finding": "L111–116个人简历称INScade Simulator并提SCADE tool；孤立拼写不足以证实独立INScade软件。"
+        }
+      ]
+    },
+    {
+      "candidate_id": "LD-E02",
+      "chinese_candidate_id": "LD-C02",
+      "name": "Negaflux",
+      "chinese": "负熵流",
+      "version": 1,
+      "decision": "return_for_alternative",
+      "reason": "法国市政1978档案检索文本出现NEGAFLUX负离子设备广告；另有现代付费D&D内容角色名和第16类图形商标第三方线索。历史设备/跨行业风险，非确认现有AI公司；主控选择另配英文。",
+      "query_logs": [
+        {
+          "category": "exact_no_industry",
+          "query": "\"Negaflux\"",
+          "executed_on": "2026-11-07",
+          "summary": "返回个人用户名、历史负离子设备、药品名及游戏内容角色等；未将用户名当公司。"
+        },
+        {
+          "category": "company_lab",
+          "query": "\"Negaflux\" company lab",
+          "executed_on": "2026-11-07",
+          "summary": "返回个人用户名、历史负离子设备、药品名及游戏内容角色等；未将用户名当公司。"
+        },
+        {
+          "category": "AI_model",
+          "query": "\"Negaflux\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "返回个人用户名、历史负离子设备、药品名及游戏内容角色等；未将用户名当公司。"
+        },
+        {
+          "category": "software_product",
+          "query": "\"Negaflux\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "返回个人用户名、历史负离子设备、药品名及游戏内容角色等；未将用户名当公司。"
+        },
+        {
+          "category": "variants",
+          "query": "\"Nega Flux\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "返回个人用户名、历史负离子设备、药品名及游戏内容角色等；未将用户名当公司。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.clamart.fr/sites/default/files/LA_MAIRIE/ARCHIVES%20MUNICIPALES/MAGAZINE%20DE%20LA%20VILLE/BMO_1978_03_BD.pdf",
+          "status": "official_archive_search_text_only",
+          "finding": "检索返回完整广告文字NEGAFLUX生成负离子及GETELEC地址；web正文因超10MB失败，独立下载SSL失败后重试403，未直接读PDF页。不冒称当前在营科技品牌。"
+        },
+        {
+          "url": "https://www.patreon.com/DungeonsandDeadlifts626/posts/pulsmice-6-173906074",
+          "status": "creator_search_text",
+          "finding": "Posiflux和Negaflux为D&D角色，跨行业创作，不是AI模型。"
+        },
+        {
+          "url": "https://www.trademarkelite.com/australia/trademark/trademark-detail/2568998/NEGA-FLUX-IS-NEGATIVE-MINUS-OR-SUBTRACT-IS-EQUAL-TO-OR-AMOUNTS-TO-MA",
+          "status": "third_party_search_text",
+          "finding": "NEGA-FLUX长串第16类图形商标线索；没有查官方权利状态，不称本词第9/42类已注册。"
+        }
+      ]
+    }
+  ],
+  "query_count": 12,
+  "passed_english_candidate_ids": [],
+  "claim_limits": "公开使用初筛不等于全球无使用或公司/商标可注册。"
+}

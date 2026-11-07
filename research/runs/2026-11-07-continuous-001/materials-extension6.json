@@ -1,0 +1,67 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-07T21:58:55.414873+08:00",
+  "materials": [
+    {
+      "id": "C1-M26",
+      "family_id": "C1-MF-peripheral-lossy-gist-guides-observation",
+      "macro_id": "S5",
+      "plan_direction_id": "C1-D-S5",
+      "category": "cognitive_peripheral_representation",
+      "case_ids": [
+        "B037",
+        "B027"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P4",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Ruth Rosenholtz: What your visual system sees where you are not looking",
+          "url": "https://web.mit.edu/rruth/www/Papers/RosenholtzSPIE2011.pdf",
+          "published_at": "2011",
+          "reading_location": "PDF前4页L0–134：摘要、1.1视觉瓶颈、1.2表征策略与图3/4说明；未通读14页全文",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_PDF_body"
+        },
+        {
+          "title": "Rosenholtz, Yu & Keshvari: Challenges to pooling models of crowding: Implications for visual mechanisms",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6660188/",
+          "published_at": "2019-07-26",
+          "reading_location": "正文L98–140：摘要、拥挤定义、引言与池化模型说明；未读其后模型挑战逐项论证",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body"
+        }
+      ],
+      "source_urls": [
+        "https://web.mit.edu/rruth/www/Papers/RosenholtzSPIE2011.pdf",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6660188/"
+      ],
+      "fact": "周边视觉并非只是模糊的中央视觉：杂乱背景会使相邻对象的精确身份和位置难辨，但仍保有场景与统计线索，能支持部分判断并引导下一次注视。作者研究以摘要统计池化解释其中一些现象。",
+      "mechanism_to_material": "从Imbue关注对认识主体的实际作用、Midjourney关注人在过程中的位置，追问不处在当前观察中心的信息是否仍在参与行动；不是再找一个提高注意力的漂亮词。后者为继承基线语义，本步未重开其企业词源页面。",
+      "distinctive_relation": "精确细节可能损失，但中心之外保留的信息仍可帮助判断下一步该看哪里；局部精确与周边概括不是同等精度的重复采样。",
+      "naming_potential": "日常“余光”已经能称呼这种中心之外的视觉经验，专业材料提供关于何种信息保留、何种信息损失的第二层。",
+      "shortcoming": "余光还可被理解成残照或灯光，初听可能像眼镜、摄影或文学机构；不能把诗意当科技身份的充分条件。",
+      "history_difference": "旧抬眼CT-F-directed-gaze-active-attention以改变注视点获得中央凹高分辨率输入；本项关注未成为注视中心的表征保留/损失及其作用。旧察觉为刺激检测/报告偏差，M21为遮挡前后变化比较；若最终只讲看看周围或发现被忽略之物，应并回旧感知家族，不因新论文题目而独立。",
+      "discard_conditions": [
+        "不能声称周边视觉看得比中心清楚或无损保留全部场景。",
+        "池化是候选模型，不写成人类视觉机制已获唯一最终解释。",
+        "不把非中央凹观察与完全不注意或无意识相等同。"
+      ],
+      "boundary": "只实读列明节选；作者2019文仍要求分开编码与决策效应并保留定量检验工作。本文不证明机器具有人的视觉经验或必然变得更聪明。",
+      "status": "read_and_chinese_draft",
+      "is_classical": false
+    }
+  ],
+  "scope": "安静自动接续工作包：一项新关系来源，不重开A1或计划；古文未新增。",
+  "access_notes": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4032502/",
+      "result": "返回reCAPTCHA；搜索摘要不计正文，改以已读MIT作者PDF与2019作者正文支持。"
+    }
+  ]
+}

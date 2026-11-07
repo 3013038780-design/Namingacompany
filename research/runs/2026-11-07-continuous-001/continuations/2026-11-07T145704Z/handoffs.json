@@ -1,0 +1,276 @@
+{
+  "same_research_run": true,
+  "handoffs": [
+    {
+      "id": "H1",
+      "status": "accepted",
+      "from": "existing_A1",
+      "to": "same_A2",
+      "reason": "复用原A1实际案例及当前冻结输入再验收，不称本次新增A1研究。",
+      "refs": [
+        {
+          "path": "A1-final-input-reacceptance.json",
+          "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+        },
+        {
+          "path": "A1-formation-feedback.json",
+          "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "status": "accepted",
+      "from": "A2",
+      "to": "coordinator",
+      "refs": [
+        {
+          "path": "A2-creation-execution-batch8.json",
+          "sha256": "5fc7379c4f3a995e5aaceede8425737d6a02c9c2b64af851f4249a8872819857"
+        },
+        {
+          "path": "A2-candidates-batch8.json",
+          "sha256": "846cc81e69427062e8ad7b39a97c05520913cf25c23f728caa7bd425a6753324"
+        },
+        {
+          "path": "materials-extension7.json",
+          "sha256": "a839a21b7574701971769bb560d69e1cc2074b56b2336c7ce9bbf01e14352f59"
+        },
+        {
+          "path": "coordinator-cn-batch8.json",
+          "sha256": "2c2e5e6ba6e4ddddec282e5fe5a5429cc8fca0c5e26b4801002afff188da6efc"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "status": "accepted",
+      "from": "coordinator",
+      "to": "same_A3",
+      "candidate_ids": [
+        "C1-C19"
+      ],
+      "reason": "主控先封存25后打开producer26，各轴差小于2，真实授权原A3中文。",
+      "refs": [
+        {
+          "path": "A2-quality-batch8.json",
+          "sha256": "d600f8d534a842b9339f233ff8615dfa68e74f04cc2cfb3ec5274eaeacc323d8"
+        },
+        {
+          "path": "coordinator-cn-batch8.json",
+          "sha256": "2c2e5e6ba6e4ddddec282e5fe5a5429cc8fca0c5e26b4801002afff188da6efc"
+        },
+        {
+          "path": "coordinator-family-review-batch8.json",
+          "sha256": "8eff341cd0f3a410ce5806a1054796bccb3e2a7d700f3411a44198f42f1f0914"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "status": "accepted",
+      "from": "same_A3",
+      "to": "same_A4",
+      "candidate_ids": [
+        "C1-C19"
+      ],
+      "reason": "原A3中文10实际查询通过，已真实授权原A4英文匹配；登记限制保留。",
+      "refs": [
+        {
+          "path": "A3-cn-batch9.json",
+          "sha256": "a96a892a652654642fe4a7df0591ade4a7c936e5865429556cc62f1c2b6f60ff"
+        },
+        {
+          "path": "A3-cn-batch9-receipt.json",
+          "sha256": "76540164cf344e0cdf5d42254bb2b4160e5e732fcf6d7ea49b797d368f82cd44"
+        }
+      ]
+    },
+    {
+      "id": "H5-initial",
+      "status": "quality_rejected_not_sent_to_A3",
+      "from": "same_A4",
+      "to": "coordinator",
+      "candidate_ids": [
+        "C1-C19"
+      ],
+      "english_ids": [
+        "C1-E14"
+      ],
+      "reason": "Ownwrite主控19/25且spelling3，未过英文门槛，不查询，不称占用；原A4真实返工1/2已授权。",
+      "refs": [
+        {
+          "path": "A4-preview-batch14.md",
+          "sha256": "fe1527742a930a3d2c462826c01c47d98fbf298b811d5cf1cea811a5a550f097"
+        },
+        {
+          "path": "A4-candidates-batch14.json",
+          "sha256": "861edfa70b29473645a74796c4f6c844ae5dd5db83612617210d438fc9c91cd1"
+        },
+        {
+          "path": "A4-quality-batch14.json",
+          "sha256": "99c2b79be8b8649d4dc9490dc6254f982d7dc865478e6efee11c45dcce10bcd5"
+        },
+        {
+          "path": "coordinator-en-batch14.json",
+          "sha256": "eee1151c523c7c7edf831286ec1f32490533221840c84a113305b76f1698b613"
+        },
+        {
+          "path": "A4-creation-execution-batch14.json",
+          "sha256": "972af9c68ef511aacecc676d2fc70f31dbe9ee2315856f9ec99a478f761a58f4"
+        }
+      ]
+    },
+    {
+      "id": "H5-rework1",
+      "status": "accepted",
+      "from": "same_A4",
+      "to": "same_A3",
+      "candidate_ids": [
+        "C1-C19"
+      ],
+      "english_ids": [
+        "C1-E15"
+      ],
+      "reason": "Branchwise主控21/25先封存后读producer21，各轴过门且差<=1，真实授权同A3英文；root实际读MW -wise L153–181，未把后缀解释为聪明。",
+      "refs": [
+        {
+          "path": "A4-preview-batch15.md",
+          "sha256": "aae67ca560793f88f3b3849191ebe1d7ca40397816e7d21b05bbfdbff19668c9"
+        },
+        {
+          "path": "A4-candidates-batch15.json",
+          "sha256": "3c21d71f7a278bd278d595400c039e9617b2f705ccffc75e0003daae506eb16a"
+        },
+        {
+          "path": "A4-quality-batch15.json",
+          "sha256": "2cffd57a339003bddad722921b6f41d269d7b6e3bf047749e19e0474bed693ba"
+        },
+        {
+          "path": "coordinator-en-batch15.json",
+          "sha256": "a9f5252972777cdf2e4fdb3060bfc03088e3e9485d1894f9450597e8abd4f492"
+        },
+        {
+          "path": "A4-creation-execution-batch15.json",
+          "sha256": "b89af72c5f7e953347f061c7e5737ce30c9c1ad5296aae39cc16b36ab756a2e7"
+        }
+      ]
+    },
+    {
+      "id": "H6-rework1",
+      "status": "returned_to_original_A4_last_rework",
+      "from": "same_A3",
+      "to": "same_A4",
+      "candidate_ids": [
+        "C1-C19"
+      ],
+      "english_ids": [
+        "C1-E15"
+      ],
+      "reason": "Branchwise有明确同名机器学习模型和软件，root正文复核；原A4已真实获最后一次返工授权。",
+      "refs": [
+        {
+          "path": "A3-en-batch15.json",
+          "sha256": "069c869d638135281888267320e9a184a05506e1b13016779622464772d95d46"
+        },
+        {
+          "path": "A3-en-batch15-receipt.json",
+          "sha256": "0730d087a58353a29d89006c9b328cb246011d940064a262c445dd7e96eb0296"
+        },
+        {
+          "path": "continuations/2026-11-07T145704Z/root-english-rejection-verification.json",
+          "sha256": "3aa844b15a763817c0ffde75517e6dc28ef44314f4532bd741e078797cb03119"
+        }
+      ]
+    },
+    {
+      "id": "H5-rework2",
+      "status": "accepted",
+      "from": "same_A4",
+      "to": "same_A3",
+      "candidate_ids": [
+        "C1-C19"
+      ],
+      "english_ids": [
+        "C1-E16"
+      ],
+      "reason": "Kinstate最后返工，主控先封存21后读producer21，各轴过门且差<=1，真实授权同A3；英文额度用尽，失败闭族。",
+      "refs": [
+        {
+          "path": "A4-preview-batch16.md",
+          "sha256": "8e08e1b85d9f0eb723820b08b8df8a50e7870b22b41c591ec145b4612809f1b7"
+        },
+        {
+          "path": "A4-candidates-batch16.json",
+          "sha256": "e0dfd49d5c0c57cd2a318eb03a56ca8f48b921c8ba54838d08d7213cc9d9a4a5"
+        },
+        {
+          "path": "A4-quality-batch16.json",
+          "sha256": "6e1d873aa79b6f74ac22cfd4df0010a86f9675ed5c5a34c304c5edd3400a9203"
+        },
+        {
+          "path": "coordinator-en-batch16.json",
+          "sha256": "1c707303de2235b026ed7aabc5622efb271b766e57ad011bd9a944398c11d2eb"
+        },
+        {
+          "path": "A4-creation-execution-batch16.json",
+          "sha256": "a992ac06dc4aa227481022a2db9ff490eaf46940d21afb449a39ad3248371a64"
+        }
+      ]
+    },
+    {
+      "id": "H6-rework2",
+      "status": "accepted_rejection_family_closed",
+      "from": "same_A3",
+      "to": "coordinator",
+      "reason": "同A3最后英文八查询，已有同核心企业历史使用的编辑避让，主控已实际读专利镜像；原A4实际收尾且无R3。",
+      "refs": [
+        {
+          "path": "A3-en-batch16.json",
+          "sha256": "979ba4531d02112074ecadc8953d697fda51421d35bb3bcffab23de2f836fe51"
+        },
+        {
+          "path": "A3-en-batch16-receipt.json",
+          "sha256": "caf619ac5c2032a07bd263f955f8e5d85cfd35ea84553361716166ef2f1fff64"
+        },
+        {
+          "path": "A4-closeout-batch8.json",
+          "sha256": "3b2196aa1b89597952b62e7a3ad7e836915e380c342b3bf23b4daa77059c0d02"
+        },
+        {
+          "path": "continuations/2026-11-07T145704Z/root-final-source-and-family-review.json",
+          "sha256": "395d63198fed510f7357fcc33aa7ff819d9a11a5d7e15e49e00c747e1889ec99"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "status": "zero_retained",
+      "from": "coordinator",
+      "to": "catalog",
+      "reason": "中文通过不足以入双语总库，三英文均未完成质量及使用全通过，故不更新候选，不降标准。",
+      "refs": [
+        {
+          "path": "A4-closeout-batch8.json",
+          "sha256": "3b2196aa1b89597952b62e7a3ad7e836915e380c342b3bf23b4daa77059c0d02"
+        },
+        {
+          "path": "continuations/2026-11-07T145704Z/decisions-through-batch8.json",
+          "sha256": "4ddb5a08c921540d4320ae37a8c60e7c803ac8f206eca5428677cf2fdc5f0e89"
+        },
+        {
+          "path": "coordinator-family-review-batch8.json",
+          "sha256": "8eff341cd0f3a410ce5806a1054796bccb3e2a7d700f3411a44198f42f1f0914"
+        }
+      ]
+    }
+  ]
+}

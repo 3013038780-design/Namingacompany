@@ -1,0 +1,170 @@
+{
+  "reviewed_at": "2026-11-07T18:43:46.542063+08:00",
+  "independence": "Read producer preview batch7 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C25",
+      "name": "抬眼",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "现成两字日常动作",
+          "counter_association": "像视觉应用"
+        },
+        "distinctiveness": {
+          "reason": "主动重新看世界的画面可记",
+          "counter_association": "可能与台研泰研近音"
+        },
+        "lab_fit": {
+          "reason": "感知与认知研究可承载机构",
+          "counter_association": "不直说全栈智能"
+        },
+        "grounding": {
+          "reason": "注视取样与转移有实读依据",
+          "counter_association": "抬眼不等于全部扫视"
+        },
+        "extension": {
+          "reason": "不限某个视觉模型功能",
+          "counter_association": "不保证看更多即更聪明"
+        },
+        "semantic_coherence": {
+          "reason": "动作与选择信息同一关系",
+          "counter_association": "不能把抬高视线当算法"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "CT-C26",
+      "name": "反例",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "完整两字知识词可称呼",
+          "counter_association": "反字略负面"
+        },
+        "distinctiveness": {
+          "reason": "一个小例改变全称判断可记",
+          "counter_association": "通用术语检索拥挤"
+        },
+        "lab_fit": {
+          "reason": "逻辑验证与能力边界研究身份",
+          "counter_association": "可能像测试咨询"
+        },
+        "grounding": {
+          "reason": "严格全称命题的否定见证真实",
+          "counter_association": "不能直接套概率模型"
+        },
+        "extension": {
+          "reason": "可容纳检验纠错和推理研究",
+          "counter_association": "不要求模型零失误"
+        },
+        "semantic_coherence": {
+          "reason": "从具体失败修正断言同核",
+          "counter_association": "不是为了反对别人"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "CT-C27",
+      "name": "纸上机器",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "四字完整物象可叫",
+          "counter_association": "像教育书名"
+        },
+        "distinctiveness": {
+          "reason": "与已提纸旋翼共享纸制机器核心意象且有纸上谈兵联想",
+          "counter_association": "不凭不同论文重复纸上机器家族"
+        },
+        "lab_fit": {
+          "reason": "符号规则有科技研究身份",
+          "counter_association": "研究身份仍需业务承接"
+        },
+        "grounding": {
+          "reason": "图灵原文抽象计算真实",
+          "counter_association": "不把抽象模型当工程实现"
+        },
+        "extension": {
+          "reason": "可覆盖计算研究多个方向",
+          "counter_association": "不是纸张本身有算力"
+        },
+        "semantic_coherence": {
+          "reason": "符号使观念有操作性同核",
+          "counter_association": "科学史真实不挽救命名重复"
+        }
+      },
+      "decision": "quality_reject"
+    },
+    {
+      "candidate_id": "CT-C28",
+      "name": "鸽哨",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "两字真实生活物件好叫",
+          "counter_association": "民俗养鸽首联想"
+        },
+        "distinctiveness": {
+          "reason": "城市天空中可听的飞行画面鲜明",
+          "counter_association": "不能只是可爱动物"
+        },
+        "lab_fit": {
+          "reason": "把过程转可感信息可建立研究角色",
+          "counter_association": "需研究语境避免音乐工艺误读"
+        },
+        "grounding": {
+          "reason": "气流哨口姿态成声有手艺报道",
+          "counter_association": "不采用未核军事起源"
+        },
+        "extension": {
+          "reason": "人环境联结可容纳跨产品研究",
+          "counter_association": "不是主体因此更聪明"
+        },
+        "semantic_coherence": {
+          "reason": "器物使已有运动产生新输出同核",
+          "counter_association": "不是侧音自反馈机制"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-07T20:58:18.169571+08:00",
+  "scope": "主控先封存独评后打开此producer评审。中文弱项照实记录，不为送查重打分。",
+  "reviews": [
+    {
+      "candidate_id": "C1-C07",
+      "name": "开合",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 5
+      },
+      "total": 27,
+      "notes": {
+        "naturalness": {
+          "reason": "现成词开口顺，两个动作易称呼",
+          "counter_association": "像服装门窗"
+        },
+        "distinctiveness": {
+          "reason": "成对动作可形成短的可见记号",
+          "counter_association": "通用词或难形成独占心智"
+        },
+        "lab_fit": {
+          "reason": "局部与整体的计算研究角色可承接机构，但需实际研究赋义",
+          "counter_association": "裸名没有明显AI身份"
+        },
+        "grounding": {
+          "reason": "作者确有拉链开合比喻，事实与品牌解释分开",
+          "counter_association": "未呈现所有复杂度条件"
+        },
+        "extension": {
+          "reason": "不限于某单一模型或编辑工具",
+          "counter_association": "太宽可能变成空泛开放合作"
+        },
+        "semantic_coherence": {
+          "reason": "日常动作与结构导航围绕同一个比喻",
+          "counter_association": "不可把开合解释成所有好价值"
+        }
+      },
+      "decision": "quality_pass",
+      "independent_submission_ref": "A2-quality-batch2.json producer-only submission"
+    },
+    {
+      "candidate_id": "C1-C08",
+      "name": "活桥",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 5
+      },
+      "total": 27,
+      "notes": {
+        "naturalness": {
+          "reason": "两字正常修饰关系，读音简单",
+          "counter_association": "像基建公司"
+        },
+        "distinctiveness": {
+          "reason": "活的桥有物体反差可记",
+          "counter_association": "可能生态项目也用此画面"
+        },
+        "lab_fit": {
+          "reason": "自组织和适应结构能支撑研究身份",
+          "counter_association": "研究身份不能只靠蚂蚁论文"
+        },
+        "grounding": {
+          "reason": "身体组成桥且随交通改变为原研究对象",
+          "counter_association": "没有最优保证"
+        },
+        "extension": {
+          "reason": "能研究不同智能组织及工具结构",
+          "counter_association": "若只限桥梁仿生会过窄"
+        },
+        "semantic_coherence": {
+          "reason": "活的成员和桥的支撑作用确在同一对象",
+          "counter_association": "不能只剩连接与活力的泛泛解释"
+        }
+      },
+      "decision": "quality_pass",
+      "independent_submission_ref": "A2-quality-batch2.json producer-only submission"
+    },
+    {
+      "candidate_id": "C1-C09",
+      "name": "横竖之间",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "四字可读可称呼但较长",
+          "counter_association": "像艺术工作室"
+        },
+        "distinctiveness": {
+          "reason": "有方向与间隙的具体空间画面",
+          "counter_association": "常见短语需真实使用审查"
+        },
+        "lab_fit": {
+          "reason": "首印象偏排版设计，AI Lab身份不足",
+          "counter_association": "较依赖解释才能抵达AI研究"
+        },
+        "grounding": {
+          "reason": "方向位值和空位均据馆方正文",
+          "counter_association": "不是古籍原句"
+        },
+        "extension": {
+          "reason": "简单构件与表示可容纳研究",
+          "counter_association": "不应写成任意组合就有智能"
+        },
+        "semantic_coherence": {
+          "reason": "方向与位置参与表示同源但名称也容易泛化",
+          "counter_association": "与比特约定历史家族上位重合"
+        }
+      },
+      "decision": "quality_reject",
+      "independent_submission_ref": "A2-quality-batch2.json producer-only submission"
+    },
+    {
+      "candidate_id": "C1-C10",
+      "name": "开明兽",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 5,
+        "semantic_coherence": 4
+      },
+      "total": 27,
+      "notes": {
+        "naturalness": {
+          "reason": "真实三字专名好读，不需教发音",
+          "counter_association": "像游戏IP"
+        },
+        "distinctiveness": {
+          "reason": "明确角色比泛化吉字有辨识度",
+          "counter_association": "需实际查同名技术商业使用"
+        },
+        "lab_fit": {
+          "reason": "非人认识主体的研究世界观可承接Lab",
+          "counter_association": "兽字和九首人面会令部分人不适"
+        },
+        "grounding": {
+          "reason": "原文角色场景与现代语义层明确分开",
+          "counter_association": "神话不证明任何技术"
+        },
+        "extension": {
+          "reason": "角色能随研究成长，不限定单个功能",
+          "counter_association": "品牌必须持续赋予研究内容"
+        },
+        "semantic_coherence": {
+          "reason": "古名角色统一，但现代开明义不是原文词源",
+          "counter_association": "不可偷换成开放或全向感知承诺"
+        }
+      },
+      "decision": "quality_pass",
+      "independent_submission_ref": "A2-quality-batch2.json producer-only submission"
+    }
+  ]
+}

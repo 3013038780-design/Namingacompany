@@ -1,0 +1,55 @@
+{
+  "author_agent": "/root/agent2_materials_cn",
+  "revision": 2,
+  "submitted_at": "2026-11-06T17:57:34+08:00",
+  "originals": [
+    {
+      "path": "revisions/v1/materials.json",
+      "sha256": "cb1f68195163b6b943665a1495b8ab0a5a872a563a50401ff93e0d666dd280fc"
+    },
+    {
+      "path": "revisions/v1/materials.md",
+      "sha256": "43f9fb4972e1d4df470e29b96cac2ce68a37ef760e4959eb977cccdd1a563947"
+    },
+    {
+      "path": "revisions/v1/reading-log.json",
+      "sha256": "d47fd42a446a30d35f05aac135cfd2a58e20a19420ad711e182cb638c9bbe243"
+    },
+    {
+      "path": "revisions/v1/producer-receipt.json",
+      "sha256": "622e7a1c9c691527139da80776a4925d8dc08881f40b2020f51af8d2f894d775"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "materials.json",
+      "sha256": "4a5ecefea5c3c8f77237b8861da18ad467f1bb38bb426f4488fcb8f7dd483d31"
+    },
+    {
+      "path": "materials.md",
+      "sha256": "2e89e7283d4e016b18ee4d3800975293c3128715d62b05c9dc3bf2d550892abb"
+    },
+    {
+      "path": "reading-log.json",
+      "sha256": "7858697bf3426d5e342d5e52c2572826aeed70036b0a89a52b8daf5a50f42339"
+    },
+    {
+      "path": "research-conclusions.md",
+      "sha256": "bb3f2dba8fdfea671e0bb2e57bed6ed4efd6d0898319fb1382b154e9f9b0963d"
+    }
+  ],
+  "changes": [
+    {
+      "issue": "跨渲染工具行号不稳定",
+      "revision": "HUT改作者手稿页码+原段落起始语；OFF改arXiv版本/章节/式1/结论主题，未虚称通读证明。保留v1原字节以追溯原阅读记录。"
+    },
+    {
+      "issue": "统一时间看起来像逐源精确访问时间",
+      "revision": "确认原accessed_at全为一次汇总写入now，不是逐源实际时间。改为recorded_at，加accessed_on日期与timestamp_note。"
+    }
+  ],
+  "facts_changed": false,
+  "new_material_searches": 0,
+  "new_names": 0,
+  "scope": "定位/时间元数据修订，事实和研究判断保持。"
+}

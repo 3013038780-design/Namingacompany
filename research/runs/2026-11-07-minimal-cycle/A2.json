@@ -1,0 +1,207 @@
+{
+  "protocol_version": "1.1",
+  "scope": "用户授权最小完整试验A2；非24家族生产批",
+  "agent_id": "/root/agent2_materials_cn",
+  "completed_at": "2026-11-07T16:16:36+08:00",
+  "input_refs": [
+    {
+      "path": "README.md",
+      "sha256": "cd8b811fb3e013630b4d77445a987caf9f0ff5d73adfdab60322e3d4a8c24828"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "8f5eeb1278f4dfaa0d87927537caae459a7552069a5596982edafd06b44a4cd4"
+    },
+    {
+      "path": "research/seed/README.md",
+      "sha256": "44cb357ed9db7edb5dc6c9a32ef1729e482ab3a9ef1f9dc6598dfbb3fc0d33b3"
+    },
+    {
+      "path": "research/seed/brand-naming-foundation.md",
+      "sha256": "92cb6c7cd36c201d35900528826a8aa9aca5a75c632df57d30dcaade5547f519"
+    },
+    {
+      "path": "research/runs/2026-11-07-minimal-cycle/A1.json",
+      "sha256": "6b594f16918ea37b43ef911475387f9537a91e37692f41a885204da172119a55"
+    },
+    {
+      "path": "research/runs/2026-11-07-minimal-cycle/A1.md",
+      "sha256": "19ed724f40007b3b1a3ca713adafb0a933942c0f544a22c2e45808cab6179890"
+    }
+  ],
+  "actual_execution": "实际读取当前授权与A1，扫描历史并直接创作；三个成功正文入口；一个CAS旧链接仅返回导航，未据其摘要作事实。",
+  "external_reading": {
+    "new_successful_bodies": 3,
+    "failed_target": "https://www.cas.cn/syky/202309/t20230918_4970918.shtml 返回站点导航，未读到目标文章；改用金属所原研究团队报道。",
+    "search_scope": "只查学科概念与原始来源，没有公司/产品/登记查询。",
+    "book_scope": "只读Composing Programs §1.2节选，不称通读。"
+  },
+  "candidate_count": 3,
+  "new_family_count": 3,
+  "old_family_count": 0,
+  "english_candidates": 0,
+  "A3_screening": false,
+  "quality_file": "A2-quality.json",
+  "quality_separation": "本文件无数字评分。自评在独立文件，由主控先封存独立评分再解封。",
+  "candidates": [
+    {
+      "id": "MC-A2-01",
+      "name": "原语",
+      "pinyin": "yuán yǔ",
+      "family_id": "MCF-primitive-composition",
+      "a1_case_id": "B010",
+      "a1_mechanism": "把真实计算对象直接借作机构称呼；本轮不要求给技术对象附加成长动作。",
+      "origin_kind": "既有计算概念的中文品牌借用；不是把两个好字机械拼接",
+      "origin_precision": "源文写primitive expressions/statements、primitive functions/data，没有出现中文“原语”；本案用“原语”指称程序语言中的基本操作/构件，不能声称是教材中逐字摘出的中文或本书专有译名。",
+      "source": [
+        {
+          "url": "https://composingprograms.appspot.com/pages/12-elements-of-programming.html",
+          "reading_scope": "§1.2开头及§1.2.1–1.2.2；稳定定位primitive expressions and statements、means of combination、means of abstraction三项，以及数和函数调用示例；本次工具L64–119。没有通读全书。",
+          "source_type": "作者开放教材节选",
+          "published_at": null,
+          "accessed_on": "2026-11-07",
+          "inheritance": "new_body_read_this_pass",
+          "timestamp_note": "只保存实际访问日期；完成时间为汇总回执时间，不冒充逐页访问精确时刻。"
+        }
+      ],
+      "fact": "教材把基本表达式/语句、组合方法、抽象方法分开：语言提供简单构件，组合构成复杂表达，抽象允许把复杂体命名为可操作单元。",
+      "meaning": "编程语言提供的基本操作与表达构件。",
+      "combination_reason": "原样借用一个完整专业称呼。语言中的基本表达与计算中的基本操作本来相接，不另给“原”“语”各编一个寓意。",
+      "core_meaning": "从能够实际操作的基本单位，建立更复杂的表达与能力。",
+      "layers": [
+        "计算入口：最基本、可直接使用的操作。",
+        "语言入口：不只储存信息，也表达怎样做事；编程本身兼有表达与执行。",
+        "机构故事：研究智能所需的基本能力单元，以及它们怎样组成更复杂的系统；不是只为一代模型命名。"
+      ],
+      "analysis_vs_fact": {
+        "fact": "教材的基本构件—组合—抽象关系。",
+        "brand_interpretation": "把这种关系迁移为AI Lab研究基础能力与组合结构的身份。",
+        "not_claimed": "不是某套新算法，不表示任意拼接都会得到通用智能；“原语”不在已读英文页逐字出现。"
+      },
+      "material_feature_retained": "简单单元是可执行/可操作的表达，不是空泛的原点。",
+      "material_feature_lost": "两个字不会自动讲出组合和抽象，仍需要一句机构介绍。",
+      "why_name_not_generic": "指向具体的程序语言构件，不等同“本初”“初心”之类精神词。",
+      "weakness": [
+        "与“言语”“源语”近音，口头需一次辨字。",
+        "圈外第一印象可能是语言学、翻译或语言模型公司，基础智能以外的产品需要品牌长期补充。",
+        "像一个学科术语，独占辨识与使用密度须A3实查；本轮不据未查推断可用。"
+      ],
+      "history_check": {
+        "exact_name": "seed/background及历史候选未见该中文提案；本次rg精确搜索未命中。",
+        "family_comparison": "旧通式来自高阶函数把方法当参数/结果；本案是基本操作单元与组合/抽象，不是旧通式改名。旧字节/位表示是载体与解释，本案是执行构件；同属计算世界不自动同族。",
+        "new_family_countable": true,
+        "scope": "研究历史内部去重，不是市场使用或登记审查。"
+      },
+      "producer_disposition": "submit_for_independent_review",
+      "market_screening": "not_checked_A3_responsibility"
+    },
+    {
+      "id": "MC-A2-02",
+      "name": "倍频",
+      "pinyin": "bèi pín",
+      "family_id": "MCF-frequency-doubling",
+      "a1_case_id": "B037",
+      "a1_mechanism": "从作用于已有输入的转换关系取名；借真实作用，不直译Imbue，不把倍频当智能倍增承诺。",
+      "origin_kind": "来源正文明确出现的既有中文技术术语",
+      "origin_precision": "物理所正文明确写“倍频系统”“1030nm及其倍频515nm”；不是本轮造词。",
+      "source": [
+        {
+          "url": "https://www.iop.cas.cn/xwzx/kydt/202106/t20210622_6115268.html",
+          "reading_scope": "研究动态正文前3段，尤其第2段1030nm与515nm双波长驱动案例；本次工具L14–16。未读原始实验论文与测试报告。",
+          "source_type": "研究团队所在机构原始研究报道",
+          "published_at": "2021-06-22",
+          "accessed_on": "2026-11-07",
+          "inheritance": "new_body_read_this_pass",
+          "timestamp_note": "只保存实际访问日期；完成时间为汇总回执时间，不冒充逐页访问精确时刻。"
+        }
+      ],
+      "fact": "研究团队以商用飞秒光纤激光器为源，搭建压缩与倍频系统；报告比较1030nm单波长与1030nm/515nm双波长驱动所得谐波。",
+      "meaning": "把基频转换为两倍频率的技术过程。",
+      "combination_reason": "借完整技术过程作为称呼；已有光源经外加转换系统获得另一频段，增强者与既有对象之间有完整作用关系。不能把频率翻倍说成总能量翻倍。",
+      "core_meaning": "使已有输入进入原本不同的工作频段与使用条件。",
+      "layers": [
+        "物理层：频率的明确转换。",
+        "角色层：自身不必重新生产光源，也可以改变已有光源的可用输出。",
+        "品牌层：让已有系统接入新的能力范围；这是类比，不是模型性能倍增保证。"
+      ],
+      "analysis_vs_fact": {
+        "fact": "具体激光器、倍频系统及双波长驱动实例。",
+        "brand_interpretation": "类比给已有模型提供新的能力条件。",
+        "not_claimed": "报告没有研究AI持续学习；不宣称无需任何系统改造、总能量翻倍或智能必然翻倍。"
+      },
+      "material_feature_retained": "输入—转换装置—新输出频段的作用关系。",
+      "material_feature_lost": "“倍”可能遮蔽转换效率和条件，容易被听成简单提速。",
+      "why_name_not_generic": "不是“增强”“跃进”的近义词，是有明确输入输出关系的技术名词。",
+      "weakness": [
+        "第一行业联想是射频、激光或电子器件；作为广泛AI Lab仍偏一个工程过程。",
+        "“倍”容易成为营销倍增承诺，必须克制。",
+        "长期范围受频率语义约束，可能更适合作为能力组件或项目名。"
+      ],
+      "history_check": {
+        "exact_name": "seed/background及历史候选未见该中文提案；本次rg精确搜索未命中。",
+        "family_comparison": "不同于旧聚变的核反应和旧触媒的降低反应势垒；也不同于旧爵士呼应或弦外认知泛音。此处研究频率转换，不因涉及光就并入视差/显影/莫尔纹。",
+        "new_family_countable": true,
+        "scope": "仅内部历史，不是市场筛查。"
+      },
+      "producer_disposition": "reject_at_A2_brand_scope",
+      "rejection_code": "BRAND_FIT",
+      "rejection_reason": "出处与增强者关系成立，但更像光电元件/特定处理模块；自评长期AI Lab身份与延展不足以达到总门槛，原稿保留，不建议送A3。",
+      "market_screening": "not_checked_A3_responsibility"
+    },
+    {
+      "id": "MC-A2-03",
+      "name": "声子",
+      "pinyin": "shēng zǐ",
+      "family_id": "MCF-collective-vibration-quantum",
+      "a1_case_id": "B076",
+      "a1_mechanism": "从局部相互作用形成整体的机制学自然对象命名；换到凝聚态物理，而非鱼群近义改写。",
+      "origin_kind": "来源正文明确出现的既有中文科学名词",
+      "origin_precision": "机构正文直接使用“声子”，不是品牌造词；它是集体激发的准粒子，不能把它解释成一颗独立小球或单一原子。",
+      "source": [
+        {
+          "url": "https://imr.cas.cn/xwzx/kydt/202103/t20210301_5962068.html",
+          "reading_scope": "正文定义段至高通量计算/数据库段，稳定定位开头“声子是凝聚态物质…”及HT-PHONON段；本次工具L36–40。未读所链接Nature Communications原始论文。",
+          "source_type": "研究团队所在机构原始研究报道",
+          "published_at": "2021-03-01",
+          "accessed_on": "2026-11-07",
+          "inheritance": "new_body_read_this_pass",
+          "timestamp_note": "只保存实际访问日期；完成时间为汇总回执时间，不冒充逐页访问精确时刻。"
+        }
+      ],
+      "fact": "金属所报道把声子描述为晶格振动量子化体现、集体激发的准粒子，并说明研究团队通过计算研究拓扑声子材料。",
+      "meaning": "晶格集体振动的量子化激发。",
+      "combination_reason": "直接借科学对象完整称呼：看似“一个粒子”的描述，实际来自许多原子相互作用的集体运动。普通的声音感受与专业的多体系统通过振动相接。",
+      "core_meaning": "整体可以出现一种不能简单归给单个组成者的可研究对象。",
+      "layers": [
+        "日常入口：听得见的声音背后，有可以描述、计算的物理结构。",
+        "科学入口：集体相互作用可以作为一个新的有效对象来研究。",
+        "机构故事：关注智能如何从组成单元、交互与系统结构中形成，而不是只追逐一个单元的大小。"
+      ],
+      "analysis_vs_fact": {
+        "fact": "晶格集体振动、量子化激发、准粒子。",
+        "brand_interpretation": "把集体机制作为研究智能组织方式的世界观。",
+        "not_claimed": "声子不是智能，不代表多模型聚合必然更强；不把本Lab定位成量子计算团队，也不由来源性能推断AI效果。"
+      },
+      "material_feature_retained": "表面一个对象、深层集体运动的关系仍能由“声子”准确回溯。",
+      "material_feature_lost": "圈外人不会自动知道集体激发，需一句解释；声音入口可能压过研究宽度。",
+      "why_name_not_generic": "两个字落在一个真实科学对象上，有明确读音和概念边界，不是“聚智”“共生”类泛愿景。",
+      "weakness": [
+        "容易先想到音频、声学硬件或语音AI。",
+        "“子”在口语可能有轻巧或昵称感；原物理词读zǐ，不能为了品牌读音随意改。",
+        "与“生子”同音是需要正视的口头误听；不能只展示字形。"
+      ],
+      "history_check": {
+        "exact_name": "seed/background及历史候选未见该中文提案；本次rg精确搜索未命中。",
+        "family_comparison": "旧弦外来自James认知边缘及音乐泛音比喻，旧爵士是即兴呼应，旧莫尔纹是图样叠加视觉关系；本案是晶格多体集体激发，具体机制不同。与Sakana共享局部—整体原则，但不换鱼/鸟等同一动物群体词。",
+        "new_family_countable": true,
+        "scope": "仅研究历史内部，未查市场或商标。"
+      },
+      "producer_disposition": "submit_for_independent_review",
+      "market_screening": "not_checked_A3_responsibility"
+    }
+  ]
+}

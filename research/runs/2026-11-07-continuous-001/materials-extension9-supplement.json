@@ -1,0 +1,48 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T00:10:14.911597+08:00",
+  "materials": [
+    {
+      "id": "C1-M31",
+      "family_id": "C1-MF-value-live-through-possible-future-use",
+      "macro_id": "S3",
+      "plan_direction_id": "C1-D-S3",
+      "category": "compiler_dataflow_liveness",
+      "case_ids": [
+        "B074",
+        "B002"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Cornell CS4120（Andrew Myers课程）：Live Variable Analysis",
+          "url": "https://www.cs.cornell.edu/courses/cs4120/2023sp/notes/livevar/",
+          "published_at": "2023",
+          "reading_location": "正文L1–101：定义/寄存器例子、不可判定性/保守估计、use-def/控制流路径与数据流求解；只读本单篇讲义，未读其他课程各章或运行实现",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body"
+        }
+      ],
+      "source_urls": [
+        "https://www.cs.cornell.edu/courses/cs4120/2023sp/notes/livevar/"
+      ],
+      "fact": "讲义将变量值在某程序位置是否可能在覆盖前继续被读取称为live；它用于寄存器分配等分析。真执行行为的精确判断可能不可判定，保守分析因此可高估需要保留的集合。",
+      "mechanism_to_material": "Recursive以明确计算关系承担研究身份，Google以知识对象而非整套技术说明成为称呼；再沿F1同一对象和作用凝练，找变量与后续用途的关系，不复用增长/智能更强或旧复制分身。",
+      "distinctive_relation": "一个值是否应保留，取决于它从当前位置往后是否还可能在被覆盖前使用；不是它看起来新鲜、经常变化或本身很大。",
+      "naming_potential": "用熟悉的变量作为主角，活在这里有实际计算含义；三字名词比动作诗句更像一个可叫的对象。",
+      "shortcoming": "术语气质仍强，可能只像编译工具或软件栏目，需独立判断机构延展，不能靠讲义精确性加品牌分。",
+      "history_difference": "旧原语为语言基本构件，惰性求值为计算发生时点，因序为事件可比较先后，分身有别为同源状态修改隔离。本项为一个值沿后续路径的用途状态；不以live的英文词面与活桥身体成设施合并，也不凭同字就自动判新。",
+      "boundary": "live variable不等于变量值正在变化；内容不变也可能live。分析不是预测所有未来真实执行的神谕，更不意味着模型自己有生命或必然能力增长。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft"
+    }
+  ],
+  "scope": "同包补充另一宏观方向S3，本文件独立新增，不覆盖已交S4材料与输入哈希。",
+  "source_dates_note": "2023教学正文，非近九十天新闻；没有新增古文。"
+}

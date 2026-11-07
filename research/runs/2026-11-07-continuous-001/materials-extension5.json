@@ -1,0 +1,61 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-07T21:22:04.925374+08:00",
+  "materials": [
+    {
+      "id": "C1-M25",
+      "family_id": "C1-MF-isotopic-label-preserves-identity-enables-tracing",
+      "macro_id": "S3",
+      "plan_direction_id": "C1-D-S3",
+      "category": "physical_identity_and_experimental_tracing",
+      "case_ids": [
+        "B074",
+        "B002"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "National Isotope Development Center: Isotope Basics",
+          "url": "https://www.isotopes.gov/isotope-basics",
+          "reading_location": "正文L8–22：质子/中子、元素身份和同位素性质；未采用过时数量统计",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_body",
+          "published_at": null
+        },
+        {
+          "title": "UW–Madison DAN Lab: Data Processing/Analysis — Isotope Tracers",
+          "url": "https://danlab.bact.wisc.edu/data-processing-analysis/",
+          "reading_location": "curl HTML实际读Isotope Tracers Introduction、Nomenclature前段以及末尾Kinetic Isotope Effect全节；未通读中部校正与计算各节",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "curl_HTML_body",
+          "published_at": null,
+          "updated_at": "2022-01-24"
+        }
+      ],
+      "source_urls": [
+        "https://www.isotopes.gov/isotope-basics",
+        "https://danlab.bact.wisc.edu/data-processing-analysis/"
+      ],
+      "fact": "同位素的质子数相同而中子数不同。稳定同位素标记可让分子在质量上可区分，并用于追踪代谢路径；动力学同位素效应等条件会影响行为与解释。",
+      "A1_transfer": "从Google已有知识对象与Recursive的具体计算关系，不找更强/再生近义词，而寻找身份相同与可区分性为何能共同存在及被实验使用；Google词源仍为继承背景未本段复核。",
+      "distinctive_relation": "保留元素身份而改变可测质量，让研究者能把原本不易分辨的流转联系起来；不是把物质换成完全不同的彩色标签。",
+      "history_difference": "旧显影以潜在影像经处理变可见，M18利用共同格栅自对准，M09回声定位由声认识形状；本项保留同元素身份又以质量区分的标记关系。若只讲揭示隐藏信息，应并回显影上位家族，不以新化学论文算新。",
+      "boundary": "同位素并非化学物理行为完全相同或都放射性；示踪存在KIE、标记纯度等边界，不拿质量增加比喻智能必增加。",
+      "status": "read_and_chinese_draft",
+      "is_classical": false
+    }
+  ],
+  "scope": "不因达到二十四条记录停止研究；新增同位素身份与可区分性关系，待主控审族。",
+  "access_notes": [
+    {
+      "url": "https://danlab.bact.wisc.edu/data-processing-analysis/",
+      "result": "web超时，实际curl成功读正文与KIE限制"
+    }
+  ]
+}

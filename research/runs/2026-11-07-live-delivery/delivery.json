@@ -1,0 +1,1023 @@
+{
+  "date": "2026-11-07",
+  "coordinator": "/root",
+  "scope": "即时少量讨论备选，不是注册可用结论或每日20产能承诺",
+  "counts": {
+    "reused_cases": 7,
+    "new_market_cases": 0,
+    "chinese_drafts": 8,
+    "independent_families": 8,
+    "chinese_quality_pass": 5,
+    "chinese_screened": 5,
+    "english_forms": 11,
+    "english_screened": 11,
+    "english_public_technology_precheck_pass": 4,
+    "selected_complete_discussion_pairs": 3,
+    "daily_goal": 20,
+    "daily_shortfall": 17,
+    "positive_controls": 2,
+    "candidate_query_groups": 113
+  },
+  "discussion_pairs": [
+    {
+      "chinese_id": "LD-C08",
+      "english_id": "LD-E05",
+      "family_id": "LD-F-soliton-rain",
+      "chinese": "孤子雨",
+      "pinyin": "gū zǐ yǔ",
+      "english": "Solirain",
+      "suggested_pronunciation": "SOH-li-rayn /ˈsoʊlɪreɪn/",
+      "source": {
+        "url": "https://research.aston.ac.uk/en/publications/vector-soliton-rain/",
+        "title": "Aston University：Vector soliton rain",
+        "read_scope": "作者机构论文页摘要L22–25，记录DOI和2019-01-24日期；未读付费论文全文",
+        "access": "body_abstract",
+        "date": "2019-01-24"
+      },
+      "fact": "锁模光纤激光器中，小孤子脉冲与主脉冲共存并相互作用，形成可被称作rain的多脉冲动力学图样；原文区分吸引和排斥等不同条件。",
+      "meaning": "看起来像一场雨，里面却是光脉冲之间精密而复杂的相互作用。",
+      "crossing": "Mistral教我们保留具体自然外壳与动力学；Sakana教我们一个易记形象可以承载多体相互作用；第四范式提示完整科学对象也可成为研究身份。",
+      "layers": [
+        "普通雨的视觉与节奏",
+        "非线性光学中的真实多孤子结构",
+        "同一系统内独立脉冲与整体组织的品牌联想，而非声称其必然产生智能"
+      ],
+      "weakness": "“孤”可能有孤独联想，“孤子”需要科普；可能像光学实验项目。",
+      "english_formation": "同一真实现象soliton rain中，将soliton压缩为soli-，保留rain。八字母、三音节；不是另取一个与原理无关的自然词来拼。",
+      "bilingual_relation": "中文孤子雨和英文来源短语soliton rain是同一科学现象；中文保留专业名，英文使声音更像一个独立称呼。",
+      "english_weakness": "soli-也可能令读者想到solar或solitary，不能因此把名字解释成太阳雨；需要固定说法为soliton rain的压缩。",
+      "chinese_screen": {
+        "candidate_id": "LD-C08",
+        "name": "孤子雨",
+        "decision": "public_use_screen_pass",
+        "reason": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。",
+        "query_logs": [
+          {
+            "category": "exact_no_industry",
+            "query": "\"孤子雨\"",
+            "executed_on": "2026-11-07",
+            "summary": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。"
+          },
+          {
+            "category": "company_tech",
+            "query": "\"孤子雨\" 公司 科技",
+            "executed_on": "2026-11-07",
+            "summary": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。"
+          },
+          {
+            "category": "AI_model_software",
+            "query": "\"孤子雨\" AI 模型 软件",
+            "executed_on": "2026-11-07",
+            "summary": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。"
+          },
+          {
+            "category": "traditional_equivalent_supplement",
+            "query": "\"孤子雨\" 科技 有限公司",
+            "executed_on": "2026-11-07",
+            "summary": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。"
+          },
+          {
+            "category": "pinyin",
+            "query": "\"guziyu\" company AI",
+            "executed_on": "2026-11-07",
+            "summary": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。"
+          },
+          {
+            "category": "software_product_supplement",
+            "query": "\"孤子雨\" 软件 产品",
+            "executed_on": "2026-11-07",
+            "summary": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。"
+          },
+          {
+            "category": "exact_company_supplement",
+            "query": "\"孤子雨科技\"",
+            "executed_on": "2026-11-07",
+            "summary": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。"
+          },
+          {
+            "category": "trademark_web_supplement",
+            "query": "\"孤子雨\" 商标 公司",
+            "executed_on": "2026-11-07",
+            "summary": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。"
+          },
+          {
+            "category": "exact_corporation_supplement",
+            "query": "\"孤子雨\" \"有限公司\"",
+            "executed_on": "2026-11-07",
+            "summary": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。"
+          },
+          {
+            "category": "extra_not_minimum",
+            "query": "\"孤子雨\" \"g u z i\"",
+            "executed_on": "2026-11-07",
+            "summary": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "detail": "403；未完成逐名登记查询"
+          },
+          "mainland_trademark_class_9": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "detail": "403；未完成逐名逐类查询"
+          },
+          "mainland_trademark_class_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "detail": "403；未完成逐名逐类查询"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Guziyu",
+            "detail": "表单首页可读，逐名URL工具不可访问"
+          }
+        },
+        "claim_limits": "本轮公开使用初筛未见明确完整同名；不表示全球无使用或可注册。",
+        "opened_evidence": [
+          {
+            "url": "https://faculty.dpi.tsinghua.edu.cn/yangchangxi/zh_CN/zdylm/14530/list/index.htm",
+            "read_scope": "研究概况正文及检索摘要",
+            "finding": "研究者以孤子雨描述脉冲现象，不是商业品牌。"
+          },
+          {
+            "url": "https://patentimages.storage.googleapis.com/ee/4d/93/2422e069ccda90/CN111244739A.pdf",
+            "read_scope": "本角色检索返回背景技术，未本次打开全文；A2另有全文阅读记录",
+            "finding": "用于激光器技术描述，不据专利术语出现判品牌占用。"
+          }
+        ]
+      },
+      "english_screen": {
+        "candidate_id": "LD-E05",
+        "chinese_candidate_id": "LD-C08",
+        "name": "Solirain",
+        "chinese": "孤子雨",
+        "version": 1,
+        "decision": "public_use_screen_pass",
+        "reason": "6组整体与变体查询未见明确同名科技/AI公司、模型或软件产品。有个人/游戏用户名；SHEIN商品描述中孤立词不构成已确认品牌，均披露而不误作科技占用。",
+        "query_logs": [
+          {
+            "category": "exact_no_industry",
+            "query": "\"Solirain\"",
+            "executed_on": "2026-11-07",
+            "summary": "返回个人/游戏账号、Soli与Rain分词结果和商品描述孤立词，未见明确整体科技品牌。"
+          },
+          {
+            "category": "company_lab",
+            "query": "\"Solirain\" company lab",
+            "executed_on": "2026-11-07",
+            "summary": "返回个人/游戏账号、Soli与Rain分词结果和商品描述孤立词，未见明确整体科技品牌。"
+          },
+          {
+            "category": "AI_model",
+            "query": "\"Solirain\" AI model",
+            "executed_on": "2026-11-07",
+            "summary": "返回个人/游戏账号、Soli与Rain分词结果和商品描述孤立词，未见明确整体科技品牌。"
+          },
+          {
+            "category": "software_product",
+            "query": "\"Solirain\" software product",
+            "executed_on": "2026-11-07",
+            "summary": "返回个人/游戏账号、Soli与Rain分词结果和商品描述孤立词，未见明确整体科技品牌。"
+          },
+          {
+            "category": "variants",
+            "query": "\"Soli Rain\" OR \"Soli-rain\"",
+            "executed_on": "2026-11-07",
+            "summary": "返回个人/游戏账号、Soli与Rain分词结果和商品描述孤立词，未见明确整体科技品牌。"
+          },
+          {
+            "category": "technology_supplement",
+            "query": "\"Solirain\" technology company",
+            "executed_on": "2026-11-07",
+            "summary": "返回个人/游戏账号、Soli与Rain分词结果和商品描述孤立词，未见明确整体科技品牌。"
+          }
+        ],
+        "evidence": [
+          {
+            "url": "https://namemc.com/profile/solirain.1",
+            "status": "search_text_body_403",
+            "finding": "Minecraft个人账号名，不是同名公司或模型。"
+          },
+          {
+            "url": "https://www.tenforums.com/threads/startup-repair-loop-maybe-hard-drive-problem.63262/",
+            "status": "search_text_body_403",
+            "finding": "发帖用户名Solirain，不把论坛帖名当产品。"
+          },
+          {
+            "url": "https://m.shein.com/ar-en/Wooden-Coffee-Filter-Holder-With-Lid-Rusc-Storage-Container-And-Dispenser-Basket-For-Coffee-Bar-Decor-Farmhouse-Accessories-White-p-259011894.html",
+            "status": "search_text_unverified_isolated_word",
+            "finding": "商品标题未叫Solirain，正文出现Clear solirain，未确认品牌身份，不当占用也不隐瞒此检索结果。"
+          }
+        ],
+        "registration": {
+          "mainland_company": "unavailable_403",
+          "mainland_trademark_class_9": "unavailable_403",
+          "mainland_trademark_class_42": "unavailable_403",
+          "uk_company": "unavailable_name_search_url",
+          "summary": "大陆公司及商标第9/42类入口403，未完成逐名逐类核验；英国该英文逐名URL不可访问。不是注册可用证明。",
+          "uk_query_url": "https://find-and-update.company-information.service.gov.uk/search?q=Solirain"
+        }
+      },
+      "quality_refs": {
+        "chinese_producer": {
+          "id": "LD-C08",
+          "name": "孤子雨",
+          "scores": {
+            "naturalness": 4,
+            "distinctiveness": 5,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 26,
+          "pass": true,
+          "axis_reasons": {
+            "naturalness": "三个字均可读，孤子是已用术语，雨补足熟悉画面",
+            "distinctiveness": "孤子与雨的反差比普通光/云/星词更独特",
+            "lab_fit": "第一层非线性光学，适合研究品牌，需避免承诺公司从事激光器",
+            "grounding": "主来源真实定义小孤子与主脉冲的关系，非任意搭字",
+            "extension": "虽源于光学仍能容纳组织、动力学等长期研究隐喻",
+            "semantic_coherence": "雨的外壳与多脉冲动力学本就共存，不叠加无关寓意"
+          },
+          "counter_association": "“孤”可能有孤独联想，“孤子”需要科普；可能像光学实验项目。"
+        },
+        "chinese_coordinator": {
+          "candidate_id": "LD-C08",
+          "name": "孤子雨",
+          "reviewer": "coordinator",
+          "scores": {
+            "naturalness": 4,
+            "distinctiveness": 5,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "notes": {
+            "naturalness": {
+              "reason": "三字完整科学现象好叫",
+              "counter_association": "孤子需一次科普"
+            },
+            "distinctiveness": {
+              "reason": "普通雨与孤子组合已有真实反差",
+              "counter_association": "孤可能有孤独联想"
+            },
+            "lab_fit": {
+              "reason": "非线性光学提供研究身份",
+              "counter_association": "首先可能光学实验室"
+            },
+            "grounding": {
+              "reason": "机构论文和专利原词可核验",
+              "counter_association": "不能误说自然降雨即孤子"
+            },
+            "extension": {
+              "reason": "光与相互作用可延展研究叙事",
+              "counter_association": "与持续学习是类比"
+            },
+            "semantic_coherence": {
+              "reason": "脉冲个体与整体图样始终同关系",
+              "counter_association": "不能把所有多体活动都说智能涌现"
+            }
+          },
+          "total": 26,
+          "decision": "quality_pass"
+        },
+        "english_producer": {
+          "candidate_id": "LD-E05",
+          "chinese_id": "LD-C08",
+          "english": "Solirain",
+          "reviewer": "producer",
+          "reviewer_id": "/root/live_a4",
+          "scores": {
+            "pronunciation": 4,
+            "spelling": 4,
+            "formation": 5,
+            "bilingual_relation": 5,
+            "distinctiveness": 4
+          },
+          "total": 22,
+          "notes": {
+            "pronunciation": {
+              "reason": "三音节，rain结尾是熟悉拼读。",
+              "counter_association": "soli可能有短长元音差异。"
+            },
+            "spelling": {
+              "reason": "八字母可按soli/rain分段说明。",
+              "counter_association": "首次听写可能变成Solyrain。"
+            },
+            "formation": {
+              "reason": "从同一真实科学现象的短语内压缩，没有无关附会。",
+              "counter_association": "整体新词不等于通用科学术语。"
+            },
+            "bilingual_relation": {
+              "reason": "两语指向同一soliton rain对象。",
+              "counter_association": "英文省略ton，需要解释专业来源。"
+            },
+            "distinctiveness": {
+              "reason": "有清晰雨图像与实验室可称呼外壳。",
+              "counter_association": "可能被误联想太阳雨或天气产品。"
+            }
+          },
+          "status": "pass_quality_gate",
+          "note": "主观编辑判断，待主控独立评分与原A3英文使用复查。"
+        },
+        "english_coordinator": {
+          "english_id": "LD-E05",
+          "candidate_id": "LD-C08",
+          "name": "Solirain",
+          "reviewer": "coordinator",
+          "scores": {
+            "pronunciation": 4,
+            "spelling": 4,
+            "grounding": 5,
+            "bilingual_relation": 5,
+            "distinctiveness": 4
+          },
+          "total": 22,
+          "notes": {
+            "pronunciation": {
+              "reason": "soli与rain三音节自然",
+              "counter_association": "soli重音需固定"
+            },
+            "spelling": {
+              "reason": "soli+rain可分段稳定书写",
+              "counter_association": "可能听写Solerain"
+            },
+            "grounding": {
+              "reason": "同一真实soliton rain短语压缩",
+              "counter_association": "soli也会联想到solar但非出处"
+            },
+            "bilingual_relation": {
+              "reason": "中英文同一科学现象，非硬加诗意",
+              "counter_association": "英文是新造缩形非标准名"
+            },
+            "distinctiveness": {
+              "reason": "有完整称呼和自然画面",
+              "counter_association": "需查现有太阳能或天气产品"
+            }
+          },
+          "decision": "quality_pass"
+        }
+      },
+      "status": "discussion_pair_pass_public_use_precheck_not_registration_clearance"
+    },
+    {
+      "chinese_id": "LD-C05",
+      "english_id": "LD-E06",
+      "family_id": "LD-F-computational-island-model",
+      "chinese": "比特群岛",
+      "pinyin": "bǐ tè qún dǎo",
+      "english": "Bipelago",
+      "suggested_pronunciation": "bih-PEL-uh-goh /bɪˈpɛləɡoʊ/",
+      "source": {
+        "url": "https://evo.fugue.run/tutorials/island-model.html",
+        "title": "Fugue Evo开发者文档：Island Model",
+        "read_scope": "How It Works与说明L5–40及运行代码L43–89；只读示例，不把开发者示例当普遍性能证明",
+        "access": "body",
+        "date": "页面未给日期"
+      },
+      "fact": "岛屿模型将候选种群分为多个并行演化的子种群，隔若干代迁移个体。独立搜索与相互交换共同存在，迁移频率和拓扑是实际设计变量。",
+      "meaning": "许多数字世界各自探索，又把发现带给彼此。",
+      "crossing": "从ByteDance学技术单位与可感画面同在；从Sakana学简单群体关系怎样成为组织身份。不是任意“比特+漂亮自然物”，群岛在并行演化中本来就是结构模型。",
+      "layers": [
+        "比特指数字媒介，群岛是可想象的空间形象",
+        "数字演化中独立种群与跨岛交换的真实组织关系",
+        "可以容纳多模型、多研究路径与相互增益的长期实验室身份"
+      ],
+      "weakness": "比特可能先引起加密货币联想；与“群岛”类既有品牌须进一步查近似。",
+      "english_formation": "将bit的开头bi-嵌入archipelago的-pelago声形，形成Bipelago。采用bit与群岛这两个中文本就有的组成关系；没有声称pelago独立指算法，也不伪造拉丁科学词源。",
+      "bilingual_relation": "中文比特提供数字计算媒介，群岛提供并行种群独立探索并迁移交换的结构；英文以bit和archipelago的声音融合保持同一数字群岛形象。",
+      "english_weakness": "英文单独看bit部分较不透明，需一次介绍；可能被先理解为虚拟世界或游戏品牌，不能声称比特等于二进制基因组编码。",
+      "chinese_screen": {
+        "candidate_id": "LD-C05",
+        "name": "比特群岛",
+        "decision": "public_use_screen_pass",
+        "reason": "搜索返回比特大陆、群岛网站及地理群岛等分词近邻，未见完整四字同名科技/AI公司或产品。",
+        "query_logs": [
+          {
+            "category": "exact_no_industry",
+            "query": "\"比特群岛\"",
+            "executed_on": "2026-11-07",
+            "summary": "搜索返回比特大陆、群岛网站及地理群岛等分词近邻，未见完整四字同名科技/AI公司或产品。"
+          },
+          {
+            "category": "company_tech",
+            "query": "\"比特群岛\" 公司 科技",
+            "executed_on": "2026-11-07",
+            "summary": "搜索返回比特大陆、群岛网站及地理群岛等分词近邻，未见完整四字同名科技/AI公司或产品。"
+          },
+          {
+            "category": "AI_model_software",
+            "query": "\"比特群岛\" AI 模型 软件",
+            "executed_on": "2026-11-07",
+            "summary": "搜索返回比特大陆、群岛网站及地理群岛等分词近邻，未见完整四字同名科技/AI公司或产品。"
+          },
+          {
+            "category": "traditional",
+            "query": "\"比特群島\" 公司",
+            "executed_on": "2026-11-07",
+            "summary": "搜索返回比特大陆、群岛网站及地理群岛等分词近邻，未见完整四字同名科技/AI公司或产品。"
+          },
+          {
+            "category": "pinyin",
+            "query": "\"bitequndao\" company AI",
+            "executed_on": "2026-11-07",
+            "summary": "搜索返回比特大陆、群岛网站及地理群岛等分词近邻，未见完整四字同名科技/AI公司或产品。"
+          },
+          {
+            "category": "exact_company_supplement",
+            "query": "\"比特群岛科技\"",
+            "executed_on": "2026-11-07",
+            "summary": "搜索返回比特大陆、群岛网站及地理群岛等分词近邻，未见完整四字同名科技/AI公司或产品。"
+          },
+          {
+            "category": "trademark_web_supplement",
+            "query": "\"比特群岛\" 商标 公司",
+            "executed_on": "2026-11-07",
+            "summary": "搜索返回比特大陆、群岛网站及地理群岛等分词近邻，未见完整四字同名科技/AI公司或产品。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "detail": "403；未完成逐名登记查询"
+          },
+          "mainland_trademark_class_9": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "detail": "403；未完成逐名逐类查询"
+          },
+          "mainland_trademark_class_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "detail": "403；未完成逐名逐类查询"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Bitequndao",
+            "detail": "表单首页可读，逐名URL工具不可访问"
+          }
+        },
+        "claim_limits": "本轮公开使用初筛未见明确完整同名；不表示全球无使用或可注册。",
+        "opened_evidence": [
+          {
+            "url": "https://www.qundao.top/latest",
+            "read_scope": "L0–24",
+            "finding": "现有网站名群岛，另列妙比特项目；页面不叫比特群岛，不能把分散文字拼成同名证据。"
+          }
+        ]
+      },
+      "english_screen": {
+        "candidate_id": "LD-E06",
+        "chinese_candidate_id": "LD-C05",
+        "name": "Bipelago",
+        "chinese": "比特群岛",
+        "version": 1,
+        "decision": "public_use_screen_pass",
+        "reason": "6组整体与变体查询未见明确同名科技/AI公司、模型或软件产品；返回Pelago、BI与地理词源邻项不等于Bipelago整体同名。 主控补查且A3打开核验：Bipelago已见于意大利ARN桌游手册虚构地名，非科技主体；不宣称此词世界首次出现。",
+        "query_logs": [
+          {
+            "category": "exact_no_industry",
+            "query": "\"Bipelago\"",
+            "executed_on": "2026-11-07",
+            "summary": "未见明确整体命中；返回BI与Pelago分词邻项。"
+          },
+          {
+            "category": "company_lab",
+            "query": "\"Bipelago\" company lab",
+            "executed_on": "2026-11-07",
+            "summary": "未见明确整体命中；返回BI与Pelago分词邻项。"
+          },
+          {
+            "category": "AI_model",
+            "query": "\"Bipelago\" AI model",
+            "executed_on": "2026-11-07",
+            "summary": "未见明确整体命中；返回BI与Pelago分词邻项。"
+          },
+          {
+            "category": "software_product",
+            "query": "\"Bipelago\" software product",
+            "executed_on": "2026-11-07",
+            "summary": "未见明确整体命中；返回BI与Pelago分词邻项。"
+          },
+          {
+            "category": "variants",
+            "query": "\"Bi Pelago\" OR \"Bi-pelago\"",
+            "executed_on": "2026-11-07",
+            "summary": "未见明确整体命中；返回BI与Pelago分词邻项。"
+          },
+          {
+            "category": "technology_supplement",
+            "query": "\"Bipelago\" technology",
+            "executed_on": "2026-11-07",
+            "summary": "未见明确整体命中；返回BI与Pelago分词邻项。"
+          }
+        ],
+        "evidence": [
+          {
+            "url": "https://it.scribd.com/document/962878184/Manuale-ARN-Italiano",
+            "status": "body_read_nontech_fiction",
+            "finding": "本角色打开上传的意大利ARN角色扮演手册正文，L94–131标虚构设定及2022版权，L146–152目录有Il Bipelago；已有非科技虚构地名，不称词形首次出现，非公司/AI/软件名。来源最初由主控独立补查发现。"
+          }
+        ],
+        "registration": {
+          "mainland_company": "unavailable_403",
+          "mainland_trademark_class_9": "unavailable_403",
+          "mainland_trademark_class_42": "unavailable_403",
+          "uk_company": "unavailable_name_search_url",
+          "summary": "大陆公司及商标第9/42类入口403，未完成逐名逐类核验；英国该英文逐名URL不可访问。不是注册可用证明。",
+          "uk_query_url": "https://find-and-update.company-information.service.gov.uk/search?q=Bipelago"
+        }
+      },
+      "quality_refs": {
+        "chinese_producer": {
+          "id": "LD-C05",
+          "name": "比特群岛",
+          "scores": {
+            "naturalness": 5,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 5,
+            "semantic_coherence": 4
+          },
+          "total": 27,
+          "pass": true,
+          "axis_reasons": {
+            "naturalness": "比特/群岛均是稳定常用词，四字节奏清楚",
+            "distinctiveness": "将计算媒介与具体群岛画面绑定，比泛称科技更可区别",
+            "lab_fit": "比特提供明确数字身份，群岛保留多研究路径而非教育",
+            "grounding": "岛屿模型确实把计算群体分开并迁移，关系原本存在",
+            "extension": "不是某个模型或某个学习步骤，可容纳长期多模型研究",
+            "semantic_coherence": "隔离与交换共同解释同一个群岛结构，没有附会互不相关寓意"
+          },
+          "counter_association": "比特可能先引起加密货币联想；与“群岛”类既有品牌须进一步查近似。"
+        },
+        "chinese_coordinator": {
+          "candidate_id": "LD-C05",
+          "name": "比特群岛",
+          "reviewer": "coordinator",
+          "scores": {
+            "naturalness": 4,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "notes": {
+            "naturalness": {
+              "reason": "四字可完整称呼，节奏均衡",
+              "counter_association": "比特常见"
+            },
+            "distinctiveness": {
+              "reason": "数字与群岛画面相接",
+              "counter_association": "群岛已有众多跨行业词用"
+            },
+            "lab_fit": {
+              "reason": "并行探索能支撑计算研究机构",
+              "counter_association": "可能先想到区块链"
+            },
+            "grounding": {
+              "reason": "岛屿模型有实际迁移设计",
+              "counter_association": "比特不指必须二进制编码"
+            },
+            "extension": {
+              "reason": "多模型多路径可长期展开",
+              "counter_association": "不能承诺演化总提升"
+            },
+            "semantic_coherence": {
+              "reason": "独立探索与交换同一组织关系",
+              "counter_association": "不能仅靠地理想象证明算法"
+            }
+          },
+          "total": 25,
+          "decision": "quality_pass"
+        },
+        "english_producer": {
+          "candidate_id": "LD-E06",
+          "chinese_id": "LD-C05",
+          "english": "Bipelago",
+          "reviewer": "producer",
+          "reviewer_id": "/root/live_a4",
+          "scores": {
+            "pronunciation": 4,
+            "spelling": 4,
+            "formation": 4,
+            "bilingual_relation": 5,
+            "distinctiveness": 4
+          },
+          "total": 21,
+          "notes": {
+            "pronunciation": {
+              "reason": "四音节重音在pel，可按词块自然读。",
+              "counter_association": "首音可能读bee而非bih。"
+            },
+            "spelling": {
+              "reason": "八字母，bi加pelago能口述说明。",
+              "counter_association": "不熟悉archipelago者需初次看拼写。"
+            },
+            "formation": {
+              "reason": "中文已有bit/群岛真实交叉，英文做同组声形压缩。",
+              "counter_association": "bi-可能先理解为二而非bit。"
+            },
+            "bilingual_relation": {
+              "reason": "共享数字媒介与独立岛屿交换的同一世界。",
+              "counter_association": "不看中文时bit只保留了声音线索。"
+            },
+            "distinctiveness": {
+              "reason": "整体具一个可探索世界的专名感，不限当前模型功能。",
+              "counter_association": "可能像游戏或元宇宙品牌。"
+            }
+          },
+          "status": "pass_quality_gate",
+          "note": "主观编辑判断，待主控独立评分与原A3英文使用复查。"
+        },
+        "english_coordinator": {
+          "english_id": "LD-E06",
+          "candidate_id": "LD-C05",
+          "name": "Bipelago",
+          "reviewer": "coordinator",
+          "scores": {
+            "pronunciation": 4,
+            "spelling": 4,
+            "grounding": 4,
+            "bilingual_relation": 5,
+            "distinctiveness": 4
+          },
+          "total": 21,
+          "notes": {
+            "pronunciation": {
+              "reason": "与archipelago末段相似可读",
+              "counter_association": "bi可能被读成bye"
+            },
+            "spelling": {
+              "reason": "bi+pelago能口述分段",
+              "counter_association": "第一次会多写一个l或i"
+            },
+            "grounding": {
+              "reason": "bit与archipelago明确承认声形融合",
+              "counter_association": "bi不透明表达bit需介绍"
+            },
+            "bilingual_relation": {
+              "reason": "双语数字群岛的同一结构",
+              "counter_association": "不是进化算法必须二进制编码"
+            },
+            "distinctiveness": {
+              "reason": "可作长期机构名而非技术规格",
+              "counter_association": "容易像虚拟世界游戏品牌"
+            }
+          },
+          "decision": "quality_pass"
+        }
+      },
+      "status": "discussion_pair_pass_public_use_precheck_not_registration_clearance"
+    },
+    {
+      "chinese_id": "LD-C02",
+      "english_id": "LD-E09",
+      "family_id": "LD-F-negative-entropy-flux",
+      "chinese": "负熵流",
+      "pinyin": "fù shāng liú",
+      "english": "Fushali",
+      "suggested_pronunciation": "foo-SHAH-lee /fuːˈʃɑːliː/",
+      "source": {
+        "url": "https://struchem.nankai.edu.cn/phychem/10/10-10.pdf",
+        "title": "南开大学朱志昂非平衡热力学讲义",
+        "read_scope": "幻灯20–26，重点24–25的熵平衡及外熵流；未采用后文寿命等未经本轮核验的推广",
+        "access": "body",
+        "date": "页面未给出版年"
+      },
+      "fact": "开放体系熵变含外熵流与内部熵产生；外部净熵输出可抵消内部产生，特定条件下体系熵下降。",
+      "meaning": "系统与世界交换，从环境中获得维持和形成组织的条件。",
+      "crossing": "Imbue使研究着眼“对既有系统产生什么作用”，此处保留开放交换与系统改变的关系；借科学术语成为品牌如第四范式。",
+      "layers": [
+        "开放体系的热力学关系",
+        "组织与信息的品牌类比：模型部署后继续与世界交换并改变自身"
+      ],
+      "weakness": "熵字有识读门槛；“负”在日常语言里略有消极联想。",
+      "english_formation": "负熵流拼音fushangliu压为Fushali：保留fu-sha-li的三个音节，省去鼻尾ng及末尾u，使之成为七字母可称呼专名。没有虚构拉丁/英语词根。",
+      "bilingual_relation": "英文通过中文发音保持同一机构身份，中文负责热力学意义与交换关系；不要求英文同时充当物理定义。",
+      "english_weakness": "英文侧科学词义不透明；可能首先被听作人名或消费品牌，需要机构语境支持。不能仅凭读音宣布适合每个使用者。",
+      "chinese_screen": {
+        "candidate_id": "LD-C02",
+        "name": "负熵流",
+        "decision": "public_use_screen_pass",
+        "reason": "已执行下列6组公开使用查询，未见明确同核心中文名科技/AI公司、模型或软件产品。此结论限本轮可检索公开范围。",
+        "query_logs": [
+          {
+            "category": "exact_no_industry",
+            "query": "\"负熵流\"",
+            "executed_on": "2026-11-07",
+            "summary": "返回热力学论文、管理学及科普讨论，未见独立品牌。"
+          },
+          {
+            "category": "company_tech",
+            "query": "\"负熵流\" 公司 科技",
+            "executed_on": "2026-11-07",
+            "summary": "返回企业管理对负熵流概念的讨论，未见精确字号。"
+          },
+          {
+            "category": "AI_model_software",
+            "query": "\"负熵流\" AI 模型 软件",
+            "executed_on": "2026-11-07",
+            "summary": "返回AI文章中作为概念使用；不是模型或软件名。"
+          },
+          {
+            "category": "traditional",
+            "query": "\"負熵流\" 科技 公司",
+            "executed_on": "2026-11-07",
+            "summary": "图商科技LDL白皮书使用该词解释过程，不是主体或产品名。"
+          },
+          {
+            "category": "pinyin",
+            "query": "\"fushangliu\" company AI",
+            "executed_on": "2026-11-07",
+            "summary": "未见明确同拼音科技品牌。"
+          },
+          {
+            "category": "exact_company_supplement",
+            "query": "\"负熵流科技\"",
+            "executed_on": "2026-11-07",
+            "summary": "未见该精确科技字号。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "detail": "403；未完成逐名登记查询"
+          },
+          "mainland_trademark_class_9": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "detail": "403；未完成逐名逐类查询"
+          },
+          "mainland_trademark_class_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "detail": "403；未完成逐名逐类查询"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Fushangliu",
+            "detail": "表单首页可读，逐名URL工具不可访问"
+          }
+        },
+        "claim_limits": "不是全球无使用、官方公司核名通过或商标可注册保证。",
+        "opened_evidence": [
+          {
+            "url": "https://marptek.com/wp-content/uploads/2026/01/LDL-WP-2026-001_v1.1.pdf",
+            "level": "primary_company_publication",
+            "read_scope": "扉页/定义清单p0–1，L0–51",
+            "finding": "发布主体图商科技，框架名LDL；负熵流是描述补偿工程的既有概念，非公司/独立软件/模型名。"
+          },
+          {
+            "url": "https://tsight.io/articles/12537934?lang=zh",
+            "level": "published_article",
+            "read_scope": "L10–21、36–40",
+            "finding": "文章提及系统负熵流作为一般概念；没有把软件命名为负熵流。文章自标AI生成，不作为科学出处。"
+          },
+          {
+            "url": "https://struchem.nankai.edu.cn/phychem/10/10-10.pdf",
+            "level": "primary_teaching",
+            "read_scope": "检索可见概念，打开超时",
+            "finding": "不充当已读正文证据。"
+          }
+        ]
+      },
+      "english_screen": {
+        "candidate_id": "LD-E09",
+        "chinese_candidate_id": "LD-C02",
+        "name": "Fushali",
+        "chinese": "负熵流",
+        "version": 3,
+        "decision": "public_use_screen_pass",
+        "reason": "7组公开使用查询未见明确同名科技/AI公司、模型或软件产品；现有个人名、姓氏/地域词形等文字出现不构成科技品牌。该英文是中文品牌音形缩合，非新发现的英语科学术语。",
+        "query_logs": [
+          {
+            "category": "exact_no_industry",
+            "query": "\"Fushali\"",
+            "executed_on": "2026-11-07",
+            "summary": "返回学术文章中的姓氏/地域词形及个人名字，未见明确整体科技品牌。"
+          },
+          {
+            "category": "company_lab",
+            "query": "\"Fushali\" company lab",
+            "executed_on": "2026-11-07",
+            "summary": "返回学术文章中的姓氏/地域词形及个人名字，未见明确整体科技品牌。"
+          },
+          {
+            "category": "AI_model",
+            "query": "\"Fushali\" AI model",
+            "executed_on": "2026-11-07",
+            "summary": "返回学术文章中的姓氏/地域词形及个人名字，未见明确整体科技品牌。"
+          },
+          {
+            "category": "software_product",
+            "query": "\"Fushali\" software product",
+            "executed_on": "2026-11-07",
+            "summary": "返回学术文章中的姓氏/地域词形及个人名字，未见明确整体科技品牌。"
+          },
+          {
+            "category": "variants",
+            "query": "\"Fu Shali\" OR \"Fu-shali\"",
+            "executed_on": "2026-11-07",
+            "summary": "返回学术文章中的姓氏/地域词形及个人名字，未见明确整体科技品牌。"
+          },
+          {
+            "category": "company_supplement",
+            "query": "\"Fushali\" company",
+            "executed_on": "2026-11-07",
+            "summary": "返回学术文章中的姓氏/地域词形及个人名字，未见明确整体科技品牌。"
+          },
+          {
+            "category": "technology_supplement",
+            "query": "\"Fushali\" technology software AI",
+            "executed_on": "2026-11-07",
+            "summary": "返回学术文章中的姓氏/地域词形及个人名字，未见明确整体科技品牌。"
+          }
+        ],
+        "evidence": [
+          {
+            "url": "https://ashak.org/repository/docs/WEB_Studime_Shoqerore_3_125950.pdf",
+            "status": "academic_pdf_search_text",
+            "finding": "Fusha–Fushali作为姓氏关系出现；不据此认定公司或AI产品，未声称读取全文。"
+          },
+          {
+            "url": "https://www.journal.sties-purwakarta.ac.id/index.php/EKSISBANK/article/view/8?articlesBySameAuthorPage=2",
+            "status": "journal_search_text",
+            "finding": "参考文献个人作者名Fushali，不作品牌。"
+          }
+        ],
+        "registration": {
+          "mainland_company": "unavailable_403",
+          "mainland_trademark_class_9": "unavailable_403",
+          "mainland_trademark_class_42": "unavailable_403",
+          "uk_company": "unavailable_name_search_url",
+          "summary": "大陆公司/第9及42类商标入口403，无逐名逐类结果；英国逐名URL不可访问，不表示可注册。",
+          "uk_query_url": "https://find-and-update.company-information.service.gov.uk/search?q=Fushali"
+        }
+      },
+      "quality_refs": {
+        "chinese_producer": {
+          "id": "LD-C02",
+          "name": "负熵流",
+          "scores": {
+            "naturalness": 4,
+            "distinctiveness": 4,
+            "lab_fit": 5,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 26,
+          "pass": true,
+          "reasons": [
+            "三字有科学气质和流动感，能容纳跨模型基础研究。",
+            "现成科学对象有可识别结构与读音",
+            "熵字有识读门槛；“负”在日常语言里略有消极联想。",
+            "“负熵”和“流”本来就是同一物理关系，不是两个漂亮字拼凑。",
+            "未直接绑定某个AI功能",
+            "系统与世界交换，从环境中获得维持和形成组织的条件。"
+          ],
+          "counter_associations": [
+            "术语而非口语",
+            "同行通名拥挤风险",
+            "可能误认为特定物理产业",
+            "科学比喻非算法事实",
+            "品牌前期需要说明",
+            "不能保证积累即增强"
+          ]
+        },
+        "chinese_coordinator": {
+          "candidate_id": "LD-C02",
+          "name": "负熵流",
+          "reviewer": "coordinator",
+          "scores": {
+            "naturalness": 4,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "notes": {
+            "naturalness": {
+              "reason": "既有三字词，有完整对象",
+              "counter_association": "负字略消极"
+            },
+            "distinctiveness": {
+              "reason": "负熵与流结合形成方向",
+              "counter_association": "熵有识读门槛"
+            },
+            "lab_fit": {
+              "reason": "开放系统与信息研究气质",
+              "counter_association": "容易过度哲学化"
+            },
+            "grounding": {
+              "reason": "熵平衡分解有讲义支撑",
+              "counter_association": "热熵不能等同智能"
+            },
+            "extension": {
+              "reason": "交换与组织可容纳长期研究",
+              "counter_association": "可能泛化成管理口号"
+            },
+            "semantic_coherence": {
+              "reason": "各层围绕开放交换展开",
+              "counter_association": "信息熵与热熵不可混写"
+            }
+          },
+          "total": 25,
+          "decision": "quality_pass"
+        },
+        "english_producer": {
+          "candidate_id": "LD-E09",
+          "chinese_id": "LD-C02",
+          "english": "Fushali",
+          "reviewer": "producer",
+          "reviewer_id": "/root/live_a4",
+          "scores": {
+            "pronunciation": 4,
+            "spelling": 4,
+            "formation": 4,
+            "bilingual_relation": 5,
+            "distinctiveness": 4
+          },
+          "total": 21,
+          "notes": {
+            "pronunciation": {
+              "reason": "fu/sha/li三个清楚音节。",
+              "counter_association": "fu有少数读者可能读成fuh。"
+            },
+            "spelling": {
+              "reason": "七字母，音节可分写介绍。",
+              "counter_association": "中文拼音使用者可能尝试补ng。"
+            },
+            "formation": {
+              "reason": "真实中文发音的透明人为缩形。",
+              "counter_association": "不是严格拼音或公认英文词。"
+            },
+            "bilingual_relation": {
+              "reason": "与中文共享声音身份，中文负责原理。",
+              "counter_association": "英文无法独立还原熵流主题。"
+            },
+            "distinctiveness": {
+              "reason": "整体可作为机构专名，避免把品牌困在当前产品。",
+              "counter_association": "也可能像消费品或个人名。"
+            }
+          },
+          "status": "pass_quality_gate",
+          "note": "主观编辑意见，待主控独评和A3；无额外返工额度。"
+        },
+        "english_coordinator": {
+          "english_id": "LD-E09",
+          "candidate_id": "LD-C02",
+          "name": "Fushali",
+          "reviewer": "coordinator",
+          "scores": {
+            "pronunciation": 4,
+            "spelling": 4,
+            "grounding": 5,
+            "bilingual_relation": 4,
+            "distinctiveness": 4
+          },
+          "total": 21,
+          "notes": {
+            "pronunciation": {
+              "reason": "fu-sha-li三个音节易口述",
+              "counter_association": "首音可能读fuh"
+            },
+            "spelling": {
+              "reason": "七字母可分段记忆",
+              "counter_association": "sh和重音需一次介绍"
+            },
+            "grounding": {
+              "reason": "fushangliu省ng与u得到Fushali，构造可复现",
+              "counter_association": "不是现成负熵外文术语"
+            },
+            "bilingual_relation": {
+              "reason": "保留中文三个音节骨架而非假逐字英译",
+              "counter_association": "无英语含义提示热力学"
+            },
+            "distinctiveness": {
+              "reason": "专名可承载机构，科学义交由中文",
+              "counter_association": "可能像人名消费品牌"
+            }
+          },
+          "decision": "quality_pass"
+        }
+      },
+      "status": "discussion_pair_pass_public_use_precheck_not_registration_clearance"
+    }
+  ],
+  "excluded_public_technology_pass": {
+    "LD-E08": "Nijila农业公司目录线索已存在，主控主动避让，不把它改判成科技公司占用。"
+  },
+  "registry_limit": "大陆核名及第9/42类商标入口不可用，未完成官方逐名逐类核验；不能称全球无注册。"
+}

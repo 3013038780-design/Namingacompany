@@ -1,0 +1,170 @@
+{
+  "reviewed_at": "2026-11-07T18:12:41.701948+08:00",
+  "independence": "Read A2-preview-batch1.md before producer numeric assessment; source facts still subject to body audit.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C01",
+      "name": "星际渡口",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "星际与渡口形成完整四字称呼",
+          "counter_association": "像科幻或航天机构"
+        },
+        "distinctiveness": {
+          "reason": "可抵达换乘的宇宙场景可记",
+          "counter_association": "星际词根较常见"
+        },
+        "lab_fit": {
+          "reason": "探索入口与连接者可承载AI研究身份",
+          "counter_association": "首要联想偏航天"
+        },
+        "grounding": {
+          "reason": "论文真实存在低能通道和入口类比，品牌扩大尺度已披露",
+          "counter_association": "行星际不等于已证跨恒星通路"
+        },
+        "extension": {
+          "reason": "出发与通路容纳跨产品研究",
+          "counter_association": "初期需研究简介"
+        },
+        "semantic_coherence": {
+          "reason": "空间交通与能力通路围绕同一关系",
+          "counter_association": "品牌类比非已实现航天性能"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "CT-C02",
+      "name": "地球回信",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "四个熟字组成自然动作与主体",
+          "counter_association": "可能像科普栏目"
+        },
+        "distinctiveness": {
+          "reason": "地球回信反常而可理解，画面鲜明",
+          "counter_association": "拟人化可能显文艺"
+        },
+        "lab_fit": {
+          "reason": "世界观测与反馈足以承载研究身份",
+          "counter_association": "需要避免环保机构误读"
+        },
+        "grounding": {
+          "reason": "地照光返回信息有观测论文锚点",
+          "counter_association": "反射光不是学习机制"
+        },
+        "extension": {
+          "reason": "可讲系统与世界交互多个方向",
+          "counter_association": "不只一个模型反馈产品"
+        },
+        "semantic_coherence": {
+          "reason": "光的返回与回应共享清楚路径",
+          "counter_association": "不是地球具有认知意图"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "CT-C03",
+      "name": "影子刻度",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "对象与测量组成完整称呼",
+          "counter_association": "像摄影品牌"
+        },
+        "distinctiveness": {
+          "reason": "中国器物的可见影长刻度好想象",
+          "counter_association": "影子有次要模糊联想"
+        },
+        "lab_fit": {
+          "reason": "观测与判断的科学机构身份可信",
+          "counter_association": "第一联想视觉测量"
+        },
+        "grounding": {
+          "reason": "圭表上影子与刻度真实共存",
+          "counter_association": "不冒称古籍成句"
+        },
+        "extension": {
+          "reason": "可从观测推广经验与判断研究",
+          "counter_association": "非具体算法名称"
+        },
+        "semantic_coherence": {
+          "reason": "不同层均为痕迹成为可比较信息",
+          "counter_association": "不承诺AI准确率"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "CT-C04",
+      "name": "未尽之问",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 5,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "完整四字名词性短语可称呼",
+          "counter_association": "文气较重"
+        },
+        "distinctiveness": {
+          "reason": "未尽与问构成持续探究姿态",
+          "counter_association": "可能像出版播客栏目"
+        },
+        "lab_fit": {
+          "reason": "认识论与研究机构身份可成立",
+          "counter_association": "技术对象不直露"
+        },
+        "grounding": {
+          "reason": "作者可错知识观点是有来源立场而非定理",
+          "counter_association": "品牌中文不是原文摘句"
+        },
+        "extension": {
+          "reason": "不限定当前架构或产品，长期问答边界广",
+          "counter_association": "不能替团队接受作者全部哲学"
+        },
+        "semantic_coherence": {
+          "reason": "从问题到解释再生问题同一叙事",
+          "counter_association": "与旧未完成叙事有接近风险需后续家族复核"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

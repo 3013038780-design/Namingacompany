@@ -1,0 +1,127 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T16:49:27.215628+08:00",
+  "status": "completed_screening_with_disclosed_exclusions",
+  "counts": {
+    "chinese_names_checked": 5,
+    "english_forms_checked": 11,
+    "chinese_search_queries": 36,
+    "english_search_queries": 77,
+    "candidate_search_queries": 113,
+    "positive_control_queries": 2,
+    "total_actual_search_queries": 115,
+    "chinese_public_use_passes": 5,
+    "english_public_use_passes": 4
+  },
+  "public_use_pass_english_ids": [
+    "LD-E05",
+    "LD-E06",
+    "LD-E08",
+    "LD-E09"
+  ],
+  "coordinator_selected_three_pairs": [
+    {
+      "chinese": "孤子雨",
+      "english": "Solirain",
+      "english_id": "LD-E05"
+    },
+    {
+      "chinese": "比特群岛",
+      "english": "Bipelago",
+      "english_id": "LD-E06"
+    },
+    {
+      "chinese": "负熵流",
+      "english": "Fushali",
+      "english_id": "LD-E09"
+    }
+  ],
+  "coordinator_excluded_public_tech_pass": {
+    "name": "Nijila",
+    "reason": "NIJILA ENTEGRATED FARM PLC跨行业公司核心名已有使用，主控主动避让，不误写科技同名。"
+  },
+  "registry_limits": "大陆公司/第9/42商标入口403；逐名英国URL不可访问。未声称登记可用或全球无使用。",
+  "outputs": [
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A3-cn-batch1.json",
+      "sha256": "39e303771d0fa00c0060255ffaf301e7616932936b3bf0cb4a3b9061e4ac32fc"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A3-cn-batch1.md",
+      "sha256": "19f738463f021c9d050369da1e099fcc42c7f8a56c3ec2f5cf43f34d213585f3"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A3-cn-batch2.json",
+      "sha256": "6ddcbba5a8c566905dd575756a013a1c3c9f64477896727a2154d280801a6e68"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A3-cn-batch2.md",
+      "sha256": "ec7c1e6ebb080121a10953c8291fe5ec53c4ababfb0e17c5b9b8daa71ae9d96b"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A3-controls.json",
+      "sha256": "adf60f05b80bfa8db3a90337d20ee4d866ff3dd70116beafa3709908c2eb08b7"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A3-en-batch1.json",
+      "sha256": "137f896ad8542a5fd060613524d74ae97e91f17c3597893c05a62978533f701a"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A3-en-batch1.md",
+      "sha256": "5218e23b496ad0f581504a0bf58e8d15c25de14a417a07e0e19ecf670a05dc1f"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A3-en-batch2.json",
+      "sha256": "5e8210bd3581dd668045ccb47649d6aa03529e069074d6b23ac407b1d3499347"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A3-en-batch2.md",
+      "sha256": "24b7b89e9657d96e4670553085cf5abd5668a0c6bc2000c535eeba691d3df6df"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A3-en-batch3.json",
+      "sha256": "a6306cab327fe0ac2d3823e444463712254fa11925472dad66b800008de3b857"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A3-en-batch3.md",
+      "sha256": "491fac2279c010557ee1e42eacb54dc681298e0ef7e1d9da0024c2df35300c50"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A3-en-batch4.json",
+      "sha256": "9d64fd43262c958c0e5d6270be9503c90e44d469c19a3d2a3f43e71f14c5b1f6"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A3-en-batch4.md",
+      "sha256": "198cd02c6b6a81156e3657d1fba5a2312d59009e42dc80c0fce146c0c94ad0b9"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A3-en-batch5.json",
+      "sha256": "8586b492cf84b4c67d6ff76f8755ebfe189c4d4bdd935c706fd64c15373270f1"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A3-en-batch5.md",
+      "sha256": "22bc55cd0074363c3d443263ab21cfecf98f59186730263a2dcbd72a6880e377"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A3-en-batch6.json",
+      "sha256": "1e947a1873834d88ceb3ff24e6b350ecc62c8bd21cb1c8ee954a0c1bcf5d1ff6"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A3-en-batch6.md",
+      "sha256": "ad1629e5efa67a287649542c3d0cdfdaf61bc552339fa27dbeb2148820c21b3b"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A3-en-batch7.json",
+      "sha256": "c4d0d19bd3d53b31f31e04b77db705c675ea0af8e27f36deea7adffac39b3358"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A3-en-batch7.md",
+      "sha256": "cdf7e9556cff1ffbca6f037ba16eb47cc8735d658d7209748f5c738a66b8836c"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A3-registration-access.json",
+      "sha256": "fe01cc64129c1aedcc92350d492a537c10fab73d63eeb4d023731675e9809f1c"
+    }
+  ]
+}

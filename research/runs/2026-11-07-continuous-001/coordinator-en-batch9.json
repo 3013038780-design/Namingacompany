@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T21:28:15.011262+08:00",
+  "independence": "Read producer preview batch9 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C13",
+      "name": "Passageway",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "完整现成词读法自然",
+          "counter_association": "三个音节非极短"
+        },
+        "spelling": {
+          "reason": "passage与way普通拼写保留",
+          "counter_association": "首次需统一单词拼法"
+        },
+        "grounding": {
+          "reason": "真实通道与知识导航有对应",
+          "counter_association": "不是NLS技术术语"
+        },
+        "bilingual_relation": {
+          "reason": "动作与使之可能的通道相接",
+          "counter_association": "英文较缓不直接表达跳读"
+        },
+        "distinctiveness": {
+          "reason": "实体空间图景可称呼",
+          "counter_association": "通名像建筑旅行或文化空间"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E09"
+    }
+  ]
+}

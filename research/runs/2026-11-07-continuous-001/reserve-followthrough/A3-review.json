@@ -1,0 +1,190 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "review_completed_at": "2026-11-07T20:21:00.155398+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/reserves.json",
+      "sha256": "7f87020c5eb78da63272b6eac46069c621e3ab2839bc9aeb38d8220fce0705ab"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-cn-batch7.json",
+      "sha256": "762e1f28eace49fce6bda14054b8c437c2298720079cb5e80215f59b9682c8f7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-cn-batch8.json",
+      "sha256": "9cbfcec9ba7057de047c955d02a36362121805182ab8793f26388bc84d12ff7c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch18.json",
+      "sha256": "0edc99def8a54b8518ddc3faeb1bdce9bb8c92288d5e9838d6fe29bd81095970"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch19.json",
+      "sha256": "bbcb7d471b950f666937935e035c2d7d9e017e916b07f5e24f21d39a1664210a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch20.json",
+      "sha256": "92fa5042207791dc1b7931c7e11b2c46df7852843442af06cd1957cbca7499a3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-airsung-label.png",
+      "sha256": "04efae750bb412068828564d1205e7b6b3eb23fdf33bd99b68a09e7df0b24dae"
+    }
+  ],
+  "items": [
+    {
+      "chinese": "懒函数",
+      "english": "Call by Need",
+      "chinese_id": "CT-C30",
+      "english_id": "CT-E34",
+      "prior_cn_query_count": 6,
+      "prior_en_query_count": 5,
+      "original_search_dates": [
+        "2026-11-07"
+      ],
+      "evidence_reuse": "同一Agent3此前实际正文阅读与原日志复核；未将旧查询伪称此次重查。",
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Lanhanshu",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      },
+      "decision": "eligible_for_A4_discussion",
+      "reason": "中英文原查询6/5均达门槛；Call by Need是通用求值策略而非已确证独立软件名。无新的占用证据，不因通用术语否决；通名独特性和懒字品牌印象交A4复核。",
+      "original_use_decisions": [
+        "public_use_screen_pass",
+        "public_use_screen_pass"
+      ]
+    },
+    {
+      "chinese": "有界好奇",
+      "english": "Measured Wonder",
+      "chinese_id": "CT-C31",
+      "english_id": "CT-E35",
+      "prior_cn_query_count": 6,
+      "prior_en_query_count": 5,
+      "original_search_dates": [
+        "2026-11-07"
+      ],
+      "evidence_reuse": "同一Agent3此前实际正文阅读与原日志复核；未将旧查询伪称此次重查。",
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Youjiehaoqi",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      },
+      "decision": "eligible_for_A4_discussion",
+      "reason": "中英文原查询6/5均达门槛；已有歌曲与漫画同标题，不是公司或独立软件。Wonder Constant Labs把measured wonder作研究哲学普通语句，叙事相近须明说，但不能称精确品牌冲突。",
+      "original_use_decisions": [
+        "public_use_screen_pass",
+        "public_use_screen_pass"
+      ]
+    },
+    {
+      "chinese": "鸽哨",
+      "english": "Airsung",
+      "chinese_id": "CT-C28",
+      "english_id": "CT-E37",
+      "prior_cn_query_count": 6,
+      "prior_en_query_count": 12,
+      "original_search_dates": [
+        "2026-11-07"
+      ],
+      "evidence_reuse": "同一Agent3此前实际正文阅读与原日志复核；未将旧查询伪称此次重查。",
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Geshao",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      },
+      "decision": "continue_reserve_for_A4_distinctiveness_review",
+      "reason": "中英文原查询6/12达门槛；Airsung精确科技品牌未确证，原PDF是Aisung非Airsung。此次必要补证确有Aisung音响商业品牌，二者仅差r，且Airsung寓意也靠声音；保留储备让A4判断口头与视觉区分，不将近似自动冒充精确占用或法律驳回。",
+      "original_use_decisions": [
+        "public_use_screen_pass",
+        "public_use_screen_pass"
+      ]
+    }
+  ],
+  "new_search_queries": [
+    {
+      "query": "\"Aisung\" speaker brand",
+      "executed_on": "2026-11-07",
+      "reason": "原PDF真实标签Aisung此前仅作近似风险；补核实际电子品牌主体与商品，不重复已有Airsung12查询"
+    }
+  ],
+  "new_query_count": 1,
+  "prior_queries_reviewed": 40,
+  "new_evidence": [
+    {
+      "url": "https://www.tbc3d.com/measured-wonder/",
+      "access": "curl_primary_body_read_this_review",
+      "finding": "Measured Wonder明确为Sueniverse Moments comic篇名；网站demo store不履行订单标语也已见。不是软件品牌，旧web正文不可访问限制现由curl补读；不修改旧批次。"
+    },
+    {
+      "url": "https://www.onbuy.com/gb/p/aisung-soundbar-for-tv-32-inch-home-theater-stereo-sound-bar-wall-mountable-tv-speakers-with-subwoofer-wireless-bluetooth-50-hdmiopticalcoaxial~p171264282/",
+      "access": "retailer_product_body_read_this_review",
+      "finding": "标题及Brand字段明确Aisung，商品32-inch Bluetooth Soundbar，非Airsung；真实电子品牌近似线索，不等同精确同名公司/模型。"
+    },
+    {
+      "url": "https://tm.aliyun.com/detail/248f_5109984_38",
+      "access": "third_party_trademark_directory_body_read_this_review",
+      "finding": "第三方列AISUNG第38类注册号5109984、北京爱商创业科技有限公司、期限至2029-07-27。不是官方实时查证、不等于Airsung第9/42类或商标近似法律结论。"
+    },
+    {
+      "url": "https://www.stronics.co.uk/product-page/aisung-wired-and-wireless-blue-soundbar-10-hours-battery-life-black",
+      "access": "body_timeout",
+      "finding": "访问超时；采用已读OnBuy正文，不以此页主张正文已核。"
+    }
+  ],
+  "registration_limits": "沿用原证据入口限制：大陆GSXT/CNIPA403、未逐名官方核名及第9/42类检索；UK逐名入口不可访问。本次新增第三方AISUNG38类线索不改变官方核验未完成。",
+  "handoff": "先由实际A4复核自然英文、双语来源关系及品牌区分，不自动入主库、不因取消日配额升级、不改原Actor文件。"
+}

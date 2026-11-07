@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/live_a4",
+  "role": "A4",
+  "recorded_at": "2026-11-07T18:20:46+08:00",
+  "input_authorization": "主控明确CT-C05首英文输入、CT-C03第1次英文返工；两中文双质量与A3通过",
+  "candidates": [
+    {
+      "id": "CT-E07",
+      "chinese_id": "CT-C05",
+      "chinese": "拨码",
+      "english": "State Dial",
+      "suggested_pronunciation": "STAYT DYE-uhl /steɪt ˈdaɪəl/",
+      "type": "普通英语词构成的完整名词短语",
+      "formation": "state是系统状态，dial是可供调节、设定的旋钮/刻度盘对象。State Dial把可见操作与机器配置状态直接相接，不借Boma音形，也不冒称它是拨码开关的标准英译。",
+      "bilingual_relation": "中文从手的拨动和码的配置进入，英文从可调节对象及系统状态进入；共同表现小操作如何改变机器的工作配置。",
+      "meaning": "让既有系统具有新的配置与可操作空间；从一个熟悉、可调的技术对象建立机构身份，不能把手动设定说成自动学习算法。",
+      "shortcoming": "可能先像配置工具或仪器界面，state也有国家/州义；读到dial才能收束到调节对象。公司角色需研究语境支持，不承诺任意状态切换。",
+      "source_urls": [
+        "https://www.aratas.com.cn/products/switches/tactile-switches/omron-tactile-switch_features"
+      ],
+      "read_scope": "依据A2实际读制造商设定开关分类及编码选型表、主控来源核验；A4本案不新增宣称阅读全文。英文是本轮品牌短语，不当源厂术语或性能事实。",
+      "status": "quality_proposal_not_screened"
+    },
+    {
+      "id": "CT-E08",
+      "chinese_id": "CT-C03",
+      "chinese": "影子刻度",
+      "english": "Measured Light",
+      "suggested_pronunciation": "MEH-zherd LYTE /ˈmɛʒərd laɪt/",
+      "type": "两个现成英语词构成的完整名词短语",
+      "formation": "measured是measure的过去分词，light是光，整体为被测量的光。回到圭表借光影进行观察的知识角色，保留正常英语词形；不是给Shadow Gauge多加字母。",
+      "bilingual_relation": "中文以影子落在刻度上为画面，英文以光成为可观察可度量的信息为侧面；光与影在同一中国观测器具中相接。不是说圭表直接测光强，它测的是投影的位置和长度。",
+      "meaning": "把经验留下的痕迹转成可比较的信息；公司以精确观察、理解变化的角色开展研究。中国圭表是科学史来处，名字不限定光学产品或宣称计量准确率。",
+      "shortcoming": "可能像光学、影像或摄影工作室；英文不直接出现影子或刻度，必须说明从投影获得量度的关系，不能把品牌名当仪器测量光强的事实。",
+      "source_urls": [
+        "https://www.dpm.org.cn/lemmas/239748.html"
+      ],
+      "read_scope": "A4此前故宫词条本次访问超时，承继A2/主控正文核验；仅作语义重配，不冒称重新读古籍。",
+      "rework_of": "CT-E03",
+      "rework_number_for_chinese": 1,
+      "rework_reason": "Shadow Gauge因成熟Shadow汽车仪表品牌与gauges品类组合、同名音乐人等搜索风险，主控主动避让；不认定精确同名AI/软件或已注册。",
+      "status": "quality_proposal_not_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

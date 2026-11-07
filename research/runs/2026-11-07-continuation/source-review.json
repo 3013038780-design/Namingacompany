@@ -1,0 +1,239 @@
+{
+  "reviewer": "/root",
+  "date": "2026-11-07",
+  "A1_primary_review": [
+    {
+      "url": "https://about.google/company-info/our-story/",
+      "access": "body",
+      "scope": "Our story line12",
+      "supports": "大数文字游戏与信息组织使命，非任意错误拼写。",
+      "web_ref": "turn1042view0"
+    },
+    {
+      "url": "https://www.sony.com.hk/aboutsony/html/en/history.jsp",
+      "access": "body",
+      "scope": "Sony history lines17–18",
+      "supports": "sonus与sonny融合以及可读可发音诉求，非为了避重剪拼音。",
+      "web_ref": "turn1042view1"
+    },
+    {
+      "url": "https://sakana.ai/seed-round/",
+      "access": "body",
+      "scope": "lines4–5",
+      "supports": "鱼的自然称呼、简单规则形成整体及差异化姿态。",
+      "web_ref": "turn1042view2"
+    },
+    {
+      "url": "https://www.ahundredmonkeys.com/case-study/imbue/",
+      "access": "body",
+      "scope": "lines20,32",
+      "supports": "Generally Intelligent过于费解到Imbue作用关系命名；参与者偏好不是普遍用户测试。",
+      "web_ref": "turn1042view3"
+    }
+  ],
+  "candidate_source_review": [
+    {
+      "candidate_id": "CT-C01",
+      "url": "https://www.gg.caltech.edu/~mwl/publications/papers/IPSAndOrigins",
+      "access": "body",
+      "scope": "PDF page0图注与摘要",
+      "supports": "周期轨道与入口、太阳系低能通路；星际为品牌空间扩展，非已证恒星际通行。",
+      "web_ref": "turn1050view0"
+    },
+    {
+      "candidate_id": "CT-C02",
+      "url": "https://arxiv.org/abs/0906.0570",
+      "access": "body",
+      "scope": "abstract16–17",
+      "supports": "地球至月面再返回的反照光以及行星信息观测。",
+      "web_ref": "turn1050view1"
+    },
+    {
+      "candidate_id": "CT-C03",
+      "url": "https://www.dpm.org.cn/lemmas/239748.html",
+      "access": "body",
+      "scope": "圭表词条完整定义段",
+      "supports": "正午日影落在圭的刻度上，影长测节气历法；品牌中文非古籍成句。",
+      "access_method": "web首次打开/重取超时；系统curl成功，主控实际读定义段。"
+    },
+    {
+      "candidate_id": "CT-C04",
+      "url": "https://www.bretthall.org/david-deutsch-interview-in-german.html",
+      "access": "body",
+      "scope": "English transcript141–180，原德语访谈译者整理",
+      "supports": "可错的知识、解决问题后仍有问题；哲学观点非定理，中文品牌创作不是摘句。",
+      "web_ref": "turn1051view1"
+    },
+    {
+      "candidate_id": "CT-C07",
+      "url": "https://natureofcode.com/autonomous-agents/",
+      "access": "body",
+      "scope": "Forces from Within39–51、Vehicles and Steering88–110",
+      "supports": "内部目标和当前状态经动作选择与steering产生行为，不宣称主观意识。",
+      "web_ref": "turn1086view1"
+    },
+    {
+      "candidate_id": "CT-C08",
+      "url": "https://arxiv.org/abs/2201.11903",
+      "access": "body",
+      "scope": "abstract16–17",
+      "supports": "中间推理步骤在所测任务改进表现，非多思考永远更准或持续学习证据。",
+      "web_ref": "turn1085view1"
+    },
+    {
+      "candidate_id": "CT-C05",
+      "url": "https://omronfs.omron.com/zh_CN/ecb/products/pdf/Y234-CN5-02.pdf",
+      "access": "body",
+      "scope": "印刷50–51页输出码表，工具text2994–3150",
+      "supports": "拨码器件输出十进制/二转十与十六编码，非学习算法。",
+      "web_ref": "turn1119view1"
+    },
+    {
+      "candidate_id": "CT-C10",
+      "url": "https://sicp.sourceacademy.org/chapters/2.4.1.html",
+      "access": "body",
+      "scope": "264–269",
+      "supports": "同一复数直角/极坐标表示对应加减/乘除便利不同。",
+      "web_ref": "turn1217view0"
+    },
+    {
+      "candidate_id": "CT-C12",
+      "url": "https://natureofcode.com/cellular-automata/",
+      "access": "body",
+      "scope": "665–711",
+      "supports": "生命游戏固定局部规则和格子开关产生表观运动，不学习或自移动。",
+      "web_ref": "turn1224view0"
+    },
+    {
+      "candidate_id": "CT-C13",
+      "url": "https://developer.apple.com/tutorials/data/documentation/uikit/handling-long-press-gestures.json",
+      "access": "body",
+      "scope": "Apple公开JSON abstract/overview/continuous gestures",
+      "supports": "长按触发靠持续时间而非力，支持上下文操作；状态变化说明可读。",
+      "access_method": "web不可达，系统curl成功解析实际正文。"
+    },
+    {
+      "candidate_id": "CT-C14",
+      "url": "https://support.yealink.com/docs/faq/audio/19e721a121a34ef69d0c83d75ed678ae",
+      "access": "body",
+      "scope": "16–20及重复71–74",
+      "supports": "自身声音监听帮助自然音量，通路可调关，不是反射回声和模型更新。",
+      "web_ref": "turn1245view3"
+    },
+    {
+      "candidate_id": "CT-C16",
+      "url": "https://zh.wikisource.org/wiki/莊子/養生主",
+      "access": "body",
+      "scope": "117–121全篇，重点末段火传语境",
+      "supports": "火传的文化意象，递火为新品牌表达非原文二字，不当物理定理。",
+      "web_ref": "turn1245view1"
+    },
+    {
+      "candidate_id": "CT-C18",
+      "url": "https://science.nasa.gov/universe/stories/quick-reads/how-gravity-warps-light/",
+      "access": "body",
+      "scope": "272–289",
+      "supports": "质量使时空弯曲改变光路与可见性，不是超光速。",
+      "web_ref": "turn1224view1"
+    },
+    {
+      "candidate_id": "CT-C19",
+      "url": "https://arxiv.org/pdf/2006.11239",
+      "access": "body",
+      "scope": "前两页尤其Background55–76",
+      "supports": "学到的反向链从高斯分布开始生成，seed概念和噪声区分另作常识/文档支持。",
+      "web_ref": "turn1224view2"
+    },
+    {
+      "candidate_id": "CT-C21",
+      "url": "https://oceanservice.noaa.gov/facts/marinesnow.html",
+      "access": "body",
+      "scope": "NOAA事实全文0–7",
+      "supports": "下沉有机碎屑包括残体排泄物，多途中被利用，部分到海底；不是冰雪或学习算法。",
+      "web_ref": "turn1217view2"
+    },
+    {
+      "candidate_id": "CT-C23",
+      "url": "https://www.cdstm.cn/museum/zphc/hxzg2017x/art/2017/art_122662c0f9fb4c0cbbbc3be12c030406.html",
+      "access": "body",
+      "scope": "展品定义23",
+      "supports": "鱼形铁片热处理水浮定向；不采纳最早发明优先权，不说活鱼磁感。",
+      "web_ref": "turn1245view2"
+    },
+    {
+      "candidate_id": "CT-C25",
+      "url": "https://www.tobii.com/resource-center/learn-articles/types-of-eye-movements",
+      "access": "body",
+      "scope": "L45–75",
+      "supports": "固视允许精细摄取，扫视把场景区带到中央凹，可有意或无意；抬眼是品牌动作不是实验术语。"
+    },
+    {
+      "candidate_id": "CT-C28",
+      "url": "https://www.visitbeijing.com.cn/article/47QloB45oRt",
+      "access": "body_curl",
+      "scope": "鸽哨制作技艺与末段，实际完整正文",
+      "supports": "竹/葫芦器具，受风角度不同而哨音变化；不复述军事起源或最早年代。"
+    },
+    {
+      "candidate_id": "CT-C29",
+      "url": "https://arxiv.org/abs/2304.03442",
+      "access": "body_abstract",
+      "scope": "abstract L16–20",
+      "supports": "记忆、反思和计划支撑模拟角色行为，不证明意识。"
+    },
+    {
+      "candidate_id": "CT-C30",
+      "url": "https://sicp.sourceacademy.org/chapters/4.2.1.html",
+      "access": "body",
+      "scope": "L264–277",
+      "supports": "按需要延迟参数求值；不能等同任何策略都省资源。"
+    },
+    {
+      "candidate_id": "CT-C31",
+      "url": "https://arxiv.org/html/1808.04355v1",
+      "access": "body",
+      "scope": "abstract L49–60、§5 L209–216",
+      "supports": "预测误差好奇奖励可能被随机电视吸引，命名有界是研究态度非该算法给出数学界。"
+    },
+    {
+      "candidate_id": "CT-C32",
+      "url": "https://arxiv.org/abs/1912.01603",
+      "access": "body_abstract",
+      "scope": "abstract L16–17",
+      "supports": "Dreamer在学得世界模型的潜在想象轨迹中学习行为；不证明现实部署安全。"
+    },
+    {
+      "candidate_id": "CT-C26",
+      "url": "https://web.mit.edu/broder/Public/6.042-lecture-notes/lecture-notes.pdf",
+      "access": "body_curl_PyMuPDF",
+      "scope": "PDF page17/zero-based16",
+      "supports": "全称断言中一个例外足以否定；实际页面Goldbach实例说明。不能把一次统计模型错误泛化成全部机制无效。"
+    }
+  ],
+  "usage_evidence_review": [
+    {
+      "candidate_id": "CT-C04",
+      "url": "https://sophia.forth.ink/zh-hans/",
+      "access": "body",
+      "scope": "顶栏及互动读物定义0–23",
+      "supports": "完全同名上线互动哲学数字内容产品，非仅文章句子；不称同名AI公司/已注册商标。",
+      "web_ref": "turn1066view0"
+    },
+    {
+      "candidate_id": "CT-E25",
+      "url": "https://github.com/XGudron/UA3REO-DDC-Transceiver/",
+      "access": "primary_repository_body_read",
+      "scope": "README actual product Transceiver Wolf L176; functional button MONI L293; self-hear setting section",
+      "supports": "已有词形实际作为收发机自监听参数，不是独立公司/软件/模型名；A3未将其包装成世界首次造词。"
+    }
+  ],
+  "english_additional_source_review": [
+    {
+      "english_id": "CT-E34",
+      "url": "https://sicp.sourceacademy.org/chapters/4.2.2.html",
+      "access": "body",
+      "scope": "L311–314 memoized thunks、L381脚注3",
+      "supports": "call-by-need为惰性求值结合记忆化，非任意懒求值的同义词；额外储备也保留准确范围。"
+    }
+  ]
+}

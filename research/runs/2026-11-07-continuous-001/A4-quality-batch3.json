@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-07T20:56:58.275830+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E03",
+      "chinese_id": "C1-C01",
+      "english": "Either End",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "either和end两个常用词，可自然组成短称呼。",
+          "counter_association": "either有两种常见元音读法，中文使用者还需正常th发音。"
+        },
+        "spelling": {
+          "reason": "两个完整普通词，没有避重改字母。",
+          "counter_association": "EitherEnd连写与Either End分写须由A3独查。"
+        },
+        "grounding": {
+          "reason": "任一端起算的画面来自同一关系可由不同已知量求解。",
+          "counter_association": "这是品牌短语，不是原文正式算法名。"
+        },
+        "bilingual_relation": {
+          "reason": "中文推知动作与英文可交换的已知端共享同一关系网。",
+          "counter_association": "英文突出位置而非推导全程，需共同故事承接。"
+        },
+        "distinctiveness": {
+          "reason": "短语有能复述的网络端点画面，可成为机构称呼。",
+          "counter_association": "普通词组辨识度中等，也有连接器/双头工具联想。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；等待主控先读无分预览独评，再读本档并授权原A3。"
+    }
+  ]
+}

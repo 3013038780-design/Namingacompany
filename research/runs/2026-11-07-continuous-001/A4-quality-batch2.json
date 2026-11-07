@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-07T20:52:08.945704+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E02",
+      "chinese_id": "C1-C06",
+      "english": "Spare Signal",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个普通词，三音节可按正常英语直接叫出。",
+          "counter_association": "spare开头辅音及地域读音对部分使用者有成本。"
+        },
+        "spelling": {
+          "reason": "完整单词，易拼写，没有为了避重改字母。",
+          "counter_association": "可能被连写为SpareSignal，需A3另查。"
+        },
+        "grounding": {
+          "reason": "额外可用信息与编码冗余恢复的关系有讲义支持。",
+          "counter_association": "signal是品牌拟物，不是讲义算法名或闲置频道。"
+        },
+        "bilingual_relation": {
+          "reason": "余量的工程宽称呼和额外信息的具体画面承接同一恢复作用。",
+          "counter_association": "英文比中文偏通信，但不承诺多就是强。"
+        },
+        "distinctiveness": {
+          "reason": "两个普通词形成可想象对象，能作为工程研究机构称呼。",
+          "counter_association": "通用短语独立性中等，通信/音频首联想明显。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；等待主控先读无分预览独评，再读本档并授权原A3。"
+    }
+  ]
+}

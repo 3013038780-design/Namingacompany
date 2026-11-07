@@ -1,0 +1,170 @@
+{
+  "reviewed_at": "2026-11-07T18:31:19.125509+08:00",
+  "independence": "Read producer preview batch6 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C21",
+      "name": "海底雪",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "三熟字完整自然景象",
+          "counter_association": "像科普或文旅"
+        },
+        "distinctiveness": {
+          "reason": "海底也有雪的反差鲜明",
+          "counter_association": "海底捞近似前缀需查"
+        },
+        "lab_fit": {
+          "reason": "未知深世界与系统联系可承载研究",
+          "counter_association": "需研究语境避免海洋公司"
+        },
+        "grounding": {
+          "reason": "NOAA颗粒沉降事实明确",
+          "counter_association": "不是冰雪且包含残体"
+        },
+        "extension": {
+          "reason": "可讲微小片段支持新系统",
+          "counter_association": "不等于经验学习"
+        },
+        "semantic_coherence": {
+          "reason": "景象和物质运输同一过程",
+          "counter_association": "不能只浪漫化原物质"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "CT-C22",
+      "name": "一点缺陷",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "四字口语完整",
+          "counter_association": "像自嘲或质检栏目"
+        },
+        "distinctiveness": {
+          "reason": "受控缺陷的反差易记",
+          "counter_association": "负面质量意味突出"
+        },
+        "lab_fit": {
+          "reason": "字面首先传递产品缺陷而非能力机构",
+          "counter_association": "不读说明难信任技术机构"
+        },
+        "grounding": {
+          "reason": "NV功能中心源真实",
+          "counter_association": "并非凡缺陷有益"
+        },
+        "extension": {
+          "reason": "需强解释才能扭转质量印象",
+          "counter_association": "科学故事不能抵消品牌弱项"
+        },
+        "semantic_coherence": {
+          "reason": "局部差异到功能同核",
+          "counter_association": "不鼓励软件缺陷"
+        }
+      },
+      "decision": "quality_reject"
+    },
+    {
+      "candidate_id": "CT-C23",
+      "name": "指南鱼",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "现存三字物件称呼好叫",
+          "counter_association": "像导航儿童知识"
+        },
+        "distinctiveness": {
+          "reason": "亲近鱼形与定向功能反差",
+          "counter_association": "指南司南近似需查"
+        },
+        "lab_fit": {
+          "reason": "知识工具可作为能力辅助研究角色",
+          "counter_association": "不用可爱掩盖定位"
+        },
+        "grounding": {
+          "reason": "中国展品说明支持材料处理定向",
+          "counter_association": "鱼是器物不是活鱼磁感应"
+        },
+        "extension": {
+          "reason": "感知与行动参考可延展",
+          "counter_association": "工具非通用智能"
+        },
+        "semantic_coherence": {
+          "reason": "形态物理处理方向同核",
+          "counter_association": "不是古代自学习"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "CT-C24",
+      "name": "云形尺",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "完整工具名自然",
+          "counter_association": "像文具设计软件"
+        },
+        "distinctiveness": {
+          "reason": "与历史演算尺共享尺具称呼家族",
+          "counter_association": "不以换限定词算新尺家族"
+        },
+        "lab_fit": {
+          "reason": "辅助创造的工具角色可信",
+          "counter_association": "研究身份需要业务承接"
+        },
+        "grounding": {
+          "reason": "出版方试读的真实物件",
+          "counter_association": "不是任意弯折蛇形尺"
+        },
+        "extension": {
+          "reason": "可从表达工具展开",
+          "counter_association": "测量精度不在源范围"
+        },
+        "semantic_coherence": {
+          "reason": "云形与曲线描绘真实共存",
+          "counter_association": "科学不同机制不消除名称意象重复"
+        }
+      },
+      "decision": "quality_reject"
+    }
+  ]
+}

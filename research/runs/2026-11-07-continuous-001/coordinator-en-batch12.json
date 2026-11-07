@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T21:34:04.972239+08:00",
+  "independence": "Read producer preview batch12 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C13",
+      "name": "Linkroam",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个普通单音节接合可读",
+          "counter_association": "link末k接r首次要说清"
+        },
+        "spelling": {
+          "reason": "两个完整语素保留拼法",
+          "counter_association": "roam/ROM/rome近音"
+        },
+        "grounding": {
+          "reason": "链接与移动来自同一知识导航过程",
+          "counter_association": "不是NLS正式术语"
+        },
+        "bilingual_relation": {
+          "reason": "不按线性阅读与选择路径关系相接",
+          "counter_association": "roam也可能无目的闲逛"
+        },
+        "distinctiveness": {
+          "reason": "完整合成可作独立称呼",
+          "counter_association": "第一像通信漫游或路由工具"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E12"
+    }
+  ]
+}

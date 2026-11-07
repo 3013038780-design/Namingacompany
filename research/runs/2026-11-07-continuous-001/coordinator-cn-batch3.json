@@ -1,0 +1,88 @@
+{
+  "reviewed_at": "2026-11-07T21:04:43.070908+08:00",
+  "independence": "Read producer preview batch3 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C11",
+      "name": "回车以后",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "完整动作时间短语",
+          "counter_association": "像专栏播客"
+        },
+        "distinctiveness": {
+          "reason": "计算机日常画面明确",
+          "counter_association": "四字较长"
+        },
+        "lab_fit": {
+          "reason": "可容纳交互后研究身份",
+          "counter_association": "AI身份仍需研究建立"
+        },
+        "grounding": {
+          "reason": "解释器实有输入求值回应",
+          "counter_association": "不是书中原有中文品牌"
+        },
+        "extension": {
+          "reason": "不限定聊天或编码工具",
+          "counter_association": "不代表执行必定成功"
+        },
+        "semantic_coherence": {
+          "reason": "回车与后续交互本来相接",
+          "counter_association": "持久环境并非自主学习"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "C1-C12",
+      "name": "横风",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "现成常用风向词",
+          "counter_association": "横有蛮横联想"
+        },
+        "distinctiveness": {
+          "reason": "方向有可视画面",
+          "counter_association": "像航空户外"
+        },
+        "lab_fit": {
+          "reason": "可承载环境交互研究",
+          "counter_association": "首听未显AI"
+        },
+        "grounding": {
+          "reason": "动态滑翔有真实风切变机制",
+          "counter_association": "均匀横风不能采无限能"
+        },
+        "extension": {
+          "reason": "可扩展环境能力关系",
+          "counter_association": "与旧风家族高度接近"
+        },
+        "semantic_coherence": {
+          "reason": "动作轨迹与风场相连",
+          "counter_association": "不能只剩借风成长"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

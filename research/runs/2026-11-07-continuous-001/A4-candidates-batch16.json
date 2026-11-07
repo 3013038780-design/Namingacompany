@@ -1,0 +1,84 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-07T23:17:08.006468+08:00",
+  "inputs": [
+    {
+      "path": "README.md",
+      "sha256": "e3ac33611b2580d321a0434f7ac3a1b1da75678b1a7756ac38326d338b686257"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch8.json",
+      "sha256": "846cc81e69427062e8ad7b39a97c05520913cf25c23f728caa7bd425a6753324"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension7.json",
+      "sha256": "a839a21b7574701971769bb560d69e1cc2074b56b2336c7ce9bbf01e14352f59"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch8.json",
+      "sha256": "2c2e5e6ba6e4ddddec282e5fe5a5429cc8fca0c5e26b4801002afff188da6efc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch8.json",
+      "sha256": "8eff341cd0f3a410ce5806a1054796bccb3e2a7d700f3411a44198f42f1f0914"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch9.json",
+      "sha256": "a96a892a652654642fe4a7df0591ade4a7c936e5865429556cc62f1c2b6f60ff"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch14.json",
+      "sha256": "861edfa70b29473645a74796c4f6c844ae5dd5db83612617210d438fc9c91cd1"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch14.json",
+      "sha256": "eee1151c523c7c7edf831286ec1f32490533221840c84a113305b76f1698b613"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch15.json",
+      "sha256": "3c21d71f7a278bd278d595400c039e9617b2f705ccffc75e0003daae506eb16a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch15.json",
+      "sha256": "069c869d638135281888267320e9a184a05506e1b13016779622464772d95d46"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E16",
+      "chinese_id": "C1-C19",
+      "chinese": "分身有别",
+      "english": "Kinstate",
+      "suggested_pronunciation": "KIN-state，/ˈkɪn.steɪt/，两个音节；kin末尾为/n/。",
+      "type": "两个完整有据英语词形成的品牌新合成",
+      "formation": "kin（同源亲属、相关联者）+ state（状态）。合起来是“有共同来处的状态”。将fork文档中的parent/child关系与分别持有的内存状态放到同一幅画面里；不把kin误说成小称后缀-kin，也不宣称Kinstate是原文技术名或词典独立词条。",
+      "bilingual_relation": "中文分身共享起点但可以各自修改；英文将这些状态视作彼此相关、又不必是同一份状态的成员。重点从行为命令移到关系与状态：有共同来处，不意味着后续修改必须保持一致。英文单独没有把全部私有写入条件说完，以中文和真实工程关系承接。",
+      "meaning": "同源，不必始终同样。起点可以相同，各自的修改仍有边界。品牌可以容纳AI系统中共享初始条件、不同主体状态与经验差异的研究。",
+      "shortcoming": "kin有亲属/族谱的第一联想，state也可能让人想到国家或政体，因此可能偏社会、身份或关系数据品牌。首次需说明是kin+state，并清晰区分/n/与可能听到的Kingstate的/ng/；近音近形风险必须让A3独立检查，不能以构词真实消除。它没有直接表达每次修改的隔离条件，不能只靠“同源”把各自变化说成已写进英文的完整语义。",
+      "boundary": "亲属关系是对工程parent/child共源的品牌拟物，不声称进程有生物亲缘或主观人格；内存状态的独立变化不等于全部外部资源隔离。原只读页可继续共享，文件描述符可共享open file description。不是自动学习、自我复制或能力增长定理。本角色未核完整新名和近形商业使用。",
+      "source_urls": [
+        "https://pdos.csail.mit.edu/6.1810/2024/labs/cow.html",
+        "https://man7.org/linux/man-pages/man2/fork.2.html",
+        "https://www.merriam-webster.com/dictionary/kin"
+      ],
+      "read_scope": "本人前两稿实读MIT COW 8–16与44–56行、Linux fork(2) 25–42、99–122和194–199行；本次实读已落盘A3-en-batch15的模型/软件使用证据与边界，新增实际打开Merriam-Webster kin词条31–72行，核共同来处的亲属/相关义，区分其后-kin小称后缀。未重跑fork实验、未重做使用查询。",
+      "family_id": "C1-BF-shared-start-private-changes",
+      "status": "english_quality_proposal_not_usage_screened",
+      "rework_attempt": 2,
+      "remaining_reworks": 0
+    }
+  ],
+  "usage_screening_performed": false,
+  "rework": {
+    "attempt": 2,
+    "remaining_after_this": 0,
+    "previous_english_id": "C1-E15",
+    "reason": "原A3六实际查询确证BranchWise机器学习模型及Branchwise独立软件等同核心使用；本案回到共源成员与各自状态关系，不改旧字母/大小写/后缀。",
+    "not_new_chinese_family": true
+  }
+}

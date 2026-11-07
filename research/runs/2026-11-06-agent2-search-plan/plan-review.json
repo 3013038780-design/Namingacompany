@@ -1,0 +1,69 @@
+{
+  "status": "accepted",
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-06T17:26:09+08:00",
+  "plan_version": "v2",
+  "plan_ref": {
+    "path": "search-plan.json",
+    "sha256": "8ad37583ad25a637de0701b3c90ee1682ceb91b63eafd0139d2993c0b888813a"
+  },
+  "readable_plan_ref": {
+    "path": "search-plan.md",
+    "sha256": "c155b479f3e76cb4d542e4db64f16b8d5075e99fb112f3d1e88e01b62b251230"
+  },
+  "direction_reviews": [
+    {
+      "direction_id": "D1",
+      "status": "accepted",
+      "reason": "Cursor的操作位置、Apple的日常熟悉感和Sony的感官人格分别转为使用关系问题；Norman设计阅读与界面研究路径能检验物件如何承载动作，未强贴算法。"
+    },
+    {
+      "direction_id": "D2A",
+      "status": "accepted",
+      "reason": "Mistral的地方动势、大疆的空间边界、寒武纪的历史尺度被明确区分；地形驱动力与自然史变化问题有对应资料入口，不统一成生命力。"
+    },
+    {
+      "direction_id": "D2B",
+      "status": "accepted",
+      "reason": "v2用Sakana与Plastic明确区分整体状态和结构改变，问题、检索组和生物自组织资料同步修订；保留否定对照与旧曲流合并风险，不要求将两个机制强行合成一张卡。"
+    },
+    {
+      "direction_id": "D3A",
+      "status": "accepted",
+      "reason": "ByteDance的计算单位与动作、SiliconFlow的载体与资源角色，指导信息转换、构件边界和系统能力的具体搜索；排除旧闭包、增量编译和自举换名。"
+    },
+    {
+      "direction_id": "D3B",
+      "status": "accepted",
+      "reason": "Google的尺度、第四范式的知识方法、BioGeometry的真实跨域关系分层；要求具体实例与方法前后差异，拒绝只搜术语及序号仿制。"
+    },
+    {
+      "direction_id": "D4",
+      "status": "accepted",
+      "reason": "Alibaba的完整情节、Hume思想前史、Ndea认识路线与Oracle知识文化分开；资料覆盖中国知识史及现代文化，古文为可选支线并保留原典证据边界。"
+    },
+    {
+      "direction_id": "D5",
+      "status": "accepted",
+      "reason": "Anthropic主体位置、Imbue对他者作用、Midjourney人的处境被转为主体—工具—环境问题；Hutchins/Suchman等拟读案例与问题相接，并与S1物件分轴。"
+    },
+    {
+      "direction_id": "D6",
+      "status": "accepted",
+      "reason": "OpenAI/SSI/Unconventional的主张、约束和态度分别对应承诺与研究行为问题；明确未替团队选择开源、安全优先等价值立场，允许结果是需创始人共识。"
+    }
+  ],
+  "unknown_name_review": "S7保留未知词源，不以空白授权随意造词；构词轴和来源轴保持区分。",
+  "prior_return_ref": "reviews/v1.json",
+  "rework_ref": {
+    "path": "rework.json",
+    "sha256": "c2c691fbab59983b781f30ec4c915f99f7966617ac746306aa3d1d7bb2616da1"
+  },
+  "scope_limit": "Accepted as an actionable research plan only. User authorized delivery of plan; no material pilot, external reading campaign, candidate creation, A3/A4 or registration checks started/authorized by this acceptance.",
+  "limitations": [
+    "25处均为拟读入口，未核可访问性或章节目录；不证明后续一定能找到材料。",
+    "计划不是命名成果，也不证明相应方向最终适合本公司。",
+    "后续6–8张小批须实质审阅，发现偏差退回；不按一张卡一个名字凑数。"
+  ],
+  "execution_ref": "Current Codex coordinator read all8 tasks, compared A1 cited case fields, returned v1 to actual A2, then reviewed actual A2 v2."
+}

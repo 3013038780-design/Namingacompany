@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-08T00:13:50.343480+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E17",
+      "chinese_id": "C1-C23",
+      "english": "Live Variable",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "标准英语名词短语，常规发音，不需要解释无义字母。",
+          "counter_association": "长度和variable多音节提高口语成本，live存在动词读法干扰。"
+        },
+        "spelling": {
+          "reason": "两个完整熟悉技术词，没有人为改拼写；variable为常用科学词。",
+          "counter_association": "非技术受众可能漏写variable中间元音，需完整词拼法确认。"
+        },
+        "grounding": {
+          "reason": "真实计算定义本身已把live和variable连接，不是事后给两个词各编故事。",
+          "counter_association": "准确术语仍不自动等于好品牌，也不代表能精确预测真实未来使用。"
+        },
+        "bilingual_relation": {
+          "reason": "中文保留的活与变量关系直接来自同一英文计算对象，无借名跨题。",
+          "counter_association": "必须解释技术live，不能把中文活解释为生长意识。"
+        },
+        "distinctiveness": {
+          "reason": "名词对象可像研究品牌一样被称呼，能容纳计算研究身份。",
+          "counter_association": "普通术语泛用，像工具或课程的首印象明显，独特性仅达最低接受，尚须A3查实际主体。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑自评，主控先读无分预览独评。术语准确性不作品牌或注册背书。"
+    }
+  ]
+}

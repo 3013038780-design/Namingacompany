@@ -1,0 +1,84 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T16:37:40+08:00",
+  "reviews": [
+    {
+      "candidate_id": "LD-E01",
+      "chinese_id": "LD-C01",
+      "english": "Inscade",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两音节，末尾scade沿用cascade的熟悉读法。",
+          "counter_association": "可能首音听成en。"
+        },
+        "spelling": {
+          "reason": "七字母，in与scade可口述分段。",
+          "counter_association": "初见者需确认In而非En。"
+        },
+        "formation": {
+          "reason": "同一科学短语内部压缩，有可追溯构词过程。",
+          "counter_association": "省略使inverse不再透明，不能冒充词典词。"
+        },
+        "bilingual_relation": {
+          "reason": "中文完整术语与英文短语缩形共享同一现象。",
+          "counter_association": "英文单独看不交代大小尺度方向。"
+        },
+        "distinctiveness": {
+          "reason": "整体有简洁研究品牌称呼感，超出功能描述。",
+          "counter_association": "与其他-scade名字可能有声音相近。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，不是用户喜好或市场验证；仍待主控独评与A3英文使用筛查。"
+    },
+    {
+      "candidate_id": "LD-E02",
+      "chinese_id": "LD-C02",
+      "english": "Negaflux",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "formation": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "三音节，nega与flux均易分节。",
+          "counter_association": "部分读者会把首元音拉长。"
+        },
+        "spelling": {
+          "reason": "八字母，nega加flux结构可稳定说明。",
+          "counter_association": "flux的x仍可能初次被听作ks。"
+        },
+        "formation": {
+          "reason": "直接压缩一个真实物理关系，标明省略entropy而未伪造词源。",
+          "counter_association": "名称本身并非科学标准术语。"
+        },
+        "bilingual_relation": {
+          "reason": "负向通量与完整中文共享机制骨架，释义可诚实补齐entropy。",
+          "counter_association": "英文未显写熵，不能逐字等同中文。"
+        },
+        "distinctiveness": {
+          "reason": "整体简短有计算/物理研究感，容纳长期实验室身份。",
+          "counter_association": "negative联想可能削弱情绪吸引力。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，不是用户喜好或市场验证；仍待主控独评与A3英文使用筛查。"
+    }
+  ]
+}

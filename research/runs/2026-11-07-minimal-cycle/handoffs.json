@@ -1,0 +1,226 @@
+{
+  "handoffs": [
+    {
+      "id": "H1",
+      "from": "A1",
+      "to": "A2",
+      "status": "accepted",
+      "timestamp": "2026-11-07T16:14:48+08:00",
+      "candidate_ids": [],
+      "reason": "A1实际交付3案3机制；A2实际确认读取规范、A1及历史并接收直接创作。搜索问题为示例，技术对象路径不收窄成持续成长。",
+      "input_refs": [
+        {
+          "path": "A1.json",
+          "sha256": "6b594f16918ea37b43ef911475387f9537a91e37692f41a885204da172119a55"
+        },
+        {
+          "path": "inputs/workflow-readme.md",
+          "sha256": "cd8b811fb3e013630b4d77445a987caf9f0ff5d73adfdab60322e3d4a8c24828"
+        },
+        {
+          "path": "inputs/preferences.json",
+          "sha256": "8f5eeb1278f4dfaa0d87927537caae459a7552069a5596982edafd06b44a4cd4"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A1.json",
+          "sha256": "6b594f16918ea37b43ef911475387f9537a91e37692f41a885204da172119a55"
+        },
+        {
+          "path": "A1.md",
+          "sha256": "19ed724f40007b3b1a3ca713adafb0a933942c0f544a22c2e45808cab6179890"
+        }
+      ],
+      "execution_ref": "Actual A1 final delivery and A2 acceptance message in this chat"
+    },
+    {
+      "id": "H2",
+      "from": "A2",
+      "to": "coordinator",
+      "status": "accepted",
+      "timestamp": "2026-11-07T16:17:35+08:00",
+      "candidate_ids": [
+        "MC-A2-01",
+        "MC-A2-02",
+        "MC-A2-03"
+      ],
+      "reason": "实际收到3个不同家族中文、出处/边界/历史和独立作者评分；主控先封存数字再解封比对。",
+      "input_refs": [
+        {
+          "path": "A1.json",
+          "sha256": "6b594f16918ea37b43ef911475387f9537a91e37692f41a885204da172119a55"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A2.json",
+          "sha256": "12ba9e69ac1d472f2d3387098af8c4f44b98edfb5c9977a3af353ef88ea795ab"
+        },
+        {
+          "path": "A2.md",
+          "sha256": "eff9090e8ebacd7e5d866a93005c78ca11d67f452e10d1b3381645f594751225"
+        },
+        {
+          "path": "A2-quality.json",
+          "sha256": "3e192307f851fbd690cfce8eb78c5ab8044bfb60598bf25de592bad8880c8791"
+        }
+      ],
+      "execution_ref": "Actual A2 delivery and root independent review files"
+    },
+    {
+      "id": "H3",
+      "from": "coordinator",
+      "to": "A3",
+      "status": "accepted",
+      "timestamp": "2026-11-07T16:17:35+08:00",
+      "candidate_ids": [
+        "MC-A2-01",
+        "MC-A2-03"
+      ],
+      "reason": "仅原语、声子双评过线，无≥2分差，交独立A3；倍频保留淘汰原因。",
+      "input_refs": [
+        {
+          "path": "A2.json",
+          "sha256": "12ba9e69ac1d472f2d3387098af8c4f44b98edfb5c9977a3af353ef88ea795ab"
+        },
+        {
+          "path": "A2-quality.json",
+          "sha256": "3e192307f851fbd690cfce8eb78c5ab8044bfb60598bf25de592bad8880c8791"
+        },
+        {
+          "path": "coordinator-cn-quality.json",
+          "sha256": "79b5907e6f4708798ba227d0203710b437400708942ba42f9981773855bd69e5"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "chinese-review.json",
+          "sha256": "bcbba11b3108eadccbfaa227ca49194650edf007d9c985648c24267b85d52e9a"
+        }
+      ],
+      "execution_ref": "Actual root submission to A3 follows in this chat"
+    },
+    {
+      "id": "H4",
+      "from": "A3",
+      "to": "A4",
+      "status": "zero_input",
+      "timestamp": "2026-11-07T16:20:43+08:00",
+      "candidate_ids": [],
+      "reason": "A3真实审核2中文：原语明确科技软件核心名使用而否决，声子证据不足暂停，通过0；实际交独立A4检查。",
+      "input_refs": [
+        {
+          "path": "chinese-review.json",
+          "sha256": "bcbba11b3108eadccbfaa227ca49194650edf007d9c985648c24267b85d52e9a"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-cn.json",
+          "sha256": "5c75c1967713f5d561cd2d9ffb0bb5dae0d4237eb90705dd318b1bf6d1262b77"
+        },
+        {
+          "path": "A3-cn.md",
+          "sha256": "2f46d0099878062e83196514328defba74d26caa6983a1cd22ec2b989a562e8a"
+        }
+      ],
+      "execution_ref": "Actual A3 Chinese final delivery and actual A4 spawn in this chat"
+    },
+    {
+      "id": "H5",
+      "from": "A4",
+      "to": "A3",
+      "status": "zero_input",
+      "timestamp": "2026-11-07T16:21:50+08:00",
+      "candidate_ids": [],
+      "reason": "独立A4实际核验A3筛查与8项上游哈希，确认无合格中文，英文0；实际交原A3做零输入复查。",
+      "input_refs": [
+        {
+          "path": "A3-cn.json",
+          "sha256": "5c75c1967713f5d561cd2d9ffb0bb5dae0d4237eb90705dd318b1bf6d1262b77"
+        },
+        {
+          "path": "chinese-review.json",
+          "sha256": "bcbba11b3108eadccbfaa227ca49194650edf007d9c985648c24267b85d52e9a"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A4.json",
+          "sha256": "734e9dcf6271c0504ef7b6e341d69e4d9e3f9cb5dfa0351b7ae8f5e95d4700ed"
+        },
+        {
+          "path": "A4.md",
+          "sha256": "09439e6dbf8057988e365a79da957362baa2dd7050ffabcb8937a22a1e1c232d"
+        }
+      ],
+      "execution_ref": "Actual A4 final delivery and followup to original /root/minimal_screening"
+    },
+    {
+      "id": "H6",
+      "from": "A3",
+      "to": "coordinator",
+      "status": "zero_input",
+      "timestamp": "2026-11-07T16:23:02+08:00",
+      "candidate_ids": [],
+      "reason": "原A3实际读取A4、核对哈希与无遗漏，确认英文输入/查询/通过均0。",
+      "input_refs": [
+        {
+          "path": "A4.json",
+          "sha256": "734e9dcf6271c0504ef7b6e341d69e4d9e3f9cb5dfa0351b7ae8f5e95d4700ed"
+        },
+        {
+          "path": "A3-cn.json",
+          "sha256": "5c75c1967713f5d561cd2d9ffb0bb5dae0d4237eb90705dd318b1bf6d1262b77"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-en.json",
+          "sha256": "62625b0035d2d87e3af169308262a740eba508e34ebeab8108a904075d3ad777"
+        },
+        {
+          "path": "A3-en.md",
+          "sha256": "24fdb9b5db3322635a2336a216d103bf80f4dee13c570deacea31b037f5f2860"
+        }
+      ],
+      "execution_ref": "Actual /root/minimal_screening English final receipt in this chat"
+    },
+    {
+      "id": "H7",
+      "from": "coordinator",
+      "to": "user",
+      "status": "zero_input",
+      "timestamp": "2026-11-07T16:23:02+08:00",
+      "candidate_ids": [],
+      "reason": "四角色实际执行，合格配对0；交付三名的来源与淘汰/暂停及未覆盖正向英文路径，不伪造成功。",
+      "input_refs": [
+        {
+          "path": "A3-en.json",
+          "sha256": "62625b0035d2d87e3af169308262a740eba508e34ebeab8108a904075d3ad777"
+        },
+        {
+          "path": "chinese-review.json",
+          "sha256": "bcbba11b3108eadccbfaa227ca49194650edf007d9c985648c24267b85d52e9a"
+        },
+        {
+          "path": "A3-cn.json",
+          "sha256": "5c75c1967713f5d561cd2d9ffb0bb5dae0d4237eb90705dd318b1bf6d1262b77"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "results.json",
+          "sha256": "cc7fb463899e78fac633fd07f1a598c824512a0786f08d911fd40624ba74f7d5"
+        },
+        {
+          "path": "README.md",
+          "sha256": "dd3054f3d17d9183d946804cfcd95c8770e02d96ac2c53889342302350531df9"
+        }
+      ],
+      "execution_ref": "Root actual final review and report for current user-requested minimum cycle"
+    }
+  ],
+  "pending": []
+}

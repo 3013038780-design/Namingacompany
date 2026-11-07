@@ -1,0 +1,84 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T18:50:12+08:00",
+  "reviews": [
+    {
+      "candidate_id": "CT-E25",
+      "chinese_id": "CT-C14",
+      "english": "Selfhear",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "self/hear两短音节，清楚可读。",
+          "counter_association": "self尾f后需保留hear的h。"
+        },
+        "spelling": {
+          "reason": "完整前缀及动词，无怪字母。",
+          "counter_association": "须查Self Hear与Self-hear。"
+        },
+        "formation": {
+          "reason": "正常反身前缀与听觉动作有明确语义。",
+          "counter_association": "是品牌新词，不替代普通句子hear oneself。"
+        },
+        "bilingual_relation": {
+          "reason": "监听通路与自身输出的感知作用相接。",
+          "counter_association": "英文更宽，不只音频硬件。"
+        },
+        "distinctiveness": {
+          "reason": "短而可叫，容纳自监听/调节研究。",
+          "counter_association": "可能先像听觉或个人工具。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3。"
+    },
+    {
+      "candidate_id": "CT-E26",
+      "chinese_id": "CT-C25",
+      "english": "Gaze Anew",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个正常词，三个音节自然顺读。",
+          "counter_association": "anew的重音在new。"
+        },
+        "spelling": {
+          "reason": "词形正常，不变造。",
+          "counter_association": "首次听写可能误分a new。"
+        },
+        "formation": {
+          "reason": "重新注视的完整动作，语义直接。",
+          "counter_association": "非眼动标准术语。"
+        },
+        "bilingual_relation": {
+          "reason": "举目与重新选择注视共享主动获取信息。",
+          "counter_association": "不逐字保留raise。"
+        },
+        "distinctiveness": {
+          "reason": "可作为感知/认知研究称呼。",
+          "counter_association": "可能像摄影/眼镜品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3。"
+    }
+  ]
+}

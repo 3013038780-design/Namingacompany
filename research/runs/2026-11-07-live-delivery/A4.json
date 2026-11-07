@@ -1,0 +1,114 @@
+{
+  "agent_id": "/root/live_a4",
+  "role": "A4",
+  "recorded_at": "2026-11-07T16:43:28+08:00",
+  "status": "proposals_submitted_waiting_remaining_screening",
+  "chinese_inputs": 5,
+  "english_proposals": 9,
+  "rework_counts": {
+    "LD-C01": 2,
+    "LD-C02": 2,
+    "LD-C05": 0,
+    "LD-C07": 0,
+    "LD-C08": 0
+  },
+  "actual_inputs_read": [
+    "README.md",
+    "AGENTS.md",
+    "research/preferences.json",
+    "research/runs/2026-11-07-live-delivery/A1.md",
+    "research/runs/2026-11-07-live-delivery/A2-preview.md",
+    "research/runs/2026-11-07-live-delivery/A2-preview-batch2.md",
+    "research/runs/2026-11-07-live-delivery/A3-en-batch1.md",
+    "research/runs/2026-11-07-live-delivery/A3-en-batch2.md",
+    "research/runs/2026-11-07-live-delivery/A3-en-batch3.md"
+  ],
+  "historical_english_scan": "13历史英文提案从research/runs/*.json字段扫描，未复用",
+  "source_access": {
+    "body_opened": [
+      "https://arxiv.org/abs/1710.09250 摘要L16–18"
+    ],
+    "failed_access": [
+      "https://struchem.nankai.edu.cn/phychem/10/10-10.pdf timeout",
+      "https://research.aston.ac.uk/en/publications/vector-soliton-rain/ timeout",
+      "https://evo.fugue.run/tutorials/island-model.html inaccessible"
+    ],
+    "inheritance": "其余原理依A2正文/主控核验，未冒称A4重读或通读原论文"
+  },
+  "usage_screening_performed_by_A4": false,
+  "candidates": [
+    {
+      "id": "LD-E01",
+      "chinese_id": "LD-C01",
+      "chinese": "逆级联",
+      "english": "Inscade",
+      "status": "alternative_chosen",
+      "reason": "A3：同名学校为跨行业历史线索；INScade Simulator未确认独立软件。主控主动换案，不称科技确定占用。"
+    },
+    {
+      "id": "LD-E02",
+      "chinese_id": "LD-C02",
+      "chinese": "负熵流",
+      "english": "Negaflux",
+      "status": "alternative_chosen",
+      "reason": "A3：历史设备广告及跨行业创作/商标线索；主控主动换案，不称在营AI确定占用。"
+    },
+    {
+      "id": "LD-E03",
+      "chinese_id": "LD-C01",
+      "chinese": "逆级联",
+      "english": "Invercade",
+      "status": "alternative_chosen",
+      "reason": "A3：西班牙INVERCADE GESTION SL官方历史金融税务咨询登记，跨行业；主控主动换案。"
+    },
+    {
+      "id": "LD-E04",
+      "chinese_id": "LD-C02",
+      "chinese": "负熵流",
+      "english": "Negentia",
+      "status": "reject_exact_tech_use",
+      "reason": "A3：Negentia官网明确同名AI银行/气候风险基础设施，依据实际使用否决，不宣称完成登记。"
+    },
+    {
+      "id": "LD-E05",
+      "chinese_id": "LD-C08",
+      "chinese": "孤子雨",
+      "english": "Solirain",
+      "status": "pass_public_use_precheck",
+      "reason": "A3-en-batch3：6查询未见同名科技/AI公司、模型、软件；个人用户名与孤立商品词披露。"
+    },
+    {
+      "id": "LD-E06",
+      "chinese_id": "LD-C05",
+      "chinese": "比特群岛",
+      "english": "Bipelago",
+      "status": "pass_public_use_precheck",
+      "reason": "A3-en-batch3：6查询未见Bipelago整体同名科技/AI公司、模型、软件。"
+    },
+    {
+      "id": "LD-E07",
+      "chinese_id": "LD-C07",
+      "chinese": "代码生境",
+      "english": "Codabitat",
+      "status": "submitted_to_coordinator",
+      "reason": "已交主控质量评审及A3，当前A4汇总未读取其筛查最终结果。"
+    },
+    {
+      "id": "LD-E08",
+      "chinese_id": "LD-C01",
+      "chinese": "逆级联",
+      "english": "Nijila",
+      "status": "submitted_to_coordinator",
+      "reason": "逆级联第2次及最后允许英文返工；待A3结论，当前不计双语通过。"
+    },
+    {
+      "id": "LD-E09",
+      "chinese_id": "LD-C02",
+      "chinese": "负熵流",
+      "english": "Fushali",
+      "status": "submitted_to_coordinator",
+      "reason": "负熵流第2次及最后允许英文返工；待A3结论，当前不计双语通过。"
+    }
+  ],
+  "note": "英文创作与自评属于A4；质量复评属于主控；公开使用筛查结论只继承同一A3的明确结果；最终交付须主控再验。"
+}

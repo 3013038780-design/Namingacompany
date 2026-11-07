@@ -1,0 +1,156 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T18:55:01.579983+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-preview-batch14.md",
+      "sha256": "ab8ae83790626e9ef752f4691f42199eef28c479cc050e9c15df2f8625bab53e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-en-batch14.json",
+      "sha256": "29138dc2ae1058aac03416dcfe0cb73ca496b6264fc041fdd42c00b847207f25"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-quality-batch14.json",
+      "sha256": "cf039f8c3c46a47362e26c90184d7c9446e700984d55126e5a81b263c93b575d"
+    }
+  ],
+  "query_count": 10,
+  "results": [
+    {
+      "candidate_id": "CT-E25",
+      "chinese_candidate_id": "CT-C14",
+      "chinese": "侧音",
+      "name": "Selfhear",
+      "decision": "public_use_screen_pass",
+      "reason": "未见独立同名公司、模型或软件。Wolf收发机的SelfHear是自监听设置/功能名，非独立产品品牌；故披露技术词形实际使用但不自动否决。",
+      "query_logs": [
+        {
+          "query": "\"Selfhear\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见独立同名公司、模型或软件。Wolf收发机的SelfHear是自监听设置/功能名，非独立产品品牌；故披露技术词形实际使用但不自动否决。"
+        },
+        {
+          "query": "\"Selfhear\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "未见独立同名公司、模型或软件。Wolf收发机的SelfHear是自监听设置/功能名，非独立产品品牌；故披露技术词形实际使用但不自动否决。"
+        },
+        {
+          "query": "\"Selfhear\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "未见独立同名公司、模型或软件。Wolf收发机的SelfHear是自监听设置/功能名，非独立产品品牌；故披露技术词形实际使用但不自动否决。"
+        },
+        {
+          "query": "\"Selfhear\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "未见独立同名公司、模型或软件。Wolf收发机的SelfHear是自监听设置/功能名，非独立产品品牌；故披露技术词形实际使用但不自动否决。"
+        },
+        {
+          "query": "\"Self Hear\" company software",
+          "executed_on": "2026-11-07",
+          "summary": "未见独立同名公司、模型或软件。Wolf收发机的SelfHear是自监听设置/功能名，非独立产品品牌；故披露技术词形实际使用但不自动否决。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://github.com/XGudron/UA3REO-DDC-Transceiver/",
+          "access": "primary_repository_body_read",
+          "finding": "项目名Transceiver Wolf；TX Settings列SelfHear CW/VOICE/DIGI等参数，功能标签非独立品牌；同时说明该构词不是本轮世界首次出现。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Selfhear",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    },
+    {
+      "candidate_id": "CT-E26",
+      "chinese_candidate_id": "CT-C25",
+      "chinese": "抬眼",
+      "name": "Gaze Anew",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名科技/AI公司、模型或软件。香氛品牌LACUNA使用Gaze anew through Lacuna the Light宣传句，论文/艺术文章另有词形，不视为独立Gaze Anew品牌。",
+      "query_logs": [
+        {
+          "query": "\"Gaze Anew\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。香氛品牌LACUNA使用Gaze anew through Lacuna the Light宣传句，论文/艺术文章另有词形，不视为独立Gaze Anew品牌。"
+        },
+        {
+          "query": "\"Gaze Anew\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。香氛品牌LACUNA使用Gaze anew through Lacuna the Light宣传句，论文/艺术文章另有词形，不视为独立Gaze Anew品牌。"
+        },
+        {
+          "query": "\"Gaze Anew\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。香氛品牌LACUNA使用Gaze anew through Lacuna the Light宣传句，论文/艺术文章另有词形，不视为独立Gaze Anew品牌。"
+        },
+        {
+          "query": "\"Gaze Anew\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。香氛品牌LACUNA使用Gaze anew through Lacuna the Light宣传句，论文/艺术文章另有词形，不视为独立Gaze Anew品牌。"
+        },
+        {
+          "query": "\"GazeAnew\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。香氛品牌LACUNA使用Gaze anew through Lacuna the Light宣传句，论文/艺术文章另有词形，不视为独立Gaze Anew品牌。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://lacunashi.com/en/about-us/",
+          "access": "primary_brand_page_body_read",
+          "finding": "品牌LACUNA/LACUNASHI；Gaze anew在宣传完整句中，未作为产品名呈现。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Gaze%20Anew",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    }
+  ],
+  "passed_english_candidate_ids": [
+    "CT-E25",
+    "CT-E26"
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛不等于全球未使用、核名通过或第9/42类可注册。重复复核查询计入实际查询数。"
+}

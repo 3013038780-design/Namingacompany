@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-07T23:17:08.006468+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E16",
+      "chinese_id": "C1-C19",
+      "english": "Kinstate",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "kin与state均为完整常见音节，无生造发音，可正常叫作研究机构。",
+          "counter_association": "/nst/交界需清楚，/n/与/ng/可能造成Kingstate近听。"
+        },
+        "spelling": {
+          "reason": "两个完整标准拼法，非缩写、截词或任意字母变形。",
+          "counter_association": "首次仍可能写成Kin State或Kingstate，须告知kin+state；近形需A3审。"
+        },
+        "grounding": {
+          "reason": "parent/child共有起点与分别持有状态属于同一已读机制，kin是明确承认的关系拟物。",
+          "counter_association": "Kinstate不是技术术语，名字本身未编码完整COW私有写入条件。"
+        },
+        "bilingual_relation": {
+          "reason": "同源的主体与分别变化的状态对应中文共享起点但分身有别，主题相接而非逐字。",
+          "counter_association": "英文偏相关状态，必须借真实说明保留变化各自有界，不仅讲相似。"
+        },
+        "distinctiveness": {
+          "reason": "关系性主体加状态形成独立专名，能容纳状态与多主体研究，不是写作动作命令。",
+          "counter_association": "族谱/身份数据/政体第一联想也存在，未知查重结果不能用作独特性证据。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑自评，主控先读无分预览；A3仍须独立核完整名与近形，不声称可注册。"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-06",
+  "materials": [
+    {
+      "id": "M01",
+      "category": "生物神经",
+      "title": "经验留下连接痕迹",
+      "source_url": "https://www.nature.com/articles/nature08577",
+      "reading_scope": "原论文摘要；搜索可读，直接打开失败",
+      "fact": "小鼠学习与感官经验引发树突棘形成和消除，少部分新棘长期保留。",
+      "naming_relation": "经验不只是记录，能够改变系统结构；不能直接等同AI机制。"
+    },
+    {
+      "id": "M02",
+      "category": "材料物理",
+      "title": "退火与再结晶",
+      "source_url": "https://www.cambridge.org/core/books/abs/materials-for-engineers/annealing/27C1839F854622DD2AD1E8E942564158",
+      "reading_scope": "Materials for Engineers 第6章公开摘要；未读付费全文",
+      "fact": "退火包括回复、再结晶、晶粒长大；可能降低硬度、增加可加工性。",
+      "naming_relation": "重新组织让已有材料具备新的可塑性；不能说越炼越硬。"
+    },
+    {
+      "id": "M03",
+      "category": "计算机",
+      "title": "增量编译",
+      "source_url": "https://rustc-dev-guide.rust-lang.org/queries/incremental-compilation.html",
+      "reading_scope": "开放技术书章节正文",
+      "fact": "保存查询结果与依赖关系，下次运行复用未变结果，只重算必要部分。",
+      "naming_relation": "每一轮承接以前的工作，变化可以局部发生。"
+    },
+    {
+      "id": "M04",
+      "category": "数学",
+      "title": "不动点迭代",
+      "source_url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fixed_point.html",
+      "reading_scope": "官方函数说明正文；参考书未读",
+      "fact": "反复应用函数寻找f(x)=x，满足条件时收敛，文档也有加速方法。",
+      "naming_relation": "上一次结果回到下一次计算；不把所有迭代说成必然进步。",
+      "book_source_url": "https://greenteapress.com/thinkpython2/html/thinkpython2008.html",
+      "book_reading_scope": "Allen B. Downey, Think Python 2e, Chapter 7 Iteration，已读公开章节正文，重点7.2更新变量与7.5牛顿平方根迭代。",
+      "book_fact": "新值依赖旧值；用上一轮近似值算下一轮更好的平方根近似值，并用容差停止。"
+    },
+    {
+      "id": "M05",
+      "category": "书写文化",
+      "title": "重写本",
+      "source_url": "https://hmml.org/research/palimpsest/",
+      "reading_scope": "项目介绍正文",
+      "fact": "羊皮纸旧文字被刮擦或清洗以写新文本，旧层有时可恢复。",
+      "naming_relation": "已有载体承载新内容；要警惕擦除旧经验与持续学习目标的矛盾。"
+    },
+    {
+      "id": "M06",
+      "category": "海洋自然",
+      "title": "上升流",
+      "source_url": "https://oceanservice.noaa.gov/facts/upwelling.html",
+      "reading_scope": "官方科普全文",
+      "fact": "表层水移走，深层富营养水上涌，支持表层生产力。",
+      "naming_relation": "把深处的积累带到能够发挥作用的位置。"
+    },
+    {
+      "id": "M07",
+      "category": "现代音乐",
+      "title": "爵士即兴",
+      "source_url": "https://americanhistory.si.edu/explore/projects/smithsonian-jazz/education/what-is-jazz",
+      "reading_scope": "官网检索摘要与正文摘录；直接打开失败",
+      "fact": "即兴演奏要求技能，可在同一曲目上产生不同演奏；呼应是常见模式。",
+      "naming_relation": "已有能力在实际情境中产生新的行动，反馈也是创作的一部分。"
+    },
+    {
+      "id": "M08",
+      "category": "河流地貌",
+      "title": "曲流",
+      "source_url": "https://www.usgs.gov/educational-resources/find-feature-meander",
+      "reading_scope": "官方科普全文",
+      "fact": "河流外弯侵蚀内弯沉积，水流改变河道形态。",
+      "naming_relation": "行动改变下一次行动的路径，经验留下地形。"
+    },
+    {
+      "id": "M09",
+      "category": "中国古文",
+      "title": "劝学的积累与借物",
+      "source_url": "https://ctext.org/xunzi/quan-xue/zh",
+      "reading_scope": "检索返回完整段落，直接打开403；未称整书通读",
+      "fact": "积土成山、不积小流无以成江海；善假于物把人的既有能力延伸出去。",
+      "naming_relation": "微小累积变成新尺度；辅助系统使原有主体走得更远。"
+    },
+    {
+      "id": "M10",
+      "category": "中国工艺",
+      "title": "描漆",
+      "source_url": "https://www.dpm.org.cn/lemmas/242554.html",
+      "reading_scope": "故宫条目正文",
+      "fact": "在光素漆地上用各色漆描绘花纹；对应髹饰录描饰类。",
+      "naming_relation": "已成底材继续生成新层；不能把此条目说成读过髹饰录全文。"
+    },
+    {
+      "id": "M11",
+      "category": "生态",
+      "title": "朽木上的森林演替",
+      "source_url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.7786",
+      "reading_scope": "研究摘要及搜索可读内容",
+      "fact": "育苗木上苔藓与树苗的促进/竞争关系随腐解与演替改变。",
+      "naming_relation": "上一代形成下一代生长条件，环境参与能力形成。"
+    },
+    {
+      "id": "M12",
+      "category": "宇宙物理",
+      "title": "吸积盘",
+      "source_url": "https://science.nasa.gov/universe/black-holes/anatomy/",
+      "reading_scope": "NASA官方科普相关段落",
+      "fact": "围绕黑洞的物质形成吸积盘，物质运动与加热可产生辐射。",
+      "naming_relation": "持续输入与结构组织联系能量释放；不是所有吸积都良性。"
+    }
+  ],
+  "reading_disclosure": "已读两种开放技术书章节正文：Rust Compiler Development Guide增量编译章；Think Python 2e第7章Iteration（重点7.2、7.5）。另读Materials for Engineers第6章公开摘要；荀子公开检索段落。未通读整本书。"
+}

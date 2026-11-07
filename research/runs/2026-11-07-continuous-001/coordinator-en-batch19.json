@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-08T00:21:22.732824+08:00",
+  "independence": "Read producer preview batch19 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C23",
+      "name": "Maymatter",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "完整may和matter组成自然三音节称呼",
+          "counter_association": "may的弱承诺可能像不自信表达"
+        },
+        "spelling": {
+          "reason": "标准词素完整合写可解释",
+          "counter_association": "分写May Matter或人名Mae拼法需筛查"
+        },
+        "grounding": {
+          "reason": "may-analysis与matter动词义组成真实可能用途关系",
+          "counter_association": "这是品牌转用不是算法正式定义"
+        },
+        "bilingual_relation": {
+          "reason": "可能后续有用是保留当前值的主题理由",
+          "counter_association": "未独自编码覆盖前条件"
+        },
+        "distinctiveness": {
+          "reason": "整体有声音辨识并能承担研究态度",
+          "counter_association": "可能先像杂志咨询文创品牌"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E19"
+    }
+  ]
+}

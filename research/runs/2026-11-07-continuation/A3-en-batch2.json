@@ -1,0 +1,116 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T18:20:51.268696+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-preview-batch2.md",
+      "sha256": "376efaa497b0968cef5b8c0abb4492f7afca9cfa58ddbdb6f79525c5e17bd030"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-en-batch2.json",
+      "sha256": "252e17bc301eaaca3eb37b43d2df5701b3e816be07997e0445eb8840bcae0395"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-quality-batch2.json",
+      "sha256": "5b51967762a29afb68e8d8ef577780eae357053e163ce9f0c8d7d0da6f4a33e2"
+    }
+  ],
+  "query_count": 8,
+  "results": [
+    {
+      "candidate_id": "CT-E03",
+      "chinese_candidate_id": "CT-C03",
+      "chinese": "影子刻度",
+      "name": "Shadow Gauge",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名AI/软件公司或产品。已见同名音乐人；台湾AUTO JAW品牌为Shadow，gauge是仪表品类，存在汽车电子邻近联想，必须披露但不把单词Shadow等同完整名。",
+      "query_logs": [
+        {
+          "query": "\"Shadow Gauge\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名AI/软件公司或产品。已见同名音乐人；台湾AUTO JAW品牌为Shadow，gauge是仪表品类，存在汽车电子邻近联想，必须披露但不把单词Shadow等同完整名。"
+        },
+        {
+          "query": "\"Shadow Gauge\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名AI/软件公司或产品。已见同名音乐人；台湾AUTO JAW品牌为Shadow，gauge是仪表品类，存在汽车电子邻近联想，必须披露但不把单词Shadow等同完整名。"
+        },
+        {
+          "query": "\"Shadow Gauge\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名AI/软件公司或产品。已见同名音乐人；台湾AUTO JAW品牌为Shadow，gauge是仪表品类，存在汽车电子邻近联想，必须披露但不把单词Shadow等同完整名。"
+        },
+        {
+          "query": "\"Shadow Gauge\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名AI/软件公司或产品。已见同名音乐人；台湾AUTO JAW品牌为Shadow，gauge是仪表品类，存在汽车电子邻近联想，必须披露但不把单词Shadow等同完整名。"
+        },
+        {
+          "query": "\"ShadowGauge\" OR \"Shadow-Gauge\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名AI/软件公司或产品。已见同名音乐人；台湾AUTO JAW品牌为Shadow，gauge是仪表品类，存在汽车电子邻近联想，必须披露但不把单词Shadow等同完整名。"
+        },
+        {
+          "query": "\"Shadow Gauge\" automotive official",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名AI/软件公司或产品。已见同名音乐人；台湾AUTO JAW品牌为Shadow，gauge是仪表品类，存在汽车电子邻近联想，必须披露但不把单词Shadow等同完整名。"
+        },
+        {
+          "query": "\"Shadow Gauge\" software company AI -site:slaps.com -site:spotify.com",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名AI/软件公司或产品。已见同名音乐人；台湾AUTO JAW品牌为Shadow，gauge是仪表品类，存在汽车电子邻近联想，必须披露但不把单词Shadow等同完整名。"
+        },
+        {
+          "query": "\"Shadow\" \"gauges\" Taiwan official",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名AI/软件公司或产品。已见同名音乐人；台湾AUTO JAW品牌为Shadow，gauge是仪表品类，存在汽车电子邻近联想，必须披露但不把单词Shadow等同完整名。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://slaps.com/ShadowGauge",
+          "access": "primary_profile_body_read",
+          "finding": "同名音乐人/帐号，非科技公司或软件名称，不自动否决。"
+        },
+        {
+          "url": "https://www.shadowmotor.com.tw/en/index.html",
+          "access": "manufacturer_primary_body_read",
+          "finding": "主体AUTO JAW CO., LTD.，品牌Shadow Performance Electronics；仪表产品PRO3/FD EVO等，gauge品类。不声明完整两词无硬件联想。"
+        },
+        {
+          "url": "https://www.shadowmotor.com.tw/en/category/Performance-Electric-Racing-Gauges-Kit.html",
+          "access": "search_text_body_inaccessible",
+          "finding": "厂家品类页面索引含shadow gauge，可读正文另用官网首页；有硬件语境真实使用。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Shadow%20Gauge",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    }
+  ],
+  "passed_english_candidate_ids": [
+    "CT-E03"
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "仅公开使用初筛。实际已读正文、索引全文与失败打开分别记录；不声称官方核名或9/42商标通过。"
+}

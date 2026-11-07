@@ -1,0 +1,104 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "candidate_id": "C1-C06",
+  "chinese": "余量",
+  "paired_english": "Spare Signal",
+  "review_completed_at": "2026-11-07T21:17:37.486343+08:00",
+  "supersedes_decision_only": "A3-cn-batch2.json C1-C06 public_use_screen_pass；原文件留存不改",
+  "decision": "reject_after_use_addendum",
+  "reason": "补核发现确切同核心科技公司杭州余量科技有限公司，官方科技型企业名单正文已实际读到。此前以较长余量创投/非科技概括排除的口径不成立；实际创投标志亦不是普通句，不能仅以创投描述后缀跳过。撤回余量作为完整配对讨论推荐，英文初筛未见冲突不能救回中文。",
+  "query_count": 10,
+  "query_logs": [
+    {
+      "query": "\"余量创投\"",
+      "executed_on": "2026-11-07",
+      "scope": "指定余量创投线索及发现的余量科技实体定向补核"
+    },
+    {
+      "query": "\"余量创投\" 公司 投资",
+      "executed_on": "2026-11-07",
+      "scope": "指定余量创投线索及发现的余量科技实体定向补核"
+    },
+    {
+      "query": "\"余量创投\" \"山东跃达天下\"",
+      "executed_on": "2026-11-07",
+      "scope": "指定余量创投线索及发现的余量科技实体定向补核"
+    },
+    {
+      "query": "\"余量\" 创业投资 投资机构",
+      "executed_on": "2026-11-07",
+      "scope": "指定余量创投线索及发现的余量科技实体定向补核"
+    },
+    {
+      "query": "\"余量科技\"",
+      "executed_on": "2026-11-07",
+      "scope": "指定余量创投线索及发现的余量科技实体定向补核"
+    },
+    {
+      "query": "\"余量科技\" \"量派\"",
+      "executed_on": "2026-11-07",
+      "scope": "指定余量创投线索及发现的余量科技实体定向补核"
+    },
+    {
+      "query": "\"余量科技\" 公司 北京",
+      "executed_on": "2026-11-07",
+      "scope": "指定余量创投线索及发现的余量科技实体定向补核"
+    },
+    {
+      "query": "\"余量创投\" 品牌 官网",
+      "executed_on": "2026-11-07",
+      "scope": "指定余量创投线索及发现的余量科技实体定向补核"
+    },
+    {
+      "query": "\"杭州余量科技有限公司\" 官网",
+      "executed_on": "2026-11-07",
+      "scope": "指定余量创投线索及发现的余量科技实体定向补核"
+    },
+    {
+      "query": "\"余量创投\" \"山东跃达天下数字科技有限公司\"",
+      "executed_on": "2026-11-07",
+      "scope": "指定余量创投线索及发现的余量科技实体定向补核"
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://tm.aliyun.com/detail/0c4a_90428751_35",
+      "access": "third_party_trademark_body_read",
+      "subject": "余量创投",
+      "finding": "具体35类标志，90428751，页面申请人现显示山东跃达天下数字科技有限公司，搜索旧摘要为山东跃达天下企业管理咨询有限公司。正文状态已注册/2026-11-07，旧索引已初审；未经官方核验，不能以第三方状态作实时官方登记结论。可证是具体命名标志而非普通文本，尚未单独确证其作为活跃创投机构经营。"
+    },
+    {
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3722/site/attach/0/2186d237561241d08f0271e008c286cf.pdf",
+      "access": "official_published_pdf_downloaded_text_read",
+      "subject": "杭州余量科技有限公司",
+      "finding": "实际curl下载、PyMuPDF读PDF第121页，2024年度浙江省科技型中小企业备案名单序号5030，企业全名杭州余量科技有限公司，证书20243301003825。确切同核心科技公司官方公开证据；这是历史科技备案，不冒称本次GSXT现时工商状态查询。"
+    },
+    {
+      "url": "https://www.longquan.gov.cn/module/download/downfile.jsp?classid=0&filename=2186d237561241d08f0271e008c286cf.pdf",
+      "access": "official_page_download_url_web_unavailable",
+      "subject": "同份科技备案名单",
+      "finding": "政府站下载URL工具不可访问，改同政府云域PDF实际下载读取，不把失败当无记录。"
+    },
+    {
+      "url": "https://www.10100.com/article/38545285",
+      "access": "article_opened_partial_but_relevant_paragraph_search_index_only_curl_405",
+      "subject": "报道简称余量科技，未列明工商全名",
+      "finding": "索引第22项余量科技获量派投资战略注资，称2025-08-21互联网信息服务/软件开发及AI软件开发。初次web打开文章前段，后find无命中，curl被安全策略405阻断；相关段落仅搜索索引可核，不能称已读该段全文，也不能推定该融资主体就是杭州余量科技。融资真实性不作本次关键证据，官方科技备案已独立足以否决。"
+    }
+  ],
+  "entity_separation": "杭州余量科技有限公司由官方备案名单确认；融资报道只称余量科技，不能默认同一法人；山东跃达天下为余量创投标志申请人，不能混同前二者或凭商标直接认活跃投资机构。",
+  "core_name_judgment": "公司名杭州为地区、科技为行业、有限公司为组织形式，余量为核心字号。余量创投的创投描述业务，不能仅因四字而忽略核心余量；但实际投资机构运营未单独确证，不以此虚称同名在营公司。",
+  "registration_limits": "GSXT/CNIPA第9/42类仍本轮入口403、未逐名核验。35类第三方标志记录与官方2024科技企业备案属于不同证据类型；不宣称余量第9/42不可注册的法律结论。",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch2.json",
+      "sha256": "2166ecfaeecbb954fcdba3a9249949f914c9b7eb09f2852eb77ea4c45646788f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch2.json",
+      "sha256": "fbc7bc6f8f3c4e3ffd91d66f82ba0299bc18b2ba2461633e25898c291d1d0eb2"
+    }
+  ],
+  "next": "交主控显式撤回总库推荐；中文否决，不请求A4继续换英文。保留原Actor证据与纠错时间，不git。"
+}

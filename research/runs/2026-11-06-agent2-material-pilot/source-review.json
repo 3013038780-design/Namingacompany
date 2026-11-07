@@ -1,0 +1,118 @@
+{
+  "status": "completed_all_card_main_sources",
+  "reviewer": "/root",
+  "recorded_at": "2026-11-06T17:36:36+08:00",
+  "sources": [
+    {
+      "plan_direction_id": "D1",
+      "url": "https://jnd.org/signifiers-not-affordances/",
+      "published_at": "2008-11-17",
+      "access": "body",
+      "reading_location": "Main essay59–82, including bookmarks/scrollbars75–77",
+      "execution_ref": "turn895view0; turn926view0",
+      "supports": "Affordances concern possible actions; signifiers supply perceptible clues, including incidental platform crowds or flags.",
+      "boundary": "Author essay, not book body; clues can be unreliable, not guaranteed capability.",
+      "material_id": "P01"
+    },
+    {
+      "plan_direction_id": "D2A",
+      "url": "https://www.rmets.org/metmatters/anabatic-and-katabatic-flow-metmatters-guide-mountain-winds",
+      "published_at": "2026-05-21",
+      "access": "body",
+      "reading_location": "Mountain-flow body19–42",
+      "execution_ref": "turn895view1",
+      "supports": "Sunlit slope heating drives upslope flow; cooled dense air drains downslope; snow/ice and valley funnelling qualify the typical day/night description.",
+      "boundary": "Not recent90-day news. Natural mechanism, not model learning or automatic improvement.",
+      "material_id": "P02"
+    },
+    {
+      "plan_direction_id": "D4",
+      "url": "https://www.dha.ac.cn/info/1021/8020.htm",
+      "published_at": "2026-11-04",
+      "access": "body",
+      "reading_location": "Press-conference transcript173–191, datedheader22",
+      "execution_ref": "turn895view2; turn896view0",
+      "supports": "Speaker describes digitized collection resources, fragment joining, source rights and sharing rules.",
+      "boundary": "Hosted Gansu Fabu press-conference transcript, first-person institutional claims; not an independent algorithm performance study.",
+      "material_id": "P06"
+    },
+    {
+      "material_id": "P03",
+      "plan_direction_id": "D2B",
+      "url": "https://www.nju.edu.cn/info/1067/486181.htm",
+      "published_at": "2026-10-23",
+      "access": "body",
+      "reading_location": "University research news, body168–184",
+      "execution_ref": "turn921view0",
+      "supports": "Differential retention/loss of GRAS lineages and species-specific protein interactions underlie symbiosis-network divergence.",
+      "boundary": "University account checked; not independent original PNAS methods. Cross-species evolution differs from within-use structural adaptation."
+    },
+    {
+      "material_id": "P04",
+      "plan_direction_id": "D3A",
+      "url": "https://csapp.cs.cmu.edu/2e/ch1-preview.pdf",
+      "published_at": null,
+      "access": "body",
+      "reading_location": "Chapter1.1, printed pp2–3, Information Is Bits + Context",
+      "execution_ref": "turn912view0",
+      "supports": "The same byte sequence may represent different data objects under different valid contexts; machine numeric representations are finite.",
+      "boundary": "Author-provided 2e excerpt, not3e and not entire book. Not arbitrary interpretation or proof of AI comprehension."
+    },
+    {
+      "material_id": "P05",
+      "plan_direction_id": "D3B",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2009/10/Fourth_Paradigm.pdf",
+      "published_at": "2009",
+      "access": "body",
+      "reading_location": "VisTrails: Provenance and Data Exploration, printed pp156–157, workflow evolution tree",
+      "execution_ref": "turn912view1; turn916view0",
+      "supports": "Workflows are first-class data with captured changes; nodes represent pipelines, edges modifications, enabling comparison and return.",
+      "boundary": "One book even if multiple passages. Provenance does not establish scientific correctness or novelty versus old families."
+    },
+    {
+      "material_id": "P07",
+      "plan_direction_id": "D5",
+      "url": "https://pages.ucsd.edu/~johnson/COGS102B/Hutchins95.pdf",
+      "published_at": "1995",
+      "access": "body",
+      "reading_location": "Author manuscript: Introduction and Using the configuration change bugs; Individual pilot memory has not been enhanced passage",
+      "execution_ref": "turn919view0; turn924view1",
+      "supports": "Speed bugs replace some memorizing/reading/comparing tasks with spatial-proximity judgments in a reorganized cockpit system.",
+      "boundary": "Primary author analysis, not the planned book; does not prove individual memory enhancement or model weight learning."
+    },
+    {
+      "material_id": "P08",
+      "plan_direction_id": "D6",
+      "url": "https://arxiv.org/html/1611.08219",
+      "published_at": "2017-06-16",
+      "access": "body",
+      "reading_location": "v3 sections2–3, equation1, Theorem1 and rational-human assumption; section4 caveat",
+      "execution_ref": "turn918view0; turn924view2; turn926view1",
+      "supports": "Utility uncertainty and informative human choice can make deferral valuable in the model; strict positivity has nontrivial uncertainty and rationality conditions.",
+      "boundary": "Simplified game; not a general real-world safety guarantee, not user company mission. Main claims checked, not a complete proof audit."
+    }
+  ],
+  "scope": "Root independently opened each of8 card main sources and checked core relationships; not a claim to read all original PNAS methods, all book pages or all article proofs.",
+  "recorded_completed_at": "2026-11-06T18:02:42+08:00",
+  "audited_material_ids": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08"
+  ],
+  "audited_card_count": 8,
+  "total_card_count": 8,
+  "coverage": 1.0,
+  "excluded_source_audit": {
+    "url": "https://im.cas.cn/xwtz/kyjz/202610/t20261020_8293967.html",
+    "access": "body",
+    "published_at": "2026-10-20",
+    "reading_location": "Main body452–464",
+    "execution_ref": "turn931view0; turn933view0",
+    "conclusion": "Confirmed growth/progeny tradeoff; correctly retained as reading/exclusion, not card."
+  }
+}

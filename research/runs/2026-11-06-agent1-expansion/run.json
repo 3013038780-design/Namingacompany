@@ -1,0 +1,57 @@
+{
+  "protocol_version": "1.0",
+  "run_id": "2026-11-06-agent1-expansion",
+  "date": "2026-11-06",
+  "status": "in_progress",
+  "stage": "agent1_case_research",
+  "scope": "User explicitly authorized Agent 1 only: inventory plus 20 new case studies; stop before creation and downstream stages.",
+  "coordinator_id": "/root",
+  "roles": {
+    "A1": {
+      "agent_id": "/root/agent1_case_expansion",
+      "execution_ref": "collaboration.spawn_agent /root/agent1_case_expansion in current Codex chat",
+      "status": "completed",
+      "completion_observed_at": "2026-11-06T13:34:48+08:00",
+      "completion_receipt": "collaboration final answer from /root/agent1_case_expansion in current Codex chat"
+    }
+  },
+  "not_started": [
+    "A2",
+    "A3",
+    "A4"
+  ],
+  "new_naming_proposals": 0,
+  "schedule_created": false,
+  "workflow_compliance": "Partial stage delivery, not a complete H1–H7 naming run. No Agent 2 acceptance or handoff is claimed.",
+  "stage_status": "completed_awaiting_user_review",
+  "requested_scope_completed": true,
+  "next_gate": "User reviews Agent 1 conclusions; Agent 2 has not accepted H1.",
+  "actual_counts": {
+    "new_existing_brand_cases": 20,
+    "broad_tech": 9,
+    "current_ai": 7,
+    "adjacent_labs": 4,
+    "china_cases": 4,
+    "principles": 8,
+    "counterexamples": 4,
+    "new_naming_proposals": 0
+  },
+  "stage_deliverables": [
+    {
+      "path": "cases.json",
+      "sha256": "91f3bc04e1cfabc522a286848a5ea9cd5eb63ab87a61fe3f7ced6e51f020d0d6"
+    },
+    {
+      "path": "inventory.json",
+      "sha256": "ca4285eb00e72036dfd3412ac47be13e8da85febaf01a558d0029f17fbf237ef"
+    },
+    {
+      "path": "README.md",
+      "sha256": "83bf52cafee5e7ff82453e3fef154fa2caa711334cf71da55ca4eb8b3e76ddaa"
+    },
+    {
+      "path": "source_review.json",
+      "sha256": "be3d08faad9eb4f9ea3956d7118e2cf72d7ce9c668796ef0cc3a6d77fa709d6b"
+    }
+  ]
+}

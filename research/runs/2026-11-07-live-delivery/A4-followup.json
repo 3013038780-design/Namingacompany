@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T16:45:27+08:00",
+  "amends_without_overwriting": "A4.md/A4.json（早期9提案汇总）",
+  "current_counts": {
+    "chinese_inputs": 5,
+    "english_proposals": 10,
+    "english_rework_counts": {
+      "LD-C01": 2,
+      "LD-C02": 2,
+      "LD-C05": 0,
+      "LD-C07": 1,
+      "LD-C08": 0
+    }
+  },
+  "additional_actual_inputs": [
+    "A3-en-batch4.md",
+    "A3-en-batch5.md",
+    "主控Codabitat近似风险返工指令"
+  ],
+  "known_updates": [
+    {
+      "id": "LD-E07",
+      "english": "Codabitat",
+      "status": "held_near_match_and_reworked",
+      "evidence": "A3-en-batch4.md CODEHABITAT (OPC) PRIVATE LIMITED，同领域近似，不夸大完全同名。"
+    },
+    {
+      "id": "LD-E08",
+      "english": "Nijila",
+      "status": "pass_public_use_precheck",
+      "evidence": "A3-en-batch5.md，披露跨行业NIJILA ENTEGRATED FARM PLC目录线索，不能称全球未用。"
+    },
+    {
+      "id": "LD-E09",
+      "english": "Fushali",
+      "status": "pass_public_use_precheck",
+      "evidence": "A3-en-batch5.md，无明确同名科技/AI公司、模型、软件；个人/姓氏出现不当科技占用。"
+    },
+    {
+      "id": "LD-E10",
+      "english": "Jingora",
+      "status": "submitted_to_coordinator_not_screened",
+      "evidence": "A4-batch6.json/md，主控独评/A3待实际执行，不计通过。"
+    }
+  ],
+  "new_source_body_opened": "Pleiades agora词汇页L40–46，Getty词汇定义公共市场/会聚空间；Cambridge直接页面403仅有检索摘录。",
+  "original_proposals_preserved": true,
+  "usage_screening_performed_by_A4": false
+}

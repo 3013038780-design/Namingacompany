@@ -1,0 +1,18 @@
+{
+  "snapshots": [
+    {
+      "actor_read_path": "research/catalog/README.md",
+      "snapshot": "reserve-followthrough/inputs/catalog-before-review-README.md",
+      "sha256": "3f8b62c60700d3dd5e57910abee576a76c9b1940408f56cf014bb2f54f1c8f83",
+      "source_commit": "e8921d47c12ef574934c707b7334703f953effea",
+      "note": "原Actor实读根路径的当时字节；此为从已提交版本恢复的不可变见证，不冒称Actor当时读取本快照路径。"
+    },
+    {
+      "actor_read_path": "research/catalog/catalog.json",
+      "snapshot": "reserve-followthrough/inputs/catalog-before-review-catalog.json",
+      "sha256": "3fd56f67e9570d45b138b2b9d7ae030427880ec1d5eb1b23d5adbbc20070fe53",
+      "source_commit": "e8921d47c12ef574934c707b7334703f953effea",
+      "note": "原Actor实读根路径的当时字节；此为从已提交版本恢复的不可变见证，不冒称Actor当时读取本快照路径。"
+    }
+  ]
+}

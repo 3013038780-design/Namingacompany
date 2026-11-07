@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T21:06:20.992433+08:00",
+  "independence": "Read producer preview batch4 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C08",
+      "name": "Antspan",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "两单音节可顺接",
+          "counter_association": "ntsp辅音簇略密"
+        },
+        "spelling": {
+          "reason": "两个完整词素可辨",
+          "counter_association": "首次需介绍词素拆分"
+        },
+        "grounding": {
+          "reason": "蚂蚁组成桥跨真实同源",
+          "counter_association": "不是论文正式术语"
+        },
+        "bilingual_relation": {
+          "reason": "两语均指活体桥结构",
+          "counter_association": "英文比中文更绑定蚂蚁"
+        },
+        "distinctiveness": {
+          "reason": "单词形称呼较鲜明",
+          "counter_association": "像蚁群软件或桥梁工程"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E04"
+    }
+  ]
+}

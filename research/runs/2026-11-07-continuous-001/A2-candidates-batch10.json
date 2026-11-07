@@ -1,0 +1,83 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T00:06:19.086295+08:00",
+  "candidates": [
+    {
+      "id": "C1-C22",
+      "name": "伶伦",
+      "pinyin": "líng lún",
+      "material_id": "C1-M30",
+      "material_ids": [
+        "C1-M30"
+      ],
+      "family_id": "C1-BF-linglun-maker-of-usable-order",
+      "plan_direction_id": "C1-D-S4",
+      "case_ids": [
+        "B008",
+        "B021"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P5",
+        "C1-P6"
+      ],
+      "source_urls": [
+        "https://wwj.beijing.gov.cn/bjww/wwjzzcslm/1729028/1729042/1729044/21220548/index.html",
+        "https://www.chnmus.net/ch/collection/appraise/details.html?id=512156636602363570"
+      ],
+      "sources": [
+        {
+          "title": "大钟寺古钟博物馆/北京市文物局：季冬之月，律中大吕",
+          "url": "https://wwj.beijing.gov.cn/bjww/wwjzzcslm/1729028/1729042/1729044/21220548/index.html",
+          "published_at": "2022-01-20",
+          "reading_location": "L70–159现代馆方短文，重点L78–104十二律介绍、L149–155古籍引句；未读所引古籍全章",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body"
+        },
+        {
+          "title": "河南博物院：骨排箫（王歌扬）",
+          "url": "https://www.chnmus.net/ch/collection/appraise/details.html?id=512156636602363570",
+          "published_at": null,
+          "reading_location": "L10–18文物与演奏描述、L26–34文化解读、L69–90实物比较与测音；未逐段读全文所有历史推断或文献表所列原书",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body"
+        }
+      ],
+      "formation": "直接使用已有中国文化人物专名，既不硬造字，也不把伶解释为聪明、伦解释为伦理来拼两份好寓意。",
+      "relation_sentence": "传统故事中的制律者面对多种声音，通过制器与建立音律把它们组织成可用、可传授的秩序。",
+      "condensation_path": "不把律管、调频或音律法术语直接作公司名，保留行动的主角伶伦；像取Atlas或一个科学人物名，角色承担世界观，名字先成为自然称呼。",
+      "meaning": "借一位建立尺度的制作者，讲研究怎样让复杂事物成为可以理解和使用的东西。",
+      "crossing": "中国音律知识传统中的制作者，与当代研究机构追求建立可用方法的角色相接。借的是人物身份与实践姿态，不把传说包装成AI技术原理。",
+      "layers": [
+        "一个完整、可称呼的中国人物专名",
+        "文化叙事中制律与制器的知识角色",
+        "实验室作为把认识变成可用方法的制作者"
+      ],
+      "material_feature_retained": "保留具有身份的制作者与建立可用律制这一文化角色。",
+      "material_feature_lost": "不承接黄帝时代的真实性、听凤鸣等神异叙事或具体古代尺度数值，不把现代音律常识倒灌成古人已完成相同理论。",
+      "why_name_not_generic": "本来就有主角和行动，不是先造科学字＋美好字；也不需要把每个字解释成对团队的能力承诺。",
+      "shortcoming": "人物可能陌生；初听也可能像音乐/文创、儿童伶俐教育或一个人名。是否足以承接广义AI Lab需独立首印象评审；不能靠完整典故补分。",
+      "science_boundary": "只借文化角色。没有证据可据此宣布伶伦为可验证历史科学家、古律直接是现代标准体系或团队已能制定通用智能规律；馆方实物描述不证明传说。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "不同于开明兽的非人守门神话、圭表/指南鱼等观察方位器具、鸽哨的运动转声音；此处为建立音律基准的文化人物角色。不同于声入纹压痕重放，不能再讲一条声音存储故事。 全历史名称字段/本轮快照未见同字候选；未查询市场使用，不能据此称无人使用或可注册。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ],
+      "oral_test": [
+        "我们是伶伦，做人工智能研究。",
+        "伶伦发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened"
+    }
+  ],
+  "scope": "本包先交一项完整文化主角称呼，未查重未配英文。"
+}

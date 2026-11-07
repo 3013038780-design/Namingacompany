@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T21:29:58.435718+08:00",
+  "independence": "Read producer preview batch11 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C14",
+      "name": "Factborne",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "fact与borne两普通音节保留常规读音",
+          "counter_association": "ktb边界需清晰"
+        },
+        "spelling": {
+          "reason": "完整词素可以解释拼写",
+          "counter_association": "borne与born同音"
+        },
+        "grounding": {
+          "reason": "主张由事实承载为有边界的品牌比喻",
+          "counter_association": "承载不自动等同科学证实"
+        },
+        "bilingual_relation": {
+          "reason": "作数与事实支撑共同要求实际结果",
+          "counter_association": "非逐字等义且偏事实核查"
+        },
+        "distinctiveness": {
+          "reason": "完整新称呼有鲜明态度",
+          "counter_association": "新闻核查工具首联想明显"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E11"
+    }
+  ]
+}

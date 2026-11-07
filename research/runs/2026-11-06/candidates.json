@@ -1,0 +1,420 @@
+{
+  "date": "2026-11-06",
+  "candidates": [
+    {
+      "id": "C01",
+      "name": "留枝",
+      "pinyin": "liuzhi",
+      "family": "连接保留",
+      "material_ids": [
+        "M01"
+      ],
+      "source_urls": [
+        "https://www.nature.com/articles/nature08577"
+      ],
+      "meaning": "学习时生成的新连接，筛选后有的留下来。",
+      "combination_reason": "留住有用枝条，也把生长空间留给下一轮。",
+      "brand_story": "有生命感而不直接叫神经网络。",
+      "weakness": "可能像园艺品牌。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C02",
+      "name": "新回路",
+      "pinyin": "xinhuilu",
+      "family": "经验改造电路",
+      "material_ids": [
+        "M01"
+      ],
+      "source_urls": [
+        "https://www.nature.com/articles/nature08577"
+      ],
+      "meaning": "经验改变连接，让旧系统产生新的行动路径。",
+      "combination_reason": "日常的回路与神经连接共享路径概念。",
+      "brand_story": "既有工程画面，也容纳认知研究。",
+      "weakness": "技术词较直白，撞名风险高。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C03",
+      "name": "再成形",
+      "pinyin": "zaichengxing",
+      "family": "材料再组织",
+      "material_ids": [
+        "M02"
+      ],
+      "source_urls": [
+        "https://www.cambridge.org/core/books/abs/materials-for-engineers/annealing/27C1839F854622DD2AD1E8E942564158"
+      ],
+      "meaning": "成形之后仍能重组。",
+      "combination_reason": "把退火再结晶的结构改变抽象为二次成形。",
+      "brand_story": "出厂完成不是能力完成。",
+      "weakness": "工业感较强。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C04",
+      "name": "柔而进",
+      "pinyin": "rouerjin",
+      "family": "可塑适应",
+      "material_ids": [
+        "M02"
+      ],
+      "source_urls": [
+        "https://www.cambridge.org/core/books/abs/materials-for-engineers/annealing/27C1839F854622DD2AD1E8E942564158"
+      ],
+      "meaning": "改变自身结构而继续前进。",
+      "combination_reason": "材料的可塑性与应对新任务共享适应含义。",
+      "brand_story": "不靠僵硬固定能力面对世界。",
+      "weakness": "略像口号。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C05",
+      "name": "续编",
+      "pinyin": "xubian",
+      "family": "增量续写",
+      "material_ids": [
+        "M03"
+      ],
+      "source_urls": [
+        "https://rustc-dev-guide.rust-lang.org/queries/incremental-compilation.html"
+      ],
+      "meaning": "承接已有结果继续构建。",
+      "combination_reason": "编同时连接编译与编写，有可解释交叉。",
+      "brand_story": "让已有系统还有后续版本。",
+      "weakness": "出版行业也常用。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C06",
+      "name": "绿灯集",
+      "pinyin": "lüdengji",
+      "family": "复用判断",
+      "material_ids": [
+        "M03"
+      ],
+      "source_urls": [
+        "https://rustc-dev-guide.rust-lang.org/queries/incremental-compilation.html"
+      ],
+      "meaning": "红绿算法以绿色标记可复用结果。",
+      "combination_reason": "绿灯的日常许可画面与算法标记一致；集表示积累的判断。",
+      "brand_story": "有依据地接着走。",
+      "weakness": "绿灯容易偏交通软件。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C07",
+      "name": "回算",
+      "pinyin": "huisuan",
+      "family": "结果回送",
+      "material_ids": [
+        "M04"
+      ],
+      "source_urls": [
+        "https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fixed_point.html",
+        "https://greenteapress.com/thinkpython2/html/thinkpython2008.html"
+      ],
+      "meaning": "把上次结果带回下一次计算。",
+      "combination_reason": "回与算有直接动作关系，不靠两个抽象好词。",
+      "brand_story": "智能在反馈中更新。",
+      "weakness": "可能联想财税。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C08",
+      "name": "渐近线",
+      "pinyin": "jianjinxian",
+      "family": "数学逼近",
+      "material_ids": [
+        "M04"
+      ],
+      "source_urls": [
+        "https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fixed_point.html",
+        "https://greenteapress.com/thinkpython2/html/thinkpython2008.html"
+      ],
+      "meaning": "借迭代逼近目标的过程形成数学意象。",
+      "combination_reason": "此名是相邻数学意象，并非SciPy不动点术语本身。",
+      "brand_story": "始终趋近尚未到达的能力。",
+      "weakness": "通用数学词，须严查。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C09",
+      "name": "有后文",
+      "pinyin": "youhouwen",
+      "family": "开放续篇",
+      "material_ids": [
+        "M05"
+      ],
+      "source_urls": [
+        "https://hmml.org/research/palimpsest/"
+      ],
+      "meaning": "一个系统始终还有后续内容。",
+      "combination_reason": "将文本可再写的属性化成自然口语。",
+      "brand_story": "每次交付之后，都还有成长故事。",
+      "weakness": "文学感比科技感强。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C10",
+      "name": "底稿",
+      "pinyin": "digao",
+      "family": "可修改基础",
+      "material_ids": [
+        "M05"
+      ],
+      "source_urls": [
+        "https://hmml.org/research/palimpsest/"
+      ],
+      "meaning": "当前版本是下一轮的基础。",
+      "combination_reason": "从重写本的物质载体抽象为可持续修改的文本底稿。",
+      "brand_story": "模型不是终稿。",
+      "weakness": "通用软件名撞名风险高。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C11",
+      "name": "深水来",
+      "pinyin": "shenshuilai",
+      "family": "深处资源上涌",
+      "material_ids": [
+        "M06"
+      ],
+      "source_urls": [
+        "https://oceanservice.noaa.gov/facts/upwelling.html"
+      ],
+      "meaning": "深水中的营养进入表层支持生长。",
+      "combination_reason": "深水与来组成方向明确的行动意象。",
+      "brand_story": "把潜在积累带到能力能发挥的位置。",
+      "weakness": "不是原生名词，需验证口语接受度。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C12",
+      "name": "涌养",
+      "pinyin": "yongyang",
+      "family": "流动供养",
+      "material_ids": [
+        "M06"
+      ],
+      "source_urls": [
+        "https://oceanservice.noaa.gov/facts/upwelling.html"
+      ],
+      "meaning": "上涌带来持续供给。",
+      "combination_reason": "涌是运输过程，养是该过程的生态作用。",
+      "brand_story": "让其他智能获得继续成长的条件。",
+      "weakness": "养可能偏健康行业。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C13",
+      "name": "临场集",
+      "pinyin": "linchangji",
+      "family": "情境生成",
+      "material_ids": [
+        "M07"
+      ],
+      "source_urls": [
+        "https://americanhistory.si.edu/explore/projects/smithsonian-jazz/education/what-is-jazz"
+      ],
+      "meaning": "已有技能在现场生成新表达。",
+      "combination_reason": "临场与即兴实际关系，集使单次现场成为可积累经验。",
+      "brand_story": "能力在实际使用中继续形成。",
+      "weakness": "可能像活动机构。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C14",
+      "name": "接一拍",
+      "pinyin": "jieyipai",
+      "family": "交互呼应",
+      "material_ids": [
+        "M07"
+      ],
+      "source_urls": [
+        "https://americanhistory.si.edu/explore/projects/smithsonian-jazz/education/what-is-jazz"
+      ],
+      "meaning": "音乐中的下一拍承接上一句。",
+      "combination_reason": "呼应与节拍共享时间关系。",
+      "brand_story": "每次反馈都会被接住。",
+      "weakness": "偏产品名而非公司名。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C15",
+      "name": "行成岸",
+      "pinyin": "xingchengan",
+      "family": "行动塑造路径",
+      "material_ids": [
+        "M08"
+      ],
+      "source_urls": [
+        "https://www.usgs.gov/educational-resources/find-feature-meander"
+      ],
+      "meaning": "水流行动通过侵蚀沉积塑造河岸。",
+      "combination_reason": "行与成岸有真实地貌因果链。",
+      "brand_story": "行为在环境中留下下一次行动的条件。",
+      "weakness": "稍有古文感，实际是新造词。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C16",
+      "name": "曲处生",
+      "pinyin": "quchusheng",
+      "family": "转弯处形成新地貌",
+      "material_ids": [
+        "M08"
+      ],
+      "source_urls": [
+        "https://www.usgs.gov/educational-resources/find-feature-meander"
+      ],
+      "meaning": "曲流内弯沉积，形成沙洲等新地貌。",
+      "combination_reason": "转弯与生成有自然关系。",
+      "brand_story": "变化的地方也可以长出新能力。",
+      "weakness": "听写和寓意不够直接。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C17",
+      "name": "借长风",
+      "pinyin": "jiechangfeng",
+      "family": "借外物扩能力",
+      "material_ids": [
+        "M09"
+      ],
+      "source_urls": [
+        "https://ctext.org/xunzi/quan-xue/zh"
+      ],
+      "meaning": "借外部条件把已有能力延伸。",
+      "combination_reason": "荀子的善假于物、顺风而呼提供关系，长风是创作补入的自然意象。",
+      "brand_story": "为模型提供它独自没有的成长条件。",
+      "weakness": "古文语感强，注意不假称原句。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C18",
+      "name": "日参省",
+      "pinyin": "ricansheng",
+      "family": "持续反思",
+      "material_ids": [
+        "M09"
+      ],
+      "source_urls": [
+        "https://ctext.org/xunzi/quan-xue/zh"
+      ],
+      "meaning": "每天检视与学习。",
+      "combination_reason": "直接取劝学日参省乎己的动作关系。",
+      "brand_story": "把经验转成下一次更好的判断。",
+      "weakness": "参省对大众稍生，且像教育品牌。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C19",
+      "name": "素地生",
+      "pinyin": "sudisheng",
+      "family": "基底上继续生成",
+      "material_ids": [
+        "M10"
+      ],
+      "source_urls": [
+        "https://www.dpm.org.cn/lemmas/242554.html"
+      ],
+      "meaning": "漆器已有光素漆地仍可增加新的绘画。",
+      "combination_reason": "素地是已有基础，生是继续创作。",
+      "brand_story": "给已有模型增加成长空间。",
+      "weakness": "艺术或材料品牌感强。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C20",
+      "name": "添一笔",
+      "pinyin": "tianyibi",
+      "family": "持续创作改进",
+      "material_ids": [
+        "M10"
+      ],
+      "source_urls": [
+        "https://www.dpm.org.cn/lemmas/242554.html"
+      ],
+      "meaning": "在已有底材继续描绘。",
+      "combination_reason": "取自描漆行动的口语化，不是假定原词。",
+      "brand_story": "每次使用给能力添一笔。",
+      "weakness": "偏创作工具。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C21",
+      "name": "木上林",
+      "pinyin": "mushanglin",
+      "family": "前代支撑新生态",
+      "material_ids": [
+        "M11"
+      ],
+      "source_urls": [
+        "https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.7786"
+      ],
+      "meaning": "旧木成为新树苗的生长基底。",
+      "combination_reason": "一个木上的新林具有尺度与代际反差。",
+      "brand_story": "让既有系统成为下一代能力的生长条件。",
+      "weakness": "直接印象可能是木业。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C22",
+      "name": "生境里",
+      "pinyin": "shengjingli",
+      "family": "环境形成能力",
+      "material_ids": [
+        "M11"
+      ],
+      "source_urls": [
+        "https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.7786"
+      ],
+      "meaning": "生长取决于不断变化的环境关系。",
+      "combination_reason": "生境加方位词里，形成可以进入的空间。",
+      "brand_story": "智能在真实世界里学习。",
+      "weakness": "偏生态品牌。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C23",
+      "name": "聚而明",
+      "pinyin": "juerming",
+      "family": "输入组织为可见能量",
+      "material_ids": [
+        "M12"
+      ],
+      "source_urls": [
+        "https://science.nasa.gov/universe/black-holes/anatomy/"
+      ],
+      "meaning": "物质汇集并运动加热，使本来不可见的天体环境发光。",
+      "combination_reason": "聚与明保留吸积盘可见性关系，不将黑洞本身说成发光。",
+      "brand_story": "让积累成为可见的新能力。",
+      "weakness": "偏口号，读音容易听成聚尔明。",
+      "status": "unreviewed"
+    },
+    {
+      "id": "C24",
+      "name": "星尘炉",
+      "pinyin": "xingchenlu",
+      "family": "宇宙物质能量转换",
+      "material_ids": [
+        "M12"
+      ],
+      "source_urls": [
+        "https://science.nasa.gov/universe/stars/",
+        "https://chandra.si.edu/elements/"
+      ],
+      "meaning": "宇宙里的分散物质进入恒星，经历转化；恒星释放的物质又参与下一代形成。",
+      "combination_reason": "星尘与炉的连接改用恒星形成、核聚变及元素代际循环，放弃吸积盘→核聚变的错误捷径。",
+      "brand_story": "把分散输入转成持续输出的能量。",
+      "weakness": "科幻色彩强，可能与游戏撞名。",
+      "status": "unreviewed",
+      "original_source_urls": [
+        "https://science.nasa.gov/universe/black-holes/anatomy/"
+      ],
+      "source_revision_disclosure": "星尘炉是本轮自造品牌词；上述官方材料提供机制背景，未出现该中文词。吸积盘加热不是恒星核聚变。"
+    }
+  ]
+}

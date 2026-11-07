@@ -1,0 +1,12 @@
+{
+  "reviewer": "/root",
+  "decisions": [
+    {
+      "candidate_id": "C1-C06",
+      "decision": "distinct_family_with_explicit_boundary",
+      "old_candidate": "R2C01 余项",
+      "old_ref": "research/runs/2026-11-06-round2/candidates.json",
+      "reason": "已实际读旧余项：Taylor剩余误差承载已有描述之外尚待理解。新余量以事先预留的编码冗余承载擦除恢复。两个既有词不是机械余字换后缀，核心作用不同；若后续解释退化为泛化余剩则合并，不以新论文标题自动计新。"
+    }
+  ]
+}

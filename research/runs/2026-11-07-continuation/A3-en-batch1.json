@@ -1,0 +1,148 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T18:18:58.779112+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-preview-batch1.md",
+      "sha256": "e40db9ce192956a465b66c34734183c31455f61281bd64b10510d0c0f2239dee"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-en-batch1.json",
+      "sha256": "b821a5c15f9ddf69497fd9f6c21865f6909dbffe1dedb435a609da6b21bdfc9d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-quality-batch1.json",
+      "sha256": "2bfa89f296e73f5b0c0616c13a33bfbd506a23ecdb2f3eeb326dca24bb8e54b1"
+    }
+  ],
+  "query_count": 10,
+  "results": [
+    {
+      "candidate_id": "CT-E01",
+      "name": "Starward Ferry",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名科技/AI公司、模型或软件。历史轮船仅名Starward，ferry为船种，不能等同完整品牌Starward Ferry。",
+      "query_logs": [
+        {
+          "query": "\"Starward Ferry\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。历史轮船仅名Starward，ferry为船种，不能等同完整品牌Starward Ferry。"
+        },
+        {
+          "query": "\"Starward Ferry\" company lab",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。历史轮船仅名Starward，ferry为船种，不能等同完整品牌Starward Ferry。"
+        },
+        {
+          "query": "\"Starward Ferry\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。历史轮船仅名Starward，ferry为船种，不能等同完整品牌Starward Ferry。"
+        },
+        {
+          "query": "\"Starward Ferry\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。历史轮船仅名Starward，ferry为船种，不能等同完整品牌Starward Ferry。"
+        },
+        {
+          "query": "\"StarwardFerry\" OR \"Starward Ferries\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。历史轮船仅名Starward，ferry为船种，不能等同完整品牌Starward Ferry。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://skipshistorie.net/oslo/osl363klostersrederi/tekster/osl36319680100000-starward",
+          "access": "archive_body_read",
+          "finding": "标题Starward，Ship type ferry，1968年建造；船名与描述分列，非完整短语公司名。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Starward%20Ferry",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      },
+      "chinese_candidate_id": "CT-C01",
+      "chinese": "星际渡口"
+    },
+    {
+      "candidate_id": "CT-E02",
+      "name": "Earth Replies",
+      "decision": "return_for_alternative",
+      "reason": "确有既有近似AI网页体验Earth Replies to Your Future。不是两词精确同名，但前缀完整一致，且同属生成式AI软件、地球回话的核心叙事也相同，退回英文重新匹配。",
+      "query_logs": [
+        {
+          "query": "\"Earth Replies\"",
+          "executed_on": "2026-11-07",
+          "summary": "确有既有近似AI网页体验Earth Replies to Your Future。不是两词精确同名，但前缀完整一致，且同属生成式AI软件、地球回话的核心叙事也相同，退回英文重新匹配。"
+        },
+        {
+          "query": "\"Earth Replies\" company lab",
+          "executed_on": "2026-11-07",
+          "summary": "确有既有近似AI网页体验Earth Replies to Your Future。不是两词精确同名，但前缀完整一致，且同属生成式AI软件、地球回话的核心叙事也相同，退回英文重新匹配。"
+        },
+        {
+          "query": "\"Earth Replies\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "确有既有近似AI网页体验Earth Replies to Your Future。不是两词精确同名，但前缀完整一致，且同属生成式AI软件、地球回话的核心叙事也相同，退回英文重新匹配。"
+        },
+        {
+          "query": "\"Earth Replies\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "确有既有近似AI网页体验Earth Replies to Your Future。不是两词精确同名，但前缀完整一致，且同属生成式AI软件、地球回话的核心叙事也相同，退回英文重新匹配。"
+        },
+        {
+          "query": "\"EarthReplies\" OR \"Earth-Replies\"",
+          "executed_on": "2026-11-07",
+          "summary": "确有既有近似AI网页体验Earth Replies to Your Future。不是两词精确同名，但前缀完整一致，且同属生成式AI软件、地球回话的核心叙事也相同，退回英文重新匹配。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://dev.to/pawar-shivam7/earth-replies-to-your-future-what-if-the-planet-answered-back-1o8l",
+          "access": "developer_primary_body_read",
+          "finding": "开发者明确称作品名Earth Replies to Your Future，用户给地球写话、由Gemini回答；非仅文章一般用词。"
+        },
+        {
+          "url": "https://github.com/pawarshivamd/earth-day-dev-weekend-challenge",
+          "access": "developer_repository_body_read",
+          "finding": "README标题、About及交互流程确认同一完整产品名及Gemini功能。"
+        },
+        {
+          "url": "https://earth-day-dev-weekend-challenge.vercel.app/",
+          "access": "live_demo_inaccessible",
+          "finding": "作者链接的在线演示工具不可访问，不冒称现场交互已测试。"
+        }
+      ],
+      "registration": {
+        "status": "not_checked_after_confirmed_near_product_use",
+        "note": "退回依据具体近似AI产品，不声称同名公司或注册商标。"
+      },
+      "chinese_candidate_id": "CT-C02",
+      "chinese": "地球回信",
+      "reason_code": "NEAR_AI_PRODUCT_USE"
+    }
+  ],
+  "passed_english_candidate_ids": [
+    "CT-E01"
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛不等于全球无使用、官方核名通过或商标可注册。检索摘要与已读正文逐项区分。"
+}

@@ -1,0 +1,170 @@
+{
+  "reviewed_at": "2026-11-07T18:47:09.014613+08:00",
+  "independence": "Read producer preview batch8 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C29",
+      "name": "非玩家",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "三字角色类别能称呼",
+          "counter_association": "可能理解不玩游戏的人"
+        },
+        "distinctiveness": {
+          "reason": "玩家之外的行动主体可记",
+          "counter_association": "NPC有机械呆板贬义"
+        },
+        "lab_fit": {
+          "reason": "代理行为与记忆计划有研究身份",
+          "counter_association": "游戏工作室首联想"
+        },
+        "grounding": {
+          "reason": "生成式角色论文有实际结构依据",
+          "counter_association": "逼真行为不是真自主性"
+        },
+        "extension": {
+          "reason": "不局限单一游戏软件",
+          "counter_association": "不是所有NPC都用AI"
+        },
+        "semantic_coherence": {
+          "reason": "角色身份和行动来源同核",
+          "counter_association": "不声明角色觉醒"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "CT-C30",
+      "name": "懒函数",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "日常性格词与熟悉程序对象成称呼",
+          "counter_association": "懒有不努力联想"
+        },
+        "distinctiveness": {
+          "reason": "需要才做有程序员幽默",
+          "counter_association": "比专业术语略轻巧"
+        },
+        "lab_fit": {
+          "reason": "计算需求策略给科技身份",
+          "counter_association": "像开发者工具"
+        },
+        "grounding": {
+          "reason": "惰性求值原理真实",
+          "counter_association": "非简单全部放慢"
+        },
+        "extension": {
+          "reason": "可研究资源与选择计算",
+          "counter_association": "惰性不总更快"
+        },
+        "semantic_coherence": {
+          "reason": "需求决定计算同核",
+          "counter_association": "不证明AI自动省算力"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "CT-C31",
+      "name": "有界好奇",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 5,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "定语名词结构完整",
+          "counter_association": "有界偏书面"
+        },
+        "distinctiveness": {
+          "reason": "主动探索与边界形成反差",
+          "counter_association": "可能误听限制想象"
+        },
+        "lab_fit": {
+          "reason": "探索激励与学习价值研究身份清楚",
+          "counter_association": "好奇也像科普教育"
+        },
+        "grounding": {
+          "reason": "论文失效条件支持品牌态度非同名算法",
+          "counter_association": "未提供实际数学上界"
+        },
+        "extension": {
+          "reason": "长期研究不锁功能",
+          "counter_association": "不替用户作安全开源承诺"
+        },
+        "semantic_coherence": {
+          "reason": "探索目标与有效性边界同核",
+          "counter_association": "不是已经解决noisy-TV"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "CT-C32",
+      "name": "虚拟排练",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 5,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "熟悉动作和场所组成完整说法",
+          "counter_association": "像产品功能名"
+        },
+        "distinctiveness": {
+          "reason": "先试演再行动有具体过程",
+          "counter_association": "仿真和培训联想"
+        },
+        "lab_fit": {
+          "reason": "世界模型与行为学习科技身份直接",
+          "counter_association": "可能缩窄到仿真工具"
+        },
+        "grounding": {
+          "reason": "Dreamer潜空间轨迹训练真实",
+          "counter_association": "不是睡眠研究或严格离线RL"
+        },
+        "extension": {
+          "reason": "可覆盖推理控制与内部试验",
+          "counter_association": "模型错误可误导练习"
+        },
+        "semantic_coherence": {
+          "reason": "经验和模型内演练同核",
+          "counter_association": "不保证现实安全成功"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

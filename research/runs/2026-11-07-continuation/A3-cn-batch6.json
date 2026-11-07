@@ -1,0 +1,171 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T18:34:30.019818+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A2-preview-batch6.md",
+      "sha256": "d95bd0adcc63006160e7b0a99003c94a93fd8e6dbb9fff312f11393523e9705f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-cn-batch6.json",
+      "sha256": "559e2dd404ce4eda51f4ec2b2451f82e723d4d188e36b49e09cdfcd0c0674046"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A2-quality-batch6.json",
+      "sha256": "e50fd9588c121c5b7abf3edf7f7df872d4a0fe1bfd8b46c422182e9b370e6564"
+    }
+  ],
+  "query_count": 12,
+  "results": [
+    {
+      "candidate_id": "CT-C21",
+      "name": "海底雪",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名科技/AI公司、模型或软件。检到海洋雪科普、去噪专利及海底捞等不同完整名称，不当同名。",
+      "query_logs": [
+        {
+          "query": "\"海底雪\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。检到海洋雪科普、去噪专利及海底捞等不同完整名称，不当同名。"
+        },
+        {
+          "query": "\"海底雪\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。检到海洋雪科普、去噪专利及海底捞等不同完整名称，不当同名。"
+        },
+        {
+          "query": "\"海底雪\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。检到海洋雪科普、去噪专利及海底捞等不同完整名称，不当同名。"
+        },
+        {
+          "query": "\"海底雪\" 软件 产品",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。检到海洋雪科普、去噪专利及海底捞等不同完整名称，不当同名。"
+        },
+        {
+          "query": "\"haidixue\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。检到海洋雪科普、去噪专利及海底捞等不同完整名称，不当同名。"
+        },
+        {
+          "query": "\"海底雪科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。检到海洋雪科普、去噪专利及海底捞等不同完整名称，不当同名。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://mslc.nmmst.gov.tw/argame/exhibitview1/0209?pagenum=2",
+          "access": "search_text_only",
+          "finding": "海雪自然现象展品描述，并非海底雪科技品牌。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Haidixue",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    },
+    {
+      "candidate_id": "CT-C23",
+      "name": "指南鱼",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整中文同名科技/AI品牌。历史器物、展品名与术语使用不等于品牌；拼音Zhinanyu见民宿/个人路径，不自动占用中文，英文须独立匹配。",
+      "query_logs": [
+        {
+          "query": "\"指南鱼\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整中文同名科技/AI品牌。历史器物、展品名与术语使用不等于品牌；拼音Zhinanyu见民宿/个人路径，不自动占用中文，英文须独立匹配。"
+        },
+        {
+          "query": "\"指南鱼\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整中文同名科技/AI品牌。历史器物、展品名与术语使用不等于品牌；拼音Zhinanyu见民宿/个人路径，不自动占用中文，英文须独立匹配。"
+        },
+        {
+          "query": "\"指南鱼\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整中文同名科技/AI品牌。历史器物、展品名与术语使用不等于品牌；拼音Zhinanyu见民宿/个人路径，不自动占用中文，英文须独立匹配。"
+        },
+        {
+          "query": "\"指南魚\" 公司",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整中文同名科技/AI品牌。历史器物、展品名与术语使用不等于品牌；拼音Zhinanyu见民宿/个人路径，不自动占用中文，英文须独立匹配。"
+        },
+        {
+          "query": "\"zhinanyu\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整中文同名科技/AI品牌。历史器物、展品名与术语使用不等于品牌；拼音Zhinanyu见民宿/个人路径，不自动占用中文，英文须独立匹配。"
+        },
+        {
+          "query": "\"指南鱼科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整中文同名科技/AI品牌。历史器物、展品名与术语使用不等于品牌；拼音Zhinanyu见民宿/个人路径，不自动占用中文，英文须独立匹配。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.cdstm.cn/museum/zphc/hxzg2017x/art/2017/art_122662c0f9fb4c0cbbbc3be12c030406.html",
+          "access": "museum_primary_body_read",
+          "finding": "指南鱼是历史器物展品名，非科技公司/软件；不以此作全球首次发明论证。"
+        },
+        {
+          "url": "https://sg.trip.com/hotels/meitan-hotel-detail-130513135/zhinanyu-tea-homestay/",
+          "access": "third_party_search_text_only",
+          "finding": "拼音Zhinanyu Tea Homestay住宿名，不推断中文一定指南鱼或AI公司。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Zhinanyu",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    }
+  ],
+  "passed_candidate_ids": [
+    "CT-C21",
+    "CT-C23"
+  ],
+  "a4_input_candidate_ids": [
+    "CT-C21",
+    "CT-C23"
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛不等于登记或商标审核通过。字段、动作、器物与品牌区分；拼音已有主体不得直接配作英文。"
+}

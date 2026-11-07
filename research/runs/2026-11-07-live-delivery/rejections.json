@@ -1,0 +1,238 @@
+{
+  "date": "2026-11-07",
+  "items": [
+    {
+      "name": "磁重联",
+      "candidate_id": "LD-C03",
+      "stage": "中文质量",
+      "reason": "主控24/30，品牌延展不足；偏磁场/电磁设备研究。",
+      "usage_screened": false,
+      "registration_claim": "没有据此声称已占用或可用。"
+    },
+    {
+      "name": "叠层石",
+      "candidate_id": "LD-C04",
+      "stage": "中文质量",
+      "reason": "双方科技定位维度未过；石材/地质首要联想过强。",
+      "usage_screened": false,
+      "registration_claim": "没有据此声称已占用或可用。"
+    },
+    {
+      "name": "下一无穷",
+      "candidate_id": "LD-C06",
+      "stage": "中文质量",
+      "reason": "主控自然称呼3分，下一直接修饰无穷有残句感；真实定理不能弥补称呼问题。",
+      "usage_screened": false,
+      "registration_claim": "没有据此声称已占用或可用。"
+    },
+    {
+      "name": "Inscade",
+      "chinese": "逆级联",
+      "candidate_id": "LD-E01",
+      "stage": "英文使用筛查/终审",
+      "reason": "有哥伦比亚学校公司COLEGIO INSTITUTO INSCADE SAS历史登记线索（跨行业）；INScade Simulator只在个人简历出现，可能是in SCADE连写，不能确认独立同名软件。不标EXACT_TECH_USE；主控选择另配英文以减少已有专名重合。",
+      "decision": "return_for_alternative",
+      "evidence": [
+        {
+          "url": "https://bibliotecadigital.ccb.org.co/bitstreams/8a442687-9951-4a45-ab2e-75ede1ecd31e/download",
+          "status": "official_search_text_pdf_no_readable_lines",
+          "finding": "商会检索文本列COLEGIO INSTITUTO INSCADE SAS；打开PDF无文本，截图超时，不能称独立读完正文。跨行业，不证明科技占用。"
+        },
+        {
+          "url": "https://www.xing.com/profile/Ghiouane_Abdelilah",
+          "status": "body_read",
+          "finding": "L111–116个人简历称INScade Simulator并提SCADE tool；孤立拼写不足以证实独立INScade软件。"
+        }
+      ]
+    },
+    {
+      "name": "Negaflux",
+      "chinese": "负熵流",
+      "candidate_id": "LD-E02",
+      "stage": "英文使用筛查/终审",
+      "reason": "法国市政1978档案检索文本出现NEGAFLUX负离子设备广告；另有现代付费D&D内容角色名和第16类图形商标第三方线索。历史设备/跨行业风险，非确认现有AI公司；主控选择另配英文。",
+      "decision": "return_for_alternative",
+      "evidence": [
+        {
+          "url": "https://www.clamart.fr/sites/default/files/LA_MAIRIE/ARCHIVES%20MUNICIPALES/MAGAZINE%20DE%20LA%20VILLE/BMO_1978_03_BD.pdf",
+          "status": "official_archive_search_text_only",
+          "finding": "检索返回完整广告文字NEGAFLUX生成负离子及GETELEC地址；web正文因超10MB失败，独立下载SSL失败后重试403，未直接读PDF页。不冒称当前在营科技品牌。"
+        },
+        {
+          "url": "https://www.patreon.com/DungeonsandDeadlifts626/posts/pulsmice-6-173906074",
+          "status": "creator_search_text",
+          "finding": "Posiflux和Negaflux为D&D角色，跨行业创作，不是AI模型。"
+        },
+        {
+          "url": "https://www.trademarkelite.com/australia/trademark/trademark-detail/2568998/NEGA-FLUX-IS-NEGATIVE-MINUS-OR-SUBTRACT-IS-EQUAL-TO-OR-AMOUNTS-TO-MA",
+          "status": "third_party_search_text",
+          "finding": "NEGA-FLUX长串第16类图形商标线索；没有查官方权利状态，不称本词第9/42类已注册。"
+        }
+      ]
+    },
+    {
+      "name": "Invercade",
+      "chinese": "逆级联",
+      "candidate_id": "LD-E03",
+      "stage": "英文使用筛查/终审",
+      "reason": "西班牙INVERCADE GESTION SL在2009官方登记中明确，业务为财务/税务咨询，是跨行业核心名使用；不标同名科技公司。主控可另配以避免已存在企业核心名。",
+      "decision": "return_for_alternative",
+      "evidence": [
+        {
+          "url": "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2009-53-28",
+          "status": "official_body_opened",
+          "finding": "官方BORME 136699列INVERCADE GESTION SL成立、2009-02-23运营起点和财务/税务/会计咨询业务。非科技行业。"
+        }
+      ]
+    },
+    {
+      "name": "Negentia",
+      "chinese": "负熵流",
+      "candidate_id": "LD-E04",
+      "stage": "英文使用筛查/终审",
+      "reason": "Negentia官网明确同名AI银行/气候风险基础设施，属于现有同名科技服务；法律页自称公司并说明登记办理中，否决依据是实际使用而非已完成登记。",
+      "decision": "reject",
+      "evidence": [
+        {
+          "url": "https://www.negentia.com/",
+          "status": "primary_body_read",
+          "finding": "品牌Negentia；Une infrastructure dédiée段明确AI推理支撑银行风险/融资基础设施，另有软件化融资计算演示。"
+        },
+        {
+          "url": "https://www.negentia.com/mentions-legales.html",
+          "status": "primary_body_read",
+          "finding": "L10–12列Negentia公司，资本1000欧元、图卢兹地址并写en cours d’immatriculation，不称官方已登记。"
+        }
+      ]
+    },
+    {
+      "name": "Codabitat",
+      "chinese": "代码生境",
+      "candidate_id": "LD-E07",
+      "stage": "英文使用筛查/终审",
+      "reason": "Codabitat整体无明确命中，但与同领域Codehabitat声音、结构及Code+habitat来源十分接近；印度Codehabitat (OPC) Private Limited有可读第三方企业正文（CIN U72900MH2022OPC381635）。不认定完全同名或商标冲突，返A4另配以避免已知近似科技品牌。",
+      "decision": "hold",
+      "evidence": [
+        {
+          "url": "https://www.zaubacorp.com/companies-CODEH",
+          "status": "third_party_body_read",
+          "finding": "L15–22列CODEHABITAT (OPC) PRIVATE LIMITED、CIN及地址；不是印度官方实时登记。"
+        },
+        {
+          "url": "https://www.thecompanycheck.com/company/codehabitat-opc-private-limited/U72900MH2022OPC381635",
+          "status": "search_text_body_timeout",
+          "finding": "企业资料标IT服务；正文打开超时，不能说官方登记核验完成。"
+        },
+        {
+          "url": "https://www.counterscope.ae/score/230fdcdc-e22e-4ea4-b7e9-55dcfec8b97e",
+          "status": "third_party_search_text_restricted_body",
+          "finding": "另列迪拜CODEHABITAT WEB DESIGN LLC并称牌照已过期；非在营确认。"
+        },
+        {
+          "url": "https://codehabitat.com/",
+          "status": "unavailable",
+          "finding": "尝试可能官网不可访问，未确认其归属。"
+        }
+      ]
+    },
+    {
+      "name": "Nijila",
+      "chinese": "逆级联",
+      "candidate_id": "LD-E08",
+      "stage": "英文使用筛查/终审",
+      "reason": "6组公开使用查询未见明确同名科技/AI公司、模型或软件；Nijila是多人姓名，也出现NIJILA ENTEGRATED FARM PLC农业公司目录线索。跨行业公司核心名使用已披露，不声称全球未用或词形首次创作。 主控因已存在公司核心名主动避让，未列本轮备选。",
+      "decision": "public_use_screen_pass",
+      "evidence": [
+        {
+          "url": "https://koodalipanchayat.lsgkerala.gov.in/en/member/3cbb619a-3607-4957-822c-5d2b939956bc",
+          "status": "official_person_profile_body_read",
+          "finding": "本词出现在个人姓名，非科技品牌；不复制无关联系方式。"
+        },
+        {
+          "url": "https://www.dnb.com/business-directory/company-information.wholesale_trade.et.addis_ababa.nifas_silk_lafto.html",
+          "status": "third_party_search_text",
+          "finding": "D&B目录列NIJILA ENTEGRATED FARM PLC；跨行业公司记录，不隐瞒其存在，不当同名AI品牌。"
+        }
+      ]
+    },
+    {
+      "name": "Jingora",
+      "chinese": "代码生境",
+      "candidate_id": "LD-E10",
+      "stage": "英文使用筛查/终审",
+      "reason": "已有完全同名JINGORA手机配件品牌，eBay店正文显示同名与iPhone保护壳商品；不是同名AI公司，按避免已有公司/科技周边品牌使用的偏好返工。",
+      "decision": "reject",
+      "evidence": [
+        {
+          "url": "https://www.ebay.com/str/jingora",
+          "status": "seller_body_read",
+          "finding": "L44–100店名JINGORA、Cell Phones & Accessories和iPhone17Pro保护壳商品，确证商业使用。"
+        },
+        {
+          "url": "https://zhongxinelect.com/about",
+          "status": "brand_search_text_body_no_readable_lines",
+          "finding": "检索正文自述JINGORA手机保护壳品牌；打开无可读行，不以此冒充官方登记核验。"
+        },
+        {
+          "url": "https://trademarks.justia.com/996/79/jingora-99679458.html",
+          "status": "third_party_search_text",
+          "finding": "美国申请序号99679458，第9/35类；Justia旧状态为申请初始化。"
+        },
+        {
+          "url": "https://www.trademarkelite.com/trademark/trademark-detail/99679458/JINGORA",
+          "status": "third_party_search_text",
+          "finding": "同序号第三方较新记录称2026-10-19申请放弃，与Justia状态不同；未查USPTO实时状态，不称注册成功。"
+        }
+      ]
+    },
+    {
+      "name": "Daimaji",
+      "chinese": "代码生境",
+      "candidate_id": "LD-E11",
+      "stage": "英文使用筛查/终审",
+      "reason": "已做15组查询并核个人账号非产品：GitHub的daimaji是持有wechat-mp仓库的账号。另多个历史ROM目录把Napple City制作者写Daimaji，其他目录写Daimanji/Gakushu-Juku，无法核到原发行署名。不是确证同名现有科技公司或已注册；不带未解软件品牌线索列最终配对，中文本轮储备。",
+      "decision": "hold",
+      "evidence": [
+        {
+          "url": "https://github.com/daimaji/wechat-mp",
+          "status": "developer_body_read",
+          "finding": "L94–120明确owner daimaji、repository wechat-mp及微信公众号示例说明；不是独立名为Daimaji的产品。"
+        },
+        {
+          "url": "https://github.com/daimaji",
+          "status": "profile_opened",
+          "finding": "个人账号页面；不据账号占用淘汰品牌。"
+        },
+        {
+          "url": "https://www.theoldcomputer.com/roms/index.php?folder=NEC%2FPC-9801%2FGames%2Fn",
+          "status": "third_party_search_text",
+          "finding": "Napple City (19xx)(Daimaji)(JP)为旧ROM署名元数据；同页续作写Daimanji。"
+        },
+        {
+          "url": "https://japanesepccompendium.blogspot.com/p/nec-pc-98.html?m=1",
+          "status": "third_party_search_text",
+          "finding": "列Napple City (Daimaji,19xx)；缺原发行主体证据。"
+        },
+        {
+          "url": "https://alammofm.com/games/",
+          "status": "third_party_search_text",
+          "finding": "同系列另一目录使用Daimanji Gakushu-Juku，无法据此排除Daimaji元数据是误拼，也不能确认它是公司字号。"
+        }
+      ]
+    },
+    {
+      "name": "逆级联",
+      "candidate_id": "LD-C01",
+      "stage": "中文储备／英文未采用",
+      "reason": "中文质量和公开使用初筛通过；三版英文均因已有专名、历史企业或跨行业公司线索主动避让，本轮无采用英文配对，不称中文被占用。",
+      "usage_screened": true
+    },
+    {
+      "name": "代码生境",
+      "candidate_id": "LD-C07",
+      "stage": "中文储备／英文未采用",
+      "reason": "中文质量和公开使用初筛通过；英文先因接近既有IT公司，再因同名手机配件品牌返工，末版仅有未解历史软件署名线索；本轮不列配对，不称中文被占用。",
+      "usage_screened": true
+    }
+  ]
+}

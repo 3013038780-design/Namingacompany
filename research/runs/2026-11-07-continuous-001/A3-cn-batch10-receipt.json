@@ -1,0 +1,49 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese screening",
+  "executed_at": "2026-11-08T00:02:23.775375+08:00",
+  "candidate_id": "C1-C21",
+  "candidate": "识局",
+  "decision": "reject_existing_commercial_core",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch9.md",
+      "sha256": "e923d5ee98b485ad2294d8953d73c1aafdf1d3713f14be7b4d3667aaf3e73792"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch9.json",
+      "sha256": "2e61ef00000f7a47980999f4c3c240c5c335df4d683bc6ebcf95c4606e9dfa9f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch9.json",
+      "sha256": "6b05877655ee377e1b4033be4003ab0ee5c8ede1a11e3c2b63f69cd8eecc33f1"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch9.json",
+      "sha256": "85ae9ee6e246f7e9e5431076a0fe7d3c6aaa9e1fba1050981c7c50a3aab73bdf"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension8.json",
+      "sha256": "e5a7c03cc80309174129037f70812551ea67a99537f5d0b97350d84ee148577b"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch10.md",
+      "sha256": "d3840e5ce2446963cbd03d89f5138b99b70706f75131c25963572c0c37153b28"
+    },
+    {
+      "path": "A3-cn-batch10.json",
+      "sha256": "2179b9ba1b5c71277b1ced490d859f432f06ee4befd57ef3f4d30b549bcaf126"
+    }
+  ],
+  "actual_new_candidate_queries": 9,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 218,
+  "agent3_cumulative_candidate_queries": 227,
+  "root_independent_additional_queries_previously_reported": 2,
+  "run_cumulative_candidate_queries_including_root": 229,
+  "actual_execution": "本原A3实际读候选/材料/两评审并执行9查询，核官网品牌/主体目录正文，识局为核心完整商业名称；未查质量失败声入纹，未创英文、catalog、git或用户进度。",
+  "policy_context": "README/AGENTS及preferences已在同run前次实际读取沿用；没有重跑控制或登记入口。",
+  "boundary": "公开商业使用否决，不称商标9/42在册冲突、现时官方工商状态，官网品牌起始2013与第三方法人2018信息分别存。"
+}

@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-07T21:07:10.837849+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E05",
+      "chinese_id": "C1-C01",
+      "english": "What Follows",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "what和follows都是普通英语，三音节可自然呼唤。",
+          "counter_association": "有正常英美元音变体，仍应固定品牌日常读法。"
+        },
+        "spelling": {
+          "reason": "完整普通词和正常第三人称单数形式，不改拼音。",
+          "counter_association": "连写WhatFollows与分写要由A3独立查。"
+        },
+        "grounding": {
+          "reason": "词典明确follow可指推论，SICP有沿既定关系获得未知值。",
+          "counter_association": "整句是品牌提问，不是词典列出的专有算法名。"
+        },
+        "bilingual_relation": {
+          "reason": "由此推知彼端与追问能得出什么是同一认识过程。",
+          "counter_association": "英文没有直接写端点可交换，比中文研究故事更宽。"
+        },
+        "distinctiveness": {
+          "reason": "一个可复述的自然提问可以承担长期研究身份。",
+          "counter_association": "常用短语和出版/内容标题联想使独特性中等。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；等待主控先读无分预览独评，再读本档并授权原A3。"
+    }
+  ]
+}

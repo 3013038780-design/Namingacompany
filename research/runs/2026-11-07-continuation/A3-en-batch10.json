@@ -1,0 +1,220 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T18:36:10.867445+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-preview-batch10.md",
+      "sha256": "8e601f33423fe5d7e90fb14462022f4e34df97cececfbaa97234c57798bc1ead"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-en-batch10.json",
+      "sha256": "6e64120d436c43528692ee109f7eb437360632f60aff7715ac770cbb69cd44be"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-quality-batch10.json",
+      "sha256": "9a3dac940b15b74fddbc39e2b01954978d0caa68069bdd38f5419524042ce140"
+    }
+  ],
+  "query_count": 15,
+  "results": [
+    {
+      "candidate_id": "CT-E15",
+      "chinese_candidate_id": "CT-C03",
+      "chinese": "影子刻度",
+      "name": "Noontally",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名科技/AI公司或独立软件品牌。报刊OCR noontally不算品牌；Noon Tally integration是两个平台在Commercium中的集成关系，非独立Noontally名称。",
+      "query_logs": [
+        {
+          "query": "\"Noontally\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司或独立软件品牌。报刊OCR noontally不算品牌；Noon Tally integration是两个平台在Commercium中的集成关系，非独立Noontally名称。"
+        },
+        {
+          "query": "\"Noontally\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司或独立软件品牌。报刊OCR noontally不算品牌；Noon Tally integration是两个平台在Commercium中的集成关系，非独立Noontally名称。"
+        },
+        {
+          "query": "\"Noontally\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司或独立软件品牌。报刊OCR noontally不算品牌；Noon Tally integration是两个平台在Commercium中的集成关系，非独立Noontally名称。"
+        },
+        {
+          "query": "\"Noontally\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司或独立软件品牌。报刊OCR noontally不算品牌；Noon Tally integration是两个平台在Commercium中的集成关系，非独立Noontally名称。"
+        },
+        {
+          "query": "\"Noon Tally\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司或独立软件品牌。报刊OCR noontally不算品牌；Noon Tally integration是两个平台在Commercium中的集成关系，非独立Noontally名称。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://constacloud.com/commercium/noon-and-tally-integration.html",
+          "access": "integration_vendor_body_read",
+          "finding": "厂商品牌Commercium/Constacloud，页面讲Noon订单导入Tally等集成；没有确证独立Noontally品牌。"
+        },
+        {
+          "url": "https://digicoll.lib.berkeley.edu/nanna/record/120440/files/1977_Kalendar_Vol05_NoE-16_Aug_19.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0",
+          "access": "search_OCR_text_only",
+          "finding": "1977报刊一般句子疑似normally的OCR noontally，不用作公司/软件占用。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Noontally",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    },
+    {
+      "candidate_id": "CT-E16",
+      "chinese_candidate_id": "CT-C08",
+      "chinese": "多想一步",
+      "name": "Reasonstride",
+      "decision": "public_use_screen_pass",
+      "reason": "整体无检索结果；分词命中the reason STRIDE is chosen等普通句子，STRIDE威胁建模方法不是完整Reasonstride品牌。",
+      "query_logs": [
+        {
+          "query": "\"Reasonstride\"",
+          "executed_on": "2026-11-07",
+          "summary": "整体无检索结果；分词命中the reason STRIDE is chosen等普通句子，STRIDE威胁建模方法不是完整Reasonstride品牌。"
+        },
+        {
+          "query": "\"Reasonstride\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "整体无检索结果；分词命中the reason STRIDE is chosen等普通句子，STRIDE威胁建模方法不是完整Reasonstride品牌。"
+        },
+        {
+          "query": "\"Reasonstride\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "整体无检索结果；分词命中the reason STRIDE is chosen等普通句子，STRIDE威胁建模方法不是完整Reasonstride品牌。"
+        },
+        {
+          "query": "\"Reasonstride\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "整体无检索结果；分词命中the reason STRIDE is chosen等普通句子，STRIDE威胁建模方法不是完整Reasonstride品牌。"
+        },
+        {
+          "query": "\"Reason Stride\"",
+          "executed_on": "2026-11-07",
+          "summary": "整体无检索结果；分词命中the reason STRIDE is chosen等普通句子，STRIDE威胁建模方法不是完整Reasonstride品牌。"
+        }
+      ],
+      "evidence": [],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Reasonstride",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    },
+    {
+      "candidate_id": "CT-E17",
+      "chinese_candidate_id": "CT-C12",
+      "chinese": "方格动物",
+      "name": "Rulefauna",
+      "decision": "public_use_screen_pass",
+      "reason": "未见科技/AI公司、模型或软件。已有西班牙语自然科学教育书的同词形活动标题，非软件产品；需披露词形已有，不称世界首创。",
+      "query_logs": [
+        {
+          "query": "\"Rulefauna\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见科技/AI公司、模型或软件。已有西班牙语自然科学教育书的同词形活动标题，非软件产品；需披露词形已有，不称世界首创。"
+        },
+        {
+          "query": "\"Rulefauna\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "未见科技/AI公司、模型或软件。已有西班牙语自然科学教育书的同词形活动标题，非软件产品；需披露词形已有，不称世界首创。"
+        },
+        {
+          "query": "\"Rulefauna\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "未见科技/AI公司、模型或软件。已有西班牙语自然科学教育书的同词形活动标题，非软件产品；需披露词形已有，不称世界首创。"
+        },
+        {
+          "query": "\"Rulefauna\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "未见科技/AI公司、模型或软件。已有西班牙语自然科学教育书的同词形活动标题，非软件产品；需披露词形已有，不称世界首创。"
+        },
+        {
+          "query": "\"Rule Fauna\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见科技/AI公司、模型或软件。已有西班牙语自然科学教育书的同词形活动标题，非软件产品；需披露词形已有，不称世界首创。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://manglar.uninorte.edu.co/bitstream/handle/10584/11863/9789587895278_eInvestigacion-en-contexto.pdf?sequence=1",
+          "access": "search_pdf_text_body_timeout",
+          "finding": "自然科学教学书表格把Rulefauna列作湿地动物认识活动，周围是分类和观察教学目标；正文打开超时，不冒称已阅读全文。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Rulefauna",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    }
+  ],
+  "passed_english_candidate_ids": [
+    "CT-E15",
+    "CT-E16",
+    "CT-E17"
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛不等于全球未使用、登记可用或商标通过。普通语义/作者账号/教育活动与公司模型软件区分。"
+}

@@ -1,0 +1,147 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T18:29:10.969744+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-preview-batch8.md",
+      "sha256": "06fa9733476aea17698caad7b0bcd005035fc2cd6c66815dbae5cf07d5404a63"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-en-batch8.json",
+      "sha256": "5f6f8419cccd0c6e896c32fd34a71feb89c895d69afa5422d9dc1534d4360392"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-quality-batch8.json",
+      "sha256": "493fa0230381acb62625e28a548134c163d07115e4873d693efc534eae653b8e"
+    }
+  ],
+  "query_count": 13,
+  "results": [
+    {
+      "candidate_id": "CT-E12",
+      "chinese_candidate_id": "CT-C10",
+      "chinese": "换坐标",
+      "name": "Otherframe",
+      "decision": "return_for_alternative",
+      "reason": "完整同名眼镜公司/品牌已使用；属跨行业已有公司主动避让，非同名AI公司。另已核到加拿大第9类眼镜商标申请在审，不能等同中国软件类注册。",
+      "query_logs": [
+        {
+          "query": "\"Otherframe\"",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名眼镜公司/品牌已使用；属跨行业已有公司主动避让，非同名AI公司。另已核到加拿大第9类眼镜商标申请在审，不能等同中国软件类注册。"
+        },
+        {
+          "query": "\"Otherframe\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名眼镜公司/品牌已使用；属跨行业已有公司主动避让，非同名AI公司。另已核到加拿大第9类眼镜商标申请在审，不能等同中国软件类注册。"
+        },
+        {
+          "query": "\"Otherframe\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名眼镜公司/品牌已使用；属跨行业已有公司主动避让，非同名AI公司。另已核到加拿大第9类眼镜商标申请在审，不能等同中国软件类注册。"
+        },
+        {
+          "query": "\"Otherframe\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名眼镜公司/品牌已使用；属跨行业已有公司主动避让，非同名AI公司。另已核到加拿大第9类眼镜商标申请在审，不能等同中国软件类注册。"
+        },
+        {
+          "query": "\"Other Frame\" company software",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名眼镜公司/品牌已使用；属跨行业已有公司主动避让，非同名AI公司。另已核到加拿大第9类眼镜商标申请在审，不能等同中国软件类注册。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://otherframe.com/pages/about",
+          "access": "primary_company_body_read",
+          "finding": "官方自述OTHERFRAME is a modular eyewear company，2026年成立。"
+        },
+        {
+          "url": "https://ised-isde.canada.ca/cipo/trademark-search/pdf/2410542?lang=eng",
+          "access": "official_pdf_text_read",
+          "finding": "申请人Stoggles Inc.，申请2410542，国际1862919，第9类眼镜/35零售；状态Under Examination且含临时驳回流程，不能简写成全球已注册。"
+        }
+      ],
+      "registration": {
+        "status": "not_checked_after_confirmed_use_or_active_avoidance",
+        "note": "依据公开使用，不称登记通过或当前已注册。"
+      }
+    },
+    {
+      "candidate_id": "CT-E13",
+      "chinese_candidate_id": "CT-C12",
+      "chinese": "方格动物",
+      "name": "Gridfolk",
+      "decision": "return_for_alternative",
+      "reason": "已有GridFolk钩织图样商店品牌及2011 Gridfolk游戏项目回顾；原游戏失败项目，不冒称现存商业软件。按既有商店品牌/历史数字项目使用主动避让。",
+      "query_logs": [
+        {
+          "query": "\"Gridfolk\"",
+          "executed_on": "2026-11-07",
+          "summary": "已有GridFolk钩织图样商店品牌及2011 Gridfolk游戏项目回顾；原游戏失败项目，不冒称现存商业软件。按既有商店品牌/历史数字项目使用主动避让。"
+        },
+        {
+          "query": "\"Gridfolk\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "已有GridFolk钩织图样商店品牌及2011 Gridfolk游戏项目回顾；原游戏失败项目，不冒称现存商业软件。按既有商店品牌/历史数字项目使用主动避让。"
+        },
+        {
+          "query": "\"Gridfolk\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "已有GridFolk钩织图样商店品牌及2011 Gridfolk游戏项目回顾；原游戏失败项目，不冒称现存商业软件。按既有商店品牌/历史数字项目使用主动避让。"
+        },
+        {
+          "query": "\"Gridfolk\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "已有GridFolk钩织图样商店品牌及2011 Gridfolk游戏项目回顾；原游戏失败项目，不冒称现存商业软件。按既有商店品牌/历史数字项目使用主动避让。"
+        },
+        {
+          "query": "\"Grid Folk\" company software",
+          "executed_on": "2026-11-07",
+          "summary": "已有GridFolk钩织图样商店品牌及2011 Gridfolk游戏项目回顾；原游戏失败项目，不冒称现存商业软件。按既有商店品牌/历史数字项目使用主动避让。"
+        },
+        {
+          "query": "\"Gridfolk\"",
+          "executed_on": "2026-11-07",
+          "summary": "已有GridFolk钩织图样商店品牌及2011 Gridfolk游戏项目回顾；原游戏失败项目，不冒称现存商业软件。按既有商店品牌/历史数字项目使用主动避让。"
+        },
+        {
+          "query": "\"Gridfolk\" game developer",
+          "executed_on": "2026-11-07",
+          "summary": "已有GridFolk钩织图样商店品牌及2011 Gridfolk游戏项目回顾；原游戏失败项目，不冒称现存商业软件。按既有商店品牌/历史数字项目使用主动避让。"
+        },
+        {
+          "query": "\"Gridfolk\" \"post-mortem\"",
+          "executed_on": "2026-11-07",
+          "summary": "已有GridFolk钩织图样商店品牌及2011 Gridfolk游戏项目回顾；原游戏失败项目，不冒称现存商业软件。按既有商店品牌/历史数字项目使用主动避让。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.etsy.com/listing/4536767577/the-puppy-overlay-mosaic-crochet-blanket",
+          "access": "primary_seller_product_body_read",
+          "finding": "店名GridFolk，所有者Dina，出售数字钩织图样；非AI公司，亦非普通个人用户名。"
+        },
+        {
+          "url": "https://www.roguebasin.com/index.php/Retrospectives",
+          "access": "community_archive_body_read",
+          "finding": "2011游戏回顾列Gridfolk failed7DRL，链接原开发复盘；有历史游戏项目名。"
+        },
+        {
+          "url": "https://7drl.org/2011/03/16/gridfolk-post-mortem",
+          "access": "primary_link_inaccessible",
+          "finding": "原开发复盘超时/不可访问，不冒称已读其原文或实测游戏。"
+        }
+      ],
+      "registration": {
+        "status": "not_checked_after_confirmed_use_or_active_avoidance",
+        "note": "依据公开使用，不称登记通过或当前已注册。"
+      }
+    }
+  ],
+  "passed_english_candidate_ids": [],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛不等于全球未使用、核名通过或第9/42类可注册。重复复核查询计入实际查询数。"
+}

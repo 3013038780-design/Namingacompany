@@ -1,0 +1,151 @@
+{
+  "same_research_run": true,
+  "new_A1_research_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "status": "accepted",
+      "from": "existing_A1",
+      "to": "same_A2",
+      "reason": "复用已实际A1案例/构词反馈及已验收计划；A2读取新冻结十九案，未重开研究轮次。",
+      "refs": [
+        {
+          "path": "A1-final-input-reacceptance.json",
+          "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+        },
+        {
+          "path": "A1-formation-feedback.json",
+          "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "status": "accepted",
+      "from": "A2",
+      "to": "coordinator",
+      "candidate_ids": [
+        "C1-C20",
+        "C1-C21"
+      ],
+      "refs": [
+        {
+          "path": "A2-creation-execution-batch9.json",
+          "sha256": "dba7baeac5db44375072eb3962ea985daef494b3d672e63dcfd9f9269e50c245"
+        },
+        {
+          "path": "A2-candidates-batch9.json",
+          "sha256": "2e61ef00000f7a47980999f4c3c240c5c335df4d683bc6ebcf95c4606e9dfa9f"
+        },
+        {
+          "path": "materials-extension8.json",
+          "sha256": "e5a7c03cc80309174129037f70812551ea67a99537f5d0b97350d84ee148577b"
+        },
+        {
+          "path": "coordinator-cn-batch9.json",
+          "sha256": "85ae9ee6e246f7e9e5431076a0fe7d3c6aaa9e1fba1050981c7c50a3aab73bdf"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "status": "accepted",
+      "from": "coordinator",
+      "to": "same_A3",
+      "candidate_ids": [
+        "C1-C21"
+      ],
+      "reason": "主控先独评25后比producer26，各轴差<=1，原A3实际获中文筛查授权；C20质量失败不送查。",
+      "refs": [
+        {
+          "path": "A2-quality-batch9.json",
+          "sha256": "6b05877655ee377e1b4033be4003ab0ee5c8ede1a11e3c2b63f69cd8eecc33f1"
+        },
+        {
+          "path": "coordinator-cn-batch9.json",
+          "sha256": "85ae9ee6e246f7e9e5431076a0fe7d3c6aaa9e1fba1050981c7c50a3aab73bdf"
+        },
+        {
+          "path": "coordinator-family-review-batch9.json",
+          "sha256": "042102f38b59110191c5538f13f401d1d4ec5003517301ed3dfd36bd98a16279"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "status": "zero_input",
+      "from": "same_A3",
+      "to": "same_A4",
+      "reason": "原A3否决唯一合格中文，原A4已实际核两草案/中文结果，合格输入零。",
+      "refs": [
+        {
+          "path": "A3-cn-batch10.json",
+          "sha256": "2179b9ba1b5c71277b1ced490d859f432f06ee4befd57ef3f4d30b549bcaf126"
+        },
+        {
+          "path": "A3-cn-batch10-receipt.json",
+          "sha256": "d8ba6b4447f17647f0b2be3086213243f1ed178ab1d4fde69e80544ec3e57f51"
+        },
+        {
+          "path": "A4-zero-input-batch9.json",
+          "sha256": "38547ae0b9c006f8326970da36f08fb8c8e7b7d4beca649594ebd0e43efc48e7"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "status": "zero_input",
+      "from": "same_A4",
+      "to": "same_A3",
+      "reason": "真实A4英文输出零，不伪造弱英文。",
+      "refs": [
+        {
+          "path": "A4-zero-input-batch9.json",
+          "sha256": "38547ae0b9c006f8326970da36f08fb8c8e7b7d4beca649594ebd0e43efc48e7"
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "status": "zero_input",
+      "from": "same_A3",
+      "to": "coordinator",
+      "reason": "同A3实际读零回执及核输入SHA，新增英文查询零。",
+      "refs": [
+        {
+          "path": "A3-en-zero-batch9.json",
+          "sha256": "45b92886e669604a4fbf65f0224b8621187235f0e4e533f4f1bdb3e0fb5e6c30"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "status": "zero_retained",
+      "from": "coordinator",
+      "to": "catalog",
+      "reason": "本小包无完整合格双语，不入库，继续同一001另一小包；不因本包失败停止研究。",
+      "refs": [
+        {
+          "path": "A3-en-zero-batch9.json",
+          "sha256": "45b92886e669604a4fbf65f0224b8621187235f0e4e533f4f1bdb3e0fb5e6c30"
+        },
+        {
+          "path": "continuations/2026-11-07T155304Z/root-cn-rejection-verification.json",
+          "sha256": "b8f52733fefc69c4e47ca1998a4063e459b9ac8dd80d6ded1da81790cf2c4222"
+        },
+        {
+          "path": "continuations/2026-11-07T155304Z/decisions-through-batch9.json",
+          "sha256": "c58704d2336ee4fd39edfe5e73633c985953cf8144613f62c5d39ffff5515a0e"
+        }
+      ]
+    }
+  ]
+}

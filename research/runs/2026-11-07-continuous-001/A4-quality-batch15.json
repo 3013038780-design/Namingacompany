@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-07T23:13:46.214494+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E15",
+      "chinese_id": "C1-C19",
+      "english": "Branchwise",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两音节均为熟悉英语构形，可正常称呼。",
+          "counter_association": "branch与wise间ch-w需清晰读出。"
+        },
+        "spelling": {
+          "reason": "branch完整加标准wise，没有write/right竞争、截词或无义字母。",
+          "counter_association": "Branch Wise分词写法与连写可能并存，整体仍有清楚语素可复述。"
+        },
+        "grounding": {
+          "reason": "真实fork分支以及状态分别变化组成同一结构关系；-wise方面/方式义有词典依据。",
+          "counter_association": "按分支这一语言形态本身不推出私有内存，须保留技术条件，不能把wise当聪明。"
+        },
+        "bilingual_relation": {
+          "reason": "同源分出、分支各自处理状态，与中文分身有别共同承载共享与不同的并存。",
+          "counter_association": "英文也可指任何分支方式，未仅凭称呼表达全部COW原理。"
+        },
+        "distinctiveness": {
+          "reason": "整体读写自然，可承载一个计算研究机构而非仅写作工具。",
+          "counter_association": "仍可能像版本控制/组织分部软件，技术描述性强，不以没查过来补独特性。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑自评；主控先读无分预览独评，不继承原案分数或使用状态。"
+    }
+  ]
+}

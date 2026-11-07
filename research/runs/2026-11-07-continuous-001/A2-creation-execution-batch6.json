@@ -1,0 +1,43 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "completed_at": "2026-11-07T21:33:56.682854+08:00",
+  "stage": "formation_feedback_migration_chinese_batch6",
+  "input_refs": [
+    {
+      "path": "A1-formation-feedback.md",
+      "sha256": "9e2c1589037d9d564619fd8d9d861dffd13288087c4f7dec8e49d5ecbd702dde"
+    },
+    {
+      "path": "A1-formation-feedback.json",
+      "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+    },
+    {
+      "path": "materials-extension3.json",
+      "sha256": "a549fff62266ddf31e61b34e8c8523b247927918903944bab48863a1bdaeac36"
+    },
+    {
+      "path": "materials-extension4.json",
+      "sha256": "2b90619996a1920932e9dd0a261a4a6d8fa9bb3e20633f18bc310409c0257eba"
+    }
+  ],
+  "new_material_count": 0,
+  "new_chinese_draft_count": 2,
+  "new_english_count": 0,
+  "name_usage_queries_performed": false,
+  "output_refs": [
+    {
+      "path": "A2-candidates-batch6.json",
+      "sha256": "2a2bc175926974875de931b184d7c9d8100562be23a5deec3a6655d569f20d36"
+    },
+    {
+      "path": "A2-preview-batch6.md",
+      "sha256": "9ce10b9f59b91e2b77f5eda496c0d10e94061d982e14c7d52d745e6f6e40755e"
+    },
+    {
+      "path": "A2-quality-batch6.json",
+      "sha256": "dda68cb2ad13f668e4b1ce89db623a04ca3ea6506fce927d1bdde331a5b5652d"
+    }
+  ],
+  "boundary": "已获主控授权直接迁移A1反馈，不重开计划；旧稿/源材料/旧分不改，不查名、不配英文、不git。"
+}

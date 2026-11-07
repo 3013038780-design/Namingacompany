@@ -1,0 +1,1218 @@
+{
+  "scope": "流式逐名终审交付；研究整批仍在进行，不冒称完整生产协议完成。",
+  "discussion_pairs": [
+    {
+      "chinese_id": "C1-C06",
+      "english_id": "C1-E02",
+      "family_id": "C1-BF-redundancy-enabling-reconstruction",
+      "chinese": "余量",
+      "pinyin": "yú liàng",
+      "english": "Spare Signal",
+      "suggested_pronunciation": "SPAIR SIG-nuhl /spɛər ˈsɪɡnəl/（建议，按两个常用词读）。",
+      "source": {
+        "title": "UC Berkeley CS294-226 Lecture 5: RS, BCH and Concatenated Codes",
+        "url": "https://people.eecs.berkeley.edu/~venkatg/teaching/ECC-fall22/scribes/lecture05.pdf",
+        "read_scope": "PDF第一页§1 Definition5.1、Lagrange插值段、Theorem5.2；未读后续BCH与级联证明",
+        "date": "2022-09-12",
+        "access": "body"
+      },
+      "fact": "Reed–Solomon编码以多于消息维度的采样表示消息；有限域中次数小于k的多项式可由k个正确、位置已知的不同采样恢复，额外采样允许一部分位置擦除。",
+      "meaning": "在恰好够用之外留出空间，让一个系统面对损失时仍有恢复的可能。",
+      "crossing": "Reed–Solomon以多于消息维度的正确采样编码同一对象，在规定条件下容许部分擦除；“余量”保留多出来的部分如何变成系统韧性的关系。",
+      "layers": [
+        "普通语言中的预留空间与从容",
+        "信息编码中冗余采样和可恢复性的真实联系",
+        "帮助已有系统获得更多应对真实使用条件的研究角色"
+      ],
+      "shortcoming": "可能像存储、通信或量化业务，声音也近雨量；单独名字不直接说明AI，需要长期研究赋予具体身份。",
+      "english_formation": "spare取额外可供使用、满足基本需要之外保留的意思；signal给出携带信息的可感对象。两个完整普通英语词组成额外一份有用信息的画面，不改Yuliang拼音，也不宣称Spare Signal是Reed–Solomon编码正式术语。",
+      "bilingual_relation": "中文给预留冗余一个宽的工程称呼，英文让多出来的部分成为仍可发挥作用的信息。共享的关系是超过最低需要的编码观测可以在条件满足时支持恢复；不是把余量理解成剩余垃圾或闲置空信号。",
+      "english_shortcoming": "可能先像通信、射频、音频或灾备品牌，研究机构身份偏工程；spare也可能被误读为可有可无的备件。是两个普通词形成的短语，专名独特性中等，须独立查公司、模型、软件和分词变体。 Euresys既有工程文档还把spare signal用于未来预留、当前忽略的字段，因此可能听成尚未启用的备用信号。A4补审后保留为讨论备选，不称首创短语或编码正式术语。",
+      "scientific_boundary": "可靠恢复依赖正确采样、已知位置等条件，不能推广为任意错误可恢复、无损压缩或凭空增加知识。",
+      "chinese_screen": {
+        "candidate_id": "C1-C06",
+        "name": "余量",
+        "query_logs": [
+          {
+            "query": "\"余量\"",
+            "executed_on": "2026-11-07",
+            "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+          },
+          {
+            "query": "\"余量\" 公司 科技",
+            "executed_on": "2026-11-07",
+            "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+          },
+          {
+            "query": "\"余量\" AI 模型 软件",
+            "executed_on": "2026-11-07",
+            "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+          },
+          {
+            "query": "\"餘量\" 公司 軟體",
+            "executed_on": "2026-11-07",
+            "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+          },
+          {
+            "query": "\"yuliang\" company AI",
+            "executed_on": "2026-11-07",
+            "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+          },
+          {
+            "query": "\"余量科技\" OR \"余量智能\" OR \"余量软件\"",
+            "executed_on": "2026-11-07",
+            "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+          },
+          {
+            "query": "\"余量\" \"有限公司\"",
+            "executed_on": "2026-11-07",
+            "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+          },
+          {
+            "query": "\"余量科技\" OR \"余量智能\" OR \"余量软件\"",
+            "executed_on": "2026-11-07",
+            "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+          },
+          {
+            "query": "\"余量\" \"有限公司\"",
+            "executed_on": "2026-11-07",
+            "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。",
+        "evidence": [
+          {
+            "url": "https://raw.githubusercontent.com/licyer/dsh-token-monitor/main/README.md",
+            "access": "primary_source_readme_body_read_curl",
+            "finding": "产品/插件名dsh-token-monitor，余量与用量监控是功能说明，非独立余量品牌。Github页面find无匹配已用raw正文补读。"
+          },
+          {
+            "url": "https://www.yulianggroup.cn/company/",
+            "access": "primary_company_body_read",
+            "finding": "官网明列上海禹亮信息科技有限公司、Shanghai Yuliang Information Technology；中文禹亮非余量，英文直拼Yuliang另行避让。"
+          },
+          {
+            "url": "https://www.companies.sg/business/202425251E/YULIANG-TECHNOLOGY-PTE-LTD",
+            "access": "third_party_company_search_text_only",
+            "finding": "新加坡YULIANG TECHNOLOGY PTE.LTD目录，UEN202425251E，游戏软件出版；中文名称并未核为余量，不能用作中文确占证据。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "本轮实际入口403，未逐名检索"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "共同入口实际403，未进入逐名逐类检索"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Yuliang",
+            "scope": "实际逐名搜索URL不可访问，不代表无公司"
+          }
+        }
+      },
+      "english_screen": {
+        "candidate_id": "C1-E02",
+        "chinese_candidate_id": "C1-C06",
+        "chinese": "余量",
+        "name": "Spare Signal",
+        "query_logs": [
+          {
+            "query": "\"Spare Signal\"",
+            "executed_on": "2026-11-07",
+            "summary": "工程信号/电信文档以及采购备件，未见品牌"
+          },
+          {
+            "query": "\"Spare Signal\" company lab",
+            "executed_on": "2026-11-07",
+            "summary": "公司采购项目spare signal processing unit是备用部件描述，不等于公司名"
+          },
+          {
+            "query": "\"Spare Signal\" AI model",
+            "executed_on": "2026-11-07",
+            "summary": "AI文本多为spare compute/Signal Type AI或协议备用字段，不是完整同名模型"
+          },
+          {
+            "query": "\"Spare Signal\" software product",
+            "executed_on": "2026-11-07",
+            "summary": "软件说明与专利标题/针脚功能，spare Signal Sidearm指备机"
+          },
+          {
+            "query": "\"SpareSignal\" OR \"Spare-Signal\"",
+            "executed_on": "2026-11-07",
+            "summary": "分合合理变体无搜索结果，不把无结果解释成全球无注册"
+          },
+          {
+            "query": "\"Spare Signal\" startup brand -patent -site:volza.com -filetype:pdf",
+            "executed_on": "2026-11-07",
+            "summary": "噪声过滤补查仍为备用线路专利/文档，不是startup品牌；搜索未严格过滤全部专利结果已检视"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "六组独立查询未确证完整同名公司、AI模型或独立软件品牌。真实普通工程字段、采购备件及专利语言与品牌区分；不称全球未使用或可注册。",
+        "semantic_risk": "Euresys真实工程用法指未来预留、当前忽略的备用信号，不等于候选希望表达的承载可用冗余信息。此为命名含义短板交A4/终审，不假作同名占用。",
+        "evidence": [
+          {
+            "url": "https://documentation.euresys.com/Products/MultiCam/MultiCam_6_16/Content/MultiCam_6_7_HTML_Documentation/99990_1.htm",
+            "access": "primary_software_docs_body_read",
+            "finding": "MultiCam/GRABLINK Camera Link Enable Signals：Spare定义为未来使用、当前忽略；是字段功能说明不是独立Spare Signal品牌。"
+          },
+          {
+            "url": "https://store.zortrax.com/parts-and-accessories/zortrax-signal-adapter-m200plus-m300plus",
+            "access": "search_text_only_body_timeout",
+            "finding": "标题Signal Adapter，描述A spare signal adapter；是备件修饰语，不是Spare Signal整体产品。打开超时，不假称已读原全文。"
+          },
+          {
+            "url": "https://www.ericsson.com/4ac5bb/assets/local/about-ericsson/ericsson-history/lme-review/documents/da2011-35553-ericsson_review_vol_38_1961.pdf",
+            "access": "search_text_only",
+            "finding": "1961技术资料A5备用信号含spare signal描述，不是同名软件或公司。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "本轮入口403，未逐名核名"
+          },
+          "mainland_trademark_class_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "共同入口本轮403，未逐名逐类"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Spare%20Signal",
+            "scope": "本候选逐名URL实际打开不可访问，非无公司结论"
+          }
+        }
+      },
+      "quality": {
+        "chinese_producer": {
+          "candidate_id": "C1-C06",
+          "name": "余量",
+          "language": "zh",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a2",
+          "scores": {
+            "naturalness": 5,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 4,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 25,
+          "notes": {
+            "naturalness": {
+              "reason": "现成工程日常词顺口",
+              "counter_association": "容易听成雨量"
+            },
+            "distinctiveness": {
+              "reason": "预留空间有清楚内核",
+              "counter_association": "通用词独立性待筛"
+            },
+            "lab_fit": {
+              "reason": "冗余可靠系统有工程科技身份",
+              "counter_association": "可能偏量化/存储通信"
+            },
+            "grounding": {
+              "reason": "超过最低需要与可恢复关系有据",
+              "counter_association": "不直接包含所有编码条件"
+            },
+            "extension": {
+              "reason": "可延展到稳健和真实场景系统",
+              "counter_association": "需避免只做单一容错工具"
+            },
+            "semantic_coherence": {
+              "reason": "日常余裕与编码作用相容",
+              "counter_association": "余量不等于无限能力增长"
+            }
+          },
+          "decision": "quality_pass",
+          "execution_ref": "本轮A2实际创作后自评；数值单独文件，不向主控预览/消息露分",
+          "independent_submission_ref": "A2-quality-batch1.json producer-only submission"
+        },
+        "chinese_coordinator": {
+          "candidate_id": "C1-C06",
+          "name": "余量",
+          "reviewer": "coordinator",
+          "scores": {
+            "naturalness": 5,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 26,
+          "notes": {
+            "naturalness": {
+              "reason": "完整常用工程词顺口",
+              "counter_association": "声音近雨量"
+            },
+            "distinctiveness": {
+              "reason": "预留空间有可感尺度",
+              "counter_association": "通名可能已用"
+            },
+            "lab_fit": {
+              "reason": "冗余和韧性有技术身份",
+              "counter_association": "像存储通信或量化"
+            },
+            "grounding": {
+              "reason": "正确已知位置采样恢复的条件已核",
+              "counter_association": "不是任意错误都恢复"
+            },
+            "extension": {
+              "reason": "能谈已有系统的使用韧性",
+              "counter_association": "独立研究称呼需内容承接"
+            },
+            "semantic_coherence": {
+              "reason": "额外容量与可恢复性是同一关系",
+              "counter_association": "不能说凭空增加知识"
+            }
+          },
+          "decision": "quality_pass"
+        },
+        "english_producer": {
+          "candidate_id": "C1-E02",
+          "chinese_id": "C1-C06",
+          "english": "Spare Signal",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a4",
+          "scores": {
+            "pronunciation": 5,
+            "spelling": 5,
+            "grounding": 4,
+            "bilingual_relation": 5,
+            "distinctiveness": 3
+          },
+          "total": 22,
+          "notes": {
+            "pronunciation": {
+              "reason": "两个普通词，三音节可按正常英语直接叫出。",
+              "counter_association": "spare开头辅音及地域读音对部分使用者有成本。"
+            },
+            "spelling": {
+              "reason": "完整单词，易拼写，没有为了避重改字母。",
+              "counter_association": "可能被连写为SpareSignal，需A3另查。"
+            },
+            "grounding": {
+              "reason": "额外可用信息与编码冗余恢复的关系有讲义支持。",
+              "counter_association": "signal是品牌拟物，不是讲义算法名或闲置频道。"
+            },
+            "bilingual_relation": {
+              "reason": "余量的工程宽称呼和额外信息的具体画面承接同一恢复作用。",
+              "counter_association": "英文比中文偏通信，但不承诺多就是强。"
+            },
+            "distinctiveness": {
+              "reason": "两个普通词形成可想象对象，能作为工程研究机构称呼。",
+              "counter_association": "通用短语独立性中等，通信/音频首联想明显。"
+            }
+          },
+          "status": "pass_quality_gate",
+          "note": "主观编辑判断；等待主控先读无分预览独评，再读本档并授权原A3。"
+        },
+        "english_coordinator": {
+          "candidate_id": "C1-C06",
+          "name": "Spare Signal",
+          "reviewer": "coordinator",
+          "scores": {
+            "pronunciation": 5,
+            "spelling": 5,
+            "grounding": 4,
+            "bilingual_relation": 5,
+            "distinctiveness": 3
+          },
+          "total": 22,
+          "notes": {
+            "pronunciation": {
+              "reason": "两个常用英语词三音节顺口",
+              "counter_association": "可能像音频产品"
+            },
+            "spelling": {
+              "reason": "完整单词可直接拼写",
+              "counter_association": "分写连写都需查"
+            },
+            "grounding": {
+              "reason": "冗余信息关系有编码讲义支撑而短语为品牌表达",
+              "counter_association": "不是正式编码术语或备用空频道"
+            },
+            "bilingual_relation": {
+              "reason": "预留余量与额外有效信息属于同一恢复过程",
+              "counter_association": "spare可能被误解为无用备件"
+            },
+            "distinctiveness": {
+              "reason": "整体能称呼但专名性中等",
+              "counter_association": "工程通信领域较窄"
+            }
+          },
+          "decision": "quality_pass",
+          "english_id": "C1-E02"
+        }
+      },
+      "terminal_review": {
+        "reviewer": "/root",
+        "reviewed_at": "2026-11-07T21:01:25.048366+08:00",
+        "decision": "discussion_candidate",
+        "reason": "四份质量过门槛、双语公开使用筛查通过；主控已核出处及与旧余项不同家族；实际A4接受工程用语语义短板补审。登记未清空。",
+        "evidence_refs": [
+          {
+            "path": "A2-candidates-batch1.json",
+            "sha256": "de29716948169e218e2207fdb612e83e8d0a5e6dbed0e3bc5b92e623f9fae2d4"
+          },
+          {
+            "path": "A2-quality-batch1.json",
+            "sha256": "e1a05ad992652744001c7cf6a2659c4eb8ae85034dccc9460a893f94cf0a976d"
+          },
+          {
+            "path": "coordinator-cn-batch1.json",
+            "sha256": "3945d61b3c61e96f043a6e9045268a55065d19588cd9eef2dc9a96aa7e03f49d"
+          },
+          {
+            "path": "coordinator-family-review-batch1.json",
+            "sha256": "3a18cb9dc6e7131e9d8b2c06a96a4cff443285684a2f4239570e841dc25a37f0"
+          },
+          {
+            "path": "A3-cn-batch2.json",
+            "sha256": "2166ecfaeecbb954fcdba3a9249949f914c9b7eb09f2852eb77ea4c45646788f"
+          },
+          {
+            "path": "A4-batch2.json",
+            "sha256": "d937c1ebd13b25bbf085e88c32a3175520566248f8c45a3d5aaa104b5d446b54"
+          },
+          {
+            "path": "A4-quality-batch2.json",
+            "sha256": "b8491c0eef8daae57c1934773179402b58f8225acffab78fc394bb2b55fef040"
+          },
+          {
+            "path": "coordinator-en-batch2.json",
+            "sha256": "ad2ac74bde4ae3a1a736b4ccbacd7bbd24164480fa672c8059c586b5998054c7"
+          },
+          {
+            "path": "A3-en-batch2.json",
+            "sha256": "fbc7bc6f8f3c4e3ffd91d66f82ba0299bc18b2ba2461633e25898c291d1d0eb2"
+          },
+          {
+            "path": "A4-E02-usage-note.json",
+            "sha256": "d24ba7e761b8715091332c4d04fc5c8d6da1608df3c9a9c9c0a70bff4046b859"
+          },
+          {
+            "path": "root-source-review.json",
+            "sha256": "49a558674f99af9d362b985ff2275710ff36fb03054230d5714ba662b2bede7e"
+          }
+        ]
+      }
+    },
+    {
+      "chinese_id": "C1-C08",
+      "english_id": "C1-E04",
+      "family_id": "C1-BF-members-become-adaptive-support",
+      "chinese": "活桥",
+      "pinyin": "huó qiáo",
+      "english": "Antspan",
+      "suggested_pronunciation": "ANT-span /ˈæntspæn/（建议，两处a均按ant/span的普通读音）。",
+      "source": {
+        "title": "Reid et al.: Army ants dynamically adjust living bridges in response to a cost–benefit trade-off",
+        "url": "https://www.thekaolab.com/papers/Reid_PNAS_2015.pdf",
+        "read_scope": "作者实验室托管原论文，PDF页1–2摘要/实验设计/结果；讨论段动态变位、成本与最优性限制",
+        "date": "2015-11-23",
+        "access": "body"
+      },
+      "fact": "行军蚁以身体连接成桥，桥随交通量和地形几何调整位置与大小；投入桥体的工蚁暂时不能觅食，存在结构收益与成员占用的代价权衡。",
+      "meaning": "连接并非预先建成；行动者本身也能成为新的支撑。",
+      "crossing": "桥通常是固定设施，论文中的桥却由活动的蚂蚁身体构成，并依使用条件改变形状和位置。活与桥之间的反差，来自同一个真实对象，而非两个好字硬拼。",
+      "layers": [
+        "一座会活起来的桥，有直接图景",
+        "成员临时成为结构，结构随交通与地形变化",
+        "研究群体、工具与智能系统怎样形成新的可用组织"
+      ],
+      "shortcoming": "容易先被当成桥梁工程、城市更新或生态公司；活字也可能显轻。需主控独立判断它能否像真实研究机构称呼。",
+      "english_formation": "ant是蚂蚁，span可指桥跨或跨越的距离。把ant与span两个完整英语语素连成一个短称呼：蚂蚁本身构成可跨越的桥跨。两部分原本就在同一个真实对象中，不是为了避重拼入无义字母，也不宣称Antspan是论文正式术语或现成词典词。",
+      "bilingual_relation": "中文保留活的桥这一反常对象，英文保留组成桥的蚂蚁与它们共同形成的跨距；两边指向同一身体自组装结构。中文更宽，英文把自然出处带在名称里，非逐字翻译。",
+      "english_shortcoming": "初次需介绍ant+span的拆分；连读ntsp辅音较密，但仍是两个正常短词。可能先像蚁群算法、昆虫研究或桥梁工程，英文比中文更绑定蚂蚁形象；不应把所有带ant的品牌当同一词源，也不能靠动物名自动获得AI身份。 实际已见antispam类别的Antspan误拼语境；快速听写、自动纠错和检索可能偏向antispam。已由A4及主控读原上下文后补审接受为讨论名，不称即听即写或词形从未出现。",
+      "scientific_boundary": "观察中的调整不证明全局最优，更不直接证明AI能力提升；投入桥体不等于死亡牺牲。",
+      "chinese_screen": {
+        "candidate_id": "C1-C08",
+        "name": "活桥",
+        "query_logs": [
+          {
+            "query": "\"活桥\"",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。"
+          },
+          {
+            "query": "\"活桥\" 公司 科技",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。"
+          },
+          {
+            "query": "\"活桥\" AI 模型 软件",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。"
+          },
+          {
+            "query": "\"活橋\" 公司 軟體",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。"
+          },
+          {
+            "query": "\"huoqiao\" company AI",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。"
+          },
+          {
+            "query": "\"活桥科技\" OR \"活桥智能\" OR \"活桥软件\"",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。"
+          },
+          {
+            "query": "\"活桥\" \"有限公司\"",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。",
+        "evidence": [
+          {
+            "url": "https://www.xinhuanet.com/world/2016-04/13/c_128890254.htm",
+            "access": "search_text_only_open_redirect_loop",
+            "finding": "2016报道当地居民以树根建活桥，标题描述自然/工程对象，非科技品牌；打开重定向循环。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "本轮实际入口403，未逐名检索"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "共同入口实际403，未进入逐名逐类检索"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Huoqiao",
+            "scope": "实际逐名搜索URL不可访问，不代表无公司"
+          }
+        }
+      },
+      "english_screen": {
+        "candidate_id": "C1-E04",
+        "name": "Antspan",
+        "query_logs": [
+          {
+            "query": "\"Antspan\"",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。"
+          },
+          {
+            "query": "\"Antspan\" company lab technology",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。"
+          },
+          {
+            "query": "\"Antspan\" AI model",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。"
+          },
+          {
+            "query": "\"Antspan\" software product",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。"
+          },
+          {
+            "query": "\"Ant Span\" OR \"Ant-Span\" company software",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。"
+          },
+          {
+            "query": "\"Antspan\" brand startup -site:seslisozluk.net -filetype:pdf -site:reclameaqui.com.br -site:solutudo.com.br",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。"
+          },
+          {
+            "query": "\"Antspan\" \"MAV\"",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。",
+        "evidence": [
+          {
+            "url": "https://sites.google.com/site/silviogarbes/curriculo",
+            "access": "primary_personal_cv_body_read",
+            "finding": "L125 Antspan: MAV Mail Suite Anstispam，与Antivirus: AVG Network等同列，是技术类别说明与软件实例，不是独立Antspan软件名。个人不作同名公司。"
+          },
+          {
+            "url": "https://www.solutudo.com.br/empresas/go/goiania/terraplanagens/lc-pavimentacao-e-terraplanagem-ltda-37271884",
+            "access": "third_party_search_text_only",
+            "finding": "实际公司LC Pavimentacao E Terraplanagem Ltda，Antspan在邮箱标识出现而非公司/产品名称。"
+          },
+          {
+            "url": "https://s3.amazonaws.com/el.com.br/portal/uploads/1847/arquivos/E7CCCBA7F8EFD0E6D1B1B5132A527C4F.pdf",
+            "access": "government_report_search_text_only",
+            "finding": "Gerenciamento do Sistema de AntSpan后是放行/阻挡邮件、blacklist/whitelist，属于antispam服务类别。未据此虚构厂商。"
+          },
+          {
+            "url": "https://www.seslisozluk.net/ant---nedir-ne-demek/",
+            "access": "search_text_only",
+            "finding": "摘要出现span class word-self antspan，HTML标签黏连，不作为实际Antspan词典词或软件证据。"
+          },
+          {
+            "url": "https://www.reclameaqui.com.br/hostgator/email-nao-estao-funcionando_sU4snEJqFRA5E7Qq/",
+            "access": "search_text_only_body_403",
+            "finding": "用户投诉antspan阻挡邮件，网页403；语境指反垃圾过滤，不据此确证完整同名软件。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "本轮实际入口403，未逐名检索"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "共同入口实际403，未进入逐名逐类检索"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Antspan",
+            "scope": "实际逐名搜索URL不可访问，不代表无公司"
+          }
+        },
+        "chinese_candidate_id": "C1-C08",
+        "chinese": "活桥",
+        "semantic_risk": "已实际见多处Antspan作为antispam误拼；与反垃圾邮件词形/发音近似，须交A4主控再评品牌独立性，不能声称世上首次造词；不因该通类词就自动认实际科技品牌占用。"
+      },
+      "quality": {
+        "chinese_producer": {
+          "candidate_id": "C1-C08",
+          "name": "活桥",
+          "language": "zh",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a2",
+          "scores": {
+            "naturalness": 5,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 5
+          },
+          "total": 27,
+          "notes": {
+            "naturalness": {
+              "reason": "两字正常修饰关系，读音简单",
+              "counter_association": "像基建公司"
+            },
+            "distinctiveness": {
+              "reason": "活的桥有物体反差可记",
+              "counter_association": "可能生态项目也用此画面"
+            },
+            "lab_fit": {
+              "reason": "自组织和适应结构能支撑研究身份",
+              "counter_association": "研究身份不能只靠蚂蚁论文"
+            },
+            "grounding": {
+              "reason": "身体组成桥且随交通改变为原研究对象",
+              "counter_association": "没有最优保证"
+            },
+            "extension": {
+              "reason": "能研究不同智能组织及工具结构",
+              "counter_association": "若只限桥梁仿生会过窄"
+            },
+            "semantic_coherence": {
+              "reason": "活的成员和桥的支撑作用确在同一对象",
+              "counter_association": "不能只剩连接与活力的泛泛解释"
+            }
+          },
+          "decision": "quality_pass",
+          "independent_submission_ref": "A2-quality-batch2.json producer-only submission"
+        },
+        "chinese_coordinator": {
+          "candidate_id": "C1-C08",
+          "name": "活桥",
+          "reviewer": "coordinator",
+          "scores": {
+            "naturalness": 4,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 25,
+          "notes": {
+            "naturalness": {
+              "reason": "两字可直接称呼",
+              "counter_association": "活字口语化"
+            },
+            "distinctiveness": {
+              "reason": "活的桥有清晰反常性",
+              "counter_association": "初听工程生态"
+            },
+            "lab_fit": {
+              "reason": "可容纳群体组织研究",
+              "counter_association": "要靠研究建立身份"
+            },
+            "grounding": {
+              "reason": "成员成为桥体确有实验",
+              "counter_association": "不是证明全局最优"
+            },
+            "extension": {
+              "reason": "不限单一算法",
+              "counter_association": "若泛化连接会与旧家族重合"
+            },
+            "semantic_coherence": {
+              "reason": "成员与结构同一关系",
+              "counter_association": "不代表成员死亡"
+            }
+          },
+          "decision": "quality_pass"
+        },
+        "english_producer": {
+          "candidate_id": "C1-E04",
+          "chinese_id": "C1-C08",
+          "english": "Antspan",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a4",
+          "scores": {
+            "pronunciation": 4,
+            "spelling": 5,
+            "grounding": 5,
+            "bilingual_relation": 5,
+            "distinctiveness": 4
+          },
+          "total": 23,
+          "notes": {
+            "pronunciation": {
+              "reason": "ant和span各一个短音节，组合后读法可直接解释。",
+              "counter_association": "中间ntsp辅音群对部分使用者有一次连读成本。"
+            },
+            "spelling": {
+              "reason": "两个完整普通语素直接相接，可还原拼写。",
+              "counter_association": "初次可能分写Ant Span，需A3另查。"
+            },
+            "grounding": {
+              "reason": "蚂蚁与桥跨同在原论文真实对象中，组合有完整关系。",
+              "counter_association": "Antspan是品牌造词，不是现成术语或论文命名。"
+            },
+            "bilingual_relation": {
+              "reason": "活的桥和蚂蚁形成的桥跨指向同一身体自组装。",
+              "counter_association": "英文比中文更绑定蚂蚁，需要接受具体自然形象。"
+            },
+            "distinctiveness": {
+              "reason": "短词有可画的主体与作用，能形成独立研究称呼。",
+              "counter_association": "昆虫、蚁群算法和土木工程联想可能更先出现。"
+            }
+          },
+          "status": "pass_quality_gate",
+          "note": "主观编辑判断；等待主控先读无分预览独评，再读本档并授权原A3。"
+        },
+        "english_coordinator": {
+          "candidate_id": "C1-C08",
+          "name": "Antspan",
+          "reviewer": "coordinator",
+          "scores": {
+            "pronunciation": 4,
+            "spelling": 4,
+            "grounding": 5,
+            "bilingual_relation": 5,
+            "distinctiveness": 4
+          },
+          "total": 22,
+          "notes": {
+            "pronunciation": {
+              "reason": "两单音节可顺接",
+              "counter_association": "ntsp辅音簇略密"
+            },
+            "spelling": {
+              "reason": "两个完整词素可辨",
+              "counter_association": "首次需介绍词素拆分"
+            },
+            "grounding": {
+              "reason": "蚂蚁组成桥跨真实同源",
+              "counter_association": "不是论文正式术语"
+            },
+            "bilingual_relation": {
+              "reason": "两语均指活体桥结构",
+              "counter_association": "英文比中文更绑定蚂蚁"
+            },
+            "distinctiveness": {
+              "reason": "单词形称呼较鲜明",
+              "counter_association": "像蚁群软件或桥梁工程"
+            }
+          },
+          "decision": "quality_pass",
+          "english_id": "C1-E04"
+        }
+      },
+      "terminal_review": {
+        "reviewer": "/root",
+        "reviewed_at": "2026-11-07T21:11:22.301030+08:00",
+        "decision": "discussion_candidate",
+        "reason": "真实出处、独立双评、同一A3中英分段查询已核，家族非旧英文改写，具体条件与反联想保留；官方登记未清空。 主控实际读个人CV125–127，支持非独立软件；补审风险不改变既有通过，但最终短板明列。",
+        "evidence_refs": [
+          {
+            "path": "A2-candidates-batch2.json",
+            "sha256": "a6edfe841b0c674cf075ca8f5b3333632cb70e12c210047233bae14ec6a00419"
+          },
+          {
+            "path": "A2-quality-batch2.json",
+            "sha256": "f9468f86c3e49fa4ec59ddf61a9320929a43a84f6ad1e2c7ce1433fae021d5d0"
+          },
+          {
+            "path": "coordinator-cn-batch2.json",
+            "sha256": "f5637459e86591cafb960eb846ef4a447098edb2f29ca52fe64abb3710a8cc60"
+          },
+          {
+            "path": "A3-cn-batch3.json",
+            "sha256": "c202e39d45f913f8a42b016f764a7f809b341633a6743fc3df99283ccc763084"
+          },
+          {
+            "path": "A4-batch4.json",
+            "sha256": "cf7421fcd00d3ba846c91a9bdbbfb6ca733401495d9d09934209224ef43793d1"
+          },
+          {
+            "path": "A4-quality-batch4.json",
+            "sha256": "984e65b7a179c1716aa322da017708702dae22a8d03164d7c83da635a20650fd"
+          },
+          {
+            "path": "coordinator-en-batch4.json",
+            "sha256": "be3423f457c6a899183210a89f8eccf11e31ae3cc4ac08c43b7942a7667f8f5a"
+          },
+          {
+            "path": "A3-en-batch4.json",
+            "sha256": "f2faa8c3645160bfbffb37d78063370d4e60b87c04b2615d7c7c7f994a9cd9be"
+          },
+          {
+            "path": "root-source-review-batch2.json",
+            "sha256": "eec81a96b67e1197d76864e1453828b7dd4d4d8663cf007a09fcf6ac589f66ea"
+          },
+          {
+            "path": "A4-E04-usage-note.json",
+            "sha256": "855de77a04c8f0cd66983b53f6beb713e4f637a0cff3598d2b3a0934257758be"
+          }
+        ]
+      }
+    },
+    {
+      "chinese_id": "C1-C14",
+      "english_id": "C1-E11",
+      "family_id": "C1-BF-real-outcome-counts-as-valid",
+      "chinese": "作数",
+      "pinyin": "zuò shù",
+      "english": "Factborne",
+      "suggested_pronunciation": "FACT-born，/ˈfækt.bɔːrn/，两个音节。",
+      "source": {
+        "title": "DOE Announces Four National Laboratory-Led Selections to Advance Robotics and Automation for Autonomous Scientific Discovery",
+        "url": "https://www.energy.gov/science/articles/doe-announces-four-national-laboratory-led-selections-advance-robotics-and",
+        "read_scope": "正文L7–30，重点DART L17–18、四项目角色L23–28与协商边界L29–30",
+        "date": "2026-10-08",
+        "access": "body"
+      },
+      "fact": "DOE于2026-10-08公布自主科研机器人项目选择，DART目标明确区分机器人完成动作，与实际物理和科学结果满足实验要求。该公告是协商选定项目的目标，不是已经完成成果。",
+      "meaning": "能力最终要在真实事情上作数。",
+      "crossing": "DOE的自主科研项目明确：机器人完成动作之外，还需物理与科学结果符合实验要求。口语里“说了不算，要真的作数”将这种结果有效性转成自然可称呼的研究立场。",
+      "layers": [
+        "日常说一件事情有效、能被当回事",
+        "动作完成与科学结果有效之间的区别",
+        "实验室研究已有智能在真实使用中怎样形成可检验的能力"
+      ],
+      "shortcoming": "可能被听写成做数或算数，也可能像数据统计、财税工具；一旦使用这个名字，宣传便会受到有效性这个立场的检验。不是宣称公司永远正确。",
+      "english_formation": "fact（实际发生或存在的事实）+ borne（承载、携带；bear的过去分词）。现有英语有airborne等完整构形；本案把承载对象换为事实，表达研究主张由实际事实托住的关系。Factborne不是已核实的词典词，也不是现有科学机制的正式名称。这里不是born出生，亦非把Bear Out改一两个字母避重。",
+      "bilingual_relation": "中文作数要求结果实际有效、可采用；英文把对能力的主张视作需要由事实承载的东西。一边说结果要有效，一边说凭什么成立：依靠已观察的事实，而非仅完成动作或作出漂亮承诺。二者共享主张与有效结果之间的支撑关系。",
+      "english_shortcoming": "Fact-borne是有据语素的比喻性新合成，需要首次解释，并非母语既有习语；可能被听写为Factborn，/ktb/边界需清晰发音。也可能首先被理解成事实核查或新闻工具公司。borne原有携带/传播义不自动等于科学证实，这段从承载到主张支撑的转用必须承认，不能靠词典引文掩盖。",
+      "scientific_boundary": "来源是选定协商项目的未来目标，不能当已完成成绩；有效性要依具体任务和实验证据判断，不承诺每一次模型输出都可靠。",
+      "chinese_screen": {
+        "candidate_id": "C1-C14",
+        "name": "作数",
+        "query_logs": [
+          {
+            "query": "\"作数\"",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          },
+          {
+            "query": "\"作数\" 公司 科技",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          },
+          {
+            "query": "\"作数\" AI 模型 软件",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          },
+          {
+            "query": "\"作數\" 公司 軟體",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          },
+          {
+            "query": "\"zuoshu\" company AI",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          },
+          {
+            "query": "\"作数科技\"",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          },
+          {
+            "query": "\"作数智能\"",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          },
+          {
+            "query": "\"作数\" \"有限公司\"",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。",
+        "evidence": [
+          {
+            "url": "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202501/052897_20250123_H0S4.pdf",
+            "access": "primary_pdf_downloaded_first_page_render_visually_read",
+            "finding": "web打开超时；curl完整下载127页PDF至/tmp/a3-zuoshu-sse.pdf，首面渲染/tmp/a3-zuoshu-sse-p1.png明确华数数字电视传媒集团有限公司审计报告。不是作数公司。"
+          },
+          {
+            "url": "https://zuoshu.com/t/zixun",
+            "access": "search_index_only_open_timeout",
+            "finding": "做書为出版文化自媒体，同拼音不同中文字，不用作中文精确占用。"
+          },
+          {
+            "url": "https://dgip.go.id/uploads/berita_resmi/file/ad2dfc97cc337246c2b0d5d686b2e3d3.pdf",
+            "access": "search_index_only_not_pdf_read",
+            "finding": "印尼官方商标公告搜索索引ZUOSHU+LOGO、DID2024129957、11类电热家电。未逐页核读，中文未知，不作为作数同名证明；披露拼音英文风险。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "本轮实际入口403，未逐名检索"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "共同入口实际403，未进入逐名逐类检索"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Zuoshu",
+            "scope": "实际逐名搜索URL不可访问，不代表无公司"
+          }
+        }
+      },
+      "english_screen": {
+        "candidate_id": "C1-E11",
+        "name": "Factborne",
+        "query_logs": [
+          {
+            "query": "\"Factborne\"",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          },
+          {
+            "query": "\"Factborne\" company lab",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          },
+          {
+            "query": "\"Factborne\" AI model",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          },
+          {
+            "query": "\"Factborne\" software product",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          },
+          {
+            "query": "\"Fact Borne\"",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          },
+          {
+            "query": "\"Factborn\"",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          },
+          {
+            "query": "\"Fact Born\" company software",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          },
+          {
+            "query": "\"Factborn\" company AI software",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。",
+        "evidence": [
+          {
+            "url": "https://timesofindia.indiatimes.com/city/hyderabad/pw-sets-terms-for-oppn-parties/articleshow/336311.cms",
+            "access": "primary_news_body_read",
+            "finding": "2003新闻正文L174显示A factborne out by the reality…，前后多处丢空格，如heartlandwith，明确语句而非Factborne商业机构。"
+          },
+          {
+            "url": "https://cp3.irmp.ucl.ac.be/projects/madgraph/attachment/wiki/GIFSchool/HiggsGG-NLO.nb",
+            "access": "search_index_code_extract_read_open_timeout",
+            "finding": "Mathematica notebook L226 factborn=gs2，随后用于Born表达式，是内部变量，不是独立软件Factborn；直接打开超时，读取范围仅索引代码。"
+          },
+          {
+            "url": "https://www.buzzsprout.com/2567929/episodes/18847716-forkortelser-ai-assistenter-og-refleksjoner",
+            "access": "search_index_transcript_extract_only",
+            "finding": "北欧语言播客6:16转录句中factborn，节目自身名称Forkortelser, AI-assistenter og refleksjoner；无独立Factborn商业品牌证据。"
+          },
+          {
+            "url": "https://www.cmsdistribution.com/vendors/rocket-software",
+            "access": "search_index_body_extract_only",
+            "finding": "Rocket Software厂商介绍a fact born out by…普通语句，不是Fact Born软件品牌。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "本轮实际入口403，未逐名检索"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "共同入口实际403，未进入逐名逐类检索"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Factborne",
+            "scope": "实际逐名搜索URL不可访问，不代表无公司"
+          }
+        },
+        "chinese_candidate_id": "C1-C14",
+        "chinese": "作数",
+        "version": "first_english_rework_attempt1",
+        "precise_use_type": "no_confirmed_same_core_public_technology_or_commercial_brand_found"
+      },
+      "quality": {
+        "chinese_producer": {
+          "candidate_id": "C1-C14",
+          "name": "作数",
+          "language": "zh",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a2",
+          "scores": {
+            "naturalness": 5,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 4,
+            "extension": 4,
+            "semantic_coherence": 5
+          },
+          "total": 26,
+          "notes": {
+            "naturalness": {
+              "reason": "现成口语动词，声音简短直接",
+              "counter_association": "听写做数算数"
+            },
+            "distinctiveness": {
+              "reason": "事情究竟作不作数有鲜明口语态度",
+              "counter_association": "可能是统计工具第一联想"
+            },
+            "lab_fit": {
+              "reason": "把智能能力落到实际结果，可承接Lab使命",
+              "counter_association": "也可能财税公司"
+            },
+            "grounding": {
+              "reason": "DOE原文确区分动作与实验结果，项目尚非完成",
+              "counter_association": "不是已证团队成果"
+            },
+            "extension": {
+              "reason": "可覆盖多任务多系统的有效能力研究",
+              "counter_association": "太宽时需持续研究赋义"
+            },
+            "semantic_coherence": {
+              "reason": "有效的日常原义与科学效度要求同向",
+              "counter_association": "不把作数偷换成永不出错"
+            }
+          },
+          "decision": "quality_pass",
+          "independent_submission_ref": "A2-quality-batch4.json producer-only submission"
+        },
+        "chinese_coordinator": {
+          "candidate_id": "C1-C14",
+          "name": "作数",
+          "reviewer": "coordinator",
+          "scores": {
+            "naturalness": 5,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 4,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 25,
+          "notes": {
+            "naturalness": {
+              "reason": "完整日常谓词自然",
+              "counter_association": "容易写成做数或算数"
+            },
+            "distinctiveness": {
+              "reason": "有效作数的口语态度鲜明",
+              "counter_association": "普通口语非专名"
+            },
+            "lab_fit": {
+              "reason": "能容纳实际有效性研究",
+              "counter_association": "可能像统计财税工具"
+            },
+            "grounding": {
+              "reason": "DOE项目明确行动与效度差别",
+              "counter_association": "项目目标不是已完成成果"
+            },
+            "extension": {
+              "reason": "不限单一模型工具",
+              "counter_association": "不是永远正确承诺"
+            },
+            "semantic_coherence": {
+              "reason": "口语有效与科研结果有效同义相接",
+              "counter_association": "数的数字义不该事后硬拆"
+            }
+          },
+          "decision": "quality_pass"
+        },
+        "english_producer": {
+          "candidate_id": "C1-E11",
+          "chinese_id": "C1-C14",
+          "english": "Factborne",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a4",
+          "scores": {
+            "pronunciation": 4,
+            "spelling": 4,
+            "grounding": 4,
+            "bilingual_relation": 5,
+            "distinctiveness": 4
+          },
+          "total": 21,
+          "notes": {
+            "pronunciation": {
+              "reason": "完整熟悉的fact与borne，两个音节，可正常称呼。",
+              "counter_association": "fact末尾kt与borne起首b相接，口头首次需清楚。"
+            },
+            "spelling": {
+              "reason": "各语素保持标准拼法，没有截词或无义字母。",
+              "counter_association": "born同音有真实听写成本，需解释末尾e为borne携带。"
+            },
+            "grounding": {
+              "reason": "事实与承载共同形成主张依靠实际结果成立的单一支撑关系，不是附加成长美好词。",
+              "counter_association": "carried-by转为证据支撑属于品牌比喻，不能当严格词典等义。"
+            },
+            "bilingual_relation": {
+              "reason": "中文结果作数、英文主张须以事实为依据，共同落实有效结果与能力主张的关系。",
+              "counter_association": "中文还包括承诺生效，英文更偏事实证据；不是逐字翻译。"
+            },
+            "distinctiveness": {
+              "reason": "完整合成可作为独立专名，不是普通操作按钮或完整口号。",
+              "counter_association": "可能像事实核查产品，其实际已有使用与近似拼法仍待A3。"
+            }
+          },
+          "status": "pass_quality_gate",
+          "note": "主观编辑判断；等待主控先读无分预览独评，再读本档并授权原A3。"
+        },
+        "english_coordinator": {
+          "candidate_id": "C1-C14",
+          "name": "Factborne",
+          "reviewer": "coordinator",
+          "scores": {
+            "pronunciation": 5,
+            "spelling": 4,
+            "grounding": 4,
+            "bilingual_relation": 4,
+            "distinctiveness": 4
+          },
+          "total": 21,
+          "notes": {
+            "pronunciation": {
+              "reason": "fact与borne两普通音节保留常规读音",
+              "counter_association": "ktb边界需清晰"
+            },
+            "spelling": {
+              "reason": "完整词素可以解释拼写",
+              "counter_association": "borne与born同音"
+            },
+            "grounding": {
+              "reason": "主张由事实承载为有边界的品牌比喻",
+              "counter_association": "承载不自动等同科学证实"
+            },
+            "bilingual_relation": {
+              "reason": "作数与事实支撑共同要求实际结果",
+              "counter_association": "非逐字等义且偏事实核查"
+            },
+            "distinctiveness": {
+              "reason": "完整新称呼有鲜明态度",
+              "counter_association": "新闻核查工具首联想明显"
+            }
+          },
+          "decision": "quality_pass",
+          "english_id": "C1-E11"
+        }
+      },
+      "terminal_review": {
+        "reviewer": "/root",
+        "reviewed_at": "2026-11-07T21:34:39.981233+08:00",
+        "decision": "discussion_candidate",
+        "reason": "真实出处、独立双评、同一A3中英分段查询已核，家族非旧英文改写，具体条件与反联想保留；官方登记未清空。 主控独立核读DOE正文10–30，MW fact及borne原义；承载转为证据支撑是明示品牌比喻，非辞典等义、既有机制或性能承诺。",
+        "evidence_refs": [
+          {
+            "path": "A2-candidates-batch4.json",
+            "sha256": "957bf8655fc641d800ed4929e7fcfc65e307d461c4ca379e068325b10b0fa813"
+          },
+          {
+            "path": "A2-quality-batch4.json",
+            "sha256": "468616ee2229b52b29bc10e73d28574cf58129aef0f7a877227a9dd196fc1676"
+          },
+          {
+            "path": "coordinator-cn-batch4.json",
+            "sha256": "5f4874e4f6ef4a05e2b8e5ba85322ae92f55d931ff2dc96eaa4b7c4e0b4f7eff"
+          },
+          {
+            "path": "A3-cn-batch5.json",
+            "sha256": "68decdd14702ea14101fa2ed22e3c373328eeeb0db85c37d2ff9bccc9eeeeb08"
+          },
+          {
+            "path": "A4-batch11.json",
+            "sha256": "64de497390eb70869fa0d2a0888a8842741ae13a9d8c63d997a9b35ae066ec70"
+          },
+          {
+            "path": "A4-quality-batch11.json",
+            "sha256": "b2c6685ff15de05bfed817c0e54ce05bb671eb5c4026e2a2d63c8b1f44e9efc5"
+          },
+          {
+            "path": "coordinator-en-batch11.json",
+            "sha256": "6ef20031c966665951fa660fba1ac8f7bfda6ab516db7bba915069fa7b89ae83"
+          },
+          {
+            "path": "A3-en-batch11.json",
+            "sha256": "4e1267083380c070a710e5edc0b6785a7e008be6f96537800940f2765c7d01e2"
+          }
+        ]
+      }
+    }
+  ],
+  "status_note": "本数组保留曾准入终审记录。当前推荐必须应用research/catalog/revisions.json，不能以数组长度当当前备选数。C1-C06已撤回，不推荐。",
+  "withdrawn_ids": [
+    "C1-C06"
+  ]
+}

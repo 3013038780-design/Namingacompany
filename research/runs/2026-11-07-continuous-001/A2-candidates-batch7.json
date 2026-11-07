@@ -1,0 +1,82 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-07T21:58:55.414873+08:00",
+  "scope": "最多两案工作包本次只形成一项中文草案；未做占用查询或英文匹配。",
+  "candidates": [
+    {
+      "id": "C1-C18",
+      "name": "余光",
+      "pinyin": "yú guāng",
+      "material_id": "C1-M26",
+      "material_ids": [
+        "C1-M26"
+      ],
+      "family_id": "C1-BF-information-beyond-central-fixation",
+      "plan_direction_id": "C1-D-S5",
+      "case_ids": [
+        "B037",
+        "B027"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P4",
+        "C1-P5"
+      ],
+      "source_urls": [
+        "https://web.mit.edu/rruth/www/Papers/RosenholtzSPIE2011.pdf",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6660188/"
+      ],
+      "sources": [
+        {
+          "title": "Ruth Rosenholtz: What your visual system sees where you are not looking",
+          "url": "https://web.mit.edu/rruth/www/Papers/RosenholtzSPIE2011.pdf",
+          "published_at": "2011",
+          "reading_location": "PDF前4页L0–134：摘要、1.1视觉瓶颈、1.2表征策略与图3/4说明；未通读14页全文",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_PDF_body"
+        },
+        {
+          "title": "Rosenholtz, Yu & Keshvari: Challenges to pooling models of crowding: Implications for visual mechanisms",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6660188/",
+          "published_at": "2019-07-26",
+          "reading_location": "正文L98–140：摘要、拥挤定义、引言与池化模型说明；未读其后模型挑战逐项论证",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body"
+        }
+      ],
+      "formation": "直接用现成、可感的视觉经验词；不是余量撤回后的换字。余指不处在注视中心的部分，光来自同一个视觉场景，不各编一个吉祥义。",
+      "relation_sentence": "眼睛正看着一处时，周边没有保留同样精确的细节，却仍提供场景线索，参与决定接下来该关注哪里。",
+      "condensation_path": "保留“中心之外仍有可用信息”这一完整关系，用日常余光称呼，不把论文的池化术语或统计参数搬上招牌。",
+      "meaning": "不在中心，也在参与认识。",
+      "crossing": "日常余光是眼角仍能感觉到的周围；已读研究进一步追问它具体保留了什么、丢失了什么、怎样支持判断。两层都围绕中心外的信息作用，不借日落残照另讲未来或成长。",
+      "layers": [
+        "日常能直接称呼的眼角视觉经验",
+        "精确细节损失与可用场景信息共存",
+        "研究系统如何使用中心任务之外仍然相关的信息"
+      ],
+      "material_feature_retained": "保留非中心表征即使不精确仍能参与后续判断的关系。",
+      "material_feature_lost": "名字不含拥挤、池化范围或统计表征的具体模型条件，不能单凭名字分清各种周边任务。",
+      "why_name_not_generic": "有明确身体经验与空间位置，专业第二层仍在解释同一经验；不加智/元/跃，不借光的明亮寓意补增长。",
+      "shortcoming": "可能先像眼镜、摄影、照明或文学品牌；也有落日余晖的语感。名字本身不明示AI业务，需要实际研究赋予身份，来源不能自动消除行业误读。",
+      "science_boundary": "只实读列明节选；作者2019文仍要求分开编码与决策效应并保留定量检验工作。本文不证明机器具有人的视觉经验或必然变得更聪明。 “不在中心”不等于完全未被注意，余光不是无损全景或超能力。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "旧抬眼CT-F-directed-gaze-active-attention以改变注视点获得中央凹高分辨率输入；本项关注未成为注视中心的表征保留/损失及其作用。旧察觉为刺激检测/报告偏差，M21为遮挡前后变化比较；若最终只讲看看周围或发现被忽略之物，应并回旧感知家族，不因新论文题目而独立。 与余量仅同一个常用字：余量源为预留编码冗余/容错，且已撤回；本项不是给被撤回家族重配词或英文。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ],
+      "oral_test": [
+        "我们是余光，做人工智能研究。",
+        "余光发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened"
+    }
+  ]
+}

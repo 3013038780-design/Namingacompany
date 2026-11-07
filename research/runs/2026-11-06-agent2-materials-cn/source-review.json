@@ -1,0 +1,182 @@
+{
+  "reviewer": "/root",
+  "status": "completed_sample_review",
+  "scope": "Source-body audit; draft Chinese quality is reviewed separately. Reading a passage does not establish naming suitability or availability.",
+  "sources": [
+    {
+      "id": "ROOT-S01",
+      "url": "https://www.gutenberg.org/files/37423/37423-h/37423-h.htm",
+      "access": "body",
+      "reading_location": "Chapter VI, pp68–78, three reasoning examples and five steps",
+      "observed_at": "2026-11-06T14:12:00+08:00",
+      "execution_ref": "web open turn826view0",
+      "supports": "Dewey compares practical deliberation, explaining a ferry pole and testing bubbles; rival explanations require inference and observation.",
+      "boundary": "Supports an alternative-explanation material relationship; does not assert the Chinese brand word 另解 occurs in the original.",
+      "candidate_ids": [
+        "A2C02"
+      ],
+      "material_ids": [
+        "M02"
+      ]
+    },
+    {
+      "id": "ROOT-S02",
+      "url": "https://psychclassics.yorku.ca/James/Principles/prin9.htm",
+      "access": "body",
+      "reading_location": "Chapter IX, pp258–260, fringe/psychic overtone and musical overtone analogy",
+      "observed_at": "2026-11-06T14:13:50+08:00",
+      "execution_ref": "web open turn835view0; find turn838view0",
+      "supports": "James uses musical overtones as analogy for dimly perceived contextual relations in thought.",
+      "boundary": "Historical psychology argument, not modern proof about machine consciousness; 弦外 is a Chinese creative association, not a quoted technical translation.",
+      "candidate_ids": [
+        "A2C03"
+      ],
+      "material_ids": [
+        "M03"
+      ]
+    },
+    {
+      "id": "ROOT-S03",
+      "url": "https://www.feynmanlectures.caltech.edu/I_52.html",
+      "access": "body",
+      "reading_location": "Vol I chapter52, sections52–1 through52–3",
+      "observed_at": "2026-11-06T14:13:00+08:00",
+      "execution_ref": "web open turn832view0",
+      "supports": "Distinguishes symmetry of objects from invariance of laws under transformations and relates symmetries to conservation laws.",
+      "boundary": "Does not mean every change leaves every system unchanged; scale changes explicitly given as counterexample.",
+      "candidate_ids": [],
+      "material_ids": [
+        "M07"
+      ]
+    },
+    {
+      "id": "ROOT-S04",
+      "url": "https://composingprograms.com/pages/13-defining-new-functions.html",
+      "access": "body",
+      "reading_location": "Section1.3, compound functions and environments; opened excerpt lines64–125",
+      "observed_at": "2026-11-06T14:09:00+08:00",
+      "execution_ref": "web open turn801view1",
+      "supports": "Names bind values; functions abstract compound operations; an environment is a sequence of frames containing bindings.",
+      "boundary": "Only this chapter excerpt checked; candidate mapping awaits delivered cards.",
+      "candidate_ids": [],
+      "material_ids": []
+    },
+    {
+      "id": "ROOT-S05",
+      "material_ids": [
+        "M04"
+      ],
+      "url": "https://mobile-api.moma.org/explore/inside_out/2012/07/12/surface-and-light-liz-deschenes/",
+      "access": "body",
+      "reading_location": "Main essay paragraphs corresponding to lines8–27",
+      "observed_at": "2026-11-06T14:17:22+08:00",
+      "timestamp_note": "Receipt recording time, not source open start time.",
+      "execution_ref": "web open turn852view0",
+      "supports": "MoMA describes cameraless photograms, moonlight exposure and silver toner; relates experimental images to science education.",
+      "boundary": "Photography is literal; knowledge becoming visible remains brand interpretation."
+    },
+    {
+      "id": "ROOT-S06",
+      "material_ids": [
+        "M08"
+      ],
+      "url": "https://sim.cas.cn/xwzx2016/kyjz/202610/t20261008_8289654.html",
+      "access": "body",
+      "reading_location": "Research body lines6–26",
+      "observed_at": "2026-11-06T14:17:22+08:00",
+      "timestamp_note": "Receipt recording time, not source open start time.",
+      "execution_ref": "web open turn862view0",
+      "supports": "2026-10-08 result, substrate stripes alter graphene symmetry and create a moire superlattice used in rectifiers.",
+      "boundary": "Historical overlapping/stacking family conservatively excluded from new-family count; fact supports relation, not guaranteed AI improvement."
+    },
+    {
+      "id": "ROOT-S07",
+      "material_ids": [
+        "M12"
+      ],
+      "url": "https://www.usgs.gov/faqs/what-a-topographic-map?qt-news_science_products=0",
+      "access": "body",
+      "reading_location": "Main answer lines3–16",
+      "observed_at": "2026-11-06T14:17:22+08:00",
+      "timestamp_note": "Receipt recording time, not source open start time.",
+      "execution_ref": "web open turn871view0",
+      "supports": "Contour lines connect equal-elevation points and show shape and steepness.",
+      "boundary": "Map representation does not prove any particular world-model architecture."
+    },
+    {
+      "id": "ROOT-S08",
+      "material_ids": [
+        "M13"
+      ],
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/montage/",
+      "access": "body",
+      "reading_location": "Core definition lines0–2; no video viewing claimed",
+      "observed_at": "2026-11-06T14:17:22+08:00",
+      "timestamp_note": "Receipt recording time, not source open start time.",
+      "execution_ref": "web open turn877view0",
+      "supports": "The glossary situates meaning in the relation between shots.",
+      "boundary": "Creative relation is grounded in editing; assembly alone does not establish intelligence."
+    },
+    {
+      "id": "ROOT-S09",
+      "material_ids": [
+        "M09"
+      ],
+      "url": "https://esawebb.org/news/weic2621/",
+      "access": "body",
+      "reading_location": "News body lines97–119, dated2026-10-08",
+      "observed_at": "2026-11-06T14:17:22+08:00",
+      "timestamp_note": "Receipt recording time, not source open start time.",
+      "execution_ref": "web open turn874view0",
+      "supports": "Radio detection followed by Webb host-galaxy imaging and spectroscopy; origin uncertain.",
+      "boundary": "Short intense signal is an exploration metaphor, not sustained learning or weak-signal proof."
+    },
+    {
+      "id": "ROOT-S10",
+      "material_ids": [
+        "M01"
+      ],
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Parallax",
+      "access": "body",
+      "reading_location": "Main explanation, lines198–204",
+      "execution_ref": "web open turn878view0",
+      "supports": "Both the finger/alternating-eyes demonstration and six-month orbital baseline explain parallax distance measurement.",
+      "boundary": "Technical mechanism is the source; proposed company role is an analogy, not a claim about the user product."
+    },
+    {
+      "id": "ROOT-S11",
+      "material_ids": [
+        "M20"
+      ],
+      "url": "https://www.energy.gov/science/doe-explainscatalysts",
+      "access": "body",
+      "reading_location": "Main explanation, lines8–14",
+      "execution_ref": "web open turn878view1",
+      "supports": "Catalysts lower activation energy and can have selectivity; enable transformations without being consumed in the reaction.",
+      "boundary": "Technical mechanism is the source; proposed company role is an analogy, not a claim about the user product."
+    }
+  ],
+  "failed_attempts": [
+    {
+      "url": "https://psychclassics.yorku.ca/James/Principles/prin9.htm",
+      "reason": "Transient network failure; later retry succeeded, see ROOT-S02."
+    }
+  ],
+  "material_coverage": "10/24 cards (41.7%), across books, institutional news, museum essay, cartography and film; source ROOT-S04 is supplementary and does not count as auditing A2 chapter1.6.",
+  "audited_material_ids": [
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M07",
+    "M08",
+    "M09",
+    "M12",
+    "M13",
+    "M20"
+  ],
+  "material_count": 24,
+  "audited_material_count": 10,
+  "coverage": 0.4166666666666667,
+  "conclusion": "No factual mismatch found in sampled source-card relationships; brand quality reviewed separately. Remaining14 cards rely on A2 reading records, not represented as re-opened by coordinator."
+}

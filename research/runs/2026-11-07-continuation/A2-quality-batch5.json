@@ -1,0 +1,97 @@
+{
+  "agent": "/root/live_a2",
+  "assessments": [
+    {
+      "id": "CT-C17",
+      "name": "添一指",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "三字完整动作，添和指都能直接听写。",
+        "distinctiveness": "与第三拇指项目名有明显字面区别，但仍需查增强产品近似。",
+        "lab_fit": "用技术扩展已有能力的关系切合项目，具身行业误读扣分。",
+        "grounding": "直接作者访谈和实验室研究正文实际读到，保留适应代价。",
+        "extension": "能力外挂和共同适应能延伸多个模型系统，不必做真实手指。",
+        "semantic_coherence": "所添资源与已有主体共同工作，寓意来自一个可观察关系。"
+      },
+      "counter_association": "可能像康复、指法或机器人配件公司；若品牌特别排斥具身和硬件首联想，这个方向应舍弃。"
+    },
+    {
+      "id": "CT-C18",
+      "name": "光的弯道",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "光的弯道是完整口语名词，读起来无需补词。",
+        "distinctiveness": "光通常被联想直行，弯道给明确记忆，但文化内容标题感存在。",
+        "lab_fit": "基础物理和未知观测能承载研究Lab，摄影误读使其非满分。",
+        "grounding": "NASA实际正文给出路径偏折与放大，不引申超光速。",
+        "extension": "研究世界观足够宽，不锁定持续学习一种产品。",
+        "semantic_coherence": "光与弯道间有真实传播关系，不是光明与成功两个愿望。"
+      },
+      "counter_association": "可能像摄影、展览或科普书名；四字含的字，注册字号与品牌完整写法需一致查重，不能去的字自动当另一新名。"
+    },
+    {
+      "id": "CT-C19",
+      "name": "噪声种子",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "噪声种子是能直接读出的完整四字名词，不是推导式。",
+        "distinctiveness": "两个日常对象形成意外但真实的起点关系，现有参数用法需查。",
+        "lab_fit": "计算与生成语义明确，但偏生成工具而非综合Lab。",
+        "grounding": "论文正文与NumPy初始化文档均实读，区分噪声样本与随机种子。",
+        "extension": "生成只是一个入口，随机探索与研究可延展，仍有技术范式限制。",
+        "semantic_coherence": "随机开端转为有结构样本的关系真实，不宣称无中生有或噪声即知识。"
+      },
+      "counter_association": "噪声可能被理解为污染或低质量信息；种子容易带生成工具或模型参数名的感觉，公司延展性需判断。"
+    },
+    {
+      "id": "CT-C20",
+      "name": "雨影",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "pass": false,
+      "axis_reasons": {
+        "naturalness": "两个熟字声音清晰，天然称呼。",
+        "distinctiveness": "现象本身有辨识度，但文艺名称同音易拥挤。",
+        "lab_fit": "气象与风景首身份明显，不能以严肃科学出处挽救Lab定位。",
+        "grounding": "NOAA存档正文实际读到，未把旧科普当新论文。",
+        "extension": "间接观察世界可延展，仍被天气与影像限制。",
+        "semantic_coherence": "雨和影是已有现象名称，交叉不是事后拼字。"
+      },
+      "counter_association": "摄影、文旅或生态项目的首联想过强；自评Lab身份未过，本案保留在研究淘汰栏，不送查重假装推荐。另已有雨水雨影网络公司包含式线索，未核核心品牌不冒称完全同名注册。"
+    }
+  ]
+}

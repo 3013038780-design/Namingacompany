@@ -1,0 +1,61 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "submitted_at": "2026-11-07T21:16:18.836397+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch3.json",
+      "sha256": "b0849a393c3e66ae37a7dd9406cfc5b5b90531cc21c556e7b17974bf9fd347d3"
+    },
+    {
+      "path": "materials-extension3.json",
+      "sha256": "a549fff62266ddf31e61b34e8c8523b247927918903944bab48863a1bdaeac36"
+    },
+    {
+      "path": "A3-cn-batch4.json",
+      "sha256": "7bd2807767134271aa0bf53b1969eb9c261ea0e37336f0be1e2dcb96e094b118"
+    },
+    {
+      "path": "A3-en-batch6.json",
+      "sha256": "b39b5fd8b044f9e29af02a939ca984da910eeef3b4ce5a342e9901b6d0576cfb"
+    },
+    {
+      "path": "A4-batch6.json",
+      "sha256": "907797ff13563e404ec202bfa3c006e920f26d3848ec0ec7cc18a8a537978b94"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E07",
+      "chinese_id": "C1-C11",
+      "chinese": "回车以后",
+      "english": "Replyrise",
+      "suggested_pronunciation": "ri-PLY-ryze /rɪˈplaɪraɪz/（建议，reply与rise保留普通读法）。",
+      "type": "complete_English_morphemes_meaningful_compound",
+      "formation": "reply是回应，rise是升起；Replyrise用回应从一次输入之后升起的完整动态画面形成短称呼。两个完整普通词保留，三音节有相近的长元音节奏。它是品牌造词，不宣称现成词典词或REPL术语，也不修改Linewake字母、加Labs或换拼音。",
+      "bilingual_relation": "中文选提交动作以后的时点，英文选那个时点开始出现的回应；先有人的输入，再有求值、结果或错误反馈，以及继续互动的可能。两边共享同一交互场景，不要求回应一定是聊天文字。",
+      "meaning": "表达不是静静停在屏幕上；交给系统以后，它能引出可见结果，成为下一次互动的起点。公司可借此研究人与系统如何共同形成可用行动，而不是只出售一条自动回复功能。",
+      "shortcoming": "可能先像邮件回复、客服或对话产品，通用AI Lab身份需要后续研究承接；rise也可能被误读为数量/能力增长。首次需要介绍reply+rise的拆分，不能假称普通合成就必然具备品牌独特性。",
+      "boundary": "回应升起只是品牌拟物，不是意识觉醒、回复数量上升或模型能力必然提升。求值仍受完整输入、语法、环境和错误处理限制；保存定义与再次出现提示符不等于自主学习。",
+      "source_urls": [
+        "https://sicp.sourceacademy.org/chapters/4.1.4.html",
+        "https://docs.python.org/3/tutorial/interpreter.html",
+        "https://docs.python.org/3/tutorial/appendix.html"
+      ],
+      "read_scope": "复用本A4已实际读SICP4.1.4 L264–282、288–304及318，Python解释器L10–17、23–37与附录L3–14的阅读范围；本次实际读A3-en-batch6.md/json确认Linewake Studio的软件开发品牌使用及索引线索边界。未新执行英文使用或登记查询，未改旧稿/分数。",
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "usage_screening_performed": false,
+  "rework": {
+    "language": "en",
+    "attempt": 1,
+    "initial_english_id": "C1-E06",
+    "previous_english_id": "C1-E06",
+    "previous_english": "Linewake",
+    "reason": "同A3在Steam官方页确认Linewake Studio实际软件开发/发行品牌同核心名，退回英文；另汽车应用仅索引，不当作唯一主证。",
+    "responsible_role": "A4",
+    "remaining_rework_after_this": 1,
+    "evidence_ref": "A3-en-batch6.json"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "completed_at": "2026-11-08T00:25:14.880086+08:00",
+  "chinese_id": "C1-C23",
+  "chinese": "活变量",
+  "family_id": "C1-BF-variable-with-still-possible-use",
+  "inputs": [
+    {
+      "path": "A3-en-batch17.json",
+      "sha256": "508c6a7e2382292f8988aad6ecc85fbefad6b5e7307ee307be7263ffe45f5f03"
+    },
+    {
+      "path": "A3-en-batch18.json",
+      "sha256": "577c84f732ea94001b0538ba0bd62825d264dfcbacce1fc7171a0e7a20698425"
+    },
+    {
+      "path": "A3-en-batch19.json",
+      "sha256": "7c66cfe45dcedaaf1f25ddb84a587e14a86f92aa1f154a1e2351686abde7ba69"
+    },
+    {
+      "path": "A3-en18-publication-normalization.json",
+      "sha256": "b5e92a6aa580c4432e116a9f856e7774eacee85dd9e0a95c62206bcec9c431d3"
+    },
+    {
+      "path": "A3-en19-publication-normalization.json",
+      "sha256": "a1bf7da414ed6661a46b1d89cac7108f14e06dc7cae1f9d610a97dfa5aacde13"
+    },
+    {
+      "path": "A4-publication-input-reacceptance.json",
+      "sha256": "12846bd9383291a3f581b0c9273c5279fddc86764f03cdb46d78babacf9e718c"
+    }
+  ],
+  "actual_read_scope": "实际重读原A3正式三版结论/证据和发布整理说明，复核语义哈希；本次未重新打开官网、拍卖行或登记门户。",
+  "versions": [
+    {
+      "id": "C1-E17",
+      "english": "Live Variable",
+      "attempt": 0,
+      "status": "plural_near_core_software_avoidance",
+      "reason": "现有独立Obsidian插件Live Variables，仅复数s差异，近同软件避让；不是单数精确AI公司或商标冲突。"
+    },
+    {
+      "id": "C1-E18",
+      "english": "Still in Play",
+      "attempt": 1,
+      "status": "cross_industry_exact_commercial_brand_avoidance",
+      "reason": "完整同名足球分析服务商业品牌，跨类避让，不冒称AI公司或公司登记已核。"
+    },
+    {
+      "id": "C1-E19",
+      "english": "Maymatter",
+      "attempt": 2,
+      "status": "unresolved_specific_commercial_lead_not_delivered",
+      "reason": "原A3十九实际查询未确证同名AI/科技品牌，但Cellier des Maymatter酒款拍卖具体索引仍无法原文核实，403导致命名线索未闭环。不能当已占用，也不能判通过。"
+    }
+  ],
+  "chinese_public_use_screen": "passed_unchanged",
+  "qualified_complete_bilingual_pairs": 0,
+  "rework_attempts_used": 2,
+  "remaining_reworks": 0,
+  "current_family_state": "保留中文研究与E19未核实线索，证据暂停且本工作包不交付；不R3、不再构造替代英文。",
+  "future_boundary": "只结束本族英文生成；未来如有证据授权，可对现有线索续核，不等于已有候选可入库，也不停止其他研究。",
+  "publication_reacceptance_ref": "A4-publication-input-reacceptance.json",
+  "new_external_queries": 0,
+  "new_names": 0,
+  "new_scores": false,
+  "unchanged": "原稿、分数、旧receipt、总库及Git均未改，无用户通知。"
+}

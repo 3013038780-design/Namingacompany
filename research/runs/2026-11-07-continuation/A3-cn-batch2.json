@@ -1,0 +1,270 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T18:18:58.778249+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A2-preview-batch2.md",
+      "sha256": "cd13d2a53dbbbe1376fcf94e8016c16da4af276b53f8f8dc31d576462a7ec968"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-cn-batch2.json",
+      "sha256": "83673d01dbfbc2bdf2c31233aba37ac6cd002743e826412e75a626136611d543"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A2-quality-batch2.json",
+      "sha256": "adf9a90d9185f43fc1ec8a19a0bfcdcb84a7834195fb22f6dc4db98945f212cf"
+    }
+  ],
+  "query_count": 22,
+  "results": [
+    {
+      "candidate_id": "CT-C05",
+      "name": "拨码",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整中文拨码作为同名科技/AI公司、模型或软件品牌；大量拨码开关通用术语。拼音Boma已有AI技术使用线索，不能直接选作英文，中文需另配。",
+      "query_logs": [
+        {
+          "query": "\"拨码\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整中文拨码作为同名科技/AI公司、模型或软件品牌；大量拨码开关通用术语。拼音Boma已有AI技术使用线索，不能直接选作英文，中文需另配。"
+        },
+        {
+          "query": "\"拨码\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整中文拨码作为同名科技/AI公司、模型或软件品牌；大量拨码开关通用术语。拼音Boma已有AI技术使用线索，不能直接选作英文，中文需另配。"
+        },
+        {
+          "query": "\"拨码\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整中文拨码作为同名科技/AI公司、模型或软件品牌；大量拨码开关通用术语。拼音Boma已有AI技术使用线索，不能直接选作英文，中文需另配。"
+        },
+        {
+          "query": "\"撥碼\" 公司",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整中文拨码作为同名科技/AI公司、模型或软件品牌；大量拨码开关通用术语。拼音Boma已有AI技术使用线索，不能直接选作英文，中文需另配。"
+        },
+        {
+          "query": "\"boma\" \"拨码\" company",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整中文拨码作为同名科技/AI公司、模型或软件品牌；大量拨码开关通用术语。拼音Boma已有AI技术使用线索，不能直接选作英文，中文需另配。"
+        },
+        {
+          "query": "\"拨码科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整中文拨码作为同名科技/AI公司、模型或软件品牌；大量拨码开关通用术语。拼音Boma已有AI技术使用线索，不能直接选作英文，中文需另配。"
+        },
+        {
+          "query": "\"拨码\" \"有限公司\" \"拨码科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整中文拨码作为同名科技/AI公司、模型或软件品牌；大量拨码开关通用术语。拼音Boma已有AI技术使用线索，不能直接选作英文，中文需另配。"
+        },
+        {
+          "query": "\"boma\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整中文拨码作为同名科技/AI公司、模型或软件品牌；大量拨码开关通用术语。拼音Boma已有AI技术使用线索，不能直接选作英文，中文需另配。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.biwin.com/webls-zh-tw/index.html",
+          "access": "primary_body_read",
+          "finding": "百瑩科技、SAB SWITCHES为主体/品牌，撥碼型只是开关产品分类，不叫拨码公司。"
+        },
+        {
+          "url": "https://www.bomalabs.ai/about",
+          "access": "search_text_open_timeout",
+          "finding": "检索显示Boma/Yeah Innovations AI工作流基础设施，正文打开超时；不声称已读官网全文或核验登记。"
+        },
+        {
+          "url": "https://pypi.org/project/boma/",
+          "access": "search_text_open_404",
+          "finding": "检索显示Boma Python SDK building AI agents/workflows；打开404，只保留索引线索。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Boma",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    },
+    {
+      "candidate_id": "CT-C07",
+      "name": "念头引擎",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名公司、模型或软件品牌；检到念头池/引擎组合描述的心潮开源项目，名称不同。",
+      "query_logs": [
+        {
+          "query": "\"念头引擎\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件品牌；检到念头池/引擎组合描述的心潮开源项目，名称不同。"
+        },
+        {
+          "query": "\"念头引擎\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件品牌；检到念头池/引擎组合描述的心潮开源项目，名称不同。"
+        },
+        {
+          "query": "\"念头引擎\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件品牌；检到念头池/引擎组合描述的心潮开源项目，名称不同。"
+        },
+        {
+          "query": "\"念頭引擎\" 公司",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件品牌；检到念头池/引擎组合描述的心潮开源项目，名称不同。"
+        },
+        {
+          "query": "\"niantouyinqing\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件品牌；检到念头池/引擎组合描述的心潮开源项目，名称不同。"
+        },
+        {
+          "query": "\"念头引擎科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件品牌；检到念头池/引擎组合描述的心潮开源项目，名称不同。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://github.com/tianyupaipai-cmd/xinchao-dynamic-mind",
+          "access": "primary_body_read",
+          "finding": "About为AI动态心智状态引擎，提及念头池；仓库名心潮/xinchao-dynamic-mind，非念头引擎。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Niantouyinqing",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    },
+    {
+      "candidate_id": "CT-C08",
+      "name": "多想一步",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名公司、模型或软件品牌。科技公司宣传、文章和App介绍中的普通短语不自动视为品牌。",
+      "query_logs": [
+        {
+          "query": "\"多想一步\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件品牌。科技公司宣传、文章和App介绍中的普通短语不自动视为品牌。"
+        },
+        {
+          "query": "\"多想一步\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件品牌。科技公司宣传、文章和App介绍中的普通短语不自动视为品牌。"
+        },
+        {
+          "query": "\"多想一步\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件品牌。科技公司宣传、文章和App介绍中的普通短语不自动视为品牌。"
+        },
+        {
+          "query": "\"多想一步\" 软件 产品",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件品牌。科技公司宣传、文章和App介绍中的普通短语不自动视为品牌。"
+        },
+        {
+          "query": "\"duoxiangyibu\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件品牌。科技公司宣传、文章和App介绍中的普通短语不自动视为品牌。"
+        },
+        {
+          "query": "\"多想一步科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件品牌。科技公司宣传、文章和App介绍中的普通短语不自动视为品牌。"
+        },
+        {
+          "query": "\"多想一步\" \"有限公司\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件品牌。科技公司宣传、文章和App介绍中的普通短语不自动视为品牌。"
+        },
+        {
+          "query": "\"多想一步\" \"APP\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件品牌。科技公司宣传、文章和App介绍中的普通短语不自动视为品牌。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.gferp.com/",
+          "access": "search_text_open_no_readable_body",
+          "finding": "检索主体金友伟业，宣传一起多想一步，不是公司或产品全名。"
+        },
+        {
+          "url": "https://keid.nat.gov.tw/branding-taiwan/Case/more1?id=2025c3b01093446f8eba60d0a77b0e5c",
+          "access": "primary_government_body_read",
+          "finding": "主体研揚科技；搜索返回为客戶多想一步，打开正文确认为研揚科技品牌案例，不是该短语命名。"
+        },
+        {
+          "url": "https://askfish.app/zh",
+          "access": "primary_product_body_read",
+          "finding": "实际App名钓问/AskFish；多想一步为宣传短语，不同名品牌。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Duoxiangyibu",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    }
+  ],
+  "passed_candidate_ids": [
+    "CT-C05",
+    "CT-C07",
+    "CT-C08"
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛不等于全球无使用、官方核名通过或商标可注册。检索摘要与已读正文逐项区分。"
+}

@@ -1,0 +1,162 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T18:55:01.581157+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-preview-batch15.md",
+      "sha256": "07e20608ce8cb6dbb492394bb59e6ca13d24f24d17ad3869443bb977c9f7776d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-en-batch15.json",
+      "sha256": "a11186320cf0dbbfb2fd902b274e4cf96bfaaf2f7aa37372869e63276506a2e2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-quality-batch15.json",
+      "sha256": "c81a9cbe38b9fdf97b28fe8c1721115d57f8efe82b734922638fbb9072f8dcd1"
+    }
+  ],
+  "query_count": 12,
+  "results": [
+    {
+      "candidate_id": "CT-E27",
+      "chinese_candidate_id": "CT-C26",
+      "chinese": "反例",
+      "name": "Single Witness",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名科技/AI公司、模型或软件。大量法律/证明语义、A Single Witness小说、Yale证言影像页线索已披露；非独立软件公司，品牌原义不据此作法律结论。",
+      "query_logs": [
+        {
+          "query": "\"Single Witness\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。大量法律/证明语义、A Single Witness小说、Yale证言影像页线索已披露；非独立软件公司，品牌原义不据此作法律结论。"
+        },
+        {
+          "query": "\"Single Witness\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。大量法律/证明语义、A Single Witness小说、Yale证言影像页线索已披露；非独立软件公司，品牌原义不据此作法律结论。"
+        },
+        {
+          "query": "\"Single Witness\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。大量法律/证明语义、A Single Witness小说、Yale证言影像页线索已披露；非独立软件公司，品牌原义不据此作法律结论。"
+        },
+        {
+          "query": "\"Single Witness\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。大量法律/证明语义、A Single Witness小说、Yale证言影像页线索已披露；非独立软件公司，品牌原义不据此作法律结论。"
+        },
+        {
+          "query": "\"SingleWitness\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。大量法律/证明语义、A Single Witness小说、Yale证言影像页线索已披露；非独立软件公司，品牌原义不据此作法律结论。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://web.library.yale.edu/testimonies/singlewitness",
+          "access": "search_link_body_inaccessible",
+          "finding": "文献引向Yale证言影像内容页，打开不可访问，不能声称逐片观看或独立软件名称。"
+        },
+        {
+          "url": "https://www.goodreads.com/en/book/show/250611611-a-single-witness",
+          "access": "search_book_title_only",
+          "finding": "Christine Balint小说A Single Witness，非科技/AI模型。"
+        },
+        {
+          "url": "https://github.com/moonrunnerkc/gemma-witness",
+          "access": "search_repo_name_only",
+          "finding": "软件名称gemma-witness，不是Single Witness。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Single%20Witness",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    },
+    {
+      "candidate_id": "CT-E28",
+      "chinese_candidate_id": "CT-C28",
+      "chinese": "鸽哨",
+      "name": "Pigeon Whistle",
+      "decision": "return_for_alternative",
+      "reason": "普通鸽哨商品本身不否决；另有1946电子行业杂志以Pigeon Whistle宣布拟生产的装置名称，按历史科技产品发布名主动避让。不是现存AI公司、出货确认或注册商标判定。",
+      "query_logs": [
+        {
+          "query": "\"Pigeon Whistle\"",
+          "executed_on": "2026-11-07",
+          "summary": "普通鸽哨商品本身不否决；另有1946电子行业杂志以Pigeon Whistle宣布拟生产的装置名称，按历史科技产品发布名主动避让。不是现存AI公司、出货确认或注册商标判定。"
+        },
+        {
+          "query": "\"Pigeon Whistle\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "普通鸽哨商品本身不否决；另有1946电子行业杂志以Pigeon Whistle宣布拟生产的装置名称，按历史科技产品发布名主动避让。不是现存AI公司、出货确认或注册商标判定。"
+        },
+        {
+          "query": "\"Pigeon Whistle\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "普通鸽哨商品本身不否决；另有1946电子行业杂志以Pigeon Whistle宣布拟生产的装置名称，按历史科技产品发布名主动避让。不是现存AI公司、出货确认或注册商标判定。"
+        },
+        {
+          "query": "\"Pigeon Whistle\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "普通鸽哨商品本身不否决；另有1946电子行业杂志以Pigeon Whistle宣布拟生产的装置名称，按历史科技产品发布名主动避让。不是现存AI公司、出货确认或注册商标判定。"
+        },
+        {
+          "query": "\"PigeonWhistle\" OR \"Pigeon Whistles\" company",
+          "executed_on": "2026-11-07",
+          "summary": "普通鸽哨商品本身不否决；另有1946电子行业杂志以Pigeon Whistle宣布拟生产的装置名称，按历史科技产品发布名主动避让。不是现存AI公司、出货确认或注册商标判定。"
+        },
+        {
+          "query": "\"Pigeon Whistle\" \"1946\"",
+          "executed_on": "2026-11-07",
+          "summary": "普通鸽哨商品本身不否决；另有1946电子行业杂志以Pigeon Whistle宣布拟生产的装置名称，按历史科技产品发布名主动避让。不是现存AI公司、出货确认或注册商标判定。"
+        },
+        {
+          "query": "\"Pigeon Whistle\" \"Announce\" radio",
+          "executed_on": "2026-11-07",
+          "summary": "普通鸽哨商品本身不否决；另有1946电子行业杂志以Pigeon Whistle宣布拟生产的装置名称，按历史科技产品发布名主动避让。不是现存AI公司、出货确认或注册商标判定。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.worldradiohistory.com/Archive-Radio-Retailing/40s/Radio-Retailing-1946-03.pdf",
+          "access": "archive_search_text_body_403",
+          "finding": "1946 Radio Retailing索引正文Announce Pigeon Whistle，Electronic Engineering Inc. Spokane准备生产用于驱鸟/猫狗的whistle装置，预期零售约50美元。PDF403，未核后续是否上市。"
+        },
+        {
+          "url": "https://www.avianring.com/product/pigeon-whistle.html",
+          "access": "manufacturer_body_read",
+          "finding": "济南哲业金属产品页Pigeon Whistle为普通商品类目，不拿它单独充当独立品牌否决。"
+        }
+      ],
+      "registration": {
+        "status": "not_checked_after_confirmed_use_or_active_avoidance",
+        "note": "依据公开使用，不称登记通过或当前已注册。"
+      }
+    }
+  ],
+  "passed_english_candidate_ids": [
+    "CT-E27"
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛不等于全球未使用、核名通过或第9/42类可注册。重复复核查询计入实际查询数。"
+}

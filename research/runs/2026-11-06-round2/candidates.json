@@ -1,0 +1,249 @@
+{
+  "date": "2026-11-06",
+  "purpose": "第二轮研究草案，不等于备选或推荐",
+  "candidate_count": 12,
+  "family_count": 12,
+  "candidates": [
+    {
+      "id": "R2C01",
+      "name": "余项",
+      "family_id": "R2F01",
+      "material_ids": [
+        "R2M01"
+      ],
+      "source_urls": [
+        "https://mathworld.wolfram.com/TaylorRemainder.html"
+      ],
+      "construction_type": "source_term",
+      "meaning": "已有描述之外仍有尚待理解的部分。",
+      "combination_reason": "两个熟字、完整数学词，能成为宽的研究身份。",
+      "technology_brand_fit": "两个熟字、完整数学词，能成为宽的研究身份。",
+      "weakness": "余容易被理解成剩余、不重要；常见术语撞名概率高。",
+      "editorial_status": "research_only_not_shortlisted",
+      "occupancy_status": "preliminary_no_exact_tech_match",
+      "new_recommendation": false,
+      "final_review_reason": "未见明确同名命中，但尚未完成品牌审美与英文匹配；余容易被理解成剩余、不重要；常见术语撞名概率高。"
+    },
+    {
+      "id": "R2C02",
+      "name": "开集",
+      "family_id": "R2F02",
+      "material_ids": [
+        "R2M02"
+      ],
+      "source_urls": [
+        "https://mathworld.wolfram.com/OpenSet.html"
+      ],
+      "construction_type": "source_term",
+      "meaning": "开放的局部空间与继续探索的余地。",
+      "combination_reason": "极简两个字，同时有开放与集合的日常入口。",
+      "technology_brand_fit": "极简两个字，同时有开放与集合的日常入口。",
+      "weakness": "不是不断扩大的集合；开放学习是品牌联想，非定义。已检出科技使用。",
+      "editorial_status": "hold_evidence",
+      "occupancy_status": "hold_company_name_found_business_unverified",
+      "new_recommendation": false,
+      "final_review_reason": "深圳开集科技有限公司名称在第三方黄页正文中存在，企业具体科技业务未核实，暂停作为无占用候选。另阜阳开集生物科技为跨行业第三方记录。不是官方工商/商标核验。"
+    },
+    {
+      "id": "R2C03",
+      "name": "异步",
+      "family_id": "R2F03",
+      "material_ids": [
+        "R2M03"
+      ],
+      "source_urls": [
+        "https://doc.rust-lang.org/book/ch17-01-futures-and-syntax.html"
+      ],
+      "construction_type": "source_term",
+      "meaning": "不同进程按各自节奏前进，暂停不等于结束。",
+      "combination_reason": "技术从业者熟悉，两个字的节奏清楚，有机构气质。",
+      "technology_brand_fit": "技术从业者熟悉，两个字的节奏清楚，有机构气质。",
+      "weakness": "异步不是持续学习；已有软件公司使用。",
+      "editorial_status": "reject_existing_use",
+      "occupancy_status": "reject_existing_software_company_brand",
+      "new_recommendation": false,
+      "final_review_reason": "已有异步科技软件开发品牌及广州异步科技有限公司，按已有科技使用否决。"
+    },
+    {
+      "id": "R2C04",
+      "name": "重整",
+      "family_id": "R2F04",
+      "material_ids": [
+        "R2M04"
+      ],
+      "source_urls": [
+        "https://www.damtp.cam.ac.uk/user/tong/sft/sfthtml/S3.html"
+      ],
+      "construction_type": "source_compression",
+      "meaning": "改变观察尺度，重新组织对系统的理解。",
+      "combination_reason": "物理机制与日常重新组织共享同一个动词。",
+      "technology_brand_fit": "物理机制与日常重新组织共享同一个动词。",
+      "weakness": "重整最先可能联想破产重整；技术中文是重整化，名称是截取，不假称全术语。",
+      "editorial_status": "editorial_reject",
+      "occupancy_status": "not_screened_editorial_reject",
+      "new_recommendation": false,
+      "final_review_reason": "破产重整联想强；物理背景是重整化，截取后丢失专业身份。"
+    },
+    {
+      "id": "R2C05",
+      "name": "演算尺",
+      "family_id": "R2F05",
+      "material_ids": [
+        "R2M05"
+      ],
+      "source_urls": [
+        "https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/calculating-devices/slide-rules"
+      ],
+      "construction_type": "failed_coinage",
+      "meaning": "让抽象计算成为可操纵的工具。",
+      "combination_reason": "工程史物件具有形状与明确的计算记忆。",
+      "technology_brand_fit": "工程史物件具有形状与明确的计算记忆。",
+      "weakness": "规范常用中文为计算尺，不是演算尺；强改词形不自然，又有教具联想，主控否决。",
+      "editorial_status": "editorial_reject",
+      "occupancy_status": "not_screened_editorial_reject",
+      "new_recommendation": false,
+      "final_review_reason": "演算尺不是所引slide rule资料的规范中文名；像儿童教具，命名改造不自然。"
+    },
+    {
+      "id": "R2C06",
+      "name": "非终态",
+      "family_id": "R2F06",
+      "material_ids": [
+        "R2M06"
+      ],
+      "source_urls": [
+        "https://web.stanford.edu/class/archive/cs/cs103/cs103.1252/guide_to_cfgs"
+      ],
+      "construction_type": "brand_coinage",
+      "meaning": "当前表达还可以继续生成新的结构。",
+      "combination_reason": "三字有计算研究身份，也有尚未终结的叙事。",
+      "technology_brand_fit": "三字有计算研究身份，也有尚未终结的叙事。",
+      "weakness": "是品牌压缩造词，非终结符不能直接叫非终态；状态机终态与语法符号不可混为一谈，术语混淆和否定语气是实质短板。",
+      "editorial_status": "editorial_reject",
+      "occupancy_status": "preliminary_no_exact_tech_match",
+      "new_recommendation": false,
+      "final_review_reason": "把非终结符压缩成非终态混入了状态机概念，存在术语混淆；本轮不推进。"
+    },
+    {
+      "id": "R2C07",
+      "name": "公设之外",
+      "family_id": "R2F07",
+      "material_ids": [
+        "R2M07"
+      ],
+      "source_urls": [
+        "https://plato.stanford.edu/entries/goedel-incompleteness/"
+      ],
+      "construction_type": "brand_phrase",
+      "meaning": "既有假设之外仍有尚未解决的问题。",
+      "combination_reason": "四字完整短语，能讲求知边界与研究姿态。",
+      "technology_brand_fit": "四字完整短语，能讲求知边界与研究姿态。",
+      "weakness": "更像论文或书名；品牌姿态不等于定理支持AI能突破可计算性。主控方向评审否决。",
+      "editorial_status": "editorial_reject",
+      "occupancy_status": "not_screened_editorial_reject",
+      "new_recommendation": false,
+      "final_review_reason": "像论文或书名，尚不能自然成为研究机构称呼。"
+    },
+    {
+      "id": "R2C08",
+      "name": "观测之后",
+      "family_id": "R2F08",
+      "material_ids": [
+        "R2M08"
+      ],
+      "source_urls": [
+        "https://www.cs.ubc.ca/~poole/aibook/3e/html/ArtInt3e.Ch9.S1.html"
+      ],
+      "construction_type": "brand_phrase",
+      "meaning": "观察发生之后，理解仍继续改变。",
+      "combination_reason": "四字有过程与时间感，来自完整关系。",
+      "technology_brand_fit": "四字有过程与时间感，来自完整关系。",
+      "weakness": "更像文章标题，不足以自然成为科技机构称呼；主控否决。",
+      "editorial_status": "editorial_reject",
+      "occupancy_status": "not_screened_editorial_reject",
+      "new_recommendation": false,
+      "final_review_reason": "像文章标题，时间关系成立但品牌身份不足。"
+    },
+    {
+      "id": "R2C09",
+      "name": "推演场",
+      "family_id": "R2F09",
+      "material_ids": [
+        "R2M09"
+      ],
+      "source_urls": [
+        "https://courses.cs.cornell.edu/cs4120/2022sp/notes/absint/index.html"
+      ],
+      "construction_type": "brand_coinage",
+      "meaning": "让可能性进入可以推演与检验的空间。",
+      "combination_reason": "推演是计算认知动作，场提供研究发生的空间，三字可作机构称呼。",
+      "technology_brand_fit": "推演是计算认知动作，场提供研究发生的空间，三字可作机构称呼。",
+      "weakness": "此为品牌造词，不是抽象解释中的标准术语；也可能像仿真工具或军事推演平台。",
+      "editorial_status": "research_only_not_shortlisted",
+      "occupancy_status": "preliminary_no_exact_tech_match",
+      "new_recommendation": false,
+      "final_review_reason": "未见明确同名命中，但尚未完成品牌审美与英文匹配；此为品牌造词，不是抽象解释中的标准术语；也可能像仿真工具或军事推演平台。"
+    },
+    {
+      "id": "R2C10",
+      "name": "知演",
+      "family_id": "R2F10",
+      "material_ids": [
+        "R2M10"
+      ],
+      "source_urls": [
+        "https://blog.google/company-news/inside-google/googlers/ask-a-techspert/what-is-a-world-model-project-genie/"
+      ],
+      "construction_type": "brand_coinage",
+      "meaning": "把理解与推演放在同一认知动作中。",
+      "combination_reason": "知给认知入口，演给演算与推演动作；两个字较为完整。",
+      "technology_brand_fit": "知给认知入口，演给演算与推演动作；两个字较为完整。",
+      "weakness": "是这轮造词，不是科学术语；知与演的顺序关系需要品牌建立，同音误听和泛知识品牌风险。",
+      "editorial_status": "reject_existing_use",
+      "occupancy_status": "reject_existing_AI_company_brand",
+      "new_recommendation": false,
+      "final_review_reason": "已有知演数智AI商业智能品牌及三亚崖州知演科技有限公司软件/AI业务记录，按同一核心名称科技使用否决。"
+    },
+    {
+      "id": "R2C11",
+      "name": "聚变纪",
+      "family_id": "R2F11",
+      "material_ids": [
+        "R2M11"
+      ],
+      "source_urls": [
+        "https://www.energy.gov/science/doe-explainsfusion-reactions"
+      ],
+      "construction_type": "brand_coinage",
+      "meaning": "连接产生新能力，并把研究放入一个长期时代。",
+      "combination_reason": "聚变是科学与力量的直接画面，纪提供时代尺度。",
+      "technology_brand_fit": "聚变是科学与力量的直接画面，纪提供时代尺度。",
+      "weakness": "是品牌组合，不是地质年代；聚变首先指向能源，AI Lab定位能否承受须审美评审，不因科学有出处自动通过。",
+      "editorial_status": "editorial_reject",
+      "occupancy_status": "preliminary_no_exact_tech_match",
+      "new_recommendation": false,
+      "final_review_reason": "聚变能源公司的主印象强，纪像附加时代后缀，尚未形成适合本Lab的内在关系。"
+    },
+    {
+      "id": "R2C12",
+      "name": "虚时",
+      "family_id": "R2F12",
+      "material_ids": [
+        "R2M12"
+      ],
+      "source_urls": [
+        "https://www.hawking.org.uk/in-words/lectures/the-beginning-of-time"
+      ],
+      "construction_type": "source_term",
+      "meaning": "熟悉世界仍有另一种可以描述的维度。",
+      "combination_reason": "两个熟字，科学原义与超现实想象重叠。",
+      "technology_brand_fit": "两个熟字，科学原义与超现实想象重叠。",
+      "weakness": "虚可能被理解成虚假、虚弱；专业术语不能直接推出持续学习，且疑似拥挤。",
+      "editorial_status": "reject_existing_use",
+      "occupancy_status": "reject_existing_AI_company_brand",
+      "new_recommendation": false,
+      "final_review_reason": "北京虚时科技有限公司 / Intime AI从事三维仿真数据及空间智能，明确已有AI场域使用，否决。"
+    }
+  ],
+  "quality_note": "12条是研究线索，不是12个备选。3个明确科技使用、1个名称记录待核实；主控共6个质量淘汰，2个仅保留中文研究，完整中英文备选0组。"
+}

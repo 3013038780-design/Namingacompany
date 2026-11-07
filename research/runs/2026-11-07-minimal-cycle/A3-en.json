@@ -1,0 +1,88 @@
+{
+  "protocol_version": "1.1",
+  "stage": "A3-en",
+  "agent_id": "/root/minimal_screening",
+  "status": "completed_zero_input",
+  "completed_at": "2026-11-07T16:21:56+08:00",
+  "input_refs": [
+    {
+      "path": "research/runs/2026-11-07-minimal-cycle/A4.json",
+      "sha256": "734e9dcf6271c0504ef7b6e341d69e4d9e3f9cb5dfa0351b7ae8f5e95d4700ed"
+    },
+    {
+      "path": "research/runs/2026-11-07-minimal-cycle/A4.md",
+      "sha256": "09439e6dbf8057988e365a79da957362baa2dd7050ffabcb8937a22a1e1c232d"
+    },
+    {
+      "path": "research/runs/2026-11-07-minimal-cycle/A3-cn.json",
+      "sha256": "5c75c1967713f5d561cd2d9ffb0bb5dae0d4237eb90705dd318b1bf6d1262b77"
+    },
+    {
+      "path": "research/runs/2026-11-07-minimal-cycle/A3-cn.md",
+      "sha256": "2f46d0099878062e83196514328defba74d26caa6983a1cd22ec2b989a562e8a"
+    },
+    {
+      "path": "research/runs/2026-11-07-minimal-cycle/chinese-review.json",
+      "sha256": "bcbba11b3108eadccbfaa227ca49194650edf007d9c985648c24267b85d52e9a"
+    }
+  ],
+  "upstream_hash_verification": [
+    {
+      "path": "README.md",
+      "expected_sha256": "cd8b811fb3e013630b4d77445a987caf9f0ff5d73adfdab60322e3d4a8c24828",
+      "actual_sha256": "cd8b811fb3e013630b4d77445a987caf9f0ff5d73adfdab60322e3d4a8c24828",
+      "matches": true
+    },
+    {
+      "path": "AGENTS.md",
+      "expected_sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80",
+      "actual_sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80",
+      "matches": true
+    },
+    {
+      "path": "research/preferences.json",
+      "expected_sha256": "8f5eeb1278f4dfaa0d87927537caae459a7552069a5596982edafd06b44a4cd4",
+      "actual_sha256": "8f5eeb1278f4dfaa0d87927537caae459a7552069a5596982edafd06b44a4cd4",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-minimal-cycle/A2.json",
+      "expected_sha256": "12ba9e69ac1d472f2d3387098af8c4f44b98edfb5c9977a3af353ef88ea795ab",
+      "actual_sha256": "12ba9e69ac1d472f2d3387098af8c4f44b98edfb5c9977a3af353ef88ea795ab",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-minimal-cycle/chinese-review.json",
+      "expected_sha256": "bcbba11b3108eadccbfaa227ca49194650edf007d9c985648c24267b85d52e9a",
+      "actual_sha256": "bcbba11b3108eadccbfaa227ca49194650edf007d9c985648c24267b85d52e9a",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-minimal-cycle/A3-cn.json",
+      "expected_sha256": "5c75c1967713f5d561cd2d9ffb0bb5dae0d4237eb90705dd318b1bf6d1262b77",
+      "actual_sha256": "5c75c1967713f5d561cd2d9ffb0bb5dae0d4237eb90705dd318b1bf6d1262b77",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-minimal-cycle/A3-cn.md",
+      "expected_sha256": "2f46d0099878062e83196514328defba74d26caa6983a1cd22ec2b989a562e8a",
+      "actual_sha256": "2f46d0099878062e83196514328defba74d26caa6983a1cd22ec2b989a562e8a",
+      "matches": true
+    }
+  ],
+  "actual_execution": "原A3亲自读取A4 JSON/Markdown、A3中文结果及主控中文质量评审；核对送筛2名均在A3有结论，原语reject、声子hold，倍频上游质量淘汰；无合格中文被遗漏，A4确无生成英文。核验A4全部输入哈希一致。",
+  "eligible_chinese_candidate_ids": [],
+  "english_input_candidate_ids": [],
+  "english_checked": 0,
+  "queries": 0,
+  "query_logs": [],
+  "english_results": [],
+  "passed_english_candidate_ids": [],
+  "reason": "中文通过0，A4输入/输出均0，英文复查无可查询对象。未重复外搜、未编查询、未替不合格中文造英文；零输入不代表任何英文名称通过查重。",
+  "handoff": {
+    "to": "coordinator",
+    "status": "zero_input",
+    "candidate_ids": [],
+    "reason": "A3真实完成英文零输入复核，交主控完成H6/H7；本回执不代替主控终审。"
+  }
+}

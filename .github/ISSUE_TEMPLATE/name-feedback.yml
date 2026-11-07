@@ -1,0 +1,35 @@
+name: 名字反馈
+description: 共同审阅某个命名创意与其变体
+title: "[名字反馈] "
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 中文与英文名称
+    validations:
+      required: true
+  - type: input
+    id: reference
+    attributes:
+      label: 所属轮次与候选编号
+  - type: dropdown
+    id: preference
+    attributes:
+      label: 当前感受
+      options:
+        - 值得继续
+        - 需要修改
+        - 不采用
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: 原因
+      description: 读音、画面、文化联想、行业气质或组合关系；同一家族变体在同一个 Issue 讨论。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 补充来源或占用证据

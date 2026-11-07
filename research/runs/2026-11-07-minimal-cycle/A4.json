@@ -1,0 +1,137 @@
+{
+  "protocol_version": "1.1",
+  "stage": "A4",
+  "agent_id": "/root/minimal_english",
+  "scope": "用户授权最小完整四Agent试验；独立核验零合格中文输入",
+  "status": "completed_zero_input",
+  "completed_at": "2026-11-07T16:21:22+08:00",
+  "input_refs": [
+    {
+      "path": "README.md",
+      "sha256": "cd8b811fb3e013630b4d77445a987caf9f0ff5d73adfdab60322e3d4a8c24828"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "8f5eeb1278f4dfaa0d87927537caae459a7552069a5596982edafd06b44a4cd4"
+    },
+    {
+      "path": "research/runs/2026-11-07-minimal-cycle/A2.json",
+      "sha256": "12ba9e69ac1d472f2d3387098af8c4f44b98edfb5c9977a3af353ef88ea795ab"
+    },
+    {
+      "path": "research/runs/2026-11-07-minimal-cycle/chinese-review.json",
+      "sha256": "bcbba11b3108eadccbfaa227ca49194650edf007d9c985648c24267b85d52e9a"
+    },
+    {
+      "path": "research/runs/2026-11-07-minimal-cycle/A3-cn.json",
+      "sha256": "5c75c1967713f5d561cd2d9ffb0bb5dae0d4237eb90705dd318b1bf6d1262b77"
+    },
+    {
+      "path": "research/runs/2026-11-07-minimal-cycle/A3-cn.md",
+      "sha256": "2f46d0099878062e83196514328defba74d26caa6983a1cd22ec2b989a562e8a"
+    }
+  ],
+  "upstream_hash_verification": [
+    {
+      "path": "README.md",
+      "expected_sha256": "cd8b811fb3e013630b4d77445a987caf9f0ff5d73adfdab60322e3d4a8c24828",
+      "actual_sha256": "cd8b811fb3e013630b4d77445a987caf9f0ff5d73adfdab60322e3d4a8c24828",
+      "matches": true
+    },
+    {
+      "path": "AGENTS.md",
+      "expected_sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80",
+      "actual_sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80",
+      "matches": true
+    },
+    {
+      "path": "research/preferences.json",
+      "expected_sha256": "8f5eeb1278f4dfaa0d87927537caae459a7552069a5596982edafd06b44a4cd4",
+      "actual_sha256": "8f5eeb1278f4dfaa0d87927537caae459a7552069a5596982edafd06b44a4cd4",
+      "matches": true
+    },
+    {
+      "path": "research/seed/README.md",
+      "expected_sha256": "44cb357ed9db7edb5dc6c9a32ef1729e482ab3a9ef1f9dc6598dfbb3fc0d33b3",
+      "actual_sha256": "44cb357ed9db7edb5dc6c9a32ef1729e482ab3a9ef1f9dc6598dfbb3fc0d33b3",
+      "matches": true
+    },
+    {
+      "path": "research/seed/brand-naming-foundation.md",
+      "expected_sha256": "92cb6c7cd36c201d35900528826a8aa9aca5a75c632df57d30dcaade5547f519",
+      "actual_sha256": "92cb6c7cd36c201d35900528826a8aa9aca5a75c632df57d30dcaade5547f519",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-minimal-cycle/A1.json",
+      "expected_sha256": "6b594f16918ea37b43ef911475387f9537a91e37692f41a885204da172119a55",
+      "actual_sha256": "6b594f16918ea37b43ef911475387f9537a91e37692f41a885204da172119a55",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-minimal-cycle/A2.json",
+      "expected_sha256": "12ba9e69ac1d472f2d3387098af8c4f44b98edfb5c9977a3af353ef88ea795ab",
+      "actual_sha256": "12ba9e69ac1d472f2d3387098af8c4f44b98edfb5c9977a3af353ef88ea795ab",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-minimal-cycle/chinese-review.json",
+      "expected_sha256": "bcbba11b3108eadccbfaa227ca49194650edf007d9c985648c24267b85d52e9a",
+      "actual_sha256": "bcbba11b3108eadccbfaa227ca49194650edf007d9c985648c24267b85d52e9a",
+      "matches": true
+    }
+  ],
+  "actual_execution": "实际读取当前授权、AGENTS、preferences、A2及中文质量评审、A3-cn JSON/Markdown，核验A3全部8项上游输入哈希一致；核对两项送筛ID及拒绝/暂停结论。未执行外部搜索或英文创造。",
+  "upstream_counts": {
+    "drafts": 3,
+    "quality_selected": 2,
+    "A3_screened": 2,
+    "A3_reject": 1,
+    "A3_hold": 1,
+    "A3_pass": 0
+  },
+  "eligible_chinese_candidate_ids": [],
+  "input_count": 0,
+  "output_count": 0,
+  "english_candidates": [],
+  "excluded_chinese": [
+    {
+      "candidate_id": "MC-A2-01",
+      "name": "原语",
+      "upstream_stage": "A3-cn",
+      "upstream_conclusion": "reject",
+      "reason_code": "EXACT_TECH_USE",
+      "reason": "原语已作为科技公司核心字号和隐私计算软件品牌核心字样使用；开发者正文明确logoTitle为原语隐私计算平台。非仅英文词撞名，亦非技术术语一般使用。"
+    },
+    {
+      "candidate_id": "MC-A2-03",
+      "name": "声子",
+      "upstream_stage": "A3-cn",
+      "upstream_conclusion": "hold",
+      "reason_code": "EVIDENCE_HOLD",
+      "reason": "存在同中文字号科技公司第三方记录，当前未核验其primary中文使用与实时主体状态；另有跨行业聲子樂集活跃官网。不能给出公开初筛通过，也不能将其夸大成已确认同名AI公司或商标占用。"
+    },
+    {
+      "candidate_id": "MC-A2-02",
+      "name": "倍频",
+      "upstream_stage": "A2/coordinator Chinese quality",
+      "upstream_conclusion": "reject",
+      "reason_code": "BRAND_FIT",
+      "reason": "中文总分24且主控Lab身份3，不送查重；未作占用判断。"
+    }
+  ],
+  "english_creation_performed": false,
+  "english_quality_assessment": "not_applicable_zero_input",
+  "english_screening_performed": false,
+  "handoff": {
+    "to": "A3-en",
+    "required_agent_id": "/root/minimal_screening",
+    "status": "zero_input",
+    "candidate_ids": [],
+    "reason": "请原A3真实接收本回执并独立确认英文零输入；本A4未执行或代签A3英文复查。"
+  }
+}

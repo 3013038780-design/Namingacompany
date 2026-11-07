@@ -1,0 +1,80 @@
+{
+  "reviewed_at": "2026-11-07T18:25:51.924740+08:00",
+  "independence": "Read producer preview batch5 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C05",
+      "name": "State Dial",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个普通词三音节可顺读",
+          "counter_association": "dial可一或两音节"
+        },
+        "spelling": {
+          "reason": "完整词无假缩写",
+          "counter_association": "合分写要统一"
+        },
+        "grounding": {
+          "reason": "状态与可调器具关系直接",
+          "counter_association": "非拨码器标准译名"
+        },
+        "bilingual_relation": {
+          "reason": "两语共同连操作与配置",
+          "counter_association": "手动设定不等于自学习"
+        },
+        "distinctiveness": {
+          "reason": "可见控制对象能成机构称呼",
+          "counter_association": "像配置工具"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E07"
+    },
+    {
+      "candidate_id": "CT-C03",
+      "name": "Measured Light",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "正常英语词形可读",
+          "counter_association": "measured末尾辅音有成本"
+        },
+        "spelling": {
+          "reason": "完整词拼写可还原",
+          "counter_association": "可有英美发音差异"
+        },
+        "grounding": {
+          "reason": "测量光影的角色比喻已披露",
+          "counter_association": "圭表量投影而非光强"
+        },
+        "bilingual_relation": {
+          "reason": "两语共享观察获得量度主题",
+          "counter_association": "不逐字保留影子和刻度"
+        },
+        "distinctiveness": {
+          "reason": "有克制精确的完整形象",
+          "counter_association": "先像摄影或光学品牌"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E08"
+    }
+  ]
+}

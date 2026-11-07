@@ -1,0 +1,159 @@
+{
+  "same_research_run": true,
+  "previous_small_packet_closed_before_this": true,
+  "handoffs": [
+    {
+      "id": "H1",
+      "status": "accepted",
+      "from": "existing_A1",
+      "to": "same_A2",
+      "reason": "仍用同一A1/计划；前包已实际闭环，新冻结21案交原A2，不重开并发轮次。",
+      "refs": [
+        {
+          "path": "A1-final-input-reacceptance.json",
+          "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+        },
+        {
+          "path": "A1-formation-feedback.json",
+          "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        },
+        {
+          "path": "continuations/2026-11-07T155304Z/decisions-through-batch9.json",
+          "sha256": "c58704d2336ee4fd39edfe5e73633c985953cf8144613f62c5d39ffff5515a0e"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "status": "accepted",
+      "from": "A2",
+      "to": "coordinator",
+      "candidate_ids": [
+        "C1-C22"
+      ],
+      "refs": [
+        {
+          "path": "A2-creation-execution-batch10.json",
+          "sha256": "ff5761df8ba3bb246fd5772614b8a5b1f3ac0b9e2014236ed83bed2d2ecd9f71"
+        },
+        {
+          "path": "A2-candidates-batch10.json",
+          "sha256": "dac3fad4d578088af37f3daefa42fb863ad081cd708711869be0d2bf922b80c3"
+        },
+        {
+          "path": "materials-extension9.json",
+          "sha256": "cf709bf4993046c93991facc95fa170f9db074eac113e29558b5292b875d2a02"
+        },
+        {
+          "path": "coordinator-cn-batch10.json",
+          "sha256": "676924ad6ce9500d7eede80c02dc252f8acf10373476f93bd94bc9c8716c0182"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "status": "accepted",
+      "from": "coordinator",
+      "to": "same_A3",
+      "candidate_ids": [
+        "C1-C22"
+      ],
+      "reason": "先主控25再读producer26，各轴差<=1通过，原A3实际获中文授权。",
+      "refs": [
+        {
+          "path": "coordinator-cn-batch10.json",
+          "sha256": "676924ad6ce9500d7eede80c02dc252f8acf10373476f93bd94bc9c8716c0182"
+        },
+        {
+          "path": "A2-quality-batch10.json",
+          "sha256": "457560a520c747d1ca460a62a95906a676aea37eb349893bf29be259d1f597d8"
+        },
+        {
+          "path": "coordinator-family-review-batch10.json",
+          "sha256": "d5369c093480eb6dd699efd6fc6b4296deca0dbdba31f3530581d377ea1be483"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "status": "zero_input",
+      "from": "same_A3",
+      "to": "same_A4",
+      "candidate_ids": [
+        "C1-C22"
+      ],
+      "reason": "伶伦真实AI系统同名否决，原A4实际读新上游核零。",
+      "refs": [
+        {
+          "path": "A3-cn-batch11.json",
+          "sha256": "2eee223610ffab7d26c2a92a0a425829ac2450d9ea3db5a496db2d5edaabcc5d"
+        },
+        {
+          "path": "A3-cn-batch11-receipt.json",
+          "sha256": "8dcf4a49ee6336782581072d5607a1eefafb8859d384ed0c6322e3d681077f1f"
+        },
+        {
+          "path": "A4-zero-input-batch10.json",
+          "sha256": "a31773e3710366617e25ff9fd823aab17951373440469ffbf8c13db277a2b533"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "status": "zero_input",
+      "from": "same_A4",
+      "to": "same_A3",
+      "candidate_ids": [
+        "C1-C22"
+      ],
+      "refs": [
+        {
+          "path": "A4-zero-input-batch10.json",
+          "sha256": "a31773e3710366617e25ff9fd823aab17951373440469ffbf8c13db277a2b533"
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "status": "zero_input",
+      "from": "same_A3",
+      "to": "coordinator",
+      "reason": "同A3实际读新零回执核SHA，且附官网HTML到asset来源链；外部新查询零。",
+      "refs": [
+        {
+          "path": "A3-en-zero-batch10.json",
+          "sha256": "210db6a0a41734a46b4cc0f1aa13a99a4deb7b35a04eaf5b3d110fcd8811a3ef"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "status": "zero_retained",
+      "from": "coordinator",
+      "to": "catalog",
+      "candidate_ids": [
+        "C1-C22"
+      ],
+      "reason": "原始伶伦小包已真实闭环，无合格双语，禁止换英文救回；独立补稿活变量另筛。",
+      "refs": [
+        {
+          "path": "A3-en-zero-batch10.json",
+          "sha256": "210db6a0a41734a46b4cc0f1aa13a99a4deb7b35a04eaf5b3d110fcd8811a3ef"
+        },
+        {
+          "path": "continuations/2026-11-07T155304Z/root-C22-use-verification.json",
+          "sha256": "ed7f1ee75a36ac6d504763fdfbca8970770c78d9ec9cad997f633ce7abd1d901"
+        }
+      ]
+    }
+  ],
+  "input_scope": "只针对首稿C22；后交独立补稿C23不在本零输入范围，另案走新H1–H7，未改旧输入。"
+}

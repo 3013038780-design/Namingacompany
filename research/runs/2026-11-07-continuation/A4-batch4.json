@@ -1,0 +1,29 @@
+{
+  "agent_id": "/root/live_a4",
+  "role": "A4",
+  "recorded_at": "2026-11-07T18:18:42+08:00",
+  "input_authorization": "主控CT-C02第1次英文返工指令，中文资格不变",
+  "candidates": [
+    {
+      "id": "CT-E06",
+      "chinese_id": "CT-C02",
+      "chinese": "地球回信",
+      "english": "Returnlight",
+      "suggested_pronunciation": "ri-TURN-lyt /rɪˈtɜːrnlaɪt/",
+      "type": "以两个完整现成英语词构成的品牌合成词，非声称科学标准名",
+      "formation": "return与light完整相接：返回的光。不是变形Earth Replies、加Labs或剪拼音，而是回到地照光返回这一真实观测关系，选择另一种完整可读意象。",
+      "bilingual_relation": "中文把带回信息的光称为回信；英文直接称呼承载回信的返回之光。英文没有逐字写Earth，但共享地球—月面—地球的真实光路与获得认识的故事。",
+      "meaning": "发出去之后，仍能从世界带回新信息；光的返回让我们看见自己的世界。适合模型部署后继续获得经验的机构隐喻，不把光学反射等同学习算法。",
+      "shortcoming": "Returnlight是本轮品牌合成，不是地照光标准英译；单独看可能先像照明、影像或光学企业。首次听写可能分成Return Light，A3须查连写/分写。",
+      "source_urls": [
+        "https://arxiv.org/abs/0906.0570"
+      ],
+      "read_scope": "A4已实际读论文摘要L16–17，确认地球反射光经月面返回及行星信息用途；本返工复用已读范围，未新增全论文阅读。",
+      "rework_of": "CT-E02",
+      "rework_number_for_chinese": 1,
+      "rework_reason": "上案Earth Replies被A3确认与Gemini驱动AI互动项目Earth Replies to Your Future在完整前缀与核心场景近似，按证据返工；不写成两词精确注册。",
+      "status": "quality_proposal_not_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

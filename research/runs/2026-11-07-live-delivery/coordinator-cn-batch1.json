@@ -1,0 +1,170 @@
+{
+  "reviewed_at": "2026-11-07T16:35:52.928008+08:00",
+  "independence": "Read A2-preview.md, not producer numeric quality file before this submission.",
+  "reviews": [
+    {
+      "candidate_id": "LD-C01",
+      "name": "逆级联",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "notes": {
+        "naturalness": {
+          "reason": "完整三字科学名词，发音顺畅",
+          "counter_association": "逆向工程联想"
+        },
+        "distinctiveness": {
+          "reason": "逆向跨尺度的动作画面可记",
+          "counter_association": "级联为行业常用词"
+        },
+        "lab_fit": {
+          "reason": "组织与复杂系统研究身份清楚",
+          "counter_association": "可能首先想到流体实验室"
+        },
+        "grounding": {
+          "reason": "有专门流体物理文献支撑",
+          "counter_association": "不能省略二维等适用条件"
+        },
+        "extension": {
+          "reason": "可承载多种跨尺度组织研究",
+          "counter_association": "与当前AI机制并不等同"
+        },
+        "semantic_coherence": {
+          "reason": "尺度传递到能力组织的类比一致",
+          "counter_association": "类比不是物理机制用于模型的声明"
+        }
+      },
+      "total": 25,
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "LD-C02",
+      "name": "负熵流",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "notes": {
+        "naturalness": {
+          "reason": "既有三字词，有完整对象",
+          "counter_association": "负字略消极"
+        },
+        "distinctiveness": {
+          "reason": "负熵与流结合形成方向",
+          "counter_association": "熵有识读门槛"
+        },
+        "lab_fit": {
+          "reason": "开放系统与信息研究气质",
+          "counter_association": "容易过度哲学化"
+        },
+        "grounding": {
+          "reason": "熵平衡分解有讲义支撑",
+          "counter_association": "热熵不能等同智能"
+        },
+        "extension": {
+          "reason": "交换与组织可容纳长期研究",
+          "counter_association": "可能泛化成管理口号"
+        },
+        "semantic_coherence": {
+          "reason": "各层围绕开放交换展开",
+          "counter_association": "信息熵与热熵不可混写"
+        }
+      },
+      "total": 25,
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "LD-C03",
+      "name": "磁重联",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "notes": {
+        "naturalness": {
+          "reason": "完整现象名，三字可称呼",
+          "counter_association": "重有多音"
+        },
+        "distinctiveness": {
+          "reason": "重接与能量转换图景明确",
+          "counter_association": "不熟悉者难听写"
+        },
+        "lab_fit": {
+          "reason": "能够成为物理研究品牌",
+          "counter_association": "聚变电磁设备联想强"
+        },
+        "grounding": {
+          "reason": "机构报道支持定义",
+          "counter_association": "不等于AI拓扑技术"
+        },
+        "extension": {
+          "reason": "磁的技术范围较窄",
+          "counter_association": "跨模型平台身份需额外解释"
+        },
+        "semantic_coherence": {
+          "reason": "拓扑重组贯穿故事",
+          "counter_association": "释放磁能不是智能提升"
+        }
+      },
+      "total": 24,
+      "decision": "quality_reject"
+    },
+    {
+      "candidate_id": "LD-C04",
+      "name": "叠层石",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "notes": {
+        "naturalness": {
+          "reason": "现成自然物名，容易读",
+          "counter_association": "类似建材称呼"
+        },
+        "distinctiveness": {
+          "reason": "可见层纹清楚",
+          "counter_association": "叠字与历史视觉意象接近"
+        },
+        "lab_fit": {
+          "reason": "第一身份更偏地质收藏与石材",
+          "counter_association": "用户已明确不喜偏家具材料气质"
+        },
+        "grounding": {
+          "reason": "机构图书节选可核验",
+          "counter_association": "需区别化石与现生构造"
+        },
+        "extension": {
+          "reason": "长期范围偏古生物地质",
+          "counter_association": "不能靠解释补科技定位"
+        },
+        "semantic_coherence": {
+          "reason": "群体活动与时间留痕一致",
+          "counter_association": "沉积不等于学习"
+        }
+      },
+      "total": 23,
+      "decision": "quality_reject"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T18:19:43.318875+08:00",
+  "independence": "Read A4-preview-batch4.md before producer numeric assessment.",
+  "reviews": [
+    {
+      "english_id": "CT-E06",
+      "candidate_id": "CT-C02",
+      "name": "Returnlight",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "return与light为熟悉音节，连接自然",
+          "counter_association": "重音需固定在turn"
+        },
+        "spelling": {
+          "reason": "两个完整词合写，无任意拼写变化",
+          "counter_association": "首次可能分写Return Light"
+        },
+        "grounding": {
+          "reason": "返回与光本来在地照光光路中同一关系",
+          "counter_association": "不是地照光的标准词典名"
+        },
+        "bilingual_relation": {
+          "reason": "中文信息回信与英文承载信息的返回光同主题",
+          "counter_association": "英文没直接写地球"
+        },
+        "distinctiveness": {
+          "reason": "组合具体可想象，整体可称呼",
+          "counter_association": "可能先像照明或影像品牌"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

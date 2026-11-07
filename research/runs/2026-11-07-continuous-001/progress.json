@@ -1,0 +1,71 @@
+{
+  "updated_at": "2026-11-07T21:48:00.842966+08:00",
+  "cases_substantively_verified_first_A1": 7,
+  "case_category_counts": {
+    "broad_technology": 2,
+    "current_ai": 2,
+    "rsi_related": 3
+  },
+  "formation_feedback_existing_cases": 4,
+  "formation_feedback_new_cases": 0,
+  "materials": 25,
+  "literal_chinese_drafts": 17,
+  "raw_candidate_family_ids": 17,
+  "history_family_overlap_excluded": 1,
+  "distinct_new_family_proposals_after_overlap": 16,
+  "chinese_screened": 13,
+  "chinese_initial_pass": 6,
+  "chinese_pass_after_C06_correction": 5,
+  "english_versions_proposed": 13,
+  "english_versions_actually_use_searched": 12,
+  "english_quality_rejected_not_searched": [
+    "C1-E07"
+  ],
+  "current_bilingual_retained": 2,
+  "current_retained_pairs": [
+    {
+      "chinese": "活桥",
+      "english": "Antspan"
+    },
+    {
+      "chinese": "作数",
+      "english": "Factborne"
+    }
+  ],
+  "withdrawn_pairs": [
+    {
+      "chinese": "余量",
+      "english": "Spare Signal"
+    }
+  ],
+  "old_reserves_promoted_not_new": 2,
+  "candidate_query_executions": 183,
+  "positive_control_queries": 2,
+  "reserve_extra_query_separate": 1,
+  "source_query_files": [
+    "A3-cn-batch1-supplement.json",
+    "A3-cn-batch1.json",
+    "A3-cn-batch2.json",
+    "A3-cn-batch3.json",
+    "A3-cn-batch4.json",
+    "A3-cn-batch5.json",
+    "A3-cn-batch6.json",
+    "A3-cn-batch7.json",
+    "A3-en-batch1.json",
+    "A3-en-batch10.json",
+    "A3-en-batch11.json",
+    "A3-en-batch12.json",
+    "A3-en-batch13.json",
+    "A3-en-batch2.json",
+    "A3-en-batch3.json",
+    "A3-en-batch4.json",
+    "A3-en-batch5.json",
+    "A3-en-batch6.json",
+    "A3-en-batch8.json",
+    "A3-en-batch9.json",
+    "A3-C06-use-addendum.json",
+    "A3-C08-core-addendum.json"
+  ],
+  "whole_protocol_complete": false,
+  "note": "查重查询数含实际重查，不是每条独立不同词；逐名日志保留。余量首次放行漏检后撤回，不计当前新增。无每日或总量终点。"
+}

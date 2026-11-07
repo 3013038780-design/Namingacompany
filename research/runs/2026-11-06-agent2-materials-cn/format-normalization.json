@@ -1,0 +1,31 @@
+{
+  "scope": "Coordinator formatting only; no candidate, material fact or rating changed",
+  "original_receipt": "producer-rework.json",
+  "original_exact_output_archive": "producer-frozen-outputs.zip",
+  "changes": [
+    {
+      "path": "candidates.md",
+      "before_sha256": "874723f82984d89c39f0c09bd86e9915757f822836cd26da071a5decb941f36a",
+      "after_sha256": "6d27287354254a35c8a23fc8672f2bedd5a5fe88fcb7dd32209a6d980fb56c7a",
+      "change": "Remove one redundant trailing blank line only; original exact producer bytes preserved in producer-frozen-outputs.zip."
+    },
+    {
+      "path": "inputs/A2/candidates.md",
+      "before_sha256": "874723f82984d89c39f0c09bd86e9915757f822836cd26da071a5decb941f36a",
+      "after_sha256": "6d27287354254a35c8a23fc8672f2bedd5a5fe88fcb7dd32209a6d980fb56c7a",
+      "change": "Remove one redundant trailing blank line only; original exact producer bytes preserved in producer-frozen-outputs.zip."
+    },
+    {
+      "path": "materials.md",
+      "before_sha256": "706d06581058d90eead1715e055d150e98eeb64e99ca539043798d97790a402f",
+      "after_sha256": "24bff78e7e974fd1d446db0e399111b11eebef32004e39f3a98c0c35591f9464",
+      "change": "Remove one redundant trailing blank line only; original exact producer bytes preserved in producer-frozen-outputs.zip."
+    },
+    {
+      "path": "inputs/A2/materials.md",
+      "before_sha256": "706d06581058d90eead1715e055d150e98eeb64e99ca539043798d97790a402f",
+      "after_sha256": "24bff78e7e974fd1d446db0e399111b11eebef32004e39f3a98c0c35591f9464",
+      "change": "Remove one redundant trailing blank line only; original exact producer bytes preserved in producer-frozen-outputs.zip."
+    }
+  ]
+}

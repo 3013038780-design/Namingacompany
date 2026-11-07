@@ -1,0 +1,83 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-07T23:03:18.784760+08:00",
+  "candidates": [
+    {
+      "id": "C1-C19",
+      "name": "分身有别",
+      "pinyin": "fēn shēn yǒu bié",
+      "material_id": "C1-M27",
+      "material_ids": [
+        "C1-M27"
+      ],
+      "family_id": "C1-BF-shared-start-private-changes",
+      "plan_direction_id": "C1-D-S3",
+      "case_ids": [
+        "B074",
+        "B002"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "source_urls": [
+        "https://pdos.csail.mit.edu/6.1810/2024/labs/cow.html",
+        "https://man7.org/linux/man-pages/man2/fork.2.html"
+      ],
+      "sources": [
+        {
+          "title": "MIT 6.1810：Lab Copy-on-Write Fork for xv6（2024课程）",
+          "url": "https://pdos.csail.mit.edu/6.1810/2024/labs/cow.html",
+          "published_at": "2024",
+          "reading_location": "L0–16问题与解决方案，L44–56写保护、原只读页、引用计数与内存不足边界；未实现实验",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body"
+        },
+        {
+          "title": "Linux man-pages：fork(2)",
+          "url": "https://man7.org/linux/man-pages/man2/fork.2.html",
+          "published_at": "2026-06-05",
+          "reading_location": "L25–42父子进程内存与标识，L99–122线程/文件描述符例外，L194–199 Linux COW说明；未运行系统调用实验",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body"
+        }
+      ],
+      "formation": "本轮熟字组成的完整主谓称呼，不冒称现成成语或书中原句。分身是同源的多个行动者，有别在这里指各自改写的界限，而非把“别”当独特优越的美好字。",
+      "relation_sentence": "两个进程从相同的内存内容开始，初期可共享物理页；需要写入时，各自获得要改的页，让一方的修改不改变另一方的内存。",
+      "condensation_path": "保留“同源的多个主体，可以分别变化而不混成一份”的整幅图景，以分身有别四字凝练；没有把COW或fork剪字做一个难读缩写。",
+      "meaning": "从同一个起点，也能形成各自的经历。",
+      "crossing": "人说分身会想到一个自己变出多个自己；计算中的父子进程也有共同起点，却具有独立内存空间。重点不是数量增加，而是共同来源与各自变化可以同时成立。",
+      "layers": [
+        "容易想象的多个分身",
+        "同源状态与独立内存修改之间的工程关系",
+        "实验室可研究多个智能主体如何共享起点、形成有边界的不同状态"
+      ],
+      "material_feature_retained": "保留共享起点、可分开修改及修改不必污染彼此的关系。",
+      "material_feature_lost": "没有交代页面粒度、写保护、引用计数与例外资源，分身不是完全隔绝的平行世界。",
+      "why_name_not_generic": "分身与有别描述同一对象状态关系，不是计算字加聪明/向上；整词可直接叫出，知识背景随后增加一层。",
+      "shortcoming": "可能先像数字人、多开工具或虚拟分身产品；四字有一点功能口吻，近似“分身有术”的惯用语语感，也需实际品牌审查。未读释义时是否足以像广义AI Lab，交主控独立判断。",
+      "science_boundary": "不意味着创建无限副本、每个副本必然学习或更聪明；只有所讨论的内存修改隔离，不能推广成整个文件、网络或真实环境均互不影响。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "历史逐JSON和本段关键词扫描未见同字候选；实质区别在同源状态的私有改写，非旧懒函数的延迟计算、异步的调度节奏，也不是因序的事件偏序。若最终只讲成长出不同自己或分出更多Agent，应与上位成长/复制家族合并，不能以源码名不同强计新。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "formation_evidence_boundary": "最新A1 F1关系句先行、F2术语可转成可感称呼、F3整体自然熟字组合在本项实际应用；未继承任何前案使用通过状态。",
+      "oral_test": [
+        "我们是分身有别，做人工智能研究。",
+        "分身有别发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened"
+    }
+  ],
+  "scope": "至多三案工作包本次先提交一个不同家族中文，不以候选量充研究。"
+}

@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-08T00:14:12.096180+08:00",
+  "independence": "Read producer preview batch17 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C23",
+      "name": "Live Variable",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "完整英语名词短语可正常称呼",
+          "counter_association": "约五音节且live动形读法不同"
+        },
+        "spelling": {
+          "reason": "标准live和variable拼法无需改字",
+          "counter_association": "非技术听者variable拼写需解释"
+        },
+        "grounding": {
+          "reason": "直接取有明确条件的原讲义计算对象",
+          "counter_association": "分析可保守高估并非预知全部未来"
+        },
+        "bilingual_relation": {
+          "reason": "双语共同指当前值后续覆盖前可能使用",
+          "counter_association": "不等于缓存或按需推迟求值"
+        },
+        "distinctiveness": {
+          "reason": "具体对象身份可以成为研究机构称呼",
+          "counter_association": "通用术语品牌独占辨识弱且易先像课程工具"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E17"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese screening",
+  "executed_at": "2026-11-08T00:09:22.176053+08:00",
+  "candidate_id": "C1-C22",
+  "candidate": "伶伦",
+  "decision": "reject_exact_ai_product_use",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch10.md",
+      "sha256": "78e3ae6ef17e97035df6a9bfa0bda60d6e525de5a33e54cafe668cc26ee8eecf"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch10.json",
+      "sha256": "dac3fad4d578088af37f3daefa42fb863ad081cd708711869be0d2bf922b80c3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch10.json",
+      "sha256": "457560a520c747d1ca460a62a95906a676aea37eb349893bf29be259d1f597d8"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch10.json",
+      "sha256": "676924ad6ce9500d7eede80c02dc252f8acf10373476f93bd94bc9c8716c0182"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension9.json",
+      "sha256": "cf709bf4993046c93991facc95fa170f9db074eac113e29558b5292b875d2a02"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch11.md",
+      "sha256": "b7daa8a2a03d5ad553fdd9e661df294175dee2050e036f7f792c65542714cbad"
+    },
+    {
+      "path": "A3-cn-batch11.json",
+      "sha256": "2eee223610ffab7d26c2a92a0a425829ac2450d9ea3db5a496db2d5edaabcc5d"
+    }
+  ],
+  "actual_new_candidate_queries": 12,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 227,
+  "agent3_cumulative_candidate_queries": 239,
+  "root_independent_additional_queries_previously_reported": 2,
+  "run_cumulative_candidate_queries_including_root": 241,
+  "actual_execution": "实际读本包A2候选/材料/双评，执行十二次查询；官网JS壳不冒充正文，转取官方前端脚本实际核同名AI产品内容，另读媒体正文。文化人物不是科学实证，不因声音类禁整个家族。",
+  "next": "中文已有完整同名AI系统，输入A4合格中文为0，交真实A4零回执后本A3复核，不配英文救回。",
+  "unchanged": "原稿、总库、git、用户通知无变更。"
+}

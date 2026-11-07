@@ -1,0 +1,100 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T21:12:58.362594+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch6.md",
+      "sha256": "25d11e3ef542c6036f8b02b21ddaa8f737673355da59df29afeb618e2b729c8f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-batch6.json",
+      "sha256": "907797ff13563e404ec202bfa3c006e920f26d3848ec0ec7cc18a8a537978b94"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch6.json",
+      "sha256": "a5c4bb6f11ecde01c775e08629506f511fbf3ef16dfccaf1d2eb42739bb86123"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch6.json",
+      "sha256": "f8e0d04e4dcf52f4389d38816942631787982f23ed896104ca6dccf8fd2a94f4"
+    }
+  ],
+  "query_count": 6,
+  "results": [
+    {
+      "candidate_id": "C1-E06",
+      "name": "Linewake",
+      "query_logs": [
+        {
+          "query": "\"Linewake\"",
+          "executed_on": "2026-11-07",
+          "summary": "核心同名软件开发/发行品牌Linewake Studio已由Steam官方页面明确列为Developer/Publisher；不是普通line+wake片段或个人署名。另LineWake车流检测应用名称线索披露，未读到官网正文，不以索引独立认定上线。中文回车以后保留可英文首返。"
+        },
+        {
+          "query": "\"Linewake\" company lab technology",
+          "executed_on": "2026-11-07",
+          "summary": "核心同名软件开发/发行品牌Linewake Studio已由Steam官方页面明确列为Developer/Publisher；不是普通line+wake片段或个人署名。另LineWake车流检测应用名称线索披露，未读到官网正文，不以索引独立认定上线。中文回车以后保留可英文首返。"
+        },
+        {
+          "query": "\"Linewake\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "核心同名软件开发/发行品牌Linewake Studio已由Steam官方页面明确列为Developer/Publisher；不是普通line+wake片段或个人署名。另LineWake车流检测应用名称线索披露，未读到官网正文，不以索引独立认定上线。中文回车以后保留可英文首返。"
+        },
+        {
+          "query": "\"Linewake\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "核心同名软件开发/发行品牌Linewake Studio已由Steam官方页面明确列为Developer/Publisher；不是普通line+wake片段或个人署名。另LineWake车流检测应用名称线索披露，未读到官网正文，不以索引独立认定上线。中文回车以后保留可英文首返。"
+        },
+        {
+          "query": "\"Line Wake\" OR \"Line-Wake\" company software",
+          "executed_on": "2026-11-07",
+          "summary": "核心同名软件开发/发行品牌Linewake Studio已由Steam官方页面明确列为Developer/Publisher；不是普通line+wake片段或个人署名。另LineWake车流检测应用名称线索披露，未读到官网正文，不以索引独立认定上线。中文回车以后保留可英文首返。"
+        },
+        {
+          "query": "\"Linewake\" brand startup",
+          "executed_on": "2026-11-07",
+          "summary": "核心同名软件开发/发行品牌Linewake Studio已由Steam官方页面明确列为Developer/Publisher；不是普通line+wake片段或个人署名。另LineWake车流检测应用名称线索披露，未读到官网正文，不以索引独立认定上线。中文回车以后保留可英文首返。"
+        }
+      ],
+      "decision": "reject",
+      "reason": "核心同名软件开发/发行品牌Linewake Studio已由Steam官方页面明确列为Developer/Publisher；不是普通line+wake片段或个人署名。另LineWake车流检测应用名称线索披露，未读到官网正文，不以索引独立认定上线。中文回车以后保留可英文首返。",
+      "evidence": [
+        {
+          "url": "https://store.steampowered.com/app/5024610/",
+          "access": "official_software_store_body_read",
+          "finding": "ONE MORE FISHING，Developer与Publisher均Linewake Studio，发布2026-08-21，商业售卖游戏；科技软件开发品牌同核心名证据。"
+        },
+        {
+          "url": "https://www.linewake.com/",
+          "access": "search_text_only_open_empty_body",
+          "finding": "搜索索引LineWake Smart Car-Line Waker，摄像头检测前车移动；web打开0行，未核完整正文/开发主体，不冒称已实测或已读实现。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Linewake",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      },
+      "chinese_candidate_id": "C1-C11",
+      "chinese": "回车以后",
+      "version": "initial_english_proposal",
+      "precise_use_type": "same_core_software_developer_publisher_brand",
+      "next": "A4_first_rework_allowed"
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。"
+}

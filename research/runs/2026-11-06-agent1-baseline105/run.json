@@ -1,0 +1,70 @@
+{
+  "protocol_version": "1.0",
+  "run_id": "2026-11-06-agent1-baseline105",
+  "date": "2026-11-06",
+  "status": "in_progress",
+  "stage": "agent1_baseline_reanalysis",
+  "scope": "User requested renewed analysis and macro classification of the initial 105 existing cases; no creation or downstream stages.",
+  "coordinator_id": "/root",
+  "roles": {
+    "A1": {
+      "agent_id": "/root/agent1_baseline105",
+      "status": "completed",
+      "execution_ref": "collaboration.spawn_agent /root/agent1_baseline105 in current Codex chat",
+      "completion_observed_at": "2026-11-06T13:56:48+08:00",
+      "completion_receipt": "collaboration final answer from /root/agent1_baseline105 in current Codex chat"
+    }
+  },
+  "not_started": [
+    "A2",
+    "A3",
+    "A4"
+  ],
+  "new_naming_proposals": 0,
+  "new_cases": 0,
+  "existing_cases_to_reanalyze": 105,
+  "workflow_compliance": "A1-only stage, not a complete naming cycle.",
+  "schedule_created": false,
+  "stage_status": "completed_awaiting_user_review",
+  "requested_scope_completed": true,
+  "next_gate": "User reviews macro directions before any A2 creation.",
+  "actual_counts": {
+    "reanalyzed_existing_cases": 105,
+    "new_cases": 0,
+    "new_naming_proposals": 0,
+    "primary_source_directions": 6,
+    "unknown_source_groups": 2,
+    "narrative_roles": 6,
+    "principles": 7,
+    "counterexamples": 4,
+    "coordinator_editorial_review_cases": 105,
+    "coordinator_reopened_source_cases": 22,
+    "all_readers_body_covered_cases": 23
+  },
+  "stage_deliverables": [
+    {
+      "path": "baseline-index.json",
+      "sha256": "a621777232c8510a7b2b3e5d2069a52ed91918396d3dce7e0a217eb90d6fecaf"
+    },
+    {
+      "path": "README.md",
+      "sha256": "72ec38fefa7cec1ad528378a38cb1cd5b156ebe23ed74b1bd7f9a86943a0edd9"
+    },
+    {
+      "path": "cases.md",
+      "sha256": "0c22834eddb1b75220da96f8e7c76340d8e029160ed52976907061442e424874"
+    },
+    {
+      "path": "cases.json",
+      "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746"
+    },
+    {
+      "path": "taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+    },
+    {
+      "path": "source_review.json",
+      "sha256": "5c78134bd09df433bcfe267ffc1138eef15dc1cdb0d84f42802022b6801723b7"
+    }
+  ]
+}

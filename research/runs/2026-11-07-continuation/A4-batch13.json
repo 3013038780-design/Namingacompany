@@ -1,0 +1,60 @@
+{
+  "agent_id": "/root/live_a4",
+  "role": "A4",
+  "recorded_at": "2026-11-07T18:45:08+08:00",
+  "input_authorization": "主控明确CT-C19/CT-C21/CT-C23双中文质量及同一A3中文公开初筛过",
+  "candidates": [
+    {
+      "id": "CT-E22",
+      "chinese_id": "CT-C19",
+      "chinese": "噪声种子",
+      "english": "Noisebloom",
+      "suggested_pronunciation": "NOYZ-bloom /ˈnɔɪzbluːm/",
+      "type": "两个完整英语词构成的品牌合成词，非科学标准术语",
+      "formation": "noise与bloom完整相接：噪声成为生成结果的起点，如种子展开形态。bloom是品牌比喻，不声称高斯噪声里本来藏着花或全部知识；并非直接用Noise Seed或任意改拼音。",
+      "bilingual_relation": "中文强调随机起点，英文强调经学习到的过程出现可见结构；种子与开花是同一比喻链，真实锚点是反向生成链而非植物生长原理。",
+      "meaning": "看似无内容的初态可以进入一个学会了的生成过程，形成新的可见结果。该来源主要是生成模型，不冒称持续学习机制；seed不等于噪声本身。",
+      "shortcoming": "可能先像生成艺术、音乐或影像工具；bloom有增长和花的联想，必须用真实生成过程收束，不把噪声浪漫化成天然智能。",
+      "source_urls": [
+        "https://arxiv.org/pdf/2006.11239"
+      ],
+      "read_scope": "A4实际读PDF前2页L10–76，特别L55–66的高斯初始分布与学得的反向转移；未读全部实验与附录。",
+      "status": "quality_proposal_not_screened"
+    },
+    {
+      "id": "CT-E23",
+      "chinese_id": "CT-C21",
+      "chinese": "海底雪",
+      "english": "Snow Below",
+      "suggested_pronunciation": "SNOH bi-LOH /snoʊ bɪˈloʊ/",
+      "type": "两个普通词构成的完整品牌名词短语",
+      "formation": "snow below是下面世界里的雪。保留两个正常词，用日常雪的画面打开通常不可见的深海，而不直接沿用Marine Snow或剪拼音。",
+      "bilingual_relation": "中文明确海底这个意外位置，英文保留雪在下方/深处的画面；具体海洋关系由真实出处承接，不说普通冰雪下到了海底。",
+      "meaning": "世界深处也有值得认识的景象；上层的微小片段能在别处继续被利用，建立看不见世界之间的联系。它是自然世界的品牌叙事，不声称颗粒运输就是AI学习。",
+      "shortcoming": "可能像科普、旅行或文化内容品牌；真实海洋雪含腐败生物残体、排泄物等，并非纯净冰雪，不能只讲浪漫画面隐瞒成分。",
+      "source_urls": [
+        "https://oceanservice.noaa.gov/facts/marinesnow.html"
+      ],
+      "read_scope": "A4实际读NOAA全文事实段L0–7，含残体/排泄物、下沉途中聚集消耗、深海食物与沉积；未读海洋生态专著。",
+      "status": "quality_proposal_not_screened"
+    },
+    {
+      "id": "CT-E24",
+      "chinese_id": "CT-C23",
+      "chinese": "指南鱼",
+      "english": "Compassfish",
+      "suggested_pronunciation": "KUM-puhs-fish /ˈkʌmpəsfɪʃ/",
+      "type": "两个完整普通英语词构成的品牌合成词，不自称标准学术译名",
+      "formation": "compass是指南/定向器具，fish是鱼形；Compassfish称呼中国本来存在的鱼形定向工具，不是把Compass公司名加一个无关后缀，也不因Compass是普通词就推断整体可用。",
+      "bilingual_relation": "两语都保留鱼形与指向的完整对象；中文保留中国科技史称呼，英文让不识汉字的人也能先想象一条能指方向的鱼。",
+      "meaning": "一个物件经有目的的处理，获得可用的方向感知功能；公司可提供帮助既有系统认识环境、选择行动的条件。鱼是铁片形状，不是活鱼的磁感或古代自学习机器。",
+      "shortcoming": "可能像导航、户外或儿童知识品牌；Compass相关名称拥挤，必须由A3独查Compassfish整体及分词、近似，不能继承任何单词查重结果。",
+      "source_urls": [
+        "https://www.cdstm.cn/museum/zphc/hxzg2017x/art/2017/art_122662c0f9fb4c0cbbbc3be12c030406.html"
+      ],
+      "read_scope": "A4实际读中国科学技术馆展品正文L23，确认鱼形铁片、定向淬水、漂浮指向；不采用最早发明优先权推广，也未读武经总要原卷。",
+      "status": "quality_proposal_not_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

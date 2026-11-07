@@ -1,0 +1,112 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T16:44:38.042099+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A4-preview-batch4.md",
+      "sha256": "29f153636351c3af0077acbad42db7c90f14e3bc43c07d8eb737057967383769"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A4-quality-batch4.json",
+      "sha256": "eb9a2f8681c5cd2e73fa0421b96a3f9c09b00487f45e83dcb75f8cab855b994a"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/coordinator-en-batch4.json",
+      "sha256": "30979e63d3a8cd456a3a6a5c43516faeae6b3ba5baccb5ee4d618a2add2e49c1"
+    }
+  ],
+  "query_count": 9,
+  "results": [
+    {
+      "candidate_id": "LD-E07",
+      "chinese_candidate_id": "LD-C07",
+      "name": "Codabitat",
+      "chinese": "代码生境",
+      "version": 1,
+      "decision": "hold",
+      "reason_code": "NEAR_MATCH_HOLD",
+      "reason": "Codabitat整体无明确命中，但与同领域Codehabitat声音、结构及Code+habitat来源十分接近；印度Codehabitat (OPC) Private Limited有可读第三方企业正文（CIN U72900MH2022OPC381635）。不认定完全同名或商标冲突，返A4另配以避免已知近似科技品牌。",
+      "query_logs": [
+        {
+          "category": "exact_no_industry",
+          "query": "\"Codabitat\"",
+          "executed_on": "2026-11-07",
+          "summary": "精确Codabitat查询为空；近似Codehabitat出现信息技术公司，不将自然史codeHabitat数据字段当品牌。"
+        },
+        {
+          "category": "company_lab",
+          "query": "\"Codabitat\" company lab",
+          "executed_on": "2026-11-07",
+          "summary": "精确Codabitat查询为空；近似Codehabitat出现信息技术公司，不将自然史codeHabitat数据字段当品牌。"
+        },
+        {
+          "category": "AI_model",
+          "query": "\"Codabitat\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "精确Codabitat查询为空；近似Codehabitat出现信息技术公司，不将自然史codeHabitat数据字段当品牌。"
+        },
+        {
+          "category": "software_product",
+          "query": "\"Codabitat\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "精确Codabitat查询为空；近似Codehabitat出现信息技术公司，不将自然史codeHabitat数据字段当品牌。"
+        },
+        {
+          "category": "variant_brand",
+          "query": "\"Codehabitat\"",
+          "executed_on": "2026-11-07",
+          "summary": "精确Codabitat查询为空；近似Codehabitat出现信息技术公司，不将自然史codeHabitat数据字段当品牌。"
+        },
+        {
+          "category": "split_variant",
+          "query": "\"Code Habitat\" AI software company",
+          "executed_on": "2026-11-07",
+          "summary": "精确Codabitat查询为空；近似Codehabitat出现信息技术公司，不将自然史codeHabitat数据字段当品牌。"
+        },
+        {
+          "category": "spelling_variants",
+          "query": "\"Coda-bitat\" OR \"Coda bitat\"",
+          "executed_on": "2026-11-07",
+          "summary": "精确Codabitat查询为空；近似Codehabitat出现信息技术公司，不将自然史codeHabitat数据字段当品牌。"
+        },
+        {
+          "category": "targeted_primary",
+          "query": "\"CodeHabitat\" official software company",
+          "executed_on": "2026-11-07",
+          "summary": "精确Codabitat查询为空；近似Codehabitat出现信息技术公司，不将自然史codeHabitat数据字段当品牌。"
+        },
+        {
+          "category": "technology_supplement",
+          "query": "\"Codabitat\" technology",
+          "executed_on": "2026-11-07",
+          "summary": "精确Codabitat查询为空；近似Codehabitat出现信息技术公司，不将自然史codeHabitat数据字段当品牌。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.zaubacorp.com/companies-CODEH",
+          "status": "third_party_body_read",
+          "finding": "L15–22列CODEHABITAT (OPC) PRIVATE LIMITED、CIN及地址；不是印度官方实时登记。"
+        },
+        {
+          "url": "https://www.thecompanycheck.com/company/codehabitat-opc-private-limited/U72900MH2022OPC381635",
+          "status": "search_text_body_timeout",
+          "finding": "企业资料标IT服务；正文打开超时，不能说官方登记核验完成。"
+        },
+        {
+          "url": "https://www.counterscope.ae/score/230fdcdc-e22e-4ea4-b7e9-55dcfec8b97e",
+          "status": "third_party_search_text_restricted_body",
+          "finding": "另列迪拜CODEHABITAT WEB DESIGN LLC并称牌照已过期；非在营确认。"
+        },
+        {
+          "url": "https://codehabitat.com/",
+          "status": "unavailable",
+          "finding": "尝试可能官网不可访问，未确认其归属。"
+        }
+      ]
+    }
+  ],
+  "passed_english_candidate_ids": [],
+  "claim_limits": "公开使用初筛不等于全球无使用或公司/商标可注册；个人名、跨行业、近似与完全同名分列。"
+}

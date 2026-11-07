@@ -1,0 +1,51 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-07T21:22:04.925374+08:00",
+  "scope": "主控先独评封存再打开，未对外承诺通过",
+  "reviews": [
+    {
+      "candidate_id": "C1-C15",
+      "name": "同位素",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 5
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "完整熟悉三字词，读音常见",
+          "counter_association": "术语感比日常动作强"
+        },
+        "distinctiveness": {
+          "reason": "同身份有差异这一对象清楚",
+          "counter_association": "通用科学词会有大量现成叙事"
+        },
+        "lab_fit": {
+          "reason": "具真实研究机构气质，科技定位直接",
+          "counter_association": "可能被理解成核医化公司"
+        },
+        "grounding": {
+          "reason": "对象和示踪关系及KIE均读正文",
+          "counter_association": "未把所有性质都称相同"
+        },
+        "extension": {
+          "reason": "身份差异和经历可追溯不限一个算法",
+          "counter_association": "若落在材料生产会偏离AI"
+        },
+        "semantic_coherence": {
+          "reason": "身份相同与可测差异在同一科学对象",
+          "counter_association": "不能将质量多一点写成智能多一点"
+        }
+      },
+      "decision": "quality_pass",
+      "independent_submission_ref": "A2-quality-batch5.json producer-only submission"
+    }
+  ]
+}

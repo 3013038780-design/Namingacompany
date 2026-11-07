@@ -1,0 +1,119 @@
+{
+  "updated_at": "2026-11-07T23:20:44.575628+08:00",
+  "policy": "continuous_no_quantity_quota",
+  "scheduler": {
+    "id": "automation",
+    "kind": "heartbeat",
+    "status": "ACTIVE",
+    "cadence": "hourly",
+    "destination": "existing_chat",
+    "verified_from_app_tool_and_local_record": true,
+    "local_runtime_requirement": "电脑开机、应用运行、仓库与工具可用；定时接续不是无限常驻"
+  },
+  "catalog": {
+    "path": "research/catalog/README.md",
+    "discussion_candidates": 24,
+    "research_reserves": 1,
+    "total_unique_families": 25,
+    "withdrawn_families": 1,
+    "historical_unique_families": 26
+  },
+  "active_run": "research/runs/2026-11-07-continuous-001",
+  "actual_state": "C19_packet_closed_zero_retained_ready_for_next_A2",
+  "next_action": "接续同一001；复用已验收A1/计划，原A2从新关系及更自然整体称呼继续小包，C20/M29起，优先未开发资料世界，不生成C19/C18家族变体。中文先root独评再原A3，英文原A4再同A3；不重开并发轮次。",
+  "pending_stages": [
+    "A2真实资料→中文创作；先素材小批内部快审",
+    "主控独立中文质量→同A3中文使用筛查",
+    "实际A4英文匹配→同A3英文使用复查→主控终审",
+    "合格新增持续更新总库，不重复计旧储备/英文版本"
+  ],
+  "single_writer_policy": "当前研究未归档前不启动另一套同项目命名轮次；唤醒先检查现有角色是否还在运行，若完成则读取真实回执后接续。",
+  "quantity_stop": null,
+  "do_not_repeat": [
+    "先前20讨论配对和3研究储备不再作为新增",
+    "所有历史命名家族与其英文返工版本不作新增",
+    "不重复每天从零研究105案例"
+  ],
+  "role_lifecycle_note": "若跨唤醒原实例不可访问，建立新实际实例并记录交接，不沿用失效ID冒充同一执行；A3双阶段必须由实际同一个审查实例完成，必要时由新A3重做中文和英文两段并分别保留历史。",
+  "checkpoint_refs": [
+    "research/runs/2026-11-07-continuous-001/A1.json",
+    "research/runs/2026-11-07-continuous-001/A2-execution.json",
+    "research/runs/2026-11-07-continuous-001/search-plan.json",
+    "research/runs/2026-11-07-continuous-001/plan-review.json",
+    "research/runs/2026-11-07-continuous-001/handoffs.json",
+    "research/runs/2026-11-07-continuous-001/run.json"
+  ],
+  "in_flight_agents": [],
+  "latest_completed": {
+    "sequence": [
+      "A3储备",
+      "A4储备",
+      "A1接力",
+      "A2阅读创作",
+      "A3中文",
+      "A4英文",
+      "同A3英文",
+      "A1构词反馈",
+      "A2新凝练",
+      "同A3中文/英文",
+      "A4收尾"
+    ],
+    "prior_reserves_promoted": 2,
+    "new_creative_families": 2,
+    "receipts": [
+      "research/runs/2026-11-07-continuous-001/reserve-followthrough/A3-review.json",
+      "research/runs/2026-11-07-continuous-001/reserve-followthrough/A4-review.json",
+      "research/runs/2026-11-07-continuous-001/A1-relay.json",
+      "research/runs/2026-11-07-continuous-001/delivery-first.json",
+      "research/runs/2026-11-07-continuous-001/progress.json",
+      "research/runs/2026-11-07-continuous-001/decisions.json",
+      "research/runs/2026-11-07-continuous-001/A3-en-batch13.json",
+      "research/runs/2026-11-07-continuous-001/A4-closeout.json"
+    ],
+    "withdrawn_after_correction": 1
+  },
+  "latest_material_pilot": {
+    "source": "research/runs/2026-11-07-continuous-001/materials-pilot.json",
+    "cards": 8,
+    "review": "research/runs/2026-11-07-continuous-001/materials-review.json",
+    "accepted_for_exploration": [
+      "C1-M01",
+      "C1-M02",
+      "C1-M03",
+      "C1-M04",
+      "C1-M05",
+      "C1-M06"
+    ],
+    "reading_only": [
+      "C1-M07",
+      "C1-M08"
+    ],
+    "new_names_yet": 2,
+    "whole_24_family_research_complete": false,
+    "cumulative_materials": 28,
+    "cumulative_chinese_drafts": 19
+  },
+  "closed_current_families": {
+    "C1-C01": "英文3版已有商业使用，返工耗尽",
+    "C1-C11": "英文Linewake/AtRuntime已有商业使用，Replyrise质量不通过，返工耗尽",
+    "C1-C13": "英文Passageway/Textrove已有软件或品牌，Linkroam搜索联想避让，返工耗尽",
+    "C1-C06": "官方科技企业名单确证已有杭州余量科技，撤回；禁止换英文救回中文",
+    "C1-C17": "主控跨类同字标志及科技近名编辑避让，不等于精确科技占用",
+    "C1-C18": "余光有完整同核心独立软件与照明品牌，中文使用淘汰；不配英文救回、不变体新增",
+    "C1-C19": "分身有别中文公开使用通过，但Ownwrite质量失败未查，Branchwise同名模型/软件，Kinstate已有历史企业名称编辑避让，英文2次返工耗尽，禁止R3及同族新增"
+  },
+  "heartbeat_checkpoint": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T145704Z/result.json",
+  "latest_frozen_decision_snapshot": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T145704Z/decisions-through-batch8.json",
+  "latest_continuation_result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T145704Z/result.json",
+  "latest_completed_packet": {
+    "new_retained_families": 0,
+    "new_materials": 2,
+    "new_chinese": 1,
+    "new_english_versions": 3,
+    "A3_new_queries": 24,
+    "root_additional_queries": 2,
+    "cumulative_A3_queries": 218,
+    "combined_recorded_queries": 220,
+    "result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T145704Z/result.json"
+  }
+}

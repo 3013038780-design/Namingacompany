@@ -1,0 +1,132 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T18:49:36.539431+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-preview-batch12.md",
+      "sha256": "48d6f2d18f619a5e4a4db1d61b98b354bbb87a270aeb1953c177644de57f1e4e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-en-batch12.json",
+      "sha256": "fe7515892d02aaaeada52351d7afde2fb9ad752c2ff66730010ebea1f24b2e79"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-quality-batch12.json",
+      "sha256": "d75670fcab9f23f8367f96c62d8a06228154741a2d8bd56b2fc5d1e1b1b3bf0f"
+    }
+  ],
+  "query_count": 10,
+  "results": [
+    {
+      "candidate_id": "CT-E20",
+      "chinese_candidate_id": "CT-C16",
+      "chinese": "递火",
+      "name": "Emberhand",
+      "decision": "return_for_alternative",
+      "reason": "已有Ember Hand Studio商业字体厂牌，完整核心合写仍近似；Wyoming官方历史公司表索引还见Emberhand Ventures LLC。主动避让商业核心名，非当前AI注册判定。",
+      "query_logs": [
+        {
+          "query": "\"Emberhand\"",
+          "executed_on": "2026-11-07",
+          "summary": "已有Ember Hand Studio商业字体厂牌，完整核心合写仍近似；Wyoming官方历史公司表索引还见Emberhand Ventures LLC。主动避让商业核心名，非当前AI注册判定。"
+        },
+        {
+          "query": "\"Emberhand\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "已有Ember Hand Studio商业字体厂牌，完整核心合写仍近似；Wyoming官方历史公司表索引还见Emberhand Ventures LLC。主动避让商业核心名，非当前AI注册判定。"
+        },
+        {
+          "query": "\"Emberhand\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "已有Ember Hand Studio商业字体厂牌，完整核心合写仍近似；Wyoming官方历史公司表索引还见Emberhand Ventures LLC。主动避让商业核心名，非当前AI注册判定。"
+        },
+        {
+          "query": "\"Emberhand\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "已有Ember Hand Studio商业字体厂牌，完整核心合写仍近似；Wyoming官方历史公司表索引还见Emberhand Ventures LLC。主动避让商业核心名，非当前AI注册判定。"
+        },
+        {
+          "query": "\"Ember Hand\" company software",
+          "executed_on": "2026-11-07",
+          "summary": "已有Ember Hand Studio商业字体厂牌，完整核心合写仍近似；Wyoming官方历史公司表索引还见Emberhand Ventures LLC。主动避让商业核心名，非当前AI注册判定。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.myfonts.com/collections/shiny-ink-display-font-ember-hand-studio/",
+          "access": "primary_publisher_store_body_read",
+          "finding": "Ember Hand Studio发布Shiny Ink Display字体，付费桌面与Web字体，非个人帐号。"
+        },
+        {
+          "url": "https://sos.wyo.gov/Business/docs/25Q2Domestic.pdf",
+          "access": "official_search_index_body_404",
+          "finding": "历史官方列表索引Emberhand Ventures LLC、filing2025-001654467；正文404，未核当前状态。"
+        }
+      ],
+      "registration": {
+        "status": "not_checked_after_confirmed_use_or_active_avoidance",
+        "note": "依据公开使用，不称登记通过或当前已注册。"
+      }
+    },
+    {
+      "candidate_id": "CT-E21",
+      "chinese_candidate_id": "CT-C18",
+      "chinese": "光的弯道",
+      "name": "Rayturn",
+      "decision": "return_for_alternative",
+      "reason": "UK官方页面确证RAYTURN SITEMAN LIMITED核心同词已有公司；深圳Rayturn Technology厂家有索引线索但正文超时，主动避让，不声称当前AI公司或登记行业已核。",
+      "query_logs": [
+        {
+          "query": "\"Rayturn\"",
+          "executed_on": "2026-11-07",
+          "summary": "UK官方页面确证RAYTURN SITEMAN LIMITED核心同词已有公司；深圳Rayturn Technology厂家有索引线索但正文超时，主动避让，不声称当前AI公司或登记行业已核。"
+        },
+        {
+          "query": "\"Rayturn\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "UK官方页面确证RAYTURN SITEMAN LIMITED核心同词已有公司；深圳Rayturn Technology厂家有索引线索但正文超时，主动避让，不声称当前AI公司或登记行业已核。"
+        },
+        {
+          "query": "\"Rayturn\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "UK官方页面确证RAYTURN SITEMAN LIMITED核心同词已有公司；深圳Rayturn Technology厂家有索引线索但正文超时，主动避让，不声称当前AI公司或登记行业已核。"
+        },
+        {
+          "query": "\"Rayturn\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "UK官方页面确证RAYTURN SITEMAN LIMITED核心同词已有公司；深圳Rayturn Technology厂家有索引线索但正文超时，主动避让，不声称当前AI公司或登记行业已核。"
+        },
+        {
+          "query": "\"Ray Turn\" company software",
+          "executed_on": "2026-11-07",
+          "summary": "UK官方页面确证RAYTURN SITEMAN LIMITED核心同词已有公司；深圳Rayturn Technology厂家有索引线索但正文超时，主动避让，不声称当前AI公司或登记行业已核。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/06461856/more",
+          "access": "official_company_body_read",
+          "finding": "公司全名RAYTURN SITEMAN LIMITED，公司号06461856。overview不可访问，未核行业或当前状态。"
+        },
+        {
+          "url": "https://rayturn.88exporter.com/",
+          "access": "supplier_profile_search_text_open_timeout",
+          "finding": "索引厂家自述Shenzhen Rayturn Technology Limited电子配件生产，网页正文未取回。"
+        },
+        {
+          "url": "https://eu.36kr.com/en/p/3886460971167752",
+          "access": "search_translation_not_used_as_decision",
+          "finding": "英文报道的Rayturn AI主体翻译尚未官方核名，不以此声称AI同名。"
+        }
+      ],
+      "registration": {
+        "status": "not_checked_after_confirmed_use_or_active_avoidance",
+        "note": "依据公开使用，不称登记通过或当前已注册。"
+      }
+    }
+  ],
+  "passed_english_candidate_ids": [],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛不等于全球未使用、核名通过或第9/42类可注册。重复复核查询计入实际查询数。"
+}

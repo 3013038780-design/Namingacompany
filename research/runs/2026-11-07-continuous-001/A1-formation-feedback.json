@@ -1,0 +1,320 @@
+{
+  "agent_id": "/root/continuous_a1",
+  "role": "A1",
+  "completed_at": "2026-11-07T21:26:54.957571+08:00",
+  "scope": "对既有25材料/15中文与实际去留的构词反馈；小量重读品牌原文，明确企业命名解释与研究者分析，不重做105，不起本公司新名字。",
+  "inputs": [
+    {
+      "path": "A1.json",
+      "sha256": "b3bbd78ef83733b79b7033404dc29727a7e0c749988d06218820850f4de520be"
+    },
+    {
+      "path": "A1.md",
+      "sha256": "50023a0d4970380ebd3afb8969343e6aaadab41c468ae7be66bf2da8f20dcda9"
+    },
+    {
+      "path": "A1-relay.json",
+      "sha256": "ee69955d24c76bbc1c6aed076fb83f3422fee63d4e984e46eac666c088c0198f"
+    },
+    {
+      "path": "search-plan.json",
+      "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+    },
+    {
+      "path": "plan-review.json",
+      "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+    },
+    {
+      "path": "decisions.json",
+      "sha256": "d3b361106eb614fe6033f8953f37007bdeba03c1cbd54ea4687c038564976462"
+    },
+    {
+      "path": "A2-preview-batch4.md",
+      "sha256": "ebef8bc59dab82bae4b2e8fbc94a4bebc0259d9f3f3614efcfcc73a7b757517b"
+    },
+    {
+      "path": "A2-preview-batch5.md",
+      "sha256": "c67f820148632a7e2b1edbff1710b3867206ac7f035a54927839351740262576"
+    },
+    {
+      "path": "A2-candidates-batch1.json",
+      "sha256": "de29716948169e218e2207fdb612e83e8d0a5e6dbed0e3bc5b92e623f9fae2d4"
+    },
+    {
+      "path": "A2-candidates-batch2.json",
+      "sha256": "a6edfe841b0c674cf075ca8f5b3333632cb70e12c210047233bae14ec6a00419"
+    },
+    {
+      "path": "materials-pilot.json",
+      "sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7"
+    },
+    {
+      "path": "materials-extension1.json",
+      "sha256": "65637d73a0b0c75c893165eac38466ec7615b67daa4ccbbb9bd102a944bb96df"
+    },
+    {
+      "path": "materials-extension2.json",
+      "sha256": "833b912f5bb41ab1919c3472a78ed9911554183e7c8cc0f42c863ed133c9732c"
+    },
+    {
+      "path": "materials-extension3.json",
+      "sha256": "a549fff62266ddf31e61b34e8c8523b247927918903944bab48863a1bdaeac36"
+    },
+    {
+      "path": "materials-extension4.json",
+      "sha256": "2b90619996a1920932e9dd0a261a4a6d8fa9bb3e20633f18bc310409c0257eba"
+    },
+    {
+      "path": "materials-extension5.json",
+      "sha256": "cffb951fdcda9f3c0c1d890586ec8fe7d66adb86ab6bb4f2fd44c90147f0777f"
+    },
+    {
+      "path": "coordinator-en-batch7.json",
+      "sha256": "de180ad06321df06394b2015e8bb145dcc8909e04abc559729b6256b9e8fb324"
+    },
+    {
+      "path": "A3-en-batch6.json",
+      "sha256": "b39b5fd8b044f9e29af02a939ca984da910eeef3b4ce5a342e9901b6d0576cfb"
+    }
+  ],
+  "brand_cases": [
+    {
+      "case_id": "B010",
+      "name": "字节跳动 / ByteDance",
+      "evidence_status": "primary_naming_explanation_body_read",
+      "facts": "官网Our Journey把命名联系到连接人与信息、提高信息分发效率，并明确byte是基本信息单位。企业账号对外说明把dance联系到创意和能量；日本公司2019文章进一步以有节奏的信息流解释dance。",
+      "formation_analysis": "同一主角“信息”获得一种能让人看见的运动。不是各从科技词库与美好词库抽一个词，也不是物理上字节真的跳舞。",
+      "a2_transfer": "从一份已读材料先提取“什么东西，以怎样可感的方式，发生什么关系”；若两部分不能在这句话里共同出现，先不组合。",
+      "sources": [
+        {
+          "url": "https://www.bytedance.com/about",
+          "access": "body",
+          "scope": "Our Journey L218–224，重点L222",
+          "supports": "公司直接说明命名与信息分发、byte信息单位的关系。"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/bytedance_why-is-it-called-bytedance-activity-7343458230364229632-4jPN",
+          "access": "body",
+          "scope": "企业账号正文L15–23，不用评论作证",
+          "supports": "公司账号将byte与data/innovation、dance与imagination/energy相连；这是企业后来公开的解释，不等于本轮取得2012决策档案。"
+        },
+        {
+          "url": "https://www.wantedly.com/companies/bytedance/post_articles/199398",
+          "access": "body_company_authored_on_external_platform",
+          "scope": "ByteDance KK署名、2019-12-12、正文L25–29",
+          "supports": "企业日本账号解释信息单位与如节奏舞动的信息流；日文为本轮阅读理解，非引用官方中文译文。"
+        }
+      ],
+      "boundary": "核心关系有企业正文支持；“同一主角＋动作”的语言机制是本研究归纳，不把企业成功归因于这一结构。"
+    },
+    {
+      "case_id": "B015",
+      "name": "Sony / 索尼",
+      "evidence_status": "primary_naming_explanation_body_reread",
+      "facts": "官方历史说明sonus与sonny融合，并说明可读、可发音和年轻创造者的身份诉求。",
+      "formation_analysis": "真正的新专名可以通过有依据的语素融合出现；融合后的整体声音承担称呼，词根不必让路人现场解码。",
+      "a2_transfer": "中文可从同一关系中凝练自然熟字，英文以后交A4按意义独立形成称呼；不要求每个字或音节都一一对应一段学术解释。",
+      "sources": [
+        {
+          "url": "https://www.sony.com.hk/aboutsony/html/en/history.jsp",
+          "access": "body",
+          "scope": "History L17–18",
+          "supports": "两个来源、年轻创造群体及易读易发音诉求。"
+        }
+      ],
+      "boundary": "这是一种可选实现，不构成必须造新词的要求；有出处仍需自然度、Lab身份和独立查重。"
+    },
+    {
+      "case_id": "B009",
+      "name": "大疆 / DJI",
+      "evidence_status": "primary_brand_context_body_read_not_origin_proved",
+      "facts": "当前官方招聘站使用大疆/DJI称呼，并在创始人寄语中使用“大道无疆，创新无限”的表达。旧总部新闻页本轮多入口无可读正文，不能把搜索摘要当新核正文。",
+      "formation_analysis": "中文两个熟字可形成一个完整空间意象，不需要是词典中的专业对象；DJI作为另一种传播形式可与中文分工。这里的宏阔空间解读不是已证实的历史选字过程。",
+      "a2_transfer": "允许把原文真实关系转换成一个完整意象或角色，不局限摘现成术语；中文先自然成立，不因某种英文表达暂时拥挤便退回冷僻汉字。",
+      "sources": [
+        {
+          "url": "https://careers.dji.com/zh-CN/about",
+          "access": "body",
+          "scope": "公司称呼L7、创始人寄语L26–37，重点L35",
+          "supports": "品牌实际称呼及其当前公开文化语境；不证明最初命名过程。"
+        }
+      ],
+      "boundary": "未据搜索摘要采用母亲看见标语等历史故事；本步也未用无法打开的新闻页证明DJI缩写来历。"
+    },
+    {
+      "case_id": "B011",
+      "name": "腾讯 / Tencent",
+      "evidence_status": "primary_company_context_body_read_formation_is_editorial",
+      "facts": "当前官方关于页面明确腾讯品牌、连接用户的业务语境及公司研究与创新身份，但本轮该页没有历史命名解释。",
+      "formation_analysis": "从今天的字义可读出“腾”的动势与“讯”的信息对象，二者可形成紧凑称呼；这只是构词分析，不能说已证实来自“腾飞的讯息”，也不把ten cent或某个人名的拆法写成官方原意。",
+      "a2_transfer": "熟字新组合可以自然成立，但须共同服务一个对象、动作或角色。真正要检查的是整词是否像能被叫出的名字，而非某字寓意好、另一字也寓意好。",
+      "sources": [
+        {
+          "url": "https://www.tencent.com/zh-cn/who-we-are/",
+          "access": "body",
+          "scope": "关于我们L190–202",
+          "supports": "实际品牌与当下公司语境；不支持历史命名动机。"
+        }
+      ],
+      "boundary": "搜索出现书籍摘介但本步未据摘要确认历史；此例只提供标为研究者分析的中文形态参照。"
+    }
+  ],
+  "case_counts": {
+    "existing_brand_cases_considered": 5,
+    "existing_brand_cases_used_for_formation": 4,
+    "primary_explicit_naming_explanation_cases": 2,
+    "primary_brand_context_not_proved_motive_cases": 2,
+    "NVIDIA_origin_not_verified": 1,
+    "new_brand_cases": 0,
+    "new_company_names": 0
+  },
+  "uncertain_case": {
+    "case_id": "B005",
+    "name": "NVIDIA / 英伟达",
+    "status": "not_used_as_proven_etymology",
+    "source_url": "https://investor.nvidia.com/investor-resources/faqs/default.aspx",
+    "access": "body",
+    "read_scope": "Investor FAQ正文L97–177",
+    "finding": "官方页含公司史与投资问题，不含本轮要核的命名过程；搜索出现invidia/NV叙事来自媒体或第三方，本步未据此升级为官方原意。",
+    "a2_boundary": "不能拿知名造词的存在，证明任何无义字母或随意拼音变形都有出处。"
+  },
+  "diagnosis": "本批很多草案采用现成短词或原始术语，自然但部分商业使用拥挤；这支持增加有真实关系的凝练、完整意象和语素融合路线，不支持禁用熟词或机械造词。当前活桥展示一种同场凝练：行动者本身临时成为通道。",
+  "actions": [
+    {
+      "id": "F1",
+      "title": "先写关系句，再找词，不先做吉祥字笛卡尔积",
+      "case_refs": [
+        "B010",
+        "本轮C1-C08活桥"
+      ],
+      "action": "每个值得继续的材料先用一句话写对象、动作、作用条件，再从同一句话里取主体、动势、场景或角色。最多尝试少量实现：已有完整词、自然熟字凝练、完整意象、角色化表达；不强制四种都产。",
+      "positive": "活桥的“活”与“桥”同属“行动者自己的身体临时成为通道”的真实场景。",
+      "counterexample": "把活解释成灵活、桥解释成连接，再宣称两字都好；或只用“算法＋向上/聪明/光明”制造伪关系。"
+    },
+    {
+      "id": "F2",
+      "title": "把术语变成可感称呼，而不是把准确术语当成唯一答案",
+      "case_refs": [
+        "B010",
+        "B009",
+        "B015"
+      ],
+      "action": "同位素这类原始术语可以保留一个候选，但不要据此把后续材料都摘成现成科学名词。再看材料中的独特主体、可观察动作或角色是否能形成更自然的形象；只借有依据的关系，不借科学名词的权威感。",
+      "positive": "ByteDance保留信息这个对象，让它有可感运动；不是整套分发算法名称。",
+      "counterexample": "从每篇论文各抄一个术语，当作已经完成命名；或为去术语化丢掉全部独特关系，只剩“探索”“成长”。"
+    },
+    {
+      "id": "F3",
+      "title": "新组合不必是词典词，但整体必须像一句自然汉语的压缩",
+      "case_refs": [
+        "B011",
+        "B009",
+        "B010"
+      ],
+      "action": "构思时同时听整词的节奏和看同场关系：读两遍能否复述，放入“我们是___，做人工智能研究”是否像机构称呼。不用解释每个字的吉祥义，也不要求两字、三字、四字各占名额。",
+      "positive": "腾讯可作熟字形成紧凑称呼的编辑分析；不能据此伪称已知当年选字过程。",
+      "counterexample": "科学字＋美好字；加智、元、灵、跃等字却没改变材料角色；用“有深意”压过拗口或错误首要行业联想。"
+    },
+    {
+      "id": "F4",
+      "title": "保留同一关系的改写，不给它凭空加能力结论",
+      "case_refs": [
+        "B010",
+        "本轮C1-C11回车以后",
+        "本轮Replyrise主控退回"
+      ],
+      "action": "每个凝练表达明确原关系保留了什么、损失了什么；拟人或空间比喻可以用，但必须共享动作/角色。交互计算有返回或下一轮互动，不自动包含能力上升；若名字依赖后者，须换完整构思而非补一个正向动词。",
+      "positive": "信息被舞动作为品牌拟人，共享分发、流动或创意的画面。",
+      "counterexample": "Replyrise把返回/回应与上升相接，材料没有必然上升关系；“术语+成长”同样不因符合产品目标而补得上原理。"
+    },
+    {
+      "id": "F5",
+      "title": "熟词与新词都可尝试，撞名之后回关系而非回字母表",
+      "case_refs": [
+        "B015",
+        "本轮由此及彼英文三版",
+        "本轮Linewake"
+      ],
+      "action": "自然熟词仍是合法路线，不因本轮拥挤就全面禁用。英语占用时由原A4在既有次数内另构一个完整称呼；上游A2无需预先硬改拼音。新中文、新英文若只是同一意象变体，仍作原家族版本而非新增。",
+      "positive": "Sony说明新专名可有真实语素与自然声音；不是躲检索的随机字母。",
+      "counterexample": "在撞名词后附Labs/AI、更换一个字母、把汉语拼音改成假外语；超过既有两次返工后重新编号继续刷。"
+    },
+    {
+      "id": "F6",
+      "title": "用已有未命名材料继续构思，不为方法研究再开一套工程",
+      "case_refs": [
+        "C1-M18",
+        "C1-M20",
+        "C1-M14",
+        "C1-M15"
+      ],
+      "action": "优先对已实读但尚未产生名字的关系做真实创作。每项仅选最有称呼潜力的一条关系；没有好名字就留研究材料，不按一张卡一个词硬配。原六方向已足够，不重开分类或用户审批。",
+      "positive": "同一实体承担两个配准角色、因果依赖而非唯一时序、换住所仍迁移伙伴、环境痕迹与可读差异，都是具体不同关系。",
+      "counterexample": "重新搜索同一领域大标题后补更多卡；把没有形成自然称呼的知识强塞进备选。"
+    }
+  ],
+  "direct_material_followthrough": [
+    {
+      "material_id": "C1-M18",
+      "macro_id": "S1/S3",
+      "relation": "同一实体承担原先需两个对象配准的角色。",
+      "formation_work": "从这个角色变化或整幅操作画面凝练称呼，别直接抄光学仪器全称，也别换成已有“换坐标/影子刻度”的泛化测量故事。",
+      "status": "既有材料可立即构思，未授权凭此宣称新名字通过。"
+    },
+    {
+      "material_id": "C1-M20",
+      "macro_id": "S3",
+      "relation": "因果依赖可给出偏序，不能比较的事件不必假造唯一先后。",
+      "formation_work": "保留具体依赖与并存关系，寻找自然的安排或行动形象；不要固定抽“序”字与积极形容词拼合。",
+      "status": "既有材料可立即构思；不得把逻辑时钟当现实绝对时间。"
+    },
+    {
+      "material_id": "C1-M14",
+      "macro_id": "S2",
+      "relation": "更换外部住所时，伙伴被移到新的对应作用位置。",
+      "formation_work": "从伙伴、外部结构和行动者同处的完整场景找角色称呼；与泛化共生网络、记忆搬家或物流名称作实质区分。",
+      "status": "既有材料可立即构思；Lab气质不够则只留材料。"
+    },
+    {
+      "material_id": "C1-M15",
+      "macro_id": "S2/S5",
+      "relation": "行动留下的环境痕迹成为后续选择依据，痕迹与背景的差异决定可读性。",
+      "formation_work": "不要直接复用记忆/足迹/持续成长的上位概念；保留外部痕迹与背景差异这个特定关系，检查是否仍有独立自然形象。",
+      "status": "既有材料可立即构思；若只剩经历留下痕迹，应与旧家族合并而不是计新。"
+    },
+    {
+      "material_id": "C1-M19/C1-M25",
+      "macro_id": "S1/S3",
+      "relation": "已有跳读、同位素草案，各自来源关系真实。",
+      "formation_work": "若继续润色，记录同一材料/品牌家族下的修订；不能将新词形算新家族。是否保留由主控质量与原A3使用核验决定。",
+      "status": "已有提案的改稿，不新增计数；本A1不代替质量或查重结论。"
+    },
+    {
+      "material_id": "C1-M07/C1-M08/C1-M21/C1-M22/C1-M23",
+      "macro_id": "S2/S5/S6",
+      "relation": "三级输运、角色分化、变化盲视、灵感与质量差别、结果独立审稿。",
+      "formation_work": "有实际资料可用，但若只能写环保气质或抽象口号，允许暂不命名。不要为了覆盖每类或证明25张卡都有用而硬起。",
+      "status": "材料储备，非必须起名清单。"
+    }
+  ],
+  "source_access_limits": [
+    {
+      "url": "https://www.dji.com/newsroom/news/dji-opens-new-headquarters-for-creative-community-in-the-sky",
+      "access": "no_readable_body",
+      "finding": "web工具0行，curl正文仅76字符且无Da-Jiang；不以搜索摘要充作本步读过的命名正文。"
+    },
+    {
+      "url": "https://www.dji.com/pt/newsroom/news/dji-opens-new-headquarters-for-creative-community-in-the-sky",
+      "access": "no_readable_body",
+      "finding": "web工具0行。"
+    },
+    {
+      "url": "https://www.dji.com/cn/newsroom/news/dji-opens-new-headquarters-for-creative-community-in-the-sky",
+      "access": "unavailable",
+      "finding": "web工具不可访问。"
+    }
+  ],
+  "next_handoff": "交原A2立即从已读、未命名材料及现有六方向做少量真正创作；保留真实释义和无分预览/作者质量评审分开。必要时为澄清一个关系补原始正文，不重开宏观计划。主控盲评后原A3中文筛查、原A4英文及同A3复查；所有既有质量与返工门槛不变。",
+  "new_name_proposals": [],
+  "execution_ref": "本聊天由/root实际followup_task唤醒原A1，真实exec读取仓库与web.run重开正文，未改旧输出/规范或git。"
+}

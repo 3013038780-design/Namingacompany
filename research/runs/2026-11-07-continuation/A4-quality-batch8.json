@@ -1,0 +1,84 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T18:24:52+08:00",
+  "reviews": [
+    {
+      "candidate_id": "CT-E12",
+      "chinese_id": "CT-C10",
+      "english": "Otherframe",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个完整熟悉词，三音节自然顺读。",
+          "counter_association": "other的th对部分非母语者有普通发音成本。"
+        },
+        "spelling": {
+          "reason": "两个普通词保持完整，无任意字母替换。",
+          "counter_association": "需查Other Frame空格变体。"
+        },
+        "formation": {
+          "reason": "另一框架与同对象多种表示直接相接。",
+          "counter_association": "合成品牌词不是SICP术语。"
+        },
+        "bilingual_relation": {
+          "reason": "两边保留对象不变而表示可变的核心。",
+          "counter_association": "英文frame比坐标更宽。"
+        },
+        "distinctiveness": {
+          "reason": "可作为表示/认识研究机构的整体称呼。",
+          "counter_association": "可能像设计或框架产品。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3英文使用筛查。"
+    },
+    {
+      "candidate_id": "CT-E13",
+      "chinese_id": "CT-C12",
+      "english": "Gridfolk",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个短音节，读音清楚。",
+          "counter_association": "folk的l不应强行发出。"
+        },
+        "spelling": {
+          "reason": "grid和folk两个完整词可直接说明。",
+          "counter_association": "需查Grid Folk分写。"
+        },
+        "formation": {
+          "reason": "方格与其中拟人居民处于同一人工生命场景。",
+          "counter_association": "不是科学术语，居民只是品牌拟人。"
+        },
+        "bilingual_relation": {
+          "reason": "格中动物/居民共享离散状态的活动形象。",
+          "counter_association": "英文不逐字写animal。"
+        },
+        "distinctiveness": {
+          "reason": "有可记住的计算世界及活动主角。",
+          "counter_association": "可能先像游戏或儿童编程。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3英文使用筛查。"
+    }
+  ]
+}

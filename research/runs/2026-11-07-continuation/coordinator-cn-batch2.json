@@ -1,0 +1,170 @@
+{
+  "reviewed_at": "2026-11-07T18:15:07.821198+08:00",
+  "independence": "Read A2-preview-batch2.md before producer numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C05",
+      "name": "拨码",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "现成器件简称，两音节清楚",
+          "counter_association": "听写可能博码"
+        },
+        "distinctiveness": {
+          "reason": "手动动作与机器码有可感对照",
+          "counter_association": "通用器件词需建立品牌"
+        },
+        "lab_fit": {
+          "reason": "具体配置器件能成为能力切换机构角色",
+          "counter_association": "首联想工业电子"
+        },
+        "grounding": {
+          "reason": "拨码开关与输出编码有制造商依据",
+          "counter_association": "不是自动学习算法"
+        },
+        "extension": {
+          "reason": "可容纳硬软配置与研究基础能力",
+          "counter_association": "不代表模型通过拨动即升级"
+        },
+        "semantic_coherence": {
+          "reason": "拨动位置改变读出状态贯穿同一故事",
+          "counter_association": "不能承诺两状态即智能跃迁"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "CT-C06",
+      "name": "页脚",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "两字现成软件界面称呼好叫",
+          "counter_association": "也像普通排版指令"
+        },
+        "distinctiveness": {
+          "reason": "熟悉位置有一定反差",
+          "counter_association": "边缘配角印象强"
+        },
+        "lab_fit": {
+          "reason": "配角与文档装饰身份压过研究主体",
+          "counter_association": "难建立用户期待的Lab气质"
+        },
+        "grounding": {
+          "reason": "HTML定义直接支撑上下文作用",
+          "counter_association": "不是模型记忆原理"
+        },
+        "extension": {
+          "reason": "易锁在文档网页工具而非机构",
+          "counter_association": "需要重造故事才能超出文档"
+        },
+        "semantic_coherence": {
+          "reason": "主内容的辅助上下文角色一致",
+          "counter_association": "不能把HTML元素包装智能增强"
+        }
+      },
+      "decision": "quality_reject"
+    },
+    {
+      "candidate_id": "CT-C07",
+      "name": "念头引擎",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 5,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "念头与引擎组成可称呼机构角色",
+          "counter_association": "可能像创意产品"
+        },
+        "distinctiveness": {
+          "reason": "心智与工程驱动力形成清楚画面",
+          "counter_association": "引擎组合拥挤"
+        },
+        "lab_fit": {
+          "reason": "思考到行动的技术研究身份直接",
+          "counter_association": "可能先像单一Agent工具"
+        },
+        "grounding": {
+          "reason": "目标状态差到steering动作有书籍锚点",
+          "counter_association": "念头非主观意识事实"
+        },
+        "extension": {
+          "reason": "可承载智能体和更广研究",
+          "counter_association": "业务不能被限定生成想法"
+        },
+        "semantic_coherence": {
+          "reason": "内部目标变成行动贯穿各层",
+          "counter_association": "不代表模型任意意图皆可实现"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "CT-C08",
+      "name": "多想一步",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "完整口语动作，无省略残句",
+          "counter_association": "带slogan感"
+        },
+        "distinctiveness": {
+          "reason": "熟悉提醒有态度和节奏",
+          "counter_association": "属于常用短语"
+        },
+        "lab_fit": {
+          "reason": "审慎判断可支持AI研究角色",
+          "counter_association": "第一眼不像机构全称"
+        },
+        "grounding": {
+          "reason": "中间推理步骤论文支持特定任务观察",
+          "counter_association": "不是越长思考必正确定理"
+        },
+        "extension": {
+          "reason": "可讲更充分判断但不局限算法",
+          "counter_association": "一步可能缩窄到推理时计算"
+        },
+        "semantic_coherence": {
+          "reason": "展开思考与判断质量关系同核",
+          "counter_association": "单次推理不等于持续学习"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

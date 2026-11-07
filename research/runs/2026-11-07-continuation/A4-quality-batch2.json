@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T18:15:53+08:00",
+  "reviews": [
+    {
+      "candidate_id": "CT-E03",
+      "chinese_id": "CT-C03",
+      "english": "Shadow Gauge",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个熟悉音节，可直接称呼。",
+          "counter_association": "gauge末尾是j音，非g音。"
+        },
+        "spelling": {
+          "reason": "两个现成完整词，无额外造词拼写。",
+          "counter_association": "gauge第一次听写可能写错au。"
+        },
+        "formation": {
+          "reason": "影子与测量在圭表观测场景中本就相连。",
+          "counter_association": "不把本轮品牌短语冒作标准器物译名。"
+        },
+        "bilingual_relation": {
+          "reason": "中文刻度与英文测量器具共享同一观察关系。",
+          "counter_association": "英文未逐字写出刻度线。"
+        },
+        "distinctiveness": {
+          "reason": "具体观测对象承载长期研究姿态。",
+          "counter_association": "可能先像测量软件产品。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑意见，待主控独评与A3独立使用筛查。"
+    }
+  ]
+}

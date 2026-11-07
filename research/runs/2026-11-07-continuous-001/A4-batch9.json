@@ -1,0 +1,42 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "submitted_at": "2026-11-07T21:27:23.007399+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch4.json",
+      "sha256": "957bf8655fc641d800ed4929e7fcfc65e307d461c4ca379e068325b10b0fa813"
+    },
+    {
+      "path": "materials-extension4.json",
+      "sha256": "2b90619996a1920932e9dd0a261a4a6d8fa9bb3e20633f18bc310409c0257eba"
+    },
+    {
+      "path": "A3-cn-batch5.json",
+      "sha256": "68decdd14702ea14101fa2ed22e3c373328eeeb0db85c37d2ff9bccc9eeeeb08"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E09",
+      "chinese_id": "C1-C13",
+      "chinese": "跳读",
+      "english": "Passageway",
+      "suggested_pronunciation": "PASS-ij-way，/ˈpæs.ɪdʒ.weɪ/，三个音节。",
+      "type": "既有词典名词，借具体通道表达信息导航",
+      "formation": "Passageway原义是可供通过的通道，是完整既有英语词。passage本身确有通道与文章段落两义；本案以通道为第一义，把文字段落的联想作为有词典依据的第二层，并不把passageway虚构成超文本专业术语。",
+      "bilingual_relation": "跳读是使用者在可导航的信息结构里采取的动作，Passageway是让移动成为可能的通道。NLS展示文字与图形视图切换、在层级结构和复杂信息中移动；中英文一边是动作，一边是可走的结构，指向同一次主动导航。",
+      "meaning": "知识可以有入口、有连接，也可以被亲自走进去。品牌从阅读通道扩展为让人能操作复杂知识结构的研究态度；词的具体形象先能被称呼，计算历史再提供第二层。",
+      "shortcoming": "第一印象可能是建筑通道、旅行或文化空间；passageway也是普通词，品牌独占辨识有限。它表达可通行的结构，比中文跳的动作更缓和，也不直接体现AI；若只能靠长篇出处才能建立关系，应当不予采用。",
+      "boundary": "Passageway并非NLS发明的术语，也不表示其原文给出了这个品牌。这里的空间意象是对可导航信息结构的品牌转用；不能推导为模型自动学会新知识，不能宣称跳读速度必然更快或理解更深。passage的篇章义确实存在，但不等于passageway的词典定义也含篇章通道。",
+      "source_urls": [
+        "https://dougengelbart.org/content/view/374/",
+        "https://www.merriam-webster.com/dictionary/passageway",
+        "https://www.merriam-webster.com/dictionary/passage"
+      ],
+      "read_scope": "网页工具NLS地址超时后，本人实际curl获取HTML，剔除脚本与样式，读NLS Editing & View Control、NLS Hypermedia、NLS AS AN INSTRUMENT三段文字，未看整段历史演示视频。另实际读Merriam-Webster passageway词条31–40行、passage词条42–54行和115–121行的通道/段落释义。",
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

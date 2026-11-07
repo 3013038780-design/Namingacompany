@@ -1,0 +1,277 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-07T20:42:55.313107+08:00",
+  "scope": "仅producer主观编辑评审；主控先封存独评再打开此文件比较。",
+  "reviews": [
+    {
+      "candidate_id": "C1-C01",
+      "name": "由此及彼",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 5,
+        "semantic_coherence": 5
+      },
+      "total": 27,
+      "notes": {
+        "naturalness": {
+          "reason": "成语完整，四字节奏可直接称呼",
+          "counter_association": "像知识栏目"
+        },
+        "distinctiveness": {
+          "reason": "此与彼有成对方向画面",
+          "counter_association": "通用成语可能已有商业使用"
+        },
+        "lab_fit": {
+          "reason": "有推知与研究的方法身份",
+          "counter_association": "不直接显示具体研究领域"
+        },
+        "grounding": {
+          "reason": "同一网络可交换已知端，品牌概括边界清楚",
+          "counter_association": "未照搬全约束机制"
+        },
+        "extension": {
+          "reason": "可容纳推理、认识与跨系统研究",
+          "counter_association": "四字长于短专名"
+        },
+        "semantic_coherence": {
+          "reason": "各层都围绕由已知端接近另一端",
+          "counter_association": "不能把一切都写成必然可推知"
+        }
+      },
+      "decision": "quality_pass",
+      "execution_ref": "本轮A2实际创作后自评；数值单独文件，不向主控预览/消息露分",
+      "independent_submission_ref": "A2-quality-batch1.json producer-only submission"
+    },
+    {
+      "candidate_id": "C1-C02",
+      "name": "探形",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 5
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "动宾结构可直接理解但为本轮新表达",
+          "counter_association": "是否足够自然需独评"
+        },
+        "distinctiveness": {
+          "reason": "探和形有明确动作对象",
+          "counter_association": "易听成探型/探行"
+        },
+        "lab_fit": {
+          "reason": "感知、形态与认识世界有科技身份",
+          "counter_association": "偏三维视觉"
+        },
+        "grounding": {
+          "reason": "来源观察与作者推断分开",
+          "counter_association": "不能升级作者推测为已证机制"
+        },
+        "extension": {
+          "reason": "可延展到感知和世界结构研究",
+          "counter_association": "不宜只锁一个形态检测功能"
+        },
+        "semantic_coherence": {
+          "reason": "接触、辨形和行动围绕同一对象",
+          "counter_association": "名字删去了实验具体对象"
+        }
+      },
+      "decision": "quality_pass",
+      "execution_ref": "本轮A2实际创作后自评；数值单独文件，不向主控预览/消息露分",
+      "independent_submission_ref": "A2-quality-batch1.json producer-only submission"
+    },
+    {
+      "candidate_id": "C1-C03",
+      "name": "应手",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "现成表达好说好写",
+          "counter_association": "像工具品牌"
+        },
+        "distinctiveness": {
+          "reason": "动作与物的响应有记忆入口",
+          "counter_association": "通用词可能混淆"
+        },
+        "lab_fit": {
+          "reason": "工程交互和能力可用性可承接Lab",
+          "counter_association": "不显露AI主业"
+        },
+        "grounding": {
+          "reason": "结构形变与信息映射同源",
+          "counter_association": "名称只保留有限一层作用"
+        },
+        "extension": {
+          "reason": "可延展不同使用工具和智能系统",
+          "counter_association": "若仅服务输入法则过窄"
+        },
+        "semantic_coherence": {
+          "reason": "中文日常义和论文作用相容",
+          "counter_association": "不能退化成泛化好用"
+        }
+      },
+      "decision": "quality_pass",
+      "execution_ref": "本轮A2实际创作后自评；数值单独文件，不向主控预览/消息露分",
+      "independent_submission_ref": "A2-quality-batch1.json producer-only submission"
+    },
+    {
+      "candidate_id": "C1-C04",
+      "name": "合符",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 5
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "合验符节动作短清楚",
+          "counter_association": "与和服同音"
+        },
+        "distinctiveness": {
+          "reason": "两半匹配有可见画面",
+          "counter_association": "可能像文创/符咒"
+        },
+        "lab_fit": {
+          "reason": "知识校验和有依据确认可承接科技",
+          "counter_association": "可能偏认证或安全产品"
+        },
+        "grounding": {
+          "reason": "形/文/分持本来在同一器物关系",
+          "counter_association": "不代表现代密码安全"
+        },
+        "extension": {
+          "reason": "可延展可信判断与系统对应",
+          "counter_association": "军令语境需放轻"
+        },
+        "semantic_coherence": {
+          "reason": "各层都围绕匹配产生确认",
+          "counter_association": "不能把契合解释成所有价值美好"
+        }
+      },
+      "decision": "quality_pass",
+      "execution_ref": "本轮A2实际创作后自评；数值单独文件，不向主控预览/消息露分",
+      "independent_submission_ref": "A2-quality-batch1.json producer-only submission"
+    },
+    {
+      "candidate_id": "C1-C05",
+      "name": "会意",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 5,
+        "semantic_coherence": 5
+      },
+      "total": 27,
+      "notes": {
+        "naturalness": {
+          "reason": "现成认知词自然可称呼",
+          "counter_association": "会议同音"
+        },
+        "distinctiveness": {
+          "reason": "两音节有明确理解动作",
+          "counter_association": "可能已有广泛使用"
+        },
+        "lab_fit": {
+          "reason": "认知和人与系统理解适合AI研究",
+          "counter_association": "像会议/写作产品"
+        },
+        "grounding": {
+          "reason": "领会与共同参照有真实关系但不等同全部理解",
+          "counter_association": "名字比论文参照机制更宽"
+        },
+        "extension": {
+          "reason": "可长期覆盖语言行动和协作",
+          "counter_association": "若定位人文机构会偏"
+        },
+        "semantic_coherence": {
+          "reason": "认知日常义和研究角色同向",
+          "counter_association": "不得借名称宣称机器意识"
+        }
+      },
+      "decision": "quality_pass",
+      "execution_ref": "本轮A2实际创作后自评；数值单独文件，不向主控预览/消息露分",
+      "independent_submission_ref": "A2-quality-batch1.json producer-only submission"
+    },
+    {
+      "candidate_id": "C1-C06",
+      "name": "余量",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "现成工程日常词顺口",
+          "counter_association": "容易听成雨量"
+        },
+        "distinctiveness": {
+          "reason": "预留空间有清楚内核",
+          "counter_association": "通用词独立性待筛"
+        },
+        "lab_fit": {
+          "reason": "冗余可靠系统有工程科技身份",
+          "counter_association": "可能偏量化/存储通信"
+        },
+        "grounding": {
+          "reason": "超过最低需要与可恢复关系有据",
+          "counter_association": "不直接包含所有编码条件"
+        },
+        "extension": {
+          "reason": "可延展到稳健和真实场景系统",
+          "counter_association": "需避免只做单一容错工具"
+        },
+        "semantic_coherence": {
+          "reason": "日常余裕与编码作用相容",
+          "counter_association": "余量不等于无限能力增长"
+        }
+      },
+      "decision": "quality_pass",
+      "execution_ref": "本轮A2实际创作后自评；数值单独文件，不向主控预览/消息露分",
+      "independent_submission_ref": "A2-quality-batch1.json producer-only submission"
+    }
+  ]
+}

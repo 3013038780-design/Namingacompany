@@ -1,0 +1,80 @@
+{
+  "reviewed_at": "2026-11-07T18:56:03.250704+08:00",
+  "independence": "Read producer preview batch17 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C19",
+      "name": "Drawn from Chance",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "日常短语读音顺畅",
+          "counter_association": "艺术题名"
+        },
+        "spelling": {
+          "reason": "常用词拼写",
+          "counter_association": "较长"
+        },
+        "grounding": {
+          "reason": "抽样绘制双义有过程支撑",
+          "counter_association": "随机不代替学习"
+        },
+        "bilingual_relation": {
+          "reason": "噪声起点与生成过程相接",
+          "counter_association": "不是种子逐字翻译"
+        },
+        "distinctiveness": {
+          "reason": "短语画面成立",
+          "counter_association": "像作品名"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E31"
+    },
+    {
+      "candidate_id": "CT-C23",
+      "name": "Southward Fish",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "正常词组但th连接有成本",
+          "counter_association": "户外气质"
+        },
+        "spelling": {
+          "reason": "单词规则",
+          "counter_association": "方向词较长"
+        },
+        "grounding": {
+          "reason": "鱼形指南器有真实出处",
+          "counter_association": "不是活鱼感磁"
+        },
+        "bilingual_relation": {
+          "reason": "保留鱼和南向功能",
+          "counter_association": "不是唯一标准英译"
+        },
+        "distinctiveness": {
+          "reason": "意象有中国科技史来源",
+          "counter_association": "民俗品牌联想"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E32"
+    }
+  ]
+}

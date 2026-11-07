@@ -1,0 +1,154 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T18:20:51.269333+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-preview-batch3.md",
+      "sha256": "82668f468eb84704d94884b4a2724ece61badb4d3a92e1775f70fc7a87a53eda"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-en-batch3.json",
+      "sha256": "27baea4811b7aa0579aed67f3eb9b1d4eb5ddc0b84c536966bf851590cf15b2e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-quality-batch3.json",
+      "sha256": "d6c54d3be611a41959d868ac40d593f53116c3e6410d88f987eb863e1db74699"
+    }
+  ],
+  "query_count": 12,
+  "results": [
+    {
+      "candidate_id": "CT-E04",
+      "chinese_candidate_id": "CT-C07",
+      "chinese": "念头引擎",
+      "name": "Thoughtgear",
+      "decision": "reject",
+      "reason": "既有Thoughtgear AI agent-loop npm包历史使用；当前官方元数据为security holding package，不能说仍正常运营。另有Thought Gear历史游戏工作室，不能把仅删空格当新名。",
+      "query_logs": [
+        {
+          "query": "\"Thoughtgear\"",
+          "executed_on": "2026-11-07",
+          "summary": "既有Thoughtgear AI agent-loop npm包历史使用；当前官方元数据为security holding package，不能说仍正常运营。另有Thought Gear历史游戏工作室，不能把仅删空格当新名。"
+        },
+        {
+          "query": "\"Thoughtgear\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "既有Thoughtgear AI agent-loop npm包历史使用；当前官方元数据为security holding package，不能说仍正常运营。另有Thought Gear历史游戏工作室，不能把仅删空格当新名。"
+        },
+        {
+          "query": "\"Thoughtgear\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "既有Thoughtgear AI agent-loop npm包历史使用；当前官方元数据为security holding package，不能说仍正常运营。另有Thought Gear历史游戏工作室，不能把仅删空格当新名。"
+        },
+        {
+          "query": "\"Thoughtgear\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "既有Thoughtgear AI agent-loop npm包历史使用；当前官方元数据为security holding package，不能说仍正常运营。另有Thought Gear历史游戏工作室，不能把仅删空格当新名。"
+        },
+        {
+          "query": "\"Thought Gear\"",
+          "executed_on": "2026-11-07",
+          "summary": "既有Thoughtgear AI agent-loop npm包历史使用；当前官方元数据为security holding package，不能说仍正常运营。另有Thought Gear历史游戏工作室，不能把仅删空格当新名。"
+        },
+        {
+          "query": "\"thoughtgear\" \"github\"",
+          "executed_on": "2026-11-07",
+          "summary": "既有Thoughtgear AI agent-loop npm包历史使用；当前官方元数据为security holding package，不能说仍正常运营。另有Thought Gear历史游戏工作室，不能把仅删空格当新名。"
+        },
+        {
+          "query": "\"ThoughtGear\" \"PromptHandler\"",
+          "executed_on": "2026-11-07",
+          "summary": "既有Thoughtgear AI agent-loop npm包历史使用；当前官方元数据为security holding package，不能说仍正常运营。另有Thought Gear历史游戏工作室，不能把仅删空格当新名。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://socket.dev/npm/package/thoughtgear/overview/0.1.8",
+          "access": "search_index_full_readme_body_403",
+          "finding": "索引原README把ThoughtGear用于AI模型工具调用与持久化agent loop；打开网页403，非声称已读网页正文。"
+        },
+        {
+          "url": "https://registry.npmjs.org/thoughtgear",
+          "access": "official_registry_json_read_via_curl",
+          "finding": "实际JSON现名thoughtgear，security holding package；time保留0.1.0–0.1.8历史发布时间。只读取元数据，未安装/执行包。精简证据另存A3-thoughtgear-registry.json。"
+        },
+        {
+          "url": "https://www.moddb.com/company/rat-hat",
+          "access": "developer_profile_body_read",
+          "finding": "Thought Gear工作室自述游戏开发，2009–2010已解散；历史技术品牌实际使用，非现存登记核验。"
+        }
+      ],
+      "registration": {
+        "status": "not_checked_after_confirmed_historical_use",
+        "note": "占用判断基于历史软件/开发工作室，不称当前注册企业。"
+      },
+      "reason_code": "HISTORICAL_EXACT_SOFTWARE_USE"
+    },
+    {
+      "candidate_id": "CT-E05",
+      "chinese_candidate_id": "CT-C08",
+      "chinese": "多想一步",
+      "name": "One More Thought",
+      "decision": "return_for_alternative",
+      "reason": "未见同名AI/软件品牌，但同核心印度娱乐公司已使用，并有同名博客、文明游戏实体周边商品。按用户避已有公司偏好主动退回；非声称科技同名。",
+      "query_logs": [
+        {
+          "query": "\"One More Thought\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见同名AI/软件品牌，但同核心印度娱乐公司已使用，并有同名博客、文明游戏实体周边商品。按用户避已有公司偏好主动退回；非声称科技同名。"
+        },
+        {
+          "query": "\"One More Thought\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "未见同名AI/软件品牌，但同核心印度娱乐公司已使用，并有同名博客、文明游戏实体周边商品。按用户避已有公司偏好主动退回；非声称科技同名。"
+        },
+        {
+          "query": "\"One More Thought\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "未见同名AI/软件品牌，但同核心印度娱乐公司已使用，并有同名博客、文明游戏实体周边商品。按用户避已有公司偏好主动退回；非声称科技同名。"
+        },
+        {
+          "query": "\"One More Thought\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "未见同名AI/软件品牌，但同核心印度娱乐公司已使用，并有同名博客、文明游戏实体周边商品。按用户避已有公司偏好主动退回；非声称科技同名。"
+        },
+        {
+          "query": "\"OneMoreThought\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见同名AI/软件品牌，但同核心印度娱乐公司已使用，并有同名博客、文明游戏实体周边商品。按用户避已有公司偏好主动退回；非声称科技同名。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.tofler.in/one-more-thought-entertainment-private-limited/company/U92120MH2007PTC176820",
+          "access": "third_party_company_body_read",
+          "finding": "ONE MORE THOUGHT ENTERTAINMENT PRIVATE LIMITED；CIN U92120MH2007PTC176820；第三方显示Under Liquidation。未将其当官方当前登记核验。"
+        },
+        {
+          "url": "https://www.mca.gov.in/LLP/dca/Defaulters_List/DIRLIST10_01900000_02050000.pdf",
+          "access": "official_pdf_search_text_body_403",
+          "finding": "官方PDF索引返回同一CIN及ONE MORE THOUGHT，打开403，未逐页核验。"
+        },
+        {
+          "url": "https://onemorethought.net/",
+          "access": "primary_blog_body_read",
+          "finding": "One More Thought博客/商店订阅站，非AI软件品牌。"
+        },
+        {
+          "url": "https://store.2k.com/hu/merchandise/buy-civilization-vi-onemorethought-notebook",
+          "access": "official_store_body_read",
+          "finding": "2K Civlization VI #OneMoreThought实体笔记本，非同名软件。"
+        }
+      ],
+      "registration": {
+        "status": "not_checked_after_confirmed_cross_industry_use",
+        "note": "已有公司核心名，主动避让；不冒称9/42已注册。"
+      },
+      "reason_code": "CROSS_INDUSTRY_COMPANY_ACTIVE_AVOIDANCE"
+    }
+  ],
+  "passed_english_candidate_ids": [],
+  "controls": "A3-controls.json",
+  "claim_limits": "仅公开使用初筛。实际已读正文、索引全文与失败打开分别记录；不声称官方核名或9/42商标通过。"
+}

@@ -1,0 +1,46 @@
+{
+  "protocol_version": "1.1",
+  "run_id": "2026-11-06-agent2-material-pilot",
+  "date": "2026-11-06",
+  "status": "incomplete",
+  "stage": "agent2_material_pilot_only",
+  "coordinator_id": "/root",
+  "recorded_at": "2026-11-06T17:31:46+08:00",
+  "roles": {
+    "A1": {
+      "agent_id": "/root/agent1_baseline105",
+      "status": "completed",
+      "execution_ref": "Prior actual105-case run; not re-executed"
+    },
+    "A2": {
+      "agent_id": "/root/agent2_materials_cn",
+      "status": "completed",
+      "execution_ref": "Actual /root/agent2_materials_cn source reading/material delivery plus metadata revision; producer-receipt.json and rework.json."
+    }
+  },
+  "scope": "User explicitly authorizes6–8 material cards and research conclusions, no names.",
+  "not_started": [
+    "name_creation",
+    "A3",
+    "A4"
+  ],
+  "new_name_count": 0,
+  "schedule_created": false,
+  "stage_status": "material_pilot_delivered_reviewed_below_expansion_threshold",
+  "recorded_completed_at": "2026-11-06T18:02:42+08:00",
+  "actual_counts": {
+    "material_cards": 8,
+    "macro_directions": 6,
+    "clear_retained_research_cards": 5,
+    "held_question_cards": 2,
+    "position_discussion_cards": 1,
+    "book_specific_body_count": 2,
+    "recent_news_body_count": 3,
+    "recent_news_supporting_cards": 2,
+    "recent_news_excluded": 1,
+    "classical_cards": 0,
+    "coordinator_main_source_audit_cards": 8,
+    "new_names": 0
+  },
+  "incomplete_reason": "User requested material pilot only.5 clear retained resources below plan6 continuation threshold; no expansion or naming, full pipeline incomplete."
+}

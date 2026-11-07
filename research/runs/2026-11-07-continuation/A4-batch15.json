@@ -1,0 +1,43 @@
+{
+  "agent_id": "/root/live_a4",
+  "role": "A4",
+  "recorded_at": "2026-11-07T18:50:51+08:00",
+  "input_authorization": "主控明确CT-C26/CT-C28双中文质量及原A3中文公开初筛过",
+  "candidates": [
+    {
+      "id": "CT-E27",
+      "chinese_id": "CT-C26",
+      "chinese": "反例",
+      "english": "Single Witness",
+      "suggested_pronunciation": "SING-guhl WIT-nis /ˈsɪŋɡəl ˈwɪtnɪs/",
+      "type": "两个普通英语词的完整名词短语",
+      "formation": "single是一个，witness是见证/见证者；一个具体见证便足以揭示全称断言的边界。以普通语义把逻辑里的实例作用转成研究角色，不伪造新词源。",
+      "bilingual_relation": "中文直接用反例知识词，英文给出使断言不能继续成立的那个具体见证；共享具体实例与全称断言之间不对称的关系，而不把公司立场说成反对一切。",
+      "meaning": "让真实的例外进入认识，帮助已有系统找到值得修正的边界。限定适用全称断言，不说任意一个失误就能否定整个概率模型或所有统计结论。",
+      "shortcoming": "可能先像法律、调查或事实核查品牌；英文不直接写counterexample，也不自带AI行业说明。见证是品牌语义，不声称MIT原文用了此品牌短语。",
+      "source_urls": [
+        "https://web.mit.edu/broder/Public/6.042-lecture-notes/lecture-notes.pdf"
+      ],
+      "read_scope": "A4 web打开超时后curl实际下载MIT托管PDF并以PyMuPDF读PDF第17页，含全称/存在量词及一个例外可否定命题；未通读339页。",
+      "status": "quality_proposal_not_screened"
+    },
+    {
+      "id": "CT-E28",
+      "chinese_id": "CT-C28",
+      "chinese": "鸽哨",
+      "english": "Pigeon Whistle",
+      "suggested_pronunciation": "PIJ-un WIS-uhl /ˈpɪdʒən ˈwɪsəl/",
+      "type": "普通英语构成的器物描述，不冒称新发明词",
+      "formation": "pigeon是鸽子，whistle在这里是附着其上的哨具；两个现成词直接称呼同一中国器物，不加无关科技后缀、不改拼音，也不把它说成鸽子自身鸣叫。",
+      "bilingual_relation": "两语共享中国城市天空的真实物件与声音；不要求英文读者先懂汉字，也不把普通翻译本身当注册可用证明。",
+      "meaning": "轻小器具借已有飞行气流产生可听信息，使远处运动有可感形状；公司可以借这种为已有系统增加表达/感知条件的角色讲研究，不说鸽子因此更聪明。",
+      "shortcoming": "可能像民俗工艺、音乐或养鸽品牌，英语虽自然却不自带AI；pigeon whistle也会有普通商品类别结果，A3须区分通用品类与实际品牌，不因为词典词就跳过筛查。",
+      "source_urls": [
+        "https://www.visitbeijing.com.cn/article/47QloB45oRt"
+      ],
+      "read_scope": "A4 web打开超时后curl成功读页面HTML正文，实际读制作工序、轻薄材料、校音与哨口受风角度改变声响的段落；未采信最早军事来源，不声称读古文。",
+      "status": "quality_proposal_not_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

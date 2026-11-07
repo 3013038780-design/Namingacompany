@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/live_a4",
+  "role": "A4",
+  "recorded_at": "2026-11-07T18:23:27+08:00",
+  "input_authorization": "主控明确CT-C07及CT-C08各第1次英文返工，中文资格不变",
+  "candidates": [
+    {
+      "id": "CT-E10",
+      "chinese_id": "CT-C07",
+      "chinese": "念头引擎",
+      "english": "Ideas Afoot",
+      "suggested_pronunciation": "eye-DEE-uz uh-FOOT /aɪˈdiːəz əˈfʊt/",
+      "type": "两个现成英语词构成的完整品牌名词短语",
+      "formation": "ideas是想法，afoot既有正在进行/展开之义，也有步行义。Ideas Afoot把念头开始发生作用、开始行动说成一个可称呼的场景；不用Thoughtgear加后缀，不改拼音。",
+      "bilingual_relation": "中文以引擎表现驱动，英文以想法已经上路/正在展开表现行动；二者都围绕内部目标成为行动，而非只收藏点子。",
+      "meaning": "让想法从内部走向实际行动；afoot的行动双关是语言层，不把它冒称书中算法名。真实计算锚点仍为目标/当前状态/控制之间的关系。",
+      "shortcoming": "可能先像创意机构或活动品牌，英文不直接说明AI；五音节比一词专名长，afoot对少数读者需要一次释义。不会因词义积极自动产生科技性能。",
+      "source_urls": [
+        "https://natureofcode.com/autonomous-agents/",
+        "https://www.merriam-webster.com/dictionary/afoot"
+      ],
+      "read_scope": "A4此前实际读The Nature of Code第5章L39–51及L88–110；本次实际读Merriam-Webster afoot定义L31–48及例句，确认on foot和underway两义，未引用其历史例句作品牌来源。",
+      "rework_of": "CT-E04",
+      "rework_number_for_chinese": 1,
+      "rework_reason": "A3确认Thoughtgear已有AI agent-loop npm软件包历史版本，当前security holding不抹去已有软件使用，另有历史游戏工作室。",
+      "status": "quality_proposal_not_screened"
+    },
+    {
+      "id": "CT-E11",
+      "chinese_id": "CT-C08",
+      "chinese": "多想一步",
+      "english": "One Thought Further",
+      "suggested_pronunciation": "wun THAWT FUR-ther /wʌn θɔːt ˈfɜːrðər/",
+      "type": "三个正常英语词的完整比喻短语，不变造拼写",
+      "formation": "以英语one step further的距离表达作结构参照，把步换成thought：在认识上再向前一个念头。每个词保留正常拼写，进一步思考的语义本身先成立，不把它说成公认固定成语。",
+      "bilingual_relation": "中文多想一步与英文把思考作为前进一步的单位，在动作和姿态上相接；不承诺只有一步，也不说额外一步必定正确。",
+      "meaning": "已有判断仍有展开、校正和再认识的空间；论文中间步骤是研究锚点，品牌可容纳更广的判断与认知研究。",
+      "shortcoming": "比单词品牌长，可能像机构标语或出版题名；thought作为距离单位是本轮比喻表达，不是英语科学术语，需与研究机构语境共同成立。",
+      "source_urls": [
+        "https://arxiv.org/abs/2201.11903"
+      ],
+      "read_scope": "复用A4实际读论文摘要L16–17；英语结构与比喻为本轮创作，不冒称论文原句或英语固定成语。",
+      "rework_of": "CT-E05",
+      "rework_number_for_chinese": 1,
+      "rework_reason": "One More Thought存在印度跨行业历史公司ONE MORE THOUGHT ENTERTAINMENT PRIVATE LIMITED，主控主动避让，不夸大同名AI公司或在营确认。",
+      "status": "quality_proposal_not_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

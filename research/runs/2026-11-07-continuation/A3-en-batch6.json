@@ -1,0 +1,101 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T18:29:10.968855+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-preview-batch6.md",
+      "sha256": "72b902b7fac47607cf3b1c8cc42e8a87d0408e64544edfe1655c2721defccad2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-en-batch6.json",
+      "sha256": "757690715bafb10a59817ffaf442cc894cb3c5281b5129c87abd827cf856704d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-quality-batch6.json",
+      "sha256": "9e86415fbafaefaf8422f914e52661ba5f82b3d800ddcc2c2a2704c56774863d"
+    }
+  ],
+  "query_count": 6,
+  "results": [
+    {
+      "candidate_id": "CT-E09",
+      "chinese_candidate_id": "CT-C02",
+      "chinese": "地球回信",
+      "name": "Postmarked Earth",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名公司、AI模型或软件。邮政活动、明信片说明中的postmarked与earth为普通描述；不把部分词相遇当品牌。",
+      "query_logs": [
+        {
+          "query": "\"Postmarked Earth\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、AI模型或软件。邮政活动、明信片说明中的postmarked与earth为普通描述；不把部分词相遇当品牌。"
+        },
+        {
+          "query": "\"Postmarked Earth\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、AI模型或软件。邮政活动、明信片说明中的postmarked与earth为普通描述；不把部分词相遇当品牌。"
+        },
+        {
+          "query": "\"Postmarked Earth\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、AI模型或软件。邮政活动、明信片说明中的postmarked与earth为普通描述；不把部分词相遇当品牌。"
+        },
+        {
+          "query": "\"Postmarked Earth\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、AI模型或软件。邮政活动、明信片说明中的postmarked与earth为普通描述；不把部分词相遇当品牌。"
+        },
+        {
+          "query": "\"PostmarkedEarth\" OR \"Postmarked-Earth\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、AI模型或软件。邮政活动、明信片说明中的postmarked与earth为普通描述；不把部分词相遇当品牌。"
+        },
+        {
+          "query": "\"Postmarked Earth\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、AI模型或软件。邮政活动、明信片说明中的postmarked与earth为普通描述；不把部分词相遇当品牌。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://ukaht.org/latest-news/postmarked-in-antarctica-delivered-to-santa-claus/",
+          "access": "search_text_only",
+          "finding": "邮政活动文章标题为Postmarked in Antarctica，不是完整品牌。"
+        },
+        {
+          "url": "https://en.pinkoi.com/product/B96ezVZi",
+          "access": "search_text_only",
+          "finding": "商品名Earth and Typhoon Card，postmarked为说明动作，非Postmarked Earth品牌。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Postmarked%20Earth",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    }
+  ],
+  "passed_english_candidate_ids": [
+    "CT-E09"
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛不等于全球未使用、核名通过或第9/42类可注册。重复复核查询计入实际查询数。"
+}

@@ -1,0 +1,95 @@
+{
+  "reviewer": "/root",
+  "accessed_on": "2026-11-07",
+  "records": [
+    {
+      "candidate_id": "LD-C01",
+      "url": "https://arxiv.org/abs/1710.09250",
+      "access": "body",
+      "scope": "Abstract lines16–18",
+      "supports": "二维湍流由小尺度激励形成大尺度相干结构的基础，未称主控阅读全文推导。",
+      "web_ref": "turn965view0"
+    },
+    {
+      "candidate_id": "LD-C02",
+      "url": "https://struchem.nankai.edu.cn/phychem/10/10-10.pdf",
+      "access": "body",
+      "scope": "PDF pages20–25; especially page24 entropy balance",
+      "supports": "负熵流/外熵流与内部熵产生的关系，条件下可减小体系熵；不采用后续寿命推广，不等同AI增强。",
+      "web_ref": "turn965view1"
+    },
+    {
+      "candidate_id": "LD-C01",
+      "url": "https://www.ynao.cas.cn/xwzx/xshd/202601/t20260120_8114688.html",
+      "access": "body",
+      "scope": "学术报告摘要line22",
+      "supports": "中文逆级联原词及小尺度向大尺度能量传递，限定二维衰减磁流体背景；不冒称读过报告或论文全文。",
+      "web_ref": "turn976view0"
+    },
+    {
+      "candidate_id": "LD-C05",
+      "url": "https://evo.fugue.run/tutorials/island-model.html",
+      "access": "body",
+      "scope": "Island Model Tutorial / How It Works / Migration Topologies",
+      "supports": "并行子种群与周期性迁移、独立搜索加交换；不要求二进制编码；不采纳示例性能为普遍保证。",
+      "access_method": "web工具不可访问；Python urllib证书失败；系统curl成功读取正文，主控实际阅读前述章节。"
+    },
+    {
+      "candidate_id": "LD-C07",
+      "url": "https://www.caltech.edu/about/news/researchers-mutate-digital-organisms-348",
+      "access": "body",
+      "scope": "1999-08-11报道正文231–243",
+      "supports": "自复制、变异、适应的程序与数字环境相互作用，不等同现代LLM持续学习。",
+      "web_ref": "turn989view1"
+    },
+    {
+      "candidate_id": "LD-C08",
+      "url": "https://research.aston.ac.uk/en/publications/vector-soliton-rain/",
+      "access": "body",
+      "scope": "Abstract lines22–25",
+      "supports": "小孤子与主脉冲共存和相互作用，多种模式依条件出现。",
+      "web_ref": "turn989view2"
+    },
+    {
+      "candidate_id": "LD-C08",
+      "url": "https://patentimages.storage.googleapis.com/ee/4d/93/2422e069ccda90/CN111244739A.pdf",
+      "access": "body",
+      "scope": "page3 background0002",
+      "supports": "孤子雨中文原词及单孤子分裂、漂移再合并；普通技术描述，不当作同名商业品牌证据。",
+      "web_ref": "turn991view1"
+    },
+    {
+      "english_id": "LD-E04",
+      "url": "https://www.negentia.com/",
+      "access": "body",
+      "scope": "Une infrastructure dédiée lines26–28",
+      "supports": "明确Negentia品牌的AI银行及气候风险服务，作为同名科技使用否决证据。",
+      "web_ref": "turn1018view0"
+    },
+    {
+      "english_id": "LD-E04",
+      "url": "https://www.negentia.com/mentions-legales.html",
+      "access": "body",
+      "scope": "éditeur line12",
+      "supports": "自称Negentia主体且登记办理中，不称官方已注册。",
+      "web_ref": "turn1018view1"
+    },
+    {
+      "english_id": "LD-E10",
+      "url": "https://pleiades.stoa.org/vocabularies/place-types/agora",
+      "access": "body",
+      "scope": "definition line43",
+      "supports": "agora指古希腊市场及公共会聚空间，不把ora当独立生境词或Jingora当原生希腊语。",
+      "web_ref": "turn1022view0"
+    }
+  ],
+  "independent_exact_search_audit": {
+    "queries": [
+      "\"Solirain\"",
+      "\"Bipelago\""
+    ],
+    "executed_on": "2026-11-07",
+    "observed": "Solirain个人/游戏用户名及商品孤立描述；Bipelago意大利ARN角色扮演手册虚构地名，已交回A3核正文并披露。",
+    "claim_limit": "只复核检索观察，不证明全球无使用。"
+  }
+}

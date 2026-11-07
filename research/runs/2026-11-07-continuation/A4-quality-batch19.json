@@ -1,0 +1,84 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T18:58:26+08:00",
+  "reviews": [
+    {
+      "candidate_id": "CT-E35",
+      "chinese_id": "CT-C31",
+      "english": "Measured Wonder",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个正常词，四音节可直接读。",
+          "counter_association": "measured有zh音，wonder重音在前。"
+        },
+        "spelling": {
+          "reason": "正常词形，无拼音变造。",
+          "counter_association": "需查MeasuredWonder连写。"
+        },
+        "formation": {
+          "reason": "审慎与好奇在一个完整态度里相接。",
+          "counter_association": "measured非数学上界声明。"
+        },
+        "bilingual_relation": {
+          "reason": "适用边界与审慎探索共同回应同一研究问题。",
+          "counter_association": "英文不字面对译bounded。"
+        },
+        "distinctiveness": {
+          "reason": "可容纳长期面对未知的研究立场。",
+          "counter_association": "可能像科学传播/艺术机构。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；待主控独评与原A3公开使用筛查，不表示注册可用。"
+    },
+    {
+      "candidate_id": "CT-E36",
+      "chinese_id": "CT-C32",
+      "english": "Latent Stage",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个正常词，三个音节可按词读。",
+          "counter_association": "latent结尾t与stage的s需连读。"
+        },
+        "spelling": {
+          "reason": "完整词形，无改字母。",
+          "counter_association": "stage/state近形必须固定，不是错误拼写。"
+        },
+        "formation": {
+          "reason": "潜空间与排练舞台具有真实过程与日常实践的交叉。",
+          "counter_association": "stage为比喻，不是论文算法名。"
+        },
+        "bilingual_relation": {
+          "reason": "实践与实践发生的内部舞台分工明确。",
+          "counter_association": "英文不直写virtual/rehearsal。"
+        },
+        "distinctiveness": {
+          "reason": "有世界模型与行动学习的研究身份。",
+          "counter_association": "可能像生成艺术或虚拟制作工具。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；待主控独评与原A3公开使用筛查，不表示注册可用。"
+    }
+  ]
+}

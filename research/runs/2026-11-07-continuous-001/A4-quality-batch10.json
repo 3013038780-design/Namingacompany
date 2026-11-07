@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-07T21:26:22.370871+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E10",
+      "chinese_id": "C1-C14",
+      "english": "Bear Out",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个常见单音节词，称呼短，无人造辅音串。",
+          "counter_association": "bear与bare同音，首次听到可能把词拆成动物加方向。"
+        },
+        "spelling": {
+          "reason": "两个普通完整词，没有改字母和拼音。",
+          "counter_association": "仅听声音不能避免bare同音写法。"
+        },
+        "grounding": {
+          "reason": "词典原义本身即由证据支持，直接承接DOE结果有效性的真实区别。",
+          "counter_association": "证据支持与实验科学有效性并非在所有情境都严格等价。"
+        },
+        "bilingual_relation": {
+          "reason": "同落在主张需通过实际结果成立的关系，中文有效性与英文支持作用可自然相接。",
+          "counter_association": "英文偏证实主张，中文有效还可能是承诺作数，需明确研究语境。"
+        },
+        "distinctiveness": {
+          "reason": "短语有独立称呼外壳，能承载研究立场。",
+          "counter_association": "省略宾语、通用表达及验证工具印象，使独特性只达本角色最低接受。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；等待主控先读无分预览独评，再读本档并授权原A3。"
+    }
+  ]
+}

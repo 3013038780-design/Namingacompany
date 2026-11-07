@@ -1,0 +1,155 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T20:47:32.677238+08:00",
+  "input_batch": "A2 batch1",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch1.json",
+      "sha256": "de29716948169e218e2207fdb612e83e8d0a5e6dbed0e3bc5b92e623f9fae2d4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch1.md",
+      "sha256": "d87c287021b3259660e742121471cfc689118926b5ae8684ec44f008a23f4ff7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch1.json",
+      "sha256": "e1a05ad992652744001c7cf6a2659c4eb8ae85034dccc9460a893f94cf0a976d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch1.json",
+      "sha256": "3945d61b3c61e96f043a6e9045268a55065d19588cd9eef2dc9a96aa7e03f49d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch1.json",
+      "sha256": "3a18cb9dc6e7131e9d8b2c06a96a4cff443285684a2f4239570e841dc25a37f0"
+    }
+  ],
+  "query_count": 10,
+  "results": [
+    {
+      "candidate_id": "C1-C01",
+      "name": "由此及彼",
+      "query_logs": [
+        {
+          "query": "\"由此及彼\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技公司、模型或独立软件；繁简无字形差，第4查询补品牌/产品覆盖。ubras实际品牌由彼，成语是释义；ETOR模型是另名思辨框架，非候选同名AI模型，拼音是博客个人账号。"
+        },
+        {
+          "query": "\"由此及彼\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技公司、模型或独立软件；繁简无字形差，第4查询补品牌/产品覆盖。ubras实际品牌由彼，成语是释义；ETOR模型是另名思辨框架，非候选同名AI模型，拼音是博客个人账号。"
+        },
+        {
+          "query": "\"由此及彼\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技公司、模型或独立软件；繁简无字形差，第4查询补品牌/产品覆盖。ubras实际品牌由彼，成语是释义；ETOR模型是另名思辨框架，非候选同名AI模型，拼音是博客个人账号。"
+        },
+        {
+          "query": "\"由此及彼\" 公司 软件 产品",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技公司、模型或独立软件；繁简无字形差，第4查询补品牌/产品覆盖。ubras实际品牌由彼，成语是释义；ETOR模型是另名思辨框架，非候选同名AI模型，拼音是博客个人账号。"
+        },
+        {
+          "query": "\"youcijibi\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技公司、模型或独立软件；繁简无字形差，第4查询补品牌/产品覆盖。ubras实际品牌由彼，成语是释义；ETOR模型是另名思辨框架，非候选同名AI模型，拼音是博客个人账号。"
+        }
+      ],
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名科技公司、模型或独立软件；繁简无字形差，第4查询补品牌/产品覆盖。ubras实际品牌由彼，成语是释义；ETOR模型是另名思辨框架，非候选同名AI模型，拼音是博客个人账号。",
+      "evidence": [
+        {
+          "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=61832&la=0&webMd=2",
+          "access": "official_dictionary_body_read",
+          "finding": "正式词条由此及彼；该页非软件产品。"
+        },
+        {
+          "url": "https://www.bjta.com.cn/html/page/25030743-1.htm",
+          "access": "association_search_text_only",
+          "finding": "企业彼悦(北京)科技有限公司品牌ubras由彼，成语用作中文名释义，非完整由此及彼品牌。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Youcijibi",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      }
+    },
+    {
+      "candidate_id": "C1-C02",
+      "name": "探形",
+      "query_logs": [
+        {
+          "query": "\"探形\"",
+          "executed_on": "2026-11-07",
+          "summary": "App Store确证完整核心品牌探形，App名探形-记录你的形象，描述自称探形APP并含AI引导；开发/售卖主体Guangzhou Garment Technology Co.,Ltd。繁简无字形差，第4查询补品牌产品，不用艺术展览或拼音公司替代主证。"
+        },
+        {
+          "query": "\"探形\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "App Store确证完整核心品牌探形，App名探形-记录你的形象，描述自称探形APP并含AI引导；开发/售卖主体Guangzhou Garment Technology Co.,Ltd。繁简无字形差，第4查询补品牌产品，不用艺术展览或拼音公司替代主证。"
+        },
+        {
+          "query": "\"探形\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "App Store确证完整核心品牌探形，App名探形-记录你的形象，描述自称探形APP并含AI引导；开发/售卖主体Guangzhou Garment Technology Co.,Ltd。繁简无字形差，第4查询补品牌产品，不用艺术展览或拼音公司替代主证。"
+        },
+        {
+          "query": "\"探形\" 品牌 产品 应用",
+          "executed_on": "2026-11-07",
+          "summary": "App Store确证完整核心品牌探形，App名探形-记录你的形象，描述自称探形APP并含AI引导；开发/售卖主体Guangzhou Garment Technology Co.,Ltd。繁简无字形差，第4查询补品牌产品，不用艺术展览或拼音公司替代主证。"
+        },
+        {
+          "query": "\"tanxing\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "App Store确证完整核心品牌探形，App名探形-记录你的形象，描述自称探形APP并含AI引导；开发/售卖主体Guangzhou Garment Technology Co.,Ltd。繁简无字形差，第4查询补品牌产品，不用艺术展览或拼音公司替代主证。"
+        }
+      ],
+      "decision": "reject",
+      "reason": "App Store确证完整核心品牌探形，App名探形-记录你的形象，描述自称探形APP并含AI引导；开发/售卖主体Guangzhou Garment Technology Co.,Ltd。繁简无字形差，第4查询补品牌产品，不用艺术展览或拼音公司替代主证。",
+      "evidence": [
+        {
+          "url": "https://apps.apple.com/us/app/id6459354667",
+          "access": "official_app_store_body_read",
+          "finding": "标题探形-记录你的形象，开发者/卖方Guangzhou Garment Technology Co.,Ltd；自述形象记录+AI引导+社区互动。不是通用功能词。"
+        },
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/15468083",
+          "access": "official_search_text_only",
+          "finding": "TANXING LTD搜索记录2026-03-31注销；仅罗马词形历史公司，不据此认中文名探形。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        }
+      }
+    }
+  ],
+  "passed_chinese_candidate_ids": [
+    "C1-C01"
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛，不称全球未使用或官方注册可用；无命中不编造证明来源。"
+}

@@ -1,0 +1,29 @@
+{
+  "agent_id": "/root/live_a4",
+  "role": "A4",
+  "recorded_at": "2026-11-07T18:21:48+08:00",
+  "input_authorization": "主控CT-C02第2次最后英文返工，中文资格不变",
+  "candidates": [
+    {
+      "id": "CT-E09",
+      "chinese_id": "CT-C02",
+      "chinese": "地球回信",
+      "english": "Postmarked Earth",
+      "suggested_pronunciation": "POST-markt URTH /ˈpoʊstmɑːrkt ɜːrθ/",
+      "type": "普通英语词构成的完整品牌短语，不改拼音",
+      "formation": "postmarked表示盖有邮戳，Earth是地球：一封标明地球来处的信。借正常书信语言表达来处与信息，不给Earth Replies或Returnlight加后缀。",
+      "bilingual_relation": "中文回信强调信息回来；英文邮戳强调这份信息来自地球。观测返回光的光谱等特征能了解其行星来处，形成书信/来源标记与真实观测的第二层；不称光真的带邮戳。",
+      "meaning": "世界不只接受我们的输出，也留下可被认识的特征；从返回的信息认识世界和自己。中文地照光科学锚点保留，英文以可记的书信画面提供另一半。",
+      "shortcoming": "可能像科幻出版、邮政或文化品牌，英文不直接说明AI；postmarked的末尾辅音稍密。属于拟人和品牌类比，不是地照光技术术语。",
+      "source_urls": [
+        "https://arxiv.org/abs/0906.0570"
+      ],
+      "read_scope": "沿用A4实际读过的摘要L16–17：返回光及其光度/光谱等行星信息用途。没有把邮戳比喻说成论文原词或物理事实。",
+      "rework_of": "CT-E06",
+      "rework_number_for_chinese": 2,
+      "rework_reason": "Returnlight已由A3确认同名互动练习web产品，按主控要求进行第2次及最后英文返工。",
+      "status": "quality_proposal_not_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

@@ -1,0 +1,80 @@
+{
+  "reviewed_at": "2026-11-07T16:41:09.278430+08:00",
+  "independence": "Read A4-preview-batch3.md before producer numeric assessment.",
+  "reviews": [
+    {
+      "english_id": "LD-E05",
+      "candidate_id": "LD-C08",
+      "name": "Solirain",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "soli与rain三音节自然",
+          "counter_association": "soli重音需固定"
+        },
+        "spelling": {
+          "reason": "soli+rain可分段稳定书写",
+          "counter_association": "可能听写Solerain"
+        },
+        "grounding": {
+          "reason": "同一真实soliton rain短语压缩",
+          "counter_association": "soli也会联想到solar但非出处"
+        },
+        "bilingual_relation": {
+          "reason": "中英文同一科学现象，非硬加诗意",
+          "counter_association": "英文是新造缩形非标准名"
+        },
+        "distinctiveness": {
+          "reason": "有完整称呼和自然画面",
+          "counter_association": "需查现有太阳能或天气产品"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "english_id": "LD-E06",
+      "candidate_id": "LD-C05",
+      "name": "Bipelago",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "与archipelago末段相似可读",
+          "counter_association": "bi可能被读成bye"
+        },
+        "spelling": {
+          "reason": "bi+pelago能口述分段",
+          "counter_association": "第一次会多写一个l或i"
+        },
+        "grounding": {
+          "reason": "bit与archipelago明确承认声形融合",
+          "counter_association": "bi不透明表达bit需介绍"
+        },
+        "bilingual_relation": {
+          "reason": "双语数字群岛的同一结构",
+          "counter_association": "不是进化算法必须二进制编码"
+        },
+        "distinctiveness": {
+          "reason": "可作长期机构名而非技术规格",
+          "counter_association": "容易像虚拟世界游戏品牌"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

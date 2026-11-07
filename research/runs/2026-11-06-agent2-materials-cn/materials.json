@@ -1,0 +1,927 @@
+{
+  "status": "A2_materials_delivered_for_review",
+  "counts": {
+    "cards": 24,
+    "body_read_cards": 24,
+    "independent_material_families_total": 24,
+    "new_family_countable": 23,
+    "historical_branch_cards": 1,
+    "target_new_families": 24,
+    "new_family_shortfall": 1,
+    "classical_cards": 0
+  },
+  "materials": [
+    {
+      "id": "M01",
+      "family_id": "F01-parallax",
+      "title": "换一个位置，距离才可知",
+      "category": "空间测量",
+      "macro_source": "S2",
+      "is_classical": false,
+      "source_id": "ESA-P",
+      "source_url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Parallax",
+      "source_type": "institution_explainer",
+      "book_id": null,
+      "published_at": null,
+      "reading_scope": "正文199–204行；手指双眼演示及半年基线测距段",
+      "reading_location": "正文199–204行；手指双眼演示及半年基线测距段",
+      "fact": "同一对象从不同位置看，会相对远背景出现视位置变化；恒星测距可利用地球公转基线。",
+      "naming_relation": "认识不只来自多看，还来自改变观察位置。",
+      "boundary": "品牌不能据此声称所有多视角都必然更准确。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "ESA-P",
+          "title": "Parallax",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Parallax",
+          "access": "body",
+          "reading_scope": "正文199–204行；手指双眼演示及半年基线测距段"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Parallax"
+      ],
+      "source_kind": "institutional_material",
+      "reading_extent": "article_body_section",
+      "source_date_note": "日期依正文；未见则留空，不猜测",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M02",
+      "family_id": "F02-alternative-explanation",
+      "title": "排除一个像样却不成立的解释",
+      "category": "认识论与科学思维",
+      "macro_source": "S5",
+      "is_classical": false,
+      "source_id": "DEW",
+      "source_url": "https://www.gutenberg.org/cache/epub/37423/pg37423-images.html",
+      "source_type": "book",
+      "book_id": "B03",
+      "published_at": "1910",
+      "reading_scope": "第5章末553–578行与第6章584–629行；地铁路线、船上白杆、气泡三个案例及五步骤。未读全书",
+      "reading_location": "第5章末553–578行与第6章584–629行；地铁路线、船上白杆、气泡三个案例及五步骤。未读全书",
+      "fact": "Dewey船上白杆例先想到旗杆，再用缺绳索等细节排除，并寻找符合全部线索的用途。",
+      "naming_relation": "机构角色可以是提出与检验另一种解释的人。",
+      "boundary": "不是要让AI永远持异议；不拆五步骤凑五家族。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "DEW",
+          "title": "John Dewey, How We Think",
+          "url": "https://www.gutenberg.org/cache/epub/37423/pg37423-images.html",
+          "access": "body",
+          "reading_scope": "第5章末553–578行与第6章584–629行；地铁路线、船上白杆、气泡三个案例及五步骤。未读全书"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://www.gutenberg.org/cache/epub/37423/pg37423-images.html"
+      ],
+      "source_kind": "book",
+      "reading_extent": "chapter_excerpt",
+      "source_date_note": "原书年代非本次网页更新日期",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M03",
+      "family_id": "F03-cognitive-fringe",
+      "title": "一个念头还有没有说出的关系",
+      "category": "心理学思想史",
+      "macro_source": "S5",
+      "is_classical": false,
+      "source_id": "JAM",
+      "source_url": "https://psychclassics.yorku.ca/James/Principles/prin9.htm",
+      "source_type": "book",
+      "book_id": "B04",
+      "published_at": "1890",
+      "reading_scope": "第9章开头15–104行、过渡部分145–149行与215–223行fringe/overtones；未读全书，尤其未将1890生理推测当现代定论",
+      "reading_location": "第9章开头15–104行、过渡部分145–149行与215–223行fringe/overtones；未读全书，尤其未将1890生理推测当现代定论",
+      "fact": "James以音乐泛音比喻思维中的fringe：被模糊感到的关系与语境也是认识的一部分。",
+      "naming_relation": "音乐与认识之间已有作者明确建立的同构比喻，可以借普通中文说理解的余韵。",
+      "boundary": "这是1890心理学著作中的理论，不当现代神经科学实验证明。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "JAM",
+          "title": "William James, The Principles of Psychology, Volume I",
+          "url": "https://psychclassics.yorku.ca/James/Principles/prin9.htm",
+          "access": "body",
+          "reading_scope": "第9章开头15–104行、过渡部分145–149行与215–223行fringe/overtones；未读全书，尤其未将1890生理推测当现代定论"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://psychclassics.yorku.ca/James/Principles/prin9.htm"
+      ],
+      "source_kind": "book",
+      "reading_extent": "chapter_excerpt",
+      "source_date_note": "原书年代非本次网页更新日期",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M04",
+      "family_id": "F04-photogram",
+      "title": "材料直接留下光的作用",
+      "category": "实验摄影",
+      "macro_source": "S4",
+      "is_classical": false,
+      "source_id": "MOMA",
+      "source_url": "https://mobile-api.moma.org/explore/inside_out/2012/07/12/surface-and-light-liz-deschenes/",
+      "source_type": "museum_essay",
+      "book_id": null,
+      "published_at": "2012-07-12",
+      "reading_scope": "正文10–25行：无相机感光摄影、光与实验摄影；未把展览目录当已读书籍",
+      "reading_location": "正文10–25行：无相机感光摄影、光与实验摄影；未把展览目录当已读书籍",
+      "fact": "Photogram可以不用相机，在感光纸上曝光形成影像；Deschenes使用月光与银调色等过程。",
+      "naming_relation": "研究像显影：使原来不易见的关系成为可读的形式。",
+      "boundary": "光留痕是实物过程，知识显现只是品牌赋义；不继承旧重写本家族。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "MOMA",
+          "title": "Surface and Light: Liz Deschenes",
+          "url": "https://mobile-api.moma.org/explore/inside_out/2012/07/12/surface-and-light-liz-deschenes/",
+          "access": "body",
+          "reading_scope": "正文10–25行：无相机感光摄影、光与实验摄影；未把展览目录当已读书籍"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://mobile-api.moma.org/explore/inside_out/2012/07/12/surface-and-light-liz-deschenes/"
+      ],
+      "source_kind": "institutional_material",
+      "reading_extent": "article_body_section",
+      "source_date_note": "日期依正文；未见则留空，不猜测",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M05",
+      "family_id": "F05-closure-environment",
+      "title": "函数带着自己的定义环境离开",
+      "category": "编程语言",
+      "macro_source": "S3",
+      "is_classical": false,
+      "source_id": "CP",
+      "source_url": "https://composingprograms.com/pages/16-higher-order-functions.html",
+      "source_type": "book",
+      "book_id": "B01",
+      "published_at": null,
+      "reading_scope": "1.6.1末129–167行、1.6.2的172–201行、1.6.3/1.6.4的213–274行；迭代求根部分属于历史机制，不用于新增家族",
+      "reading_location": "1.6.1末129–167行、1.6.2的172–201行、1.6.3/1.6.4的213–274行；迭代求根部分属于历史机制，不用于新增家族",
+      "fact": "词法作用域函数可访问定义时的父环境；局部函数作为返回值仍保留该环境关系。",
+      "naming_relation": "一个能力可以带着使其成立的语境进入新场合。",
+      "boundary": "闭包不等于模型持续学习；不冒充新增存储或反馈机制。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "CP",
+          "title": "John DeNero, Composing Programs",
+          "url": "https://composingprograms.com/pages/16-higher-order-functions.html",
+          "access": "body",
+          "reading_scope": "1.6.1末129–167行、1.6.2的172–201行、1.6.3/1.6.4的213–274行；迭代求根部分属于历史机制，不用于新增家族"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://composingprograms.com/pages/16-higher-order-functions.html"
+      ],
+      "source_kind": "book",
+      "reading_extent": "chapter_excerpt",
+      "source_date_note": "原书年代非本次网页更新日期",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M06",
+      "family_id": "F06-higher-order-method",
+      "title": "方法也能成为操作的对象",
+      "category": "计算抽象",
+      "macro_source": "S3",
+      "is_classical": false,
+      "source_id": "CP",
+      "source_url": "https://composingprograms.com/pages/16-higher-order-functions.html",
+      "source_type": "book",
+      "book_id": "B01",
+      "published_at": null,
+      "reading_scope": "1.6.1末129–167行、1.6.2的172–201行、1.6.3/1.6.4的213–274行；迭代求根部分属于历史机制，不用于新增家族",
+      "reading_location": "1.6.1末129–167行、1.6.2的172–201行、1.6.3/1.6.4的213–274行；迭代求根部分属于历史机制，不用于新增家族",
+      "fact": "高阶函数把函数作为参数或返回值，可表达不依赖某个具体被调函数的通用计算方法。",
+      "naming_relation": "机构可以研究如何产生方法，而非只交付一个固定答案。",
+      "boundary": "不从本章迭代求根例再造旧不动点家族。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "CP",
+          "title": "John DeNero, Composing Programs",
+          "url": "https://composingprograms.com/pages/16-higher-order-functions.html",
+          "access": "body",
+          "reading_scope": "1.6.1末129–167行、1.6.2的172–201行、1.6.3/1.6.4的213–274行；迭代求根部分属于历史机制，不用于新增家族"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://composingprograms.com/pages/16-higher-order-functions.html"
+      ],
+      "source_kind": "book",
+      "reading_extent": "chapter_excerpt",
+      "source_date_note": "原书年代非本次网页更新日期",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M07",
+      "family_id": "F07-symmetry-invariance",
+      "title": "变化中保留着什么",
+      "category": "物理对称性",
+      "macro_source": "S3",
+      "is_classical": false,
+      "source_id": "FEY52",
+      "source_url": "https://www.feynmanlectures.caltech.edu/I_52.html",
+      "source_type": "book",
+      "book_id": "B02",
+      "published_at": null,
+      "reading_scope": "52–2空间时间对称65–82行及52–3守恒97–106行；未读全卷",
+      "reading_location": "52–2空间时间对称65–82行及52–3守恒97–106行；未读全卷",
+      "fact": "改变空间位置、时间起点等条件时，相关物理定律可保持不变；教材讨论对称与守恒的联系。",
+      "naming_relation": "研究的长期对象可是不随表面变化而丢失的规律。",
+      "boundary": "不能从理想对称推出任意现实环境任务不变。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "FEY52",
+          "title": "The Feynman Lectures on Physics, Volume I, Chapter 52",
+          "url": "https://www.feynmanlectures.caltech.edu/I_52.html",
+          "access": "body",
+          "reading_scope": "52–2空间时间对称65–82行及52–3守恒97–106行；未读全卷"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://www.feynmanlectures.caltech.edu/I_52.html"
+      ],
+      "source_kind": "book",
+      "reading_extent": "chapter_excerpt",
+      "source_date_note": "原书年代非本次网页更新日期",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M08",
+      "family_id": "F08-moire-relation",
+      "title": "图案关系产生新尺度",
+      "category": "几何与材料",
+      "macro_source": "S3",
+      "is_classical": false,
+      "source_id": "CAS",
+      "source_url": "https://sim.cas.cn/xwzx2016/kyjz/202610/t20261008_8289654.html",
+      "source_type": "institution_news",
+      "book_id": null,
+      "published_at": "2026-10-08",
+      "reading_scope": "正文6–26行：对称性调控、表面预熔条纹、非线性霍尔效应与器件演示",
+      "reading_location": "正文6–26行：对称性调控、表面预熔条纹、非线性霍尔效应与器件演示",
+      "fact": "报道通过基底表面条纹调控石墨烯对称性，构成莫尔超晶格并实现量子整流器。",
+      "naming_relation": "整体的新结构来自两个结构之间的关系，而非简单加大单个元件。",
+      "boundary": "与用户旧叠字家族不按字形去重；若主控认定同一折叠/叠加母意象，应合并不计新增。本文非普通印刷莫尔纹的全部定义。",
+      "reading_status": "body_read",
+      "historical_family_relation": "主控已保守认定历史叠加意象旁支；保留研究，不计新增独立创意家族。",
+      "sources": [
+        {
+          "id": "CAS",
+          "title": "上海微系统所在晶圆级石墨烯量子整流研究方面取得进展",
+          "url": "https://sim.cas.cn/xwzx2016/kyjz/202610/t20261008_8289654.html",
+          "access": "body",
+          "reading_scope": "正文6–26行：对称性调控、表面预熔条纹、非线性霍尔效应与器件演示"
+        }
+      ],
+      "is_new_material_family": false,
+      "new_family_countable": false,
+      "source_urls": [
+        "https://sim.cas.cn/xwzx2016/kyjz/202610/t20261008_8289654.html"
+      ],
+      "source_kind": "news",
+      "reading_extent": "article_body_section",
+      "source_date_note": "报道正文明确研究发表日2026-10-08，页面URL同日，未另见独立网页发布时间",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M09",
+      "family_id": "F09-fast-radio-burst",
+      "title": "极短信号打开远方世界",
+      "category": "射电天文学",
+      "macro_source": "S2",
+      "is_classical": false,
+      "source_id": "FRB",
+      "source_url": "https://esawebb.org/news/weic2621/",
+      "source_type": "institution_news",
+      "book_id": null,
+      "published_at": "2026-10-08",
+      "reading_scope": "正文97–104行：爆发探测、宿主星系定位、近红外光谱红移；非全文通读，已读关键科学正文",
+      "reading_location": "正文97–104行：爆发探测、宿主星系定位、近红外光谱红移；非全文通读，已读关键科学正文",
+      "fact": "毫秒级射电暴被定位后，近红外成像与光谱帮助确认宿主星系及距离。",
+      "naming_relation": "一次微弱短暂事件也可能成为通往巨大未知的入口。",
+      "boundary": "不许说爆发是持续能力增长，来源仍未被完全证实。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "FRB",
+          "title": "Webb measures distance to farthest fast radio burst, suggesting origin",
+          "url": "https://esawebb.org/news/weic2621/",
+          "access": "body",
+          "reading_scope": "正文97–104行：爆发探测、宿主星系定位、近红外光谱红移；非全文通读，已读关键科学正文"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://esawebb.org/news/weic2621/"
+      ],
+      "source_kind": "news",
+      "reading_extent": "article_body_section",
+      "source_date_note": "日期依正文；未见则留空，不猜测",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M10",
+      "family_id": "F10-stellar-outflow",
+      "title": "恒星也会塑造周围空间",
+      "category": "恒星与星际介质",
+      "macro_source": "S2",
+      "is_classical": false,
+      "source_id": "JET",
+      "source_url": "https://esawebb.org/news/weic2620/",
+      "source_type": "institution_news",
+      "book_id": null,
+      "published_at": "2026-10-06",
+      "reading_scope": "正文97–110行：红外观测NGC7129、年轻恒星外流塑造云及弓形激波",
+      "reading_location": "正文97–110行：红外观测NGC7129、年轻恒星外流塑造云及弓形激波",
+      "fact": "年轻恒星外流与恒星风影响周围气体，形成空腔与弓形激波；部分气体受压缩。",
+      "naming_relation": "能力并非只向内积累，也能改变他者可以行动的环境。",
+      "boundary": "与旧吸积盘的物质向内输入分开；若只解释成长/孕育便会失去独立性。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "JET",
+          "title": "Webb captures commotion from nebula’s stellar jets",
+          "url": "https://esawebb.org/news/weic2620/",
+          "access": "body",
+          "reading_scope": "正文97–110行：红外观测NGC7129、年轻恒星外流塑造云及弓形激波"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://esawebb.org/news/weic2620/"
+      ],
+      "source_kind": "news",
+      "reading_extent": "article_body_section",
+      "source_date_note": "日期依正文；未见则留空，不猜测",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M11",
+      "family_id": "F11-perception-context",
+      "title": "接收到不等于察觉到",
+      "category": "实验感知科学",
+      "macro_source": "S5",
+      "is_classical": false,
+      "source_id": "CMU",
+      "source_url": "https://news.pantheon.cmu.edu/stories/archives/2026/october/why-every-bump-in-the-night-feels-different-the-neuroscience-of-sensory-perception",
+      "source_type": "institution_news",
+      "book_id": null,
+      "published_at": "2026-10-26",
+      "reading_scope": "正文254–291行：小鼠胡须检测、敏感度/报告偏差区别、皮层与上丘交互；不是人脑临床结论",
+      "reading_location": "正文254–291行：小鼠胡须检测、敏感度/报告偏差区别、皮层与上丘交互；不是人脑临床结论",
+      "fact": "小鼠触觉检测实验区分刺激敏感度与是否报告感觉；皮层和上丘交互影响报告倾向。",
+      "naming_relation": "智能可以是主动判断哪些信号有意义的主体。",
+      "boundary": "不能说AI具有人的主观体验；这张不拆光遗传方法另计。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "CMU",
+          "title": "Why Every Bump in the Night Feels Different",
+          "url": "https://news.pantheon.cmu.edu/stories/archives/2026/october/why-every-bump-in-the-night-feels-different-the-neuroscience-of-sensory-perception",
+          "access": "body",
+          "reading_scope": "正文254–291行：小鼠胡须检测、敏感度/报告偏差区别、皮层与上丘交互；不是人脑临床结论"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://news.pantheon.cmu.edu/stories/archives/2026/october/why-every-bump-in-the-night-feels-different-the-neuroscience-of-sensory-perception"
+      ],
+      "source_kind": "news",
+      "reading_extent": "article_body_section",
+      "source_date_note": "日期依正文；未见则留空，不猜测",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M12",
+      "family_id": "F12-contour-representation",
+      "title": "平面上的线让立体可读",
+      "category": "制图与空间表示",
+      "macro_source": "S1",
+      "is_classical": false,
+      "source_id": "MAP",
+      "source_url": "https://www.usgs.gov/faqs/what-a-topographic-map?qt-news_science_products=0",
+      "source_type": "institution_explainer",
+      "book_id": null,
+      "published_at": null,
+      "reading_scope": "页面主体3–16行；未将大量Related列表当阅读范围",
+      "reading_location": "页面主体3–16行；未将大量Related列表当阅读范围",
+      "fact": "等高线把相同海拔的点连接，帮助地图表现地表形状、坡度和山谷。",
+      "naming_relation": "研究机构可以让复杂空间成为能理解和行动的图。",
+      "boundary": "地理地图不是世界模型架构；不再起旧推演场变体。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "MAP",
+          "title": "What is a topographic map?",
+          "url": "https://www.usgs.gov/faqs/what-a-topographic-map?qt-news_science_products=0",
+          "access": "body",
+          "reading_scope": "页面主体3–16行；未将大量Related列表当阅读范围"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://www.usgs.gov/faqs/what-a-topographic-map?qt-news_science_products=0"
+      ],
+      "source_kind": "institutional_material",
+      "reading_extent": "article_body_section",
+      "source_date_note": "日期依正文；未见则留空，不猜测",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M13",
+      "family_id": "F13-film-montage",
+      "title": "镜头的关系产生意义",
+      "category": "电影语言",
+      "macro_source": "S4",
+      "is_classical": false,
+      "source_id": "MONT",
+      "source_url": "https://filmglossary.ccnmtl.columbia.edu/term/montage/",
+      "source_type": "university_glossary",
+      "book_id": null,
+      "published_at": null,
+      "reading_scope": "页面开头0–2行核心定义；MoMA同名索引只有作品列表，未作为理论正文",
+      "reading_location": "页面开头0–2行核心定义；MoMA同名索引只有作品列表，未作为理论正文",
+      "fact": "蒙太奇理论强调一个镜头与另一镜头的关系参与形成意义。",
+      "naming_relation": "把离散经验组织为理解，可以借真实的现代文化实践讲述。",
+      "boundary": "不把任何拼接都称智能涌现；与旧爵士即兴不同。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "MONT",
+          "title": "Columbia Film Language Glossary: Montage",
+          "url": "https://filmglossary.ccnmtl.columbia.edu/term/montage/",
+          "access": "body",
+          "reading_scope": "页面开头0–2行核心定义；MoMA同名索引只有作品列表，未作为理论正文"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://filmglossary.ccnmtl.columbia.edu/term/montage/"
+      ],
+      "source_kind": "institutional_material",
+      "reading_extent": "article_body_section",
+      "source_date_note": "日期依正文；未见则留空，不猜测",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M14",
+      "family_id": "F14-exaptation",
+      "title": "已有结构进入新用途",
+      "category": "演化生物学",
+      "macro_source": "S2",
+      "is_classical": false,
+      "source_id": "EXAPT",
+      "source_url": "https://ib.berkeley.edu/courses/ib146/handouts/adaptation.php",
+      "source_type": "university_teaching",
+      "book_id": null,
+      "published_at": "2004",
+      "reading_scope": "正文21–35行概念界定；动物历史具体假说不挪作已证实案例",
+      "reading_location": "正文21–35行概念界定；动物历史具体假说不挪作已证实案例",
+      "fact": "Exaptation指原有特征后来承担另一适应性用途，起源未必由该新用途的选择形成。",
+      "naming_relation": "旧能力能被带到起初没有预定的新任务。",
+      "boundary": "不是生命有意为未来设计，也不是重新把可塑性换名。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "EXAPT",
+          "title": "UC Berkeley IB146 Handouts: Adaptation",
+          "url": "https://ib.berkeley.edu/courses/ib146/handouts/adaptation.php",
+          "access": "body",
+          "reading_scope": "正文21–35行概念界定；动物历史具体假说不挪作已证实案例"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://ib.berkeley.edu/courses/ib146/handouts/adaptation.php"
+      ],
+      "source_kind": "institutional_material",
+      "reading_extent": "article_body_section",
+      "source_date_note": "日期依正文；未见则留空，不猜测",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M15",
+      "family_id": "F15-movable-type",
+      "title": "字成为可重排的单元",
+      "category": "中国印刷知识史",
+      "macro_source": "S4",
+      "is_classical": false,
+      "source_id": "TYPE",
+      "source_url": "https://www.dpm.org.cn/lemmas/240351.html",
+      "source_type": "museum_encyclopedia",
+      "book_id": null,
+      "published_at": null,
+      "reading_scope": "正文153行制法完整段；未声称通读梦溪笔谈或王祯农书",
+      "reading_location": "正文153行制法完整段；未声称通读梦溪笔谈或王祯农书",
+      "fact": "活字逐个制成并整齐排入框内，再用于印刷。",
+      "naming_relation": "固定部件可以组织成不同表达，知识成为可操作的系统。",
+      "boundary": "研究对象是模块化知识载体，不借木材来讲森林成长；未读古文原书故is_classical=false。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "TYPE",
+          "title": "木活字",
+          "url": "https://www.dpm.org.cn/lemmas/240351.html",
+          "access": "body",
+          "reading_scope": "正文153行制法完整段；未声称通读梦溪笔谈或王祯农书"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://www.dpm.org.cn/lemmas/240351.html"
+      ],
+      "source_kind": "institutional_material",
+      "reading_extent": "article_body_section",
+      "source_date_note": "日期依正文；未见则留空，不猜测",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M16",
+      "family_id": "F16-parallel-script-decipherment",
+      "title": "已知文字帮助打开未知文字",
+      "category": "文字与译解史",
+      "macro_source": "S4",
+      "is_classical": false,
+      "source_id": "ROSET",
+      "source_url": "https://sharinghistory.museumwnf.org/database_item.php?id=object%3BAWE%3Buk%3B107%3Ben%3BN",
+      "source_type": "museum_object",
+      "book_id": null,
+      "published_at": null,
+      "reading_scope": "69–106行藏品记录，尤其96行三种文字同文对照；大英博物馆指南403，不算读完",
+      "reading_location": "69–106行藏品记录，尤其96行三种文字同文对照；大英博物馆指南403，不算读完",
+      "fact": "罗塞塔石碑的三种文字版本为译解提供对照；藏品页保留象形、世俗体与希腊字的描述。",
+      "naming_relation": "不同表达可通过对读互相提供理解条件。",
+      "boundary": "三种文字不等于三种语言，不能错误写成三语；对读不自动能解任意未知代码。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "ROSET",
+          "title": "Museum With No Frontiers: The Rosetta Stone",
+          "url": "https://sharinghistory.museumwnf.org/database_item.php?id=object%3BAWE%3Buk%3B107%3Ben%3BN",
+          "access": "body",
+          "reading_scope": "69–106行藏品记录，尤其96行三种文字同文对照；大英博物馆指南403，不算读完"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://sharinghistory.museumwnf.org/database_item.php?id=object%3BAWE%3Buk%3B107%3Ben%3BN"
+      ],
+      "source_kind": "institutional_material",
+      "reading_extent": "article_body_section",
+      "source_date_note": "日期依正文；未见则留空，不猜测",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M17",
+      "family_id": "F17-fermat-path",
+      "title": "绕一点路可能更快",
+      "category": "光学与路径原理",
+      "macro_source": "S3",
+      "is_classical": false,
+      "source_id": "FEY26",
+      "source_url": "https://www.feynmanlectures.caltech.edu/I_26.html",
+      "source_type": "book",
+      "book_id": "B02",
+      "published_at": null,
+      "reading_scope": "26–3的101–135行及26–4的136–178行，费马原理与透镜；不推广为所有情形绝对最短时间",
+      "reading_location": "26–3的101–135行及26–4的136–178行，费马原理与透镜；不推广为所有情形绝对最短时间",
+      "fact": "教材费马原理例：不同介质速度不同，最少时间路径不等于最短距离；也讨论相邻路径时间变化。",
+      "naming_relation": "有效的研究路线不必是看起来最直接的路线。",
+      "boundary": "严格广义表述需驻时；这里仅沿教材几何光学示例，不许声称光有目的或全局最优。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "FEY26",
+          "title": "The Feynman Lectures on Physics, Volume I, Chapter 26",
+          "url": "https://www.feynmanlectures.caltech.edu/I_26.html",
+          "access": "body",
+          "reading_scope": "26–3的101–135行及26–4的136–178行，费马原理与透镜；不推广为所有情形绝对最短时间"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://www.feynmanlectures.caltech.edu/I_26.html"
+      ],
+      "source_kind": "book",
+      "reading_extent": "chapter_excerpt",
+      "source_date_note": "原书年代非本次网页更新日期",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M18",
+      "family_id": "F18-negative-space",
+      "title": "未画出的部分也组织整体",
+      "category": "视觉设计",
+      "macro_source": "S4",
+      "is_classical": false,
+      "source_id": "NEG",
+      "source_url": "https://www.nature.com/articles/nmeth0111-5?error=cookies_not_supported&code=f816c791-813d-4dcc-992e-cabc3241419a",
+      "source_type": "researcher_design_essay",
+      "book_id": null,
+      "published_at": "2010-12-29",
+      "reading_scope": "期刊公开正文节选32–33行及图注66/70行；34行明确标subscription preview，未读取付费全文",
+      "reading_location": "期刊公开正文节选32–33行及图注66/70行；34行明确标subscription preview，未读取付费全文",
+      "fact": "负空间又称whitespace，是页面未标记区域，包括页边距及图文之间的间隔；间隔参与组织阅读结构。",
+      "naming_relation": "能力不仅在已有内容里，也在为关系和下一次行动保留的结构中。",
+      "boundary": "缺空白不自动说明能力低；不要偷换成拓扑开集或旧余项。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "NEG",
+          "title": "Bang Wong, Negative space",
+          "url": "https://www.nature.com/articles/nmeth0111-5?error=cookies_not_supported&code=f816c791-813d-4dcc-992e-cabc3241419a",
+          "access": "public_body_excerpt",
+          "reading_scope": "期刊公开正文节选32–33行及图注66/70行；34行明确标subscription preview，未读取付费全文"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://www.nature.com/articles/nmeth0111-5?error=cookies_not_supported&code=f816c791-813d-4dcc-992e-cabc3241419a"
+      ],
+      "source_kind": "institutional_material",
+      "reading_extent": "public_body_excerpt",
+      "source_date_note": "日期依正文；未见则留空，不猜测",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M19",
+      "family_id": "F19-punched-card-pattern",
+      "title": "能被机器读的纹样",
+      "category": "工业与计算史",
+      "macro_source": "S4",
+      "is_classical": false,
+      "source_id": "LOOM",
+      "source_url": "https://ceblog.sciencemuseumgroup.org.uk/2022/10/27/giving-voice-to-hidden-connections-insights-from-the-oral-history-investigation/",
+      "source_type": "museum_project_essay",
+      "book_id": null,
+      "published_at": "2022-10-27",
+      "reading_scope": "正文95–110行，尤其101–104穿孔卡与代数模式；不将其简化为当时已造出现代计算机",
+      "reading_location": "正文95–110行，尤其101–104穿孔卡与代数模式；不将其简化为当时已造出现代计算机",
+      "fact": "提花机用孔/无孔的卡片模式控制织造；Lovelace用代数模式与织花作类比。",
+      "naming_relation": "机器可以让抽象指令产生复杂可感形式。",
+      "boundary": "不是把织字硬贴算法；二进制既有种子不是本轮新发明，独立点在可执行图样。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "LOOM",
+          "title": "Giving voice to hidden connections: insights from the oral history investigation",
+          "url": "https://ceblog.sciencemuseumgroup.org.uk/2022/10/27/giving-voice-to-hidden-connections-insights-from-the-oral-history-investigation/",
+          "access": "body",
+          "reading_scope": "正文95–110行，尤其101–104穿孔卡与代数模式；不将其简化为当时已造出现代计算机"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://ceblog.sciencemuseumgroup.org.uk/2022/10/27/giving-voice-to-hidden-connections-insights-from-the-oral-history-investigation/"
+      ],
+      "source_kind": "institutional_material",
+      "reading_extent": "article_body_section",
+      "source_date_note": "日期依正文；未见则留空，不猜测",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M20",
+      "family_id": "F20-catalytic-barrier",
+      "title": "让别人的变化更容易发生",
+      "category": "化学与反应动力学",
+      "macro_source": "S3",
+      "is_classical": false,
+      "source_id": "CAT",
+      "source_url": "https://www.energy.gov/science/doe-explainscatalysts",
+      "source_type": "institution_explainer",
+      "book_id": null,
+      "published_at": null,
+      "reading_scope": "正文8–18行，催化活化能及选择性",
+      "reading_location": "正文8–18行，催化活化能及选择性",
+      "fact": "催化剂降低活化能，促进反应且本身不在反应中被消耗；还可具有选择性。",
+      "naming_relation": "公司的位置可以是能力转化的条件，而非抢做所有应用。",
+      "boundary": "不是输出能量或承诺必然变强；催化剂也有失活等现实限制。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "CAT",
+          "title": "DOE Explains...Catalysts",
+          "url": "https://www.energy.gov/science/doe-explainscatalysts",
+          "access": "body",
+          "reading_scope": "正文8–18行，催化活化能及选择性"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://www.energy.gov/science/doe-explainscatalysts"
+      ],
+      "source_kind": "institutional_material",
+      "reading_extent": "article_body_section",
+      "source_date_note": "日期依正文；未见则留空，不猜测",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M21",
+      "family_id": "F21-dance-code",
+      "title": "用行动讲述去过的地方",
+      "category": "动物信息沟通",
+      "macro_source": "S2",
+      "is_classical": false,
+      "source_id": "BEE",
+      "source_url": "https://assets.press.princeton.edu/chapters/s9267.pdf",
+      "source_type": "publisher_authorized_book_excerpt",
+      "book_id": "B05",
+      "published_at": "2010",
+      "reading_scope": "出版社授权第1章节选印刷页8–11，Dancing Bees，解析行69–91及图1.3/1.4文字说明；另读12–15页Dirty Dancers 109–136行。未读全书",
+      "reading_location": "出版社授权第1章节选印刷页8–11，Dancing Bees，解析行69–91及图1.3/1.4文字说明；另读12–15页Dirty Dancers 109–136行。未读全书",
+      "fact": "蜜蜂摇摆舞通过持续时间和方向编码食源距离与方向，跟随者能据此行动。",
+      "naming_relation": "经历可以被表达成另一个主体可执行的指引。",
+      "boundary": "与Sakana鱼群局部同步不同，独立点是经历的空间编码；不再按群体智能再算一次。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "BEE",
+          "title": "Thomas D. Seeley, Honeybee Democracy",
+          "url": "https://assets.press.princeton.edu/chapters/s9267.pdf",
+          "access": "body",
+          "reading_scope": "出版社授权第1章节选印刷页8–11，Dancing Bees，解析行69–91及图1.3/1.4文字说明；另读12–15页Dirty Dancers 109–136行。未读全书"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://assets.press.princeton.edu/chapters/s9267.pdf"
+      ],
+      "source_kind": "book",
+      "reading_extent": "chapter_excerpt",
+      "source_date_note": "原书年代非本次网页更新日期",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M22",
+      "family_id": "F22-migration-stopover",
+      "title": "在途中得到下一段的条件",
+      "category": "迁徙生态与中国现场观察",
+      "macro_source": "S2",
+      "is_classical": false,
+      "source_id": "MIG",
+      "source_url": "https://news.ustc.edu.cn/info/1056/96542.htm",
+      "source_type": "university_republished_news",
+      "book_id": null,
+      "published_at": "2026-10-10",
+      "reading_scope": "正文47–62行，大学转载新安晚报记者原报道，不冒充大学原创科研论文",
+      "reading_location": "正文47–62行，大学转载新安晚报记者原报道，不冒充大学原创科研论文",
+      "fact": "绿背姬鹟在东北繁殖、冬季去东南亚，城市绿岛可提供迁徙途中的中转与能量补给。",
+      "naming_relation": "可以定位为下一段探索的补给条件，区别于培育幼苗。",
+      "boundary": "不能把休整解释成学习或能力永久提升；迁徙隐喻与旧长风保持来源区分。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "MIG",
+          "title": "我省首次记录绿背姬鹟现身中国科大校园",
+          "url": "https://news.ustc.edu.cn/info/1056/96542.htm",
+          "access": "body",
+          "reading_scope": "正文47–62行，大学转载新安晚报记者原报道，不冒充大学原创科研论文"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://news.ustc.edu.cn/info/1056/96542.htm"
+      ],
+      "source_kind": "news",
+      "reading_extent": "article_body_section",
+      "source_date_note": "日期依正文；未见则留空，不猜测",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M23",
+      "family_id": "F23-spacebar-interface",
+      "title": "没有字的一键也是接口",
+      "category": "计算机日常物件",
+      "macro_source": "S1",
+      "is_classical": false,
+      "source_id": "KEY",
+      "source_url": "https://developer.mozilla.org/en-US/docs/Web/API/UI_Events/Keyboard_event_code_values",
+      "source_type": "developer_documentation",
+      "book_id": null,
+      "published_at": null,
+      "reading_scope": "主体172–186行说明，Windows键码表192–248行，Space对应物理键0x0039；未把其解释成输出空格的所有情况",
+      "reading_location": "主体172–186行说明，Windows键码表192–248行，Space对应物理键0x0039；未把其解释成输出空格的所有情况",
+      "fact": "MDN记录Space的物理键码映射；空格键是可被程序单独识别的硬件输入。",
+      "naming_relation": "熟悉的手边动作可成为进入数字世界的起点。",
+      "boundary": "空格/播放暂停等具体行为依应用决定，不能说一个键在所有环境都同义。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "KEY",
+          "title": "Code values for keyboard events",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/UI_Events/Keyboard_event_code_values",
+          "access": "body",
+          "reading_scope": "主体172–186行说明，Windows键码表192–248行，Space对应物理键0x0039；未把其解释成输出空格的所有情况"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://developer.mozilla.org/en-US/docs/Web/API/UI_Events/Keyboard_event_code_values"
+      ],
+      "source_kind": "institutional_material",
+      "reading_extent": "article_body_section",
+      "source_date_note": "日期依正文；未见则留空，不猜测",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    },
+    {
+      "id": "M24",
+      "family_id": "F24-braille-tactile-code",
+      "title": "意义不一定通过眼睛进入",
+      "category": "触觉文字与信息载体",
+      "macro_source": "S1",
+      "is_classical": false,
+      "source_id": "BRAILLE",
+      "source_url": "https://www.rnib.org.uk/living-with-sight-loss/education-and-learning/braille-tactile-codes/",
+      "source_type": "specialist_institution_explainer",
+      "book_id": null,
+      "published_at": null,
+      "reading_scope": "主体168–174行：六点、两列三行、触觉阅读；Perkins旧入口失败后替换",
+      "reading_location": "主体168–174行：六点、两列三行、触觉阅读；Perkins旧入口失败后替换",
+      "fact": "RNIB介绍六点盲文以两列、每列三点组成单元；凸点组合可表示字母和数字，通过手指触读。",
+      "naming_relation": "不同感知通道也能承载抽象知识，扩展智能理解世界的入口。",
+      "boundary": "不能用残障作为励志装饰；只借信息表示机制。",
+      "reading_status": "body_read",
+      "historical_family_relation": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写",
+      "sources": [
+        {
+          "id": "BRAILLE",
+          "title": "RNIB: Braille Tactile Codes",
+          "url": "https://www.rnib.org.uk/living-with-sight-loss/education-and-learning/braille-tactile-codes/",
+          "access": "body",
+          "reading_scope": "主体168–174行：六点、两列三行、触觉阅读；Perkins旧入口失败后替换"
+        }
+      ],
+      "is_new_material_family": true,
+      "new_family_countable": true,
+      "source_urls": [
+        "https://www.rnib.org.uk/living-with-sight-loss/education-and-learning/braille-tactile-codes/"
+      ],
+      "source_kind": "institutional_material",
+      "reading_extent": "article_body_section",
+      "source_date_note": "日期依正文；未见则留空，不猜测",
+      "classical_scope_note": "本批无古文原典素材；中国印刷史为现代博物馆说明，不当古文阅读。"
+    }
+  ]
+}

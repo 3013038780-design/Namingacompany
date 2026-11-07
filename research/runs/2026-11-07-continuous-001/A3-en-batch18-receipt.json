@@ -1,0 +1,54 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English screening",
+  "executed_at": "2026-11-08T00:20:01.838270+08:00",
+  "candidate_id": "C1-E18",
+  "chinese_id": "C1-C23",
+  "decision": "return_for_cross_industry_exact_commercial_brand_avoidance",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch18.md",
+      "sha256": "05a6a274df87556a769f2012ea2ad6701afe676d4e54b96eb043b238a918625e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch18.json",
+      "sha256": "9e79c125a20959b7cc4389afebddd41171606a6411aa43a91bae01256c2ce165"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch18.json",
+      "sha256": "d1019e1893a7b31ded707505c08e38512a6b83554c2d6f574c9d6924d342a97a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch18.json",
+      "sha256": "7b5feb41c8c6bc769a71fe10bb8a95f8fd482c361eb248e0cf5991c664b95812"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch18.json",
+      "sha256": "c5c35d5d06782022cd198fd47da7f85d6c3c324c7c055ecf81c11058c3d1a86d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch12.json",
+      "sha256": "2ee03dd9bd80253389874defab204f28195f5e65cf3ebfd144c9c0b525d46ac7"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-batch18.md",
+      "sha256": "f3f5bc6c87cf1705521fc8c37fbc3bcf1cfd24d8bb5e1560dd7aa3f3020e7e9c"
+    },
+    {
+      "path": "A3-en-batch18.json",
+      "sha256": "e6d2f4d9a20765896bb161efabaa04d30a1d0f606c4b85467fea35d9d8e6d83f"
+    }
+  ],
+  "actual_new_candidate_queries": 6,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 258,
+  "agent3_cumulative_candidate_queries": 264,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 266,
+  "actual_execution": "实际读取无分预览、候选、两评审与创建回执、原中文通过；六查询，官网足球服务及服饰系列与巴萨节目正文已分别核读，英国逐名入口不可访问。",
+  "next": "退原A4最后一次英文返工；中文不因英文避让自动撤回。",
+  "unchanged": "不改原Actor、总库、git；不通知用户。",
+  "input_creation_receipt_read_confirmed_at": "2026-11-08T00:20:01.838270+08:00"
+}

@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-08T00:16:56.133796+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E18",
+      "chinese_id": "C1-C23",
+      "english": "Still in Play",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个常见单音节词，顺口可复述，无造词读音障碍。",
+          "counter_association": "in口语会弱化，听者也可能只记住Still Play。"
+        },
+        "spelling": {
+          "reason": "三个标准高频词，完整拼法无需讲新字母规则。",
+          "counter_association": "分词和大小写应统一；查询仍须覆盖合写，不能当空格已避重。"
+        },
+        "grounding": {
+          "reason": "可参与状态是词典真义；转用到当前值仍有后续用途是同一保留角色关系。",
+          "counter_association": "词典只证体育/游戏字面义，计算意义是品牌比喻，不得冒称学术术语。"
+        },
+        "bilingual_relation": {
+          "reason": "活变量有后续可能用途，英文表达仍在场，两边都是角色尚未退出。",
+          "counter_association": "不严格等义，英文可能被误读为一直实际使用而非可能未来使用。"
+        },
+        "distinctiveness": {
+          "reason": "完整短语能单独称呼，有连贯状态画面。",
+          "counter_association": "游戏体育/文化节目及口号首印象明显，独特性只达最低接受，不依赖尚未查重。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；等主控先读无分独评，不继承中文或旧英文使用通过。"
+    }
+  ]
+}

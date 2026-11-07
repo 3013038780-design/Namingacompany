@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T21:26:51.332820+08:00",
+  "independence": "Read producer preview batch10 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C14",
+      "name": "Bear Out",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两普通单音节自然可读",
+          "counter_association": "介词短语单用有宾语省略"
+        },
+        "spelling": {
+          "reason": "完整词拼法可说明",
+          "counter_association": "bear/bare同音要讲清"
+        },
+        "grounding": {
+          "reason": "既有短语本来是证据支持",
+          "counter_association": "不是DOE正式项目名"
+        },
+        "bilingual_relation": {
+          "reason": "实际结果支持能力主张与作数相接",
+          "counter_association": "证实主张与结果有效非严格同义"
+        },
+        "distinctiveness": {
+          "reason": "有实验验证态度",
+          "counter_association": "普通表达可能像验证工具"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E10"
+    }
+  ]
+}

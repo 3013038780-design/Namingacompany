@@ -1,0 +1,58 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "submitted_at": "2026-11-07T20:56:58.275830+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch1.json",
+      "sha256": "de29716948169e218e2207fdb612e83e8d0a5e6dbed0e3bc5b92e623f9fae2d4"
+    },
+    {
+      "path": "materials-pilot.json",
+      "sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7"
+    },
+    {
+      "path": "A3-cn-batch1.json",
+      "sha256": "b143727967822d1fa6cb86fddfe18c40cd95bcc7685e7195ecc010e388bbe0b3"
+    },
+    {
+      "path": "A3-en-batch1.json",
+      "sha256": "04f801788380c4e1fd3cff23c51c9b18be9dc0b7565ae447c2892b9aec94a105"
+    },
+    {
+      "path": "A4-batch1.json",
+      "sha256": "c6914a78284cc97d58a22ae73785452e8bb9122e5894b369084e3257b63d0e58"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E03",
+      "chinese_id": "C1-C01",
+      "chinese": "由此及彼",
+      "english": "Either End",
+      "suggested_pronunciation": "EE-thər END /ˈiːðər ɛnd/，或EYE-thər END /ˈaɪðər ɛnd/；两种either读法均为正常变体，建议品牌选定一种。",
+      "type": "ordinary_words_complete_noun_phrase",
+      "formation": "either表示两者之中任一个，end是端点；Either End是正常英语名词短语，先给出“任一端”这个清楚对象。从关系网不固定一个永久输入端的故事重新构想，不改Therefrom字母、不附加Labs、不换中文拼音。",
+      "bilingual_relation": "中文说沿真实关系从此端推知彼端，英文给出可以从任一已知端开始的网络画面；动作与起点身份分工，核心是关系保持、已知端可以交换。不是逐字翻译，也不把名称解释成单纯换个视角。",
+      "meaning": "先有一个可用的已知端，就沿同一关系看看另一端能知道什么。公司可借这个对象讲建立关联、交换依据、理解关系的研究身份，不绑死在某一种产品或算法。",
+      "shortcoming": "可能先像连接器、双头工具或网络设施；两个普通词组成的短语专名辨识度中等。either有正常双读法，品牌需要选定口头读法。英文更重起点位置，中文更重推知动作，必须用同一关系网故事承接，不能仅靠“另一种入口”的泛化口号。",
+      "boundary": "任一端只是取SICP温标例的双向求值画面，不宣称任意网络都只有两端，也不保证任意问题可逆。规则固定，求解仍需足够已知信息及正确处理旧依据；不是网络自己学会新规则或模型必然变强。",
+      "source_urls": [
+        "https://sicp.sourceacademy.org/chapters/3.3.5.html"
+      ],
+      "read_scope": "复用本A4已实际读SICP 3.3.5 L264–283：关系不是预设单向、足够已知量可算另一量、连接器网络及温标关系；A2另已实读撤销旧依据/反向例。本人本次没有通读全书、没有新执行英文使用或登记查询。另实际读A3-en-batch1.md/json确认Therefrom是完整商业品牌主动避让，旧稿保留。",
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "usage_screening_performed": false,
+  "rework": {
+    "language": "en",
+    "attempt": 1,
+    "previous_english_id": "C1-E01",
+    "previous_english": "Therefrom",
+    "reason": "同A3证实完整同名创意商业品牌，主控按用户已有商业品牌避让偏好退回；非AI精确同名或商标登记结论。",
+    "responsible_role": "A4",
+    "remaining_rework_after_this": 1,
+    "evidence_ref": "A3-en-batch1.json"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/live_a4",
+  "role": "A4",
+  "recorded_at": "2026-11-07T18:50:12+08:00",
+  "input_authorization": "主控明确CT-C14第1次返工和CT-C25首英文；中文双质量及原A3通过",
+  "candidates": [
+    {
+      "id": "CT-E25",
+      "chinese_id": "CT-C14",
+      "chinese": "侧音",
+      "english": "Selfhear",
+      "suggested_pronunciation": "SELF-heer /ˈsɛlfhɪr/",
+      "type": "self-与完整英语动词hear的品牌合成词，非现成标准术语",
+      "formation": "self-保留对自身作用的前缀意义，hear是听见；Selfhear即听见自己的输出。采用正常英语语素的可理解结构，不在Ownsignal后添字母或变造Ceyin拼音。",
+      "bilingual_relation": "中文侧音给出工程监听通路，英文给出主体听见自身输出的作用；共同指向一条帮助调节行为的反馈路径，而非远处自然回声。",
+      "meaning": "使系统行动时也能获得自身输出的信息。侧音的具体物理功能是锚点，Selfhear作为机构称呼不声称有意识或自学习已经实现。",
+      "shortcoming": "英文为新合成词，需说明self+hear；可能先像音频/听觉工具，且self带个人发展联想。不是正常句子里应替代hear oneself的标准写法。",
+      "source_urls": [
+        "https://support.yealink.com/docs/faq/audio/19e721a121a34ef69d0c83d75ed678ae"
+      ],
+      "read_scope": "A4已实际读Yealink L16–20，自己声音的实时监听、音量帮助与可调/关闭；本次返工复用，不宣称重读新来源。",
+      "rework_of": "CT-E19",
+      "rework_number_for_chinese": 1,
+      "rework_reason": "A3已读myownsignal.com的OwnSignal Technology设备/反馈技术品牌，按具体科技使用返工，不认可该站疗效宣传。",
+      "status": "quality_proposal_not_screened"
+    },
+    {
+      "id": "CT-E26",
+      "chinese_id": "CT-C25",
+      "chinese": "抬眼",
+      "english": "Gaze Anew",
+      "suggested_pronunciation": "GAYZ uh-NOO /ɡeɪz əˈnuː/",
+      "type": "两个普通英语词组成的完整动作短语",
+      "formation": "gaze是注视，anew是重新/以新的方式；直接表达重新看向世界。没有剪拼音，也不把品牌短语冒作眼动学术术语。",
+      "bilingual_relation": "中文抬眼是日常举目动作，英文着重重新选择看什么；共同保留感知包含行动与信息选择，而不是整个场景均匀被动输入。",
+      "meaning": "已有主体仍可以重新看见周围发生的事情；以主动获取有用信息的角色研究感知与认知，不主张抬得越高就更聪明。",
+      "shortcoming": "可能先像视觉、摄影或眼镜品牌；anew比again稍有文气，英文并不直接交代AI。不是所有扫视都是有意识选择，日常抬眼也不等于所有眼动。",
+      "source_urls": [
+        "https://www.tobii.com/resource-center/learn-articles/types-of-eye-movements"
+      ],
+      "read_scope": "A4实际读Fixations与Saccades L45–75，中央凹取样、交替注视、扫视抑制及可自主/非自主边界；未读原论文。",
+      "status": "quality_proposal_not_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

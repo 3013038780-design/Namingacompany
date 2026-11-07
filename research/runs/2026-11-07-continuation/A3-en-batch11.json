@@ -1,0 +1,142 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T18:46:09.797263+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-preview-batch11.md",
+      "sha256": "c4ee818073a9b843d0bf55e6f74742cb3833e1d4f76ae9845eaca97d74d5d1b4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-en-batch11.json",
+      "sha256": "fcc2edd9d098e96ea8d2be78004c1f1c92e32d905d690567783ad935e31e52f4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-quality-batch11.json",
+      "sha256": "f23ba37abc405bf2b67603d2aa3a0d9885bd16b9930d40ee1d2f3ffffadeb1cf"
+    }
+  ],
+  "query_count": 10,
+  "results": [
+    {
+      "candidate_id": "CT-E18",
+      "name": "Hold to Open",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名公司/AI/软件品牌；Prompt Labs中hold to open为交互操作说明，厂商名另有其名；JRS Core是配置字段，门控手册是操作条件，不误当独立软件。",
+      "query_logs": [
+        {
+          "query": "\"Hold to Open\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司/AI/软件品牌；Prompt Labs中hold to open为交互操作说明，厂商名另有其名；JRS Core是配置字段，门控手册是操作条件，不误当独立软件。"
+        },
+        {
+          "query": "\"Hold to Open\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司/AI/软件品牌；Prompt Labs中hold to open为交互操作说明，厂商名另有其名；JRS Core是配置字段，门控手册是操作条件，不误当独立软件。"
+        },
+        {
+          "query": "\"Hold to Open\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司/AI/软件品牌；Prompt Labs中hold to open为交互操作说明，厂商名另有其名；JRS Core是配置字段，门控手册是操作条件，不误当独立软件。"
+        },
+        {
+          "query": "\"Hold to Open\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司/AI/软件品牌；Prompt Labs中hold to open为交互操作说明，厂商名另有其名；JRS Core是配置字段，门控手册是操作条件，不误当独立软件。"
+        },
+        {
+          "query": "\"HoldtoOpen\" OR \"Hold-to-Open\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司/AI/软件品牌；Prompt Labs中hold to open为交互操作说明，厂商名另有其名；JRS Core是配置字段，门控手册是操作条件，不误当独立软件。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://promptlabs.ro/",
+          "access": "primary_company_body_read",
+          "finding": "公司Prompt Labs，客户项目Regulatory research assistant等标题下hold to open为按住展开提示，非完整产品名。"
+        },
+        {
+          "url": "https://docs.jrs-core.com/scripts/activities/",
+          "access": "search_docs_text_only",
+          "finding": "HoldToOpen布尔配置，不是品牌。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Hold%20to%20Open",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      },
+      "chinese_candidate_id": "CT-C13",
+      "chinese": "长按"
+    },
+    {
+      "candidate_id": "CT-E19",
+      "name": "Ownsignal",
+      "decision": "reject",
+      "reason": "已有完整核心OwnSignal Technology自有技术/设备品牌公开使用，退回英文重新匹配；非AI Lab同名或注册状态结论，亦不采信其健康效果广告。",
+      "query_logs": [
+        {
+          "query": "\"Ownsignal\"",
+          "executed_on": "2026-11-07",
+          "summary": "已有完整核心OwnSignal Technology自有技术/设备品牌公开使用，退回英文重新匹配；非AI Lab同名或注册状态结论，亦不采信其健康效果广告。"
+        },
+        {
+          "query": "\"Ownsignal\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "已有完整核心OwnSignal Technology自有技术/设备品牌公开使用，退回英文重新匹配；非AI Lab同名或注册状态结论，亦不采信其健康效果广告。"
+        },
+        {
+          "query": "\"Ownsignal\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "已有完整核心OwnSignal Technology自有技术/设备品牌公开使用，退回英文重新匹配；非AI Lab同名或注册状态结论，亦不采信其健康效果广告。"
+        },
+        {
+          "query": "\"Ownsignal\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "已有完整核心OwnSignal Technology自有技术/设备品牌公开使用，退回英文重新匹配；非AI Lab同名或注册状态结论，亦不采信其健康效果广告。"
+        },
+        {
+          "query": "\"Own Signal\" company software",
+          "executed_on": "2026-11-07",
+          "summary": "已有完整核心OwnSignal Technology自有技术/设备品牌公开使用，退回英文重新匹配；非AI Lab同名或注册状态结论，亦不采信其健康效果广告。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://myownsignal.com/how-it-works/",
+          "access": "primary_branded_technology_body_read",
+          "finding": "标题What is OwnSignal Technology，正文OST devices与反馈系统，明确自有技术称呼及商业联系入口；仅核名称使用，不核医学效果。"
+        }
+      ],
+      "registration": {
+        "status": "not_checked_after_confirmed_branded_technology_use",
+        "note": "公开品牌使用，非注册公司/商标状态结论。"
+      },
+      "chinese_candidate_id": "CT-C14",
+      "chinese": "侧音"
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛，不是全球无占用或公司/第9及42类商标登记通过。",
+  "passed_english_candidate_ids": [
+    "CT-E18"
+  ]
+}

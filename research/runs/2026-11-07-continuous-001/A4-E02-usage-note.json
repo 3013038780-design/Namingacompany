@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "candidate_id": "C1-E02",
+  "chinese_id": "C1-C06",
+  "chinese": "余量",
+  "english": "Spare Signal",
+  "reviewed_at": "2026-11-07T20:56:18.760839+08:00",
+  "inputs": [
+    {
+      "path": "A4-preview-batch2.md",
+      "sha256": "de21b8b63ee1ffe9da2b57d7de67297a65d1ba35bb23d8e094f37630f48553f4"
+    },
+    {
+      "path": "A4-batch2.json",
+      "sha256": "d937c1ebd13b25bbf085e88c32a3175520566248f8c45a3d5aaa104b5d446b54"
+    },
+    {
+      "path": "A4-quality-batch2.json",
+      "sha256": "b8491c0eef8daae57c1934773179402b58f8225acffab78fc394bb2b55fef040"
+    },
+    {
+      "path": "A3-en-batch2.json",
+      "sha256": "fbc7bc6f8f3c4e3ffd91d66f82ba0299bc18b2ba2461633e25898c291d1d0eb2"
+    }
+  ],
+  "source": {
+    "url": "https://documentation.euresys.com/Products/MultiCam/MultiCam_6_16/Content/MultiCam_6_7_HTML_Documentation/99990_1.htm",
+    "access": "official_developer_documentation_body_read",
+    "actual_scope": "Enable Signals L7–22；尤其未来预留L12、各模式Unused L17–20及always ignored L22",
+    "fact": "该具体Camera Link文档中的spare enable signal预留未来使用，当前采集模式中不用且被忽略。不是独立Spare Signal公司、模型或软件品牌，也不是RS编码定义。"
+  },
+  "decision": "retain_for_discussion_with_explicit_engineering_ambiguity",
+  "reason": "普通英语spare可表示额外可供需要时使用；品牌拟物采用预留冗余以面对损失的角色，与中文余量和RS讲义的有限恢复关系相容。已有工程字段含义构成真实的备而不用联想，但单个字段的特定定义不把普通词组的全部品牌语义锁死。保留讨论是因为这个品牌关系可成立，不是因为A3搜索通过。",
+  "mandatory_semantic_disclosures": [
+    "此短语已在工程文档实际使用，不能说首次创造、无人使用或独占。",
+    "Euresys的具体字段当前被忽略，不能借这个页面证明该信号已在恢复数据。",
+    "Reed–Solomon关系的支持仍是Berkeley讲义：编码冗余在正确采样/位置等条件下帮助恢复，不等于闲置空信道，不保证任何噪声或损失都可恢复。",
+    "通信/备件/备用通道的首联想比通用AI Lab强，也可能被读成暂时没有作用；若首要品牌诉求是第一眼即显正在起作用的智能，该英文不占优。"
+  ],
+  "quality_review_scope": "新增非数字语义终审，不重写已被独立评审/A3引用的旧preview、稿或数字；不冒称新增盲评。",
+  "new_english_proposals": 0,
+  "new_use_search_queries": 0,
+  "official_registration_queries": 0,
+  "not_a_registration_clearance": true
+}

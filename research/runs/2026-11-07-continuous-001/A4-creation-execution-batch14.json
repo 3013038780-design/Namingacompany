@@ -1,0 +1,70 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "executed_at": "2026-11-07T23:12:11.228721+08:00",
+  "inputs": [
+    {
+      "path": "README.md",
+      "sha256": "e3ac33611b2580d321a0434f7ac3a1b1da75678b1a7756ac38326d338b686257"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch8.json",
+      "sha256": "846cc81e69427062e8ad7b39a97c05520913cf25c23f728caa7bd425a6753324"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension7.json",
+      "sha256": "a839a21b7574701971769bb560d69e1cc2074b56b2336c7ce9bbf01e14352f59"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch8.json",
+      "sha256": "2c2e5e6ba6e4ddddec282e5fe5a5429cc8fca0c5e26b4801002afff188da6efc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch8.json",
+      "sha256": "8eff341cd0f3a410ce5806a1054796bccb3e2a7d700f3411a44198f42f1f0914"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch9.json",
+      "sha256": "a96a892a652654642fe4a7df0591ade4a7c936e5865429556cc62f1c2b6f60ff"
+    }
+  ],
+  "actual_source_reads": [
+    {
+      "url": "https://pdos.csail.mit.edu/6.1810/2024/labs/cow.html",
+      "scope": "正文8–16与44–56行，未实现实验"
+    },
+    {
+      "url": "https://man7.org/linux/man-pages/man2/fork.2.html",
+      "scope": "正文25–42、99–122与194–199行，未运行实验"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/twin",
+      "scope": "31–97行，仅用于内部比较twin意象；不作为Ownwrite词源"
+    }
+  ],
+  "relationship_used": "相同初始用户内存可共享物理页，写入使相关修改私有化；保留自己的改写，不退化为更多Agent或只按需延迟。",
+  "internal_alternative_not_submitted": [
+    {
+      "term": "Twinwrite",
+      "reason": "易先读成双份同步写入，不能明确承接私有变化，不提交质量候选或算另一名字。"
+    }
+  ],
+  "output_candidate_ids": [
+    "C1-E14"
+  ],
+  "new_chinese_names": 0,
+  "new_english_versions": 1,
+  "usage_queries": 0,
+  "registration_queries": 0,
+  "outputs": [
+    "A4-preview-batch14.md",
+    "A4-candidates-batch14.json",
+    "A4-quality-batch14.json"
+  ],
+  "original_records_unchanged": true,
+  "next": "主控独立英文质量审核后，若通过交原A3英文使用核查；未核不入总库。"
+}

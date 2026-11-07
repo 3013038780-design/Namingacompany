@@ -1,0 +1,64 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T00:06:19.086295+08:00",
+  "materials": [
+    {
+      "id": "C1-M30",
+      "family_id": "C1-MF-linglun-mythic-maker-of-musical-measures",
+      "macro_id": "S4",
+      "plan_direction_id": "C1-D-S4",
+      "category": "chinese_cultural_knowledge_persona",
+      "case_ids": [
+        "B008",
+        "B021"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P5",
+        "C1-P6"
+      ],
+      "sources": [
+        {
+          "title": "大钟寺古钟博物馆/北京市文物局：季冬之月，律中大吕",
+          "url": "https://wwj.beijing.gov.cn/bjww/wwjzzcslm/1729028/1729042/1729044/21220548/index.html",
+          "published_at": "2022-01-20",
+          "reading_location": "L70–159现代馆方短文，重点L78–104十二律介绍、L149–155古籍引句；未读所引古籍全章",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body"
+        },
+        {
+          "title": "河南博物院：骨排箫（王歌扬）",
+          "url": "https://www.chnmus.net/ch/collection/appraise/details.html?id=512156636602363570",
+          "published_at": null,
+          "reading_location": "L10–18文物与演奏描述、L26–34文化解读、L69–90实物比较与测音；未逐段读全文所有历史推断或文献表所列原书",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body"
+        }
+      ],
+      "source_urls": [
+        "https://wwj.beijing.gov.cn/bjww/wwjzzcslm/1729028/1729042/1729044/21220548/index.html",
+        "https://www.chnmus.net/ch/collection/appraise/details.html?id=512156636602363570"
+      ],
+      "fact": "现代馆方文化解说和引文将伶伦置于制定乐律、制作乐器的传统角色中。骨排箫作为实际文物则体现管长、管内有效空间及吹奏方式参与音高调节。传说人物身份与出土器物事实不能相互证明。",
+      "mechanism_to_material": "Alibaba借一个本来可称呼、带完整行动的文化角色，Oracle将古老知识实践带到当代机构身份。因此寻找中国知识传统里的制作者与建立尺度的角色，先保留名字而非拼“智/律/元”等字。Oracle词源背景未在本包重核企业动机。",
+      "distinctive_relation": "角色所做的并非只演奏一段乐曲，而是在传统叙事中把声音组织成可传授、可使用的律制；这是文化身份，不称现代科学实证。",
+      "naming_potential": "伶伦是完整人物专名，两个字读说简洁；可赋予研究机构一个来自中国知识实践的制作者角色，而不把竹木材料放在招牌上。",
+      "shortcoming": "可能被认作音乐教育/文创、人名或伶俐儿童品牌；不因文化典故深便自动达到AI Lab门槛。",
+      "history_difference": "不同于开明兽的非人守门神话、圭表/指南鱼等观察方位器具、鸽哨的运动转声音；此处为建立音律基准的文化人物角色。不同于声入纹压痕重放，不能再讲一条声音存储故事。",
+      "boundary": "原典入口本轮仍未取得全文，实际读的是两家馆方正文及其所引少量古文。不认定伶伦是可证实历史人物，不采用馆方对最早起源/十三管等推断为已核定论，不据古代月律对应推科学因果。",
+      "is_classical": true,
+      "classical_count_policy": "虽主要阅读现代馆方正文，但候选核心依赖古典传说，保守计一张古文相关卡；累计两张，远低于当前三十条记录的百分之十五。",
+      "status": "read_and_chinese_draft"
+    }
+  ],
+  "scope": "最小包先形成一项中国知识角色材料；非新轮次、非重开计划。古文相关保守计数，不夸作新书实读或近期新闻。",
+  "access_notes": [
+    {
+      "url": "https://ctext.org/lv-shi-chun-qiu/gu-yue/zhs",
+      "result": "上包原典403仍保留失败边界；本次未冒称重新读通，转读馆方真实正文中的人物/器物说明"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "profile": "user_authorized_minimal_cycle",
+  "execution_status": "completed_without_qualified_pairs",
+  "production_compliance": "not_claimed",
+  "date": "2026-11-07",
+  "counts": {
+    "reused_A1_cases": 3,
+    "new_market_cases": 0,
+    "chinese_drafts": 3,
+    "chinese_quality_pass": 2,
+    "chinese_screened": 2,
+    "chinese_rejected_for_use": 1,
+    "chinese_held_for_evidence": 1,
+    "chinese_public_precheck_pass": 0,
+    "english_created": 0,
+    "english_screened": 0,
+    "qualified_pairs": 0
+  },
+  "names": [
+    {
+      "id": "MC-A2-01",
+      "chinese": "原语",
+      "status": "rejected_existing_tech_brand",
+      "stage": "A3-cn",
+      "reason_code": "EXACT_TECH_USE",
+      "reason": "开发者仓库明确使用原语隐私计算平台；本次不再配英文。",
+      "evidence_url": "https://github.com/primihub/primihub-platform/blob/develop/primihub-webconsole/README.md",
+      "registration": "not_checked; rejection is public-use finding, not official registration claim"
+    },
+    {
+      "id": "MC-A2-02",
+      "chinese": "倍频",
+      "status": "rejected_quality",
+      "stage": "A2/coordinator",
+      "reason_code": "BRAND_FIT",
+      "reason": "作者与主控总分均24，主控Lab身份3；像射频/光电组件，长期机构范围偏窄。",
+      "usage_screening": "not_checked"
+    },
+    {
+      "id": "MC-A2-03",
+      "chinese": "声子",
+      "status": "held_evidence",
+      "stage": "A3-cn",
+      "reason_code": "EVIDENCE_HOLD",
+      "reason": "有同字号科技企业第三方线索及跨行业近似使用，尚未证实科技主体primary中文使用和当前状态；不判定可用或已明确占用。",
+      "registration": "unavailable or unverified, details in A3-cn.json"
+    }
+  ],
+  "discussion_pairs": [],
+  "tested_path": "A1→A2→root中文评审→A3中文否决/暂停→A4真实零输入检查→原A3真实英文零输入复查→root交付",
+  "not_exercised": [
+    "合格中文后的英文创作与双英文评分",
+    "有英文输入时的使用筛查",
+    "有合格配对后的登记核验与正式推荐"
+  ],
+  "cost_controls": {
+    "A1_new_external_pages": 0,
+    "A2_new_primary_bodies": 3,
+    "A3_search_queries": 15,
+    "A4_external_searches": 0,
+    "A3_english_queries": 0,
+    "creative_rework_rounds": 0,
+    "separate_material_or_plan_deliverables": 0
+  },
+  "conclusion": "本次验证角色与拦截/零输入交接能执行，但没有产出可推荐配对。直接借现成术语的使用风险已实际暴露，未为走通英文正向路径强留名字。"
+}

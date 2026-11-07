@@ -1,0 +1,82 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-07T23:59:39.707616+08:00",
+  "materials": [
+    {
+      "id": "C1-M29",
+      "family_id": "C1-MF-expertise-relational-chunks-not-general-memory",
+      "macro_id": "S5",
+      "plan_direction_id": "C1-D-S5",
+      "category": "cognitive_expertise_and_memory",
+      "case_ids": [
+        "B037",
+        "B027"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P3",
+        "C1-P4",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Chase & Simon: Perception in Chess",
+          "url": "https://gwern.net/doc/psychology/chess/1973-chase.pdf",
+          "published_at": "1973-01",
+          "reading_location": "PDF前10页L0–328，印刷55–64：引言、三人样本方法、真实/随机棋局结果、组块划分假设；未通读27页全文",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_PDF_body"
+        }
+      ],
+      "source_urls": [
+        "https://gwern.net/doc/psychology/chess/1973-chase.pdf"
+      ],
+      "fact": "作者比较三名不同棋力者重建棋局的表现：真实对局中的大师优势在其随机排列条件下不再呈现同样模式，并以复原顺序/停顿讨论有关系的棋子组块。组块解释是一种研究模型，而非所有人记忆容量的定论。",
+      "mechanism_to_material": "Imbue说明名称可以指向理解过程中对主体的作用；Midjourney让研究身份不被某一终点锁住。于是去读熟练者如何认识已有对象关系，不把经验积累写成泛化持续成长，也不从更多推理步骤继续变词。",
+      "distinctive_relation": "同样棋子数量，摆放是否形成熟悉关系会影响专家可用的结构；优势不等同一块对任何内容都更大的原始记忆。",
+      "naming_potential": "“识局”可称呼从散在对象中认出整体关系的动作，有认知与决策身份，不需要把chunking硬音译。",
+      "history_difference": "旧多想一步关注显式推理步骤，旧抬眼关注注视点选择，余光关注中心外信息有损表征；本项限定长期知识中的熟悉关系与当前任务编码之间的作用，不是另一个看/察觉近义词。若只讲经验越多越聪明则并回旧成长家族。",
+      "boundary": "仅三人实验，不能写成随机局面下所有专家总与新手毫无差别；其后研究未读正文，不追认原短时记忆容量假设为现代全领域结论。人类棋局研究不证明任一AI训练方案有效。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft"
+    }
+  ],
+  "reused_material_reads": [
+    {
+      "material_id": "C1-M28",
+      "new_material": false,
+      "macro_id": "S1",
+      "sources": [
+        {
+          "title": "National Park Service：Tinfoil Phonographs 310音频导览文字稿",
+          "url": "https://www.nps.gov/media/video/view.htm?id=B9DCD826-E87F-4798-87EE-10111AA0BF81",
+          "published_at": "2007-01-01",
+          "reading_location": "L32–43完整导览文字稿；读文字，未播放或声学测量录音",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body"
+        }
+      ],
+      "actual_reread": "再次打开NPS导览L32–43正文，仍只读文字、未听音频。",
+      "relation": "声振动在锡箔留下物理形状，形状又可驱动播放触针转回声音。",
+      "why_continue": "上段只留器物关系未命名；本段从主体声与形状的同一转换凝练称呼，不重复计新材料。"
+    }
+  ],
+  "scope": "一个新S5关系，加一个已读未命名S1器物的真实重读；S4线索正文未取得不充实读或候选。",
+  "access_notes": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4361603/",
+      "result": "验证码，未把后续复制研究摘要当正文实读"
+    },
+    {
+      "url": "https://ctext.org/lv-shi-chun-qiu/gu-yue/zhs",
+      "result": "403；伶伦线索未形成已读材料，也未提交该人名"
+    },
+    {
+      "url": "https://zh.wikisource.org/wiki/呂氏春秋/仲夏紀",
+      "result": "不可访问，未作为实读古籍或候选出处"
+    }
+  ],
+  "source_dates_note": "1973原论文与2007导览重读均不算近九十天新闻；古文实读新增零。"
+}

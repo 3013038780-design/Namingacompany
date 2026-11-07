@@ -1,0 +1,107 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-07T23:03:18.784760+08:00",
+  "materials": [
+    {
+      "id": "C1-M27",
+      "family_id": "C1-MF-shared-origin-private-write-divergence",
+      "macro_id": "S3",
+      "plan_direction_id": "C1-D-S3",
+      "category": "operating_system_memory",
+      "case_ids": [
+        "B074",
+        "B002"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "MIT 6.1810：Lab Copy-on-Write Fork for xv6（2024课程）",
+          "url": "https://pdos.csail.mit.edu/6.1810/2024/labs/cow.html",
+          "published_at": "2024",
+          "reading_location": "L0–16问题与解决方案，L44–56写保护、原只读页、引用计数与内存不足边界；未实现实验",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body"
+        },
+        {
+          "title": "Linux man-pages：fork(2)",
+          "url": "https://man7.org/linux/man-pages/man2/fork.2.html",
+          "published_at": "2026-06-05",
+          "reading_location": "L25–42父子进程内存与标识，L99–122线程/文件描述符例外，L194–199 Linux COW说明；未运行系统调用实验",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body"
+        }
+      ],
+      "source_urls": [
+        "https://pdos.csail.mit.edu/6.1810/2024/labs/cow.html",
+        "https://man7.org/linux/man-pages/man2/fork.2.html"
+      ],
+      "fact": "fork产生具有独立内存空间和独立进程标识的父子进程，初始内容相同。写时复制可让初始物理页被共享，写入时才为需要修改的一方复制页面，保留另一方内存内容；并非所有资源都完全独立。",
+      "mechanism_to_material": "Recursive提供具体计算过程可以承载身份、Google提供知识对象与称呼相分离的参照。沿此寻找“一开始同源，却能各自改写”的状态关系，不再从导航、输入或排序取字。Google词源仍为已存背景，本步未重核企业命名过程。",
+      "distinctive_relation": "同源与独立并不矛盾：最初可共享相同物理内容，但某一方的内存修改不必改坏另一方。",
+      "naming_potential": "可凝成有多个人格/行动主体的完整形象，重点保留彼此变化有界，不宣称分出来就更聪明。",
+      "history_difference": "旧懒函数以需要时才求值为核心；本项不是把延迟换名，而是共享起点与私有改写并存。旧异步关于调度暂停继续，也不同于进程状态修改的隔离。若名字只说多开或延迟便失去独特关系。",
+      "boundary": "此为用户内存语义，不把fork说成文件/外部世界也完全隔离；文档明确文件描述符可指同一open file description，文件偏移等可共享。不是无限分身、无开销复制或模型能力增长定理。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft"
+    },
+    {
+      "id": "C1-M28",
+      "family_id": "C1-MF-mechanical-sound-pattern-replay",
+      "macro_id": "S1",
+      "plan_direction_id": "C1-D-S1",
+      "category": "everyday_recording_instrument",
+      "case_ids": [
+        "B015",
+        "B025"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "National Park Service：Tinfoil Phonographs 310音频导览文字稿",
+          "url": "https://www.nps.gov/media/video/view.htm?id=B9DCD826-E87F-4798-87EE-10111AA0BF81",
+          "published_at": "2007-01-01",
+          "reading_location": "L32–43完整导览文字稿；读文字，未播放或声学测量录音",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body"
+        }
+      ],
+      "source_urls": [
+        "https://www.nps.gov/media/video/view.htm?id=B9DCD826-E87F-4798-87EE-10111AA0BF81"
+      ],
+      "fact": "早期锡箔留声机中，声音引起振膜与触针运动，在旋转锡箔上压出形状；改用播放触针沿形状运动后，能重现可识别的声音。",
+      "mechanism_to_material": "Sony从真实声音经验得到可叫称呼，Cursor从手边器物连接复杂操作；因此追到声音如何成为可触形状、形状再成为声音的日常技术器物。",
+      "distinctive_relation": "瞬时振动经机械形变留下空间轨迹，之后通过逆向机械读取转回声学输出。",
+      "naming_potential": "有“声音获得物理形状”的完整画面，但若只剩记忆、回响或声纹联想，会与旧听觉/痕迹家族靠近，本次先留研究。",
+      "history_difference": "旧侧音是自身声音的即时返听，旧鸽哨是运动气流发声；本项包含持久形状与再读取。若仅称声音被保存，仍与旧经验痕迹/记忆家族接近，不因新博物馆网页计新品牌。",
+      "boundary": "读的是博物馆导览，不把其中发明优先权或Mary Had a Little Lamb原话当本次档案考证；只用装置工作关系，不说机械重放等于理解或学习。",
+      "is_classical": false,
+      "status": "read_only_no_qualified_chinese_draft"
+    }
+  ],
+  "scope": "S3操作系统状态关系与S1日常记录器物两方向实读；一项产中文，一项不强配。非新一轮计划。",
+  "access_notes": [
+    {
+      "url": "https://pdos.lcs.mit.edu/6.828/2026/labs/cow.html",
+      "result": "web超时，curl未生成正文文件；搜索摘要不计，改实际读csail 2024正式课程入口"
+    },
+    {
+      "url": "https://www.loc.gov/collections/edison-company-motion-pictures-and-sound-recordings/articles-and-essays/history-of-edison-sound-recordings/history-of-the-cylinder-phonograph/",
+      "result": "403；不计全文，以实际NPS导览文字稿支持工作关系"
+    },
+    {
+      "url": "https://americanhistory.si.edu/explore/exhibitions/hear-my-voice/online/replaying-sound",
+      "result": "500；不计全文"
+    }
+  ]
+}

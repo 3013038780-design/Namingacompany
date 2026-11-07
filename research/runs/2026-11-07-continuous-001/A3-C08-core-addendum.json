@@ -1,0 +1,72 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T21:24:54.445948+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch3.json",
+      "sha256": "c202e39d45f913f8a42b016f764a7f809b341633a6743fc3df99283ccc763084"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch4.json",
+      "sha256": "f2faa8c3645160bfbffb37d78063370d4e60b87c04b2615d7c7c7f994a9cd9be"
+    }
+  ],
+  "query_count": 3,
+  "results": [
+    {
+      "candidate_id": "C1-C08",
+      "name": "活桥",
+      "query_logs": [
+        {
+          "query": "\"活桥科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "新增三条分别精确查询未出现同核心商业品牌主体。活桥主要指树根桥、渡船及历史桥梁；公司目录返回联桥科技等异字或盘活桥下空间普通句，不能归同名。原7查询不重记，原中文与Antspan记录原样保留。"
+        },
+        {
+          "query": "\"活桥智能\"",
+          "executed_on": "2026-11-07",
+          "summary": "新增三条分别精确查询未出现同核心商业品牌主体。活桥主要指树根桥、渡船及历史桥梁；公司目录返回联桥科技等异字或盘活桥下空间普通句，不能归同名。原7查询不重记，原中文与Antspan记录原样保留。"
+        },
+        {
+          "query": "\"活桥\"",
+          "executed_on": "2026-11-07",
+          "summary": "新增三条分别精确查询未出现同核心商业品牌主体。活桥主要指树根桥、渡船及历史桥梁；公司目录返回联桥科技等异字或盘活桥下空间普通句，不能归同名。原7查询不重记，原中文与Antspan记录原样保留。"
+        }
+      ],
+      "decision": "public_use_screen_pass_unchanged",
+      "reason": "新增三条分别精确查询未出现同核心商业品牌主体。活桥主要指树根桥、渡船及历史桥梁；公司目录返回联桥科技等异字或盘活桥下空间普通句，不能归同名。原7查询不重记，原中文与Antspan记录原样保留。",
+      "evidence": [
+        {
+          "url": "https://jtj.cq.gov.cn/sy_240/bmdt/201806/t20180601_4369068.html",
+          "access": "search_index_body_extract_read_open_timeout",
+          "finding": "重庆交通委山水重庆·大美活桥，搜索结果提取正文将汽车渡船称江上活桥。独立打开超时，未假称直接重读成功。"
+        },
+        {
+          "url": "https://www.xinhuanet.com/world/2016-04/13/c_128890254_2.htm",
+          "access": "search_index_body_extract_read",
+          "finding": "印度居民种活桥为真实树根桥现象，不是企业品牌。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        }
+      },
+      "prior_unchanged_files": [
+        "A3-cn-batch3.json",
+        "A3-en-batch4.json"
+      ],
+      "new_searches_only": true
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。"
+}

@@ -1,0 +1,317 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T18:14:48.282019+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A2-preview-batch1.md",
+      "sha256": "559ef60171adf54b3f3b7add3196dfb42ea4dbb2e5f62f7efe5a53bff6112399"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-cn-batch1.json",
+      "sha256": "5be8d1ff1302f7187ef8ded4a37211b233f06cfe5466f882e909eef18db7a558"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A2-quality-batch1.json",
+      "sha256": "941b77353e5e724966f3415e152e60dbd1911d3b2966aed257429452418da266"
+    }
+  ],
+  "query_count": 25,
+  "results": [
+    {
+      "candidate_id": "CT-C01",
+      "name": "星际渡口",
+      "decision": "public_use_screen_pass",
+      "reason": "未见明确同名科技/AI公司、模型或软件产品。小说章节存在星际渡口的词形，不把虚构地点/章节描述当公司。",
+      "query_logs": [
+        {
+          "category": "exact_no_industry",
+          "query": "\"星际渡口\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确同名科技/AI公司、模型或软件产品。小说章节存在星际渡口的词形，不把虚构地点/章节描述当公司。"
+        },
+        {
+          "category": "company_tech",
+          "query": "\"星际渡口\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确同名科技/AI公司、模型或软件产品。小说章节存在星际渡口的词形，不把虚构地点/章节描述当公司。"
+        },
+        {
+          "category": "AI_model_software",
+          "query": "\"星际渡口\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确同名科技/AI公司、模型或软件产品。小说章节存在星际渡口的词形，不把虚构地点/章节描述当公司。"
+        },
+        {
+          "category": "traditional",
+          "query": "\"星際渡口\" 公司",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确同名科技/AI公司、模型或软件产品。小说章节存在星际渡口的词形，不把虚构地点/章节描述当公司。"
+        },
+        {
+          "category": "pinyin",
+          "query": "\"xingjidukou\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确同名科技/AI公司、模型或软件产品。小说章节存在星际渡口的词形，不把虚构地点/章节描述当公司。"
+        },
+        {
+          "category": "exact_company_supplement",
+          "query": "\"星际渡口科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确同名科技/AI公司、模型或软件产品。小说章节存在星际渡口的词形，不把虚构地点/章节描述当公司。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑新试入口403，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑新试入口403，未逐名逐类查"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑新试入口403，未逐名逐类查"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Xingjidukou",
+          "observed": "逐名URL工具不可访问"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://fanqienovel.com/page/7584388694505704473",
+          "access": "body_opened_search_phrase_not_relocated",
+          "read_scope": "作品简介与目录；检索返回强闯星际渡口章节，打开find未重定位该字串",
+          "finding": "小说词形使用，非公司/软件名；未声称逐章阅读。"
+        }
+      ]
+    },
+    {
+      "candidate_id": "CT-C02",
+      "name": "地球回信",
+      "decision": "public_use_screen_pass",
+      "reason": "未见明确同名科技/AI公司、模型或软件。近似《地球的回信》为AI社区作品题名，不是AI模型/公司。繁简同形，另补软件产品查询。",
+      "query_logs": [
+        {
+          "category": "exact_no_industry",
+          "query": "\"地球回信\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确同名科技/AI公司、模型或软件。近似《地球的回信》为AI社区作品题名，不是AI模型/公司。繁简同形，另补软件产品查询。"
+        },
+        {
+          "category": "company_tech",
+          "query": "\"地球回信\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确同名科技/AI公司、模型或软件。近似《地球的回信》为AI社区作品题名，不是AI模型/公司。繁简同形，另补软件产品查询。"
+        },
+        {
+          "category": "AI_model_software",
+          "query": "\"地球回信\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确同名科技/AI公司、模型或软件。近似《地球的回信》为AI社区作品题名，不是AI模型/公司。繁简同形，另补软件产品查询。"
+        },
+        {
+          "category": "company_supplement",
+          "query": "\"地球回信\" 公司",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确同名科技/AI公司、模型或软件。近似《地球的回信》为AI社区作品题名，不是AI模型/公司。繁简同形，另补软件产品查询。"
+        },
+        {
+          "category": "pinyin",
+          "query": "\"diqiuhuixin\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确同名科技/AI公司、模型或软件。近似《地球的回信》为AI社区作品题名，不是AI模型/公司。繁简同形，另补软件产品查询。"
+        },
+        {
+          "category": "exact_company_supplement",
+          "query": "\"地球回信科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确同名科技/AI公司、模型或软件。近似《地球的回信》为AI社区作品题名，不是AI模型/公司。繁简同形，另补软件产品查询。"
+        },
+        {
+          "category": "traditional_identical_supplement",
+          "query": "\"地球回信\" 软件 产品",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确同名科技/AI公司、模型或软件。近似《地球的回信》为AI社区作品题名，不是AI模型/公司。繁简同形，另补软件产品查询。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑新试入口403，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑新试入口403，未逐名逐类查"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑新试入口403，未逐名逐类查"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Diqiuhuixin",
+          "observed": "逐名URL工具不可访问"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.aitop100.cn/circle/details/11548.html",
+          "access": "search_text_body_timeout",
+          "finding": "《地球的回信》为近似作品题名；不是精确四字公司/模型/软件品牌。"
+        }
+      ]
+    },
+    {
+      "candidate_id": "CT-C03",
+      "name": "影子刻度",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名科技/AI公司、模型或软件；日晷App/技术文章只在正文使用影子和刻度等概念。繁简同形，另补软件产品查询。",
+      "query_logs": [
+        {
+          "category": "exact_no_industry",
+          "query": "\"影子刻度\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件；日晷App/技术文章只在正文使用影子和刻度等概念。繁简同形，另补软件产品查询。"
+        },
+        {
+          "category": "company_tech",
+          "query": "\"影子刻度\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件；日晷App/技术文章只在正文使用影子和刻度等概念。繁简同形，另补软件产品查询。"
+        },
+        {
+          "category": "AI_model_software",
+          "query": "\"影子刻度\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件；日晷App/技术文章只在正文使用影子和刻度等概念。繁简同形，另补软件产品查询。"
+        },
+        {
+          "category": "traditional_identical_supplement",
+          "query": "\"影子刻度\" 软件 产品",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件；日晷App/技术文章只在正文使用影子和刻度等概念。繁简同形，另补软件产品查询。"
+        },
+        {
+          "category": "pinyin",
+          "query": "\"yingzikedu\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件；日晷App/技术文章只在正文使用影子和刻度等概念。繁简同形，另补软件产品查询。"
+        },
+        {
+          "category": "exact_company_supplement",
+          "query": "\"影子刻度科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件；日晷App/技术文章只在正文使用影子和刻度等概念。繁简同形，另补软件产品查询。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑新试入口403，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑新试入口403，未逐名逐类查"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑新试入口403，未逐名逐类查"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Yingzikedu",
+          "observed": "逐名URL工具不可访问"
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://apps.apple.com/tw/app/%E6%97%A5%E6%99%B7%E5%BD%B1%E6%8C%87%E6%97%B6%E8%BE%B0/id6816391098",
+          "access": "search_text_body_404",
+          "finding": "检索中的App名日晷影指时辰，不叫影子刻度；描述含影子/刻度不构成同名产品。"
+        }
+      ]
+    },
+    {
+      "candidate_id": "CT-C04",
+      "name": "未尽之问",
+      "decision": "reject",
+      "reason": "已上线同名互动哲学读物网站，自带搜索、随机问题、我的阅读及多语言入口；确证数字内容产品使用，非仅文本中提到。",
+      "query_logs": [
+        {
+          "category": "exact_no_industry",
+          "query": "\"未尽之问\"",
+          "executed_on": "2026-11-07",
+          "summary": "已上线同名互动哲学读物网站，自带搜索、随机问题、我的阅读及多语言入口；确证数字内容产品使用，非仅文本中提到。"
+        },
+        {
+          "category": "company_tech",
+          "query": "\"未尽之问\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "已上线同名互动哲学读物网站，自带搜索、随机问题、我的阅读及多语言入口；确证数字内容产品使用，非仅文本中提到。"
+        },
+        {
+          "category": "AI_model_software",
+          "query": "\"未尽之问\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "已上线同名互动哲学读物网站，自带搜索、随机问题、我的阅读及多语言入口；确证数字内容产品使用，非仅文本中提到。"
+        },
+        {
+          "category": "traditional",
+          "query": "\"未盡之問\" 公司",
+          "executed_on": "2026-11-07",
+          "summary": "已上线同名互动哲学读物网站，自带搜索、随机问题、我的阅读及多语言入口；确证数字内容产品使用，非仅文本中提到。"
+        },
+        {
+          "category": "pinyin",
+          "query": "\"weijin zhiwen\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "已上线同名互动哲学读物网站，自带搜索、随机问题、我的阅读及多语言入口；确证数字内容产品使用，非仅文本中提到。"
+        },
+        {
+          "category": "exact_company_supplement",
+          "query": "\"未尽之问科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "已上线同名互动哲学读物网站，自带搜索、随机问题、我的阅读及多语言入口；确证数字内容产品使用，非仅文本中提到。"
+        }
+      ],
+      "reason_code": "EXACT_DIGITAL_PRODUCT_USE",
+      "registration": {
+        "status": "not_checked_after_confirmed_use",
+        "note": "否决依据实际同名产品，不冒称登记状态。"
+      },
+      "evidence": [
+        {
+          "url": "https://sophia.forth.ink/zh-hans/",
+          "access": "primary_product_body_read",
+          "read_scope": "L0–23",
+          "finding": "顶栏完整未尽之问，搜索/随机浏览/我的阅读、多语言入口及互动哲学读物自述；已有同名数字内容产品。未发现依据称其AI Lab或登记企业。"
+        }
+      ]
+    }
+  ],
+  "passed_candidate_ids": [
+    "CT-C01",
+    "CT-C02",
+    "CT-C03"
+  ],
+  "a4_input_candidate_ids": [
+    "CT-C01",
+    "CT-C02",
+    "CT-C03"
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛不等于全球无使用、官方核名通过或商标可注册。"
+}

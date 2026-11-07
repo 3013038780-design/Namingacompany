@@ -1,0 +1,71 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-08T00:16:56.133796+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch10-supplement.json",
+      "sha256": "f9c9f0348c2725fa5471ef6fdcea0e936d301973ef2d42cf56f0a5762d315312"
+    },
+    {
+      "path": "materials-extension9-supplement.json",
+      "sha256": "b540d8dd81109c30db56bbc1953cbb9d5e24993503c0b6224ae829aab2db9e6c"
+    },
+    {
+      "path": "coordinator-cn-batch10-supplement.json",
+      "sha256": "c4800c7516e4c52b9c9837b63c364445627016f1de9465a7edc28b84f57ad526"
+    },
+    {
+      "path": "coordinator-family-review-batch10-supplement.json",
+      "sha256": "fbb66bf2d9f1ea36dbc8ceda0b9194ac8e472c23c69d411ea7a0385d46b97eca"
+    },
+    {
+      "path": "A3-cn-batch12.json",
+      "sha256": "2ee03dd9bd80253389874defab204f28195f5e65cf3ebfd144c9c0b525d46ac7"
+    },
+    {
+      "path": "A3-cn-batch12-receipt.json",
+      "sha256": "2c4d885ebdaeb2a4c52f31430514ac8848f87523b712a6499784b1ae0c912f6f"
+    },
+    {
+      "path": "A4-candidates-batch17.json",
+      "sha256": "c97063f7efd9c3a866f9ab5e31fc3ae4f01ecc576cf9b527f42e50132530a5aa"
+    },
+    {
+      "path": "A3-en-batch17.json",
+      "sha256": "508c6a7e2382292f8988aad6ecc85fbefad6b5e7307ee307be7263ffe45f5f03"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E18",
+      "chinese_id": "C1-C23",
+      "chinese": "活变量",
+      "english": "Still in Play",
+      "family_id": "C1-BF-variable-with-still-possible-use",
+      "suggested_pronunciation": "STILL in PLAY，/ˌstɪl ɪn ˈpleɪ/，三个普通单音节词。",
+      "type": "自然完整英语短语，作品牌主题配对",
+      "formation": "still（仍然）+ 既有短语in play（处在可正常参与进行中的状态）。词典in play本义指符合参与游戏/比赛的条件或位置；本案以这一真实状态意象表达一个当前值还没有退出后续计算的可能角色，不把play发明成机器学习术语。",
+      "bilingual_relation": "中文是计算对象，英文是它的状态画面：当前值还可能参与后续计算，所以仍在场。保留的是“后面还可能用到，当前就仍有保留用途”的关系；不把英文解释成需要时才计算，也不讲重新开局或第二次人生。",
+      "meaning": "眼下的值，还没有退出接下来的可能性。一个看似已经产生完的结果，其用途可以继续延伸到后续任务；名字为研究机构留出关于信息用途的空间，而不承诺所有信息永远有用。",
+      "shortcoming": "第一印象偏游戏、体育媒体或项目口号，也可能像谈退休后继续活跃的文化表达；不直接标示AI Lab。三个词虽短好叫，独立品牌辨识仍有限，不能仅靠背景释义掩盖行业联想。短语也比编译定义宽：可能让人误以为变量一直正在被使用，必须承认这不是严格等义翻译。",
+      "boundary": "in play的词典义并不是live-variable定义，二者为明确标注的品牌比喻。值只需可能在覆盖前被用，不保证实际执行会用，也不保证保留得越久越好；内容可以不变，分析可保守高估。无生命、意识、智能增长或无限缓存结论。",
+      "source_urls": [
+        "https://www.cs.cornell.edu/courses/cs4120/2023sp/notes/livevar/",
+        "https://www.merriam-webster.com/dictionary/in%20play"
+      ],
+      "read_scope": "本人前稿实际读Cornell讲义1–29、48–69行；本次实际读落盘A3-en-batch17中Obsidian平台与作者软件的证据性质，另打开Merriam-Webster in play词条31–34行释义。不声称词典给出计算引申义，没有重做使用或登记查询。",
+      "rework_attempt": 1,
+      "remaining_reworks": 1,
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "usage_screening_performed": false,
+  "rework": {
+    "attempt": 1,
+    "remaining_after_this": 1,
+    "previous_english_id": "C1-E17",
+    "reason": "原A3确证独立软件Live Variables，与Live Variable仅复数s差异，按近同核心软件避让；不是精确单数AI公司或商标占用。",
+    "not_new_chinese_family": true
+  }
+}
