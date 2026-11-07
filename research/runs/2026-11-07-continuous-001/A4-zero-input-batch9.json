@@ -1,0 +1,62 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "checked_at": "2026-11-08T00:02:56.263913+08:00",
+  "work_packet": "A2 batch9 / A3 Chinese batch10",
+  "execution": "实际读取候选、producer与root质量、家族评审及A3正式报告与receipt，核receipt输出SHA后进行零输入验收；非尚未开始。",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch9.json",
+      "sha256": "2e61ef00000f7a47980999f4c3c240c5c335df4d683bc6ebcf95c4606e9dfa9f"
+    },
+    {
+      "path": "A2-quality-batch9.json",
+      "sha256": "6b05877655ee377e1b4033be4003ab0ee5c8ede1a11e3c2b63f69cd8eecc33f1"
+    },
+    {
+      "path": "coordinator-cn-batch9.json",
+      "sha256": "85ae9ee6e246f7e9e5431076a0fe7d3c6aaa9e1fba1050981c7c50a3aab73bdf"
+    },
+    {
+      "path": "coordinator-family-review-batch9.json",
+      "sha256": "042102f38b59110191c5538f13f401d1d4ec5003517301ed3dfd36bd98a16279"
+    },
+    {
+      "path": "A3-cn-batch10.json",
+      "sha256": "2179b9ba1b5c71277b1ced490d859f432f06ee4befd57ef3f4d30b549bcaf126"
+    },
+    {
+      "path": "A3-cn-batch10-receipt.json",
+      "sha256": "d8ba6b4447f17647f0b2be3086213243f1ed178ab1d4fde69e80544ec3e57f51"
+    }
+  ],
+  "upstream_chinese_candidates": 2,
+  "producer_quality_passed": 2,
+  "coordinator_quality_passed": 1,
+  "A3_chinese_queries_reported": 9,
+  "qualified_chinese_inputs_after_A3": 0,
+  "english_candidates_created": 0,
+  "english_scores_created": 0,
+  "A4_usage_queries": 0,
+  "A4_registration_queries": 0,
+  "decision": "zero_eligible_chinese_input_after_quality_and_commercial_use_rejection",
+  "excluded": [
+    {
+      "candidate_id": "C1-C20",
+      "name": "声入纹",
+      "status": "quality_reject_not_usage_screened",
+      "reason": "主控自然度与Lab身份均未过线；来源真实不能补救，不称占用。"
+    },
+    {
+      "candidate_id": "C1-C21",
+      "name": "识局",
+      "status": "reject_existing_commercial_core",
+      "reason": "原A3九实际查询核官网完整商业核心识局，主体全称识局控股有限公司；按项目既有商业品牌避让，不因主营非AI忽略。",
+      "source": "https://www.ishiju.com/about/",
+      "limits": "非已证AI模型同名、非现时官方工商登记或第9/42类商标法律判断；官网2013品牌起点不混为第三方法人2018成立日期。"
+    }
+  ],
+  "reading_boundary": "本角色本次只读落盘上游与A3报告，不重新访问官网、登记门户或论文；A3网络执行署原/root/live_a3。",
+  "unchanged": "不配英文救回中文，不新增词、评分、查询；总库、旧索引、旧稿与既有保留均不改，无Git。",
+  "next": "交同一原A3实际核验本小包英文零输出；只标本包零，不停止同run未来工作。"
+}

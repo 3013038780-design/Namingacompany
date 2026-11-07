@@ -1,0 +1,53 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English screening",
+  "executed_at": "2026-11-08T00:15:36.439752+08:00",
+  "candidate_id": "C1-E17",
+  "chinese_id": "C1-C23",
+  "decision": "return_for_plural_core_software_avoidance",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch17.md",
+      "sha256": "68c744412fbb137d02aeeb37b5b6916bb68cf18927c7ba1f6cbd1a4351a782f9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch17.json",
+      "sha256": "c97063f7efd9c3a866f9ab5e31fc3ae4f01ecc576cf9b527f42e50132530a5aa"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch17.json",
+      "sha256": "987a5f0783fb193a36ac16c2ef6da8b6f0eccc7297fa1165d83d5c80a7db3da8"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch17.json",
+      "sha256": "81023594a92d920178c815ad9b476a4e6a9b195d77208b7fabcc3e7ed4f6bbed"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch17.json",
+      "sha256": "c90cb25ba64fef726baca1510f45e381c809227dd53eb50138d472408e899a79"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch12.json",
+      "sha256": "2ee03dd9bd80253389874defab204f28195f5e65cf3ebfd144c9c0b525d46ac7"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-batch17.md",
+      "sha256": "3dc46914b45f5570b5761b7977e676ae37505f5e9a8a86b85539df75a86ba671"
+    },
+    {
+      "path": "A3-en-batch17.json",
+      "sha256": "508c6a7e2382292f8988aad6ecc85fbefad6b5e7307ee307be7263ffe45f5f03"
+    }
+  ],
+  "actual_new_candidate_queries": 9,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 249,
+  "agent3_cumulative_candidate_queries": 258,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 260,
+  "actual_execution": "实际读取本英文提案/创建回执/双评与原中文通过状态，独立九查询并打开官方插件目录、作者主页和仓库；排除Live状态字段假阳性和通用技术功能，按独立软件仅单复数近同核心退回。",
+  "next": "交原A4首返，尚余最多2次；中文不自动撤回。",
+  "unchanged": "不改原Actor稿、总库或git，无用户通知。"
+}

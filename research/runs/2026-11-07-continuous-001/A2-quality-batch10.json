@@ -1,0 +1,51 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T00:06:19.086295+08:00",
+  "scope": "producer主观评审独立保存；主控先封存自身评审再读，不把典故深代替首印象。",
+  "reviews": [
+    {
+      "candidate_id": "C1-C22",
+      "name": "伶伦",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 5,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "完整两字专名，熟字容易读叫",
+          "counter_association": "人物陌生可能误作灵伦"
+        },
+        "distinctiveness": {
+          "reason": "有具体人物身份而非通用增强词",
+          "counter_association": "历史/文化借名仍需独立查商业使用"
+        },
+        "lab_fit": {
+          "reason": "可以给研究机构一个建立尺度的制作者身份外壳",
+          "counter_association": "第一印象可能音乐文创或儿童教育，需主控独评"
+        },
+        "grounding": {
+          "reason": "馆方明载人物文化角色，传说与实物边界分明",
+          "counter_association": "未取得原典全章，不声称正史证明"
+        },
+        "extension": {
+          "reason": "不限定一个模型/功能或声学产品",
+          "counter_association": "延展不能变成空泛全知角色"
+        },
+        "semantic_coherence": {
+          "reason": "各层都保留文化制作者角色，未拆字吉祥化",
+          "counter_association": "不能把建立古律等同AI已取得普遍规律"
+        }
+      },
+      "decision": "quality_pass",
+      "independent_submission_ref": "A2-quality-batch10.json producer-only submission"
+    }
+  ]
+}

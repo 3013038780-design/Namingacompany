@@ -1,0 +1,75 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "executed_at": "2026-11-08T00:20:48.460194+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch10-supplement.json",
+      "sha256": "f9c9f0348c2725fa5471ef6fdcea0e936d301973ef2d42cf56f0a5762d315312"
+    },
+    {
+      "path": "materials-extension9-supplement.json",
+      "sha256": "b540d8dd81109c30db56bbc1953cbb9d5e24993503c0b6224ae829aab2db9e6c"
+    },
+    {
+      "path": "coordinator-cn-batch10-supplement.json",
+      "sha256": "c4800c7516e4c52b9c9837b63c364445627016f1de9465a7edc28b84f57ad526"
+    },
+    {
+      "path": "coordinator-family-review-batch10-supplement.json",
+      "sha256": "fbb66bf2d9f1ea36dbc8ceda0b9194ac8e472c23c69d411ea7a0385d46b97eca"
+    },
+    {
+      "path": "A3-cn-batch12.json",
+      "sha256": "2ee03dd9bd80253389874defab204f28195f5e65cf3ebfd144c9c0b525d46ac7"
+    },
+    {
+      "path": "A3-cn-batch12-receipt.json",
+      "sha256": "2c4d885ebdaeb2a4c52f31430514ac8848f87523b712a6499784b1ae0c912f6f"
+    },
+    {
+      "path": "A4-candidates-batch17.json",
+      "sha256": "c97063f7efd9c3a866f9ab5e31fc3ae4f01ecc576cf9b527f42e50132530a5aa"
+    },
+    {
+      "path": "A3-en-batch17.json",
+      "sha256": "508c6a7e2382292f8988aad6ecc85fbefad6b5e7307ee307be7263ffe45f5f03"
+    },
+    {
+      "path": "A4-candidates-batch18.json",
+      "sha256": "9e79c125a20959b7cc4389afebddd41171606a6411aa43a91bae01256c2ce165"
+    },
+    {
+      "path": "A3-en-batch18.json",
+      "sha256": "e6d2f4d9a20765896bb161efabaa04d30a1d0f606c4b85467fea35d9d8e6d83f"
+    }
+  ],
+  "actual_new_source_reads": [
+    {
+      "url": "https://www.merriam-webster.com/dictionary/matter",
+      "scope": "实际open及find到160–177行动词义；未作名称查询"
+    }
+  ],
+  "primary_source_reuse": {
+    "url": "https://www.cs.cornell.edu/courses/cs4120/2023sp/notes/livevar/",
+    "scope": "已实读1–29及48–69行；may-analysis为已读29行，不冒称新全文阅读"
+  },
+  "actual_A3_report_read": "en18正式决策、证据与登记限制；未声称读其附加原始长搜索转录或本人重开主证网站。",
+  "relationship_used": "当前值以后可能还有用途，所以当前保留；不把所有信息重要或必然使用强加来源。",
+  "output_candidate_ids": [
+    "C1-E19"
+  ],
+  "new_chinese_names": 0,
+  "new_english_versions": 1,
+  "usage_queries": 0,
+  "registration_queries": 0,
+  "rework_attempt": 2,
+  "remaining_reworks": 0,
+  "outputs": [
+    "A4-preview-batch19.md",
+    "A4-candidates-batch19.json",
+    "A4-quality-batch19.json"
+  ],
+  "original_records_unchanged": true,
+  "on_failure": "关闭C23英文，本轮无合格配对，不再第三次返工。"
+}

@@ -1,0 +1,56 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "checked_at": "2026-11-08T00:09:45.616081+08:00",
+  "work_packet": "A2 batch10 / A3 Chinese batch11",
+  "execution": "本小包实际重新读取唯一中文候选、producer/root质量和家族审核以及原A3正式报告/receipt，核输出SHA后完成零输入验收；非挪用前包回执。",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch10.json",
+      "sha256": "dac3fad4d578088af37f3daefa42fb863ad081cd708711869be0d2bf922b80c3"
+    },
+    {
+      "path": "A2-quality-batch10.json",
+      "sha256": "457560a520c747d1ca460a62a95906a676aea37eb349893bf29be259d1f597d8"
+    },
+    {
+      "path": "coordinator-cn-batch10.json",
+      "sha256": "676924ad6ce9500d7eede80c02dc252f8acf10373476f93bd94bc9c8716c0182"
+    },
+    {
+      "path": "coordinator-family-review-batch10.json",
+      "sha256": "d5369c093480eb6dd699efd6fc6b4296deca0dbdba31f3530581d377ea1be483"
+    },
+    {
+      "path": "A3-cn-batch11.json",
+      "sha256": "2eee223610ffab7d26c2a92a0a425829ac2450d9ea3db5a496db2d5edaabcc5d"
+    },
+    {
+      "path": "A3-cn-batch11-receipt.json",
+      "sha256": "8dcf4a49ee6336782581072d5607a1eefafb8859d384ed0c6322e3d681077f1f"
+    }
+  ],
+  "upstream_chinese_candidates": 1,
+  "producer_quality_passed": 1,
+  "coordinator_quality_passed": 1,
+  "A3_chinese_queries_reported": 12,
+  "qualified_chinese_inputs_after_A3": 0,
+  "english_candidates_created": 0,
+  "english_scores_created": 0,
+  "A4_usage_queries": 0,
+  "A4_registration_queries": 0,
+  "decision": "zero_eligible_chinese_input_after_exact_ai_product_rejection",
+  "excluded": [
+    {
+      "candidate_id": "C1-C22",
+      "name": "伶伦",
+      "reason": "原A3十二查询确证DeepMusic/北京灵动音科技官方AI音乐制作人伶伦/Linglun，同完整名称用于AI生成系统，不是只出现文化人物。",
+      "main_evidence_url": "https://www.lazycomposer.com/js/app.6740ae61.js",
+      "access_boundary": "官方网页仅JS提示，原A3实际获取公开部署脚本technology组件产品自述。本人本次读A3记录，未自行重取或执行JS。",
+      "additional_boundary": "Soul同名语音/音乐体系为另一报道线索，不混成同一系统/企业；江西科技采购摘要不是唯一主证。不背书产品效果或登记权利。"
+    }
+  ],
+  "registration_limits": "原A3沿用旧共同入口403记录，本次未重做GSXT/CNIPA逐名查询，不称第9/42类已注册或不可注册。",
+  "unchanged": "不配英文救回、不新词、不改总库或旧稿/索引、不Git或用户通知。",
+  "next": "同一原A3实际核本小包英文零输出；仅本包输入为零，不停止后续研究。"
+}

@@ -1,0 +1,89 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "stage": "quiet_heartbeat_chinese_batch9",
+  "completed_at": "2026-11-07T23:59:39.707616+08:00",
+  "actually_read_input_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T145704Z/decisions-through-batch8.json",
+      "sha256": "4ddb5a08c921540d4320ae37a8c60e7c803ac8f206eca5428677cf2fdc5f0e89"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.md",
+      "sha256": "50023a0d4970380ebd3afb8969343e6aaadab41c468ae7be66bf2da8f20dcda9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.md",
+      "sha256": "9e2c1589037d9d564619fd8d9d861dffd13288087c4f7dec8e49d5ecbd702dde"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+      "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/plan-review.json",
+      "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension7.json",
+      "sha256": "a839a21b7574701971769bb560d69e1cc2074b56b2336c7ce9bbf01e14352f59"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567"
+    },
+    {
+      "path": "README.md",
+      "sha256": "e3ac33611b2580d321a0434f7ac3a1b1da75678b1a7756ac38326d338b686257"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+    }
+  ],
+  "new_material_count": 1,
+  "reused_unproposed_material_count": 1,
+  "substantive_reading_directions": [
+    "S5",
+    "S1"
+  ],
+  "new_chinese_draft_count": 2,
+  "new_english_count": 0,
+  "name_usage_queries_performed": false,
+  "history_scan": {
+    "json_files_parsed": 488,
+    "distinct_selected_name_or_family_strings": 578,
+    "names_checked": [
+      "声入纹",
+      "识局"
+    ],
+    "exact_history_matches": [],
+    "boundary": "自动逐字段解析和针对旧感知/记忆/声音家族人工比较，不称逐份历史全文重读。"
+  },
+  "source_scope": "1973原论文节选及2007导览重读，不虚报新书或近期新闻；原典访问失败未计古文卡。",
+  "output_refs": [
+    {
+      "path": "materials-extension8.json",
+      "sha256": "e5a7c03cc80309174129037f70812551ea67a99537f5d0b97350d84ee148577b"
+    },
+    {
+      "path": "A2-candidates-batch9.json",
+      "sha256": "2e61ef00000f7a47980999f4c3c240c5c335df4d683bc6ebcf95c4606e9dfa9f"
+    },
+    {
+      "path": "A2-preview-batch9.md",
+      "sha256": "e923d5ee98b485ad2294d8953d73c1aafdf1d3713f14be7b4d3667aaf3e73792"
+    },
+    {
+      "path": "A2-quality-batch9.json",
+      "sha256": "6b05877655ee377e1b4033be4003ab0ee5c8ede1a11e3c2b63f69cd8eecc33f1"
+    }
+  ],
+  "whole_production_batch_complete": false,
+  "boundary": "不重开A1或计划，不改原稿原分、总库或Git，不向用户报日常进度。"
+}

@@ -1,0 +1,54 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-08T00:10:14.911597+08:00",
+  "stage": "same_package_second_candidate_not_new_round",
+  "input_refs": [
+    {
+      "path": "continuations/2026-11-07T155304Z/decisions-through-batch9.json",
+      "sha256": "c58704d2336ee4fd39edfe5e73633c985953cf8144613f62c5d39ffff5515a0e"
+    },
+    {
+      "path": "A1.md",
+      "sha256": "50023a0d4970380ebd3afb8969343e6aaadab41c468ae7be66bf2da8f20dcda9"
+    },
+    {
+      "path": "A1-formation-feedback.md",
+      "sha256": "9e2c1589037d9d564619fd8d9d861dffd13288087c4f7dec8e49d5ecbd702dde"
+    },
+    {
+      "path": "search-plan.json",
+      "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+    },
+    {
+      "path": "A2-candidates-batch10.json",
+      "sha256": "dac3fad4d578088af37f3daefa42fb863ad081cd708711869be0d2bf922b80c3"
+    }
+  ],
+  "new_material_count": 1,
+  "new_chinese_draft_count": 1,
+  "total_package_chinese_count": 2,
+  "new_english_count": 0,
+  "name_usage_queries_performed": false,
+  "output_refs": [
+    {
+      "path": "materials-extension9-supplement.json",
+      "sha256": "b540d8dd81109c30db56bbc1953cbb9d5e24993503c0b6224ae829aab2db9e6c"
+    },
+    {
+      "path": "A2-candidates-batch10-supplement.json",
+      "sha256": "f9c9f0348c2725fa5471ef6fdcea0e936d301973ef2d42cf56f0a5762d315312"
+    },
+    {
+      "path": "A2-preview-batch10-supplement.md",
+      "sha256": "d82e628998e42e383330b92d870310a4b4e2ef1159a17f4bd7f0237d327a70e4"
+    },
+    {
+      "path": "A2-quality-batch10-supplement.json",
+      "sha256": "526e733da7da2b73a46c9a291ca607aae4d909bcd13031b729780ffaea13e502"
+    }
+  ],
+  "whole_production_batch_complete": false,
+  "boundary": "原包首稿已交，故独立supplement保存，不覆盖其哈希；不改旧文件/score/catalog/Git，不通知用户。"
+}

@@ -1,0 +1,306 @@
+{
+  "same_research_run": true,
+  "input_scope": "C23独立补稿，不覆盖C22首稿/零输入回执。",
+  "handoffs": [
+    {
+      "id": "H1",
+      "status": "accepted",
+      "from": "existing_A1",
+      "to": "same_A2",
+      "reason": "原授权同包最多3项；本补稿由同一A2按现有A1机制实际独立提交。",
+      "refs": [
+        {
+          "path": "A1-final-input-reacceptance.json",
+          "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        },
+        {
+          "path": "A2-creation-execution-batch10-supplement.json",
+          "sha256": "235226da9ccb47f2dfbd8260895edc851f29ba5882b57375ebba070e63aa3509"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "status": "accepted",
+      "from": "A2",
+      "to": "coordinator",
+      "candidate_ids": [
+        "C1-C23"
+      ],
+      "refs": [
+        {
+          "path": "A2-candidates-batch10-supplement.json",
+          "sha256": "f9c9f0348c2725fa5471ef6fdcea0e936d301973ef2d42cf56f0a5762d315312"
+        },
+        {
+          "path": "materials-extension9-supplement.json",
+          "sha256": "b540d8dd81109c30db56bbc1953cbb9d5e24993503c0b6224ae829aab2db9e6c"
+        },
+        {
+          "path": "coordinator-cn-batch10-supplement.json",
+          "sha256": "c4800c7516e4c52b9c9837b63c364445627016f1de9465a7edc28b84f57ad526"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "status": "accepted",
+      "from": "coordinator",
+      "to": "same_A3",
+      "candidate_ids": [
+        "C1-C23"
+      ],
+      "reason": "主控先独评25后读producer26，各轴差<=1，真实授权原A3新中文筛查。",
+      "refs": [
+        {
+          "path": "coordinator-cn-batch10-supplement.json",
+          "sha256": "c4800c7516e4c52b9c9837b63c364445627016f1de9465a7edc28b84f57ad526"
+        },
+        {
+          "path": "A2-quality-batch10-supplement.json",
+          "sha256": "526e733da7da2b73a46c9a291ca607aae4d909bcd13031b729780ffaea13e502"
+        },
+        {
+          "path": "coordinator-family-review-batch10-supplement.json",
+          "sha256": "fbb66bf2d9f1ea36dbc8ceda0b9194ac8e472c23c69d411ea7a0385d46b97eca"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "status": "accepted",
+      "from": "same_A3",
+      "to": "same_A4",
+      "candidate_ids": [
+        "C1-C23"
+      ],
+      "reason": "原A3十实际中文查询未确证完整同核心商业品牌/软件，普通术语与新变量/自变量/变量资本分别处理，登记限制披露，原A4已获实际英文授权。",
+      "refs": [
+        {
+          "path": "A3-cn-batch12.json",
+          "sha256": "2ee03dd9bd80253389874defab204f28195f5e65cf3ebfd144c9c0b525d46ac7"
+        },
+        {
+          "path": "A3-cn-batch12-receipt.json",
+          "sha256": "2c4d885ebdaeb2a4c52f31430514ac8848f87523b712a6499784b1ae0c912f6f"
+        }
+      ]
+    },
+    {
+      "id": "H5-initial",
+      "status": "accepted",
+      "from": "same_A4",
+      "to": "same_A3",
+      "candidate_ids": [
+        "C1-C23"
+      ],
+      "english_ids": [
+        "C1-E17"
+      ],
+      "reason": "Live Variable完整计算对象，主控先封存21后读producer21，五轴一致且达标，原A3已获英文实际复查授权，普通术语用法须区别商业品牌。",
+      "refs": [
+        {
+          "path": "A4-preview-batch17.md",
+          "sha256": "68c744412fbb137d02aeeb37b5b6916bb68cf18927c7ba1f6cbd1a4351a782f9"
+        },
+        {
+          "path": "A4-candidates-batch17.json",
+          "sha256": "c97063f7efd9c3a866f9ab5e31fc3ae4f01ecc576cf9b527f42e50132530a5aa"
+        },
+        {
+          "path": "A4-quality-batch17.json",
+          "sha256": "987a5f0783fb193a36ac16c2ef6da8b6f0eccc7297fa1165d83d5c80a7db3da8"
+        },
+        {
+          "path": "coordinator-en-batch17.json",
+          "sha256": "c90cb25ba64fef726baca1510f45e381c809227dd53eb50138d472408e899a79"
+        },
+        {
+          "path": "A4-creation-execution-batch17.json",
+          "sha256": "81023594a92d920178c815ad9b476a4e6a9b195d77208b7fabcc3e7ed4f6bbed"
+        }
+      ]
+    },
+    {
+      "id": "H6-initial",
+      "status": "returned",
+      "from": "same_A3",
+      "to": "same_A4",
+      "english_ids": [
+        "C1-E17"
+      ],
+      "reason": "实际独立软件Live Variables仅单复数差异，主控目录正文复核，退原A4首返，中文不自动淘汰。",
+      "refs": [
+        {
+          "path": "A3-en-batch17.json",
+          "sha256": "508c6a7e2382292f8988aad6ecc85fbefad6b5e7307ee307be7263ffe45f5f03"
+        },
+        {
+          "path": "A3-en-batch17-receipt.json",
+          "sha256": "edd03a78774c35db5446e96b6f7a55e49c753b68c394f21cd4c650d51f906c0c"
+        },
+        {
+          "path": "continuations/2026-11-07T155304Z/root-C23-first-english-verification.json",
+          "sha256": "d5c1ad166e35ddbb4b7f1e71c862069cf20ce0d75cd11c7a9d59ee4ee06537a4"
+        }
+      ]
+    },
+    {
+      "id": "H5-rework1",
+      "status": "accepted",
+      "from": "same_A4",
+      "to": "same_A3",
+      "candidate_ids": [
+        "C1-C23"
+      ],
+      "english_ids": [
+        "C1-E18"
+      ],
+      "reason": "Still in Play主控先封存21后读producer21，五轴一致；真实主题比喻不称技术等义，原A3获实际使用复查授权。",
+      "refs": [
+        {
+          "path": "A4-preview-batch18.md",
+          "sha256": "05a6a274df87556a769f2012ea2ad6701afe676d4e54b96eb043b238a918625e"
+        },
+        {
+          "path": "A4-candidates-batch18.json",
+          "sha256": "9e79c125a20959b7cc4389afebddd41171606a6411aa43a91bae01256c2ce165"
+        },
+        {
+          "path": "A4-quality-batch18.json",
+          "sha256": "d1019e1893a7b31ded707505c08e38512a6b83554c2d6f574c9d6924d342a97a"
+        },
+        {
+          "path": "coordinator-en-batch18.json",
+          "sha256": "c5c35d5d06782022cd198fd47da7f85d6c3c324c7c055ecf81c11058c3d1a86d"
+        },
+        {
+          "path": "A4-creation-execution-batch18.json",
+          "sha256": "7b5feb41c8c6bc769a71fe10bb8a95f8fd482c361eb248e0cf5991c664b95812"
+        }
+      ]
+    },
+    {
+      "id": "H6-rework1",
+      "status": "returned",
+      "from": "same_A3",
+      "to": "same_A4",
+      "english_ids": [
+        "C1-E18"
+      ],
+      "reason": "官方品牌页确证完整同名跨行业足球服务，root已实际正文复核；原A4已获最后一次返工授权，不称精确AI同名或法律驳回。",
+      "refs": [
+        {
+          "path": "A3-en-batch18.json",
+          "sha256": "e6d2f4d9a20765896bb161efabaa04d30a1d0f606c4b85467fea35d9d8e6d83f"
+        },
+        {
+          "path": "A3-en-batch18-receipt.json",
+          "sha256": "596fd60aa72c50729b581dbd179be05d75c550871d0ecdcf32b5d9294b7d5a07"
+        },
+        {
+          "path": "continuations/2026-11-07T155304Z/root-C23-rework1-verification.json",
+          "sha256": "14924248938efa688939a5c2fb8bf2d0814477bfa788c092fe7914cd41118eca"
+        }
+      ]
+    },
+    {
+      "id": "H5-rework2",
+      "status": "accepted",
+      "from": "same_A4",
+      "to": "same_A3",
+      "candidate_ids": [
+        "C1-C23"
+      ],
+      "english_ids": [
+        "C1-E19"
+      ],
+      "reason": "Maymatter最后返工，主控先封存21后读producer21，五轴一致过门；原A3实际获最终英文筛查授权，不以合写省查分词。",
+      "refs": [
+        {
+          "path": "A4-preview-batch19.md",
+          "sha256": "7ea231f543a6b6dfa61040308f440020da685764b98a308b55b1b8570ad28def"
+        },
+        {
+          "path": "A4-candidates-batch19.json",
+          "sha256": "14efb969052611be57891550b16ed3b9b88d638577c1ae57e5be82b6ab9f6bdf"
+        },
+        {
+          "path": "A4-quality-batch19.json",
+          "sha256": "382f4d53037bd4d0fbf09a043841d311c55a3b0ba11eb05da89589601701e44a"
+        },
+        {
+          "path": "coordinator-en-batch19.json",
+          "sha256": "0d99d337219f64ba867c8107850200897c4274c95bd1acfcb6f9545749786773"
+        },
+        {
+          "path": "A4-creation-execution-batch19.json",
+          "sha256": "a36b21c12f1c0a6577f2cfb7e230c0ef222e0f1b81c8a65aec18e78720c9a6b6"
+        }
+      ]
+    },
+    {
+      "id": "H6-rework2",
+      "status": "evidence_hold",
+      "from": "same_A3",
+      "to": "coordinator",
+      "candidate_ids": [
+        "C1-C23"
+      ],
+      "english_ids": [
+        "C1-E19"
+      ],
+      "reason": "最后英文实际十九查询，具体商业线索无法正文核验，既不判占用也不放行；原A4实际收尾和发布输入再验收。",
+      "refs": [
+        {
+          "path": "A3-en-batch19.json",
+          "sha256": "7c66cfe45dcedaaf1f25ddb84a587e14a86f92aa1f154a1e2351686abde7ba69"
+        },
+        {
+          "path": "A3-en-batch19-receipt.json",
+          "sha256": "fd3c8e037ccf5eb1ca6c1a8655086a1dda94a86f7b60429c8df54e5897a94bfa"
+        },
+        {
+          "path": "A3-en19-publication-normalization.json",
+          "sha256": "a1bf7da414ed6661a46b1d89cac7108f14e06dc7cae1f9d610a97dfa5aacde13"
+        },
+        {
+          "path": "A4-closeout-batch10-supplement.json",
+          "sha256": "28a72ef2949a23e515a05584b65fba864ef078434b7d8f8656c0cc5940105155"
+        },
+        {
+          "path": "A4-publication-input-reacceptance.json",
+          "sha256": "12846bd9383291a3f581b0c9273c5279fddc86764f03cdb46d78babacf9e718c"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "status": "not_admitted_pending_evidence",
+      "from": "coordinator",
+      "to": "catalog",
+      "candidate_ids": [
+        "C1-C23"
+      ],
+      "reason": "无完整通过双语，不进入讨论/储备总数；只可后续补具体证据，禁止新英文R3。",
+      "refs": [
+        {
+          "path": "continuations/2026-11-07T155304Z/root-C23-final-review.json",
+          "sha256": "65ae4f661810d38e222363962428471957a3d5117888f838e37712ad7a75c697"
+        },
+        {
+          "path": "A4-publication-input-reacceptance.json",
+          "sha256": "12846bd9383291a3f581b0c9273c5279fddc86764f03cdb46d78babacf9e718c"
+        }
+      ]
+    }
+  ]
+}

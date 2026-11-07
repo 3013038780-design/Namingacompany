@@ -1,0 +1,49 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese screening",
+  "executed_at": "2026-11-08T00:12:39.336675+08:00",
+  "candidate_id": "C1-C23",
+  "candidate": "活变量",
+  "decision": "public_use_screen_pass",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch10-supplement.md",
+      "sha256": "d82e628998e42e383330b92d870310a4b4e2ef1159a17f4bd7f0237d327a70e4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch10-supplement.json",
+      "sha256": "f9c9f0348c2725fa5471ef6fdcea0e936d301973ef2d42cf56f0a5762d315312"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch10-supplement.json",
+      "sha256": "526e733da7da2b73a46c9a291ca607aae4d909bcd13031b729780ffaea13e502"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch10-supplement.json",
+      "sha256": "c4800c7516e4c52b9c9837b63c364445627016f1de9465a7edc28b84f57ad526"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension9-supplement.json",
+      "sha256": "b540d8dd81109c30db56bbc1953cbb9d5e24993503c0b6224ae829aab2db9e6c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch12.md",
+      "sha256": "0920554ac690590a529845e4b71aaa914eb48277de055f9ea9a2ef7c78864a94"
+    },
+    {
+      "path": "A3-cn-batch12.json",
+      "sha256": "2ee03dd9bd80253389874defab204f28195f5e65cf3ebfd144c9c0b525d46ac7"
+    }
+  ],
+  "actual_new_candidate_queries": 10,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 239,
+  "agent3_cumulative_candidate_queries": 249,
+  "root_independent_additional_queries_previously_reported": 2,
+  "run_cumulative_candidate_queries_including_root": 251,
+  "actual_execution": "实际读同包补充候选/材料/两评审，逐名十查询，区别泛技术分析术语与产品；实际打开Cornell讲义和英国逐名入口。中文公开使用初筛通过，交原A4，不继承英文可用或官方注册状态。",
+  "prior_zero_receipt_boundary": "A4/A3 zero batch10只覆盖先前C22伶伦；此次C23为新补充输入、独立查询输出，旧零回执字节不变。",
+  "unchanged": "不配英文、不改总库/旧稿、不git、不用户通知。"
+}

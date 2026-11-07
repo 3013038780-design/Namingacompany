@@ -1,0 +1,79 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-08T00:20:48.460194+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch10-supplement.json",
+      "sha256": "f9c9f0348c2725fa5471ef6fdcea0e936d301973ef2d42cf56f0a5762d315312"
+    },
+    {
+      "path": "materials-extension9-supplement.json",
+      "sha256": "b540d8dd81109c30db56bbc1953cbb9d5e24993503c0b6224ae829aab2db9e6c"
+    },
+    {
+      "path": "coordinator-cn-batch10-supplement.json",
+      "sha256": "c4800c7516e4c52b9c9837b63c364445627016f1de9465a7edc28b84f57ad526"
+    },
+    {
+      "path": "coordinator-family-review-batch10-supplement.json",
+      "sha256": "fbb66bf2d9f1ea36dbc8ceda0b9194ac8e472c23c69d411ea7a0385d46b97eca"
+    },
+    {
+      "path": "A3-cn-batch12.json",
+      "sha256": "2ee03dd9bd80253389874defab204f28195f5e65cf3ebfd144c9c0b525d46ac7"
+    },
+    {
+      "path": "A3-cn-batch12-receipt.json",
+      "sha256": "2c4d885ebdaeb2a4c52f31430514ac8848f87523b712a6499784b1ae0c912f6f"
+    },
+    {
+      "path": "A4-candidates-batch17.json",
+      "sha256": "c97063f7efd9c3a866f9ab5e31fc3ae4f01ecc576cf9b527f42e50132530a5aa"
+    },
+    {
+      "path": "A3-en-batch17.json",
+      "sha256": "508c6a7e2382292f8988aad6ecc85fbefad6b5e7307ee307be7263ffe45f5f03"
+    },
+    {
+      "path": "A4-candidates-batch18.json",
+      "sha256": "9e79c125a20959b7cc4389afebddd41171606a6411aa43a91bae01256c2ce165"
+    },
+    {
+      "path": "A3-en-batch18.json",
+      "sha256": "e6d2f4d9a20765896bb161efabaa04d30a1d0f606c4b85467fea35d9d8e6d83f"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E19",
+      "chinese_id": "C1-C23",
+      "chinese": "活变量",
+      "english": "Maymatter",
+      "family_id": "C1-BF-variable-with-still-possible-use",
+      "suggested_pronunciation": "MAY-mat-er，/ˈmeɪˌmætər/，三个音节；完整may + matter。",
+      "type": "自然词组合写的品牌专名提案",
+      "formation": "may matter本来是正常英语组合，表示“可能有关系/有作用”。may保留可能性，matter用动词“有重要性”的现成义；完整词合写为Maymatter，不截词、不改字母。Cornell把活变量分析称为may-analysis，因当前值以后可能需要而保守保留；本案将这个可能用途关系转为称呼，不把may与matter分别编两份吉祥寓意。",
+      "bilingual_relation": "中文点出仍有后续用途的计算对象，英文点出保留它的理由：这个当前值以后可能仍有作用。may保留不保证实际用上的边界，matter指对计算有作用，而不泛说物质、生命或重要人物；不是逐字翻译。",
+      "meaning": "可能还有用，所以不轻易视作已经无关。名字可以容纳对信息价值与任务关系的研究：目前的状态，要放到后续可能发生的使用中理解。它不把所有旧信息都说成重要，也不把不确定性包装成能力结论。",
+      "shortcoming": "“可能有用”也可能被听成对自己没有把握，像杂志、咨询或文创品牌；没有直接交代变量与覆盖条件。合写专名需首次确认，may可能被写作人名Mae，分词May Matter也可能出现。它的独立性来自整体称呼与明确研究态度，不能只靠来源将普通短句包装成高辨识品牌。",
+      "boundary": "matter的重要性是对后续计算用途的品牌转用，不等于用一个词定义了活变量算法。may在这里不是五月，也不是把matter物质义接成物理学故事；不借同名物联网标准含义。当前值只是可能在被覆盖前被使用，保守估计可能高估，不保证所有保留信息最终重要；与惰性求值或缓存不是同一机制。完整英文及近形仍未由本角色查使用。",
+      "source_urls": [
+        "https://www.cs.cornell.edu/courses/cs4120/2023sp/notes/livevar/",
+        "https://www.merriam-webster.com/dictionary/matter"
+      ],
+      "read_scope": "本人前稿已实际读Cornell讲义1–29、48–69行，重点29行may-analysis的可能后续用途；本次实际读A3-en-batch18正式决策、证据及登记边界（不重读其附带原始搜索长文本），另实际打开Merriam-Webster matter词条并find到160–177行动词“有重要性”义。没有重做名字查询或编译实现。",
+      "rework_attempt": 2,
+      "remaining_reworks": 0,
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "usage_screening_performed": false,
+  "rework": {
+    "attempt": 2,
+    "remaining_after_this": 0,
+    "previous_english_id": "C1-E18",
+    "reason": "Still in Play已有完整足球分析商业品牌，跨行业核心名编辑避让；不是同名AI公司或官方登记核准。更早Live Variable为复数近同软件，分别保留性质。",
+    "not_new_chinese_family": true
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T23:20:44.575628+08:00",
+  "updated_at": "2026-11-08T00:27:25.728158+08:00",
   "policy": "continuous_no_quantity_quota",
   "scheduler": {
     "id": "automation",
@@ -19,8 +19,8 @@
     "historical_unique_families": 26
   },
   "active_run": "research/runs/2026-11-07-continuous-001",
-  "actual_state": "C19_packet_closed_zero_retained_ready_for_next_A2",
-  "next_action": "接续同一001；复用已验收A1/计划，原A2从新关系及更自然整体称呼继续小包，C20/M29起，优先未开发资料世界，不生成C19/C18家族变体。中文先root独评再原A3，英文原A4再同A3；不重开并发轮次。",
+  "actual_state": "research_packets_checkpointed_new_site_building",
+  "next_action": "先完成用户新要求的网站固定入口与自动读取总库/按日更新。命名接续仍同一001；C23只在有可读新原始证据时补核，勿反复相同403，不R3；原A2可继续不同关系C24/M32起，无并发重复轮次。",
   "pending_stages": [
     "A2真实资料→中文创作；先素材小批内部快审",
     "主控独立中文质量→同A3中文使用筛查",
@@ -90,8 +90,8 @@
     ],
     "new_names_yet": 2,
     "whole_24_family_research_complete": false,
-    "cumulative_materials": 28,
-    "cumulative_chinese_drafts": 19
+    "cumulative_materials": 31,
+    "cumulative_chinese_drafts": 23
   },
   "closed_current_families": {
     "C1-C01": "英文3版已有商业使用，返工耗尽",
@@ -100,20 +100,42 @@
     "C1-C06": "官方科技企业名单确证已有杭州余量科技，撤回；禁止换英文救回中文",
     "C1-C17": "主控跨类同字标志及科技近名编辑避让，不等于精确科技占用",
     "C1-C18": "余光有完整同核心独立软件与照明品牌，中文使用淘汰；不配英文救回、不变体新增",
-    "C1-C19": "分身有别中文公开使用通过，但Ownwrite质量失败未查，Branchwise同名模型/软件，Kinstate已有历史企业名称编辑避让，英文2次返工耗尽，禁止R3及同族新增"
+    "C1-C19": "分身有别中文公开使用通过，但Ownwrite质量失败未查，Branchwise同名模型/软件，Kinstate已有历史企业名称编辑避让，英文2次返工耗尽，禁止R3及同族新增",
+    "C1-C20": "声入纹自然度/Lab身份未过，未查，不以声音纹路同族变体充新增",
+    "C1-C21": "识局官网明确商业核心识局控股，同名使用淘汰，不换英文救回",
+    "C1-C22": "伶伦已被官方AI音乐制作系统使用，不配英文救回"
   },
-  "heartbeat_checkpoint": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T145704Z/result.json",
-  "latest_frozen_decision_snapshot": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T145704Z/decisions-through-batch8.json",
-  "latest_continuation_result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T145704Z/result.json",
+  "heartbeat_checkpoint": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T155304Z/result.json",
+  "latest_frozen_decision_snapshot": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T155304Z/decisions-through-batch10.json",
+  "latest_continuation_result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T155304Z/result.json",
   "latest_completed_packet": {
     "new_retained_families": 0,
-    "new_materials": 2,
-    "new_chinese": 1,
+    "new_materials": 3,
+    "new_chinese": 4,
     "new_english_versions": 3,
-    "A3_new_queries": 24,
-    "root_additional_queries": 2,
-    "cumulative_A3_queries": 218,
-    "combined_recorded_queries": 220,
-    "result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T145704Z/result.json"
+    "A3_new_queries": 65,
+    "root_additional_queries": 0,
+    "cumulative_A3_queries": 283,
+    "combined_recorded_queries": 285,
+    "result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T155304Z/result.json"
+  },
+  "pending_evidence": [
+    {
+      "chinese_id": "C1-C23",
+      "chinese": "活变量",
+      "english_id": "C1-E19",
+      "english": "Maymatter",
+      "state": "unresolved_specific_commercial_lead",
+      "detail": "Cellier des Maymatter酒款拍卖索引，原文403，未确证占用亦未排除；只能补证据，不能英文R3。",
+      "record": "research/runs/2026-11-07-continuous-001/A3-en-batch19.json"
+    }
+  ],
+  "website": {
+    "authorized_at": "2026-11-08T00:27:25.728158+08:00",
+    "status": "building_new_fixed_site",
+    "project_id": "appgprj_6aef50c0969c8191aa904b87ce9e223c",
+    "source_path": "/Users/olivialee/Documents/ChatGPT/临时项目/naming-research-site",
+    "data_feed": "research/catalog/website.json",
+    "old_site_untouched": true
   }
 }

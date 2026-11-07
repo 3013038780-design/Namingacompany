@@ -1,0 +1,185 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T00:23:45.857487+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch19.md",
+      "sha256": "7ea231f543a6b6dfa61040308f440020da685764b98a308b55b1b8570ad28def"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch19.json",
+      "sha256": "14efb969052611be57891550b16ed3b9b88d638577c1ae57e5be82b6ab9f6bdf"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch19.json",
+      "sha256": "382f4d53037bd4d0fbf09a043841d311c55a3b0ba11eb05da89589601701e44a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch19.json",
+      "sha256": "a36b21c12f1c0a6577f2cfb7e230c0ef222e0f1b81c8a65aec18e78720c9a6b6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch19.json",
+      "sha256": "0d99d337219f64ba867c8107850200897c4274c95bd1acfcb6f9545749786773"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch12.json",
+      "sha256": "2ee03dd9bd80253389874defab204f28195f5e65cf3ebfd144c9c0b525d46ac7"
+    }
+  ],
+  "query_count": 19,
+  "results": [
+    {
+      "candidate_id": "C1-E19",
+      "name": "Maymatter",
+      "query_logs": [
+        {
+          "query": "\"Maymatter\"",
+          "executed_on": "2026-11-08",
+          "summary": "拍卖索引出现Cellier des Maymatter酒款，另有合同/论文漏空格；酒商线索进入后续核实。"
+        },
+        {
+          "query": "\"Maymatter\" company lab",
+          "executed_on": "2026-11-08",
+          "summary": "主要为同一拍卖索引与ETH论文时间偏好may matter连写，未确证Lab公司。"
+        },
+        {
+          "query": "\"Maymatter\" AI model",
+          "executed_on": "2026-11-08",
+          "summary": "Intel论坛spacing maymatter及PeopleCoral文章AI maymatter，后者正文确认普通句不是模型名。"
+        },
+        {
+          "query": "\"Maymatter\" software product",
+          "executed_on": "2026-11-08",
+          "summary": "主要专利文本may与Matter No跨页/连排，不是软件产品名。"
+        },
+        {
+          "query": "\"May Matter\" company software",
+          "executed_on": "2026-11-08",
+          "summary": "Hensoldt新闻及Context may matter文章标题，正常短句非软件品牌。"
+        },
+        {
+          "query": "\"May-Matter\" brand",
+          "executed_on": "2026-11-08",
+          "summary": "机器人品牌may matter等新闻标题/普通句，未证完整独立品牌。"
+        },
+        {
+          "query": "\"Maematter\" company",
+          "executed_on": "2026-11-08",
+          "summary": "无结果，近音Mae合写未确证主体。"
+        },
+        {
+          "query": "\"Cellier des Maymatter\"",
+          "executed_on": "2026-11-08",
+          "summary": "只有同一拍卖酒款索引；原页403，未确证标签拼写。"
+        },
+        {
+          "query": "\"Cellier des May\" vin",
+          "executed_on": "2026-11-08",
+          "summary": "返回多种Cellier酒商与May地名/酒名，没有独立Maymatter确认。"
+        },
+        {
+          "query": "\"Maymatter\" brand company -site:interencheres.com -filetype:pdf",
+          "executed_on": "2026-11-08",
+          "summary": "排除拍卖与PDF后主要文档/论坛短句；未找到独立商业主体。"
+        },
+        {
+          "query": "\"Cellier des Maymatter\" wine",
+          "executed_on": "2026-11-08",
+          "summary": "仍仅同一拍卖酒款，无法独立交叉验证。"
+        },
+        {
+          "query": "\"Cellier des\" \"2000\" \"pinot gris\"",
+          "executed_on": "2026-11-08",
+          "summary": "Pinot gris 2000多酒款目录与其他Cellier酒庄，没有Maymatter主体。"
+        },
+        {
+          "query": "\"Maymatter\" wine company",
+          "executed_on": "2026-11-08",
+          "summary": "酒类检索仍同一拍卖索引与ETH论文普通句。"
+        },
+        {
+          "query": "\"86989073\" \"Maymatter\"",
+          "executed_on": "2026-11-08",
+          "summary": "指定lot号只回原拍卖，原页/目录仍访问失败。"
+        },
+        {
+          "query": "\"Cellier\" \"Maymatter\" -site:interencheres.com",
+          "executed_on": "2026-11-08",
+          "summary": "排除拍卖站无结果；没有独立Cellier Maymatter可读品牌源。"
+        },
+        {
+          "query": "\"Maymatter\" wine -site:interencheres.com -filetype:pdf",
+          "executed_on": "2026-11-08",
+          "summary": "仅ETH论文、文学/论坛普通句，未找到独立酒商品牌。"
+        },
+        {
+          "query": "\"May Matter\" \"Ltd\"",
+          "executed_on": "2026-11-08",
+          "summary": "Ltd检索结果为法院人名May案及普通商业文句，未证May Matter公司。"
+        },
+        {
+          "query": "\"Cheroyan\" \"18 mai 2026\" vins",
+          "executed_on": "2026-11-08",
+          "summary": "拍卖行日期搜索仅职业任免目录，未找到原始酒款目录。"
+        },
+        {
+          "query": "\"Maymatter\" vin cave domaine",
+          "executed_on": "2026-11-08",
+          "summary": "仍原拍卖与普通酒类论文句子，未闭环原瓶标签。"
+        }
+      ],
+      "decision": "unresolved_specific_commercial_lead_not_delivered",
+      "reason": "19次实际检索未确证同名AI公司/模型/独立软件；但具体拍卖索引出现Cellier des Maymatter酒款，尝试原页、目录、curl及酒商/拍卖行定向补证后仍无法确认其品牌拼写。保留未核实具体商业线索，本轮不交付，不称已占用、也不称注册通过。",
+      "evidence": [
+        {
+          "url": "https://www.interencheres.com/art-decoration/vins-rhums-whiskys-et-alcools-677433/lot-86989073.html?similar=true",
+          "access": "search_index_only_primary_open_403",
+          "finding": "lot159描述2000年葡萄酒Cellier des Maymatter。web与curl实际403，去参数页和拍卖目录也失败；可能标签/录入问题尚无证据，不擅自当错拼也不确证该名酒商。"
+        },
+        {
+          "url": "https://peoplecoral.com/articles/ai-is-becoming-more-powerful-hr-will-need-to-set-the-guardrails",
+          "access": "primary_body_read_excluded_generic_sentence",
+          "finding": "L33 AI maymatter more为may matter漏空格普通句；L34和页脚主体为PeopleCoral，不是Maymatter产品/公司。不背书其其他AI行业陈述。"
+        },
+        {
+          "url": "https://community.intel.com/t5/Software-Archive/cilkifying-c-source/td-p/741753",
+          "access": "search_text_open_404",
+          "finding": "索引为spacing maymatter普通句；打开404，不冒称正文复读。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run Nov7实际403入口，非本次重查、无逐名登记结果。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run Nov7实际403共同入口，本次未逐名逐类9/42登记。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Maymatter",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      },
+      "chinese_candidate_id": "C1-C23",
+      "chinese": "活变量",
+      "english_attempt": 2,
+      "remaining_english_reworks": 0,
+      "precise_use_type": "no_confirmed_named_tech_use_but_unresolved_specific_wine_brand_lead",
+      "closure": "英文额度已用完；未通过交付，不再第三次返工。非证实占用。"
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "raw_payload_preservation": {
+    "original_sha256": "882542666cd64d08bb07e92b2b8635d078294b65f104d016c094edb6ab9b567c",
+    "private_local_path": "/Users/olivialee/Documents/ChatGPT/secretary/tmp/naming-private-raw/A3-en-batch19-original.json",
+    "reason": "发布仓库只保留逐query摘要与来源链接；外部网页全文移到本地非Git私存。",
+    "semantic_content_unchanged": true
+  }
+}
