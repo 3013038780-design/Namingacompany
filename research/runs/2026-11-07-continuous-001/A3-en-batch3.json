@@ -1,0 +1,109 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T21:03:49.996071+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch3.md",
+      "sha256": "5c1bc52b3c26d56bf1674f71bff3006cc7a18ede10691b635f6ba95a4771d783"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-batch3.json",
+      "sha256": "6732d399c2a91c8cf9993e51ee8cfe68d306560bbbe6a6b28f435aa6d28d7da8"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch3.json",
+      "sha256": "644da0a507ce79f66822abe5a04736f3dc117ebe8c847a59db0d29ea098fa1c7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch3.json",
+      "sha256": "e29c9f8e08fe1219e0b0d69eede0798c2e2ef94b8bf6d12e36759b5c310b3e53"
+    }
+  ],
+  "query_count": 8,
+  "results": [
+    {
+      "candidate_id": "C1-E03",
+      "name": "Either End",
+      "query_logs": [
+        {
+          "query": "\"Either End\"",
+          "executed_on": "2026-11-07",
+          "summary": "整体连写Eitherend已有实际电连接器商品命名、历史EITHEREND品牌记录，按用户广义科技商业使用偏好避让。未确证同名AI公司/模型/软件；第三方历史商标1992已过期，不能称现在注册占用。"
+        },
+        {
+          "query": "\"Either End\" company lab technology",
+          "executed_on": "2026-11-07",
+          "summary": "整体连写Eitherend已有实际电连接器商品命名、历史EITHEREND品牌记录，按用户广义科技商业使用偏好避让。未确证同名AI公司/模型/软件；第三方历史商标1992已过期，不能称现在注册占用。"
+        },
+        {
+          "query": "\"Either End\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "整体连写Eitherend已有实际电连接器商品命名、历史EITHEREND品牌记录，按用户广义科技商业使用偏好避让。未确证同名AI公司/模型/软件；第三方历史商标1992已过期，不能称现在注册占用。"
+        },
+        {
+          "query": "\"Either End\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "整体连写Eitherend已有实际电连接器商品命名、历史EITHEREND品牌记录，按用户广义科技商业使用偏好避让。未确证同名AI公司/模型/软件；第三方历史商标1992已过期，不能称现在注册占用。"
+        },
+        {
+          "query": "\"EitherEnd\" OR \"Either-End\"",
+          "executed_on": "2026-11-07",
+          "summary": "整体连写Eitherend已有实际电连接器商品命名、历史EITHEREND品牌记录，按用户广义科技商业使用偏好避让。未确证同名AI公司/模型/软件；第三方历史商标1992已过期，不能称现在注册占用。"
+        },
+        {
+          "query": "\"Either End\" brand startup -patent -filetype:pdf",
+          "executed_on": "2026-11-07",
+          "summary": "整体连写Eitherend已有实际电连接器商品命名、历史EITHEREND品牌记录，按用户广义科技商业使用偏好避让。未确证同名AI公司/模型/软件；第三方历史商标1992已过期，不能称现在注册占用。"
+        },
+        {
+          "query": "\"Eitherend\" connector",
+          "executed_on": "2026-11-07",
+          "summary": "整体连写Eitherend已有实际电连接器商品命名、历史EITHEREND品牌记录，按用户广义科技商业使用偏好避让。未确证同名AI公司/模型/软件；第三方历史商标1992已过期，不能称现在注册占用。"
+        },
+        {
+          "query": "\"Either-End\" connector Magnaflux",
+          "executed_on": "2026-11-07",
+          "summary": "整体连写Eitherend已有实际电连接器商品命名、历史EITHEREND品牌记录，按用户广义科技商业使用偏好避让。未确证同名AI公司/模型/软件；第三方历史商标1992已过期，不能称现在注册占用。"
+        }
+      ],
+      "decision": "return_for_alternative",
+      "reason": "整体连写Eitherend已有实际电连接器商品命名、历史EITHEREND品牌记录，按用户广义科技商业使用偏好避让。未确证同名AI公司/模型/软件；第三方历史商标1992已过期，不能称现在注册占用。",
+      "evidence": [
+        {
+          "url": "https://www.mxindustrial.com/product/4-0-either-end-connector/",
+          "access": "primary_retail_product_body_read",
+          "finding": "标题4/0 Eitherend connector，描述对应Magnaflux p/n1238，SKU MX3515，实际售卖连接器而非仅合同普通句。"
+        },
+        {
+          "url": "https://trademarks.justia.com/715/01/eitherend-71501303.html",
+          "access": "third_party_trademark_body_read",
+          "finding": "EITHEREND序列71501303、注册0437320，电连接器，1948登记，状态Expired1992-11-03。非官方实时登记，不能写仍在册占用。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Either%20End",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      },
+      "chinese_candidate_id": "C1-C01",
+      "chinese": "由此及彼",
+      "version": "first_english_rework",
+      "precise_use_type": "electrical_connector_product_and_expired_historical_mark_not_ai_software"
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。"
+}

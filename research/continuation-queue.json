@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T21:02:07.589883+08:00",
+  "updated_at": "2026-11-07T21:13:31.986083+08:00",
   "policy": "continuous_no_quantity_quota",
   "scheduler": {
     "id": "automation",
@@ -12,13 +12,13 @@
   },
   "catalog": {
     "path": "research/catalog/README.md",
-    "discussion_candidates": 23,
+    "discussion_candidates": 24,
     "research_reserves": 1,
-    "total_unique_families": 24
+    "total_unique_families": 25
   },
   "active_run": "research/runs/2026-11-07-continuous-001",
-  "actual_state": "A3_E03_and_cn_batch3_running_A2_next_supplement_running",
-  "next_action": "读取原A3对Either End及开合/活桥/开明兽的实际结果，合格中文交同A4，英文主控先独评再同A3复查。原A2继续不同家族，不重开计划；每合格一名更新同一总库。",
+  "actual_state": "A4_C11_first_rework_running",
+  "next_action": "原A4交回车以后第一次英文返工，主控先盲评后读producer，过后原A3英文复查；Linewake有真实软件开发品牌已淘汰，不改字母继续使用。",
   "pending_stages": [
     "A2真实资料→中文创作；先素材小批内部快审",
     "主控独立中文质量→同A3中文使用筛查",
@@ -43,14 +43,9 @@
   ],
   "in_flight_agents": [
     {
-      "role": "A2",
-      "agent_id": "/root/continuous_a2",
-      "task": "已交10中文草案；实际接续下批材料和自然中文"
-    },
-    {
-      "role": "A3",
-      "agent_id": "/root/live_a3",
-      "task": "实际查询Either End和开合/活桥/开明兽"
+      "role": "A4",
+      "agent_id": "/root/continuous_a4",
+      "task": "C1-C11第一次英文返工attempt1，batch7/C1-E07"
     }
   ],
   "latest_completed": {
@@ -60,7 +55,7 @@
       "A1接力"
     ],
     "prior_reserves_promoted": 2,
-    "new_creative_families": 1,
+    "new_creative_families": 2,
     "receipts": [
       "research/runs/2026-11-07-continuous-001/reserve-followthrough/A3-review.json",
       "research/runs/2026-11-07-continuous-001/reserve-followthrough/A4-review.json",
@@ -84,9 +79,9 @@
       "C1-M07",
       "C1-M08"
     ],
-    "new_names_yet": 1,
+    "new_names_yet": 2,
     "whole_24_family_research_complete": false,
-    "cumulative_materials": 15,
-    "cumulative_chinese_drafts": 10
+    "cumulative_materials": 18,
+    "cumulative_chinese_drafts": 12
   }
 }

@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T21:07:28.156320+08:00",
+  "independence": "Read producer preview batch5 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C01",
+      "name": "What Follows",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "两普通词音节自然",
+          "counter_association": "口音有正常差异"
+        },
+        "spelling": {
+          "reason": "常用拼写可听记",
+          "counter_association": "大小写需统一"
+        },
+        "grounding": {
+          "reason": "follow有推论义",
+          "counter_association": "也常先被理解时间后续"
+        },
+        "bilingual_relation": {
+          "reason": "两语均由依据抵达未知所得",
+          "counter_association": "普通关系推知非自动学习"
+        },
+        "distinctiveness": {
+          "reason": "研究提问可形成称呼",
+          "counter_association": "像节目或出版标题"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E05"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "english_id": "C1-E04",
+  "chinese_id": "C1-C08",
+  "chinese": "活桥",
+  "english": "Antspan",
+  "reviewed_at": "2026-11-07T21:10:59.053860+08:00",
+  "inputs": [
+    {
+      "path": "A4-preview-batch4.md",
+      "sha256": "3c4bbb9725f3b387cdb34755051e9b60e049c90ab177c964610e14dcea6b9963"
+    },
+    {
+      "path": "A4-batch4.json",
+      "sha256": "cf7421fcd00d3ba846c91a9bdbbfb6ca733401495d9d09934209224ef43793d1"
+    },
+    {
+      "path": "A4-quality-batch4.json",
+      "sha256": "984e65b7a179c1716aa322da017708702dae22a8d03164d7c83da635a20650fd"
+    },
+    {
+      "path": "A3-en-batch4.json",
+      "sha256": "f2faa8c3645160bfbffb37d78063370d4e60b87c04b2615d7c7c7f994a9cd9be"
+    }
+  ],
+  "additional_source_read": {
+    "url": "https://sites.google.com/site/silviogarbes/curriculo",
+    "access": "primary_personal_cv_body_read",
+    "actual_scope": "L125–127，Antspan: MAV Mail Suite Anstispam与Antivirus: AVG Network相邻条目",
+    "finding": "上下文支持反垃圾邮件类别的误拼与软件实例，不将个人技能列表中的Antspan当独立软件品牌。"
+  },
+  "decision": "retain_for_discussion_with_antispam_confusion_disclosed",
+  "reason": "Antspan的ant+span来自同一真实身体桥对象，两个完整语素有自然结构和明确图景；来源和英语结构并不依赖这次检索，因此仍保留讨论。它不是为了躲避antispam品牌而改字母。已见误拼同时证明真实数字语境会发生联想，必须正面列为短板，不能写世上首次出现或无任何技术使用。",
+  "pronunciation_and_spelling_review": "建议Antspan读ANT-span，两音节；常规antispam通常有anti+spam的额外元音，且尾音m与n不同。可解释的区别不等于无混淆：快速听写、自动纠错和检索仍可能偏向更熟悉的antispam，ntsp连读成本也仍在。",
+  "important_distinction": "近似的是常见技术类别/历史误拼，目前不是A3已确证的同名或近名商用Antspan品牌；与Airsung旁真实Aisung电子品牌的已证情况不同。不能因此自动判精确占用，也不能用没查到品牌来补偿质量。",
+  "recommendation_scope": "可保留为带明确拼写/读音短板的研究讨论名，不称即听即写无门槛。原producer与主控评分保持原样；本段是新证据后的非数字补审，若后续真实同名/近名品牌证据出现再交主控处理。",
+  "new_name_use_queries": 0,
+  "new_english_proposals": 0,
+  "official_registration_queries": 0,
+  "source_boundary": "蚂蚁身体桥论文关系仍来自已读作者原文；CV只说明已有词形误拼语境，不证明模型能力、词源独占或登记可用。"
+}

@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T21:12:04.952974+08:00",
+  "independence": "Read producer preview batch6 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C11",
+      "name": "Linewake",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两普通词读音可直接相接",
+          "counter_association": "不是标准词典词"
+        },
+        "spelling": {
+          "reason": "两个完整词素可拆认",
+          "counter_association": "首次需讲解拼法"
+        },
+        "grounding": {
+          "reason": "输入到运算回应有真实关系",
+          "counter_association": "wake是拟物非正式术语"
+        },
+        "bilingual_relation": {
+          "reason": "中文提交以后与英文输入激活相接",
+          "counter_association": "英文较中文偏代码场景"
+        },
+        "distinctiveness": {
+          "reason": "单词形画面较鲜明",
+          "counter_association": "可能像线路唤醒或生成艺术"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E06"
+    }
+  ]
+}

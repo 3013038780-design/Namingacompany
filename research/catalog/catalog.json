@@ -2,9 +2,9 @@
   "schema_version": 1,
   "purpose": "持续分类总库；无每日配额。不同英文版本不增加家族数。",
   "counts": {
-    "discussion_candidates": 23,
+    "discussion_candidates": 24,
     "research_reserves": 1,
-    "total_unique_families": 24
+    "total_unique_families": 25
   },
   "worlds": [
     {
@@ -2187,6 +2187,87 @@
           "status": "unavailable",
           "url": "https://find-and-update.company-information.service.gov.uk/search?q=Spare%20Signal",
           "scope": "本候选逐名URL实际打开不可访问，非无公司结论"
+        }
+      },
+      "registration_status": "not_officially_cleared",
+      "registration_note": "原始记录逐入口披露；公开使用初筛不是企业核名或9/42类商标可注册结论。"
+    },
+    {
+      "id": "N0025",
+      "chinese": "活桥",
+      "english": "Antspan",
+      "family_id": "C1-BF-members-become-adaptive-support",
+      "status": "discussion_candidate",
+      "primary_world": "S2",
+      "tags": [
+        "S3",
+        "群体自组装",
+        "成员成为结构",
+        "代价权衡"
+      ],
+      "classification_reason": "先有真实活体成员组成桥的自然图景，再与可重构组织相交；不是轨道通道渡口或隔离种群迁移的同一故事。",
+      "brief": "连接并非预先建成；行动者本身也能成为新的支撑。",
+      "source": {
+        "title": "Reid et al.: Army ants dynamically adjust living bridges in response to a cost–benefit trade-off",
+        "url": "https://www.thekaolab.com/papers/Reid_PNAS_2015.pdf",
+        "read_scope": "作者实验室托管原论文，PDF页1–2摘要/实验设计/结果；讨论段动态变位、成本与最优性限制",
+        "date": "2015-11-23",
+        "access": "body"
+      },
+      "fact": "行军蚁以身体连接成桥，桥随交通量和地形几何调整位置与大小；投入桥体的工蚁暂时不能觅食，存在结构收益与成员占用的代价权衡。",
+      "meaning": "连接并非预先建成；行动者本身也能成为新的支撑。",
+      "crossing": "桥通常是固定设施，论文中的桥却由活动的蚂蚁身体构成，并依使用条件改变形状和位置。活与桥之间的反差，来自同一个真实对象，而非两个好字硬拼。",
+      "layers": [
+        "一座会活起来的桥，有直接图景",
+        "成员临时成为结构，结构随交通与地形变化",
+        "研究群体、工具与智能系统怎样形成新的可用组织"
+      ],
+      "chinese_shortcoming": "容易先被当成桥梁工程、城市更新或生态公司；活字也可能显轻。需主控独立判断它能否像真实研究机构称呼。",
+      "english_formation": "ant是蚂蚁，span可指桥跨或跨越的距离。把ant与span两个完整英语语素连成一个短称呼：蚂蚁本身构成可跨越的桥跨。两部分原本就在同一个真实对象中，不是为了避重拼入无义字母，也不宣称Antspan是论文正式术语或现成词典词。",
+      "bilingual_relation": "中文保留活的桥这一反常对象，英文保留组成桥的蚂蚁与它们共同形成的跨距；两边指向同一身体自组装结构。中文更宽，英文把自然出处带在名称里，非逐字翻译。",
+      "english_shortcoming": "初次需介绍ant+span的拆分；连读ntsp辅音较密，但仍是两个正常短词。可能先像蚁群算法、昆虫研究或桥梁工程，英文比中文更绑定蚂蚁形象；不应把所有带ant的品牌当同一词源，也不能靠动物名自动获得AI身份。 实际已见antispam类别的Antspan误拼语境；快速听写、自动纠错和检索可能偏向antispam。已由A4及主控读原上下文后补审接受为讨论名，不称即听即写或词形从未出现。",
+      "source_boundary": "观察中的调整不证明全局最优，更不直接证明AI能力提升；投入桥体不等于死亡牺牲。",
+      "suggested_pronunciation": "ANT-span /ˈæntspæn/（建议，两处a均按ant/span的普通读音）。",
+      "cn_screen_summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。",
+      "en_screen_summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。",
+      "screened_dates": [
+        "2026-11-07"
+      ],
+      "origin_record": "research/runs/2026-11-07-continuous-001/delivery.json",
+      "origin_chinese_id": "C1-C08",
+      "origin_english_id": "C1-E04",
+      "chinese_registration_record": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Huoqiao",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      },
+      "english_registration_record": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Antspan",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
         }
       },
       "registration_status": "not_officially_cleared",

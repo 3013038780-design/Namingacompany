@@ -21,29 +21,29 @@
     },
     "A2": {
       "agent_id": "/root/continuous_a2",
-      "status": "running_next_supplement_after_batch2",
+      "status": "completed_three_small_batches",
       "execution_ref": "本聊天原continuous_a2实际followup_task，已接收A1-relay与已验收搜索计划，开始资料阅读/创作",
       "stage_receipt": "A2-execution.json",
       "plan_completed_at": "2026-11-07T19:49:25.371755+08:00",
-      "next_stage": "material_reading_and_chinese_creation",
+      "next_stage": "later_supplement_after_current_english_screen",
       "material_receipt": "reading-execution.json"
     },
     "A3": {
       "agent_id": "/root/live_a3",
-      "status": "running_E03_and_cn_batch3",
+      "status": "waiting_C11_first_english_rework",
       "execution_ref": "原live_a3实际followup复核3储备，40原查询+1必要新查询；随后负责新中文与英文两段",
       "reserve_receipt": "reserve-followthrough/A3-review.json",
       "controls_ref": "A3-controls.json"
     },
     "A4": {
       "agent_id": "/root/continuous_a4",
-      "status": "waiting_next_cn_pass_after_E03",
+      "status": "running_C11_first_english_rework",
       "execution_ref": "本聊天实际spawn continuous_a4，已终审三储备，等待新合格中文英文匹配",
       "reserve_receipt": "reserve-followthrough/A4-review.json"
     }
   },
   "current_stage": "streaming_supplement_and_checks",
-  "checkpointed_at": "2026-11-07T21:02:07.589883+08:00",
-  "new_families_delivered": 1,
+  "checkpointed_at": "2026-11-07T21:10:11.516595+08:00",
+  "new_families_delivered": 2,
   "whole_research_complete": false
 }

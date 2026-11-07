@@ -1,0 +1,42 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "submitted_at": "2026-11-07T21:11:41.455369+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch3.json",
+      "sha256": "b0849a393c3e66ae37a7dd9406cfc5b5b90531cc21c556e7b17974bf9fd347d3"
+    },
+    {
+      "path": "materials-extension3.json",
+      "sha256": "a549fff62266ddf31e61b34e8c8523b247927918903944bab48863a1bdaeac36"
+    },
+    {
+      "path": "A3-cn-batch4.json",
+      "sha256": "7bd2807767134271aa0bf53b1969eb9c261ea0e37336f0be1e2dcb96e094b118"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E06",
+      "chinese_id": "C1-C11",
+      "chinese": "回车以后",
+      "english": "Linewake",
+      "suggested_pronunciation": "LINE-wayk /ˈlaɪnweɪk/（建议，按line与wake两个普通词读）。",
+      "type": "complete_English_morphemes_meaningful_compound",
+      "formation": "line取用户写下并提交的输入文字，wake取开始活动的普通动词意象。Linewake把一行表达与随之开始的执行、回应连成一个短称呼；两个完整语素原本对应同一交互场景，不是After Enter微改，也不换中文拼音。它是本轮品牌造词，不冒称既有词典词或REPL正式术语。",
+      "bilingual_relation": "中文把时间放在提交动作之后，英文把输入让运算开始活动的画面放到前面；两边共享从人的表达进入可执行、可回应系统的同一边界。line是输入表达的可感外壳，不把所有程序都限为一行。",
+      "meaning": "写下的表达进入系统以后，事情才开始发生：得到执行或反馈，再形成下一次交互的条件。公司可据此研究人与智能系统相遇之后的作用，不只是一款聊天或代码工具。",
+      "shortcoming": "初次需要介绍line+wake的拆分；可能先像代码工具、通信线路唤醒或生成艺术品牌，英文更偏程序员场景。wake的活动意象须避免被误解成意识觉醒；连写新词的实际使用与形近拼写仍要由A3独立核查。",
+      "boundary": "wake只是品牌拟人，不是说解释器真的睡眠或具有意识。完整输入、语法与环境等条件仍重要：一次回车可能只是多行输入的继续，不保证执行成功；错误后能返回提示符也非永远不中断。保存定义和继续交互不等于模型自主学习或能力必然成长。",
+      "source_urls": [
+        "https://sicp.sourceacademy.org/chapters/4.1.4.html",
+        "https://docs.python.org/3/tutorial/interpreter.html",
+        "https://docs.python.org/3/tutorial/appendix.html"
+      ],
+      "read_scope": "本A4实际读SICP4.1.4 L264–282及driver-loop L288–304、脚注L318，看到读完整输入、求值、输出与下一次调用；实际读Python解释器文档L10–17、23–37的交互/多行条件及附录L3–14的错误后返回提示符和可终止条件。未读解释器全部实现、未查打印机回车历史；已核A3-cn-batch4.json中C1-C11通过，英文使用/登记查询未执行。",
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

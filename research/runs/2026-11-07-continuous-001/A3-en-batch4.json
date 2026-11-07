@@ -1,0 +1,118 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T21:07:37.896905+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch4.md",
+      "sha256": "3c4bbb9725f3b387cdb34755051e9b60e049c90ab177c964610e14dcea6b9963"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-batch4.json",
+      "sha256": "cf7421fcd00d3ba846c91a9bdbbfb6ca733401495d9d09934209224ef43793d1"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch4.json",
+      "sha256": "984e65b7a179c1716aa322da017708702dae22a8d03164d7c83da635a20650fd"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch4.json",
+      "sha256": "be3423f457c6a899183210a89f8eccf11e31ae3cc4ac08c43b7942a7667f8f5a"
+    }
+  ],
+  "query_count": 7,
+  "results": [
+    {
+      "candidate_id": "C1-E04",
+      "name": "Antspan",
+      "query_logs": [
+        {
+          "query": "\"Antspan\"",
+          "executed_on": "2026-11-07",
+          "summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。"
+        },
+        {
+          "query": "\"Antspan\" company lab technology",
+          "executed_on": "2026-11-07",
+          "summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。"
+        },
+        {
+          "query": "\"Antspan\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。"
+        },
+        {
+          "query": "\"Antspan\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。"
+        },
+        {
+          "query": "\"Ant Span\" OR \"Ant-Span\" company software",
+          "executed_on": "2026-11-07",
+          "summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。"
+        },
+        {
+          "query": "\"Antspan\" brand startup -site:seslisozluk.net -filetype:pdf -site:reclameaqui.com.br -site:solutudo.com.br",
+          "executed_on": "2026-11-07",
+          "summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。"
+        },
+        {
+          "query": "\"Antspan\" \"MAV\"",
+          "executed_on": "2026-11-07",
+          "summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。"
+        }
+      ],
+      "decision": "public_use_screen_pass",
+      "reason": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。",
+      "evidence": [
+        {
+          "url": "https://sites.google.com/site/silviogarbes/curriculo",
+          "access": "primary_personal_cv_body_read",
+          "finding": "L125 Antspan: MAV Mail Suite Anstispam，与Antivirus: AVG Network等同列，是技术类别说明与软件实例，不是独立Antspan软件名。个人不作同名公司。"
+        },
+        {
+          "url": "https://www.solutudo.com.br/empresas/go/goiania/terraplanagens/lc-pavimentacao-e-terraplanagem-ltda-37271884",
+          "access": "third_party_search_text_only",
+          "finding": "实际公司LC Pavimentacao E Terraplanagem Ltda，Antspan在邮箱标识出现而非公司/产品名称。"
+        },
+        {
+          "url": "https://s3.amazonaws.com/el.com.br/portal/uploads/1847/arquivos/E7CCCBA7F8EFD0E6D1B1B5132A527C4F.pdf",
+          "access": "government_report_search_text_only",
+          "finding": "Gerenciamento do Sistema de AntSpan后是放行/阻挡邮件、blacklist/whitelist，属于antispam服务类别。未据此虚构厂商。"
+        },
+        {
+          "url": "https://www.seslisozluk.net/ant---nedir-ne-demek/",
+          "access": "search_text_only",
+          "finding": "摘要出现span class word-self antspan，HTML标签黏连，不作为实际Antspan词典词或软件证据。"
+        },
+        {
+          "url": "https://www.reclameaqui.com.br/hostgator/email-nao-estao-funcionando_sU4snEJqFRA5E7Qq/",
+          "access": "search_text_only_body_403",
+          "finding": "用户投诉antspan阻挡邮件，网页403；语境指反垃圾过滤，不据此确证完整同名软件。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Antspan",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      },
+      "chinese_candidate_id": "C1-C08",
+      "chinese": "活桥",
+      "semantic_risk": "已实际见多处Antspan作为antispam误拼；与反垃圾邮件词形/发音近似，须交A4主控再评品牌独立性，不能声称世上首次造词；不因该通类词就自动认实际科技品牌占用。"
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。"
+}

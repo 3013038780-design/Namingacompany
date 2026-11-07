@@ -356,6 +356,282 @@
           "sha256": "e29c9f8e08fe1219e0b0d69eede0798c2e2ef94b8bf6d12e36759b5c310b3e53"
         }
       ]
+    },
+    {
+      "id": "H4-C08",
+      "from": "A3",
+      "to": "A4",
+      "status": "accepted",
+      "timestamp": "2026-11-07T21:07:06.126920+08:00",
+      "candidate_ids": [
+        "C1-C08"
+      ],
+      "reason": "活桥7实际中文查询通过，真实源PDF前2页主控核对，已实际交原A4。开合/开明兽已有具体科技使用淘汰。",
+      "input_refs": [
+        {
+          "path": "A3-cn-batch3.json",
+          "sha256": "c202e39d45f913f8a42b016f764a7f809b341633a6743fc3df99283ccc763084"
+        },
+        {
+          "path": "coordinator-cn-batch2.json",
+          "sha256": "f5637459e86591cafb960eb846ef4a447098edb2f29ca52fe64abb3710a8cc60"
+        },
+        {
+          "path": "root-source-review-batch2.json",
+          "sha256": "eec81a96b67e1197d76864e1453828b7dd4d4d8663cf007a09fcf6ac589f66ea"
+        }
+      ],
+      "output_refs": []
+    },
+    {
+      "id": "H5-E04",
+      "from": "A4",
+      "to": "coordinator",
+      "status": "accepted",
+      "timestamp": "2026-11-07T21:07:06.127678+08:00",
+      "candidate_ids": [
+        "C1-E04"
+      ],
+      "reason": "活桥Antspan先主控独评再读producer，双过、各轴差≤1，已实际交同A3独立英文查询。",
+      "input_refs": [
+        {
+          "path": "A4-preview-batch4.md",
+          "sha256": "3c4bbb9725f3b387cdb34755051e9b60e049c90ab177c964610e14dcea6b9963"
+        },
+        {
+          "path": "A4-batch4.json",
+          "sha256": "cf7421fcd00d3ba846c91a9bdbbfb6ca733401495d9d09934209224ef43793d1"
+        },
+        {
+          "path": "A4-quality-batch4.json",
+          "sha256": "984e65b7a179c1716aa322da017708702dae22a8d03164d7c83da635a20650fd"
+        },
+        {
+          "path": "coordinator-en-batch4.json",
+          "sha256": "be3423f457c6a899183210a89f8eccf11e31ae3cc4ac08c43b7942a7667f8f5a"
+        }
+      ],
+      "output_refs": []
+    },
+    {
+      "id": "H3-C11",
+      "from": "coordinator",
+      "to": "A3",
+      "status": "accepted",
+      "timestamp": "2026-11-07T21:07:06.128311+08:00",
+      "candidate_ids": [
+        "C1-C11"
+      ],
+      "reason": "回车以后双评通过且新家族，已实际查询。横风虽然质量数值过，但品牌画面与旧风家族重合，不查、不称占用。",
+      "input_refs": [
+        {
+          "path": "A2-preview-batch3.md",
+          "sha256": "0e14622611399fe6005488167394be4901708fe0682a0402635e3ccc399fddf4"
+        },
+        {
+          "path": "A2-candidates-batch3.json",
+          "sha256": "b0849a393c3e66ae37a7dd9406cfc5b5b90531cc21c556e7b17974bf9fd347d3"
+        },
+        {
+          "path": "A2-quality-batch3.json",
+          "sha256": "f1248507073512b7779d1cb7e8ad18e2c8c15ed0d085c1a508dc4cc1d9b2fc91"
+        },
+        {
+          "path": "coordinator-cn-batch3.json",
+          "sha256": "1bd13c183684202eca3c9c278c454f4915cf8a296ac3d8e4bc96ba50f4ee2213"
+        },
+        {
+          "path": "coordinator-family-review-batch3.json",
+          "sha256": "63ecc85cdc97c0629f79447ab5378d421736ae9511a7d518bbd3f190fcf8745c"
+        }
+      ],
+      "output_refs": []
+    },
+    {
+      "id": "H4-C11",
+      "from": "A3",
+      "to": "A4",
+      "status": "accepted",
+      "timestamp": "2026-11-07T21:07:06.128716+08:00",
+      "candidate_ids": [
+        "C1-C11"
+      ],
+      "reason": "回车以后6实际中文查询通过，较短回车科技近邻披露；已实际交原A4匹配英文。",
+      "input_refs": [
+        {
+          "path": "A3-cn-batch4.json",
+          "sha256": "7bd2807767134271aa0bf53b1969eb9c261ea0e37336f0be1e2dcb96e094b118"
+        },
+        {
+          "path": "coordinator-cn-batch3.json",
+          "sha256": "1bd13c183684202eca3c9c278c454f4915cf8a296ac3d8e4bc96ba50f4ee2213"
+        },
+        {
+          "path": "root-source-review-batch3.json",
+          "sha256": "a13f0880d6ce0cf9a45e5f20dda2848f6840df0ca2201c376b820c5ec3687d92"
+        }
+      ],
+      "output_refs": []
+    },
+    {
+      "id": "H6-E03-return",
+      "from": "A3",
+      "to": "A4",
+      "status": "accepted",
+      "timestamp": "2026-11-07T21:07:06.129050+08:00",
+      "candidate_ids": [
+        "C1-E03",
+        "C1-C01"
+      ],
+      "reason": "Either End因实际电子连接器商品使用主动避让，历史1992过期商标不当在册；已实际交原A4最后1次英文返工。",
+      "input_refs": [
+        {
+          "path": "A3-en-batch3.json",
+          "sha256": "58124dfdb83a15c09a176fa88759e2a95bdd86ddd87d262d4a58fd3c826803c7"
+        },
+        {
+          "path": "root-source-review-batch3.json",
+          "sha256": "a13f0880d6ce0cf9a45e5f20dda2848f6840df0ca2201c376b820c5ec3687d92"
+        }
+      ],
+      "output_refs": []
+    },
+    {
+      "id": "H5-E05",
+      "from": "A4",
+      "to": "coordinator",
+      "status": "accepted",
+      "timestamp": "2026-11-07T21:10:11.521528+08:00",
+      "candidate_ids": [
+        "C1-E05"
+      ],
+      "reason": "主控先独评再比对，22/22双过且各轴差≤1，实际交同A3最后英文复查。",
+      "input_refs": [
+        {
+          "path": "A4-preview-batch5.md",
+          "sha256": "b33ea970db84ae58cb7477852c66fc26538e8b6587f3d4c3062ce0c10dfb9a54"
+        },
+        {
+          "path": "A4-batch5.json",
+          "sha256": "a94b81c013c6b796289081c95fc01a6b67cb938b8bcfaf626fac2646f4a9ec67"
+        },
+        {
+          "path": "A4-quality-batch5.json",
+          "sha256": "e4e953a108cd2e4be386b4a0e3b59cc596d62124e67b07012bb7f94524343e8f"
+        },
+        {
+          "path": "coordinator-en-batch5.json",
+          "sha256": "6ae7b9d4b741182755066aa03e8422f5f1dcf34e8ee323cd34a31acd7f4364a7"
+        }
+      ],
+      "output_refs": []
+    },
+    {
+      "id": "H6-E05-final",
+      "from": "A3",
+      "to": "coordinator",
+      "status": "accepted",
+      "timestamp": "2026-11-07T21:10:11.522154+08:00",
+      "candidate_ids": [
+        "C1-E05",
+        "C1-C01"
+      ],
+      "reason": "真实同名传播工作室What Follows有收费商业服务；最后attempt2结束，由此及彼本轮未交付，不继续第三次返工。",
+      "input_refs": [
+        {
+          "path": "A3-en-batch5.json",
+          "sha256": "b1961a56b7c1204b4fb8ab8c1b1215e73ec5b71cc1552c4fe503d3a3afed28f1"
+        }
+      ],
+      "output_refs": []
+    },
+    {
+      "id": "H7-E04",
+      "from": "A3/A4",
+      "to": "coordinator",
+      "status": "accepted",
+      "timestamp": "2026-11-07T21:11:22.462605+08:00",
+      "candidate_ids": [
+        "C1-C08",
+        "C1-E04"
+      ],
+      "reason": "活桥/Antspan双语各7实际查询过；新风险按真实CV及A4补审区分误拼类别与商业品牌，主控接受带明确听写短板讨论，新增1独立家族。",
+      "input_refs": [
+        {
+          "path": "A3-cn-batch3.json",
+          "sha256": "c202e39d45f913f8a42b016f764a7f809b341633a6743fc3df99283ccc763084"
+        },
+        {
+          "path": "A3-en-batch4.json",
+          "sha256": "f2faa8c3645160bfbffb37d78063370d4e60b87c04b2615d7c7c7f994a9cd9be"
+        },
+        {
+          "path": "A4-E04-usage-note.json",
+          "sha256": "855de77a04c8f0cd66983b53f6beb713e4f637a0cff3598d2b3a0934257758be"
+        },
+        {
+          "path": "coordinator-cn-batch2.json",
+          "sha256": "f5637459e86591cafb960eb846ef4a447098edb2f29ca52fe64abb3710a8cc60"
+        },
+        {
+          "path": "coordinator-en-batch4.json",
+          "sha256": "be3423f457c6a899183210a89f8eccf11e31ae3cc4ac08c43b7942a7667f8f5a"
+        },
+        {
+          "path": "delivery-C1-E04.json",
+          "sha256": "27044edd019d7f339700b85f802f68131ed6d1e102da4915b963a0642688fc13"
+        }
+      ],
+      "output_refs": []
+    },
+    {
+      "id": "H5-E06",
+      "from": "A4",
+      "to": "coordinator",
+      "status": "accepted",
+      "timestamp": "2026-11-07T21:13:31.983669+08:00",
+      "candidate_ids": [
+        "C1-E06"
+      ],
+      "reason": "先主控盲评再读producer，21/22双过，已实际交原A3独立英文查询。",
+      "input_refs": [
+        {
+          "path": "A4-preview-batch6.md",
+          "sha256": "25d11e3ef542c6036f8b02b21ddaa8f737673355da59df29afeb618e2b729c8f"
+        },
+        {
+          "path": "A4-batch6.json",
+          "sha256": "907797ff13563e404ec202bfa3c006e920f26d3848ec0ec7cc18a8a537978b94"
+        },
+        {
+          "path": "A4-quality-batch6.json",
+          "sha256": "a5c4bb6f11ecde01c775e08629506f511fbf3ef16dfccaf1d2eb42739bb86123"
+        },
+        {
+          "path": "coordinator-en-batch6.json",
+          "sha256": "f8e0d04e4dcf52f4389d38816942631787982f23ed896104ca6dccf8fd2a94f4"
+        }
+      ],
+      "output_refs": []
+    },
+    {
+      "id": "H6-E06-return",
+      "from": "A3",
+      "to": "A4",
+      "status": "accepted",
+      "timestamp": "2026-11-07T21:13:31.984481+08:00",
+      "candidate_ids": [
+        "C1-E06",
+        "C1-C11"
+      ],
+      "reason": "Linewake与Steam官方明确的软件开发/发行品牌Linewake Studio同核心名，淘汰；原A4已实际接收回车以后第一次英文返工。",
+      "input_refs": [
+        {
+          "path": "A3-en-batch6.json",
+          "sha256": "b39b5fd8b044f9e29af02a939ca984da910eeef3b4ce5a342e9901b6d0576cfb"
+        }
+      ],
+      "output_refs": []
     }
   ],
   "pending_handoffs": [

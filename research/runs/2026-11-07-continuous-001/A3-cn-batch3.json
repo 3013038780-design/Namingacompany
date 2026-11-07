@@ -1,0 +1,209 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T21:03:49.995141+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch2.json",
+      "sha256": "a6edfe841b0c674cf075ca8f5b3333632cb70e12c210047233bae14ec6a00419"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch2.md",
+      "sha256": "71c055f9458569881f7e9da44808b390169c32814910d317452c7ec0c1b68441"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch2.json",
+      "sha256": "f9468f86c3e49fa4ec59ddf61a9320929a43a84f6ad1e2c7ce1433fae021d5d0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch2.json",
+      "sha256": "f5637459e86591cafb960eb846ef4a447098edb2f29ca52fe64abb3710a8cc60"
+    }
+  ],
+  "query_count": 17,
+  "results": [
+    {
+      "candidate_id": "C1-C07",
+      "name": "开合",
+      "query_logs": [
+        {
+          "query": "\"开合\"",
+          "executed_on": "2026-11-07",
+          "summary": "天津开合电力科技有限公司官网确证同核心科技机构及工业数字化业务，自称开合科技，不是只出现开合动作；KAIHE AI实际中文铠盒，不作为中文精确占用。"
+        },
+        {
+          "query": "\"开合\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "天津开合电力科技有限公司官网确证同核心科技机构及工业数字化业务，自称开合科技，不是只出现开合动作；KAIHE AI实际中文铠盒，不作为中文精确占用。"
+        },
+        {
+          "query": "\"开合\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "天津开合电力科技有限公司官网确证同核心科技机构及工业数字化业务，自称开合科技，不是只出现开合动作；KAIHE AI实际中文铠盒，不作为中文精确占用。"
+        },
+        {
+          "query": "\"開合\" 公司 軟體",
+          "executed_on": "2026-11-07",
+          "summary": "天津开合电力科技有限公司官网确证同核心科技机构及工业数字化业务，自称开合科技，不是只出现开合动作；KAIHE AI实际中文铠盒，不作为中文精确占用。"
+        },
+        {
+          "query": "\"kaihe\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "天津开合电力科技有限公司官网确证同核心科技机构及工业数字化业务，自称开合科技，不是只出现开合动作；KAIHE AI实际中文铠盒，不作为中文精确占用。"
+        }
+      ],
+      "decision": "reject",
+      "reason": "天津开合电力科技有限公司官网确证同核心科技机构及工业数字化业务，自称开合科技，不是只出现开合动作；KAIHE AI实际中文铠盒，不作为中文精确占用。",
+      "evidence": [
+        {
+          "url": "https://www.kahuer.com/",
+          "access": "primary_company_body_read",
+          "finding": "标题公司全名；企业概况工业物联网/边缘控制/智能制造；L111自称开合科技，L165版权公司主体。"
+        },
+        {
+          "url": "https://agentaibox.com/",
+          "access": "primary_product_body_read",
+          "finding": "实际铠盒AIBOX私人AI助手，近音异字不能冒充开合同名。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        }
+      }
+    },
+    {
+      "candidate_id": "C1-C08",
+      "name": "活桥",
+      "query_logs": [
+        {
+          "query": "\"活桥\"",
+          "executed_on": "2026-11-07",
+          "summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。"
+        },
+        {
+          "query": "\"活桥\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。"
+        },
+        {
+          "query": "\"活桥\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。"
+        },
+        {
+          "query": "\"活橋\" 公司 軟體",
+          "executed_on": "2026-11-07",
+          "summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。"
+        },
+        {
+          "query": "\"huoqiao\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。"
+        },
+        {
+          "query": "\"活桥科技\" OR \"活桥智能\" OR \"活桥软件\"",
+          "executed_on": "2026-11-07",
+          "summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。"
+        },
+        {
+          "query": "\"活桥\" \"有限公司\"",
+          "executed_on": "2026-11-07",
+          "summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。"
+        }
+      ],
+      "decision": "public_use_screen_pass",
+      "reason": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。",
+      "evidence": [
+        {
+          "url": "https://www.xinhuanet.com/world/2016-04/13/c_128890254.htm",
+          "access": "search_text_only_open_redirect_loop",
+          "finding": "2016报道当地居民以树根建活桥，标题描述自然/工程对象，非科技品牌；打开重定向循环。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Huoqiao",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      }
+    },
+    {
+      "candidate_id": "C1-C10",
+      "name": "开明兽",
+      "query_logs": [
+        {
+          "query": "\"开明兽\"",
+          "executed_on": "2026-11-07",
+          "summary": "北京华晖探测科技股份有限公司已实际以开明兽命名管线泄漏智能预警系统/巡检平台，核心同名科技产品非仅神话文章。"
+        },
+        {
+          "query": "\"开明兽\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "北京华晖探测科技股份有限公司已实际以开明兽命名管线泄漏智能预警系统/巡检平台，核心同名科技产品非仅神话文章。"
+        },
+        {
+          "query": "\"开明兽\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "北京华晖探测科技股份有限公司已实际以开明兽命名管线泄漏智能预警系统/巡检平台，核心同名科技产品非仅神话文章。"
+        },
+        {
+          "query": "\"開明獸\" 公司 軟體",
+          "executed_on": "2026-11-07",
+          "summary": "北京华晖探测科技股份有限公司已实际以开明兽命名管线泄漏智能预警系统/巡检平台，核心同名科技产品非仅神话文章。"
+        },
+        {
+          "query": "\"kaimingshou\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "北京华晖探测科技股份有限公司已实际以开明兽命名管线泄漏智能预警系统/巡检平台，核心同名科技产品非仅神话文章。"
+        }
+      ],
+      "decision": "reject",
+      "reason": "北京华晖探测科技股份有限公司已实际以开明兽命名管线泄漏智能预警系统/巡检平台，核心同名科技产品非仅神话文章。",
+      "evidence": [
+        {
+          "url": "https://www.huahuitech.com/h-nd-54.html",
+          "access": "primary_announcement_title_read_followup_timeout",
+          "finding": "最初web打开100行含公司/产品标题，搜索索引详细发布；后续正文重取超时、curl证书失败，不冒称此页完整重新核读。"
+        },
+        {
+          "url": "https://www.huahuitech.com/h-nd-73.html",
+          "access": "primary_deployment_announcement_body_read",
+          "finding": "2024-09-02文章L39–69明确开明兽油气管线泄漏检测快速移动平台演示、软件显示/报警与大气扩散模型算法；只核使用，不背书性能。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        }
+      }
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。"
+}

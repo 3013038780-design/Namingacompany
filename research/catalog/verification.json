@@ -1,9 +1,9 @@
 {
-  "verified_at": "2026-11-07T21:02:45.341355+08:00",
+  "verified_at": "2026-11-07T21:14:02.846259+08:00",
   "catalog_counts": {
-    "discussion_candidates": 23,
+    "discussion_candidates": 24,
     "research_reserves": 1,
-    "total_unique_families": 24
+    "total_unique_families": 25
   },
   "checks": {
     "catalog_idempotent": true,
@@ -26,11 +26,11 @@
     "configuration_verified_in_local_app_record": true,
     "documentation": "https://learn.chatgpt.com/docs/automations?surface=app"
   },
-  "scope_note": "当前研究真实四角色接续，15资料、10中文草案及流式查重；第一新家族余量/Spare Signal已逐名终审。整批研究仍在进行，不宣称生产合规全部完成。",
+  "scope_note": "当前研究18材料/12中文草案，2个新增家族双语实际筛查及终审；回车以后正在英文返工，整研究覆盖未完成。",
   "latest_editorial_update": {
     "old_reserves_promoted": 2,
-    "new_families": 1,
-    "source": "research/runs/2026-11-07-continuous-001/delivery-first.json",
+    "new_families": 2,
+    "source": "research/runs/2026-11-07-continuous-001/delivery.json",
     "risk_hold": "Airsung近似Aisung，当前英文不采用；中文研究保留"
   }
 }

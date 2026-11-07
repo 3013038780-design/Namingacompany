@@ -1,0 +1,103 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T21:05:41.316924+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch3.json",
+      "sha256": "b0849a393c3e66ae37a7dd9406cfc5b5b90531cc21c556e7b17974bf9fd347d3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch3.md",
+      "sha256": "0e14622611399fe6005488167394be4901708fe0682a0402635e3ccc399fddf4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch3.json",
+      "sha256": "f1248507073512b7779d1cb7e8ad18e2c8c15ed0d085c1a508dc4cc1d9b2fc91"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch3.json",
+      "sha256": "1bd13c183684202eca3c9c278c454f4915cf8a296ac3d8e4bc96ba50f4ee2213"
+    }
+  ],
+  "query_count": 6,
+  "results": [
+    {
+      "candidate_id": "C1-C11",
+      "name": "回车以后",
+      "query_logs": [
+        {
+          "query": "\"回车以后\"",
+          "executed_on": "2026-11-07",
+          "summary": "六组独立查询未确证完整同名科技公司、模型或独立软件。常见文档/教程/用户问题中为回车动作后的描述；已有回车科技是两字机构词根，不能自动等同完整回车以后，但近邻品牌须披露。"
+        },
+        {
+          "query": "\"回车以后\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "六组独立查询未确证完整同名科技公司、模型或独立软件。常见文档/教程/用户问题中为回车动作后的描述；已有回车科技是两字机构词根，不能自动等同完整回车以后，但近邻品牌须披露。"
+        },
+        {
+          "query": "\"回车以后\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "六组独立查询未确证完整同名科技公司、模型或独立软件。常见文档/教程/用户问题中为回车动作后的描述；已有回车科技是两字机构词根，不能自动等同完整回车以后，但近邻品牌须披露。"
+        },
+        {
+          "query": "\"回車以後\" 公司 軟體",
+          "executed_on": "2026-11-07",
+          "summary": "六组独立查询未确证完整同名科技公司、模型或独立软件。常见文档/教程/用户问题中为回车动作后的描述；已有回车科技是两字机构词根，不能自动等同完整回车以后，但近邻品牌须披露。"
+        },
+        {
+          "query": "\"huicheyihou\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "六组独立查询未确证完整同名科技公司、模型或独立软件。常见文档/教程/用户问题中为回车动作后的描述；已有回车科技是两字机构词根，不能自动等同完整回车以后，但近邻品牌须披露。"
+        },
+        {
+          "query": "\"回车以后\" 品牌 产品 -site:zhihu.com -site:csdn.net",
+          "executed_on": "2026-11-07",
+          "summary": "六组独立查询未确证完整同名科技公司、模型或独立软件。常见文档/教程/用户问题中为回车动作后的描述；已有回车科技是两字机构词根，不能自动等同完整回车以后，但近邻品牌须披露。"
+        }
+      ],
+      "decision": "public_use_screen_pass",
+      "reason": "六组独立查询未确证完整同名科技公司、模型或独立软件。常见文档/教程/用户问题中为回车动作后的描述；已有回车科技是两字机构词根，不能自动等同完整回车以后，但近邻品牌须披露。",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/zh-cn/answers/questions/5384697/word-q-q",
+          "access": "primary_product_support_body_opened",
+          "finding": "问题标题word文档按回车以后显示q一样的符号；讨论Word段落符显示，回车以后是普通短语而非独立产品。"
+        },
+        {
+          "url": "https://ninghao.net/course/1510",
+          "access": "search_text_only_body_timeout",
+          "finding": "搜索索引课程Backbone应用实例，章节回车以后创建新任务-keypress事件是内容标题，不是独立同名软件；页面实际打开超时，不冒称正文已读。"
+        },
+        {
+          "url": "https://epaper.zjgrrb.com/images/2018-12/28/z2018122800002.pdf",
+          "access": "newspaper_search_text_only",
+          "finding": "报道回车科技，较短核心词已有机构使用；没有完整回车以后主体，不冒称完整重名。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Huicheyihou",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      }
+    }
+  ],
+  "passed_chinese_candidate_ids": [
+    "C1-C11"
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛不等于官方核名、第9/42类可注册或全球无使用。"
+}
