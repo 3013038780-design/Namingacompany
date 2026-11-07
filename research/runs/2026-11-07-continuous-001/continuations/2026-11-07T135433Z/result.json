@@ -1,0 +1,66 @@
+{
+  "automation_id": "automation",
+  "completed_at": "2026-11-07T22:06:45.023916+08:00",
+  "status": "small_packet_complete_zero_retained",
+  "actual_A1_basis_reused": [
+    "A1-final-input-reacceptance.json",
+    "A1-formation-feedback.json",
+    "search-plan.json",
+    "plan-review.json"
+  ],
+  "new_A1_research_claimed": false,
+  "actual_A2": "/root/continuous_a2",
+  "actual_A3_same_cn_en": "/root/live_a3",
+  "actual_A4": "/root/continuous_a4",
+  "new_materials": 1,
+  "new_chinese_drafts": 1,
+  "chinese_quality_passed": 1,
+  "chinese_public_use_passed": 0,
+  "new_english_versions": 0,
+  "new_retained_families": 0,
+  "new_candidate_query_executions": 11,
+  "cumulative_candidate_query_executions": 194,
+  "cumulative_materials": 26,
+  "cumulative_chinese_drafts": 18,
+  "cumulative_english_versions": 13,
+  "catalog_counts_unchanged": {
+    "discussion_candidates": 24,
+    "research_reserves": 1,
+    "total_unique_families": 25,
+    "withdrawn_families": 1,
+    "historical_unique_families": 26
+  },
+  "reason": "余光已有独立同核心软件/照明品牌，A4真实零输入、同A3真实零英文回查均已执行；未降低标准或把失败改名当新增。",
+  "evidence_refs": [
+    {
+      "path": "A2-candidates-batch7.json",
+      "sha256": "8b7fe1e061566a166efffffaa814e148d38ae61502aca97fee46b0f3f4e1be87"
+    },
+    {
+      "path": "A2-creation-execution-batch7.json",
+      "sha256": "2796ba36c8b7ea09545dee7604756a7fc294e32eb9dae5ea27c0f69b9396519c"
+    },
+    {
+      "path": "coordinator-cn-batch7.json",
+      "sha256": "bb621464276153ba3c28c708de5048de1605887d148e2a6cec7acc2fa7748c43"
+    },
+    {
+      "path": "coordinator-family-review-batch7.json",
+      "sha256": "bcb8490e428ab3ee90be45a29b4494403dfba23ff28d43b78177cd97ef466258"
+    },
+    {
+      "path": "A3-cn-batch8.json",
+      "sha256": "034dc9ac72b241b672332919dd8147cbe143e7d116cf58d67e980d80351a1994"
+    },
+    {
+      "path": "A4-zero-input-batch7.json",
+      "sha256": "b2e251101e90b0fb8b59543839a90898eb0f39b10270cbed568bec473c2c30e2"
+    },
+    {
+      "path": "A3-en-zero-batch7.json",
+      "sha256": "75d1665f8b26b0c832b7cd754b6dd87aa4f75aa34af428bcbd2c6ea82f65c374"
+    }
+  ],
+  "whole_production_compliance_claimed": false,
+  "notification_decision": "DONT_NOTIFY_no_new_deliverable_or_user_action"
+}

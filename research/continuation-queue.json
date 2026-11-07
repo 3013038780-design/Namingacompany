@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T21:49:32.886102+08:00",
+  "updated_at": "2026-11-07T22:06:45.023916+08:00",
   "policy": "continuous_no_quantity_quota",
   "scheduler": {
     "id": "automation",
@@ -19,8 +19,8 @@
     "historical_unique_families": 26
   },
   "active_run": "research/runs/2026-11-07-continuous-001",
-  "actual_state": "checkpoint_ready_for_next_scheduled_continuation",
-  "next_action": "本工作段四实际角色均已结束。下一唤醒先读当前progress、decisions、A4-closeout与A1真实构词反馈；保持六宏观方向，找不同于现有/历史家族的真实关系直接交自然中文，经独立双评、同一A3中英两段查询、真实A4英文与主控终审，每有新增即更新总库。不要再研究105起点或停在素材卡；不重开已耗尽C01/C11/C13、不恢复余量、不用同家族变体凑新数。必要时重建失效实例并记录真实交接，A3若替换须重新实际完成该名字的中英两段。",
+  "actual_state": "checkpoint_ready_after_batch7_zero_retained",
+  "next_action": "本包A2/A3/A4阶段真实完成，无新增。下次先读最新冻结18案及A1已验收构词反馈，沿六宏观方向找未提过的真实关系与自然新称呼；可用三四字完整意象或有据熟字组合，不只摘高频双字，也不硬拼科技字。余光已有软件和照明品牌，禁止改余晖等同族刷新增；不恢复余量/耗尽家族。复用原A1，不重开计划；原A3继续两段独立查询。",
   "pending_stages": [
     "A2真实资料→中文创作；先素材小批内部快审",
     "主控独立中文质量→同A3中文使用筛查",
@@ -90,14 +90,18 @@
     ],
     "new_names_yet": 2,
     "whole_24_family_research_complete": false,
-    "cumulative_materials": 25,
-    "cumulative_chinese_drafts": 17
+    "cumulative_materials": 26,
+    "cumulative_chinese_drafts": 18
   },
   "closed_current_families": {
     "C1-C01": "英文3版已有商业使用，返工耗尽",
     "C1-C11": "英文Linewake/AtRuntime已有商业使用，Replyrise质量不通过，返工耗尽",
     "C1-C13": "英文Passageway/Textrove已有软件或品牌，Linkroam搜索联想避让，返工耗尽",
     "C1-C06": "官方科技企业名单确证已有杭州余量科技，撤回；禁止换英文救回中文",
-    "C1-C17": "主控跨类同字标志及科技近名编辑避让，不等于精确科技占用"
-  }
+    "C1-C17": "主控跨类同字标志及科技近名编辑避让，不等于精确科技占用",
+    "C1-C18": "余光有完整同核心独立软件与照明品牌，中文使用淘汰；不配英文救回、不变体新增"
+  },
+  "heartbeat_checkpoint": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T135433Z/resume.json",
+  "latest_frozen_decision_snapshot": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T135433Z/decisions-through-batch7.json",
+  "latest_continuation_result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T135433Z/result.json"
 }

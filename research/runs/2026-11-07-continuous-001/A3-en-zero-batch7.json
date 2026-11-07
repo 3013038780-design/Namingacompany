@@ -1,0 +1,33 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3",
+  "checked_at": "2026-11-07T22:03:21.259368+08:00",
+  "execution": "实际读取A4零输入回执md/json与自身中文批8并核输入SHA、中文否决及英文零产出一致；不是未开始。",
+  "inputs": [
+    {
+      "path": "A4-zero-input-batch7.md",
+      "sha256": "7f4039bd1b4fae1b568b4e1b2775c51d7cb4693bac16044aff3cb2c1aeceac83"
+    },
+    {
+      "path": "A4-zero-input-batch7.json",
+      "sha256": "b2e251101e90b0fb8b59543839a90898eb0f39b10270cbed568bec473c2c30e2"
+    },
+    {
+      "path": "A3-cn-batch8.json",
+      "sha256": "034dc9ac72b241b672332919dd8147cbe143e7d116cf58d67e980d80351a1994"
+    }
+  ],
+  "chinese_candidate_id": "C1-C18",
+  "chinese": "余光",
+  "chinese_usage_decision": "reject",
+  "english_inputs_received": 0,
+  "english_outputs_reviewed": 0,
+  "new_external_queries": 0,
+  "new_registration_queries": 0,
+  "prior_candidate_query_count": 183,
+  "this_packet_chinese_queries_previously_recorded": 11,
+  "candidate_query_count_cumulative": 194,
+  "controls_reused_not_counted_as_new": 2,
+  "decision": "completed_zero_english_input_receipt_matches_upstream_rejection",
+  "boundary": "本次只读回执及哈希核对，没有重查网页/登记，不称商标942法律否决。原始文件未改、不git。"
+}

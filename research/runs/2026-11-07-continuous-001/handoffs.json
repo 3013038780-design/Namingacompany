@@ -1006,6 +1006,58 @@
         }
       ],
       "output_refs": []
+    },
+    {
+      "id": "H2-batch7",
+      "from": "A2",
+      "to": "coordinator",
+      "status": "accepted",
+      "timestamp": "2026-11-07T22:01:36.773663+08:00",
+      "candidate_ids": [
+        "C1-C18"
+      ],
+      "reason": "安静heartbeat原A2实际新读M26并交一中文。原A1/搜索计划复用明确，未伪造新案例；先无分主控独评后比producer。",
+      "input_refs": [
+        {
+          "path": "A2-preview-batch7.md",
+          "sha256": "b4e7bf249fc064e7fd575230ecc0ec9d7f62e0f67c7b2624bfc9e1ed25067ad5"
+        },
+        {
+          "path": "A2-candidates-batch7.json",
+          "sha256": "8b7fe1e061566a166efffffaa814e148d38ae61502aca97fee46b0f3f4e1be87"
+        },
+        {
+          "path": "A2-quality-batch7.json",
+          "sha256": "0e263c789e07671063b64f6a667675d0078596f4bc9e75937a9a94da98b810c5"
+        },
+        {
+          "path": "materials-extension6.json",
+          "sha256": "352c8a436a64375034802466bb2502fca945d7d65c184527920adad41ce884e7"
+        }
+      ],
+      "output_refs": []
+    },
+    {
+      "id": "H3-C18",
+      "from": "coordinator",
+      "to": "A3",
+      "status": "accepted",
+      "timestamp": "2026-11-07T22:01:36.774618+08:00",
+      "candidate_ids": [
+        "C1-C18"
+      ],
+      "reason": "主控25与原A2自评26双过，各轴差≤1；与旧抬眼/弦外实质区分有边界，已实际交原A3至少5查询并核核心名称。",
+      "input_refs": [
+        {
+          "path": "coordinator-cn-batch7.json",
+          "sha256": "bb621464276153ba3c28c708de5048de1605887d148e2a6cec7acc2fa7748c43"
+        },
+        {
+          "path": "coordinator-family-review-batch7.json",
+          "sha256": "bcb8490e428ab3ee90be45a29b4494403dfba23ff28d43b78177cd97ef466258"
+        }
+      ],
+      "output_refs": []
     }
   ],
   "pending_handoffs": [],

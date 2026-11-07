@@ -1,0 +1,20 @@
+{
+  "automation_id": "automation",
+  "trigger_time": "2026-11-07T13:54:33.372Z",
+  "resumed_at": "2026-11-07T21:56:42.840225+08:00",
+  "same_run": true,
+  "stage": "completed_zero_retained",
+  "agent_id": "/root/continuous_a2",
+  "execution_ref": "本heartbeat实际collaboration.followup_task原A2，复用原A1最近已验收研究与搜索计划，不冒充新A1执行。",
+  "scope": "小包至多2个不同新中文家族；读真实原文，不自查/不配英文，先无分预览。",
+  "snapshot_policy": "本次读取过的动态状态在下次覆盖前冻结，原17案最终快照不改。",
+  "new_retained_pairs": 0,
+  "new_chinese_drafts": 1,
+  "new_draft_ids": [
+    "C1-C18"
+  ],
+  "quality_gate": "root25_producer26_pass_axes_difference_below2",
+  "current_agent_id": null,
+  "completed_at": "2026-11-07T22:06:45.023916+08:00",
+  "result_ref": "result.json"
+}
