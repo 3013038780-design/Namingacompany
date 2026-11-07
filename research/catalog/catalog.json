@@ -2,9 +2,9 @@
   "schema_version": 1,
   "purpose": "持续分类总库；无每日配额。不同英文版本不增加家族数。",
   "counts": {
-    "discussion_candidates": 22,
+    "discussion_candidates": 23,
     "research_reserves": 1,
-    "total_unique_families": 23
+    "total_unique_families": 24
   },
   "worlds": [
     {
@@ -2111,6 +2111,86 @@
           "english_adoption": "not_adopted"
         }
       ]
+    },
+    {
+      "id": "N0024",
+      "chinese": "余量",
+      "english": "Spare Signal",
+      "family_id": "C1-BF-redundancy-enabling-reconstruction",
+      "status": "discussion_candidate",
+      "primary_world": "S3",
+      "tags": [
+        "信息编码",
+        "冗余与恢复",
+        "工程韧性"
+      ],
+      "classification_reason": "来源为编码中额外正确观测与擦除恢复的关系；不同于余项所指未描述的剩余误差。",
+      "brief": "恰好够用之外的量，成为系统面对损失时的恢复余地。",
+      "source": {
+        "title": "UC Berkeley CS294-226 Lecture 5: RS, BCH and Concatenated Codes",
+        "url": "https://people.eecs.berkeley.edu/~venkatg/teaching/ECC-fall22/scribes/lecture05.pdf",
+        "read_scope": "PDF第一页§1 Definition5.1、Lagrange插值段、Theorem5.2；未读后续BCH与级联证明",
+        "date": "2022-09-12",
+        "access": "body"
+      },
+      "fact": "Reed–Solomon编码以多于消息维度的采样表示消息；有限域中次数小于k的多项式可由k个正确、位置已知的不同采样恢复，额外采样允许一部分位置擦除。",
+      "meaning": "在恰好够用之外留出空间，让一个系统面对损失时仍有恢复的可能。",
+      "crossing": "Reed–Solomon以多于消息维度的正确采样编码同一对象，在规定条件下容许部分擦除；“余量”保留多出来的部分如何变成系统韧性的关系。",
+      "layers": [
+        "普通语言中的预留空间与从容",
+        "信息编码中冗余采样和可恢复性的真实联系",
+        "帮助已有系统获得更多应对真实使用条件的研究角色"
+      ],
+      "chinese_shortcoming": "可能像存储、通信或量化业务，声音也近雨量；单独名字不直接说明AI，需要长期研究赋予具体身份。",
+      "english_formation": "spare取额外可供使用、满足基本需要之外保留的意思；signal给出携带信息的可感对象。两个完整普通英语词组成额外一份有用信息的画面，不改Yuliang拼音，也不宣称Spare Signal是Reed–Solomon编码正式术语。",
+      "bilingual_relation": "中文给预留冗余一个宽的工程称呼，英文让多出来的部分成为仍可发挥作用的信息。共享的关系是超过最低需要的编码观测可以在条件满足时支持恢复；不是把余量理解成剩余垃圾或闲置空信号。",
+      "english_shortcoming": "可能先像通信、射频、音频或灾备品牌，研究机构身份偏工程；spare也可能被误读为可有可无的备件。是两个普通词形成的短语，专名独特性中等，须独立查公司、模型、软件和分词变体。 Euresys既有工程文档还把spare signal用于未来预留、当前忽略的字段，因此可能听成尚未启用的备用信号。A4补审后保留为讨论备选，不称首创短语或编码正式术语。",
+      "source_boundary": "可靠恢复依赖正确采样、已知位置等条件，不能推广为任意错误可恢复、无损压缩或凭空增加知识。",
+      "suggested_pronunciation": "SPAIR SIG-nuhl /spɛər ˈsɪɡnəl/（建议，按两个常用词读）。",
+      "cn_screen_summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。",
+      "en_screen_summary": "六组独立查询未确证完整同名公司、AI模型或独立软件品牌。真实普通工程字段、采购备件及专利语言与品牌区分；不称全球未使用或可注册。",
+      "screened_dates": [
+        "2026-11-07"
+      ],
+      "origin_record": "research/runs/2026-11-07-continuous-001/delivery.json",
+      "origin_chinese_id": "C1-C06",
+      "origin_english_id": "C1-E02",
+      "chinese_registration_record": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Yuliang",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      },
+      "english_registration_record": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮入口403，未逐名核名"
+        },
+        "mainland_trademark_class_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口本轮403，未逐名逐类"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Spare%20Signal",
+          "scope": "本候选逐名URL实际打开不可访问，非无公司结论"
+        }
+      },
+      "registration_status": "not_officially_cleared",
+      "registration_note": "原始记录逐入口披露；公开使用初筛不是企业核名或9/42类商标可注册结论。"
     }
   ]
 }

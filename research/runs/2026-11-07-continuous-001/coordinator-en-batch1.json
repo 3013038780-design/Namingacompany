@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T20:51:33.000345+08:00",
+  "independence": "Read producer preview batch1 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C01",
+      "name": "Therefrom",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "可按完整英语词读两音节",
+          "counter_association": "th和书面重音有首次成本"
+        },
+        "spelling": {
+          "reason": "there和from完整可辨无任意字母",
+          "counter_association": "低频词仍需教一次"
+        },
+        "grounding": {
+          "reason": "现存词承载从那个来源而来的意义",
+          "counter_association": "不是SICP算法专名"
+        },
+        "bilingual_relation": {
+          "reason": "方向与认识来处共享已知和未知的关系",
+          "counter_association": "不是成语逐字译"
+        },
+        "distinctiveness": {
+          "reason": "单词外形能作独立研究称呼",
+          "counter_association": "可能像法律或古式文章"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E01"
+    }
+  ]
+}

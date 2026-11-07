@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T20:53:13.299733+08:00",
+  "independence": "Read producer preview batch2 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C06",
+      "name": "Spare Signal",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个常用英语词三音节顺口",
+          "counter_association": "可能像音频产品"
+        },
+        "spelling": {
+          "reason": "完整单词可直接拼写",
+          "counter_association": "分写连写都需查"
+        },
+        "grounding": {
+          "reason": "冗余信息关系有编码讲义支撑而短语为品牌表达",
+          "counter_association": "不是正式编码术语或备用空频道"
+        },
+        "bilingual_relation": {
+          "reason": "预留余量与额外有效信息属于同一恢复过程",
+          "counter_association": "spare可能被误解为无用备件"
+        },
+        "distinctiveness": {
+          "reason": "整体能称呼但专名性中等",
+          "counter_association": "工程通信领域较窄"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E02"
+    }
+  ]
+}

@@ -57,15 +57,309 @@
         }
       ],
       "execution_ref": "本聊天实际spawn_agent continuous_a1、continuous_a2与工具读A1/A2文件及本次逐方向验收。"
+    },
+    {
+      "id": "H2",
+      "from": "A2",
+      "to": "coordinator",
+      "status": "accepted",
+      "timestamp": "2026-11-07T20:48:45.249564+08:00",
+      "candidate_ids": [
+        "C1-C01",
+        "C1-C02",
+        "C1-C03",
+        "C1-C04",
+        "C1-C05",
+        "C1-C06"
+      ],
+      "reason": "本轮8素材小批已实质审，6素材可创作，6中文原稿/出处/家族/原作者自评齐；此为流式首小批，不宣称24家族整研究完成。",
+      "input_refs": [
+        {
+          "path": "materials-pilot.json",
+          "sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7"
+        },
+        {
+          "path": "materials-review.json",
+          "sha256": "aca278383d931198091757c67e7d6f87bb78c3d7bd06dfcc8d41471a45499a09"
+        },
+        {
+          "path": "A2-candidates-batch1.json",
+          "sha256": "de29716948169e218e2207fdb612e83e8d0a5e6dbed0e3bc5b92e623f9fae2d4"
+        },
+        {
+          "path": "A2-preview-batch1.md",
+          "sha256": "d87c287021b3259660e742121471cfc689118926b5ae8684ec44f008a23f4ff7"
+        },
+        {
+          "path": "A2-quality-batch1.json",
+          "sha256": "e1a05ad992652744001c7cf6a2659c4eb8ae85034dccc9460a893f94cf0a976d"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A2-candidates-batch1.json",
+          "sha256": "de29716948169e218e2207fdb612e83e8d0a5e6dbed0e3bc5b92e623f9fae2d4"
+        },
+        {
+          "path": "coordinator-cn-batch1.json",
+          "sha256": "3945d61b3c61e96f043a6e9045268a55065d19588cd9eef2dc9a96aa7e03f49d"
+        },
+        {
+          "path": "coordinator-family-review-batch1.json",
+          "sha256": "3a18cb9dc6e7131e9d8b2c06a96a4cff443285684a2f4239570e841dc25a37f0"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "from": "coordinator",
+      "to": "A3",
+      "status": "accepted",
+      "timestamp": "2026-11-07T20:48:45.249564+08:00",
+      "candidate_ids": [
+        "C1-C01",
+        "C1-C02",
+        "C1-C03",
+        "C1-C05",
+        "C1-C06"
+      ],
+      "reason": "主控实际先读无分预览并封存独评，再读producer，5名双过且单轴差<2，已实际followup同live_a3查询；合符Labfit3未查询，不称占用。",
+      "input_refs": [
+        {
+          "path": "A2-quality-batch1.json",
+          "sha256": "e1a05ad992652744001c7cf6a2659c4eb8ae85034dccc9460a893f94cf0a976d"
+        },
+        {
+          "path": "coordinator-cn-batch1.json",
+          "sha256": "3945d61b3c61e96f043a6e9045268a55065d19588cd9eef2dc9a96aa7e03f49d"
+        },
+        {
+          "path": "coordinator-family-review-batch1.json",
+          "sha256": "3a18cb9dc6e7131e9d8b2c06a96a4cff443285684a2f4239570e841dc25a37f0"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "coordinator-cn-batch1.json",
+          "sha256": "3945d61b3c61e96f043a6e9045268a55065d19588cd9eef2dc9a96aa7e03f49d"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "from": "A3",
+      "to": "A4",
+      "status": "accepted",
+      "timestamp": "2026-11-07T21:02:07.589883+08:00",
+      "candidate_ids": [
+        "C1-C01",
+        "C1-C06"
+      ],
+      "reason": "同一真实A3分别查询，二中文通过后实际交真实A4；探形、应手、会意准确技术商业使用淘汰。",
+      "input_refs": [
+        {
+          "path": "A3-cn-batch1.json",
+          "sha256": "b143727967822d1fa6cb86fddfe18c40cd95bcc7685e7195ecc010e388bbe0b3"
+        },
+        {
+          "path": "A3-cn-batch1-supplement.json",
+          "sha256": "50fa92df3b55a164739c97e3e9a6cb3f20354bbd3e1ff11c4a90654293f5f51b"
+        },
+        {
+          "path": "A3-cn-batch2.json",
+          "sha256": "2166ecfaeecbb954fcdba3a9249949f914c9b7eb09f2852eb77ea4c45646788f"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A4-batch1.json",
+          "sha256": "c6914a78284cc97d58a22ae73785452e8bb9122e5894b369084e3257b63d0e58"
+        },
+        {
+          "path": "A4-batch2.json",
+          "sha256": "d937c1ebd13b25bbf085e88c32a3175520566248f8c45a3d5aaa104b5d446b54"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "from": "A4",
+      "to": "coordinator",
+      "status": "accepted",
+      "timestamp": "2026-11-07T21:02:07.589883+08:00",
+      "candidate_ids": [
+        "C1-E01",
+        "C1-E02"
+      ],
+      "reason": "主控分别先读无分预览封存独评再读producer；数字差<2，二英文质量通过，不继承中文使用结论。",
+      "input_refs": [
+        {
+          "path": "A4-batch1.json",
+          "sha256": "c6914a78284cc97d58a22ae73785452e8bb9122e5894b369084e3257b63d0e58"
+        },
+        {
+          "path": "A4-quality-batch1.json",
+          "sha256": "45101ada89da032991358afa4376dbc9919e19e1439e9c2ba56d9e19eefdf280"
+        },
+        {
+          "path": "A4-batch2.json",
+          "sha256": "d937c1ebd13b25bbf085e88c32a3175520566248f8c45a3d5aaa104b5d446b54"
+        },
+        {
+          "path": "A4-quality-batch2.json",
+          "sha256": "b8491c0eef8daae57c1934773179402b58f8225acffab78fc394bb2b55fef040"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "coordinator-en-batch1.json",
+          "sha256": "04c2d6a61f013fc50d979f814370b28d7b96a657acc87c86dc08fb5982c3331d"
+        },
+        {
+          "path": "coordinator-en-batch2.json",
+          "sha256": "ad2ac74bde4ae3a1a736b4ccbacd7bbd24164480fa672c8059c586b5998054c7"
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "from": "coordinator",
+      "to": "A3",
+      "status": "accepted",
+      "timestamp": "2026-11-07T21:02:07.589883+08:00",
+      "candidate_ids": [
+        "C1-E01",
+        "C1-E02"
+      ],
+      "reason": "同一live_a3实际独立英文查询；Therefrom现有商业工作室主动避让，Spare Signal通过公开使用初筛。",
+      "input_refs": [
+        {
+          "path": "coordinator-en-batch1.json",
+          "sha256": "04c2d6a61f013fc50d979f814370b28d7b96a657acc87c86dc08fb5982c3331d"
+        },
+        {
+          "path": "coordinator-en-batch2.json",
+          "sha256": "ad2ac74bde4ae3a1a736b4ccbacd7bbd24164480fa672c8059c586b5998054c7"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-en-batch1.json",
+          "sha256": "04f801788380c4e1fd3cff23c51c9b18be9dc0b7565ae447c2892b9aec94a105"
+        },
+        {
+          "path": "A3-en-batch2.json",
+          "sha256": "fbc7bc6f8f3c4e3ffd91d66f82ba0299bc18b2ba2461633e25898c291d1d0eb2"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "from": "A3",
+      "to": "coordinator",
+      "status": "accepted",
+      "timestamp": "2026-11-07T21:02:07.589883+08:00",
+      "candidate_ids": [
+        "C1-C06",
+        "C1-E02"
+      ],
+      "reason": "余量/Spare Signal实际终审通过入讨论；保留备用信号语义短板，官方登记未清空。流式小批不代表整个生产研究完成。",
+      "input_refs": [
+        {
+          "path": "A3-en-batch2.json",
+          "sha256": "fbc7bc6f8f3c4e3ffd91d66f82ba0299bc18b2ba2461633e25898c291d1d0eb2"
+        },
+        {
+          "path": "A4-E02-usage-note.json",
+          "sha256": "d24ba7e761b8715091332c4d04fc5c8d6da1608df3c9a9c9c0a70bff4046b859"
+        },
+        {
+          "path": "coordinator-family-review-batch1.json",
+          "sha256": "3a18cb9dc6e7131e9d8b2c06a96a4cff443285684a2f4239570e841dc25a37f0"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "delivery-first.json",
+          "sha256": "8240d415f20c1d48f7deefd935df013086024a8364e3226476610d94b421ee28"
+        }
+      ]
+    },
+    {
+      "id": "H3-batch2",
+      "from": "coordinator",
+      "to": "A3",
+      "status": "accepted",
+      "timestamp": "2026-11-07T21:02:07.589883+08:00",
+      "candidate_ids": [
+        "C1-C07",
+        "C1-C08",
+        "C1-C10"
+      ],
+      "reason": "三中文质量双过，已实际授权同A3查询；横竖之间双方Labfit3，不查询也不称被占用。",
+      "input_refs": [
+        {
+          "path": "A2-preview-batch2.md",
+          "sha256": "71c055f9458569881f7e9da44808b390169c32814910d317452c7ec0c1b68441"
+        },
+        {
+          "path": "A2-candidates-batch2.json",
+          "sha256": "a6edfe841b0c674cf075ca8f5b3333632cb70e12c210047233bae14ec6a00419"
+        },
+        {
+          "path": "A2-quality-batch2.json",
+          "sha256": "f9468f86c3e49fa4ec59ddf61a9320929a43a84f6ad1e2c7ce1433fae021d5d0"
+        },
+        {
+          "path": "coordinator-cn-batch2.json",
+          "sha256": "f5637459e86591cafb960eb846ef4a447098edb2f29ca52fe64abb3710a8cc60"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "coordinator-cn-batch2.json",
+          "sha256": "f5637459e86591cafb960eb846ef4a447098edb2f29ca52fe64abb3710a8cc60"
+        }
+      ]
+    },
+    {
+      "id": "H6-E03",
+      "from": "coordinator",
+      "to": "A3",
+      "status": "accepted",
+      "timestamp": "2026-11-07T21:02:07.589883+08:00",
+      "candidate_ids": [
+        "C1-E03"
+      ],
+      "reason": "由此及彼第一次英文返工Either End双评通过，已授权原A3独立英文使用查询；不计新家族。",
+      "input_refs": [
+        {
+          "path": "A4-preview-batch3.md",
+          "sha256": "5c1bc52b3c26d56bf1674f71bff3006cc7a18ede10691b635f6ba95a4771d783"
+        },
+        {
+          "path": "A4-batch3.json",
+          "sha256": "6732d399c2a91c8cf9993e51ee8cfe68d306560bbbe6a6b28f435aa6d28d7da8"
+        },
+        {
+          "path": "A4-quality-batch3.json",
+          "sha256": "644da0a507ce79f66822abe5a04736f3dc117ebe8c847a59db0d29ea098fa1c7"
+        },
+        {
+          "path": "coordinator-en-batch3.json",
+          "sha256": "e29c9f8e08fe1219e0b0d69eede0798c2e2ef94b8bf6d12e36759b5c310b3e53"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "coordinator-en-batch3.json",
+          "sha256": "e29c9f8e08fe1219e0b0d69eede0798c2e2ef94b8bf6d12e36759b5c310b3e53"
+        }
+      ]
     }
   ],
   "pending_handoffs": [
-    "H2",
-    "H3",
-    "H4",
-    "H5",
-    "H6",
-    "H7"
+    "后续中文查询→A4英文→原A3英文复查→主控逐名终审"
   ],
-  "note": "下游尚未实际执行，不用零输入或旧ID伪造完成。"
+  "note": "各次实际交接逐批保留，不提前宣称整研究完成。H7 delivery为当次快照，新增时版本另存。"
 }

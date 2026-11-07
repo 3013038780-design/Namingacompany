@@ -1,0 +1,77 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "stage": "materials_pilot",
+  "recorded_at": "2026-11-07T20:31:57.544442+08:00",
+  "status": "submitted_for_coordinator_material_review",
+  "actual_book_excerpt_count": 2,
+  "book_ids": [
+    "SICP",
+    "Darwin_Worms_1904"
+  ],
+  "actual_recent_news_body_count": 4,
+  "recent_news_dates": [
+    "2026-08-14",
+    "2026-10-08",
+    "2026-10-22",
+    "2026-11-05"
+  ],
+  "recent_window": [
+    "2026-08-09",
+    "2026-11-07"
+  ],
+  "pilot_material_cards": 8,
+  "unique_mechanism_families": 8,
+  "source_categories": [
+    "animal_behavior",
+    "bioinspired_transport",
+    "chinese_knowledge_practice",
+    "cognitive_communication",
+    "computation_relation",
+    "information_theory",
+    "interaction_engineering",
+    "plant_development"
+  ],
+  "classical_text_material_count": 0,
+  "chinese_cultural_material_count": 1,
+  "classical_note": "虎符为现代机构文章，不假称古籍实读；即使保守计历史文化为古文，1/8=12.5%，仍低于15%。",
+  "new_name_count": 0,
+  "research_coverage_note": "只完成8素材小批，不是24家族整批完成；材料家族不同不自动等于新品牌家族。",
+  "access_failures": [
+    {
+      "url": "https://www.cas.cn/syky/202611/t20261102_5123232.shtml",
+      "result": "web工具失败；curl原HTML可读",
+      "used_as_body": "curl实际读正文与发布日期"
+    },
+    {
+      "url": "https://www.cas.cn/syky/202609/t20260928_5121136.shtml",
+      "result": "web只回导航；curl原HTML有正文",
+      "used_as_body": "curl实际读正文与发布日期"
+    },
+    {
+      "url": "https://web.stanford.edu/~clark/1980s/Clark%2C%20H.H.%20_%20Wilkes-Gibbs%2C%20D.%20_Referring%20as%20a%20collaborative%20process_%201986.pdf",
+      "result": "web超时；curl+PyMuPDF实际可读",
+      "used_as_body": "印刷页2–5、14–16、21"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41928-026-01683-4",
+      "result": "重定向授权失败；未读论文正文",
+      "used_as_body": false
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42910597/",
+      "result": "只回页脚，未读摘要/正文",
+      "used_as_body": false
+    }
+  ],
+  "execution_ref": "本聊天原A2实际web查询/open/find/click，curl原页/PDF+PyMuPDF阅读；不是重放计划。",
+  "outputs": [
+    {
+      "path": "materials-pilot.md",
+      "sha256": "a34f324b99b5e7f975ab10339b08c9908e2029287ff816c9cc6599c7bbad429b"
+    },
+    {
+      "path": "materials-pilot.json",
+      "sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7"
+    }
+  ]
+}

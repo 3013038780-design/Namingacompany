@@ -1,0 +1,252 @@
+{
+  "reviewed_at": "2026-11-07T20:45:44.411243+08:00",
+  "independence": "Read producer preview batch1 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C01",
+      "name": "由此及彼",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 5
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "成语本来完整顺口",
+          "counter_association": "可能像栏目或方法论"
+        },
+        "distinctiveness": {
+          "reason": "此与彼构成明确两端",
+          "counter_association": "成语通用"
+        },
+        "lab_fit": {
+          "reason": "推知关系可承担研究机构姿态",
+          "counter_association": "可能先想到知识服务"
+        },
+        "grounding": {
+          "reason": "同一约束网双向求值有原文支撑",
+          "counter_association": "固定规则不是持续学习"
+        },
+        "extension": {
+          "reason": "不限当前一项算法",
+          "counter_association": "四字较长"
+        },
+        "semantic_coherence": {
+          "reason": "日常推知与计算关系指向同一核心",
+          "counter_association": "不能承诺一切问题都可逆"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "C1-C02",
+      "name": "探形",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "动宾短语两字可直接叫",
+          "counter_association": "听写易为探型探行"
+        },
+        "distinctiveness": {
+          "reason": "探和形给主动接触画面",
+          "counter_association": "可能像设计工作室"
+        },
+        "lab_fit": {
+          "reason": "感知结构探索有技术研究入口",
+          "counter_association": "第一眼偏三维检测"
+        },
+        "grounding": {
+          "reason": "原观察及作者推断层级保留且接触辨形相接",
+          "counter_association": "不是已证现代机制"
+        },
+        "extension": {
+          "reason": "可延伸世界表示和行动",
+          "counter_association": "需研究内容拓宽"
+        },
+        "semantic_coherence": {
+          "reason": "探索形状与任务可行性共同成立",
+          "counter_association": "没有保留全部洞口实验细节"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "C1-C03",
+      "name": "应手",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "汉语自然现成称呼",
+          "counter_association": "通名可能已用"
+        },
+        "distinctiveness": {
+          "reason": "动作与响应有明确节奏",
+          "counter_association": "字面不专属研究"
+        },
+        "lab_fit": {
+          "reason": "人机交互和工具研究能承接",
+          "counter_association": "也像输入法工业配件"
+        },
+        "grounding": {
+          "reason": "结构形变生成信号的关系已核",
+          "counter_association": "不能暗示主观意识"
+        },
+        "extension": {
+          "reason": "能延展不同任务工具",
+          "counter_association": "不宜只锁定手部硬件"
+        },
+        "semantic_coherence": {
+          "reason": "易用感与动作感知共享人和器物关系",
+          "counter_association": "不得泛化成旧侧音看见自己"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "C1-C04",
+      "name": "合符",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "两字动作能理解",
+          "counter_association": "和服同音"
+        },
+        "distinctiveness": {
+          "reason": "成对器物有画面",
+          "counter_association": "文化听写负担"
+        },
+        "lab_fit": {
+          "reason": "首联想和服符咒文创需解释才到工程",
+          "counter_association": "广义科技Lab身份弱于安全或文创产品"
+        },
+        "grounding": {
+          "reason": "虎符分持勘合有真实出处",
+          "counter_association": "非现代密码保证"
+        },
+        "extension": {
+          "reason": "可讲知识确认",
+          "counter_association": "研究身份仍依赖解释"
+        },
+        "semantic_coherence": {
+          "reason": "相合与验证为同一作用",
+          "counter_association": "不应神化为输出必真"
+        }
+      },
+      "decision": "quality_reject"
+    },
+    {
+      "candidate_id": "C1-C05",
+      "name": "会意",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "现成认识动作易说",
+          "counter_association": "会议同音"
+        },
+        "distinctiveness": {
+          "reason": "日常理解与双方确认可辨",
+          "counter_association": "通名检索拥挤"
+        },
+        "lab_fit": {
+          "reason": "认知研究身份自然",
+          "counter_association": "易被理解为会议写作软件"
+        },
+        "grounding": {
+          "reason": "共同指称实验及边界已核",
+          "counter_association": "不是机器意识证明"
+        },
+        "extension": {
+          "reason": "不限会议产品",
+          "counter_association": "需避免功能限定"
+        },
+        "semantic_coherence": {
+          "reason": "领会意思和共同确定对象相接",
+          "counter_association": "不能只剩泛化协同"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "C1-C06",
+      "name": "余量",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "完整常用工程词顺口",
+          "counter_association": "声音近雨量"
+        },
+        "distinctiveness": {
+          "reason": "预留空间有可感尺度",
+          "counter_association": "通名可能已用"
+        },
+        "lab_fit": {
+          "reason": "冗余和韧性有技术身份",
+          "counter_association": "像存储通信或量化"
+        },
+        "grounding": {
+          "reason": "正确已知位置采样恢复的条件已核",
+          "counter_association": "不是任意错误都恢复"
+        },
+        "extension": {
+          "reason": "能谈已有系统的使用韧性",
+          "counter_association": "独立研究称呼需内容承接"
+        },
+        "semantic_coherence": {
+          "reason": "额外容量与可恢复性是同一关系",
+          "counter_association": "不能说凭空增加知识"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

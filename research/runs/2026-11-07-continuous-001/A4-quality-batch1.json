@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-07T20:50:47.849502+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E01",
+      "chinese_id": "C1-C01",
+      "english": "Therefrom",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "词典有读音、两音节可以正常呼唤。",
+          "counter_association": "th及后重音对部分中文使用者有学习成本。"
+        },
+        "spelling": {
+          "reason": "there和from完整组成现有词，拼写可还原。",
+          "counter_association": "听写可能先分写there from。"
+        },
+        "grounding": {
+          "reason": "英语词典确有原词，SICP关系网确有从已知求另一端的作用。",
+          "counter_association": "这是原义与品牌分析相接，不是SICP算法名称。"
+        },
+        "bilingual_relation": {
+          "reason": "方向与来源是同一推知过程的两面。",
+          "counter_association": "英文没有逐字同时写此和彼，也不专指双向。"
+        },
+        "distinctiveness": {
+          "reason": "一个完整单词可形成专名和研究身份。",
+          "counter_association": "正式旧式语感、法务联想与常用文本检索干扰。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；等待主控先读无分预览独评，再读本档并授权原A3。"
+    }
+  ]
+}

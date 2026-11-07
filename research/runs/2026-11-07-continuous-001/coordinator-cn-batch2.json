@@ -1,0 +1,170 @@
+{
+  "reviewed_at": "2026-11-07T21:00:46.176412+08:00",
+  "independence": "Read producer preview batch2 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C07",
+      "name": "开合",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "现成完整动作词",
+          "counter_association": "可能像门窗"
+        },
+        "distinctiveness": {
+          "reason": "成对动作有记忆点",
+          "counter_association": "普通词专名较弱"
+        },
+        "lab_fit": {
+          "reason": "可承载结构研究身份",
+          "counter_association": "首听不显AI"
+        },
+        "grounding": {
+          "reason": "论文确有拉链开闭比喻",
+          "counter_association": "不是原论文中文名称"
+        },
+        "extension": {
+          "reason": "可延伸局部整体研究",
+          "counter_association": "不能只泛谈开放"
+        },
+        "semantic_coherence": {
+          "reason": "同一结构操作关联",
+          "counter_association": "未包含所有导航条件"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "C1-C08",
+      "name": "活桥",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两字可直接称呼",
+          "counter_association": "活字口语化"
+        },
+        "distinctiveness": {
+          "reason": "活的桥有清晰反常性",
+          "counter_association": "初听工程生态"
+        },
+        "lab_fit": {
+          "reason": "可容纳群体组织研究",
+          "counter_association": "要靠研究建立身份"
+        },
+        "grounding": {
+          "reason": "成员成为桥体确有实验",
+          "counter_association": "不是证明全局最优"
+        },
+        "extension": {
+          "reason": "不限单一算法",
+          "counter_association": "若泛化连接会与旧家族重合"
+        },
+        "semantic_coherence": {
+          "reason": "成员与结构同一关系",
+          "counter_association": "不代表成员死亡"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "C1-C09",
+      "name": "横竖之间",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "total": 21,
+      "notes": {
+        "naturalness": {
+          "reason": "完整空间短语",
+          "counter_association": "四字口头略拖"
+        },
+        "distinctiveness": {
+          "reason": "画面易懂但品牌弱",
+          "counter_association": "之间是常见文艺后缀"
+        },
+        "lab_fit": {
+          "reason": "更像字体设计工作室",
+          "counter_association": "科技身份依赖长解释"
+        },
+        "grounding": {
+          "reason": "筹棍方向位值真实",
+          "counter_association": "只读馆方说明非古籍"
+        },
+        "extension": {
+          "reason": "可谈简单构件表达",
+          "counter_association": "与旧表示语境家族相邻"
+        },
+        "semantic_coherence": {
+          "reason": "方向位置在同一实践",
+          "counter_association": "空位不是现代零字形"
+        }
+      },
+      "decision": "quality_reject"
+    },
+    {
+      "candidate_id": "C1-C10",
+      "name": "开明兽",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "现成角色三字称呼",
+          "counter_association": "兽可能显凶"
+        },
+        "distinctiveness": {
+          "reason": "形象独特易记",
+          "counter_association": "九个人面可能不适"
+        },
+        "lab_fit": {
+          "reason": "非人角色能容纳研究身份",
+          "counter_association": "游戏文创首联想"
+        },
+        "grounding": {
+          "reason": "古籍角色原名确实存在",
+          "counter_association": "神话不是科学原理"
+        },
+        "extension": {
+          "reason": "可建未知世界叙事",
+          "counter_association": "不得把九首包装成算法并行"
+        },
+        "semantic_coherence": {
+          "reason": "名称与形象为完整对象",
+          "counter_association": "开明通达只是今日联想"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}
