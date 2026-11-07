@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T00:27:25.728158+08:00",
+  "updated_at": "2026-11-08T00:43:36.042975+08:00",
   "policy": "continuous_no_quantity_quota",
   "scheduler": {
     "id": "automation",
@@ -19,8 +19,8 @@
     "historical_unique_families": 26
   },
   "active_run": "research/runs/2026-11-07-continuous-001",
-  "actual_state": "research_packets_checkpointed_new_site_building",
-  "next_action": "先完成用户新要求的网站固定入口与自动读取总库/按日更新。命名接续仍同一001；C23只在有可读新原始证据时补核，勿反复相同403，不R3；原A2可继续不同关系C24/M32起，无并发重复轮次。",
+  "actual_state": "research_checkpointed_site_live_ready_to_resume",
+  "next_action": "同一001继续：C23英文仅在有可读新原始证据时补核具体酒款线索，不反复相同403、不得换英文R3；原A2继续不同关系C24/M32起。每次结果先写冻结记录和队列，再build_catalog与build_site_feed，推现有PR，固定网站自动读取新数据。不部署旧站，不另开重复调度。",
   "pending_stages": [
     "A2真实资料→中文创作；先素材小批内部快审",
     "主控独立中文质量→同A3中文使用筛查",
@@ -132,10 +132,13 @@
   ],
   "website": {
     "authorized_at": "2026-11-08T00:27:25.728158+08:00",
-    "status": "building_new_fixed_site",
+    "status": "live",
     "project_id": "appgprj_6aef50c0969c8191aa904b87ce9e223c",
     "source_path": "/Users/olivialee/Documents/ChatGPT/临时项目/naming-research-site",
     "data_feed": "research/catalog/website.json",
-    "old_site_untouched": true
+    "old_site_untouched": true,
+    "url": "https://3013038780-design.github.io/Namingacompany/",
+    "sites_url": "https://naming-research-desk.panelladelva5115.chatgpt.site",
+    "update_after_every_segment": "python3 scripts/build_catalog.py then python3 scripts/build_site_feed.py; push research/catalog/website.json to existing branch/PR; website reads it without UI redeploy"
   }
 }

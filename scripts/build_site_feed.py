@@ -3,6 +3,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import quote
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 BRANCH = 'codex/naming-research-pilot'
@@ -16,6 +17,23 @@ def read(path):
 
 def link(path):
     return BASE + quote(str(path), safe='/')
+
+
+def reader_text(value):
+    """Keep evidence meaning, with workflow shorthand expanded for readers."""
+    result = str(value or '')
+    for old, new in [
+        ('不能英文R3', '后续只补充证据，不再更换英文'),
+        ('不再R3', '不继续更换英文'), ('不R3', '不继续更换英文'),
+        ('A4真实零输入、同A3真实零英文回查均已执行；', ''),
+        ('原A3', '独立查重'), ('同A3', '同一独立审查'),
+        ('原A4', '英文匹配'), ('主控', '品牌审阅'),
+        ('官方app bundle', '官网公开发布的内容'),
+        ('品牌审阅独立下载同SHA确认', '来源内容已独立复核'),
+        ('原文403', '原文页面目前无法访问'),
+    ]:
+        result = result.replace(old, new)
+    return result
 
 
 def screen(value):
@@ -47,42 +65,49 @@ def build():
         entries.append(entry)
 
     run = Path(queue['active_run'])
-    proposals = {}
-    for file in sorted((ROOT / run).glob('A2-candidates-*.json')):
-        for row in json.loads(file.read_text()).get('candidates', []):
-            proposals[row['id']] = {**row, 'record_url': link(file.relative_to(ROOT))}
-    attempts = {}
-    for pattern in ('A4-batch*.json', 'A4-candidates-*.json'):
-        for file in sorted((ROOT / run).glob(pattern)):
-            for row in json.loads(file.read_text()).get('candidates', []):
-                cid = row.get('chinese_id')
-                if cid:
-                    attempts.setdefault(cid, {})[row['id']] = row.get('english', '')
-    snapshot = read(queue['latest_frozen_decision_snapshot'])
+    snapshots = {}
+    for file in (ROOT / 'research/runs').glob('*/continuations/*/decisions-through-*.json'):
+        value = json.loads(file.read_text())
+        key = Path(*file.relative_to(ROOT).parts[:3])
+        if value.get('updated_at', '') >= snapshots.get(key, ({}, None))[0].get('updated_at', ''):
+            snapshots[key] = (value, file.relative_to(ROOT))
+    snapshots[run] = (read(queue['latest_frozen_decision_snapshot']), Path(queue['latest_frozen_decision_snapshot']))
     research = []
-    for item in snapshot['items']:
-        cid = item['chinese_id']
-        proposal = proposals.get(cid, {})
-        research.append({**item, 'source': proposal.get('sources', []),
-                         'meaning': proposal.get('meaning', ''), 'crossing': proposal.get('crossing', ''),
-                         'shortcoming': proposal.get('shortcoming', ''),
-                         'record_url': proposal.get('record_url', link(queue['latest_frozen_decision_snapshot'])),
-                         'english_attempts': list(attempts.get(cid, {}).values())})
+    for history_run, (snapshot, snapshot_path) in sorted(snapshots.items()):
+        proposals, attempts = {}, {}
+        for file in sorted((ROOT / history_run).glob('A2-candidates-*.json')):
+            for row in json.loads(file.read_text()).get('candidates', []):
+                proposals[row['id']] = {**row, 'record_url': link(file.relative_to(ROOT))}
+        for pattern in ('A4-batch*.json', 'A4-candidates-*.json'):
+            for file in sorted((ROOT / history_run).glob(pattern)):
+                for row in json.loads(file.read_text()).get('candidates', []):
+                    cid = row.get('chinese_id')
+                    if cid:
+                        attempts.setdefault(cid, {})[row['id']] = row.get('english', '')
+        for item in snapshot['items']:
+            cid = item['chinese_id']
+            proposal = proposals.get(cid, {})
+            research.append({**item, 'run': str(history_run), 'reason': reader_text(item['reason']),
+                             'source': proposal.get('sources', []), 'meaning': proposal.get('meaning', ''),
+                             'crossing': proposal.get('crossing', ''), 'shortcoming': proposal.get('shortcoming', ''),
+                             'record_url': proposal.get('record_url', link(snapshot_path)),
+                             'english_attempts': list(attempts.get(cid, {}).values())})
 
     events = []
-    for file in (ROOT / run / 'continuations').glob('*/result.json'):
+    for file in (ROOT / 'research/runs').glob('*/continuations/*/result.json'):
         value = json.loads(file.read_text())
         stamp = value.get('completed_at')
         if not stamp:
             continue
+        stamp = datetime.fromisoformat(stamp.replace('Z', '+00:00')).astimezone(ZoneInfo('Asia/Shanghai')).isoformat()
         new_names = value.get('new_retained_families', 0)
-        events.append({'id': file.parent.name, 'at': stamp, 'date': stamp[:10],
+        events.append({'id': str(file.relative_to(ROOT)), 'at': stamp, 'date': stamp[:10],
                        'title': '研究更新', 'retained': new_names,
                        'drafts': value.get('new_chinese_drafts', 0),
                        'materials': value.get('new_materials', 0),
                        'pending': value.get('evidence_holds', 0),
-                       'reason': value.get('reason', ''), 'record_url': link(file.relative_to(ROOT))})
-    progress_path = run / 'progress.json'
+                       'reason': reader_text(value.get('reason', '')), 'record_url': link(file.relative_to(ROOT))})
+    progress_path = Path('research/runs/2026-11-07-continuous-001/progress.json')
     progress = read(progress_path)
     stamp = progress.get('updated_at')
     if stamp:
@@ -90,12 +115,12 @@ def build():
                        'title': '活桥、作数进入讨论备选', 'retained': progress['current_bilingual_retained'],
                        'drafts': progress['literal_chinese_drafts'], 'materials': progress['materials'],
                        'pending': 0, 'reason': '保留活桥 / Antspan、作数 / Factborne；余量补核后撤回。两个旧储备转入讨论，另列、不算新家族。更早的讨论备选已汇入名字库。',
-                       'record_url': link(run / 'README.md')})
+                       'record_url': link(progress_path.parent / 'README.md')})
     events.sort(key=lambda x: x['at'], reverse=True)
     payload = {'schema_version': 1, 'generated_at': datetime.now().astimezone().isoformat(),
                'feed_url': FEED_URL, 'counts': catalog['counts'], 'worlds': catalog['worlds'],
                'entries': entries, 'research': research, 'events': events,
-               'pending_evidence': queue.get('pending_evidence', []),
+               'pending_evidence': [{**e, 'detail': reader_text(e['detail'])} for e in queue.get('pending_evidence', [])],
                'scheduler': {'status': queue['scheduler']['status'], 'cadence': queue['scheduler']['cadence']},
                'links': {'catalog': link('research/catalog/README.md'),
                          'research': link(run / 'README.md'), 'pr': 'https://github.com/3013038780-design/Namingacompany/pull/4'},

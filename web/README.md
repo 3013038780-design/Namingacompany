@@ -7,3 +7,5 @@
 日常研究只更新数据文件，不需要重复部署界面或建立第二个定时任务。每次实质工作段完成后，先保存真实结果/冻结决策及队列，再重建总库和网站数据，随现有PR推送。已有每小时任务负责研究与上游数据更新；电脑/应用不可用时该任务也不能运行。
 
 部署身份见 `research/site.json`，独立Sites源目录 `/Users/olivialee/Documents/ChatGPT/临时项目/naming-research-site`。界面修改后将本目录三个文件复制到该Site的 `dist/`，将最新 `website.json` 复制为 `dist/data.json` 作为离线快照；依Sites工作流保存并发布。保持原project_id和访问范围。不得把源凭证或外部全文放进仓库。
+
+固定入口采用GitHub Pages分支 `codex/naming-site-pages` 的根目录，独立静态发布不合并研究PR；Sites已成功私有发布但当前浏览器遇到域名访问防护，所以保留为备用。界面源仍以本目录为准，界面有改动时同步这两个部署；日常只变数据时仍只需推送研究分支的feed，不重复发布网站。

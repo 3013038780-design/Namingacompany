@@ -5,7 +5,7 @@
   "coordinator_id": "/root",
   "status": "in_progress",
   "research_mode": "continuation",
-  "scope": "持续同一001；最新接续处理声入纹/识局/伶伦/活变量4中文，未新增完整双语，Maymatter具体证据暂停。累计31资料/23中文/19英文版本，A3查询283加主控额外2共285；新网站按用户最新要求建设。",
+  "scope": "持续同一001；最新接续处理声入纹/识局/伶伦/活变量4中文，未新增完整双语，Maymatter具体证据暂停。累计31资料/23中文/19英文版本，A3查询283加主控额外2共285；固定网站已按用户最新要求上线，自动读取同一总库数据及每日记录。",
   "started_at": "2026-11-07T19:41:18.016539+08:00",
   "roles": {
     "A1": {
@@ -47,12 +47,13 @@
       "latest_closeout_ref": "A4-closeout-batch10-supplement.json"
     }
   },
-  "current_stage": "research_checkpoint_saved_site_requested_by_user",
+  "current_stage": "checkpoint_ready_site_live_next_naming_work_pending",
   "checkpointed_at": "2026-11-08T00:27:25.728158+08:00",
   "new_families_delivered": 2,
   "whole_research_complete": false,
   "withdrawn_current_run": 1,
   "current_work_segment_complete": true,
   "historical_input_snapshot_gap_disclosed": "mutable-index-reacceptance.json",
-  "latest_continuation_result": "continuations/2026-11-07T155304Z/result.json"
+  "latest_continuation_result": "continuations/2026-11-07T155304Z/result.json",
+  "website_url": "https://3013038780-design.github.io/Namingacompany/"
 }
