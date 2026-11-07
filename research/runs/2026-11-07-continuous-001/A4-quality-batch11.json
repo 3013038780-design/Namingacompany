@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-07T21:29:15.485605+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E11",
+      "chinese_id": "C1-C14",
+      "english": "Factborne",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "完整熟悉的fact与borne，两个音节，可正常称呼。",
+          "counter_association": "fact末尾kt与borne起首b相接，口头首次需清楚。"
+        },
+        "spelling": {
+          "reason": "各语素保持标准拼法，没有截词或无义字母。",
+          "counter_association": "born同音有真实听写成本，需解释末尾e为borne携带。"
+        },
+        "grounding": {
+          "reason": "事实与承载共同形成主张依靠实际结果成立的单一支撑关系，不是附加成长美好词。",
+          "counter_association": "carried-by转为证据支撑属于品牌比喻，不能当严格词典等义。"
+        },
+        "bilingual_relation": {
+          "reason": "中文结果作数、英文主张须以事实为依据，共同落实有效结果与能力主张的关系。",
+          "counter_association": "中文还包括承诺生效，英文更偏事实证据；不是逐字翻译。"
+        },
+        "distinctiveness": {
+          "reason": "完整合成可作为独立专名，不是普通操作按钮或完整口号。",
+          "counter_association": "可能像事实核查产品，其实际已有使用与近似拼法仍待A3。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；等待主控先读无分预览独评，再读本档并授权原A3。"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-07T21:30:06.136853+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E12",
+      "chinese_id": "C1-C13",
+      "english": "Linkroam",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个完整常用单音节词，重音清楚，整体能正常称呼。",
+          "counter_association": "link-roam交界的kr需要清晰读出，口头后半可能像ROM。"
+        },
+        "spelling": {
+          "reason": "link与roam保留完整拼法，不截词或改字母。",
+          "counter_association": "roam同音词需首次确认，仍比无义字母串易解释。"
+        },
+        "grounding": {
+          "reason": "连接结构与沿结构移动属于同一NLS导航关系，不借额外成长动词补故事。",
+          "counter_association": "自由移动是空间品牌转用，并非NLS形式化算法；不能把漫游承诺为准确理解。"
+        },
+        "bilingual_relation": {
+          "reason": "两边都表达使用者在可导航知识结构中选择下一处信息的过程。",
+          "counter_association": "英文还可指网络通信漫游，中文另有草草略读的反联想。"
+        },
+        "distinctiveness": {
+          "reason": "完整新合成可被单独称呼，独立于旧Passageway字形。",
+          "counter_association": "网络产品第一印象明显，已有link/roam相关品牌需A3判别，未假称独占。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；等待主控先读无分预览独评，再读本档并授权原A3。"
+    }
+  ]
+}

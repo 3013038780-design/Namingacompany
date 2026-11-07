@@ -1,0 +1,99 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T21:28:02.356527+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch10.md",
+      "sha256": "9760f843c976b78cfb4c5a7bfa3a35dd4155b2b7c0f020a5855a57ca7c8e3877"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-batch10.json",
+      "sha256": "50efbf6d7a7bbc591150f43c0e73bb31f3f5f5500ffa041ba3c3e822a1fa19af"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch10.json",
+      "sha256": "2fdf6c434d022f0faa3a07240f4bd884be2033340468fdb6fbce86906b923238"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch10.json",
+      "sha256": "4c4d6807db10c51c8cb0f7aed28da4535147854c9adf915794f8d49a16c3687a"
+    }
+  ],
+  "query_count": 6,
+  "results": [
+    {
+      "candidate_id": "C1-E10",
+      "name": "Bear Out",
+      "query_logs": [
+        {
+          "query": "\"Bear Out\"",
+          "executed_on": "2026-11-07",
+          "summary": "整体连写bearout已用于独立AI软件包，作者官方GitHub提供pip install bearout及validate_grounding接口，为LLM回答核验gate；另有NoSleepLab同名BEAROUT游戏。不是把普通bear out习语或熊出门/其他Bare浏览器误判品牌。"
+        },
+        {
+          "query": "\"Bear Out\" company lab",
+          "executed_on": "2026-11-07",
+          "summary": "整体连写bearout已用于独立AI软件包，作者官方GitHub提供pip install bearout及validate_grounding接口，为LLM回答核验gate；另有NoSleepLab同名BEAROUT游戏。不是把普通bear out习语或熊出门/其他Bare浏览器误判品牌。"
+        },
+        {
+          "query": "\"Bear Out\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "整体连写bearout已用于独立AI软件包，作者官方GitHub提供pip install bearout及validate_grounding接口，为LLM回答核验gate；另有NoSleepLab同名BEAROUT游戏。不是把普通bear out习语或熊出门/其他Bare浏览器误判品牌。"
+        },
+        {
+          "query": "\"Bear Out\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "整体连写bearout已用于独立AI软件包，作者官方GitHub提供pip install bearout及validate_grounding接口，为LLM回答核验gate；另有NoSleepLab同名BEAROUT游戏。不是把普通bear out习语或熊出门/其他Bare浏览器误判品牌。"
+        },
+        {
+          "query": "\"BearOut\"",
+          "executed_on": "2026-11-07",
+          "summary": "整体连写bearout已用于独立AI软件包，作者官方GitHub提供pip install bearout及validate_grounding接口，为LLM回答核验gate；另有NoSleepLab同名BEAROUT游戏。不是把普通bear out习语或熊出门/其他Bare浏览器误判品牌。"
+        },
+        {
+          "query": "\"Bare Out\" company software",
+          "executed_on": "2026-11-07",
+          "summary": "整体连写bearout已用于独立AI软件包，作者官方GitHub提供pip install bearout及validate_grounding接口，为LLM回答核验gate；另有NoSleepLab同名BEAROUT游戏。不是把普通bear out习语或熊出门/其他Bare浏览器误判品牌。"
+        }
+      ],
+      "decision": "return_for_alternative",
+      "reason": "整体连写bearout已用于独立AI软件包，作者官方GitHub提供pip install bearout及validate_grounding接口，为LLM回答核验gate；另有NoSleepLab同名BEAROUT游戏。不是把普通bear out习语或熊出门/其他Bare浏览器误判品牌。",
+      "evidence": [
+        {
+          "url": "https://github.com/stephs-repos/bearout",
+          "access": "primary_author_repository_body_read",
+          "finding": "官方作者仓库About及README，LLM引用/grounding核验；Quickstart L274–285实际pip install bearout、from bearout import validate_grounding，有独立包/接口身份。未背书作者性能、未实际安装软件，不等于注册公司。"
+        },
+        {
+          "url": "https://nosleeplab.com/",
+          "access": "primary_developer_catalog_body_read",
+          "finding": "L158–170官方开发者目录BEAROUT、Web/iOS/Game、Live链接bearout.vercel.app；不是泛熊描述。目录另明确7款iPhone均尚未上AppStore，不能称已上架。"
+        },
+        {
+          "url": "https://bearout.vercel.app/",
+          "access": "product_endpoint_inaccessible",
+          "finding": "实际打开游戏URL不可访问；以开发者目录确认命名，不声称试玩成功。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        }
+      },
+      "chinese_candidate_id": "C1-C14",
+      "chinese": "作数",
+      "version": "first_english_proposal",
+      "precise_use_type": "same_core_independent_llm_software_package_and_game"
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。"
+}

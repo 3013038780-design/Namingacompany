@@ -804,6 +804,415 @@
           }
         ]
       }
+    },
+    {
+      "chinese_id": "C1-C14",
+      "english_id": "C1-E11",
+      "family_id": "C1-BF-real-outcome-counts-as-valid",
+      "chinese": "作数",
+      "pinyin": "zuò shù",
+      "english": "Factborne",
+      "suggested_pronunciation": "FACT-born，/ˈfækt.bɔːrn/，两个音节。",
+      "source": {
+        "title": "DOE Announces Four National Laboratory-Led Selections to Advance Robotics and Automation for Autonomous Scientific Discovery",
+        "url": "https://www.energy.gov/science/articles/doe-announces-four-national-laboratory-led-selections-advance-robotics-and",
+        "read_scope": "正文L7–30，重点DART L17–18、四项目角色L23–28与协商边界L29–30",
+        "date": "2026-10-08",
+        "access": "body"
+      },
+      "fact": "DOE于2026-10-08公布自主科研机器人项目选择，DART目标明确区分机器人完成动作，与实际物理和科学结果满足实验要求。该公告是协商选定项目的目标，不是已经完成成果。",
+      "meaning": "能力最终要在真实事情上作数。",
+      "crossing": "DOE的自主科研项目明确：机器人完成动作之外，还需物理与科学结果符合实验要求。口语里“说了不算，要真的作数”将这种结果有效性转成自然可称呼的研究立场。",
+      "layers": [
+        "日常说一件事情有效、能被当回事",
+        "动作完成与科学结果有效之间的区别",
+        "实验室研究已有智能在真实使用中怎样形成可检验的能力"
+      ],
+      "shortcoming": "可能被听写成做数或算数，也可能像数据统计、财税工具；一旦使用这个名字，宣传便会受到有效性这个立场的检验。不是宣称公司永远正确。",
+      "english_formation": "fact（实际发生或存在的事实）+ borne（承载、携带；bear的过去分词）。现有英语有airborne等完整构形；本案把承载对象换为事实，表达研究主张由实际事实托住的关系。Factborne不是已核实的词典词，也不是现有科学机制的正式名称。这里不是born出生，亦非把Bear Out改一两个字母避重。",
+      "bilingual_relation": "中文作数要求结果实际有效、可采用；英文把对能力的主张视作需要由事实承载的东西。一边说结果要有效，一边说凭什么成立：依靠已观察的事实，而非仅完成动作或作出漂亮承诺。二者共享主张与有效结果之间的支撑关系。",
+      "english_shortcoming": "Fact-borne是有据语素的比喻性新合成，需要首次解释，并非母语既有习语；可能被听写为Factborn，/ktb/边界需清晰发音。也可能首先被理解成事实核查或新闻工具公司。borne原有携带/传播义不自动等于科学证实，这段从承载到主张支撑的转用必须承认，不能靠词典引文掩盖。",
+      "scientific_boundary": "来源是选定协商项目的未来目标，不能当已完成成绩；有效性要依具体任务和实验证据判断，不承诺每一次模型输出都可靠。",
+      "chinese_screen": {
+        "candidate_id": "C1-C14",
+        "name": "作数",
+        "query_logs": [
+          {
+            "query": "\"作数\"",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          },
+          {
+            "query": "\"作数\" 公司 科技",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          },
+          {
+            "query": "\"作数\" AI 模型 软件",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          },
+          {
+            "query": "\"作數\" 公司 軟體",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          },
+          {
+            "query": "\"zuoshu\" company AI",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          },
+          {
+            "query": "\"作数科技\"",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          },
+          {
+            "query": "\"作数智能\"",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          },
+          {
+            "query": "\"作数\" \"有限公司\"",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。",
+        "evidence": [
+          {
+            "url": "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202501/052897_20250123_H0S4.pdf",
+            "access": "primary_pdf_downloaded_first_page_render_visually_read",
+            "finding": "web打开超时；curl完整下载127页PDF至/tmp/a3-zuoshu-sse.pdf，首面渲染/tmp/a3-zuoshu-sse-p1.png明确华数数字电视传媒集团有限公司审计报告。不是作数公司。"
+          },
+          {
+            "url": "https://zuoshu.com/t/zixun",
+            "access": "search_index_only_open_timeout",
+            "finding": "做書为出版文化自媒体，同拼音不同中文字，不用作中文精确占用。"
+          },
+          {
+            "url": "https://dgip.go.id/uploads/berita_resmi/file/ad2dfc97cc337246c2b0d5d686b2e3d3.pdf",
+            "access": "search_index_only_not_pdf_read",
+            "finding": "印尼官方商标公告搜索索引ZUOSHU+LOGO、DID2024129957、11类电热家电。未逐页核读，中文未知，不作为作数同名证明；披露拼音英文风险。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "本轮实际入口403，未逐名检索"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "共同入口实际403，未进入逐名逐类检索"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Zuoshu",
+            "scope": "实际逐名搜索URL不可访问，不代表无公司"
+          }
+        }
+      },
+      "english_screen": {
+        "candidate_id": "C1-E11",
+        "name": "Factborne",
+        "query_logs": [
+          {
+            "query": "\"Factborne\"",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          },
+          {
+            "query": "\"Factborne\" company lab",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          },
+          {
+            "query": "\"Factborne\" AI model",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          },
+          {
+            "query": "\"Factborne\" software product",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          },
+          {
+            "query": "\"Fact Borne\"",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          },
+          {
+            "query": "\"Factborn\"",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          },
+          {
+            "query": "\"Fact Born\" company software",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          },
+          {
+            "query": "\"Factborn\" company AI software",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。",
+        "evidence": [
+          {
+            "url": "https://timesofindia.indiatimes.com/city/hyderabad/pw-sets-terms-for-oppn-parties/articleshow/336311.cms",
+            "access": "primary_news_body_read",
+            "finding": "2003新闻正文L174显示A factborne out by the reality…，前后多处丢空格，如heartlandwith，明确语句而非Factborne商业机构。"
+          },
+          {
+            "url": "https://cp3.irmp.ucl.ac.be/projects/madgraph/attachment/wiki/GIFSchool/HiggsGG-NLO.nb",
+            "access": "search_index_code_extract_read_open_timeout",
+            "finding": "Mathematica notebook L226 factborn=gs2，随后用于Born表达式，是内部变量，不是独立软件Factborn；直接打开超时，读取范围仅索引代码。"
+          },
+          {
+            "url": "https://www.buzzsprout.com/2567929/episodes/18847716-forkortelser-ai-assistenter-og-refleksjoner",
+            "access": "search_index_transcript_extract_only",
+            "finding": "北欧语言播客6:16转录句中factborn，节目自身名称Forkortelser, AI-assistenter og refleksjoner；无独立Factborn商业品牌证据。"
+          },
+          {
+            "url": "https://www.cmsdistribution.com/vendors/rocket-software",
+            "access": "search_index_body_extract_only",
+            "finding": "Rocket Software厂商介绍a fact born out by…普通语句，不是Fact Born软件品牌。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "本轮实际入口403，未逐名检索"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "共同入口实际403，未进入逐名逐类检索"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Factborne",
+            "scope": "实际逐名搜索URL不可访问，不代表无公司"
+          }
+        },
+        "chinese_candidate_id": "C1-C14",
+        "chinese": "作数",
+        "version": "first_english_rework_attempt1",
+        "precise_use_type": "no_confirmed_same_core_public_technology_or_commercial_brand_found"
+      },
+      "quality": {
+        "chinese_producer": {
+          "candidate_id": "C1-C14",
+          "name": "作数",
+          "language": "zh",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a2",
+          "scores": {
+            "naturalness": 5,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 4,
+            "extension": 4,
+            "semantic_coherence": 5
+          },
+          "total": 26,
+          "notes": {
+            "naturalness": {
+              "reason": "现成口语动词，声音简短直接",
+              "counter_association": "听写做数算数"
+            },
+            "distinctiveness": {
+              "reason": "事情究竟作不作数有鲜明口语态度",
+              "counter_association": "可能是统计工具第一联想"
+            },
+            "lab_fit": {
+              "reason": "把智能能力落到实际结果，可承接Lab使命",
+              "counter_association": "也可能财税公司"
+            },
+            "grounding": {
+              "reason": "DOE原文确区分动作与实验结果，项目尚非完成",
+              "counter_association": "不是已证团队成果"
+            },
+            "extension": {
+              "reason": "可覆盖多任务多系统的有效能力研究",
+              "counter_association": "太宽时需持续研究赋义"
+            },
+            "semantic_coherence": {
+              "reason": "有效的日常原义与科学效度要求同向",
+              "counter_association": "不把作数偷换成永不出错"
+            }
+          },
+          "decision": "quality_pass",
+          "independent_submission_ref": "A2-quality-batch4.json producer-only submission"
+        },
+        "chinese_coordinator": {
+          "candidate_id": "C1-C14",
+          "name": "作数",
+          "reviewer": "coordinator",
+          "scores": {
+            "naturalness": 5,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 4,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 25,
+          "notes": {
+            "naturalness": {
+              "reason": "完整日常谓词自然",
+              "counter_association": "容易写成做数或算数"
+            },
+            "distinctiveness": {
+              "reason": "有效作数的口语态度鲜明",
+              "counter_association": "普通口语非专名"
+            },
+            "lab_fit": {
+              "reason": "能容纳实际有效性研究",
+              "counter_association": "可能像统计财税工具"
+            },
+            "grounding": {
+              "reason": "DOE项目明确行动与效度差别",
+              "counter_association": "项目目标不是已完成成果"
+            },
+            "extension": {
+              "reason": "不限单一模型工具",
+              "counter_association": "不是永远正确承诺"
+            },
+            "semantic_coherence": {
+              "reason": "口语有效与科研结果有效同义相接",
+              "counter_association": "数的数字义不该事后硬拆"
+            }
+          },
+          "decision": "quality_pass"
+        },
+        "english_producer": {
+          "candidate_id": "C1-E11",
+          "chinese_id": "C1-C14",
+          "english": "Factborne",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a4",
+          "scores": {
+            "pronunciation": 4,
+            "spelling": 4,
+            "grounding": 4,
+            "bilingual_relation": 5,
+            "distinctiveness": 4
+          },
+          "total": 21,
+          "notes": {
+            "pronunciation": {
+              "reason": "完整熟悉的fact与borne，两个音节，可正常称呼。",
+              "counter_association": "fact末尾kt与borne起首b相接，口头首次需清楚。"
+            },
+            "spelling": {
+              "reason": "各语素保持标准拼法，没有截词或无义字母。",
+              "counter_association": "born同音有真实听写成本，需解释末尾e为borne携带。"
+            },
+            "grounding": {
+              "reason": "事实与承载共同形成主张依靠实际结果成立的单一支撑关系，不是附加成长美好词。",
+              "counter_association": "carried-by转为证据支撑属于品牌比喻，不能当严格词典等义。"
+            },
+            "bilingual_relation": {
+              "reason": "中文结果作数、英文主张须以事实为依据，共同落实有效结果与能力主张的关系。",
+              "counter_association": "中文还包括承诺生效，英文更偏事实证据；不是逐字翻译。"
+            },
+            "distinctiveness": {
+              "reason": "完整合成可作为独立专名，不是普通操作按钮或完整口号。",
+              "counter_association": "可能像事实核查产品，其实际已有使用与近似拼法仍待A3。"
+            }
+          },
+          "status": "pass_quality_gate",
+          "note": "主观编辑判断；等待主控先读无分预览独评，再读本档并授权原A3。"
+        },
+        "english_coordinator": {
+          "candidate_id": "C1-C14",
+          "name": "Factborne",
+          "reviewer": "coordinator",
+          "scores": {
+            "pronunciation": 5,
+            "spelling": 4,
+            "grounding": 4,
+            "bilingual_relation": 4,
+            "distinctiveness": 4
+          },
+          "total": 21,
+          "notes": {
+            "pronunciation": {
+              "reason": "fact与borne两普通音节保留常规读音",
+              "counter_association": "ktb边界需清晰"
+            },
+            "spelling": {
+              "reason": "完整词素可以解释拼写",
+              "counter_association": "borne与born同音"
+            },
+            "grounding": {
+              "reason": "主张由事实承载为有边界的品牌比喻",
+              "counter_association": "承载不自动等同科学证实"
+            },
+            "bilingual_relation": {
+              "reason": "作数与事实支撑共同要求实际结果",
+              "counter_association": "非逐字等义且偏事实核查"
+            },
+            "distinctiveness": {
+              "reason": "完整新称呼有鲜明态度",
+              "counter_association": "新闻核查工具首联想明显"
+            }
+          },
+          "decision": "quality_pass",
+          "english_id": "C1-E11"
+        }
+      },
+      "terminal_review": {
+        "reviewer": "/root",
+        "reviewed_at": "2026-11-07T21:34:39.981233+08:00",
+        "decision": "discussion_candidate",
+        "reason": "真实出处、独立双评、同一A3中英分段查询已核，家族非旧英文改写，具体条件与反联想保留；官方登记未清空。 主控独立核读DOE正文10–30，MW fact及borne原义；承载转为证据支撑是明示品牌比喻，非辞典等义、既有机制或性能承诺。",
+        "evidence_refs": [
+          {
+            "path": "A2-candidates-batch4.json",
+            "sha256": "957bf8655fc641d800ed4929e7fcfc65e307d461c4ca379e068325b10b0fa813"
+          },
+          {
+            "path": "A2-quality-batch4.json",
+            "sha256": "468616ee2229b52b29bc10e73d28574cf58129aef0f7a877227a9dd196fc1676"
+          },
+          {
+            "path": "coordinator-cn-batch4.json",
+            "sha256": "5f4874e4f6ef4a05e2b8e5ba85322ae92f55d931ff2dc96eaa4b7c4e0b4f7eff"
+          },
+          {
+            "path": "A3-cn-batch5.json",
+            "sha256": "68decdd14702ea14101fa2ed22e3c373328eeeb0db85c37d2ff9bccc9eeeeb08"
+          },
+          {
+            "path": "A4-batch11.json",
+            "sha256": "64de497390eb70869fa0d2a0888a8842741ae13a9d8c63d997a9b35ae066ec70"
+          },
+          {
+            "path": "A4-quality-batch11.json",
+            "sha256": "b2c6685ff15de05bfed817c0e54ce05bb671eb5c4026e2a2d63c8b1f44e9efc5"
+          },
+          {
+            "path": "coordinator-en-batch11.json",
+            "sha256": "6ef20031c966665951fa660fba1ac8f7bfda6ab516db7bba915069fa7b89ae83"
+          },
+          {
+            "path": "A3-en-batch11.json",
+            "sha256": "4e1267083380c070a710e5edc0b6785a7e008be6f96537800940f2765c7d01e2"
+          }
+        ]
+      }
     }
+  ],
+  "status_note": "本数组保留曾准入终审记录。当前推荐必须应用research/catalog/revisions.json，不能以数组长度当当前备选数。C1-C06已撤回，不推荐。",
+  "withdrawn_ids": [
+    "C1-C06"
   ]
 }

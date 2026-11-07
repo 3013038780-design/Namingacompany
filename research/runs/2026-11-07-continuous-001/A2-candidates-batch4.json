@@ -1,0 +1,121 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-07T21:20:14.072001+08:00",
+  "scope": "本批只形成两项中文草案，未查重未配英文；不为六素材各强配名。",
+  "candidates": [
+    {
+      "id": "C1-C13",
+      "name": "跳读",
+      "pinyin": "tiào dú",
+      "material_id": "C1-M19",
+      "family_id": "C1-BF-active-nonlinear-knowledge-navigation",
+      "formation": "取现成阅读动作词，不把跳和读各当一个吉祥字。品牌借用非线性文档与可跳转结构之间的真实关系，不假称NLS原文有这个中文。",
+      "meaning": "知识不必只有一条读下去的路。",
+      "crossing": "日常的跳读，从略过一段变成可操作的信息结构：人可以依据关联选择接下来要看的位置，在不同层次与表示间移动。NLS的编辑、视图和链接让复杂关系成为能导航的对象。",
+      "layers": [
+        "一个大家认识的阅读动作",
+        "链接、结构视图与人主动选择路径的现代计算实践",
+        "把知识的组织和使用作为长期研究对象，而非只多生成一段文本"
+      ],
+      "material_feature_retained": "保留使用者可以从当前位置跳到有关系的另一处、选择信息视图的行动。",
+      "material_feature_lost": "名称没包含寻址规则、层级节点和编辑命令，也容易只让人想到草草略读。",
+      "why_name_not_generic": "词本来完整；第二层来自已读的链接与结构视图，不是把任何东西都解释成灵活或成长。",
+      "shortcoming": "第一眼可能是阅读APP、读书品牌或速读课程；跳读也可能被理解成不认真。Lab身份要由研究内容承接，不能只拿计算历史压过这个反联想。",
+      "science_boundary": "NLS展示信息结构可被操作，不直接证明使用工具的人或模型获得持久智能增长；本次读研究所分段说明，未看完整历史视频。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "旧蒙太奇由作者剪接镜头生成意义；本项让使用者在可寻址知识结构中主动导航。Zipper开合是局部编辑与返回路径，本项是文档阅读视图与链接。若最后只讲跳来跳去或换视角，则无法凭新资料计独立家族。"
+      },
+      "oral_test": [
+        "我们是跳读，做人工智能研究。",
+        "跳读发布了一项研究。"
+      ],
+      "material_ids": [
+        "C1-M19"
+      ],
+      "plan_direction_id": "C1-D-S1",
+      "case_ids": [
+        "B025",
+        "B015"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "source_urls": [
+        "https://dougengelbart.org/content/view/374/"
+      ],
+      "sources": [
+        {
+          "title": "Doug Engelbart Institute: 1968 Demo Interactive",
+          "url": "https://dougengelbart.org/content/view/374/",
+          "reading_location": "实际curl页面HTML正文，NLS Editing & View Control、NLS Hypermedia、NLS AS AN INSTRUMENT三节；未观看整场录像",
+          "published_at": null,
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "curl_HTML_body",
+          "checked_at": "2026-11-07"
+        }
+      ],
+      "status": "chinese_draft_not_screened"
+    },
+    {
+      "id": "C1-C14",
+      "name": "作数",
+      "pinyin": "zuò shù",
+      "material_id": "C1-M24",
+      "family_id": "C1-BF-real-outcome-counts-as-valid",
+      "formation": "采用现成口语词，指有效、算数。没有把“作”解释成创造、“数”解释成数字再机械拼合；计算意味只是容易产生的第二联想。",
+      "meaning": "能力最终要在真实事情上作数。",
+      "crossing": "DOE的自主科研项目明确：机器人完成动作之外，还需物理与科学结果符合实验要求。口语里“说了不算，要真的作数”将这种结果有效性转成自然可称呼的研究立场。",
+      "layers": [
+        "日常说一件事情有效、能被当回事",
+        "动作完成与科学结果有效之间的区别",
+        "实验室研究已有智能在真实使用中怎样形成可检验的能力"
+      ],
+      "material_feature_retained": "保留做过一个动作与所产生结果能否有效采用之间的差别。",
+      "material_feature_lost": "名称不含实验领域、验证方法或可复现条件，也不代表团队已实现这些目标。",
+      "why_name_not_generic": "作数是完整既有谓词，日常原义已经是有效性；其与实际研究项目对结果的要求相接，不靠加AI才成名字。",
+      "shortcoming": "可能被听写成做数或算数，也可能像数据统计、财税工具；一旦使用这个名字，宣传便会受到有效性这个立场的检验。不是宣称公司永远正确。",
+      "science_boundary": "来源是选定协商项目的未来目标，不能当已完成成绩；有效性要依具体任务和实验证据判断，不承诺每一次模型输出都可靠。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "M04合符是凭证分持并匹配验真，旧反例是实例否定全称命题；本项是实际动作完成与结果科学效度的差别。不是把原语、实做或既有失败词改一个字；若宽泛解释成所有判断都算有效，则应并回验证上位家族。"
+      },
+      "oral_test": [
+        "我们是作数，做人工智能研究。",
+        "作数发布了一项研究。"
+      ],
+      "material_ids": [
+        "C1-M24"
+      ],
+      "plan_direction_id": "C1-D-S6",
+      "case_ids": [
+        "B077",
+        "B022"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P4",
+        "C1-P5"
+      ],
+      "source_urls": [
+        "https://www.energy.gov/science/articles/doe-announces-four-national-laboratory-led-selections-advance-robotics-and"
+      ],
+      "sources": [
+        {
+          "title": "DOE Announces Four National Laboratory-Led Selections to Advance Robotics and Automation for Autonomous Scientific Discovery",
+          "url": "https://www.energy.gov/science/articles/doe-announces-four-national-laboratory-led-selections-advance-robotics-and",
+          "reading_location": "正文L7–30，重点DART L17–18、四项目角色L23–28与协商边界L29–30",
+          "published_at": "2026-10-08",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_body",
+          "checked_at": "2026-11-07"
+        }
+      ],
+      "status": "chinese_draft_not_screened"
+    }
+  ]
+}

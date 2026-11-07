@@ -1,0 +1,60 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-07T21:48:00.842966+08:00",
+  "scope": "25原关系记录的去重、六宏观方向、古文和实读书/近期新闻来源验收；不是宣称每条文献全文逐段复核或全生产规范完成。",
+  "material_family_count": 25,
+  "research_target": 24,
+  "material_count_shortfall": 0,
+  "macro_counts": {
+    "S1": 4,
+    "S2": 7,
+    "S3": 5,
+    "S4": 3,
+    "S5": 4,
+    "S6": 2
+  },
+  "largest_share": 0.28,
+  "classical_count": 1,
+  "classical_share": 0.04,
+  "books_actually_read": [
+    {
+      "book": "SICP",
+      "material_id": "C1-M01",
+      "scope": "3.3.5节选；另4.1.4节选见M16，不另算一本"
+    },
+    {
+      "book": "Darwin Worms",
+      "material_id": "C1-M02",
+      "scope": "ChapterII塞洞及纸三角等节选，不是通读全书"
+    }
+  ],
+  "recent_news": [
+    {
+      "source": "MIT News",
+      "published_at": "2026-10-22",
+      "material_id": "C1-M03"
+    },
+    {
+      "source": "CSIRO",
+      "published_at": "2026-08-14",
+      "material_id": "C1-M05"
+    },
+    {
+      "source": "CAS fog",
+      "published_at": "2026-10-08",
+      "material_id": "C1-M07"
+    },
+    {
+      "source": "CAS stomatal lineage",
+      "published_at": "2026-11-05",
+      "material_id": "C1-M08"
+    },
+    {
+      "source": "DOE autonomous science",
+      "published_at": "2026-10-08",
+      "material_id": "C1-M24"
+    }
+  ],
+  "substantive_review_note": "主控原8材料及后续用于候选的NLS、DOE、Lamport、同位素等正文/实际共享下载记录另存各root-source-review文件；只读未成名、旧家族接近与质量不通过不强造名字。费曼辅助不计新家族。",
+  "full_protocol_compliance_claimed": false
+}

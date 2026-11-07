@@ -1,0 +1,109 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T21:46:11.144746+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch13.md",
+      "sha256": "55477ae4cb38e3ecca35704c3e2ac33cdac0fd092f6ca35e3b5897a5035ae050"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-batch13.json",
+      "sha256": "b6841be2babf28f3a4d7bd1eed2d82ad70df303f73e49b254c0ef31936f48c9d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch13.json",
+      "sha256": "bf6dbd9cb7953ca57cea46a88f8e5a436686b9f9eebe34fa179eca69c4f03f3a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch13.json",
+      "sha256": "65dcd425a9b3f42bdc41ff640dc04e0ba559ed8e38bfec09c1a459ee0ae603c8"
+    }
+  ],
+  "query_count": 6,
+  "results": [
+    {
+      "candidate_id": "C1-E13",
+      "name": "Textrove",
+      "query_logs": [
+        {
+          "query": "\"Textrove\"",
+          "executed_on": "2026-11-07",
+          "summary": "同完整词已被作者明确用于LLM文档库聊天软件textrove，并存在Textrove India公司第三方完整登记记录；不是仅个人署名/普通text与rove语素。跳读最后R2已用尽，中文保留来源但不列本轮双语可讨论交付。"
+        },
+        {
+          "query": "\"Textrove\" company lab",
+          "executed_on": "2026-11-07",
+          "summary": "同完整词已被作者明确用于LLM文档库聊天软件textrove，并存在Textrove India公司第三方完整登记记录；不是仅个人署名/普通text与rove语素。跳读最后R2已用尽，中文保留来源但不列本轮双语可讨论交付。"
+        },
+        {
+          "query": "\"Textrove\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "同完整词已被作者明确用于LLM文档库聊天软件textrove，并存在Textrove India公司第三方完整登记记录；不是仅个人署名/普通text与rove语素。跳读最后R2已用尽，中文保留来源但不列本轮双语可讨论交付。"
+        },
+        {
+          "query": "\"Textrove\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "同完整词已被作者明确用于LLM文档库聊天软件textrove，并存在Textrove India公司第三方完整登记记录；不是仅个人署名/普通text与rove语素。跳读最后R2已用尽，中文保留来源但不列本轮双语可讨论交付。"
+        },
+        {
+          "query": "\"Text Rove\"",
+          "executed_on": "2026-11-07",
+          "summary": "同完整词已被作者明确用于LLM文档库聊天软件textrove，并存在Textrove India公司第三方完整登记记录；不是仅个人署名/普通text与rove语素。跳读最后R2已用尽，中文保留来源但不列本轮双语可讨论交付。"
+        },
+        {
+          "query": "\"TexTrove\" app",
+          "executed_on": "2026-11-07",
+          "summary": "同完整词已被作者明确用于LLM文档库聊天软件textrove，并存在Textrove India公司第三方完整登记记录；不是仅个人署名/普通text与rove语素。跳读最后R2已用尽，中文保留来源但不列本轮双语可讨论交付。"
+        }
+      ],
+      "decision": "return_for_alternative_exhausted",
+      "reason": "同完整词已被作者明确用于LLM文档库聊天软件textrove，并存在Textrove India公司第三方完整登记记录；不是仅个人署名/普通text与rove语素。跳读最后R2已用尽，中文保留来源但不列本轮双语可讨论交付。",
+      "evidence": [
+        {
+          "url": "https://www.freelancer.com/u/jeremiaspombo",
+          "access": "primary_author_portfolio_body_read",
+          "finding": "L205–207/L246–247作者原文明确producto textrove、chatbot textrove，文档数据库及LLM聊天应用Django部署演示。L315–316经历Pinecone文档库、Meta Llama2 chatbot，但不擅自断言该经历项目和命名项目为相同客户。软件命名确证，未试玩或验证性能。"
+        },
+        {
+          "url": "https://www.zaubacorp.com/TEXTROVE-INDIA-PRIVATE-LIMITED-U46695HR2026PTC145160",
+          "access": "third_party_entity_body_read",
+          "finding": "L35–55 TEXTROVE INDIA PRIVATE LIMITED，CIN U46695HR2026PTC145160，2026-05-08成立，平台as-on2026-07-13标Active；未核官方MCA、不假称AI行业或当前在营已登记审。"
+        },
+        {
+          "url": "https://www.solocheck.ie/Irish-Company/Textrove-Limited-313819",
+          "access": "third_party_historical_entity_body_read",
+          "finding": "Textrove Limited公司313819，1999成立，页面现标Dissolved2016-09-07；历史同词公司，不称仍在营。"
+        },
+        {
+          "url": "https://cro.ie/wp-content/uploads/2024/04/Vol1_G_2016may25.pdf",
+          "access": "official_historical_gazette_opened_header_and_index_read",
+          "finding": "爱尔兰CRO官方2016-05-25自愿注销firstnotice，搜索索引列313819 TEXTROVE LIMITED；原PDF已打开读公告性质，非2026现时登记通过/否决。"
+        },
+        {
+          "url": "https://my-portfolio-five-tau-94.vercel.app/",
+          "access": "primary_author_portfolio_body_read",
+          "finding": "L40–41图片alt TextTrove、正文Textrove daily notes项目，一t/两t写法不一致；列为个人开发独立项目近名，单独不夸称商业公司。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        }
+      },
+      "chinese_candidate_id": "C1-C13",
+      "chinese": "跳读",
+      "version": "last_english_rework_attempt2",
+      "precise_use_type": "exact_named_llm_chatbot_and_company_core_name"
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。"
+}

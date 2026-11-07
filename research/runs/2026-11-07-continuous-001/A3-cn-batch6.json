@@ -1,0 +1,105 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T21:27:00.106935+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch5.json",
+      "sha256": "b3daeb385244cb879fe509c0f0cdd3863b10c04ccec1e19a213370a9766f6959"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch5.md",
+      "sha256": "c67f820148632a7e2b1edbff1710b3867206ac7f035a54927839351740262576"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch5.json",
+      "sha256": "b2d7e2fcbca26ca3c64681c690d842c3e8d805996afd5069636cec01aa9f0421"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch5.json",
+      "sha256": "43adb9c0c7a3362fdc12ee3fc707efd13bcb3da9edfa27583bc3fab1a43ddd82"
+    }
+  ],
+  "query_count": 7,
+  "results": [
+    {
+      "candidate_id": "C1-C15",
+      "name": "同位素",
+      "query_logs": [
+        {
+          "query": "\"同位素\"",
+          "executed_on": "2026-11-07",
+          "summary": "存在明确同核心科技公司使用。御银2020年报将同位素直接定义为广州同位素智能科技有限公司简称；地域、智能科技后缀不构成不同核心。另河南省同位素科技有限公司及2026增资公告线索。不是因为科学术语本身通用就判占用，不假称当前登记在营已核。"
+        },
+        {
+          "query": "\"同位素\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "存在明确同核心科技公司使用。御银2020年报将同位素直接定义为广州同位素智能科技有限公司简称；地域、智能科技后缀不构成不同核心。另河南省同位素科技有限公司及2026增资公告线索。不是因为科学术语本身通用就判占用，不假称当前登记在营已核。"
+        },
+        {
+          "query": "\"同位素\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "存在明确同核心科技公司使用。御银2020年报将同位素直接定义为广州同位素智能科技有限公司简称；地域、智能科技后缀不构成不同核心。另河南省同位素科技有限公司及2026增资公告线索。不是因为科学术语本身通用就判占用，不假称当前登记在营已核。"
+        },
+        {
+          "query": "\"同位素\" 公司 軟體",
+          "executed_on": "2026-11-07",
+          "summary": "存在明确同核心科技公司使用。御银2020年报将同位素直接定义为广州同位素智能科技有限公司简称；地域、智能科技后缀不构成不同核心。另河南省同位素科技有限公司及2026增资公告线索。不是因为科学术语本身通用就判占用，不假称当前登记在营已核。"
+        },
+        {
+          "query": "\"tongweisu\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "存在明确同核心科技公司使用。御银2020年报将同位素直接定义为广州同位素智能科技有限公司简称；地域、智能科技后缀不构成不同核心。另河南省同位素科技有限公司及2026增资公告线索。不是因为科学术语本身通用就判占用，不假称当前登记在营已核。"
+        },
+        {
+          "query": "\"同位素科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "存在明确同核心科技公司使用。御银2020年报将同位素直接定义为广州同位素智能科技有限公司简称；地域、智能科技后缀不构成不同核心。另河南省同位素科技有限公司及2026增资公告线索。不是因为科学术语本身通用就判占用，不假称当前登记在营已核。"
+        },
+        {
+          "query": "\"同位素智能\"",
+          "executed_on": "2026-11-07",
+          "summary": "存在明确同核心科技公司使用。御银2020年报将同位素直接定义为广州同位素智能科技有限公司简称；地域、智能科技后缀不构成不同核心。另河南省同位素科技有限公司及2026增资公告线索。不是因为科学术语本身通用就判占用，不假称当前登记在营已核。"
+        }
+      ],
+      "decision": "reject",
+      "reason": "存在明确同核心科技公司使用。御银2020年报将同位素直接定义为广州同位素智能科技有限公司简称；地域、智能科技后缀不构成不同核心。另河南省同位素科技有限公司及2026增资公告线索。不是因为科学术语本身通用就判占用，不假称当前登记在营已核。",
+      "evidence": [
+        {
+          "url": "https://pdf.dfcfw.com/pdf/H2_AN202104291488657486_1.pdf",
+          "access": "issuer_annual_report_pdf_body_read",
+          "finding": "御银股份2020年度报告PDF第5页/索引页4，L86–88：同位素指广州同位素智能科技有限公司，股权说明。同名真实公司及核心简称直接确证，历史披露不等于现时GSXT核名。"
+        },
+        {
+          "url": "https://paper.cnstock.com/html/2026-09/11/content_2267497.htm",
+          "access": "issuer_announcement_part_body_read_relevant_name_search_extract_only",
+          "finding": "2026多氟多公告初次打开正文读L163–184审议增资议案；后续定位河南省全名超时，相关同位素科技公司简称/控股子公司及增资细节由索引提取，不伪称该细节正文重读成功。"
+        },
+        {
+          "url": "https://www.stcn.com/article/detail/1019422.html",
+          "access": "third_party_news_search_extract_only",
+          "finding": "2023证券时报引企查查：河南省同位素科技有限公司成立，多氟多等6000万，法定代表人薛旭金；不是本代理已查官方登记。"
+        },
+        {
+          "url": "https://www.cgnnt.com.cn/tongweisu",
+          "access": "company_page_open_no_readable_lines",
+          "finding": "中广核同位素科技绵阳公司的页面检索命中；直接打开0可读行，此较长品牌不作为本案精确核心确证，广州年报已足。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        }
+      }
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。"
+}

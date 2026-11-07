@@ -1,0 +1,57 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "submitted_at": "2026-11-07T21:23:13.352648+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch3.json",
+      "sha256": "b0849a393c3e66ae37a7dd9406cfc5b5b90531cc21c556e7b17974bf9fd347d3"
+    },
+    {
+      "path": "materials-extension3.json",
+      "sha256": "a549fff62266ddf31e61b34e8c8523b247927918903944bab48863a1bdaeac36"
+    },
+    {
+      "path": "A3-cn-batch4.json",
+      "sha256": "7bd2807767134271aa0bf53b1969eb9c261ea0e37336f0be1e2dcb96e094b118"
+    },
+    {
+      "path": "A4-batch7.json",
+      "sha256": "92d88995a96b4db108b157b412112b2309ccc5b8f27287dae441f3cc9f4a2bcd"
+    },
+    {
+      "path": "coordinator-en-batch7.json",
+      "sha256": "de180ad06321df06394b2015e8bb145dcc8909e04abc559729b6256b9e8fb324"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E08",
+      "chinese_id": "C1-C11",
+      "chinese": "回车以后",
+      "english": "At Runtime",
+      "suggested_pronunciation": "at RUN-time，/ət ˈrʌn.taɪm/；三个音节，重音落在 run。",
+      "type": "既有计算机语境短语；非造词",
+      "formation": "at + runtime，完整普通介词加既有计算机名词，意思是在运行时。不是把两个漂亮词根拼出一个新机制，也不宣称出自某位作者的原话。Python语言参考实际在名称解析中使用 at runtime；它区分运行时与编译时。",
+      "bilingual_relation": "中文从用户一侧指出把完整输入交给系统之后；英文从计算机一侧指出程序实际运行的阶段。两者共同落在文字开始被执行、其效果实际发生的边界：一个说动作之后，一个说所进入的阶段，不是逐字翻译。",
+      "meaning": "把实验室的关注放在智能真正被使用的时候。训练完成或代码写好，并不是全部故事；人把输入交给系统之后，执行、结果、错误与下一次互动才成为可观察的事实。最后这一句是品牌研究态度，不是说运行时天然发生学习。",
+      "shortcoming": "runtime 是高度通用的软件词，At Runtime 仍很像技术专栏或开发工具称呼，独立品牌辨识是本案最弱处；介词 at 口头容易被弱化。它明确有技术气质，但偏软件执行层，不自动传达通用AI研究。仅在完整短语能够成立的前提下提交，并不以添加介词声称能避开 Runtime 相关商业品牌；完整短语及核心词的已有使用必须由A3继续判别。",
+      "boundary": "运行时不等于强化学习，不保证能力增长；每次回车也未必提交完整表达式或产生成功结果。Python名称解析案例只是运行时确有实际意义的佐证，不把其中的名称绑定解释为模型记忆学习。本案没有采用该新章节引入新的中文家族。",
+      "source_urls": [
+        "https://sicp.sourceacademy.org/chapters/4.1.4.html",
+        "https://docs.python.org/3/tutorial/interpreter.html",
+        "https://docs.python.org/3/reference/executionmodel.html"
+      ],
+      "read_scope": "本人此前实读SICP 4.1.4的全局环境与driver-loop段（网页264–318行）、Python交互提示符与多行输入段（23–37行）；本次实际打开Python执行模型文档，读程序块/执行帧（4–6行）以及动态特性中的 at runtime 对比 at compile time 与示例（133–140行）。没有通读整本书。尝试的MDN Runtime词条不可访问，未作为证据。",
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "usage_screening_performed": false,
+  "rework": {
+    "attempt": 2,
+    "remaining_after_this": 0,
+    "previous_english_id": "C1-E07",
+    "reason": "主控独立质量未过：Replyrise的rise为外加正向意象，偏客服或邮件增长工具，未保留提交到执行的独特边界。",
+    "not_new_chinese_family": true
+  }
+}

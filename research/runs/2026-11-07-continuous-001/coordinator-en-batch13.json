@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T21:44:34.322841+08:00",
+  "independence": "Read producer preview batch13 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C13",
+      "name": "Textrove",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个完整常见音节按正常词音可读",
+          "counter_association": "kstr段需清晰"
+        },
+        "spelling": {
+          "reason": "text和rove原样相接可说明",
+          "counter_association": "可能拆为Tex-trove需首次确认"
+        },
+        "grounding": {
+          "reason": "文字与穿行同属导航关系",
+          "counter_association": "不是正式科学术语"
+        },
+        "bilingual_relation": {
+          "reason": "跳读与可进入文字结构相接",
+          "counter_association": "文字范围损失多模态且rove可无目的"
+        },
+        "distinctiveness": {
+          "reason": "完整专名较易形成称呼",
+          "counter_association": "像文本阅读工具首印象"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E13"
+    }
+  ]
+}

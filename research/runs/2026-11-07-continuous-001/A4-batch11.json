@@ -1,0 +1,57 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "submitted_at": "2026-11-07T21:29:15.485605+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch4.json",
+      "sha256": "957bf8655fc641d800ed4929e7fcfc65e307d461c4ca379e068325b10b0fa813"
+    },
+    {
+      "path": "materials-extension4.json",
+      "sha256": "2b90619996a1920932e9dd0a261a4a6d8fa9bb3e20633f18bc310409c0257eba"
+    },
+    {
+      "path": "A3-cn-batch5.json",
+      "sha256": "68decdd14702ea14101fa2ed22e3c373328eeeb0db85c37d2ff9bccc9eeeeb08"
+    },
+    {
+      "path": "A4-batch10.json",
+      "sha256": "50efbf6d7a7bbc591150f43c0e73bb31f3f5f5500ffa041ba3c3e822a1fa19af"
+    },
+    {
+      "path": "A3-en-batch10.json",
+      "sha256": "52a45d599e896a33975d8a763e9f1f1c38cf9ecd8b365f2f21ee1e7027dcd469"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E11",
+      "chinese_id": "C1-C14",
+      "chinese": "作数",
+      "english": "Factborne",
+      "suggested_pronunciation": "FACT-born，/ˈfækt.bɔːrn/，两个音节。",
+      "type": "由完整现有语素构成的新品牌专名提案",
+      "formation": "fact（实际发生或存在的事实）+ borne（承载、携带；bear的过去分词）。现有英语有airborne等完整构形；本案把承载对象换为事实，表达研究主张由实际事实托住的关系。Factborne不是已核实的词典词，也不是现有科学机制的正式名称。这里不是born出生，亦非把Bear Out改一两个字母避重。",
+      "bilingual_relation": "中文作数要求结果实际有效、可采用；英文把对能力的主张视作需要由事实承载的东西。一边说结果要有效，一边说凭什么成立：依靠已观察的事实，而非仅完成动作或作出漂亮承诺。二者共享主张与有效结果之间的支撑关系。",
+      "meaning": "让智能能力的故事由事实托住。名字可以覆盖从提出主张、运行实验到观察真实结果的研究态度；其中事实必须具体可检查，不是品牌一说就变成事实。",
+      "shortcoming": "Fact-borne是有据语素的比喻性新合成，需要首次解释，并非母语既有习语；可能被听写为Factborn，/ktb/边界需清晰发音。也可能首先被理解成事实核查或新闻工具公司。borne原有携带/传播义不自动等于科学证实，这段从承载到主张支撑的转用必须承认，不能靠词典引文掩盖。",
+      "boundary": "DOE的动作完成与结果科学有效性是关系来源，Factborne则是品牌拟物而非DOE原文词；不声称组合词已有严格科学定义。borne不保证某主张真实，fact也不替代实验有效性判断；不能宣传成所有模型输出都是事实或所有实验都能证明正确。没有做该完整专名的使用查询。",
+      "source_urls": [
+        "https://www.energy.gov/science/articles/doe-announces-four-national-laboratory-led-selections-advance-robotics-and",
+        "https://www.merriam-webster.com/dictionary/fact",
+        "https://www.merriam-webster.com/dictionary/borne"
+      ],
+      "read_scope": "本人此前实读DOE正文10–30行，重点DART动作完成与科学结果要求17–18行和项目协商边界30行；本次实际读Merriam-Webster fact词条31–67行与borne词条31–60行，确认事实、过去分词与复合词carried-by义及born/borne差别。没有声称词典收录Factborne。",
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "usage_screening_performed": false,
+  "rework": {
+    "attempt": 1,
+    "remaining_after_this": 1,
+    "previous_english_id": "C1-E10",
+    "reason": "同A3发现bearout独立LLM引用核验软件与BEAROUT游戏；不采用旧全名，重新用主张由事实支撑的有据复合专名。",
+    "not_new_chinese_family": true
+  }
+}

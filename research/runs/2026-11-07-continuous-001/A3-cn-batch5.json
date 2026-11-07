@@ -1,0 +1,182 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T21:24:54.444755+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch4.json",
+      "sha256": "957bf8655fc641d800ed4929e7fcfc65e307d461c4ca379e068325b10b0fa813"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch4.md",
+      "sha256": "ebef8bc59dab82bae4b2e8fbc94a4bebc0259d9f3f3614efcfcc73a7b757517b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch4.json",
+      "sha256": "468616ee2229b52b29bc10e73d28574cf58129aef0f7a877227a9dd196fc1676"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch4.json",
+      "sha256": "5f4874e4f6ef4a05e2b8e5ba85322ae92f55d931ff2dc96eaa4b7c4e0b4f7eff"
+    }
+  ],
+  "query_count": 16,
+  "results": [
+    {
+      "candidate_id": "C1-C13",
+      "name": "跳读",
+      "query_logs": [
+        {
+          "query": "\"跳读\"",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证同核心商业机构/AI模型/独立软件。跳读为阅读动作、提词软件功能及医学外显子概念；不能把随声提词的跳读增强功能当作跳读品牌。"
+        },
+        {
+          "query": "\"跳读\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证同核心商业机构/AI模型/独立软件。跳读为阅读动作、提词软件功能及医学外显子概念；不能把随声提词的跳读增强功能当作跳读品牌。"
+        },
+        {
+          "query": "\"跳读\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证同核心商业机构/AI模型/独立软件。跳读为阅读动作、提词软件功能及医学外显子概念；不能把随声提词的跳读增强功能当作跳读品牌。"
+        },
+        {
+          "query": "\"跳讀\" 公司 軟體",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证同核心商业机构/AI模型/独立软件。跳读为阅读动作、提词软件功能及医学外显子概念；不能把随声提词的跳读增强功能当作跳读品牌。"
+        },
+        {
+          "query": "\"tiaodu\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证同核心商业机构/AI模型/独立软件。跳读为阅读动作、提词软件功能及医学外显子概念；不能把随声提词的跳读增强功能当作跳读品牌。"
+        },
+        {
+          "query": "\"跳读科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证同核心商业机构/AI模型/独立软件。跳读为阅读动作、提词软件功能及医学外显子概念；不能把随声提词的跳读增强功能当作跳读品牌。"
+        },
+        {
+          "query": "\"跳读智能\"",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证同核心商业机构/AI模型/独立软件。跳读为阅读动作、提词软件功能及医学外显子概念；不能把随声提词的跳读增强功能当作跳读品牌。"
+        },
+        {
+          "query": "\"跳读\" \"有限公司\"",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证同核心商业机构/AI模型/独立软件。跳读为阅读动作、提词软件功能及医学外显子概念；不能把随声提词的跳读增强功能当作跳读品牌。"
+        }
+      ],
+      "decision": "public_use_screen_pass",
+      "reason": "八组查询未确证同核心商业机构/AI模型/独立软件。跳读为阅读动作、提词软件功能及医学外显子概念；不能把随声提词的跳读增强功能当作跳读品牌。",
+      "evidence": [
+        {
+          "url": "https://meta.appinn.net/t/topic/86176",
+          "access": "developer_post_body_read",
+          "finding": "开发者帖子软件名为随声提词，跳读增强为功能说明，不是独立跳读软件。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Tiaodu",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      }
+    },
+    {
+      "candidate_id": "C1-C14",
+      "name": "作数",
+      "query_logs": [
+        {
+          "query": "\"作数\"",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+        },
+        {
+          "query": "\"作数\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+        },
+        {
+          "query": "\"作数\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+        },
+        {
+          "query": "\"作數\" 公司 軟體",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+        },
+        {
+          "query": "\"zuoshu\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+        },
+        {
+          "query": "\"作数科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+        },
+        {
+          "query": "\"作数智能\"",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+        },
+        {
+          "query": "\"作数\" \"有限公司\"",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+        }
+      ],
+      "decision": "public_use_screen_pass",
+      "reason": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。",
+      "evidence": [
+        {
+          "url": "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202501/052897_20250123_H0S4.pdf",
+          "access": "primary_pdf_downloaded_first_page_render_visually_read",
+          "finding": "web打开超时；curl完整下载127页PDF至/tmp/a3-zuoshu-sse.pdf，首面渲染/tmp/a3-zuoshu-sse-p1.png明确华数数字电视传媒集团有限公司审计报告。不是作数公司。"
+        },
+        {
+          "url": "https://zuoshu.com/t/zixun",
+          "access": "search_index_only_open_timeout",
+          "finding": "做書为出版文化自媒体，同拼音不同中文字，不用作中文精确占用。"
+        },
+        {
+          "url": "https://dgip.go.id/uploads/berita_resmi/file/ad2dfc97cc337246c2b0d5d686b2e3d3.pdf",
+          "access": "search_index_only_not_pdf_read",
+          "finding": "印尼官方商标公告搜索索引ZUOSHU+LOGO、DID2024129957、11类电热家电。未逐页核读，中文未知，不作为作数同名证明；披露拼音英文风险。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Zuoshu",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      }
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。"
+}

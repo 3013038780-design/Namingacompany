@@ -1,0 +1,20 @@
+{
+  "recorded_by": "/root",
+  "recorded_at": "2026-11-07T21:51:10.694476+08:00",
+  "issue": "decisions.json是持续生成的状态索引，后续重建改变原A1和A4曾读版本。原内容未及时快照保全，不能假称旧输入SHA仍匹配当前文件。",
+  "immutable_current_snapshot": "inputs/decisions-final-work-segment.json",
+  "current_snapshot_sha256": "fed3a07ae01e5f1b84e009cca9db92f693673fc536b62cc1591fe1c48477ff37",
+  "affected_historical_receipts": [
+    {
+      "receipt": "A1-formation-feedback.json",
+      "historical_input_sha256": "d3b361106eb614fe6033f8953f37007bdeba03c1cbd54ea4687c038564976462",
+      "historical_bytes_preserved": false
+    },
+    {
+      "receipt": "A4-closeout.json",
+      "historical_input_sha256": "65ed8cf7dd86d85970d20a16fa768d579b18aa9f88099caed884432a38a2b8b6",
+      "historical_bytes_preserved": false
+    }
+  ],
+  "resolution": "实际请求原A1和原A4重新读取不可变当前快照，并分别提交当前版本再验收回执；保留原回执及历史SHA，不伪造已丢失原字节。"
+}

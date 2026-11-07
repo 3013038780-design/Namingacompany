@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-07T21:23:13.352648+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E08",
+      "chinese_id": "C1-C11",
+      "english": "At Runtime",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "完整常见语词的短语，不需要教授一个新拼法的读音。",
+          "counter_association": "at 容易弱读，别人可能只记得Runtime。"
+        },
+        "spelling": {
+          "reason": "at和runtime均为完整常见拼法，无换字母或截词。",
+          "counter_association": "Runtime和run time在普通文本中会出现分词差别。"
+        },
+        "grounding": {
+          "reason": "执行阶段是真实概念，原读求值循环确实经过提交输入再执行返回；无需另加成长拟物。",
+          "counter_association": "它是计算机阶段称呼，不是一个独有科学发现或专属机制。"
+        },
+        "bilingual_relation": {
+          "reason": "中文提交动作之后与英文实际执行时段存在直接场景关系，从用户与机器两侧表达同一边界。",
+          "counter_association": "二者非严格等义：runtime也包含非交互脚本，回车也未必立即执行。"
+        },
+        "distinctiveness": {
+          "reason": "作为完整介词短语有可称呼的外壳，能容纳技术研究态度，而非一个功能命令。",
+          "counter_association": "技术文章感强，核心词通用，品牌独立性只达到本角色最低接受水平；不是以质量分代替使用核查。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；等待主控先读无分预览独评，再读本档并授权原A3。"
+    }
+  ]
+}

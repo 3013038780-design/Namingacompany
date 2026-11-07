@@ -1,11 +1,11 @@
 {
-  "verified_at": "2026-11-07T21:14:02.846259+08:00",
+  "verified_at": "2026-11-07T21:53:31.611335+08:00",
   "catalog_counts": {
-    "discussion_candidates": 23,
+    "discussion_candidates": 24,
     "research_reserves": 1,
-    "total_unique_families": 24,
+    "total_unique_families": 25,
     "withdrawn_families": 1,
-    "historical_unique_families": 25
+    "historical_unique_families": 26
   },
   "checks": {
     "catalog_idempotent": true,
@@ -15,10 +15,15 @@
     "research_and_quality_contract_unchanged": true,
     "accepted_A2_six_direction_traceability": true,
     "H1_hashes": true,
-    "existing_workflow_tests": "24 passed",
+    "existing_workflow_tests": "26 passed (24 workflow + 2 withdrawal regressions)",
     "research_validator": "exit0; active research still INCOMPLETE; no premature final candidates",
     "old_report_renderer": "exit0; no website diff",
-    "staged_whitespace_check": "passed after presentation-only trailing blank-line normalization; original A2 bytes preserved in explicit snapshot"
+    "staged_whitespace_check": "passed after presentation-only trailing blank-line normalization; original A2 bytes preserved in explicit snapshot",
+    "actor_input_refs_checked": 186,
+    "historical_mutable_index_input_gaps_disclosed": 2,
+    "current_inputs_reaccepted_by_actual_A1_A4": true,
+    "current_terminal_and_handoff_refs_match": true,
+    "source_snapshot_format_mapping": "A2材料展示末尾空白规范化保留原字节JSON；两历史动态索引原字节缺失披露后，由原角色真实读取冻结当前版本再验收，不假称全部历史SHA匹配。"
   },
   "automation": {
     "action": "updated existing application heartbeat",
@@ -28,10 +33,10 @@
     "configuration_verified_in_local_app_record": true,
     "documentation": "https://learn.chatgpt.com/docs/automations?surface=app"
   },
-  "scope_note": "余量首次放行漏检，补核官方科技企业名单后显式撤回；当前新备选仅活桥/Antspan。全研究继续进行，不把撤回算推荐。",
+  "scope_note": "当前新保留活桥/Antspan、作数/Factborne。余量经官方企业名单补核撤回；183候选查询，2阳性/1旧储备补查分别计。四实际角色本段结束，后续每小时接续；全生产规范仍不冒称全部合规。",
   "latest_editorial_update": {
     "old_reserves_promoted": 2,
-    "new_families": 1,
+    "new_families": 2,
     "source": "research/runs/2026-11-07-continuous-001/delivery.json",
     "risk_hold": "Airsung近似Aisung，当前英文不采用；中文研究保留",
     "withdrawn_after_correction": 1

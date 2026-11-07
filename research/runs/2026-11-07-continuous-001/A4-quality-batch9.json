@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-07T21:27:23.007399+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E09",
+      "chinese_id": "C1-C13",
+      "english": "Passageway",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "现成日常英语单词，音节清晰，称呼自然。",
+          "counter_association": "非母语读者可能需第一次确认中间的ij音。"
+        },
+        "spelling": {
+          "reason": "使用完整词典拼法，不加减字母。",
+          "counter_association": "passage中双s及单g仍可能听写错误，但均是标准常见词。"
+        },
+        "grounding": {
+          "reason": "具体通道与原文可穿行的信息结构存在同一空间关系，第二层段落义也有真实来源。",
+          "counter_association": "是品牌转用的意象，不是原文科学术语；不能把段落联想冒充词典的复合词义。"
+        },
+        "bilingual_relation": {
+          "reason": "中文为主动导航动作，英文为使导航可行的结构，二者在NLS实际使用过程相接。",
+          "counter_association": "英文不特别表示跳过，空间通道第一义可能盖过知识导航。"
+        },
+        "distinctiveness": {
+          "reason": "有完整名词外壳，容易用作机构称呼，不像自动拼出的功能名。",
+          "counter_association": "普通词有建筑与旅行印象，独特性只达本角色最低接受，已有使用另交A3。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；等待主控先读无分预览独评，再读本档并授权原A3。"
+    }
+  ]
+}

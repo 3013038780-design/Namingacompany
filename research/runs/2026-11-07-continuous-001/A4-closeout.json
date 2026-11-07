@@ -1,0 +1,122 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "completed_at": "2026-11-07T21:48:03.962352+08:00",
+  "actual_action": "读取角色记录和最新A3/主控决策，核对十三份原稿SHA，更新阶段索引；不重新评分、查询或命名。",
+  "inputs": [
+    {
+      "path": "A3-en-batch8.json",
+      "sha256": "63895f09bdaf18a7ba50404b7a1df62dd2ae767f42c2e65620ac4c34b51cb967"
+    },
+    {
+      "path": "A3-en-batch9.json",
+      "sha256": "0a89691553492bce8ea7dca2f87a135ba5b15d7d0a4eb824fd21386cdc302625"
+    },
+    {
+      "path": "A3-en-batch10.json",
+      "sha256": "52a45d599e896a33975d8a763e9f1f1c38cf9ecd8b365f2f21ee1e7027dcd469"
+    },
+    {
+      "path": "A3-en-batch11.json",
+      "sha256": "4e1267083380c070a710e5edc0b6785a7e008be6f96537800940f2765c7d01e2"
+    },
+    {
+      "path": "A3-en-batch12.json",
+      "sha256": "008cae78dacca0449f5cd50c3a23d17ac0214e607069351d931dd8017f90457d"
+    },
+    {
+      "path": "A3-en-batch13.json",
+      "sha256": "01e8716ef60331318cda96459110535f827dbecd58bb01bd561b35ac0cc01641"
+    },
+    {
+      "path": "A3-C06-use-addendum.json",
+      "sha256": "9a1a64e40c181d045613003e7737a3a208f72b4cde26dca0fcc0c6f5db3db4ce"
+    },
+    {
+      "path": "coordinator-C06-withdrawal.json",
+      "sha256": "7d08b6078c782f3f4e2399b67c7bd7f7ead5a5a7c379ab5eb8d85b4b18716c5b"
+    },
+    {
+      "path": "A3-C08-core-addendum.json",
+      "sha256": "cbc4cec2390b79df9c6a5b01e75ac7a682c2bd59bd3e3cb72367b4a71dcbf52b"
+    },
+    {
+      "path": "coordinator-C17-use-decision.json",
+      "sha256": "31b27f437671d74e193e27ac517c9d110d5abfcadfbf6eb0078a416b46f31a2a"
+    },
+    {
+      "path": "coordinator-E12-use-decision.json",
+      "sha256": "3171f730fd35400685d8f18aee33c2002277ef43d49a2acba8cd1e15581e88e6"
+    },
+    {
+      "path": "decisions.json",
+      "sha256": "65ed8cf7dd86d85970d20a16fa768d579b18aa9f88099caed884432a38a2b8b6"
+    },
+    {
+      "path": "A4-E04-usage-note.json",
+      "sha256": "855de77a04c8f0cd66983b53f6beb713e4f637a0cff3598d2b3a0934257758be"
+    },
+    {
+      "path": "coordinator-en-batch7.json",
+      "sha256": "de180ad06321df06394b2015e8bb145dcc8909e04abc559729b6256b9e8fb324"
+    }
+  ],
+  "source_reading_boundary": "本次仅读已落盘角色报告与主控决策，不声称重新打开报告引述的官网/登记门户；A3原始使用核查仍署原/root/live_a3。",
+  "counts": {
+    "chinese_families_with_english_assignment": 6,
+    "english_versions": 13,
+    "retained_complete_pairs": 2
+  },
+  "outcomes": [
+    {
+      "chinese": "由此及彼",
+      "id": "C1-C01",
+      "status": "no_qualified_english_rework_exhausted",
+      "reason": "Therefrom、Either End、What Follows实际商业使用避让；英文返工耗尽。"
+    },
+    {
+      "chinese": "余量",
+      "id": "C1-C06",
+      "status": "withdrawn",
+      "reason": "官方2024浙江科技企业备案实际列杭州余量科技有限公司；撤回整对，不以英文通过救回中文。非现时GSXT或9/42法律结论。"
+    },
+    {
+      "chinese": "活桥",
+      "id": "C1-C08",
+      "english": "Antspan",
+      "status": "retained_root_final",
+      "review": "确认既有边界与短板：军蚁以自身成桥是真来源，动态结构并非全局最优证明；Antspan与antispam音形接近、ntsp发音/拼写成本继续明列。C08补核未带来新增语义问题。"
+    },
+    {
+      "chinese": "回车以后",
+      "id": "C1-C11",
+      "status": "no_qualified_english_rework_exhausted",
+      "reason": "Linewake确有软件开发品牌；Replyrise质量未过，未送A3查询；At Runtime确有ATRUNTIME电子工程品牌，最后返工结束。"
+    },
+    {
+      "chinese": "跳读",
+      "id": "C1-C13",
+      "status": "no_qualified_english_rework_exhausted",
+      "reason": "Passageway有SaaS及MCP软件；Linkroam未证科技主体，主控基于同形域名负面搜索联想主动避让，不背书自动phishing评级；Textrove有作者命名LLM软件，另第三方公司记录，最后返工耗尽。"
+    },
+    {
+      "chinese": "作数",
+      "id": "C1-C14",
+      "english": "Factborne",
+      "status": "retained_root_final",
+      "review": "确认既有边界与短板：fact+borne为有据新专名，承载到证据支撑是品牌比喻，并非词典定义等同科学证实；born同音、ktb边界、事实核查工具首联想继续明列；DOE为项目目标不冒称完成成绩。英文新使用记录未带来新增语义问题。"
+    }
+  ],
+  "not_assigned_english": {
+    "chinese_id": "C1-C17",
+    "chinese": "因序",
+    "reason": "主控同字跨类标志与科技近名编辑避让，不是确证精确AI同名或9/42法律驳回。",
+    "ref": "coordinator-C17-use-decision.json"
+  },
+  "original_proposals_and_scores_unchanged": true,
+  "new_usage_queries_by_A4": 0,
+  "new_registration_queries_by_A4": 0,
+  "new_scores": false,
+  "new_names": 0,
+  "next": "后续定时任务接续下一工作段；本段C01/C11/C13不再返工。"
+}

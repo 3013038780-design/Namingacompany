@@ -2,11 +2,11 @@
   "schema_version": 1,
   "purpose": "持续分类总库；无每日配额。不同英文版本不增加家族数。",
   "counts": {
-    "discussion_candidates": 23,
+    "discussion_candidates": 24,
     "research_reserves": 1,
-    "total_unique_families": 24,
+    "total_unique_families": 25,
     "withdrawn_families": 1,
-    "historical_unique_families": 25
+    "historical_unique_families": 26
   },
   "worlds": [
     {
@@ -2300,6 +2300,104 @@
         "uk_company": {
           "status": "unavailable",
           "url": "https://find-and-update.company-information.service.gov.uk/search?q=Antspan",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      },
+      "registration_status": "not_officially_cleared",
+      "registration_note": "原始记录逐入口披露；公开使用初筛不是企业核名或9/42类商标可注册结论。",
+      "review_note": "按余量纠错后的核心字号口径追加3条独立精确查询，活桥科技/活桥智能等未发现确证商业主体，维持公开使用讨论；原中文7条与英文7条不重复记作新增。Antspan与antispam听写混淆短板仍保留，官方登记未清空。",
+      "revision_history": [
+        {
+          "family_id": "C1-BF-members-become-adaptive-support",
+          "previous_status": "discussion_candidate",
+          "status": "discussion_candidate",
+          "reviewer": "/root",
+          "reviewed_at": "2026-11-07T21:25:36.167791+08:00",
+          "reason": "按余量纠错后的核心字号口径追加3条独立精确查询，活桥科技/活桥智能等未发现确证商业主体，维持公开使用讨论；原中文7条与英文7条不重复记作新增。Antspan与antispam听写混淆短板仍保留，官方登记未清空。",
+          "review_refs": [
+            {
+              "path": "research/runs/2026-11-07-continuous-001/A3-C08-core-addendum.json",
+              "sha256": "cbc4cec2390b79df9c6a5b01e75ac7a682c2bd59bd3e3cb72367b4a71dcbf52b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "N0026",
+      "chinese": "作数",
+      "english": "Factborne",
+      "family_id": "C1-BF-real-outcome-counts-as-valid",
+      "status": "discussion_candidate",
+      "primary_world": "S6",
+      "tags": [
+        "S3",
+        "实际结果",
+        "科学效度",
+        "研究立场"
+      ],
+      "classification_reason": "来自自主科研项目对动作完成与实验科学有效性差别的具体要求；以自然口语承载研究立场，不是凭证勘合或泛化验证词改写。",
+      "brief": "完成动作之外，能力还要在真实结果上作数。",
+      "source": {
+        "title": "DOE Announces Four National Laboratory-Led Selections to Advance Robotics and Automation for Autonomous Scientific Discovery",
+        "url": "https://www.energy.gov/science/articles/doe-announces-four-national-laboratory-led-selections-advance-robotics-and",
+        "read_scope": "正文L7–30，重点DART L17–18、四项目角色L23–28与协商边界L29–30",
+        "date": "2026-10-08",
+        "access": "body"
+      },
+      "fact": "DOE于2026-10-08公布自主科研机器人项目选择，DART目标明确区分机器人完成动作，与实际物理和科学结果满足实验要求。该公告是协商选定项目的目标，不是已经完成成果。",
+      "meaning": "能力最终要在真实事情上作数。",
+      "crossing": "DOE的自主科研项目明确：机器人完成动作之外，还需物理与科学结果符合实验要求。口语里“说了不算，要真的作数”将这种结果有效性转成自然可称呼的研究立场。",
+      "layers": [
+        "日常说一件事情有效、能被当回事",
+        "动作完成与科学结果有效之间的区别",
+        "实验室研究已有智能在真实使用中怎样形成可检验的能力"
+      ],
+      "chinese_shortcoming": "可能被听写成做数或算数，也可能像数据统计、财税工具；一旦使用这个名字，宣传便会受到有效性这个立场的检验。不是宣称公司永远正确。",
+      "english_formation": "fact（实际发生或存在的事实）+ borne（承载、携带；bear的过去分词）。现有英语有airborne等完整构形；本案把承载对象换为事实，表达研究主张由实际事实托住的关系。Factborne不是已核实的词典词，也不是现有科学机制的正式名称。这里不是born出生，亦非把Bear Out改一两个字母避重。",
+      "bilingual_relation": "中文作数要求结果实际有效、可采用；英文把对能力的主张视作需要由事实承载的东西。一边说结果要有效，一边说凭什么成立：依靠已观察的事实，而非仅完成动作或作出漂亮承诺。二者共享主张与有效结果之间的支撑关系。",
+      "english_shortcoming": "Fact-borne是有据语素的比喻性新合成，需要首次解释，并非母语既有习语；可能被听写为Factborn，/ktb/边界需清晰发音。也可能首先被理解成事实核查或新闻工具公司。borne原有携带/传播义不自动等于科学证实，这段从承载到主张支撑的转用必须承认，不能靠词典引文掩盖。",
+      "source_boundary": "来源是选定协商项目的未来目标，不能当已完成成绩；有效性要依具体任务和实验证据判断，不承诺每一次模型输出都可靠。",
+      "suggested_pronunciation": "FACT-born，/ˈfækt.bɔːrn/，两个音节。",
+      "cn_screen_summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。",
+      "en_screen_summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。",
+      "screened_dates": [
+        "2026-11-07"
+      ],
+      "origin_record": "research/runs/2026-11-07-continuous-001/delivery.json",
+      "origin_chinese_id": "C1-C14",
+      "origin_english_id": "C1-E11",
+      "chinese_registration_record": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Zuoshu",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      },
+      "english_registration_record": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Factborne",
           "scope": "实际逐名搜索URL不可访问，不代表无公司"
         }
       },
