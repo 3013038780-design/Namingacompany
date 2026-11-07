@@ -5,9 +5,9 @@
       "from": "A1",
       "to": "A2",
       "status": "accepted",
-      "timestamp": "2026-11-07T19:50:51.128536+08:00",
+      "timestamp": "2026-11-07T20:26:29.153738+08:00",
       "candidate_ids": [],
-      "reason": "A1真实案例、六原则三反例通过；随后真实A2搜索计划按六宏观方向逐项验收，阶段可继续，未把计划当名字。",
+      "reason": "A1真实案例、六原则三反例通过；随后真实A2搜索计划按六宏观方向逐项验收，阶段可继续，未把计划当名字。；当前重新验收A1真实接力，把三储备反馈补入取舍，原搜索计划方向不变。",
       "input_refs": [
         {
           "path": "A1.json",
@@ -28,6 +28,18 @@
         {
           "path": "A2-execution.json",
           "sha256": "1eec4bd33fd86883325ef408e84454f73fc567dac46c71967e86d7f0749fccea"
+        },
+        {
+          "path": "A1-relay.json",
+          "sha256": "ee69955d24c76bbc1c6aed076fb83f3422fee63d4e984e46eac666c088c0198f"
+        },
+        {
+          "path": "reserve-followthrough/A3-review.json",
+          "sha256": "51961944239c9333693fc1349905525186e101721e87a825aaa29203caad7c57"
+        },
+        {
+          "path": "reserve-followthrough/A4-review.json",
+          "sha256": "32c72654679dc95c314d19087fd2e9f80a1b11257a01dc5c76b3af63251d671f"
         }
       ],
       "output_refs": [

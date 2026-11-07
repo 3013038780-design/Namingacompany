@@ -1,0 +1,63 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-07T20:25:03.339758+08:00",
+  "decisions": [
+    {
+      "chinese": "懒函数",
+      "english": "Call by Need",
+      "decision": "discussion_candidate",
+      "reason": "储备终审通过，转入讨论；保留懒字、通用求值术语及偏开发者气质的短板，不计新家族。",
+      "original_quality_totals": [
+        26,
+        25,
+        23,
+        22
+      ],
+      "basis": "原真实双评审、同A3独立原始查询与当前必要补查、新实际A4编辑终审。不是重新盲评分，不把旧储备当新增创意。"
+    },
+    {
+      "chinese": "有界好奇",
+      "english": "Measured Wonder",
+      "decision": "discussion_candidate",
+      "reason": "储备终审通过，转入讨论；保留书面/思想艺术气质、同标题作品与叙事相近披露，不计新家族。",
+      "original_quality_totals": [
+        25,
+        25,
+        24,
+        21
+      ],
+      "basis": "原真实双评审、同A3独立原始查询与当前必要补查、新实际A4编辑终审。不是重新盲评分，不把旧储备当新增创意。"
+    },
+    {
+      "chinese": "鸽哨",
+      "english": "Airsung",
+      "decision": "research_reserve",
+      "reason": "中文继续储备，当前英文Airsung不采用；近似Aisung电子品牌且同有声音意象，属编辑避让，非确切占用或商标驳回。",
+      "original_quality_totals": [
+        26,
+        26,
+        22,
+        22
+      ],
+      "basis": "原真实双评审、同A3独立原始查询与当前必要补查、新实际A4编辑终审。不是重新盲评分，不把旧储备当新增创意。"
+    }
+  ],
+  "root_source_spot_check": {
+    "url": "https://www.onbuy.com/gb/p/aisung-soundbar-for-tv-32-inch-home-theater-stereo-sound-bar-wall-mountable-tv-speakers-with-subwoofer-wireless-bluetooth-50-hdmiopticalcoaxial~p171264282/",
+    "access": "retailer_body",
+    "scope": "title/Brand fields L69–71,219–223",
+    "finding": "Aisung确为零售音响商品品牌，不是Airsung；据此仅作近似编辑风险，不认定法律结论。"
+  },
+  "new_names": 0,
+  "reclassified_prior_reserves": 2,
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/reserve-followthrough/A3-review.json",
+      "sha256": "51961944239c9333693fc1349905525186e101721e87a825aaa29203caad7c57"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/reserve-followthrough/A4-review.json",
+      "sha256": "32c72654679dc95c314d19087fd2e9f80a1b11257a01dc5c76b3af63251d671f"
+    }
+  ]
+}

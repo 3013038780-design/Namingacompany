@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T19:50:51.128536+08:00",
+  "updated_at": "2026-11-07T20:26:29.153738+08:00",
   "policy": "continuous_no_quantity_quota",
   "scheduler": {
     "id": "automation",
@@ -12,17 +12,17 @@
   },
   "catalog": {
     "path": "research/catalog/README.md",
-    "discussion_candidates": 20,
-    "research_reserves": 3
+    "discussion_candidates": 22,
+    "research_reserves": 1
   },
   "active_run": "research/runs/2026-11-07-continuous-001",
-  "actual_state": "checkpointed_A2_plan_accepted_ready_for_reading",
-  "next_action": "由下一自动工作段接续本轮A2（原实例可用则followup，不可用则新建真实A2并保留交接）：按已验收search-plan直接读取首批6–8不同关系资料，核实两书具体章节及三篇近90天新闻，内部过程验收后继续中文创作。不重做A1或搜索计划，不等用户审批。",
+  "actual_state": "A2_reading_and_creation_running_after_A3_A4_A1",
+  "next_action": "原A2依已验收计划实读6–8不同关系资料，主控内部审阅后直接出中文草案，双评过线交同A3→实际A4→同A3英文复查；不在计划或素材处结束本次接续。",
   "pending_stages": [
-    "搜索计划已获主控验收；直接开始A2资料阅读",
-    "A2按计划继续阅读与中文创作，先小批过程检查",
-    "双中文质量评审→原A3中文查重→原A4英文→同A3英文查重→主控终审",
-    "合格新增显式汇入总库，保留未通过项及下轮队列"
+    "A2真实资料→中文创作；先素材小批内部快审",
+    "主控独立中文质量→同A3中文使用筛查",
+    "实际A4英文匹配→同A3英文使用复查→主控终审",
+    "合格新增持续更新总库，不重复计旧储备/英文版本"
   ],
   "single_writer_policy": "当前研究未归档前不启动另一套同项目命名轮次；唤醒先检查现有角色是否还在运行，若完成则读取真实回执后接续。",
   "quantity_stop": null,
@@ -40,5 +40,26 @@
     "research/runs/2026-11-07-continuous-001/handoffs.json",
     "research/runs/2026-11-07-continuous-001/run.json"
   ],
-  "in_flight_agents": []
+  "in_flight_agents": [
+    {
+      "role": "A2",
+      "agent_id": "/root/continuous_a2",
+      "task": "实际资料阅读与中文创作；已读计划不再重开",
+      "execution_ref": "本聊天原实例实际followup_task"
+    }
+  ],
+  "latest_completed": {
+    "sequence": [
+      "A3储备",
+      "A4储备",
+      "A1接力"
+    ],
+    "prior_reserves_promoted": 2,
+    "new_creative_families": 0,
+    "receipts": [
+      "research/runs/2026-11-07-continuous-001/reserve-followthrough/A3-review.json",
+      "research/runs/2026-11-07-continuous-001/reserve-followthrough/A4-review.json",
+      "research/runs/2026-11-07-continuous-001/A1-relay.json"
+    ]
+  }
 }
