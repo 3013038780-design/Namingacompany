@@ -5,7 +5,7 @@
   "coordinator_id": "/root",
   "status": "in_progress",
   "research_mode": "continuation",
-  "scope": "持续研究分工作包推进；上一段2新增保留，余量撤回。本次1新关系/1中文因既有软件品牌淘汰，真实零英文回查完成。累计26资料/18中文/194查询，原工作段快照保留，完整生产规范仍不冒称完成。",
+  "scope": "持续研究分工作包推进；本包新增2资料/1中文/3英文版本，中文使用通过但英文无合格，返工耗尽。累计28资料/19中文/16英文版本，原A3候选218次、主控额外2次合计220，历史快照保留，不冒称完整生产规范完成。",
   "started_at": "2026-11-07T19:41:18.016539+08:00",
   "roles": {
     "A1": {
@@ -23,7 +23,7 @@
     },
     "A2": {
       "agent_id": "/root/continuous_a2",
-      "status": "completed_through_chinese_batch7",
+      "status": "completed_through_chinese_batch8",
       "execution_ref": "本聊天原continuous_a2实际followup_task，已接收A1-relay与已验收搜索计划，开始资料阅读/创作",
       "stage_receipt": "A2-execution.json",
       "plan_completed_at": "2026-11-07T19:49:25.371755+08:00",
@@ -32,26 +32,27 @@
     },
     "A3": {
       "agent_id": "/root/live_a3",
-      "status": "completed_cn_batch8_and_english_zero_batch7",
+      "status": "completed_cn_batch9_en_batch15_16",
       "execution_ref": "原live_a3实际followup复核3储备，40原查询+1必要新查询；随后负责新中文与英文两段",
       "reserve_receipt": "reserve-followthrough/A3-review.json",
       "controls_ref": "A3-controls.json"
     },
     "A4": {
       "agent_id": "/root/continuous_a4",
-      "status": "completed_zero_input_batch7",
+      "status": "completed_C19_two_reworks_and_closeout",
       "execution_ref": "本聊天实际spawn continuous_a4，已终审三储备，等待新合格中文英文匹配",
       "reserve_receipt": "reserve-followthrough/A4-review.json",
       "closeout_ref": "A4-closeout.json",
-      "final_input_reacceptance_ref": "A4-final-input-reacceptance.json"
+      "final_input_reacceptance_ref": "A4-final-input-reacceptance.json",
+      "latest_closeout_ref": "A4-closeout-batch8.json"
     }
   },
   "current_stage": "checkpoint_ready_for_next_continuation",
-  "checkpointed_at": "2026-11-07T22:06:45.023916+08:00",
+  "checkpointed_at": "2026-11-07T23:20:44.575628+08:00",
   "new_families_delivered": 2,
   "whole_research_complete": false,
   "withdrawn_current_run": 1,
   "current_work_segment_complete": true,
   "historical_input_snapshot_gap_disclosed": "mutable-index-reacceptance.json",
-  "latest_continuation_result": "continuations/2026-11-07T135433Z/result.json"
+  "latest_continuation_result": "continuations/2026-11-07T145704Z/result.json"
 }

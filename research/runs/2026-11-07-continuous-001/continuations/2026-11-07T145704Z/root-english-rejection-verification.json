@@ -1,0 +1,29 @@
+{
+  "reviewer": "/root",
+  "date": "2026-11-07",
+  "new_candidate_search_queries": [
+    {
+      "query": "site.borealisai.com BranchWise 2025",
+      "result": "未定位RBC主证，返回大量其他Borealis企业，不据此否决。"
+    },
+    {
+      "query": "site.devpost.com Branchwise",
+      "result": "命中作者同名软件项目，随后实际打开正文。另出现第三方VSX扩展线索未追查，不作主证。"
+    }
+  ],
+  "extra_root_query_count": 2,
+  "actual_opened_primary_bodies": [
+    {
+      "url": "https://rbcborealis.com/news/lets-solve-it-student-teams-tackle-real-world-challenges-with-ai/",
+      "location": "L35–39",
+      "finding": "学生团队确实命名BranchWise机器学习模型，支持A3准确使用否决，不背书效果。"
+    },
+    {
+      "url": "https://devpost.com/software/branchwise",
+      "location": "L70–72,90–123",
+      "finding": "作者称Branchwise选址智能软件，Claude AI层，不能宣称已独立注册公司。"
+    }
+  ],
+  "decision": "accept_specific_model_and_software_use_rejection",
+  "count_boundary": "A3累计210查询不含这2次主控额外搜索；合并候选搜索执行212，不将打开正文另当新搜索。"
+}

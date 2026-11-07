@@ -1,0 +1,92 @@
+{
+  "automation_id": "automation",
+  "completed_at": "2026-11-07T23:20:44.575628+08:00",
+  "status": "small_packet_complete_zero_retained",
+  "actual_A1_basis_reused": [
+    "A1-final-input-reacceptance.json",
+    "A1-formation-feedback.json",
+    "search-plan.json",
+    "plan-review.json"
+  ],
+  "new_A1_research_claimed": false,
+  "actual_A2": "/root/continuous_a2",
+  "actual_A3_same_cn_en": "/root/live_a3",
+  "actual_A4": "/root/continuous_a4",
+  "new_materials": 2,
+  "new_chinese_drafts": 1,
+  "chinese_quality_passed": 1,
+  "chinese_public_use_passed": 1,
+  "new_english_versions": 3,
+  "english_quality_passed": 2,
+  "english_public_use_passed": 0,
+  "new_retained_families": 0,
+  "new_A3_candidate_query_executions": 24,
+  "new_root_candidate_query_executions": 2,
+  "new_candidate_query_executions": 26,
+  "cumulative_A3_candidate_query_executions": 218,
+  "root_additional_queries_this_packet": 2,
+  "cumulative_recorded_candidate_query_executions": 220,
+  "cumulative_materials": 28,
+  "cumulative_chinese_drafts": 19,
+  "cumulative_english_versions": 16,
+  "catalog_counts_unchanged": {
+    "discussion_candidates": 24,
+    "research_reserves": 1,
+    "total_unique_families": 25,
+    "withdrawn_families": 1,
+    "historical_unique_families": 26
+  },
+  "reason": "分身有别中文通过，但Ownwrite质量未过未查，Branchwise已有同名模型/软件，Kinstate已有企业历史名称而编辑避让，2次返工耗尽。没有拿中文通过或三个英文版本充新配对。",
+  "evidence_refs": [
+    {
+      "path": "A2-creation-execution-batch8.json",
+      "sha256": "5fc7379c4f3a995e5aaceede8425737d6a02c9c2b64af851f4249a8872819857"
+    },
+    {
+      "path": "A2-candidates-batch8.json",
+      "sha256": "846cc81e69427062e8ad7b39a97c05520913cf25c23f728caa7bd425a6753324"
+    },
+    {
+      "path": "coordinator-cn-batch8.json",
+      "sha256": "2c2e5e6ba6e4ddddec282e5fe5a5429cc8fca0c5e26b4801002afff188da6efc"
+    },
+    {
+      "path": "coordinator-family-review-batch8.json",
+      "sha256": "8eff341cd0f3a410ce5806a1054796bccb3e2a7d700f3411a44198f42f1f0914"
+    },
+    {
+      "path": "A3-cn-batch9.json",
+      "sha256": "a96a892a652654642fe4a7df0591ade4a7c936e5865429556cc62f1c2b6f60ff"
+    },
+    {
+      "path": "coordinator-en-batch14.json",
+      "sha256": "eee1151c523c7c7edf831286ec1f32490533221840c84a113305b76f1698b613"
+    },
+    {
+      "path": "coordinator-en-batch15.json",
+      "sha256": "a9f5252972777cdf2e4fdb3060bfc03088e3e9485d1894f9450597e8abd4f492"
+    },
+    {
+      "path": "coordinator-en-batch16.json",
+      "sha256": "1c707303de2235b026ed7aabc5622efb271b766e57ad011bd9a944398c11d2eb"
+    },
+    {
+      "path": "A3-en-batch15.json",
+      "sha256": "069c869d638135281888267320e9a184a05506e1b13016779622464772d95d46"
+    },
+    {
+      "path": "A3-en-batch16.json",
+      "sha256": "979ba4531d02112074ecadc8953d697fda51421d35bb3bcffab23de2f836fe51"
+    },
+    {
+      "path": "A4-closeout-batch8.json",
+      "sha256": "3b2196aa1b89597952b62e7a3ad7e836915e380c342b3bf23b4daa77059c0d02"
+    },
+    {
+      "path": "continuations/2026-11-07T145704Z/handoffs.json",
+      "sha256": "3c8fbef78f82e9396648a8b453a9079fb98275089ecb830355f68d24d7ab0539"
+    }
+  ],
+  "whole_production_compliance_claimed": false,
+  "notification_decision": "DONT_NOTIFY_no_new_deliverable_or_user_action"
+}
