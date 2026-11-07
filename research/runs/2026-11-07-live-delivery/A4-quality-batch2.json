@@ -1,0 +1,84 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T16:39:51+08:00",
+  "reviews": [
+    {
+      "candidate_id": "LD-E03",
+      "chinese_id": "LD-C01",
+      "english": "Invercade",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "三音节，inver与cade发音路径自然。",
+          "counter_association": "末尾可能被读成cad。"
+        },
+        "spelling": {
+          "reason": "九字母可按inver/cade分段说明。",
+          "counter_association": "听写首遍可能把cade写成cayd。"
+        },
+        "formation": {
+          "reason": "同一现成机制短语内部压缩，保留更完整inverse声形。",
+          "counter_association": "新词无公认词典义，需明确创造者。"
+        },
+        "bilingual_relation": {
+          "reason": "两边共享逆级联完整科学关系。",
+          "counter_association": "英文缩形仍不能替代定义。"
+        },
+        "distinctiveness": {
+          "reason": "有研究机构称呼感且不局限产品功能。",
+          "counter_association": "cade可能带来游戏联想。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独立评分及A3英文使用复查。"
+    },
+    {
+      "candidate_id": "LD-E04",
+      "chinese_id": "LD-C02",
+      "english": "Negentia",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "四音节可顺读，重音集中jen。",
+          "counter_association": "tia有tee-uh或sha的变体风险。"
+        },
+        "spelling": {
+          "reason": "八字母，negent与ia可稳定解释。",
+          "counter_association": "初次听写可能写成Negentya。"
+        },
+        "formation": {
+          "reason": "真实科学主题词基加明确承认的人为尾音。",
+          "counter_association": "ia不自带额外科学含义。"
+        },
+        "bilingual_relation": {
+          "reason": "negative entropy与负熵主题直接相连，诚实披露流动侧省略。",
+          "counter_association": "英文不逐字表现flux。"
+        },
+        "distinctiveness": {
+          "reason": "整体有实验室/科学机构的称呼感。",
+          "counter_association": "可能被联想为材料或生物技术品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独立评分及A3英文使用复查。"
+    }
+  ]
+}

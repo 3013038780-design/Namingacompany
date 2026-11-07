@@ -1,0 +1,166 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T16:42:40.443978+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A4-preview-batch3.md",
+      "sha256": "0dbd97208103f0e924edbc6c59e62c6300b98a121c6f0a9c83795444ed9466f5"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A4-quality-batch3.json",
+      "sha256": "7434edc419bb46dfdf9715efec5dab5b302bf76170f01eb51f4dcc7593e96eaf"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/coordinator-en-batch3.json",
+      "sha256": "4ea45455f60083804e7c586119505ac8941ddba119bffa23d1bdb073f2a0c899"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A3-cn-batch2.json",
+      "sha256": "6ddcbba5a8c566905dd575756a013a1c3c9f64477896727a2154d280801a6e68"
+    }
+  ],
+  "results": [
+    {
+      "candidate_id": "LD-E05",
+      "chinese_candidate_id": "LD-C08",
+      "name": "Solirain",
+      "chinese": "孤子雨",
+      "version": 1,
+      "decision": "public_use_screen_pass",
+      "reason": "6组整体与变体查询未见明确同名科技/AI公司、模型或软件产品。有个人/游戏用户名；SHEIN商品描述中孤立词不构成已确认品牌，均披露而不误作科技占用。",
+      "query_logs": [
+        {
+          "category": "exact_no_industry",
+          "query": "\"Solirain\"",
+          "executed_on": "2026-11-07",
+          "summary": "返回个人/游戏账号、Soli与Rain分词结果和商品描述孤立词，未见明确整体科技品牌。"
+        },
+        {
+          "category": "company_lab",
+          "query": "\"Solirain\" company lab",
+          "executed_on": "2026-11-07",
+          "summary": "返回个人/游戏账号、Soli与Rain分词结果和商品描述孤立词，未见明确整体科技品牌。"
+        },
+        {
+          "category": "AI_model",
+          "query": "\"Solirain\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "返回个人/游戏账号、Soli与Rain分词结果和商品描述孤立词，未见明确整体科技品牌。"
+        },
+        {
+          "category": "software_product",
+          "query": "\"Solirain\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "返回个人/游戏账号、Soli与Rain分词结果和商品描述孤立词，未见明确整体科技品牌。"
+        },
+        {
+          "category": "variants",
+          "query": "\"Soli Rain\" OR \"Soli-rain\"",
+          "executed_on": "2026-11-07",
+          "summary": "返回个人/游戏账号、Soli与Rain分词结果和商品描述孤立词，未见明确整体科技品牌。"
+        },
+        {
+          "category": "technology_supplement",
+          "query": "\"Solirain\" technology company",
+          "executed_on": "2026-11-07",
+          "summary": "返回个人/游戏账号、Soli与Rain分词结果和商品描述孤立词，未见明确整体科技品牌。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://namemc.com/profile/solirain.1",
+          "status": "search_text_body_403",
+          "finding": "Minecraft个人账号名，不是同名公司或模型。"
+        },
+        {
+          "url": "https://www.tenforums.com/threads/startup-repair-loop-maybe-hard-drive-problem.63262/",
+          "status": "search_text_body_403",
+          "finding": "发帖用户名Solirain，不把论坛帖名当产品。"
+        },
+        {
+          "url": "https://m.shein.com/ar-en/Wooden-Coffee-Filter-Holder-With-Lid-Rusc-Storage-Container-And-Dispenser-Basket-For-Coffee-Bar-Decor-Farmhouse-Accessories-White-p-259011894.html",
+          "status": "search_text_unverified_isolated_word",
+          "finding": "商品标题未叫Solirain，正文出现Clear solirain，未确认品牌身份，不当占用也不隐瞒此检索结果。"
+        }
+      ],
+      "registration": {
+        "mainland_company": "unavailable_403",
+        "mainland_trademark_class_9": "unavailable_403",
+        "mainland_trademark_class_42": "unavailable_403",
+        "uk_company": "unavailable_name_search_url",
+        "summary": "大陆公司及商标第9/42类入口403，未完成逐名逐类核验；英国该英文逐名URL不可访问。不是注册可用证明。",
+        "uk_query_url": "https://find-and-update.company-information.service.gov.uk/search?q=Solirain"
+      }
+    },
+    {
+      "candidate_id": "LD-E06",
+      "chinese_candidate_id": "LD-C05",
+      "name": "Bipelago",
+      "chinese": "比特群岛",
+      "version": 1,
+      "decision": "public_use_screen_pass",
+      "reason": "6组整体与变体查询未见明确同名科技/AI公司、模型或软件产品；返回Pelago、BI与地理词源邻项不等于Bipelago整体同名。 主控补查且A3打开核验：Bipelago已见于意大利ARN桌游手册虚构地名，非科技主体；不宣称此词世界首次出现。",
+      "query_logs": [
+        {
+          "category": "exact_no_industry",
+          "query": "\"Bipelago\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确整体命中；返回BI与Pelago分词邻项。"
+        },
+        {
+          "category": "company_lab",
+          "query": "\"Bipelago\" company lab",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确整体命中；返回BI与Pelago分词邻项。"
+        },
+        {
+          "category": "AI_model",
+          "query": "\"Bipelago\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确整体命中；返回BI与Pelago分词邻项。"
+        },
+        {
+          "category": "software_product",
+          "query": "\"Bipelago\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确整体命中；返回BI与Pelago分词邻项。"
+        },
+        {
+          "category": "variants",
+          "query": "\"Bi Pelago\" OR \"Bi-pelago\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确整体命中；返回BI与Pelago分词邻项。"
+        },
+        {
+          "category": "technology_supplement",
+          "query": "\"Bipelago\" technology",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确整体命中；返回BI与Pelago分词邻项。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://it.scribd.com/document/962878184/Manuale-ARN-Italiano",
+          "status": "body_read_nontech_fiction",
+          "finding": "本角色打开上传的意大利ARN角色扮演手册正文，L94–131标虚构设定及2022版权，L146–152目录有Il Bipelago；已有非科技虚构地名，不称词形首次出现，非公司/AI/软件名。来源最初由主控独立补查发现。"
+        }
+      ],
+      "registration": {
+        "mainland_company": "unavailable_403",
+        "mainland_trademark_class_9": "unavailable_403",
+        "mainland_trademark_class_42": "unavailable_403",
+        "uk_company": "unavailable_name_search_url",
+        "summary": "大陆公司及商标第9/42类入口403，未完成逐名逐类核验；英国该英文逐名URL不可访问。不是注册可用证明。",
+        "uk_query_url": "https://find-and-update.company-information.service.gov.uk/search?q=Bipelago"
+      }
+    }
+  ],
+  "query_count": 12,
+  "passed_english_candidate_ids": [
+    "LD-E05",
+    "LD-E06"
+  ],
+  "claim_limits": "公开使用初筛不等于全球无使用或公司/商标可注册。",
+  "supplemented_at": "2026-11-07T16:44:38.042099+08:00"
+}

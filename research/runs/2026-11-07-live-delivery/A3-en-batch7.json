@@ -1,0 +1,152 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T16:49:27.215628+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A4-preview-batch7.md",
+      "sha256": "0ea09275863cac017661e30eb47b88a0273ff28904df318cc35ad17229d7240d"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A4-quality-batch7.json",
+      "sha256": "d03041021aa608167a2b243d45688dcbbd2c6ee04d192ec0a0afebd1de3c1455"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/coordinator-en-batch7.json",
+      "sha256": "510494792220660613aa2ce3a0d3775925385f02858083ca86f074ad6bb19c02"
+    }
+  ],
+  "query_count": 15,
+  "results": [
+    {
+      "candidate_id": "LD-E11",
+      "chinese_candidate_id": "LD-C07",
+      "name": "Daimaji",
+      "chinese": "代码生境",
+      "version": 3,
+      "decision": "hold",
+      "reason_code": "EVIDENCE_HOLD_HISTORICAL_SOFTWARE_ATTRIBUTION",
+      "reason": "已做15组查询并核个人账号非产品：GitHub的daimaji是持有wechat-mp仓库的账号。另多个历史ROM目录把Napple City制作者写Daimaji，其他目录写Daimanji/Gakushu-Juku，无法核到原发行署名。不是确证同名现有科技公司或已注册；不带未解软件品牌线索列最终配对，中文本轮储备。",
+      "query_logs": [
+        {
+          "category": "exact_no_industry",
+          "query": "\"Daimaji\"",
+          "executed_on": "2026-11-07",
+          "summary": "个人账号与历史游戏作者元数据分别核查；不把分词、电影截断名或账号当独立同名软件。"
+        },
+        {
+          "category": "company_lab",
+          "query": "\"Daimaji\" company lab",
+          "executed_on": "2026-11-07",
+          "summary": "个人账号与历史游戏作者元数据分别核查；不把分词、电影截断名或账号当独立同名软件。"
+        },
+        {
+          "category": "AI_model",
+          "query": "\"Daimaji\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "个人账号与历史游戏作者元数据分别核查；不把分词、电影截断名或账号当独立同名软件。"
+        },
+        {
+          "category": "software_product",
+          "query": "\"Daimaji\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "个人账号与历史游戏作者元数据分别核查；不把分词、电影截断名或账号当独立同名软件。"
+        },
+        {
+          "category": "variants",
+          "query": "\"Dai Maji\" OR \"Dai-maji\"",
+          "executed_on": "2026-11-07",
+          "summary": "个人账号与历史游戏作者元数据分别核查；不把分词、电影截断名或账号当独立同名软件。"
+        },
+        {
+          "category": "technology_supplement",
+          "query": "\"Daimaji\" technology company",
+          "executed_on": "2026-11-07",
+          "summary": "个人账号与历史游戏作者元数据分别核查；不把分词、电影截断名或账号当独立同名软件。"
+        },
+        {
+          "category": "targeted_game_attribution",
+          "query": "\"Napple City\" \"Daimaji\"",
+          "executed_on": "2026-11-07",
+          "summary": "个人账号与历史游戏作者元数据分别核查；不把分词、电影截断名或账号当独立同名软件。"
+        },
+        {
+          "category": "targeted_developer",
+          "query": "\"Daimaji\" company software developer",
+          "executed_on": "2026-11-07",
+          "summary": "个人账号与历史游戏作者元数据分别核查；不把分词、电影截断名或账号当独立同名软件。"
+        },
+        {
+          "category": "game_developer_supplement",
+          "query": "\"Napple City\" developer",
+          "executed_on": "2026-11-07",
+          "summary": "个人账号与历史游戏作者元数据分别核查；不把分词、电影截断名或账号当独立同名软件。"
+        },
+        {
+          "category": "alternative_spelling",
+          "query": "\"Napple City\" \"Daimanji\"",
+          "executed_on": "2026-11-07",
+          "summary": "个人账号与历史游戏作者元数据分别核查；不把分词、电影截断名或账号当独立同名软件。"
+        },
+        {
+          "category": "publisher_supplement",
+          "query": "\"Daimaji\" game publisher software",
+          "executed_on": "2026-11-07",
+          "summary": "个人账号与历史游戏作者元数据分别核查；不把分词、电影截断名或账号当独立同名软件。"
+        },
+        {
+          "category": "japanese_corporation",
+          "query": "\"Daimaji\" \"株式会社\"",
+          "executed_on": "2026-11-07",
+          "summary": "个人账号与历史游戏作者元数据分别核查；不把分词、电影截断名或账号当独立同名软件。"
+        },
+        {
+          "category": "japanese_title",
+          "query": "\"ナップルシティ\" \"大\"",
+          "executed_on": "2026-11-07",
+          "summary": "个人账号与历史游戏作者元数据分别核查；不把分词、电影截断名或账号当独立同名软件。"
+        },
+        {
+          "category": "full_attribution",
+          "query": "\"Napple City\" \"Daimanji Gakushu\"",
+          "executed_on": "2026-11-07",
+          "summary": "个人账号与历史游戏作者元数据分别核查；不把分词、电影截断名或账号当独立同名软件。"
+        },
+        {
+          "category": "exclude_other_spellings",
+          "query": "\"Daimaji\" -\"Daimajin\" -\"Daimanji\" -\"daimaji/wechat-mp\" company",
+          "executed_on": "2026-11-07",
+          "summary": "个人账号与历史游戏作者元数据分别核查；不把分词、电影截断名或账号当独立同名软件。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://github.com/daimaji/wechat-mp",
+          "status": "developer_body_read",
+          "finding": "L94–120明确owner daimaji、repository wechat-mp及微信公众号示例说明；不是独立名为Daimaji的产品。"
+        },
+        {
+          "url": "https://github.com/daimaji",
+          "status": "profile_opened",
+          "finding": "个人账号页面；不据账号占用淘汰品牌。"
+        },
+        {
+          "url": "https://www.theoldcomputer.com/roms/index.php?folder=NEC%2FPC-9801%2FGames%2Fn",
+          "status": "third_party_search_text",
+          "finding": "Napple City (19xx)(Daimaji)(JP)为旧ROM署名元数据；同页续作写Daimanji。"
+        },
+        {
+          "url": "https://japanesepccompendium.blogspot.com/p/nec-pc-98.html?m=1",
+          "status": "third_party_search_text",
+          "finding": "列Napple City (Daimaji,19xx)；缺原发行主体证据。"
+        },
+        {
+          "url": "https://alammofm.com/games/",
+          "status": "third_party_search_text",
+          "finding": "同系列另一目录使用Daimanji Gakushu-Juku，无法据此排除Daimaji元数据是误拼，也不能确认它是公司字号。"
+        }
+      ]
+    }
+  ],
+  "passed_english_candidate_ids": []
+}

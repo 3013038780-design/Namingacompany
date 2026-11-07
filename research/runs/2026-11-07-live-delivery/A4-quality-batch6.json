@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T16:44:53+08:00",
+  "reviews": [
+    {
+      "candidate_id": "LD-E10",
+      "chinese_id": "LD-C07",
+      "english": "Jingora",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个音节，jing与gora可连续称呼。",
+          "counter_association": "英语读者可能把jing读作jin，需接受或固定读法。"
+        },
+        "spelling": {
+          "reason": "七字母可按jing/ora解释。",
+          "counter_association": "鼻尾ng后接g的听写需一次确认。"
+        },
+        "formation": {
+          "reason": "中文境声音与agora公共相遇空间有可说明主题关系。",
+          "counter_association": "不是一个既有语言的原生词，不能伪造词源。"
+        },
+        "bilingual_relation": {
+          "reason": "两语都让公司成为为其他主体提供行动互动条件的场所。",
+          "counter_association": "英文不显代码，需简介补明研究对象。"
+        },
+        "distinctiveness": {
+          "reason": "可作为研究机构专名，不限具体工具。",
+          "counter_association": "可能先像社区/活动平台。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "编辑意见，待主控独评及原A3；本中文尚余1次英文返工额度。"
+    }
+  ]
+}

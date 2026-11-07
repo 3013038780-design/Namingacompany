@@ -1,0 +1,97 @@
+{
+  "agent": "/root/live_a2",
+  "assessments": [
+    {
+      "id": "LD-C05",
+      "name": "比特群岛",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 5,
+        "semantic_coherence": 4
+      },
+      "total": 27,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "比特/群岛均是稳定常用词，四字节奏清楚",
+        "distinctiveness": "将计算媒介与具体群岛画面绑定，比泛称科技更可区别",
+        "lab_fit": "比特提供明确数字身份，群岛保留多研究路径而非教育",
+        "grounding": "岛屿模型确实把计算群体分开并迁移，关系原本存在",
+        "extension": "不是某个模型或某个学习步骤，可容纳长期多模型研究",
+        "semantic_coherence": "隔离与交换共同解释同一个群岛结构，没有附会互不相关寓意"
+      },
+      "counter_association": "比特可能先引起加密货币联想；与“群岛”类既有品牌须进一步查近似。"
+    },
+    {
+      "id": "LD-C06",
+      "name": "下一无穷",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 5,
+        "semantic_coherence": 4
+      },
+      "total": 27,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "下一与无穷都自然，四字组合可完整读出而非生造汉字",
+        "distinctiveness": "反直觉的“无穷之后还有下一”能留下记忆",
+        "lab_fit": "数学尺度加研究阶段可承载AI Lab，非育儿环保或培训",
+        "grounding": "Cantor定理支持无穷有更大层级，但明确这是品牌改写",
+        "extension": "没有绑定模型功能、交付形式或单个自然领域",
+        "semantic_coherence": "尺度与继续发现同向；不把幂集错误说成紧邻后继"
+      },
+      "counter_association": "更像长期研究品牌而非直观产品名；需要避免被误解为无限性能承诺。"
+    },
+    {
+      "id": "LD-C07",
+      "name": "代码生境",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "代码生境按既有偏正结构自然成句，无生僻字",
+        "distinctiveness": "有明确世界与对象，比通用智/元/进化词有画面",
+        "lab_fit": "代码明确计算身份，生境是研究基础设施而非环保目标",
+        "grounding": "实际程序在实验计算环境中适应，组合来自同一对象关系",
+        "extension": "不限定当前模型架构，但代码可能比整个AI Lab稍窄",
+        "semantic_coherence": "环境提供适应条件与公司增强他者的角色相接，未另加无关文化故事"
+      },
+      "counter_association": "可能先像开发者社区或仿真平台；生境略偏生态学，若用户排斥应淘汰。"
+    },
+    {
+      "id": "LD-C08",
+      "name": "孤子雨",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "三个字均可读，孤子是已用术语，雨补足熟悉画面",
+        "distinctiveness": "孤子与雨的反差比普通光/云/星词更独特",
+        "lab_fit": "第一层非线性光学，适合研究品牌，需避免承诺公司从事激光器",
+        "grounding": "主来源真实定义小孤子与主脉冲的关系，非任意搭字",
+        "extension": "虽源于光学仍能容纳组织、动力学等长期研究隐喻",
+        "semantic_coherence": "雨的外壳与多脉冲动力学本就共存，不叠加无关寓意"
+      },
+      "counter_association": "“孤”可能有孤独联想，“孤子”需要科普；可能像光学实验项目。"
+    }
+  ]
+}

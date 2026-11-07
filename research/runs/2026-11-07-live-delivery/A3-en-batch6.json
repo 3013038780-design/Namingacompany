@@ -1,0 +1,93 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T16:46:27.187684+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A4-preview-batch6.md",
+      "sha256": "2c6a67bfff95f647dd725c83121f6fb9a114aa8a07370cee58a172ef420442aa"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A4-quality-batch6.json",
+      "sha256": "41e3622becac7546e4f8452310855163ce5d33a2cfe3f9948d97fb9e822f935e"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/coordinator-en-batch6.json",
+      "sha256": "2da13ac1089c29984dd2b494400e6c5aee6cc14fb5ec457b918e4e95c530e6ab"
+    }
+  ],
+  "query_count": 6,
+  "results": [
+    {
+      "candidate_id": "LD-E10",
+      "chinese_candidate_id": "LD-C07",
+      "name": "Jingora",
+      "chinese": "代码生境",
+      "version": 2,
+      "decision": "reject",
+      "reason_code": "EXISTING_DEVICE_ACCESSORY_BRAND",
+      "reason": "已有完全同名JINGORA手机配件品牌，eBay店正文显示同名与iPhone保护壳商品；不是同名AI公司，按避免已有公司/科技周边品牌使用的偏好返工。",
+      "query_logs": [
+        {
+          "category": "exact_no_industry",
+          "query": "\"Jingora\"",
+          "executed_on": "2026-11-07",
+          "summary": "返回JINGORA手机配件官网、活跃eBay店和商标第三方记录。"
+        },
+        {
+          "category": "company_lab",
+          "query": "\"Jingora\" company lab",
+          "executed_on": "2026-11-07",
+          "summary": "返回JINGORA手机配件官网、活跃eBay店和商标第三方记录。"
+        },
+        {
+          "category": "AI_model",
+          "query": "\"Jingora\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "返回JINGORA手机配件官网、活跃eBay店和商标第三方记录。"
+        },
+        {
+          "category": "software_product",
+          "query": "\"Jingora\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "返回JINGORA手机配件官网、活跃eBay店和商标第三方记录。"
+        },
+        {
+          "category": "variants",
+          "query": "\"Jing Ora\" OR \"Jing-ora\"",
+          "executed_on": "2026-11-07",
+          "summary": "返回JINGORA手机配件官网、活跃eBay店和商标第三方记录。"
+        },
+        {
+          "category": "technology_supplement",
+          "query": "\"Jingora\" technology",
+          "executed_on": "2026-11-07",
+          "summary": "返回JINGORA手机配件官网、活跃eBay店和商标第三方记录。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.ebay.com/str/jingora",
+          "status": "seller_body_read",
+          "finding": "L44–100店名JINGORA、Cell Phones & Accessories和iPhone17Pro保护壳商品，确证商业使用。"
+        },
+        {
+          "url": "https://zhongxinelect.com/about",
+          "status": "brand_search_text_body_no_readable_lines",
+          "finding": "检索正文自述JINGORA手机保护壳品牌；打开无可读行，不以此冒充官方登记核验。"
+        },
+        {
+          "url": "https://trademarks.justia.com/996/79/jingora-99679458.html",
+          "status": "third_party_search_text",
+          "finding": "美国申请序号99679458，第9/35类；Justia旧状态为申请初始化。"
+        },
+        {
+          "url": "https://www.trademarkelite.com/trademark/trademark-detail/99679458/JINGORA",
+          "status": "third_party_search_text",
+          "finding": "同序号第三方较新记录称2026-10-19申请放弃，与Justia状态不同；未查USPTO实时状态，不称注册成功。"
+        }
+      ]
+    }
+  ],
+  "passed_english_candidate_ids": []
+}

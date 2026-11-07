@@ -1,0 +1,161 @@
+{
+  "agent": "/root/live_a2",
+  "completed_at": "2026-11-07T16:35:23.589314+08:00",
+  "status": "first_four_ready_more_in_progress",
+  "candidates": [
+    {
+      "id": "LD-C01",
+      "name": "逆级联",
+      "pinyin": "nì jí lián",
+      "family_id": "LD-F-inverse-cascade",
+      "mechanism_ids": [
+        "L2",
+        "L4"
+      ],
+      "case_ids": [
+        "B004",
+        "B076"
+      ],
+      "source_world": "S3/S2",
+      "source": {
+        "url": "https://arxiv.org/abs/1710.09250",
+        "title": "The culmination of an inverse cascade: mean flow and fluctuations",
+        "read_scope": "摘要、引言与II节开头；未声称推导全文",
+        "access": "body",
+        "date": "2017"
+      },
+      "additional_source": {
+        "url": "https://www.hjby.ac.cn/CN/abstract/abstract9219.shtml",
+        "read_scope": "中文摘要L48–55，刊载于研究期刊，未读原PDF"
+      },
+      "fact": "在特定二维湍流等条件下，能量可由较小尺度转向较大尺度，并组织出相干的大尺度流。",
+      "meaning": "逆着通常想象的“打散”方向，把小尺度活动组织为更大的整体。",
+      "crossing": "第四范式启发借完整科学关系建立研究身份；Sakana启发保留局部活动与整体结构的具体关系。",
+      "layers": [
+        "物理中真实的跨尺度传递",
+        "品牌层面：分散经验可成为更大能力结构的材料，属于类比而非性能承诺"
+      ],
+      "retained": "逆向、级联、尺度关系三者仍在名称中。",
+      "lost": "名称未写明二维性、激励和耗散等适用条件，释义必须补足；不是所有流动都逆级联。",
+      "strength": "三个字有方向和动作，连读有力，科技身份明确，不是学习/进化近义词。",
+      "weakness": "需要一次科普；“逆”可能被理解为逆势或逆向工程。"
+    },
+    {
+      "id": "LD-C02",
+      "name": "负熵流",
+      "pinyin": "fù shāng liú",
+      "family_id": "LD-F-negative-entropy-flux",
+      "mechanism_ids": [
+        "L2",
+        "L5"
+      ],
+      "case_ids": [
+        "B004",
+        "B037"
+      ],
+      "source_world": "S3",
+      "source": {
+        "url": "https://struchem.nankai.edu.cn/phychem/10/10-10.pdf",
+        "title": "南开大学朱志昂非平衡热力学讲义",
+        "read_scope": "幻灯20–26，重点24–25的熵平衡及外熵流；未采用后文寿命等未经本轮核验的推广",
+        "access": "body",
+        "date": "页面未给出版年"
+      },
+      "fact": "开放体系熵变含外熵流与内部熵产生；外部净熵输出可抵消内部产生，特定条件下体系熵下降。",
+      "meaning": "系统与世界交换，从环境中获得维持和形成组织的条件。",
+      "crossing": "Imbue使研究着眼“对既有系统产生什么作用”，此处保留开放交换与系统改变的关系；借科学术语成为品牌如第四范式。",
+      "layers": [
+        "开放体系的热力学关系",
+        "组织与信息的品牌类比：模型部署后继续与世界交换并改变自身"
+      ],
+      "retained": "“负熵”和“流”本来就是同一物理关系，不是两个漂亮字拼凑。",
+      "lost": "没有表达具体边界条件；物理熵下降不等于智能增强，不能宣称同一机制。",
+      "strength": "三字有科学气质和流动感，能容纳跨模型基础研究。",
+      "weakness": "熵字有识读门槛；“负”在日常语言里略有消极联想。"
+    },
+    {
+      "id": "LD-C03",
+      "name": "磁重联",
+      "pinyin": "cí chóng lián",
+      "family_id": "LD-F-magnetic-reconnection",
+      "mechanism_ids": [
+        "L2",
+        "L3"
+      ],
+      "case_ids": [
+        "B004",
+        "B039"
+      ],
+      "source_world": "S2/S3",
+      "source": {
+        "url": "https://nao.cas.cn/news/ky/201605/t20160510_6407810.html",
+        "title": "国家天文台研究人员发现磁重联精细结构及其演化",
+        "read_scope": "正文L157–161，定义、观测及能量转换；未读原始Nature Physics论文",
+        "access": "body",
+        "date": "2016-05-10"
+      },
+      "fact": "磁场连接拓扑重组，可把磁能转换成热能和动能等；报道观测到太阳暗条与冕环重联。",
+      "meaning": "已有结构重新连接，释放原先储存的能量。",
+      "crossing": "Mistral启发用真实自然力量而不是泛化“风”字；日行迹启发完整三字现象直接专名化。",
+      "layers": [
+        "太阳与等离子体中的真实自然过程",
+        "重接关系、重新组织已有系统潜力的品牌隐喻"
+      ],
+      "retained": "磁场、重组连接与能量转换是一条真实关系。",
+      "lost": "技术定义比品牌故事更窄，不能将磁场拓扑重组等同模型训练机制。",
+      "strength": "三字短、有动作、有天体物理背景。",
+      "weakness": "“重”有多音成本，第一联想可能偏聚变或电磁设备。"
+    },
+    {
+      "id": "LD-C04",
+      "name": "叠层石",
+      "pinyin": "dié céng shí",
+      "family_id": "LD-F-stromatolite",
+      "mechanism_ids": [
+        "L3",
+        "L4"
+      ],
+      "case_ids": [
+        "B039",
+        "B076"
+      ],
+      "source_world": "S2",
+      "source": {
+        "url": "https://uua.cn/tpzx/hsjs/202308/t20230803_179675.html",
+        "title": "叠层石：《岁月菁华》节选",
+        "read_scope": "中国科学院南京地质古生物所化石网所载图书节选正文L74–93，仅此页非整书",
+        "access": "body_book_excerpt",
+        "date": "2023-08-03"
+      },
+      "additional_source": {
+        "url": "https://nigpas.cas.cn/jigsz/kybm/wtgswx/mlgswx/",
+        "read_scope": "叠层石研究分节L441–443"
+      },
+      "fact": "微生物群落活动与颗粒捕获、沉淀共同形成带有精细层纹的生物沉积构造，中国天津蓟县等有实物记录。",
+      "meaning": "生命活动把环境和时间留进结构里，许多微小生命共同筑成可见整体。",
+      "crossing": "Sakana不是只能迁移鱼群，而是寻找局部生命活动和宏观结构的真实关系；Mistral提示保留可辨识自然对象和来处。",
+      "layers": [
+        "微生物与地质交叉的真实对象",
+        "时间与活动留下可持续积累的结构；并非把所有层叠当同一“叠”家族"
+      ],
+      "retained": "由群落活动构建层纹结构，而非仅拿“叠”字讲迭代。",
+      "lost": "沉积的具体环境与群落差异不在名字里；不代表越积累必然越聪明。",
+      "strength": "现成三字词，轮廓、纹理和知识故事均明确，中国有真实地质联系。",
+      "weakness": "石材/矿物第一联想可能重于AI；科技身份需要品牌语境支持。"
+    }
+  ],
+  "pre_rejected_research_entries": [
+    {
+      "name": "星震",
+      "reason": "初步资料准备即看到同中文科技主体，不再送质量评审",
+      "evidence_url": "https://findbiz.nat.gov.tw/fts/company/54899608",
+      "read_scope": "官方正文公司名/统编/资讯软件等经营范围，2026-11-07打开"
+    },
+    {
+      "name": "余维",
+      "reason": "检到余维（上海）科技有限公司招聘主体线索，且同名人名噪声高，暂不创作",
+      "evidence_url": "https://www.jobuy.com/jobs/31200.html",
+      "read_scope": "搜索返回正文片段，不升级为正式A3查重"
+    }
+  ]
+}

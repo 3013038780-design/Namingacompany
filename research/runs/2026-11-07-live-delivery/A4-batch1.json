@@ -1,0 +1,43 @@
+{
+  "agent_id": "/root/live_a4",
+  "role": "A4",
+  "recorded_at": "2026-11-07T16:37:40+08:00",
+  "input_authorization": "主控明确授权LD-C01、LD-C02已双中文质量通过且A3 pass_public_precheck；当前聊天消息回执",
+  "candidates": [
+    {
+      "id": "LD-E01",
+      "chinese_id": "LD-C01",
+      "chinese": "逆级联",
+      "english": "Inscade",
+      "suggested_pronunciation": "in-SKAYD /ɪnˈskeɪd/",
+      "type": "本轮融合新造词，非现成词典词",
+      "formation": "从同一个科学短语 inverse cascade 压缩而来：取 inverse 的 in-，接 cascade 的 -scade。它不是两个无关漂亮词拼接，而是把一个已有机制缩成可称呼的英文。",
+      "bilingual_relation": "中文保留完整科学名称，英文压缩同一科学短语；两边共同指向从小尺度活动形成大尺度结构。",
+      "meaning": "小尺度输入汇成更大尺度的组织，而不是只是把既有结构打散。此为品牌类比，不声称模型实现流体机制。",
+      "shortcoming": "看名字不能立即还原 inverse，需一句解释；听到时可能误写 Enscade，品牌使用时需固定拼写。",
+      "source_urls": [
+        "https://arxiv.org/abs/1710.09250"
+      ],
+      "read_scope": "A4实际打开论文摘要L16–18，见二维湍流大尺度相干结构；另继承A2与主控对inverse cascade原理的核验。未通读全文。",
+      "status": "english_quality_proposal_not_screened"
+    },
+    {
+      "id": "LD-E02",
+      "chinese_id": "LD-C02",
+      "chinese": "负熵流",
+      "english": "Negaflux",
+      "suggested_pronunciation": "NEH-guh-fluks /ˈnɛɡəflʌks/",
+      "type": "本轮融合新造词，非现成词典词",
+      "formation": "将同一物理关系 negative entropy flux 中的 negative 压为 nega-，保留 flux。省去显写 entropy 使其成为八字母称呼；nega-只提示负向，并非一个声称完整负熵定义的新科学术语。",
+      "bilingual_relation": "中文用完整热力学关系，英文保留负向通量的骨架；省略的entropy语义由中文和品牌释义承接，不能把所有负通量统称负熵流。",
+      "meaning": "开放系统持续与外界交换，得到维持和形成组织的条件；联想到部署后模型继续从世界获得经验。物理关系和智能机制是类比。",
+      "shortcoming": "nega可能先被读成negative的负面情绪；flux也是常见技术词，需以整体Negaflux建立识别，不能声称其词义天然等于智能增强。",
+      "source_urls": [
+        "https://struchem.nankai.edu.cn/phychem/10/10-10.pdf"
+      ],
+      "read_scope": "A4本次PDF打开超时，仅获得搜索摘录；核心物理解释继承A2实际阅读与主控已打开PDF页24的核验，不声称A4独立读到正文。",
+      "status": "english_quality_proposal_not_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

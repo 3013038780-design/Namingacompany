@@ -1,0 +1,51 @@
+{
+  "agent": "/root/live_a2",
+  "completed_at": "2026-11-07T16:39:25.127430+08:00",
+  "input_files": [
+    {
+      "path": "README.md",
+      "sha256": "4d0ddf36edb74ff7331171744c1a0051dcb0589a8a63db026825da34e364e4c9"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "8f5eeb1278f4dfaa0d87927537caae459a7552069a5596982edafd06b44a4cd4"
+    },
+    {
+      "path": "research/seed/README.md",
+      "sha256": "44cb357ed9db7edb5dc6c9a32ef1729e482ab3a9ef1f9dc6598dfbb3fc0d33b3"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A1.md",
+      "sha256": "936eff6c755bf1f448c6b94228fd8cab6ba0524b35bb387d0ace4a326d7222c3"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A1.json",
+      "sha256": "9c1f1c4c7290879c731d978b1296c974a1c8f831e068a8f0011e1d3bd673e05e"
+    }
+  ],
+  "output_files": [
+    "A2-plan.md",
+    "A2-preview.md",
+    "A2-batch1.json",
+    "A2-quality-batch1.json",
+    "A2-preview-batch2.md",
+    "A2-batch2.json",
+    "A2-quality-batch2.json"
+  ],
+  "draft_count": 8,
+  "independent_family_count": 8,
+  "classical_literature_candidate_count": 0,
+  "candidate_linked_distinct_read_source_count": 11,
+  "reading_boundary": "候选关联11个不同页面/PDF实际阅读；论文只读摘要或指定引言范围，不称通篇推导；叠层石只读一本书的网页节选，不称读完整书。未达到默认生产规范2书3近期新闻，按本次即时少量交付授权执行。",
+  "handoff_note": "先交无数字preview，再由主控封存独立评分后打开A2独立自评；第一批4案第二批4案分别交付。主控未编辑A2原始草案与分数。",
+  "history_boundary": "扫描历史候选JSON名称、家族字段和英文输出字段；seed长文工具输出截断，未声称逐行通读整份313行。",
+  "status": "two_small_batches_delivered_standing_by_for_replenishment"
+}

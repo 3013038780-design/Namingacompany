@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T16:45:43.323638+08:00",
+  "independence": "Read A4-preview-batch6.md before producer numeric assessment.",
+  "reviews": [
+    {
+      "english_id": "LD-E10",
+      "candidate_id": "LD-C07",
+      "name": "Jingora",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "jin-gor-uh可形成三音节称呼",
+          "counter_association": "ng边界需要示范"
+        },
+        "spelling": {
+          "reason": "七字母可按jing+ora说明",
+          "counter_association": "可能误写Jinggora"
+        },
+        "grounding": {
+          "reason": "中文境声与agora词形片段均透明披露",
+          "counter_association": "ora自身不代表完整agora词义"
+        },
+        "bilingual_relation": {
+          "reason": "中文生境与英文相遇场所共同强调提供互动条件，另保留境声音",
+          "counter_association": "不直接表现code，不是希腊语生境翻译"
+        },
+        "distinctiveness": {
+          "reason": "整体短且具有中文声音与异文化空间的身份",
+          "counter_association": "可能像会聚社区平台"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "reviewed_at": "2026-11-07T16:42:43.663997+08:00",
+  "independence": "Read A4-preview-batch5.md before producer numeric assessment.",
+  "reviews": [
+    {
+      "english_id": "LD-E08",
+      "candidate_id": "LD-C01",
+      "name": "Nijila",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "ni-ji-la三个开音节短而易称呼",
+          "counter_association": "ji也可能读成zhi"
+        },
+        "spelling": {
+          "reason": "六字母可固定拼写",
+          "counter_association": "末尾可能写lah"
+        },
+        "grounding": {
+          "reason": "nijilian去掉i和n得到Nijila，声音来源透明",
+          "counter_association": "不附会外语现成词源"
+        },
+        "bilingual_relation": {
+          "reason": "以中文声音保留身份，释义由中文承担",
+          "counter_association": "li-an压为la失去完整音节"
+        },
+        "distinctiveness": {
+          "reason": "无普通英语功能含义，可形成专名",
+          "counter_association": "人名或动漫联想需查"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "english_id": "LD-E09",
+      "candidate_id": "LD-C02",
+      "name": "Fushali",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "fu-sha-li三个音节易口述",
+          "counter_association": "首音可能读fuh"
+        },
+        "spelling": {
+          "reason": "七字母可分段记忆",
+          "counter_association": "sh和重音需一次介绍"
+        },
+        "grounding": {
+          "reason": "fushangliu省ng与u得到Fushali，构造可复现",
+          "counter_association": "不是现成负熵外文术语"
+        },
+        "bilingual_relation": {
+          "reason": "保留中文三个音节骨架而非假逐字英译",
+          "counter_association": "无英语含义提示热力学"
+        },
+        "distinctiveness": {
+          "reason": "专名可承载机构，科学义交由中文",
+          "counter_association": "可能像人名消费品牌"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

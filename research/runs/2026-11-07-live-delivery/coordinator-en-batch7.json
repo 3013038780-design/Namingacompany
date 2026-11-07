@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T16:47:40.612202+08:00",
+  "independence": "Read A4-preview-batch7.md before producer numeric assessment.",
+  "reviews": [
+    {
+      "english_id": "LD-E11",
+      "candidate_id": "LD-C07",
+      "name": "Daimaji",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "dai-ma-ji三个音节可自然称呼",
+          "counter_association": "dai有day/dye变体"
+        },
+        "spelling": {
+          "reason": "七字母按daima/ji分段解释",
+          "counter_association": "末尾可能听写jee"
+        },
+        "grounding": {
+          "reason": "由代码生境拼音保留daima和境的ji透明可复现",
+          "counter_association": "不补造删去的sheng寓意"
+        },
+        "bilingual_relation": {
+          "reason": "通过中文声音而非虚构外语义维持身份",
+          "counter_association": "英文单独不能解释研究机制"
+        },
+        "distinctiveness": {
+          "reason": "整体专名有独立声音轮廓",
+          "counter_association": "可能像人名或日语地名"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

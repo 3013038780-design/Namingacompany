@@ -1,0 +1,207 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T16:37:06.833486+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A2-preview.md",
+      "sha256": "527272aa307b08a11694b3cef5ad5243ab5d55d416b4fdb81577a83e4b0cc30f"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/coordinator-cn-batch1.json",
+      "sha256": "14237fa600f017200d606527972a3729507626c3a0cafd547f35534ad5cff983"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A2-quality-batch1.json",
+      "sha256": "c4552e48f4778b8fdba41d735903cbc8b4f10a4e659f4553937808e63dfc8a94"
+    }
+  ],
+  "authorized_ids": [
+    "LD-C01",
+    "LD-C02"
+  ],
+  "not_screened_ids": [
+    "LD-C03",
+    "LD-C04"
+  ],
+  "query_count": 12,
+  "controls": "A3-controls.json",
+  "results": [
+    {
+      "candidate_id": "LD-C01",
+      "name": "逆级联",
+      "decision": "public_use_screen_pass",
+      "reason": "已执行下列6组公开使用查询，未见明确同核心中文名科技/AI公司、模型或软件产品。此结论限本轮可检索公开范围。",
+      "query_logs": [
+        {
+          "category": "exact_no_industry",
+          "query": "\"逆级联\"",
+          "executed_on": "2026-11-07",
+          "summary": "返回论文、流体科学与级联算法通用名词，未见同名公司或产品。"
+        },
+        {
+          "category": "company_tech",
+          "query": "\"逆级联\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "返回一般公司和级联/逆变器内容，未见精确字号。"
+        },
+        {
+          "category": "AI_model_software",
+          "query": "\"逆级联\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "返回模型资讯、论文与通用技术描述，未见独立品牌。"
+        },
+        {
+          "category": "traditional",
+          "query": "\"逆級聯\" 公司",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确繁体同名科技品牌。"
+        },
+        {
+          "category": "pinyin",
+          "query": "\"nijilian\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确同拼音科技品牌。"
+        },
+        {
+          "category": "exact_company_supplement",
+          "query": "\"逆级联科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见该精确科技字号。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "detail": "403；未完成逐名登记查询"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "detail": "403；未完成逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "detail": "403；未完成逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Nijilian",
+          "detail": "表单首页可读，逐名URL工具不可访问"
+        }
+      },
+      "claim_limits": "不是全球无使用、官方公司核名通过或商标可注册保证。",
+      "opened_evidence": [
+        {
+          "url": "https://arxiv.org/abs/1710.09250",
+          "level": "primary_research",
+          "read_scope": "摘要L9–18",
+          "finding": "inverse cascade是流体力学现象名，论文非同名商业品牌。"
+        },
+        {
+          "url": "https://lab.semi.ac.cn/library/upload/files/2021/11/2165838466.pdf",
+          "level": "research_pdf",
+          "read_scope": "检索摘要可见级联算法逆过程；打开PDF没有可读文本行",
+          "finding": "未作为商业同名证据。"
+        }
+      ]
+    },
+    {
+      "candidate_id": "LD-C02",
+      "name": "负熵流",
+      "decision": "public_use_screen_pass",
+      "reason": "已执行下列6组公开使用查询，未见明确同核心中文名科技/AI公司、模型或软件产品。此结论限本轮可检索公开范围。",
+      "query_logs": [
+        {
+          "category": "exact_no_industry",
+          "query": "\"负熵流\"",
+          "executed_on": "2026-11-07",
+          "summary": "返回热力学论文、管理学及科普讨论，未见独立品牌。"
+        },
+        {
+          "category": "company_tech",
+          "query": "\"负熵流\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "返回企业管理对负熵流概念的讨论，未见精确字号。"
+        },
+        {
+          "category": "AI_model_software",
+          "query": "\"负熵流\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "返回AI文章中作为概念使用；不是模型或软件名。"
+        },
+        {
+          "category": "traditional",
+          "query": "\"負熵流\" 科技 公司",
+          "executed_on": "2026-11-07",
+          "summary": "图商科技LDL白皮书使用该词解释过程，不是主体或产品名。"
+        },
+        {
+          "category": "pinyin",
+          "query": "\"fushangliu\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "未见明确同拼音科技品牌。"
+        },
+        {
+          "category": "exact_company_supplement",
+          "query": "\"负熵流科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见该精确科技字号。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "detail": "403；未完成逐名登记查询"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "detail": "403；未完成逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "detail": "403；未完成逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Fushangliu",
+          "detail": "表单首页可读，逐名URL工具不可访问"
+        }
+      },
+      "claim_limits": "不是全球无使用、官方公司核名通过或商标可注册保证。",
+      "opened_evidence": [
+        {
+          "url": "https://marptek.com/wp-content/uploads/2026/01/LDL-WP-2026-001_v1.1.pdf",
+          "level": "primary_company_publication",
+          "read_scope": "扉页/定义清单p0–1，L0–51",
+          "finding": "发布主体图商科技，框架名LDL；负熵流是描述补偿工程的既有概念，非公司/独立软件/模型名。"
+        },
+        {
+          "url": "https://tsight.io/articles/12537934?lang=zh",
+          "level": "published_article",
+          "read_scope": "L10–21、36–40",
+          "finding": "文章提及系统负熵流作为一般概念；没有把软件命名为负熵流。文章自标AI生成，不作为科学出处。"
+        },
+        {
+          "url": "https://struchem.nankai.edu.cn/phychem/10/10-10.pdf",
+          "level": "primary_teaching",
+          "read_scope": "检索可见概念，打开超时",
+          "finding": "不充当已读正文证据。"
+        }
+      ]
+    }
+  ],
+  "passed_candidate_ids": [
+    "LD-C01",
+    "LD-C02"
+  ],
+  "a4_input_candidate_ids": [
+    "LD-C01",
+    "LD-C02"
+  ]
+}

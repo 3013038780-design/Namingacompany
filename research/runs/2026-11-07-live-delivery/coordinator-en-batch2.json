@@ -1,0 +1,80 @@
+{
+  "reviewed_at": "2026-11-07T16:40:20.494426+08:00",
+  "independence": "Read A4-preview-batch2.md before producer numeric assessment.",
+  "reviews": [
+    {
+      "english_id": "LD-E03",
+      "candidate_id": "LD-C01",
+      "name": "Invercade",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "in-ver-cade三音节易分段",
+          "counter_association": "口音会改变ver元音"
+        },
+        "spelling": {
+          "reason": "inver与cade可固定拼写",
+          "counter_association": "听写可能Invercayd"
+        },
+        "grounding": {
+          "reason": "同一inverse cascade内部压缩，保留明确原短语",
+          "counter_association": "-cade并非标准级联缩词"
+        },
+        "bilingual_relation": {
+          "reason": "中英文共享逆向跨尺度关系",
+          "counter_association": "不能只看英文推导物理条件"
+        },
+        "distinctiveness": {
+          "reason": "整体可成为研究机构称呼",
+          "counter_association": "arcade游戏联想"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "english_id": "LD-E04",
+      "candidate_id": "LD-C02",
+      "name": "Negentia",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "negent-ia有自然音节但需建议读法",
+          "counter_association": "-tia可能听成sha"
+        },
+        "spelling": {
+          "reason": "8字母可分段记忆",
+          "counter_association": "首次听写可能Negentya"
+        },
+        "grounding": {
+          "reason": "negentropy词干与人为尾音明确分开",
+          "counter_association": "-ia没有所编的智能词源"
+        },
+        "bilingual_relation": {
+          "reason": "与中文负熵主题相同，流义由中文保留",
+          "counter_association": "不同侧重点不是逐字翻译"
+        },
+        "distinctiveness": {
+          "reason": "整体超出普通技术通词",
+          "counter_association": "四音节较长且近似需查"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

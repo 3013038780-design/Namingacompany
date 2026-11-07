@@ -1,0 +1,80 @@
+{
+  "reviewed_at": "2026-11-07T16:38:07.318541+08:00",
+  "independence": "Read A4-preview-batch1.md before producer numeric assessment.",
+  "reviews": [
+    {
+      "english_id": "LD-E01",
+      "candidate_id": "LD-C01",
+      "name": "Inscade",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "in+scade有自然音节分界",
+          "counter_association": "首次可能读成IN-scade"
+        },
+        "spelling": {
+          "reason": "7字母，cascade尾段易固定拼写",
+          "counter_association": "听写可能Enscade"
+        },
+        "grounding": {
+          "reason": "inverse cascade同一科学短语的明确压缩",
+          "counter_association": "in并不天然完整表达inverse"
+        },
+        "bilingual_relation": {
+          "reason": "同一科学关系的中文全称与英文压缩身份",
+          "counter_association": "需解释逆向跨尺度而不是普通级联"
+        },
+        "distinctiveness": {
+          "reason": "整体足够独立，尚须A3使用查重",
+          "counter_association": "未查重不能称独占"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "english_id": "LD-E02",
+      "candidate_id": "LD-C02",
+      "name": "Negaflux",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "nega+flux三个音节可顺读",
+          "counter_association": "nega第一元音可有变体"
+        },
+        "spelling": {
+          "reason": "8字母可辨nega与flux",
+          "counter_association": "可能误写Negoflux"
+        },
+        "grounding": {
+          "reason": "明确省略entropy，不假称新术语",
+          "counter_association": "脱离中文不能唯一恢复负熵义"
+        },
+        "bilingual_relation": {
+          "reason": "中文完整关系与英文负向通量骨架共享同一出处",
+          "counter_association": "不是所有负通量都等于负熵流"
+        },
+        "distinctiveness": {
+          "reason": "整体声音有技术品牌辨识",
+          "counter_association": "negative情绪联想及Flux产品词拥挤"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

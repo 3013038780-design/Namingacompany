@@ -1,0 +1,84 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T16:42:04+08:00",
+  "reviews": [
+    {
+      "candidate_id": "LD-E08",
+      "chinese_id": "LD-C01",
+      "english": "Nijila",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个开放音节，建议读音可顺读。",
+          "counter_association": "ni首元音可能被读成短音。"
+        },
+        "spelling": {
+          "reason": "六字母，ni/ji/la三段易说明。",
+          "counter_association": "听写末尾可能多写h。"
+        },
+        "formation": {
+          "reason": "以真实中文拼音作明确缩形，未造假词源。",
+          "counter_association": "音节经过调整，并非严格汉语拼音。"
+        },
+        "bilingual_relation": {
+          "reason": "以中文声音持续锚定同一研究品牌。",
+          "counter_association": "英文单独看没有科学字面义。"
+        },
+        "distinctiveness": {
+          "reason": "短、可称呼，可由长期实验室研究填充。",
+          "counter_association": "可能先被当作人名。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑意见，待主控独评和A3；无额外返工额度。"
+    },
+    {
+      "candidate_id": "LD-E09",
+      "chinese_id": "LD-C02",
+      "english": "Fushali",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "fu/sha/li三个清楚音节。",
+          "counter_association": "fu有少数读者可能读成fuh。"
+        },
+        "spelling": {
+          "reason": "七字母，音节可分写介绍。",
+          "counter_association": "中文拼音使用者可能尝试补ng。"
+        },
+        "formation": {
+          "reason": "真实中文发音的透明人为缩形。",
+          "counter_association": "不是严格拼音或公认英文词。"
+        },
+        "bilingual_relation": {
+          "reason": "与中文共享声音身份，中文负责原理。",
+          "counter_association": "英文无法独立还原熵流主题。"
+        },
+        "distinctiveness": {
+          "reason": "整体可作为机构专名，避免把品牌困在当前产品。",
+          "counter_association": "也可能像消费品或个人名。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑意见，待主控独评和A3；无额外返工额度。"
+    }
+  ]
+}

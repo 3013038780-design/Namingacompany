@@ -1,0 +1,453 @@
+{
+  "date": "2026-11-07",
+  "agent": "/root/live_a1",
+  "completed_at": "2026-11-07T16:33:42.393174+08:00",
+  "scope": "最新用户授权立即补候选循环；复用7个已有案例，提炼6机制；0新增品牌、0本轮外部词源重新核验、0命名提案。",
+  "protocol_version": "1.1",
+  "authorization_boundary": "最新用户要求跑四Agent并淘汰继续补优先于旧3案一次小样限制；不新增用户素材审批。",
+  "input_files": [
+    {
+      "path": "README.md",
+      "sha256": "5c3805303c4556a24153c488f502161e99f3a78e358e60290a07cf4d0a33cba6"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "8f5eeb1278f4dfaa0d87927537caae459a7552069a5596982edafd06b44a4cd4"
+    },
+    {
+      "path": "research/seed/README.md",
+      "sha256": "44cb357ed9db7edb5dc6c9a32ef1729e482ab3a9ef1f9dc6598dfbb3fc0d33b3"
+    },
+    {
+      "path": "research/seed/brand-naming-foundation.md",
+      "sha256": "92cb6c7cd36c201d35900528826a8aa9aca5a75c632df57d30dcaade5547f519"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746"
+    }
+  ],
+  "history_scanned": [
+    "research/runs/2026-11-06-round2/candidates.json",
+    "research/runs/2026-11-07-minimal-cycle/A2.json",
+    "research/runs/2026-11-07-minimal-cycle/results.json",
+    "research/runs/2026-11-06/candidates.json",
+    "research/runs/2026-11-06/rejection-evidence.json",
+    "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+    "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+    "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json"
+  ],
+  "reading_scope": "已读README全文、AGENTS/preferences/seed说明、105分类；seed本次批量输出含工具截断，未声称逐行通读全部；选定7案cases.json正文逐条阅读，全部历史候选/淘汰JSON扫描名称及家族字段。",
+  "cases": [
+    {
+      "id": "B004",
+      "name": "第四范式 / 4Paradigm",
+      "original_category": "broad_tech",
+      "source_line": 26,
+      "primary_source": "S3",
+      "classification_basis": "数据密集科学的范式变化",
+      "secondary_sources": [
+        "S6"
+      ],
+      "meaning_and_origin_from_seed": "Paradigm是范式、基本思考框架；第四范式来自数据密集型科学发现。  ·",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "数据密集科学的范式变化，连接企业参与的知识时代",
+      "narrative_role": "R6",
+      "brand_story": "技术带来的不只是新工具，而是一种新研究方法。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "表达新的研究方法而非某产品；序号本身不证明先进",
+      "bilingual_relation": "中文与4Paradigm共享方法论对象",
+      "sources": [
+        {
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2009/10/Fourth_Paradigm.pdf",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 26
+        },
+        {
+          "url": "https://www.nbd.com.cn/articles/2024-08-13/3503085.html",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 26
+        },
+        {
+          "url": "https://www.nbd.com.cn/articles/2024-08-13/3503085.html",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "创始访谈35–40",
+          "supports": "原始专访明确Jim Gray第四范式演讲和公司命名联系。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "学术概念短语",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B010",
+      "name": "字节跳动 / ByteDance",
+      "original_category": "broad_tech",
+      "source_line": 32,
+      "primary_source": "S3",
+      "classification_basis": "字节这个信息单元获得跳动的身体动作",
+      "secondary_sources": [
+        "S1"
+      ],
+      "meaning_and_origin_from_seed": "Byte是字节，Dance是舞动、跳舞。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "字节这个信息单元获得跳动的身体动作",
+      "narrative_role": "R3",
+      "brand_story": "数字信息开始活动并产生生命感。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "底层计算与活跃生命感共存；不能从动作推定算法特性",
+      "bilingual_relation": "Byte/Dance与字节/跳动共享画面",
+      "sources": [
+        {
+          "url": "https://www.bytedance.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 32
+        },
+        {
+          "url": "https://www.bytedance.com/?locale=zh",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "官网使用这组中英文品牌，使命为激发创造、丰富生活；未找到本轮创始命名过程说明。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        },
+        {
+          "url": "https://www.bytedance.com/",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "官网使用这组中英文品牌，使命为激发创造、丰富生活；未找到本轮创始命名过程说明。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B021",
+      "name": "Oracle / 甲骨文",
+      "original_category": "broad_tech",
+      "source_line": 43,
+      "primary_source": "S4",
+      "classification_basis": "古老求问与记录文化",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "Oracle意为神谕、预言或提供答案的权威；中文甲骨文也是记录、求问的文化对象。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "古老求问与记录文化，连接信息中获得答案",
+      "narrative_role": "R4",
+      "brand_story": "从保存的信息中获得回答与洞见。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "知识权威感超越存储功能；预言不能当准确率保证",
+      "bilingual_relation": "Oracle与甲骨文在知识文化相接而非词义等同",
+      "sources": [
+        {
+          "url": "https://www.oracle.com/ua/corporate/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 43
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B037",
+      "name": "Imbue",
+      "original_category": "current_ai",
+      "source_line": 68,
+      "primary_source": "S5",
+      "classification_basis": "给已有对象赋予能力与价值",
+      "secondary_sources": [
+        "S6"
+      ],
+      "meaning_and_origin_from_seed": "使充满、赋予、浸润。命名顾问解释为给计算机赋予智能与人类价值。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "给已有对象赋予能力与价值，连接增强他者的作用",
+      "narrative_role": "R3",
+      "brand_story": "赋予机器能力，也赋予它应当服务的价值。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司讲对别人产生什么改变；宽动词需要真实对象承接",
+      "bilingual_relation": "英语关系动词独立，不强造逐字中文",
+      "sources": [
+        {
+          "url": "https://www.ahundredmonkeys.com/case-study/imbue/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 68
+        },
+        {
+          "url": "https://www.ahundredmonkeys.com/case-study/imbue/",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "命名顾问20/32",
+          "supports": "顾问确认Generally Intelligent改名及赋予智能/人类价值的解释。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B039",
+      "name": "Mistral AI",
+      "original_category": "current_ai",
+      "source_line": 70,
+      "primary_source": "S2",
+      "classification_basis": "真实地域风名",
+      "secondary_sources": [
+        "S6"
+      ],
+      "meaning_and_origin_from_seed": "Mistral是法国地中海地区一种强冷风的名称。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "真实地域风名，带来欧洲来处和自然动势",
+      "narrative_role": "R2",
+      "brand_story": "一股来自欧洲、推动模型生态发展的新风。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司像推动变化的一股新力量；风力不是模型能力证据",
+      "bilingual_relation": "保留风的专名，不硬配中文近音",
+      "sources": [
+        {
+          "url": "https://legal.mistral.ai/terms/commercial-terms-of-service/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 70
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B076",
+      "name": "Sakana AI",
+      "original_category": "rsi_labs",
+      "source_line": 141,
+      "primary_source": "S2",
+      "classification_basis": "鱼群由简单互动形成复杂整体",
+      "secondary_sources": [
+        "S3"
+      ],
+      "meaning_and_origin_from_seed": "Sakana是日语“鱼”。公司公开借鱼群说明简单个体形成集体行为。  ·",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "鱼群由简单互动形成复杂整体，连接智能的组织方式",
+      "narrative_role": "R5",
+      "brand_story": "智能可以从简单个体的相互作用中长出来。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "表层是生命、深层是生成机制；不能把群体现象泛化为性能证据",
+      "bilingual_relation": "日语鱼的称呼进入英文品牌，不要求新中文名日式化",
+      "sources": [
+        {
+          "url": "https://sakana.ai/series-a/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 141
+        },
+        {
+          "url": "https://sakana.ai/dgm/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 141
+        },
+        {
+          "url": "https://sakana.ai/seed-round/",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "Sakana在日语中意为鱼；公司明确鱼群由简单规则形成整体，连接演化与集体智能研究；逆向红鱼代表探索自己的方向。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        },
+        {
+          "url": "https://sakana.ai/company-info/",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "Sakana在日语中意为鱼；公司明确鱼群由简单规则形成整体，连接演化与集体智能研究；逆向红鱼代表探索自己的方向。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        },
+        {
+          "url": "https://sakana.ai/seed-round/",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "官方起名说明5",
+          "supports": "日语鱼、鱼群简单规则形成整体和逆向红鱼的解释均明确。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B095",
+      "name": "日行迹 / Analemma",
+      "original_category": "rsi_labs",
+      "source_line": 165,
+      "primary_source": "S2",
+      "classification_basis": "太阳年度同刻轨迹",
+      "secondary_sources": [
+        "S3"
+      ],
+      "meaning_and_origin_from_seed": "Analemma指固定地点、每天同一钟表时刻记录太阳位置，一年累积得到的日行迹，常呈8字形；与地轴倾斜和轨道偏心有关。“日行迹”是对应的天文名称。  ·",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "太阳年度同刻轨迹，连接时间积累后显现结构",
+      "narrative_role": "R5",
+      "brand_story": "每一天都留下经验，时间让规律逐渐显现。循环中有变化，重复观察也能带来新认识，这层含义很适合长期学习的品牌叙事。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "自然现象让长期性可见；经验积累是解读不是官方动机",
+      "bilingual_relation": "日行迹与Analemma指同一天文概念",
+      "sources": [
+        {
+          "url": "https://analemma.ai/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 165
+        },
+        {
+          "url": "https://www.36kr.com/p/3680086801936003",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 165
+        },
+        {
+          "url": "https://www.sii.edu.cn/2026/0304/c27a761/page.htm",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "77–80；另读36氪106–110与NASA APOD2002-07-09说明",
+          "supports": "上海创智学院确认日行迹/Analemma身份，原采访报道明确天文命名；NASA解释同地点同钟表时刻的太阳年度轨迹。时间积累→认识形成是品牌分析，不冒称团队自述动机。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "L1",
+      "case_ids": [
+        "B010"
+      ],
+      "name": "底层单位获得可感动作",
+      "fact": "Byte是字节，Dance是舞动；这组双语实际存在。未把命名分析冒作创始人自述。",
+      "crossing": "计算基本构件×身体可感动作；微小信息获得活动画面。",
+      "find": "计算、程序、表示与工具链的真实组成元素，它们实际能发生何种转移、展开、变换或组织。",
+      "preserve": "动作与对象须本来有关系，组合后能像一个完整称呼。",
+      "reject": "任取技术名词加任取漂亮动词；用动作暗示已实现特定算法。",
+      "failure_example": "把所有对象统一接成长、智能、未来等尾词，不能算新机制。"
+    },
+    {
+      "id": "L2",
+      "case_ids": [
+        "B004",
+        "B095"
+      ],
+      "name": "科学对象或完整关系直接成为专名",
+      "fact": "第四范式对应数据密集科学方法；日行迹对应同地点同钟表时刻记录的太阳年度轨迹。已有材料保存创始访谈及机构/NASA核验边界。",
+      "crossing": "可定义的科学对象×长期研究身份；词本身先是完整对象，再有品牌解读。",
+      "find": "数学结构、观测方法、信息论/计算关系中已可定义且中文可称呼的对象，尤其可视化结构和方法转变；不限定持续成长。",
+      "preserve": "保留区别于通用探索词的独特结构或条件；科学对象与公司业务是类比，不是性能承诺。",
+      "reject": "把专业定义删到只剩宏大但无差别的字；以科学正确掩盖名字难读。",
+      "failure_example": "将任何边界或序号一概解释为下一代智能，失去原理区别。"
+    },
+    {
+      "id": "L3",
+      "case_ids": [
+        "B039"
+      ],
+      "name": "具体自然现象承载力量和来处",
+      "fact": "Mistral是地中海法国一带的真实风名。推动欧洲模型生态是研究者解读，不称企业命名动机。",
+      "crossing": "可识别自然力×公司动势/地域身份。",
+      "find": "中国和全球可核实的天文、地球物理、气象、光学现象；关注何种条件形成何种独特运动/形态，不搜一串好听自然字。",
+      "preserve": "具体特征、画面和条件；自然也可以强、快、精密，不必柔和生长。",
+      "reject": "只剩风水木山等大类，第一联想偏家具环保而无区分关系。",
+      "failure_example": "从所有风名推导成长或自由，抹掉现象本身。"
+    },
+    {
+      "id": "L4",
+      "case_ids": [
+        "B076"
+      ],
+      "name": "简单外壳承载组织机制",
+      "fact": "Sakana日语指鱼；公司起名说明用鱼群简单局部规则产生整体行为。",
+      "crossing": "一个易称呼生命对象×多体组织/集体行为。",
+      "find": "自然中的协同、适应、网络、感知与材料组织现象；重点找个体与整体之间独特关系，而非只搜再生长大。",
+      "preserve": "表面形象与深层组织关系同时存在，科普一句能说清。",
+      "reject": "所有群体现象都包装为AI涌现；通名重复已占历史家族。",
+      "failure_example": "把声子或同一群体相互作用换个名再当新增，重复本轮已淘汰家族。"
+    },
+    {
+      "id": "L5",
+      "case_ids": [
+        "B037"
+      ],
+      "name": "以对他者的作用建立公司角色",
+      "fact": "Imbue有赋予/浸润义；既有命名顾问正文解释赋予计算机智能与人类价值。",
+      "crossing": "自然语言关系动词×为既有机器提供能力的机构角色。",
+      "find": "认知科学、计算与工程中使既有系统获得新表达能力、判断力或可操作性的真实过程；也找日常语言已自然表达这种关系的词。",
+      "preserve": "谁对谁产生什么改变，关系清楚；无需名字直写学习进化。",
+      "reject": "抽象正向词无动作对象；被理解为学校育儿，或主张万能增强。",
+      "failure_example": "Nurture因育儿联想已被用户否定，换近义词不能当新方向。"
+    },
+    {
+      "id": "L6",
+      "case_ids": [
+        "B021"
+      ],
+      "name": "中国知识载体与现代研究主题呼应",
+      "fact": "Oracle有神谕/提供回答之义；甲骨文是古代文字与占卜记录载体。双语主题相接是语义观察，不在本轮补造历史起名过程。",
+      "crossing": "真实知识载体/文化对象×记录、推断、求问与回答。",
+      "find": "中国科学技术史、仪器与知识组织方式中的真实对象和操作；与现代信息科学存在可说明关系者优先，不限古文摘字。",
+      "preserve": "对象和动作确实存在；中文先自然成立，英文可同主题独立成立。",
+      "reject": "拼两句古文为每字分别编义；因中国关联就无视科技身份；古文占比超过15%。",
+      "failure_example": "把古代求问解释为现代预测准确率，属于越界。"
+    }
+  ],
+  "a2_handoff": "先写简短内部搜索计划映射具体机制后直接读正文和创作；不等待用户逐卡审批。每个草案附来源范围、case_ids、mechanism_id、独特事实保留及丢失、释义/短板/家族排重；自行评分与主控评分分文件保存，便于独立审阅。不得把6机制当机械配对词表。"
+}

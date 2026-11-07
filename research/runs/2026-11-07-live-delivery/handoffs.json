@@ -1,0 +1,667 @@
+{
+  "handoffs": [
+    {
+      "id": "H1",
+      "from": "/root/live_a1",
+      "to": "/root/live_a2",
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:36:22.032222+08:00",
+      "reason": "主控实际读A1.md接受7复用例的6机制，真实send_message通知A2，A2内部plan已基于各机制执行。",
+      "input_refs": [
+        {
+          "path": "A1.md",
+          "sha256": "936eff6c755bf1f448c6b94228fd8cab6ba0524b35bb387d0ace4a326d7222c3"
+        },
+        {
+          "path": "A1.json",
+          "sha256": "9c1f1c4c7290879c731d978b1296c974a1c8f831e068a8f0011e1d3bd673e05e"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A2-plan.md",
+          "sha256": "0a4b680b1362d1afcf31e7d4d2132c39bd29f9a5ddc2c9a20f181d1f3ff91e58"
+        }
+      ]
+    },
+    {
+      "id": "H2-b1",
+      "from": "A2",
+      "to": "coordinator",
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:37:46.632765+08:00",
+      "candidate_ids": [
+        "LD-C01",
+        "LD-C02",
+        "LD-C03",
+        "LD-C04"
+      ],
+      "reason": "先读不含数字preview，主控独立评分保存后解封自评。",
+      "input_refs": [
+        {
+          "path": "A1.json",
+          "sha256": "9c1f1c4c7290879c731d978b1296c974a1c8f831e068a8f0011e1d3bd673e05e"
+        },
+        {
+          "path": "A2-plan.md",
+          "sha256": "0a4b680b1362d1afcf31e7d4d2132c39bd29f9a5ddc2c9a20f181d1f3ff91e58"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A2-batch1.json",
+          "sha256": "3a8a3ecc2cc89adc282af943b4091428b238ab7e1980b5e90b496e5fae9bee66"
+        },
+        {
+          "path": "A2-preview.md",
+          "sha256": "527272aa307b08a11694b3cef5ad5243ab5d55d416b4fdb81577a83e4b0cc30f"
+        },
+        {
+          "path": "A2-quality-batch1.json",
+          "sha256": "c4552e48f4778b8fdba41d735903cbc8b4f10a4e659f4553937808e63dfc8a94"
+        },
+        {
+          "path": "coordinator-cn-batch1.json",
+          "sha256": "14237fa600f017200d606527972a3729507626c3a0cafd547f35534ad5cff983"
+        }
+      ],
+      "execution_ref": "本聊天实际工具及角色消息，记录时间不冒充最初发生时间"
+    },
+    {
+      "id": "H3-b1",
+      "from": "coordinator",
+      "to": "A3",
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:37:46.632765+08:00",
+      "candidate_ids": [
+        "LD-C01",
+        "LD-C02"
+      ],
+      "reason": "两名双评过线，磁重联和叠层石保留具体未过原因不冒称查重。",
+      "input_refs": [
+        {
+          "path": "coordinator-cn-batch1.json",
+          "sha256": "14237fa600f017200d606527972a3729507626c3a0cafd547f35534ad5cff983"
+        },
+        {
+          "path": "A2-quality-batch1.json",
+          "sha256": "c4552e48f4778b8fdba41d735903cbc8b4f10a4e659f4553937808e63dfc8a94"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-cn-batch1.json",
+          "sha256": "39e303771d0fa00c0060255ffaf301e7616932936b3bf0cb4a3b9061e4ac32fc"
+        }
+      ],
+      "execution_ref": "本聊天实际工具及角色消息，记录时间不冒充最初发生时间"
+    },
+    {
+      "id": "H4-b1",
+      "from": "A3",
+      "to": "A4",
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:37:46.632765+08:00",
+      "candidate_ids": [
+        "LD-C01",
+        "LD-C02"
+      ],
+      "reason": "实际中文每名6组公开使用查询通过，已通知真实A4开始英文创作。",
+      "input_refs": [
+        {
+          "path": "A3-cn-batch1.json",
+          "sha256": "39e303771d0fa00c0060255ffaf301e7616932936b3bf0cb4a3b9061e4ac32fc"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-cn-batch1.md",
+          "sha256": "19f738463f021c9d050369da1e099fcc42c7f8a56c3ec2f5cf43f34d213585f3"
+        }
+      ],
+      "execution_ref": "本聊天实际工具及角色消息，记录时间不冒充最初发生时间"
+    },
+    {
+      "id": "H2-b2",
+      "from": "A2",
+      "to": "coordinator",
+      "candidate_ids": [
+        "LD-C05",
+        "LD-C06",
+        "LD-C07",
+        "LD-C08"
+      ],
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:50:46+08:00",
+      "input_refs": [
+        {
+          "path": "A1.json",
+          "sha256": "9c1f1c4c7290879c731d978b1296c974a1c8f831e068a8f0011e1d3bd673e05e"
+        },
+        {
+          "path": "A2-plan.md",
+          "sha256": "0a4b680b1362d1afcf31e7d4d2132c39bd29f9a5ddc2c9a20f181d1f3ff91e58"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A2-batch2.json",
+          "sha256": "63159db251d38d0b0e6b0298c1787fb204688a6064efee40556e89298a8015a3"
+        },
+        {
+          "path": "A2-quality-batch2.json",
+          "sha256": "28f467d86714ca2c9b6b74c80b8a28f0ad7324a01781847d04bc4cf94c79f66a"
+        },
+        {
+          "path": "coordinator-cn-batch2.json",
+          "sha256": "9086764b3f843948e18754bc90cfc9d4756410e4aeba3c1b0fdfbe6bc6b90ae1"
+        }
+      ],
+      "reason": "第二批4独立家族实际审阅，先preview独评后比较作者分。",
+      "execution_ref": "本聊天真实角色工具调用与消息；本时间是汇总记录时间。"
+    },
+    {
+      "id": "H3-b2",
+      "from": "coordinator",
+      "to": "A3",
+      "candidate_ids": [
+        "LD-C05",
+        "LD-C07",
+        "LD-C08"
+      ],
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:50:46+08:00",
+      "input_refs": [
+        {
+          "path": "coordinator-cn-batch2.json",
+          "sha256": "9086764b3f843948e18754bc90cfc9d4756410e4aeba3c1b0fdfbe6bc6b90ae1"
+        },
+        {
+          "path": "A2-quality-batch2.json",
+          "sha256": "28f467d86714ca2c9b6b74c80b8a28f0ad7324a01781847d04bc4cf94c79f66a"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-cn-batch2.json",
+          "sha256": "6ddcbba5a8c566905dd575756a013a1c3c9f64477896727a2154d280801a6e68"
+        }
+      ],
+      "reason": "三名双质量过线，下一无穷自然称呼未过。",
+      "execution_ref": "本聊天真实角色工具调用与消息；本时间是汇总记录时间。"
+    },
+    {
+      "id": "H4-b2",
+      "from": "A3",
+      "to": "A4",
+      "candidate_ids": [
+        "LD-C05",
+        "LD-C07",
+        "LD-C08"
+      ],
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:50:46+08:00",
+      "input_refs": [
+        {
+          "path": "A3-cn-batch2.json",
+          "sha256": "6ddcbba5a8c566905dd575756a013a1c3c9f64477896727a2154d280801a6e68"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-cn-batch2.md",
+          "sha256": "ec7c1e6ebb080121a10953c8291fe5ec53c4ababfb0e17c5b9b8daa71ae9d96b"
+        }
+      ],
+      "reason": "三名公开使用初筛过，同领域部分词重合未误作全名占用。",
+      "execution_ref": "本聊天真实角色工具调用与消息；本时间是汇总记录时间。"
+    },
+    {
+      "id": "H5-en-b1",
+      "from": "A4",
+      "to": "A3",
+      "candidate_ids": [
+        "LD-E01",
+        "LD-E02"
+      ],
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:50:46+08:00",
+      "input_refs": [
+        {
+          "path": "A4-batch1.json",
+          "sha256": "f479a9116769356aad7eeaffe2338ae37f5b6871cc8a3817c2640f816e9b3613"
+        },
+        {
+          "path": "A4-quality-batch1.json",
+          "sha256": "dcf40b47889fd3797b462c0b20ed3d337f2db1280c7c69f116d0c95d0434a155"
+        },
+        {
+          "path": "coordinator-en-batch1.json",
+          "sha256": "9230c88082a95e2875a3abde04aa47abf92c7e1aa22fe9810b74d4753e926266"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-en-batch1.json",
+          "sha256": "137f896ad8542a5fd060613524d74ae97e91f17c3597893c05a62978533f701a"
+        }
+      ],
+      "reason": "主控先封存英文独立评分后读取作者评分，双评达门槛，真实通知原A3执行该版英文查询；作者formation轴明确对应grounding。",
+      "execution_ref": "本聊天各批实际授权及A3回报"
+    },
+    {
+      "id": "H6-en-b1",
+      "from": "A3",
+      "to": "coordinator",
+      "candidate_ids": [
+        "LD-E01",
+        "LD-E02"
+      ],
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:50:46+08:00",
+      "input_refs": [
+        {
+          "path": "A3-en-batch1.json",
+          "sha256": "137f896ad8542a5fd060613524d74ae97e91f17c3597893c05a62978533f701a"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-en-batch1.md",
+          "sha256": "5218e23b496ad0f581504a0bf58e8d15c25de14a417a07e0e19ecf670a05dc1f"
+        }
+      ],
+      "reason": "已验收实际查询及证据层级；accepted指审查记录被接收，不代表本版名字通过；各自decision保持原义。",
+      "execution_ref": "本聊天原A3实际筛查反馈，使用补披露后的当前记录版本"
+    },
+    {
+      "id": "H5-en-b2",
+      "from": "A4",
+      "to": "A3",
+      "candidate_ids": [
+        "LD-E03",
+        "LD-E04"
+      ],
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:50:46+08:00",
+      "input_refs": [
+        {
+          "path": "A4-batch2.json",
+          "sha256": "f6dbd20b1bdeed16426bae7d139b0b038b95d86929c9905b9732d0f4d9736c14"
+        },
+        {
+          "path": "A4-quality-batch2.json",
+          "sha256": "3aa7dbfdef25ad1ab45bbd1c3547855d428824651f2bbc66cd8506470674717d"
+        },
+        {
+          "path": "coordinator-en-batch2.json",
+          "sha256": "81a6114b7b918fcc2f97b5bc3f49505a75dd3916a6597b2ff261101f509cd601"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-en-batch2.json",
+          "sha256": "5e8210bd3581dd668045ccb47649d6aa03529e069074d6b23ac407b1d3499347"
+        }
+      ],
+      "reason": "主控先封存英文独立评分后读取作者评分，双评达门槛，真实通知原A3执行该版英文查询；作者formation轴明确对应grounding。",
+      "execution_ref": "本聊天各批实际授权及A3回报"
+    },
+    {
+      "id": "H6-en-b2",
+      "from": "A3",
+      "to": "coordinator",
+      "candidate_ids": [
+        "LD-E03",
+        "LD-E04"
+      ],
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:50:46+08:00",
+      "input_refs": [
+        {
+          "path": "A3-en-batch2.json",
+          "sha256": "5e8210bd3581dd668045ccb47649d6aa03529e069074d6b23ac407b1d3499347"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-en-batch2.md",
+          "sha256": "24b7b89e9657d96e4670553085cf5abd5668a0c6bc2000c535eeba691d3df6df"
+        }
+      ],
+      "reason": "已验收实际查询及证据层级；accepted指审查记录被接收，不代表本版名字通过；各自decision保持原义。",
+      "execution_ref": "本聊天原A3实际筛查反馈，使用补披露后的当前记录版本"
+    },
+    {
+      "id": "H5-en-b3",
+      "from": "A4",
+      "to": "A3",
+      "candidate_ids": [
+        "LD-E05",
+        "LD-E06"
+      ],
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:50:46+08:00",
+      "input_refs": [
+        {
+          "path": "A4-batch3.json",
+          "sha256": "e210f30f9c1b9b203ac3073e02838ae4cf51cb3ae3ff76626a6431cffbef11bc"
+        },
+        {
+          "path": "A4-quality-batch3.json",
+          "sha256": "7434edc419bb46dfdf9715efec5dab5b302bf76170f01eb51f4dcc7593e96eaf"
+        },
+        {
+          "path": "coordinator-en-batch3.json",
+          "sha256": "4ea45455f60083804e7c586119505ac8941ddba119bffa23d1bdb073f2a0c899"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-en-batch3.json",
+          "sha256": "a6306cab327fe0ac2d3823e444463712254fa11925472dad66b800008de3b857"
+        }
+      ],
+      "reason": "主控先封存英文独立评分后读取作者评分，双评达门槛，真实通知原A3执行该版英文查询；作者formation轴明确对应grounding。",
+      "execution_ref": "本聊天各批实际授权及A3回报"
+    },
+    {
+      "id": "H6-en-b3",
+      "from": "A3",
+      "to": "coordinator",
+      "candidate_ids": [
+        "LD-E05",
+        "LD-E06"
+      ],
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:50:46+08:00",
+      "input_refs": [
+        {
+          "path": "A3-en-batch3.json",
+          "sha256": "a6306cab327fe0ac2d3823e444463712254fa11925472dad66b800008de3b857"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-en-batch3.md",
+          "sha256": "491fac2279c010557ee1e42eacb54dc681298e0ef7e1d9da0024c2df35300c50"
+        }
+      ],
+      "reason": "已验收实际查询及证据层级；accepted指审查记录被接收，不代表本版名字通过；各自decision保持原义。",
+      "execution_ref": "本聊天原A3实际筛查反馈，使用补披露后的当前记录版本"
+    },
+    {
+      "id": "H5-en-b4",
+      "from": "A4",
+      "to": "A3",
+      "candidate_ids": [
+        "LD-E07"
+      ],
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:50:46+08:00",
+      "input_refs": [
+        {
+          "path": "A4-batch4.json",
+          "sha256": "7385c35d9f851f4b6698013050084b0689da800650d332f3cf17c3c79bc10d63"
+        },
+        {
+          "path": "A4-quality-batch4.json",
+          "sha256": "eb9a2f8681c5cd2e73fa0421b96a3f9c09b00487f45e83dcb75f8cab855b994a"
+        },
+        {
+          "path": "coordinator-en-batch4.json",
+          "sha256": "30979e63d3a8cd456a3a6a5c43516faeae6b3ba5baccb5ee4d618a2add2e49c1"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-en-batch4.json",
+          "sha256": "9d64fd43262c958c0e5d6270be9503c90e44d469c19a3d2a3f43e71f14c5b1f6"
+        }
+      ],
+      "reason": "主控先封存英文独立评分后读取作者评分，双评达门槛，真实通知原A3执行该版英文查询；作者formation轴明确对应grounding。",
+      "execution_ref": "本聊天各批实际授权及A3回报"
+    },
+    {
+      "id": "H6-en-b4",
+      "from": "A3",
+      "to": "coordinator",
+      "candidate_ids": [
+        "LD-E07"
+      ],
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:50:46+08:00",
+      "input_refs": [
+        {
+          "path": "A3-en-batch4.json",
+          "sha256": "9d64fd43262c958c0e5d6270be9503c90e44d469c19a3d2a3f43e71f14c5b1f6"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-en-batch4.md",
+          "sha256": "198cd02c6b6a81156e3657d1fba5a2312d59009e42dc80c0fce146c0c94ad0b9"
+        }
+      ],
+      "reason": "已验收实际查询及证据层级；accepted指审查记录被接收，不代表本版名字通过；各自decision保持原义。",
+      "execution_ref": "本聊天原A3实际筛查反馈，使用补披露后的当前记录版本"
+    },
+    {
+      "id": "H5-en-b5",
+      "from": "A4",
+      "to": "A3",
+      "candidate_ids": [
+        "LD-E08",
+        "LD-E09"
+      ],
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:50:46+08:00",
+      "input_refs": [
+        {
+          "path": "A4-batch5.json",
+          "sha256": "bda92ab6426b7546e65d304f6a96bd9b069f1d738c88d1d6982ee5ff496631b6"
+        },
+        {
+          "path": "A4-quality-batch5.json",
+          "sha256": "d7a9429fbe84cf942367c105503b49e676922b4c48830d1e763c08fe6f74fc5c"
+        },
+        {
+          "path": "coordinator-en-batch5.json",
+          "sha256": "1f2b14cc7ec46a3fa346ca597faa1d20a172ea2ddfac7e527ceab6fd16123ed6"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-en-batch5.json",
+          "sha256": "8586b492cf84b4c67d6ff76f8755ebfe189c4d4bdd935c706fd64c15373270f1"
+        }
+      ],
+      "reason": "主控先封存英文独立评分后读取作者评分，双评达门槛，真实通知原A3执行该版英文查询；作者formation轴明确对应grounding。",
+      "execution_ref": "本聊天各批实际授权及A3回报"
+    },
+    {
+      "id": "H6-en-b5",
+      "from": "A3",
+      "to": "coordinator",
+      "candidate_ids": [
+        "LD-E08",
+        "LD-E09"
+      ],
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:50:46+08:00",
+      "input_refs": [
+        {
+          "path": "A3-en-batch5.json",
+          "sha256": "8586b492cf84b4c67d6ff76f8755ebfe189c4d4bdd935c706fd64c15373270f1"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-en-batch5.md",
+          "sha256": "22bc55cd0074363c3d443263ab21cfecf98f59186730263a2dcbd72a6880e377"
+        }
+      ],
+      "reason": "已验收实际查询及证据层级；accepted指审查记录被接收，不代表本版名字通过；各自decision保持原义。",
+      "execution_ref": "本聊天原A3实际筛查反馈，使用补披露后的当前记录版本"
+    },
+    {
+      "id": "H5-en-b6",
+      "from": "A4",
+      "to": "A3",
+      "candidate_ids": [
+        "LD-E10"
+      ],
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:50:46+08:00",
+      "input_refs": [
+        {
+          "path": "A4-batch6.json",
+          "sha256": "aa7b410a37bb190d8d8f0aaa926bd49041b3cd776da94214cfd862baf84c5485"
+        },
+        {
+          "path": "A4-quality-batch6.json",
+          "sha256": "41e3622becac7546e4f8452310855163ce5d33a2cfe3f9948d97fb9e822f935e"
+        },
+        {
+          "path": "coordinator-en-batch6.json",
+          "sha256": "2da13ac1089c29984dd2b494400e6c5aee6cc14fb5ec457b918e4e95c530e6ab"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-en-batch6.json",
+          "sha256": "1e947a1873834d88ceb3ff24e6b350ecc62c8bd21cb1c8ee954a0c1bcf5d1ff6"
+        }
+      ],
+      "reason": "主控先封存英文独立评分后读取作者评分，双评达门槛，真实通知原A3执行该版英文查询；作者formation轴明确对应grounding。",
+      "execution_ref": "本聊天各批实际授权及A3回报"
+    },
+    {
+      "id": "H6-en-b6",
+      "from": "A3",
+      "to": "coordinator",
+      "candidate_ids": [
+        "LD-E10"
+      ],
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:50:46+08:00",
+      "input_refs": [
+        {
+          "path": "A3-en-batch6.json",
+          "sha256": "1e947a1873834d88ceb3ff24e6b350ecc62c8bd21cb1c8ee954a0c1bcf5d1ff6"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-en-batch6.md",
+          "sha256": "ad1629e5efa67a287649542c3d0cdfdaf61bc552339fa27dbeb2148820c21b3b"
+        }
+      ],
+      "reason": "已验收实际查询及证据层级；accepted指审查记录被接收，不代表本版名字通过；各自decision保持原义。",
+      "execution_ref": "本聊天原A3实际筛查反馈，使用补披露后的当前记录版本"
+    },
+    {
+      "id": "H5-en-b7",
+      "from": "A4",
+      "to": "A3",
+      "candidate_ids": [
+        "LD-E11"
+      ],
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:50:46+08:00",
+      "input_refs": [
+        {
+          "path": "A4-batch7.json",
+          "sha256": "ab97bb65e7308f0c6625d9e39e54968145a94261aed0d2a9c28b7df0831c1423"
+        },
+        {
+          "path": "A4-quality-batch7.json",
+          "sha256": "d03041021aa608167a2b243d45688dcbbd2c6ee04d192ec0a0afebd1de3c1455"
+        },
+        {
+          "path": "coordinator-en-batch7.json",
+          "sha256": "510494792220660613aa2ce3a0d3775925385f02858083ca86f074ad6bb19c02"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-en-batch7.json",
+          "sha256": "c4d0d19bd3d53b31f31e04b77db705c675ea0af8e27f36deea7adffac39b3358"
+        }
+      ],
+      "reason": "主控先封存英文独立评分后读取作者评分，双评达门槛，真实通知原A3执行该版英文查询；作者formation轴明确对应grounding。",
+      "execution_ref": "本聊天各批实际授权及A3回报"
+    },
+    {
+      "id": "H6-en-b7",
+      "from": "A3",
+      "to": "coordinator",
+      "candidate_ids": [
+        "LD-E11"
+      ],
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:50:46+08:00",
+      "input_refs": [
+        {
+          "path": "A3-en-batch7.json",
+          "sha256": "c4d0d19bd3d53b31f31e04b77db705c675ea0af8e27f36deea7adffac39b3358"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-en-batch7.md",
+          "sha256": "cdf7e9556cff1ffbca6f037ba16eb47cc8735d658d7209748f5c738a66b8836c"
+        }
+      ],
+      "reason": "已验收实际查询及证据层级；accepted指审查记录被接收，不代表本版名字通过；各自decision保持原义。",
+      "execution_ref": "本聊天原A3实际筛查反馈，使用补披露后的当前记录版本"
+    },
+    {
+      "id": "H7",
+      "from": "coordinator",
+      "to": "user",
+      "candidate_ids": [
+        "LD-E05",
+        "LD-E06",
+        "LD-E09"
+      ],
+      "status": "accepted",
+      "recorded_at": "2026-11-07T16:50:46+08:00",
+      "input_refs": [
+        {
+          "path": "source-review.json",
+          "sha256": "8b614dafebfa228141faf22b5d24b9614156af817a9a447799ef0b36fbf3cec5"
+        },
+        {
+          "path": "A3-receipt.json",
+          "sha256": "184297065891cf0f47db4394c7dc23b3f79274d7255b734231090aa39ce205f3"
+        },
+        {
+          "path": "A2-receipt.json",
+          "sha256": "744ac40b65c122047c274878494ff2f08e26528a2b4bc11211bfc70199b33561"
+        },
+        {
+          "path": "A4-final-followup.md",
+          "sha256": "541a77a75153ca12f982dee7f4e37c26aa5d14d96d7168ddbcf160e565cb878d"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "README.md",
+          "sha256": "c6b981d16fbb1c1e1e80e7e4dc9da1c71b114a7bc8c328ad48c572a8c1e05a30"
+        },
+        {
+          "path": "delivery.json",
+          "sha256": "145b0a79fe6c6e5a277bfdd6a6585cc8986caefc9baaea8a8125c19c80e45c6f"
+        },
+        {
+          "path": "rejections.json",
+          "sha256": "0eaa99e02e2b6787a0774fc8de60b15c679bc847dc8fdb1a5705626fc1630897"
+        }
+      ],
+      "reason": "终审选择3不同家族，全部完成双语质量及公开使用初筛；官方核名/商标限制披露；另外2中文不计交付，不声称生产配额合规。",
+      "execution_ref": "主控本聊天实际全文审阅与逐来源复核"
+    }
+  ],
+  "note": "H5/H6按实际分批追加；汇总时间不是伪造的历史事件时间。每项accepted只描述交接验收，不自动改写名字去留。"
+}
