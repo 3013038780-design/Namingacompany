@@ -1,0 +1,55 @@
+{
+  "reviewer": "/root",
+  "recorded_at": "2026-11-07T16:18:01+08:00",
+  "scope": "All3 Chinese source core claims checked, not full books or underlying experimental papers.",
+  "sources": [
+    {
+      "candidate_id": "MC-A2-01",
+      "url": "https://composingprograms.appspot.com/pages/12-elements-of-programming.html",
+      "reading_location": "§1.2 opening, three mechanisms and expressions/calls",
+      "access": "body",
+      "execution_ref": "turn938view0; turn939view0",
+      "conclusion": "Basic constructs, combination and abstraction supported; Chinese原语 is a declared terminology borrowing, not quoted Chinese in English source."
+    },
+    {
+      "candidate_id": "MC-A2-02",
+      "url": "https://www.iop.cas.cn/xwzx/kydt/202106/t20210622_6115268.html",
+      "reading_location": "Research report main paragraphs,1030nm/515nm and compression/doubling system",
+      "access": "body",
+      "execution_ref": "turn938view1",
+      "conclusion": "Conversion system and wavelengths supported; no AI performance doubling claim. Rejected on brand quality, not registration."
+    },
+    {
+      "candidate_id": "MC-A2-03",
+      "url": "https://imr.cas.cn/xwzx/kydt/202103/t20210301_5962068.html",
+      "reading_location": "Definition paragraph and HT-PHONON study summary",
+      "access": "body",
+      "execution_ref": "turn938view2",
+      "conclusion": "Lattice quantization/collective quasiparticle supported; not intelligence emergence proof."
+    }
+  ],
+  "screening_audit": [
+    {
+      "candidate_id": "MC-A2-01",
+      "url": "https://github.com/primihub/primihub-platform/blob/develop/primihub-webconsole/README.md",
+      "access": "body",
+      "reading_location": "Application settings src/settings.js example, logoTitle; project overview identifies privacy computing/model inference software",
+      "execution_ref": "turn946view0; turn947view0",
+      "conclusion": "Confirmed Chinese core brand原语隐私计算平台 in developer documentation; sufficient existing software brand evidence for this rejection, without claiming official company/trademark registration verified."
+    },
+    {
+      "candidate_id": "MC-A2-03",
+      "url": "https://phononmusic.net/terms/user",
+      "access": "body",
+      "reading_location": "Terms opening and service categories",
+      "execution_ref": "turn946view1",
+      "conclusion": "Confirmed cross-industry聲子樂集 use, not exact two-character AI company proof; agrees with hold rather than asserting definite AI occupation."
+    },
+    {
+      "url": "https://pitchhub.36kr.com/project/1958583262090246",
+      "access": "root_timeout",
+      "execution_ref": "turn946view2",
+      "conclusion": "Root did not verify secondary page body; A3 records its successful read. Rejection independently supported by primary developer document."
+    }
+  ]
+}
