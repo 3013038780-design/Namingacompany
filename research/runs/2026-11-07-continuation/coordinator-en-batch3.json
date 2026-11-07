@@ -1,0 +1,80 @@
+{
+  "reviewed_at": "2026-11-07T18:18:29.164475+08:00",
+  "independence": "Read A4-preview-batch3.md before producer numeric assessment.",
+  "reviews": [
+    {
+      "english_id": "CT-E04",
+      "candidate_id": "CT-C07",
+      "name": "Thoughtgear",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "thought与gear两个普通词读法稳定",
+          "counter_association": "th及辅音群有成本"
+        },
+        "spelling": {
+          "reason": "完整词无伪造字母或缩写",
+          "counter_association": "合写/分写需固定"
+        },
+        "grounding": {
+          "reason": "思考与传动装置提供清楚工程比喻",
+          "counter_association": "不把in gear短语偷换成gear精确定义"
+        },
+        "bilingual_relation": {
+          "reason": "引擎驱动与齿轮传递同样让目标进入行动",
+          "counter_association": "不称引擎和齿轮同一器件"
+        },
+        "distinctiveness": {
+          "reason": "整体形象具研究工具或机构称呼感",
+          "counter_association": "思维工具或Agent产品联想"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "english_id": "CT-E05",
+      "candidate_id": "CT-C08",
+      "name": "One More Thought",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通英语完整表达可顺读",
+          "counter_association": "thought有th门槛"
+        },
+        "spelling": {
+          "reason": "三个完整基础词可正确书写",
+          "counter_association": "三词略长"
+        },
+        "grounding": {
+          "reason": "再一念头语义与正常语言完全相符",
+          "counter_association": "不是论文术语逐字摘取"
+        },
+        "bilingual_relation": {
+          "reason": "多一步与再一念头共享审慎展开姿态",
+          "counter_association": "不能保证更多步骤更正确"
+        },
+        "distinctiveness": {
+          "reason": "完整短语可品牌化但为常用表达",
+          "counter_association": "像专栏或slogan需机构研究承接"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

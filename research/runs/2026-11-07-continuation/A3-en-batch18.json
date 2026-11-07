@@ -1,0 +1,152 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T19:02:43.721361+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-preview-batch18.md",
+      "sha256": "1394407bdfb19aa73f949215691490845eb329bc0e00cdfaf90a43d493d0e41c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-en-batch18.json",
+      "sha256": "ff9da5a42adda9a0144c27edbe88ca33c49098ee71545ac11026b722d28970a7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-quality-batch18.json",
+      "sha256": "512c374d2de99919016a4723936fcb1700dd768ac6967f8322cf05d37af7de8f"
+    }
+  ],
+  "query_count": 10,
+  "results": [
+    {
+      "candidate_id": "CT-E33",
+      "chinese_candidate_id": "CT-C29",
+      "chinese": "非玩家",
+      "name": "Worldside",
+      "decision": "reject",
+      "reason": "完整同名软件项目及建站服务已有实际使用。Devpost Worldside移动社交应用；WorldSide波兰网站建设/电商服务官网均已读；不是个人署名或单词误配。",
+      "query_logs": [
+        {
+          "query": "\"Worldside\"",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名软件项目及建站服务已有实际使用。Devpost Worldside移动社交应用；WorldSide波兰网站建设/电商服务官网均已读；不是个人署名或单词误配。"
+        },
+        {
+          "query": "\"Worldside\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名软件项目及建站服务已有实际使用。Devpost Worldside移动社交应用；WorldSide波兰网站建设/电商服务官网均已读；不是个人署名或单词误配。"
+        },
+        {
+          "query": "\"Worldside\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名软件项目及建站服务已有实际使用。Devpost Worldside移动社交应用；WorldSide波兰网站建设/电商服务官网均已读；不是个人署名或单词误配。"
+        },
+        {
+          "query": "\"Worldside\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名软件项目及建站服务已有实际使用。Devpost Worldside移动社交应用；WorldSide波兰网站建设/电商服务官网均已读；不是个人署名或单词误配。"
+        },
+        {
+          "query": "\"World Side\" company software",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名软件项目及建站服务已有实际使用。Devpost Worldside移动社交应用；WorldSide波兰网站建设/电商服务官网均已读；不是个人署名或单词误配。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://devpost.com/software/worldside",
+          "access": "primary_developer_body_read",
+          "finding": "项目Worldside，What it does及How we built it说明React Native/AirTable社交应用。"
+        },
+        {
+          "url": "https://worldside.pl/",
+          "access": "primary_service_body_read",
+          "finding": "官网WorldSide提供网站及网店设计、营销服务。"
+        },
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/05327587",
+          "access": "official_company_body_read",
+          "finding": "WORLDSIDE LIMITED05327587，2005成立、2011年7月5日注销；这是历史公司，不冒称当前在营。另目录17541688不是本官方页面主体。"
+        }
+      ],
+      "registration": {
+        "status": "not_checked_after_confirmed_use_or_active_avoidance",
+        "note": "依据公开使用，不称登记通过或当前已注册。"
+      }
+    },
+    {
+      "candidate_id": "CT-E34",
+      "chinese_candidate_id": "CT-C30",
+      "chinese": "懒函数",
+      "name": "Call by Need",
+      "decision": "public_use_screen_pass",
+      "reason": "5组未见独立同名公司、模型或软件品牌；大量结果为通用求值策略、论文、语言实现。技术术语出现不自动当作软件名占用。",
+      "query_logs": [
+        {
+          "query": "\"Call by Need\"",
+          "executed_on": "2026-11-07",
+          "summary": "5组未见独立同名公司、模型或软件品牌；大量结果为通用求值策略、论文、语言实现。技术术语出现不自动当作软件名占用。"
+        },
+        {
+          "query": "\"Call by Need\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "5组未见独立同名公司、模型或软件品牌；大量结果为通用求值策略、论文、语言实现。技术术语出现不自动当作软件名占用。"
+        },
+        {
+          "query": "\"Call by Need\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "5组未见独立同名公司、模型或软件品牌；大量结果为通用求值策略、论文、语言实现。技术术语出现不自动当作软件名占用。"
+        },
+        {
+          "query": "\"Call by Need\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "5组未见独立同名公司、模型或软件品牌；大量结果为通用求值策略、论文、语言实现。技术术语出现不自动当作软件名占用。"
+        },
+        {
+          "query": "\"CallbyNeed\" OR \"Call-by-Need\" company software",
+          "executed_on": "2026-11-07",
+          "summary": "5组未见独立同名公司、模型或软件品牌；大量结果为通用求值策略、论文、语言实现。技术术语出现不自动当作软件名占用。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://sicp.sourceacademy.org/chapters/4.2.2.html",
+          "access": "primary_textbook_body_read",
+          "finding": "脚注3解释lazy evaluation结合memoization称call-by-need argument passing；是通用策略，不是独立产品品牌。"
+        },
+        {
+          "url": "https://research.scheme.org/lambda-papers/lambda-papers-ltu-imperative.html",
+          "access": "search_text_only",
+          "finding": "论文目录/正文的求值策略使用，与公司名区分。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Call%20by%20Need",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    }
+  ],
+  "passed_english_candidate_ids": [
+    "CT-E34"
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛不等于全球未使用、核名通过或第9/42类可注册。重复复核查询计入实际查询数。"
+}

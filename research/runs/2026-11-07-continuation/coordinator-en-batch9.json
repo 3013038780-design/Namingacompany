@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T18:32:33.472017+08:00",
+  "independence": "Read producer preview batch9 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C10",
+      "name": "Another Way In",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通表达可直接读",
+          "counter_association": "约五音节较长"
+        },
+        "spelling": {
+          "reason": "三个完整词正常拼写",
+          "counter_association": "需固定全短语"
+        },
+        "grounding": {
+          "reason": "入口为明确品牌比喻非数学事实",
+          "counter_association": "不是SICP术语"
+        },
+        "bilingual_relation": {
+          "reason": "同对象不同表示与不同切入同姿态",
+          "counter_association": "不能把表示换成实际物理通道"
+        },
+        "distinctiveness": {
+          "reason": "完整表达有态度但常见",
+          "counter_association": "像顾问或栏目"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E14"
+    }
+  ]
+}

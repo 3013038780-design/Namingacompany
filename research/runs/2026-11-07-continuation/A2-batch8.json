@@ -1,0 +1,148 @@
+{
+  "agent": "/root/live_a2",
+  "completed_at": "2026-11-07T18:44:06.139446+08:00",
+  "candidates": [
+    {
+      "id": "CT-C29",
+      "name": "非玩家",
+      "pinyin": "fēi wán jiā",
+      "family_id": "CT-F-nonplayer-character-to-agent",
+      "source_world": "S4 现代游戏角色与人工社会",
+      "case_ids": [
+        "B008",
+        "B013",
+        "B037"
+      ],
+      "mechanism_ids": [
+        "CN4",
+        "CN1",
+        "CN5"
+      ],
+      "source": {
+        "title": "Park等：Generative Agents: Interactive Simulacra of Human Behavior",
+        "url": "https://arxiv.org/pdf/2304.03442",
+        "read_scope": "PDF浏览工具因超过大小上限失败，改curl下载并用PyMuPDF实际读PDF第1–3页，重点Introduction及2.2 Believable Proxies；未通读22页",
+        "date": "2023-08-06"
+      },
+      "fact": "论文以非玩家角色研究为背景，为模型加入经历记录、检索、反思和计划结构，使模拟角色的行为更连贯。作者明确说明行为逼真不意味着真实自主性，也记录记忆检索及虚构问题。",
+      "crossing": "从Alibaba的CN4学习完整角色身份，不沿二周目的重玩/继承故事变形；从Imbue的CN5看已有模型加上结构后能够承担怎样的新角色。",
+      "meaning": "不是操纵世界的玩家，却开始在世界里形成可观察的行动。非玩家是可以被称呼的角色身份，第二层讨论人以外的行动主体与持续交互，不宣称角色觉醒成真人。",
+      "layers": [
+        "游戏中的熟悉角色类别",
+        "不由人逐步手动操纵的行为",
+        "从静态应答转向带经历的交互"
+      ],
+      "retained": "角色身份与技术实现行为之间的联系",
+      "lost": "中文省略了角色二字；并非所有NPC使用AI，也不把拟真当意识",
+      "strength": "三个常用字，游戏用户已有语感；像一个角色称呼而不是研究课题标题。",
+      "weakness": "可能首先被理解为“不玩游戏的人”或游戏工作室；网络NPC又有机械、没有主见的贬义，不能忽略。",
+      "history_check": "与二周目同处游戏世界但核心故事不同：前者角色控制权与代理行为，后者继承后的第二次流程；不扩非角色/自主玩家等近义组。"
+    },
+    {
+      "id": "CT-C30",
+      "name": "懒函数",
+      "pinyin": "lǎn hán shù",
+      "family_id": "CT-F-lazy-evaluation-demand",
+      "source_world": "S3 程序求值策略",
+      "case_ids": [
+        "B002",
+        "B025"
+      ],
+      "mechanism_ids": [
+        "CN3",
+        "CN1"
+      ],
+      "source": {
+        "title": "SICP Comparison Edition 4.2.1 Normal Order and Applicative Order",
+        "url": "https://sicp.sourceacademy.org/chapters/4.2.1.html",
+        "read_scope": "实际读正文264–280行及例子try/unless：延迟到需要时求值、非严格参数与数据结构；未读后续解释器实现",
+        "date": null
+      },
+      "fact": "惰性求值把参数计算推迟到真正需要之时；未用到的表达式可能根本不求值，因而某些本来会报错或不终止的参数不会阻止得到有用结果。不是简单把所有计算放慢。",
+      "crossing": "沿CN3保留真实程序机制，再借CN1把它说成有一点性格的可叫对象。懒不是工作态度口号，而是计算需求决定是否工作的策略。",
+      "meaning": "聪明有时体现为知道什么暂时不用算。名字用日常的懒为冷硬函数增加性格；中文是对lazy evaluation机制的品牌改写，不冒称SICP把lazy function作为统一正式术语。",
+      "layers": [
+        "有性格的程序对象",
+        "需要才展开计算",
+        "让资源花在真正被调用的事情上"
+      ],
+      "retained": "需求驱动计算而非预先计算一切",
+      "lost": "非严格求值并不总更快，也可能引入内存或副作用处理问题；不是通用AI会自动省算力的证明",
+      "strength": "三个字完整名词，有轻微反常识和程序员幽默，科技身份在字面直接可见。",
+      "weakness": "懒字可能被理解为不努力或低可靠；函数也会偏开发者工具，无法包办全部AI Lab世界观。",
+      "history_check": "与旧异步的并发时序不同，也不是旧通式/高阶函数的过程作为参数；本家族限定何时需要求值，不沿懒算/慢函数变体计新。"
+    },
+    {
+      "id": "CT-C31",
+      "name": "有界好奇",
+      "pinyin": "yǒu jiè hào qí",
+      "family_id": "CT-F-curiosity-objective-limitations",
+      "source_world": "S6 研究态度；兼S3探索目标",
+      "case_ids": [
+        "B022",
+        "B037",
+        "B002"
+      ],
+      "mechanism_ids": [
+        "CN6",
+        "CN5",
+        "CN3"
+      ],
+      "source": {
+        "title": "Burda等：Large-Scale Study of Curiosity-Driven Learning",
+        "url": "https://arxiv.org/pdf/1808.04355",
+        "read_scope": "实际读PDF第1–3页预测误差内在奖励；网页再取超时后curl下载，PyMuPDF实际读第10页Discussion/noisy-TV问题；未通读实验附录",
+        "date": "2018-08-13"
+      },
+      "fact": "预测误差可以作为内在奖励推动探索，但随机变化的电视画面等噪声会持续带来预测误差，吸引智能体而不一定带来任务进展。好奇目标和真正有用的学习并不总一致。",
+      "crossing": "按CN6从真实研究问题形成态度，只讲有用学习需辨别的边界，不替用户宣称安全、开放或最强；按CN3保留探索目标与学习价值并非同一物这一实际关系。",
+      "meaning": "保持好奇，也研究好奇在什么条件下有效。有界指有适用条件与需要辨别的范围，是品牌新组合，不宣称论文提出了叫“有界好奇”的算法或已给出数学上界。",
+      "layers": [
+        "面对未知的主动性",
+        "目标函数也有适用边界",
+        "让探索向可用能力转化的研究追问"
+      ],
+      "retained": "探索激励有效但存在可检验失效条件",
+      "lost": "名字没有给出一个实际边界算法，不能被当成已解决噪声电视问题的成果",
+      "strength": "四字定语名词结构完整，有日常好奇与研究边界两层，中文能直接读。",
+      "weakness": "有界较书面，好奇可能让人想到科普教育；也可能被误读为限制想象力。自然度只能给中档通过判断，须由主控独评，不用算法背景补拗口。",
+      "history_check": "与未尽之问开放问题哲学不同，也不是多想一步的推理加步骤；本家族是内在探索奖励的有效性边界，只计一组。"
+    },
+    {
+      "id": "CT-C32",
+      "name": "虚拟排练",
+      "pinyin": "xū nǐ pái liàn",
+      "family_id": "CT-F-world-model-imagined-behavior-practice",
+      "source_world": "S5 认知方法与模型内练习",
+      "case_ids": [
+        "B037",
+        "B013",
+        "B076"
+      ],
+      "mechanism_ids": [
+        "CN5",
+        "CN1",
+        "CN2"
+      ],
+      "source": {
+        "title": "Hafner等：Dream to Control: Learning Behaviors by Latent Imagination",
+        "url": "https://arxiv.org/pdf/1912.01603",
+        "read_scope": "实际读PDF第1–2页Abstract/Introduction/Control with World Models，含经验学习动态模型、潜空间预测轨迹、行动价值学习及回到环境收集经验；未通读实验与证明",
+        "date": "2020-03-17"
+      },
+      "fact": "Dreamer从经验学习世界模型，在其潜在状态空间预测假设轨迹，并沿轨迹训练行为与价值模型，之后到真实任务环境执行并收集更多经验。模型中排练不是人类睡眠实验，也不自动等于严格定义的离线强化学习。",
+      "crossing": "从Imbue的CN5寻找增强已有行动能力的关系，再用CN1的日常实践词排练把世界模型研究说成人能理解的动作；不是机械给模型添一个“进化”词。",
+      "meaning": "行动之前，可以先在一个可计算的世界里试演。虚拟和排练的关系是同一真实实践：在内部模型中比较未来行动，再让经验返回研究。",
+      "layers": [
+        "人熟悉的上场前排练",
+        "模型里预测多种行动轨迹",
+        "经验与内部演练共同影响行为"
+      ],
+      "retained": "世界模型里的试演可用于学习行为",
+      "lost": "模型错误会误导练习，虚拟排练不保证现实安全或通用任务成功",
+      "strength": "四字是自然现成说法，动作与场所相容，不需要解释每个汉字。",
+      "weakness": "可能像仿真产品、演艺软件或培训平台，Lab长期身份略偏功能性；若主控认为只是产品描述，应退回，不将资料真实当作通过。",
+      "history_check": "与旧转场/下一镜的影片叙事不同，亦非代码生境的执行环境；本案核心是由学习到的世界模型产生假设轨迹再训练行为，不按相同虚拟字根多计。"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T19:00:17.428632+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-preview-batch16.md",
+      "sha256": "1b0ba022ac3efb70f34b6d54b18d6ad018c22517fa24ed68f9603c3b1847c79e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-en-batch16.json",
+      "sha256": "eb0b41298489692e30ae82ce4208e6cf70ba7405d84815dc5de72856e043d61b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-quality-batch16.json",
+      "sha256": "55bb82c046aa037576c32df05dcfd753a560f336c502a11298a149710f04c9ed"
+    }
+  ],
+  "query_count": 10,
+  "results": [
+    {
+      "candidate_id": "CT-E29",
+      "chinese_candidate_id": "CT-C16",
+      "chinese": "递火",
+      "name": "Pass the Ember",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名公司、模型或软件。Steam内PASS THE EMBER OR BLOW UP是Too Hot To Hold玩法小标题而非游戏名。",
+      "query_logs": [
+        {
+          "query": "\"Pass the Ember\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件。Steam内PASS THE EMBER OR BLOW UP是Too Hot To Hold玩法小标题而非游戏名。"
+        },
+        {
+          "query": "\"Pass the Ember\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件。Steam内PASS THE EMBER OR BLOW UP是Too Hot To Hold玩法小标题而非游戏名。"
+        },
+        {
+          "query": "\"Pass the Ember\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件。Steam内PASS THE EMBER OR BLOW UP是Too Hot To Hold玩法小标题而非游戏名。"
+        },
+        {
+          "query": "\"Pass the Ember\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件。Steam内PASS THE EMBER OR BLOW UP是Too Hot To Hold玩法小标题而非游戏名。"
+        },
+        {
+          "query": "\"PasstheEmber\" OR \"Pass-the-Ember\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件。Steam内PASS THE EMBER OR BLOW UP是Too Hot To Hold玩法小标题而非游戏名。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://store.steampowered.com/app/5199210/",
+          "access": "primary_store_body_read",
+          "finding": "产品名Too Hot To Hold，开发/发行MystiveDev；玩法标题含该普通短语。页面Coming soon。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Pass%20the%20Ember",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    },
+    {
+      "candidate_id": "CT-E30",
+      "chinese_candidate_id": "CT-C18",
+      "chinese": "光的弯道",
+      "name": "Sky Detour",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名科技公司、模型或软件；较长旅游线路Dark Sky Detour及Sky Detour新闻标题须披露。",
+      "query_logs": [
+        {
+          "query": "\"Sky Detour\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技公司、模型或软件；较长旅游线路Dark Sky Detour及Sky Detour新闻标题须披露。"
+        },
+        {
+          "query": "\"Sky Detour\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技公司、模型或软件；较长旅游线路Dark Sky Detour及Sky Detour新闻标题须披露。"
+        },
+        {
+          "query": "\"Sky Detour\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技公司、模型或软件；较长旅游线路Dark Sky Detour及Sky Detour新闻标题须披露。"
+        },
+        {
+          "query": "\"Sky Detour\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技公司、模型或软件；较长旅游线路Dark Sky Detour及Sky Detour新闻标题须披露。"
+        },
+        {
+          "query": "\"SkyDetour\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技公司、模型或软件；较长旅游线路Dark Sky Detour及Sky Detour新闻标题须披露。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.newzealandcoachtours.co.nz/tour/booking_form/2267/0",
+          "access": "primary_travel_body_read",
+          "finding": "Tour name明确Dark Sky Detour (Ref2267)，非完整Sky Detour公司软件名。代理finetravel.nzwt.co.nz同线路页Access Denied，主站正文已核。另NDTVProfit同短语为新闻标题。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Sky%20Detour",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    }
+  ],
+  "passed_english_candidate_ids": [
+    "CT-E29",
+    "CT-E30"
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛不等于全球未使用、核名通过或第9/42类可注册。重复复核查询计入实际查询数。"
+}

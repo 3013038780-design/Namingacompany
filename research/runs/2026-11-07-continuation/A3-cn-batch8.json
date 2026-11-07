@@ -1,0 +1,302 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T18:51:08.934247+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A2-preview-batch8.md",
+      "sha256": "ebdcf2f482ff5f6762827a741fc74714e6a8bc7a9cc6bef3e8a0b711d65776c9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-cn-batch8.json",
+      "sha256": "ebe8c98cc018c029c693e6b8c7df732060a4fafa49cdf0623078f66b22149b6d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A2-quality-batch8.json",
+      "sha256": "ce6a2175170bbaf950032126cfe6f4aabf489064055b716f63ded7bf45689ff4"
+    }
+  ],
+  "query_count": 24,
+  "results": [
+    {
+      "candidate_id": "CT-C29",
+      "name": "非玩家",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名科技/AI公司、模型或软件。已见小说/我的世界原创动画题名非玩家；NPC是通用类别，不能将所有NPC软件占用推到该中文。",
+      "query_logs": [
+        {
+          "query": "\"非玩家\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。已见小说/我的世界原创动画题名非玩家；NPC是通用类别，不能将所有NPC软件占用推到该中文。"
+        },
+        {
+          "query": "\"非玩家\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。已见小说/我的世界原创动画题名非玩家；NPC是通用类别，不能将所有NPC软件占用推到该中文。"
+        },
+        {
+          "query": "\"非玩家\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。已见小说/我的世界原创动画题名非玩家；NPC是通用类别，不能将所有NPC软件占用推到该中文。"
+        },
+        {
+          "query": "\"非玩家\" 软件 产品",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。已见小说/我的世界原创动画题名非玩家；NPC是通用类别，不能将所有NPC软件占用推到该中文。"
+        },
+        {
+          "query": "\"feiwanjia\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。已见小说/我的世界原创动画题名非玩家；NPC是通用类别，不能将所有NPC软件占用推到该中文。"
+        },
+        {
+          "query": "\"非玩家科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。已见小说/我的世界原创动画题名非玩家；NPC是通用类别，不能将所有NPC软件占用推到该中文。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.jjwxc.net/onebook.php?novelid=10755142",
+          "access": "search_title_only",
+          "finding": "渡釉猫小说《非玩家》，非软件品牌。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1nJ4m1M74a/",
+          "access": "search_video_title_only",
+          "finding": "我的世界原创动画非玩家，非同名游戏软件或AI公司。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Feiwanjia",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    },
+    {
+      "candidate_id": "CT-C30",
+      "name": "懒函数",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整中文同名科技/AI公司或软件；懒函数是技术文章描述，LazyLLM/懒猫为其他完整品牌，不因共享懒字自动否决。",
+      "query_logs": [
+        {
+          "query": "\"懒函数\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整中文同名科技/AI公司或软件；懒函数是技术文章描述，LazyLLM/懒猫为其他完整品牌，不因共享懒字自动否决。"
+        },
+        {
+          "query": "\"懒函数\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整中文同名科技/AI公司或软件；懒函数是技术文章描述，LazyLLM/懒猫为其他完整品牌，不因共享懒字自动否决。"
+        },
+        {
+          "query": "\"懒函数\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整中文同名科技/AI公司或软件；懒函数是技术文章描述，LazyLLM/懒猫为其他完整品牌，不因共享懒字自动否决。"
+        },
+        {
+          "query": "\"懶函數\" 公司",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整中文同名科技/AI公司或软件；懒函数是技术文章描述，LazyLLM/懒猫为其他完整品牌，不因共享懒字自动否决。"
+        },
+        {
+          "query": "\"lanhanshu\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整中文同名科技/AI公司或软件；懒函数是技术文章描述，LazyLLM/懒猫为其他完整品牌，不因共享懒字自动否决。"
+        },
+        {
+          "query": "\"懒函数科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整中文同名科技/AI公司或软件；懒函数是技术文章描述，LazyLLM/懒猫为其他完整品牌，不因共享懒字自动否决。"
+        }
+      ],
+      "evidence": [],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Lanhanshu",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    },
+    {
+      "candidate_id": "CT-C31",
+      "name": "有界好奇",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名科技/AI公司、模型或软件。艺术有界，好奇无界宣传句是分句相邻，不等于有界好奇完整品牌。",
+      "query_logs": [
+        {
+          "query": "\"有界好奇\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。艺术有界，好奇无界宣传句是分句相邻，不等于有界好奇完整品牌。"
+        },
+        {
+          "query": "\"有界好奇\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。艺术有界，好奇无界宣传句是分句相邻，不等于有界好奇完整品牌。"
+        },
+        {
+          "query": "\"有界好奇\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。艺术有界，好奇无界宣传句是分句相邻，不等于有界好奇完整品牌。"
+        },
+        {
+          "query": "\"有界好奇\" 软件 产品",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。艺术有界，好奇无界宣传句是分句相邻，不等于有界好奇完整品牌。"
+        },
+        {
+          "query": "\"youjiehaoqi\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。艺术有界，好奇无界宣传句是分句相邻，不等于有界好奇完整品牌。"
+        },
+        {
+          "query": "\"有界好奇科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。艺术有界，好奇无界宣传句是分句相邻，不等于有界好奇完整品牌。"
+        }
+      ],
+      "evidence": [],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Youjiehaoqi",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    },
+    {
+      "candidate_id": "CT-C32",
+      "name": "虚拟排练",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名科技/AI公司、模型或软件品牌。VR排练功能、专利排演系统、App排练用途为描述性用法；实际产品Kairoo等并不叫虚拟排练。",
+      "query_logs": [
+        {
+          "query": "\"虚拟排练\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件品牌。VR排练功能、专利排演系统、App排练用途为描述性用法；实际产品Kairoo等并不叫虚拟排练。"
+        },
+        {
+          "query": "\"虚拟排练\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件品牌。VR排练功能、专利排演系统、App排练用途为描述性用法；实际产品Kairoo等并不叫虚拟排练。"
+        },
+        {
+          "query": "\"虚拟排练\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件品牌。VR排练功能、专利排演系统、App排练用途为描述性用法；实际产品Kairoo等并不叫虚拟排练。"
+        },
+        {
+          "query": "\"虛擬排練\" 公司",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件品牌。VR排练功能、专利排演系统、App排练用途为描述性用法；实际产品Kairoo等并不叫虚拟排练。"
+        },
+        {
+          "query": "\"xunipailian\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件品牌。VR排练功能、专利排演系统、App排练用途为描述性用法；实际产品Kairoo等并不叫虚拟排练。"
+        },
+        {
+          "query": "\"虚拟排练科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件品牌。VR排练功能、专利排演系统、App排练用途为描述性用法；实际产品Kairoo等并不叫虚拟排练。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://yywdxy.sxgkd.edu.cn/info/1020/10632.htm",
+          "access": "search_text_only",
+          "finding": "大学介绍将虚拟排练列作实验室教学功能，不是独立软件名。"
+        },
+        {
+          "url": "https://www.alphaxiv.org/zh/abs/2402.05699",
+          "access": "search_text_only",
+          "finding": "MATRIX为模型框架名，虚拟排练空间是解释比喻，不把描述当品牌。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Xunipailian",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    }
+  ],
+  "passed_candidate_ids": [
+    "CT-C29",
+    "CT-C30",
+    "CT-C31",
+    "CT-C32"
+  ],
+  "a4_input_candidate_ids": [
+    "CT-C29",
+    "CT-C30",
+    "CT-C31",
+    "CT-C32"
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛，非全球无使用、公司核名通过或9/42商标可注册。"
+}

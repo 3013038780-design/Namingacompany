@@ -1,0 +1,198 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T18:49:36.540305+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-preview-batch13.md",
+      "sha256": "b16aa05e81112d39fc3e2804d0e358bb241909ebd99aedfaf59c8641d7207968"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-en-batch13.json",
+      "sha256": "6463068d5aae060aea981749a3aa018959d65e1ad9d49e8c0610f14587f1a9cf"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-quality-batch13.json",
+      "sha256": "c460943306baf0e44d74d3f36ccd788365a6357773939a0d6c31da437c32d882"
+    }
+  ],
+  "query_count": 15,
+  "results": [
+    {
+      "candidate_id": "CT-E22",
+      "chinese_candidate_id": "CT-C19",
+      "chinese": "噪声种子",
+      "name": "Noisebloom",
+      "decision": "return_for_alternative",
+      "reason": "完整同名NoiseBloom商业音频服务品牌已用，主动避让；官网强调人类创作，不能由.ai域名说成AI模型。",
+      "query_logs": [
+        {
+          "query": "\"Noisebloom\"",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名NoiseBloom商业音频服务品牌已用，主动避让；官网强调人类创作，不能由.ai域名说成AI模型。"
+        },
+        {
+          "query": "\"Noisebloom\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名NoiseBloom商业音频服务品牌已用，主动避让；官网强调人类创作，不能由.ai域名说成AI模型。"
+        },
+        {
+          "query": "\"Noisebloom\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名NoiseBloom商业音频服务品牌已用，主动避让；官网强调人类创作，不能由.ai域名说成AI模型。"
+        },
+        {
+          "query": "\"Noisebloom\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名NoiseBloom商业音频服务品牌已用，主动避让；官网强调人类创作，不能由.ai域名说成AI模型。"
+        },
+        {
+          "query": "\"Noise Bloom\" company software",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名NoiseBloom商业音频服务品牌已用，主动避让；官网强调人类创作，不能由.ai域名说成AI模型。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.noisebloom.ai/",
+          "access": "primary_body_read_via_curl_after_web_timeout",
+          "finding": "已实际提取正文，NoiseBloom提供sonic logos、UI/UX sound elements、品牌音景及商业联系；只核品牌使用，不照搬广告优越性声明。"
+        },
+        {
+          "url": "https://www.noisebloommusic.com/about",
+          "access": "primary_collective_body_read",
+          "finding": "Noise Bloom Media作曲集体与音乐库，提供电影/电视/游戏配乐，另一个相同核心商业使用。"
+        }
+      ],
+      "registration": {
+        "status": "not_checked_after_confirmed_use_or_active_avoidance",
+        "note": "依据公开使用，不称登记通过或当前已注册。"
+      }
+    },
+    {
+      "candidate_id": "CT-E23",
+      "chinese_candidate_id": "CT-C21",
+      "chinese": "海底雪",
+      "name": "Snow Below",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名科技/AI公司、模型或软件。已有歌曲/专辑及NASA纪录片同主题标题，不当公司占用，但披露词形已用于文化内容。",
+      "query_logs": [
+        {
+          "query": "\"Snow Below\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。已有歌曲/专辑及NASA纪录片同主题标题，不当公司占用，但披露词形已用于文化内容。"
+        },
+        {
+          "query": "\"Snow Below\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。已有歌曲/专辑及NASA纪录片同主题标题，不当公司占用，但披露词形已用于文化内容。"
+        },
+        {
+          "query": "\"Snow Below\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。已有歌曲/专辑及NASA纪录片同主题标题，不当公司占用，但披露词形已用于文化内容。"
+        },
+        {
+          "query": "\"Snow Below\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。已有歌曲/专辑及NASA纪录片同主题标题，不当公司占用，但披露词形已用于文化内容。"
+        },
+        {
+          "query": "\"SnowBelow\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。已有歌曲/专辑及NASA纪录片同主题标题，不当公司占用，但披露词形已用于文化内容。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://plus.nasa.gov/video/nasa-explorers-the-snow-below/",
+          "access": "official_video_page_body_opened",
+          "finding": "NASA纪录片标题The Snow Below，非软件公司/模型；未声称播放看完整片。"
+        },
+        {
+          "url": "https://music.apple.com/us/album/snow-below-single/1714796966",
+          "access": "search_music_title_only",
+          "finding": "Jared Daws同名音乐发行，非科技产品。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Snow%20Below",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    },
+    {
+      "candidate_id": "CT-E24",
+      "chinese_candidate_id": "CT-C23",
+      "chinese": "指南鱼",
+      "name": "Compassfish",
+      "decision": "return_for_alternative",
+      "reason": "分写Compass Fish已有历史鱼品批发公司核心名，第三方正文显示2000年清算，按历史跨行业公司主动避让；未证AI/软件精确同名。",
+      "query_logs": [
+        {
+          "query": "\"Compassfish\"",
+          "executed_on": "2026-11-07",
+          "summary": "分写Compass Fish已有历史鱼品批发公司核心名，第三方正文显示2000年清算，按历史跨行业公司主动避让；未证AI/软件精确同名。"
+        },
+        {
+          "query": "\"Compassfish\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "分写Compass Fish已有历史鱼品批发公司核心名，第三方正文显示2000年清算，按历史跨行业公司主动避让；未证AI/软件精确同名。"
+        },
+        {
+          "query": "\"Compassfish\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "分写Compass Fish已有历史鱼品批发公司核心名，第三方正文显示2000年清算，按历史跨行业公司主动避让；未证AI/软件精确同名。"
+        },
+        {
+          "query": "\"Compassfish\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "分写Compass Fish已有历史鱼品批发公司核心名，第三方正文显示2000年清算，按历史跨行业公司主动避让；未证AI/软件精确同名。"
+        },
+        {
+          "query": "\"Compass Fish\" company software",
+          "executed_on": "2026-11-07",
+          "summary": "分写Compass Fish已有历史鱼品批发公司核心名，第三方正文显示2000年清算，按历史跨行业公司主动避让；未证AI/软件精确同名。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://firmaapi.dk/virksomhed/compass-fish-i-as-17889982",
+          "access": "third_party_company_body_read",
+          "finding": "COMPASS FISH I A/S，CVR17889982，1994成立、2000年11月15清算终止；鱼品批发。不是官方当前查询，也非现存AI公司。"
+        },
+        {
+          "url": "https://www.newdirectiontackle.co.uk/boat/baitboat1full.pdf",
+          "access": "search_pdf_text_open_502",
+          "finding": "CompassFish Finder疑表格/邻项拼接，原PDF502，未用此单独确定独立品牌。"
+        }
+      ],
+      "registration": {
+        "status": "not_checked_after_confirmed_use_or_active_avoidance",
+        "note": "依据公开使用，不称登记通过或当前已注册。"
+      }
+    }
+  ],
+  "passed_english_candidate_ids": [
+    "CT-E23"
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛不等于全球未使用、核名通过或第9/42类可注册。重复复核查询计入实际查询数。"
+}

@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T18:59:58+08:00",
+  "reviews": [
+    {
+      "candidate_id": "CT-E37",
+      "chinese_id": "CT-C28",
+      "english": "Airsung",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "air/sung两个短音节，读法清楚。",
+          "counter_association": "sung的元音需按正常英语读而非松字音。"
+        },
+        "spelling": {
+          "reason": "两个完整英语词形相接，没有无意义字母。",
+          "counter_association": "首次可能分成Air Sung，须查变体。"
+        },
+        "formation": {
+          "reason": "空气奏出声音构成可理解被动图像。",
+          "counter_association": "是新合成品牌词，不冒称英语固定词。"
+        },
+        "bilingual_relation": {
+          "reason": "器具与气流转声的作用来自同一真实风物。",
+          "counter_association": "英文不直写pigeon。"
+        },
+        "distinctiveness": {
+          "reason": "短且有可感声音与转化作用的角色。",
+          "counter_association": "可能像音频/通风品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；待主控独评与原A3，该中文尚余1次返工。"
+    }
+  ]
+}

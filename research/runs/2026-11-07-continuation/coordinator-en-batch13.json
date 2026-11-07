@@ -1,0 +1,117 @@
+{
+  "reviewed_at": "2026-11-07T18:47:09.014440+08:00",
+  "independence": "Read producer preview batch13 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C19",
+      "name": "Noisebloom",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "noise和bloom两普通音节可读",
+          "counter_association": "z接bl普通辅音有成本"
+        },
+        "spelling": {
+          "reason": "完整词形没有怪拼法",
+          "counter_association": "需查Noise Bloom"
+        },
+        "grounding": {
+          "reason": "随机初态生成结构支持生长比喻",
+          "counter_association": "bloom非真实花或天然知识"
+        },
+        "bilingual_relation": {
+          "reason": "种子与展开同一生成意象",
+          "counter_association": "seed不等于噪声本体"
+        },
+        "distinctiveness": {
+          "reason": "噪声反差有整体记忆",
+          "counter_association": "像音乐或生成艺术工具"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E22"
+    },
+    {
+      "candidate_id": "CT-C21",
+      "name": "Snow Below",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通三音节句景可直接读",
+          "counter_association": "可能需解释海底非冰雪"
+        },
+        "spelling": {
+          "reason": "两个基础完整词",
+          "counter_association": "需查合写"
+        },
+        "grounding": {
+          "reason": "下方世界的雪是明确景象比喻",
+          "counter_association": "不是海洋雪科学同义词"
+        },
+        "bilingual_relation": {
+          "reason": "中文海底与英文深处画面相接",
+          "counter_association": "不是颗粒运输等于学习"
+        },
+        "distinctiveness": {
+          "reason": "有意外空间和自然画面",
+          "counter_association": "像科普旅行品牌"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E23"
+    },
+    {
+      "candidate_id": "CT-C23",
+      "name": "Compassfish",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "compass和fish三音节可读",
+          "counter_association": "compass重音需固定"
+        },
+        "spelling": {
+          "reason": "两个完整词正常合写",
+          "counter_association": "需查Compass Fish"
+        },
+        "grounding": {
+          "reason": "功能与鱼形原本属于同一器物",
+          "counter_association": "不是活鱼磁感"
+        },
+        "bilingual_relation": {
+          "reason": "两语共享中国定向知识工具",
+          "counter_association": "不冒称标准古代英语名称"
+        },
+        "distinctiveness": {
+          "reason": "有可亲近的技术主角",
+          "counter_association": "导航或儿童品牌近邻多"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E24"
+    }
+  ]
+}

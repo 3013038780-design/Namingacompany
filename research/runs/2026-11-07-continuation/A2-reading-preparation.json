@@ -1,0 +1,78 @@
+{
+  "agent": "/root/live_a2",
+  "stage": "read_before_new_A1_no_candidates_created",
+  "inputs": [
+    {
+      "path": "README.md",
+      "sha256": "5a9a1b8a7bf373bd65fc063c0c53c31ce42321bea4c7ee30107c501fd97d0d22"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "67172f848596849032f0fd190711e349f1d8f6db9cb4ac3d0c5f8eb5f3761e81"
+    }
+  ],
+  "reading": [
+    {
+      "id": "R01",
+      "type": "book_excerpt",
+      "title": "The Nature of Code",
+      "url": "https://natureofcode.com/forces/",
+      "scope": "第2章开头牛顿定律及力累计L37–194；不是整章",
+      "read_date": "2026-11-07"
+    },
+    {
+      "id": "R02",
+      "type": "book_excerpt",
+      "title": "The Nature of Code",
+      "url": "https://natureofcode.com/autonomous-agents/",
+      "scope": "第5章开头L36–110与Flow Fields L582–649；不是全章",
+      "read_date": "2026-11-07"
+    },
+    {
+      "id": "R03",
+      "type": "book_excerpt",
+      "title": "SICP Comparison Edition",
+      "url": "https://sicp.sourceacademy.org/chapters/2.1.html",
+      "scope": "2.1正文L263–267，程序/数据抽象及selectors/constructors；不是全书",
+      "read_date": "2026-11-07"
+    },
+    {
+      "id": "R04",
+      "type": "institution_news",
+      "title": "盘风与湍流环境下星子形成",
+      "url": "https://pmo.cas.cn/xwdt2019/kyjz2019/202610/t20261019_8293771.html",
+      "scope": "机构正文L194–201，数值模拟与研究条件；未读原始期刊论文",
+      "published": "2026-10-19",
+      "read_date": "2026-11-07"
+    },
+    {
+      "id": "R05",
+      "type": "institution_news",
+      "title": "智能天文计算与发现生态社区倡议",
+      "url": "https://nao.cas.cn/news/tz/202609/t20260908_8279389.html",
+      "scope": "正文L157–193，准确标倡议/愿景，不能当已实现平台性能",
+      "published": "2026-09-08",
+      "read_date": "2026-11-07"
+    },
+    {
+      "id": "R06",
+      "type": "institution_news",
+      "title": "复旦千米级胶体光子晶体结构色薄膜",
+      "url": "https://wmzx.fudan.edu.cn/0d/4a/c20566a789834/page.htm",
+      "scope": "正文L16–95，微球有序组装/结构色/连续制造；未读Science全文",
+      "published": "2026-09-04",
+      "read_date": "2026-11-07"
+    }
+  ],
+  "failed_access": [
+    {
+      "url": "https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-14.html",
+      "error": "404",
+      "replacement": "R03"
+    }
+  ]
+}

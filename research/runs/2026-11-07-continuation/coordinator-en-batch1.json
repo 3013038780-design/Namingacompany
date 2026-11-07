@@ -1,0 +1,80 @@
+{
+  "reviewed_at": "2026-11-07T18:15:40.834406+08:00",
+  "independence": "Read A4-preview-batch1.md before producer numeric assessment.",
+  "reviews": [
+    {
+      "english_id": "CT-E01",
+      "candidate_id": "CT-C01",
+      "name": "Starward Ferry",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个熟悉英语词可直接读",
+          "counter_association": "四音节略长"
+        },
+        "spelling": {
+          "reason": "完整单词，无不规则删字母",
+          "counter_association": "需要保留空格或统一品牌写法"
+        },
+        "grounding": {
+          "reason": "starward方向加ferry渡运普通语义透明",
+          "counter_association": "不是新的科学术语"
+        },
+        "bilingual_relation": {
+          "reason": "渡口位置与渡船载体共享出发连接关系",
+          "counter_association": "先想到科幻运输品牌"
+        },
+        "distinctiveness": {
+          "reason": "全短语可区别但两部分均常见",
+          "counter_association": "Starward现有使用须整体近似查重"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "english_id": "CT-E02",
+      "candidate_id": "CT-C02",
+      "name": "Earth Replies",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "完整主谓短句可自然读",
+          "counter_association": "Earth有th成本"
+        },
+        "spelling": {
+          "reason": "两个基础英语词拼写稳定",
+          "counter_association": "Replies须保留第三人称单数词形，不是名词复数"
+        },
+        "grounding": {
+          "reason": "Earth主语与reply变化有正常语法",
+          "counter_association": "不是地球真有意识"
+        },
+        "bilingual_relation": {
+          "reason": "两语同一世界回应及返回信息关系",
+          "counter_association": "先像科普节目"
+        },
+        "distinctiveness": {
+          "reason": "拟人回应有完整声音和图像",
+          "counter_association": "常用语句需要建立品牌身份"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

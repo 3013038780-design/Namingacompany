@@ -1,0 +1,249 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T18:23:29.400291+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A2-preview-batch3.md",
+      "sha256": "dc1930b93ef0b97816d802c218c88084b8ee86db02a2bd9f68da534b4ab7a227"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-cn-batch3.json",
+      "sha256": "8863691283a292eb5cbce61474c10b3b767f58c0eb283a3706531cd5d548934f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A2-quality-batch3.json",
+      "sha256": "2037aef2522bbcf438f8e75a0ef0b856c2c0b494e77406061e1cc0fb8c7fdb49"
+    }
+  ],
+  "query_count": 21,
+  "results": [
+    {
+      "candidate_id": "CT-C09",
+      "name": "解环",
+      "decision": "return_for_alternative",
+      "reason": "已有中文下载市场把Unloop明确命名为解环，实际产品用名而非动作普通文本；官方中文Google Play仍名Unloop，故按市场已有译名主动避让，不能称官方中文商标已注册。解环大师是更长近似名，另列不混为精确。",
+      "query_logs": [
+        {
+          "query": "\"解环\"",
+          "executed_on": "2026-11-07",
+          "summary": "已有中文下载市场把Unloop明确命名为解环，实际产品用名而非动作普通文本；官方中文Google Play仍名Unloop，故按市场已有译名主动避让，不能称官方中文商标已注册。解环大师是更长近似名，另列不混为精确。"
+        },
+        {
+          "query": "\"解环\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "已有中文下载市场把Unloop明确命名为解环，实际产品用名而非动作普通文本；官方中文Google Play仍名Unloop，故按市场已有译名主动避让，不能称官方中文商标已注册。解环大师是更长近似名，另列不混为精确。"
+        },
+        {
+          "query": "\"解环\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "已有中文下载市场把Unloop明确命名为解环，实际产品用名而非动作普通文本；官方中文Google Play仍名Unloop，故按市场已有译名主动避让，不能称官方中文商标已注册。解环大师是更长近似名，另列不混为精确。"
+        },
+        {
+          "query": "\"解環\" 公司",
+          "executed_on": "2026-11-07",
+          "summary": "已有中文下载市场把Unloop明确命名为解环，实际产品用名而非动作普通文本；官方中文Google Play仍名Unloop，故按市场已有译名主动避让，不能称官方中文商标已注册。解环大师是更长近似名，另列不混为精确。"
+        },
+        {
+          "query": "\"jiehuan\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "已有中文下载市场把Unloop明确命名为解环，实际产品用名而非动作普通文本；官方中文Google Play仍名Unloop，故按市场已有译名主动避让，不能称官方中文商标已注册。解环大师是更长近似名，另列不混为精确。"
+        },
+        {
+          "query": "\"解环科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "已有中文下载市场把Unloop明确命名为解环，实际产品用名而非动作普通文本；官方中文Google Play仍名Unloop，故按市场已有译名主动避让，不能称官方中文商标已注册。解环大师是更长近似名，另列不混为精确。"
+        },
+        {
+          "query": "\"解环\" 游戏 开发者",
+          "executed_on": "2026-11-07",
+          "summary": "已有中文下载市场把Unloop明确命名为解环，实际产品用名而非动作普通文本；官方中文Google Play仍名Unloop，故按市场已有译名主动避让，不能称官方中文商标已注册。解环大师是更长近似名，另列不混为精确。"
+        },
+        {
+          "query": "\"解环\" \"游戏\" \"包名\"",
+          "executed_on": "2026-11-07",
+          "summary": "已有中文下载市场把Unloop明确命名为解环，实际产品用名而非动作普通文本；官方中文Google Play仍名Unloop，故按市场已有译名主动避让，不能称官方中文商标已注册。解环大师是更长近似名，另列不混为精确。"
+        },
+        {
+          "query": "\"解环\" \"v1.2\"",
+          "executed_on": "2026-11-07",
+          "summary": "已有中文下载市场把Unloop明确命名为解环，实际产品用名而非动作普通文本；官方中文Google Play仍名Unloop，故按市场已有译名主动避让，不能称官方中文商标已注册。解环大师是更长近似名，另列不混为精确。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.ddooo.com/softdown/248739.htm",
+          "access": "third_party_product_body_read",
+          "finding": "标题解环游戏、厂商threetrees.eu，正文及包名指向Unloop；下载站存在混杂Decipher文案，不能当官方品牌授权证明。"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.threetrees.eu.unloop&hl=zh",
+          "access": "official_store_body_read",
+          "finding": "官方中文页标题Unloop、开发者threetrees.eu，中文简介也用Unloop；未核到官方把中文正式名设成解环。"
+        },
+        {
+          "url": "https://www.taptap.cn/app/980345",
+          "access": "developer_store_profile_body_read",
+          "finding": "解环大师/小小西瓜工作室、供应商上海创巴科技有限公司；完整名更长，不能说它叫解环。"
+        },
+        {
+          "url": "https://game.xiaomi.com/gameGuide/62385830",
+          "access": "official_distribution_body_read",
+          "finding": "解环大师，开发商深圳沄晗网络科技有限公司；更长近似。"
+        },
+        {
+          "url": "https://www.jiehook.com/aboutus.html",
+          "access": "search_text_only",
+          "finding": "拼音Jiehuan已有东莞电子科技公司；与AI眼镜品牌界环另有拼音重合，不把不同中文字当解环公司。"
+        }
+      ],
+      "registration": {
+        "status": "not_checked_after_confirmed_market_title_use",
+        "note": "第三方市场译名已使用，主动避让；无官方中文登记结论。"
+      }
+    },
+    {
+      "candidate_id": "CT-C10",
+      "name": "换坐标",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名科技/AI公司、模型或软件；数学操作与手册中的换坐标为描述，杭州新坐标等不含完整核心名，不自动否决。",
+      "query_logs": [
+        {
+          "query": "\"换坐标\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件；数学操作与手册中的换坐标为描述，杭州新坐标等不含完整核心名，不自动否决。"
+        },
+        {
+          "query": "\"换坐标\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件；数学操作与手册中的换坐标为描述，杭州新坐标等不含完整核心名，不自动否决。"
+        },
+        {
+          "query": "\"换坐标\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件；数学操作与手册中的换坐标为描述，杭州新坐标等不含完整核心名，不自动否决。"
+        },
+        {
+          "query": "\"換坐標\" 公司",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件；数学操作与手册中的换坐标为描述，杭州新坐标等不含完整核心名，不自动否决。"
+        },
+        {
+          "query": "\"huanzuobiao\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件；数学操作与手册中的换坐标为描述，杭州新坐标等不含完整核心名，不自动否决。"
+        },
+        {
+          "query": "\"换坐标科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件；数学操作与手册中的换坐标为描述，杭州新坐标等不含完整核心名，不自动否决。"
+        }
+      ],
+      "evidence": [],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Huanzuobiao",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    },
+    {
+      "candidate_id": "CT-C12",
+      "name": "方格动物",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名科技/AI公司、模型或软件。检到动物图案文具/地垫和博物馆织物纹样描述，不将花色词当公司或软件。",
+      "query_logs": [
+        {
+          "query": "\"方格动物\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。检到动物图案文具/地垫和博物馆织物纹样描述，不将花色词当公司或软件。"
+        },
+        {
+          "query": "\"方格动物\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。检到动物图案文具/地垫和博物馆织物纹样描述，不将花色词当公司或软件。"
+        },
+        {
+          "query": "\"方格动物\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。检到动物图案文具/地垫和博物馆织物纹样描述，不将花色词当公司或软件。"
+        },
+        {
+          "query": "\"方格動物\" 公司",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。检到动物图案文具/地垫和博物馆织物纹样描述，不将花色词当公司或软件。"
+        },
+        {
+          "query": "\"fanggedongwu\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。检到动物图案文具/地垫和博物馆织物纹样描述，不将花色词当公司或软件。"
+        },
+        {
+          "query": "\"方格动物科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。检到动物图案文具/地垫和博物馆织物纹样描述，不将花色词当公司或软件。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.oneoverone.tw/id/products?limit=24&order_by=&page=5&sort_by=",
+          "access": "search_text_open_timeout",
+          "finding": "水縞IROIRO配页本有方格動物花色；非同名技术品牌，未声称读到可访问正文。"
+        },
+        {
+          "url": "https://www.chinasilkmuseum.com/uploadfiles/2020/05/20200522104633812.pdf",
+          "access": "search_text_only",
+          "finding": "方格动物纹斜编缎为织物纹样报告题目，非公司产品品牌。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Fanggedongwu",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    }
+  ],
+  "passed_candidate_ids": [
+    "CT-C10",
+    "CT-C12"
+  ],
+  "a4_input_candidate_ids": [
+    "CT-C10",
+    "CT-C12"
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛不等于全球无使用、官方核名通过或商标可注册。检索摘要与已读正文逐项区分。"
+}

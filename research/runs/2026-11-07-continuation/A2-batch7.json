@@ -1,0 +1,145 @@
+{
+  "agent": "/root/live_a2",
+  "completed_at": "2026-11-07T18:35:25.547547+08:00",
+  "candidates": [
+    {
+      "id": "CT-C25",
+      "name": "抬眼",
+      "pinyin": "tái yǎn",
+      "family_id": "CT-F-directed-gaze-active-attention",
+      "source_world": "S5 身体动作与感知",
+      "case_ids": [
+        "B025",
+        "B013",
+        "B037"
+      ],
+      "mechanism_ids": [
+        "CN1",
+        "CN5"
+      ],
+      "source": {
+        "title": "Tobii：Eye Movement: Types and Functions Explained",
+        "url": "https://www.tobii.com/resource-center/learn-articles/types-of-eye-movements",
+        "read_scope": "实际读Fixations与Saccades正文：注视/扫视交替、中央凹取样与眼动计划；NCBI书章入口验证码未作已打开章节",
+        "date": null
+      },
+      "fact": "眼睛通过注视和转移注视点把不同区域送入高分辨率观察范围；扫视期间视觉信息受抑制。感知包含动作选择，而不是把整个场景一瞬间同等清晰地读入。",
+      "crossing": "从Cursor的CN1真实日常动作进入身体感知，不把术语扫视直接专名化；沿Imbue的CN5看“使主体得到更多有用输入”这一关系。",
+      "meaning": "把注意力从当前一点移向周围，重新看见正在发生的世界。抬眼是现成动作；研究背景让它多一层主动获取信息的含义，不把抬眼狭义等同所有扫视，更不宣称眼睛抬得越高越智能。",
+      "layers": [
+        "日常的举目动作",
+        "感知中选择看哪里",
+        "让既有主体与环境重新发生联系"
+      ],
+      "retained": "看不是纯被动输入，也需要行动与选择",
+      "lost": "日常抬眼比特定眼动机制宽，名字不保留中央凹等专业细节",
+      "strength": "两个字能直接称呼，无生僻字，不像论文题目或多字口号。",
+      "weakness": "可能先想到眼镜、摄影或视觉应用；科技Lab可以承载感知与认知研究，但不是一眼就说明全栈AI。",
+      "history_check": "不同于旧视差的观察位置/深度差异，本案是选择注视目标的身体动作；不继续提举目/转眼等近义动作计新家族。"
+    },
+    {
+      "id": "CT-C26",
+      "name": "反例",
+      "pinyin": "fǎn lì",
+      "family_id": "CT-F-counterexample-universal-claim",
+      "source_world": "S3 数学验证方法",
+      "case_ids": [
+        "B002",
+        "B037"
+      ],
+      "mechanism_ids": [
+        "CN3",
+        "CN5"
+      ],
+      "source": {
+        "title": "Eric Lehman/Tom Leighton《Mathematics for Computer Science》2004讲义",
+        "url": "https://web.mit.edu/broder/Public/6.042-lecture-notes/lecture-notes.pdf",
+        "read_scope": "实际下载MIT托管PDF并用PyMuPDF读PDF第17页全称命题与反例说明；第74页图定义边界另读。非通读339页",
+        "date": "2004"
+      },
+      "fact": "要否定一个全称断言，只要找到满足讨论条件却违反结论的实例；已经检查许多符合例子并不自动完成全称证明。该方法不是所有统计模型都适用的一票否定。",
+      "crossing": "沿Google的CN3，保留一个有精确作用的完整知识词作为称呼；再按Imbue的CN5把研究角色理解为给已有系统找到值得改进的边界。",
+      "meaning": "一个小例子，也可能改变一整套看法。两字既有学术身份，也包含愿意让真实例外修正自信的研究态度；不是把反对别人当公司使命。",
+      "layers": [
+        "严格逻辑中的否定见证",
+        "验证边界的具体实例",
+        "从失败实例中发现原有假设的问题"
+      ],
+      "retained": "实例与全称断言之间不对称的验证关系",
+      "lost": "不把形式逻辑结论直接套在概率性表现或要求任何模型零失误",
+      "strength": "两个熟字是现成专业词，圈内有认同，圈外也理解例外挑战定论。",
+      "weakness": "反字偏负面，可能被理解为唱反调或测试咨询；源词是通用术语，独占与检索难度要查，不能以简短就假设无使用。",
+      "history_check": "与未尽之问的开放问题/知识可错哲学不同，本家族限定“一个具体见证否定全称命题”的逻辑机制；不再提反证/例外等近义词算新增。"
+    },
+    {
+      "id": "CT-C27",
+      "name": "纸上机器",
+      "pinyin": "zhǐ shàng jī qì",
+      "family_id": "CT-F-abstract-machine-symbol-manipulation",
+      "source_world": "S3 计算史与抽象机器",
+      "case_ids": [
+        "B002",
+        "B025"
+      ],
+      "mechanism_ids": [
+        "CN3",
+        "CN1"
+      ],
+      "source": {
+        "title": "A. M. Turing：On Computable Numbers, with an Application to the Entscheidungsproblem",
+        "url": "https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf",
+        "read_scope": "实际读论文第1–4页机器/带子/符号/状态的定义与例子，以及第20–24页把人类手算分解成简单操作的段落；未通读证明",
+        "date": "1936"
+      },
+      "fact": "图灵用离散符号、带子和有限状态刻画逐步计算，带子被明确比作纸。抽象规则可描述机器的运转，不要求先制造某台特定物理装置。",
+      "crossing": "沿CN3回到计算由什么构成，再用CN1把抽象结构变成可想象的完整物象；不是直接借已拥挤的人物姓氏图灵或Turing。",
+      "meaning": "机器可以先在规则与符号里成立。纸上机器让轻薄的知识载体与可执行过程相遇，讲的是观念如何获得操作性，未承诺纸张有算力。",
+      "layers": [
+        "纸上可描述的状态和规则",
+        "符号操作构成计算过程",
+        "从思想模型到能执行的系统"
+      ],
+      "retained": "机器的逻辑行为与特定硬件实现可以区分",
+      "lost": "抽象机器不证明当代AI有通用智能；也不等于纸上设计已经工程实现",
+      "strength": "四字组成完整位置名词，纸上与机器有易记张力，计算背景也直接可感。",
+      "weakness": "纸上谈兵的消极联想、教育读物/原型玩具首联想；与本轮纸旋翼共享纸字但构式和核心故事不同，仍交主控保守复核，不仅凭机制名不同自动判新家族。",
+      "history_check": "旧织数是穿孔物理编码，本案抽象符号机；纸旋翼是材料形成气动物件且已定位淘汰，纸上机器是抽象过程在知识载体上被定义，若主控认为同属纸制机器意象则合并不计。"
+    },
+    {
+      "id": "CT-C28",
+      "name": "鸽哨",
+      "pinyin": "gē shào",
+      "family_id": "CT-F-pigeon-whistle-motion-to-sound",
+      "source_world": "S4 中国现代生活风物与技艺",
+      "case_ids": [
+        "B008",
+        "B013",
+        "B076"
+      ],
+      "mechanism_ids": [
+        "CN4",
+        "CN1",
+        "CN2"
+      ],
+      "source": {
+        "title": "北京旅游网原创：一声鸽哨响起，唤醒了无数老北京人的回忆……",
+        "url": "https://www.visitbeijing.com.cn/article/47QloB45oRt",
+        "read_scope": "实际读49–86行全文主体，重点手艺人制作、哨口与受风角度带来的声响变化；不采信未经独立核验的最早军事起源",
+        "date": "2021-12-17"
+      },
+      "fact": "鸽哨是系在飞鸽身上的轻小器具，飞行带来的气流使它发声；姿态和哨口受风角度改变，声音也会变化。形状、加工和校音共同决定器具的表现。",
+      "crossing": "按Alibaba的CN4找中国完整生活故事，按Apple的CN1先保留一个可叫的真实物件；它不是任意动物加科技后缀，而是运动、空气与声音原本就同处一个器具。",
+      "meaning": "给看不见的风和远处的运动一个能被听到的形状。轻巧的器物与生活知识可以保留技术品牌的温度，故事重点是把已有过程转成另一种可感信息，不说鸽子因此更聪明。",
+      "layers": [
+        "中国城市天空的真实声音",
+        "器物把运动和气流转成可听信号",
+        "小装置改变人与环境的联系"
+      ],
+      "retained": "简单器物与既有运动结合，产生新的可感输出",
+      "lost": "不是声音自反馈，也不代表持续学习或额外能量产生",
+      "strength": "两字是完整称呼，有声音和飞行主角，不用读古文、不必认科学术语。",
+      "weakness": "民俗工艺、音乐或养鸽行业的首联想强；若主控判断不足以承载Lab身份，应按定位淘汰，不能只因中国出处漂亮放行。",
+      "history_check": "不同于旧声子晶格振动或侧音的自身输出监听，本案是风物器具把飞行气流转换成外部声响；不沿鸽铃/风哨再扩家族。"
+    }
+  ]
+}

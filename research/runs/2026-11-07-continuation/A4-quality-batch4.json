@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T18:18:42+08:00",
+  "reviews": [
+    {
+      "candidate_id": "CT-E06",
+      "chinese_id": "CT-C02",
+      "english": "Returnlight",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "return与light保持完整，三音节可直接读。",
+          "counter_association": "两个词合写仍可能被读者停顿分开。"
+        },
+        "spelling": {
+          "reason": "两完整常用词，无人为字母替换。",
+          "counter_association": "需要查Return Light空格变体。"
+        },
+        "formation": {
+          "reason": "返回与光来自同一真实观测关系。",
+          "counter_association": "不声称合成词为地照光公认英语术语。"
+        },
+        "bilingual_relation": {
+          "reason": "中文拟人回信与英文承载信息的返回光共享同一故事。",
+          "counter_association": "英文不显写Earth。"
+        },
+        "distinctiveness": {
+          "reason": "有完整可见对象及双向认识的研究意味。",
+          "counter_association": "可能先像光学照明品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；待主控独评与同一A3。该中文还余1次返工。"
+    }
+  ]
+}

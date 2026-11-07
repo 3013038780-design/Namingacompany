@@ -1,0 +1,44 @@
+{
+  "agent_id": "/root/live_a4",
+  "role": "A4",
+  "recorded_at": "2026-11-07T18:55:41+08:00",
+  "input_authorization": "主控明确CT-C29/CT-C30双中文质量及原A3公开初筛过",
+  "candidates": [
+    {
+      "id": "CT-E33",
+      "chinese_id": "CT-C29",
+      "chinese": "非玩家",
+      "english": "Worldside",
+      "suggested_pronunciation": "WORLD-syd /ˈwɜːrldsaɪd/",
+      "type": "两个完整普通英语词的品牌合成词，非现成学术词",
+      "formation": "world与side完整相接：世界这一侧。把名字放在世界中的行动角色一侧，而非站在外部逐步操控的玩家一侧；没有缩改Nonplayer/NPC拼写。",
+      "bilingual_relation": "中文指出非玩家的角色身份，英文指出角色在世界中所处的一侧；共同承载带经历的交互行动，不声称角色觉醒、具有真实意识或完全自主。",
+      "meaning": "已有模型加上经历记录、检索、反思和计划，可以承担更连贯的交互角色；公司研究的是模型与世界持续相遇的条件，不是把虚拟角色认定为真人。",
+      "shortcoming": "可能像游戏、世界构建或旅行品牌；world相关AI名字较拥挤，A3必须独查整体和同业近似，不继承普通词的可用性。",
+      "source_urls": [
+        "https://arxiv.org/pdf/2304.03442"
+      ],
+      "read_scope": "A4实际curl下载论文，用PyMuPDF读PDF第1页摘要与第3页评估/相关工作，见记忆反思计划及检索错误；未通读22页，行为模拟不视为意识证明。",
+      "status": "quality_proposal_not_screened"
+    },
+    {
+      "id": "CT-E34",
+      "chinese_id": "CT-C30",
+      "chinese": "懒函数",
+      "english": "Call by Need",
+      "suggested_pronunciation": "KAWL by NEED /kɔːl baɪ niːd/",
+      "type": "真实计算科学术语，按正常词组作机构名；尚未品牌查重",
+      "formation": "call-by-need本来是惰性求值结合记忆化的一种调用策略名称：需要时才求值，求得的值可复用。保留完整正常英文，不把Lazy Function或NPC等词形改几个字母。",
+      "bilingual_relation": "中文懒函数借非严格/惰性求值机制形成有性格称呼，英文取其中记忆化惰性策略这个更具体的例子；不是宣称所有惰性求值都叫call-by-need。",
+      "meaning": "需要时再工作，已经求出的结果不必重复求；名字可以讲有选择地调用已有计算能力。并非所有情境总更省时省内存，也不等于模型已持续学习。",
+      "shortcoming": "圈内会先理解为语言求值策略，圈外像一个调用服务的短语；技术范围比中文研究想象窄。它是通用术语，独立软件和公司使用仍须A3查，术语真实不代表可用。",
+      "source_urls": [
+        "https://sicp.sourceacademy.org/chapters/4.2.1.html",
+        "https://sicp.sourceacademy.org/chapters/4.2.2.html"
+      ],
+      "read_scope": "A4实际读4.2.1 L263–280，另为英文匹配新增读4.2.2 L312–314、365–381，特别脚注3明确lazy+memoization称call-by-need；这部分是A4新增阅读，不冒称A2已读后续实现或通读全书。",
+      "status": "quality_proposal_not_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

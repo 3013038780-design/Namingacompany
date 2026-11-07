@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T18:25:51.925133+08:00",
+  "independence": "Read producer preview batch6 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C02",
+      "name": "Postmarked Earth",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通词构成可读书信画面",
+          "counter_association": "postmarked结尾辅音密"
+        },
+        "spelling": {
+          "reason": "词形完整无任意拼写",
+          "counter_association": "两个词较长"
+        },
+        "grounding": {
+          "reason": "邮戳来处为清楚品牌比喻",
+          "counter_association": "光没有真实邮戳"
+        },
+        "bilingual_relation": {
+          "reason": "回信与来源信息共享光路",
+          "counter_association": "不是论文里的物理术语"
+        },
+        "distinctiveness": {
+          "reason": "完整科幻书信意象可记",
+          "counter_association": "像出版或邮政文化品牌"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E09"
+    }
+  ]
+}

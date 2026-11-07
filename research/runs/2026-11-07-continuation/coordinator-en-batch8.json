@@ -1,0 +1,80 @@
+{
+  "reviewed_at": "2026-11-07T18:25:51.925408+08:00",
+  "independence": "Read producer preview batch8 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C10",
+      "name": "Otherframe",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "other与frame正常音节可读",
+          "counter_association": "other有th门槛"
+        },
+        "spelling": {
+          "reason": "两个词完整合写",
+          "counter_association": "需查Other Frame分词"
+        },
+        "grounding": {
+          "reason": "另一框架承接真实多表示关系",
+          "counter_association": "不是SICP原术语"
+        },
+        "bilingual_relation": {
+          "reason": "两语均同一对象换表示",
+          "counter_association": "不能保证计算复杂度下降"
+        },
+        "distinctiveness": {
+          "reason": "组合可长期承载研究身份",
+          "counter_association": "先像设计或框架软件"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E12"
+    },
+    {
+      "candidate_id": "CT-C12",
+      "name": "Gridfolk",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "两音节短且顺读",
+          "counter_association": "folk的l不发音"
+        },
+        "spelling": {
+          "reason": "完整词易拼写",
+          "counter_association": "需查分合写"
+        },
+        "grounding": {
+          "reason": "格网与拟人居民关系透明",
+          "counter_association": "不是正式人工生命术语"
+        },
+        "bilingual_relation": {
+          "reason": "两语均离散格子中的行为主角",
+          "counter_association": "不称规则图案有意识"
+        },
+        "distinctiveness": {
+          "reason": "可见小世界有整体专名感",
+          "counter_association": "像独立游戏或儿童编程"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E13"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "reviewed_at": "2026-11-07T18:31:19.124790+08:00",
+  "independence": "Read producer preview batch4 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C13",
+      "name": "长按",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "完全日常的两字动作",
+          "counter_association": "像操作说明"
+        },
+        "distinctiveness": {
+          "reason": "持续手势有可感画面",
+          "counter_association": "长安近音品牌需查"
+        },
+        "lab_fit": {
+          "reason": "交互扩展入口可支持研究身份",
+          "counter_association": "偏交互产品"
+        },
+        "grounding": {
+          "reason": "官方文档阈值与状态真实",
+          "counter_association": "不是更大按压力"
+        },
+        "extension": {
+          "reason": "可延展人机与能力调用",
+          "counter_association": "不等于持续学习"
+        },
+        "semantic_coherence": {
+          "reason": "同一表面因交互进入更多操作",
+          "counter_association": "非所有界面同样结果"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "CT-C14",
+      "name": "侧音",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两常用字可称呼",
+          "counter_association": "可能听成测音"
+        },
+        "distinctiveness": {
+          "reason": "边发声边听自己的通路可记",
+          "counter_association": "音频行业较窄"
+        },
+        "lab_fit": {
+          "reason": "人机自监测角色可支持研究",
+          "counter_association": "可能先像耳机品牌"
+        },
+        "grounding": {
+          "reason": "工程侧音反馈有官方说明",
+          "counter_association": "不同自然声波回响"
+        },
+        "extension": {
+          "reason": "辅助既有主体调整可延展",
+          "counter_association": "不是记忆或模型更新"
+        },
+        "semantic_coherence": {
+          "reason": "监听自身输出贯穿各层",
+          "counter_association": "与旧回响大主题接近需家族界定"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "CT-C15",
+      "name": "纸旋翼",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "total": 23,
+      "notes": {
+        "naturalness": {
+          "reason": "完整三字物件名能叫",
+          "counter_association": "像课程项目"
+        },
+        "distinctiveness": {
+          "reason": "纸与旋翼有图像",
+          "counter_association": "已有纸飞机意象邻近"
+        },
+        "lab_fit": {
+          "reason": "STEM教具身份压过研究主体",
+          "counter_association": "用户排斥过家具环保等错行业"
+        },
+        "grounding": {
+          "reason": "NASA原型与变量实验真实",
+          "counter_association": "不是自主飞行设备"
+        },
+        "extension": {
+          "reason": "难脱教学玩具领域",
+          "counter_association": "不能靠原理书挽救定位"
+        },
+        "semantic_coherence": {
+          "reason": "结构实验与运动同一关系",
+          "counter_association": "不证明先进智能"
+        }
+      },
+      "decision": "quality_reject"
+    },
+    {
+      "candidate_id": "CT-C16",
+      "name": "递火",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "动宾结构自然短促",
+          "counter_association": "会联想到递烟火"
+        },
+        "distinctiveness": {
+          "reason": "传递动作与能量画面清楚",
+          "counter_association": "与传火游戏文化接近"
+        },
+        "lab_fit": {
+          "reason": "让他者获得能力的机构角色",
+          "counter_association": "需研究语境避免文化活动"
+        },
+        "grounding": {
+          "reason": "火传古文意象与创作边界清楚",
+          "counter_association": "非原文二字摘句或物理定理"
+        },
+        "extension": {
+          "reason": "不限定某产品或当前模型",
+          "counter_association": "不承诺无限增长"
+        },
+        "semantic_coherence": {
+          "reason": "载体传递与能力使能同核",
+          "counter_association": "不是古文证明任意模型增强"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

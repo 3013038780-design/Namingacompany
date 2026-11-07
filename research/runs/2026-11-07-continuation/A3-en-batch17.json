@@ -1,0 +1,156 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T19:00:17.429415+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-preview-batch17.md",
+      "sha256": "45ea3c935f77d1093ead68d40a10dcab026960a06b1a0402f264976e72e82645"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-en-batch17.json",
+      "sha256": "97147a23a0f0b1d03695ec5893585a4c4e1bb2a33c30f99c5f880872c2656a05"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-quality-batch17.json",
+      "sha256": "6455b2ad2cb4915003cc3377e3892168e473a028e530c01ebbf2e088c5eace4f"
+    }
+  ],
+  "query_count": 10,
+  "results": [
+    {
+      "candidate_id": "CT-E31",
+      "chinese_candidate_id": "CT-C19",
+      "chinese": "噪声种子",
+      "name": "Drawn from Chance",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名公司、模型或软件。辞书drawn from chance meetings为一般句法，其他模型软件命中为chance普通词。",
+      "query_logs": [
+        {
+          "query": "\"Drawn from Chance\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件。辞书drawn from chance meetings为一般句法，其他模型软件命中为chance普通词。"
+        },
+        {
+          "query": "\"Drawn from Chance\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件。辞书drawn from chance meetings为一般句法，其他模型软件命中为chance普通词。"
+        },
+        {
+          "query": "\"Drawn from Chance\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件。辞书drawn from chance meetings为一般句法，其他模型软件命中为chance普通词。"
+        },
+        {
+          "query": "\"Drawn from Chance\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件。辞书drawn from chance meetings为一般句法，其他模型软件命中为chance普通词。"
+        },
+        {
+          "query": "\"DrawnfromChance\" OR \"Drawn-from-Chance\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件。辞书drawn from chance meetings为一般句法，其他模型软件命中为chance普通词。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://word.ws/apantomancy",
+          "access": "dictionary_body_read",
+          "finding": "apantomancy词条引文包含该普通短语，非品牌；页面改编自Wiktionary，不冒充原版古籍。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Drawn%20from%20Chance",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    },
+    {
+      "candidate_id": "CT-E32",
+      "chinese_candidate_id": "CT-C23",
+      "chinese": "指南鱼",
+      "name": "Southward Fish",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名公司、模型或软件。Southward Ltd养鱼公司、Southward旅行品牌及论文作者姓Southward均非完整Southward Fish。",
+      "query_logs": [
+        {
+          "query": "\"Southward Fish\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件。Southward Ltd养鱼公司、Southward旅行品牌及论文作者姓Southward均非完整Southward Fish。"
+        },
+        {
+          "query": "\"Southward Fish\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件。Southward Ltd养鱼公司、Southward旅行品牌及论文作者姓Southward均非完整Southward Fish。"
+        },
+        {
+          "query": "\"Southward Fish\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件。Southward Ltd养鱼公司、Southward旅行品牌及论文作者姓Southward均非完整Southward Fish。"
+        },
+        {
+          "query": "\"Southward Fish\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件。Southward Ltd养鱼公司、Southward旅行品牌及论文作者姓Southward均非完整Southward Fish。"
+        },
+        {
+          "query": "\"SouthwardFish\" OR \"Southward-Fish\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名公司、模型或软件。Southward Ltd养鱼公司、Southward旅行品牌及论文作者姓Southward均非完整Southward Fish。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://6amcity.com/web/about-us/press/meet-southward-a-new-way-to-discover-the-south",
+          "access": "primary_company_body_read",
+          "finding": "6AM City宣布Southward旅游品牌，鱼是作者旅行故事，不是完整Southward Fish品牌。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Southward%20Fish",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    }
+  ],
+  "passed_english_candidate_ids": [
+    "CT-E31",
+    "CT-E32"
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛不等于全球未使用、核名通过或第9/42类可注册。重复复核查询计入实际查询数。"
+}

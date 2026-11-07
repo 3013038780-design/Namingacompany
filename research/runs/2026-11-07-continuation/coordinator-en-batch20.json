@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T19:00:18.084436+08:00",
+  "independence": "Read producer preview batch20 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C28",
+      "name": "Airsung",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "air和sung顺口两音节",
+          "counter_association": "音频品牌联想"
+        },
+        "spelling": {
+          "reason": "两个完整语素字形清楚",
+          "counter_association": "可能与air-song近似"
+        },
+        "grounding": {
+          "reason": "空气转声有器具作用支持",
+          "counter_association": "air sung是品牌拟人非标准器物名"
+        },
+        "bilingual_relation": {
+          "reason": "中文器物与英文作用共同成画面",
+          "counter_association": "英文不直接指鸽"
+        },
+        "distinctiveness": {
+          "reason": "短新词能称呼",
+          "counter_association": "音乐通风身份风险"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E37"
+    }
+  ]
+}

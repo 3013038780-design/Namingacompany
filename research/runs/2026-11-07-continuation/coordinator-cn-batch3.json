@@ -1,0 +1,170 @@
+{
+  "reviewed_at": "2026-11-07T18:21:49.623261+08:00",
+  "independence": "Read A2-preview-batch3.md before producer numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C09",
+      "name": "解环",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "完整两字解谜动作，音节清楚",
+          "counter_association": "也像解锁工具"
+        },
+        "distinctiveness": {
+          "reason": "相互约束的环与解开的动作可记",
+          "counter_association": "解环大师游戏近似需查"
+        },
+        "lab_fit": {
+          "reason": "复杂问题的状态规划研究身份可信",
+          "counter_association": "解谜或加密首联想"
+        },
+        "grounding": {
+          "reason": "中国九连环到编码电路为实际教学关系",
+          "counter_association": "不称古人发明格雷码"
+        },
+        "extension": {
+          "reason": "可承载推理规划与复杂系统研究",
+          "counter_association": "不是所有问题皆可求解"
+        },
+        "semantic_coherence": {
+          "reason": "从约束依赖到步骤推进始终一致",
+          "counter_association": "不证明模型自动改进"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "CT-C10",
+      "name": "换坐标",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "完整三字动宾句可以称呼",
+          "counter_association": "像建议而非正式全称"
+        },
+        "distinctiveness": {
+          "reason": "换表示再运算的动作明确",
+          "counter_association": "坐标类词拥挤"
+        },
+        "lab_fit": {
+          "reason": "表示学习和认识方式研究身份可成立",
+          "counter_association": "可能导航测绘品牌"
+        },
+        "grounding": {
+          "reason": "同一复数两表示的运算便利关系真实",
+          "counter_association": "并非变换总让题目变简单"
+        },
+        "extension": {
+          "reason": "不同表示支持多个研究场域",
+          "counter_association": "不能当模型万能升级"
+        },
+        "semantic_coherence": {
+          "reason": "对象不变而操作改变同一内核",
+          "counter_association": "不等同旧视差的观察位移"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "CT-C11",
+      "name": "色序",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "total": 23,
+      "notes": {
+        "naturalness": {
+          "reason": "两个熟字可叫",
+          "counter_association": "与显示技术通用词重合"
+        },
+        "distinctiveness": {
+          "reason": "色彩与秩序有画面",
+          "counter_association": "第一词色有歧义"
+        },
+        "lab_fit": {
+          "reason": "显示设计首要身份较强，研究主体不足",
+          "counter_association": "更像色彩管理机构"
+        },
+        "grounding": {
+          "reason": "粒子排列影响光学性质有机构研究锚点",
+          "counter_association": "非AI涌现证据"
+        },
+        "extension": {
+          "reason": "延展易被限定到显示材料",
+          "counter_association": "须额外故事才脱离显示"
+        },
+        "semantic_coherence": {
+          "reason": "可见色与不可见排列同一关系",
+          "counter_association": "有序非总优于无序"
+        }
+      },
+      "decision": "quality_reject"
+    },
+    {
+      "candidate_id": "CT-C12",
+      "name": "方格动物",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "两个口语名词组成可想象对象",
+          "counter_association": "像工作室而非传统公司"
+        },
+        "distinctiveness": {
+          "reason": "格子里有动物行为的反差鲜明",
+          "counter_association": "有儿童编程或玩具联想"
+        },
+        "lab_fit": {
+          "reason": "人工生命与计算行为可承载研究身份",
+          "counter_association": "需用研究语境避免儿童产品定位"
+        },
+        "grounding": {
+          "reason": "固定元胞规则形成表观运动有书籍依据",
+          "counter_association": "格子本身未平移且规则不学习"
+        },
+        "extension": {
+          "reason": "可从规则行为拓展计算研究",
+          "counter_association": "并非生物或意识研究性能承诺"
+        },
+        "semantic_coherence": {
+          "reason": "方格状态与移动图样同一科学图景",
+          "counter_association": "不把全部群体现象归为同一成长故事"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

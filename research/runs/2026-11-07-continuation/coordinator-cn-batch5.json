@@ -1,0 +1,170 @@
+{
+  "reviewed_at": "2026-11-07T18:31:19.125303+08:00",
+  "independence": "Read producer preview batch5 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C17",
+      "name": "添一指",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "三字动作本身自然",
+          "counter_association": "像康复手指训练"
+        },
+        "distinctiveness": {
+          "reason": "与历史添一笔构式和加一资源故事重叠",
+          "counter_association": "不应凭不同论文把添一X计新家族"
+        },
+        "lab_fit": {
+          "reason": "增强已有主体有可信研究角色",
+          "counter_association": "偏具身硬件"
+        },
+        "grounding": {
+          "reason": "第三拇指适应及权衡有真实来源",
+          "counter_association": "不是无代价即插即用"
+        },
+        "extension": {
+          "reason": "可延展能力与控制关系",
+          "counter_association": "不能外推任意模型增强"
+        },
+        "semantic_coherence": {
+          "reason": "额外资源与适应同核",
+          "counter_association": "科学新素材不抵消名称家族重复"
+        }
+      },
+      "decision": "quality_reject"
+    },
+    {
+      "candidate_id": "CT-C18",
+      "name": "光的弯道",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "完整名词短语可叫",
+          "counter_association": "像书名摄影"
+        },
+        "distinctiveness": {
+          "reason": "光与弯道的反直觉可记",
+          "counter_association": "自然光意象需控重复"
+        },
+        "lab_fit": {
+          "reason": "基础探索与可见性研究身份",
+          "counter_association": "第一眼仍像光学机构"
+        },
+        "grounding": {
+          "reason": "时空曲率与观测路径有NASA源",
+          "counter_association": "非超光速或弯道更快"
+        },
+        "extension": {
+          "reason": "容纳多方向认识方法",
+          "counter_association": "不是智能放大物理证明"
+        },
+        "semantic_coherence": {
+          "reason": "环境形状改变可见性同核",
+          "counter_association": "不等同视差或简单折射"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "CT-C19",
+      "name": "噪声种子",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "完整四字对象易读",
+          "counter_association": "负面噪声联想"
+        },
+        "distinctiveness": {
+          "reason": "噪声与起点反差有记点",
+          "counter_association": "像模型参数"
+        },
+        "lab_fit": {
+          "reason": "生成计算提供技术身份",
+          "counter_association": "生成工具首联想"
+        },
+        "grounding": {
+          "reason": "高斯初态与反向链真实",
+          "counter_association": "seed不等于噪声"
+        },
+        "extension": {
+          "reason": "可延展生成与表示研究",
+          "counter_association": "不代表持续学习"
+        },
+        "semantic_coherence": {
+          "reason": "随机起点到结构生成同核",
+          "counter_association": "不说噪声藏全知识"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "CT-C20",
+      "name": "雨影",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "两字自然现象易叫",
+          "counter_association": "像诗意文旅品牌"
+        },
+        "distinctiveness": {
+          "reason": "雨与山后干燥反差可记",
+          "counter_association": "阴影字义容易误解"
+        },
+        "lab_fit": {
+          "reason": "摄影文旅生态身份较重",
+          "counter_association": "用户需科技定位"
+        },
+        "grounding": {
+          "reason": "地形降水分布真实",
+          "counter_association": "不是光学投影"
+        },
+        "extension": {
+          "reason": "难独立支撑广义AI机构",
+          "counter_association": "不能用科学真填品牌空白"
+        },
+        "semantic_coherence": {
+          "reason": "由环境作用看分布同核",
+          "counter_association": "不证明智能涌现"
+        }
+      },
+      "decision": "quality_reject"
+    }
+  ]
+}

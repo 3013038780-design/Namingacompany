@@ -1,0 +1,80 @@
+{
+  "reviewed_at": "2026-11-07T18:56:26.852364+08:00",
+  "independence": "Read producer preview batch18 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C29",
+      "name": "Worldside",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "完整world和side可顺读",
+          "counter_association": "world尾辅音稍密"
+        },
+        "spelling": {
+          "reason": "完整普通词融合无拼音变形",
+          "counter_association": "普通词组合可能已用"
+        },
+        "grounding": {
+          "reason": "世界中行动角色有事实锚点",
+          "counter_association": "不是论文术语"
+        },
+        "bilingual_relation": {
+          "reason": "非玩家与世界这一侧共享视角",
+          "counter_association": "非玩家并不等于没有人参与"
+        },
+        "distinctiveness": {
+          "reason": "有世界构建画面",
+          "counter_association": "游戏品牌联想"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E33"
+    },
+    {
+      "candidate_id": "CT-C30",
+      "name": "Call by Need",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "短常用词自然",
+          "counter_association": "可能像服务用语"
+        },
+        "spelling": {
+          "reason": "标准术语拼写",
+          "counter_association": "连字符形式需搜"
+        },
+        "grounding": {
+          "reason": "有真实求值策略原文",
+          "counter_association": "不等于全部惰性求值"
+        },
+        "bilingual_relation": {
+          "reason": "是懒函数的一种具体实现",
+          "counter_association": "英文比中文窄"
+        },
+        "distinctiveness": {
+          "reason": "圈内有概念认同",
+          "counter_association": "通用术语独特性有限"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E34"
+    }
+  ]
+}

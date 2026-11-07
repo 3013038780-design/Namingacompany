@@ -1,0 +1,43 @@
+{
+  "agent_id": "/root/live_a4",
+  "role": "A4",
+  "recorded_at": "2026-11-07T18:24:52+08:00",
+  "input_authorization": "主控明确CT-C10/CT-C12中文双质量及原A3公开使用初筛过",
+  "candidates": [
+    {
+      "id": "CT-E12",
+      "chinese_id": "CT-C10",
+      "chinese": "换坐标",
+      "english": "Otherframe",
+      "suggested_pronunciation": "UTH-er-fraym /ˈʌðərfreɪm/",
+      "type": "两个完整英语词的合成品牌词，不改拼音",
+      "formation": "other与frame直接相接：另一种框架/参照。两部分保留完整正常拼写，不声称Otherframe是SICP原词或新的数学术语。",
+      "bilingual_relation": "中文是换一套坐标，英文是另一个表示框架；都保留同一对象可以有不同表示的关系，而非换对象或给既有坐标品牌添字绕重。",
+      "meaning": "面对同一个问题，找到更合适的表达和运算方式；让已有能力在适配的表示中发挥。不能据此宣称任何换表示都降低复杂度。",
+      "shortcoming": "可能先像设计、图像或框架软件品牌；frame意义宽，须由中文和释义收束到表示。首次听写可能分成Other Frame，A3须查整体与分词。",
+      "source_urls": [
+        "https://sicp.sourceacademy.org/chapters/2.4.1.html"
+      ],
+      "read_scope": "A4实际打开SICP Comparison Edition并读L263–269，明确复数直角/极坐标和运算适配；未通读SICP。",
+      "status": "quality_proposal_not_screened"
+    },
+    {
+      "id": "CT-E13",
+      "chinese_id": "CT-C12",
+      "chinese": "方格动物",
+      "english": "Gridfolk",
+      "suggested_pronunciation": "GRID-fohk /ˈɡrɪdfoʊk/",
+      "type": "两个完整英语词构成的品牌合成词，非科学既有术语",
+      "formation": "grid是方格网，folk是群体/居民的拟人称呼；Gridfolk即方格中的那些居民。没有删改汉语拼音，也不把folk说成特定编程概念。",
+      "bilingual_relation": "中文以动物表现看似活动的图案，英文以格子居民提供可称呼的主角；共享离散规则产生整体行为的人工生命世界，不称程序真的有动物生命或意识。",
+      "meaning": "简单状态与局部规则可以在屏幕中形成丰富的整体图样；机构可以从可观察行为研究智能组织，而不必将元胞自动机术语写进名称。",
+      "shortcoming": "可能先像独立游戏或儿童编程品牌；folk有人群意味，属于品牌拟人，不能把规则图案称真实社会或学习系统。",
+      "source_urls": [
+        "https://natureofcode.com/cellular-automata/"
+      ],
+      "read_scope": "A4实际打开第7章并读The Game of Life与Rules L661–711，特别L708固定格子切换形成表观运动；未通读全章。",
+      "status": "quality_proposal_not_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

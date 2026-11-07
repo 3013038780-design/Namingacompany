@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T18:16:35.555726+08:00",
+  "independence": "Read A4-preview-batch2.md before producer numeric assessment.",
+  "reviews": [
+    {
+      "english_id": "CT-E03",
+      "candidate_id": "CT-C03",
+      "name": "Shadow Gauge",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "shadow与gauge均正常英语可连续读",
+          "counter_association": "可能先像测量设备"
+        },
+        "spelling": {
+          "reason": "完整保留两个普通词",
+          "counter_association": "gauge不完全按发音拼写"
+        },
+        "grounding": {
+          "reason": "影子与测量器具的既有义清楚真实",
+          "counter_association": "不是圭表正式术语名"
+        },
+        "bilingual_relation": {
+          "reason": "共享圭表的投影测量关系，非伪装标准英译",
+          "counter_association": "不意味着AI计量已实现"
+        },
+        "distinctiveness": {
+          "reason": "整体具一件可观测变化器具的身份",
+          "counter_association": "工业测量而非研究机构联想"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

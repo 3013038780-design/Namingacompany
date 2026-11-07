@@ -1,0 +1,84 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T18:20:46+08:00",
+  "reviews": [
+    {
+      "candidate_id": "CT-E07",
+      "chinese_id": "CT-C05",
+      "english": "State Dial",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通单词相接，三音节顺读。",
+          "counter_association": "dial有读成一长音节或两音节的自然变体。"
+        },
+        "spelling": {
+          "reason": "两个完整常见词，无变造。",
+          "counter_association": "需查StateDial连写及State-Dial变体。"
+        },
+        "formation": {
+          "reason": "系统状态与调节对象共享配置这一真实关系。",
+          "counter_association": "不当拨码开关标准译名。"
+        },
+        "bilingual_relation": {
+          "reason": "可见操作与机器配置状态在两边一致。",
+          "counter_association": "英文不显写code。"
+        },
+        "distinctiveness": {
+          "reason": "有可操作技术对象和能力配置的研究意味。",
+          "counter_association": "可能先像设置界面工具。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3使用筛查。"
+    },
+    {
+      "candidate_id": "CT-E08",
+      "chinese_id": "CT-C03",
+      "english": "Measured Light",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两普通词，三音节自然可读。",
+          "counter_association": "measured的zh音对部分人需学习。"
+        },
+        "spelling": {
+          "reason": "原样保留正常英语单词。",
+          "counter_association": "可能需要说明过去分词d结尾。"
+        },
+        "formation": {
+          "reason": "测量与光是同一观测场景内的完整表达。",
+          "counter_association": "圭表测投影而非光强，不能把词义读成测量原理。"
+        },
+        "bilingual_relation": {
+          "reason": "影子的位置长度与光的观测来自同一器具世界。",
+          "counter_association": "英文更宽，不逐字保留刻度。"
+        },
+        "distinctiveness": {
+          "reason": "可承载以观察理解变化的长期研究机构。",
+          "counter_association": "可能先像摄影/光学品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3使用筛查。"
+    }
+  ]
+}

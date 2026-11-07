@@ -1,0 +1,117 @@
+{
+  "reviewed_at": "2026-11-07T18:32:33.472492+08:00",
+  "independence": "Read producer preview batch10 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C03",
+      "name": "Noontally",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个熟悉音节简短好叫",
+          "counter_association": "需固定首音重读"
+        },
+        "spelling": {
+          "reason": "noon与tally完整保留",
+          "counter_association": "可能被分写"
+        },
+        "grounding": {
+          "reason": "正午观测与记录同一实践关系",
+          "counter_association": "不是圭表标准译名"
+        },
+        "bilingual_relation": {
+          "reason": "光影画面与正午记录互补",
+          "counter_association": "不把影长测量简化为只有计数"
+        },
+        "distinctiveness": {
+          "reason": "整体有可记物件和时间轮廓",
+          "counter_association": "像时间或记账工具"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E15"
+    },
+    {
+      "candidate_id": "CT-C08",
+      "name": "Reasonstride",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个普通词可分读",
+          "counter_association": "辅音n接str有成本"
+        },
+        "spelling": {
+          "reason": "完整词形无随意改字母",
+          "counter_association": "词较长"
+        },
+        "grounding": {
+          "reason": "推理展开与迈步为清楚比喻",
+          "counter_association": "不是已发表算法术语"
+        },
+        "bilingual_relation": {
+          "reason": "中文多想一步与英文同核",
+          "counter_association": "多步骤不必然更准"
+        },
+        "distinctiveness": {
+          "reason": "整体可像研究机构或框架",
+          "counter_association": "可能像单一推理工具"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E16"
+    },
+    {
+      "candidate_id": "CT-C12",
+      "name": "Rulefauna",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个音节整体可称呼",
+          "counter_association": "fauna对少数人陌生"
+        },
+        "spelling": {
+          "reason": "rule与fauna正常词形",
+          "counter_association": "需查分合写"
+        },
+        "grounding": {
+          "reason": "固定规则与拟动物群有真实关系",
+          "counter_association": "不把拟人当生物事实"
+        },
+        "bilingual_relation": {
+          "reason": "中文图像与英文形成方式互补",
+          "counter_association": "标准规则并不学习"
+        },
+        "distinctiveness": {
+          "reason": "整体有一个人工生命世界身份",
+          "counter_association": "像生物或独立游戏品牌"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E17"
+    }
+  ]
+}

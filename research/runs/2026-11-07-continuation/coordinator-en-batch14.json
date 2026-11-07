@@ -1,0 +1,80 @@
+{
+  "reviewed_at": "2026-11-07T18:53:08.180866+08:00",
+  "independence": "Read producer preview batch14 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C14",
+      "name": "Selfhear",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个熟悉语素可读",
+          "counter_association": "self接h需连读"
+        },
+        "spelling": {
+          "reason": "self与hear完整保留",
+          "counter_association": "需查Self Hear分写"
+        },
+        "grounding": {
+          "reason": "反身听觉与自身输出关系真实",
+          "counter_association": "不是hear oneself标准替代句式"
+        },
+        "bilingual_relation": {
+          "reason": "工程通路与主体作用两侧互补",
+          "counter_association": "非自我意识或持续学习证明"
+        },
+        "distinctiveness": {
+          "reason": "整体短有技术工具身份",
+          "counter_association": "也像个人发展品牌"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E25"
+    },
+    {
+      "candidate_id": "CT-C25",
+      "name": "Gaze Anew",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "正常三音节表达顺口",
+          "counter_association": "anew稍有文气"
+        },
+        "spelling": {
+          "reason": "两个完整英语词可拼",
+          "counter_association": "需查合写"
+        },
+        "grounding": {
+          "reason": "重新注视为清楚自然作用",
+          "counter_association": "不等同所有扫视"
+        },
+        "bilingual_relation": {
+          "reason": "抬眼与选择信息同姿态",
+          "counter_association": "不保证看更多即聪明"
+        },
+        "distinctiveness": {
+          "reason": "轻巧动作可作机构称呼",
+          "counter_association": "像摄影或眼镜品牌"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E26"
+    }
+  ]
+}

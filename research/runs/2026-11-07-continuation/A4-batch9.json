@@ -1,0 +1,36 @@
+{
+  "agent_id": "/root/live_a4",
+  "role": "A4",
+  "recorded_at": "2026-11-07T18:28:41+08:00",
+  "input_authorization": "主控CT-C10第1次英文返工，中文资格不变",
+  "candidates": [
+    {
+      "id": "CT-E14",
+      "chinese_id": "CT-C10",
+      "chinese": "换坐标",
+      "english": "Another Way In",
+      "suggested_pronunciation": "uh-NUTH-er WAY in /əˈnʌðər weɪ ɪn/",
+      "type": "三个普通英语词组成的完整名词短语",
+      "formation": "another way in是另一条进入的路径/另一个切入方式。直接用普通英语描述同一个问题还可以有别的入口，不改Otherframe字母，也不另造一组伪外语词根。",
+      "bilingual_relation": "中文说换一套坐标表示，英文说换一个进入问题的方式；二者保留对象不必先改变、表示或切入方式可以改变的核心。入口是品牌比喻，不把数学坐标说成物理通道。",
+      "meaning": "遇到难题时，寻找更适合行动和理解的切入方式；同一对象的不同表示可让某些操作更自然，这是科学第二层，不保证一换方式所有难题都解决。",
+      "shortcoming": "可能像创意顾问、设计机构或探索类内容品牌，英文不直接显露数学；约五音节、三个词比短专名长，需固定完整词组作为机构称呼。",
+      "source_urls": [
+        "https://sicp.sourceacademy.org/chapters/2.4.1.html"
+      ],
+      "read_scope": "A4此前实际读SICP Comparison Edition L263–269，同一复数的两种表示及加减/乘除适配；本案复用该范围，不增加未读书籍声明。",
+      "rework_of": "CT-E12",
+      "rework_number_for_chinese": 1,
+      "rework_reason": "Otherframe已有同名眼镜公司自述，并有加拿大第9类眼镜在审申请，主控主动避让；不把眼镜在审说成AI商标核准。",
+      "status": "quality_proposal_not_screened"
+    }
+  ],
+  "usage_screening_performed": false,
+  "wording_corrections": [
+    {
+      "recorded_at": "2026-11-07T18:32:54+08:00",
+      "candidate_id": "CT-E14",
+      "correction": "another通常约3音节，加way/in各1，共约5；此前四音节记载修正，建议读法和评分未改。"
+    }
+  ]
+}

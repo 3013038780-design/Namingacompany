@@ -1,0 +1,84 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T18:55:41+08:00",
+  "reviews": [
+    {
+      "candidate_id": "CT-E33",
+      "chinese_id": "CT-C29",
+      "english": "Worldside",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个正常词合成，两音节清楚。",
+          "counter_association": "world结尾辅音接side略密。"
+        },
+        "spelling": {
+          "reason": "两个完整词，不变造字母。",
+          "counter_association": "需查World Side分词。"
+        },
+        "formation": {
+          "reason": "角色与世界两侧构成可理解机构位置。",
+          "counter_association": "新合成词非原论文术语。"
+        },
+        "bilingual_relation": {
+          "reason": "角色身份与在世界中行动的一侧共同承接交互。",
+          "counter_association": "不逐字译nonplayer。"
+        },
+        "distinctiveness": {
+          "reason": "可容纳世界交互与行动主体的长期研究。",
+          "counter_association": "可能像游戏或世界构建品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3；不因名词或术语真实推断注册/使用可用。"
+    },
+    {
+      "candidate_id": "CT-E34",
+      "chinese_id": "CT-C30",
+      "english": "Call by Need",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个常见单音节词，直接可读。",
+          "counter_association": "call有正常英美元音差异。"
+        },
+        "spelling": {
+          "reason": "完整正常词组，圈内标准拼写。",
+          "counter_association": "需查连写和连字符术语形式。"
+        },
+        "formation": {
+          "reason": "真实术语且脚注给出严格适用范围。",
+          "counter_association": "仅是带记忆化的惰性策略，不能全称泛化。"
+        },
+        "bilingual_relation": {
+          "reason": "同一机制的宽称呼与具体策略分工明确。",
+          "counter_association": "英文范围更窄。"
+        },
+        "distinctiveness": {
+          "reason": "机构称呼可成立，术语识别强而独立性中等。",
+          "counter_association": "可能先像编程文章或库名。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3；不因名词或术语真实推断注册/使用可用。"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "agent": "/root/live_a2",
+  "assessments": [
+    {
+      "id": "CT-C13",
+      "name": "长按",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "日常两字动词，书写发音都不需解释。",
+        "distinctiveness": "动作自身有鲜明记忆，但通用操作词的检索噪声降低独特性。",
+        "lab_fit": "能作为交互与智能工具研究主体；不像页脚只像文档边角，但仍非强Lab信号。",
+        "grounding": "Apple官方正文JSON实际解析，特别保留时间与压力的区别。",
+        "extension": "既能承载工具也能承载研究，不把品牌锁在长按功能。",
+        "semantic_coherence": "持续交互打开更多上下文是同一动作故事，未编造生物成长关系。"
+      },
+      "counter_association": "极常见的操作说明，网页搜索噪声大且难占搜索心智；偏交互产品而非基础模型，技术身份要靠公司表达建立。"
+    },
+    {
+      "id": "CT-C14",
+      "name": "侧音",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "侧音两字好叫好写，但听写测音可能混淆。",
+        "distinctiveness": "设备里的具体细节较少成为泛AI称呼，仍有术语通用性。",
+        "lab_fit": "自监测关系适合AI研究叙事，音频垂直误读明显而未给满分。",
+        "grounding": "中国设备厂商官方正文说明用途与设置，未用维基作主要技术依据。",
+        "extension": "反馈通路可跨语音和智能体，只要不宣称实际实现了这种机制。",
+        "semantic_coherence": "寓意保持给主体额外反馈这一个关系，不把侧解释成侧翼力量。"
+      },
+      "counter_association": "可能被听成测音或当作音频公司；与已研究回响/Echo同属声音联想，若将家族界定为泛声音反馈则应合并，不以汉字不同强算新增。此处按“人为监听自身输出”与“环境回声”区分，交主控确认。"
+    },
+    {
+      "id": "CT-C15",
+      "name": "纸旋翼",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "pass": false,
+      "axis_reasons": {
+        "naturalness": "纸旋翼是完整三字物件，不需重排语序才能理解。",
+        "distinctiveness": "轻纸与机械旋翼搭配有视觉记忆，但工程玩具并不罕见。",
+        "lab_fit": "儿童工程教育和航空首联想过强，不能靠实验精神补足基础Lab身份。",
+        "grounding": "NASA官方活动实际读取制作与对照步骤，能区分下降与起飞。",
+        "extension": "原型实验可跨行业，但纸物件对公司尺度仍有限制。",
+        "semantic_coherence": "材料、结构和试验在同一物件上成立，没有拼接不相关寓意。"
+      },
+      "counter_association": "儿童STEM、玩具或航空工作室首联想强；基础AI Lab身份偏弱，自评因此不送强推荐，保留真实淘汰依据供主控看。"
+    },
+    {
+      "id": "CT-C16",
+      "name": "递火",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "两个常用字形成明确动作，发音利落而无生僻字。",
+        "distinctiveness": "比薪火口号更像一个短称呼，但传火近义品牌和游戏语言需严查。",
+        "lab_fit": "能量与增强他者的使命适合技术实验室，仍需防文化传播行业误读。",
+        "grounding": "古文原篇实际打开，明确品牌二字并非原文，哲学与科学分开。",
+        "extension": "不把公司锁在继续学习一种能力，可承载多个研究方向。",
+        "semantic_coherence": "把能力递给另一个载体的同一关系贯通动作与业务，不解释成免费能源。"
+      },
+      "counter_association": "游戏“传火”文化、火炬活动或文化传播行业联想；火也有灾害含义。科技身份更多来自公司研究和表达，不能只靠典籍加分。"
+    }
+  ]
+}

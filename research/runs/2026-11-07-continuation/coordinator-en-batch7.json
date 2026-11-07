@@ -1,0 +1,80 @@
+{
+  "reviewed_at": "2026-11-07T18:25:51.925281+08:00",
+  "independence": "Read producer preview batch7 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C07",
+      "name": "Ideas Afoot",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "正常英语词组可以直接称呼",
+          "counter_association": "共五音节较长"
+        },
+        "spelling": {
+          "reason": "两个完整词读写稳定",
+          "counter_association": "afoot需少量词汇认知"
+        },
+        "grounding": {
+          "reason": "afoot双义有明确词典来源",
+          "counter_association": "不是作者算法名"
+        },
+        "bilingual_relation": {
+          "reason": "念头进入行动与引擎驱动同角色",
+          "counter_association": "不表示模型有意识"
+        },
+        "distinctiveness": {
+          "reason": "行动双关有轻快记点",
+          "counter_association": "像创意机构或活动"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E10"
+    },
+    {
+      "candidate_id": "CT-C08",
+      "name": "One Thought Further",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "熟悉词汇组成可读表达",
+          "counter_association": "thought及further有th成本"
+        },
+        "spelling": {
+          "reason": "三个完整词无造假拼写",
+          "counter_association": "三词较长"
+        },
+        "grounding": {
+          "reason": "距离框架比喻明确为本轮创作",
+          "counter_association": "不是既有固定成语"
+        },
+        "bilingual_relation": {
+          "reason": "多一步与多一个念头同姿态",
+          "counter_association": "不表示多想必正确"
+        },
+        "distinctiveness": {
+          "reason": "完整短语有研究态度",
+          "counter_association": "像标题或slogan"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E11"
+    }
+  ]
+}

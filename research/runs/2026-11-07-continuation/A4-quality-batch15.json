@@ -1,0 +1,84 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T18:50:51+08:00",
+  "reviews": [
+    {
+      "candidate_id": "CT-E27",
+      "chinese_id": "CT-C26",
+      "english": "Single Witness",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个普通词四音节，直接可读。",
+          "counter_association": "witness末尾s需正常保留。"
+        },
+        "spelling": {
+          "reason": "正常词形，无自造字母。",
+          "counter_association": "须查SingleWitness合写。"
+        },
+        "formation": {
+          "reason": "单个具体见证与全称断言边界有真实逻辑关系。",
+          "counter_association": "不是MIT原术语翻译。"
+        },
+        "bilingual_relation": {
+          "reason": "两边共享反例作为否定见证的作用。",
+          "counter_association": "英文法律义比学术义更直观。"
+        },
+        "distinctiveness": {
+          "reason": "有鲜明验证与认识边界的研究姿态。",
+          "counter_association": "可能像法律/调查品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑意见，待主控独评与原A3英文使用筛查。"
+    },
+    {
+      "candidate_id": "CT-E28",
+      "chinese_id": "CT-C28",
+      "english": "Pigeon Whistle",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通词四音节，自然可读。",
+          "counter_association": "whistle的t不读。"
+        },
+        "spelling": {
+          "reason": "两个正常英语词可直接记。",
+          "counter_association": "pigeon/whistle各有常见听写拼错，需看一次。"
+        },
+        "formation": {
+          "reason": "功能器具与承载它的鸽子本来同处一对象。",
+          "counter_association": "不称品牌短语为新科学术语。"
+        },
+        "bilingual_relation": {
+          "reason": "共享完整中国器物与生活来处。",
+          "counter_association": "不是靠英文暗示AI机制。"
+        },
+        "distinctiveness": {
+          "reason": "有声音、主角和明确文化对象可记。",
+          "counter_association": "可能像民俗/音乐品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑意见，待主控独评与原A3英文使用筛查。"
+    }
+  ]
+}

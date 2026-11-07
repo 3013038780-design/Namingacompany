@@ -1,0 +1,927 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "generated_at": "2026-11-07T19:02:43.728352+08:00",
+  "coverage": "中文批1–8、英文批1–20已全部完成；只含主控质量授权候选。英语版本不计独立中文家族。",
+  "counts": {
+    "chinese_forms_screened": 24,
+    "english_forms_screened": 37,
+    "chinese_query_count": 156,
+    "english_query_count": 206,
+    "control_query_count": 2,
+    "candidate_query_count": 362,
+    "total_search_query_count_including_controls": 364,
+    "cn_batches": 8,
+    "en_batches": 20
+  },
+  "batches": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-cn-batch1.json",
+      "sha256": "2c1a8ae90176ec91a6d2f929f8a59e90aeaa2dafff272bd1e388761050b8187a",
+      "language": "cn",
+      "query_count": 25,
+      "candidate_count": 4,
+      "ids": [
+        "CT-C01",
+        "CT-C02",
+        "CT-C03",
+        "CT-C04"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-cn-batch2.json",
+      "sha256": "473069543d6104fdb14b1c3c841eb038ba3e80d5262832113d009b8c8e8f4cb0",
+      "language": "cn",
+      "query_count": 22,
+      "candidate_count": 3,
+      "ids": [
+        "CT-C05",
+        "CT-C07",
+        "CT-C08"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-cn-batch3.json",
+      "sha256": "beee5b187734cc692a8af9ca76367dfed5057bf47e6ce299ea8b92037c75fad0",
+      "language": "cn",
+      "query_count": 21,
+      "candidate_count": 3,
+      "ids": [
+        "CT-C09",
+        "CT-C10",
+        "CT-C12"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-cn-batch4.json",
+      "sha256": "a469cebbc8b65e0abaed7c1a35b86f7b3282460494ebc71eac0b2d86a08702f0",
+      "language": "cn",
+      "query_count": 18,
+      "candidate_count": 3,
+      "ids": [
+        "CT-C13",
+        "CT-C14",
+        "CT-C16"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-cn-batch5.json",
+      "sha256": "78ccc05c6d90fa5fcd2f632c6047586f76e85ae6d0ba36cc4d6e3c7e75796cd6",
+      "language": "cn",
+      "query_count": 13,
+      "candidate_count": 2,
+      "ids": [
+        "CT-C18",
+        "CT-C19"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-cn-batch6.json",
+      "sha256": "d4a9cbe2f3cca92cd77d49e9f68dab275bdc28d59898408d8f1716161d7ebfef",
+      "language": "cn",
+      "query_count": 12,
+      "candidate_count": 2,
+      "ids": [
+        "CT-C21",
+        "CT-C23"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-cn-batch7.json",
+      "sha256": "762e1f28eace49fce6bda14054b8c437c2298720079cb5e80215f59b9682c8f7",
+      "language": "cn",
+      "query_count": 21,
+      "candidate_count": 3,
+      "ids": [
+        "CT-C25",
+        "CT-C26",
+        "CT-C28"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-cn-batch8.json",
+      "sha256": "9cbfcec9ba7057de047c955d02a36362121805182ab8793f26388bc84d12ff7c",
+      "language": "cn",
+      "query_count": 24,
+      "candidate_count": 4,
+      "ids": [
+        "CT-C29",
+        "CT-C30",
+        "CT-C31",
+        "CT-C32"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch1.json",
+      "sha256": "1f59aff9d7f31f63e71e770d6703e0b989c370d290afe8b5b90a3ebbc4790cbe",
+      "language": "en",
+      "query_count": 10,
+      "candidate_count": 2,
+      "ids": [
+        "CT-E01",
+        "CT-E02"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch2.json",
+      "sha256": "ef7401a9c085d6ce394bc314098dee13144c1c07ed5399f670a1d3e4a1feb697",
+      "language": "en",
+      "query_count": 8,
+      "candidate_count": 1,
+      "ids": [
+        "CT-E03"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch3.json",
+      "sha256": "b95fe58a4c22dd7a4e815bf0ce2ef77012f64f19ee9b3b425049c2712d1781a2",
+      "language": "en",
+      "query_count": 12,
+      "candidate_count": 2,
+      "ids": [
+        "CT-E04",
+        "CT-E05"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch4.json",
+      "sha256": "79b95116a64ca6612c2b4f6d08eedbd49b4a45861fdc04b4e0677904d5c03c0e",
+      "language": "en",
+      "query_count": 5,
+      "candidate_count": 1,
+      "ids": [
+        "CT-E06"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch5.json",
+      "sha256": "0dd4b2a206a393ac67832c2a660846c4f4da8018093103a5e6780b55a535b771",
+      "language": "en",
+      "query_count": 12,
+      "candidate_count": 2,
+      "ids": [
+        "CT-E07",
+        "CT-E08"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch6.json",
+      "sha256": "a52544cb6c119410a49b05842e6f64cf0d6885428cd6d6b2189f41f95b66e9f4",
+      "language": "en",
+      "query_count": 6,
+      "candidate_count": 1,
+      "ids": [
+        "CT-E09"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch7.json",
+      "sha256": "059fa5ab9e188184268cad0c068b4978d341d515dfd7222104acbde7dd7857a9",
+      "language": "en",
+      "query_count": 11,
+      "candidate_count": 2,
+      "ids": [
+        "CT-E10",
+        "CT-E11"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch8.json",
+      "sha256": "96a7566c6525e973a973321fdc25230d85e0210e9f4f387f8fac167a16b2794d",
+      "language": "en",
+      "query_count": 13,
+      "candidate_count": 2,
+      "ids": [
+        "CT-E12",
+        "CT-E13"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch9.json",
+      "sha256": "eda33db7dc794c1368463c92a0d03283bd4a321698ddb21f00bb42c3f4303085",
+      "language": "en",
+      "query_count": 5,
+      "candidate_count": 1,
+      "ids": [
+        "CT-E14"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch10.json",
+      "sha256": "a273a13a7219e579c875a3de1074390266a606dc431c318415ac16cc7eee71bf",
+      "language": "en",
+      "query_count": 15,
+      "candidate_count": 3,
+      "ids": [
+        "CT-E15",
+        "CT-E16",
+        "CT-E17"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch11.json",
+      "sha256": "f7118f152e527c7fc9c0854d919fcccbf6261d89ad8ddbec16e4d9f3d2caef4f",
+      "language": "en",
+      "query_count": 10,
+      "candidate_count": 2,
+      "ids": [
+        "CT-E18",
+        "CT-E19"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch12.json",
+      "sha256": "b242ee17419ba1afd1018edb21e10604c2a2bb329244ac2f46abe256eec1e894",
+      "language": "en",
+      "query_count": 10,
+      "candidate_count": 2,
+      "ids": [
+        "CT-E20",
+        "CT-E21"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch13.json",
+      "sha256": "54955f1b2d15c56076da074946b216e921611a1ba34ec347ecdf50f4b31fd43c",
+      "language": "en",
+      "query_count": 15,
+      "candidate_count": 3,
+      "ids": [
+        "CT-E22",
+        "CT-E23",
+        "CT-E24"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch14.json",
+      "sha256": "6973b8709af73f49817248829ffff1935163b9e13c41f4d42c772f2f5c8da0cf",
+      "language": "en",
+      "query_count": 10,
+      "candidate_count": 2,
+      "ids": [
+        "CT-E25",
+        "CT-E26"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch15.json",
+      "sha256": "6ebe0d98a7cd686bbd270252fa45ec4ca61068c2f909be96d06ab7a96de8a855",
+      "language": "en",
+      "query_count": 12,
+      "candidate_count": 2,
+      "ids": [
+        "CT-E27",
+        "CT-E28"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch16.json",
+      "sha256": "dde4f24ab85bdf3ccc68f2e55f3e034d82659b65ec3bec5980ef4b62518c7de3",
+      "language": "en",
+      "query_count": 10,
+      "candidate_count": 2,
+      "ids": [
+        "CT-E29",
+        "CT-E30"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch17.json",
+      "sha256": "a8c394ab4a66ff68520692b38db2f6f90485f8a84790b46dd9eb8e5825756e3a",
+      "language": "en",
+      "query_count": 10,
+      "candidate_count": 2,
+      "ids": [
+        "CT-E31",
+        "CT-E32"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch18.json",
+      "sha256": "0edc99def8a54b8518ddc3faeb1bdce9bb8c92288d5e9838d6fe29bd81095970",
+      "language": "en",
+      "query_count": 10,
+      "candidate_count": 2,
+      "ids": [
+        "CT-E33",
+        "CT-E34"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch19.json",
+      "sha256": "bbcb7d471b950f666937935e035c2d7d9e017e916b07f5e24f21d39a1664210a",
+      "language": "en",
+      "query_count": 10,
+      "candidate_count": 2,
+      "ids": [
+        "CT-E35",
+        "CT-E36"
+      ]
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-en-batch20.json",
+      "sha256": "92fa5042207791dc1b7931c7e11b2c46df7852843442af06cd1957cbca7499a3",
+      "language": "en",
+      "query_count": 12,
+      "candidate_count": 1,
+      "ids": [
+        "CT-E37"
+      ]
+    }
+  ],
+  "chinese_results": [
+    {
+      "candidate_id": "CT-C01",
+      "name": "星际渡口",
+      "decision": "public_use_screen_pass",
+      "query_count": 6,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch1.json",
+      "evidence_count": 1
+    },
+    {
+      "candidate_id": "CT-C02",
+      "name": "地球回信",
+      "decision": "public_use_screen_pass",
+      "query_count": 7,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch1.json",
+      "evidence_count": 1
+    },
+    {
+      "candidate_id": "CT-C03",
+      "name": "影子刻度",
+      "decision": "public_use_screen_pass",
+      "query_count": 6,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch1.json",
+      "evidence_count": 1
+    },
+    {
+      "candidate_id": "CT-C04",
+      "name": "未尽之问",
+      "decision": "reject",
+      "query_count": 6,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch1.json",
+      "evidence_count": 1
+    },
+    {
+      "candidate_id": "CT-C05",
+      "name": "拨码",
+      "decision": "public_use_screen_pass",
+      "query_count": 8,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch2.json",
+      "evidence_count": 3
+    },
+    {
+      "candidate_id": "CT-C07",
+      "name": "念头引擎",
+      "decision": "public_use_screen_pass",
+      "query_count": 6,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch2.json",
+      "evidence_count": 1
+    },
+    {
+      "candidate_id": "CT-C08",
+      "name": "多想一步",
+      "decision": "public_use_screen_pass",
+      "query_count": 8,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch2.json",
+      "evidence_count": 3
+    },
+    {
+      "candidate_id": "CT-C09",
+      "name": "解环",
+      "decision": "return_for_alternative",
+      "query_count": 9,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch3.json",
+      "evidence_count": 5
+    },
+    {
+      "candidate_id": "CT-C10",
+      "name": "换坐标",
+      "decision": "public_use_screen_pass",
+      "query_count": 6,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch3.json",
+      "evidence_count": 0
+    },
+    {
+      "candidate_id": "CT-C12",
+      "name": "方格动物",
+      "decision": "public_use_screen_pass",
+      "query_count": 6,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch3.json",
+      "evidence_count": 2
+    },
+    {
+      "candidate_id": "CT-C13",
+      "name": "长按",
+      "decision": "public_use_screen_pass",
+      "query_count": 6,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch4.json",
+      "evidence_count": 0
+    },
+    {
+      "candidate_id": "CT-C14",
+      "name": "侧音",
+      "decision": "public_use_screen_pass",
+      "query_count": 6,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch4.json",
+      "evidence_count": 2
+    },
+    {
+      "candidate_id": "CT-C16",
+      "name": "递火",
+      "decision": "public_use_screen_pass",
+      "query_count": 6,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch4.json",
+      "evidence_count": 3
+    },
+    {
+      "candidate_id": "CT-C18",
+      "name": "光的弯道",
+      "decision": "public_use_screen_pass",
+      "query_count": 7,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch5.json",
+      "evidence_count": 0
+    },
+    {
+      "candidate_id": "CT-C19",
+      "name": "噪声种子",
+      "decision": "public_use_screen_pass",
+      "query_count": 6,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch5.json",
+      "evidence_count": 1
+    },
+    {
+      "candidate_id": "CT-C21",
+      "name": "海底雪",
+      "decision": "public_use_screen_pass",
+      "query_count": 6,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch6.json",
+      "evidence_count": 1
+    },
+    {
+      "candidate_id": "CT-C23",
+      "name": "指南鱼",
+      "decision": "public_use_screen_pass",
+      "query_count": 6,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch6.json",
+      "evidence_count": 2
+    },
+    {
+      "candidate_id": "CT-C25",
+      "name": "抬眼",
+      "decision": "public_use_screen_pass",
+      "query_count": 7,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch7.json",
+      "evidence_count": 0
+    },
+    {
+      "candidate_id": "CT-C26",
+      "name": "反例",
+      "decision": "public_use_screen_pass",
+      "query_count": 8,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch7.json",
+      "evidence_count": 1
+    },
+    {
+      "candidate_id": "CT-C28",
+      "name": "鸽哨",
+      "decision": "public_use_screen_pass",
+      "query_count": 6,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch7.json",
+      "evidence_count": 2
+    },
+    {
+      "candidate_id": "CT-C29",
+      "name": "非玩家",
+      "decision": "public_use_screen_pass",
+      "query_count": 6,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch8.json",
+      "evidence_count": 2
+    },
+    {
+      "candidate_id": "CT-C30",
+      "name": "懒函数",
+      "decision": "public_use_screen_pass",
+      "query_count": 6,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch8.json",
+      "evidence_count": 0
+    },
+    {
+      "candidate_id": "CT-C31",
+      "name": "有界好奇",
+      "decision": "public_use_screen_pass",
+      "query_count": 6,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch8.json",
+      "evidence_count": 0
+    },
+    {
+      "candidate_id": "CT-C32",
+      "name": "虚拟排练",
+      "decision": "public_use_screen_pass",
+      "query_count": 6,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-cn-batch8.json",
+      "evidence_count": 2
+    }
+  ],
+  "english_results": [
+    {
+      "candidate_id": "CT-E01",
+      "name": "Starward Ferry",
+      "decision": "public_use_screen_pass",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch1.json",
+      "evidence_count": 1,
+      "chinese_candidate_id": "CT-C01",
+      "chinese": "星际渡口"
+    },
+    {
+      "candidate_id": "CT-E02",
+      "name": "Earth Replies",
+      "decision": "return_for_alternative",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch1.json",
+      "evidence_count": 3,
+      "chinese_candidate_id": "CT-C02",
+      "chinese": "地球回信"
+    },
+    {
+      "candidate_id": "CT-E03",
+      "name": "Shadow Gauge",
+      "decision": "public_use_screen_pass",
+      "query_count": 8,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch2.json",
+      "evidence_count": 3,
+      "chinese_candidate_id": "CT-C03",
+      "chinese": "影子刻度"
+    },
+    {
+      "candidate_id": "CT-E04",
+      "name": "Thoughtgear",
+      "decision": "reject",
+      "query_count": 7,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch3.json",
+      "evidence_count": 3,
+      "chinese_candidate_id": "CT-C07",
+      "chinese": "念头引擎"
+    },
+    {
+      "candidate_id": "CT-E05",
+      "name": "One More Thought",
+      "decision": "return_for_alternative",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch3.json",
+      "evidence_count": 4,
+      "chinese_candidate_id": "CT-C08",
+      "chinese": "多想一步"
+    },
+    {
+      "candidate_id": "CT-E06",
+      "name": "Returnlight",
+      "decision": "reject",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch4.json",
+      "evidence_count": 2,
+      "chinese_candidate_id": "CT-C02",
+      "chinese": "地球回信"
+    },
+    {
+      "candidate_id": "CT-E07",
+      "name": "State Dial",
+      "decision": "public_use_screen_pass",
+      "query_count": 6,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch5.json",
+      "evidence_count": 2,
+      "chinese_candidate_id": "CT-C05",
+      "chinese": "拨码"
+    },
+    {
+      "candidate_id": "CT-E08",
+      "name": "Measured Light",
+      "decision": "return_for_alternative",
+      "query_count": 6,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch5.json",
+      "evidence_count": 3,
+      "chinese_candidate_id": "CT-C03",
+      "chinese": "影子刻度"
+    },
+    {
+      "candidate_id": "CT-E09",
+      "name": "Postmarked Earth",
+      "decision": "public_use_screen_pass",
+      "query_count": 6,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch6.json",
+      "evidence_count": 2,
+      "chinese_candidate_id": "CT-C02",
+      "chinese": "地球回信"
+    },
+    {
+      "candidate_id": "CT-E10",
+      "name": "Ideas Afoot",
+      "decision": "public_use_screen_pass",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch7.json",
+      "evidence_count": 2,
+      "chinese_candidate_id": "CT-C07",
+      "chinese": "念头引擎"
+    },
+    {
+      "candidate_id": "CT-E11",
+      "name": "One Thought Further",
+      "decision": "public_use_screen_pass",
+      "query_count": 6,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch7.json",
+      "evidence_count": 2,
+      "chinese_candidate_id": "CT-C08",
+      "chinese": "多想一步"
+    },
+    {
+      "candidate_id": "CT-E12",
+      "name": "Otherframe",
+      "decision": "return_for_alternative",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch8.json",
+      "evidence_count": 2,
+      "chinese_candidate_id": "CT-C10",
+      "chinese": "换坐标"
+    },
+    {
+      "candidate_id": "CT-E13",
+      "name": "Gridfolk",
+      "decision": "return_for_alternative",
+      "query_count": 8,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch8.json",
+      "evidence_count": 3,
+      "chinese_candidate_id": "CT-C12",
+      "chinese": "方格动物"
+    },
+    {
+      "candidate_id": "CT-E14",
+      "name": "Another Way In",
+      "decision": "public_use_screen_pass",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch9.json",
+      "evidence_count": 2,
+      "chinese_candidate_id": "CT-C10",
+      "chinese": "换坐标"
+    },
+    {
+      "candidate_id": "CT-E15",
+      "name": "Noontally",
+      "decision": "public_use_screen_pass",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch10.json",
+      "evidence_count": 2,
+      "chinese_candidate_id": "CT-C03",
+      "chinese": "影子刻度"
+    },
+    {
+      "candidate_id": "CT-E16",
+      "name": "Reasonstride",
+      "decision": "public_use_screen_pass",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch10.json",
+      "evidence_count": 0,
+      "chinese_candidate_id": "CT-C08",
+      "chinese": "多想一步"
+    },
+    {
+      "candidate_id": "CT-E17",
+      "name": "Rulefauna",
+      "decision": "public_use_screen_pass",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch10.json",
+      "evidence_count": 1,
+      "chinese_candidate_id": "CT-C12",
+      "chinese": "方格动物"
+    },
+    {
+      "candidate_id": "CT-E18",
+      "name": "Hold to Open",
+      "decision": "public_use_screen_pass",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch11.json",
+      "evidence_count": 2,
+      "chinese_candidate_id": "CT-C13",
+      "chinese": "长按"
+    },
+    {
+      "candidate_id": "CT-E19",
+      "name": "Ownsignal",
+      "decision": "reject",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch11.json",
+      "evidence_count": 1,
+      "chinese_candidate_id": "CT-C14",
+      "chinese": "侧音"
+    },
+    {
+      "candidate_id": "CT-E20",
+      "name": "Emberhand",
+      "decision": "return_for_alternative",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch12.json",
+      "evidence_count": 2,
+      "chinese_candidate_id": "CT-C16",
+      "chinese": "递火"
+    },
+    {
+      "candidate_id": "CT-E21",
+      "name": "Rayturn",
+      "decision": "return_for_alternative",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch12.json",
+      "evidence_count": 3,
+      "chinese_candidate_id": "CT-C18",
+      "chinese": "光的弯道"
+    },
+    {
+      "candidate_id": "CT-E22",
+      "name": "Noisebloom",
+      "decision": "return_for_alternative",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch13.json",
+      "evidence_count": 2,
+      "chinese_candidate_id": "CT-C19",
+      "chinese": "噪声种子"
+    },
+    {
+      "candidate_id": "CT-E23",
+      "name": "Snow Below",
+      "decision": "public_use_screen_pass",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch13.json",
+      "evidence_count": 2,
+      "chinese_candidate_id": "CT-C21",
+      "chinese": "海底雪"
+    },
+    {
+      "candidate_id": "CT-E24",
+      "name": "Compassfish",
+      "decision": "return_for_alternative",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch13.json",
+      "evidence_count": 2,
+      "chinese_candidate_id": "CT-C23",
+      "chinese": "指南鱼"
+    },
+    {
+      "candidate_id": "CT-E25",
+      "name": "Selfhear",
+      "decision": "public_use_screen_pass",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch14.json",
+      "evidence_count": 1,
+      "chinese_candidate_id": "CT-C14",
+      "chinese": "侧音"
+    },
+    {
+      "candidate_id": "CT-E26",
+      "name": "Gaze Anew",
+      "decision": "public_use_screen_pass",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch14.json",
+      "evidence_count": 1,
+      "chinese_candidate_id": "CT-C25",
+      "chinese": "抬眼"
+    },
+    {
+      "candidate_id": "CT-E27",
+      "name": "Single Witness",
+      "decision": "public_use_screen_pass",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch15.json",
+      "evidence_count": 3,
+      "chinese_candidate_id": "CT-C26",
+      "chinese": "反例"
+    },
+    {
+      "candidate_id": "CT-E28",
+      "name": "Pigeon Whistle",
+      "decision": "return_for_alternative",
+      "query_count": 7,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch15.json",
+      "evidence_count": 2,
+      "chinese_candidate_id": "CT-C28",
+      "chinese": "鸽哨"
+    },
+    {
+      "candidate_id": "CT-E29",
+      "name": "Pass the Ember",
+      "decision": "public_use_screen_pass",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch16.json",
+      "evidence_count": 1,
+      "chinese_candidate_id": "CT-C16",
+      "chinese": "递火"
+    },
+    {
+      "candidate_id": "CT-E30",
+      "name": "Sky Detour",
+      "decision": "public_use_screen_pass",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch16.json",
+      "evidence_count": 1,
+      "chinese_candidate_id": "CT-C18",
+      "chinese": "光的弯道"
+    },
+    {
+      "candidate_id": "CT-E31",
+      "name": "Drawn from Chance",
+      "decision": "public_use_screen_pass",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch17.json",
+      "evidence_count": 1,
+      "chinese_candidate_id": "CT-C19",
+      "chinese": "噪声种子"
+    },
+    {
+      "candidate_id": "CT-E32",
+      "name": "Southward Fish",
+      "decision": "public_use_screen_pass",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch17.json",
+      "evidence_count": 1,
+      "chinese_candidate_id": "CT-C23",
+      "chinese": "指南鱼"
+    },
+    {
+      "candidate_id": "CT-E33",
+      "name": "Worldside",
+      "decision": "reject",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch18.json",
+      "evidence_count": 3,
+      "chinese_candidate_id": "CT-C29",
+      "chinese": "非玩家"
+    },
+    {
+      "candidate_id": "CT-E34",
+      "name": "Call by Need",
+      "decision": "public_use_screen_pass",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch18.json",
+      "evidence_count": 2,
+      "chinese_candidate_id": "CT-C30",
+      "chinese": "懒函数"
+    },
+    {
+      "candidate_id": "CT-E35",
+      "name": "Measured Wonder",
+      "decision": "public_use_screen_pass",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch19.json",
+      "evidence_count": 3,
+      "chinese_candidate_id": "CT-C31",
+      "chinese": "有界好奇"
+    },
+    {
+      "candidate_id": "CT-E36",
+      "name": "Latent Stage",
+      "decision": "reject",
+      "query_count": 5,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch19.json",
+      "evidence_count": 2,
+      "chinese_candidate_id": "CT-C32",
+      "chinese": "虚拟排练"
+    },
+    {
+      "candidate_id": "CT-E37",
+      "name": "Airsung",
+      "decision": "public_use_screen_pass",
+      "query_count": 12,
+      "query_log_path": "research/runs/2026-11-07-continuation/A3-en-batch20.json",
+      "evidence_count": 3,
+      "chinese_candidate_id": "CT-C28",
+      "chinese": "鸽哨"
+    }
+  ],
+  "control_record": {
+    "path": "research/runs/2026-11-07-continuation/A3-controls.json",
+    "sha256": "6353b73828a8523babbfee4ea8b9504a91078058d60d983eae112d2aa46d0e22",
+    "note": "本续跑新执行Anthropic公司/GitHub Copilot产品两阳性对照，独立记录不充作候选查询。"
+  },
+  "additional_evidence_files": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-thoughtgear-registry.json",
+      "sha256": "927be631cda43da207efa90b7350ae31e681da21d3864336213e5bc133aac1bd",
+      "note": "官方npm精简元数据，不含包下载或执行。"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-airsung-label.png",
+      "sha256": "04efae750bb412068828564d1205e7b6b3eb23fdf33bd99b68a09e7df0b24dae",
+      "note": "原PDF第16页视觉核实Aisung而非搜索OCR的Airsung；无个人资料。"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A3-airsung-chart.png",
+      "sha256": "937952abf2385c07536900fb398e6cc762240799b27982d31ca614b7cdf2cd48",
+      "note": "原PDF第16页视觉核实Aisung而非搜索OCR的Airsung；无个人资料。"
+    }
+  ],
+  "decision_semantics": {
+    "public_use_screen_pass": "在实际查询范围内未确证冲突公司/模型/独立软件；已有术语、功能字段、作者账号与文化作品线索可披露后通过。不是全球未注册。",
+    "return_for_alternative": "具体使用或用户偏好主动避让，细分依据逐名原记录；不能一律写成科技精确同名。",
+    "reject": "已有明确产品/品牌等使用，登记状态与实际使用区分。"
+  },
+  "registration_limits": "大陆公司及CNIPA第9/42类入口本续跑403，未得逐名官方结果；英国搜索URL不可访问，但Rayturn具体公司more页可读、Otherframe加拿大眼镜申请PDF可读，逐案例外在原证据中。不能笼统说所有官方材料不可读。 Worldside历史公司05327587官方正文可读且2011注销，亦为具体例外。",
+  "query_count_semantics": "记录所有实际搜索查询，包括明确复核重查与一次光的弯道拼音误空格后补查；网页打开/find/click、curl取正文和登记入口打开不计搜索查询。索引不改动已封存批次。"
+}

@@ -1,0 +1,97 @@
+{
+  "agent": "/root/live_a2",
+  "assessments": [
+    {
+      "id": "CT-C29",
+      "name": "非玩家",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "三个熟字可成角色称呼，但省略角色会带来两种日常理解。",
+        "distinctiveness": "非与玩家的身份反差清楚，NPC术语已有文化记忆。",
+        "lab_fit": "人工代理与模拟社会有直接AI研究背景，游戏公司误读需扣分。",
+        "grounding": "论文正文实际读到架构、NPC背景及作者对自主性的警告。",
+        "extension": "可从游戏角色拓展交互与代理研究，仍有游戏语境边界。",
+        "semantic_coherence": "控制身份、经历与行为围绕同一个角色故事，没有抽象加愿望。"
+      },
+      "counter_association": "可能首先被理解为“不玩游戏的人”或游戏工作室；网络NPC又有机械、没有主见的贬义，不能忽略。"
+    },
+    {
+      "id": "CT-C30",
+      "name": "懒函数",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "懒函数是顺口的三字名词，有人格感而无生僻字。",
+        "distinctiveness": "日常懒与数学函数的张力有明确记忆，仍需查工具名近似。",
+        "lab_fit": "函数直接给计算身份，偏工具而非研究机构使其不满分。",
+        "grounding": "书章定义和不会求值参数的实例实际读到，不把懒当快的同义词。",
+        "extension": "需求驱动可延伸计算研究，函数对象也形成一定范围约束。",
+        "semantic_coherence": "懒的日常义与减少无需求计算共享节制动作，没有编造自成长。"
+      },
+      "counter_association": "懒字可能被理解为不努力或低可靠；函数也会偏开发者工具，无法包办全部AI Lab世界观。"
+    },
+    {
+      "id": "CT-C31",
+      "name": "有界好奇",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "定语加名词语法完整，但有界是专业语感，不能给口语满分。",
+        "distinctiveness": "无限好奇的反向限定产生记点，也可能被听成保守。",
+        "lab_fit": "探索与目标函数边界是AI研究问题，科普品牌误读仍明显。",
+        "grounding": "论文第10页明确noisy-TV失效，没有假称存在同名算法。",
+        "extension": "不绑定某一种奖励方法，可作为研究风格容纳多产品。",
+        "semantic_coherence": "有效探索与条件边界属于同一关系，不把好奇和数学好看字硬拼。"
+      },
+      "counter_association": "有界较书面，好奇可能让人想到科普教育；也可能被误读为限制想象力。自然度只能给中档通过判断，须由主控独评，不用算法背景补拗口。"
+    },
+    {
+      "id": "CT-C32",
+      "name": "虚拟排练",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "四字日常短语，虚拟是方式、排练是动作，语法完整。",
+        "distinctiveness": "模型里先演练有明确画面，但通用产品描述可能压低商业辨识。",
+        "lab_fit": "世界模型与智能体行为学习有直接AI研究身份，培训平台误读扣分。",
+        "grounding": "论文前两页具体机制实际读到，未把算法梦想比作真实睡眠证据。",
+        "extension": "可覆盖规划、模拟和行动学习，但不像完全无业务限定的专名。",
+        "semantic_coherence": "内在试演与真实行动共享排练关系，不逐字添加无关价值。"
+      },
+      "counter_association": "可能像仿真产品、演艺软件或培训平台，Lab长期身份略偏功能性；若主控认为只是产品描述，应退回，不将资料真实当作通过。"
+    }
+  ]
+}

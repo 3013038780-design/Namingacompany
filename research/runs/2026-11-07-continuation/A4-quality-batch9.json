@@ -1,0 +1,52 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T18:28:41+08:00",
+  "reviews": [
+    {
+      "candidate_id": "CT-E14",
+      "chinese_id": "CT-C10",
+      "english": "Another Way In",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通词组可自然顺读，重音在另一条路径。",
+          "counter_association": "约五音节与三个词长于短专名。"
+        },
+        "spelling": {
+          "reason": "无变造的正常英语词。",
+          "counter_association": "需查连写AnotherWayIn等完整变体。"
+        },
+        "formation": {
+          "reason": "另一切入口是可直接理解的完整场景。",
+          "counter_association": "入口是本轮品牌比喻，不是原书术语。"
+        },
+        "bilingual_relation": {
+          "reason": "两边都保留同对象可用不同表示/切入方式。",
+          "counter_association": "英文不逐字显写坐标。"
+        },
+        "distinctiveness": {
+          "reason": "可容纳跨感知推理行动的研究探索身份。",
+          "counter_association": "可能像设计/创意机构。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑意见；待主控独评与原A3，中文还余1次英文返工。"
+    }
+  ],
+  "wording_corrections": [
+    {
+      "recorded_at": "2026-11-07T18:32:54+08:00",
+      "candidate_id": "CT-E14",
+      "correction": "音节说明四改约五，分数未改。"
+    }
+  ]
+}

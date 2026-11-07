@@ -1,0 +1,80 @@
+{
+  "reviewed_at": "2026-11-07T18:43:46.541571+08:00",
+  "independence": "Read producer preview batch11 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C13",
+      "name": "Hold to Open",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通动作短语可直接读",
+          "counter_association": "四音节略长"
+        },
+        "spelling": {
+          "reason": "完整基础词无变形",
+          "counter_association": "需固定全短语"
+        },
+        "grounding": {
+          "reason": "持续接触展开内容为真实场景",
+          "counter_association": "open不代表开源立场"
+        },
+        "bilingual_relation": {
+          "reason": "中文动作与英文用途关系互补",
+          "counter_association": "不保证按住模型即增强"
+        },
+        "distinctiveness": {
+          "reason": "好记但属于常见提示句",
+          "counter_association": "机构辨识弱于专名"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E18"
+    },
+    {
+      "candidate_id": "CT-C14",
+      "name": "Ownsignal",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个熟悉音节顺口",
+          "counter_association": "首遍可能分词"
+        },
+        "spelling": {
+          "reason": "两个正常词完整相接",
+          "counter_association": "需查Own Signal"
+        },
+        "grounding": {
+          "reason": "自身输出重新被监听关系清楚",
+          "counter_association": "非工程标准术语"
+        },
+        "bilingual_relation": {
+          "reason": "工程侧音与英文自身信号同核",
+          "counter_association": "own也可指数据所有权"
+        },
+        "distinctiveness": {
+          "reason": "整体有通信计算身份",
+          "counter_association": "可能先像音频工具"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E19"
+    }
+  ]
+}
