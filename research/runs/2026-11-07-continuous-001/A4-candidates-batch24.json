@@ -1,0 +1,103 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-08T13:48:22.285636+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch17.json",
+      "sha256": "d51374c05140f2c05ea4acc5877f7c3ff47903a654fee4483d8a4eb1e6564fc3"
+    },
+    {
+      "path": "A2-quality-batch17.json",
+      "sha256": "6dce8c6b0f529882fdb36d93e9bdac29d55138f0fce9f66edeb1bd2b7c1e7369"
+    },
+    {
+      "path": "coordinator-cn-batch17.json",
+      "sha256": "9708f5d24f401197346a05624dbec732ee80e21fbf47f4a79948061bba30d043"
+    },
+    {
+      "path": "coordinator-family-review-batch17.json",
+      "sha256": "de44a10f5b3d1fa681cf8f1e442f875e45456dad2c936e65b165c923dbde7ae7"
+    },
+    {
+      "path": "A2-C30-formation-addendum.json",
+      "sha256": "bbe7c9a8d5906538676a5fb951c061c83b4a2e34bcb80a0dace8b7d5454bbc80"
+    },
+    {
+      "path": "A2-C30-formation-addendum.md",
+      "sha256": "67eb03c0c0af03aab626892551c577c4d3de7dd3ac0d3a6bfe7e1111633698ce"
+    },
+    {
+      "path": "A2-C30-formation-addendum-execution.json",
+      "sha256": "d28b02f393f6914b6cf164302429ab9d4e451f6f0e76dab249f75a5e77fcde81"
+    },
+    {
+      "path": "coordinator-C30-formation-reacceptance.json",
+      "sha256": "a0b99dcaecf3fef455c2c85f56cc4b8604bba80df28e82204ec19787618f6ecd"
+    },
+    {
+      "path": "A3-C30-formation-reacceptance.json",
+      "sha256": "ae6cf8dfd04f850162e3498a6d5c9527f943892ba2bf97068100bcceb39017f6"
+    },
+    {
+      "path": "A3-C30-formation-reacceptance.md",
+      "sha256": "b103c6a800152616e59665f7e95404d6274a76a45cf7d5282c57f051f39c7af7"
+    },
+    {
+      "path": "A3-cn-batch19.json",
+      "sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc"
+    },
+    {
+      "path": "A3-cn-batch19-receipt.json",
+      "sha256": "abb2fd8613f22685a3703043465c2f9ef6ff754f8e9d7e61b6fce8e015944637"
+    },
+    {
+      "path": "A4-candidates-batch23.json",
+      "sha256": "a51effd83f1d26652d77ea447e22ff3d4d8f5fb302312d9d9d8b3d15d134ba52"
+    },
+    {
+      "path": "A3-en-batch23.json",
+      "sha256": "6df2a3aa3f220bb088dc59102681caf876b0bb6716cef83b4b09f34639306e59"
+    },
+    {
+      "path": "A3-en-batch23.md",
+      "sha256": "78c2a5a32f22a0b4280035ec26cc5d9c89a19ee249234cc3aecfbefd3d4ccbbb"
+    },
+    {
+      "path": "A3-en-batch23-receipt.json",
+      "sha256": "d958bcdbf5c70f32e9b3cd027f7b9c99295a531ed1bed0380d0ba1eaeeb99b75"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E24",
+      "chinese_id": "C1-C30",
+      "chinese": "言有所为",
+      "english": "Saydo",
+      "family_id": "C1-BF-language-as-situated-action",
+      "suggested_pronunciation": "SAY-do，建议/ˈseɪ.duː/，两个音节。",
+      "type": "两个完整常用动词直接合写的品牌专名提案",
+      "formation": "say + do，两个词保持完整声音和拼法，将“某些说出本身就在做一件事”的关系缩成一个称呼。不是说到必做到的口号，也不是将Saydo说成Austin原文术语、已核词典收录词或全球首次造词。只用常见英语动词而不改旧Wordact字母或添加后缀。",
+      "bilingual_relation": "中文言有所为和英文Saydo同落在说与做并非总是分开的关系：在适合的约定情境中，发言本身就可以是行动的一部分。英文突出同一时刻的说即在做，不表达先许诺后保证完成；中文仍是已存在学术表达的再选择。",
+      "meaning": "说，不只是在描述。有些发言能够在合适情境中建立一项承诺或完成命名；实验室可以研究语言怎样承担这样的作用，同时承认权限、约定与配套条件。",
+      "shortcoming": "可能先像语音命令、待办应用、演讲培训或儿童说做练习品牌；say-do还容易被读成说到做到，和本案情境中的言语构成行动不同。合写第一次需展示；口音中可被写成Sedo或Say Do，必须由A3独立覆盖近形，不以短且好读就省略查重。",
+      "boundary": "不是所有话语都有效，不保证承诺履行、工具调用成功、法律效力或实际AI性能。Austin节选强调说之外也常需适合情境和其他行为；不是一句指令就操控世界。中文既有学术/书名使用、教育翻译出版联想与PEP仅索引未核正文继续披露。",
+      "source_urls": [
+        "https://web.stanford.edu/class/ihum54/Austin_on_speech_acts.htm"
+      ],
+      "read_scope": "本人前稿已实际完整读取Stanford 49行作者节选，重点10–29行发言可构成行动及41–48行情境/配套行为；本稿沿用该实际阅读，不冒称再次通读全书。本人本次实读A3-en23 JSON/MD/receipt中历史网站软件与WorldAct近形框架的不同证据性质，并核其输出SHA；中文形成补记仍按已验收固定来源说明，不倒写起稿阅读史。",
+      "chinese_formation_current": "既有中文学术表达的再选择；最初英语关系凝练路径与既有译述重合。",
+      "rework_attempt": 1,
+      "remaining_reworks": 1,
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "usage_screening_performed": false,
+  "rework": {
+    "attempt": 1,
+    "remaining_after_this": 1,
+    "previous_english_id": "C1-E23",
+    "reason": "Wordact有2021具名创意发布网站开发者出售/产品发布正文，另WorldAct是多l近形AI框架；历史软件与近形混淆避让，不称现时在营公司、精确AI同名或注册商标已核。",
+    "not_new_chinese_family": true
+  }
+}

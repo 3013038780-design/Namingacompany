@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T13:27:28.322340+08:00",
+  "scope": "主控独评封存后再读作者数字",
+  "reviews": [
+    {
+      "candidate_id": "C1-C30",
+      "name": "言有所为",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "四字整体汉语语法成立，能口头直接称呼",
+          "counter_association": "有所为有口号感"
+        },
+        "distinctiveness": {
+          "reason": "言与为形成清楚可复述的动作角色",
+          "counter_association": "语素皆常见，可能像价值宣言"
+        },
+        "lab_fit": {
+          "reason": "语言如何参与行动可承载语言智能/智能体研究身份",
+          "counter_association": "也像语言培训、公益或文化组织"
+        },
+        "grounding": {
+          "reason": "真实原文支持言语行动及情境必要性，中文明确为本轮凝练",
+          "counter_association": "未读全书，不能把初始区分当最终整套理论"
+        },
+        "extension": {
+          "reason": "可容纳交流、语言、工具行动与人机研究",
+          "counter_association": "不应窄成单一语音命令产品"
+        },
+        "semantic_coherence": {
+          "reason": "言与为同属一种具体实践的关系",
+          "counter_association": "不能扩写成说到一定做到的性能许诺"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T13:50:32.632492+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch24.md",
+      "sha256": "46c5239b36e9743d6f78676a84ec9fd3bb479c3fa83ac6f3bff64f2d9dd93b06"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch24.json",
+      "sha256": "37696a1e10e2790ad3b40315a633f9ea2f39d5b170a2b19c56f04dce7dcdb7e3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch24.json",
+      "sha256": "652f66f2754369c7a4a1f7f82ba68fa08551e09697cdb409180686b10e55e501"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch24.json",
+      "sha256": "ff8d6b441fab6377e1290fa790718e0848dfe0d52d2938ca40181d63a63022ba"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch24.json",
+      "sha256": "b6022e0e0872dea2f3d5491735f46c2ebe3480febfccbc5dc21b4206594fba38"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch19.json",
+      "sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-C30-formation-reacceptance.json",
+      "sha256": "ae6cf8dfd04f850162e3498a6d5c9527f943892ba2bf97068100bcceb39017f6"
+    }
+  ],
+  "query_count": 6,
+  "results": [
+    {
+      "candidate_id": "C1-E24",
+      "name": "Saydo",
+      "query_logs": [
+        {
+          "query": "\"Saydo\"",
+          "executed_on": "2026-11-08",
+          "summary": "发现SayDo WhatsApp AI助手品牌，其他具名软件线索后续主证核实。"
+        },
+        {
+          "query": "\"Saydo\" company lab",
+          "executed_on": "2026-11-08",
+          "summary": "深圳势度官方Saydo品牌及新加坡设计事务所、SayDo服务条款；深圳官方正文已核。"
+        },
+        {
+          "query": "\"Saydo\" AI model",
+          "executed_on": "2026-11-08",
+          "summary": "SayDo Mac语音AI软件，独立命名与功能正文已核；未发现独立基础模型名证据。"
+        },
+        {
+          "query": "\"Saydo\" software product",
+          "executed_on": "2026-11-08",
+          "summary": "多个Saydo语音/待办软件品牌，精确软件名实际存在，不是功能普通句。"
+        },
+        {
+          "query": "\"Say Do\" app company",
+          "executed_on": "2026-11-08",
+          "summary": "Say=Do企业软件为符号变体第三方目录，未作为必要精确主证；常见说做关系分开。"
+        },
+        {
+          "query": "\"Sedo\" AI company",
+          "executed_on": "2026-11-08",
+          "summary": "Sedo官方域名平台与Seedo近名技术企业，拼法不同，不混称Saydo精确公司。"
+        }
+      ],
+      "decision": "reject_exact_existing_technology_brand_and_ai_software",
+      "reason": "深圳势度科技官方明确Saydo为产品与国际化品牌、AI Agent等平台；另SayDo Mac语音AI软件官网明确完整名。核心精确相同，大小写不能避重，不是仅Sedo近听或普通say-do gap语义。",
+      "evidence": [
+        {
+          "url": "https://www.say2do.com/about",
+          "access": "primary_company_brand_body_read",
+          "finding": "L4深圳势度科技有限公司与Saydo产品服务；L18–20明确Saydo是产品/国际化品牌承载实时事件、AI Agent和AI视频系统；L28公司中文名。官网公开品牌事实，不核其成立时间/能力或工商存续。"
+        },
+        {
+          "url": "https://www.saydo.io/",
+          "access": "primary_software_body_read",
+          "finding": "L2–11 SayDo Mac下载/语音AI软件，L29–41转录与文本操作，L78–80称使用Whisper/GPT；只核产品命名，不背书下载量/精度/模型实现。未下载或运行。"
+        },
+        {
+          "url": "https://sedo.com/us/about-us/",
+          "access": "primary_near_sound_brand_body_read",
+          "finding": "Sedo域名交易平台L19–35；拼法与Saydo不同，只记近听，不作为精确占用主证。"
+        },
+        {
+          "url": "https://saydoapp.com/terms",
+          "access": "search_text_only_body_empty",
+          "finding": "索引称Elevenware运营SayDo服务，实际打开0可读行；不凭它确证英国公司或登记。已有另外两可读主证足够。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用Nov7本run实际403共同入口，未本次逐名核名。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用Nov7共同403入口，未逐名9/42。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Saydo",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      },
+      "chinese_candidate_id": "C1-C30",
+      "chinese": "言有所为",
+      "english_attempt": 1,
+      "remaining_english_reworks": 1,
+      "precise_use_type": "exact_named_technology_product_brand_and_ai_voice_software",
+      "chinese_source_disclosure": "中文既有学术表达再选择及cn19/形成补记验收保持，英文失败不自动中文占用。"
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。"
+}

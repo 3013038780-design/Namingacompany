@@ -1,0 +1,74 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T13:19:15.266477+08:00",
+  "candidates": [
+    {
+      "id": "C1-C29",
+      "name": "失算",
+      "pinyin": "shī suàn",
+      "material_id": "C1-M36",
+      "material_ids": [
+        "C1-M36"
+      ],
+      "family_id": "C1-BF-miscalculation-as-comparable-outcome",
+      "plan_direction_id": "C1-D-S5",
+      "case_ids": [
+        "B037",
+        "B027"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P4"
+      ],
+      "sources": [
+        {
+          "title": "Schultz, Dayan & Montague: A Neural Substrate of Prediction and Reward",
+          "url": "https://www.gatsby.ucl.ac.uk/~dayan/papers/sdm97.pdf",
+          "published_at": "1997-03-14",
+          "reading_location": "作者机构托管7页论文PDF，本次实际读前3页（印刷1593–1595），L24–121背景与blocking、L130–265神经活动/图1、L272–391 TD定义及假设。未读后四页及原引实验；首24行是前篇参考文献，未误当本篇。",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_PDF_body",
+          "read_at": "2026-11-08T13:19:15.266477+08:00"
+        }
+      ],
+      "source_urls": [
+        "https://www.gatsby.ucl.ac.uk/~dayan/papers/sdm97.pdf"
+      ],
+      "formation": "用日常整体动词失算承接实际与预期不符的关系；不是prediction error官方中文译名，也不是论文原有品牌。没有把两个吉祥字相乘，更没有故意改原术语字形。",
+      "relation_sentence": "预期的奖赏在该到的时刻没有到，缺失仍能与预测比较，而不是没有反馈。",
+      "condensation_path": "先写清预期—实际之差，再把主角放回正在估计的系统：一次失算暴露它所料与现实的距离。采用熟悉口语但改变其品牌阅读，不把它当错误必然使人更聪明的口号。",
+      "meaning": "把没有算准的地方看清楚。",
+      "crossing": "日常没料中的经验与计算系统的预期差，共同具有可比较的预期与结果；失算并不只是不够聪明，也提出应如何面对不符。",
+      "layers": [
+        "短小、能直接复述的日常认知动作",
+        "预计与现实存在可比较的差异",
+        "承认预测有边界、研究怎样从实际结果获得信息"
+      ],
+      "material_feature_retained": "保留估计与实际不符可被编码为信息；释义特别保留预期奖赏未到的情境。",
+      "material_feature_lost": "名称没有奖赏时序、误差正负或TD更新条件；也不能从词面知道具体如何更新。",
+      "why_name_not_generic": "不是增强、成长或求证的近义美词；也不是神经术语摘名。它以不太讨好的普通动作形成鲜明身份，但是否值得做公司名仍可否决。",
+      "shortcoming": "失算通常是批评，会引出不可靠、经营失败、预测不准等强负面联想；本轮没有用励志话术消除这些成本。也可能像财经内容或计算工具。",
+      "science_boundary": "不把作者1997模型当今日所有多巴胺细胞的完整定论；神经结果与计算解释分层。不是所有错误都能学习，不把收敛条件推广到任意环境或宣称AI已有脑机制。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "旧有界好奇是状态预测误差作内在探索奖励，被随机电视吸引；本项是对奖赏的有符号预期差，预期的奖励没来时在预期时点出现负向信号。两者同属预测误差上位类，必须由主控保守判断品牌家族：若只剩算错带来学习这个泛义应合并，不靠不同论文另算。复证为新数据重复研究，不等于一次结果偏离预期；M22灵感之外为主观确定感与质量判断分离，本项不换之外词形救回。 历史精确失算未见既有草案命中；未查市场使用。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是失算，做人工智能研究。",
+        "失算发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened"
+    }
+  ],
+  "scope": "一项日常动作凝练的中文草案，非推荐可用，不查使用或配英文。"
+}

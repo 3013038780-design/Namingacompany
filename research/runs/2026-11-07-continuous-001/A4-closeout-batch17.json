@@ -1,0 +1,79 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-08T13:57:58.603995+08:00",
+  "chinese_id": "C1-C30",
+  "chinese": "言有所为",
+  "family_id": "C1-BF-language-as-situated-action",
+  "inputs": [
+    {
+      "path": "A3-en-batch23.json",
+      "sha256": "6df2a3aa3f220bb088dc59102681caf876b0bb6716cef83b4b09f34639306e59"
+    },
+    {
+      "path": "A3-en-batch24.json",
+      "sha256": "e617f4d99d4c50b8908de1e3c7a90d18b41f29654b536dbc8418d7f90e1e2cff"
+    },
+    {
+      "path": "A3-en-batch25.json",
+      "sha256": "001dabbd68398180303537e86160b219282a1eadfc20bdd1429732f0a56d815f"
+    },
+    {
+      "path": "A3-en-batch25.md",
+      "sha256": "b2497e2d87e779cbc9caa7a21bfa7c382c8b9a196bb7be2c0de60fdf2e45ff10"
+    },
+    {
+      "path": "A3-en-batch25-receipt.json",
+      "sha256": "e358d2cd3a75520313189399d9ee219dbbfdee4d73127dd6305069f16a46b15a"
+    },
+    {
+      "path": "A2-C30-formation-addendum.json",
+      "sha256": "bbe7c9a8d5906538676a5fb951c061c83b4a2e34bcb80a0dace8b7d5454bbc80"
+    },
+    {
+      "path": "coordinator-C30-formation-reacceptance.json",
+      "sha256": "a0b99dcaecf3fef455c2c85f56cc4b8604bba80df28e82204ec19787618f6ecd"
+    },
+    {
+      "path": "A3-C30-formation-reacceptance.json",
+      "sha256": "ae6cf8dfd04f850162e3498a6d5c9527f943892ba2bf97068100bcceb39017f6"
+    }
+  ],
+  "actual_read_scope": "本次实际重读固定原A3 en23/en24/en25决定与证据、en25 MD/receipt并核输出SHA；此前形成补记及两方验收已实际读取，本次保持固定SHA引用。不声称本人重开软件原站/安装运行。",
+  "versions": [
+    {
+      "id": "C1-E23",
+      "english": "Wordact",
+      "attempt": 0,
+      "status": "historical_named_software_project_avoidance",
+      "reason": "2021创作者发布网站开发者出售/产品提交正文确证具名软件历史使用；现时原站不可访问。WorldAct多l为近形框架，不称精确AI同名或现时在营公司。"
+    },
+    {
+      "id": "C1-E24",
+      "english": "Saydo",
+      "attempt": 1,
+      "status": "exact_technology_brand_and_ai_software_reject",
+      "reason": "深圳势度科技Saydo产品/国际化品牌、SayDo Mac语音AI软件完整同核心，非仅Sedo近听。"
+    },
+    {
+      "id": "C1-E25",
+      "english": "Hereby",
+      "attempt": 2,
+      "status": "exact_named_software_reject",
+      "reason": "作者hereby Node任务运行器README及hereby.me合同AI软件具名使用明确；npm403未假称读正文，Hearby仅近形。未执行代码，不背书效果或法律有效性。"
+    }
+  ],
+  "qualified_complete_bilingual_pairs": 0,
+  "english_versions_in_this_chinese_family": 3,
+  "rework_attempts_used": 2,
+  "remaining_reworks": 0,
+  "current_family_status": "本族无合格英文配对，中文研究记录保留，不R3、不新配其他中文或英文。",
+  "chinese_formation": "既有中文学术表达的再选择；原A2独立凝练路径与既有译述重合，不说首次造词，不倒写事后材料为原输入。教育翻译出版联想、较长书名及PEP仅索引未核边界继续保留。",
+  "registration_boundary": "以上是公开使用避让/否决，非全部登记或9/42商标已核；中文使用初筛与来源补记不因英文失败自动变成中文占用。",
+  "next": "主控本段H7/feed/PR检查点，下一工作段继续其他关系；本族英文额度关闭不表示整个001停止。",
+  "new_external_queries": 0,
+  "new_names": 0,
+  "new_scores": false,
+  "unchanged": "原稿、分数、旧receipt、总库及Git未改。"
+}

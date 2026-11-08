@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-08T13:49:21.276660+08:00",
+  "independence": "Read producer preview batch24 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C30",
+      "name": "Saydo",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个常见单音节词合为两拍读音直接",
+          "counter_association": "口音中元音仍可能有变化"
+        },
+        "spelling": {
+          "reason": "say和do完整可还原不需记无义字母",
+          "counter_association": "Sedo及Say Do近听分写需独立核不是合写就避重"
+        },
+        "grounding": {
+          "reason": "发言本身在合适情境中可构成行动有Austin原文关系",
+          "counter_association": "不是字典既有词或作者术语不能以此称首次造词"
+        },
+        "bilingual_relation": {
+          "reason": "中文言与为英文say与do共享同一行为关系并保留条件",
+          "counter_association": "say-do惯常履约理解不同于施为须披露"
+        },
+        "distinctiveness": {
+          "reason": "能作紧凑称呼但语音待办或教学产品感只到最低辨识",
+          "counter_association": "两普通动词描述性强不能凭短就称突出品牌"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E24"
+    }
+  ]
+}

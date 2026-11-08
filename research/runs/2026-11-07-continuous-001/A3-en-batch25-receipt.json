@@ -1,0 +1,58 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English screening",
+  "executed_at": "2026-11-08T13:57:09.855012+08:00",
+  "candidate_id": "C1-E25",
+  "chinese_id": "C1-C30",
+  "decision": "reject_exact_named_task_runner_and_ai_contract_platform",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch25.md",
+      "sha256": "72b7e5bf7189efbd981be8dcf112e65ad57349e48772bf4b70cb65824ee663b4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch25.json",
+      "sha256": "3a475e0f42f68d80b74d8bb896fe2ac06be57046741354b7e40de1f0101eef1a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch25.json",
+      "sha256": "287bfb129e3591352171fd20a2d7c7cfa937f0f1d7b9e61cc6b92877f0372c5c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch25.json",
+      "sha256": "fdd431725b6cebb7ca8b16187b19f87fa1ef6714a2f8cf71007872d0e48d606f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch25.json",
+      "sha256": "6016e6fa4415a33c4454597913e99f692f7bbca638364e9450573b9ab25adc11"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch19.json",
+      "sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-C30-formation-reacceptance.json",
+      "sha256": "ae6cf8dfd04f850162e3498a6d5c9527f943892ba2bf97068100bcceb39017f6"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-batch25.md",
+      "sha256": "b2497e2d87e779cbc9caa7a21bfa7c382c8b9a196bb7be2c0de60fdf2e45ff10"
+    },
+    {
+      "path": "A3-en-batch25.json",
+      "sha256": "001dabbd68398180303537e86160b219282a1eadfc20bdd1429732f0a56d815f"
+    }
+  ],
+  "actual_new_candidate_queries": 8,
+  "actual_new_english_queries": 8,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 359,
+  "agent3_cumulative_candidate_queries": 367,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 369,
+  "actual_execution": "实际读固定英文提案/双评/执行回执，八独立搜索，核作者hereby仓库README与AI合同软件官网，近形Hearby官方应用另核；npm403不假读取。英国逐名登记入口失败。",
+  "next": "C30最后英文R2失败，无合格配对，关闭本族英文；不R3或加后缀。",
+  "unchanged": "原稿、总库、Git不改，无用户通知/外部网页全文。"
+}

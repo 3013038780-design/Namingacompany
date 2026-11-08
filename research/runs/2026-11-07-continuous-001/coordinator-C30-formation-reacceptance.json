@@ -1,0 +1,44 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-08T13:35:39.500705+08:00",
+  "candidate_id": "C1-C30",
+  "decision": "accept_formation_clarification_for_same_A3_reacceptance",
+  "actual_source_review": "主控实际读外研社9页样章第5–6页L134–145，确认L138现成同源四字；湖北工大作者页L16/37/41确认2017较长书名。未读两本整书、未核PEP超时索引所指2023小学书正文，不据该书目推公司存在。",
+  "current_formation": "既有中文学术表达的再选择；原A2由英文关系凝练的路径与既有译述重合，不宣传首次造词、不倒写新增中文材料为原输入。",
+  "quality_reacceptance": {
+    "original_coordinator_total": 25,
+    "original_producer_total": 25,
+    "old_scores_changed": false,
+    "scores_raised": false,
+    "independence_limit": "这不是新的盲评，原先独立评分保留，现只明确新事实是否推翻原判断。",
+    "reason": "原辨识4来自完整称呼/言与行动角色，不以词面首创为必要条件。教育翻译/出版联想更具体但整体仍可承载语言与行动研究机构；维持原门槛的编辑判断而非以未检出品牌补分。"
+  },
+  "registration_boundary": "A3十中文查询初筛，不是全球未使用或官方登记/9/42核准；既有学术用法、书名与独立商业核心分开。",
+  "inputs": [
+    {
+      "path": "A2-C30-formation-addendum.json",
+      "sha256": "bbe7c9a8d5906538676a5fb951c061c83b4a2e34bcb80a0dace8b7d5454bbc80"
+    },
+    {
+      "path": "A2-C30-formation-addendum-execution.json",
+      "sha256": "d28b02f393f6914b6cf164302429ab9d4e451f6f0e76dab249f75a5e77fcde81"
+    },
+    {
+      "path": "A3-cn-batch19.json",
+      "sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc"
+    },
+    {
+      "path": "A2-candidates-batch17.json",
+      "sha256": "d51374c05140f2c05ea4acc5877f7c3ff47903a654fee4483d8a4eb1e6564fc3"
+    },
+    {
+      "path": "A2-quality-batch17.json",
+      "sha256": "6dce8c6b0f529882fdb36d93e9bdac29d55138f0fce9f66edeb1bd2b7c1e7369"
+    },
+    {
+      "path": "coordinator-cn-batch17.json",
+      "sha256": "9708f5d24f401197346a05624dbec732ee80e21fbf47f4a79948061bba30d043"
+    }
+  ],
+  "next": "同一A3实际验收固定补记，接受后才交原A4英文。"
+}

@@ -1,0 +1,157 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 same-candidate formation clarification reacceptance",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T13:36:16.244291+08:00",
+  "candidate_id": "C1-C30",
+  "name": "言有所为",
+  "inputs": [
+    {
+      "path": "A2-C30-formation-addendum.json",
+      "sha256": "bbe7c9a8d5906538676a5fb951c061c83b4a2e34bcb80a0dace8b7d5454bbc80"
+    },
+    {
+      "path": "A2-C30-formation-addendum.md",
+      "sha256": "67eb03c0c0af03aab626892551c577c4d3de7dd3ac0d3a6bfe7e1111633698ce"
+    },
+    {
+      "path": "A2-C30-formation-addendum-execution.json",
+      "sha256": "d28b02f393f6914b6cf164302429ab9d4e451f6f0e76dab249f75a5e77fcde81"
+    },
+    {
+      "path": "coordinator-C30-formation-reacceptance.json",
+      "sha256": "a0b99dcaecf3fef455c2c85f56cc4b8604bba80df28e82204ec19787618f6ecd"
+    },
+    {
+      "path": "A3-cn-batch19.json",
+      "sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc"
+    },
+    {
+      "path": "A3-cn-batch19-receipt.json",
+      "sha256": "abb2fd8613f22685a3703043465c2f9ef6ff754f8e9d7e61b6fce8e015944637"
+    }
+  ],
+  "hash_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch19.json",
+      "expected_sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc",
+      "actual_sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch19.md",
+      "expected_sha256": "3c210a50959e2341471b33b194da5964f19cb5097cfe716b21f23f1a96bdab08",
+      "actual_sha256": "3c210a50959e2341471b33b194da5964f19cb5097cfe716b21f23f1a96bdab08",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch19-receipt.json",
+      "expected_sha256": "abb2fd8613f22685a3703043465c2f9ef6ff754f8e9d7e61b6fce8e015944637",
+      "actual_sha256": "abb2fd8613f22685a3703043465c2f9ef6ff754f8e9d7e61b6fce8e015944637",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch17.md",
+      "expected_sha256": "cb0e4b62dd78e2754c74402e7186e0e9121ca9b76293c6a111f64a289edc1dd2",
+      "actual_sha256": "cb0e4b62dd78e2754c74402e7186e0e9121ca9b76293c6a111f64a289edc1dd2",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch17.json",
+      "expected_sha256": "d51374c05140f2c05ea4acc5877f7c3ff47903a654fee4483d8a4eb1e6564fc3",
+      "actual_sha256": "d51374c05140f2c05ea4acc5877f7c3ff47903a654fee4483d8a4eb1e6564fc3",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch17.json",
+      "expected_sha256": "6dce8c6b0f529882fdb36d93e9bdac29d55138f0fce9f66edeb1bd2b7c1e7369",
+      "actual_sha256": "6dce8c6b0f529882fdb36d93e9bdac29d55138f0fce9f66edeb1bd2b7c1e7369",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch17.json",
+      "expected_sha256": "09741e3f97088c8295924fe12ba5f2fbd419d03fc411dcc7d05726e636db8083",
+      "actual_sha256": "09741e3f97088c8295924fe12ba5f2fbd419d03fc411dcc7d05726e636db8083",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension16.json",
+      "expected_sha256": "569977557a7fd1019204cbb3dcab108444cf242990e01e949c31c842b29ca0cd",
+      "actual_sha256": "569977557a7fd1019204cbb3dcab108444cf242990e01e949c31c842b29ca0cd",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch17.json",
+      "expected_sha256": "9708f5d24f401197346a05624dbec732ee80e21fbf47f4a79948061bba30d043",
+      "actual_sha256": "9708f5d24f401197346a05624dbec732ee80e21fbf47f4a79948061bba30d043",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C30-formation-addendum.json",
+      "expected_sha256": "bbe7c9a8d5906538676a5fb951c061c83b4a2e34bcb80a0dace8b7d5454bbc80",
+      "actual_sha256": "bbe7c9a8d5906538676a5fb951c061c83b4a2e34bcb80a0dace8b7d5454bbc80",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C30-formation-addendum.md",
+      "expected_sha256": "67eb03c0c0af03aab626892551c577c4d3de7dd3ac0d3a6bfe7e1111633698ce",
+      "actual_sha256": "67eb03c0c0af03aab626892551c577c4d3de7dd3ac0d3a6bfe7e1111633698ce",
+      "matches": true
+    },
+    {
+      "path": "A2-C30-formation-addendum.json",
+      "expected_sha256": "bbe7c9a8d5906538676a5fb951c061c83b4a2e34bcb80a0dace8b7d5454bbc80",
+      "actual_sha256": "bbe7c9a8d5906538676a5fb951c061c83b4a2e34bcb80a0dace8b7d5454bbc80",
+      "matches": true
+    },
+    {
+      "path": "A2-C30-formation-addendum-execution.json",
+      "expected_sha256": "d28b02f393f6914b6cf164302429ab9d4e451f6f0e76dab249f75a5e77fcde81",
+      "actual_sha256": "d28b02f393f6914b6cf164302429ab9d4e451f6f0e76dab249f75a5e77fcde81",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch19.json",
+      "expected_sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc",
+      "actual_sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc",
+      "matches": true
+    },
+    {
+      "path": "A2-candidates-batch17.json",
+      "expected_sha256": "d51374c05140f2c05ea4acc5877f7c3ff47903a654fee4483d8a4eb1e6564fc3",
+      "actual_sha256": "d51374c05140f2c05ea4acc5877f7c3ff47903a654fee4483d8a4eb1e6564fc3",
+      "matches": true
+    },
+    {
+      "path": "A2-quality-batch17.json",
+      "expected_sha256": "6dce8c6b0f529882fdb36d93e9bdac29d55138f0fce9f66edeb1bd2b7c1e7369",
+      "actual_sha256": "6dce8c6b0f529882fdb36d93e9bdac29d55138f0fce9f66edeb1bd2b7c1e7369",
+      "matches": true
+    },
+    {
+      "path": "coordinator-cn-batch17.json",
+      "expected_sha256": "9708f5d24f401197346a05624dbec732ee80e21fbf47f4a79948061bba30d043",
+      "actual_sha256": "9708f5d24f401197346a05624dbec732ee80e21fbf47f4a79948061bba30d043",
+      "matches": true
+    }
+  ],
+  "actual_read": true,
+  "decision": "accept_formation_clarification_original_public_use_screen_still_stands",
+  "current_formation": "既有中文学术表达的再选择；A2最初经英文关系独立凝练的路径与既有中文同源译述重合。不是词面首创、不倒写事后材料为原输入。",
+  "reason": "原10查询确证书样章学术用语与较长专著题名，并未确证同核心独立商业品牌/公司/模型/软件；补记准确区分用语先例与市场品牌，未改变使用初筛事实。",
+  "limits": [
+    "2017较长专著仅核大学作者页书目，未读整书。",
+    "PEP2023小学口语书为索引未核原文，不当商业主体或实际读书证明。",
+    "教育翻译出版联想为更具体短板；维持原25/25是主控原判断复核，非本A3新盲评/加分。",
+    "登记边界沿原cn19，不称全球未使用或9/42核准。"
+  ],
+  "actual_new_queries": 0,
+  "new_materials": 0,
+  "new_chinese_names": 0,
+  "original_ten_query_conclusion_unchanged": true,
+  "agent3_cumulative_candidate_queries": 347,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 349,
+  "next": "可交原A4以固定原稿+补记+本验收独立匹配英文；英文必须再审，不继承中文pass。",
+  "old_records_catalog_git_unchanged": true
+}

@@ -1,0 +1,125 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-08T05:15:31.655Z",
+  "completed_at": "2026-11-08T14:00:07.565926+08:00",
+  "status": "two_packets_closed_zero_retained_after_three_English_versions",
+  "actual_A1_basis_reused": [
+    "A1-final-input-reacceptance.json",
+    "A1-formation-feedback.json",
+    "search-plan.json",
+    "plan-review.json"
+  ],
+  "new_A1_research_claimed": false,
+  "actual_A2": "/root/continuous_a2",
+  "actual_A3_same_cn_en": "/root/live_a3",
+  "actual_A4": "/root/continuous_a4",
+  "new_materials": 2,
+  "new_chinese_drafts": 2,
+  "new_chinese_families_explored": 2,
+  "chinese_quality_passed": 2,
+  "chinese_public_use_passed": 1,
+  "new_english_versions": 3,
+  "english_quality_passed": 3,
+  "english_public_use_passed": 0,
+  "evidence_holds": 1,
+  "new_evidence_holds": 0,
+  "new_retained_families": 0,
+  "new_A3_candidate_query_executions": 38,
+  "new_root_candidate_query_executions": 0,
+  "cumulative_A3_candidate_query_executions": 367,
+  "root_additional_queries_prior_packet": 2,
+  "cumulative_recorded_candidate_query_executions": 369,
+  "cumulative_materials": 37,
+  "cumulative_chinese_drafts": 30,
+  "cumulative_english_versions": 25,
+  "catalog_counts_unchanged": {
+    "discussion_candidates": 24,
+    "research_reserves": 1,
+    "total_unique_families": 25,
+    "withdrawn_families": 1,
+    "historical_unique_families": 26
+  },
+  "reason": "失算已有TapTap完整同名具名游戏DEMO，八查询后淘汰。言有所为中文十查询通过，且已补正为既有学术表达再选择；三英文Wordact、Saydo、Hereby分别因历史网站软件、明确科技/AI软件、具名Node任务运行器及AI合同平台使用未保留，两次返工用尽，无完整配对。",
+  "query_breakdown": {
+    "C29_Chinese": 8,
+    "C30_Chinese": 10,
+    "Wordact_English": 6,
+    "Saydo_English": 6,
+    "Hereby_English": 8
+  },
+  "prior_evidence_hold": "活变量/Maymatter维持原待核实，本段未重复旧403或超额返工。",
+  "source_clarification": "已实际核出版社样章与大学作者书目；中文四字不是本轮首次造词，追加补记和双方验收，不覆盖原稿/分数/阅读史。",
+  "controls_and_registration": "阳性对照和共同登记受限入口按原实际run记录复用；逐名英国入口/其他实际访问分别在A3保存，未核大陆登记/9/42不冒称已注册或可注册。",
+  "website": "同一固定研究台读取更新feed，不重新部署界面、不改旧站。",
+  "whole_production_compliance_claimed": false,
+  "evidence_refs": [
+    {
+      "path": "A2-creation-execution-batch16.json",
+      "sha256": "dcfe33dc4eb91a5e916cb8489f3a4bc6960dfdc876a48cbd17c080f831d5f836"
+    },
+    {
+      "path": "A2-creation-execution-batch17.json",
+      "sha256": "09741e3f97088c8295924fe12ba5f2fbd419d03fc411dcc7d05726e636db8083"
+    },
+    {
+      "path": "A3-cn-batch18.json",
+      "sha256": "730fbfa05bfbc86f62787a1fc5fdeeb712aad7d34e4a47d934fd5d8a3ec94592"
+    },
+    {
+      "path": "A4-zero-batch16.json",
+      "sha256": "113dfdf0f04f6f322b8c549e0c64c8de9fc407d9c813daaa93d9a41872c2c0fa"
+    },
+    {
+      "path": "A3-en-zero-batch16.json",
+      "sha256": "529b9fc450f50b48bf9faa0d392676d31e11ee1635b6b293a91a11301ab2abde"
+    },
+    {
+      "path": "A3-cn-batch19.json",
+      "sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc"
+    },
+    {
+      "path": "A2-C30-formation-addendum.json",
+      "sha256": "bbe7c9a8d5906538676a5fb951c061c83b4a2e34bcb80a0dace8b7d5454bbc80"
+    },
+    {
+      "path": "A2-C30-formation-addendum-execution.json",
+      "sha256": "d28b02f393f6914b6cf164302429ab9d4e451f6f0e76dab249f75a5e77fcde81"
+    },
+    {
+      "path": "coordinator-C30-formation-reacceptance.json",
+      "sha256": "a0b99dcaecf3fef455c2c85f56cc4b8604bba80df28e82204ec19787618f6ecd"
+    },
+    {
+      "path": "A3-C30-formation-reacceptance.json",
+      "sha256": "ae6cf8dfd04f850162e3498a6d5c9527f943892ba2bf97068100bcceb39017f6"
+    },
+    {
+      "path": "A3-en-batch23.json",
+      "sha256": "6df2a3aa3f220bb088dc59102681caf876b0bb6716cef83b4b09f34639306e59"
+    },
+    {
+      "path": "A3-en-batch24.json",
+      "sha256": "e617f4d99d4c50b8908de1e3c7a90d18b41f29654b536dbc8418d7f90e1e2cff"
+    },
+    {
+      "path": "A3-en-batch25.json",
+      "sha256": "001dabbd68398180303537e86160b219282a1eadfc20bdd1429732f0a56d815f"
+    },
+    {
+      "path": "A4-closeout-batch17.json",
+      "sha256": "8762b845758348649015142b183b9a2b2a670a7006e9f97fdb484ad86d80cf3c"
+    },
+    {
+      "path": "continuations/2026-11-08T051531Z/handoffs-batch16.json",
+      "sha256": "0e6278d609330d79d651abb29d52732172e62744d4d622b1ac3dd7c1944f3741"
+    },
+    {
+      "path": "continuations/2026-11-08T051531Z/handoffs-batch17.json",
+      "sha256": "81c7f8635280318df2de2a3d91936201325e7860bbedf18a08d9dbbf9094af50"
+    },
+    {
+      "path": "continuations/2026-11-08T051531Z/decisions-through-batch17.json",
+      "sha256": "d5055d8d4bb0f97fd5fdfafbb8024539723fdf4796a8e192fb6fa724a955f618"
+    }
+  ]
+}

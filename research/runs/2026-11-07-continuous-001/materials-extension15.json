@@ -1,0 +1,49 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T13:19:15.266477+08:00",
+  "materials": [
+    {
+      "id": "C1-M36",
+      "family_id": "C1-MF-signed-reward-mismatch-at-expected-time",
+      "macro_id": "S5",
+      "plan_direction_id": "C1-D-S5",
+      "category": "neuroscience_and_computational_learning_primary_authors",
+      "case_ids": [
+        "B037",
+        "B027"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P4"
+      ],
+      "sources": [
+        {
+          "title": "Schultz, Dayan & Montague: A Neural Substrate of Prediction and Reward",
+          "url": "https://www.gatsby.ucl.ac.uk/~dayan/papers/sdm97.pdf",
+          "published_at": "1997-03-14",
+          "reading_location": "作者机构托管7页论文PDF，本次实际读前3页（印刷1593–1595），L24–121背景与blocking、L130–265神经活动/图1、L272–391 TD定义及假设。未读后四页及原引实验；首24行是前篇参考文献，未误当本篇。",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_PDF_body",
+          "read_at": "2026-11-08T13:19:15.266477+08:00"
+        }
+      ],
+      "source_urls": [
+        "https://www.gatsby.ucl.ac.uk/~dayan/papers/sdm97.pdf"
+      ],
+      "fact": "文章将灵长类部分多巴胺神经活动与奖赏预期差联系：意外奖赏、已预测奖赏、预期奖赏未到对应不同反应。TD模型以相邻时点估值与奖赏构成误差信号，并在条件假设下更新估值。",
+      "mechanism_to_material": "沿Imbue对认识/行动发生作用、Midjourney过程身份，寻找实际得到的结果怎样改变预测；将日常失算重新读成可观测的预期差，而非直接摘TD/多巴胺科学名词。Imbue本轮A1重核，Midjourney沿用基线。",
+      "distinctive_relation": "没得到所料的奖赏不是没有信息：预期时点的缺失本身可以与既有预测比较，产生有方向的差异。",
+      "naming_potential": "熟悉口语的认知动作能连接计算估计与真实结果，不用拼智能/跃迁/无限。",
+      "shortcoming": "失算直接带错误/失败联想，可能使客户以为算法不可靠；能否承担长期研究品牌须与原理正确性分开。",
+      "history_difference": "旧有界好奇是状态预测误差作内在探索奖励，被随机电视吸引；本项是对奖赏的有符号预期差，预期的奖励没来时在预期时点出现负向信号。两者同属预测误差上位类，必须由主控保守判断品牌家族：若只剩算错带来学习这个泛义应合并，不靠不同论文另算。复证为新数据重复研究，不等于一次结果偏离预期；M22灵感之外为主观确定感与质量判断分离，本项不换之外词形救回。",
+      "boundary": "不把作者1997模型当今日所有多巴胺细胞的完整定论；神经结果与计算解释分层。不是所有错误都能学习，不把收敛条件推广到任意环境或宣称AI已有脑机制。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft_pending_family_review"
+    }
+  ],
+  "scope": "一个新实读具体关系，预测误差上位概念与旧有界好奇相邻，未声称自动独立品牌族。",
+  "source_dates_note": "1997原作者论文，不计近九十天新闻/新书；没有古文。"
+}

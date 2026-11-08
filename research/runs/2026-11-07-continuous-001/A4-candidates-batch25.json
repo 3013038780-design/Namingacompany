@@ -1,0 +1,120 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-08T13:53:45.633540+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch17.json",
+      "sha256": "d51374c05140f2c05ea4acc5877f7c3ff47903a654fee4483d8a4eb1e6564fc3"
+    },
+    {
+      "path": "A2-quality-batch17.json",
+      "sha256": "6dce8c6b0f529882fdb36d93e9bdac29d55138f0fce9f66edeb1bd2b7c1e7369"
+    },
+    {
+      "path": "coordinator-cn-batch17.json",
+      "sha256": "9708f5d24f401197346a05624dbec732ee80e21fbf47f4a79948061bba30d043"
+    },
+    {
+      "path": "coordinator-family-review-batch17.json",
+      "sha256": "de44a10f5b3d1fa681cf8f1e442f875e45456dad2c936e65b165c923dbde7ae7"
+    },
+    {
+      "path": "A2-C30-formation-addendum.json",
+      "sha256": "bbe7c9a8d5906538676a5fb951c061c83b4a2e34bcb80a0dace8b7d5454bbc80"
+    },
+    {
+      "path": "A2-C30-formation-addendum.md",
+      "sha256": "67eb03c0c0af03aab626892551c577c4d3de7dd3ac0d3a6bfe7e1111633698ce"
+    },
+    {
+      "path": "A2-C30-formation-addendum-execution.json",
+      "sha256": "d28b02f393f6914b6cf164302429ab9d4e451f6f0e76dab249f75a5e77fcde81"
+    },
+    {
+      "path": "coordinator-C30-formation-reacceptance.json",
+      "sha256": "a0b99dcaecf3fef455c2c85f56cc4b8604bba80df28e82204ec19787618f6ecd"
+    },
+    {
+      "path": "A3-C30-formation-reacceptance.json",
+      "sha256": "ae6cf8dfd04f850162e3498a6d5c9527f943892ba2bf97068100bcceb39017f6"
+    },
+    {
+      "path": "A3-C30-formation-reacceptance.md",
+      "sha256": "b103c6a800152616e59665f7e95404d6274a76a45cf7d5282c57f051f39c7af7"
+    },
+    {
+      "path": "A3-cn-batch19.json",
+      "sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc"
+    },
+    {
+      "path": "A3-cn-batch19-receipt.json",
+      "sha256": "abb2fd8613f22685a3703043465c2f9ef6ff754f8e9d7e61b6fce8e015944637"
+    },
+    {
+      "path": "A4-candidates-batch23.json",
+      "sha256": "a51effd83f1d26652d77ea447e22ff3d4d8f5fb302312d9d9d8b3d15d134ba52"
+    },
+    {
+      "path": "A3-en-batch23.json",
+      "sha256": "6df2a3aa3f220bb088dc59102681caf876b0bb6716cef83b4b09f34639306e59"
+    },
+    {
+      "path": "A3-en-batch23.md",
+      "sha256": "78c2a5a32f22a0b4280035ec26cc5d9c89a19ee249234cc3aecfbefd3d4ccbbb"
+    },
+    {
+      "path": "A3-en-batch23-receipt.json",
+      "sha256": "d958bcdbf5c70f32e9b3cd027f7b9c99295a531ed1bed0380d0ba1eaeeb99b75"
+    },
+    {
+      "path": "A4-candidates-batch24.json",
+      "sha256": "37696a1e10e2790ad3b40315a633f9ea2f39d5b170a2b19c56f04dce7dcdb7e3"
+    },
+    {
+      "path": "A3-en-batch24.json",
+      "sha256": "e617f4d99d4c50b8908de1e3c7a90d18b41f29654b536dbc8418d7f90e1e2cff"
+    },
+    {
+      "path": "A3-en-batch24.md",
+      "sha256": "ea00806b8c1038f83e172dfff35e6836f7f520e5c38d54b0e77249e75198f399"
+    },
+    {
+      "path": "A3-en-batch24-receipt.json",
+      "sha256": "e288369017b690b3ccd195b4adca309e9fe720bdba4b708c60fe13d5c90ed6d9"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E25",
+      "chinese_id": "C1-C30",
+      "chinese": "言有所为",
+      "english": "Hereby",
+      "family_id": "C1-BF-language-as-situated-action",
+      "suggested_pronunciation": "here-BY，/hɪrˈbaɪ/，两个音节；词典亦列前重音读法。",
+      "type": "既有完整词典副词，语用角色化品牌转用",
+      "formation": "直接选用完整英语词hereby，不拆出新词根或改字母。Merriam-Webster释义为by this means，表示以此；其词典例句中有通过当前宣告宣布仪式开始的用法。本案取的是“以这次发言来完成某种行为”的语用角色，不再把语言和行动的两个常词拼在一起。Hereby并非Austin节选正式术语，也不宣称本次新造。",
+      "bilingual_relation": "中文言有所为把说话与行动置于同一情境，英文Hereby指向当前这个发言作为行为的方式。例如合适情境中的命名、宣告，不只是报告将来要做的事。英文不是四字直译，二者共享话语在情境中承担行动角色的关系；中文仍是已有学术表达的再选择。",
+      "meaning": "把语言放在它实际承担作用的现场。研究的对象既包括说了什么，也包括谁在什么条件下说、这次发言在共同实践中做了什么；这个名字不为任何技术性能打包担保。",
+      "shortcoming": "正式、公文和法律文书感较强，可能先像合同/签署服务或法律科技；单独副词作为品牌仍需建立称呼习惯，并不直接说AI。口头也可能听写成Here By、Hearby或Herebuy，需交A3覆盖近形；不能因为现成词读得顺就宣称独特或可用。",
+      "boundary": "hereby词义广于言语行为，本案是明确的品牌转用，不是词典给出Austin理论的全部定义。一个词不赋予角色权限，也不保证情境适合、承诺兑现或模型调用成功；其他配套行为可能仍必要。不是魔法口令、法律效力或改变世界的性能承诺。中文同源学术/书名既有使用、教育翻译出版与PEP未核索引照留。",
+      "source_urls": [
+        "https://web.stanford.edu/class/ihum54/Austin_on_speech_acts.htm",
+        "https://www.merriam-webster.com/dictionary/hereby"
+      ],
+      "read_scope": "本人此前实际完整读Stanford教学网页49行Austin作者节选，重点10–29与41–48行情境及配套行为；本次沿用不冒称新读全书。本人本次实际打开Merriam-Webster hereby词条31–41行释义、读法和三个示例，核完整副词及通过发言宣告的用法；未核该词全部历史词源或本次商业使用。另实读A3-en24正式决定、证据/MD/receipt并核输出SHA，不重开其网站或背书性能。",
+      "chinese_formation_current": "既有中文学术表达的再选择；最初英语关系凝练路径与既有译述重合。",
+      "rework_attempt": 2,
+      "remaining_reworks": 0,
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "usage_screening_performed": false,
+  "rework": {
+    "attempt": 2,
+    "remaining_after_this": 0,
+    "previous_english_id": "C1-E24",
+    "reason": "Saydo已有深圳科技产品/国际化品牌及Mac语音AI软件完整同核心使用，不是Sedo近听误杀。回到情境中当前发言的具体语用角色，非旧稿字母/后缀修改。",
+    "not_new_chinese_family": true
+  }
+}

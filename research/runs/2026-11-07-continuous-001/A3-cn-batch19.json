@@ -1,0 +1,133 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T13:32:05.098387+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch17.md",
+      "sha256": "cb0e4b62dd78e2754c74402e7186e0e9121ca9b76293c6a111f64a289edc1dd2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch17.json",
+      "sha256": "d51374c05140f2c05ea4acc5877f7c3ff47903a654fee4483d8a4eb1e6564fc3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch17.json",
+      "sha256": "6dce8c6b0f529882fdb36d93e9bdac29d55138f0fce9f66edeb1bd2b7c1e7369"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension16.json",
+      "sha256": "569977557a7fd1019204cbb3dcab108444cf242990e01e949c31c842b29ca0cd"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch17.json",
+      "sha256": "9708f5d24f401197346a05624dbec732ee80e21fbf47f4a79948061bba30d043"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch17.json",
+      "sha256": "de44a10f5b3d1fa681cf8f1e442f875e45456dad2c936e65b165c923dbde7ae7"
+    }
+  ],
+  "query_count": 10,
+  "results": [
+    {
+      "candidate_id": "C1-C30",
+      "name": "言有所为",
+      "query_logs": [
+        {
+          "query": "\"言有所为\"",
+          "executed_on": "2026-11-08",
+          "summary": "现成语用学施为句论述/词组、论文与书样章，未证商业主体。"
+        },
+        {
+          "query": "\"言有所为科技\"",
+          "executed_on": "2026-11-08",
+          "summary": "科技发展有所为等政论/泛词分散命中，未见言有所为科技完整主体。"
+        },
+        {
+          "query": "\"言有所为智能\"",
+          "executed_on": "2026-11-08",
+          "summary": "智慧教育/AI资讯普通文句，未证言有所为智能完整主体。"
+        },
+        {
+          "query": "\"言有所为\" 公司 品牌",
+          "executed_on": "2026-11-08",
+          "summary": "中青旅品牌价值普通文句及小学口语书目，无同核心公司确证。"
+        },
+        {
+          "query": "\"言有所为\" AI 模型 软件",
+          "executed_on": "2026-11-08",
+          "summary": "语言学论文/教材与AI图书页面，未见以此命名的模型或独立软件。"
+        },
+        {
+          "query": "\"言有所為\" 公司 軟體",
+          "executed_on": "2026-11-08",
+          "summary": "繁体学术书评/论文与云市集普通文句，非同名软件主体。"
+        },
+        {
+          "query": "\"yanyousuowei\" company",
+          "executed_on": "2026-11-08",
+          "summary": "拼音无结果，未据此推全球可用。"
+        },
+        {
+          "query": "\"言有所为\" 有限公司",
+          "executed_on": "2026-11-08",
+          "summary": "高校教授既有专著书名及论文、课程，未确证有限公司同名。"
+        },
+        {
+          "query": "\"言有所为\" 教育 品牌 公司",
+          "executed_on": "2026-11-08",
+          "summary": "教育品牌定向仍主要语用学教材/活动普通文句，未发现完整商业机构。"
+        },
+        {
+          "query": "\"言有所为\" 书 李秀蕾",
+          "executed_on": "2026-11-08",
+          "summary": "定位李秀蕾书目引用与作者文章；书名既用、非科技软件，发布者原PDF超时，边界披露。"
+        }
+      ],
+      "decision": "public_use_screen_pass_with_existing_phrase_and_book_title_disclosure",
+      "reason": "10实际查询未确证完整同核心商业公司、模型或独立软件；主要现成学术表达/书名/教育论述。存在同源学术既有用语，不能称本轮首次发明四字；不是科技品牌使用否决，来源/原创程度需主控及A2复核后再下游。",
+      "evidence": [
+        {
+          "url": "https://fltrp-gy.oss-cn-shanghai.aliyuncs.com/gykejianupload/20211027/files/%E8%A8%80%E8%AF%AD%E8%A1%8C%E4%B8%BA%E7%9A%84%E4%BC%9A%E8%AF%9D%E5%88%86%E6%9E%90%E7%A0%94%E7%A9%B6%E7%9B%AE%E5%BD%95%2B%E6%A0%B7%E7%AB%A0.pdf",
+          "access": "publisher_sample_body_read_existing_academic_phrase",
+          "finding": "9页外研社书样章PDF第5页L137–139，现成以言有所为解释施为句；是学术用法不是独立品牌。与本案Austin关系同源，原来源声明不可扩大为首次造出中文四字或无人这样译。"
+        },
+        {
+          "url": "https://fls.hbut.edu.cn/info/1143/6542.htm",
+          "access": "university_author_bibliography_body_read",
+          "finding": "L16/37/41孙炳文2017专著从言有所为到译有所为-机构话语翻译中的目的等效研究。书名较长且为学术出版，不自动判同核心公司或软件，但现成语言思想用法须披露。"
+        },
+        {
+          "url": "https://www.pep.com.cn/bks/xxyw/jzjd/202506/W020250624367270655939.pdf",
+          "access": "publisher_journal_search_index_open_and_curl_timeout",
+          "finding": "索引参考文献列李秀蕾2023言有所为：小学语文口语交际类化教学。web及curl25秒超时无下载，未读正文/书本；只是具体书目线索，不假称公司或商标品牌。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本runNov7实际403共同入口，非本次新访问，无逐名工商核名。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本runNov7共同403，无逐名9/42。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Yanyousuowei",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      },
+      "source_wording_review_required": "已读出版社样章证实同源现成中文学术表达；A2可说明独立采用/重新凝练，不可声称第一次造词。",
+      "english_screening_performed": false
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "passed_chinese_candidate_ids": [
+    "C1-C30"
+  ]
+}

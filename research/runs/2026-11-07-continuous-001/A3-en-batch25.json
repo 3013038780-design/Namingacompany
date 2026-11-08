@@ -1,0 +1,133 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T13:57:09.855012+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch25.md",
+      "sha256": "72b7e5bf7189efbd981be8dcf112e65ad57349e48772bf4b70cb65824ee663b4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch25.json",
+      "sha256": "3a475e0f42f68d80b74d8bb896fe2ac06be57046741354b7e40de1f0101eef1a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch25.json",
+      "sha256": "287bfb129e3591352171fd20a2d7c7cfa937f0f1d7b9e61cc6b92877f0372c5c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch25.json",
+      "sha256": "fdd431725b6cebb7ca8b16187b19f87fa1ef6714a2f8cf71007872d0e48d606f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch25.json",
+      "sha256": "6016e6fa4415a33c4454597913e99f692f7bbca638364e9450573b9ab25adc11"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch19.json",
+      "sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-C30-formation-reacceptance.json",
+      "sha256": "ae6cf8dfd04f850162e3498a6d5c9527f943892ba2bf97068100bcceb39017f6"
+    }
+  ],
+  "query_count": 8,
+  "results": [
+    {
+      "candidate_id": "C1-E25",
+      "name": "Hereby",
+      "query_logs": [
+        {
+          "query": "\"Hereby\"",
+          "executed_on": "2026-11-08",
+          "summary": "合同管理Hereby官网/主体社交资料与词典普通副词；普通副词不等于品牌，但发现确切软件官网。"
+        },
+        {
+          "query": "\"Hereby\" company lab",
+          "executed_on": "2026-11-08",
+          "summary": "第三方Hereby合同科技公司目录与普通法律句，官网独立核实软件品牌，不据目录判法人在营。"
+        },
+        {
+          "query": "\"Hereby\" AI model",
+          "executed_on": "2026-11-08",
+          "summary": "Hereby AI合同管理平台具名功能；不是独立基础模型名，不背书合同法律效果。"
+        },
+        {
+          "query": "\"Hereby\" software product",
+          "executed_on": "2026-11-08",
+          "summary": "同名合同软件及Hereby员工考勤App线索；合同官网正文足以确证软件名。"
+        },
+        {
+          "query": "\"Here By\" company software",
+          "executed_on": "2026-11-08",
+          "summary": "Here by Hines为较长复合应用名，分写和主体另存，不作为精确Hereby主证。"
+        },
+        {
+          "query": "\"Hearby\" AI app",
+          "executed_on": "2026-11-08",
+          "summary": "Hearby活动App与Ask Hearby，官网平台正文已核，a拼写不同为近形不是精确。"
+        },
+        {
+          "query": "\"Herebuy\" company",
+          "executed_on": "2026-11-08",
+          "summary": "Herebuy近形香港贸易公司历史注册列表及加拿大商标申请人；不是Hereby，不将历史索引当当前登记。"
+        },
+        {
+          "query": "\"hereby\" npm task runner",
+          "executed_on": "2026-11-08",
+          "summary": "定向npm任务运行器查询实际发现作者仓库，npm页403但官方GitHubREADME正文明确完整hereby软件。"
+        }
+      ],
+      "decision": "reject_exact_named_task_runner_and_ai_contract_platform",
+      "reason": "作者官方hereby任务运行器仓库明确完整名、安装及CLI使用；另hereby.me为同名AI合同管理平台。是独立软件命名而非普通合同副词/源码变量，拒绝英文。最后R2用尽，不再返工。",
+      "evidence": [
+        {
+          "url": "https://github.com/jakebailey/hereby",
+          "access": "primary_author_software_body_read",
+          "finding": "L197–207 hereby标题、Node任务运行器及npm安装、Herebyfile；L253–270 CLI任务运行与模块说明。实际读作者仓库，不依主控记忆，不下载/安装/运行。"
+        },
+        {
+          "url": "https://www.npmjs.com/package/hereby",
+          "access": "search_index_only_open403",
+          "finding": "搜索索引独立列hereby任务运行器并链jakebailey仓库；实际打开403，不冒称包页正文可读，完整软件已据作者README核实。"
+        },
+        {
+          "url": "https://hereby.me/",
+          "access": "primary_product_body_read",
+          "finding": "L3–5 hereby合同生命周期产品，L44–51称AI合同代理，L69–99生成/审阅/结构化知识功能。只核公开软件品牌，不背书法律有效、安全认证、性能或公司存续。"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.hearby.app",
+          "access": "primary_near_spelling_app_body_read",
+          "finding": "L15 Hearby/Area4 Labs，L84–90活动发现工具，拼法是Hearby而不是Hereby，近形单列非精确主证。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本runNov7共同入口实际403，非本次新访问或逐名核名。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用Nov7共同403，无逐名9/42商标。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Hereby",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      },
+      "chinese_candidate_id": "C1-C30",
+      "chinese": "言有所为",
+      "english_attempt": 2,
+      "remaining_english_reworks": 0,
+      "precise_use_type": "exact_independent_node_task_runner_and_ai_contract_software",
+      "closure": "C30英文首稿Wordact、首返Saydo、末返Hereby均有具体使用避让/拒绝，本轮无合格配对，英文额度关闭不R3。中文原查及形成补记保持历史状态，不自动中文市场占用。"
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。"
+}

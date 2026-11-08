@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T13:12:53.735819+08:00",
+  "generated_at": "2026-11-08T14:00:26.489937+08:00",
   "feed_url": "https://raw.githubusercontent.com/3013038780-design/Namingacompany/codex/naming-research-pilot/research/catalog/website.json",
   "counts": {
     "discussion_candidates": 24,
@@ -6476,9 +6476,89 @@
       "shortcoming": "可能像创意工作室、文化播客或书名，科技行业首感并非唯一；灵感一词也易让人以为生成内容公司。若需要先读论文才能当AI Lab，应质量淘汰，不能按出处加身份分。",
       "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch15.json",
       "english_attempts": []
+    },
+    {
+      "chinese_id": "C1-C29",
+      "chinese": "失算",
+      "status": "已有完整同名游戏软件使用，淘汰",
+      "reason": "中文质量品牌审阅25/作者26后，独立查重八查询，TapTap官方入驻具名游戏失算/失算测试，试玩DEMO及开发者正文明确使用。品牌审阅独立读页面；当前供应商chenbainian/工作室cbn522，不沿旧缓存误认法人，不称同名AI模型或登记核准。",
+      "evidence_refs": [
+        "A2-candidates-batch16.json",
+        "A3-cn-batch18.json",
+        "continuations/2026-11-08T051531Z/root-C29-use-verification.json"
+      ],
+      "run": "research/runs/2026-11-07-continuous-001",
+      "source": [
+        {
+          "title": "Schultz, Dayan & Montague: A Neural Substrate of Prediction and Reward",
+          "url": "https://www.gatsby.ucl.ac.uk/~dayan/papers/sdm97.pdf",
+          "published_at": "1997-03-14",
+          "reading_location": "作者机构托管7页论文PDF，本次实际读前3页（印刷1593–1595），L24–121背景与blocking、L130–265神经活动/图1、L272–391 TD定义及假设。未读后四页及原引实验；首24行是前篇参考文献，未误当本篇。",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_PDF_body",
+          "read_at": "2026-11-08T13:19:15.266477+08:00"
+        }
+      ],
+      "meaning": "把没有算准的地方看清楚。",
+      "crossing": "日常没料中的经验与计算系统的预期差，共同具有可比较的预期与结果；失算并不只是不够聪明，也提出应如何面对不符。",
+      "shortcoming": "失算通常是批评，会引出不可靠、经营失败、预测不准等强负面联想；本轮没有用励志话术消除这些成本。也可能像财经内容或计算工具。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch16.json",
+      "english_attempts": []
+    },
+    {
+      "chinese_id": "C1-C30",
+      "chinese": "言有所为",
+      "status": "中文初筛通过，英文返工耗尽，非完整备选",
+      "reason": "中文十查询通过但四字为已有学术表达再选择，非首造，原A2/品牌审阅/同一独立审查来源补记已实际验收。Wordact已有历史具名网站软件；Saydo已有势度科技品牌和Mac语音AI软件；Hereby已有Node任务运行器及AI合同平台。两次英文返工用尽，无完整双语，不继续更换英文。",
+      "evidence_refs": [
+        "A3-cn-batch19.json",
+        "A2-C30-formation-addendum.json",
+        "coordinator-C30-formation-reacceptance.json",
+        "A3-C30-formation-reacceptance.json",
+        "A3-en-batch23.json",
+        "A3-en-batch24.json",
+        "A3-en-batch25.json",
+        "A4-closeout-batch17.json"
+      ],
+      "run": "research/runs/2026-11-07-continuous-001",
+      "source": [
+        {
+          "title": "J. L. Austin, How to Do Things with Words：Stanford教学网页所收作者原文节选",
+          "url": "https://web.stanford.edu/class/ihum54/Austin_on_speech_acts.htm",
+          "published_at": null,
+          "work_date": "页面标书1962；本页发布日期未知，不核准其编者/版本排印细节",
+          "reading_location": "实际读网页完整作者节选L4–48，所标书页5–8（定义、例子、情境与配套行为）及139（话语情境）；不是读全书或完整Lectures。",
+          "reading_scope": "primary_text_selected_excerpts",
+          "access": "body",
+          "method": "web_HTML_body",
+          "read_at": "2026-11-08T13:27:28.322340+08:00"
+        }
+      ],
+      "meaning": "让语言具有行动的位置。",
+      "crossing": "日常说话与行动并非两个各自美好的领域：在特定共同实践中，发言本来就在做事。品牌可连接语言与行动研究，但不自称已有确定性能。",
+      "shortcoming": "有所为可能像价值宣言、公益组织或语言培训品牌，存在口号感；若不加解释就不能承载AI研究机构，须质量淘汰，哲学出处不能补分。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch17.json",
+      "english_attempts": [
+        "Wordact",
+        "Saydo",
+        "Hereby"
+      ]
     }
   ],
   "events": [
+    {
+      "id": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T051531Z/result.json",
+      "at": "2026-11-08T14:00:07.565926+08:00",
+      "date": "2026-11-08",
+      "title": "研究更新",
+      "retained": 0,
+      "drafts": 2,
+      "materials": 2,
+      "pending": 1,
+      "reason": "失算已有TapTap完整同名具名游戏DEMO，八查询后淘汰。言有所为中文十查询通过，且已补正为既有学术表达再选择；三英文Wordact、Saydo、Hereby分别因历史网站软件、明确科技/AI软件、具名Node任务运行器及AI合同平台使用未保留，两次返工用尽，无完整配对。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/continuations/2026-11-08T051531Z/result.json"
+    },
     {
       "id": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T033348Z/result.json",
       "at": "2026-11-08T13:12:53.500697+08:00",

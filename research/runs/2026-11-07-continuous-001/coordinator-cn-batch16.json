@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-08T13:21:07.934244+08:00",
+  "independence": "Read producer preview batch16 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C29",
+      "name": "失算",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "熟悉两字认知动作简短可直接复述",
+          "counter_association": "日常主要用于责备"
+        },
+        "distinctiveness": {
+          "reason": "声音短促且以非讨好表达形成可辨称呼",
+          "counter_association": "很可能出现常用语和作品名须分品牌使用"
+        },
+        "lab_fit": {
+          "reason": "计算预测及现实偏差的主体身份能承载计算与认识研究",
+          "counter_association": "客户可能直接联想算法不可靠这是显著商业成本且不得掩盖"
+        },
+        "grounding": {
+          "reason": "原文确有预期奖赏缺失时点的信号但中文是编辑比喻非科学原名",
+          "counter_association": "名称本身未保留奖赏时点与符号不能泛称算法"
+        },
+        "extension": {
+          "reason": "预测边界及结果反馈可容纳多个研究方向",
+          "counter_association": "不得宣称所有错误都能提升智能"
+        },
+        "semantic_coherence": {
+          "reason": "各层同属估计与实际可比较的落差",
+          "counter_association": "若退成算错也成长则丢独特来源且有历史家族风险"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

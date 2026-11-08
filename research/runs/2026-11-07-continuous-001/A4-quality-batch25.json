@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-08T13:53:45.633540+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E25",
+      "chinese_id": "C1-C30",
+      "english": "Hereby",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "完整常规副词两个音节，已有标准读法，无人为拼接发音。",
+          "counter_association": "重音可有两种常见读法，需统一品牌建议。"
+        },
+        "spelling": {
+          "reason": "标准词典拼法，熟悉者听到即可复述，没有新字母规则。",
+          "counter_association": "非熟悉者可能Here By/Hearby/Herebuy听写，需要A3近形筛查。"
+        },
+        "grounding": {
+          "reason": "by this means及词典宣告例子是词的真实用法，能和当前话语构成行为的情境相接。",
+          "counter_association": "hereby广于言语行为，不能当Austin理论严格定义或万能施为词。"
+        },
+        "bilingual_relation": {
+          "reason": "中英文共同落在当前发言可在合适情境承担行动角色，而非以后一定履行。",
+          "counter_association": "英文单词不能显示所有权限、约定及配套行为条件。"
+        },
+        "distinctiveness": {
+          "reason": "完整短词可成为机构称呼，避开旧两常词拼接的命令工具感。",
+          "counter_association": "法律公文/合同服务第一联想强，独立辨识只到最低接受；未知使用不用于加分。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "规范门槛未改，主观编辑自评；主控先读无分预览独评，同A3另查使用。"
+    }
+  ]
+}

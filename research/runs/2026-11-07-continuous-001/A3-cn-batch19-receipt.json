@@ -1,0 +1,54 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese screening",
+  "executed_at": "2026-11-08T13:32:05.098387+08:00",
+  "candidate_id": "C1-C30",
+  "decision": "public_use_screen_pass_with_existing_phrase_and_book_title_disclosure",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch17.md",
+      "sha256": "cb0e4b62dd78e2754c74402e7186e0e9121ca9b76293c6a111f64a289edc1dd2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch17.json",
+      "sha256": "d51374c05140f2c05ea4acc5877f7c3ff47903a654fee4483d8a4eb1e6564fc3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch17.json",
+      "sha256": "6dce8c6b0f529882fdb36d93e9bdac29d55138f0fce9f66edeb1bd2b7c1e7369"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension16.json",
+      "sha256": "569977557a7fd1019204cbb3dcab108444cf242990e01e949c31c842b29ca0cd"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch17.json",
+      "sha256": "9708f5d24f401197346a05624dbec732ee80e21fbf47f4a79948061bba30d043"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch17.json",
+      "sha256": "de44a10f5b3d1fa681cf8f1e442f875e45456dad2c936e65b165c923dbde7ae7"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch19.md",
+      "sha256": "3c210a50959e2341471b33b194da5964f19cb5097cfe716b21f23f1a96bdab08"
+    },
+    {
+      "path": "A3-cn-batch19.json",
+      "sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc"
+    }
+  ],
+  "actual_new_candidate_queries": 10,
+  "actual_new_chinese_queries": 10,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 337,
+  "agent3_cumulative_candidate_queries": 347,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 349,
+  "actual_execution": "实际候选/双评/材料/家族阅读，10查询并核出版社书样章及大学作者书目；教育书目原PDF web/curl超时不假正文。",
+  "next": "主控/A2核来源原创程度措辞后决定交原A4；中文使用初筛未确证商业占用不替代来源/质量终审。",
+  "unchanged": "旧稿/库/Git不改；无用户通知、无外部全文。"
+}

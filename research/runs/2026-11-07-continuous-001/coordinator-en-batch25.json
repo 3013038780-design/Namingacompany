@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-08T13:55:31.981995+08:00",
+  "independence": "Read producer preview batch25 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C30",
+      "name": "Hereby",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "现成两音节词词典有常规读法无需生造",
+          "counter_association": "不同重音两种常见读法须明确建议"
+        },
+        "spelling": {
+          "reason": "完整既有拼法可还原但仍需核听写",
+          "counter_association": "Here By或Hearby和Herebuy分写近听不能忽略"
+        },
+        "grounding": {
+          "reason": "词义以此及宣告例句真实但广于施为理论故只给清楚4",
+          "counter_association": "不能将每次hereby都说成Austin施为或保证效力"
+        },
+        "bilingual_relation": {
+          "reason": "以当前发言构成行为的语用位置连接中文而非硬译四字",
+          "counter_association": "条件权限及配套行为仍在不能作模型能力保证"
+        },
+        "distinctiveness": {
+          "reason": "单副词能成为称呼但法律公文和合同服务感使辨识只达最低",
+          "counter_association": "不是因为字典词就有独占性或科技身份优势"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E25"
+    }
+  ]
+}

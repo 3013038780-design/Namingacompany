@@ -1,0 +1,98 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-08T13:19:15.266477+08:00",
+  "stage": "same_run_bounded_package_batch16",
+  "input_refs": [
+    {
+      "path": "README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.md",
+      "sha256": "50023a0d4970380ebd3afb8969343e6aaadab41c468ae7be66bf2da8f20dcda9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.md",
+      "sha256": "9e2c1589037d9d564619fd8d9d861dffd13288087c4f7dec8e49d5ecbd702dde"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+      "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/plan-review.json",
+      "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T033348Z/decisions-through-batch15.json",
+      "sha256": "3c3d6523597943b538eb8dfbb23df8098fa0d27e0626c30949b6700f37f17185"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T033348Z/stale-material-status-correction.json",
+      "sha256": "525a94dfc03f9b38486d8caf654b5ce59fc596695581c0d96b872fa9e02d96eb"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T051531Z/material-proposal-index.json",
+      "sha256": "50e51af1018f7000d7be85d07574b6bfde01050a364decaab8cc0e8c2fda102e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A2-batch8.json",
+      "sha256": "75bc84915565d0c97cd6712af805dc06b96b8cc53e2b9cddc0def84fb7ce33a6"
+    }
+  ],
+  "history_scan": {
+    "method": "all non-input history JSON parsed; targeted exact draft and predictive-error family search, not all files manually reread",
+    "file_count": 634,
+    "manifest_sha256": "0ec9cedc43f3f6eb9b73b3b295b3af310d70179f8b53167ac2bec2d77bdf7513"
+  },
+  "reading_evidence": [
+    {
+      "title": "Schultz, Dayan & Montague: A Neural Substrate of Prediction and Reward",
+      "url": "https://www.gatsby.ucl.ac.uk/~dayan/papers/sdm97.pdf",
+      "published_at": "1997-03-14",
+      "reading_location": "作者机构托管7页论文PDF，本次实际读前3页（印刷1593–1595），L24–121背景与blocking、L130–265神经活动/图1、L272–391 TD定义及假设。未读后四页及原引实验；首24行是前篇参考文献，未误当本篇。",
+      "reading_scope": "excerpt",
+      "access": "body",
+      "method": "web_PDF_body",
+      "read_at": "2026-11-08T13:19:15.266477+08:00"
+    }
+  ],
+  "new_material_count": 1,
+  "new_chinese_draft_count": 1,
+  "new_english_count": 0,
+  "name_usage_queries_performed": false,
+  "output_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension15.json",
+      "sha256": "ad5ea5eb8a063d85b91e08ea92a1457d00a4e86c375135b0c73b9e3e814bc432"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch16.json",
+      "sha256": "eee1500c74c7f4637e589f6196a4257d36c959d2daabdd4dab434ad5c8a65668"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch16.md",
+      "sha256": "6e553c6779a0a2fb3dc0626ef0d302bc869180276bc90bd9e8f210faa45617d9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch16.json",
+      "sha256": "6a48f596dad549e17c77949341bbe7041ffae26c6e4f0f8c8e0dce5d0977be83"
+    }
+  ],
+  "whole_production_batch_complete": false,
+  "boundary": "不重开A1/计划；不恢复M18/M20/M22闭族，不改旧档/Git/catalog/feed，不查使用英文，无用户通知。新M36机制能否形成独立品牌族仍待主控，非凭新论文标题计新增。"
+}

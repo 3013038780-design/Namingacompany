@@ -1,3 +1,5 @@
+> 最新接续：**失算、言有所为**；本段0组完整双语新增。38次实际查询及来源补正见[本段结果](continuations/2026-11-08T051531Z/result.json)，全部30案见[最新去留](continuations/2026-11-08T051531Z/decisions-through-batch17.json)。
+
 # 持续研究001：逐名交付，继续补充
 
 [打开分类总库](../../catalog/README.md) · [第一新增完整记录](delivery-first.json)。本轮当前新增 **活桥 / Antspan、作数 / Factborne**；总库当前24组讨论备选、1组研究储备，共25个当前独立家族；另1组余量已撤回，不计备选。此前懒函数、有界好奇由储备转讨论，**不算新名字**。
@@ -116,3 +118,26 @@
 [本段结果](continuations/2026-11-08T033348Z/result.json) · [冻结28案去留](continuations/2026-11-08T033348Z/decisions-through-batch15.json) · [园丁鸟全链](continuations/2026-11-08T033348Z/handoffs-batch13.json) · [橡皮鸭全链](continuations/2026-11-08T033348Z/handoffs-batch14.json) · [灵感之外全链](continuations/2026-11-08T033348Z/handoffs-batch15.json) · [固定研究台](https://3013038780-design.github.io/Namingacompany/)
 
 本段原角色均已完成，保存检查点供现有每小时任务继续同001；不因零新增停止或降低标准，不新增重复调度。每段结果与网站feed同推现有PR，不部署界面或改旧站。整个生产规范整理仍未完成，不输出final.json。
+
+## 自动接续 · 2026-11-08 午后
+
+本段研究**失算、言有所为**，中文双评均过线，最终**完整双语新增0**；没有把中文通过或英文版本当成交付。
+
+| 名称 | 实际出处与关系 | 去留 |
+| --- | --- | --- |
+| 失算 | Schultz/Dayan/Montague 1997论文前3页：预期奖赏未到，在预期时点仍出现反馈；中文是日常比喻，不是算法译名。 | 8查询后，[TapTap](https://www.taptap.cn/app/915684)明确同名游戏DEMO及开发者介绍，淘汰。不把试玩写成正式发售，不据缓存强认当前法人。 |
+| 言有所为 | Austin作者节选：适合情境中的发言本身可构成行动；后查出版社中文样章已有同源四字，现准确解释为**既有学术表达再选择**，非首次造词。 | 中文10查询未确证同名商业/模型/软件，教育翻译出版联想披露；原A2补记、主控和同A3实际验收后再配英文。三版英文均未保留，返工耗尽，不R3。 |
+
+| 英文版本 | 具体未保留原因 |
+| --- | --- |
+| Wordact | 2021[开发者出售帖](https://www.sideprojectors.com/project/25647/wordact)与[产品提交](https://pitchwall.co/product/wordact)说明具名创意发布网站及源码/数据，属于历史软件使用；不称现时在营或注册占用。WorldAct仅另字近形框架。6查询。 |
+| Saydo | [深圳势度科技](https://www.say2do.com/about)明确产品/国际化品牌，另[SayDo](https://www.saydo.io/)具名Mac语音AI软件；不是Sedo近听误杀。6查询。 |
+| Hereby | 作者[任务运行器仓库](https://github.com/jakebailey/hereby)及[AI合同平台](https://hereby.me/)均明确完整核心名；不是合同副词出现。npm403未假读，未安装执行/背书性能。8查询。 |
+
+原A4实际完成失算零匹配，同一A3实际零英文终核；言有所为由原A4创作及两次返工、同一A3逐版独查，原A4实际读三次决定收尾。新读2素材、2中文、3英文版本，共38次A3候选查询；累计**37资料、30中文、25英文版本，A3查询367加既有主控2共369**。当前24讨论备选、1研究储备，旧待核实1项分开；本段没有重复旧403线索或把来源补记计新素材。
+
+中文补记保留原稿/评分/执行，不把事后发现的中文样章倒写成当初输入；[A2补记](A2-C30-formation-addendum.md)、[主控验收](coordinator-C30-formation-reacceptance.json)、[同A3验收](A3-C30-formation-reacceptance.md)均可查。
+
+[本段结果](continuations/2026-11-08T051531Z/result.json) · [失算全链](continuations/2026-11-08T051531Z/handoffs-batch16.json) · [言有所为全链](continuations/2026-11-08T051531Z/handoffs-batch17.json) · [最新30案](continuations/2026-11-08T051531Z/decisions-through-batch17.json) · [固定研究台](https://3013038780-design.github.io/Namingacompany/)
+
+原角色本段均已完成，下一段继续同001、同六方向与同门槛，扩大不同关系的比较，不把一次一词当固定规则，不设每日配额或数量终点。总库与每日feed同推现有PR，不合并、不部署界面、不改旧站；整个生产规范整理仍INCOMPLETE，官方核名与9/42商标未完成，不输出final.json。

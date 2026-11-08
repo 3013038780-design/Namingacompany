@@ -1,0 +1,127 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T13:46:30.157913+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch23.md",
+      "sha256": "202afecbb4e6a3f9c5eb30b247f9df630ed9be2479db89fbfb59277dc6e2c3be"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch23.json",
+      "sha256": "a51effd83f1d26652d77ea447e22ff3d4d8f5fb302312d9d9d8b3d15d134ba52"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch23.json",
+      "sha256": "816ed8822ca430b427e6d6c101a6570a0ad2049d9ed207a81d8b6e982511fb98"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch23.json",
+      "sha256": "d38e40e69633e73a64651ace06b65fcc2d36b314214fadacc8bef2c00dac802a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch23.json",
+      "sha256": "5fc3ad72d3846d6903be5500f7923384cf137e5646e384fe67b02775cbc2a10d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-family-review-batch23.json",
+      "sha256": "1e1d8c60622aa9cd32dc1a99058fbaa15c183506eb2f4a909e7db1193d7a2fd0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch19.json",
+      "sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-C30-formation-reacceptance.json",
+      "sha256": "ae6cf8dfd04f850162e3498a6d5c9527f943892ba2bf97068100bcceb39017f6"
+    }
+  ],
+  "query_count": 6,
+  "results": [
+    {
+      "candidate_id": "C1-E23",
+      "name": "Wordact",
+      "query_logs": [
+        {
+          "query": "\"Wordact\"",
+          "executed_on": "2026-11-08",
+          "summary": "发现Wordact完整历史网站项目出售帖和创建者提交，不是仅普通单词；后续正文核实际产品关系。"
+        },
+        {
+          "query": "\"Wordact\" company lab",
+          "executed_on": "2026-11-08",
+          "summary": "主要SaaSHub产品比较目录和当前域名疑义，不能凭其自动生成评语核公司；首方项目发布另核。"
+        },
+        {
+          "query": "\"Wordact\" AI model",
+          "executed_on": "2026-11-08",
+          "summary": "比较目录误挂atom域名与不可靠AI评语，没有精确Wordact基础模型确证。"
+        },
+        {
+          "query": "\"Wordact\" software product",
+          "executed_on": "2026-11-08",
+          "summary": "PitchWall完整产品发布平台及软件目录，产品功能正文已读。"
+        },
+        {
+          "query": "\"Word Act\" company software",
+          "executed_on": "2026-11-08",
+          "summary": "Microsoft Word文档文件名与让Word act的普通句子，不认作Word Act独立品牌。"
+        },
+        {
+          "query": "\"Worldact\" company AI",
+          "executed_on": "2026-11-08",
+          "summary": "WorldAct为SJTU官方3D AI软件框架，已核GitHub主体/源码，近形多l不能混称Wordact精确。"
+        }
+      ],
+      "decision": "return_for_historical_exact_software_project_and_near_ai_framework_avoidance",
+      "reason": "Wordact已是2021创作者发布网站的完整项目名，开发者出售帖列域名/源码/数据与功能，不是仅裸域名。当前原网站不可访问，按历史实际软件项目及近形WorldAct的AI框架混淆主动避让；不称现时在营公司、注册/商标占用或精确同名AI模型。",
+      "evidence": [
+        {
+          "url": "https://www.sideprojectors.com/project/25647/wordact",
+          "access": "developer_sale_listing_body_read",
+          "finding": "L0–13完整wordact项目名和创作作品发布功能、技术php/wordpress/HTML/CSS；L19–28出售域名/源码/数据及维护原因，2021-12-24挂出。卖方自述未核收入或流量，不是官方登记。"
+        },
+        {
+          "url": "https://pitchwall.co/product/wordact",
+          "access": "creator_product_submission_body_read",
+          "finding": "L17–37 WordAct创作者发布平台，2021-11-12提交，说明作品销售/打赏及plugins等类别。作者提交存在，不证现时公司存续。"
+        },
+        {
+          "url": "https://wordact.com/",
+          "access": "original_project_site_open_unavailable",
+          "finding": "实际打开不可访问，不能声称现时项目上线，也不能把当前停车/不可访问等于历史无使用。"
+        },
+        {
+          "url": "https://github.com/SJTU-DeepVisionLab/WorldAct",
+          "access": "primary_research_code_repository_body_read",
+          "finding": "L118–120官方实现，L165–178实际源码/环境目录，L187–208 WorldAct 3D场景框架及安装。与Wordact多l，属近形/近听AI技术项目，非精确同名或商标判定；未运行代码、未背书会议接收/性能。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本runNov7共同入口403，非本次新逐名登记。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用Nov7共同入口403，未逐名9/42商标。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Wordact",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      },
+      "chinese_candidate_id": "C1-C30",
+      "chinese": "言有所为",
+      "english_attempt": 0,
+      "remaining_english_reworks": 2,
+      "precise_use_type": "historical_exact_named_web_software_project_plus_near_spelling_active_ai_framework",
+      "chinese_source_disclosure": "中文现成学术表达再选择，原cn19与形成再验收保持，不因英文失败自动判中文市场占用。"
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。"
+}

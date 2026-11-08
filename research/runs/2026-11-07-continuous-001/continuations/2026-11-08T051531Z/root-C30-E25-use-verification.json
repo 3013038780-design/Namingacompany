@@ -1,0 +1,21 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-08T14:00:07.565926+08:00",
+  "candidate_id": "C1-C30",
+  "english_id": "C1-E25",
+  "decision": "accept_exact_named_software_rejection_final_rework_exhausted",
+  "actual_source_review": [
+    {
+      "url": "https://github.com/jakebailey/hereby",
+      "read": "主控实际README L197–207，完整hereby项目名、Node任务运行器说明及安装指令；仅阅读，未安装/执行。"
+    },
+    {
+      "url": "https://hereby.me/",
+      "read": "主控实际L3–5及44–99，hereby为具名合同管理AI平台；不是合同正文普通副词，不背书法律效力/性能/安全承诺。"
+    }
+  ],
+  "boundaries": "npm页原A3实际403，主控未另读该页；Hearby仅另字近形，不当精确主证。root未核记忆先交原A3独立查仓库后才作为证据。",
+  "new_root_candidate_queries": 0,
+  "remaining_English_reworks": 0,
+  "complete_pair": false
+}

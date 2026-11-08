@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-08T13:44:49.402518+08:00",
+  "independence": "Read producer preview batch23 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C30",
+      "name": "Wordact",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两词常规读法合为两拍可口头称呼",
+          "counter_association": "word末d到act元音需清晰衔接"
+        },
+        "spelling": {
+          "reason": "保留word与act完整拼法首次展示后可还原",
+          "counter_association": "Word Act与Worldact近听和分写有真实混淆成本"
+        },
+        "grounding": {
+          "reason": "普通词义和Austin发言构成行动关系确有来源",
+          "counter_association": "不是作者术语或词典既有Wordact也不称全球首造"
+        },
+        "bilingual_relation": {
+          "reason": "不逐字硬译中文而共享语言在情境中成为行动",
+          "counter_association": "必须排除说了就一定做到的理解"
+        },
+        "distinctiveness": {
+          "reason": "合写整体可作品牌但描述性偏强仅最低辨识",
+          "counter_association": "可能首先像文字工具或演讲培训机构"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E23"
+    }
+  ]
+}

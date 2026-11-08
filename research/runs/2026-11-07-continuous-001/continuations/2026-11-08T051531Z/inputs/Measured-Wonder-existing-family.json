@@ -1,0 +1,20 @@
+{
+  "source_commit": "11baeac4d1a069c0c9116c3830c9e3b7e8f3430b",
+  "catalog_sha256": "8db5c7fa2b9219061f2fb9d7565dbd09fddff3c8c066aeb736f07f202d499a71",
+  "entry": {
+    "id": "N0022",
+    "chinese": "有界好奇",
+    "english": "Measured Wonder",
+    "family_id": "CT-F-curiosity-objective-limitations",
+    "source": {
+      "title": "Burda等：Large-Scale Study of Curiosity-Driven Learning",
+      "url": "https://arxiv.org/pdf/1808.04355",
+      "read_scope": "实际读PDF第1–3页预测误差内在奖励；网页再取超时后curl下载，PyMuPDF实际读第10页Discussion/noisy-TV问题；未通读实验附录",
+      "date": "2018-08-13"
+    },
+    "fact": "预测误差可以作为内在奖励推动探索，但随机变化的电视画面等噪声会持续带来预测误差，吸引智能体而不一定带来任务进展。好奇目标和真正有用的学习并不总一致。",
+    "meaning": "保持好奇，也研究好奇在什么条件下有效。有界指有适用条件与需要辨别的范围，是品牌新组合，不宣称论文提出了叫“有界好奇”的算法或已给出数学上界。",
+    "crossing": "按CN6从真实研究问题形成态度，只讲有用学习需辨别的边界，不替用户宣称安全、开放或最强；按CN3保留探索目标与学习价值并非同一物这一实际关系。",
+    "brief": "保持探索，也辨别新奇何时真正带来学习价值。"
+  }
+}
