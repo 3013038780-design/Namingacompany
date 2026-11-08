@@ -178,6 +178,12 @@
     "old_site_untouched": true,
     "url": "https://3013038780-design.github.io/Namingacompany/",
     "sites_url": "https://naming-research-desk.panelladelva5115.chatgpt.site",
-    "update_after_every_segment": "python3 scripts/build_catalog.py then python3 scripts/build_site_feed.py; push research/catalog/website.json to existing branch/PR; website reads it without UI redeploy"
+    "update_after_every_segment": "python3 scripts/build_catalog.py then python3 scripts/build_site_feed.py; push research/catalog/website.json to existing branch/PR; website reads it without UI redeploy",
+    "latest_publication_verification": {
+      "research_commit": "86ae08023120cd4b9826be545d63e3d95274ba03",
+      "committed_feed_confirmed": true,
+      "branch_feed_observed_snapshot": "2026-11-08T182806Z",
+      "next_resume_check": "核对固定分支公开feed缓存是否已刷新到192536Z；不重新部署UI或另建调度。"
+    }
   }
 }
