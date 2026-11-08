@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T00:43:36.042975+08:00",
+  "updated_at": "2026-11-08T11:10:16.344583+08:00",
   "policy": "continuous_no_quantity_quota",
   "scheduler": {
     "id": "automation",
@@ -19,8 +19,8 @@
     "historical_unique_families": 26
   },
   "active_run": "research/runs/2026-11-07-continuous-001",
-  "actual_state": "research_checkpointed_site_live_ready_to_resume",
-  "next_action": "同一001继续：C23英文仅在有可读新原始证据时补核具体酒款线索，不反复相同403、不得换英文R3；原A2继续不同关系C24/M32起。每次结果先写冻结记录和队列，再build_catalog与build_site_feed，推现有PR，固定网站自动读取新数据。不部署旧站，不另开重复调度。",
+  "actual_state": "checkpoint_two_packets_closed_no_active_agents_same_run_next_materials_pending",
+  "next_action": "接续原A2同一001，从原计划S1/S2等自然与日常入口先实际阅读新的具体关系（可优先核园丁鸟透视入口，尚未读不算素材），不只围绕验证、数据、音声或课本术语；交无分中文后主控独评，再同A3中文→原A4英文→同A3英文→主控终审。不得重新换C24英文或反复查Maymatter同403线索。",
   "pending_stages": [
     "A2真实资料→中文创作；先素材小批内部快审",
     "主控独立中文质量→同A3中文使用筛查",
@@ -90,8 +90,8 @@
     ],
     "new_names_yet": 2,
     "whole_24_family_research_complete": false,
-    "cumulative_materials": 31,
-    "cumulative_chinese_drafts": 23
+    "cumulative_materials": 33,
+    "cumulative_chinese_drafts": 25
   },
   "closed_current_families": {
     "C1-C01": "英文3版已有商业使用，返工耗尽",
@@ -103,21 +103,23 @@
     "C1-C19": "分身有别中文公开使用通过，但Ownwrite质量失败未查，Branchwise同名模型/软件，Kinstate已有历史企业名称编辑避让，英文2次返工耗尽，禁止R3及同族新增",
     "C1-C20": "声入纹自然度/Lab身份未过，未查，不以声音纹路同族变体充新增",
     "C1-C21": "识局官网明确商业核心识局控股，同名使用淘汰，不换英文救回",
-    "C1-C22": "伶伦已被官方AI音乐制作系统使用，不配英文救回"
+    "C1-C22": "伶伦已被官方AI音乐制作系统使用，不配英文救回",
+    "C1-C24": "中文公开使用初筛过，Reinquire广告软件，Fresh Witness旧Witness家族，Otherdata同核心软件；英文两次返工用尽，不R3。",
+    "C1-C25": "补码Lab身份3<4，主控24/作者25，质量淘汰未查；实际A3/A4/A3零输入收尾，不称占用。"
   },
-  "heartbeat_checkpoint": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T155304Z/result.json",
-  "latest_frozen_decision_snapshot": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T155304Z/decisions-through-batch10.json",
-  "latest_continuation_result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T155304Z/result.json",
+  "heartbeat_checkpoint": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T023853Z/resume.json",
+  "latest_frozen_decision_snapshot": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T023853Z/decisions-through-batch12.json",
+  "latest_continuation_result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T023853Z/result.json",
   "latest_completed_packet": {
     "new_retained_families": 0,
-    "new_materials": 3,
-    "new_chinese": 4,
+    "new_materials": 2,
+    "new_chinese": 2,
     "new_english_versions": 3,
-    "A3_new_queries": 65,
+    "A3_new_queries": 29,
     "root_additional_queries": 0,
-    "cumulative_A3_queries": 283,
-    "combined_recorded_queries": 285,
-    "result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T155304Z/result.json"
+    "cumulative_A3_queries": 312,
+    "combined_recorded_queries": 314,
+    "result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T023853Z/result.json"
   },
   "pending_evidence": [
     {
@@ -127,7 +129,9 @@
       "english": "Maymatter",
       "state": "unresolved_specific_commercial_lead",
       "detail": "Cellier des Maymatter酒款拍卖索引，原文403，未确证占用亦未排除；只能补证据，不能英文R3。",
-      "record": "research/runs/2026-11-07-continuous-001/A3-en-batch19.json"
+      "record": "research/runs/2026-11-07-continuous-001/A3-en-batch19.json",
+      "last_followup": "research/runs/2026-11-07-continuous-001/A3-C23-evidence-followup-20261108.json",
+      "followup_outcome": "两次不同一手入口定位均无新可读原证，维持暂停；停止重复补查。"
     }
   ],
   "website": {

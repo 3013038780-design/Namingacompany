@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T00:45:37.967669+08:00",
+  "generated_at": "2026-11-08T11:10:25.399271+08:00",
   "feed_url": "https://raw.githubusercontent.com/3013038780-design/Namingacompany/codex/naming-research-pilot/research/catalog/website.json",
   "counts": {
     "discussion_candidates": 24,
@@ -6304,9 +6304,82 @@
         "Still in Play",
         "Maymatter"
       ]
+    },
+    {
+      "chinese_id": "C1-C24",
+      "chinese": "复证",
+      "status": "中文通过，英文返工耗尽，非完整备选",
+      "reason": "中文12查询加正确繁体復證2查询未见确切整体使用，披露富正同音风险。Reinquire已有同名广告软件，Fresh Witness与旧Single Witness同根角色家族、未送查询，最后Otherdata已有OTHER DATA在线分析软件。两次英文返工用尽，不继续换英文。",
+      "run": "research/runs/2026-11-07-continuous-001",
+      "source": [
+        {
+          "title": "National Academies of Sciences, Engineering, and Medicine: Reproducibility and Replicability in Science, Chapter 3",
+          "url": "https://www.nationalacademies.org/read/25303/chapter/6",
+          "published_at": "2019",
+          "reading_location": "本次实际读取HTML章首及正文L53–228，重点L120–228（纸本42–46页）：术语分歧、同数据重算与新数据研究、定义及测量条件边界；没有通读本章后半或整书。",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body",
+          "read_at": "2026-11-08T10:46:46.094994+08:00"
+        }
+      ],
+      "meaning": "让认识再接受事实的检验。",
+      "crossing": "日常的再核实与科研中新数据复核共用同一动作，借方法角色建立实验室身份，不复述一项AI功能。",
+      "shortcoming": "可能像检测认证服务，也有复症/复正近音；若要靠完整读书解释才像AI Lab，应质量淘汰，不能靠真实出处补分。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch11.json",
+      "english_attempts": [
+        "Reinquire",
+        "Fresh Witness",
+        "Otherdata"
+      ]
+    },
+    {
+      "chinese_id": "C1-C25",
+      "chinese": "补码",
+      "status": "质量淘汰，未查",
+      "reason": "原理真实，品牌审阅独立24分且Lab身份3<4；作者25，最大轴差1。首感偏编程教学/工具，未达独立研究品牌门槛；未进行使用查重，不称占用或可用。",
+      "evidence_refs": [
+        "materials-extension11.json",
+        "A2-candidates-batch12.json",
+        "A2-quality-batch12.json",
+        "coordinator-cn-batch12.json",
+        "coordinator-family-review-batch12.json",
+        "A3-cn-batch14.json",
+        "A4-zero-batch12.json"
+      ],
+      "run": "research/runs/2026-11-07-continuous-001",
+      "source": [
+        {
+          "title": "Douglas W. Jones, University of Iowa, CS:2630 Notes Chapter 2: Data Representation",
+          "url": "https://homepage.cs.uiowa.edu/~dwjones/assem/fall19/notes/02data.shtml",
+          "published_at": "2019 course path; precise publication day not established",
+          "reading_location": "本次实读章首L2–14以及two's complement所在L754–794：补码取负、单一零、负数范围边界、加减表示与溢出。没有通读该章其他小节；不用章首C语言局部变量/溢出段作为本名事实依据。",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body",
+          "read_at": "2026-11-08T11:05:40.440039+08:00"
+        }
+      ],
+      "meaning": "表示方式本身，也是一种计算能力。",
+      "crossing": "日常能读写的两字称呼，背后是计算机器怎样表示正负与组织运算的基础关系；不是用补充代码冒充原理。",
+      "shortcoming": "可能先像软件工具、编程社区或培训机构，补有补丁/修复联想。若这一首感压过研究机构身份，应质量淘汰，不以大学出处补分。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch12.json",
+      "english_attempts": []
     }
   ],
   "events": [
+    {
+      "id": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T023853Z/result.json",
+      "at": "2026-11-08T11:10:16.344583+08:00",
+      "date": "2026-11-08",
+      "title": "研究更新",
+      "retained": 0,
+      "drafts": 2,
+      "materials": 2,
+      "pending": 1,
+      "reason": "复证中文公开使用初筛通过，Reinquire已有广告软件、Fresh Witness与旧Single Witness同根家族（未查使用）、Otherdata已有OTHER DATA在线分析软件，英文返工用尽。补码出处真实但研究品牌首感未达质量门槛，未查使用。活变量最后英文Maymatter两次定向补证仍无新可读原证，维持待核实并停止重复补查，不计备选。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/continuations/2026-11-08T023853Z/result.json"
+    },
     {
       "id": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T155304Z/result.json",
       "at": "2026-11-08T00:27:25.728158+08:00",
@@ -6364,7 +6437,9 @@
       "english": "Maymatter",
       "state": "unresolved_specific_commercial_lead",
       "detail": "Cellier des Maymatter酒款拍卖索引，原文页面目前无法访问，未确证占用亦未排除；只能补证据，后续只补充证据，不再更换英文。",
-      "record": "research/runs/2026-11-07-continuous-001/A3-en-batch19.json"
+      "record": "research/runs/2026-11-07-continuous-001/A3-en-batch19.json",
+      "last_followup": "research/runs/2026-11-07-continuous-001/A3-C23-evidence-followup-20261108.json",
+      "followup_outcome": "两次不同一手入口定位均无新可读原证，维持暂停；停止重复补查。"
     }
   ],
   "scheduler": {

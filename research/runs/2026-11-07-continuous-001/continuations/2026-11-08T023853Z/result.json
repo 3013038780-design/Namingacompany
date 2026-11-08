@@ -1,0 +1,121 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-08T02:38:53.639Z",
+  "completed_at": "2026-11-08T11:10:16.344583+08:00",
+  "status": "two_small_packets_closed_zero_retained_prior_evidence_hold_unchanged",
+  "actual_A1_basis_reused": [
+    "A1-final-input-reacceptance.json",
+    "A1-formation-feedback.json",
+    "search-plan.json",
+    "plan-review.json"
+  ],
+  "new_A1_research_claimed": false,
+  "actual_A2": "/root/continuous_a2",
+  "actual_A3_same_cn_en": "/root/live_a3",
+  "actual_A4": "/root/continuous_a4",
+  "new_materials": 2,
+  "new_chinese_drafts": 2,
+  "new_chinese_families_researched": 2,
+  "chinese_quality_passed": 1,
+  "chinese_public_use_passed": 1,
+  "new_english_versions": 3,
+  "english_quality_passed": 3,
+  "english_family_rejected_before_queries": 1,
+  "english_public_use_passed": 0,
+  "evidence_holds": 1,
+  "new_evidence_holds": 0,
+  "new_retained_families": 0,
+  "new_A3_candidate_query_executions": 29,
+  "new_root_candidate_query_executions": 0,
+  "cumulative_A3_candidate_query_executions": 312,
+  "root_additional_queries_prior_packet": 2,
+  "cumulative_recorded_candidate_query_executions": 314,
+  "cumulative_materials": 33,
+  "cumulative_chinese_drafts": 25,
+  "cumulative_english_versions": 22,
+  "catalog_counts_unchanged": {
+    "discussion_candidates": 24,
+    "research_reserves": 1,
+    "total_unique_families": 25,
+    "withdrawn_families": 1,
+    "historical_unique_families": 26
+  },
+  "reason": "复证中文公开使用初筛通过，Reinquire已有广告软件、Fresh Witness与旧Single Witness同根家族（未查使用）、Otherdata已有OTHER DATA在线分析软件，英文返工用尽。补码出处真实但研究品牌首感未达质量门槛，未查使用。活变量最后英文Maymatter两次定向补证仍无新可读原证，维持待核实并停止重复补查，不计备选。",
+  "query_breakdown": {
+    "C23_targeted_followup": 2,
+    "C24_Chinese_initial": 12,
+    "C24_Chinese_traditional_supplement": 2,
+    "C24_Reinquire": 7,
+    "C24_Fresh_Witness_not_searched": 0,
+    "C24_Otherdata": 6,
+    "C25_quality_reject_not_searched": 0
+  },
+  "website": "同一固定研究台读取更新feed；没有重新部署界面或修改旧网站。",
+  "whole_production_compliance_claimed": false,
+  "evidence_refs": [
+    {
+      "path": "A2-creation-execution-batch11.json",
+      "sha256": "1bb24101c08ea45bebe037313e031de64ed5fa0ab0beb6d30563e65f6b957850"
+    },
+    {
+      "path": "A2-creation-execution-batch12.json",
+      "sha256": "9cdbc4f7e8472a4d0910d2014fcd45eacec349f1d03a62bdc82e601319edf4b9"
+    },
+    {
+      "path": "A3-C23-evidence-followup-20261108.json",
+      "sha256": "a004669b21415f6a2eba2e2c738951da6faec5af587f58f9eabaf332d8ef66fc"
+    },
+    {
+      "path": "A3-cn-batch13.json",
+      "sha256": "e309200efff2c49126ce985443ec69d31bbf44e6dc75bca1ff4a57d6e598e5b4"
+    },
+    {
+      "path": "A3-cn-batch13-traditional-supplement.json",
+      "sha256": "3e766ae0e01a0f64bab83d7a99a06a2c0d53633228f2636bf9a129de5b018de0"
+    },
+    {
+      "path": "A3-en-batch20.json",
+      "sha256": "9fb02928fbb64dae722c776785e3fda72fb958aab34faa6dd94d8b52e0d8e024"
+    },
+    {
+      "path": "A3-en-batch22.json",
+      "sha256": "1f703a74c2286761f2114f81d2d592249d32bb6d84c7ffa90791e594a42cc15f"
+    },
+    {
+      "path": "A4-closeout-batch11.json",
+      "sha256": "c91105e2076902bc4aedc36e7df2c560bb863a2b695a75392c7285b650dd6cd6"
+    },
+    {
+      "path": "A3-cn-batch14.json",
+      "sha256": "316327419ce0085a3ce5469f5c1d750b2c9aee904f21be1d8eb495bce41cd364"
+    },
+    {
+      "path": "A4-zero-batch12.json",
+      "sha256": "3d7653c1d87bf5b722ef75e0b47afbcdf7f597fa17602afe125e0fd56c368181"
+    },
+    {
+      "path": "A3-en-zero-batch12.json",
+      "sha256": "65536760519322b58139f35ebd76c340924d0b23b00a1d14d27e8a932786b356"
+    },
+    {
+      "path": "continuations/2026-11-08T023853Z/handoffs.json",
+      "sha256": "f79444217ef156577eb3aeac14043bae102129ddaa0dbbe4fe3ddd400888bf41"
+    },
+    {
+      "path": "continuations/2026-11-08T023853Z/handoffs-batch12.json",
+      "sha256": "4da6d306ece31c2c7375f517fc51c68857f1c72d3290ef89ee5f0955ce3eb105"
+    },
+    {
+      "path": "continuations/2026-11-08T023853Z/decisions-through-batch12.json",
+      "sha256": "3dc9346b7fc789f6c157e9e818fdb34f82e2e298bc9bafcba08558ea0170abb4"
+    },
+    {
+      "path": "continuations/2026-11-08T023853Z/root-C24-last-english-verification.json",
+      "sha256": "e1cf9109c3239bac2c6037b2eebe923eb5ec7bf68bcdbb1c2660c953d308ee46"
+    },
+    {
+      "path": "coordinator-family-review-batch12.json",
+      "sha256": "33baa46d1ad253406aab14ac195e500e486ba950c7f9cef31bb41576c0e2da8b"
+    }
+  ]
+}

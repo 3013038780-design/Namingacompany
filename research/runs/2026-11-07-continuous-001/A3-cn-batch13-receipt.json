@@ -1,0 +1,48 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese screening",
+  "executed_at": "2026-11-08T10:51:25.804279+08:00",
+  "candidate_id": "C1-C24",
+  "decision": "public_use_screen_pass",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch11.md",
+      "sha256": "aa769f6d5d00c599be624290f8cc900646834b5980e05d162c63c86b2cfe91cc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch11.json",
+      "sha256": "76af2b122af8c2f5dfd7e3ded9e08559393182082f0ebd8bb483092ef72a1eec"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch11.json",
+      "sha256": "bd1113119914f52a398f9d634a1ae62c2f9278162bf096534aba1e6a24070209"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension10.json",
+      "sha256": "46b79ce31367a23388ba13910cf7aaa15ce69c8a824b16f7f2039027d376090b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch11.json",
+      "sha256": "b6efc93956396ce283b8097ef55ad096ba9a651ef6a8075a61b1a960743c3911"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch13.md",
+      "sha256": "b81d825d95aac72b646005783bf282ccf7efcf2542a9689612e033a66f45166c"
+    },
+    {
+      "path": "A3-cn-batch13.json",
+      "sha256": "e309200efff2c49126ce985443ec69d31bbf44e6dc75bca1ff4a57d6e598e5b4"
+    }
+  ],
+  "actual_new_candidate_queries": 12,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 285,
+  "agent3_cumulative_candidate_queries": 297,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 299,
+  "actual_execution": "实际读取新候选/素材/双评、当前规范和偏好，12次独立查询；读上海应急管理局及富正官方正文，区分通用复证与异字拼音品牌。",
+  "next": "交原A4为合格中文独立匹配英文；不继承中文通过为英文通过。",
+  "unchanged": "不改旧Actor、总库、Git，无用户通知；不附外部网页全文。"
+}

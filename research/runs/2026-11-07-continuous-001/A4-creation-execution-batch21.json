@@ -1,0 +1,73 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "executed_at": "2026-11-08T10:56:23.277054+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch11.json",
+      "sha256": "76af2b122af8c2f5dfd7e3ded9e08559393182082f0ebd8bb483092ef72a1eec"
+    },
+    {
+      "path": "materials-extension10.json",
+      "sha256": "46b79ce31367a23388ba13910cf7aaa15ce69c8a824b16f7f2039027d376090b"
+    },
+    {
+      "path": "coordinator-cn-batch11.json",
+      "sha256": "b6efc93956396ce283b8097ef55ad096ba9a651ef6a8075a61b1a960743c3911"
+    },
+    {
+      "path": "coordinator-family-review-batch11.json",
+      "sha256": "9bfcaff9c15350ffffb5b005fd4aa70551aebe991ad64f43a77b9392e659c429"
+    },
+    {
+      "path": "A3-cn-batch13.json",
+      "sha256": "e309200efff2c49126ce985443ec69d31bbf44e6dc75bca1ff4a57d6e598e5b4"
+    },
+    {
+      "path": "A3-cn-batch13-receipt.json",
+      "sha256": "03b22b6492ec0b57ce89420d3e7e451e7c198e5b92ecc46820e06dd629e96626"
+    },
+    {
+      "path": "A4-candidates-batch20.json",
+      "sha256": "deff2b9c9f2b61958f7dd64cf88de87091ce6acc1085fd16ac3c731f4ef97303"
+    },
+    {
+      "path": "A3-en-batch20.json",
+      "sha256": "9fb02928fbb64dae722c776785e3fda72fb958aab34faa6dd94d8b52e0d8e024"
+    },
+    {
+      "path": "A3-cn-batch13-traditional-supplement.json",
+      "sha256": "3e766ae0e01a0f64bab83d7a99a06a2c0d53633228f2636bf9a129de5b018de0"
+    }
+  ],
+  "actual_new_source_reads": [
+    {
+      "url": "https://www.merriam-webster.com/dictionary/witness",
+      "scope": "实际open/find到34–63行提供证据者与证据事物义"
+    }
+  ],
+  "reused_book_read": {
+    "url": "https://www.nationalacademies.org/read/25303/chapter/6",
+    "scope": "前稿已读120–151行，未冒称新通读书或章后半"
+  },
+  "actual_A3_input_read": [
+    "en20正式软件命名报告及来源差异，不背书风险全断言",
+    "cn13正确繁体復證两查询补档，原结论不变"
+  ],
+  "relationship_used": "新数据作为新的证据检验旧发现，非换个语气重复旧输出。",
+  "output_candidate_ids": [
+    "C1-E21"
+  ],
+  "new_chinese_names": 0,
+  "new_english_versions": 1,
+  "usage_queries": 0,
+  "registration_queries": 0,
+  "rework_attempt": 1,
+  "remaining_reworks": 1,
+  "outputs": [
+    "A4-preview-batch21.md",
+    "A4-candidates-batch21.json",
+    "A4-quality-batch21.json"
+  ],
+  "original_records_unchanged": true
+}

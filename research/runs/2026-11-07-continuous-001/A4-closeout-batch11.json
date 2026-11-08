@@ -1,0 +1,80 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "completed_at": "2026-11-08T11:02:38.004287+08:00",
+  "chinese_id": "C1-C24",
+  "chinese": "复证",
+  "family_id": "C1-BF-recheck-with-new-evidence",
+  "inputs": [
+    {
+      "path": "coordinator-en-batch20.json",
+      "sha256": "83fccad8f9c8569c155d0bf24b16a28874744ed72fac918f57c93417432bdf79"
+    },
+    {
+      "path": "coordinator-en-batch21.json",
+      "sha256": "19f9bb83a1707be3eccc76bf3244b2b7c675a1b9396a76d15cde1336eeaf0853"
+    },
+    {
+      "path": "coordinator-en-batch22.json",
+      "sha256": "674a1ba091d239ae9396f3211816d1d247d590bcc9c6d9d5e8759d69d18c7391"
+    },
+    {
+      "path": "coordinator-en-family-review-batch21.json",
+      "sha256": "5046775ff7238780f48ca9e4900b792505c27e7304804812c9e712c0d875ab3a"
+    },
+    {
+      "path": "continuations/2026-11-08T023853Z/inputs/Single-Witness-existing-family.json",
+      "sha256": "86469b03621fd9cc3640393400f98f8279f6baa8a5ed846b8b889803f73ae86d"
+    },
+    {
+      "path": "A3-en-batch20.json",
+      "sha256": "9fb02928fbb64dae722c776785e3fda72fb958aab34faa6dd94d8b52e0d8e024"
+    },
+    {
+      "path": "A3-en-batch22.json",
+      "sha256": "1f703a74c2286761f2114f81d2d592249d32bb6d84c7ffa90791e594a42cc15f"
+    },
+    {
+      "path": "A3-en-batch22-receipt.json",
+      "sha256": "82af89f8a0656fac1d86ef828c9daae9676ee04e43eb6f079abd6741f3740118"
+    },
+    {
+      "path": "A3-cn-batch13-traditional-supplement.json",
+      "sha256": "3e766ae0e01a0f64bab83d7a99a06a2c0d53633228f2636bf9a129de5b018de0"
+    }
+  ],
+  "actual_read_scope": "实际读取三个主控英文评审、E21家族否决与冻结历史条目、原A3 en20/en22正式决定和证据、en22 receipt及中文復證补档；核最新receipt输出SHA。本次未重开外部网页或执行样本。",
+  "versions": [
+    {
+      "id": "C1-E20",
+      "english": "Reinquire",
+      "attempt": 0,
+      "status": "existing_named_software_negative_association_avoidance",
+      "reason": "研究者报告明确以Reinquire命名Mac广告软件，依据具体程序命名与负面关联避让；不背书所有危害断言，也不称同名AI公司/商标登记。"
+    },
+    {
+      "id": "C1-E21",
+      "english": "Fresh Witness",
+      "attempt": 1,
+      "status": "quality_pass_history_family_reject_not_usage_screened",
+      "reason": "质量门通过，但冻结历史Single Witness已用同一证据见证角色；Single改Fresh为同根角色外壳，历史家族门否决。未送A3、不称市场占用。"
+    },
+    {
+      "id": "C1-E22",
+      "english": "Otherdata",
+      "attempt": 2,
+      "status": "same_core_named_data_software_spacing_avoidance",
+      "reason": "The Other官网OTHER DATA及专站条款明确在线分析软件，Otherdata仅去空格，按同核心软件避让；不是普通otherdata字段、不是已核AI模型或官方登记。"
+    }
+  ],
+  "chinese_status": "原公开使用初筛及正确繁体復證两查询补核仍保持；FUZHENG富正为异字拼音品牌风险，不直接作为英文。",
+  "qualified_complete_bilingual_pairs": 0,
+  "rework_attempts_used": 2,
+  "remaining_reworks": 0,
+  "final_family_state": "中文来源留研究，本族英文无合格配对，不入完整双语讨论备选；禁止R3。",
+  "scope": "仅关闭C24家族英文，本run001及后续其他研究仍可接续。",
+  "new_external_queries": 0,
+  "new_names": 0,
+  "new_scores": false,
+  "unchanged": "旧稿、分数、原receipt、总库、Git及网站均未改，无用户通知。"
+}

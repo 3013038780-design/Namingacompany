@@ -1,0 +1,75 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T10:46:46.094994+08:00",
+  "candidates": [
+    {
+      "id": "C1-C24",
+      "name": "复证",
+      "pinyin": "fù zhèng",
+      "material_id": "C1-M32",
+      "material_ids": [
+        "C1-M32"
+      ],
+      "family_id": "C1-BF-recheck-with-new-evidence",
+      "plan_direction_id": "C1-D-S6",
+      "case_ids": [
+        "B077",
+        "B022"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P3",
+        "C1-P4",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "National Academies of Sciences, Engineering, and Medicine: Reproducibility and Replicability in Science, Chapter 3",
+          "url": "https://www.nationalacademies.org/read/25303/chapter/6",
+          "published_at": "2019",
+          "reading_location": "本次实际读取HTML章首及正文L53–228，重点L120–228（纸本42–46页）：术语分歧、同数据重算与新数据研究、定义及测量条件边界；没有通读本章后半或整书。",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body",
+          "read_at": "2026-11-08T10:46:46.094994+08:00"
+        }
+      ],
+      "source_urls": [
+        "https://www.nationalacademies.org/read/25303/chapter/6"
+      ],
+      "formation": "由重新求证这一完整动作凝成复证；属于本轮中文表达，不声称是该书的官方中文术语，也不假称原文有这两个汉字。",
+      "relation_sentence": "一个研究结果交给新的数据再接受一次检验，看它是否仍然站得住。",
+      "condensation_path": "把重新和求证收束为同一个动作称呼：复限定再次，证指检验依据；两字不是学科词与吉祥字相拼。",
+      "meaning": "让认识再接受事实的检验。",
+      "crossing": "日常的再核实与科研中新数据复核共用同一动作，借方法角色建立实验室身份，不复述一项AI功能。",
+      "layers": [
+        "可以直接口头称呼的两字研究动作",
+        "认识需要经受新证据的态度",
+        "让一次结果成为可以继续检验的知识"
+      ],
+      "material_feature_retained": "保留对已有结论再次检验的动作；释义以新数据区分简单重播。",
+      "material_feature_lost": "名字本身不能区分同数据重算与新数据检验，也未包含误差范围和条件差异。",
+      "why_name_not_generic": "不是单独的成长、探索或智能修饰；重复动作明确作用于既有证据。但复核求证仍是常用研究语义，辨识可能不足，须接受主控首感判断。",
+      "shortcoming": "可能像检测认证服务，也有复症/复正近音；若要靠完整读书解释才像AI Lab，应质量淘汰，不能靠真实出处补分。",
+      "science_boundary": "独立新团队是原文允许方式之一，不是所有replication的必要条件。相容结果不是绝对真理，结果不相容也不能只据本节认定原研究造假。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "作数（C14）是一次行动形成结果，不评价结果是否在新数据下成立；M23结果独立审稿改变发表评价，不是另采数据检验；旧反例以单个反面事实否定一般命题，本项问新研究与原研究的一致程度。旧未尽之问是承认认识未完，本项指定可做的复核动作。未因新书名自动认新家族，交主控保守审查。 本次历史JSON字面扫描无复证/複證既有命中，不等于市场无使用。",
+        "exact_history_hits": []
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是复证，做人工智能研究。",
+        "复证发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened"
+    }
+  ],
+  "scope": "一个中文草案；无使用查重、无英文、无可用性结论。"
+}

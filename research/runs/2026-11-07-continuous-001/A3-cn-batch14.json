@@ -1,0 +1,47 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese upstream gate verification",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T11:07:33.842502+08:00",
+  "inputs": [
+    {
+      "path": "A2-preview-batch12.md",
+      "sha256": "831e43d7eb8939e49431c9b70abd0d2a89136045274d5b37c9759dc7a459b187"
+    },
+    {
+      "path": "A2-candidates-batch12.json",
+      "sha256": "321cc74ede8fd9bdd8ac62a089ead76ae3c122f9ada7d18e3b1600e994063542"
+    },
+    {
+      "path": "A2-quality-batch12.json",
+      "sha256": "f05a00c1688d34060c58a1c008253ebb266cc325a720599312d9e86ffaa264f6"
+    },
+    {
+      "path": "coordinator-cn-batch12.json",
+      "sha256": "d674ac35967022418211abc2662e16fb7c6252eb71ed0f81ec4bc3a98072317e"
+    }
+  ],
+  "candidate_id": "C1-C25",
+  "name": "补码",
+  "upstream_candidates": 1,
+  "upstream_quality_accepted": 0,
+  "screening_input_count": 0,
+  "actual_new_candidate_queries": 0,
+  "actual_new_control_queries": 0,
+  "query_logs": [],
+  "results": [
+    {
+      "candidate_id": "C1-C25",
+      "name": "补码",
+      "decision": "not_screened_upstream_quality_reject",
+      "reason_code": "BRAND_FIT",
+      "reason": "主控24且Lab身份3<4；producer25，最大轴差1不改变任一评审须达门槛要求。实际输入检查后不送使用查询，不称占用/可用；出处真实不足补偿品牌机构首感。"
+    }
+  ],
+  "chinese_passed_ids": [],
+  "agent3_cumulative_candidate_queries": 312,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 314,
+  "next": "原A4实际检查零合格中文并提交零配对回执，再由同一A3实际核对零英文。",
+  "old_records_catalog_git_unchanged": true
+}

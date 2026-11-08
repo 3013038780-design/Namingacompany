@@ -1,0 +1,124 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T11:01:52.119042+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch22.md",
+      "sha256": "02a850a4302b9547a920945ed849c0d7e118a757f43a0a24d52be74ff418c9c0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch22.json",
+      "sha256": "0403943f7a21701f309d06915bf043f5de79af28ef3eb7536f47f4c20c02ae3e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch22.json",
+      "sha256": "4d9fbb04fc08346afecae1ec71903027da669031c77874ddafe32d240d88c124"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch22.json",
+      "sha256": "a83e35a3225cca39a884e8b499afc35ad12d620e4a7868723122725a1bc4834b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch22.json",
+      "sha256": "674a1ba091d239ae9396f3211816d1d247d590bcc9c6d9d5e8759d69d18c7391"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch13.json",
+      "sha256": "e309200efff2c49126ce985443ec69d31bbf44e6dc75bca1ff4a57d6e598e5b4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch13-traditional-supplement.json",
+      "sha256": "3e766ae0e01a0f64bab83d7a99a06a2c0d53633228f2636bf9a129de5b018de0"
+    }
+  ],
+  "query_count": 6,
+  "results": [
+    {
+      "candidate_id": "C1-E22",
+      "name": "Otherdata",
+      "query_logs": [
+        {
+          "query": "\"Otherdata\"",
+          "executed_on": "2026-11-08",
+          "summary": "主要Microchip参数OtherData和城市地图服务OtherData分类，不自动视作独立商业软件。"
+        },
+        {
+          "query": "\"Otherdata\" company lab",
+          "executed_on": "2026-11-08",
+          "summary": "发现Calgary IT品牌目录及加拿大Otherdata Networks注销历史线索；另韩国机构OtherData只是资料栏目。"
+        },
+        {
+          "query": "\"Otherdata\" AI model",
+          "executed_on": "2026-11-08",
+          "summary": "Google Vertex AI OtherData是EvaluationInstance属性、芯片协议参数，不是AI模型名称。"
+        },
+        {
+          "query": "\"Otherdata\" software product",
+          "executed_on": "2026-11-08",
+          "summary": "GitHub OtherData目录与Shopify类型/参数字段；不是各自独立软件名。"
+        },
+        {
+          "query": "\"Other Data\" company",
+          "executed_on": "2026-11-08",
+          "summary": "发现OTHER DATA产品服务条款、隐私页及The Other官方命名服务页，后续正文/curl确认工具。"
+        },
+        {
+          "query": "\"Other-data\" software brand",
+          "executed_on": "2026-11-08",
+          "summary": "主要OneMoreData不同核心及Other Data Privacy Software分类普通短语，不误缩为Otherdata。"
+        }
+      ],
+      "decision": "return_for_same_core_existing_software_spacing_variant",
+      "reason": "The Other官方将OTHER DATA命名为在线数据分析工具，专站服务条款明称software/online tool和analytics/reporting service；Otherdata仅去掉空格，按同核心软件避让。不是凭otherdata数据字段或类别误判；不称同名AI模型或已核注册。",
+      "evidence": [
+        {
+          "url": "https://www.theother.si/sl/data/storitve/other-data/",
+          "access": "primary_provider_body_read",
+          "finding": "L21–32 OTHER DATA服务，L27描述在线数据分析工具，L32链接www.the-other-data.com；L101–109联系地为Ljubljana。具体提供者品牌为The Other，不冒称Otherdata是其法人名。"
+        },
+        {
+          "url": "https://www.the-other-data.com/en/general-informations/general-terms-and-conditions/",
+          "access": "primary_terms_curl_body_read_after_web403",
+          "finding": "web打开403，curl实际200获得36631字节HTML；本地解析/tmp/a3-otherdata-terms.txt实际读字符1102–1900：OTHER DATA online tool软件服务，以及电子界面提供analytics/reporting服务。HTML SHA256 970353f4b924fa1f9f667545299dce7998d4a688cba4197848a8ede16cbfc36f；未将全文发布仓库。"
+        },
+        {
+          "url": "https://www.profilecanada.com/companydetail.cfm?company=225776_OtherData_Calgary_AB",
+          "access": "directory_search_only_open_timeout",
+          "finding": "Calgary OtherData网页设计/电话/IT支持目录线索，打开超时，未作为确证主体存续主证。"
+        },
+        {
+          "url": "https://www.can1business.com/en/company/Dissolved/Otherdata-Networks-Corp",
+          "access": "historical_directory_search_only_open403",
+          "finding": "索引为Otherdata Networks Corp.，6562078，称2016解散；未读官方登记，不能称现时公司在营或法律状态已核验。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用Nov7本run实际403共同入口，非本次新访问或逐名核名。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用Nov7本run403共同入口，无逐名9/42检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Otherdata",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      },
+      "chinese_candidate_id": "C1-C24",
+      "chinese": "复证",
+      "english_attempt": 2,
+      "remaining_english_reworks": 0,
+      "precise_use_type": "same_core_named_online_analytics_software_spaced_variant",
+      "input_chinese_risk": "中文cn13及復證补核保持公开初筛；FUZHENG为富正异字显示模组品牌，不自动否决中文但不直接用拼音英文。",
+      "closure": "最后R2失败，本中文无合格英文配对，不继续R3；E21家族门失败未查不算市场占用或外部query。"
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。"
+}

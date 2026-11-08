@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-08T10:56:23.277054+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E21",
+      "chinese_id": "C1-C24",
+      "english": "Fresh Witness",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个常见词组成正常短语，三个音节自然可叫，无造词发音。",
+          "counter_association": "fresh与witness间sh-w边界快速连读会弱化。"
+        },
+        "spelling": {
+          "reason": "两词完整标准拼写，没有变体字母、截词或拼音。",
+          "counter_association": "合写FreshWitness与分写需A3覆盖，但听到词义后拼法可复述。"
+        },
+        "grounding": {
+          "reason": "新数据担当面对旧发现的新证据，与witness现成证据义形成一个真实角色关系。",
+          "counter_association": "人物角色化是品牌比喻，不是原报告技术术语，不代表新证据必然真。"
+        },
+        "bilingual_relation": {
+          "reason": "中文再检验与英文新证据相接，保留不同于自我复述的新数据关系。",
+          "counter_association": "英文未直述旧结果比较，需来源解释，不能只讲新旁观者。"
+        },
+        "distinctiveness": {
+          "reason": "有完整名词角色外壳，可称呼机构并承载证据研究态度。",
+          "counter_association": "法律/纪录片或调查工具首联想明显、常用词组辨识有限，仅到最低接受。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "主观编辑自评，主控先独评；不更改任何规范门槛，也不继承中文使用结论。"
+    }
+  ]
+}

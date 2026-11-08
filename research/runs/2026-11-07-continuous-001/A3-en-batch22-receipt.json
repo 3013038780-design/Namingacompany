@@ -1,0 +1,57 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English screening",
+  "executed_at": "2026-11-08T11:01:52.119042+08:00",
+  "candidate_id": "C1-E22",
+  "chinese_id": "C1-C24",
+  "decision": "return_for_same_core_existing_software_spacing_variant",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch22.md",
+      "sha256": "02a850a4302b9547a920945ed849c0d7e118a757f43a0a24d52be74ff418c9c0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch22.json",
+      "sha256": "0403943f7a21701f309d06915bf043f5de79af28ef3eb7536f47f4c20c02ae3e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch22.json",
+      "sha256": "4d9fbb04fc08346afecae1ec71903027da669031c77874ddafe32d240d88c124"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch22.json",
+      "sha256": "a83e35a3225cca39a884e8b499afc35ad12d620e4a7868723122725a1bc4834b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch22.json",
+      "sha256": "674a1ba091d239ae9396f3211816d1d247d590bcc9c6d9d5e8759d69d18c7391"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch13.json",
+      "sha256": "e309200efff2c49126ce985443ec69d31bbf44e6dc75bca1ff4a57d6e598e5b4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch13-traditional-supplement.json",
+      "sha256": "3e766ae0e01a0f64bab83d7a99a06a2c0d53633228f2636bf9a129de5b018de0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-batch22.md",
+      "sha256": "5d51342ef2507d17c680d3841c7b8796dce6c894422e12b023d50898c1edbca0"
+    },
+    {
+      "path": "A3-en-batch22.json",
+      "sha256": "1f703a74c2286761f2114f81d2d592249d32bb6d84c7ffa90791e594a42cc15f"
+    }
+  ],
+  "actual_new_candidate_queries": 6,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 306,
+  "agent3_cumulative_candidate_queries": 312,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 314,
+  "actual_execution": "六实际搜索，读The Other官方软件命名服务页；专站terms web403后curl200读取软件条款，记录原HTML SHA及正文范围。未将数据字段/历史解散线索混作精确AI品牌。",
+  "next": "C24最后英文R2结束，本族无合格配对；不R3、不改变中文原查记录。",
+  "unchanged": "旧Actor、总库、Git、网站不改；无外部网页全文。"
+}

@@ -1,0 +1,53 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English screening",
+  "executed_at": "2026-11-08T10:55:21.030825+08:00",
+  "candidate_id": "C1-E20",
+  "chinese_id": "C1-C24",
+  "decision": "return_for_existing_named_adware_and_negative_brand_association",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch20.md",
+      "sha256": "e3191429ad1a1221d5393e46b202984f2347d969ab9027e8039424c430111ae8"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch20.json",
+      "sha256": "deff2b9c9f2b61958f7dd64cf88de87091ce6acc1085fd16ac3c731f4ef97303"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch20.json",
+      "sha256": "3274d70c28f637e72ed305850cc2ec0df0f23f4931796d3b8266cd71f59ccbfa"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch20.json",
+      "sha256": "bb1a914f1e1658d8f69de8d023b982dbd565f9d1064c9f03494379d6d107e6b8"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch20.json",
+      "sha256": "83fccad8f9c8569c155d0bf24b16a28874744ed72fac918f57c93417432bdf79"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch13.json",
+      "sha256": "e309200efff2c49126ce985443ec69d31bbf44e6dc75bca1ff4a57d6e598e5b4"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-batch20.md",
+      "sha256": "5b57ea606b6d4aeeca643a3e08b99bb9f71759cbc656ea1ec7f613aea069482b"
+    },
+    {
+      "path": "A3-en-batch20.json",
+      "sha256": "9fb02928fbb64dae722c776785e3fda72fb958aab34faa6dd94d8b52e0d8e024"
+    }
+  ],
+  "actual_new_candidate_queries": 7,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 297,
+  "agent3_cumulative_candidate_queries": 304,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 306,
+  "actual_execution": "实际输入阅读、七查询、两研究报告正文与样本链接访问，英国逐名入口失败；未下载/运行软件。",
+  "next": "退原A4首返；原中文通过不自动撤回，另补正确繁体范围。",
+  "unchanged": "无旧稿/总库/Git/网站改动；无外部网页全文附录。"
+}

@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-08T11:07:04.056766+08:00",
+  "independence": "Read producer preview batch12 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C25",
+      "name": "补码",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "两字熟字且声调可辨能直接称呼",
+          "counter_association": "补可能先听成补课补丁"
+        },
+        "distinctiveness": {
+          "reason": "完整计算对象比补智等组合有辨识度",
+          "counter_association": "已知术语不等于独特商业称呼"
+        },
+        "lab_fit": {
+          "reason": "第一身份偏编程工具或教学术语而非能独立站住的研究机构",
+          "counter_association": "把术语真实当成品牌气质不足的补偿会重犯旧偏差"
+        },
+        "grounding": {
+          "reason": "实际核Iowa讲义L760至794取负规则共用加法和溢出边界",
+          "counter_association": "英文原页没有中文不声称逐字摘取"
+        },
+        "extension": {
+          "reason": "表示与操作关系可承载研究方法并跨产品",
+          "counter_association": "不能由整数运算推出AI必然提升"
+        },
+        "semantic_coherence": {
+          "reason": "整体沿用已有对象不把补和码各编吉祥含义",
+          "counter_association": "名字未显位宽及最负数边界"
+        }
+      },
+      "decision": "quality_reject"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-08T10:49:16.357408+08:00",
+  "independence": "Read producer preview batch11 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C24",
+      "name": "复证",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两字动词整体可以称呼机构",
+          "counter_association": "复证不如复核日常易懂"
+        },
+        "distinctiveness": {
+          "reason": "再检验已有认识是明确动作与对象关系",
+          "counter_association": "与复正复症等近音有混淆"
+        },
+        "lab_fit": {
+          "reason": "研究方法身份能容纳AI Lab",
+          "counter_association": "可能先像检测认证或电子取证服务"
+        },
+        "grounding": {
+          "reason": "原书直接区分新数据检验和同数据重算",
+          "counter_association": "学科术语不统一且不是官方中译"
+        },
+        "extension": {
+          "reason": "可承载多类研究而不限一个模型",
+          "counter_association": "不能许诺永远正确或自动增长"
+        },
+        "semantic_coherence": {
+          "reason": "各层围绕既有结果接受再检验",
+          "counter_association": "新研究不一致不能单独认定造假"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

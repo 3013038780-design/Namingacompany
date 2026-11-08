@@ -1,0 +1,17 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-08T10:58:10.608427+08:00",
+  "candidate_id": "C1-C24",
+  "english_id": "C1-E21",
+  "decision": "HISTORY_OR_FAMILY_DUPLICATE",
+  "quality_gate": {
+    "root": 21,
+    "producer": 21,
+    "maximum_axis_difference": 0,
+    "passed": true
+  },
+  "family_gate": "reject_before_use_search",
+  "reason": "已存Single Witness以具体见证者/证据角色承载反例；Fresh Witness把Single换成Fresh，继续同一Witness角色外壳。新科学研究关系不同，不能自动说明重复角色英文壳是新命名家族；本中文仍可在最后额度匹配不同完整英文。",
+  "scope": "仅退英文，不否决复证中文本身，不称已有市场占用；未送A3，不虚报已查。",
+  "evidence_ref": "continuations/2026-11-08T023853Z/inputs/Single-Witness-existing-family.json"
+}

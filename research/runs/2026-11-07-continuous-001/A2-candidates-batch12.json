@@ -1,0 +1,74 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T11:05:40.440039+08:00",
+  "candidates": [
+    {
+      "id": "C1-C25",
+      "name": "补码",
+      "pinyin": "bǔ mǎ",
+      "material_id": "C1-M33",
+      "material_ids": [
+        "C1-M33"
+      ],
+      "family_id": "C1-BF-signed-operation-through-representation",
+      "plan_direction_id": "C1-D-S3",
+      "case_ids": [
+        "B074",
+        "B002"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Douglas W. Jones, University of Iowa, CS:2630 Notes Chapter 2: Data Representation",
+          "url": "https://homepage.cs.uiowa.edu/~dwjones/assem/fall19/notes/02data.shtml",
+          "published_at": "2019 course path; precise publication day not established",
+          "reading_location": "本次实读章首L2–14以及two's complement所在L754–794：补码取负、单一零、负数范围边界、加减表示与溢出。没有通读该章其他小节；不用章首C语言局部变量/溢出段作为本名事实依据。",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body",
+          "read_at": "2026-11-08T11:05:40.440039+08:00"
+        }
+      ],
+      "source_urls": [
+        "https://homepage.cs.uiowa.edu/~dwjones/assem/fall19/notes/02data.shtml"
+      ],
+      "formation": "沿用two's complement通常中文称呼补码；英文讲义没有汉字，不伪称原文逐字摘得。整体是已有计算对象，不拆成补充能力与代码两个独立吉祥义。",
+      "relation_sentence": "换一种表示正负数的方法，原来的二进制加法也能承担有符号数的加减。",
+      "condensation_path": "保留既有两字完整对象，技术第二层由同一加法规则与不同数值角色连接，不额外贴智能/跃迁。",
+      "meaning": "表示方式本身，也是一种计算能力。",
+      "crossing": "日常能读写的两字称呼，背后是计算机器怎样表示正负与组织运算的基础关系；不是用补充代码冒充原理。",
+      "layers": [
+        "短小、能直接称呼的计算对象",
+        "同一运算在一种表示下处理正负关系",
+        "研究怎样通过表示与结构让既有系统开展工作"
+      ],
+      "material_feature_retained": "保留有符号表示与可共用操作的关系；不是补足短板或纠错。",
+      "material_feature_lost": "名字不说明固定字长、取反加一和溢出条件，不能据名字许诺无限容量或所有操作都有效。",
+      "why_name_not_generic": "补码是同一有定义对象，不是代码加能力修饰词；称呼先成立，背景再说明怎样从表示得到不同操作。",
+      "shortcoming": "可能先像软件工具、编程社区或培训机构，补有补丁/修复联想。若这一首感压过研究机构身份，应质量淘汰，不以大学出处补分。",
+      "science_boundary": "运算结果受位宽约束，不宣称任意加减都无溢出；补码不是纠错码、加密、所有互补关系或模型自己提高能力。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "FP04比特载体/解释约定为物理状态与意义的关系，01万物为信息基本单位，算筹为摆放方向/数位；本项是有符号整数怎样统一加减操作。余量是冗余容错，活变量是未来用途，均不是补码；这里的补不作补全缺失信息或补丁，不恢复旧恢复/修补家族。新术语不自动等于新品牌族，仍交主控保守审。 全历史JSON检索未发现补码字面既有提案；这不是使用查询或可用性结论。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是补码，做人工智能研究。",
+        "补码发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened"
+    }
+  ],
+  "scope": "本包只交一个有具体关系的中文，未查使用或配英文。"
+}
