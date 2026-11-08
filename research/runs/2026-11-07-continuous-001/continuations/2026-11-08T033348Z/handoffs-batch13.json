@@ -1,0 +1,186 @@
+{
+  "accepted_at": "2026-11-08T11:41:00.569203+08:00",
+  "same_research_run": true,
+  "new_A1_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "accepted_at": "2026-11-08T11:41:00.569203+08:00",
+      "from": "existing_A1",
+      "to": "same_A2",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C26"
+      ],
+      "reason": "复用实际A1案例/机制及计划，不新计案例；原A2读冻结25案后阅读自然建造行为。",
+      "refs": [
+        {
+          "path": "A1-final-input-reacceptance.json",
+          "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+        },
+        {
+          "path": "A1-formation-feedback.json",
+          "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        },
+        {
+          "path": "continuations/2026-11-08T023853Z/decisions-through-batch12.json",
+          "sha256": "3dc9346b7fc789f6c157e9e818fdb34f82e2e298bc9bafcba08558ea0170abb4"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "accepted_at": "2026-11-08T11:41:00.569203+08:00",
+      "from": "same_A2",
+      "to": "coordinator",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C26"
+      ],
+      "reason": "主控先无分读来源和稿再封存26后读producer26，六轴同分；新单鸟构筑观看环境关系，不是换鱼为鸟讲集群。",
+      "refs": [
+        {
+          "path": "A2-candidates-batch13.json",
+          "sha256": "0e99febef4e281c06f2b9e49b4313e6dc44c3f9735c6cefd5b40bb7d7ce13098"
+        },
+        {
+          "path": "A2-preview-batch13.md",
+          "sha256": "e3652acbec0c839a9b92309a9b3a40044651f50f0721ae85d95567d11d3e8659"
+        },
+        {
+          "path": "A2-quality-batch13.json",
+          "sha256": "d4f30c51995daac1993de42b48169e5bc62de4d5ffb46e738e8086e8fcee86f7"
+        },
+        {
+          "path": "A2-creation-execution-batch13.json",
+          "sha256": "7f036708f0eff287b0dd291ada3b98eb868b2710ad8a369dd161ebd50745ebdf"
+        },
+        {
+          "path": "materials-extension12.json",
+          "sha256": "e2d11c576bc35eebd1363856fcce9a378f7c35d633932aa1ff1763426bc9b986"
+        },
+        {
+          "path": "coordinator-cn-batch13.json",
+          "sha256": "5c526472825a39c4a28805a25b915cc163f157e28a59b90d82234589b28c4caf"
+        },
+        {
+          "path": "coordinator-family-review-batch13.json",
+          "sha256": "6bf09eff4366ceabace708402f09f5575bdd4cc76fbefb9817fdfc686a575885"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "accepted_at": "2026-11-08T11:41:00.569203+08:00",
+      "from": "coordinator",
+      "to": "same_A3",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C26"
+      ],
+      "reason": "同原A3实际八查询，核心科技/智能分开与繁体拼音查询齐；正文明示已有同核心使用。",
+      "refs": [
+        {
+          "path": "A3-cn-batch15.json",
+          "sha256": "aa82bfa8e497155d5bbd8f27f3fbbc52fe6777287d2d63bf92c51997c3afd7f4"
+        },
+        {
+          "path": "A3-cn-batch15-receipt.json",
+          "sha256": "95afee81928b1722cf0996ae1f8a673d9e4817e0953e3c734185ceaf6ab92b93"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "accepted_at": "2026-11-08T11:41:00.569203+08:00",
+      "from": "same_A3",
+      "to": "same_A4",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C26"
+      ],
+      "reason": "中文使用淘汰，原A4实际核合格中文0，不造英文救回。",
+      "refs": [
+        {
+          "path": "A3-cn-batch15.json",
+          "sha256": "aa82bfa8e497155d5bbd8f27f3fbbc52fe6777287d2d63bf92c51997c3afd7f4"
+        },
+        {
+          "path": "A4-zero-batch13.json",
+          "sha256": "14719474cd9185281b21559068857c1c86a618589ef5182f45b69c59398d31e4"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "accepted_at": "2026-11-08T11:41:00.569203+08:00",
+      "from": "same_A4",
+      "to": "same_A3",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C26"
+      ],
+      "reason": "原A4实际零匹配，同一原A3实际读回执复核固定输入。",
+      "refs": [
+        {
+          "path": "A4-zero-batch13.json",
+          "sha256": "14719474cd9185281b21559068857c1c86a618589ef5182f45b69c59398d31e4"
+        },
+        {
+          "path": "A3-en-zero-batch13.json",
+          "sha256": "870277ec039b8a8ae9ab57579b4d40b78cbfcfdc500daf6803c7b9a7ba3f23b0"
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "accepted_at": "2026-11-08T11:41:00.569203+08:00",
+      "from": "same_A3",
+      "to": "coordinator",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C26"
+      ],
+      "reason": "英文0查询，未开始不冒充零执行；本包真实执行完成。",
+      "refs": [
+        {
+          "path": "A3-en-zero-batch13.json",
+          "sha256": "870277ec039b8a8ae9ab57579b4d40b78cbfcfdc500daf6803c7b9a7ba3f23b0"
+        },
+        {
+          "path": "A3-en-zero-batch13-receipt.json",
+          "sha256": "2b4d995d71bc1bee921ecd1f632ee4e4f322637ce43e7b88e6fe4834ea5d6c6b"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "accepted_at": "2026-11-08T11:41:00.569203+08:00",
+      "from": "coordinator",
+      "to": "catalog",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C26"
+      ],
+      "reason": "主控独立核两份主体使用主证，不入总库；官方登记/商标没有核准结论。",
+      "refs": [
+        {
+          "path": "continuations/2026-11-08T033348Z/root-C26-use-verification.json",
+          "sha256": "f57c406be8ce0649ca2a9cca4f90b717295503c089d5282915b95b2908ea7b1f"
+        },
+        {
+          "path": "continuations/2026-11-08T033348Z/decisions-through-batch13.json",
+          "sha256": "0489a073dffa34547b76bbe81a9cb6c5004381638973566ee3fd90c52581fabc"
+        }
+      ]
+    }
+  ]
+}

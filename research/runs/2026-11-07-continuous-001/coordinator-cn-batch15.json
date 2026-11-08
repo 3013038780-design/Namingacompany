@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-08T13:09:14.713004+08:00",
+  "independence": "Read producer preview batch15 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C28",
+      "name": "灵感之外",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "四字完整方位表达读写顺畅可直接复述",
+          "counter_association": "像标题的程度高于机构专名"
+        },
+        "distinctiveness": {
+          "reason": "灵感与之外可形成空间边界的整体画面",
+          "counter_association": "之外不是自动独特品牌还要使用检索"
+        },
+        "lab_fit": {
+          "reason": "首要仍像创意栏目书名播客或文化工作室而广义AI研究身份不足",
+          "counter_association": "若依赖先读认知论文才显科研属于借出处补身份"
+        },
+        "grounding": {
+          "reason": "实读论文结果与总讨论支持体验质量评价和动机功能有边界且非普遍无效",
+          "counter_association": "对发散任务不可过度扩大到所有洞见无价值"
+        },
+        "extension": {
+          "reason": "超出瞬时体验的认识工作可支撑长期叙事",
+          "counter_association": "缺少明确主体可能停在抽象态度"
+        },
+        "semantic_coherence": {
+          "reason": "凝练来自同一体验作用边界不是各字吉祥拼接",
+          "counter_association": "若退为不止于思考则与既有泛认识家族重合"
+        }
+      },
+      "decision": "quality_reject"
+    }
+  ]
+}

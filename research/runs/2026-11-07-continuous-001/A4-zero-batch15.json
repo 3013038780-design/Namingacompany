@@ -1,0 +1,59 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T13:11:06.498824+08:00",
+  "work_packet": "A2 batch15 / A3 cn17",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch15.json",
+      "sha256": "d3e818d6cfd59ed76c86f7efa21b81367f7147b9cf5398d11e6a213b013a9441"
+    },
+    {
+      "path": "A2-quality-batch15.json",
+      "sha256": "0656d8aae6538853bf30245acffcc38785aeea10dc12b367a5e05239affa9b6b"
+    },
+    {
+      "path": "coordinator-cn-batch15.json",
+      "sha256": "a2db87147c91dd2c3e2c99f0d1bc76fc16364167b19b41abe7afb568aafdd88b"
+    },
+    {
+      "path": "coordinator-family-review-batch15.json",
+      "sha256": "8a95dc4757c070e16148c1cb4c2d1762fb2c61843b41ca6c419cf5fe76c5e00b"
+    },
+    {
+      "path": "A3-cn-batch17.json",
+      "sha256": "4ffc60d10e23345475e65c82acd5818968d4068e307f9b74d233cb2aa252b6d4"
+    },
+    {
+      "path": "A3-cn-batch17.md",
+      "sha256": "04670d12f2aef660f08f8bfb02c4670443ce713afcaded96a262c0d15ca84fe4"
+    },
+    {
+      "path": "A3-cn-batch17-receipt.json",
+      "sha256": "17e9f6abaca7b2050c6082b5bcac134c1ee7b56a29cb8215d02ed8c823423dee"
+    }
+  ],
+  "actual_upstream_read": true,
+  "execution": "实际读唯一灵感之外草案、双质量与主控家族判断、A3 cn17 JSON/MD/receipt并核固定输出SHA，真实零匹配验收。",
+  "upstream_chinese_candidates": 1,
+  "qualified_chinese_inputs": 0,
+  "english_candidates": [],
+  "english_output_count": 0,
+  "new_english_scores": 0,
+  "new_usage_queries": 0,
+  "new_registration_queries": 0,
+  "decision": "zero_input_after_chinese_quality_rejection",
+  "excluded": [
+    {
+      "candidate_id": "C1-C28",
+      "name": "灵感之外",
+      "reason_code": "BRAND_FIT",
+      "reason": "主控Lab身份未达门槛，首感文化栏目/播客/创意工作室；producer过线不替代主控关，论文出处真实不补机构首感。未查使用不称占用或可用。"
+    }
+  ],
+  "material_accounting": "C1-M22旧已读未命名素材首次凝练，新素材0；不伪增新卡，不恢复已闭M18/M20。",
+  "prior_A3_gate": "原A3实际输入核验后中文筛查输入0、查询0；没有把未开始假记零。",
+  "next": "交同一原A3英文零终检，主控本工作段归档与后续检查点；不停止整体命名研究。",
+  "unchanged": "不新英文/评分/搜索，不修改旧稿、分数、回执、总库或Git，不重开创作或超额返工。"
+}

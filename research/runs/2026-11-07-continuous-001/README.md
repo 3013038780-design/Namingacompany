@@ -98,3 +98,21 @@
 [本段结果](continuations/2026-11-08T023853Z/result.json) · [冻结25案去留](continuations/2026-11-08T023853Z/decisions-through-batch12.json) · [复证全链](continuations/2026-11-08T023853Z/handoffs.json) · [补码全链](continuations/2026-11-08T023853Z/handoffs-batch12.json) · [固定研究台](https://3013038780-design.github.io/Namingacompany/)
 
 原角色本段已完成并留检查点；后续由现有每小时任务接续不同自然/日常关系，保持六方向、质量与公开使用门槛。网站同一数据入口更新每日记录，不部署新界面、不修改旧站；整个生产规范整理仍未完成，不输出final.json。
+
+## 自动接续 · 2026-11-08 中午前
+
+本段处理**园丁鸟、橡皮鸭、灵感之外**。前两项中文质量均26/26，但实际使用筛查未过；第三项主控24、Lab身份3<4，未查使用。**新增完整双语0**，不把三份草案或零输入回执充备选。
+
+| 中文 | 来源及关系 | 本段去留与证据 |
+| --- | --- | --- |
+| 园丁鸟 | 原始动物行为实验：物件大小、距离与观看位置共同构成场景；中文杂志只读公开导语。 | 8查询后使用淘汰。深圳市园丁鸟科技[官网](https://www.bwbird.com/)及河南园丁鸟智能科技[官方采购记录](https://bid.cncecyc.com/cms/channel/ywgg2gc/533933.htm)确认同核心主体；另园丁鸟·巢集App。保函/劳务业务与AI研发、实时登记不同性质，不混称。[完整查询](A3-cn-batch15.md) |
+| 橡皮鸭 | 《The Pragmatic Programmer》课程节选印刷94–95两页及Stanford讲义：无言对象促使说者显式说明假设，不证明鸭懂代码或必能修错。 | 9查询后使用淘汰。[GitHub官方中文文档](https://docs.github.com/zh/copilot/concepts/agent-capabilities/choosing-and-delegating-agent-work/getting-a-second-opinion)明确具名Copilot代理，非只通用调试方法；南京公司历史名单另层披露，不称当前登记。[完整查询](A3-cn-batch16.md) |
+| 灵感之外 | 真正未命名旧素材M22首次凝练：灵感的激励与其对质量的诊断作用有任务边界；本次补读讨论/局限，不再算新素材。 | 质量淘汰未查。主控Lab身份3，首感偏创意栏目/播客/文化工作室；真实认知论文不能补品牌分。不称已占用或可用。[独评](coordinator-cn-batch15.json) |
+
+三包的原A4均实际检查零合格中文，同一原A3实际做英文零终核，无新英文、评分或英文查询。新读2资料、复用1旧未命名素材，3中文、17次A3实际候选查询；累计**35资料、28中文、22英文版本，A3查询329加先前主控额外2共331**。仍24讨论备选、1研究储备，活变量/Maymatter待核实单列，本段未反复旧403线索或新增超额英文返工。阳性对照和登记入口复用旧实际记录，不冒称本次完成官方核名/9/42检索。
+
+主控曾沿用旧A1反馈将M18/M20列为未命名入口；原A2创作前核最新冻结发现其后续已有自成一格/因序并排除，主控已纠正，未复活旧族或修改旧素材状态。[入口纠正记录](continuations/2026-11-08T033348Z/stale-material-status-correction.json)。
+
+[本段结果](continuations/2026-11-08T033348Z/result.json) · [冻结28案去留](continuations/2026-11-08T033348Z/decisions-through-batch15.json) · [园丁鸟全链](continuations/2026-11-08T033348Z/handoffs-batch13.json) · [橡皮鸭全链](continuations/2026-11-08T033348Z/handoffs-batch14.json) · [灵感之外全链](continuations/2026-11-08T033348Z/handoffs-batch15.json) · [固定研究台](https://3013038780-design.github.io/Namingacompany/)
+
+本段原角色均已完成，保存检查点供现有每小时任务继续同001；不因零新增停止或降低标准，不新增重复调度。每段结果与网站feed同推现有PR，不部署界面或改旧站。整个生产规范整理仍未完成，不输出final.json。

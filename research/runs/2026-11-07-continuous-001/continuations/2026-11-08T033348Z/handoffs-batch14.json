@@ -1,0 +1,186 @@
+{
+  "accepted_at": "2026-11-08T11:50:13.497592+08:00",
+  "same_research_run": true,
+  "new_A1_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "accepted_at": "2026-11-08T11:50:13.497592+08:00",
+      "from": "existing_A1",
+      "to": "same_A2",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C27"
+      ],
+      "reason": "复用原案例关系从日常物件进入程序员文化，非再换鸟种讲集群；不重开计划。",
+      "refs": [
+        {
+          "path": "A1-final-input-reacceptance.json",
+          "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+        },
+        {
+          "path": "A1-formation-feedback.json",
+          "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        },
+        {
+          "path": "continuations/2026-11-08T033348Z/decisions-through-batch13.json",
+          "sha256": "0489a073dffa34547b76bbe81a9cb6c5004381638973566ee3fd90c52581fabc"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "accepted_at": "2026-11-08T11:50:13.497592+08:00",
+      "from": "same_A2",
+      "to": "coordinator",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C27"
+      ],
+      "reason": "主控实际读两页书与教师正文，无分封存26后读producer26，六轴同分；来源关系真实但未据此跳查重。",
+      "refs": [
+        {
+          "path": "A2-candidates-batch14.json",
+          "sha256": "5c06e31638fd0f96e5cdc53fa2595baa64a9210b21808568bd46f141bfd15731"
+        },
+        {
+          "path": "A2-preview-batch14.md",
+          "sha256": "f5de64680fd451000ccdd579f587eb43ba3b9f3dc926835f619ec66e52cdc0c9"
+        },
+        {
+          "path": "A2-quality-batch14.json",
+          "sha256": "7c7629f4e9d28dae03ff8913ddaad967187f0ffd8473e1a05f2649e278026eb5"
+        },
+        {
+          "path": "A2-creation-execution-batch14.json",
+          "sha256": "b566c6e39f0b544b8a260abffd534ce51aaee6ba39c04d0bb414c53abbc72937"
+        },
+        {
+          "path": "materials-extension13.json",
+          "sha256": "c5f93ad9fbe2788ecb45ab428bba0e57660b1d3e00f84c990223c91cd5eb4a47"
+        },
+        {
+          "path": "coordinator-cn-batch14.json",
+          "sha256": "9f15fa57c0207ff257155fe455c6511bc6a44a0aef23e9893fdfd9c9282f88c4"
+        },
+        {
+          "path": "coordinator-family-review-batch14.json",
+          "sha256": "86231769440843107b6540779e9ecaf882d3132588d07e773028daa7a0fd71f5"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "accepted_at": "2026-11-08T11:50:13.497592+08:00",
+      "from": "coordinator",
+      "to": "same_A3",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C27"
+      ],
+      "reason": "原A3九实际查询，GitHub官方具名软件代理使用确证，不只通用方法出现；历史公司名单层级单列。",
+      "refs": [
+        {
+          "path": "A3-cn-batch16.json",
+          "sha256": "ce5acf487a72937c44e186ee344c309c6ad83d74b671ad2c50a432488085faa3"
+        },
+        {
+          "path": "A3-cn-batch16-receipt.json",
+          "sha256": "e4f293f6e28b26888f6b0d065367f19ed3321a1adc37cccc53366c6223d6f70f"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "accepted_at": "2026-11-08T11:50:13.497592+08:00",
+      "from": "same_A3",
+      "to": "same_A4",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C27"
+      ],
+      "reason": "中文已有使用，原A4核通过0，未造英文救回。",
+      "refs": [
+        {
+          "path": "A3-cn-batch16.json",
+          "sha256": "ce5acf487a72937c44e186ee344c309c6ad83d74b671ad2c50a432488085faa3"
+        },
+        {
+          "path": "A4-zero-batch14.json",
+          "sha256": "e01072bf39b96359647a452fd94dec9eaa2189cd7213974270546e2e058f3346"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "accepted_at": "2026-11-08T11:50:13.497592+08:00",
+      "from": "same_A4",
+      "to": "same_A3",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C27"
+      ],
+      "reason": "原A4实际零配对交同一原A3固定回执验收。",
+      "refs": [
+        {
+          "path": "A4-zero-batch14.json",
+          "sha256": "e01072bf39b96359647a452fd94dec9eaa2189cd7213974270546e2e058f3346"
+        },
+        {
+          "path": "A3-en-zero-batch14.json",
+          "sha256": "9c07eb64248d7f1c5cbe84c04b77d9f2115c104e477d093d9c9dbf92a3f31aba"
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "accepted_at": "2026-11-08T11:50:13.497592+08:00",
+      "from": "same_A3",
+      "to": "coordinator",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C27"
+      ],
+      "reason": "实际英语零检查，0新查询；不将未查登记或基础模型性能写成核实。",
+      "refs": [
+        {
+          "path": "A3-en-zero-batch14.json",
+          "sha256": "9c07eb64248d7f1c5cbe84c04b77d9f2115c104e477d093d9c9dbf92a3f31aba"
+        },
+        {
+          "path": "A3-en-zero-batch14-receipt.json",
+          "sha256": "70bcff35210e0e812ff150603012a3790e336662625ba9b24520800e8ef8a2a5"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "accepted_at": "2026-11-08T11:50:13.497592+08:00",
+      "from": "coordinator",
+      "to": "catalog",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C27"
+      ],
+      "reason": "主控独立核官方具名代理，使用否决，不入双语总库。",
+      "refs": [
+        {
+          "path": "continuations/2026-11-08T033348Z/root-C27-use-verification.json",
+          "sha256": "f2ae55213d1525dfd23405ec10dcb88472656f475696f345602e556d5c97ffbe"
+        },
+        {
+          "path": "continuations/2026-11-08T033348Z/decisions-through-batch14.json",
+          "sha256": "7392bc7aa94ac799f640a0253fc030067af608d8947acff74c3e7ec0e030b13a"
+        }
+      ]
+    }
+  ]
+}

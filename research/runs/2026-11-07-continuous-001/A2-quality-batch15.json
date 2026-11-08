@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T11:50:12.329476+08:00",
+  "scope": "主控先封存独评再读作者数字",
+  "reviews": [
+    {
+      "candidate_id": "C1-C28",
+      "name": "灵感之外",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "四字整体语法自然，能直接作机构称呼，不像半句话",
+          "counter_association": "也像书名或文化栏目"
+        },
+        "distinctiveness": {
+          "reason": "有可复述的体验边界与向外空间，比泛化智能增强具体",
+          "counter_association": "之外结构本身并不独有"
+        },
+        "lab_fit": {
+          "reason": "以认知/探索的完整研究空间建立身份，可承载AI Lab",
+          "counter_association": "文化创意工作室/生成内容首联想明显，须主控另评"
+        },
+        "grounding": {
+          "reason": "M22真实正文及本次局限支持体验不等于质量判词的关系",
+          "counter_association": "不支持所有直觉无效，也不是原文名称"
+        },
+        "extension": {
+          "reason": "容纳生成、评估、认知与实际研究，不限单工具",
+          "counter_association": "泛化太宽可能变成空洞探索口号"
+        },
+        "semantic_coherence": {
+          "reason": "所有含义围绕洞见体验未覆盖的认识空间",
+          "counter_association": "不能说之外必更正确或必增强能力"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

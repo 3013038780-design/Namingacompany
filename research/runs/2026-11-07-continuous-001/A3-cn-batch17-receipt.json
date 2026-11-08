@@ -1,0 +1,41 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese zero gate receipt",
+  "executed_at": "2026-11-08T13:10:19.564302+08:00",
+  "inputs": [
+    {
+      "path": "A2-preview-batch15.md",
+      "sha256": "8f4f8964a3b611199720845c5dcc2c22be08d6ef339b3fcc960e60057f31c5b8"
+    },
+    {
+      "path": "A2-candidates-batch15.json",
+      "sha256": "d3e818d6cfd59ed76c86f7efa21b81367f7147b9cf5398d11e6a213b013a9441"
+    },
+    {
+      "path": "A2-quality-batch15.json",
+      "sha256": "0656d8aae6538853bf30245acffcc38785aeea10dc12b367a5e05239affa9b6b"
+    },
+    {
+      "path": "coordinator-cn-batch15.json",
+      "sha256": "a2db87147c91dd2c3e2c99f0d1bc76fc16364167b19b41abe7afb568aafdd88b"
+    },
+    {
+      "path": "coordinator-family-review-batch15.json",
+      "sha256": "8a95dc4757c070e16148c1cb4c2d1762fb2c61843b41ca6c419cf5fe76c5e00b"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch17.json",
+      "sha256": "4ffc60d10e23345475e65c82acd5818968d4068e307f9b74d233cb2aa252b6d4"
+    },
+    {
+      "path": "A3-cn-batch17.md",
+      "sha256": "04670d12f2aef660f08f8bfb02c4670443ce713afcaded96a262c0d15ca84fe4"
+    }
+  ],
+  "actual_upstream_read": true,
+  "chinese_screening_inputs": 0,
+  "actual_new_queries": 0,
+  "next": "原A4实际零匹配后同一A3英文零验收。"
+}

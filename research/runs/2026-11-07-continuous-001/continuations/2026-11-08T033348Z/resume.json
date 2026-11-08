@@ -1,0 +1,12 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-08T03:33:48.752Z",
+  "resumed_at": "2026-11-08T11:34:44.472485+08:00",
+  "same_run": "2026-11-07-continuous-001",
+  "actual_A2": "/root/continuous_a2",
+  "new_A1_claimed": false,
+  "history_scan": "history-scan.json",
+  "upstream_frozen_snapshot": "continuations/2026-11-08T023853Z/decisions-through-batch12.json",
+  "upstream_sha256": "3dc9346b7fc789f6c157e9e818fdb34f82e2e298bc9bafcba08558ea0170abb4",
+  "note": "检查原A2/A3/A4均上一段已完成后，才接续同一001原A2新材料小包，不重复开并发研究。"
+}

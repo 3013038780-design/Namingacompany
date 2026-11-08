@@ -1,0 +1,60 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T11:39:46.891583+08:00",
+  "work_packet": "A2 batch13 / A3 cn15",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch13.json",
+      "sha256": "0e99febef4e281c06f2b9e49b4313e6dc44c3f9735c6cefd5b40bb7d7ce13098"
+    },
+    {
+      "path": "A2-quality-batch13.json",
+      "sha256": "d4f30c51995daac1993de42b48169e5bc62de4d5ffb46e738e8086e8fcee86f7"
+    },
+    {
+      "path": "coordinator-cn-batch13.json",
+      "sha256": "5c526472825a39c4a28805a25b915cc163f157e28a59b90d82234589b28c4caf"
+    },
+    {
+      "path": "coordinator-family-review-batch13.json",
+      "sha256": "6bf09eff4366ceabace708402f09f5575bdd4cc76fbefb9817fdfc686a575885"
+    },
+    {
+      "path": "A3-cn-batch15.json",
+      "sha256": "aa82bfa8e497155d5bbd8f27f3fbbc52fe6777287d2d63bf92c51997c3afd7f4"
+    },
+    {
+      "path": "A3-cn-batch15.md",
+      "sha256": "9f9dbdc6ad4b64935873723f1c5e530050da69c15a63b5b0e84c7693dcc14141"
+    },
+    {
+      "path": "A3-cn-batch15-receipt.json",
+      "sha256": "95afee81928b1722cf0996ae1f8a673d9e4817e0953e3c734185ceaf6ab92b93"
+    }
+  ],
+  "actual_upstream_read": true,
+  "execution": "真实读取唯一园丁鸟候选、producer/root质量及家族评审、A3 cn15 JSON/Markdown/receipt；核receipt输出字节SHA，实际零配对验收。",
+  "upstream_chinese_candidates": 1,
+  "chinese_quality_accepted": 1,
+  "A3_chinese_queries_reported": 8,
+  "qualified_chinese_inputs": 0,
+  "english_candidates": [],
+  "english_output_count": 0,
+  "new_english_scores": 0,
+  "new_usage_queries": 0,
+  "new_registration_queries": 0,
+  "decision": "zero_input_after_existing_chinese_core_use_rejection",
+  "excluded": [
+    {
+      "candidate_id": "C1-C26",
+      "name": "园丁鸟",
+      "reason": "原A3确证深圳市园丁鸟科技有限公司官网公开使用、河南园丁鸟智能科技有限公司采购公示及园丁鸟·巢集App相同园丁鸟核心。",
+      "limits": "不凭科技/智能后缀认定AI研发，不冒称实时官方工商或9/42商标核验；App完整名为复合名，未说仅园丁鸟三字。"
+    }
+  ],
+  "actual_reading_boundary": "本次仅读取已落盘报告，无外部新查；A3原访问范围及两PDF目标超时继续按原档保留。动物原理真实不能以换英文救回中文。",
+  "next": "交原A3实际英文零终检；只关闭本族本包，其他研究继续。",
+  "unchanged": "不造英文或分数、不改旧稿/receipt/总库/索引/Git，不重开已失败家族或超额返工。"
+}

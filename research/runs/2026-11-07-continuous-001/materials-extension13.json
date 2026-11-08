@@ -1,0 +1,64 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T11:43:00.965295+08:00",
+  "materials": [
+    {
+      "id": "C1-M35",
+      "family_id": "C1-MF-inert-listener-prompts-explicit-explanation",
+      "macro_id": "S1",
+      "plan_direction_id": "C1-D-S1",
+      "category": "everyday_desk_object_in_programming_practice",
+      "case_ids": [
+        "B015",
+        "B025"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P4",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Hunt & Thomas, The Pragmatic Programmer, Debugging章大学课程节选",
+          "url": "https://courses.cs.duke.edu/compsci308/spring26/readings/pragmatic-programmer-debugging.pdf",
+          "published_at": null,
+          "reading_location": "实际下载11页课程节选，仅读PDF第8–9页（印刷94–95页）Rubber Ducking正文和脚注；未读完整Debugging章或整本书。版本版权页未在本次确认，不拿spring26课程路径当书籍出版日期。",
+          "reading_scope": "excerpt",
+          "access": "body_via_curl_after_web403",
+          "method": "curl_PDF_pypdf_text",
+          "local_path": "/tmp/continuous001-pragmatic-debugging.pdf",
+          "sha256": "2939e2160448acfdc0263e23148383dcc2df62ac742e844d5d4e6fe1127a3693",
+          "read_at": "2026-11-08T11:43:00.965295+08:00"
+        },
+        {
+          "title": "Keith Schwarz, Stanford CS106B: Debugging Your Code",
+          "url": "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1234/resources/debugging_guide.html",
+          "published_at": "2023-01-05 page last updated; 2023 winter archived course",
+          "reading_location": "实际读公开讲义L104–126，Step Three Rubber-Duck Debug及后续求助边界；未把作者经验比例当实验统计。",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body",
+          "read_at": "2026-11-08T11:43:00.965295+08:00"
+        }
+      ],
+      "source_urls": [
+        "https://courses.cs.duke.edu/compsci308/spring26/readings/pragmatic-programmer-debugging.pdf",
+        "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1234/resources/debugging_guide.html"
+      ],
+      "fact": "书中把逐步向他者解释代码作为发现问题的实践：解释迫使说者把默认假设讲出来，听者不需要回答，也可以是鸭子等无生命物件。Stanford教学正文给出相同逐行解释建议，并保留无法解决时求助他人的下一步。",
+      "mechanism_to_material": "Sony从感官/日常体验建立可叫称呼，Cursor从手边物件成为更宽工具入口；迁移到程序员桌面玩具承担思考伙伴角色。不是继续寻找另一种动物的自然智能。两案均A1本轮实质核验，仍不假称知道Cursor创始起名动机。",
+      "distinctive_relation": "物件不需要思考或给答案；为了向它解释而改变的，是说者表达和检查自身假设的方式。",
+      "naming_potential": "熟悉有形的桌面对象与程序员文化有真实连接，轻松称呼背后有独特角色，不再搬冷僻计算术语。",
+      "shortcoming": "玩具、儿童、洗浴用品首联想，可能像编程助手而非广义实验室；实践建议不等同严谨效果实验。",
+      "history_difference": "园丁鸟是活的动物组织外部展示环境，此处是桌面无生命玩具承接解释行为；不是换鸟种。会意依赖双方形成共同参照，这里听者可完全无理解或回复；旧反例/复证是逻辑或新数据检验，此处是说者外显自身假设。旧推理多一步若只剩泛化自我思考会有家族风险，因此保留向无言物件解释的具体对象和角色，不因新书名自动新族。",
+      "boundary": "不证明鸭子有理解、代码解释必然正确或所有错误可自解；书中轶事不当命名历史普遍实验，Stanford的经验概率不作可复现统计。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft"
+    }
+  ],
+  "access_notes": [
+    "Duke PDF web返回403，curl实际下载成功；pdftotext本机未安装，改pypdf实际提取并读第8–9页。未把403或检索摘要冒充正文。"
+  ],
+  "source_dates_note": "本书版本年未知、教学讲义2023，均不计近九十天新闻；没有新增古文。"
+}

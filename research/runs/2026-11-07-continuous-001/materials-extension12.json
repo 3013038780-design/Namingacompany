@@ -1,0 +1,60 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T11:36:00.363426+08:00",
+  "materials": [
+    {
+      "id": "C1-M34",
+      "family_id": "C1-MF-bower-arranged-for-a-viewing-position",
+      "macro_id": "S2",
+      "plan_direction_id": "C1-D-S2",
+      "category": "animal_construction_original_experiment",
+      "case_ids": [
+        "B076",
+        "B053"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Kelley & Endler: How do great bowerbirds construct perspective illusions?",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5319334/",
+          "published_at": "2017-01-18",
+          "reading_location": "HTML L85–139摘要/引言/方法与首段结果；L153–165结果；L191–211讨论与认知解释限制。没有读取全部附录、原始录像或参考文献各论文。",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body",
+          "read_at": "2026-11-08T11:36:00.363426+08:00"
+        },
+        {
+          "title": "中国国家地理：园丁鸟（作者韩奔、韩联宪）",
+          "url": "https://www.dili360.com/cng/article/p538190146486d19.htm",
+          "published_at": "2014-05 issue; exact day not given",
+          "reading_location": "公开题名、署名及L7–23导语/图片说明/第一段；L25–27提示其余需小程序，未读未开放全文。仅据此确认中文称呼与一般建亭语境，不用该导语证明原论文技术结果。",
+          "reading_scope": "public_excerpt",
+          "access": "partial_body",
+          "method": "web_HTML_body",
+          "read_at": "2026-11-08T11:36:00.363426+08:00"
+        }
+      ],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5319334/",
+        "https://www.dili360.com/cng/article/p538190146486d19.htm"
+      ],
+      "fact": "雄性great bowerbird按物件大小与距离组织展示场地。从通道内观看会形成强迫透视。移走物件后重建实验中，前一小批物件已形成所需梯度；物件总数与本次配偶成功率、场地质量未见相关。",
+      "mechanism_to_material": "沿Sakana普通动物称呼背后的真实行为关系寻找单个行动者，不复制鱼群与集群智能；月之暗面基线提示完整场景也能承担身份。前者A1本轮重核，后者仅沿用分析。",
+      "distinctive_relation": "改变外部物件的大小—距离关系，让一个固定观看位置获得特定视觉场景；构筑的是供另一个行动者观看的环境。",
+      "naming_potential": "有一位可叫出名字的自然建造者，比硬摘透视术语更像有个性的主角。",
+      "shortcoming": "园丁会带教育、园艺、景观设计联想；原研究含求偶与视觉错觉，不能包装为诚实可靠或能力增强的科学证明。",
+      "history_difference": "Sakana是群体简单规则与组织，不是单鸟为观看者布置环境；活桥是个体身体成通路，园丁鸟则使用外部物件；余光是观察者周边信息压缩，探形是触觉/声学获得形状，算筹是离散表示规则。本项为物体大小、距离与指定观看位置共同形成显示场景。若最终只剩泛化造园/成长/装饰，不凭新物种另算品牌族。",
+      "boundary": "园丁鸟是较宽的中文称呼，本实验不是所有园丁鸟、雌雄或所有建亭行为的一般实验。内部模板、初次学习与试误是作者讨论的可能解释，未证明其懂人类几何或具有通用智能。梯度在重建中不持续单调变好。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft"
+    }
+  ],
+  "scope": "把前包仅搜索入口变为本次真实正文阅读；仅一个新素材与中文，不强配第二个。",
+  "source_dates_note": "2017原论文、2014中文公开节选均非近九十天新闻，没有古文，不声称读杂志付费全文。"
+}

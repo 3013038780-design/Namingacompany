@@ -1,0 +1,53 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese upstream gate verification",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T13:10:19.564302+08:00",
+  "candidate_id": "C1-C28",
+  "name": "灵感之外",
+  "inputs": [
+    {
+      "path": "A2-preview-batch15.md",
+      "sha256": "8f4f8964a3b611199720845c5dcc2c22be08d6ef339b3fcc960e60057f31c5b8"
+    },
+    {
+      "path": "A2-candidates-batch15.json",
+      "sha256": "d3e818d6cfd59ed76c86f7efa21b81367f7147b9cf5398d11e6a213b013a9441"
+    },
+    {
+      "path": "A2-quality-batch15.json",
+      "sha256": "0656d8aae6538853bf30245acffcc38785aeea10dc12b367a5e05239affa9b6b"
+    },
+    {
+      "path": "coordinator-cn-batch15.json",
+      "sha256": "a2db87147c91dd2c3e2c99f0d1bc76fc16364167b19b41abe7afb568aafdd88b"
+    },
+    {
+      "path": "coordinator-family-review-batch15.json",
+      "sha256": "8a95dc4757c070e16148c1cb4c2d1762fb2c61843b41ca6c419cf5fe76c5e00b"
+    }
+  ],
+  "actual_upstream_read": true,
+  "upstream_candidates": 1,
+  "upstream_quality_accepted": 0,
+  "screening_input_count": 0,
+  "query_logs": [],
+  "actual_new_candidate_queries": 0,
+  "actual_new_control_queries": 0,
+  "results": [
+    {
+      "candidate_id": "C1-C28",
+      "name": "灵感之外",
+      "decision": "not_screened_upstream_quality_reject",
+      "reason_code": "BRAND_FIT",
+      "reason": "主控24/Lab身份3<4，producer25，最大轴差1；任一评审未过门即挡，不能以真实认知论文补品牌机构首感。未查使用，不称占用/可用。"
+    }
+  ],
+  "passed_chinese_candidate_ids": [],
+  "material_accounting": "复用原已读未命名C1-M22首次创作，新素材0，不伪增M36或恢复旧M18/M20。",
+  "agent3_cumulative_candidate_queries": 329,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 331,
+  "next": "原A4实际零匹配后同一A3做英文零终检；仅本包。",
+  "old_records_catalog_git_unchanged": true
+}

@@ -1,0 +1,102 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English zero-input final check",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T11:40:20.679830+08:00",
+  "candidate_id": "C1-C26",
+  "name": "园丁鸟",
+  "inputs": [
+    {
+      "path": "A4-zero-batch13.json",
+      "sha256": "14719474cd9185281b21559068857c1c86a618589ef5182f45b69c59398d31e4"
+    },
+    {
+      "path": "A4-zero-batch13.md",
+      "sha256": "3be5d007c377ce9404ae8ea9163d4b1cc59497d30c0c3ce18602e96c9e3fc638"
+    },
+    {
+      "path": "A3-cn-batch15.json",
+      "sha256": "aa82bfa8e497155d5bbd8f27f3fbbc52fe6777287d2d63bf92c51997c3afd7f4"
+    },
+    {
+      "path": "A3-cn-batch15-receipt.json",
+      "sha256": "95afee81928b1722cf0996ae1f8a673d9e4817e0953e3c734185ceaf6ab92b93"
+    },
+    {
+      "path": "continuations/2026-11-08T033348Z/root-C26-use-verification.json",
+      "sha256": "f57c406be8ce0649ca2a9cca4f90b717295503c089d5282915b95b2908ea7b1f"
+    }
+  ],
+  "actual_read": true,
+  "hash_checks": [
+    {
+      "path": "A2-candidates-batch13.json",
+      "expected_sha256": "0e99febef4e281c06f2b9e49b4313e6dc44c3f9735c6cefd5b40bb7d7ce13098",
+      "actual_sha256": "0e99febef4e281c06f2b9e49b4313e6dc44c3f9735c6cefd5b40bb7d7ce13098",
+      "matches": true
+    },
+    {
+      "path": "A2-quality-batch13.json",
+      "expected_sha256": "d4f30c51995daac1993de42b48169e5bc62de4d5ffb46e738e8086e8fcee86f7",
+      "actual_sha256": "d4f30c51995daac1993de42b48169e5bc62de4d5ffb46e738e8086e8fcee86f7",
+      "matches": true
+    },
+    {
+      "path": "coordinator-cn-batch13.json",
+      "expected_sha256": "5c526472825a39c4a28805a25b915cc163f157e28a59b90d82234589b28c4caf",
+      "actual_sha256": "5c526472825a39c4a28805a25b915cc163f157e28a59b90d82234589b28c4caf",
+      "matches": true
+    },
+    {
+      "path": "coordinator-family-review-batch13.json",
+      "expected_sha256": "6bf09eff4366ceabace708402f09f5575bdd4cc76fbefb9817fdfc686a575885",
+      "actual_sha256": "6bf09eff4366ceabace708402f09f5575bdd4cc76fbefb9817fdfc686a575885",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch15.json",
+      "expected_sha256": "aa82bfa8e497155d5bbd8f27f3fbbc52fe6777287d2d63bf92c51997c3afd7f4",
+      "actual_sha256": "aa82bfa8e497155d5bbd8f27f3fbbc52fe6777287d2d63bf92c51997c3afd7f4",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch15.md",
+      "expected_sha256": "9f9dbdc6ad4b64935873723f1c5e530050da69c15a63b5b0e84c7693dcc14141",
+      "actual_sha256": "9f9dbdc6ad4b64935873723f1c5e530050da69c15a63b5b0e84c7693dcc14141",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch15-receipt.json",
+      "expected_sha256": "95afee81928b1722cf0996ae1f8a673d9e4817e0953e3c734185ceaf6ab92b93",
+      "actual_sha256": "95afee81928b1722cf0996ae1f8a673d9e4817e0953e3c734185ceaf6ab92b93",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch15.md",
+      "expected_sha256": "9f9dbdc6ad4b64935873723f1c5e530050da69c15a63b5b0e84c7693dcc14141",
+      "actual_sha256": "9f9dbdc6ad4b64935873723f1c5e530050da69c15a63b5b0e84c7693dcc14141",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch15.json",
+      "expected_sha256": "aa82bfa8e497155d5bbd8f27f3fbbc52fe6777287d2d63bf92c51997c3afd7f4",
+      "actual_sha256": "aa82bfa8e497155d5bbd8f27f3fbbc52fe6777287d2d63bf92c51997c3afd7f4",
+      "matches": true
+    }
+  ],
+  "qualified_chinese_inputs": 0,
+  "english_inputs": 0,
+  "english_outputs": 0,
+  "actual_new_candidate_queries": 0,
+  "actual_new_control_queries": 0,
+  "query_logs": [],
+  "decision": "zero_english_input_verified_after_chinese_existing_core_use_rejection",
+  "scope": "A2batch13/C26；原A4已真实零匹配，非未开始伪记零。",
+  "reason": "中文已确证同核心公司/软件公开使用；不以换英文救回，不称AI研发已核、工商存续或商标登记已核。",
+  "source_boundaries": "root确实读深圳官网和河南采购；root CN短App地址失败，原A3读US产品页。两份独立可读主体主证足够，不伪造root读App。",
+  "agent3_cumulative_candidate_queries": 320,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 322,
+  "next": "主控H7闭本包，其他不同关系研究接续。",
+  "old_records_catalog_git_unchanged": true
+}

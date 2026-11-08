@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T11:10:25.399271+08:00",
+  "generated_at": "2026-11-08T13:12:53.735819+08:00",
   "feed_url": "https://raw.githubusercontent.com/3013038780-design/Namingacompany/codex/naming-research-pilot/research/catalog/website.json",
   "counts": {
     "discussion_candidates": 24,
@@ -6365,9 +6365,132 @@
       "shortcoming": "可能先像软件工具、编程社区或培训机构，补有补丁/修复联想。若这一首感压过研究机构身份，应质量淘汰，不以大学出处补分。",
       "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch12.json",
       "english_attempts": []
+    },
+    {
+      "chinese_id": "C1-C26",
+      "chinese": "园丁鸟",
+      "status": "已有同核心公司及软件使用，淘汰",
+      "reason": "中文质量26/26后，独立查重八查询核深圳市园丁鸟科技有限公司官网、河南园丁鸟智能科技有限公司官方采购记录及园丁鸟·巢集软件；核心相同，不因科技/智能后缀或复合产品名救回。品牌审阅独立读前两份主证，不称已核AI模型、实时工商或商标登记。",
+      "evidence_refs": [
+        "A2-candidates-batch13.json",
+        "A3-cn-batch15.json",
+        "continuations/2026-11-08T033348Z/root-C26-use-verification.json"
+      ],
+      "run": "research/runs/2026-11-07-continuous-001",
+      "source": [
+        {
+          "title": "Kelley & Endler: How do great bowerbirds construct perspective illusions?",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5319334/",
+          "published_at": "2017-01-18",
+          "reading_location": "HTML L85–139摘要/引言/方法与首段结果；L153–165结果；L191–211讨论与认知解释限制。没有读取全部附录、原始录像或参考文献各论文。",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body",
+          "read_at": "2026-11-08T11:36:00.363426+08:00"
+        },
+        {
+          "title": "中国国家地理：园丁鸟（作者韩奔、韩联宪）",
+          "url": "https://www.dili360.com/cng/article/p538190146486d19.htm",
+          "published_at": "2014-05 issue; exact day not given",
+          "reading_location": "公开题名、署名及L7–23导语/图片说明/第一段；L25–27提示其余需小程序，未读未开放全文。仅据此确认中文称呼与一般建亭语境，不用该导语证明原论文技术结果。",
+          "reading_scope": "public_excerpt",
+          "access": "partial_body",
+          "method": "web_HTML_body",
+          "read_at": "2026-11-08T11:36:00.363426+08:00"
+        }
+      ],
+      "meaning": "一个会组织外部世界、让场景成立的自然建造者。",
+      "crossing": "日常能理解的园丁角色与鸟的外部建造行为，在同一个自然对象上相接；研究层可关注感知、环境与行动怎样相互作用。",
+      "shortcoming": "园艺/教育/景观工作室的行业联想明显；鸟类形象可能可爱过头。视觉错觉也可能引出包装与欺骗联想，不能抹去该出处风险。名字是否独立承载AI Lab必须另评。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch13.json",
+      "english_attempts": []
+    },
+    {
+      "chinese_id": "C1-C27",
+      "chinese": "橡皮鸭",
+      "status": "已有具名AI软件代理使用，淘汰",
+      "reason": "双中文质量26/26后，独立查重九查询查到GitHub官方中文文档明确将Copilot内置代理称橡皮鸭/橡胶鸭，非只通用调试方法。南京橡皮鸭科技历史科技名单为另层证据，不冒称当前登记；不换英文救回。",
+      "evidence_refs": [
+        "A2-candidates-batch14.json",
+        "A3-cn-batch16.json",
+        "continuations/2026-11-08T033348Z/root-C27-use-verification.json"
+      ],
+      "run": "research/runs/2026-11-07-continuous-001",
+      "source": [
+        {
+          "title": "Hunt & Thomas, The Pragmatic Programmer, Debugging章大学课程节选",
+          "url": "https://courses.cs.duke.edu/compsci308/spring26/readings/pragmatic-programmer-debugging.pdf",
+          "published_at": null,
+          "reading_location": "实际下载11页课程节选，仅读PDF第8–9页（印刷94–95页）Rubber Ducking正文和脚注；未读完整Debugging章或整本书。版本版权页未在本次确认，不拿spring26课程路径当书籍出版日期。",
+          "reading_scope": "excerpt",
+          "access": "body_via_curl_after_web403",
+          "method": "curl_PDF_pypdf_text",
+          "local_path": "/tmp/continuous001-pragmatic-debugging.pdf",
+          "sha256": "2939e2160448acfdc0263e23148383dcc2df62ac742e844d5d4e6fe1127a3693",
+          "read_at": "2026-11-08T11:43:00.965295+08:00"
+        },
+        {
+          "title": "Keith Schwarz, Stanford CS106B: Debugging Your Code",
+          "url": "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1234/resources/debugging_guide.html",
+          "published_at": "2023-01-05 page last updated; 2023 winter archived course",
+          "reading_location": "实际读公开讲义L104–126，Step Three Rubber-Duck Debug及后续求助边界；未把作者经验比例当实验统计。",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body",
+          "read_at": "2026-11-08T11:43:00.965295+08:00"
+        }
+      ],
+      "meaning": "让思考说得出来的桌边伙伴。",
+      "crossing": "洗澡玩具的日常形象与软件实践里的无言听众，是同一个真实物件，不是两个独立寓意拼接。",
+      "shortcoming": "可能先像儿童玩具/洗浴用品，且英文对应词有很强既有技术文化色彩。广义Lab身份需独立审，不因出处或趣味性强加过线；也不能把公司只定位成调试工具。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch14.json",
+      "english_attempts": []
+    },
+    {
+      "chinese_id": "C1-C28",
+      "chinese": "灵感之外",
+      "status": "质量淘汰，未查",
+      "reason": "从未命名旧素材M22凝练的新称呼，非新增素材。品牌审阅先独评24、Lab身份3<4，作者25差1；首感更像创意栏目/播客/文化工作室，真实认知论文不能补品牌气质。未查使用，不称已占用或可用。",
+      "evidence_refs": [
+        "A2-candidates-batch15.json",
+        "A2-quality-batch15.json",
+        "coordinator-cn-batch15.json",
+        "coordinator-family-review-batch15.json",
+        "materials-extension14.json"
+      ],
+      "run": "research/runs/2026-11-07-continuous-001",
+      "source": [
+        {
+          "title": "McGuinness, Schooler, Gable & Gross: The Aha! Glow: Insight Experiences Bias Judgements of Idea Quality in Divergent Contexts",
+          "url": "https://metalab.psych.ucsb.edu/media/171",
+          "published_at": "2026-08-01",
+          "reading_location": "沿用M22原已读PDF页1–3/20–21；本次实际重读L0–154摘要引言，并追加读L861–1024（PDF19–22页）结果概括、总讨论、动机与局限。不声称通读25页方法和附录。",
+          "reading_scope": "excerpt_and_reread",
+          "access": "body",
+          "method": "web_PDF_body",
+          "read_at": "2026-11-08T11:50:12.329476+08:00"
+        }
+      ],
+      "meaning": "灵感到来时，认识仍有更大的空间。",
+      "crossing": "可感的顿悟体验与研究/创造中不能由确定感代替的工作，共享一条真实边界；之外是本轮空间比喻，不是论文地理对象。",
+      "shortcoming": "可能像创意工作室、文化播客或书名，科技行业首感并非唯一；灵感一词也易让人以为生成内容公司。若需要先读论文才能当AI Lab，应质量淘汰，不能按出处加身份分。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch15.json",
+      "english_attempts": []
     }
   ],
   "events": [
+    {
+      "id": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T033348Z/result.json",
+      "at": "2026-11-08T13:12:53.500697+08:00",
+      "date": "2026-11-08",
+      "title": "研究更新",
+      "retained": 0,
+      "drafts": 3,
+      "materials": 2,
+      "pending": 1,
+      "reason": "园丁鸟已有同核心公司及园丁鸟·巢集软件，八查询后淘汰；橡皮鸭已有GitHub官方中文具名Copilot代理，九查询后淘汰，南京公司历史名单层级另存。灵感之外从未命名旧素材凝练，但首感偏创意栏目/文化工作室，质量未过、未查使用。三包均由英文匹配和同一A3实际零输入收尾，无合格双语新增。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/continuations/2026-11-08T033348Z/result.json"
+    },
     {
       "id": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T023853Z/result.json",
       "at": "2026-11-08T11:10:16.344583+08:00",
