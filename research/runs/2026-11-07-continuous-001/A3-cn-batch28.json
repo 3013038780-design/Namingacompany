@@ -1,0 +1,90 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese upstream zero-input acceptance",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T22:29:38.637114+08:00",
+  "inputs": [
+    {
+      "path": "A2-preview-batch26.md",
+      "sha256": "55291099fc10e7ce71e4429463d5575342369c7dd5a43746762eacd1968022df"
+    },
+    {
+      "path": "A2-candidates-batch26.json",
+      "sha256": "0b7d5d65810296c3b6d6b883207dc603c2020cd5e467b4dadf19507538f81783"
+    },
+    {
+      "path": "A2-quality-batch26.json",
+      "sha256": "05195e333498e1792e257d974b6a07d51a8c621b39ccfb91990d8d9a23f02115"
+    },
+    {
+      "path": "A2-creation-execution-batch26.json",
+      "sha256": "7b269035478fa1a502c3188575a067bf2fd0a16b3a35cee803ec14099e59f55c"
+    },
+    {
+      "path": "materials-extension24.json",
+      "sha256": "c991853695eee27b440649404d1fc297fd10c50541aff498a5bbad7714124c23"
+    },
+    {
+      "path": "coordinator-cn-batch26.json",
+      "sha256": "9f4702a0dc83a84209e5232644f28023f1cc5256476af40bcb6a0e79cb210ab1"
+    },
+    {
+      "path": "coordinator-family-review-batch26.json",
+      "sha256": "4224531e44135d3750c997a466b41ed9153363905511593736e658daee714e97"
+    }
+  ],
+  "upstream_output_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension24.json",
+      "expected": "c991853695eee27b440649404d1fc297fd10c50541aff498a5bbad7714124c23",
+      "actual": "c991853695eee27b440649404d1fc297fd10c50541aff498a5bbad7714124c23",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch26.json",
+      "expected": "0b7d5d65810296c3b6d6b883207dc603c2020cd5e467b4dadf19507538f81783",
+      "actual": "0b7d5d65810296c3b6d6b883207dc603c2020cd5e467b4dadf19507538f81783",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch26.md",
+      "expected": "55291099fc10e7ce71e4429463d5575342369c7dd5a43746762eacd1968022df",
+      "actual": "55291099fc10e7ce71e4429463d5575342369c7dd5a43746762eacd1968022df",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch26.json",
+      "expected": "05195e333498e1792e257d974b6a07d51a8c621b39ccfb91990d8d9a23f02115",
+      "actual": "05195e333498e1792e257d974b6a07d51a8c621b39ccfb91990d8d9a23f02115",
+      "match": true
+    }
+  ],
+  "actual_chinese_drafts_reviewed": 1,
+  "eligible_chinese_usage_inputs": 0,
+  "passed_chinese_candidate_ids": [],
+  "quality_rejected_not_searched_ids": [
+    "C1-C45"
+  ],
+  "results": [
+    {
+      "candidate_id": "C1-C45",
+      "name": "千手稿",
+      "decision": "not_screened_upstream_quality_reject",
+      "reason": "主控24、作者25各轴差<=1，主控Lab身份3<4。首要征稿出版/写作产品联想；真来源与共手字融合不补质量。未查不称占用或可用。",
+      "query_logs": [],
+      "evidence": []
+    }
+  ],
+  "actual_new_candidate_queries": 0,
+  "actual_new_control_queries": 0,
+  "actual_new_registration_queries": 0,
+  "agent3_cumulative_candidate_queries": 506,
+  "agent3_cumulative_returned_candidate_results": 505,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 508,
+  "run_cumulative_returned_candidate_results": 507,
+  "source_scope": "本A3实际读取上游引用、来源范围与root复核说明；未自行外开Benkler或扫描页，不将作者阅读冒充本人源头实读。M56仅素材无中文，不虚构第二候选。",
+  "decision": "actual_zero_eligible_input_check_completed",
+  "next": "原A4实际零匹配后再由同A3英文零终核，当前未预填英语检查。",
+  "unchanged": "仅本人新档；旧稿/队列/库/Git未改，未新做阳性对照或失败登记入口。"
+}

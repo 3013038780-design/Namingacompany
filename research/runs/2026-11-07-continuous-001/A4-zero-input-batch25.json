@@ -1,0 +1,101 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 actual English zero-input check",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T22:45:02.217283+08:00",
+  "upstream_package": "A2-batch28 / A3-cn30",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch28.json",
+      "sha256": "813d002abd4aa2355d03c30dd9e3382771d703a25692faef1911bbd0237c0f44"
+    },
+    {
+      "path": "A2-quality-batch28.json",
+      "sha256": "6a4a2826581e2203cb403688c230c21f481b077a98ba014e4f59368cd2e51dbe"
+    },
+    {
+      "path": "coordinator-cn-batch28.json",
+      "sha256": "969f656c9bcd67e9d18f5bb898dda38203b07121c4df6b9e5ca7ce2e74eb68cf"
+    },
+    {
+      "path": "coordinator-family-review-batch28.json",
+      "sha256": "5bed93e75913d6c846afd3ae5e8fb3438a13fedb00628a4533eed7c4378cba2a"
+    },
+    {
+      "path": "A3-cn-batch30.json",
+      "sha256": "78f1ab56f0c90f14097937947339b9f055154f006a04db3d4c0eff9171efceed"
+    },
+    {
+      "path": "A3-cn-batch30.md",
+      "sha256": "d50290a3a9f1c5e04be43e992349053c4b7c879585d6471a2cbd294ecc540a62"
+    },
+    {
+      "path": "A3-cn-batch30-receipt.json",
+      "sha256": "1c13003a8610da8353c37a6d90c9f903401872f3374b4730b2257c3ce1fb241a"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch28.json",
+      "sha256": "813d002abd4aa2355d03c30dd9e3382771d703a25692faef1911bbd0237c0f44",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch28.json",
+      "sha256": "6a4a2826581e2203cb403688c230c21f481b077a98ba014e4f59368cd2e51dbe",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch28.json",
+      "sha256": "b2a2587a4bade5b9c6ed6c0b7ec72538014b689afa0c215aa442ba7e64c6e8ad",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension26.json",
+      "sha256": "bfe9c71540a59ce738f59a0453fc4a643f7cf8b50cfa2f7519710783e2358314",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch28.json",
+      "sha256": "969f656c9bcd67e9d18f5bb898dda38203b07121c4df6b9e5ca7ce2e74eb68cf",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch28.json",
+      "sha256": "5bed93e75913d6c846afd3ae5e8fb3438a13fedb00628a4533eed7c4378cba2a",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch30.json",
+      "sha256": "78f1ab56f0c90f14097937947339b9f055154f006a04db3d4c0eff9171efceed",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch30.md",
+      "sha256": "d50290a3a9f1c5e04be43e992349053c4b7c879585d6471a2cbd294ecc540a62",
+      "match": true
+    }
+  ],
+  "actual_chinese_drafts_reviewed": 1,
+  "quality_passed_chinese": 1,
+  "eligible_english_inputs": 0,
+  "english_candidates": [],
+  "decision": "zero_input_after_actual_upstream_review",
+  "excluded": [
+    {
+      "chinese_id": "C1-C47",
+      "chinese": "织觉",
+      "reason": "官网明确杭州织觉智能科技有限公司及AI纺织质检/机器视觉业务，智能/科技后缀不改变织觉核心；非仅智觉/知觉异字近音，按实际同核心使用停止配英文。",
+      "evidence_url": "https://www.weavevision.com/about.html",
+      "claim_boundary": "官网自述使用确证，不冒官方当前公司登记、第9/42类商标或性能资质核准。"
+    }
+  ],
+  "actual_english_creation": 0,
+  "actual_new_scores": 0,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "reading_boundary": "实际读本批候选/作者与root双评/家族及原A3三档，核固定SHA；市场官网原A3与root读，非本人本次重开；未将蜘蛛综述冒读原实验。",
+  "separation_from_C46": "Common Grip为另一有实际英文输出的包，本次零输入只限C47，绝不把两包并称英语零输出。",
+  "next": "同一原A3英文零终核；不配弱英文救已使用中文。",
+  "unchanged": "只新档，不改旧稿/分/队列/库/Git，不占下一实际英文编号。"
+}

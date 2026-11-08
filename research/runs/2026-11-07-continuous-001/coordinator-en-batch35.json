@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-08T22:39:55.964888+08:00",
+  "independence": "Read producer preview batch35 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C46",
+      "name": "Common Grip",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个完整基础词发音顺畅",
+          "counter_association": "gr音簇对部分中文说话者需练习"
+        },
+        "spelling": {
+          "reason": "常用词拼写正常无任意删改",
+          "counter_association": "常用不代表听写永久零成本"
+        },
+        "grounding": {
+          "reason": "共享对象与操持是同一次选择操作的比喻",
+          "counter_association": "不是Inkscape原工具正式名称"
+        },
+        "bilingual_relation": {
+          "reason": "从多个对象当前共享变换入口承接可见选框",
+          "counter_association": "不是永久编组或多人一致同意"
+        },
+        "distinctiveness": {
+          "reason": "共同握持有画面但短语专名辨识谨慎",
+          "counter_association": "运动摄影握把工业夹具先浮现且common有平庸义"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E38"
+    }
+  ]
+}

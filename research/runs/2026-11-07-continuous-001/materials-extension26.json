@@ -1,0 +1,78 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T22:38:45.770512+08:00",
+  "materials": [
+    {
+      "id": "C1-M58",
+      "family_id": "C1-MF-tunable-web-structure-participates-in-sensing",
+      "macro_id": "S2",
+      "plan_direction_id": "C1-D-S2",
+      "category": "animal_environment_sensory_relationship",
+      "case_ids": [
+        "B076",
+        "B053",
+        "B091"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Hilton F. Japyassú / Kevin N. Laland: Extended spider cognition",
+          "url": "https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/10466/Japyass_2017_Extended_AnimalCog_CC.pdf?isAllowed=y&sequence=1",
+          "reading_location": "实际web读作者库21页PDF的摘要L0–35，及Case 1 L475–617（PDF6–7页）：网丝张力调节/传输与作者扩展感知论证，含脚注7对网不可独立解释意义的限定。没有通读21页、阅读全部参考文献原文或复现实验。",
+          "read_at": "2026-11-08T22:38:45.770512+08:00",
+          "access": "body",
+          "source_type": "author_review_article_in_institutional_repository",
+          "reading_scope": "abstract_and_case_section",
+          "published_at": "2017",
+          "boundary": "这是作者综述，引用Watanabe/Nakata等实验；本包没有读到那些原实验方法，不将综述叙述伪称本包实读原始实验。扩展认知是作者论证立场，不写成无争议普遍定律。"
+        }
+      ],
+      "source_urls": [
+        "https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/10466/Japyass_2017_Extended_AnimalCog_CC.pdf?isAllowed=y&sequence=1"
+      ],
+      "fact": "综述整理网丝张力与振动传输/觅食反应的关系，并据双向作用提出外部网参与感知系统的论证。",
+      "distinctive_relation": "动物编织并调节的外部结构，会参与它接收何种信号，而不是只把已有信号原样传到体内。",
+      "mechanism_to_material": "沿Sakana的真实生命关系、原S2问题中的环境与行动调节，寻找系统怎样改变接触世界的条件；月之暗面基线支持完整世界，Ineffable新核仅帮助提出认识范围可被研究的问题，不拿其超智能信念作蜘蛛科学证据。材料本身来自生物关系，不因认识论主题改挂哲学类。Sakana/Ineffable已核，月之暗面未重开词源。",
+      "history_difference": "旧织数是穿孔卡指令与代数模式被织造，旧飞梭为工具跨越臂展，纸蜂为把植物纤维加工成巢材；本项是可调外部结构参与同一动物的感觉输入，并非再换织造对象。M15黏菌外部痕迹提供此前走过哪里的依据，而蛛网张力改变当前振动传输；M09回声定位、侧音与声入纹分别为声学定位/自我反馈/记录回放，不是此结构可调的感知系统。M26余光是外围信息汇总，C32借身是身体归属错觉，均不是外部网结构调节输入。若只剩外脑/感官外挂/有反馈的泛角色，需要保守合并，不凭蜘蛛物种或新论文标题计新。",
+      "naming_potential": "织造与感知来自同一个生物系统，可凝为自然熟字的新整体，而非只摘物种或微小部件名。",
+      "shortcoming": "织/知/智的同音与纺织/觉醒误读；微观机制真实不替公司身份加分。",
+      "boundary": "不说网独自有意识、蜘蛛脑无用或任意模型外挂即更聪明。张力作用为综述所引研究，扩展认知归作者观点；品牌的织概括编织并可调的结构，不将意识觉醒强加给觉字。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft",
+      "secondary_macro_ids": [
+        "S5"
+      ],
+      "role_path_note": "回原S2六世界任务，借新B091认识问题补问，不重开角色计划或沿旧写作/GUI家族。"
+    }
+  ],
+  "new_material_count": 1,
+  "new_chinese_draft_count": 1,
+  "failed_accesses": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5394149/",
+      "result": "web验证码，不当正文；改用实际可读作者库PDF。"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2842635/",
+      "result": "web验证码，仅搜索摘要不足以充原实验实读。"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2842635/fullTextXML",
+      "result": "curl返回150字节非有效XML，解析失败，未读正文。"
+    },
+    {
+      "url": "https://royalsocietypublishing.org/doi/10.1098/rspb.2009.1583",
+      "result": "403，原实验方法未核。"
+    },
+    {
+      "url": "https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/10466/Japyass_2017_Extended_AnimalCog_CC.pdf?isAllowed=y&sequence=1",
+      "result": "web正文可读；额外curl下载尝试未生成本地文件，不声称本地PDF已下载。"
+    }
+  ],
+  "coverage_note": "新增S2一项真实关系，保守S3仍14/58、古文3/58；没有新书/近90天新闻，不为原文引用的多个实验拆卡。"
+}

@@ -1,0 +1,63 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English screening",
+  "executed_at": "2026-11-08T22:42:22.020884+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch35.json",
+      "sha256": "ce2ba3e28805bc678d29fb8b8bee635973a5adbee014c807e76f2958a5672aa4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch35.md",
+      "sha256": "c59c7c927a5c9261828ab5f657483c865de151599e870afedf0643860de88237"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch35.json",
+      "sha256": "642929fd73e77ae24a4c1c5f2ec79d78539847c7f33b1c17fe5bd2f30c5f6ce9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch35.json",
+      "sha256": "17c09054d1c8cae22112e64dacaf5dccfabf9bcb98691b91f56280c778983eb3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch35.json",
+      "sha256": "cf383d6089fe70077288e8959cde39e127dfea3873d27a6d53cc4f368b93363f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch29.json",
+      "sha256": "1b41cdbf9aa61e11da190d79d15e50f61c911addc3eda31c242ae805558193fa"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-batch35.json",
+      "sha256": "950f5490c21ac936f03adfb72f6b91478242e8aa36bbb3ecbc5816ba8a95253c"
+    },
+    {
+      "path": "A3-en-batch35.md",
+      "sha256": "d685239548ed5e44ade701c835992eed02cb2fbcbf241ad829fbacc5a0dfe444"
+    }
+  ],
+  "actual_new_candidate_queries": 6,
+  "completed_candidate_search_results": 6,
+  "unreturned_search_attempts": 0,
+  "actual_new_chinese_queries": 0,
+  "actual_new_english_queries": 6,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 516,
+  "prior_agent3_returned_candidate_results": 515,
+  "agent3_cumulative_candidate_queries": 522,
+  "agent3_cumulative_returned_candidate_results": 521,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 524,
+  "run_cumulative_returned_candidate_results": 523,
+  "passed_english_candidate_ids": [
+    "C1-E38"
+  ],
+  "returned_english_candidate_ids": [],
+  "quality_rejected_not_searched_ids": [],
+  "actual_execution": "真实六查询及三具体主体正文消歧，普通描述/通用品类/不同完整品牌不当同名。",
+  "next": "交主控原来源/家族终审，非直接入库。",
+  "unchanged": "旧记录/库/队列/Git未改，无网页全文。",
+  "rejected_english_candidate_ids": []
+}

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T21:50:00.506143+08:00",
+  "updated_at": "2026-11-08T22:50:20.965679+08:00",
   "policy": "continuous_no_quantity_quota",
   "scheduler": {
     "id": "automation",
@@ -12,15 +12,15 @@
   },
   "catalog": {
     "path": "research/catalog/README.md",
-    "discussion_candidates": 27,
+    "discussion_candidates": 28,
     "research_reserves": 1,
-    "total_unique_families": 28,
+    "total_unique_families": 29,
     "withdrawn_families": 1,
-    "historical_unique_families": 29
+    "historical_unique_families": 30
   },
   "active_run": "research/runs/2026-11-07-continuous-001",
-  "actual_state": "checkpoint_batches24_25_zero_new_pairs_all_actors_completed",
-  "next_action": "继续同001原A2，从已验search-plan-role-expansion01三路径接续，优先未执行P1参与创造条件/知识接手及其他六世界真实关系，复用已核A1四例和已读书而非重开方法。按54资料44中文36实际英文及全历史核家族；下一A2 batch26/C45+/新资料M55+/materials-extension24；下一原A3中文28，原A4实际英文batch35/E38+，同A3英文35。纸蜂/双盲两次英文返工已尽不R3；熟手质量与构境公司已闭，不同族重开。活变量旧403无新原证不重查。每工作段含零新增都保存真实结果再构建feed推同PR。",
+  "actual_state": "checkpoint_C46_admitted_C45_quality_C47_used_all_actors_complete",
+  "next_action": "继续同001原A2，复用已核A1与已验原六方向/角色计划，从不同来源真实关系自然创作，不只GUI框选、织造或现代哲学词根。按58资料47中文37实际英文冻结及全历史比家族。下一A2 batch29/C48+/新资料M59+/materials-extension27；下一原A3中文31，原A4英文batch36/E39+，同A3英文36。选框/CommonGrip已入库不换英文作新增；千手稿质量与织觉公司已闭勿近义变体复活；旧403无新原证不重查，耗尽英语不R3。每工作段含零新增都保存真实结果/决策/队列，再build_catalog与build_site_feed推同PR。",
   "pending_stages": [
     "A2真实资料→中文创作；先素材小批内部快审",
     "主控独立中文质量→同A3中文使用筛查",
@@ -90,8 +90,8 @@
     ],
     "new_names_yet": 2,
     "whole_24_family_research_complete": false,
-    "cumulative_materials": 54,
-    "cumulative_chinese_drafts": 44
+    "cumulative_materials": 58,
+    "cumulative_chinese_drafts": 47
   },
   "closed_current_families": {
     "C1-C01": "英文3版已有商业使用，返工耗尽",
@@ -121,26 +121,30 @@
     "C1-C41": "中文8查询公开初筛通过；Paper Wasp已有Papertex的PAPERWASP制造技术用名与PaperSource具名文具系列，英文6查询按商业核心避让。Pulpwright主控19/拼写3质量未过未查；最后原A4实际未选合格新稿，同一A3真实0新英文终核。两次返工已尽，不R3；不倒写中文占用。",
     "C1-C42": "中文8查询通过但保留双盲把戏完整游戏近似与临床/黑箱/通名风险。Names Aside主控20质量拒绝未查；Unsigned六查询已有具名AI/ML自用平台及音频平台；最后Double Veil六查询已有Finnaij具名手机壳设计与GigiBurris头饰，按跨行业商业产品核心避让。两次返工尽，无R3，不倒写中文占用或假称官方注册。",
     "C1-C43": "原A2从Polanyi实读节选选择熟练实践主体，主控独立24/作者25，辨识3/Lab身份3，普通熟练者与招聘维修首感强；实际原A3中文未查、原A4零英文与同A3零终核。不因哲学出处补分，不称占用或可用。",
-    "C1-C44": "从Schön设计行动改变情境并重定问题实读案例创作，双评25；七查询查到成都构境科技有限公司，智联可读完整核心与软件经营范围，第三方不是官方当前存续核验。另构境AI目录仅二手线索、官网超时不升级一手。原A4及同A3实际零英文；不换英文救回。"
+    "C1-C44": "从Schön设计行动改变情境并重定问题实读案例创作，双评25；七查询查到成都构境科技有限公司，智联可读完整核心与软件经营范围，第三方不是官方当前存续核验。另构境AI目录仅二手线索、官网超时不升级一手。原A4及同A3实际零英文；不换英文救回。",
+    "C1-C45": "多人通过共享资源接手贡献的Benkler原著关系真实；千手与手稿共字融合有画面，但主控24/作者25、Lab身份3，首要征稿出版/AI写作产品气质。未送市场查，原A3中文、原A4及同原A3英文实际零验收完成，不称占用或可用。",
+    "C1-C47": "蜘蛛可调外部网参与输入条件的综述关系有据，双评25后八有效查询发现杭州织觉智能科技有限公司官网AI纺织质检/机器视觉完整同核心使用。智能/科技为后缀，不当不同名；非只知觉/智觉同音。原A4及同原A3实际零英文，未核公司当前工商/性能认证，不换英文救回。"
   },
-  "heartbeat_checkpoint": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T131434Z/resume.json",
-  "latest_frozen_decision_snapshot": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T131434Z/decisions-through-batch25.json",
-  "latest_continuation_result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T131434Z/result.json",
+  "heartbeat_checkpoint": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T141904Z/resume.json",
+  "latest_frozen_decision_snapshot": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T141904Z/decisions-through-batch28.json",
+  "latest_continuation_result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T141904Z/result.json",
   "latest_completed_packet": {
-    "new_retained_families": 0,
-    "retained_pairs": [],
+    "new_retained_families": 1,
+    "retained_pairs": [
+      "选框 / Common Grip"
+    ],
     "new_materials": 4,
-    "new_chinese": 4,
-    "new_english_versions": 5,
-    "A1_existing_cases_substantively_reverified": 4,
-    "A3_new_queries": 41,
-    "A3_returned_results": 41,
+    "new_chinese": 3,
+    "new_english_versions": 1,
+    "A3_new_queries": 24,
+    "A3_returned_results": 24,
     "A3_unreturned_attempts": 0,
-    "root_additional_queries": 0,
-    "cumulative_A3_queries": 506,
-    "combined_recorded_queries": 508,
-    "combined_returned_results": 507,
-    "result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T131434Z/result.json"
+    "root_additional_usage_queries": 0,
+    "root_source_discovery_queries": 2,
+    "cumulative_A3_queries": 530,
+    "combined_recorded_queries": 532,
+    "combined_returned_results": 531,
+    "result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T141904Z/result.json"
   },
   "pending_evidence": [
     {

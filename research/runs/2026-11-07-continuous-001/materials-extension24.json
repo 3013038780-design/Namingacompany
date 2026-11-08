@@ -1,0 +1,131 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T22:27:04.877043+08:00",
+  "materials": [
+    {
+      "id": "C1-M55",
+      "family_id": "C1-MF-peer-contribution-roles-through-shared-access",
+      "macro_id": "S4",
+      "plan_direction_id": "C1-D-S4",
+      "category": "modern_collaborative_knowledge_practice",
+      "case_ids": [
+        "B028",
+        "B029",
+        "B025"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Yochai Benkler, The Wealth of Networks, Chapter 3: Peer Production and Sharing",
+          "url": "https://cyber.harvard.edu/wealth_of_networks/Sentence-sliced_Text_Chapter_3",
+          "reading_location": "实际web读L12–219及L259–295，命名重点L259–280三角色接手、共同论坛/源码/许可，以及L285–293规模与层级限制。邻近返回的NASA/Wikipedia段只作阅读背景，不另拆卡，不称读完整章或本书。",
+          "read_at": "2026-11-08T22:27:04.877043+08:00",
+          "access": "body",
+          "source_type": "author_book_text_on_Harvard_book_site",
+          "reading_scope": "book_chapter_excerpt",
+          "published_at": null,
+          "book_year_attributed": "2006；本段未另核印刷版权页",
+          "discovery_provenance": "root提供该HTML入口但明确未读；A2收到入口后真实web打开并读所记正文，未把root索引摘要当阅读。",
+          "boundary": "作者的社会生产论述与案例，不证明任何群体都有效、越多人越正确或从不需要层级；不提供现行GPL法律意见。"
+        }
+      ],
+      "source_urls": [
+        "https://cyber.harvard.edu/wealth_of_networks/Sentence-sliced_Text_Chapter_3"
+      ],
+      "fact": "作者用初版作者、提出问题的使用者、修复者说明共享论坛、源码与许可怎样使不同角色能够接手贡献；又指出大项目组织更复杂。",
+      "distinctive_relation": "作品能被使用、问题能被看见、后来的人能参与修复，来自可接手的共同条件。",
+      "mechanism_to_material": "Runway使公司可以是让他者能力得以出现的条件，HF把参与/接手/贡献变成寻找问题，Cursor保留熟悉可用入口。由三者进入共同知识作品与参与条件，而非再找单件器材；Runway有创始命名问答，HF仅词义和现有社区语境，不假称历史释名。",
+      "history_difference": "实际读旧C10底稿全文：其重写本/当前版本是下一轮基础，主角为同一文本的再修改；本项主角是不同作者、使用者和修复者怎样通过共同资源得以接手，不以版本未终稿/二次成长叙事成立。旧C19写时复制是页共享后隔离写入，M05会意是共同指代，橡皮鸭是说出假设，C43熟手是实践认识主体，均不是这种参与条件和角色接力。稿字相同不自动同族；若后续释义只讲不断重写文本，应退回底稿家族，不能因换书就新增。",
+      "naming_potential": "可以把组织看成让多种贡献接得上的共同作品/空间；不必把公司压成某个技术部件。",
+      "shortcoming": "容易像文档协作产品、出版项目或众包平台，需单独评完整研究机构身份。",
+      "boundary": "千与稿若用于品牌，只是多人贡献与共同作品的意象；不是千人规模统计、物理手稿或原书命名，也不表示本公司已承诺特定开放许可。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft",
+      "role_path_id": "C1-RX01-P1",
+      "secondary_macro_ids": [
+        "S1",
+        "S5"
+      ]
+    },
+    {
+      "id": "C1-M56",
+      "family_id": "C1-MF-participation-in-practice-not-itemized-instruction",
+      "macro_id": "S5",
+      "plan_direction_id": "C1-D-S5",
+      "category": "social_learning_author_book_excerpt",
+      "case_ids": [
+        "B029",
+        "B028"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Jean Lave / Etienne Wenger, Situated Learning: Legitimate Peripheral Participation，扫描节选",
+          "url": "https://se4n.org/papers/lave-wenger-1991.pdf",
+          "reading_location": "webtimeout后实际curl下载8页扫描节选，pypdf无文字；按pdf技能用PyMuPDF渲染，实际目读PDF1–2页，印刷29–31（第一PDF页左面为空、右面29；第二页30–31）。只读第一章引入与作者论述，未读第三章裁缝个案或全书。",
+          "read_at": "2026-11-08T22:27:04.877043+08:00",
+          "access": "body",
+          "source_type": "book_author_scanned_excerpt",
+          "reading_scope": "rendered_book_excerpt",
+          "published_at": null,
+          "local_path": "/tmp/continuous001-lave-wenger.pdf",
+          "sha256": "016fb96292606e03a6abcdf3d37770a8264db2f6b77c1760280ac9893c4566f1",
+          "rendered_pages": [
+            {
+              "path": "/tmp/continuous001-lave-wenger-1.png",
+              "sha256": "2d59e4cb948927806d09cbef7ea452a55fd49196a2afe75e084fba6b20c7bab4"
+            },
+            {
+              "path": "/tmp/continuous001-lave-wenger-2.png",
+              "sha256": "195bee4a843637c966340dacf039c0321e0db577e581867ff3d33ce2080875dc"
+            }
+          ],
+          "boundary": "作者将学习视为参与共同实践的概念论述，不能说本次读到独立裁缝实验数据或人人自动获得成员资格。Cambridge目录只核书/章入口，未充正文。"
+        }
+      ],
+      "source_urls": [
+        "https://se4n.org/papers/lave-wenger-1991.pdf"
+      ],
+      "fact": "作者讨论新参与者与实践、身份和共同活动的关系，并区别其理论与简单的做中学/学徒万能解。",
+      "distinctive_relation": "参与关系不只是将知识条目从教师交给学习者，也涉及获得并实践一个成员位置。",
+      "mechanism_to_material": "HF使寻找从可爱外壳转向能否参与、接手、共同维护；Runway提供使别人能够行动的条件。此书所读概念可以补参与关系，但不能直接推出一个自然Lab称呼。",
+      "history_difference": "与熟手的实践能力主体不同，本项论共同实践中的参与位置；但如果只把师徒/学习伙伴改词，仍很像教育服务或旧共同参照上位角色，暂不认为已经有新品牌。",
+      "naming_potential": "先保留参与条件研究，不硬配名。",
+      "shortcoming": "本次尚无能避开培训/招工第一联想的完整机构称呼。",
+      "boundary": "只读所记原著扫描页；不把共同实践理论当用户公司的现有制度或AI具备社会成员身份的实证。",
+      "is_classical": false,
+      "status": "material_only_no_qualified_name",
+      "role_path_id": "C1-RX01-P1",
+      "secondary_macro_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "new_material_count": 2,
+  "new_chinese_draft_count": 1,
+  "failed_accesses": [
+    {
+      "url": "https://www.benkler.org/wonchapters.html",
+      "result": "web403，仅索引摘要不算正文。"
+    },
+    {
+      "url": "https://www.benkler.org/Benkler_Wealth_Of_Networks_Chapter_3.pdf",
+      "result": "web跳转失败；curl返回HTML而非PDF，pypdf验格式失败，不计阅读。改由root给出的官方书站HTML实际读。"
+    },
+    {
+      "url": "https://se4n.org/papers/lave-wenger-1991.pdf",
+      "result": "webtimeout但curl得到真实8页PDF，无文本层，后续实际渲染目读所列两页。"
+    }
+  ],
+  "coverage_note": "新增S4知识协作实践与S5参与理论。保守S3仍14/56、古文3/56；本包书籍节选是实际正文，无近90天新新闻或全书通读。已读Engelbart辅助不重复新增。"
+}

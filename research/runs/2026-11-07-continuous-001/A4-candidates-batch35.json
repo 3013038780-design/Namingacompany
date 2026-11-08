@@ -1,0 +1,74 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-08T22:38:50.136840+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch27.json",
+      "sha256": "2cdc172cfe581bf798eabbd41a78b08d98d953a3586584e19fdd2ee63a54a1b4"
+    },
+    {
+      "path": "A2-quality-batch27.json",
+      "sha256": "8c88a41338d4c9f7296017dbb681c943a9cb6202f22a5f6c33fac04f2f6c739b"
+    },
+    {
+      "path": "A2-creation-execution-batch27.json",
+      "sha256": "f1cc179ca8dd63084f1e8c109d2747f816fcdf35a1f080db3d593f065c2e4fd8"
+    },
+    {
+      "path": "materials-extension25.json",
+      "sha256": "a910d37fd432d098fb7cdd36e7ea1ea09113e42e4fb027b1f0450e6702bc56bb"
+    },
+    {
+      "path": "coordinator-cn-batch27.json",
+      "sha256": "7e241761162a02b7be03cc0af2ec28ffe86a02462515912abeadcd73f53e5d05"
+    },
+    {
+      "path": "coordinator-family-review-batch27.json",
+      "sha256": "f0e7a7daba847189eb69ac53b9d218df760b9f8cd3822ce6305d9d60efa77d22"
+    },
+    {
+      "path": "A3-cn-batch29.json",
+      "sha256": "1b41cdbf9aa61e11da190d79d15e50f61c911addc3eda31c242ae805558193fa"
+    },
+    {
+      "path": "A3-cn-batch29.md",
+      "sha256": "8d6dce041a1a3a0284e51c69feb7793ed4f288d0b317121ad242183167a1b7f5"
+    },
+    {
+      "path": "A3-cn-batch29-receipt.json",
+      "sha256": "b2305a1b58182e83b617b5d047f4020f73a1ef4f2c9eb245e7909865016603a3"
+    },
+    {
+      "path": "continuations/2026-11-08T141904Z/root-C46-cn29-review.json",
+      "sha256": "0f7f6a8d50c5ca40b2cf9931b849d49abfddf411ef75f5d571d2d0fb53e2447f"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E38",
+      "chinese_id": "C1-C46",
+      "chinese": "选框",
+      "english": "Common Grip",
+      "family_id": "C1-BF-selection-frame-as-operable-scope",
+      "material_id": "C1-M57",
+      "suggested_pronunciation": "建议 KOM-un GRIP，/ˈkɑːmən ˌɡrɪp/（英式common可/ˈkɒmən/），两词共三个音节，常规完整词读法。",
+      "type": "完整形容词+名词形成共同操持对象的主题称呼，非GUI正式术语",
+      "formation": "common取多个对象共享，grip取抓握/操持这一名词意象。不是给grip加正向形容词，common具体说明不同对象现在共享一次操作的作用范围。手册本身将Selector比作手，并说明变换箭头围绕整体选择；Common Grip据此把共同操持这一关系凝成完整短称呼，不把Selection Box错拼成新词。",
+      "bilingual_relation": "中文让选择范围看得见，英文把纳入该范围的多个对象怎样被共同操作想象为一个共同的握持。对象仍可以各不相同，只是当前选集有了共同的变换入口；不是把它们永久融合，也不是人人意见一致。",
+      "meaning": "让分散的对象进入同一次可操作的行动。可供研究组织讨论系统怎样使复杂创造有明确对象和作用范围，不承诺自动选出最优方案或更强智能。",
+      "shortcoming": "grip首先可能像运动握把、摄影器材、工业夹具或控制服务，common也可能被听成普通/平庸；整体专名感有限。英文比中文少了框的可见边界，不读出处时不容易知道来自电脑选择操作；不能拿来源真实补行业身份。",
+      "boundary": "这是操持关系拟物，不是原手册正式工具名；grip不表示握力指标、绝对控制或监控人。只据固定1.3手册：selection box取入对象，bounding box显示对象边界，整体变换把手为当前选择服务；三者不混为同一种永久群组。中文控件/配镜动作通名、选矿/轩旷近音及登记未清保留，不用Xuankuang直接当英语避重。英文未做使用筛查。",
+      "source_urls": [
+        "https://inkscape-manuals.readthedocs.io/en/1.3/selector-tool.html",
+        "https://www.merriam-webster.com/dictionary/common",
+        "https://www.merriam-webster.com/dictionary/grip"
+      ],
+      "read_scope": "本人本次实读Inkscape固定1.3正文L9–74，重点11手的比喻与54–69多选/边界/变换范围，未运行软件或目读示例图。另实读common31–71共享两者以上之义，grip31–117抓握/操持/把手义；不使用词典别的词义加造世界观。中文消歧仅据实际读A3与root固定报告，不冒本人本次另开专利PDF。",
+      "rework_attempt": 0,
+      "remaining_reworks": 2,
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

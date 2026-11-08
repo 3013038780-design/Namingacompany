@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T22:32:54.885119+08:00",
+  "scope": "主控先封存独立判断，再看作者；日常电脑对象不自动免除长期Lab身份。",
+  "reviews": [
+    {
+      "candidate_id": "C1-C46",
+      "name": "选框",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "既有电脑对象的普通中文称呼，两音节可直接叫出",
+          "counter_association": "像一项控件而非公司"
+        },
+        "distinctiveness": {
+          "reason": "可见边界和选择动作形成清楚画面",
+          "counter_association": "也是通用功能词，未查询使用前不知道品牌拥挤程度"
+        },
+        "lab_fit": {
+          "reason": "第一对象即日常计算创造工具，具备软件与交互研究身份",
+          "counter_association": "可能只像图形软件/计算机视觉单产品，仍需主控独评广义Lab"
+        },
+        "grounding": {
+          "reason": "固定版本官方手册明确框选范围及围绕整体选择的变换作用",
+          "counter_association": "不把多选当永久编组，也不把中文简称冒充英文原文中文"
+        },
+        "extension": {
+          "reason": "可谈使对象成为可操作范围的条件，能容纳多种创造研究",
+          "counter_association": "若只做框选控件就过窄，宽身份不能无限泛化"
+        },
+        "semantic_coherence": {
+          "reason": "选和框在同一操作范围关系中成立",
+          "counter_association": "不将选编成最佳、框编成宏大框架的无关宣传"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

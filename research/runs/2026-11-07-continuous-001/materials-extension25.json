@@ -1,0 +1,70 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T22:32:24.126265+08:00",
+  "materials": [
+    {
+      "id": "C1-M57",
+      "family_id": "C1-MF-visible-selection-scope-for-joint-transformation",
+      "macro_id": "S1",
+      "plan_direction_id": "C1-D-S1",
+      "category": "familiar_computer_interaction_scope",
+      "case_ids": [
+        "B025",
+        "B028",
+        "B015"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Inkscape Beginners’ Guide 1.3: The Selector Tool",
+          "url": "https://inkscape-manuals.readthedocs.io/en/1.3/selector-tool.html",
+          "reading_location": "实际读L9–74正文，命名核心L54–69：多对象选择、矩形框、各对象边界与围绕整体选择的变换把手、包含/接触模式。未实际运行软件或目读示例图，不把当前最新版本行为混入固定1.3文档。",
+          "read_at": "2026-11-08T22:32:24.126265+08:00",
+          "access": "body",
+          "source_type": "official_software_user_guide",
+          "reading_scope": "body_excerpt",
+          "published_at": null,
+          "boundary": "选框为selection box的通常中文缩合称呼，不声称英文文档逐字出现中文。选中多个对象不等于永久编组或几何合并。"
+        }
+      ],
+      "source_urls": [
+        "https://inkscape-manuals.readthedocs.io/en/1.3/selector-tool.html"
+      ],
+      "fact": "手册以选框和可见边界标示当前选中的多个对象，变换把手围绕整体选择，后续变换有明确作用范围。",
+      "distinctive_relation": "把动作将作用于哪些对象先变为可看见、可改变的范围，使多个对象可以共同操作。",
+      "mechanism_to_material": "Cursor提供日常电脑称呼进入深技术的入口，Runway新核把公司理解为使创造可发生的条件，Sony反馈允许熟悉经验成为完整称呼。本项从选择范围如何使操作成为可能进入，不照搬光标或跑道；Runway创始命名证据与本包语言机制分析分开。",
+      "history_difference": "C16自成一格/M18为物理纹影光路单格配准，不是选择可操作对象；C44构境为行动中重定问题，本项不是借框比喻问题定义。C13跳读/NLS为视图链接寻址，C03应手为材料关节与传感，M05会意为共同指代，均非屏幕对象集的可见选择与共同变换范围。选框/框选/选取等全历史名称字段无精确提案；常用字框或界面大类未被整体禁用。若只剩更好控制/可操作这一泛角色而不保留对象范围关系，不能自动认新族。",
+      "naming_potential": "选与框原本就在同一日常动作关系中，是可直接叫出的完整电脑对象。",
+      "shortcoming": "可能只是图形软件控件/视觉工具，广义Lab延展需独立判断；不因亲手常用就自动好品牌。",
+      "boundary": "固定1.3文档支持多选与边界，不承诺所有软件相同，也不把选框本身当已实现智能增强。变换范围与永久编组不同。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft",
+      "role_path_id": "original-S1-with-role-expansion-P1",
+      "secondary_macro_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "auxiliary_readings": [
+    {
+      "title": "MDN: DataTransfer.setDragImage()",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/setDragImage",
+      "reading_location": "实际读L183–209方法与拖动反馈图说明，另读L296更新日期；没有执行示例。作为另一GUI反馈关系对照，未另拆新卡或产名。",
+      "read_at": "2026-11-08T22:32:24.126265+08:00",
+      "access": "body",
+      "source_type": "developer_documentation",
+      "reading_scope": "body_excerpt",
+      "published_at": null,
+      "last_modified": "2026-08-31",
+      "boundary": "更新日期不当新研究新闻日期；未将影像反馈与选框当同一机制。"
+    }
+  ],
+  "new_material_count": 1,
+  "new_chinese_draft_count": 1,
+  "coverage_note": "新增S1熟悉电脑场景，保守S3仍14/57、古文3/57；本包没有新书籍节选或近90天研究新闻，不将MDN更新充新闻。"
+}

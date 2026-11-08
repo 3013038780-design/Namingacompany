@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-08T22:33:01.274637+08:00",
+  "independence": "Read producer preview batch27 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C46",
+      "name": "选框",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "既有电脑称呼两熟字可直接叫",
+          "counter_association": "首遍可能听选矿"
+        },
+        "distinctiveness": {
+          "reason": "选择范围可见边界带来明确画面",
+          "counter_association": "控件通名显著性有限"
+        },
+        "lab_fit": {
+          "reason": "电脑交互入口能承载计算工具与研究身份",
+          "counter_association": "设计软件控件或视觉外包先于广义Lab"
+        },
+        "grounding": {
+          "reason": "取入对象与共同作用范围在同一次界面操作成立",
+          "counter_association": "选框与对象bounding box和永久编组不同"
+        },
+        "extension": {
+          "reason": "可讲选择和行动关系而不只一种文档功能",
+          "counter_association": "不能宣称通用智能或更优控制"
+        },
+        "semantic_coherence": {
+          "reason": "选的动作与框的可见范围同场一致",
+          "counter_association": "框字限制排除的负联想存在"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

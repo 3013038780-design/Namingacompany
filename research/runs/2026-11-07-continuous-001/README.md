@@ -1,4 +1,4 @@
-> 最新接续：本段**零新增入库**，纸蜂、双盲的英文匹配用尽返工；熟手质量未过，构境已有科技公司。新增4资料/4中文/5实际英文，41查询均返回。[本段具体去留](continuations/2026-11-08T131434Z/decisions-through-batch25.json) · [结果](continuations/2026-11-08T131434Z/result.json)。总库仍27讨论、1储备。
+> 最新接续：新增讨论备选 **选框 · Common Grip**，中文10/英文6查询及终审通过，通名/器材首感与登记限制照留。[单名完整记录](delivery-C1-E38.json) · [本段结果](continuations/2026-11-08T141904Z/result.json) · [最新47案去留](continuations/2026-11-08T141904Z/decisions-through-batch28.json)。总库28讨论、1储备。
 
 # 持续研究001：逐名交付，继续补充
 
@@ -267,3 +267,35 @@
 [两家族英文收尾](A4-batch24-final-closeout.md) · [最新44案完整去留](continuations/2026-11-08T131434Z/decisions-through-batch25.json) · [本段结果](continuations/2026-11-08T131434Z/result.json) · [batch24交接](continuations/2026-11-08T131434Z/handoffs-batch24.json) · [batch25交接](continuations/2026-11-08T131434Z/handoffs-batch25.json) · [网站](https://3013038780-design.github.io/Namingacompany/)
 
 原角色本段均已实际完成，保存接续检查点：继续已验三角色路径里尚未执行的参与创造条件/知识接手及其他六世界，复用已核案例与书，不重开方法、不反复旧403、不加耗尽返工。不设产量终点；每工作段包括零新增都同步同网站和PR，不合并、不重部署、不改旧网站。
+
+## 自动接续 · 2026-11-08 选框与不同来源的两次取舍
+
+**新增讨论备选：选框 · Common Grip。** 中文取一个熟悉电脑称呼，英文以common共享与grip操持形成完整短称呼，建议 *KOM-un GRIP* /ˈkɑːmən ˌɡrɪp/。故事是**让不同对象，进入同一次行动**。不称最优选择、永久编组或已实现智能增强。
+
+[Inkscape固定1.3官方手册](https://inkscape-manuals.readthedocs.io/en/1.3/selector-tool.html)实际正文54–69支持矩形范围取入多对象，以及围绕整体选择的变换把手。选择框、被选对象边界显示和永久编组不同。原A2、原A4、主控均实际读正文，未运行软件/目读图，不把固定版本描述当全部现行软件规则。[完整释义、四份质量判断、查询及终审](delivery-C1-E38.json)。
+
+中文作者/主控各25，英文作者22/主控21，先无分预览独评封存再看作者，各轴差不超过1。同一原A3中文10/英文6有效查询完成；原A4实际非数字风险补审，主控来源与家族终审后入库。原A3明确初筛通过标签只在派生交付归一，原字节/查询/证据/登记保持。原英文提案当时的“未查”阶段句在首次展示前去掉，不把旧阶段说成当前状态，原提案不改且留派生说明。
+
+短板必须一起看：中文控件通名、视觉单产品/配镜首感及选矿/轩旷近音；英文运动握把、摄影器材、工业夹具和控制服务首感，common也可理解为普通/平庸，独立专名感弱且少了框形。DuriFishing确有普通Common Grip分类售卖，不能写成英文从未被任何人使用。
+
+具体线索不是笼统放过：拼音公司经[专利公开PDF首页](https://patentimages.storage.googleapis.com/61/d8/ea/62ce4ff4630172/CN112516709A.pdf)实际核为杭州轩旷，非选框同字；主控直开失败后从可读母页点击成功，只用作历史申请人消歧。配镜文章产品是Opteyes，选框是动作。英文[Grip Control目录](https://shareapp.net/grip_download/)的common grip为外观描述；[DuriFishing](https://www.durifishing.com/collections/common-grip)为普通握把类别、多型号Rodcraft/general-purpose；[Flipkart](https://www.flipkart.com/house-common-grip-hand-gripper-strengthening-grip-fitness/p/itm7a4dbdaa1e704)完整品牌HOUSE OF COMMON，不能截为Common Grip。原A3见到字段表、主控当前只见标题，两种实际响应范围分开记录。
+
+### 本段其余去留
+
+| 草案或材料 | 来源与结论 |
+| --- | --- |
+| 千手稿 | [Benkler第三章原文](https://cyber.harvard.edu/wealth_of_networks/Sentence-sliced_Text_Chapter_3)三角色共享资源接手贡献；书站入口由主控定位、原A2实际读259–295。共字融合有画面，但主控24、Lab身份3，首要出版/征稿/AI写作产品。未查市场，原A3/原A4/同A3实际零收尾，不称占用。 |
+| 织觉 | [作者综述Extended spider cognition](https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/10466/Japyass_2017_Extended_AnimalCog_CC.pdf?isAllowed=y&sequence=1)中外部网调节感知输入关系，主控独立下载读PDF1/6/7；扩展认知为作者论证，未读原实验方法，不说网独自思考。双25后八查询发现[杭州织觉智能科技有限公司官网](https://www.weavevision.com/about.html)完整核心及AI纺织质检/机器视觉公开使用；不换英文救回，原A4及同A3真实零英文。 |
+| Lave/Wenger参与理论 | 原A2实际渲染目读8页扫描节选中的PDF1–2/印刷29–31，只留素材，未读裁缝章节、不硬配名。主控未目读此项，另外3新素材全部实读，已超过20%抽查门槛。 |
+
+三小包分别从已验角色路径、电脑日常和自然生命取材，不围绕一个字根变形。复用已核A1具体案例/计划，不假称本次重做105或新A1覆盖；Cursor、Runway、Sakana等具体机制分别进入寻找。真实出处仍不替品牌过门，材料无名不虚增候选。
+
+### 真实结果与接续
+
+本段新增4素材、3中文、1英文版本，中文质量过2、中文公开使用过1、双语完整过1；24次新使用查询全部返回。主控另外2次仅找书站入口的检索单列，不混入候选查重。累计58素材、47中文、37实际英文版本；A3 530调用/529返回，加主控早先2次共532/531。总库28讨论、1储备，待核与撤回另列。
+
+新古文0，保守古文3/58、S3 14/58；本包书章节为真实节选，无近90天新新闻，不冒通读。大陆公司/第9与42类入口旧限制准确复用，UK逐名本次不可用，没有官方核名/清权保证。整轮生产覆盖整理仍INCOMPLETE，未写final.json，不因单名通过追认全部规范。
+
+[本段结果](continuations/2026-11-08T141904Z/result.json) · [最新47案](continuations/2026-11-08T141904Z/decisions-through-batch28.json) · [三包H1–H7](continuations/2026-11-08T141904Z/) · [统一网站](https://3013038780-design.github.io/Namingacompany/)
+
+本段原角色已实际完成，保存下一不同关系检查点，整体持续研究不设数量终点。先冻结真实结果/决策/队列，再构建并推送同一网站数据；不合并、不重部署、不改旧网站，不重访旧403或复活耗尽返工家族。

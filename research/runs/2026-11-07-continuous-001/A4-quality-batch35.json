@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-08T22:38:50.136840+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E38",
+      "chinese_id": "C1-C46",
+      "english": "Common Grip",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个常规音节衔接自然，可直接叫出。",
+          "counter_association": "grip末p需说清，不应混作群体group。"
+        },
+        "spelling": {
+          "reason": "两个完整常用词，不删音改字母，听写可正常还原。",
+          "counter_association": "可能合写CommonGrip，品牌需固定分词展示。"
+        },
+        "grounding": {
+          "reason": "多对象共享操作范围与手式操持来自同一文档段落，词典真义支持。",
+          "counter_association": "是主题拟物不是手册正式机制名，英文未呈现所有边界规则。"
+        },
+        "bilingual_relation": {
+          "reason": "中文取入可见范围与英文共同操持是同一次选择变换的两面。",
+          "counter_association": "不说对象已合并或全体观点一致，英文不独自包含框形。"
+        },
+        "distinctiveness": {
+          "reason": "完整操持意象可作为短称呼，不是长功能句或任意字母。",
+          "counter_association": "运动/摄影/夹具首感和通用词弱专名感保留，独立身份谨慎。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "原门槛未改，编辑自评非消费者测试；主控先无分独评，来源真义不补品牌不足。"
+    }
+  ]
+}

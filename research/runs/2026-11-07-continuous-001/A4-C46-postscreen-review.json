@@ -1,0 +1,119 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "reviewed_at": "2026-11-08T22:45:02.217283+08:00",
+  "candidate_id": "C1-E38",
+  "chinese_id": "C1-C46",
+  "chinese": "选框",
+  "english": "Common Grip",
+  "inputs": [
+    {
+      "path": "A4-candidates-batch35.json",
+      "sha256": "ce2ba3e28805bc678d29fb8b8bee635973a5adbee014c807e76f2958a5672aa4"
+    },
+    {
+      "path": "A4-quality-batch35.json",
+      "sha256": "642929fd73e77ae24a4c1c5f2ec79d78539847c7f33b1c17fe5bd2f30c5f6ce9"
+    },
+    {
+      "path": "A3-en-batch35.json",
+      "sha256": "950f5490c21ac936f03adfb72f6b91478242e8aa36bbb3ecbc5816ba8a95253c"
+    },
+    {
+      "path": "A3-en-batch35.md",
+      "sha256": "d685239548ed5e44ade701c835992eed02cb2fbcbf241ad829fbacc5a0dfe444"
+    },
+    {
+      "path": "A3-en-batch35-receipt.json",
+      "sha256": "6e6e782cb44dba24f5d94cc819b2ae8942d67123acac357caa3f3ada4cc09058"
+    },
+    {
+      "path": "A3-cn-batch29.json",
+      "sha256": "1b41cdbf9aa61e11da190d79d15e50f61c911addc3eda31c242ae805558193fa"
+    },
+    {
+      "path": "continuations/2026-11-08T141904Z/root-C46-cn29-review.json",
+      "sha256": "0f7f6a8d50c5ca40b2cf9931b849d49abfddf411ef75f5d571d2d0fb53e2447f"
+    },
+    {
+      "path": "continuations/2026-11-08T141904Z/root-C46-en35-review.json",
+      "sha256": "54694115bb97c6688efdc558c2681e723551e769faa74ba795ec3491c71e4c0b"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch35.json",
+      "sha256": "ce2ba3e28805bc678d29fb8b8bee635973a5adbee014c807e76f2958a5672aa4",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch35.md",
+      "sha256": "c59c7c927a5c9261828ab5f657483c865de151599e870afedf0643860de88237",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch35.json",
+      "sha256": "642929fd73e77ae24a4c1c5f2ec79d78539847c7f33b1c17fe5bd2f30c5f6ce9",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch35.json",
+      "sha256": "17c09054d1c8cae22112e64dacaf5dccfabf9bcb98691b91f56280c778983eb3",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch35.json",
+      "sha256": "cf383d6089fe70077288e8959cde39e127dfea3873d27a6d53cc4f368b93363f",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch29.json",
+      "sha256": "1b41cdbf9aa61e11da190d79d15e50f61c911addc3eda31c242ae805558193fa",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch35.json",
+      "sha256": "950f5490c21ac936f03adfb72f6b91478242e8aa36bbb3ecbc5816ba8a95253c",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch35.md",
+      "sha256": "d685239548ed5e44ade701c835992eed02cb2fbcbf241ad829fbacc5a0dfe444",
+      "match": true
+    }
+  ],
+  "review_type": "non_numeric_editorial_postscreen_review",
+  "decision": "support_existing_pair_for_coordinator_terminal_review_with_disclosed_risks",
+  "judgment": "确认既有边界与短板。普通品类使用确实降低专名独特性并强化器材首感，但并未改变多个对象共同进入可操作范围的真实配对关系；继续支持作为有成本的讨论方向，不因未查到确证同名而补分。",
+  "specific_risks": [
+    {
+      "topic": "通用词与运动/夹具首感",
+      "judgment": "grip握把/握法、common常见这一读法在公开场景真实出现，需长期品牌建立；不将共享操持故事包装成人人首听明白AI。"
+    },
+    {
+      "topic": "DuriFishing",
+      "judgment": "据原A3及root已读结构，是Handles & Grips下普通分类、多型号Rodcraft/general-purpose，不虚构为独立Common Grip品牌。分类实际在售使用仍明确披露，不等于商标或专名独占性已排除。"
+    },
+    {
+      "topic": "Grip Control",
+      "judgment": "完整软件名为Grip Control，开发者AlterSourcing，common grip在正文是外观描述，不能把两个句子词截成同名软件。"
+    },
+    {
+      "topic": "Flipkart不同读取范围",
+      "judgment": "原A3实际读Brand表HOUSE OF COMMON等字段；root当前只读到完整标题而未返回该表，不能反写root同样读表，也不因不同响应抹除原A3记录。本人本次只读双方固定报告，不冒新开字段。"
+    },
+    {
+      "topic": "中文与科学范围",
+      "judgment": "选框通名/视觉控件/配镜动作及选矿、轩旷近音继续披露；原拼音具体线索核为轩旷，仅历史申请人消歧不等于实时企业核准。选择范围不等于bounding box或永久编组，英文不暗示最优选择。"
+    },
+    {
+      "topic": "登记",
+      "judgment": "大陆公司与第9/42类入口限制复用，UK逐名访问不可用；仅公开使用初筛，不保证可注册、全球未用或法律无风险。"
+    }
+  ],
+  "actual_reading_boundary": "本人实际读原A3-en35 JSON/MD/receipt及root风险报告，沿已实读中文审查与本人原Inkscape/词典范围。本次未重开三商品/软件官网，不冒本人新查。",
+  "actual_new_scores": 0,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "old_artifacts_untouched": true,
+  "next": "主控独立终审来源、家族、质量及风险后决定讨论库状态，本补审不自行入库。"
+}

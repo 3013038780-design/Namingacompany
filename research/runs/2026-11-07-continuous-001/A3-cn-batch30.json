@@ -1,0 +1,134 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T22:43:40.433149+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch28.json",
+      "sha256": "813d002abd4aa2355d03c30dd9e3382771d703a25692faef1911bbd0237c0f44"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch28.json",
+      "sha256": "6a4a2826581e2203cb403688c230c21f481b077a98ba014e4f59368cd2e51dbe"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch28.json",
+      "sha256": "b2a2587a4bade5b9c6ed6c0b7ec72538014b689afa0c215aa442ba7e64c6e8ad"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension26.json",
+      "sha256": "bfe9c71540a59ce738f59a0453fc4a643f7cf8b50cfa2f7519710783e2358314"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch28.json",
+      "sha256": "969f656c9bcd67e9d18f5bb898dda38203b07121c4df6b9e5ca7ce2e74eb68cf"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch28.json",
+      "sha256": "5bed93e75913d6c846afd3ae5e8fb3438a13fedb00628a4533eed7c4378cba2a"
+    }
+  ],
+  "query_count": 8,
+  "results": [
+    {
+      "candidate_id": "C1-C47",
+      "name": "织觉",
+      "query_logs": [
+        {
+          "query": "\"织觉\"",
+          "executed_on": "2026-11-08",
+          "summary": "命中织觉艺术项目、服饰公司、工作室与商标索引及织觉智鉴更长系统线索；艺术题名/更长实义名不自动等同本名AI公司。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"织觉科技\"",
+          "executed_on": "2026-11-08",
+          "summary": "单独科技精确主要织物触觉和光觉等异名，未凭此组确认本名主体。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"织觉智能\"",
+          "executed_on": "2026-11-08",
+          "summary": "单独智能精确命中杭州织觉智能科技官网，实际首页及about正文核完整名/业务，是主要确证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"织觉\" AI 模型 软件 公司",
+          "executed_on": "2026-11-08",
+          "summary": "AI软件公司组同核心纺织质检AI公司与更长系统线索；以官网公司核心为拒绝主证，不用综述科学关系当占用。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"織覺\" 公司 軟體",
+          "executed_on": "2026-11-08",
+          "summary": "繁体主要纤维艺术/觉相关语义、无新增完整主体确证；不将藝術题名当软件。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"zhijue\" company AI",
+          "executed_on": "2026-11-08",
+          "summary": "拼音命中上海Zhijue/智觉光电等企业及人名，罗马形式不能冒中文织觉精确同名；同音风险留。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"智觉科技\"",
+          "executed_on": "2026-11-08",
+          "summary": "智觉科技为异字近音，命中智觉数科照明/宁波等线索；不把不同汉字当织觉同名。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"知觉智能\"",
+          "executed_on": "2026-11-08",
+          "summary": "知觉智能为异字近音，命中苏州知觉智能、视知觉/知觉线更长核心；只记录潜在混淆，不截字冒本名。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "reject_existing_exact_core_technology_company",
+      "reason": "官网实际正文完整杭州织觉智能科技有限公司，品牌织觉智能与AI机器视觉/纺织质检业务。智能/科技/有限公司为描述后缀，核心织觉完整相同，拒绝配英文；不称已核工商或9/42，不依近音替换当精确使用。",
+      "evidence": [
+        {
+          "url": "https://www.weavevision.com/about.html",
+          "access": "primary_company_self_presentation_body_read",
+          "finding": "L0关于织觉智能，L4完整杭州织觉智能科技有限公司及AI/机器视觉纺织质检定位，L31–34成立时间为自述。公司使用确证，未官方核存续/认证/性能。"
+        },
+        {
+          "url": "https://www.weavevision.com/",
+          "access": "primary_company_home_body_read",
+          "finding": "L2–4 AI设备/机器视觉/数字化平台，L188–200公司全名与业务联系方式；只证明公开商业用名，不背书准确率、客户案例或认证。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403，本批未重访/未逐名逐类核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403，本批未重访/未逐名逐类核准。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Zhijue",
+          "scope": "2026-11-08实际逐名Zhijue入口不可访问；非无登记。"
+        }
+      },
+      "risks": [
+        "织觉精确核心已有AI纺织质检公司使用，停止配英文",
+        "知觉/智觉同音不同字近似另记，不冒精确",
+        "19类织觉及42类新织觉仅第三方索引、未核法律状态；后者新字不能随意抹去"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "quality_rejected_not_searched_ids": [],
+  "completed_search_result_count": 8,
+  "new_failed_search_attempts": 0,
+  "controls_reused_not_new": "原run2阳性对照，本批0新对照。",
+  "passed_chinese_candidate_ids": [],
+  "rejected_chinese_candidate_ids": [
+    "C1-C47"
+  ]
+}
