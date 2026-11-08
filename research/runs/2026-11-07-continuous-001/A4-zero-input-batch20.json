@@ -1,0 +1,63 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T18:31:07.010812+08:00",
+  "work_packet": "A2 batch20 / A3 cn22",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch20.json",
+      "sha256": "dd4ee1bd5620c11134f9864ba26d2dc339a3a468aa5d63ee9fff5b884706f2ed"
+    },
+    {
+      "path": "coordinator-cn-batch20.json",
+      "sha256": "5d33fb60e1af7ecac73968630df9b372a916a717c4502b07a36fade4256b57f7"
+    },
+    {
+      "path": "coordinator-family-review-batch20.json",
+      "sha256": "4deaabf9daa28c9ae68bbe8f8bd1130707aa0098944348fcb6d54500deaf671e"
+    },
+    {
+      "path": "A3-cn-batch22.json",
+      "sha256": "cb947eaff7237c2bb83c5651e7da33f6addc3a18741ce630a7d7ccbe08014572"
+    },
+    {
+      "path": "A3-cn-batch22.md",
+      "sha256": "c8ed3a33d42898f5ab4895e76c31389f89da7296526630d79b50e6bf1d6707e9"
+    },
+    {
+      "path": "A3-cn-batch22-receipt.json",
+      "sha256": "dcdcbd2a733386d81c7ded58b2fd79fa284303bea223baa2c5543a672cdb0305"
+    }
+  ],
+  "actual_upstream_read": true,
+  "execution": "实际读取两候选、主控中文质量/家族与原A3 cn22 JSON/MD/receipt，核固定输出SHA；完成真实零匹配验收。",
+  "upstream_chinese_candidates": 2,
+  "chinese_quality_accepted": 2,
+  "qualified_chinese_inputs": 0,
+  "english_candidates": [],
+  "english_output_count": 0,
+  "new_english_scores": 0,
+  "new_usage_queries": 0,
+  "new_registration_queries": 0,
+  "decision": "zero_input_after_two_existing_core_use_rejections",
+  "excluded": [
+    {
+      "candidate_id": "C1-C34",
+      "name": "沙阵",
+      "reason": "数篷科技官网具名沙阵可信计算平台，完整核心软件使用。",
+      "limits": "页面™只属使用标志，不是注册商标证明；不背书性能。"
+    },
+    {
+      "candidate_id": "C1-C35",
+      "name": "隶首",
+      "reason": "安徽隶首人工智能科技有限公司第三方企业资料，另新闻正文明确华润电力具名隶首数智管控平台。",
+      "limits": "安徽资料不冒官方现时登记，海南超时索引不作唯一主证；具名平台已用不等于基础模型或商标登记。"
+    }
+  ],
+  "A3_query_boundary": "按原A3：实际搜索调用13，完成返回12，另1条发起无返回后终止；本A4未增加查询。",
+  "reading_boundary": "本次读落盘证据，不重开品牌网站/新闻/企业或登记门户。",
+  "next": "同一原A3实际英文零终核；不为使用否决中文配英语救回。",
+  "numbering_boundary": "英文batch27未占用，留下一实际英文提案。",
+  "unchanged": "旧档、分数、库、队列及Git不改。"
+}

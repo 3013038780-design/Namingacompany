@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T17:39:33.179810+08:00",
+  "scope": "无分预览先读，主控封存独评后再对照作者数字",
+  "reviews": [
+    {
+      "candidate_id": "C1-C33",
+      "name": "算着走",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "熟悉的三字动作短语，可直接称呼",
+          "counter_association": "也像临时描述而不是专名"
+        },
+        "distinctiveness": {
+          "reason": "计算与前进同在一个主体动作，有节奏和画面",
+          "counter_association": "可能被当随手计算器名称"
+        },
+        "lab_fit": {
+          "reason": "计算参与下一步行动的身份能容纳计算/智能体研究",
+          "counter_association": "路线规划软件或旅游联想需独立判断"
+        },
+        "grounding": {
+          "reason": "转录明确部分答案控制指令路径，未伪称现代理论首创",
+          "counter_association": "历史新闻不验证今天AI具备该能力"
+        },
+        "extension": {
+          "reason": "可容纳计算、行动与执行研究",
+          "counter_association": "不能窄成边走边算的单产品"
+        },
+        "semantic_coherence": {
+          "reason": "算和走共享程序执行过程",
+          "counter_association": "固定选择不等于自主学习或增长"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

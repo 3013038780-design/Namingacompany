@@ -1,0 +1,49 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese upstream gate verification",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T17:41:06.185039+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch19.json",
+      "sha256": "19b096bb9387bff5ed5161f6172e06552e099d6ac0dc0561f45855a9ca182256"
+    },
+    {
+      "path": "A2-preview-batch19.md",
+      "sha256": "18efe48d70b4707abdfea15163a572d9b406621f2e468c5d66be54e6b1278682"
+    },
+    {
+      "path": "A2-quality-batch19.json",
+      "sha256": "6b11d60f4a1e461ddaea1b67bb0aa7e49f849496ab6d5e34e2731d577830817c"
+    },
+    {
+      "path": "coordinator-cn-batch19.json",
+      "sha256": "26a7936699967417e6298a0b28971a9291bffbb6699c9cd6c274cdb8ca8115a2"
+    }
+  ],
+  "actual_upstream_read": true,
+  "upstream_candidates": 1,
+  "upstream_quality_accepted": 0,
+  "screening_input_count": 0,
+  "query_logs": [],
+  "actual_new_candidate_queries": 0,
+  "actual_new_chinese_queries": 0,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "results": [
+    {
+      "candidate_id": "C1-C33",
+      "name": "算着走",
+      "decision": "not_screened_upstream_quality_reject",
+      "reason_code": "BRAND_FIT",
+      "reason": "主控23，自然度3与Lab身份3均低于4；作者25、最大单轴差1，不能以作者通过或真实出处替代任一方过门。质量拒绝后未进入使用筛查，未查不称占用/可用。"
+    }
+  ],
+  "passed_chinese_candidate_ids": [],
+  "controls_and_registration": "本次未执行新对照或登记入口；原run对照/403记录保持历史原范围，不能当本名查重。",
+  "agent3_cumulative_candidate_queries": 386,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 388,
+  "next": "交原A4实际零匹配后同一A3做英语零终核，不提前记完成。",
+  "old_records_catalog_git_unchanged": true
+}

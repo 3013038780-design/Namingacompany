@@ -1,0 +1,39 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4 zero matching receipt",
+  "executed_at": "2026-11-08T17:41:43.110376+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch19.json",
+      "sha256": "19b096bb9387bff5ed5161f6172e06552e099d6ac0dc0561f45855a9ca182256"
+    },
+    {
+      "path": "coordinator-cn-batch19.json",
+      "sha256": "26a7936699967417e6298a0b28971a9291bffbb6699c9cd6c274cdb8ca8115a2"
+    },
+    {
+      "path": "A3-cn-batch21.json",
+      "sha256": "83100580afd76a9d6e5cab68cabbafb3836c560a27c21cb033f017b2b25fece6"
+    },
+    {
+      "path": "A3-cn-batch21-receipt.json",
+      "sha256": "b7da753ab4b6235ed263b4ee230dc6d1eca1f674e643c398052b97714109a6e6"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A4-zero-input-batch19.json",
+      "sha256": "e9343b6ef297fc4fbd9798bf7367f851e595c5c599d7e82448385ec709608984"
+    },
+    {
+      "path": "A4-zero-input-batch19.md",
+      "sha256": "5acafe12c29a943e143ed3bd7657b5c59aacb4c0b3fd24a20d89b50adb4f0ab1"
+    }
+  ],
+  "actual_upstream_read": true,
+  "qualified_chinese_inputs": 0,
+  "actual_new_english_candidates": 0,
+  "actual_new_english_scores": 0,
+  "actual_new_queries": 0,
+  "next": "原A3实际英文零复查，未提前记完成。"
+}

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T17:24:58.861782+08:00",
+  "updated_at": "2026-11-08T18:34:26.743155+08:00",
   "policy": "continuous_no_quantity_quota",
   "scheduler": {
     "id": "automation",
@@ -19,8 +19,8 @@
     "historical_unique_families": 27
   },
   "active_run": "research/runs/2026-11-07-continuous-001",
-  "actual_state": "checkpoint_C31_admitted_no_active_actors_next_diverse_relations_pending",
-  "next_action": "接续原A2同001，继续原六方向不同真实关系的小包比较，不将已入库未然机或英语Supposal版本再算新族；借身质量未过不硬救，未命名随机图阈值可留研究但不强配。优先补原计划书籍/近90天新闻及较少方向的实读缺额，所有质量/独立查重门槛不变。先无分中文主控独评，再原A3中文→原A4英文→同A3英文→主控来源家族终审；有合格新增即更新同库/网站，未核旧线索不重复403。",
+  "actual_state": "checkpoint_batch19_20_completed_zero_new_no_active_actors",
+  "next_action": "接续原A2同001，从六宏观世界继续自然完整称呼与真实独特关系；C33算着走质量未过，C34沙阵/C35隶首具名科技软件使用淘汰，不换字/英文救回。可复用真正未提案资料但核最新45资料/35中文和全历史家族；下一A2 batch21、材料M46+/C36+、materials-extension20，A3中文batch23、下一实际英文batch27。中文双评→原A3中文→原A4英文→同A3英文→主控终审不变；不再重复C23旧403。",
   "pending_stages": [
     "A2真实资料→中文创作；先素材小批内部快审",
     "主控独立中文质量→同A3中文使用筛查",
@@ -90,8 +90,8 @@
     ],
     "new_names_yet": 2,
     "whole_24_family_research_complete": false,
-    "cumulative_materials": 40,
-    "cumulative_chinese_drafts": 32
+    "cumulative_materials": 45,
+    "cumulative_chinese_drafts": 35
   },
   "closed_current_families": {
     "C1-C01": "英文3版已有商业使用，返工耗尽",
@@ -111,24 +111,28 @@
     "C1-C28": "灵感之外Lab身份3<4，主控24/作者25，质量淘汰未查；实际A3/A4/A3零输入终核，不称占用或可用。",
     "C1-C29": "TapTap完整同名失算具名游戏DEMO使用，八查询淘汰，原A4/同A3实际零验收，不换英文救回。",
     "C1-C30": "中文初筛过且既有学术表达补记已验收；Wordact历史网站软件、Saydo科技AI软件、Hereby任务器及AI合同平台，三版未过，两返工尽，不R3。",
-    "C1-C32": "借身主控Lab身份3<4，24/作者25，质量未过未查，不用真实实验补身份或换英语救回。"
+    "C1-C32": "借身主控Lab身份3<4，24/作者25，质量未过未查，不用真实实验补身份或换英语救回。",
+    "C1-C33": "算着走自然3/Lab3，主控23/作者25，质量未过未查；原A3/原A4/同A3真实零收尾，不称占用。",
+    "C1-C34": "沙阵数篷科技官网具名可信计算软件，六组已返回查询确证，使用淘汰；原A4/同A3真实零英文。",
+    "C1-C35": "隶首安徽AI企业第三方资料及华润具名数智平台报道，六组返回+一未返回分列，使用淘汰；原A4/同A3真实零英文。"
   },
-  "heartbeat_checkpoint": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T062253Z/resume.json",
-  "latest_frozen_decision_snapshot": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T062253Z/decisions-through-batch18.json",
-  "latest_continuation_result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T062253Z/result.json",
+  "heartbeat_checkpoint": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T093057Z/resume.json",
+  "latest_frozen_decision_snapshot": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T093057Z/decisions-through-batch20.json",
+  "latest_continuation_result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T093057Z/result.json",
   "latest_completed_packet": {
-    "new_retained_families": 1,
-    "retained_pairs": [
-      "未然机 / Supposal"
-    ],
-    "new_materials": 3,
-    "new_chinese": 2,
-    "new_english_versions": 1,
-    "A3_new_queries": 19,
+    "new_retained_families": 0,
+    "retained_pairs": [],
+    "new_materials": 5,
+    "new_chinese": 3,
+    "new_english_versions": 0,
+    "A3_new_queries": 13,
+    "A3_returned_results": 12,
+    "A3_unreturned_attempts": 1,
     "root_additional_queries": 0,
-    "cumulative_A3_queries": 386,
-    "combined_recorded_queries": 388,
-    "result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T062253Z/result.json"
+    "cumulative_A3_queries": 399,
+    "combined_recorded_queries": 401,
+    "combined_returned_results": 400,
+    "result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T093057Z/result.json"
   },
   "pending_evidence": [
     {

@@ -1,0 +1,172 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English zero-input final check",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T17:42:23.550911+08:00",
+  "candidate_id": "C1-C33",
+  "name": "算着走",
+  "inputs": [
+    {
+      "path": "A4-zero-input-batch19.json",
+      "sha256": "e9343b6ef297fc4fbd9798bf7367f851e595c5c599d7e82448385ec709608984"
+    },
+    {
+      "path": "A4-zero-input-batch19.md",
+      "sha256": "5acafe12c29a943e143ed3bd7657b5c59aacb4c0b3fd24a20d89b50adb4f0ab1"
+    },
+    {
+      "path": "A4-zero-input-batch19-receipt.json",
+      "sha256": "29e27541da5e3c78ddee5c5cc2383da5c21973116efcbcf230a9eca6a51670e0"
+    },
+    {
+      "path": "A3-cn-batch21.json",
+      "sha256": "83100580afd76a9d6e5cab68cabbafb3836c560a27c21cb033f017b2b25fece6"
+    },
+    {
+      "path": "A3-cn-batch21.md",
+      "sha256": "9be521c0b56ba6e9f75fa53834f18727940673e953e7c9b8951d988202b4f13d"
+    },
+    {
+      "path": "A3-cn-batch21-receipt.json",
+      "sha256": "b7da753ab4b6235ed263b4ee230dc6d1eca1f674e643c398052b97714109a6e6"
+    }
+  ],
+  "actual_upstream_read": true,
+  "hash_checks": [
+    {
+      "path": "A2-candidates-batch19.json",
+      "expected_sha256": "19b096bb9387bff5ed5161f6172e06552e099d6ac0dc0561f45855a9ca182256",
+      "actual_sha256": "19b096bb9387bff5ed5161f6172e06552e099d6ac0dc0561f45855a9ca182256",
+      "matches": true
+    },
+    {
+      "path": "coordinator-cn-batch19.json",
+      "expected_sha256": "26a7936699967417e6298a0b28971a9291bffbb6699c9cd6c274cdb8ca8115a2",
+      "actual_sha256": "26a7936699967417e6298a0b28971a9291bffbb6699c9cd6c274cdb8ca8115a2",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch21.json",
+      "expected_sha256": "83100580afd76a9d6e5cab68cabbafb3836c560a27c21cb033f017b2b25fece6",
+      "actual_sha256": "83100580afd76a9d6e5cab68cabbafb3836c560a27c21cb033f017b2b25fece6",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch21-receipt.json",
+      "expected_sha256": "b7da753ab4b6235ed263b4ee230dc6d1eca1f674e643c398052b97714109a6e6",
+      "actual_sha256": "b7da753ab4b6235ed263b4ee230dc6d1eca1f674e643c398052b97714109a6e6",
+      "matches": true
+    },
+    {
+      "path": "A2-candidates-batch19.json",
+      "expected_sha256": "19b096bb9387bff5ed5161f6172e06552e099d6ac0dc0561f45855a9ca182256",
+      "actual_sha256": "19b096bb9387bff5ed5161f6172e06552e099d6ac0dc0561f45855a9ca182256",
+      "matches": true
+    },
+    {
+      "path": "coordinator-cn-batch19.json",
+      "expected_sha256": "26a7936699967417e6298a0b28971a9291bffbb6699c9cd6c274cdb8ca8115a2",
+      "actual_sha256": "26a7936699967417e6298a0b28971a9291bffbb6699c9cd6c274cdb8ca8115a2",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch21.json",
+      "expected_sha256": "83100580afd76a9d6e5cab68cabbafb3836c560a27c21cb033f017b2b25fece6",
+      "actual_sha256": "83100580afd76a9d6e5cab68cabbafb3836c560a27c21cb033f017b2b25fece6",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch21-receipt.json",
+      "expected_sha256": "b7da753ab4b6235ed263b4ee230dc6d1eca1f674e643c398052b97714109a6e6",
+      "actual_sha256": "b7da753ab4b6235ed263b4ee230dc6d1eca1f674e643c398052b97714109a6e6",
+      "matches": true
+    },
+    {
+      "path": "A4-zero-input-batch19.json",
+      "expected_sha256": "e9343b6ef297fc4fbd9798bf7367f851e595c5c599d7e82448385ec709608984",
+      "actual_sha256": "e9343b6ef297fc4fbd9798bf7367f851e595c5c599d7e82448385ec709608984",
+      "matches": true
+    },
+    {
+      "path": "A4-zero-input-batch19.md",
+      "expected_sha256": "5acafe12c29a943e143ed3bd7657b5c59aacb4c0b3fd24a20d89b50adb4f0ab1",
+      "actual_sha256": "5acafe12c29a943e143ed3bd7657b5c59aacb4c0b3fd24a20d89b50adb4f0ab1",
+      "matches": true
+    },
+    {
+      "path": "A2-candidates-batch19.json",
+      "expected_sha256": "19b096bb9387bff5ed5161f6172e06552e099d6ac0dc0561f45855a9ca182256",
+      "actual_sha256": "19b096bb9387bff5ed5161f6172e06552e099d6ac0dc0561f45855a9ca182256",
+      "matches": true
+    },
+    {
+      "path": "A2-preview-batch19.md",
+      "expected_sha256": "18efe48d70b4707abdfea15163a572d9b406621f2e468c5d66be54e6b1278682",
+      "actual_sha256": "18efe48d70b4707abdfea15163a572d9b406621f2e468c5d66be54e6b1278682",
+      "matches": true
+    },
+    {
+      "path": "A2-quality-batch19.json",
+      "expected_sha256": "6b11d60f4a1e461ddaea1b67bb0aa7e49f849496ab6d5e34e2731d577830817c",
+      "actual_sha256": "6b11d60f4a1e461ddaea1b67bb0aa7e49f849496ab6d5e34e2731d577830817c",
+      "matches": true
+    },
+    {
+      "path": "coordinator-cn-batch19.json",
+      "expected_sha256": "26a7936699967417e6298a0b28971a9291bffbb6699c9cd6c274cdb8ca8115a2",
+      "actual_sha256": "26a7936699967417e6298a0b28971a9291bffbb6699c9cd6c274cdb8ca8115a2",
+      "matches": true
+    },
+    {
+      "path": "A2-candidates-batch19.json",
+      "expected_sha256": "19b096bb9387bff5ed5161f6172e06552e099d6ac0dc0561f45855a9ca182256",
+      "actual_sha256": "19b096bb9387bff5ed5161f6172e06552e099d6ac0dc0561f45855a9ca182256",
+      "matches": true
+    },
+    {
+      "path": "A2-preview-batch19.md",
+      "expected_sha256": "18efe48d70b4707abdfea15163a572d9b406621f2e468c5d66be54e6b1278682",
+      "actual_sha256": "18efe48d70b4707abdfea15163a572d9b406621f2e468c5d66be54e6b1278682",
+      "matches": true
+    },
+    {
+      "path": "A2-quality-batch19.json",
+      "expected_sha256": "6b11d60f4a1e461ddaea1b67bb0aa7e49f849496ab6d5e34e2731d577830817c",
+      "actual_sha256": "6b11d60f4a1e461ddaea1b67bb0aa7e49f849496ab6d5e34e2731d577830817c",
+      "matches": true
+    },
+    {
+      "path": "coordinator-cn-batch19.json",
+      "expected_sha256": "26a7936699967417e6298a0b28971a9291bffbb6699c9cd6c274cdb8ca8115a2",
+      "actual_sha256": "26a7936699967417e6298a0b28971a9291bffbb6699c9cd6c274cdb8ca8115a2",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch21.json",
+      "expected_sha256": "83100580afd76a9d6e5cab68cabbafb3836c560a27c21cb033f017b2b25fece6",
+      "actual_sha256": "83100580afd76a9d6e5cab68cabbafb3836c560a27c21cb033f017b2b25fece6",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch21.md",
+      "expected_sha256": "9be521c0b56ba6e9f75fa53834f18727940673e953e7c9b8951d988202b4f13d",
+      "actual_sha256": "9be521c0b56ba6e9f75fa53834f18727940673e953e7c9b8951d988202b4f13d",
+      "matches": true
+    }
+  ],
+  "qualified_chinese_inputs": 0,
+  "english_inputs": 0,
+  "english_outputs": 0,
+  "actual_new_candidate_queries": 0,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "query_logs": [],
+  "decision": "zero_english_verified_after_upstream_quality_rejection",
+  "reason": "实际读取原A4固定零回执及cn21/receipt，核所有引用/输出SHA均匹配；C33主控自然度/Lab身份未过，英文合格输入确实0，不是未开始记零。不用英文救回，不称占用/可用。",
+  "agent3_cumulative_candidate_queries": 386,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 388,
+  "numbering_boundary": "本中文batch19零收尾，不占英文batch27/E27。",
+  "controls_and_registration": "无新对照/登记访问，原run记录范围不升级为本次逐名核验；C23待核未重复403。",
+  "old_records_catalog_queue_git_unchanged": true
+}

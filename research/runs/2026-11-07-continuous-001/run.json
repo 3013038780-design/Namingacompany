@@ -5,7 +5,7 @@
   "coordinator_id": "/root",
   "status": "in_progress",
   "research_mode": "continuation",
-  "scope": "持续同一001；本段未然机/Supposal逐名来源、双评、中英公开使用初筛及家族终审通过，新增1讨论配对；借身质量未过未查，阈值资料未命名。累计40资料/32中文/26英文版本，A3查询386加主控既有2共388；总库25讨论+1储备，原待核实1项分开。",
+  "scope": "持续同001，本段batch19/20读5资料、3中文，1质量拒绝未查、2已有具名科技软件，实际原A4/同A3零英文收尾。累计45资料/35中文/26英文版本，399次A3调用398返回，加root旧2共401调用400返回；总库25讨论+1储备保持，旧待核1分开。",
   "started_at": "2026-11-07T19:41:18.016539+08:00",
   "roles": {
     "A1": {
@@ -23,23 +23,23 @@
     },
     "A2": {
       "agent_id": "/root/continuous_a2",
-      "status": "completed_batch18_three_materials_two_drafts",
+      "status": "completed_batch19_and_batch20_five_materials_three_drafts",
       "execution_ref": "本聊天原continuous_a2实际followup_task，已接收A1-relay与已验收搜索计划，开始资料阅读/创作",
       "stage_receipt": "A2-execution.json",
       "plan_completed_at": "2026-11-07T19:49:25.371755+08:00",
-      "next_stage": "next_diverse_relations_and_reading_coverage",
+      "next_stage": "next_diverse_relations_batch21",
       "material_receipt": "reading-execution.json"
     },
     "A3": {
       "agent_id": "/root/live_a3",
-      "status": "completed_cn20_and_en26_same_actor_C31_pass_C32_quality_excluded",
+      "status": "completed_cn21_cn22_and_en_zero19_zero20_same_actor",
       "execution_ref": "原live_a3实际followup复核3储备，40原查询+1必要新查询；随后负责新中文与英文两段",
       "reserve_receipt": "reserve-followthrough/A3-review.json",
       "controls_ref": "A3-controls.json"
     },
     "A4": {
       "agent_id": "/root/continuous_a4",
-      "status": "completed_C31_initial_English_and_postscreen_review_C32_excluded",
+      "status": "completed_zero_input_batch19_and_batch20",
       "execution_ref": "本聊天实际spawn continuous_a4，已终审三储备，等待新合格中文英文匹配",
       "reserve_receipt": "reserve-followthrough/A4-review.json",
       "closeout_ref": "A4-closeout.json",
@@ -49,13 +49,13 @@
       "latest_postscreen_review_ref": "A4-C31-postscreen-review.json"
     }
   },
-  "current_stage": "checkpoint_ready_one_new_pair_admitted_next_diverse_relations_pending",
-  "checkpointed_at": "2026-11-08T17:24:58.861782+08:00",
+  "current_stage": "checkpoint_batch19_20_complete_zero_new_next_diverse_relations_pending",
+  "checkpointed_at": "2026-11-08T18:34:26.743155+08:00",
   "new_families_delivered": 3,
   "whole_research_complete": false,
   "withdrawn_current_run": 1,
   "current_work_segment_complete": true,
   "historical_input_snapshot_gap_disclosed": "mutable-index-reacceptance.json",
-  "latest_continuation_result": "continuations/2026-11-08T062253Z/result.json",
+  "latest_continuation_result": "continuations/2026-11-08T093057Z/result.json",
   "website_url": "https://3013038780-design.github.io/Namingacompany/"
 }

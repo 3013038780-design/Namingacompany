@@ -1,0 +1,33 @@
+{
+  "reviewed_at": "2026-11-08T17:41:11.069472+08:00",
+  "reviewer": "/root",
+  "scope": "本包3新资料抽核2项，ceil20%=1已超；无最终候选，不能将来源通过当质量通过",
+  "materials": [
+    {
+      "id": "C1-M41",
+      "url": "https://hai.stanford.edu/news/humans-and-ai-engage-in-meaningful-collaborations",
+      "read": "实际web正文90–124，日期10/12；观察研究新闻与作者解释，未读论文或验证百分比",
+      "decision": "material_relation_supported_not_name"
+    },
+    {
+      "id": "C1-M42",
+      "url": "https://www.csiro.au/en/news/all/articles/2026/september/history-of-computing",
+      "read": "实际web日期27及转录57–69，部分答案参与指令路径选择；未看影片，新闻日期不是机制发明日期",
+      "decision": "material_supported_C33_brand_quality_rejected"
+    },
+    {
+      "id": "C1-M43",
+      "url": "https://news.stanford.edu/stories/2026/10/accelerator-learning-joy-projects",
+      "read": "root本次web timeout，未读正文，不冒称否定A2实读；原A2阅读范围保留",
+      "decision": "not_independently_body_read"
+    }
+  ],
+  "producer_score_compared_only_after_root_sealed": true,
+  "C33": {
+    "root_total": 23,
+    "producer_total": 25,
+    "largest_axis_difference": 1,
+    "decision": "quality_reject_not_searched",
+    "reason": "自然称呼与Lab身份各3低于4，非占用结论；无>=2轴差需重评"
+  }
+}

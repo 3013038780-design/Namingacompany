@@ -1,0 +1,75 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T17:39:33.179810+08:00",
+  "candidates": [
+    {
+      "id": "C1-C33",
+      "name": "算着走",
+      "pinyin": "suàn zhe zǒu",
+      "material_id": "C1-M42",
+      "material_ids": [
+        "C1-M42"
+      ],
+      "family_id": "C1-BF-computation-guides-next-program-step",
+      "plan_direction_id": "C1-D-S3",
+      "case_ids": [
+        "B074",
+        "B002"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Pamela Tyers, CSIRO: Building Australia’s first computer",
+          "url": "https://www.csiro.au/en/news/all/articles/2026/september/history-of-computing",
+          "published_at": "2026-09-16",
+          "reading_location": "L27–84新闻日期/计算史与页面所附CSIRAC影片转录，重点L57–69设计者对程序路径、存储与操作的解释；没有观看1965影片，也未读全文末段网络发展史。机制属历史转录，新闻发布日期不当技术发明日期。",
+          "reading_scope": "news_body_excerpt",
+          "access": "body",
+          "method": "web_HTML_body",
+          "read_at": "2026-11-08T17:39:33.179810+08:00",
+          "within_90_days_as_of": "2026-11-08"
+        }
+      ],
+      "source_urls": [
+        "https://www.csiro.au/en/news/all/articles/2026/september/history-of-computing"
+      ],
+      "formation": "由下一步取决于前面算出什么的同场过程，凝成自然动作称呼算着走；不是新闻原句、古语或官方技术名，也不声称此前无人这样说。",
+      "relation_sentence": "程序先算出一部分结果，再据此决定接着执行哪一条路径。",
+      "condensation_path": "把算与继续推进放进同一主体的动作中，压成算着走；走是程序推进的比喻，不是另添旅行意象或向上成长期许。",
+      "meaning": "下一步，要看已经算出的结果。",
+      "crossing": "人熟悉的边做边决定下一步，与机器按部分计算结果选择指令路径共享动作关系；固定规则内选择，不是假装系统自己会改规则。",
+      "layers": [
+        "短小可复述的三字动作称呼",
+        "中间结果参与安排下一步执行",
+        "研究计算如何参与行动的机构角色"
+      ],
+      "material_feature_retained": "保留部分结果对后续路径的作用，不只说电脑能算。",
+      "material_feature_lost": "名称不说明指令编码、分支条件、数据程序同存或机器历史，也不等同一般自主智能。",
+      "why_name_not_generic": "不是算法加美好形容词，两个动作本来就在一个执行过程相接；又没有原样摘基本存储术语，仍需独立判断口语称呼是否像公司。",
+      "shortcoming": "可能像路线规划/随身计算器产品，走也会引出旅游或慢慢试探；着字使它带口语动作感，未必像长期研究机构。若机构身份不成立，来源不能补分。",
+      "science_boundary": "新闻转录为历史一手讲述，不能据此证明最早发明优先权；固定程序条件分支不等于自主学习、改变算法或所有未来路径可知。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "原语是基本构件及组合，自举为已有能力构造自身工具，元解释器为语言描述自身求值，回车以后为外部输入执行与下一交互；本项是程序内部按部分答案决定后续指令路径，不包含自己重写规则或学会新事。因序为分布事件的依赖偏序，不是执行条件分支；若泛化成运行一次更聪明，必须退旧成长族。 全历史精确算着走/算著走未见旧提案；不作市场使用结论。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是算着走，做人工智能研究。",
+        "算着走发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened"
+    }
+  ],
+  "scope": "未查使用、未配英文的中文草案；旧闭族不恢复。"
+}

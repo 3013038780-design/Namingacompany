@@ -1,0 +1,47 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese screening",
+  "executed_at": "2026-11-08T18:28:42.036095+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch20.json",
+      "sha256": "dd4ee1bd5620c11134f9864ba26d2dc339a3a468aa5d63ee9fff5b884706f2ed"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch20.json",
+      "sha256": "fb1843494b5503dde8f538bb2cd5b68b0162daec7f8ffb0e630cd6dca14cf96d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch20.json",
+      "sha256": "5d33fb60e1af7ecac73968630df9b372a916a717c4502b07a36fade4256b57f7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch20.json",
+      "sha256": "4deaabf9daa28c9ae68bbe8f8bd1130707aa0098944348fcb6d54500deaf671e"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch22.json",
+      "sha256": "cb947eaff7237c2bb83c5651e7da33f6addc3a18741ce630a7d7ccbe08014572"
+    },
+    {
+      "path": "A3-cn-batch22.md",
+      "sha256": "c8ed3a33d42898f5ab4895e76c31389f89da7296526630d79b50e6bf1d6707e9"
+    }
+  ],
+  "actual_new_candidate_queries": 13,
+  "completed_candidate_search_results": 12,
+  "unreturned_search_attempts": 1,
+  "actual_new_chinese_queries": 13,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 386,
+  "agent3_cumulative_candidate_queries": 399,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 401,
+  "passed_chinese_candidate_ids": [],
+  "actual_execution": "两名各6组真实返回查询及1条海南主体定向搜索已发起但无返回后终止，共13次实际搜索调用/12条完成结果；官网/企业资料/新闻正文实际核，软件和公司完整核心证据分清，UK逐名不可访问。",
+  "next": "原A4真实零匹配后同一A3英文零终核；不为已用中文配英语救回。",
+  "unchanged": "旧稿/总库/Git不改，无网页全文。"
+}

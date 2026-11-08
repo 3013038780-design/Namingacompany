@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English zero final receipt",
+  "executed_at": "2026-11-08T18:31:46.002603+08:00",
+  "inputs": [
+    {
+      "path": "A4-zero-input-batch20.json",
+      "sha256": "bde296fa5b03e117199ce882c890f3e9fa1794920cb148a139f9f6fdd71169ec"
+    },
+    {
+      "path": "A4-zero-input-batch20.md",
+      "sha256": "c1e31706d479d72e89fd61651a35ceacd33e274ef8afc2528bb4d9c33d84d1ac"
+    },
+    {
+      "path": "A4-zero-input-batch20-receipt.json",
+      "sha256": "4950bf7e10dd5f0b4060549b7c36ae7e9b035313749ed18e40bdec7171df65f0"
+    },
+    {
+      "path": "A3-cn-batch22.json",
+      "sha256": "cb947eaff7237c2bb83c5651e7da33f6addc3a18741ce630a7d7ccbe08014572"
+    },
+    {
+      "path": "A3-cn-batch22.md",
+      "sha256": "c8ed3a33d42898f5ab4895e76c31389f89da7296526630d79b50e6bf1d6707e9"
+    },
+    {
+      "path": "A3-cn-batch22-receipt.json",
+      "sha256": "dcdcbd2a733386d81c7ded58b2fd79fa284303bea223baa2c5543a672cdb0305"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-zero-batch20.json",
+      "sha256": "79e67455faf4bc1973590538a445cad67aae1e3ced49023108e8c9564abbf18a"
+    },
+    {
+      "path": "A3-en-zero-batch20.md",
+      "sha256": "d3613802c395eaa4bb3691c22911e26c9bea0a8bfbd6fdb437563c27ce4f13ff"
+    }
+  ],
+  "all_referenced_hashes_matched": true,
+  "actual_upstream_read": true,
+  "english_inputs": 0,
+  "english_outputs": 0,
+  "actual_new_queries": 0,
+  "agent3_cumulative_candidate_queries": 399,
+  "run_cumulative_candidate_queries": 401,
+  "completed_results_boundary": "A3已返回398，含root2全run已返回400；cn22无返回1不伪称成功。",
+  "next": "交主控H7保存本包零保留，等待另案授权。"
+}

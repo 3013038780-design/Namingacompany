@@ -1,0 +1,25 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-08T18:34:26.743155+08:00",
+  "source_review": {
+    "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T093057Z/root-source-review-batch20.json",
+    "sha256": "e2f56951349b3ed78acd787ebf518aa5d3eef04aeae2616e25089eee00796e6c"
+  },
+  "decisions": [
+    {
+      "chinese_id": "C1-C34",
+      "name": "沙阵",
+      "decision": "reject_exact_named_software_product",
+      "evidence": "https://www.datacloak.cn/products/base-station",
+      "actual_root_read": "web正文18/109–136、163–177；主体页脚数篷科技英文全称。具名沙阵可信计算平台，™不当注册证明，不核性能。"
+    },
+    {
+      "chinese_id": "C1-C35",
+      "name": "隶首",
+      "decision": "reject_exact_named_platform",
+      "evidence": "https://business.china.com.cn/2023-12/28/content_42654155.html",
+      "actual_root_read": "root web timeout后实际读同A3保存的HTML标题/发布日期/首段，SHA d4695339b111b46dc333cec4c46c7994bb9b3615a19ba5e40581c1f9716a80a1；明确华润电力隶首平台、金蝶/润电参与。root未独立读安徽目录，不冒称官方登记。"
+    }
+  ],
+  "registration_clearance_claimed": false
+}

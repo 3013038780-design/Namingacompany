@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T17:41:43.110376+08:00",
+  "work_packet": "A2 batch19 / A3 cn21",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch19.json",
+      "sha256": "19b096bb9387bff5ed5161f6172e06552e099d6ac0dc0561f45855a9ca182256"
+    },
+    {
+      "path": "coordinator-cn-batch19.json",
+      "sha256": "26a7936699967417e6298a0b28971a9291bffbb6699c9cd6c274cdb8ca8115a2"
+    },
+    {
+      "path": "A3-cn-batch21.json",
+      "sha256": "83100580afd76a9d6e5cab68cabbafb3836c560a27c21cb033f017b2b25fece6"
+    },
+    {
+      "path": "A3-cn-batch21-receipt.json",
+      "sha256": "b7da753ab4b6235ed263b4ee230dc6d1eca1f674e643c398052b97714109a6e6"
+    }
+  ],
+  "actual_upstream_read": true,
+  "execution": "实际读取固定候选与主控评审、原A3中文零关卡及receipt并核输出SHA后完成零匹配；不是尚未开始。",
+  "upstream_chinese_candidates": 1,
+  "qualified_chinese_inputs": 0,
+  "english_candidates": [],
+  "english_output_count": 0,
+  "new_english_scores": 0,
+  "new_usage_queries": 0,
+  "new_registration_queries": 0,
+  "decision": "zero_english_input_after_quality_rejection",
+  "excluded": [
+    {
+      "chinese_id": "C1-C33",
+      "name": "算着走",
+      "reason": "自然度及Lab身份未达门槛，首感口语动作/路线计算器；producer过线不能替代主控门槛，真实来源不能补机构身份。未送使用筛查，不称占用或可用。"
+    }
+  ],
+  "next": "同一原A3实际英文零复查，不提前记其已完成。",
+  "numbering_boundary": "此为中文batch19零输入包，不占英文batch27/E27编号。",
+  "unchanged": "不造弱英文救中文，不评分/搜索，不改旧档、总库、队列或Git。"
+}
