@@ -1,0 +1,145 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-08T20:38:28.585204+08:00",
+  "stage": "same_run_bounded_package_batch22",
+  "input_refs": [
+    {
+      "path": "README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567"
+    },
+    {
+      "path": "research/seed/README.md",
+      "sha256": "44cb357ed9db7edb5dc6c9a32ef1729e482ab3a9ef1f9dc6598dfbb3fc0d33b3"
+    },
+    {
+      "path": "research/seed/brand-naming-foundation.md",
+      "sha256": "92cb6c7cd36c201d35900528826a8aa9aca5a75c632df57d30dcaade5547f519"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.md",
+      "sha256": "50023a0d4970380ebd3afb8969343e6aaadab41c468ae7be66bf2da8f20dcda9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.md",
+      "sha256": "9e2c1589037d9d564619fd8d9d861dffd13288087c4f7dec8e49d5ecbd702dde"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+      "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/plan-review.json",
+      "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T110013Z/decisions-through-batch21.json",
+      "sha256": "f26f08e5ae6e0ec7c2c8cfe4879511d240733bf346553e273cd7d972d335ece4"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent2-materials-cn/materials.md",
+      "sha256": "24bff78e7e974fd1d446db0e399111b11eebef32004e39f3a98c0c35591f9464"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "sha256": "ae6454d3c330698afa7d7844353f8709f59fb619500ae14cca10885864213ceb"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T120952Z/history-scan.json",
+      "sha256": "9ac192526997afb033608ec178ef1ea2ac51b98b1380dc481e9ee0a14058bd64"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T120952Z/material-proposal-index.json",
+      "sha256": "0e6dffa30ff845980a080c11a9eca768ae2e7be6b8d97c097f277524c028b64a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T120952Z/resume.json",
+      "sha256": "517cfbb400b46e5f6f7ac6c9b03424ff9c237e6cd2ab4ad17789b558e1c45f3e"
+    }
+  ],
+  "input_reading_boundary": "复用原实际A1与已验收计划，本包重读当前规则/偏好/105分类方向、最新冻结索引及构词反馈；seed为既有实际阅读基础，本包未冒称重新外部核验105。队列只作当前状态，不作不可变交接输入。",
+  "history_scan": {
+    "method": "实际解析非inputs历史JSON及冻结索引；对飞梭/捕蝇草/穿梭/织机/双触/触碰/动作电位/短时记忆等精确串搜索，并实际读旧A2C19织数全提案和对应M19正文，按卡孔指令 vs 手臂可达工具作用比族。植物与气孔分化/外部轨迹/奖励误差语义核对。没有公司或产品使用检索。",
+    "file_count": 801,
+    "manifest_sha256": "95b09729b370acf2856e29e17c8857bcaa6972aad76731e7fa92dac5e09bfc5b"
+  },
+  "reading_evidence": [
+    {
+      "title": "Colne Valley Museum / MyLearning: Flying Shuttle Mechanism",
+      "url": "https://www.mylearning.org/resources/flying-shuttle-mechanism",
+      "reading_location": "实际读藏品教学短正文L18–20：拉动木柄使梭越过布幅，突破原手递梭受臂展影响的布幅，亦提高速度；原文也提到纱线供给需求增加。没有实际操作、看视频或读取完整工业史。",
+      "read_at": "2026-11-08T20:37:57.320210+08:00",
+      "access": "body",
+      "published_at": null,
+      "source_type": "museum_object_teaching_resource",
+      "reading_scope": "complete_short_body",
+      "boundary": "版权年2026不作发布日期；飞梭为通常中文译名，不声称英文正文出现中文两字。"
+    },
+    {
+      "title": "NIBB author institution: Memory of the Venus flytrap",
+      "url": "https://www.nibb.ac.jp/en/press/2020/10/06.html",
+      "reading_location": "实际读L116–137日期及研究新闻完整科学正文：触毛刺激、转基因钙传感器、首刺激后钙升高再衰减、时间窗内第二刺激抬高钙并与闭合相关。未看视频/图像或读取付费论文全文。",
+      "read_at": "2026-11-08T20:37:57.320210+08:00",
+      "access": "body",
+      "published_at": "2020-10-06",
+      "source_type": "author_institution_research_news",
+      "reading_scope": "complete_scientific_news_body",
+      "boundary": "本页为研究团队机构的一手报道，不冒充原论文方法全文；约30秒是报道实验语境，不能说任何条件下都只认两次。"
+    }
+  ],
+  "failed_accesses": [
+    {
+      "url": "https://americanhistory.si.edu/collections/object/nmah_640517",
+      "result": "搜索返回馆藏正文片段，open先500后timeout；不将其列已读正文依据，改读Colne Valley馆藏教学页。"
+    },
+    {
+      "url": "https://home.nps.gov/articles/000/glossary-of-weaving-terms.htm",
+      "result": "初次只见页头，指定正文timeout；未据此认定全文已读。"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41477-020-00773-1",
+      "result": "搜索有论文摘要和元数据，open跳登录失败；未读正文，不计原论文通读。"
+    },
+    {
+      "url": "https://www.eurekalert.org/news-releases/750126",
+      "result": "搜索有机构供稿摘要，open403；正文证据采用实际可读NIBB同源官方页。"
+    }
+  ],
+  "new_material_count": 2,
+  "new_chinese_draft_count": 2,
+  "new_english_count": 0,
+  "name_usage_queries_performed": false,
+  "output_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension21.json",
+      "sha256": "923ffb9d47a8b86440210d374ae0b32e82c5a7b6d10a8ae9baead0ff9de43270"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch22.json",
+      "sha256": "d1cbf13f48570bddc5fc99989682c42ea0c68c402b93ac6d5133015a3c964e7f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch22.md",
+      "sha256": "0387a07d802e3314c99fac7346583d248ac7f4271f78981f094ad44a1fc6c1c6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch22.json",
+      "sha256": "3716ffe4162f3fa1e7d04a487d6cbc4c0578b8f78f00b6aaec353565a1086774"
+    }
+  ],
+  "whole_production_batch_complete": false,
+  "boundary": "两个新对象关系的小包，不复活既有闭族；无新古文、不冒称新增近90天新闻/整书阅读。未查使用或配英文，不改旧稿/分数/分类、Git、队列、库、网站feed。来源打不开的条目不作已读原正文证据。"
+}

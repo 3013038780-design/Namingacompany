@@ -2177,6 +2177,540 @@
         }
       ],
       "screening_as_of": "2026-11-08"
+    },
+    {
+      "chinese_id": "C1-C40",
+      "english_id": "C1-E31",
+      "family_id": "C1-BF-fog-capture-conical-spine",
+      "chinese": "雾针",
+      "pinyin": "wù zhēn",
+      "english": "Spine Eddy",
+      "suggested_pronunciation": "建议 SPINE ED-ee，/ˈspaɪn ˌɛdi/，两词共三个音节；均采用完整词常规读法，不虚构造词公认读法。",
+      "source": {
+        "title": "中科院理化所：科研人员研发出仿生仙人掌集雾器",
+        "url": "https://www.cas.cn/syky/202609/t20260928_5121136.shtml",
+        "read_scope": "本包curl重新实际读原HTML发布日期2026年10月08日及完整科学正文，重点三级路径、径向锥形仿生刺背风侧局部微涡旋、碰撞概率与模式限制；无行号时以段落开头“团队突破传统平面与网状结构的局限”“粒子图像测速和流场分析显示”定位。",
+        "date": "2026-10-08",
+        "access": "body",
+        "local_sha256": "8e7ebf3b113714fe3a13adfafea463283adb3d43e6892b3654742cc8a58c53e7"
+      },
+      "fact": "在该仿生圆柱装置的绕流条件下，径向锥形刺参与形成背风侧局部微涡旋，改变雾滴与收集表面碰撞的条件；整机还包含吸入和排水环节，不能全部归给单刺。",
+      "meaning": "细小的形态，也能改变相遇的条件。",
+      "crossing": "在仿生圆柱装置的绕流条件下，径向锥形刺的形态参与形成背风侧局部微涡旋，使雾滴更易与收集表面碰撞；名字借的是这个捕获入口的形态与环境关系。",
+      "layers": [
+        "雾与针构成可想象的完整微观场景",
+        "结构改变周围条件，而不只增加表面积",
+        "关于形态、环境与相遇关系的研究联想，非AI性能事实"
+      ],
+      "shortcoming": "可能像雾化针头、针灸或节水装置；雾有模糊感，针有刺痛感。作为广义AI研究身份必须独立成立，不能靠原论文精细机制抬分。 霧針也出现为虚构角色招式，Wuzhen近音存在地名和其他用法；未将其误作同名公司或模型。",
+      "english_formation": "spine取植物的硬尖刺义；eddy取空气或水的局部回旋流义。Spine Eddy不是给科技词加美好动词，而是把同一场景中的结构及其邻近流动放在一起：刺的形态参与改变周围流场。完整分写保留正常拼法，不把两个词删音成难以还原的字母串；也不把spine的骨气/书脊、eddy的思想回流另加为本案出处。",
+      "bilingual_relation": "中文看雾中的针形刺；英文看这个刺与局部涡旋的关系。双方共享同一装置捕获入口的形态—流场—相遇关系，不强译成Fog Needle，也不说单根针独自吸水、排水。英文省掉雾介质，换来能具体说明周围条件如何改变的动作场景。",
+      "english_shortcoming": "spine更常先想到脊柱，可能像脊椎医疗、人体工学或医学仿真；Eddy也可被听作人名Eddie。两个词都是完整常用词，但作为整体不是成熟日常短语，第一眼可能像流体仿真课题而非独立公司。英文未直接保留雾这一介质，需中文与短释义帮助辨认；不能由来源真实补品牌薄弱。",
+      "scientific_boundary": "雾针为本轮对雾中锥形仿生刺的品牌凝练，不是原报道正式器件名；以针描述刺的形态，不声称针灸。只读机构正文，未核原论文全部方法或独立复现实验；不把集水指标变成AI表现承诺，也不混主动制冷与被动模式。 两个名词是本案拟称，不称原报道或词典收录Spine Eddy。只借仿生圆柱绕流条件下径向锥形刺参与捕获的入口，非独针全部装置；微涡旋不可脱离装置条件当普适结论。不把主动制冷、孔吸入、沟槽排水归给一根刺，不背书AI表现或论文独立复现。针具/纹身/水务首感、霧針虚构招式、Wuzhen近音及登记未清保留。",
+      "source_scope_correction": {
+        "original_crossing": "同一个对象把分散的捕获、进入和排出步骤连接起来，而不是只增加一个更大的收集面。",
+        "adopted_crossing": "在仿生圆柱装置的绕流条件下，径向锥形刺的形态参与形成背风侧局部微涡旋，使雾滴更易与收集表面碰撞；名字借的是这个捕获入口的形态与环境关系。",
+        "reason": "主控发现crossing字段继承原M07整体装置关系，易使本名特征范围被扩大；作者承认此字段未同步收窄。",
+        "addendum_ref": {
+          "path": "A2-C40-source-scope-addendum.json",
+          "sha256": "0ab1e9325b0192f362b04646a23803ddc6d4bedaaf010b56face886655030119"
+        },
+        "original_ref": {
+          "path": "A2-candidates-batch23.json",
+          "sha256": "2ed9786614c8c7f38068d2417538708a47138f7afb324bf25084012814fb06e4"
+        }
+      },
+      "english_dictionary_sources": [
+        {
+          "url": "https://www.merriam-webster.com/dictionary/spine",
+          "read_scope": "root实际31–57植物尖刺义"
+        },
+        {
+          "url": "https://www.merriam-webster.com/dictionary/eddy",
+          "read_scope": "root实际31–56空气/水回旋义"
+        }
+      ],
+      "chinese_screen": {
+        "candidate_id": "C1-C40",
+        "name": "雾针",
+        "query_logs": [
+          {
+            "query": "\"雾针\"",
+            "executed_on": "2026-11-08",
+            "summary": "主要仪器电喷雾针与纹身打雾针商品，额外字与品类属性保留，不截短认本名商业品牌。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"雾针科技\"",
+            "executed_on": "2026-11-08",
+            "summary": "精确雾针科技返回雾炮/雾化供应链与不同字号企业，未确证本核心主体。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"雾针智能\"",
+            "executed_on": "2026-11-08",
+            "summary": "精确雾针智能主要气雾针剂枪游戏技能及其他雨雾智能工程，未确证本名公司。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"雾针\" AI 模型 软件 公司",
+            "executed_on": "2026-11-08",
+            "summary": "AI/模型/软件组合主要大型算法目录和聚合新闻拆字匹配，没有具体雾针品牌线索；未假称核全部备案清册。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"霧針\" 公司 軟體",
+            "executed_on": "2026-11-08",
+            "summary": "繁体多打霧針针具类别与微针/雾化年报，不将功能部件标题自动当品牌。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"wuzhen\" \"雾针\" company",
+            "executed_on": "2026-11-08",
+            "summary": "拼音并列中文结果为企业名录Wuzhen镇等地名拆词，并非雾针同名公司。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"雾针\" \"有限公司\"",
+            "executed_on": "2026-11-08",
+            "summary": "独立有限公司补搜仍为喷雾针采购/仪器/专利与供应商，完整字号不同，不冒当前登记。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"霧針\" AI 品牌",
+            "executed_on": "2026-11-08",
+            "summary": "繁体品牌补搜出现AIバトラー霧針魔法，实际正文闭环为角色技能，非模型/独立软件品牌。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"雾针\" 软件 游戏 品牌",
+            "executed_on": "2026-11-08",
+            "summary": "软件游戏补搜多气雾针剂枪技能、雾影猎人不同游戏、聚合页，未确证名为雾针独立软件。",
+            "status": "completed_search_result"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "9条有效查询未确证完整雾针/霧針同核心公司、模型或独立软件品牌。喷雾针/打雾针为更长仪器或纹身类别；AIバトラー确有同词魔法招式，但实际正文为角色设定，不是独立产品/模型名。保留医疗纹身联想、虚构招式同词、Wuzhen近音拥挤风险；登记未清。",
+        "evidence": [
+          {
+            "url": "https://ai-battler.com/battle-result/cmm843s9i049es60oaw9edmgp",
+            "access": "primary_game_content_body_excerpt_read",
+            "finding": "实际L33–44角色魔法设定含霧針及奥义；不是AIバトラー产品名称，页面L7模型另名。只读该设定段，不宣称通读大段自动生成小说。"
+          },
+          {
+            "url": "https://www.btatt2.com/categories/tattoo-needles",
+            "access": "retail_category_open_dynamic_body_partial",
+            "finding": "网页实际返回类别/品牌导航与动态模板；搜索索引有AEROLITE圆形打霧針，但本次可读正文未匹配该中文，未冒读完整商品或认定霧針品牌。"
+          },
+          {
+            "url": "https://www.biomart.cn/infosupply/122211748.htm",
+            "access": "search_index_only_open_429",
+            "finding": "搜索显示TIS Electrode/电喷雾针、品牌sciex；实际打开429，只记喷雾针类别/较长名线索，不当本候选同名公司/产品确证。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "复用本run2026-11-07 A3-controls.json共同入口403；本批未新访问、未逐名逐类核准。"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "复用本run2026-11-07 A3-controls.json共同入口403；本批未新访问、未逐名逐类核准。"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Wuzhen",
+            "scope": "2026-11-08实际逐名Wuzhen搜索URL不可访问，非无登记结论。"
+          }
+        },
+        "source_scope_acceptance": "实际读A2-C40-source-scope-addendum.json/md及execution、主控受理：crossing仅保留绕流条件下径向锥形刺捕获入口；不把整机吸入/排水作用归给针，未改原稿/原分。",
+        "source_decision": "public_use_screen_pass_with_generic_hardware_and_fictional_usage_risks",
+        "decision_normalization": "仅在派生交付将原明确通过且附风险的公开初筛标签归一；原词/查询/证据/风险/登记全留，原A3文件字节不改，未把hold/reject映射通过。"
+      },
+      "english_screen": {
+        "candidate_id": "C1-E31",
+        "name": "Spine Eddy",
+        "query_logs": [
+          {
+            "query": "\"Spine Eddy\"",
+            "executed_on": "2026-11-08",
+            "summary": "精确短语主要spine医疗与Eddy医生姓名共现、示例代码，未确证整体商业名；后核相关实际角色。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Spine Eddy\" company lab",
+            "executed_on": "2026-11-08",
+            "summary": "company/Lab仍医生/医疗机构和名单普通共现，不把人名当完整公司字号。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Spine Eddy\" AI model",
+            "executed_on": "2026-11-08",
+            "summary": "AI/model多脊柱医学AI论文，其具体模型另叫LVP等，未认定Spine Eddy模型。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Spine Eddy\" software product",
+            "executed_on": "2026-11-08",
+            "summary": "software/product命中@vf.js/spine中const eddy示例；实际curl原包README核变量用法，不是独立Spine Eddy软件。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"SpineEddy\"",
+            "executed_on": "2026-11-08",
+            "summary": "连写SpineEddy无结果，不能据此担保全球无登记；其他覆盖独立记录。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Spine-Eddy\" brand",
+            "executed_on": "2026-11-08",
+            "summary": "连字符结果为Chris Eddy从业资料、EDDY PROJECT等不同完整名及书目，不以单词分开出现判整体占用。",
+            "status": "completed_search_result"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "2026-11-08本轮6有效查询未确证Spine Eddy/SpineEddy/Spine-Eddy完整核心用于公司、AI模型或独立软件品牌。具体命中为脊柱相关医生姓名及@vf.js/spine示例eddy变量，已核正文排除；不把单独Spine或Eddy项目都视作整体占用。保留脊椎医疗/仿真与Eddie听写、中文针具/虚构同词风险，登记未清。",
+        "evidence": [
+          {
+            "url": "https://cdn.jsdelivr.net/npm/@vf.js/spine@2.1.22/README.md",
+            "access": "package_readme_curl_body_read",
+            "finding": "web不可访问后curl实际HTTP200/1643字节，README示例const eddy = Spine.from(resources.eddyData,app)，eddy为变量/实例名；软件包@vf.js/spine，不是Spine Eddy独立品牌。"
+          },
+          {
+            "url": "https://www.npmjs.com/package/@vf.js/spine",
+            "access": "primary_registry_open_403",
+            "finding": "实际npm打开403，不假称读注册页；CDN README另实际核。"
+          },
+          {
+            "url": "https://socket.dev/npm/package/%40vf.js%2Fspine",
+            "access": "search_index_only_open_unavailable",
+            "finding": "索引同一示例代码，打开不可用；正文根据另成功CDN，不把索引冒成功打开。"
+          },
+          {
+            "url": "https://www.hsmc.ae/our-doctors/eddy-achkar/",
+            "access": "primary_doctor_profile_excerpt_read",
+            "finding": "L32–48姓名Eddy Achkar、physiotherapy及spine injuries专科；不是名为Spine Eddy公司/产品。仅核姓名/角色，不评价医疗能力。"
+          },
+          {
+            "url": "https://spineandbrainsurgery.co.zw/complex-spinal-surgery/",
+            "access": "original_page_redirected_to_account_suspended",
+            "finding": "搜索有Serge Eddy姓名，实际页转托管Account Suspended，未声称读当前原医生正文或推断公司停业。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "复用本run2026-11-07共同入口403；本批未新访问，未逐名逐类登记核准。"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "复用本run2026-11-07共同入口403；本批未新访问，未逐名逐类登记核准。"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=SpineEddy",
+            "scope": "2026-11-08实际逐名SpineEddy搜索URL不可访问，非无公司登记结论。"
+          }
+        },
+        "chinese_id": "C1-C40",
+        "chinese": "雾针",
+        "rework_attempt": 0,
+        "remaining_reworks": 2,
+        "source_scope_preserved": "原A2-C40-source-scope-addendum及CN25风险保持：只捕获入口形态/局部流场，不是针独自完成三级，不把英文通过当注册许可。",
+        "local_evidence": {
+          "path": "/tmp/a3-vf-spine-readme.txt",
+          "bytes": 1643,
+          "sha256": "1965cd4b6b0e3cc78e12c2519e6061fa11e5cb1d2845d238ebb9dc49cd62cc50",
+          "publication": "本地证据不提交全文，仅摘要与公开原链接"
+        },
+        "source_decision": "public_use_screen_pass_with_medical_and_name_associations",
+        "decision_normalization": "仅在派生交付将原明确通过且附风险的公开初筛标签归一；原词/查询/证据/风险/登记全留，原A3文件字节不改，未把hold/reject映射通过。"
+      },
+      "quality": {
+        "chinese_producer": {
+          "candidate_id": "C1-C40",
+          "name": "雾针",
+          "language": "zh",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a2",
+          "scores": {
+            "naturalness": 4,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 25,
+          "notes": {
+            "naturalness": {
+              "reason": "雾和针形成可直接想象的一个对象，两音节能称呼",
+              "counter_association": "可能像某种雾化针具而不是机构"
+            },
+            "distinctiveness": {
+              "reason": "雾中细针的轮廓清楚，不是泛化智能/成长词",
+              "counter_association": "不以本轮新组合推定市场无人使用"
+            },
+            "lab_fit": {
+              "reason": "微结构、环境与作用条件可以直接承载科学工程研究身份",
+              "counter_association": "节水设备、医疗针具或针灸首联想也真实存在，不能由出处补救"
+            },
+            "grounding": {
+              "reason": "实际重读正文明确锥形刺与雾滴绕流、微涡旋及捕获关系，两个字同场",
+              "counter_association": "针是对仿生刺的形态比喻，不是正式器件名或独立针灸机制"
+            },
+            "extension": {
+              "reason": "可谈结构改变行动条件，不必只绑一个集水设备",
+              "counter_association": "若泛成所有信息收集都更高效，会丢掉本案特征"
+            },
+            "semantic_coherence": {
+              "reason": "外壳和第二层都围绕形态影响雾滴相遇这一关系",
+              "counter_association": "不能把未知雾+突破针分成两条毫无关系的宣传故事"
+            }
+          },
+          "decision": "quality_pass"
+        },
+        "chinese_coordinator": {
+          "candidate_id": "C1-C40",
+          "name": "雾针",
+          "reviewer": "coordinator",
+          "scores": {
+            "naturalness": 4,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 25,
+          "notes": {
+            "naturalness": {
+              "reason": "两个熟字形成完整小器物画面，读音简洁",
+              "counter_association": "可能误听悟真等"
+            },
+            "distinctiveness": {
+              "reason": "雾中针形结构的反差具体",
+              "counter_association": "雾字科技名并不稀有"
+            },
+            "lab_fit": {
+              "reason": "精微结构与环境作用可承载科学工程研究身份",
+              "counter_association": "雾化针灸和水务首感较强，须披露"
+            },
+            "grounding": {
+              "reason": "锥形刺改变雾滴绕流及碰撞是同一真实关系",
+              "counter_association": "原完整装置的三级路径不能全归一根刺"
+            },
+            "extension": {
+              "reason": "可以延展形态环境和信息作用研究",
+              "counter_association": "不把集水效果译作AI性能"
+            },
+            "semantic_coherence": {
+              "reason": "介质与形态在同场相遇，未堆无关寓意",
+              "counter_association": "crossing旧整体装置表述需原A2明确仅作背景"
+            }
+          },
+          "decision": "quality_pass"
+        },
+        "english_producer": {
+          "candidate_id": "C1-E31",
+          "chinese_id": "C1-C40",
+          "english": "Spine Eddy",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a4",
+          "scores": {
+            "pronunciation": 5,
+            "spelling": 4,
+            "grounding": 5,
+            "bilingual_relation": 4,
+            "distinctiveness": 3
+          },
+          "total": 21,
+          "notes": {
+            "pronunciation": {
+              "reason": "两个完整词以常规读法连贯称呼，无奇怪辅音串。",
+              "counter_association": "Eddy听来像Eddie人名，可能需先介绍。"
+            },
+            "spelling": {
+              "reason": "spine和eddy是完整词，不删改字母，分写可还原两个对象。",
+              "counter_association": "听到eddy可能写Eddie；需明确流动名词拼法，不能说零听写成本。"
+            },
+            "grounding": {
+              "reason": "植物刺与空气局部回旋的词义真实，报道明确这两个对象在同一捕获入口相接。",
+              "counter_association": "这不是原作者器件名，不概括单针所有整机能力。"
+            },
+            "bilingual_relation": {
+              "reason": "中文以介质和形态写场景，英文以形态和周围流动写同一个入口的因果关系。",
+              "counter_association": "英文未保留雾介质和圆柱条件，不独自编码整个机制。"
+            },
+            "distinctiveness": {
+              "reason": "具体形态/局部流动的组合可作研究称呼，非泛科技口号。",
+              "counter_association": "医疗/仿真课题首感明显，独立Lab专名感仅谨慎讨论。"
+            }
+          },
+          "status": "pass_quality_gate",
+          "decision": "quality_pass",
+          "note": "主观编辑自评非测试，不改原门槛、不把真实来源或待查重当自动质量通过；主控先无分独评。"
+        },
+        "english_coordinator": {
+          "candidate_id": "C1-C40",
+          "name": "Spine Eddy",
+          "reviewer": "coordinator",
+          "scores": {
+            "pronunciation": 5,
+            "spelling": 4,
+            "grounding": 5,
+            "bilingual_relation": 4,
+            "distinctiveness": 3
+          },
+          "total": 21,
+          "notes": {
+            "pronunciation": {
+              "reason": "两个完整常用词正常读，n后接元音连贯",
+              "counter_association": "整体并非成熟日常短语"
+            },
+            "spelling": {
+              "reason": "标准spine和eddy拼写清楚，无造字母",
+              "counter_association": "eddy可能听写Eddie人名"
+            },
+            "grounding": {
+              "reason": "植物尖刺与局部回旋流为同一实际结构环境关系",
+              "counter_association": "不把骨气书脊等别义当来源"
+            },
+            "bilingual_relation": {
+              "reason": "中文介质加形态与英文形态加流动指向同一捕获入口",
+              "counter_association": "英文省略雾介质，不能直接看出三级背景"
+            },
+            "distinctiveness": {
+              "reason": "整体可称呼但医学和仿真题目首感只达谨慎讨论",
+              "counter_association": "专名辨识有限，不凭未查重给高分"
+            }
+          },
+          "decision": "quality_pass",
+          "english_id": "C1-E31"
+        }
+      },
+      "terminal_review": {
+        "reviewer": "/root",
+        "reviewed_at": "2026-11-08T21:07:49.913340+08:00",
+        "candidate_id": "C1-C40",
+        "english_id": "C1-E31",
+        "decision": "discussion_candidate",
+        "source_verification": "root实际web读CAS日期376与科学正文386–397特别390，圆柱绕流/径向锥形刺/局部微涡旋/雾滴碰撞；未看图或原论文全方法/实测。原M07复用不计新材料。实际读MW spine31–57植物尖刺及eddy31–56空气/水回旋义。",
+        "scope_correction": "原A2原crossing沿用整机三级背景，root实际退原作者澄清；作者实际重读并另留补记，不覆盖原稿/分/执行SHA。采用补记candidate_specific_crossing，原名保留和损失不变，A3中文/A4/同A3英文均实际读并固定该补记。不是事后声称旧原稿本来已同步收窄。",
+        "family_verification": "全历史1151文件命名字段及原稿比对，M07此前未提案；旧声入纹触针/铅笔留痕是记录，合流汇聚/上升流输送非本锥形刺改变局部流场捕获。不泛化未知突破/噪声收集，不因新描述另算多个家族。",
+        "false_positive_verification": "root实际读AIバトラー7和33–44，霧針是角色招式，页上模型另名；未读生成长小说。root核共享原包README同SHA1965cd4b6b0e3cc78e12c2519e6061fa11e5cb1d2845d238ebb9dc49cd62cc50，实际读示例eddy变量/资源名称，软件包为@vf.js/spine，未安装/运行代码。root实际读HSMC32–48姓名Eddy Achkar与spine专科，不误作Spine Eddy品牌。npm403等访问边界按原A3保留未重复。",
+        "quality": {
+          "chinese": [
+            25,
+            25
+          ],
+          "english": [
+            21,
+            21
+          ],
+          "all_axes_pass": true,
+          "maximum_axis_difference": 0,
+          "score_scope": "先无分预览独评封存后看作者数字，补审未新打分，不是消费者测试。"
+        },
+        "limitations": "中文雾化/针灸/纹身/水务首感、雾模糊与针刺痛；英文spine脊柱医疗/仿真课题、Eddy/Eddie听写及介质省略；同词虚构招式与Wuzhen近音拥挤。只借捕获入口，不把吸入排水和主动制冷归单针，不承诺AI表现。大陆公司/9与42未逐名核准，英国逐名入口不可访问，非全球无注册或可注册。",
+        "evidence_refs": [
+          {
+            "path": "A2-candidates-batch23.json",
+            "sha256": "2ed9786614c8c7f38068d2417538708a47138f7afb324bf25084012814fb06e4"
+          },
+          {
+            "path": "A2-quality-batch23.json",
+            "sha256": "13fbd12fdca9d83d767da62668f93df5ff62ebd8406cdb7cde9dcb9650744b58"
+          },
+          {
+            "path": "A2-creation-execution-batch23.json",
+            "sha256": "3e0e0965d66046249d3d50a5f6af0d8e833a8dc4a049aae5c12da40fe592b8a9"
+          },
+          {
+            "path": "A2-material-reuse-batch23.json",
+            "sha256": "0ea3da91e277ce675e111b3956d1552650114c1108f567047235ba9aca229248"
+          },
+          {
+            "path": "A2-C40-source-scope-addendum.json",
+            "sha256": "0ab1e9325b0192f362b04646a23803ddc6d4bedaaf010b56face886655030119"
+          },
+          {
+            "path": "A2-C40-source-scope-addendum-execution.json",
+            "sha256": "df34b988a8579d1323792ca3bf8b2ecf8ad35d427d85c9d36e10e888fa9a79db"
+          },
+          {
+            "path": "coordinator-cn-batch23.json",
+            "sha256": "da5695d6f2cdc5f0d77d29eb2147e129d743635df8d42e2df4eb7dbabb59ad2a"
+          },
+          {
+            "path": "coordinator-family-review-batch23.json",
+            "sha256": "8bae13163b9559ecfe8eb04a30566659e01cf0e89b5e8eba244da4fddbf122dc"
+          },
+          {
+            "path": "A3-cn-batch25.json",
+            "sha256": "cdfc1c430be3e97a00877caaad758c2d51f839a11ed876aa62f9e1417f562cdb"
+          },
+          {
+            "path": "A3-cn-batch25-receipt.json",
+            "sha256": "fd02073652004b2b07d11077f3259e1c74e1ba0ce7016c130f6b82fc5c4229d4"
+          },
+          {
+            "path": "A4-candidates-batch30.json",
+            "sha256": "6a54fd55a32cb6c0c496c1a8c796eed765f87c72431b783859ad39d53a325345"
+          },
+          {
+            "path": "A4-quality-batch30.json",
+            "sha256": "1396ecf23e9eb9d59456c9a9919ef63622b22f5355424bc207d828d6f43ea0b0"
+          },
+          {
+            "path": "A4-creation-execution-batch30.json",
+            "sha256": "ac552432dddd57c7dc03ad34be84ec80bd1efaecbd0d5f853d945333fa72701d"
+          },
+          {
+            "path": "coordinator-en-batch30.json",
+            "sha256": "af494e5f191a0a5d46e225c38a95ac30cea295596ea7a2a597d994dce072af09"
+          },
+          {
+            "path": "A3-en-batch30.json",
+            "sha256": "3c1642b2cd458c7c704ca129048156e6fc2a5d14a19f13665c90549f1b61f7a4"
+          },
+          {
+            "path": "A3-en-batch30-receipt.json",
+            "sha256": "387dca350ea8dd02ec51cc943a68e8e52f3b55585793b621ee7839932b2909a8"
+          },
+          {
+            "path": "A4-C40-postscreen-review.json",
+            "sha256": "308339c54e3acd2646d2fa5719606c8b04b2bfaf20512e7e87be42e25ef1c28f"
+          },
+          {
+            "path": "continuations/2026-11-08T120952Z/root-C40-source-scope-acceptance.json",
+            "sha256": "8bae13163b9559ecfe8eb04a30566659e01cf0e89b5e8eba244da4fddbf122dc"
+          },
+          {
+            "path": "continuations/2026-11-08T120952Z/root-C40-cn25-review.json",
+            "sha256": "48a00f6fdac7b8ad10c7a2deb90bba6ae7684928c9ee11ac6bcbbfe0dd829501"
+          }
+        ]
+      },
+      "source_reading_refs": [
+        {
+          "path": "materials-pilot.json",
+          "sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7"
+        },
+        {
+          "path": "A2-material-reuse-batch23.json",
+          "sha256": "0ea3da91e277ce675e111b3956d1552650114c1108f567047235ba9aca229248"
+        },
+        {
+          "path": "A2-C40-source-scope-addendum.json",
+          "sha256": "0ab1e9325b0192f362b04646a23803ddc6d4bedaaf010b56face886655030119"
+        }
+      ],
+      "screening_as_of": "2026-11-08"
     }
   ],
   "status_note": "本数组保留曾准入终审记录。当前推荐必须应用research/catalog/revisions.json，不能以数组长度当当前备选数。C1-C06已撤回，不推荐。",

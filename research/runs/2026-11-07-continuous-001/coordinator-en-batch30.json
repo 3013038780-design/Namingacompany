@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-08T21:01:52.337241+08:00",
+  "independence": "Read producer preview batch30 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C40",
+      "name": "Spine Eddy",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个完整常用词正常读，n后接元音连贯",
+          "counter_association": "整体并非成熟日常短语"
+        },
+        "spelling": {
+          "reason": "标准spine和eddy拼写清楚，无造字母",
+          "counter_association": "eddy可能听写Eddie人名"
+        },
+        "grounding": {
+          "reason": "植物尖刺与局部回旋流为同一实际结构环境关系",
+          "counter_association": "不把骨气书脊等别义当来源"
+        },
+        "bilingual_relation": {
+          "reason": "中文介质加形态与英文形态加流动指向同一捕获入口",
+          "counter_association": "英文省略雾介质，不能直接看出三级背景"
+        },
+        "distinctiveness": {
+          "reason": "整体可称呼但医学和仿真题目首感只达谨慎讨论",
+          "counter_association": "专名辨识有限，不凭未查重给高分"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E31"
+    }
+  ]
+}

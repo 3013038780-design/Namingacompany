@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T19:40:25.563626+08:00",
+  "updated_at": "2026-11-08T21:09:50.682361+08:00",
   "policy": "continuous_no_quantity_quota",
   "scheduler": {
     "id": "automation",
@@ -12,15 +12,15 @@
   },
   "catalog": {
     "path": "research/catalog/README.md",
-    "discussion_candidates": 26,
+    "discussion_candidates": 27,
     "research_reserves": 1,
-    "total_unique_families": 27,
+    "total_unique_families": 28,
     "withdrawn_families": 1,
-    "historical_unique_families": 28
+    "historical_unique_families": 29
   },
   "active_run": "research/runs/2026-11-07-continuous-001",
-  "actual_state": "checkpoint_C37_admitted_C36_English_exhausted_no_active_actors",
-  "next_action": "继续同001原A2，从六宏观来源的新独特关系创作完整自然称呼；骰子钟/Chancebell已入库不再计新，乐观锁英文三版失败两返尽，不R3。优先补真实日常/现代知识实践/自然完整对象等不同世界，按最新48资料/37中文及全历史语义去重，不只S3术语。下一A2 batch22、材料M49+/C38+、materials-extension21；下一A3中文batch24、下一实际英文batch30/E31。主控双评→同A3中文→原A4英文→同A3英文→主控来源家族终审不变；旧403无新可读原证不重复。",
+  "actual_state": "checkpoint_C40_admitted_C38_C39_used_no_active_actors",
+  "next_action": "继续同001原A2，从六宏观来源不同真实关系形成自然整体称呼，优先已实读而未提案资料，必要时补新正文，不只科学术语或几个字根。雾针/Spine Eddy已入库，飞梭/捕蝇草已有软件使用，不作为新增变体救回。按最新50资料/40中文及全历史核家族；下一A2 batch24、C41+、新资料若有M51+/materials-extension22；下一A3中文batch26、实际英文batch31/E32。双评→原A3中文→原A4英文→同A3英文→主控终审保持；C23旧403及耗尽返工不重复。",
   "pending_stages": [
     "A2真实资料→中文创作；先素材小批内部快审",
     "主控独立中文质量→同A3中文使用筛查",
@@ -90,8 +90,8 @@
     ],
     "new_names_yet": 2,
     "whole_24_family_research_complete": false,
-    "cumulative_materials": 48,
-    "cumulative_chinese_drafts": 37
+    "cumulative_materials": 50,
+    "cumulative_chinese_drafts": 40
   },
   "closed_current_families": {
     "C1-C01": "英文3版已有商业使用，返工耗尽",
@@ -115,27 +115,32 @@
     "C1-C33": "算着走自然3/Lab3，主控23/作者25，质量未过未查；原A3/原A4/同A3真实零收尾，不称占用。",
     "C1-C34": "沙阵数篷科技官网具名可信计算软件，六组已返回查询确证，使用淘汰；原A4/同A3真实零英文。",
     "C1-C35": "隶首安徽AI企业第三方资料及华润具名数智平台报道，六组返回+一未返回分列，使用淘汰；原A4/同A3真实零英文。",
-    "C1-C36": "乐观锁中文公开初筛通过保留通名风险；Still Current商业品牌、Versionmark具名软件、Aftercheck AI扩展/B2B软件，英文两返用尽，原A4已实际收尾，无R3、不倒写中文占用。"
+    "C1-C36": "乐观锁中文公开初筛通过保留通名风险；Still Current商业品牌、Versionmark具名软件、Aftercheck AI扩展/B2B软件，英文两返用尽，原A4已实际收尾，无R3、不倒写中文占用。",
+    "C1-C38": "飞梭已有网新AI/RPA平台与致景App，六有效查询使用否决，原A4及同A3真实零英文；不换词根/英文救回。",
+    "C1-C39": "捕蝇草已有hap同名游戏软件，六有效查询使用否决，原A4及同A3真实零英文；不是物种通名本身当占用。"
   },
-  "heartbeat_checkpoint": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T110013Z/resume.json",
-  "latest_frozen_decision_snapshot": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T110013Z/decisions-through-batch21.json",
-  "latest_continuation_result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T110013Z/result.json",
+  "heartbeat_checkpoint": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T120952Z/resume.json",
+  "latest_frozen_decision_snapshot": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T120952Z/decisions-through-batch23.json",
+  "latest_continuation_result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T120952Z/result.json",
   "latest_completed_packet": {
     "new_retained_families": 1,
     "retained_pairs": [
-      "骰子钟 / Chancebell"
+      "雾针 / Spine Eddy"
     ],
-    "new_materials": 3,
-    "new_chinese": 2,
-    "new_english_versions": 4,
-    "A3_new_queries": 39,
-    "A3_returned_results": 39,
+    "new_materials": 2,
+    "reused_material_ids": [
+      "C1-M07"
+    ],
+    "new_chinese": 3,
+    "new_english_versions": 1,
+    "A3_new_queries": 27,
+    "A3_returned_results": 27,
     "A3_unreturned_attempts": 0,
     "root_additional_queries": 0,
-    "cumulative_A3_queries": 438,
-    "combined_recorded_queries": 440,
-    "combined_returned_results": 439,
-    "result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T110013Z/result.json"
+    "cumulative_A3_queries": 465,
+    "combined_recorded_queries": 467,
+    "combined_returned_results": 466,
+    "result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T120952Z/result.json"
   },
   "pending_evidence": [
     {

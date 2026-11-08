@@ -1,0 +1,82 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-08T21:00:22.908621+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch23.json",
+      "sha256": "2ed9786614c8c7f38068d2417538708a47138f7afb324bf25084012814fb06e4"
+    },
+    {
+      "path": "A2-quality-batch23.json",
+      "sha256": "13fbd12fdca9d83d767da62668f93df5ff62ebd8406cdb7cde9dcb9650744b58"
+    },
+    {
+      "path": "A2-creation-execution-batch23.json",
+      "sha256": "3e0e0965d66046249d3d50a5f6af0d8e833a8dc4a049aae5c12da40fe592b8a9"
+    },
+    {
+      "path": "A2-C40-source-scope-addendum.json",
+      "sha256": "0ab1e9325b0192f362b04646a23803ddc6d4bedaaf010b56face886655030119"
+    },
+    {
+      "path": "A2-C40-source-scope-addendum.md",
+      "sha256": "ee6601e1dd1bb56140880cf49a7eeeba246b3dd4779bf1a4ee0eca5ba4de88d2"
+    },
+    {
+      "path": "A2-C40-source-scope-addendum-execution.json",
+      "sha256": "df34b988a8579d1323792ca3bf8b2ecf8ad35d427d85c9d36e10e888fa9a79db"
+    },
+    {
+      "path": "coordinator-cn-batch23.json",
+      "sha256": "da5695d6f2cdc5f0d77d29eb2147e129d743635df8d42e2df4eb7dbabb59ad2a"
+    },
+    {
+      "path": "coordinator-family-review-batch23.json",
+      "sha256": "8bae13163b9559ecfe8eb04a30566659e01cf0e89b5e8eba244da4fddbf122dc"
+    },
+    {
+      "path": "A3-cn-batch25.json",
+      "sha256": "cdfc1c430be3e97a00877caaad758c2d51f839a11ed876aa62f9e1417f562cdb"
+    },
+    {
+      "path": "A3-cn-batch25.md",
+      "sha256": "fc30c5cb867d59e9817d9b9dc22579c2039f14cf4c46438ea77eda50434986af"
+    },
+    {
+      "path": "A3-cn-batch25-receipt.json",
+      "sha256": "fd02073652004b2b07d11077f3259e1c74e1ba0ce7016c130f6b82fc5c4229d4"
+    },
+    {
+      "path": "continuations/2026-11-08T120952Z/root-C40-cn25-review.json",
+      "sha256": "48a00f6fdac7b8ad10c7a2deb90bba6ae7684928c9ee11ac6bcbbfe0dd829501"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E31",
+      "chinese_id": "C1-C40",
+      "chinese": "雾针",
+      "english": "Spine Eddy",
+      "family_id": "C1-BF-fog-capture-conical-spine",
+      "material_id": "C1-M07",
+      "suggested_pronunciation": "建议 SPINE ED-ee，/ˈspaɪn ˌɛdi/，两词共三个音节；均采用完整词常规读法，不虚构造词公认读法。",
+      "type": "两个完整现有名词的场景称呼，非已有正式器件名",
+      "formation": "spine取植物的硬尖刺义；eddy取空气或水的局部回旋流义。Spine Eddy不是给科技词加美好动词，而是把同一场景中的结构及其邻近流动放在一起：刺的形态参与改变周围流场。完整分写保留正常拼法，不把两个词删音成难以还原的字母串；也不把spine的骨气/书脊、eddy的思想回流另加为本案出处。",
+      "bilingual_relation": "中文看雾中的针形刺；英文看这个刺与局部涡旋的关系。双方共享同一装置捕获入口的形态—流场—相遇关系，不强译成Fog Needle，也不说单根针独自吸水、排水。英文省掉雾介质，换来能具体说明周围条件如何改变的动作场景。",
+      "meaning": "结构虽小，周围的相遇方式可以不同。用一个具体的局部现象承载研究形态与环境如何共同作用的Lab态度，不把大气集水结果换算成智能增长。",
+      "shortcoming": "spine更常先想到脊柱，可能像脊椎医疗、人体工学或医学仿真；Eddy也可被听作人名Eddie。两个词都是完整常用词，但作为整体不是成熟日常短语，第一眼可能像流体仿真课题而非独立公司。英文未直接保留雾这一介质，需中文与短释义帮助辨认；不能由来源真实补品牌薄弱。",
+      "boundary": "两个名词是本案拟称，不称原报道或词典收录Spine Eddy。只借仿生圆柱绕流条件下径向锥形刺参与捕获的入口，非独针全部装置；微涡旋不可脱离装置条件当普适结论。不把主动制冷、孔吸入、沟槽排水归给一根刺，不背书AI表现或论文独立复现。针具/纹身/水务首感、霧針虚构招式、Wuzhen近音及登记未清保留。",
+      "source_urls": [
+        "https://www.cas.cn/syky/202609/t20260928_5121136.shtml",
+        "https://www.merriam-webster.com/dictionary/spine",
+        "https://www.merriam-webster.com/dictionary/eddy"
+      ],
+      "read_scope": "本人本次实际web读CAS L376日期、L386–397科学正文，尤其L390捕获入口与整机三级的区别、L391和393模式；未读原论文全文或看图。另实读spine词典L31–57植物尖刺义、eddy词典L31–56空气/水回旋义。中文使用风险仅据本人实际读A3/root固定报告，未本人再查市场或登记。",
+      "rework_attempt": 0,
+      "remaining_reworks": 2,
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

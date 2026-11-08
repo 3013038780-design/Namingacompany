@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-08T21:00:22.908621+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E31",
+      "chinese_id": "C1-C40",
+      "english": "Spine Eddy",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个完整词以常规读法连贯称呼，无奇怪辅音串。",
+          "counter_association": "Eddy听来像Eddie人名，可能需先介绍。"
+        },
+        "spelling": {
+          "reason": "spine和eddy是完整词，不删改字母，分写可还原两个对象。",
+          "counter_association": "听到eddy可能写Eddie；需明确流动名词拼法，不能说零听写成本。"
+        },
+        "grounding": {
+          "reason": "植物刺与空气局部回旋的词义真实，报道明确这两个对象在同一捕获入口相接。",
+          "counter_association": "这不是原作者器件名，不概括单针所有整机能力。"
+        },
+        "bilingual_relation": {
+          "reason": "中文以介质和形态写场景，英文以形态和周围流动写同一个入口的因果关系。",
+          "counter_association": "英文未保留雾介质和圆柱条件，不独自编码整个机制。"
+        },
+        "distinctiveness": {
+          "reason": "具体形态/局部流动的组合可作研究称呼，非泛科技口号。",
+          "counter_association": "医疗/仿真课题首感明显，独立Lab专名感仅谨慎讨论。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "主观编辑自评非测试，不改原门槛、不把真实来源或待查重当自动质量通过；主控先无分独评。"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T20:49:21.089080+08:00",
+  "scope": "主控先封存独立评审再读取；不据第一次首创或来源真实性代替身份判断。",
+  "reviews": [
+    {
+      "candidate_id": "C1-C40",
+      "name": "雾针",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "雾和针形成可直接想象的一个对象，两音节能称呼",
+          "counter_association": "可能像某种雾化针具而不是机构"
+        },
+        "distinctiveness": {
+          "reason": "雾中细针的轮廓清楚，不是泛化智能/成长词",
+          "counter_association": "不以本轮新组合推定市场无人使用"
+        },
+        "lab_fit": {
+          "reason": "微结构、环境与作用条件可以直接承载科学工程研究身份",
+          "counter_association": "节水设备、医疗针具或针灸首联想也真实存在，不能由出处补救"
+        },
+        "grounding": {
+          "reason": "实际重读正文明确锥形刺与雾滴绕流、微涡旋及捕获关系，两个字同场",
+          "counter_association": "针是对仿生刺的形态比喻，不是正式器件名或独立针灸机制"
+        },
+        "extension": {
+          "reason": "可谈结构改变行动条件，不必只绑一个集水设备",
+          "counter_association": "若泛成所有信息收集都更高效，会丢掉本案特征"
+        },
+        "semantic_coherence": {
+          "reason": "外壳和第二层都围绕形态影响雾滴相遇这一关系",
+          "counter_association": "不能把未知雾+突破针分成两条毫无关系的宣传故事"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

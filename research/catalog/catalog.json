@@ -2,11 +2,11 @@
   "schema_version": 1,
   "purpose": "持续分类总库；无每日配额。不同英文版本不增加家族数。",
   "counts": {
-    "discussion_candidates": 26,
+    "discussion_candidates": 27,
     "research_reserves": 1,
-    "total_unique_families": 27,
+    "total_unique_families": 28,
     "withdrawn_families": 1,
-    "historical_unique_families": 28
+    "historical_unique_families": 29
   },
   "worlds": [
     {
@@ -2562,6 +2562,88 @@
           "status": "unavailable",
           "url": "https://find-and-update.company-information.service.gov.uk/search?q=Chancebell",
           "scope": "2026-11-08实际逐名搜索URL不可访问，不代表无登记。"
+        }
+      },
+      "registration_status": "not_officially_cleared",
+      "registration_note": "原始记录逐入口披露；公开使用初筛不是企业核名或9/42类商标可注册结论。"
+    },
+    {
+      "id": "N0029",
+      "chinese": "雾针",
+      "english": "Spine Eddy",
+      "family_id": "C1-BF-fog-capture-conical-spine",
+      "status": "discussion_candidate",
+      "primary_world": "S2",
+      "tags": [
+        "S3",
+        "仿生",
+        "形态与流场",
+        "捕获入口"
+      ],
+      "classification_reason": "从仙人掌仿生刺与雾滴的完整自然/器物场景形成称呼，次标科学工程关系，不借整机作用承诺AI能力。",
+      "brief": "细小的形态，也能改变相遇的条件。",
+      "source": {
+        "title": "中科院理化所：科研人员研发出仿生仙人掌集雾器",
+        "url": "https://www.cas.cn/syky/202609/t20260928_5121136.shtml",
+        "read_scope": "本包curl重新实际读原HTML发布日期2026年10月08日及完整科学正文，重点三级路径、径向锥形仿生刺背风侧局部微涡旋、碰撞概率与模式限制；无行号时以段落开头“团队突破传统平面与网状结构的局限”“粒子图像测速和流场分析显示”定位。",
+        "date": "2026-10-08",
+        "access": "body",
+        "local_sha256": "8e7ebf3b113714fe3a13adfafea463283adb3d43e6892b3654742cc8a58c53e7"
+      },
+      "fact": "在该仿生圆柱装置的绕流条件下，径向锥形刺参与形成背风侧局部微涡旋，改变雾滴与收集表面碰撞的条件；整机还包含吸入和排水环节，不能全部归给单刺。",
+      "meaning": "细小的形态，也能改变相遇的条件。",
+      "crossing": "在仿生圆柱装置的绕流条件下，径向锥形刺的形态参与形成背风侧局部微涡旋，使雾滴更易与收集表面碰撞；名字借的是这个捕获入口的形态与环境关系。",
+      "layers": [
+        "雾与针构成可想象的完整微观场景",
+        "结构改变周围条件，而不只增加表面积",
+        "关于形态、环境与相遇关系的研究联想，非AI性能事实"
+      ],
+      "chinese_shortcoming": "可能像雾化针头、针灸或节水装置；雾有模糊感，针有刺痛感。作为广义AI研究身份必须独立成立，不能靠原论文精细机制抬分。 霧針也出现为虚构角色招式，Wuzhen近音存在地名和其他用法；未将其误作同名公司或模型。",
+      "english_formation": "spine取植物的硬尖刺义；eddy取空气或水的局部回旋流义。Spine Eddy不是给科技词加美好动词，而是把同一场景中的结构及其邻近流动放在一起：刺的形态参与改变周围流场。完整分写保留正常拼法，不把两个词删音成难以还原的字母串；也不把spine的骨气/书脊、eddy的思想回流另加为本案出处。",
+      "bilingual_relation": "中文看雾中的针形刺；英文看这个刺与局部涡旋的关系。双方共享同一装置捕获入口的形态—流场—相遇关系，不强译成Fog Needle，也不说单根针独自吸水、排水。英文省掉雾介质，换来能具体说明周围条件如何改变的动作场景。",
+      "english_shortcoming": "spine更常先想到脊柱，可能像脊椎医疗、人体工学或医学仿真；Eddy也可被听作人名Eddie。两个词都是完整常用词，但作为整体不是成熟日常短语，第一眼可能像流体仿真课题而非独立公司。英文未直接保留雾这一介质，需中文与短释义帮助辨认；不能由来源真实补品牌薄弱。",
+      "source_boundary": "雾针为本轮对雾中锥形仿生刺的品牌凝练，不是原报道正式器件名；以针描述刺的形态，不声称针灸。只读机构正文，未核原论文全部方法或独立复现实验；不把集水指标变成AI表现承诺，也不混主动制冷与被动模式。 两个名词是本案拟称，不称原报道或词典收录Spine Eddy。只借仿生圆柱绕流条件下径向锥形刺参与捕获的入口，非独针全部装置；微涡旋不可脱离装置条件当普适结论。不把主动制冷、孔吸入、沟槽排水归给一根刺，不背书AI表现或论文独立复现。针具/纹身/水务首感、霧針虚构招式、Wuzhen近音及登记未清保留。",
+      "suggested_pronunciation": "建议 SPINE ED-ee，/ˈspaɪn ˌɛdi/，两词共三个音节；均采用完整词常规读法，不虚构造词公认读法。",
+      "cn_screen_summary": "9条有效查询未确证完整雾针/霧針同核心公司、模型或独立软件品牌。喷雾针/打雾针为更长仪器或纹身类别；AIバトラー确有同词魔法招式，但实际正文为角色设定，不是独立产品/模型名。保留医疗纹身联想、虚构招式同词、Wuzhen近音拥挤风险；登记未清。",
+      "en_screen_summary": "2026-11-08本轮6有效查询未确证Spine Eddy/SpineEddy/Spine-Eddy完整核心用于公司、AI模型或独立软件品牌。具体命中为脊柱相关医生姓名及@vf.js/spine示例eddy变量，已核正文排除；不把单独Spine或Eddy项目都视作整体占用。保留脊椎医疗/仿真与Eddie听写、中文针具/虚构同词风险，登记未清。",
+      "screened_dates": [
+        "2026-11-08"
+      ],
+      "origin_record": "research/runs/2026-11-07-continuous-001/delivery.json",
+      "origin_chinese_id": "C1-C40",
+      "origin_english_id": "C1-E31",
+      "chinese_registration_record": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07 A3-controls.json共同入口403；本批未新访问、未逐名逐类核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07 A3-controls.json共同入口403；本批未新访问、未逐名逐类核准。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Wuzhen",
+          "scope": "2026-11-08实际逐名Wuzhen搜索URL不可访问，非无登记结论。"
+        }
+      },
+      "english_registration_record": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；本批未新访问，未逐名逐类登记核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；本批未新访问，未逐名逐类登记核准。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=SpineEddy",
+          "scope": "2026-11-08实际逐名SpineEddy搜索URL不可访问，非无公司登记结论。"
         }
       },
       "registration_status": "not_officially_cleared",

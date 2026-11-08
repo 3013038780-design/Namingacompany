@@ -1,0 +1,88 @@
+{
+  "reviewed_at": "2026-11-08T20:39:11.952440+08:00",
+  "independence": "Read producer preview batch22 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C38",
+      "name": "飞梭",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "已有完整工具称呼，双音节顺口",
+          "counter_association": "梭有少量听写成本"
+        },
+        "distinctiveness": {
+          "reason": "可想象载线工具横越的动态",
+          "counter_association": "快递飞行器联想"
+        },
+        "lab_fit": {
+          "reason": "工业工具与人的能力范围关系能承载工程研究",
+          "counter_association": "纺织机械单品气质需保留"
+        },
+        "grounding": {
+          "reason": "同一纬线/梭的机构运动突破手递范围，非两字吉祥拼接",
+          "counter_association": "原手递限制非所有古织物绝不能宽"
+        },
+        "extension": {
+          "reason": "可以表达工具怎样扩展行动范围",
+          "counter_association": "不能冒称模型加速性能"
+        },
+        "semantic_coherence": {
+          "reason": "飞与梭同场动作，意义一致",
+          "counter_association": "不用泛化飞速成长"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "C1-C39",
+      "name": "捕蝇草",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "普通完整物种名，三字能直接叫出",
+          "counter_association": "蝇字听写成本"
+        },
+        "distinctiveness": {
+          "reason": "捕食叶片画面具体可记",
+          "counter_association": "虫害吞噬画面可能不适"
+        },
+        "lab_fit": {
+          "reason": "有条件刺激响应的特殊生命对象可承载感知计算研究角色",
+          "counter_association": "园艺灭虫品牌首感较强，需明示"
+        },
+        "grounding": {
+          "reason": "先次刺激残留信号与后次时间条件在同一叶片真实共处",
+          "counter_association": "机构新闻不冒原论文方法全文"
+        },
+        "extension": {
+          "reason": "感知阈值与条件反应可延展到多项研究",
+          "counter_association": "不声称植物有神经系统或通用学习"
+        },
+        "semantic_coherence": {
+          "reason": "整体植物与条件性反应的故事统一",
+          "counter_association": "约30秒只是报道条件"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

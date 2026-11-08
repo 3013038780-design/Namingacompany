@@ -1,0 +1,93 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T20:38:28.585204+08:00",
+  "scope": "主控先独评并封存再读作者分数；原关系可核验不等于品牌必然适配。",
+  "reviews": [
+    {
+      "candidate_id": "C1-C38",
+      "name": "飞梭",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "完整器物称呼，双音节自然、可以直接称呼机构",
+          "counter_association": "梭的听写略有成本"
+        },
+        "distinctiveness": {
+          "reason": "清楚的横越运动与器物形象",
+          "counter_association": "飞字在科技品牌中不稀有，不能因来源真实就称极高辨识"
+        },
+        "lab_fit": {
+          "reason": "工程工具扩展人手的主体关系可容纳AI研究身份",
+          "counter_association": "纺织机械/快递/飞行器首联想也强"
+        },
+        "grounding": {
+          "reason": "馆藏教学正文明确机构驱动、身体可达宽度与供给条件",
+          "counter_association": "通常中文译名不是本轮造词，原文不证明计算性能"
+        },
+        "extension": {
+          "reason": "可谈辅助行动越出原有边界，容纳不同研究",
+          "counter_association": "若只谈速度会变成单功能加速器"
+        },
+        "semantic_coherence": {
+          "reason": "飞与梭属于同一载线运动场景",
+          "counter_association": "不能另加宏大网络编织叙事混同旧织数"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "C1-C39",
+      "name": "捕蝇草",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "完整三字生命对象名称，熟悉字即可直接叫出",
+          "counter_association": "捕/蝇有负面昆虫和捕猎联想"
+        },
+        "distinctiveness": {
+          "reason": "整株形象鲜明，有可想象的夹叶结构",
+          "counter_association": "仍是已存在物种名，不等于独创专名"
+        },
+        "lab_fit": {
+          "reason": "非神经系统的条件响应提供自然与智能研究身份",
+          "counter_association": "园艺/灭虫或危险捕猎联想可能更强，须主控独判"
+        },
+        "grounding": {
+          "reason": "作者机构正文实际支持时间窗、刺激后的衰减钙状态关系",
+          "counter_association": "仅新闻正文，不冒充原论文全方法核验"
+        },
+        "extension": {
+          "reason": "完整生命身份可容纳感知、状态与行动等不同研究",
+          "counter_association": "不是只有记忆功能，但不能扩成自我学习保证"
+        },
+        "semantic_coherence": {
+          "reason": "各层都围绕同一植物如何响应条件",
+          "counter_association": "不把草解释生命无限成长，也不把捕解释夺取数据"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

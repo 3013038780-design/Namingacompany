@@ -1,0 +1,92 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "completed_at": "2026-11-08T20:51:58.700939+08:00",
+  "candidate_ids": [
+    "C1-C40"
+  ],
+  "stage": "actual_source_scope_recheck_and_addendum",
+  "input_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch23.json",
+      "sha256": "2ed9786614c8c7f38068d2417538708a47138f7afb324bf25084012814fb06e4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch23.md",
+      "sha256": "b828445c74e4361be78e796d10fc9acde702ca8038e50fb6645ad886b26fca64"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch23.json",
+      "sha256": "13fbd12fdca9d83d767da62668f93df5ff62ebd8406cdb7cde9dcb9650744b58"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch23.json",
+      "sha256": "3e0e0965d66046249d3d50a5f6af0d8e833a8dc4a049aae5c12da40fe592b8a9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-material-reuse-batch23.json",
+      "sha256": "0ea3da91e277ce675e111b3956d1552650114c1108f567047235ba9aca229248"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-pilot.json",
+      "sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7"
+    }
+  ],
+  "reading_evidence": [
+    {
+      "title": "中国科学院：科研人员研发出仿生仙人掌集雾器",
+      "url": "https://www.cas.cn/syky/202609/t20260928_5121136.shtml",
+      "published_at": "2026-10-08",
+      "read_at": "2026-11-08T20:51:58.700939+08:00",
+      "method": "actual_web_HTML_body",
+      "reading_location": "本次重新实际读L376日期及L386–397科学正文，核心L390明确三级路径与径向锥形刺/背风微涡旋；L391/393区分主动/被动模式。没有读原论文全文或重新实验。"
+    }
+  ],
+  "actions": [
+    "实际读原候选crossing/relation/retained/lost/boundary字段",
+    "实际web重新读中科院日期与科学正文，区分整机三级路径和针形刺捕获作用",
+    "另存本名专属crossing与不变保留/损失范围",
+    "逐字节SHA复核全部原文件未改"
+  ],
+  "output_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C40-source-scope-addendum.json",
+      "sha256": "0ab1e9325b0192f362b04646a23803ddc6d4bedaaf010b56face886655030119"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C40-source-scope-addendum.md",
+      "sha256": "ee6601e1dd1bb56140880cf49a7eeeba246b3dd4779bf1a4ee0eca5ba4de88d2"
+    }
+  ],
+  "unchanged_original_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch23.json",
+      "sha256": "2ed9786614c8c7f38068d2417538708a47138f7afb324bf25084012814fb06e4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch23.md",
+      "sha256": "b828445c74e4361be78e796d10fc9acde702ca8038e50fb6645ad886b26fca64"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch23.json",
+      "sha256": "13fbd12fdca9d83d767da62668f93df5ff62ebd8406cdb7cde9dcb9650744b58"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch23.json",
+      "sha256": "3e0e0965d66046249d3d50a5f6af0d8e833a8dc4a049aae5c12da40fe592b8a9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-material-reuse-batch23.json",
+      "sha256": "0ea3da91e277ce675e111b3956d1552650114c1108f567047235ba9aca229248"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-pilot.json",
+      "sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7"
+    }
+  ],
+  "new_names": 0,
+  "new_materials": 0,
+  "new_scores": false,
+  "name_usage_queries_performed": false,
+  "english_matching_performed": false
+}
