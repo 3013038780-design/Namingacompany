@@ -1,4 +1,4 @@
-> 最新接续：本段**没有新增合格配对**。第三真值英文使用/质量与最后无稿返工尽；同星已有同星科技核心用名。另A1补核三例，新计划实际读Abbott三页，只留素材不配弱名。[本段结果](continuations/2026-11-08T151606Z/result.json) · [最新49案去留](continuations/2026-11-08T151606Z/decisions-through-batch30.json) · [统一网站](https://3013038780-design.github.io/Namingacompany/)。总库28讨论、1储备。
+> 最新接续：**新增讨论备选：试飞员 / Trialnaut。** [本段结果](continuations/2026-11-08T161934Z/result.json) · [最新52案](continuations/2026-11-08T161934Z/decisions-through-batch32.json) · [统一网站](https://3013038780-design.github.io/Namingacompany/)。总库29讨论、1储备。 中文借真实工程试验参与者，英文由trial（试验）与-naut（航行探索参与者）构成；中文9/英文7查询，诉讼/临床/科幻及首次听写成本照留，非注册核准。
 
 # 持续研究001：逐名交付，继续补充
 
@@ -324,3 +324,31 @@
 [本段结果](continuations/2026-11-08T151606Z/result.json) · [49案去留](continuations/2026-11-08T151606Z/decisions-through-batch30.json) · [两包H1–H7](continuations/2026-11-08T151606Z/) · [统一网站每日记录](https://3013038780-design.github.io/Namingacompany/#updates)
 
 本段角色已收尾并保存下一检查点，整体研究继续且无数量终点；整轮生产覆盖整理仍INCOMPLETE，未写final.json。更新同一数据源/PR，不合并、不重部署界面、不改旧网站。
+
+## 自动接续 · 2026年11月9日 自然主体、公共场景与完整研究角色
+
+**新增讨论备选：试飞员 / Trialnaut。**
+
+| 中文 | 真实出处与独特关系 | 去留 |
+| --- | --- | --- |
+| 陆行鱼 | [NParks巨型弹涂鱼](https://biodiversitysg.nparks.gov.sg/our-biodiversity/marine-fishes/giant-mudskipper/)在水外活动依赖储水鳃室、皮肤氧交换与胸鳍运动。同一行动者可有不止一种活动环境，不说更高级或通过训练长器官。 | 中文双25、8查过；Shorefin历史商业/近听软件避让，Landfish同名学校游戏，Intertidal同核心技术公司。6/6/7次英语独立查询、两次返工用尽，原A4已真实收尾，不把中文倒写占用。 |
+| 斑马线 | [英国交通部指南](https://www.gov.uk/government/publications/know-your-traffic-signs/pedestrian-cycle-and-equestrian-crossings)中标记、可见性与让行规则共同组织相遇，非条纹自动安全，也不将该法域规则推全球。 | 中文25/26后9查，[企查查正文](https://top.qcc.com/tc/38ab2b66d3e1.html)列深圳市斑马线科技有限公司及检测光栅/安全光幕销售；第三方非官方当前核准。不配英文救回。 |
+| 试飞员 | [民航历史职责](https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/201511/P020151103347671915307.pdf)中的真实试验、工程数据与团队判断，[NASA11月4日新平台公告](https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/)补当代背景。把未知带进真实世界，也把经验带回研究。 | 中文26/25、9查过；最后英文Trialnaut完成7查询及原A4复审/主控终审，新增讨论备选，保留临床/诉讼/科幻及首次听写、职业与近游戏风险，登记未清。完整记录见最新逐名决策。 |
+
+另读[张岱《夜航船》序](https://zh.wikisource.org/zh-hans/夜航船)：记人名不等于文理考校，具体问题可以揭开流畅高谈。只读原序转录、未核底本或通全书，不硬配名。四项新材料只出三中文，没有一文一名凑数。
+
+### 具体案例怎样引导寻找
+
+原A1 Sakana的普通生命主体/真实组织关系与寒武纪的活动范围，进入鱼的有条件跨环境行动；Cursor的熟悉日常称呼与Runway为他者创造条件，进入公共相遇场景；Imbue/Recursive的角色与研究过程，以及Runway完整活动关系，进入实际工程探索者。复用已核案例、原六世界和已验计划，不新开一轮、不给旧稿反填新依据。
+
+主控每案先读无分稿封存独评，再看作者；中文三案及英语各版最大轴差不超过1，评分仍为编辑判断，不是消费者测试。出处真实不等于能当品牌，独立同名游戏也依既有规则避让；历史/近听/跨行业/未发售项目与精确AI软件分别写明。
+
+陆行鱼两游戏线索已亲读消歧：小米攻略真正游戏为鬼泣/Boss尼猡，陆行鱼类恶魔是类别；TapTap是妄想山海玩家提问，页面虽有失效标记但文字可读。C52的QCon‘云计算的试飞员’是人物修辞；雷电试飞员VR是完整较长游戏，不随意删雷电冒精确同名。
+
+民航职责PDF仅实体4–5/印刷1–2，发布页明确**废止**，不是现行执业建议；职责包含团队多种角色，不全归一人。NASA正文11月4日发布、5日更新，首飞仍未来预期，不把生成图片或计划当实验结果。主控四材料全部实读，古文保守4/65、S3主类15/65；本段1篇实际近90日新闻，不称新增整书通读。
+
+本段4新素材、3中文、6实际英语稿、64次新使用查询/64次返回、1合格新增。累计65资料、52中文、45实际英文版本；A3 617调用/616返回，加主控历史2次共619/618。原两阳性对照与大陆入口限制准确复用；Intertidal英国具体官方页本次可读，不笼统写所有UK不可用。登记与第9/42类清权未完成。旧待核活变量/Maymatter没有新原证不重访403，不增返工。
+
+[本段结果](continuations/2026-11-08T161934Z/result.json) · [52案去留](continuations/2026-11-08T161934Z/decisions-through-batch32.json) · [两包H1–H7](continuations/2026-11-08T161934Z/) · [网站每日更新](https://3013038780-design.github.io/Namingacompany/#updates)
+
+原角色本段已收尾并保存下一检查点，整体持续研究不设数量终点；整轮生产覆盖整理仍INCOMPLETE，无final.json。冻结真实结果后同步同一网站数据与PR，不合并、不重新部署、不改旧网站。

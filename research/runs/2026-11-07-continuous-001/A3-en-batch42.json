@@ -1,0 +1,130 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-09T00:57:29.145780+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch42.md",
+      "sha256": "b87c4280a36adda0ad6bfd63b8571ad7964d16cc75ee441940dd05a255c1b27c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch42.json",
+      "sha256": "06b9c83322aeabf93451c6eb4a504a1d51283d5205e7be20bb3ddee1ce334598"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch42.json",
+      "sha256": "04b80d9c07a74a01531289f7e271bfeb02bbb6ba80c438cd5e4b07b070e87b4c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch42.json",
+      "sha256": "86a5b6f53075ab22fffc1db80009994b0159a1afc6d17371586e5337c313701e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch42.json",
+      "sha256": "4cccacf4c9d9e93fe2fcfd908f845f7c3b25dff470626bbe3f0771691b45e06e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch34.json",
+      "sha256": "4c75c10ef5911955763946a0553d328c871d388a226bbf7eabc590cbda6b3e80"
+    }
+  ],
+  "query_count": 6,
+  "completed_search_result_count": 6,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-E44",
+      "chinese_id": "C1-C52",
+      "chinese": "试飞员",
+      "english": "Sortie",
+      "query_logs": [
+        {
+          "query": "\"Sortie\"",
+          "executed_on": "2026-11-09",
+          "summary": "精确组普通词典/法语出口或军事出击词义海量结果，不以通用词本身认品牌。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Sortie\" company lab",
+          "executed_on": "2026-11-09",
+          "summary": "公司Lab组有Sortie物流平台与历史closed app目录；尝试sortie.co正文0可读行，不冒已核当前公司，非拒绝唯一主证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Sortie\" AI model",
+          "executed_on": "2026-11-09",
+          "summary": "AI模型组命中Sortie官方文档，实际读具名AI coding agent编排软件，不称基础模型或性能提升机制。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Sortie\" software product",
+          "executed_on": "2026-11-09",
+          "summary": "软件产品组官方文档/安装页与原仓库具名Sortie，实际正文核安装名与功能，是独立软件非普通任务功能词。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Sortie\" app",
+          "executed_on": "2026-11-09",
+          "summary": "App组有Sortie: Dating Assistant/ Social Stack Labs索引；未开该详情，不以摘要代替主证，既有原仓库足够拒绝。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Sorty\" software company",
+          "executed_on": "2026-11-09",
+          "summary": "合理近听Sorty组有sorty.dev浏览器扩展和sorty.app软件索引；不同拼写近名非精确Sortie，本案不用它代替精确主证。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "reject_existing_exact_named_ai_engineering_software",
+      "reason": "官方文档和原仓库明确Sortie为coding agent编排软件及安装名；完整同名已用。不是单纯法语普通词/源码变量，不依未读Sortie.co或近名Sorty拒绝。中文初筛保持，退原A4首返。",
+      "evidence": [
+        {
+          "url": "https://docs.sortie-ai.com/",
+          "access": "primary_software_documentation_body_read",
+          "finding": "L378–393具名Sortie，工单转coding-agent会话、隔离重试调度及SQLite；L384明确不改善agent输出。仅核公开命名和软件角色，未安装/测试或背书全部效果。"
+        },
+        {
+          "url": "https://github.com/sortie-ai/sortie",
+          "access": "primary_repository_body_read",
+          "finding": "L94–120原仓库名/说明，L227–250开源coding agent orchestrator及sortie安装命令；L241/246具名及支持工具。是独立软件名，非普通sortie任务术语。未执行命令。"
+        },
+        {
+          "url": "https://sortie.co/",
+          "access": "opened_zero_readable_lines",
+          "finding": "本次实际返回0可读行；公司与物流软件仅搜索/LinkedIn线索，不冒官网正文已读。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Sortie",
+          "scope": "2026-11-09本次逐名入口不可访问，不称无登记。"
+        }
+      },
+      "risks": [
+        "编排软件不冒基础AI模型或注册公司",
+        "Sortie.co零可读/应用索引未开不称官方正文",
+        "普通军事任务/法语出口与品牌分开；Sorty拼写不同",
+        "中文初筛保持，英文首案失败，尚余2次返工",
+        "大陆工商与9/42登记未清"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "旧run两个真实阳性对照，0新增。",
+  "claim_limits": "公开具名软件使用，不假称工商与商标核准。",
+  "passed_english_candidate_ids": [],
+  "returned_english_candidate_ids": [
+    "C1-E44"
+  ]
+}

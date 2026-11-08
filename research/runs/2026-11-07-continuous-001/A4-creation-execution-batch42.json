@@ -1,0 +1,147 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 actual English first matching",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-09T00:55:13.974812+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch32.json",
+      "sha256": "3ae172436db41bda689c817caa38f68cbfee3af60c35193269ce7185a5f59a2e"
+    },
+    {
+      "path": "A2-preview-batch32.md",
+      "sha256": "8588184b43a18f000e102190e9b600ebb6b0360cd0e9bf4707cc990605159a14"
+    },
+    {
+      "path": "A2-quality-batch32.json",
+      "sha256": "3f8dff77641476027aea5061b99c2af47077f00320e9af5a3cf59eb6b21b707d"
+    },
+    {
+      "path": "A2-creation-execution-batch32.json",
+      "sha256": "01f93f93bced5741a204d783e39cd3e51e9fd3a59abc9753e3e40a12b9ce912a"
+    },
+    {
+      "path": "materials-extension30.json",
+      "sha256": "c716bd12c909eaddfe8b59c8a5553e3d87ddbd2228244e16036b927e126e2fc6"
+    },
+    {
+      "path": "coordinator-cn-batch32.json",
+      "sha256": "647cf2c26180875bc91049803a3eff9d53fa14ca46c94b18267c1a1c3f80aeef"
+    },
+    {
+      "path": "coordinator-family-review-batch32.json",
+      "sha256": "a13999f7acdbe8ba41e10001052efe57bf52a889897f8debee485ba6f7c8e31d"
+    },
+    {
+      "path": "A3-cn-batch34.json",
+      "sha256": "4c75c10ef5911955763946a0553d328c871d388a226bbf7eabc590cbda6b3e80"
+    },
+    {
+      "path": "A3-cn-batch34-receipt.json",
+      "sha256": "c23c8f555fb8c8c347ecc4cedce9c2bf4a4e3e8fe95440ac9134ee9c5c5beac9"
+    },
+    {
+      "path": "continuations/2026-11-08T161934Z/root-cn34-review.json",
+      "sha256": "27107cf20e349ec7ccc200857dd8a331fdcbfa63c8fc71baa5700a740932c010"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch32.md",
+      "sha256": "8588184b43a18f000e102190e9b600ebb6b0360cd0e9bf4707cc990605159a14",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch32.json",
+      "sha256": "3ae172436db41bda689c817caa38f68cbfee3af60c35193269ce7185a5f59a2e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch32.json",
+      "sha256": "3f8dff77641476027aea5061b99c2af47077f00320e9af5a3cf59eb6b21b707d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch32.json",
+      "sha256": "01f93f93bced5741a204d783e39cd3e51e9fd3a59abc9753e3e40a12b9ce912a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension30.json",
+      "sha256": "c716bd12c909eaddfe8b59c8a5553e3d87ddbd2228244e16036b927e126e2fc6",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch32.json",
+      "sha256": "647cf2c26180875bc91049803a3eff9d53fa14ca46c94b18267c1a1c3f80aeef",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch32.json",
+      "sha256": "a13999f7acdbe8ba41e10001052efe57bf52a889897f8debee485ba6f7c8e31d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-history-through-batch31.json",
+      "sha256": "061426cbba2f82711bad387a01cb48d3602318afe963eb91d5cc0ea32ffeacee",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch34.json",
+      "sha256": "4c75c10ef5911955763946a0553d328c871d388a226bbf7eabc590cbda6b3e80",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch34.md",
+      "sha256": "62ff9395a1e04625b7862c0726ad3c48074559970efa870846d5873c789ff60f",
+      "match": true
+    }
+  ],
+  "input_reading": "首次合并输出截断，另单独读A2执行、M65、root双评/家族；CN34完整结果及root风险实际读。只对C52匹配，不混已闭C50或拒绝C51。",
+  "sources": [
+    {
+      "url": "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/201511/P020151103347671915307.pdf",
+      "scope": "实际web PDF40–69职责，实体4–5；未通17页，不给现行法律建议"
+    },
+    {
+      "url": "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/201511/t20151102_8381.html",
+      "scope": "实际web48–76发文日期/废止，成文2023字段不覆盖2015发文"
+    },
+    {
+      "url": "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/",
+      "scope": "实际web244–266，不观察首飞或目读生成图"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/sortie",
+      "scope": "实际web31–58/74，飞行任务与外出义、军事义及读音，不把新命名当标准职业译名"
+    }
+  ],
+  "local_history_check": "research JSON english/name字段Sortie精确无命中，仅本地历史不是市场预查。",
+  "eligible_english_inputs": 1,
+  "english_output_ids": [
+    "C1-E44"
+  ],
+  "actual_english_versions": 1,
+  "actual_new_chinese_names": 0,
+  "new_family_count": 0,
+  "rework_attempt": 0,
+  "remaining_reworks": 2,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "outputs": [
+    {
+      "path": "A4-candidates-batch42.json",
+      "sha256": "06b9c83322aeabf93451c6eb4a504a1d51283d5205e7be20bb3ddee1ce334598"
+    },
+    {
+      "path": "A4-preview-batch42.md",
+      "sha256": "b87c4280a36adda0ad6bfd63b8571ad7964d16cc75ee441940dd05a255c1b27c"
+    },
+    {
+      "path": "A4-quality-batch42.json",
+      "sha256": "04b80d9c07a74a01531289f7e271bfeb02bbb6ba80c438cd5e4b07b070e87b4c"
+    }
+  ],
+  "next": "主控先无分独评后看隔离自评，双过后同一原A3实际独立英文筛查。",
+  "unchanged": "仅新四档，不改旧字节/分/队列/库/Git，无网页全文。"
+}

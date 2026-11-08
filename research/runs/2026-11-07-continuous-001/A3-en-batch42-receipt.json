@@ -1,0 +1,63 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English screening",
+  "executed_at": "2026-11-09T00:57:29.145780+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch42.md",
+      "sha256": "b87c4280a36adda0ad6bfd63b8571ad7964d16cc75ee441940dd05a255c1b27c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch42.json",
+      "sha256": "06b9c83322aeabf93451c6eb4a504a1d51283d5205e7be20bb3ddee1ce334598"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch42.json",
+      "sha256": "04b80d9c07a74a01531289f7e271bfeb02bbb6ba80c438cd5e4b07b070e87b4c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch42.json",
+      "sha256": "86a5b6f53075ab22fffc1db80009994b0159a1afc6d17371586e5337c313701e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch42.json",
+      "sha256": "4cccacf4c9d9e93fe2fcfd908f845f7c3b25dff470626bbe3f0771691b45e06e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch34.json",
+      "sha256": "4c75c10ef5911955763946a0553d328c871d388a226bbf7eabc590cbda6b3e80"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-batch42.json",
+      "sha256": "5e350022ee8708bf195c6b66487e8df47b093c8c63bcefc21679469ba8e60d4a"
+    },
+    {
+      "path": "A3-en-batch42.md",
+      "sha256": "908fd2a77e0b98920f62fb46ef19a772d58a87fd3e4a5e76e675d1176e2bb187"
+    }
+  ],
+  "actual_new_candidate_queries": 6,
+  "completed_candidate_search_results": 6,
+  "unreturned_search_attempts": 0,
+  "actual_new_chinese_queries": 0,
+  "actual_new_english_queries": 6,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 598,
+  "prior_agent3_returned_candidate_results": 597,
+  "agent3_cumulative_candidate_queries": 604,
+  "agent3_cumulative_returned_candidate_results": 603,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 606,
+  "run_cumulative_returned_candidate_results": 605,
+  "passed_english_candidate_ids": [],
+  "returned_english_candidate_ids": [
+    "C1-E44"
+  ],
+  "rework_attempt": 0,
+  "remaining_reworks": 2,
+  "actual_execution": "六有效查询及原文档/仓库核具名软件；Sortie.co零可读/UK入口不可访问如实，未冒工商9/42核准。",
+  "next": "退原A4首返，C52中文保持。",
+  "unchanged": "旧稿/库/队列/Git未改，无网页全文。"
+}

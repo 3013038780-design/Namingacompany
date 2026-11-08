@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-09T00:59:09.415904+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E45",
+      "chinese_id": "C1-C52",
+      "english": "Flightback",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个常用完整音节衔接自然，可独立叫出。",
+          "counter_association": "flight的fl需说清，避免听成fight。"
+        },
+        "spelling": {
+          "reason": "flight/back原样保留，可按完整词还原。",
+          "counter_association": "新合写和fightback近形有成本，首次需要确认l。"
+        },
+        "grounding": {
+          "reason": "实际飞行与数据评估/记录属于同一工程研究事件，back返回义真实。",
+          "counter_association": "合写为拟称，经验返回为品牌概括，不是正式技术术语。"
+        },
+        "bilingual_relation": {
+          "reason": "中文参与者与英文其真实试验/把观察带回判断的活动相连。",
+          "counter_association": "英文未包含工程团队或所有评估环节，不意味每次飞行成功。"
+        },
+        "distinctiveness": {
+          "reason": "紧凑新称呼同时有行动与返回图景，不是泛赞美词或长功能句。",
+          "counter_association": "返程票/退款和航空运营首感显著，广义Lab须独立判断。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "原门槛未改，主观编辑非测试，来源真实不抵消行业首感；先主控无分独评。"
+    }
+  ]
+}

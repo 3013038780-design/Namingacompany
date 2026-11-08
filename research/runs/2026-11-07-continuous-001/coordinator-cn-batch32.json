@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-09T00:49:38.978370+08:00",
+  "independence": "Read producer preview batch32 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C52",
+      "name": "试飞员",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "现成完整三字角色可直接称呼",
+          "counter_association": "职业通名也会像招聘栏目"
+        },
+        "distinctiveness": {
+          "reason": "新机器真实试飞的具体人物图像可记",
+          "counter_association": "可能像航空培训或游戏"
+        },
+        "lab_fit": {
+          "reason": "明确工程探索参与者可承载实验与能力认识的研究机构",
+          "counter_association": "航空单项服务或测试产品首感强"
+        },
+        "grounding": {
+          "reason": "历史职责把真实试验数据评估判断记录放在同一专业团队关系",
+          "counter_association": "废止文件只支撑历史角色不作现行规范"
+        },
+        "extension": {
+          "reason": "角色可涵盖不同待认识的机器而非特定模型参数",
+          "counter_association": "若只宣传飞得更高会回泛进阶"
+        },
+        "semantic_coherence": {
+          "reason": "进入真实条件把经验带回判断围绕同一研究角色",
+          "counter_association": "不意味一个试飞员独自完成审定或试验越冒险越好"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

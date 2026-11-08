@@ -1,0 +1,61 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-09T00:59:09.415904+08:00",
+  "inputs": [
+    {
+      "path": "A4-candidates-batch42.json",
+      "sha256": "06b9c83322aeabf93451c6eb4a504a1d51283d5205e7be20bb3ddee1ce334598"
+    },
+    {
+      "path": "A4-quality-batch42.json",
+      "sha256": "04b80d9c07a74a01531289f7e271bfeb02bbb6ba80c438cd5e4b07b070e87b4c"
+    },
+    {
+      "path": "A3-cn-batch34.json",
+      "sha256": "4c75c10ef5911955763946a0553d328c871d388a226bbf7eabc590cbda6b3e80"
+    },
+    {
+      "path": "A3-en-batch42.json",
+      "sha256": "5e350022ee8708bf195c6b66487e8df47b093c8c63bcefc21679469ba8e60d4a"
+    },
+    {
+      "path": "A3-en-batch42.md",
+      "sha256": "908fd2a77e0b98920f62fb46ef19a772d58a87fd3e4a5e76e675d1176e2bb187"
+    },
+    {
+      "path": "A3-en-batch42-receipt.json",
+      "sha256": "5a18a3de9997d5e62b4151b2a87da0abf03b944b68f3227c4f35c28557a9eb3b"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E45",
+      "chinese_id": "C1-C52",
+      "chinese": "试飞员",
+      "english": "Flightback",
+      "family_id": "C1-BF-test-pilot-as-engineering-research-participant",
+      "material_id": "C1-M65",
+      "suggested_pronunciation": "建议 FLIGHT-back，/ˈflaɪtˌbæk/，两个音节，按flight与back完整读，新合写名无公认读法。",
+      "type": "flight + back完整词组成的新拟称，借真实试飞及经验返回判断的同一事件",
+      "formation": "从一次飞行任务的完整词换为一项有返回关系的称呼：flight是实际飞行，back是回到出发处/回应。Flightback完整保留两词，不从Sortie改字母，也不靠拼音。命名想保留的不仅是出去飞，而是实际试验所得工程观察能回到团队研究；这一返回是研究叙事，非报道里的正式术语或某种新飞行器设计。",
+      "bilingual_relation": "中文命名参加真实试验的人，英文命名其飞行与把观察带回工程判断的活动关系。历史职责确有实际试验、工程数据评估与记录；英文将其凝为一个整体，而非航空词加成功/智慧等无关好词。资料可以实时回传，不声称必须安全着陆后才有数据，也不保证每次任务都有有效发现。",
+      "meaning": "走进真实条件，并让经验回到研究里。Lab由此表达主动参与、记录和共同判断的角色，不把飞行本身或数据回传等同模型能力增长。",
+      "shortcoming": "可能像返程机票、航班退款/维权或航空运营软件；也容易把flightback误读fightback，少一个l就会转为反击。新合写形式比两个独立词需要介绍，独立研究身份不靠来源补足。",
+      "boundary": "不是每次任务必能安全返回或成功，不主张冒险强于证据；back不表示回滚模型、性能反弹或无限自我改进。团队职责仍不可归单人，2015文件废止只作历史角色；NASA2026-11-04是平台公布与未来首飞预期而非已完成研究。中文职业/培训/招聘/游戏及登记限制保持；英语尚未查使用。",
+      "source_urls": [
+        "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/201511/P020151103347671915307.pdf",
+        "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/201511/t20151102_8381.html",
+        "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/",
+        "https://www.merriam-webster.com/dictionary/back"
+      ],
+      "read_scope": "CAAC PDF40–69、发布页48–76及NASA244–266沿本人batch42实际阅读，本次无新声称观察飞行或读现行法规。本次实际读back词条209–228返回/回应义；未以金融支持义另加资金故事，也未冒读Flightback词条。",
+      "rework_attempt": 1,
+      "remaining_reworks": 1,
+      "status": "english_quality_proposal_not_usage_screened",
+      "replaces_candidate_id": "C1-E44",
+      "return_reason": "Sortie原A3一手文档及仓库确证同名AI coding-agent编排软件，非普通任务词；Sortie.co不可读及Sorty近名不当主证，不说基础模型或官方商标注册。"
+    }
+  ],
+  "usage_screening_performed": false
+}

@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-09T01:00:10.557862+08:00",
+  "independence": "Read producer preview batch43 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C52",
+      "name": "Flightback",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两段完整短音节自然衔接节奏明确可称呼",
+          "counter_association": "不能把建议读法冒新词公认音"
+        },
+        "spelling": {
+          "reason": "完整flight与back可还原但近形fightback须清楚",
+          "counter_association": "少l会变fightback反击"
+        },
+        "grounding": {
+          "reason": "飞行试验与工程观察返回团队判断来自同一真实事件但凝练是品牌比喻",
+          "counter_association": "不保证回航安全或必须落地才有数据"
+        },
+        "bilingual_relation": {
+          "reason": "中文参与者与英文行动返回关系共享真实试验场景",
+          "counter_association": "英文也可能只被理解成返程飞机"
+        },
+        "distinctiveness": {
+          "reason": "短合写称呼有一来一回的行动图像而非功能长句",
+          "counter_association": "返程票退款航空运营服务首感强"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E45"
+    }
+  ]
+}

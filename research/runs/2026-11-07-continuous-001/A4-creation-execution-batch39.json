@@ -1,0 +1,144 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 actual English first matching",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-09T00:35:43.895282+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch31.json",
+      "sha256": "4c076a6cf8abe2d5a81b895f4bd37d0fd297397aab8e580dd91e7a1afdb42eb9"
+    },
+    {
+      "path": "A2-quality-batch31.json",
+      "sha256": "b0e80e9736ce16c1be72516f5cfb40b1ee077127c60a0a50ca649d1ccaa81c9b"
+    },
+    {
+      "path": "materials-extension29.json",
+      "sha256": "1865bfd97cd5b171d432fa351de6b724e6ab253c6cbe188082e3c38765bb461d"
+    },
+    {
+      "path": "coordinator-cn-batch31.json",
+      "sha256": "4c9760f15c0370e21108d3f4fc2e9ed2726222678377ca83862c746e6d7033f6"
+    },
+    {
+      "path": "coordinator-family-review-batch31.json",
+      "sha256": "79e24923eba9adb07a08f32ad24671d2eabc21f5104d657d3b8b9055c00bdd38"
+    },
+    {
+      "path": "A3-cn-batch33.json",
+      "sha256": "c52519eca6ea430ea230ddf0ebb4bf02cd91a9eee2bb44328b079d0990211573"
+    },
+    {
+      "path": "A3-cn-batch33.md",
+      "sha256": "6ea00c322de2995bcd6d75c83a256233a5ed196fc2a37b9ccd5c644cbd69ad47"
+    },
+    {
+      "path": "A3-cn-batch33-receipt.json",
+      "sha256": "5a2dd54f29cf0a96b2e867782cd093e017d68e6d8f5eb12caf59a289ac185da3"
+    },
+    {
+      "path": "continuations/2026-11-08T161934Z/root-cn33-review.json",
+      "sha256": "aefe508444d9bc031250d8e4698d5cce08358963628996bf4f693e566e2c86dc"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch31.json",
+      "sha256": "4c076a6cf8abe2d5a81b895f4bd37d0fd297397aab8e580dd91e7a1afdb42eb9",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch31.md",
+      "sha256": "2afc3d190b1cd98c0aaa0062ff2e0ad85ec3151410a4c16fc7d789cd12603f7c",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch31.json",
+      "sha256": "b0e80e9736ce16c1be72516f5cfb40b1ee077127c60a0a50ca649d1ccaa81c9b",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch31.json",
+      "sha256": "8c694ee7041334a6669a7f345fcd7fd5eae5d6b5aa0d4e62fb43a17ca83550a6",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension29.json",
+      "sha256": "1865bfd97cd5b171d432fa351de6b724e6ab253c6cbe188082e3c38765bb461d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch31.json",
+      "sha256": "4c9760f15c0370e21108d3f4fc2e9ed2726222678377ca83862c746e6d7033f6",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch31.json",
+      "sha256": "79e24923eba9adb07a08f32ad24671d2eabc21f5104d657d3b8b9055c00bdd38",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch33.json",
+      "sha256": "c52519eca6ea430ea230ddf0ebb4bf02cd91a9eee2bb44328b079d0990211573",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch33.md",
+      "sha256": "6ea00c322de2995bcd6d75c83a256233a5ed196fc2a37b9ccd5c644cbd69ad47",
+      "match": true
+    }
+  ],
+  "actual_reading": "首次合并输出截断，另实际单独读C50完整素材/筛查、作者与root双评、家族及CN33 MD；原C51拒绝证据亦实际读取。",
+  "sources": [
+    {
+      "url": "https://biodiversitysg.nparks.gov.sg/our-biodiversity/marine-fishes/giant-mudskipper/",
+      "scope": "本次实际web19–48，34/45/48为呼吸/生境/运动依据，非外链实验。"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/shore",
+      "scope": "本次实际web31–60水边陆地义"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/fin",
+      "scope": "本次实际web31–42鱼鳍义；其他义只记风险，不追加出处。"
+    }
+  ],
+  "local_history_check": "research JSON english/name字段Shorefin或Shore Fin精确串无命中；仅本地历史非市场预查或最终家族审查。",
+  "actual_chinese_drafts_reviewed": 2,
+  "eligible_english_inputs": 1,
+  "excluded_upstream": [
+    {
+      "chinese_id": "C1-C51",
+      "chinese": "斑马线",
+      "eligible_english_inputs": 0,
+      "actual_english_creation": 0,
+      "reason": "原A3九查询后可读第三方深圳市斑马线科技有限公司同核心使用，原root接受；不是仅道路通名或斑马App异名。第三方非本次官方存续/9与42核准，不配英文救回。"
+    }
+  ],
+  "actual_english_versions": 1,
+  "english_output_ids": [
+    "C1-E41"
+  ],
+  "actual_new_chinese_names": 0,
+  "new_family_count": 0,
+  "rework_attempt": 0,
+  "remaining_reworks": 2,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "outputs": [
+    {
+      "path": "A4-candidates-batch39.json",
+      "sha256": "583fb250f4bf87f926fce6f795186cd33c0699589b2f774a7a8a078d7a171f83"
+    },
+    {
+      "path": "A4-preview-batch39.md",
+      "sha256": "5aadce6b3387e5385d88ed9fb8547196fc19993302e964fa5fc716595c2f4146"
+    },
+    {
+      "path": "A4-quality-batch39.json",
+      "sha256": "70d9b1ed0328291a403b1ac0798d61e19ff1d174fe2af500f73b90ac6cf1f3e5"
+    }
+  ],
+  "next": "主控先无分独评，再隔离自评；双过后同一原A3独立英文查询，不继承中文通过。",
+  "unchanged": "只本人本批新四档，旧稿/分/队列/库/Git未改，无网页全文。"
+}

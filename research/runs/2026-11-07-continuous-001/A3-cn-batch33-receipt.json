@@ -1,0 +1,67 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese screening",
+  "executed_at": "2026-11-09T00:33:27.888592+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch31.json",
+      "sha256": "4c076a6cf8abe2d5a81b895f4bd37d0fd297397aab8e580dd91e7a1afdb42eb9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch31.md",
+      "sha256": "2afc3d190b1cd98c0aaa0062ff2e0ad85ec3151410a4c16fc7d789cd12603f7c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch31.json",
+      "sha256": "b0e80e9736ce16c1be72516f5cfb40b1ee077127c60a0a50ca649d1ccaa81c9b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch31.json",
+      "sha256": "8c694ee7041334a6669a7f345fcd7fd5eae5d6b5aa0d4e62fb43a17ca83550a6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension29.json",
+      "sha256": "1865bfd97cd5b171d432fa351de6b724e6ab253c6cbe188082e3c38765bb461d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch31.json",
+      "sha256": "4c9760f15c0370e21108d3f4fc2e9ed2726222678377ca83862c746e6d7033f6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch31.json",
+      "sha256": "79e24923eba9adb07a08f32ad24671d2eabc21f5104d657d3b8b9055c00bdd38"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch33.json",
+      "sha256": "c52519eca6ea430ea230ddf0ebb4bf02cd91a9eee2bb44328b079d0990211573"
+    },
+    {
+      "path": "A3-cn-batch33.md",
+      "sha256": "6ea00c322de2995bcd6d75c83a256233a5ed196fc2a37b9ccd5c644cbd69ad47"
+    }
+  ],
+  "actual_new_candidate_queries": 17,
+  "completed_candidate_search_results": 17,
+  "unreturned_search_attempts": 0,
+  "actual_new_chinese_queries": 17,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 553,
+  "prior_agent3_returned_candidate_results": 552,
+  "agent3_cumulative_candidate_queries": 570,
+  "agent3_cumulative_returned_candidate_results": 569,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 572,
+  "run_cumulative_returned_candidate_results": 571,
+  "passed_chinese_candidate_ids": [
+    "C1-C50"
+  ],
+  "rejected_chinese_candidate_ids": [
+    "C1-C51"
+  ],
+  "actual_execution": "真实17有效查询与关键游戏语境/第三方企业正文/台湾官方公司详情核验。逐名英国入口不可访问；未冒大陆工商或9/42核准。",
+  "next": "仅C50交原A4；C51拒绝不配英文。",
+  "unchanged": "旧记录/库/队列/Git未改，无网页全文。"
+}

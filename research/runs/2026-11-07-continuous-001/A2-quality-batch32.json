@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T00:49:27.202014+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-C52",
+      "name": "试飞员",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "已有完整专业人物称呼，三字可直接用于机构自称",
+          "counter_association": "职业通名易被听成岗位而不是公司"
+        },
+        "distinctiveness": {
+          "reason": "人物主角和试验飞行画面明确",
+          "counter_association": "试飞员并非独有称谓，领域商业拥挤尚未查"
+        },
+        "lab_fit": {
+          "reason": "第一印象是新航空技术的真实工程研究参与者，可承载深技术研究身份",
+          "counter_association": "可能被限于飞行培训/试飞招聘/单项航空测试服务，广义Lab仍需主控独判"
+        },
+        "grounding": {
+          "reason": "历史职责正文支持真实飞行、工程数据与评估角色；同一职业不是熟练/腾飞分字吉祥解释",
+          "counter_association": "文件已废止，当前NASA计划不等于完成首飞或验证成效"
+        },
+        "extension": {
+          "reason": "角色可承载怎样让新机器进入真实条件、怎样积累可判断经验的多年研究",
+          "counter_association": "不能只剩AI测试工具或把模型当危险原型"
+        },
+        "semantic_coherence": {
+          "reason": "试飞、工程证据和参与探索围绕同一完整角色",
+          "counter_association": "不承诺试飞一次就更智能，不把一个人拟人化成全部团队职责"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ],
+  "boundary": "作者独立判断，不以真来源抵消航空行业限制；无分预览已先交主控，等待其先封独评。"
+}

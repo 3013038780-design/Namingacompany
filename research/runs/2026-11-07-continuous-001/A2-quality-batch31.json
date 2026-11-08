@@ -1,0 +1,93 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T00:27:49.252824+08:00",
+  "scope": "主控先独评封存再看作者；物种/政府来源真实性不代替品牌身份。",
+  "reviews": [
+    {
+      "candidate_id": "C1-C50",
+      "name": "陆行鱼",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "主角与动作形成完整三字主体，可直接叫出",
+          "counter_association": "可能被当成游戏角色名，非既有正式物种称呼"
+        },
+        "distinctiveness": {
+          "reason": "鱼在陆上的画面有张力、易想象",
+          "counter_association": "生物题材并非自动独创，鱼字也不罕见"
+        },
+        "lab_fit": {
+          "reason": "跨环境行动的完整生物主体可承载自然/智能研究身份",
+          "counter_association": "水产、钓鱼、游戏或少儿动物品牌首感也存在"
+        },
+        "grounding": {
+          "reason": "官方物种正文支持陆上活动及呼吸/运动条件，动作与主体共享同一事实",
+          "counter_association": "不将科普当原始实验，也不把陆行说成人类步态"
+        },
+        "extension": {
+          "reason": "可谈主体与环境条件关系，不限一项算法或一块部件",
+          "counter_association": "若只谈上岸成功/能力跃迁会回旧成长家族"
+        },
+        "semantic_coherence": {
+          "reason": "鱼、陆行和条件性活动围绕同一个主体",
+          "counter_association": "不是鱼越高级越能离水，也不是无须任何支持"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "C1-C51",
+      "name": "斑马线",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "现成完整日常称呼，三字声音和对象都直接",
+          "counter_association": "设施通名也可能过分像产品功能"
+        },
+        "distinctiveness": {
+          "reason": "黑白标记及过街场景清楚可记",
+          "counter_association": "名称常见，可能有拥挤与交通教育误读"
+        },
+        "lab_fit": {
+          "reason": "多主体行动的公共技术场景可承载智能行动/工程研究身份",
+          "counter_association": "可能只像自动驾驶或交通产品，广义Lab须主控独判"
+        },
+        "grounding": {
+          "reason": "指南明确标记/视线/行为规则的同场关系，中文是通常设施称呼",
+          "counter_association": "没有核最初斑马比喻词源，也不把英国规范当全球行为实证"
+        },
+        "extension": {
+          "reason": "可从相遇条件延伸到不同主体共同活动的研究",
+          "counter_association": "如果只剩交通斑马线产品便过窄"
+        },
+        "semantic_coherence": {
+          "reason": "标记、共享场景与相互预期是同一关系",
+          "counter_association": "不能把条纹当自动安全保障或所有参与者会遵守"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

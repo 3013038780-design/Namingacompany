@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-09T01:06:22.507557+08:00",
+  "independence": "Read producer preview batch44 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C52",
+      "name": "Trialnaut",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "trial与naut按熟悉词形能形成完整三音节人物称呼且建议读法明确",
+          "counter_association": "trial压缩读法可能改变音节"
+        },
+        "spelling": {
+          "reason": "完整trial及astronaut式naut有拼写线索但not或naught需首次区分",
+          "counter_association": "首次听写会落成trialnot"
+        },
+        "grounding": {
+          "reason": "试验义与科学调查载具参与者结合形式共属真实试验角色不是随机字母",
+          "counter_association": "不是现有职业标准译名或已有词典合词"
+        },
+        "bilingual_relation": {
+          "reason": "中文真实试飞参与者与英文参与试验的航行探索者共享完整角色",
+          "counter_association": "英文更宽不包含全部团队审定职责"
+        },
+        "distinctiveness": {
+          "reason": "新整体有科学探索者形象而非航班返程服务说明",
+          "counter_association": "科幻角色临床或诉讼首感需披露"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E46"
+    }
+  ]
+}

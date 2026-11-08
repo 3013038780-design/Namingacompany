@@ -1,0 +1,154 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-09T00:52:43.161220+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch32.md",
+      "sha256": "8588184b43a18f000e102190e9b600ebb6b0360cd0e9bf4707cc990605159a14"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch32.json",
+      "sha256": "3ae172436db41bda689c817caa38f68cbfee3af60c35193269ce7185a5f59a2e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch32.json",
+      "sha256": "3f8dff77641476027aea5061b99c2af47077f00320e9af5a3cf59eb6b21b707d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch32.json",
+      "sha256": "01f93f93bced5741a204d783e39cd3e51e9fd3a59abc9753e3e40a12b9ce912a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension30.json",
+      "sha256": "c716bd12c909eaddfe8b59c8a5553e3d87ddbd2228244e16036b927e126e2fc6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch32.json",
+      "sha256": "647cf2c26180875bc91049803a3eff9d53fa14ca46c94b18267c1a1c3f80aeef"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch32.json",
+      "sha256": "a13999f7acdbe8ba41e10001052efe57bf52a889897f8debee485ba6f7c8e31d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-history-through-batch31.json",
+      "sha256": "061426cbba2f82711bad387a01cb48d3602318afe963eb91d5cc0ea32ffeacee"
+    }
+  ],
+  "query_count": 9,
+  "completed_search_result_count": 9,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-C52",
+      "name": "试飞员",
+      "query_logs": [
+        {
+          "query": "\"试飞员\"",
+          "executed_on": "2026-11-09",
+          "summary": "精确主要职业百科、民航历史文件、人物新闻与中国试飞员学院，不把职业对象自动当独立商业核心。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"试飞员科技\"",
+          "executed_on": "2026-11-09",
+          "summary": "科技后缀独立精确主要科技单位岗位招聘、试飞院资料，未确证试飞员科技完整企业。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"试飞员智能\"",
+          "executed_on": "2026-11-09",
+          "summary": "智能后缀独立精确主要院所招聘与民航试飞员体能智能检测等较长功能软件，不截有意义限定冒精确试飞员智能品牌。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"试飞员\" AI 模型 软件 公司",
+          "executed_on": "2026-11-09",
+          "summary": "AI模型组Orangebeard自动试飞员为功能描述/翻译，及AI众测人类试飞员和华为培训人物比喻；无完整独立本名模型确证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"試飛員\" 公司 軟體 品牌",
+          "executed_on": "2026-11-09",
+          "summary": "繁体主要官方词典、职业保险表和人物传记，另有同词书/电影标题语境，不能自动等于公司/软件核心。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"shifeiyuan\" company software",
+          "executed_on": "2026-11-09",
+          "summary": "拼音主要Shifeiyuan Road地址；不把地址自动认拼音企业，未确证本拼音软件品牌。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"试飞员\" APP",
+          "executed_on": "2026-11-09",
+          "summary": "APP组命中雷电试飞员VR游戏，实际开正文完整名含雷电，不随意删有意义词当精确本名。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"试飞员\" 有限公司 品牌",
+          "executed_on": "2026-11-09",
+          "summary": "有限公司品牌补搜仍主要航空职业/招聘/院所通用描述，未确证本核心公司；无结果不冒法律无注册。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"试飞员\" 软件 -雷电 -职责 -培训 -飞行员 -飞行试验 -飞行工程师",
+          "executed_on": "2026-11-09",
+          "summary": "减去主要职业噪声的软件补搜主要职业资料/科研或较长功能系统；未确证独立本名软件。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "pass_public_use_initial_screen_only",
+      "reason": "9有效实际查询未确证完整核心独立公司/软件/模型。具体线索为职业通名、人物修辞、较长功能系统与雷电试飞员VR近名，不随意截限定词冒精确占用。可交原A4配英文，未成为已登记可用的双语成品。",
+      "evidence": [
+        {
+          "url": "https://qcon.infoq.cn/2026/shanghai/speaker/10871",
+          "access": "conference_speaker_primary_body_read",
+          "finding": "L19–28蒋烁淼、观测云CEO，L23被称云计算的试飞员为人物修辞；公司为观测云，非试飞员。未测试演讲性能主张。"
+        },
+        {
+          "url": "https://www.9game.cn/ldsfyvr/",
+          "access": "game_distribution_page_body_read",
+          "finding": "L31–47完整雷电试飞员VR、街机游戏及Teebik-inc开发者。雷电有区别意义，不截掉冒独立完整名试飞员。近似游戏风险保留，不冒现时所有渠道正式发售。"
+        },
+        {
+          "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=128580&la=0&powerMode=0",
+          "access": "official_dictionary_body_read",
+          "finding": "L21/29–32試飛員及拼音/职业释义，是已有通用职业称呼，不自动商业品牌占用。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Shifeiyuan",
+          "scope": "2026-11-09本次逐名入口不可访问，不称无登记。"
+        }
+      },
+      "risks": [
+        "职业/航空培训招聘首感及中国试飞员学院既有机构语境",
+        "雷电试飞员VR近名、同词书电影与岗位人物修辞不自动独立公司却增加搜索噪声",
+        "历史职责文件已废止；NASA为未来首飞计划，本次使用筛查未新读这些源，不冒当前职业规范",
+        "大陆公司与9/42、境外登记未清；英文未配未查"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "旧run两实际阳性对照，0新增。",
+  "claim_limits": "仅中文公开使用初筛，不假称全球未注册或9/42核准。",
+  "passed_chinese_candidate_ids": [
+    "C1-C52"
+  ],
+  "rejected_chinese_candidate_ids": [],
+  "quality_rejected_not_searched_ids": []
+}

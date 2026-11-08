@@ -1,0 +1,183 @@
+{
+  "accepted_at": "2026-11-09T01:11:40.729455+08:00",
+  "same_research_run": true,
+  "new_A1_claimed": false,
+  "whole_production_compliance_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "from": "verified_existing_A1",
+      "to": "same_A2",
+      "status": "accepted",
+      "reason": "Sakana/寒武纪的主体与活动环境、Cursor/Runway的熟悉称呼及行动条件具体机制进入阅读，复用已核不新造本次A1覆盖。",
+      "refs": [
+        {
+          "path": "A1-role-expansion01.json",
+          "sha256": "bbb6c1f816e0942aa2ee0e5e7cca52437db41e909ceaa7a62fde0583a374dec4"
+        },
+        {
+          "path": "A1-role-expansion02.json",
+          "sha256": "6a127ec64699a257e20f7959a2ce3309e8cefe7c2c117134c2220612a3dc3181"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "search-plan-role-expansion02.json",
+          "sha256": "f86b3c18c74f778d2a6fb4258fed662584879e5747bb0116e0cefc6288d98d1a"
+        },
+        {
+          "path": "continuations/2026-11-08T151606Z/plan-role-expansion02-review.json",
+          "sha256": "f5447836316e7ce5361681ccd0f5b5108b05e8eb761d035a3db15899c16d6867"
+        },
+        {
+          "path": "A2-creation-execution-batch31.json",
+          "sha256": "8c694ee7041334a6669a7f345fcd7fd5eae5d6b5aa0d4e62fb43a17ca83550a6"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "from": "same_A2",
+      "to": "root",
+      "status": "accepted",
+      "reason": "3真实关系只2中文，夜航船仅素材；root源逐项实读，中文双评过、轴差<=1、先无分封独评。",
+      "refs": [
+        {
+          "path": "materials-extension29.json",
+          "sha256": "1865bfd97cd5b171d432fa351de6b724e6ab253c6cbe188082e3c38765bb461d"
+        },
+        {
+          "path": "A2-candidates-batch31.json",
+          "sha256": "4c076a6cf8abe2d5a81b895f4bd37d0fd297397aab8e580dd91e7a1afdb42eb9"
+        },
+        {
+          "path": "A2-quality-batch31.json",
+          "sha256": "b0e80e9736ce16c1be72516f5cfb40b1ee077127c60a0a50ca649d1ccaa81c9b"
+        },
+        {
+          "path": "coordinator-cn-batch31.json",
+          "sha256": "4c9760f15c0370e21108d3f4fc2e9ed2726222678377ca83862c746e6d7033f6"
+        },
+        {
+          "path": "coordinator-family-review-batch31.json",
+          "sha256": "79e24923eba9adb07a08f32ad24671d2eabc21f5104d657d3b8b9055c00bdd38"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "from": "root",
+      "to": "same_A3",
+      "status": "accepted_mixed",
+      "reason": "陆行鱼8查过，斑马线9查完整同核心公司拒绝，类别/个人/近名/第三方层级分开。",
+      "refs": [
+        {
+          "path": "A3-cn-batch33.json",
+          "sha256": "c52519eca6ea430ea230ddf0ebb4bf02cd91a9eee2bb44328b079d0990211573"
+        },
+        {
+          "path": "A3-cn-batch33-receipt.json",
+          "sha256": "5a2dd54f29cf0a96b2e867782cd093e017d68e6d8f5eb12caf59a289ac185da3"
+        },
+        {
+          "path": "continuations/2026-11-08T161934Z/root-cn33-review.json",
+          "sha256": "aefe508444d9bc031250d8e4698d5cce08358963628996bf4f693e566e2c86dc"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "from": "same_A3",
+      "to": "same_A4",
+      "status": "accepted_partial",
+      "reason": "C50匹配、C51无资格，混合包非全零。",
+      "refs": [
+        {
+          "path": "A4-candidates-batch39.json",
+          "sha256": "583fb250f4bf87f926fce6f795186cd33c0699589b2f774a7a8a078d7a171f83"
+        },
+        {
+          "path": "A4-creation-execution-batch39.json",
+          "sha256": "2bf829940bddb54e36a80fd901f9553e5f8b1f9e83c74ef150b673d14fee175c"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "from": "same_A4",
+      "to": "same_A3",
+      "status": "accepted",
+      "reason": "Shorefin/ Landfish/Intertidal三版两评均过，每次先独评后看自评，最大轴差1，不因查重补分。",
+      "refs": [
+        {
+          "path": "A4-quality-batch39.json",
+          "sha256": "70d9b1ed0328291a403b1ac0798d61e19ff1d174fe2af500f73b90ac6cf1f3e5"
+        },
+        {
+          "path": "coordinator-en-batch39.json",
+          "sha256": "d8490a0281e563437267b8ab748c25223b78f389a49dd53001796e6190746e9e"
+        },
+        {
+          "path": "A4-quality-batch40.json",
+          "sha256": "70370720d7748aa98f0230ea34a15cf91f35a3866fb89db3f4da12df0c3cf0a2"
+        },
+        {
+          "path": "coordinator-en-batch40.json",
+          "sha256": "8c9e1d56b5a5963c086511c3b3212e9d1009574a57e887ba07e73b8a0a38eeb2"
+        },
+        {
+          "path": "A4-quality-batch41.json",
+          "sha256": "ff207dd9092e742c79909a918d1d37ac2b66faff8dfb29cfd1232c6719dc49fb"
+        },
+        {
+          "path": "coordinator-en-batch41.json",
+          "sha256": "fd6ef5a7f91742ec65c085f8db9e81644519a3a73c921028ece95f5d6a2b2786"
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "from": "same_A3",
+      "to": "root",
+      "status": "completed_no_survivor",
+      "reason": "6/6/7英文独立查询，历史/近听、独立软件、官方同核心技术公司分别拒绝；同一A3双语与原A4真实返工收尾。",
+      "refs": [
+        {
+          "path": "A3-en-batch39.json",
+          "sha256": "b0df81dc104e991c3ca2f10251e1d6114af180525af652c04eb8d73d368736ca"
+        },
+        {
+          "path": "A3-en-batch40.json",
+          "sha256": "1d7351e42bf1bda6b58060f9bceba468cdfa855c90ec9eb1e22cc84ed2e7fa8a"
+        },
+        {
+          "path": "A3-en-batch41.json",
+          "sha256": "7e92019aa2eaf91fa7b2b8e802a8f1798e1a5586676cee093b79a03ad2fe6d12"
+        },
+        {
+          "path": "A4-C50-final-closeout.json",
+          "sha256": "e9c3492d1cec881b3e4bea686287b9952b0c229a6d267f4c118405d0c89f1483"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "from": "root",
+      "to": "catalog",
+      "status": "no_admission",
+      "reason": "C50无合格配对，C51中文拒绝，两者不入库、不改为注册已核。",
+      "refs": [
+        {
+          "path": "continuations/2026-11-08T161934Z/root-C50-terminal-review.json",
+          "sha256": "22f99975dcba887446530136559da752f53faf26c9f1bd6ba8b3933d09bfaac6"
+        },
+        {
+          "path": "continuations/2026-11-08T161934Z/decisions-through-batch32.json",
+          "sha256": "d43201f0116544f9c19fe414bd40912f42ecbff51cbbff680860daaf35fbc21a"
+        }
+      ]
+    }
+  ]
+}

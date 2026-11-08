@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-09T00:35:43.895282+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E41",
+      "chinese_id": "C1-C50",
+      "english": "Shorefin",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个常见完整音节自然衔接，可叫成短称呼。",
+          "counter_association": "shore/sure近听，需首次明确拆分。"
+        },
+        "spelling": {
+          "reason": "完整shore+fin没有截词或随机字母，解释一次可还原。",
+          "counter_association": "可能写成Surefin或分写Shore Fin，不能说零听写成本。"
+        },
+        "grounding": {
+          "reason": "水边陆地与鳍支持运动同属已读鱼的生境/结构关系。",
+          "counter_association": "是拟称非现成物种；单靠鳍不能解释陆上呼吸。"
+        },
+        "bilingual_relation": {
+          "reason": "两边同一带鳍主体在水陆之间有条件活动，非字面翻译。",
+          "counter_association": "英文动作意味较隐，不能说见名即知在陆上移动。"
+        },
+        "distinctiveness": {
+          "reason": "完整可感生命主角的短合成名可独立称呼，非功能长句。",
+          "counter_association": "水产钓鱼、冲浪和金融首感存在，不保证AI身份或商标独占。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "编辑自评非测试，原门槛不变；主控先无分独评，不以源真实挽救身份。"
+    }
+  ]
+}

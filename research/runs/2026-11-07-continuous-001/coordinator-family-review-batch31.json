@@ -1,0 +1,77 @@
+{
+  "reviewed_at": "2026-11-08T16:28:55.324907+00:00",
+  "reviewer": "/root",
+  "independence": "先读无分preview封coordinator-cn-batch31，随后才读作者分；均编辑判断不是消费者研究。",
+  "quality_comparison": [
+    {
+      "candidate_id": "C1-C50",
+      "root_total": 25,
+      "producer_total": 25,
+      "max_axis_difference": 0,
+      "decision": "accept_to_original_A3"
+    },
+    {
+      "candidate_id": "C1-C51",
+      "root_total": 26,
+      "producer_total": 25,
+      "max_axis_difference": 1,
+      "decision": "accept_to_original_A3"
+    }
+  ],
+  "source_verification": [
+    {
+      "url": "https://biodiversitysg.nparks.gov.sg/our-biodiversity/marine-fishes/giant-mudskipper/",
+      "scope": "root实际19–48，34储水鳃室/皮肤氧交换与48胸鳍运动；正文23更新2026-05-31，不用64网站脚注冒近90日新闻。机构科普非本次原始实验。"
+    },
+    {
+      "url": "https://zh.wikisource.org/zh-hans/夜航船",
+      "scope": "root实际123–133张岱序转录全文；记名与文理考校区别、僧具体问题/伸脚故事。公共转录未核底本，非整书通读，无新公司候选。"
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/know-your-traffic-signs/pedestrian-cycle-and-equestrian-crossings",
+      "scope": "root实际59–61日期/适用地区与148–159斑马/并行过街正文；同一次返回也读87–147其他crossing，但不混其信号控制机制。规则/标记/可见性共同约束不是条纹自动安全，未看图或测道路。"
+    }
+  ],
+  "family_verification": [
+    {
+      "candidate_id": "C1-C50",
+      "decision": "distinct_relation_not_automatic_new_species",
+      "reason": "实际对照旧M14共生伙伴随迁位置/活桥成员成为结构，以及Sakana群体组织原分析。此项同一鱼主体有条件跨水陆运动/呼吸，非鱼种改名继续群体聪明；不说学习后长出鳃室或能力更高。只讲成长或上岸成功则失去独立关系。"
+    },
+    {
+      "candidate_id": "C1-C51",
+      "decision": "distinct_relation_not_generic_connection",
+      "reason": "实际对照活桥原稿/家族与已入库选框作用：此项可见公共场景中不同主体的相互行动条件，非身体桥重构或单操作者编辑范围。不是全新物种或通道改字。若只剩协作/连接通话术则不计新。"
+    }
+  ],
+  "refs": [
+    {
+      "path": "materials-extension29.json",
+      "sha256": "1865bfd97cd5b171d432fa351de6b724e6ab253c6cbe188082e3c38765bb461d"
+    },
+    {
+      "path": "A2-candidates-batch31.json",
+      "sha256": "4c076a6cf8abe2d5a81b895f4bd37d0fd297397aab8e580dd91e7a1afdb42eb9"
+    },
+    {
+      "path": "A2-preview-batch31.md",
+      "sha256": "2afc3d190b1cd98c0aaa0062ff2e0ad85ec3151410a4c16fc7d789cd12603f7c"
+    },
+    {
+      "path": "A2-quality-batch31.json",
+      "sha256": "b0e80e9736ce16c1be72516f5cfb40b1ee077127c60a0a50ca649d1ccaa81c9b"
+    },
+    {
+      "path": "A2-creation-execution-batch31.json",
+      "sha256": "8c694ee7041334a6669a7f345fcd7fd5eae5d6b5aa0d4e62fb43a17ca83550a6"
+    },
+    {
+      "path": "coordinator-cn-batch31.json",
+      "sha256": "4c9760f15c0370e21108d3f4fc2e9ed2726222678377ca83862c746e6d7033f6"
+    },
+    {
+      "path": "A2-history-through-batch30.json",
+      "sha256": "c3bdb87b9e14f722671fa36fcc252f92a0670b93a1b85b64ab1e3b23f5b8624a"
+    }
+  ]
+}

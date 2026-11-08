@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-09T01:04:42.496400+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E46",
+      "chinese_id": "C1-C52",
+      "english": "Trialnaut",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "trial与熟悉-naut词尾衔接，可按TRY-ul-nawt称呼。",
+          "counter_association": "trial本身可压缩，首次需建议读法，不当已验证用户测试。"
+        },
+        "spelling": {
+          "reason": "trial完整不改，-naut为可辨识结合形式，可借astronaut还原；没有任意删字母。",
+          "counter_association": "同音not/naught造成首次听写成本，不能隐瞒或当零成本。"
+        },
+        "grounding": {
+          "reason": "试验与参与科学调查载具航行的人是同一试飞事件两部分，均有本次实际读词典支持。",
+          "counter_association": "把角色延伸Lab是品牌比喻，并非辞书收录Trialnaut或已观测AI能力增长。"
+        },
+        "bilingual_relation": {
+          "reason": "两语都保留亲自将新机器进入真实条件检验的参与者角色。",
+          "counter_association": "英文宽于飞行，团队工程数据评估须叙事说明；不是标准职业译名。"
+        },
+        "distinctiveness": {
+          "reason": "新角色称呼可以独立叫出，有试验探索者图景，未变成飞行索赔功能句。",
+          "counter_association": "航空科幻、临床试验或诉讼工具首感都可能；此项仅编辑判断不代市场查重。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "原门槛未改。词源、可称呼性和具体角色独立判断；首次听写成本仍须主控独立评，最后机会不改变门槛。"
+    }
+  ]
+}

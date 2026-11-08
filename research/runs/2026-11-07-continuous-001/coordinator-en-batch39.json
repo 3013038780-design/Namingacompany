@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-09T00:36:18.770572+08:00",
+  "independence": "Read producer preview batch39 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C50",
+      "name": "Shorefin",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个完整短音节组合可自然叫出且重音建议明确",
+          "counter_association": "可能先像冲浪或钓鱼品牌"
+        },
+        "spelling": {
+          "reason": "shore与fin完整拼写不硬改字母但有sure近听成本",
+          "counter_association": "shore与sure听写混淆"
+        },
+        "grounding": {
+          "reason": "水边陆地与鱼鳍在实际同一鱼的生境运动关系中相接",
+          "counter_association": "鳍不是离水呼吸全部充分条件"
+        },
+        "bilingual_relation": {
+          "reason": "中文整鱼陆行与英文岸边带鳍主角共享有条件跨水陆活动",
+          "counter_association": "英语少了明确行走动作"
+        },
+        "distinctiveness": {
+          "reason": "合写可形成具体主角称呼而非说明性长句",
+          "counter_association": "沿海金融与海洋产品首感仍明显"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E41"
+    }
+  ]
+}

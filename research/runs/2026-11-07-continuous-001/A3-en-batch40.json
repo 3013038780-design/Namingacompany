@@ -1,0 +1,151 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-09T00:46:31.789946+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch40.md",
+      "sha256": "7d46435931da3a5f49e5eec57d7135e00241df692472c1f5a6d8bdf043f251aa"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch40.json",
+      "sha256": "5e5b5cf52459a7b38bdeb5ae87b34ed5f3ccba32c1ed8a2bc904bd4db05fff66"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch40.json",
+      "sha256": "70370720d7748aa98f0230ea34a15cf91f35a3866fb89db3f4da12df0c3cf0a2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch40.json",
+      "sha256": "3b204887a67a8b05781c5ff9ce88f3384a287af0c37df01d5eb0d7cbea9f0705"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch40.json",
+      "sha256": "8c9e1d56b5a5963c086511c3b3212e9d1009574a57e887ba07e73b8a0a38eeb2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch33.json",
+      "sha256": "c52519eca6ea430ea230ddf0ebb4bf02cd91a9eee2bb44328b079d0990211573"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch39.json",
+      "sha256": "b0df81dc104e991c3ca2f10251e1d6114af180525af652c04eb8d73d368736ca"
+    }
+  ],
+  "query_count": 6,
+  "completed_search_result_count": 6,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-E42",
+      "chinese_id": "C1-C50",
+      "chinese": "陆行鱼",
+      "english": "Landfish",
+      "query_logs": [
+        {
+          "query": "\"Landfish\"",
+          "executed_on": "2026-11-09",
+          "summary": "精确组有Neopets道具、游戏角色、公司及游戏软件线索；不因普通角色/物件就判独立软件。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Landfish\" company labs",
+          "executed_on": "2026-11-09",
+          "summary": "公司Lab组有加拿大Landfish Engineering第三方历史注销、Florida LANDFISH LLC索引，未核原登记不冒当前科技公司。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Landfish\" AI model",
+          "executed_on": "2026-11-09",
+          "summary": "AI模型组命中landfish.org具名应用入口及Landfish Games游戏作者，一手正文另开；非AI模型性能/公司证据。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Landfish\" software product",
+          "executed_on": "2026-11-09",
+          "summary": "软件产品组命中程序员本人LandFish学校游戏项目、AppStore LandFish Studio版权与2017安卓LandFish，逐一打开正文核类型。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Land Fish\" company",
+          "executed_on": "2026-11-09",
+          "summary": "分写组有摩尔多瓦LAND FISH SRL第三方企业记录；未开原登记，不作为官方存续断言，不靠它拒绝。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Land-Fish\" software",
+          "executed_on": "2026-11-09",
+          "summary": "连字符组主要较长Ocean Land Fish Game与Aquaculture Land: Fish Farming Simulation；不随意截掉有意义标题词冒精确Landfish。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "reject_existing_exact_named_software",
+      "reason": "程序员本人页面明确LandFish为2024独立学校游戏项目；另有2017同名安卓游戏可读记录。完整同名软件已使用，按口径退回；不因鱼类通名/游戏道具、历史公司索引或个人署名自动占用。",
+      "evidence": [
+        {
+          "url": "https://sites.google.com/view/sandholterik/projects/landfish",
+          "access": "primary_programmer_project_body_read",
+          "finding": "L12–23明确2024 School Project，System & Engine Programmer、LandFish游戏描述及新旧版本；L27–36说明游戏UI实现。是实际独立具名软件项目，不是个人署名或物种。学校项目不冒正式商业发售。"
+        },
+        {
+          "url": "https://apkpure.net/landfish/com.yeahfun.landfish",
+          "access": "third_party_android_product_body_read",
+          "finding": "L34–60标题LandFish，作者yeahfun industries，2017-10-13、0.0.1游戏内容；L65–81版本及Arcade分类。是历史独立安卓游戏记录，不据平台宣传称本次安全验证或现仍上架GooglePlay。"
+        },
+        {
+          "url": "https://apps.apple.com/es/app/pok%C3%A9calc-pocket-guide-wiki/id6744045164",
+          "access": "official_app_distribution_body_read",
+          "finding": "实际原短链接跳转此地址；L20 PokéCalc，L174–180供应者HUI LUO、©2026 LandFish Studio；L94链接landfish.notion.site。Studio为软件发布使用，但不将个人开发者自动认公司法人。"
+        },
+        {
+          "url": "https://landfish.org/yubikeys-for-gmail.html",
+          "access": "primary_named_app_portal_body_read",
+          "finding": "6行原页，L0 landfish，L4–5 Public apps/Claude Agent指南/文档/天气/游戏入口。具名应用门户，不足认公司或AI模型。"
+        },
+        {
+          "url": "https://landfishgames.itch.io/pufferfish-on-land",
+          "access": "primary_game_author_page_body_read",
+          "finding": "L4游戏名Pufferfish on Land，L32/36开发中，L38作者Landfish Games；L43仅AI Assisted Code不等于AI模型。作者品牌与游戏全名分别记录。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Landfish",
+          "scope": "2026-11-09本次逐名入口不可访问；不代表未登记。"
+        }
+      },
+      "risks": [
+        "独立具名学校游戏不冒商业正式发售",
+        "LandFish Studio为版权使用，不冒已核法人",
+        "公司/9与42登记未清；拒绝依公开软件使用而非法律核准",
+        "本中文首返已使用失败，最后R2余1，中文通过不倒写占用"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "旧run两个真实阳性对照，0新增。",
+  "claim_limits": "公开软件使用初筛，不假称全球登记或商标核准。",
+  "passed_english_candidate_ids": [],
+  "returned_english_candidate_ids": [
+    "C1-E42"
+  ],
+  "excluded_upstream": [
+    {
+      "chinese_id": "C1-C51",
+      "eligible_english_inputs": 0,
+      "actual_new_english_queries": 0,
+      "reason": "原中文使用拒绝，非整批英语零。"
+    }
+  ]
+}

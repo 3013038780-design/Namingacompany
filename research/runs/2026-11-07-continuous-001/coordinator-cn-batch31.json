@@ -1,0 +1,88 @@
+{
+  "reviewed_at": "2026-11-09T00:27:39.358227+08:00",
+  "independence": "Read producer preview batch31 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C50",
+      "name": "陆行鱼",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "三个常用字构成完整能行动的主体称呼",
+          "counter_association": "可能先听成游戏角色"
+        },
+        "distinctiveness": {
+          "reason": "鱼在陆上行动的反常识画面明确",
+          "counter_association": "陆行鸟等游戏既有命名风格联想"
+        },
+        "lab_fit": {
+          "reason": "可承载跨活动环境与条件的探索机构身份而不限定模型功能",
+          "counter_association": "也可能像水产钓鱼公司需建立研究身份"
+        },
+        "grounding": {
+          "reason": "真实同一生物的鳃室皮肤与胸鳍支持水外活动关系非两字好寓意",
+          "counter_association": "不是正式物种名且未证明智力变化"
+        },
+        "extension": {
+          "reason": "生物主体可容纳不同研究与产品",
+          "counter_association": "若只解释上岸成功会退化励志"
+        },
+        "semantic_coherence": {
+          "reason": "两种活动世界与结构条件都围绕同一主角",
+          "counter_association": "不能说任意鱼在任意陆地都可生存"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "C1-C51",
+      "name": "斑马线",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "现成三字场景顺口且无需教读",
+          "counter_association": "设施通名需要后续建立专名语境"
+        },
+        "distinctiveness": {
+          "reason": "黑白过街场景有清楚可见形象",
+          "counter_association": "大众熟词商业辨识仍需查"
+        },
+        "lab_fit": {
+          "reason": "能以多主体共享环境和行动条件承载协调与工程研究身份",
+          "counter_association": "交通教育自动驾驶单产品首感强不能冒任意智能原理"
+        },
+        "grounding": {
+          "reason": "标记可见性与让行条件确实同场而非斑马和线拆意",
+          "counter_association": "只用指定法域指南不推普遍自动安全"
+        },
+        "extension": {
+          "reason": "日常场景可作为不同研究产品的共同母品牌",
+          "counter_association": "不应强迫全部研究都解释成过街"
+        },
+        "semantic_coherence": {
+          "reason": "共同可理解条件与不同主体相遇同一核心",
+          "counter_association": "规则不保证服从或完全无风险"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-09T00:55:13.974812+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E44",
+      "chinese_id": "C1-C52",
+      "english": "Sortie",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "完整词两个正常音节，所选词典读法短而可称呼。",
+          "counter_association": "词典还收另一重音，首次需固定品牌读法。"
+        },
+        "spelling": {
+          "reason": "完整既有sortie可按词记忆，未改字母避重。",
+          "counter_association": "-ie法语式拼法听写成本存在，不能只凭短就说容易。"
+        },
+        "grounding": {
+          "reason": "一次飞行任务及外出活动为真词义，专业源确实以真实任务研究机器。",
+          "counter_association": "不是纯民航研究词，更不是所有sortie均为试飞。"
+        },
+        "bilingual_relation": {
+          "reason": "中文参与者与英文其一次真实行动任务共享同一工程场景。",
+          "counter_association": "英文不独自编码团队数据评估和新机器，需源与中文限定。"
+        },
+        "distinctiveness": {
+          "reason": "完整短名词有可感行动角色，可独立成为称呼而非功能长句。",
+          "counter_association": "军事/航空/游戏首感强，需主控独立判断与Lab能否相容。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "原门槛未改，编辑判断非测试；军事/听写成本明列，主控先无分独评，不能拿来源真实补身份不足。"
+    }
+  ]
+}

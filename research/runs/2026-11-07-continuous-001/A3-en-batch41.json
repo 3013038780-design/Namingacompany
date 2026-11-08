@@ -1,0 +1,151 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-09T00:50:33.712504+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch41.md",
+      "sha256": "0b93784ccf751de7be458534468c43d2eaf389351a40913774c1bfdef0914df2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch41.json",
+      "sha256": "7850b643945b3972e19c64cab288595f34137aa7e707b476e436c298a4c68c13"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch41.json",
+      "sha256": "ff207dd9092e742c79909a918d1d37ac2b66faff8dfb29cfd1232c6719dc49fb"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch41.json",
+      "sha256": "46728be22aedf7dff953f0898849bc40d76c8908b807359b8521db08711a1bf7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch41.json",
+      "sha256": "fd6ef5a7f91742ec65c085f8db9e81644519a3a73c921028ece95f5d6a2b2786"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch33.json",
+      "sha256": "c52519eca6ea430ea230ddf0ebb4bf02cd91a9eee2bb44328b079d0990211573"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch39.json",
+      "sha256": "b0df81dc104e991c3ca2f10251e1d6114af180525af652c04eb8d73d368736ca"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch40.json",
+      "sha256": "1d7351e42bf1bda6b58060f9bceba468cdfa855c90ec9eb1e22cc84ed2e7fa8a"
+    }
+  ],
+  "query_count": 7,
+  "completed_search_result_count": 7,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-E43",
+      "chinese_id": "C1-C50",
+      "chinese": "陆行鱼",
+      "english": "Intertidal",
+      "query_logs": [
+        {
+          "query": "\"Intertidal\"",
+          "executed_on": "2026-11-09",
+          "summary": "精确组主要NOAA生态潮间带说明及自然科研通用词，不因术语海量出现直接拒绝。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Intertidal\" company lab",
+          "executed_on": "2026-11-09",
+          "summary": "公司Lab组明确Intertidal气垫船科学工程服务公司与Intertidal Lab CIC社会组织，后开一手正文和英国官方详情核。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Intertidal\" AI model",
+          "executed_on": "2026-11-09",
+          "summary": "AI模型组为AI辅助海岸监测/Global Intertidal Change与intertidal.app资料；普通生态对象不是完整名AI模型，未据此判AI同名。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Intertidal\" software product",
+          "executed_on": "2026-11-09",
+          "summary": "软件产品组为Global Intertidal Change及DEA Intertidal较长数据产品套件；不任意截掉有区别前缀称独立Intertidal软件。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Inter Tidal\" company",
+          "executed_on": "2026-11-09",
+          "summary": "分写组Ideal Geoservices服务环境Inter tidal及Tidal Wrap近名，均普通环境词或不同核心，不冒精确同名。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Inter-tidal\" software",
+          "executed_on": "2026-11-09",
+          "summary": "连字符组域名历史分析与inter-tidal mapping专利描述，不把域名WHOIS/专利对象自动当独立软件品牌。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Intertidal\" \"company\" -zone -zones -mapping -mussels -habitats -habitat -monitoring",
+          "executed_on": "2026-11-09",
+          "summary": "为排除普通生态海量结果定向补搜，确认Intertidal Ltd官网及其他同核心商业线索；主证仍已实际读官网+英国官方详情，不靠目录营业/商标自述。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "reject_existing_exact_core_technical_company",
+      "reason": "一手官网及英国官方详情共同确认INTERTIDAL LIMITED/05451870，技术测试分析/科学工程测量。已有完整核心公司使用，拒绝不依通用生态词或较长产品截名。最后R2耗尽，中文初筛通过保持但本族无合格双语配对。",
+      "evidence": [
+        {
+          "url": "https://www.intertidal.net/about",
+          "access": "primary_company_body_read",
+          "finding": "L4–5气垫船调查支持科学与工程项目；L20 Intertidal Ltd、Company Number05451870。是实际企业核心用名，不是普通潮间带词。"
+        },
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/05451870",
+          "access": "official_company_detail_body_read",
+          "finding": "L13–15 INTERTIDAL LIMITED/05451870；L27–33页面显示Active、2005-05-13设立；L48–50 SIC71200 Technical testing and analysis。仅本公司详情，不等于全球名称/商标检索或任何法定核准意见。"
+        },
+        {
+          "url": "https://intertidallab.org/",
+          "access": "primary_nonprofit_organization_body_read",
+          "finding": "L0/42 Intertidal Lab；L44自述英国Community Interest Company非营利组织。性质为社会/生态行动组织，不冒AI研究公司或此次已查其法定记录。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "official_individual_company_detail_accessible",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/05451870",
+          "scope": "2026-11-09实际读INTERTIDAL LIMITED完整名/编号/Active/SIC71200。仅该记录，非全英国商标/全球无冲突保证。"
+        }
+      },
+      "risks": [
+        "现有技术公司不称AI公司",
+        "Intertidal Lab社会公益性质另列，不冒AI Lab",
+        "大陆公司与9/42未清；英国单主体核阅不等全球登记",
+        "最后R2结束不R3；中文不倒写市场占用"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "原run两实际阳性对照，0新增。",
+  "claim_limits": "实际公开使用/单主体官方详情，不假全球或商标核准。",
+  "passed_english_candidate_ids": [],
+  "returned_english_candidate_ids": [
+    "C1-E43"
+  ],
+  "excluded_upstream": [
+    {
+      "chinese_id": "C1-C51",
+      "eligible_english_inputs": 0,
+      "actual_new_english_queries": 0,
+      "reason": "原中文使用拒绝，整体仍有C50实际英文输入。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "reviewed_at": "2026-11-08T17:02:49.821505+00:00",
+  "reviewer": "/root",
+  "english_id": "C1-E45",
+  "decision": "accept_existing_complete_commercial_brand_rejection_return_original_A4_last_R2",
+  "root_actual_reading": [
+    {
+      "url": "https://flightback.co/",
+      "scope": "实际0–16独立FlightBack自动索赔品牌、ComingSoon/候补，110版权；只核公开品牌使用，不当已正式发售或验证索赔资格/金额/性能，不填写邮箱。"
+    },
+    {
+      "url": "https://flightback.it/servizi/",
+      "scope": "root本次超时，原A3实际可读服务/版权/GEIS范围单独保留，不冒root也读到。"
+    }
+  ],
+  "quality_comparison": {
+    "root": 21,
+    "producer": 21,
+    "all_gates_pass": true,
+    "max_axis_difference": 0,
+    "root_sealed_before_producer_read": true
+  },
+  "reason": "完整商业品牌并非普通返程句或Fightback近形；C52中文资格保持，交原A4最后R2。",
+  "new_root_usage_queries": 0,
+  "remaining_reworks": 1,
+  "refs": [
+    {
+      "path": "A4-candidates-batch43.json",
+      "sha256": "5c179540fb2be5700697673177a029d84f32eeb73c141cf3d90be8ca3769cadf"
+    },
+    {
+      "path": "A4-quality-batch43.json",
+      "sha256": "5d8da1e565886547b51160529edc96d59a49c52f9dc9865957e8170a07c792e0"
+    },
+    {
+      "path": "coordinator-en-batch43.json",
+      "sha256": "28beb379158c822aa8ef357f54ead9e8dbdee967bb3725bb72d347bec89d9bc9"
+    },
+    {
+      "path": "A3-en-batch43.json",
+      "sha256": "3f5d764845c94d54ae724cf16f9a21565b35e0f468d9f952eb649b779e972ea7"
+    },
+    {
+      "path": "A3-en-batch43-receipt.json",
+      "sha256": "528d96d7bd96b82339d47c83fe2e86338c9e6a09a3b5cabe2bc05c74745ef4a9"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-09T00:48:03.576689+08:00",
+  "inputs": [
+    {
+      "path": "A4-candidates-batch39.json",
+      "sha256": "583fb250f4bf87f926fce6f795186cd33c0699589b2f774a7a8a078d7a171f83"
+    },
+    {
+      "path": "A4-candidates-batch40.json",
+      "sha256": "5e5b5cf52459a7b38bdeb5ae87b34ed5f3ccba32c1ed8a2bc904bd4db05fff66"
+    },
+    {
+      "path": "coordinator-en-batch40.json",
+      "sha256": "8c9e1d56b5a5963c086511c3b3212e9d1009574a57e887ba07e73b8a0a38eeb2"
+    },
+    {
+      "path": "A3-cn-batch33.json",
+      "sha256": "c52519eca6ea430ea230ddf0ebb4bf02cd91a9eee2bb44328b079d0990211573"
+    },
+    {
+      "path": "A3-en-batch39.json",
+      "sha256": "b0df81dc104e991c3ca2f10251e1d6114af180525af652c04eb8d73d368736ca"
+    },
+    {
+      "path": "A3-en-batch40.json",
+      "sha256": "1d7351e42bf1bda6b58060f9bceba468cdfa855c90ec9eb1e22cc84ed2e7fa8a"
+    },
+    {
+      "path": "A3-en-batch40.md",
+      "sha256": "44aa8e225d6dc58d47d67f4b6c0288ce188e9215abf3fb05d73bdae0c2992148"
+    },
+    {
+      "path": "A3-en-batch40-receipt.json",
+      "sha256": "7930a01084c9b89fef62d5bbaeed6242d8c5d22cf3029baaf5452933ce6973a1"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E43",
+      "chinese_id": "C1-C50",
+      "chinese": "陆行鱼",
+      "english": "Intertidal",
+      "family_id": "C1-BF-terrestrial-fish-as-cross-medium-actor",
+      "material_id": "C1-M62",
+      "suggested_pronunciation": "采用词典in-ter-TIE-dul，/ˌɪntərˈtaɪdəl/，四个音节，重音在TIE；完整词原拼法不改。",
+      "type": "完整既有生态地理形容词，作为所处世界的主题称呼",
+      "formation": "不再用陆、岸、鱼互换重组，而选择原机构文中实际出现的intertidal：潮间带的。词典释义对应低潮线以上且受到潮水淹没的沿岸区域。它给中文的行动主角配一个真实的活动世界，不把名字硬钉成物种，也未为避重截词或随机造字母。",
+      "bilingual_relation": "中文说鱼可以在水外活动，英文说它实际生活的水陆交界条件。NParks正文将该鱼置于intertidal zone，同时说明陆上呼吸与运动支持；这不是两个漂亮意象并排，而是同一行动者与其环境的配对。英文不单独包含鱼或行动，中文承担主角，来源承担条件。",
+      "meaning": "研究行动者与可变化环境之间的关系。水与陆在这里不只是抽象两极，而是具体条件交替出现的生态位置；不把它说成无条件适应所有世界。",
+      "shortcoming": "四音节比前两案长，tidal不熟悉者需要确认重音与拼写；海岸生态、环境咨询或潮汐能源首感可能强于AI。形容词作为机构名可成立，但英文不直接出现鱼，须中英文共同讲明关系，不能凭真实词汇掩盖行业误读。",
+      "boundary": "Intertidal不意味着每种潮间带鱼都能离水、所有条件都能生存，也不是原鱼通过训练新增器官或智力提升。该鱼水外活动仍依赖鳃室储水、皮肤与胸鳍等条件，潮间带事实不证明任何模型能力。不是量子相变、泛化二次成长或所有未知世界；中文游戏/陆行鸟/水产及登记风险照留，英语未查使用。",
+      "source_urls": [
+        "https://biodiversitysg.nparks.gov.sg/our-biodiversity/marine-fishes/giant-mudskipper/",
+        "https://www.merriam-webster.com/dictionary/intertidal"
+      ],
+      "read_scope": "NParks沿本人batch39已实际阅读19–48，特别34/45/48，45原文明确intertidal zone。本次新实读Merriam-Webster intertidal31–47及85–93，核完整词、读法和低潮线以上/涨潮覆盖之义；未新读外链实验、观察潮间带或目读图片。",
+      "rework_attempt": 2,
+      "remaining_reworks": 0,
+      "status": "english_quality_proposal_not_usage_screened",
+      "replaces_candidate_id": "C1-E42",
+      "return_reason": "原A3-en40及root核作者本人2024独立LandFish学校游戏项目，为具名软件，不冒商业正式发售；历史安卓、Apple版权和公司索引分层，不混作官方登记。Shorefin历史商业及近听软件为此前不同性质避让。"
+    }
+  ],
+  "excluded_upstream": [
+    {
+      "chinese_id": "C1-C51",
+      "chinese": "斑马线",
+      "eligible_english_inputs": 0,
+      "actual_english_creation": 0,
+      "reason": "原A3九查询后可读第三方深圳市斑马线科技有限公司同核心使用，原root接受；不是仅道路通名或斑马App异名。第三方非本次官方存续/9与42核准，不配英文救回。"
+    }
+  ],
+  "usage_screening_performed": false
+}

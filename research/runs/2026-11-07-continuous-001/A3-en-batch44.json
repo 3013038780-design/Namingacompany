@@ -1,0 +1,145 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-09T01:07:59.048833+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch44.md",
+      "sha256": "85aaa27bede091062e22495ec976a6ea5b83a86eb85e5bb8312242d65296672b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch44.json",
+      "sha256": "eb7febaadcd744e49697ac8314db66e83e2d6c3ee5a2b4c69d5b8e178b6f6569"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch44.json",
+      "sha256": "06469ffb12535905f963748e24412a21d43e64b8fc6307b02527245f58b62c0b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch44.json",
+      "sha256": "b680af4fcc5bf438aa312c9b0a8c177db70956cdce803a05ac01dd3a3152c8b0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch44.json",
+      "sha256": "c04b7bed0b1ac681ee0d3eaf82545809ea77d4658bc5a953a7d51119702b04f7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch34.json",
+      "sha256": "4c75c10ef5911955763946a0553d328c871d388a226bbf7eabc590cbda6b3e80"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch42.json",
+      "sha256": "5e350022ee8708bf195c6b66487e8df47b093c8c63bcefc21679469ba8e60d4a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch43.json",
+      "sha256": "3f5d764845c94d54ae724cf16f9a21565b35e0f468d9f952eb649b779e972ea7"
+    }
+  ],
+  "query_count": 7,
+  "completed_search_result_count": 7,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-E46",
+      "chinese_id": "C1-C52",
+      "chinese": "试飞员",
+      "english": "Trialnaut",
+      "query_logs": [
+        {
+          "query": "\"Trialnaut\"",
+          "executed_on": "2026-11-09",
+          "summary": "精确完整词返回无结果，仅此公开索引观察，不称全球无使用。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Trialnaut\" company labs",
+          "executed_on": "2026-11-09",
+          "summary": "完整词公司Lab组无结果，不等公司登记核准。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Trialnaut\" AI model",
+          "executed_on": "2026-11-09",
+          "summary": "完整词AI模型组无结果，未确证本名AI公司或模型。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Trialnaut\" software product",
+          "executed_on": "2026-11-09",
+          "summary": "完整词软件产品组无结果，未确证独立本名软件。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Trial Naut\"",
+          "executed_on": "2026-11-09",
+          "summary": "分写组NAUT临床试验与NAUT API的trial普通用法，实际开法兰克福官方一页PDF短名NAUT，非整体Trial Naut商业品牌。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Trialnot\"",
+          "executed_on": "2026-11-09",
+          "summary": "近听Trialnot组HEGAY ONE页FREE TRIALNot started、TrialNot for sale及临床trialNot applicable排版拼接；实际开主线L33确认，不当Trialnot软件。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Trialnaught\"",
+          "executed_on": "2026-11-09",
+          "summary": "近听Trialnaught完整词无结果，不据音近通用naught另判占用。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "pass_public_use_initial_screen_only_pending_postscreen_and_coordinator",
+      "reason": "7有效查询未确证完整本名公司/模型/独立软件或同核心商业品牌；NAUT临床试验与Trialnot拼接线索已可读正文消歧。不把无结果当全球唯一或登记通过，交原A4非数字风险复审及主控终审，不能自行入库。",
+      "evidence": [
+        {
+          "url": "https://registerffm.de/uct_trial/pdf/uct_de/kurzprotokoll_.pdf?id=901&oid=12:5:5",
+          "access": "primary_research_registry_one_page_pdf_text_read",
+          "finding": "实际一页PDF L2–5科学标题普通trial、Kurztitel NAUT；L11 sponsor Heidelberg/L18 Frankfurt CTCN。不是Trialnaut或Trial Naut独立整体品牌。仅核用名，未作医学解释或背书疗效。"
+        },
+        {
+          "url": "https://one.hegavora.com/account",
+          "access": "primary_product_account_preview_body_read",
+          "finding": "L31–35 ACCOUNT PREVIEW、FREE TRIALNot started；L43–46实际产品HEGAY ONE 20/PRO。Trialnot为试用标记与Not started排版拼接，不是独立品牌。仅读公开预览未登录操作。"
+        },
+        {
+          "url": "https://www.orpha.net/en/research-trials/clinical-trial/520679",
+          "access": "search_index_only_open_403",
+          "finding": "该临床条目实际open403，未称正文已读；改用可读法兰克福原短协议核NAUT名称，不重复403。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Trialnaut",
+          "scope": "2026-11-09本次逐名入口不可访问，不称无登记。"
+        }
+      },
+      "risks": [
+        "新拟称非词典合词，trial诉讼/临床/试用首感",
+        "naut科幻角色和not/naught首次听写成本",
+        "中文职业/航空培训招聘及雷电试飞员VR近名风险照留",
+        "公司与9/42、境外登记未清，当前仅公开初筛",
+        "最后R2余0，通过仍须A4实际postscreen及主控终审"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "原run两真实阳性对照，0新增。",
+  "claim_limits": "公开使用初筛不等全球未注册/法律核准；后审尚未完成。",
+  "passed_english_candidate_ids": [
+    "C1-E46"
+  ],
+  "returned_english_candidate_ids": [],
+  "awaiting_final_acceptance": true
+}
