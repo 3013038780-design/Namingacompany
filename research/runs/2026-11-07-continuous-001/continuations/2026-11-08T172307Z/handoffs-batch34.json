@@ -1,0 +1,379 @@
+{
+  "accepted_at": "2026-11-09T02:05:29.159585+08:00",
+  "same_research_run": true,
+  "new_A1_claimed": false,
+  "whole_production_compliance_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "from": "verified_existing_A1",
+      "to": "same_A2",
+      "status": "accepted",
+      "reason": "Sakana主体、Sony有据整体融合进入生命结构关系；B010字节跳动仅基线语义分析，未冒本次新核起名动机。",
+      "refs": [
+        {
+          "path": "A1.json",
+          "sha256": "b3bbd78ef83733b79b7033404dc29727a7e0c749988d06218820850f4de520be"
+        },
+        {
+          "path": "A1-role-expansion01.json",
+          "sha256": "bbb6c1f816e0942aa2ee0e5e7cca52437db41e909ceaa7a62fde0583a374dec4"
+        },
+        {
+          "path": "A1-role-expansion02.json",
+          "sha256": "6a127ec64699a257e20f7959a2ce3309e8cefe7c2c117134c2220612a3dc3181"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "search-plan-role-expansion02.json",
+          "sha256": "f86b3c18c74f778d2a6fb4258fed662584879e5747bb0116e0cefc6288d98d1a"
+        },
+        {
+          "path": "continuations/2026-11-08T151606Z/plan-role-expansion02-review.json",
+          "sha256": "f5447836316e7ce5361681ccd0f5b5108b05e8eb761d035a3db15899c16d6867"
+        },
+        {
+          "path": "A2-creation-execution-batch34.json",
+          "sha256": "e3b6f43b01ed9916ea1270e7a33d2f9e1a9927e14751f14a06526859d501bded"
+        }
+      ],
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "A1.json",
+          "sha256": "b3bbd78ef83733b79b7033404dc29727a7e0c749988d06218820850f4de520be"
+        },
+        {
+          "path": "A1-role-expansion01.json",
+          "sha256": "bbb6c1f816e0942aa2ee0e5e7cca52437db41e909ceaa7a62fde0583a374dec4"
+        },
+        {
+          "path": "A1-role-expansion02.json",
+          "sha256": "6a127ec64699a257e20f7959a2ce3309e8cefe7c2c117134c2220612a3dc3181"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "search-plan-role-expansion02.json",
+          "sha256": "f86b3c18c74f778d2a6fb4258fed662584879e5747bb0116e0cefc6288d98d1a"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A2-creation-execution-batch34.json",
+          "sha256": "e3b6f43b01ed9916ea1270e7a33d2f9e1a9927e14751f14a06526859d501bded"
+        }
+      ],
+      "accepted_at": "2026-11-09T02:05:29.159585+08:00"
+    },
+    {
+      "id": "H2",
+      "from": "same_A2",
+      "to": "root",
+      "status": "accepted",
+      "reason": "同素材菌缆/菌络两个已选字面均双25；同主ID家族修订不计新增。最后R2活络只是内部未选词，不造数值/未查写占用。原观察/主控原摘要图注与模型限制实质核验。",
+      "refs": [
+        {
+          "path": "materials-extension32.json",
+          "sha256": "0ba06b759f12d13f3b3687e2bd39df0486b8a5f89a3216513a46769f66d09717"
+        },
+        {
+          "path": "A2-candidates-batch34.json",
+          "sha256": "fbe0a907fd636d02e82093a67bd795aa7fb5cf1195006feca2e02cad46d30b8e"
+        },
+        {
+          "path": "A2-quality-batch34.json",
+          "sha256": "184f049f641de9eb79dbc864c5e006c8ff70e7ae0959a7d268b6154f0ca298ae"
+        },
+        {
+          "path": "coordinator-cn-batch34.json",
+          "sha256": "1327e31fbe1a05df1f83a26461ab4f0aef51f99544f4522c7c61d888874faa1b"
+        },
+        {
+          "path": "coordinator-family-review-batch34.json",
+          "sha256": "e5b7d9dc4938a02be2dd45baa1dab8a2bb03d5f2943559a52e5eaa9ebf9ca617"
+        },
+        {
+          "path": "A2-candidates-batch35.json",
+          "sha256": "7fe99aef11565c71be446605b2b99a57246d8a8818c4e38f204cebc1fde589bd"
+        },
+        {
+          "path": "A2-quality-batch35.json",
+          "sha256": "0c42ba026d4796137dce7db7b2895bedfc9403b85cfedd58a4e363e0efdf8b8c"
+        },
+        {
+          "path": "coordinator-cn-batch35.json",
+          "sha256": "6f003292334ffc65914a7bf05c79587847ca429341f668813ad46ff7c523d3ce"
+        },
+        {
+          "path": "coordinator-family-review-batch35.json",
+          "sha256": "f1e4a73a8b9d9598fed918762ad1046f932a66f08150abfa71d133430ffc00f1"
+        },
+        {
+          "path": "A2-creation-execution-batch36.json",
+          "sha256": "3b6c937c692f0cb5a4e54c6942d6a2344770aabe3aebb1aafc4d9168ef1173a9"
+        },
+        {
+          "path": "coordinator-cn-batch36.json",
+          "sha256": "ae7fd290600b6dfde1f665e233f0d2a225f678c39853bb687cee171486de8939"
+        }
+      ],
+      "candidate_ids": [
+        "C1-C55"
+      ],
+      "input_refs": [
+        {
+          "path": "A2-candidates-batch34.json",
+          "sha256": "fbe0a907fd636d02e82093a67bd795aa7fb5cf1195006feca2e02cad46d30b8e"
+        },
+        {
+          "path": "A2-quality-batch34.json",
+          "sha256": "184f049f641de9eb79dbc864c5e006c8ff70e7ae0959a7d268b6154f0ca298ae"
+        },
+        {
+          "path": "A2-candidates-batch35.json",
+          "sha256": "7fe99aef11565c71be446605b2b99a57246d8a8818c4e38f204cebc1fde589bd"
+        },
+        {
+          "path": "A2-candidates-batch36.json",
+          "sha256": "ebefd70461b2e4faaa6a4c6f65be1d403c5632e018b04f4b3fb337d1ca9b228e"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "coordinator-cn-batch34.json",
+          "sha256": "1327e31fbe1a05df1f83a26461ab4f0aef51f99544f4522c7c61d888874faa1b"
+        },
+        {
+          "path": "coordinator-family-review-batch34.json",
+          "sha256": "e5b7d9dc4938a02be2dd45baa1dab8a2bb03d5f2943559a52e5eaa9ebf9ca617"
+        },
+        {
+          "path": "coordinator-cn-batch35.json",
+          "sha256": "6f003292334ffc65914a7bf05c79587847ca429341f668813ad46ff7c523d3ce"
+        },
+        {
+          "path": "coordinator-cn-batch36.json",
+          "sha256": "ae7fd290600b6dfde1f665e233f0d2a225f678c39853bb687cee171486de8939"
+        }
+      ],
+      "accepted_at": "2026-11-09T02:05:29.159585+08:00"
+    },
+    {
+      "id": "H3",
+      "from": "root",
+      "to": "same_A3",
+      "status": "returned",
+      "reason": "菌缆9新查询为同音科技风险主动避让，菌络8新查询为精确独立游戏拒绝；新版重查未继承旧9次，最后实际0选稿验收。",
+      "refs": [
+        {
+          "path": "A3-cn-batch36.json",
+          "sha256": "179f02eb6bb150c315373aa8d2b1d54de35cdc8ff67198a10d144b97636db904"
+        },
+        {
+          "path": "A3-cn-batch37.json",
+          "sha256": "3d05465594476990286f0b034c05aebc8610b81f9e5d3f279cf2a4f18855aee1"
+        },
+        {
+          "path": "A3-cn-batch38.json",
+          "sha256": "e2568e86389e2fe8fe4856fb28ca2028ee35fc811a215bef4ffeff8a99d4bd6b"
+        },
+        {
+          "path": "continuations/2026-11-08T172307Z/root-cn36-review.json",
+          "sha256": "f3db387b7c28af7a2312f7cd91bcbbb6c7efa4d0ab901da85c2b43087f7734f5"
+        },
+        {
+          "path": "continuations/2026-11-08T172307Z/root-cn37-review.json",
+          "sha256": "4f248d4cafe04c35ea56da7c20e5e5fffee82eb723aa92efc0414490679a9702"
+        }
+      ],
+      "candidate_ids": [
+        "C1-C55"
+      ],
+      "terminal_state": "zero_qualified_after_actual_rework",
+      "input_refs": [
+        {
+          "path": "coordinator-cn-batch34.json",
+          "sha256": "1327e31fbe1a05df1f83a26461ab4f0aef51f99544f4522c7c61d888874faa1b"
+        },
+        {
+          "path": "coordinator-family-review-batch34.json",
+          "sha256": "e5b7d9dc4938a02be2dd45baa1dab8a2bb03d5f2943559a52e5eaa9ebf9ca617"
+        },
+        {
+          "path": "coordinator-cn-batch35.json",
+          "sha256": "6f003292334ffc65914a7bf05c79587847ca429341f668813ad46ff7c523d3ce"
+        },
+        {
+          "path": "coordinator-family-review-batch35.json",
+          "sha256": "f1e4a73a8b9d9598fed918762ad1046f932a66f08150abfa71d133430ffc00f1"
+        },
+        {
+          "path": "coordinator-cn-batch36.json",
+          "sha256": "ae7fd290600b6dfde1f665e233f0d2a225f678c39853bb687cee171486de8939"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-cn-batch38.json",
+          "sha256": "e2568e86389e2fe8fe4856fb28ca2028ee35fc811a215bef4ffeff8a99d4bd6b"
+        },
+        {
+          "path": "A3-cn-batch38-receipt.json",
+          "sha256": "10df01d8496ce0adc3dfbab8bdba4bd32d139ce8279959f92a806778534a59bc"
+        },
+        {
+          "path": "A3-cn-batch36.json",
+          "sha256": "179f02eb6bb150c315373aa8d2b1d54de35cdc8ff67198a10d144b97636db904"
+        },
+        {
+          "path": "A3-cn-batch37.json",
+          "sha256": "3d05465594476990286f0b034c05aebc8610b81f9e5d3f279cf2a4f18855aee1"
+        }
+      ],
+      "accepted_at": "2026-11-09T02:05:29.159585+08:00"
+    },
+    {
+      "id": "H4",
+      "from": "same_A3",
+      "to": "same_A4",
+      "status": "zero_input",
+      "reason": "原A4真实读全部最终取舍/查询，中文2返工尽，0合格英语输入，无新英文/分/查询。",
+      "refs": [
+        {
+          "path": "A4-zero-input-batch28.json",
+          "sha256": "77bf6b0cb10e67c29a9dbb19518680ede0f696b59ca37562e25fbc898422ba3d"
+        },
+        {
+          "path": "A4-zero-input-batch28-receipt.json",
+          "sha256": "ed765467d1b817e2d338d614254d73f4e624eecb7318e833de2733d9eb15adce"
+        }
+      ],
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "A3-cn-batch38.json",
+          "sha256": "e2568e86389e2fe8fe4856fb28ca2028ee35fc811a215bef4ffeff8a99d4bd6b"
+        },
+        {
+          "path": "A3-cn-batch38-receipt.json",
+          "sha256": "10df01d8496ce0adc3dfbab8bdba4bd32d139ce8279959f92a806778534a59bc"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A4-zero-input-batch28.json",
+          "sha256": "77bf6b0cb10e67c29a9dbb19518680ede0f696b59ca37562e25fbc898422ba3d"
+        },
+        {
+          "path": "A4-zero-input-batch28-receipt.json",
+          "sha256": "ed765467d1b817e2d338d614254d73f4e624eecb7318e833de2733d9eb15adce"
+        }
+      ],
+      "accepted_at": "2026-11-09T02:05:29.159585+08:00"
+    },
+    {
+      "id": "H5",
+      "from": "same_A4",
+      "to": "same_A3",
+      "status": "zero_input",
+      "reason": "原A4真实零输出交同原A3，不将未开始当零、不占英语编号。",
+      "refs": [
+        {
+          "path": "A4-zero-input-batch28.json",
+          "sha256": "77bf6b0cb10e67c29a9dbb19518680ede0f696b59ca37562e25fbc898422ba3d"
+        }
+      ],
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "A4-zero-input-batch28.json",
+          "sha256": "77bf6b0cb10e67c29a9dbb19518680ede0f696b59ca37562e25fbc898422ba3d"
+        },
+        {
+          "path": "A4-zero-input-batch28-receipt.json",
+          "sha256": "ed765467d1b817e2d338d614254d73f4e624eecb7318e833de2733d9eb15adce"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-en-zero-batch28.json",
+          "sha256": "9de003c8a4e0b65db27e6ce97536578c939796e79f16cd821a458e0c7db0c090"
+        }
+      ],
+      "accepted_at": "2026-11-09T02:05:29.159585+08:00"
+    },
+    {
+      "id": "H6",
+      "from": "same_A3",
+      "to": "root",
+      "status": "zero_input",
+      "reason": "同一原A3实际核66项SHA，0英语/查询，三种失败性质分明。",
+      "refs": [
+        {
+          "path": "A3-en-zero-batch28.json",
+          "sha256": "9de003c8a4e0b65db27e6ce97536578c939796e79f16cd821a458e0c7db0c090"
+        },
+        {
+          "path": "A3-en-zero-batch28-receipt.json",
+          "sha256": "1c7c6ff89cdd6c4c1e4f8e4b569b520f386de28ad68b5145a67f0368c4ded8c9"
+        }
+      ],
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "A3-en-zero-batch28.json",
+          "sha256": "9de003c8a4e0b65db27e6ce97536578c939796e79f16cd821a458e0c7db0c090"
+        },
+        {
+          "path": "A3-en-zero-batch28-receipt.json",
+          "sha256": "1c7c6ff89cdd6c4c1e4f8e4b569b520f386de28ad68b5145a67f0368c4ded8c9"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "continuations/2026-11-08T172307Z/root-zero-terminal-review.json",
+          "sha256": "7cdf400a7f0c71494bd0c247fcf3d84983feac5dac861fefca435d9530bc8a1c"
+        }
+      ],
+      "accepted_at": "2026-11-09T02:05:29.159585+08:00"
+    },
+    {
+      "id": "H7",
+      "from": "root",
+      "to": "catalog",
+      "status": "zero_input",
+      "reason": "同族两返工已用尽，均无合格中英配对，不R3/换新编号充数；整体工程继续下个独立关系。",
+      "refs": [
+        {
+          "path": "continuations/2026-11-08T172307Z/root-C55-terminal-review.json",
+          "sha256": "de24e87c53465ffe34c5545eed17081ab4f1c5aa19fe58aeca7dfb5a45b51f46"
+        },
+        {
+          "path": "continuations/2026-11-08T172307Z/decisions-through-batch36.json",
+          "sha256": "df179aaf42e52874a807e9c4e9c0929ff9add5e8262a3b1bc6c0adc27de33b98"
+        }
+      ],
+      "candidate_ids": [],
+      "terminal_decision": "no_admission",
+      "input_refs": [
+        {
+          "path": "continuations/2026-11-08T172307Z/root-zero-terminal-review.json",
+          "sha256": "7cdf400a7f0c71494bd0c247fcf3d84983feac5dac861fefca435d9530bc8a1c"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "continuations/2026-11-08T172307Z/decisions-through-batch36.json",
+          "sha256": "df179aaf42e52874a807e9c4e9c0929ff9add5e8262a3b1bc6c0adc27de33b98"
+        }
+      ],
+      "accepted_at": "2026-11-09T02:05:29.159585+08:00"
+    }
+  ]
+}

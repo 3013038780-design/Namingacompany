@@ -1,0 +1,88 @@
+{
+  "reviewed_at": "2026-11-09T01:28:24.302276+08:00",
+  "independence": "Read producer preview batch33 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C53",
+      "name": "剪贴板",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "现成完整三字计算称呼无需教读",
+          "counter_association": "通名更像功能菜单"
+        },
+        "distinctiveness": {
+          "reason": "有清楚的屏幕中介与可取用内容画面",
+          "counter_association": "同类办公软件和软件管理器拥挤"
+        },
+        "lab_fit": {
+          "reason": "日常计算对象可承载内容跨任务复用的基础能力研究身份",
+          "counter_association": "抄袭搬运及单功能工具首感明显"
+        },
+        "grounding": {
+          "reason": "复制暂存选择取用来自同一实际机制而非拆字好寓意",
+          "counter_association": "受开启历史账号格式重启与固定项条件约束"
+        },
+        "extension": {
+          "reason": "可做母品牌但单项管理器气质显著使延展谨慎",
+          "counter_association": "不能把永久学习或模型训练硬加给暂存工具"
+        },
+        "semantic_coherence": {
+          "reason": "内容从上一上下文被取入下一工作贯穿同一关系",
+          "counter_association": "若只讲外部记忆就落旧上位家族"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "C1-C54",
+      "name": "红皇后",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "现成完整人物称呼三字顺口",
+          "counter_association": "女王反派与影视游戏首感"
+        },
+        "distinctiveness": {
+          "reason": "文学人物及科学隐喻形成同一可记角色",
+          "counter_association": "不是红心女王且人物用名可能拥挤"
+        },
+        "lab_fit": {
+          "reason": "互动环境中的相对适应问题可承载演化与智能研究机构",
+          "counter_association": "女性消费品牌或内卷徒劳读法明显"
+        },
+        "grounding": {
+          "reason": "原著奔跑场景与实际原论文的红皇后条件关系有文献连接",
+          "counter_association": "小说不证明生物或AI规律也不是永远必须进化"
+        },
+        "extension": {
+          "reason": "角色可跨研究与产品而非一项算法",
+          "counter_association": "不能承诺每次努力必然领先"
+        },
+        "semantic_coherence": {
+          "reason": "变化世界与相对位置统一而非红热情后领导拆意",
+          "counter_association": "研究条件下持续演化或停滞均可出现"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

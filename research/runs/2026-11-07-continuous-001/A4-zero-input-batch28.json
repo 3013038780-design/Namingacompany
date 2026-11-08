@@ -1,0 +1,287 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 actual zero-qualified-input review",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-09T01:58:15.506723+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch34.json",
+      "sha256": "fbe0a907fd636d02e82093a67bd795aa7fb5cf1195006feca2e02cad46d30b8e"
+    },
+    {
+      "path": "A2-candidates-batch35.json",
+      "sha256": "7fe99aef11565c71be446605b2b99a57246d8a8818c4e38f204cebc1fde589bd"
+    },
+    {
+      "path": "A2-candidates-batch36.json",
+      "sha256": "ebefd70461b2e4faaa6a4c6f65be1d403c5632e018b04f4b3fb337d1ca9b228e"
+    },
+    {
+      "path": "A2-preview-batch36.md",
+      "sha256": "8d310d853d5b2c789d8ecc24f1b2782554b232997e8528591e8ca109b116e641"
+    },
+    {
+      "path": "A2-quality-batch36.json",
+      "sha256": "e4eb0e62cae1e7c30b566aaab91c327230b7295e5312b8f82269c54c970a610a"
+    },
+    {
+      "path": "A2-creation-execution-batch36.json",
+      "sha256": "3b6c937c692f0cb5a4e54c6942d6a2344770aabe3aebb1aafc4d9168ef1173a9"
+    },
+    {
+      "path": "coordinator-cn-batch34.json",
+      "sha256": "1327e31fbe1a05df1f83a26461ab4f0aef51f99544f4522c7c61d888874faa1b"
+    },
+    {
+      "path": "coordinator-cn-batch35.json",
+      "sha256": "6f003292334ffc65914a7bf05c79587847ca429341f668813ad46ff7c523d3ce"
+    },
+    {
+      "path": "coordinator-cn-batch36.json",
+      "sha256": "ae7fd290600b6dfde1f665e233f0d2a225f678c39853bb687cee171486de8939"
+    },
+    {
+      "path": "A3-cn-batch36.json",
+      "sha256": "179f02eb6bb150c315373aa8d2b1d54de35cdc8ff67198a10d144b97636db904"
+    },
+    {
+      "path": "A3-cn-batch36-receipt.json",
+      "sha256": "d6ca85ac05b6d1236bf34196ec338b221960dd8ff85a10bd5c4cb7a643bcf231"
+    },
+    {
+      "path": "A3-cn-batch37.json",
+      "sha256": "3d05465594476990286f0b034c05aebc8610b81f9e5d3f279cf2a4f18855aee1"
+    },
+    {
+      "path": "A3-cn-batch37-receipt.json",
+      "sha256": "9defb2212cf264aa7da7386035acde1af29f2b3021bde2bf9bccc982434d9096"
+    },
+    {
+      "path": "A3-cn-batch38.json",
+      "sha256": "e2568e86389e2fe8fe4856fb28ca2028ee35fc811a215bef4ffeff8a99d4bd6b"
+    },
+    {
+      "path": "A3-cn-batch38-receipt.json",
+      "sha256": "10df01d8496ce0adc3dfbab8bdba4bd32d139ce8279959f92a806778534a59bc"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "receipt": "A3-cn-batch36-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch34.md",
+      "sha256": "fa27a14578fd5a0a1a8f147f77d29a5e183d4a194eade860870420e1b2838ed4",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch36-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch34.json",
+      "sha256": "fbe0a907fd636d02e82093a67bd795aa7fb5cf1195006feca2e02cad46d30b8e",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch36-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch34.json",
+      "sha256": "184f049f641de9eb79dbc864c5e006c8ff70e7ae0959a7d268b6154f0ca298ae",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch36-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch34.json",
+      "sha256": "e3b6f43b01ed9916ea1270e7a33d2f9e1a9927e14751f14a06526859d501bded",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch36-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension32.json",
+      "sha256": "0ba06b759f12d13f3b3687e2bd39df0486b8a5f89a3216513a46769f66d09717",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch36-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch34.json",
+      "sha256": "1327e31fbe1a05df1f83a26461ab4f0aef51f99544f4522c7c61d888874faa1b",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch36-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch34.json",
+      "sha256": "e5b7d9dc4938a02be2dd45baa1dab8a2bb03d5f2943559a52e5eaa9ebf9ca617",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch36-receipt.json",
+      "path": "A3-cn-batch36.json",
+      "sha256": "179f02eb6bb150c315373aa8d2b1d54de35cdc8ff67198a10d144b97636db904",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch36-receipt.json",
+      "path": "A3-cn-batch36.md",
+      "sha256": "d60a4cd1a0654854b3b19256615e3ffb4370c36df7833ddb3f77992e1beda836",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch37-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch35.md",
+      "sha256": "a913ceb29527e968bf75e46b9bb66c8e4e560001d7aaa7990020835e661836a7",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch37-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch35.json",
+      "sha256": "7fe99aef11565c71be446605b2b99a57246d8a8818c4e38f204cebc1fde589bd",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch37-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch35.json",
+      "sha256": "0c42ba026d4796137dce7db7b2895bedfc9403b85cfedd58a4e363e0efdf8b8c",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch37-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch35.json",
+      "sha256": "6f9829d465fc4be5d4f34e8c6929c0b4bb2660d8dfc10e03da4f9506f833f37a",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch37-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension32.json",
+      "sha256": "0ba06b759f12d13f3b3687e2bd39df0486b8a5f89a3216513a46769f66d09717",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch37-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch35.json",
+      "sha256": "6f003292334ffc65914a7bf05c79587847ca429341f668813ad46ff7c523d3ce",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch37-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch35.json",
+      "sha256": "f1e4a73a8b9d9598fed918762ad1046f932a66f08150abfa71d133430ffc00f1",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch37-receipt.json",
+      "path": "A3-cn-batch37.json",
+      "sha256": "3d05465594476990286f0b034c05aebc8610b81f9e5d3f279cf2a4f18855aee1",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch37-receipt.json",
+      "path": "A3-cn-batch37.md",
+      "sha256": "1ea3321188cee0a5c6fdb431fdb72ecaf75623b63aecec3649503a3bb18c1a81",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch38-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch36.json",
+      "sha256": "ebefd70461b2e4faaa6a4c6f65be1d403c5632e018b04f4b3fb337d1ca9b228e",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch38-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch36.md",
+      "sha256": "8d310d853d5b2c789d8ecc24f1b2782554b232997e8528591e8ca109b116e641",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch38-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch36.json",
+      "sha256": "e4eb0e62cae1e7c30b566aaab91c327230b7295e5312b8f82269c54c970a610a",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch38-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch36.json",
+      "sha256": "3b6c937c692f0cb5a4e54c6942d6a2344770aabe3aebb1aafc4d9168ef1173a9",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch38-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch36.json",
+      "sha256": "ae7fd290600b6dfde1f665e233f0d2a225f678c39853bb687cee171486de8939",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch38-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch36.json",
+      "sha256": "179f02eb6bb150c315373aa8d2b1d54de35cdc8ff67198a10d144b97636db904",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch38-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch36-receipt.json",
+      "sha256": "d6ca85ac05b6d1236bf34196ec338b221960dd8ff85a10bd5c4cb7a643bcf231",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch38-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch37.json",
+      "sha256": "3d05465594476990286f0b034c05aebc8610b81f9e5d3f279cf2a4f18855aee1",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch38-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch37-receipt.json",
+      "sha256": "9defb2212cf264aa7da7386035acde1af29f2b3021bde2bf9bccc982434d9096",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch38-receipt.json",
+      "path": "A3-cn-batch38.json",
+      "sha256": "e2568e86389e2fe8fe4856fb28ca2028ee35fc811a215bef4ffeff8a99d4bd6b",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch38-receipt.json",
+      "path": "A3-cn-batch38.md",
+      "sha256": "08b03642cfc49d3f65dcc0b4b1ea7f22126dbe53255384979f0f352080425274",
+      "match": true
+    }
+  ],
+  "candidate_id": "C1-C55",
+  "family_id": "C1-BF-fungal-cable-as-living-transport-entity",
+  "actual_chinese_families_reviewed": 1,
+  "submitted_chinese_spellings": [
+    "菌缆",
+    "菌络"
+  ],
+  "version_history": [
+    {
+      "stage": "original",
+      "name": "菌缆",
+      "nature": "同音近形科技混淆hold，非精确同名使用",
+      "reason": "军缆与菌缆同读、同缆字，第三方具体科技/网络/软件业务主体可读。Junlan电子厂另为拼音风险，不混同中文主体；未定位政府目标行不冒官方登记。"
+    },
+    {
+      "stage": "R1",
+      "name": "菌络",
+      "nature": "具名独立软件中文核心使用拒绝",
+      "reason": "原A3实际TapTap菌络Mycelia开发者发布生态模拟游戏DEMO，非菌落术语；不冒正式商业发售或AI模型。另405共生页和历史君络目标未读不作为唯一主证。"
+    },
+    {
+      "stage": "R2",
+      "name": null,
+      "nature": "真实创作取舍后无合格选稿，非上游未开始",
+      "reason": "活络仅内部试探因保健/处事灵活首感及研究关系偏移未选、未查；不算第三正式中文版本，不称已被使用。"
+    }
+  ],
+  "final_new_selected_chinese_revisions": 0,
+  "qualified_chinese_input_count": 0,
+  "eligible_english_inputs": 0,
+  "actual_english_creation": 0,
+  "actual_new_scores": 0,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "english_candidates": [],
+  "decision": "completed_actual_zero_qualified_chinese_input_check_family_closed",
+  "remaining_chinese_reworks": 0,
+  "no_R3": true,
+  "reading_boundary": "实际读取A2batch34/35关键原稿、最后batch36四档、主控中文34/35/36与原A3 CN36/37/38及各回执；批量输出截断的CN37/38结果已另用结构化正文读回。receipt引用逐项实际SHA核验匹配。A3报告外部网页仅按其实际读取性质采用，本人未新开网页或通读论文。",
+  "registration_limits": "近音风险、精确产品使用、未选内部词分开；既有工商与9/42入口限制不被本次零检查解决，不冒登记核准或所有同族表达都已使用。",
+  "scope": "仅C55家族最终零匹配，不占EN45/E47，不为中文换英文救回，不停止其他关系后续研究。",
+  "unchanged": "原稿/评分/查询/receipt/库/队列/Git不改。",
+  "next": "same original live_a3 en-zero-batch28 actual final check"
+}

@@ -1,0 +1,155 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-08T17:23:07.339Z",
+  "completed_at": "2026-11-09T02:05:29.159585+08:00",
+  "status": "two_same_run_packages_and_two_CN_reworks_complete_zero_new_pairs",
+  "new_A1_research_claimed": false,
+  "A1_basis_reused": [
+    "A1.json",
+    "A1-role-expansion01.json",
+    "A1-role-expansion02.json",
+    "search-plan.json",
+    "search-plan-role-expansion02.json",
+    "continuations/2026-11-08T151606Z/plan-role-expansion02-review.json"
+  ],
+  "actual_A2": "/root/continuous_a2",
+  "actual_A3_same_cn_en": "/root/live_a3",
+  "actual_A4": "/root/continuous_a4",
+  "new_materials": 3,
+  "new_chinese_drafts": 3,
+  "new_chinese_families_explored": 3,
+  "new_selected_CN_revision_forms": 1,
+  "new_formally_submitted_literal_forms_including_revisions": 4,
+  "internal_unselected_words": [
+    {
+      "name": "活络",
+      "disposition": "最后R2内部质量试探未选，未市场查询，不计正式新候选或家族"
+    }
+  ],
+  "chinese_quality_passed": 3,
+  "chinese_revision_quality_passed": 1,
+  "chinese_public_use_passed": 0,
+  "new_english_versions": 0,
+  "english_quality_passed": 0,
+  "english_public_use_passed": 0,
+  "new_retained_families": 0,
+  "retained_pairs": [],
+  "evidence_holds": 1,
+  "new_evidence_holds": 0,
+  "new_A3_candidate_query_executions": 30,
+  "new_A3_search_results_returned": 30,
+  "new_A3_failed_or_unreturned_attempts": 0,
+  "new_root_candidate_query_executions": 0,
+  "root_new_source_discovery_queries_not_usage_queries": 1,
+  "cumulative_A3_candidate_query_executions": 647,
+  "cumulative_A3_search_results_returned": 646,
+  "root_additional_queries_prior_packet": 2,
+  "cumulative_recorded_candidate_query_executions": 649,
+  "cumulative_recorded_results_returned": 648,
+  "cumulative_materials": 68,
+  "cumulative_chinese_drafts": 55,
+  "cumulative_selected_chinese_literal_forms_including_revisions": 56,
+  "cumulative_english_versions": 45,
+  "counting_note": "中文主ID口径55，额外1个同族正式修订另列，共56已提交字面。内部活络非正式选稿，不加新主案/家族。英语仍45实际稿，零交接不占EN45/E47。",
+  "catalog_counts": {
+    "discussion_candidates": 29,
+    "research_reserves": 1,
+    "total_unique_families": 30,
+    "withdrawn_families": 1,
+    "historical_unique_families": 31
+  },
+  "reason": "本段0组新增合格配对。剪贴板与红皇后查到独立同名软件；菌缆因同音近形科技主体军缆主动避让（不是精确占用），同族修订菌络查到具名DEMO游戏菌络Mycelia，最后中文返工无合格选稿。3项新材料、3个中文主案、1个同族正式修订、30次新使用查询全部返回；没有制造英文。内部活络仅质量未选、未查，不写已被注册。各版本出处、短板与具体主体保留，总库仍29讨论+1储备。",
+  "query_breakdown": {
+    "C53_CN": 7,
+    "C54_CN": 6,
+    "C55_version1_CN": 9,
+    "C55_version2_CN": 8,
+    "C55_last_CN_no_output": 0,
+    "zeroEN27": 0,
+    "zeroEN28": 0
+  },
+  "source_sampling": {
+    "new_materials": 3,
+    "root_new_materials_core_read": 3,
+    "minimum_required": 1,
+    "scope": "root实际微软134–197、Carroll第二章274–325指定片段、2016作者Significance/Abstract34–89；新真菌论文root原作者PubMed摘要245–249/原图注251–296而非全方法，原A2首次PMC94–130的范围另保留。均未实际操作私人剪贴板、观察图像/野外或复现实验。2007/2016材料非近90日新闻，foreign古典文学不是中国古文，古文仍4/68，S3主类保守15/68，不改类补比例。"
+  },
+  "controls_and_registration": "原run2阳性对照与大陆GSXT/CNIPA旧403准确复用，不冒本段新对照/逐类核准。各名字境外逐名入口限制按原A3；第三方军缆正文不是官方现时存续核准，DEMO不冒正式商业发售。",
+  "access_limits": "Apple原A3本次实际读到官方App条目，root三种访问均失败，分别如实记录；不以失败推翻已观测内容，也不冒root亲读。PMC验证码/作者PDF502/ORA403/欧洲API失败已停，从可读PubMed同原论文作者摘要/图注核核心，不把失败或搜索摘要当全文。",
+  "prior_evidence_hold": "活变量/Maymatter无新原证不重访旧403，不增加耗尽英语返工。",
+  "whole_production_compliance_claimed": false,
+  "evidence_refs": [
+    {
+      "path": "materials-extension31.json",
+      "sha256": "03c8710f5a7025054e9420ab44041b5f63aaf91ae1d35764834d797c9e120d99"
+    },
+    {
+      "path": "A2-creation-execution-batch33.json",
+      "sha256": "6f6319c9da50d96e0fcc8e63951d26dad35709efc7f09ff30eb0b4dc11bc2801"
+    },
+    {
+      "path": "A3-cn-batch35.json",
+      "sha256": "9bdf67b4be90bc395f58f8811928bbee47d78fbc307f9418e3774541b5c0a7e2"
+    },
+    {
+      "path": "A4-zero-input-batch27.json",
+      "sha256": "871593f542f1192fd16d3a272d2bbd455bd0699e51ad06f13edbd5a87376dd94"
+    },
+    {
+      "path": "A3-en-zero-batch27.json",
+      "sha256": "6812952e0269c22b433f6f96860589f574fb59f9a97006b696cb2707edc1a136"
+    },
+    {
+      "path": "materials-extension32.json",
+      "sha256": "0ba06b759f12d13f3b3687e2bd39df0486b8a5f89a3216513a46769f66d09717"
+    },
+    {
+      "path": "A2-creation-execution-batch34.json",
+      "sha256": "e3b6f43b01ed9916ea1270e7a33d2f9e1a9927e14751f14a06526859d501bded"
+    },
+    {
+      "path": "A3-cn-batch36.json",
+      "sha256": "179f02eb6bb150c315373aa8d2b1d54de35cdc8ff67198a10d144b97636db904"
+    },
+    {
+      "path": "A2-creation-execution-batch35.json",
+      "sha256": "6f9829d465fc4be5d4f34e8c6929c0b4bb2660d8dfc10e03da4f9506f833f37a"
+    },
+    {
+      "path": "A3-cn-batch37.json",
+      "sha256": "3d05465594476990286f0b034c05aebc8610b81f9e5d3f279cf2a4f18855aee1"
+    },
+    {
+      "path": "A2-creation-execution-batch36.json",
+      "sha256": "3b6c937c692f0cb5a4e54c6942d6a2344770aabe3aebb1aafc4d9168ef1173a9"
+    },
+    {
+      "path": "A3-cn-batch38.json",
+      "sha256": "e2568e86389e2fe8fe4856fb28ca2028ee35fc811a215bef4ffeff8a99d4bd6b"
+    },
+    {
+      "path": "A4-zero-input-batch28.json",
+      "sha256": "77bf6b0cb10e67c29a9dbb19518680ede0f696b59ca37562e25fbc898422ba3d"
+    },
+    {
+      "path": "A3-en-zero-batch28.json",
+      "sha256": "9de003c8a4e0b65db27e6ce97536578c939796e79f16cd821a458e0c7db0c090"
+    },
+    {
+      "path": "continuations/2026-11-08T172307Z/handoffs-batch33.json",
+      "sha256": "c99fe66a777dcbd8db38b7e1c8611ed09e70d657f4c640e5bd5ba07d8a010758"
+    },
+    {
+      "path": "continuations/2026-11-08T172307Z/handoffs-batch34.json",
+      "sha256": "cd7c19fd0ed4edc073b13aa5f73173a2a9f891df5748de664abf82d7ec91d51f"
+    },
+    {
+      "path": "continuations/2026-11-08T172307Z/decisions-through-batch36.json",
+      "sha256": "df179aaf42e52874a807e9c4e9c0929ff9add5e8262a3b1bc6c0adc27de33b98"
+    },
+    {
+      "path": "continuations/2026-11-08T172307Z/root-zero-terminal-review.json",
+      "sha256": "7cdf400a7f0c71494bd0c247fcf3d84983feac5dac861fefca435d9530bc8a1c"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-09T01:44:10.954194+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch34.md",
+      "sha256": "fa27a14578fd5a0a1a8f147f77d29a5e183d4a194eade860870420e1b2838ed4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch34.json",
+      "sha256": "fbe0a907fd636d02e82093a67bd795aa7fb5cf1195006feca2e02cad46d30b8e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch34.json",
+      "sha256": "184f049f641de9eb79dbc864c5e006c8ff70e7ae0959a7d268b6154f0ca298ae"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch34.json",
+      "sha256": "e3b6f43b01ed9916ea1270e7a33d2f9e1a9927e14751f14a06526859d501bded"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension32.json",
+      "sha256": "0ba06b759f12d13f3b3687e2bd39df0486b8a5f89a3216513a46769f66d09717"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch34.json",
+      "sha256": "1327e31fbe1a05df1f83a26461ab4f0aef51f99544f4522c7c61d888874faa1b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch34.json",
+      "sha256": "e5b7d9dc4938a02be2dd45baa1dab8a2bb03d5f2943559a52e5eaa9ebf9ca617"
+    }
+  ],
+  "query_count": 9,
+  "completed_search_result_count": 9,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-C55",
+      "name": "菌缆",
+      "query_logs": [
+        {
+          "query": "\"菌缆\"",
+          "executed_on": "2026-11-09",
+          "summary": "精确主要营缆雨衣与菌字散落的医疗耗材文书，营与菌不同，不据分散命中判精确品牌。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"菌缆科技\"",
+          "executed_on": "2026-11-09",
+          "summary": "科技精确返回其他科技企业政府名单，无确证菌缆科技。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"菌缆智能\"",
+          "executed_on": "2026-11-09",
+          "summary": "智能精确主要菌研究/机器人埋缆项目分散词，无确证菌缆智能。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"菌缆\" AI 模型 软件 公司",
+          "executed_on": "2026-11-09",
+          "summary": "AI模型软件组主要广泛经营范围文书，非完整菌缆主体，未据通用词列举当品牌。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"菌纜\" 公司 軟體 品牌",
+          "executed_on": "2026-11-09",
+          "summary": "繁体组台湾注册列表中菌/纜分散出现，未确证完整菌纜企业。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"junlan\" company AI software",
+          "executed_on": "2026-11-09",
+          "summary": "拼音组Shenzhen Junlan Electronic实际官网可读，电子与AI音箱业务；拼音与中文近听风险，不冒对应中文菌缆。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"菌揽\"",
+          "executed_on": "2026-11-09",
+          "summary": "菌揽近形查询为普通菌/揽分散词、乱码与商品文书，非独立同核心品牌。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"军缆\" 科技",
+          "executed_on": "2026-11-09",
+          "summary": "军缆合理同音近形命中广东军缆信息技术有限公司历史政府名单；后查具体主体并开招聘正文，不把军字当菌精确同名。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"广东军缆信息技术有限公司\" 官网",
+          "executed_on": "2026-11-09",
+          "summary": "独立主体补搜命中招聘正文/多历史政府名单及JUNLAN42类商标第三方索引。实际核招聘公司与业务，商标索引不冒本次官方942核准。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "near_match_hold_not_exact_occupation",
+      "reason_code": "NEAR_MATCH_HOLD",
+      "reason": "未确证菌缆精确同名。但军缆jūn lǎn同读、缆同字且仅首字不同，已有通信网络/安防/软件系统技术公司具体正文；品牌听写和科技语境混淆较强，不能仅以异字直接放行。保留近名暂停供主控编辑避让判断，不称菌缆已有同名公司或9/42被拒。",
+      "evidence": [
+        {
+          "url": "https://www.job5156.com/comp/GBLJxPHoQRK9yW_sKUx16g",
+          "access": "third_party_company_profile_body_read",
+          "finding": "原1374306请求实际重定向本URL。L47军缆信息技术；L85广东军缆信息技术有限公司及通信/安防/网络服务，L105–122全名/代码91440113675677423T/软件开发与信息系统集成等。页面自称存续，但第三方非本次官方当前登记核验；规模及简介存在不同时间数据不背书。"
+        },
+        {
+          "url": "https://www.jump-lan.com/company_profile/",
+          "access": "primary_near_pinyin_company_site_body_read",
+          "finding": "L103–106 Shenzhen Junlan Electronic及电子/AI产品业务，L133完整英文公司。拼音已用，但未核中文对应，不冒菌缆精确同名或认与广东军缆同主体。"
+        },
+        {
+          "url": "https://gdstc.gd.gov.cn/attachment/0/487/487010/3914924.pdf",
+          "access": "government_pdf_open_readable_but_target_not_located",
+          "finding": "实际返回155页PDF前段文本；search摘要称1283广东军缆，实际find军缆No matching text。未声称亲读该行。urllib下载因SSL证书链失败，没有获得本地PDF，不补造文件SHA。此辅助证据不作正文确认主证。"
+        },
+        {
+          "url": "https://gdstc.gd.gov.cn/attachment/0/413/413953/3229256.pdf",
+          "access": "search_index_only_actual_open_unavailable",
+          "finding": "2021政府名单索引军缆线索；实际打开不可访问，未当已读原正文。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Junlan",
+          "scope": "2026-11-09本次逐名拼音入口不可访问。"
+        }
+      },
+      "risks": [
+        "菌缆/军缆完全同读、同缆字及相邻科技网络形象，非所有junlan近音一概否决",
+        "JUNLAN电子厂为独立拼音线索不认同一中文主体",
+        "精确未命中不等名字好/可注册；第三方42类JUNLAN索引未核法律状态",
+        "菌材料农业电缆/感染首感与源模型估算边界保持",
+        "尚无中文使用通过资格，不自行配英文"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "原run两实际阳性对照，0新增。",
+  "claim_limits": "精确/同音近形/第三方/官方登记分层；不假占用或可注册。",
+  "passed_chinese_candidate_ids": [],
+  "rejected_chinese_candidate_ids": [],
+  "held_chinese_candidate_ids": [
+    "C1-C55"
+  ]
+}

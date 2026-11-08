@@ -1,0 +1,59 @@
+{
+  "agent_id": "/root/live_a3",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch28.json",
+      "sha256": "77bf6b0cb10e67c29a9dbb19518680ede0f696b59ca37562e25fbc898422ba3d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch28.md",
+      "sha256": "08ce6e84b285a1b2377e28e9a44a032cd93101816eff624120930015143b0b09"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch28-receipt.json",
+      "sha256": "ed765467d1b817e2d338d614254d73f4e624eecb7318e833de2733d9eb15adce"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch36.json",
+      "sha256": "179f02eb6bb150c315373aa8d2b1d54de35cdc8ff67198a10d144b97636db904"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch37.json",
+      "sha256": "3d05465594476990286f0b034c05aebc8610b81f9e5d3f279cf2a4f18855aee1"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch38.json",
+      "sha256": "e2568e86389e2fe8fe4856fb28ca2028ee35fc811a215bef4ffeff8a99d4bd6b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch38-receipt.json",
+      "sha256": "10df01d8496ce0adc3dfbab8bdba4bd32d139ce8279959f92a806778534a59bc"
+    }
+  ],
+  "eligible_chinese_input_count": 0,
+  "eligible_english_input_count": 0,
+  "actual_english_output_count": 0,
+  "actual_new_english_queries": 0,
+  "actual_new_registration_queries": 0,
+  "actual_new_control_queries": 0,
+  "remaining_chinese_reworks": 0,
+  "agent3_cumulative_candidate_queries": 647,
+  "agent3_cumulative_returned_candidate_results": 646,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 649,
+  "run_cumulative_returned_candidate_results": 648,
+  "executed_at": "2026-11-09T01:59:25.315292+08:00",
+  "hash_check_count": 66,
+  "all_referenced_hashes_match": true,
+  "outputs": [
+    {
+      "path": "A3-en-zero-batch28.json",
+      "sha256": "9de003c8a4e0b65db27e6ce97536578c939796e79f16cd821a458e0c7db0c090"
+    },
+    {
+      "path": "A3-en-zero-batch28.md",
+      "sha256": "39e9a4dde55f39657b984a01b9fa9b366b97d6da3e8ce464275cebd963849702"
+    }
+  ],
+  "decision": "actual_zero_english_final_check_completed_family_closed"
+}

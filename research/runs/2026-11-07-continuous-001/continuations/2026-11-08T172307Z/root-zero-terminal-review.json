@@ -1,0 +1,28 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-08T18:03:57.831498+00:00",
+  "decision": "accept_actual_zero_terminal_handoffs_no_catalog_admission",
+  "actual_reading": "root实际读CN38、A4zero28、A3enzero28与zero27可读收尾；原A3/A4真实输入SHA验证数见各receipt。两包英语资格/输出/评分/使用查询0，不把未开始当完成；不占EN45/E47，C55无R3。",
+  "refs": [
+    {
+      "path": "A3-cn-batch38.json",
+      "sha256": "e2568e86389e2fe8fe4856fb28ca2028ee35fc811a215bef4ffeff8a99d4bd6b"
+    },
+    {
+      "path": "A4-zero-input-batch27.json",
+      "sha256": "871593f542f1192fd16d3a272d2bbd455bd0699e51ad06f13edbd5a87376dd94"
+    },
+    {
+      "path": "A3-en-zero-batch27.json",
+      "sha256": "6812952e0269c22b433f6f96860589f574fb59f9a97006b696cb2707edc1a136"
+    },
+    {
+      "path": "A4-zero-input-batch28.json",
+      "sha256": "77bf6b0cb10e67c29a9dbb19518680ede0f696b59ca37562e25fbc898422ba3d"
+    },
+    {
+      "path": "A3-en-zero-batch28.json",
+      "sha256": "9de003c8a4e0b65db27e6ce97536578c939796e79f16cd821a458e0c7db0c090"
+    }
+  ]
+}

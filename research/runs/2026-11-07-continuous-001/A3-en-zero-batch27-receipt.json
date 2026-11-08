@@ -1,0 +1,50 @@
+{
+  "role": "Agent 3 actual English zero-input final verification",
+  "agent_id": "/root/live_a3",
+  "executed_at": "2026-11-09T01:34:54.990078+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch27.json",
+      "sha256": "871593f542f1192fd16d3a272d2bbd455bd0699e51ad06f13edbd5a87376dd94"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch27.md",
+      "sha256": "148587a2ff4a145739bc01d5472a694cb5aff5eea191c081088aece2a2fbaee9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch27-receipt.json",
+      "sha256": "2fc86872d60bd52388a31dd09399e02caca433d787bb91657559af6f49121640"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch35.json",
+      "sha256": "9bdf67b4be90bc395f58f8811928bbee47d78fbc307f9418e3774541b5c0a7e2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch35-receipt.json",
+      "sha256": "9d7eb3be5b63260ddb04d2c01f2627f72482f7ae2eca91254a2e1ed6be9e23ac"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-zero-batch27.json",
+      "sha256": "6812952e0269c22b433f6f96860589f574fb59f9a97006b696cb2707edc1a136"
+    },
+    {
+      "path": "A3-en-zero-batch27.md",
+      "sha256": "11ea86924c9410957c29fa9457e02560a72a30a1c17639eeb1594bc714bda444"
+    }
+  ],
+  "sha_checks": 32,
+  "sha_all_match": true,
+  "eligible_english_inputs": 0,
+  "actual_english_outputs": 0,
+  "actual_new_candidate_queries": 0,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "agent3_cumulative_candidate_queries": 630,
+  "agent3_cumulative_returned_candidate_results": 629,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 632,
+  "run_cumulative_returned_candidate_results": 631,
+  "decision": "zero_english_final_check_completed"
+}

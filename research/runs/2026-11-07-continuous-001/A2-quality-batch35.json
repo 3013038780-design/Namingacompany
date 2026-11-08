@@ -1,0 +1,52 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T01:48:04.347321+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-C55",
+      "name": "菌络",
+      "version": 2,
+      "rework_attempt": 1,
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两个熟字形成完整名词，菌与络都属于同一细丝成网的对象，声音可直接称呼",
+          "counter_association": "与菌落同音，首次听到可能写成菌落；不能认为听写毫无成本"
+        },
+        "distinctiveness": {
+          "reason": "菌的生物身份与络的相连形态给出清楚主体，不是泛进化口号",
+          "counter_association": "可能被理解成菌落谐写，辨识仍需主控独判"
+        },
+        "lab_fit": {
+          "reason": "第一联想是生物网络/生物工程，可承载自然与智能交叉研究身份",
+          "counter_association": "农业菌材料、健康或养殖企业首感也存在；真来源不补身份"
+        },
+        "grounding": {
+          "reason": "原已读摘要/引言/发育结果明确分支融合聚束成网与通路变化，整体范围在原M68内",
+          "counter_association": "不是新增实验/论文通读，不拿模型估算声称直接营养流或AI效果"
+        },
+        "extension": {
+          "reason": "以结构参与作用的完整网络主体可延展多研究，而非仅缆线制品",
+          "counter_association": "若只讲真菌培养产品会限制为单行业"
+        },
+        "semantic_coherence": {
+          "reason": "菌与络共同指向同一生物实体，不拆成生命力和人脉关系吉祥义",
+          "counter_association": "不等同电话网络/有意识沟通或所有生命网络持续变优"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ],
+  "boundary": "独立作者R1判断；原菌缆分数不改，无分新稿已先交供主控先封独评，不因查询风险返工必须过线。"
+}

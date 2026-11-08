@@ -1,0 +1,49 @@
+{
+  "reviewed_at": "2026-11-09T01:49:37.884502+08:00",
+  "independence": "Read producer preview batch35 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C55",
+      "name": "菌络",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "菌与络可读成完整活体网络主体称呼但为新凝练",
+          "counter_association": "与菌落同音需要第一次辨写"
+        },
+        "distinctiveness": {
+          "reason": "两个字直接显出真菌及相连的整体形态",
+          "counter_association": "生物材料农业健康品牌首感仍强"
+        },
+        "lab_fit": {
+          "reason": "真菌输运结构的组织关系可承载深技术网络研究身份",
+          "counter_association": "不能借自然出处自动说模型能力增强"
+        },
+        "grounding": {
+          "reason": "菌丝分支融合聚束构成网络为同一对象的生物与结构关系",
+          "counter_association": "未直接测全部营养流或证明普遍最优路径"
+        },
+        "extension": {
+          "reason": "由单束到整体仍可研究作用与结构关系而不限定制品",
+          "counter_association": "并不变成所有AI算法的技术承诺"
+        },
+        "semantic_coherence": {
+          "reason": "自身形态即网络及其可变通路围绕同一生物关系",
+          "counter_association": "只能作为同C55家族修订不得计新增"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ],
+  "version": 2,
+  "rework_attempt": 1
+}

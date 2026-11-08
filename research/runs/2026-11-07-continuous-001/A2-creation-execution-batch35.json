@@ -1,0 +1,93 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-09T01:48:04.347321+08:00",
+  "stage": "same_C55_chinese_rework_R1_after_near_match_hold",
+  "input_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch36.json",
+      "sha256": "179f02eb6bb150c315373aa8d2b1d54de35cdc8ff67198a10d144b97636db904"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch36.md",
+      "sha256": "d60a4cd1a0654854b3b19256615e3ffb4370c36df7833ddb3f77992e1beda836"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch34.json",
+      "sha256": "fbe0a907fd636d02e82093a67bd795aa7fb5cf1195006feca2e02cad46d30b8e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch34.md",
+      "sha256": "fa27a14578fd5a0a1a8f147f77d29a5e183d4a194eade860870420e1b2838ed4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch34.json",
+      "sha256": "184f049f641de9eb79dbc864c5e006c8ff70e7ae0959a7d268b6154f0ca298ae"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension32.json",
+      "sha256": "0ba06b759f12d13f3b3687e2bd39df0486b8a5f89a3216513a46769f66d09717"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch34.json",
+      "sha256": "e3b6f43b01ed9916ea1270e7a33d2f9e1a9927e14751f14a06526859d501bded"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-history-batch34-inputs.json",
+      "sha256": "b133a81a696f48dbcfa02fd61b7fb15026e481ac7754fb7ca7fa445df87f61c4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.json",
+      "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+      "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+    }
+  ],
+  "actual_actions": [
+    "实际读CN36原表，军缆为可读第三方招聘科技主体同音近形线索；接受主动避让，不称原名精确占用或注册驳回。",
+    "重读原M68及batch34候选/评分，原已读L102–104/119–129支持从丝束到网络整体的范围，不新增外部正文阅读。",
+    "以同一真实丝束网络凝练菌络，保留C55/family/M68，version2/rework_attempt1；没有将菌落同音或生物材料首感隐藏。",
+    "无分预览/候选先交，数字另档，旧源/稿/分/查询不改。"
+  ],
+  "history_scan": {
+    "method": "原全历史关系家族沿用冻结base+delta；本次实际对runs非inputs JSON/MD读字节检索菌络，无先前命名命中，但此稿明列原C55同族返工而非新家族。",
+    "files": 1495,
+    "literal_hits": [],
+    "manifest_sha256": "259f6f98f904d9ac381ced37abcbc71074d33fb357880c34eecbd51220907a97"
+  },
+  "reading_evidence_reused_from": {
+    "path": "research/runs/2026-11-07-continuous-001/materials-extension32.json",
+    "sha256": "0ba06b759f12d13f3b3687e2bd39df0486b8a5f89a3216513a46769f66d09717"
+  },
+  "new_source_body_reads": 0,
+  "root_source_check_boundary": "主控新PubMed摘要/图注核对仅作为主控事实背景，不列本角色实际读过。",
+  "candidate_id": "C1-C55",
+  "version": 2,
+  "rework_attempt": 1,
+  "replaces_name": "菌缆",
+  "new_material_count": 0,
+  "new_chinese_primary_id_count": 0,
+  "new_family_count": 0,
+  "chinese_surface_revisions": 1,
+  "new_english_count": 0,
+  "name_usage_queries_performed": false,
+  "output_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch35.json",
+      "sha256": "7fe99aef11565c71be446605b2b99a57246d8a8818c4e38f204cebc1fde589bd"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch35.md",
+      "sha256": "a913ceb29527e968bf75e46b9bb66c8e4e560001d7aaa7990020835e661836a7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch35.json",
+      "sha256": "0c42ba026d4796137dce7db7b2895bedfc9403b85cfedd58a4e363e0efdf8b8c"
+    }
+  ],
+  "whole_production_batch_complete": false,
+  "boundary": "菌络是同家族一次中文实现，不加累计主案或家族数；新版需要自己双质量与原A3独立查询，不能继承菌缆查询通过。未市场搜索/英文，不动旧字节/库/队列/Git。"
+}

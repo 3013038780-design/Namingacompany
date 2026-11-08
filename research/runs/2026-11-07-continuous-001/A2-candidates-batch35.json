@@ -1,0 +1,83 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T01:47:34.751789+08:00",
+  "candidates": [
+    {
+      "id": "C1-C55",
+      "name": "菌络",
+      "pinyin": "jūn luò",
+      "material_id": "C1-M68",
+      "material_ids": [
+        "C1-M68"
+      ],
+      "family_id": "C1-BF-fungal-cable-as-living-transport-entity",
+      "plan_direction_id": "C1-D-S2",
+      "case_ids": [
+        "B076",
+        "B015",
+        "B010"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Bebber et al.: Biological solutions to transport network design",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2288531/",
+          "reading_location": "首次open实际读L94–130：摘要、引言、实验与图分析方法、网络发育结果及图说明。重点L103–104聚束为cords、L112–115观察/厚度估算、L119–129部分通路加粗与其他部分退缩。后续find转验证码，没有据此声称读到余下结果/讨论；未实际观察图像、复现实验或通读原引文。",
+          "read_at": "2026-11-09T01:36:10.743117+08:00",
+          "access": "body",
+          "source_type": "original_experimental_and_graph_analysis_research",
+          "published_at": "2007-07-10（online）；期号2007-09-22",
+          "reading_scope": "abstract_introduction_methods_development_results_excerpt",
+          "boundary": "生长形态来自培养与图像，输运效率/抗损伤性能依所用网络表示和模型估算；不是直接测得全部营养流、普遍菌类智能或AI学习实验。只就Phanerochaete velutina所述实验，不把林木共生系统混入。"
+        }
+      ],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2288531/"
+      ],
+      "formation": "先写真菌的细丝分支、融合并聚束，形成自身的输运网络，再凝为菌络：菌是主体，络是这些丝束相连的整体结构。仍是M68同一真实关系的中文返工，不是把菌换成生僻字或用随机谐音躲过原查询。由一束缆状对象转为它参与形成的活体整体网络；原已读引言和发育结果支持这个范围，不新增来源或声称原文中文定名。菌络为本轮凝练，不宣称首造；与普通生物词菌落同音的写法成本显式保留。",
+      "relation_sentence": "真菌的细丝分支、融合、聚束为有输运作用的活体网络，部分通路随发育与资源关系加粗，其他部分退缩。",
+      "condensation_path": "先写真菌的细丝分支、融合并聚束，形成自身的输运网络，再凝为菌络：菌是主体，络是这些丝束相连的整体结构。仍是M68同一真实关系的中文返工，不是把菌换成生僻字或用随机谐音躲过原查询。由一束缆状对象转为它参与形成的活体整体网络；原已读引言和发育结果支持这个范围，不新增来源或声称原文中文定名。菌络为本轮凝练，不宣称首造；与普通生物词菌落同音的写法成本显式保留。",
+      "meaning": "网络，不只是生物拥有的工具，也可以是它自身的形态。",
+      "crossing": "同一细丝体系同时具有生命主体的身份与输运网络的结构；形态和作用在一个实体内相接。",
+      "layers": [
+        "一个紧凑的生物网络主体称呼",
+        "主体自身的丝束结构承担输运作用",
+        "研究结构怎样参与作用的立场，不是智能必然成长的承诺"
+      ],
+      "material_feature_retained": "保留真菌细丝相连成网、聚束输运及通路可变关系；由单束视角转为相连整体，仍是同一家族。",
+      "material_feature_lost": "不显示特定物种、培养与几何模型条件；不把网络传输等同信号通信，不说明性能变化的全部条件。",
+      "why_name_not_generic": "菌与络指向同一真菌丝束相连成网的实体，不是两个美好字各自赋义，也不泛化所有网络都是生命或智能。",
+      "shortcoming": "同音菌落会产生听写成本；生物材料、农业或健康行业首感仍在。自然度/机构身份须独立判断；本次只因原同音科技主体暂停而尝试同族另一准确称呼，不意味着新稿已避开市场风险。",
+      "science_boundary": "缆是本包工程形态比喻，不是原作者对菌索的中文定名；真菌不传电信数据、不被证明有意识。原实验与模型有范围，不承诺模型自我强化或所有路线总变优。",
+      "history_check": {
+        "status": "same_family_rework_not_new_family",
+        "reason": "C1-C55及family_id原样；菌络精确历史文本无命中，但仍是原M68/菌缆家族R1，只改实现视角，不计新增。旧真菌演化/活桥/黏菌痕迹/织觉对照沿原稿，源范围不加大。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是菌络，做人工智能研究。",
+        "菌络发布了一项研究。"
+      ],
+      "status": "chinese_rework_draft_not_screened",
+      "version": 2,
+      "rework_attempt": 1,
+      "replaces_name": "菌缆"
+    }
+  ],
+  "rework_of": "A2-candidates-batch34.json",
+  "new_material_count": 0,
+  "new_chinese_primary_id_count": 0,
+  "new_family_count": 0,
+  "scope": "同C55家族中文R1，不新增主ID/材料/家族；新版未查，不能继承旧查询。"
+}

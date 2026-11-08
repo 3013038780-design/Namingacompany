@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T01:12:46.213637+08:00",
+  "generated_at": "2026-11-09T02:05:29.234422+08:00",
   "feed_url": "https://raw.githubusercontent.com/3013038780-design/Namingacompany/codex/naming-research-pilot/research/catalog/website.json",
   "counts": {
     "discussion_candidates": 29,
@@ -8606,9 +8606,154 @@
         "Flightback",
         "Trialnaut"
       ]
+    },
+    {
+      "chinese_id": "C1-C53",
+      "chinese": "剪贴板",
+      "status": "独立同名软件使用淘汰",
+      "reason": "日常计算的复制—暂存—择取—跨任务复用来自微软功能正文；中文双25后7查询发现Apple独立应用完整名剪贴板，个人开发者辉宇吴。独立查重本次实际读标题/开发者/独立应用说明，不是系统功能名本身当占用；root该URL/短id/原引用重开均不可访问或404，两位观察分开，不冒root亲读、当前可下载或公司注册核准。英文匹配及同一独立审查实际零英文收尾，不配英文救回。",
+      "evidence_refs": [
+        "materials-extension31.json",
+        "A3-cn-batch35.json",
+        "A4-zero-input-batch27.json",
+        "A3-en-zero-batch27.json",
+        "continuations/2026-11-08T172307Z/root-cn35-review.json"
+      ],
+      "run": "research/runs/2026-11-07-continuous-001",
+      "source": [
+        {
+          "title": "Microsoft Support: Using the clipboard",
+          "url": "https://support.microsoft.com/en-us/windows/apps/using-the-clipboard",
+          "reading_location": "实际读L134–197 Windows11剪贴板摘要、开启历史、跨设备同步、清除、固定项及25项/单项大小限制。没有实际操作用户剪贴板，不称读了系统实现或最初词源。",
+          "read_at": "2026-11-09T01:26:34.437828+08:00",
+          "access": "body",
+          "source_type": "official_software_user_documentation",
+          "published_at": null,
+          "reading_scope": "Windows11_body_excerpt",
+          "boundary": "固定项与普通历史清除/重启行为不同；需要开功能、同步有账号等条件。未核当前中文官方页面，因此剪贴板为常用中文称呼而非该英文页的汉字摘取；网页无可核新闻发布日期，不计近90天新闻。"
+        }
+      ],
+      "meaning": "让已经得到的内容，进入下一次创造。",
+      "crossing": "原有内容可以先脱离一次具体操作，暂时留在共同中介，再被选择放进另一个工作上下文。",
+      "shortcoming": "首感可能只是一项办公软件功能或剪贴板管理器，也有抄袭/搬运联想；广义Lab身份须独评，不由来源补分。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch33.json",
+      "english_attempts": []
+    },
+    {
+      "chinese_id": "C1-C54",
+      "chinese": "红皇后",
+      "status": "独立同名软件使用淘汰",
+      "reason": "Carroll第二章奔跑相对位置与2016生态模型有真实文献联系，持续演化与停滞皆有条件；不是小说证明普遍AI进化。中文作者25/品牌审阅26后6查询，原GitHub公开具名红皇后班级班里系统及前后端/文档，独立查重与root均读正文。不把小说角色、生态假说或科幻比喻当真实同名AI模型，也不冒学校软件商业发售/注册核准。英文匹配及同一独立审查真实零英文收尾。",
+      "evidence_refs": [
+        "materials-extension31.json",
+        "A3-cn-batch35.json",
+        "A4-zero-input-batch27.json",
+        "A3-en-zero-batch27.json",
+        "continuations/2026-11-08T172307Z/root-cn35-review.json"
+      ],
+      "run": "research/runs/2026-11-07-continuous-001",
+      "source": [
+        {
+          "title": "Lewis Carroll: Through the Looking-Glass, Chapter II",
+          "url": "https://www.gutenberg.org/files/12/12-h/12-h.htm",
+          "reading_location": "实际读第二章L274–325，尤其L307–321两人奔跑、周围位置不变与红皇后解释。未通读全书，未核中文译本或原版异文。",
+          "read_at": "2026-11-09T01:26:34.437828+08:00",
+          "access": "body",
+          "source_type": "literary_book_primary_text",
+          "published_at": "1871（作品出版年，不是本网页新闻日期）",
+          "reading_scope": "chapter_II_scene_excerpt",
+          "boundary": "虚构叙事，不是物理规律；Red Queen中文采用红皇后通常称呼，不声称英语原著含这三个汉字；不混Queen of Hearts另一个人物。"
+        },
+        {
+          "title": "Nordbotten & Stenseth: Asymmetric ecological conditions favor Red-Queen type of continued evolution over stasis",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4763757/",
+          "reading_location": "实际读L34–89作者/2016日期/Significance与Abstract：生态相互作用模型中持续演化和停滞都可能，结果依条件。未读后续数学推导、补充材料或1973原论文。",
+          "read_at": "2026-11-09T01:26:34.437828+08:00",
+          "access": "body",
+          "source_type": "original_theoretical_research_paper_excerpt",
+          "published_at": "2016-02-01（在线），期号2016-02-16",
+          "reading_scope": "front_matter_significance_abstract",
+          "boundary": "这是理论模型，不是普遍生态经验定律或AI实验。Van Valen1973出处仅由本文作者转述，未冒称本包核读原论文；不能说所有系统永远必须变强。"
+        }
+      ],
+      "meaning": "在变化着的世界里，重新理解进步。",
+      "crossing": "一个主体是否保持适应位置，不能只看它自己发生了多少变化，还取决于它所处的互动世界。",
+      "shortcoming": "女性消费/影视游戏及反派AI首感，另有内卷徒劳意味；并非承诺智能必然加速。不能靠科学出处代替对第一印象的判断。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch33.json",
+      "english_attempts": []
+    },
+    {
+      "chinese_id": "C1-C55",
+      "chinese": "菌络",
+      "previous_names": [
+        "菌缆"
+      ],
+      "status": "同家族中文返工结束，无合格配对",
+      "reason": "同一真菌菌丝聚束/自身输运网络关系。原名菌缆双25、9查询未确证精确同名，但与广东军缆信息技术有限公司同音近形，科技/软件服务正文可读，root主动避让而非假称精确占用。原A2同族R1菌络双25后8查询发现TapTap官方入驻游戏菌络Mycelia（DEMO开发中，非冒正式商发）；最后R2无合格选稿，内部活络因保健/社交首感未选未查，不称占用。两次中文返工真实完成，余0无R3；独立查重最后零新名、英文匹配及同一独立审查零英文均实际验收。两个正式写法只一主ID/家族、一个素材，不计两项新增。",
+      "same_family_versions": [
+        {
+          "name": "菌缆",
+          "version": 1,
+          "result": "同音近形科技主体风险，主动避让，非精确占用"
+        },
+        {
+          "name": "菌络",
+          "version": 2,
+          "result": "独立同名游戏软件使用拒绝"
+        },
+        {
+          "name": null,
+          "version": 3,
+          "result": "最后R2未选合格稿，活络仅内部质量未选词"
+        }
+      ],
+      "evidence_refs": [
+        "materials-extension32.json",
+        "A2-candidates-batch34.json",
+        "A3-cn-batch36.json",
+        "A2-candidates-batch35.json",
+        "A3-cn-batch37.json",
+        "A2-creation-execution-batch36.json",
+        "A3-cn-batch38.json",
+        "A4-zero-input-batch28.json",
+        "A3-en-zero-batch28.json",
+        "continuations/2026-11-08T172307Z/root-cn36-review.json",
+        "continuations/2026-11-08T172307Z/root-cn37-review.json"
+      ],
+      "run": "research/runs/2026-11-07-continuous-001",
+      "source": [
+        {
+          "title": "Bebber et al.: Biological solutions to transport network design",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2288531/",
+          "reading_location": "首次open实际读L94–130：摘要、引言、实验与图分析方法、网络发育结果及图说明。重点L103–104聚束为cords、L112–115观察/厚度估算、L119–129部分通路加粗与其他部分退缩。后续find转验证码，没有据此声称读到余下结果/讨论；未实际观察图像、复现实验或通读原引文。",
+          "read_at": "2026-11-09T01:36:10.743117+08:00",
+          "access": "body",
+          "source_type": "original_experimental_and_graph_analysis_research",
+          "published_at": "2007-07-10（online）；期号2007-09-22",
+          "reading_scope": "abstract_introduction_methods_development_results_excerpt",
+          "boundary": "生长形态来自培养与图像，输运效率/抗损伤性能依所用网络表示和模型估算；不是直接测得全部营养流、普遍菌类智能或AI学习实验。只就Phanerochaete velutina所述实验，不把林木共生系统混入。"
+        }
+      ],
+      "meaning": "网络，不只是生物拥有的工具，也可以是它自身的形态。",
+      "crossing": "同一细丝体系同时具有生命主体的身份与输运网络的结构；形态和作用在一个实体内相接。",
+      "shortcoming": "同音菌落会产生听写成本；生物材料、农业或健康行业首感仍在。自然度/机构身份须独立判断；本次只因原同音科技主体暂停而尝试同族另一准确称呼，不意味着新稿已避开市场风险。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch35.json",
+      "english_attempts": []
     }
   ],
   "events": [
+    {
+      "id": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T172307Z/result.json",
+      "at": "2026-11-09T02:05:29.159585+08:00",
+      "date": "2026-11-09",
+      "title": "研究更新",
+      "retained": 0,
+      "drafts": 3,
+      "materials": 3,
+      "pending": 1,
+      "reason": "本段0组新增合格配对。剪贴板与红皇后查到独立同名软件；菌缆因同音近形科技主体军缆主动避让（不是精确占用），同族修订菌络查到具名DEMO游戏菌络Mycelia，最后中文返工无合格选稿。3项新材料、3个中文主案、1个同族正式修订、30次新使用查询全部返回；没有制造英文。内部活络仅质量未选、未查，不写已被注册。各版本出处、短板与具体主体保留，总库仍29讨论+1储备。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/continuations/2026-11-08T172307Z/result.json"
+    },
     {
       "id": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/result.json",
       "at": "2026-11-09T01:11:40.729455+08:00",

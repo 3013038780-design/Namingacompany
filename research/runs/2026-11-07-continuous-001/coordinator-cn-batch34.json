@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-09T01:38:28.795024+08:00",
+  "independence": "Read producer preview batch34 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C55",
+      "name": "菌缆",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两个常用字能叫成完整的生物工程主体称呼但为新拟称",
+          "counter_association": "首次可能听作军缆或君览"
+        },
+        "distinctiveness": {
+          "reason": "活体丝束与缆状通路的画面具体而有反差",
+          "counter_association": "不是原作者正式术语"
+        },
+        "lab_fit": {
+          "reason": "自然输运组织与工程结构关系可以承载计算及基础网络研究身份",
+          "counter_association": "菌材料农业电缆行业首感及感染联想强"
+        },
+        "grounding": {
+          "reason": "菌的主体与缆状成束形态来自同一对象而非各取吉祥义",
+          "counter_association": "不把模型估算输运说成直接实测全部营养流"
+        },
+        "extension": {
+          "reason": "主体可研究形态组织与输运不限定单个算法",
+          "counter_association": "不能承诺所有路线变优或普遍智能"
+        },
+        "semantic_coherence": {
+          "reason": "活的通路及其结构变化围绕同一丝束对象",
+          "counter_association": "若只剩活的连接就回旧泛网络家族"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-09T01:53:21.182601+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch35.md",
+      "sha256": "a913ceb29527e968bf75e46b9bb66c8e4e560001d7aaa7990020835e661836a7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch35.json",
+      "sha256": "7fe99aef11565c71be446605b2b99a57246d8a8818c4e38f204cebc1fde589bd"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch35.json",
+      "sha256": "0c42ba026d4796137dce7db7b2895bedfc9403b85cfedd58a4e363e0efdf8b8c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch35.json",
+      "sha256": "6f9829d465fc4be5d4f34e8c6929c0b4bb2660d8dfc10e03da4f9506f833f37a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension32.json",
+      "sha256": "0ba06b759f12d13f3b3687e2bd39df0486b8a5f89a3216513a46769f66d09717"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch35.json",
+      "sha256": "6f003292334ffc65914a7bf05c79587847ca429341f668813ad46ff7c523d3ce"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch35.json",
+      "sha256": "f1e4a73a8b9d9598fed918762ad1046f932a66f08150abfa71d133430ffc00f1"
+    }
+  ],
+  "query_count": 8,
+  "completed_search_result_count": 8,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-C55",
+      "name": "菌络",
+      "traditional": "菌絡",
+      "version": 2,
+      "rework_attempt": 1,
+      "query_logs": [
+        {
+          "query": "\"菌络\"",
+          "executed_on": "2026-11-09",
+          "summary": "精确命中TapTap菌络Mycelia，实际正文确认独立生态模拟游戏；另菌络：共生打开405，不作正文主证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"菌络科技\"",
+          "executed_on": "2026-11-09",
+          "summary": "科技精确返回政府食品检查等分散菌/网络词，未确证菌络科技具体公司；不据此声称不存在。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"菌络智能\"",
+          "executed_on": "2026-11-09",
+          "summary": "智能精确主要真菌科研/生物AI主题，无确证完整菌络智能公司。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"菌络\" AI 模型 软件 公司",
+          "executed_on": "2026-11-09",
+          "summary": "AI软件组有菌络/森林/AI安全播客与菌络万象书名，主题表达不同于独立AI模型；准确保留词面既有使用。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"菌絡\" 公司 軟體 品牌",
+          "executed_on": "2026-11-09",
+          "summary": "繁体主要菌絡萬象书名及散列公司文字；御絡元等异核不算菌絡同名。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"junluo\" company AI software",
+          "executed_on": "2026-11-09",
+          "summary": "拼音命中Zhijiang Junluo Trading Co., Ltd.实际官网，可读家居厨具经营者，中文对应未核，不冒菌络精确主体；Jun Luo个人学者非公司。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"君络\" 科技",
+          "executed_on": "2026-11-09",
+          "summary": "君络近音命中2019金蓝络报告镜像中的合肥君络信息科技合伙企业线索；仅PDF前段已读，目标行未核，不据此作当前登记或本名主证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"菌落\" 科技 公司",
+          "executed_on": "2026-11-09",
+          "summary": "菌落为通用菌落计数检测仪器类别，瑾诚/食安科技FSTest等产品通用描述不自动菌络独立品牌。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "reject_existing_named_software_use",
+      "reason_code": "EXACT_CORE_SOFTWARE_USE",
+      "reason": "TapTap开发者发布的菌络Mycelia为具名独立生态模拟游戏，中文核心已使用；不是把菌落通用术语或君络近音直接冒充精确占用。按项目独立软件使用避让，不作商标/公司登记法律判断。",
+      "evidence": [
+        {
+          "url": "https://www.taptap.cn/app/974405",
+          "access": "primary_developer_published_product_page_body_read",
+          "finding": "实际返回105行：L16菌络Mycelia，L20官方入驻，L22–24试玩DEMO/PC下载，L36–38上线日期2026-10-18，L41–50及58–69以菌丝网络为核心的生态模拟游戏和开发者说明；L46供应商liguodong，L47太平间工作室自述；L75版本0.3.1。中文核心菌络与英文Mycelia构成双语产品名，不是菌落术语误中。试玩/开发中不冒称正式商业发售或性能已验证，未安装试玩。"
+        },
+        {
+          "url": "https://www.taptap.cn/app/998650",
+          "access": "search_index_only_actual_open_405",
+          "finding": "索引标题菌络：共生；实际打开405 Method Not Allowed，未当已读正文或独立否决主证。"
+        },
+        {
+          "url": "https://www.auvendor.com/pages/about-us",
+          "access": "primary_company_operator_page_body_read",
+          "finding": "335行正文：L40及60 Zhijiang Junluo Trading Co., Ltd.，家居装饰/厨具，L64代码91420583MAKEKMUD2C为页面自述；中文公司名未核，不称菌络精确同名或官方核准。"
+        },
+        {
+          "url": "https://stock.tianyancha.com/Announcement/cninfo/731a06f8a1ce2e0904f64ede4ef6c0e7.pdf",
+          "access": "historical_report_mirror_open_front_read_target_not_read",
+          "finding": "2019金蓝络半年报镜像115页，实际初开p0–7。合肥君络信息科技合伙企业45%子公司为搜索摘要目标线索，未定位正文目标行，不作精确菌络或实时登记确认。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Junluo",
+          "scope": "2026-11-09本次逐名Junluo入口不可访问；非无登记。"
+        }
+      },
+      "risks": [
+        "DEMO/开发中不等正式发售，发布日期与版本仅发布页自述",
+        "菌络与菌落同音仍是听写短板，不作本次精确否决依据",
+        "拼音Junluo商业使用和君络历史线索不同性质，未认同主体",
+        "来源仍M68同家族R1，不新读论文全方法，不计新增素材/家族/主ID"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "原run两实际阳性对照；本次新增0。",
+  "passed_chinese_candidate_ids": [],
+  "rejected_chinese_candidate_ids": [
+    "C1-C55"
+  ],
+  "held_chinese_candidate_ids": [],
+  "new_primary_families": 0,
+  "new_materials": 0,
+  "new_surface_revision": 1
+}

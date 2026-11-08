@@ -1,0 +1,58 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T01:36:10.743117+08:00",
+  "materials": [
+    {
+      "id": "C1-M68",
+      "family_id": "C1-MF-fungal-cords-as-selectively-reinforced-transport-structure",
+      "macro_id": "S2",
+      "plan_direction_id": "C1-D-S2",
+      "category": "living_filament_bundles_and_resource_transport",
+      "case_ids": [
+        "B076",
+        "B015",
+        "B010"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Bebber et al.: Biological solutions to transport network design",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2288531/",
+          "reading_location": "首次open实际读L94–130：摘要、引言、实验与图分析方法、网络发育结果及图说明。重点L103–104聚束为cords、L112–115观察/厚度估算、L119–129部分通路加粗与其他部分退缩。后续find转验证码，没有据此声称读到余下结果/讨论；未实际观察图像、复现实验或通读原引文。",
+          "read_at": "2026-11-09T01:36:10.743117+08:00",
+          "access": "body",
+          "source_type": "original_experimental_and_graph_analysis_research",
+          "published_at": "2007-07-10（online）；期号2007-09-22",
+          "reading_scope": "abstract_introduction_methods_development_results_excerpt",
+          "boundary": "生长形态来自培养与图像，输运效率/抗损伤性能依所用网络表示和模型估算；不是直接测得全部营养流、普遍菌类智能或AI学习实验。只就Phanerochaete velutina所述实验，不把林木共生系统混入。"
+        }
+      ],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2288531/"
+      ],
+      "fact": "研究培养中，细的真菌菌丝延伸/分支/融合，部分聚束为cords；资源间部分路线加粗，同时其他材料退缩。研究据图像建立加权网络评估结构性能。",
+      "distinctive_relation": "活的细丝束既是生物体的一部分，也构成资源输运通路；通路的形态会随群落发育与资源位置发生选择性变化。",
+      "mechanism_to_material": "Sakana让普通可称呼生物主体承载真实关系；Sony有据融合允许形成新的整体声音，ByteDance同一主角加可感作用要求两部分共享一句关系。本包从原S2生命的结构如何作用问题进入菌丝束，以同一丝束的生物身份和缆状输运形态凝练，不从菌/缆各取吉祥解释。",
+      "history_difference": "旧2026-11-06材料植物/真菌4.5亿年共生是调控网络跨物种演化，本项是一个真菌群落培养中菌丝聚束及输运结构变化，不因为新论文标题就认新。M15黏菌外痕导航依赖非活性痕迹与背景对比，本项是活体内部/自身结构通路与资源；M11活桥以多个蚂蚁身体临时支持他者通过，本项不是换动物再造一座桥，也不取活缆等近义改写，而取丝束成为输运主体的生物/工程同场形态。旧织觉是蛛网振动参与感知，本项不谈网的感官、记忆、通讯或智慧。若最终只剩生命网络/泛重构，则应合并上位家族，不计新增。",
+      "naming_potential": "菌与缆在同一丝束对象相遇，是一个可叫出的生物工程主体；不是把所有真菌说成人工电缆或摘论文完整术语。",
+      "shortcoming": "可能像专做菌材料/农产品或电缆的企业；也可能不如日常词自然。泛AI研究身份必须独判，不能因原文支持而补分。",
+      "boundary": "缆是本包工程形态比喻，不是原作者对菌索的中文定名；真菌不传电信数据、不被证明有意识。原实验与模型有范围，不承诺模型自我强化或所有路线总变优。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft"
+    }
+  ],
+  "new_material_count": 1,
+  "new_chinese_draft_count": 1,
+  "coverage_note": "一研究一关系一中文，不拆摘要/方法/结果凑卡；古文仍4/68，S3保守15/68。2007文章不计近90天新闻，没有新增书籍通读。",
+  "access_failures": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2288531/",
+      "result": "首次open正文可读，随后find三次为验证码，无额外讨论段阅读。"
+    }
+  ]
+}
