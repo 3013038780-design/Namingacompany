@@ -1,0 +1,86 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-08T19:24:59.701169+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E27",
+      "chinese_id": "C1-C36",
+      "english": "Still Current",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "常用两词无截断，重音和节奏可自然称呼。",
+          "counter_association": "作为常见短语，别人可能当作句中条件而非专名。"
+        },
+        "spelling": {
+          "reason": "两个完整常用词可直接拼写，无新字母规则。",
+          "counter_association": "口头品牌边界不明显，需说明是两词。"
+        },
+        "grounding": {
+          "reason": "现时有效的真词义与保存时核版本的实际操作共享一个判据。",
+          "counter_association": "不是微软的正式机制命名，也不包含冲突处理全程。"
+        },
+        "bilingual_relation": {
+          "reason": "中文机制与英文关键条件同处一次更新事件，而非泛化乐观态度。",
+          "counter_association": "英文不显式说共享记录、比较令牌，需要出处辅助。"
+        },
+        "distinctiveness": {
+          "reason": "完整短称呼有可研究的明确问题，能指代主体而不靠奇怪拼写。",
+          "counter_association": "通用短语及新闻/实时数据首感明显，独立专名感只达谨慎讨论。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "主观编辑自评非消费者测试；未以来源真实/待查重补独立性。主控先读无分预览独评，之后由原A3查询。"
+    },
+    {
+      "candidate_id": "C1-E28",
+      "chinese_id": "C1-C37",
+      "english": "Chancebell",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个完整常见音节连读可行，按正常chance/bell读。",
+          "counter_association": "ns与b交界需要说清，也可能听为人名Chance Bell。"
+        },
+        "spelling": {
+          "reason": "完整chance和bell直接合写，不截语素、不换字母。",
+          "counter_association": "首次书写可能拆成两词，大小写需要品牌用法固定。"
+        },
+        "grounding": {
+          "reason": "随机等待触发同一铃响的关系有Poisson clock定义依据，铃的信号义真实。",
+          "counter_association": "bell是创作拟物而非论文实体装置；不能声称原书提出Chancebell。"
+        },
+        "bilingual_relation": {
+          "reason": "中文骰子/钟与英文概率/铃分别抓同一等待触发对象，映射清楚。",
+          "counter_association": "没有保留分布参数、独立性和完整过程细节。"
+        },
+        "distinctiveness": {
+          "reason": "一个完整可想象对象形成专名，可成为研究主体称呼。",
+          "counter_association": "玩具/音乐/赌运工具首感，AI Lab身份需整体呈现支持；未凭查重未知夸大。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "主观编辑自评非消费者测试；未以来源真实/待查重补独立性。主控先读无分预览独评，之后由原A3查询。"
+    }
+  ]
+}

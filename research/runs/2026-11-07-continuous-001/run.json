@@ -5,7 +5,7 @@
   "coordinator_id": "/root",
   "status": "in_progress",
   "research_mode": "continuation",
-  "scope": "持续同001，本段batch19/20读5资料、3中文，1质量拒绝未查、2已有具名科技软件，实际原A4/同A3零英文收尾。累计45资料/35中文/26英文版本，399次A3调用398返回，加root旧2共401调用400返回；总库25讨论+1储备保持，旧待核1分开。",
+  "scope": "同001本段3新材料2中文4英文版本，骰子钟/Chancebell终审入库，乐观锁英文三案已有使用、两返尽。累计48资料/37中文/30英文版本，A3438次调用437返回，加root旧2共440/439；总库26讨论+1储备，原待核与撤回另列。",
   "started_at": "2026-11-07T19:41:18.016539+08:00",
   "roles": {
     "A1": {
@@ -23,39 +23,39 @@
     },
     "A2": {
       "agent_id": "/root/continuous_a2",
-      "status": "completed_batch19_and_batch20_five_materials_three_drafts",
+      "status": "completed_batch21_three_materials_two_drafts",
       "execution_ref": "本聊天原continuous_a2实际followup_task，已接收A1-relay与已验收搜索计划，开始资料阅读/创作",
       "stage_receipt": "A2-execution.json",
       "plan_completed_at": "2026-11-07T19:49:25.371755+08:00",
-      "next_stage": "next_diverse_relations_batch21",
+      "next_stage": "next_diverse_relations_batch22",
       "material_receipt": "reading-execution.json"
     },
     "A3": {
       "agent_id": "/root/live_a3",
-      "status": "completed_cn21_cn22_and_en_zero19_zero20_same_actor",
+      "status": "completed_cn23_and_en27_28_29_same_actor",
       "execution_ref": "原live_a3实际followup复核3储备，40原查询+1必要新查询；随后负责新中文与英文两段",
       "reserve_receipt": "reserve-followthrough/A3-review.json",
       "controls_ref": "A3-controls.json"
     },
     "A4": {
       "agent_id": "/root/continuous_a4",
-      "status": "completed_zero_input_batch19_and_batch20",
+      "status": "completed_initial_matching_two_reworks_C36_closeout_C37_postscreen",
       "execution_ref": "本聊天实际spawn continuous_a4，已终审三储备，等待新合格中文英文匹配",
       "reserve_receipt": "reserve-followthrough/A4-review.json",
       "closeout_ref": "A4-closeout.json",
       "final_input_reacceptance_ref": "A4-final-input-reacceptance.json",
       "latest_closeout_ref": "A4-closeout-batch17.json",
       "latest_zero_input_ref": "A4-zero-batch16.json",
-      "latest_postscreen_review_ref": "A4-C31-postscreen-review.json"
+      "latest_postscreen_review_ref": "A4-C37-postscreen-review.json"
     }
   },
-  "current_stage": "checkpoint_batch19_20_complete_zero_new_next_diverse_relations_pending",
-  "checkpointed_at": "2026-11-08T18:34:26.743155+08:00",
-  "new_families_delivered": 3,
+  "current_stage": "checkpoint_C37_admitted_C36_English_exhausted_ready_for_next_relations",
+  "checkpointed_at": "2026-11-08T19:40:25.563626+08:00",
+  "new_families_delivered": 4,
   "whole_research_complete": false,
   "withdrawn_current_run": 1,
   "current_work_segment_complete": true,
   "historical_input_snapshot_gap_disclosed": "mutable-index-reacceptance.json",
-  "latest_continuation_result": "continuations/2026-11-08T093057Z/result.json",
+  "latest_continuation_result": "continuations/2026-11-08T110013Z/result.json",
   "website_url": "https://3013038780-design.github.io/Namingacompany/"
 }

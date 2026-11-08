@@ -1,0 +1,125 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T19:32:46.250330+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch28.json",
+      "sha256": "9e3223c205e5bc46ca468bd1337bcf5f67346464abe9e0fd65faea25685c0d57"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch28.json",
+      "sha256": "d84d409cc64f6f23c609d055634b6e28ae213b1977cc65d5ce50af38eed38ef0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch28.json",
+      "sha256": "1d09616ecdd4b8a3746c0195fc08e76d448c4ac0408d6d228a91f799879f24fb"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch28.json",
+      "sha256": "10d9c8f48a7fa67cd48d9b944b907ae0fe69340819115b2f1a24286fb5411de3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch27.json",
+      "sha256": "71c47599a915989da1b96e51cc2f14f2bc180271a27e7730ee4a80e75ea72ebd"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch23.json",
+      "sha256": "6af294d33fa08604f58ec5749d41ce8325b84d0a68bfb2bbdd661bd142eed5c6"
+    }
+  ],
+  "query_count": 6,
+  "results": [
+    {
+      "candidate_id": "C1-E29",
+      "name": "Versionmark",
+      "query_logs": [
+        {
+          "query": "\"Versionmark\"",
+          "executed_on": "2026-11-08",
+          "summary": "精确命中OpenHub与NuGet具体VersionMark项目，后续原包正文核独立软件。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Versionmark\" company lab",
+          "executed_on": "2026-11-08",
+          "summary": "公司/Lab组合仍具名版本采集软件目录；未将其等同AI研究公司或官方企业登记。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Versionmark\" AI model",
+          "executed_on": "2026-11-08",
+          "summary": "AI/model命中OpenHub的COCOMO估算model及NuGet，不是AI模型，软件使用事实独立成立。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Versionmark\" software product",
+          "executed_on": "2026-11-08",
+          "summary": "软件产品查询指向同一VersionMark工具及NuGet，实际正文验证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Version Mark\" company software",
+          "executed_on": "2026-11-08",
+          "summary": "分写Version Mark还有一般文件版本标记句，但version-mark CDN库为具体命名包，已读区分。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Version-Mark\" brand",
+          "executed_on": "2026-11-08",
+          "summary": "连字符品牌查询多EPA标签版本栏普通词，同时命中JS库；不把EPA文字当商业品牌。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "return_for_alternative_exact_named_software",
+      "reason": "已存在独立VersionMark软件，NuGet原包页明确工具名称、CI/CD版本收集/发布用途及安装；不因DemaConsulting前缀否认其核心名。另version-mark为真实JS库近乎同核心变体，不是仅通用函数变量。中文保持原通用机制初筛，英文首返失败，余最后一次。",
+      "evidence": [
+        {
+          "url": "https://www.nuget.org/packages/DemaConsulting.VersionMark/",
+          "access": "primary_package_readme_body_read",
+          "finding": "L1包名DemaConsulting.VersionMark；L72–91独立VersionMark标题及版本采集/发布功能、安装命令，非匿名源代码变量。"
+        },
+        {
+          "url": "https://github.com/demaconsulting/VersionMark",
+          "access": "primary_repository_opened",
+          "finding": "实际公开仓库页面及Version Collection Tool标题可读；核心VersionMark与NuGet原包对应，不冒执行或性能验证。"
+        },
+        {
+          "url": "https://www.jsdelivr.com/package/npm/version-mark",
+          "access": "package_cdn_body_read",
+          "finding": "L31–41具名version-mark，说明Web项目版本标记工具及0.0.5/MIT；是独立JS包而非普通短语。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；本批未新访问，未逐名逐类登记。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；本批未新访问，未逐名逐类登记。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Versionmark",
+          "scope": "2026-11-08实际逐名Versionmark URL不可访问，不代表无登记。"
+        }
+      },
+      "chinese_id": "C1-C36",
+      "chinese": "乐观锁",
+      "rework_attempt": 1,
+      "remaining_reworks": 1
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "passed_english_candidate_ids": [],
+  "returned_english_candidate_ids": [
+    "C1-E29"
+  ],
+  "completed_search_result_count": 6,
+  "new_failed_search_attempts": 0,
+  "controls_reused_not_new": "原run2阳性对照，本批0新增。"
+}

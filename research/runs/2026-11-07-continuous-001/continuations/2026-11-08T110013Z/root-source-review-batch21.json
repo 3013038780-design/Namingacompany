@@ -1,0 +1,31 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-08T19:16:04.700026+08:00",
+  "new_materials": 3,
+  "body_reviewed_materials": 3,
+  "minimum_sample": 1,
+  "source_checks": [
+    {
+      "material_id": "C1-M46",
+      "url": "https://learn.microsoft.com/en-us/ef/core/saving/concurrency",
+      "actual_read": "web34–139与189–200，保存检测版本冲突及应用重试/合并；页脚2023/7/5，非新近新闻。页头授权提示但正文返回。",
+      "boundary": "乐观并发不是无锁算法、自动合并或自学习。"
+    },
+    {
+      "material_id": "C1-M47",
+      "url": "https://dspacemainprd01.lib.uwaterloo.ca/server/api/core/bitstreams/3bcb3ff9-fdd0-4605-9e83-5d4e5752eff0/content",
+      "actual_read": "共享本地205页PDF同SHA，root以pypdf实际读封面及PDF31–33/印刷21–23，Definition2.15指数等待累计时刻及相邻讨论，未通读。",
+      "sha256": "0708aa2ae82bbb22eaa97e4828f4f9ceb74c89e378777d268e9478b6b7386329",
+      "boundary": "骰子是概率比喻，不声称原文含骰子钟装置、不以均匀六面骰精确实现指数分布，不将无记忆性等同模型失忆。"
+    },
+    {
+      "material_id": "C1-M48",
+      "url": "https://www.hitachi-hightech.com/global/en/science-edu/micro/content14/write_study.html",
+      "actual_read": "web29–59铅笔段，石墨薄层剥离留纸形成文字；未看电镜照片/做实验。",
+      "boundary": "不是电子铅笔/可穿戴功能，另PMC验证码不算已读。"
+    }
+  ],
+  "auxiliary_read": "Oracle JDK8 starvelive79–91，原角色仅对照，不另计新材料/名字。",
+  "quality_comparison": "两案先无分独评封存，作者随后25/25，逐轴差0；来源真实不替品牌加分。",
+  "coverage_note": "两技术材料如实S3、铅笔日常入口S1；按把旧M16保守计S3的上界14/48约29.2%，非篡改旧未标macro的原文件；古文未新增，原A2保守3/48。"
+}

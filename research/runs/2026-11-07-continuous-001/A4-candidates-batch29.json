@@ -1,0 +1,84 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-08T19:34:33.778414+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch21.json",
+      "sha256": "03c41e0e634c0454be18a12582bc8383183b5aeeb86abca08f54d16ea9bbfaf4"
+    },
+    {
+      "path": "materials-extension20.json",
+      "sha256": "d7bc23a3392897e047569c8608a0d6c711eb52333dddc499602adcbd988c5e5b"
+    },
+    {
+      "path": "coordinator-cn-batch21.json",
+      "sha256": "8dc53ed028e8f10955a77e09cbe2a92ca6de5a47885a8cb3923aa12335b2c6e1"
+    },
+    {
+      "path": "coordinator-family-review-batch21.json",
+      "sha256": "cedb1897412ad5b45fa6c6d402d3dc56ead04ad7fb69e5ad9e53809d1913ac9d"
+    },
+    {
+      "path": "A3-cn-batch23.json",
+      "sha256": "6af294d33fa08604f58ec5749d41ce8325b84d0a68bfb2bbdd661bd142eed5c6"
+    },
+    {
+      "path": "A4-candidates-batch27.json",
+      "sha256": "bc3e8941f60bf727f0ccc81c37008f64b7d1151b9bca901838f5d900b195bd68"
+    },
+    {
+      "path": "A4-candidates-batch28.json",
+      "sha256": "9e3223c205e5bc46ca468bd1337bcf5f67346464abe9e0fd65faea25685c0d57"
+    },
+    {
+      "path": "coordinator-en-batch28.json",
+      "sha256": "10d9c8f48a7fa67cd48d9b944b907ae0fe69340819115b2f1a24286fb5411de3"
+    },
+    {
+      "path": "A3-en-batch27.json",
+      "sha256": "71c47599a915989da1b96e51cc2f14f2bc180271a27e7730ee4a80e75ea72ebd"
+    },
+    {
+      "path": "A3-en-batch28.json",
+      "sha256": "ec1d20c9858545cdf2781a3d440d056c720da46f7310c459cb5e2fd7b13ed115"
+    },
+    {
+      "path": "A3-en-batch28.md",
+      "sha256": "f643f908a56e93b62450b4dd026d684ba4e272475c6185459af9676191bb68e4"
+    },
+    {
+      "path": "A3-en-batch28-receipt.json",
+      "sha256": "8b1419cc99787cb233aba9ee9abcd0cb9659c1f8e99533f525ec3c0a169426cd"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E30",
+      "chinese_id": "C1-C36",
+      "chinese": "乐观锁",
+      "english": "Aftercheck",
+      "family_id": "C1-BF-optimistic-lock-versioned-commit",
+      "material_id": "C1-M46",
+      "suggested_pronunciation": "建议 AF-ter-check，/ˈæf.tərˌtʃek/，三个音节；英式after可/ˈɑːftə/。两完整语素正常读，造词建议读法非公认标准。",
+      "type": "after + check完整语素组成的后置核验称呼，本案拟称非正式术语",
+      "formation": "从同一协调事件的先后顺序出发：after是时间上在之后；check确有拿来源/原本对照并核验的动词义，以及检验行为的名词义。Aftercheck把做完工作后、真正保存时才进行的版本对照称为一个事件。不在Versionmark后加好词，也不把Still Current换字母；这里换的是机制中被命名的角色，从标记对象换为后置核验动作。",
+      "bilingual_relation": "乐观锁不是先排除所有别人再工作，而是工作已发生、待保存时以原版本和当前记录核对。Aftercheck命名这个后置的检查环节，中文仍讲整个协调机制。两者共享工作→版本对照→接受或冲突的时序，不把after泛说成模型出厂后一定成长。",
+      "meaning": "允许先做事，也保留回到依据面前的时刻。可以研究如何让多个行动与可检验状态共存，而不是给每次行动预发正确证明。",
+      "shortcoming": "可能像售后检查、审计、代码检查或事实核查工具，研究机构专名感有限；aftercheck不是此数据库机制的正式英文名，单独也没有包含版本令牌与共享记录。after还有事后补救、太迟才检查的负面联想，不能以来源真实抹去。",
+      "boundary": "after指工作之后、实际写入/保存检查时，不是已经无条件提交成功后才来亡羊补牢；检查失败需显式处理冲突，不等于自动重试成功、自动合并、无锁算法或正确性保证。不把所有后置检查都叫乐观锁。中文通名/数据库工具首感以及登记未清继续保留；英文尚未使用筛查。",
+      "source_urls": [
+        "https://learn.microsoft.com/en-us/ef/core/saving/concurrency",
+        "https://www.merriam-webster.com/dictionary/after",
+        "https://www.merriam-webster.com/dictionary/check"
+      ],
+      "read_scope": "沿用本人batch27实读微软L34–64及L124–139版本令牌/保存比较/冲突处理。本次实际打开after词条L42–75和L125–195；check词条L36–69与L209–226，核对照原本/核验行为义。未声称词典收录合写Aftercheck。",
+      "rework_attempt": 2,
+      "remaining_reworks": 0,
+      "status": "english_quality_proposal_not_usage_screened",
+      "replaces_candidate_id": "C1-E29",
+      "previous_result": "首稿Still Current已有完整文化策略品牌；首返Versionmark已有DemaConsulting.VersionMark独立.NET版本工具及version-mark JS包。本次按实际使用返最后一次，不说注册已核，不继续第三次返工。"
+    }
+  ],
+  "usage_screening_performed": false
+}

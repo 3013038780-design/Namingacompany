@@ -1,0 +1,142 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T19:12:46.560422+08:00",
+  "candidates": [
+    {
+      "id": "C1-C36",
+      "name": "乐观锁",
+      "pinyin": "lè guān suǒ",
+      "material_id": "C1-M46",
+      "material_ids": [
+        "C1-M46"
+      ],
+      "family_id": "C1-BF-optimistic-lock-versioned-commit",
+      "plan_direction_id": "C1-D-S3",
+      "case_ids": [
+        "B025",
+        "B074"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Microsoft EF Core: Handling Concurrency Conflicts",
+          "url": "https://learn.microsoft.com/en-us/ef/core/saving/concurrency",
+          "reading_location": "实际读L34–139及L189–200：乐观并发、版本令牌与更新条件、冲突异常、显式重试/合并；L195出现optimistic locking。中文乐观锁为通常译名，不声称英文页逐字写中文。",
+          "read_at": "2026-11-08T19:12:46.560422+08:00",
+          "access": "body",
+          "published_at": "2023-07-05",
+          "source_type": "technical_documentation",
+          "reading_scope": "body_excerpt",
+          "boundary": "页头虽有授权提示，正文实际返回；不是近90天新闻。"
+        }
+      ],
+      "source_urls": [
+        "https://learn.microsoft.com/en-us/ef/core/saving/concurrency"
+      ],
+      "formation": "选用已有计算术语的完整中文称呼，态度词和器物名的交叉原本就在技术关系中；不是首造新词，也不将锁泛化为安全护盾。",
+      "relation_sentence": "多个参与者先各自工作，提交时才核对共享对象的版本是否变化。",
+      "condensation_path": "选用已有计算术语的完整中文称呼，态度词和器物名的交叉原本就在技术关系中；不是首造新词，也不将锁泛化为安全护盾。",
+      "meaning": "先允许工作发生，再认真面对变化。",
+      "crossing": "不长期预占资源，而将竞争的核验放到提交处。",
+      "layers": [
+        "先允许工作发生，再认真面对变化。",
+        "不长期预占资源，而将竞争的核验放到提交处。"
+      ],
+      "material_feature_retained": "保留先工作、后核版本的协调关系",
+      "material_feature_lost": "名字看不出版本令牌、异常处理和具体数据库条件，也不承诺学习能力。",
+      "why_name_not_generic": "选用已有计算术语的完整中文称呼，态度词和器物名的交叉原本就在技术关系中；不是首造新词，也不将锁泛化为安全护盾。",
+      "shortcoming": "可能先被听成数据库教学平台、门锁产品；乐观的日常情绪含义与技术假设不同。广义Lab身份若不足应淘汰，不能借专业出处补分。",
+      "science_boundary": "不声称无锁算法、自动处理冲突、更快或更智能；数据库实现与应用策略有条件。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "旧C19分身有别是复制写时分离实体页，本项是在共享记录更新时比较版本、检测读取以后发生的竞争；旧合符为凭证两半配对，旧复证为研究重复核验，均不等于并发更新冲突。不把通用核验/可信作为本项品牌叙事，否则可能落旧上位家族。历史锁字出现不自动所有锁同族，但本次不另报活锁变体。 实际历史精确串扫描无命中；不是市场检索。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是乐观锁，做人工智能研究。",
+        "乐观锁发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened"
+    },
+    {
+      "id": "C1-C37",
+      "name": "骰子钟",
+      "pinyin": "tóu zi zhōng",
+      "material_id": "C1-M47",
+      "material_ids": [
+        "C1-M47"
+      ],
+      "family_id": "C1-BF-dice-clock-random-waiting",
+      "plan_direction_id": "C1-D-S3",
+      "case_ids": [
+        "B002",
+        "B053"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Abbas Mehrabian: Diameter and Rumour Spreading in Real-World Network Models",
+          "url": "https://dspacemainprd01.lib.uwaterloo.ca/server/api/core/bitstreams/3bcb3ff9-fdd0-4605-9e83-5d4e5752eff0/content",
+          "reading_location": "实际下载原论文，读PDF31–33页、印刷21–23：Definition 2.15独立指数等待及累计鸣响时刻，随后无记忆性、叠加/抽稀关系。封面确认作者、博士论文和2015年；不称通读。",
+          "read_at": "2026-11-08T19:12:46.560422+08:00",
+          "access": "body",
+          "published_at": "2015",
+          "source_type": "doctoral_thesis",
+          "reading_scope": "definition_and_adjacent_excerpt",
+          "local_path": "/tmp/continuous001-mehrabian-thesis.pdf",
+          "sha256": "0708aa2ae82bbb22eaa97e4828f4f9ceb74c89e378777d268e9478b6b7386329"
+        }
+      ],
+      "source_urls": [
+        "https://dspacemainprd01.lib.uwaterloo.ca/server/api/core/bitstreams/3bcb3ff9-fdd0-4605-9e83-5d4e5752eff0/content"
+      ],
+      "formation": "先写钟的下一次鸣响由随机等待决定，再凝为骰子钟这个完整器物画面；骰子代表概率、钟代表事件节奏。同一关系内的新组合，不宣称原文器物名或全球首次造词。",
+      "relation_sentence": "一只钟每次仍会等待下一次鸣响，但等待多久不是固定刻度，而由随机过程决定。",
+      "condensation_path": "先写钟的下一次鸣响由随机等待决定，再凝为骰子钟这个完整器物画面；骰子代表概率、钟代表事件节奏。同一关系内的新组合，不宣称原文器物名或全球首次造词。",
+      "meaning": "把偶然带进节奏。",
+      "crossing": "钟保持事件节奏角色，下一次何时响却由随机等待决定。",
+      "layers": [
+        "把偶然带进节奏。",
+        "钟保持事件节奏角色，下一次何时响却由随机等待决定。"
+      ],
+      "material_feature_retained": "保留随机等待与事件时刻的同一关系",
+      "material_feature_lost": "名字舍去指数分布、独立性和速率参数；并非用普通骰子就精确实现原定义。",
+      "why_name_not_generic": "先写钟的下一次鸣响由随机等待决定，再凝为骰子钟这个完整器物画面；骰子代表概率、钟代表事件节奏。同一关系内的新组合，不宣称原文器物名或全球首次造词。",
+      "shortcoming": "骰字读写成本，可能先像桌游、玩具、赌博器材或时钟产品；第一机构身份不能靠说明论文补救。",
+      "science_boundary": "骰子是概率意象，不称六面均匀骰子恰好产生指数分布；不称真实制造过这个钟，不将无记忆性等同模型失忆。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "旧因序/M20是事件因果偏序及逻辑时钟，本项是下次事件的随机等待分布，不作因果排序；二周目/之后旧族关乎阶段与重启，本项没有二次成长叙事；M36奖励预测误差不是等待过程。若只剩时间/随机这类泛上位词，不能以论文不同就认定新族。 实际历史精确串扫描无命中；不是市场检索。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是骰子钟，做人工智能研究。",
+        "骰子钟发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened"
+    }
+  ],
+  "scope": "两个不同机制的中文称呼；铅笔材料不强配名；未查使用、未配英文。"
+}

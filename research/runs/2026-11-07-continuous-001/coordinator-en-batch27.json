@@ -1,0 +1,80 @@
+{
+  "reviewed_at": "2026-11-08T19:25:56.877135+08:00",
+  "independence": "Read producer preview batch27 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C36",
+      "name": "Still Current",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个完整常用词，正常重音易读",
+          "counter_association": "current有地域元音差别"
+        },
+        "spelling": {
+          "reason": "常用词的标准拼写可听写，空格自然",
+          "counter_association": "可能听成普通句子而不知是品牌"
+        },
+        "grounding": {
+          "reason": "仍有效的版本判据与原机制同属提交过程",
+          "counter_association": "current不能泛指永远正确或始终最新"
+        },
+        "bilingual_relation": {
+          "reason": "中文讲机制英文抓提交时版本是否仍有效，主题相连",
+          "counter_association": "离开中文不会自动知道版本令牌"
+        },
+        "distinctiveness": {
+          "reason": "普通短语可专名化但辨识有限，恰达最低",
+          "counter_association": "新闻时事数据或电流联想强"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E27"
+    },
+    {
+      "candidate_id": "C1-C37",
+      "name": "Chancebell",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "按两个完整英语词读，节奏清楚",
+          "counter_association": "ns与b交界需读清"
+        },
+        "spelling": {
+          "reason": "chance和bell完整保留无字母硬改",
+          "counter_association": "可被分写Chance Bell并作人名"
+        },
+        "grounding": {
+          "reason": "概率触发与报时钟铃在同一鸣响对象关系内，构词可追溯",
+          "counter_association": "不等同论文正式术语或真实骰子装置"
+        },
+        "bilingual_relation": {
+          "reason": "两种语言都把随机等待和鸣响时刻拟物化",
+          "counter_association": "未传达指数分布和速率"
+        },
+        "distinctiveness": {
+          "reason": "合成整体有画面可称呼",
+          "counter_association": "玩具音乐和抽奖联想仍在"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E28"
+    }
+  ]
+}

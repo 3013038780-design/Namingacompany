@@ -1,0 +1,258 @@
+{
+  "accepted_at": "2026-11-08T19:40:25.563626+08:00",
+  "same_research_run": true,
+  "new_A1_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "accepted_at": "2026-11-08T19:40:25.563626+08:00",
+      "from": "existing_A1",
+      "to": "same_A2",
+      "status": "accepted",
+      "candidate_ids": [],
+      "reason": "原真实A1案例、六方向计划与构词机制复用，不计新案例；原A2比较两技术关系和一日常器物，不强配铅笔名。",
+      "refs": [
+        {
+          "path": "A1-final-input-reacceptance.json",
+          "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+        },
+        {
+          "path": "A1-formation-feedback.json",
+          "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        },
+        {
+          "path": "continuations/2026-11-08T110013Z/resume.json",
+          "sha256": "f9546c234b00c5646ac1d7456825ade973871dfee53ee2a468ea4a22f7d7810d"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "accepted_at": "2026-11-08T19:40:25.563626+08:00",
+      "from": "same_A2",
+      "to": "coordinator",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C36",
+        "C1-C37"
+      ],
+      "reason": "先无分独评封存，两中文主控/作者各25，最大轴差0；三材料正文均核，古文未新增，场景不同于旧逻辑时钟/随机初态/异步调度。",
+      "refs": [
+        {
+          "path": "A2-preview-batch21.md",
+          "sha256": "0a6ac083572f5f4cfe5fad0137830509cfd78de610560b0cae0f4f18a0c79296"
+        },
+        {
+          "path": "A2-candidates-batch21.json",
+          "sha256": "03c41e0e634c0454be18a12582bc8383183b5aeeb86abca08f54d16ea9bbfaf4"
+        },
+        {
+          "path": "A2-quality-batch21.json",
+          "sha256": "b2279af2ce4311012c1073a21b19159f0151f1648ef02e1cbbc26eced908df7e"
+        },
+        {
+          "path": "A2-creation-execution-batch21.json",
+          "sha256": "898ba2d777e1c982bfe0a3bdc4b372cae7034d1ad19e6ef98a93abd2660290db"
+        },
+        {
+          "path": "materials-extension20.json",
+          "sha256": "d7bc23a3392897e047569c8608a0d6c711eb52333dddc499602adcbd988c5e5b"
+        },
+        {
+          "path": "coordinator-cn-batch21.json",
+          "sha256": "8dc53ed028e8f10955a77e09cbe2a92ca6de5a47885a8cb3923aa12335b2c6e1"
+        },
+        {
+          "path": "coordinator-family-review-batch21.json",
+          "sha256": "cedb1897412ad5b45fa6c6d402d3dc56ead04ad7fb69e5ad9e53809d1913ac9d"
+        },
+        {
+          "path": "continuations/2026-11-08T110013Z/root-source-review-batch21.json",
+          "sha256": "cb893a30f1d521aba15f407c36eee25a54e744e341046616d0bb397f74d7edf4"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "accepted_at": "2026-11-08T19:40:25.563626+08:00",
+      "from": "coordinator",
+      "to": "same_A3",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C36",
+        "C1-C37"
+      ],
+      "reason": "原A3中文7+8有效查询，术语实现与独立品牌区别；历史外观描述不冒当前商标，登记未清。",
+      "refs": [
+        {
+          "path": "A3-cn-batch23.json",
+          "sha256": "6af294d33fa08604f58ec5749d41ce8325b84d0a68bfb2bbdd661bd142eed5c6"
+        },
+        {
+          "path": "A3-cn-batch23-receipt.json",
+          "sha256": "d28ce13df901efc2766a58f08ccd50cd102c21ba46d05db537c484dae547298c"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "accepted_at": "2026-11-08T19:40:25.563626+08:00",
+      "from": "same_A3",
+      "to": "same_A4",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C36",
+        "C1-C37"
+      ],
+      "reason": "原A4实际核两中文带风险通过后独立匹配，各1英文首案，未继承为英文通过。",
+      "refs": [
+        {
+          "path": "A4-candidates-batch27.json",
+          "sha256": "bc3e8941f60bf727f0ccc81c37008f64b7d1151b9bca901838f5d900b195bd68"
+        },
+        {
+          "path": "A4-creation-execution-batch27.json",
+          "sha256": "df3b8b86d89a9b0eb4ea65634b3db528800f5a308f92859e14bc9316813f4179"
+        },
+        {
+          "path": "continuations/2026-11-08T110013Z/root-cn23-risk-review.json",
+          "sha256": "11bf05677ee3d1ac23bdea09c6c9e0f62992eb013e9da6786d9f3332ef15f43f"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "accepted_at": "2026-11-08T19:40:25.563626+08:00",
+      "from": "same_A4",
+      "to": "same_A3",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C36",
+        "C1-C37"
+      ],
+      "reason": "首案2及C36两返均先无分独评后看作者，每版均双21，逐轴差不超1；各版本不计新家族。",
+      "refs": [
+        {
+          "path": "A4-candidates-batch27.json",
+          "sha256": "bc3e8941f60bf727f0ccc81c37008f64b7d1151b9bca901838f5d900b195bd68"
+        },
+        {
+          "path": "A4-quality-batch27.json",
+          "sha256": "e0c16cec60856da02043153ef6db36d4a49c2de1392f511b84927883de63dcad"
+        },
+        {
+          "path": "coordinator-en-batch27.json",
+          "sha256": "653a2b13cfe4093b685a01582bbddaaa0a710572216ee1a369a1625f23f78a07"
+        },
+        {
+          "path": "A4-candidates-batch28.json",
+          "sha256": "9e3223c205e5bc46ca468bd1337bcf5f67346464abe9e0fd65faea25685c0d57"
+        },
+        {
+          "path": "A4-quality-batch28.json",
+          "sha256": "d84d409cc64f6f23c609d055634b6e28ae213b1977cc65d5ce50af38eed38ef0"
+        },
+        {
+          "path": "coordinator-en-batch28.json",
+          "sha256": "10d9c8f48a7fa67cd48d9b944b907ae0fe69340819115b2f1a24286fb5411de3"
+        },
+        {
+          "path": "A4-candidates-batch29.json",
+          "sha256": "cc20675d09f0f818ebc24885704bab9b7d5b0a8b197a5189a20b761bd4b45ebb"
+        },
+        {
+          "path": "A4-quality-batch29.json",
+          "sha256": "8c4c6db4d6d16ec77597aa11c73d00818b1cd2b74f51a56fef82653209cb8c6b"
+        },
+        {
+          "path": "coordinator-en-batch29.json",
+          "sha256": "1ab3b1446a9d89c85deafe8b4ab6043b1bd4c74bc25456039d4211f6df5e6926"
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "accepted_at": "2026-11-08T19:40:25.563626+08:00",
+      "from": "same_A3",
+      "to": "coordinator",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C36",
+        "C1-C37"
+      ],
+      "reason": "同一原A3英文首批12及两返各6有效查询，Chancebell通过，其他三名确有商业品牌/软件，原A4实际返工及最终收尾，不R3。",
+      "refs": [
+        {
+          "path": "A3-en-batch27.json",
+          "sha256": "71c47599a915989da1b96e51cc2f14f2bc180271a27e7730ee4a80e75ea72ebd"
+        },
+        {
+          "path": "A3-en-batch27-receipt.json",
+          "sha256": "57f821f12375afb37ee706a075d69d4f5591c9818daacd9202c9d89751e0a130"
+        },
+        {
+          "path": "A3-en-batch28.json",
+          "sha256": "ec1d20c9858545cdf2781a3d440d056c720da46f7310c459cb5e2fd7b13ed115"
+        },
+        {
+          "path": "A3-en-batch28-receipt.json",
+          "sha256": "8b1419cc99787cb233aba9ee9abcd0cb9659c1f8e99533f525ec3c0a169426cd"
+        },
+        {
+          "path": "A3-en-batch29.json",
+          "sha256": "992ddfad94c544a75a29034a53613f952dbcab4570ec5c7cf22dae6b2b8a8cc1"
+        },
+        {
+          "path": "A3-en-batch29-receipt.json",
+          "sha256": "89013d70553501874b69e32598f9a8bde0eb3cd5237a1946f2bf5c7b4c8100ef"
+        },
+        {
+          "path": "A4-C37-postscreen-review.json",
+          "sha256": "054df130131d868f722f7ee0c03211cb00101f4a6e41886b510865990d58fa72"
+        },
+        {
+          "path": "A4-C36-closeout.json",
+          "sha256": "c29803902b093b3ca8eeb796825ec7240e2e87ac39a67e701e4a5a6663fc37ff"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "accepted_at": "2026-11-08T19:40:25.563626+08:00",
+      "from": "coordinator",
+      "to": "catalog",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C36",
+        "C1-C37"
+      ],
+      "reason": "仅骰子钟/Chancebell经过来源、双评、中英独查、家族终审入库；原带风险通过标签仅派生归一，原A3字节、查询和风险保持。原待核与旧撤回分开。",
+      "refs": [
+        {
+          "path": "delivery-C1-E28.json",
+          "sha256": "8128f80010727a6d7557a6c62012eaa7e8e562a57506b5c8c1c0adf6d3ab07f6"
+        },
+        {
+          "path": "continuations/2026-11-08T110013Z/root-C37-terminal-review.json",
+          "sha256": "65a60797ec171549de5e1180337dc3d018d5e49da5b7d920084ec7f9f09de531"
+        },
+        {
+          "path": "continuations/2026-11-08T110013Z/root-C36-terminal-closeout.json",
+          "sha256": "67ac848dd4411edbeedd84704dbfd7402adc5d176c6821ddc111c7042d4c2680"
+        },
+        {
+          "path": "continuations/2026-11-08T110013Z/decisions-through-batch21.json",
+          "sha256": "f26f08e5ae6e0ec7c2c8cfe4879511d240733bf346553e273cd7d972d335ece4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-08T19:30:13.108860+08:00",
+  "inputs": [
+    {
+      "path": "A4-candidates-batch27.json",
+      "sha256": "bc3e8941f60bf727f0ccc81c37008f64b7d1151b9bca901838f5d900b195bd68"
+    },
+    {
+      "path": "A4-quality-batch27.json",
+      "sha256": "e0c16cec60856da02043153ef6db36d4a49c2de1392f511b84927883de63dcad"
+    },
+    {
+      "path": "A4-creation-execution-batch27.json",
+      "sha256": "df3b8b86d89a9b0eb4ea65634b3db528800f5a308f92859e14bc9316813f4179"
+    },
+    {
+      "path": "coordinator-en-batch27.json",
+      "sha256": "653a2b13cfe4093b685a01582bbddaaa0a710572216ee1a369a1625f23f78a07"
+    },
+    {
+      "path": "A3-cn-batch23.json",
+      "sha256": "6af294d33fa08604f58ec5749d41ce8325b84d0a68bfb2bbdd661bd142eed5c6"
+    },
+    {
+      "path": "A3-cn-batch23.md",
+      "sha256": "a9f5393d6e18a5937664381a138d9eaa59ef0924912d2b5a719a9694986d0a1e"
+    },
+    {
+      "path": "A3-cn-batch23-receipt.json",
+      "sha256": "d28ce13df901efc2766a58f08ccd50cd102c21ba46d05db537c484dae547298c"
+    },
+    {
+      "path": "A3-en-batch27.json",
+      "sha256": "71c47599a915989da1b96e51cc2f14f2bc180271a27e7730ee4a80e75ea72ebd"
+    },
+    {
+      "path": "A3-en-batch27.md",
+      "sha256": "39b96731b4ae8f0abc439d203eeff57a088ae57a5acc3b27f505d75084a1f843"
+    },
+    {
+      "path": "A3-en-batch27-receipt.json",
+      "sha256": "57f821f12375afb37ee706a075d69d4f5591c9818daacd9202c9d89751e0a130"
+    },
+    {
+      "path": "continuations/2026-11-08T110013Z/root-cn23-risk-review.json",
+      "sha256": "11bf05677ee3d1ac23bdea09c6c9e0f62992eb013e9da6786d9f3332ef15f43f"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E29",
+      "chinese_id": "C1-C36",
+      "chinese": "乐观锁",
+      "english": "Versionmark",
+      "family_id": "C1-BF-optimistic-lock-versioned-commit",
+      "material_id": "C1-M46",
+      "suggested_pronunciation": "建议 VER-zhun-mark，/ˈvɜːrʒənˌmɑːrk/，三个音节；version也有/ʃ/读法。按两完整语素读，新合写名无公认读法。",
+      "type": "version + mark完整语素合成名，本案创作非机制正式术语",
+      "formation": "从关键判据转向机制真正拿来比较的对象：标识版本的记号。version是原型的一种形式/版本；mark有识别用的符号之义。微软正文确实以version/concurrency token标识已读的记录，提交时再比较。Versionmark把版本与识别它的标记组成一个对象名，不给通用积极词附加美化动词，也不把mark误说成性能分数或认证标志。",
+      "bilingual_relation": "中文为协调过程，英文为其中可反复对照的版本标记。工作可以先独立进行，真正提交时拿最初记下的标记再核当前记录；变了就不能按原依据径直写入。配对留在同一共享更新事件，英文不需要逐字译乐观或锁。",
+      "meaning": "先记住从哪里出发，再决定这次更新是否仍有依据。作为Lab名字可以容纳状态、协作与知识版本研究；真实物件是状态标记，不许诺每版都更聪明或一定正确。",
+      "shortcoming": "首感可能是版本管理、发布管理或数字水印工具，Lab身份需品牌呈现支持；三个音节且version的/ʒ/或/ʃ/口音差异需要容纳。英文没说出先工作后校验的全部流程；mark也容易被理解为评分、标志设计或人名Mark，不能靠解释抹去。",
+      "boundary": "mark在本案只取识别符号义，不是授权证书、密码凭证或校验真理。比较版本不是自动合并、永不冲突或lock-free算法。中文技术通名及数据库功能首感、登记未清继续披露。Versionmark为本案拟称，没声称微软或词典把合写词收作机制名；未做其使用/登记查询。",
+      "source_urls": [
+        "https://learn.microsoft.com/en-us/ef/core/saving/concurrency",
+        "https://www.merriam-webster.com/dictionary/version",
+        "https://www.merriam-webster.com/dictionary/mark"
+      ],
+      "read_scope": "微软版本令牌及保存时比较正文沿本人batch27实际阅读L34–64与L124–139；本次实际打开Merriam-Webster version L31–65（特别L58 form/variant）及mark L95–126（特别L112识别符号义）。未声称读整个词典或源代码。",
+      "rework_attempt": 1,
+      "remaining_reworks": 1,
+      "status": "english_quality_proposal_not_usage_screened",
+      "replaces_candidate_id": "C1-E27",
+      "previous_result": "Still Current已有完整文化策略商业品牌，按原A3明确使用返工；MCP目录具名但源库404，非用该不可读库冒证登记。"
+    }
+  ],
+  "usage_screening_performed": false
+}

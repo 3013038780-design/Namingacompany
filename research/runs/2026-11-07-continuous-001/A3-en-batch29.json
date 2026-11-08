@@ -1,0 +1,125 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T19:36:47.563306+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch29.json",
+      "sha256": "cc20675d09f0f818ebc24885704bab9b7d5b0a8b197a5189a20b761bd4b45ebb"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch29.json",
+      "sha256": "8c4c6db4d6d16ec77597aa11c73d00818b1cd2b74f51a56fef82653209cb8c6b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch29.json",
+      "sha256": "f9bc8beddabfd9c3c47b4c3236fbafcf99497e10b7626e1d5cb41a620ea89fc2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch29.json",
+      "sha256": "1ab3b1446a9d89c85deafe8b4ab6043b1bd4c74bc25456039d4211f6df5e6926"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch28.json",
+      "sha256": "ec1d20c9858545cdf2781a3d440d056c720da46f7310c459cb5e2fd7b13ed115"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch23.json",
+      "sha256": "6af294d33fa08604f58ec5749d41ce8325b84d0a68bfb2bbdd661bd142eed5c6"
+    }
+  ],
+  "query_count": 6,
+  "results": [
+    {
+      "candidate_id": "C1-E30",
+      "name": "Aftercheck",
+      "query_logs": [
+        {
+          "query": "\"Aftercheck\"",
+          "executed_on": "2026-11-08",
+          "summary": "精确命中AfterCheck App、AI官网及客户反馈软件，后核主站及运营政策，不只凭搜索摘要。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Aftercheck\" company lab",
+          "executed_on": "2026-11-08",
+          "summary": "公司/Lab组合命中AI产品和软件主体，实际官网确认独立命名；没有将官网自述LLC冒官方核准。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Aftercheck\" AI model",
+          "executed_on": "2026-11-08",
+          "summary": "AI/model组合明确AfterCheck AI核查扩展，而不是基础大模型；具名AI软件已满足使用拒绝。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Aftercheck\" software product",
+          "executed_on": "2026-11-08",
+          "summary": "software/product命中运营政策，实际正文明确B2B软件品牌；不因运营者为个人就当普通个人名忽略。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"After Check\" company software",
+          "executed_on": "2026-11-08",
+          "summary": "分写After Check主要软件结账/入住等普通操作句，不将其语义出现单独判品牌；合写具名品牌另有确证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"After-Check\" brand",
+          "executed_on": "2026-11-08",
+          "summary": "连字符结果多after check-in短句及不同品牌，非精确品牌证据；已有合写核心使用独立成立。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "reject_existing_core_software_final_rework_exhausted",
+      "reason": "已有完整核心AfterCheck软件品牌及AfterCheck AI扩展官网正文确证；AI描述后缀与大小写不构成不同核心名。C36英文首案及两次返工均已用，额度耗尽关闭英文匹配，不再R3；中文原公开初筛不因此倒写为占用。",
+      "evidence": [
+        {
+          "url": "https://www.aftercheck.ai/",
+          "access": "primary_ai_product_body_read",
+          "finding": "L3–5具名AfterCheck AI及针对LLM回复核查定位，L67–92扩展安装/使用流程；L107自述Built by Zion Institute, LLC。只核命名使用，不背书正确率或实时登记/当前可下载。"
+        },
+        {
+          "url": "https://tryaftercheck.com/privacy",
+          "access": "primary_software_operator_policy_body_read",
+          "finding": "L18更新2026-07-07，L22明确AfterCheck为Tyler Heshka从加拿大经营B2B软件产品/品牌；不是个人署名自动占用，而其正文明确产品运营关系。未冒官方公司登记。"
+        },
+        {
+          "url": "https://tryaftercheck.com/",
+          "access": "primary_product_body_excerpt_read",
+          "finding": "L19–24具名客户反馈及跟进软件，明确early-access；未试用，不把早期访问描述成全部集成上线。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403，本批未新访问，未逐名逐类登记。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403，本批未新访问，未逐名逐类登记。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Aftercheck",
+          "scope": "2026-11-08实际逐名Aftercheck URL不可访问，非无登记结论。"
+        }
+      },
+      "chinese_id": "C1-C36",
+      "chinese": "乐观锁",
+      "rework_attempt": 2,
+      "remaining_reworks": 0
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "passed_english_candidate_ids": [],
+  "closed_chinese_family_ids": [
+    "C1-C36"
+  ],
+  "completed_search_result_count": 6,
+  "new_failed_search_attempts": 0,
+  "controls_reused_not_new": "本run原2对照不冒本次新查。"
+}

@@ -1,0 +1,67 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English screening",
+  "executed_at": "2026-11-08T19:28:27.299339+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch27.json",
+      "sha256": "bc3e8941f60bf727f0ccc81c37008f64b7d1151b9bca901838f5d900b195bd68"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch27.json",
+      "sha256": "e0c16cec60856da02043153ef6db36d4a49c2de1392f511b84927883de63dcad"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch27.json",
+      "sha256": "df3b8b86d89a9b0eb4ea65634b3db528800f5a308f92859e14bc9316813f4179"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch27.json",
+      "sha256": "653a2b13cfe4093b685a01582bbddaaa0a710572216ee1a369a1625f23f78a07"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch23.json",
+      "sha256": "6af294d33fa08604f58ec5749d41ce8325b84d0a68bfb2bbdd661bd142eed5c6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch23-receipt.json",
+      "sha256": "d28ce13df901efc2766a58f08ccd50cd102c21ba46d05db537c484dae547298c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T110013Z/root-cn23-risk-review.json",
+      "sha256": "11bf05677ee3d1ac23bdea09c6c9e0f62992eb013e9da6786d9f3332ef15f43f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-batch27.json",
+      "sha256": "71c47599a915989da1b96e51cc2f14f2bc180271a27e7730ee4a80e75ea72ebd"
+    },
+    {
+      "path": "A3-en-batch27.md",
+      "sha256": "39b96731b4ae8f0abc439d203eeff57a088ae57a5acc3b27f505d75084a1f843"
+    }
+  ],
+  "actual_new_candidate_queries": 12,
+  "completed_candidate_search_results": 12,
+  "unreturned_search_attempts": 0,
+  "actual_new_chinese_queries": 0,
+  "actual_new_english_queries": 12,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 414,
+  "prior_agent3_returned_candidate_results": 413,
+  "agent3_cumulative_candidate_queries": 426,
+  "agent3_cumulative_returned_candidate_results": 425,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 428,
+  "run_cumulative_returned_candidate_results": 427,
+  "passed_english_candidate_ids": [
+    "C1-E28"
+  ],
+  "returned_english_candidate_ids": [
+    "C1-E27"
+  ],
+  "actual_execution": "两英文各6有效查询。Still Current原服务官网正文确证；MCP目录可读原README而GitHub404。Chancebell人名/用户名与CHANCE牌Bell Cuff描述分别处理；制造商规格原文核，不把个人或通用商品样式误判独立品牌。",
+  "next": "E27返同原A4首返；E28交主控来源/家族/中英文短板终审，不自行入库。",
+  "unchanged": "旧记录/库/队列/Git未改，无网页全文。"
+}

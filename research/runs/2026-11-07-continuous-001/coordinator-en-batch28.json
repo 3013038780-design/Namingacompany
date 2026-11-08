@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-08T19:31:21.974937+08:00",
+  "independence": "Read producer preview batch28 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C36",
+      "name": "Versionmark",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "完整version和mark连读可行，三音节清楚",
+          "counter_association": "version有zh或sh口音差"
+        },
+        "spelling": {
+          "reason": "两熟词原样合写无字母变造",
+          "counter_association": "首次可能分写Version Mark"
+        },
+        "grounding": {
+          "reason": "标记版本是同一并发比较中的实际对象",
+          "counter_association": "mark不是评分或认证保证"
+        },
+        "bilingual_relation": {
+          "reason": "中文机制与英文所比较对象对应同次更新",
+          "counter_association": "名字没有完整说出先工作后校验"
+        },
+        "distinctiveness": {
+          "reason": "有完整对象形象，能作为工具或研究称呼",
+          "counter_association": "版本管理水印工具首感明显"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E29"
+    }
+  ]
+}

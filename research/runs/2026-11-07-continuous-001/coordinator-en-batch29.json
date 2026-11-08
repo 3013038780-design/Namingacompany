@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-08T19:35:34.990330+08:00",
+  "independence": "Read producer preview batch29 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C36",
+      "name": "Aftercheck",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "after与check完整词正常连读，三音节明确",
+          "counter_association": "after有英美元音差"
+        },
+        "spelling": {
+          "reason": "两常用词合写无需猜字母",
+          "counter_association": "可能分写After Check"
+        },
+        "grounding": {
+          "reason": "先工作后对照版本的顺序真实，构词未伪称原名",
+          "counter_association": "不能误作成功写入之后才检查"
+        },
+        "bilingual_relation": {
+          "reason": "英文讲中文机制中的保存检查环节，同一更新事件",
+          "counter_association": "本名未含共享记录与令牌，不能泛化全部后置检查"
+        },
+        "distinctiveness": {
+          "reason": "完整称呼能指代主体但泛工具感只达最低",
+          "counter_association": "售后审计事实核查服务首感明显"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E30"
+    }
+  ]
+}
