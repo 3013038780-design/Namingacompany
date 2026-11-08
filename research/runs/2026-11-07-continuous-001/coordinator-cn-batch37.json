@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-09T02:34:59.369267+08:00",
+  "independence": "Read producer preview batch37 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C56",
+      "name": "遍历者",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 5,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "三字为完整行动者称呼顺口可说",
+          "counter_association": "仍可能像游戏角色或旅行栏目"
+        },
+        "distinctiveness": {
+          "reason": "沿结构逐点探索形成清楚的计算角色画面",
+          "counter_association": "普通学术角色名辨识不等于原创独占"
+        },
+        "lab_fit": {
+          "reason": "遍历为基础计算过程可容纳系统探索机构身份",
+          "counter_association": "爬虫工具首感需由研究定位承接"
+        },
+        "grounding": {
+          "reason": "沿边发现与去重并回探分支是同一真实算法关系",
+          "counter_association": "非全知或自动学习规则的证明"
+        },
+        "extension": {
+          "reason": "不局限一种模型或一次工具操作",
+          "counter_association": "不能许诺无限图全覆盖"
+        },
+        "semantic_coherence": {
+          "reason": "系统探索与记住到访之处围绕同一过程",
+          "counter_association": "字面未表达可达性与策略选择边界"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

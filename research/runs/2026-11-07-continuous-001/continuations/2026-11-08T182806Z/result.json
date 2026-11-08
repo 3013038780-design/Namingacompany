@@ -1,0 +1,111 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-08T18:28:06.161Z",
+  "completed_at": "2026-11-09T02:41:51.798752+08:00",
+  "status": "same_run_bounded_package_complete_zero_new_pairs",
+  "new_A1_research_claimed": false,
+  "actual_A2": "/root/continuous_a2",
+  "actual_A3_same_cn_en": "/root/live_a3",
+  "actual_A4": "/root/continuous_a4",
+  "new_materials": 1,
+  "new_chinese_drafts": 1,
+  "new_chinese_families_explored": 1,
+  "new_selected_CN_revision_forms": 0,
+  "new_formally_submitted_literal_forms_including_revisions": 1,
+  "internal_unselected_words": [
+    {
+      "name": "逐邻",
+      "disposition": "短动作片段且丢发现状态/环处理，未选未查，不计正式新增或占用。"
+    }
+  ],
+  "chinese_quality_passed": 1,
+  "chinese_public_use_passed": 0,
+  "new_english_versions": 0,
+  "english_quality_passed": 0,
+  "english_public_use_passed": 0,
+  "new_retained_families": 0,
+  "retained_pairs": [],
+  "evidence_holds": 1,
+  "new_evidence_holds": 0,
+  "new_A3_candidate_query_executions": 8,
+  "new_A3_search_results_returned": 8,
+  "new_A3_failed_or_unreturned_attempts": 0,
+  "new_root_candidate_query_executions": 0,
+  "cumulative_A3_candidate_query_executions": 655,
+  "cumulative_A3_search_results_returned": 654,
+  "root_additional_queries_prior_packet": 2,
+  "cumulative_recorded_candidate_query_executions": 657,
+  "cumulative_recorded_results_returned": 656,
+  "cumulative_materials": 69,
+  "cumulative_chinese_drafts": 56,
+  "cumulative_selected_chinese_literal_forms_including_revisions": 57,
+  "cumulative_english_versions": 45,
+  "catalog_counts": {
+    "discussion_candidates": 29,
+    "research_reserves": 1,
+    "total_unique_families": 30,
+    "withdrawn_families": 1,
+    "historical_unique_families": 31
+  },
+  "reason": "本段没有新增合格配对。新读图遍历关系并创作遍历者，8次中文查询发现具体近名合肥遍历科技的软件服务资料；不是完全同名，按同计算核心混淆主动避让。首次中文返工无自然选稿后主动闭族，内部逐邻未选未查；第二次额度未用，不假称耗尽。原A4和同原A3真实零英文收尾，未造英文凑数。总库仍29讨论+1储备。",
+  "source_sampling": {
+    "new_materials": 1,
+    "root_new_materials_core_read": 1,
+    "minimum_required": 1,
+    "scope": "root实际讲义24–28/592–720/758–790及1115–1142指定代码/解释段，未运行代码或观看动画；有限图源点可达与状态记录，非全知/自改进/最优承诺。",
+    "classical_chinese_cards": 4,
+    "conservative_S3_primary_cards": 16,
+    "total_materials": 69,
+    "new_recent_news_body_read": 0,
+    "new_whole_books_read": 0
+  },
+  "registration_boundary": "本段大陆旧403与原两阳性对照准确复用，英国逐名入口不可访问；非逐名工商/9/42已核准。第三方不是现时存续核验。",
+  "voluntary_closure": {
+    "CN_reworks_actually_completed": 1,
+    "CN_rework_allowance_unused": 1,
+    "not_exhaustion_claim": true
+  },
+  "whole_production_compliance_claimed": false,
+  "evidence_refs": [
+    {
+      "path": "materials-extension33.json",
+      "sha256": "7eef1e417948f63399c4abe52d8d9a5656146b48da48bc332e4c4b55ee4c6ac3"
+    },
+    {
+      "path": "A2-creation-execution-batch37.json",
+      "sha256": "e83089ce2b1cfaf7751fc46c107ee2b1a7e55b469300802d0452c38d61285fdd"
+    },
+    {
+      "path": "A2-creation-execution-batch38.json",
+      "sha256": "8f2a90f69d7d3b27649da4551d7feb8d3d19f53b09e52d59d4515a21291920a9"
+    },
+    {
+      "path": "A3-cn-batch39.json",
+      "sha256": "31cd32460f02b2579a1193f49e2b1d497583c1d97c19c994791affed1aa05b85"
+    },
+    {
+      "path": "A3-cn-batch40.json",
+      "sha256": "ca8d57703951f0040255118f7d10c947093c432842b012eb9fd35e3a43ba43ef"
+    },
+    {
+      "path": "A4-zero-input-batch29.json",
+      "sha256": "7c4c2a86db18fde9b6e77b4b4da525ec2723e727f6caac538660283971526af3"
+    },
+    {
+      "path": "A3-en-zero-batch29.json",
+      "sha256": "c5c0fc7601973eefff534912e31708fb4d7ac285465ecb45c1903bffeabb1a99"
+    },
+    {
+      "path": "continuations/2026-11-08T182806Z/handoffs-batch37.json",
+      "sha256": "489f33e2302f416e1916e5bd1793bad83e057c4ae61076e106c761d54e1ed784"
+    },
+    {
+      "path": "continuations/2026-11-08T182806Z/decisions-through-batch38.json",
+      "sha256": "bae0f70e1829dd364699ecd78534e5c0a12574452d815a7335917085d2c1b9e6"
+    },
+    {
+      "path": "continuations/2026-11-08T182806Z/root-zero-terminal-review.json",
+      "sha256": "e333238c1df385284558d250a9c811a0935bf63626663498f0e6499a8a86451e"
+    }
+  ]
+}

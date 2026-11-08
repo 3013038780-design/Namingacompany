@@ -1,0 +1,89 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 actual zero-input execution receipt",
+  "executed_at": "2026-11-09T02:39:59.112660+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch37.json",
+      "sha256": "9af173ed19bd9695cc7dc8b9e8b774761037757e07885d9cadae3a6049d3ff94"
+    },
+    {
+      "path": "A2-candidates-batch38.json",
+      "sha256": "018ee9a7d33611cbb7c5f58640ddb0bba14f1af51a1413f83eb6de38f1c41236"
+    },
+    {
+      "path": "A2-preview-batch38.md",
+      "sha256": "ca0d433b33addf3a0192f7da309082092e984fe7523b0bebab12ebce5a112104"
+    },
+    {
+      "path": "A2-quality-batch38.json",
+      "sha256": "19e6fc0ed6f33efa6b2329364a3f3dfe532f247f3fdd22d218ccebca175742a5"
+    },
+    {
+      "path": "A2-creation-execution-batch38.json",
+      "sha256": "8f2a90f69d7d3b27649da4551d7feb8d3d19f53b09e52d59d4515a21291920a9"
+    },
+    {
+      "path": "coordinator-cn-batch37.json",
+      "sha256": "7a6788164655d1c710ed06998ca5633cb36a795880ec3777966e9a6ae1f17687"
+    },
+    {
+      "path": "coordinator-cn-batch38.json",
+      "sha256": "ba46f9866e89aaf1ccd6d31376a2e4b8da0a50d995cd736e6f8a96b229e0a8cc"
+    },
+    {
+      "path": "A3-cn-batch39.json",
+      "sha256": "31cd32460f02b2579a1193f49e2b1d497583c1d97c19c994791affed1aa05b85"
+    },
+    {
+      "path": "A3-cn-batch39.md",
+      "sha256": "cdb1a0f98361d8c6546c21f490a1dd0a7d3b00f278f826f6430882427e9c4c66"
+    },
+    {
+      "path": "A3-cn-batch39-receipt.json",
+      "sha256": "954e2ed50345e984e3284ee2452909cf7427fcd55b6ac53cc235810f9601de3c"
+    },
+    {
+      "path": "A3-cn-batch40.json",
+      "sha256": "ca8d57703951f0040255118f7d10c947093c432842b012eb9fd35e3a43ba43ef"
+    },
+    {
+      "path": "A3-cn-batch40.md",
+      "sha256": "2d27b4032807859697df63c0783e74ee99a720523fa6e30ef4278fdc01812c0f"
+    },
+    {
+      "path": "A3-cn-batch40-receipt.json",
+      "sha256": "add28491e1e1e42b7e4cc0dccc30090663034d5fcf8097330aac28a7ac808f69"
+    },
+    {
+      "path": "continuations/2026-11-08T182806Z/root-cn39-review.json",
+      "sha256": "960fc38af04e7358ab2f17556a5c3e0848a0eb0c2156ca25f0e68fbc82d6f86b"
+    },
+    {
+      "path": "continuations/2026-11-08T182806Z/root-C56-terminal-review.json",
+      "sha256": "9c16611485ebab3807f1f35f0883448e3341f67c9f1a45cf78a4d8a8cce244fa"
+    }
+  ],
+  "actual_chinese_families_reviewed": 1,
+  "submitted_chinese_spelling_count": 1,
+  "qualified_chinese_input_count": 0,
+  "eligible_english_inputs": 0,
+  "actual_english_creation": 0,
+  "actual_new_scores": 0,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "completed_chinese_reworks": 1,
+  "unused_formal_chinese_rework_allowance": 1,
+  "R2_performed": false,
+  "outputs": [
+    {
+      "path": "A4-zero-input-batch29.json",
+      "sha256": "7c4c2a86db18fde9b6e77b4b4da525ec2723e727f6caac538660283971526af3"
+    },
+    {
+      "path": "A4-zero-input-batch29.md",
+      "sha256": "5ab2800cbcdd72323cbbd20b7584eb9a91a891940416f327cab8640c658fca95"
+    }
+  ],
+  "next": "same original live_a3 en-zero-batch29 actual final check"
+}

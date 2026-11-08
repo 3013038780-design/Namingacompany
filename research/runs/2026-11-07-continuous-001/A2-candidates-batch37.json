@@ -1,0 +1,76 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T02:34:41.166211+08:00",
+  "candidates": [
+    {
+      "id": "C1-C56",
+      "name": "遍历者",
+      "pinyin": "biàn lì zhě",
+      "material_id": "C1-M69",
+      "material_ids": [
+        "C1-M69"
+      ],
+      "family_id": "C1-BF-traverser-as-systematic-reachable-world-participant",
+      "plan_direction_id": "C1-D-S3",
+      "case_ids": [
+        "B074",
+        "B037",
+        "B015"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Cornell CS2110: Lecture 22 Graph Traversals (Spring 2026)",
+          "url": "https://courses.cis.cornell.edu/courses/cs2110/2026sp/lectures/lec22/",
+          "reading_location": "实际读L24–28概述，L592–720迷宫图建模、DFS关系、初次循环错误与discovered集合修正，L1115–1142示例逐步文字与次序不唯一。部分代码随段返回但未运行/测试；未通读1744行、未实看动画或读后续全部BFS/练习。",
+          "read_at": "2026-11-09T02:34:41.166211+08:00",
+          "access": "body",
+          "source_type": "university_author_teaching_notes",
+          "published_at": null,
+          "reading_scope": "specified_graph_traversal_and_DFS_body_excerpt",
+          "boundary": "2026sp为课程学期不当页面发布日期或近90天新闻。遍历范围依图与源点可达性；DFS次序未唯一指定，不保证最短路。记录已发现是避免在环内重复的算法条件，不等于算法学会新规则。中文是通常术语的角色化凝练，不冒英文文档含汉字或最早词源。"
+        }
+      ],
+      "source_urls": [
+        "https://courses.cis.cornell.edu/courses/cs2110/2026sp/lectures/lec22/"
+      ],
+      "formation": "先写沿图的连边探索可达对象、标记已发现、返回未探分支，再将遍历这个已有计算过程角色化为遍历者。者不是附加科技后缀以躲查，而把完整动作变成可称呼的行动主体；不声称首造、全球独有或中文出现在所读英文原文。",
+      "relation_sentence": "沿关系逐步走到可达之处，避免在已发现的环中空转，同时继续未探分支。",
+      "condensation_path": "先写沿图的连边探索可达对象、标记已发现、返回未探分支，再将遍历这个已有计算过程角色化为遍历者。者不是附加科技后缀以躲查，而把完整动作变成可称呼的行动主体；不声称首造、全球独有或中文出现在所读英文原文。",
+      "meaning": "让探索有结构，也有走完的依据。",
+      "crossing": "探索者沿真实连边抵达可达对象，既记住已发现之处，也保留返回分支的条件；覆盖不等于任意游走。",
+      "layers": [
+        "完整的计算探索者角色",
+        "沿关系逐步探索而不是漫无目的游走",
+        "机构愿意把探索方法与边界一起研究，不局限持续成长或某一模型功能"
+      ],
+      "material_feature_retained": "保留沿结构到达、发现状态与有系统探索的整体角色",
+      "material_feature_lost": "不写明DFS/BFS区别、邻接表示、有限图/源点条件；名字也不保证算法最优或完整覆盖无限世界。",
+      "why_name_not_generic": "先写沿图的连边探索可达对象、标记已发现、返回未探分支，再将遍历这个已有计算过程角色化为遍历者。者不是附加科技后缀以躲查，而把完整动作变成可称呼的行动主体；不声称首造、全球独有或中文出现在所读英文原文。",
+      "shortcoming": "爬虫/数据采集产品、游戏称号或旅行者首感；遍历可能被误听成什么都知道。它是研究姿态的角色，不是公司能力验证或学会全部知识的承诺。",
+      "science_boundary": "有限图上的可达范围与发现状态是条件；不是遍历所有无限可能、学习任何任务或保证最短最优，更不承诺无所不知。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "旧跳读/M19是使用者通过地址链接在视图/文档间非线性访问，本项是按给定图结构系统探索源点可达顶点，并以发现状态避免重复：操作主体、覆盖目标和循环处理不同，不因都有链接就封禁全部图搜索。旧M15黏菌外痕导航是行动留下物理标记与背景可读性，本项显式数据结构记录算法状态，不把它说成环境记忆外挂。旧因序/M20关注事件因果偏序，并不实施图的覆盖搜索；本名不以某一种唯一访问次序讲秩序。旧由此及彼为固定约束关系反向求值，不等于访问图可达对象。若只剩抽象探索世界/不走回头路，须退回上位族，不因讲义换新就计族。 实际历史精确串扫描无命中；不是市场检索。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是遍历者，做人工智能研究。",
+        "遍历者发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened"
+    }
+  ],
+  "scope": "同001新家族一案，无分中文初稿；未查使用/配英文，菌丝闭族不复活。"
+}

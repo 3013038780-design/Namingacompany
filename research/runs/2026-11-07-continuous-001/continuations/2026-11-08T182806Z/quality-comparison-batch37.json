@@ -1,0 +1,38 @@
+{
+  "accepted_at": "2026-11-09T02:36:06.087421+08:00",
+  "reviewer": "/root",
+  "candidate_ids": [
+    "C1-C56"
+  ],
+  "decision": "accepted_for_original_A3_CN39",
+  "producer_total": 25,
+  "coordinator_total": 26,
+  "max_axis_difference": 1,
+  "independence": "先实际读无分预览与源正文，封主控评分，然后读取作者数字；原作者未看root数字。",
+  "source_and_family_review": {
+    "path": "coordinator-family-review-batch37.json",
+    "sha256": "ad0fd76956a96575637ab676d49b3ec0869ca08ef52644135cf0918cbc67b8a5"
+  },
+  "refs": [
+    {
+      "path": "A2-preview-batch37.json",
+      "sha256": "a947604d128092d120bb8089a9bca995ec0ca55672747f199d0511fb270a4f83"
+    },
+    {
+      "path": "materials-extension33.json",
+      "sha256": "7eef1e417948f63399c4abe52d8d9a5656146b48da48bc332e4c4b55ee4c6ac3"
+    },
+    {
+      "path": "A2-quality-batch37.json",
+      "sha256": "8a023a08a64d75386668dd8c0e6d8672de252c8ec2a3207225c9939fd6f21f91"
+    },
+    {
+      "path": "coordinator-cn-batch37.json",
+      "sha256": "7a6788164655d1c710ed06998ca5633cb36a795880ec3777966e9a6ae1f17687"
+    },
+    {
+      "path": "A2-creation-execution-batch37.json",
+      "sha256": "e83089ce2b1cfaf7751fc46c107ee2b1a7e55b469300802d0452c38d61285fdd"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T02:05:29.234422+08:00",
+  "generated_at": "2026-11-09T02:42:03.066867+08:00",
   "feed_url": "https://raw.githubusercontent.com/3013038780-design/Namingacompany/codex/naming-research-pilot/research/catalog/website.json",
   "counts": {
     "discussion_candidates": 29,
@@ -8739,9 +8739,58 @@
       "shortcoming": "同音菌落会产生听写成本；生物材料、农业或健康行业首感仍在。自然度/机构身份须独立判断；本次只因原同音科技主体暂停而尝试同族另一准确称呼，不意味着新稿已避开市场风险。",
       "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch35.json",
       "english_attempts": []
+    },
+    {
+      "chinese_id": "C1-C56",
+      "chinese": "遍历者",
+      "status": "近名科技混淆主动避让，首次中文返工无稿后闭族",
+      "reason": "康奈尔图遍历讲义正文有沿边探索源点可达对象、记录已发现避免环内重复及DFS回退关系。中文作者25/品牌审阅26后8次查询，第三方正文合肥遍历科技有限公司有软件开发/计算机系统服务；遍历者多有意义角色字者，不能删为完全同名，但同计算核心近名由root主动避让，不冒精确占用/官方现时登记核准。原A2中文R1无合格新稿，内部逐邻仅动作片段且丢发现状态/环处理，未选未查、不称占用；主动闭族，第二次额度未用而非耗尽。独立查重最后零新名、英文匹配及同独立查重实际零英文；不换英文救回，不计变体新增。",
+      "evidence_refs": [
+        "materials-extension33.json",
+        "A2-candidates-batch37.json",
+        "A2-creation-execution-batch37.json",
+        "A3-cn-batch39.json",
+        "A2-candidates-batch38.json",
+        "A3-cn-batch40.json",
+        "A4-zero-input-batch29.json",
+        "A3-en-zero-batch29.json",
+        "continuations/2026-11-08T182806Z/root-cn39-review.json",
+        "continuations/2026-11-08T182806Z/root-C56-terminal-review.json"
+      ],
+      "run": "research/runs/2026-11-07-continuous-001",
+      "source": [
+        {
+          "title": "Cornell CS2110: Lecture 22 Graph Traversals (Spring 2026)",
+          "url": "https://courses.cis.cornell.edu/courses/cs2110/2026sp/lectures/lec22/",
+          "reading_location": "实际读L24–28概述，L592–720迷宫图建模、DFS关系、初次循环错误与discovered集合修正，L1115–1142示例逐步文字与次序不唯一。部分代码随段返回但未运行/测试；未通读1744行、未实看动画或读后续全部BFS/练习。",
+          "read_at": "2026-11-09T02:34:41.166211+08:00",
+          "access": "body",
+          "source_type": "university_author_teaching_notes",
+          "published_at": null,
+          "reading_scope": "specified_graph_traversal_and_DFS_body_excerpt",
+          "boundary": "2026sp为课程学期不当页面发布日期或近90天新闻。遍历范围依图与源点可达性；DFS次序未唯一指定，不保证最短路。记录已发现是避免在环内重复的算法条件，不等于算法学会新规则。中文是通常术语的角色化凝练，不冒英文文档含汉字或最早词源。"
+        }
+      ],
+      "meaning": "让探索有结构，也有走完的依据。",
+      "crossing": "探索者沿真实连边抵达可达对象，既记住已发现之处，也保留返回分支的条件；覆盖不等于任意游走。",
+      "shortcoming": "爬虫/数据采集产品、游戏称号或旅行者首感；遍历可能被误听成什么都知道。它是研究姿态的角色，不是公司能力验证或学会全部知识的承诺。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch37.json",
+      "english_attempts": []
     }
   ],
   "events": [
+    {
+      "id": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T182806Z/result.json",
+      "at": "2026-11-09T02:41:51.798752+08:00",
+      "date": "2026-11-09",
+      "title": "研究更新",
+      "retained": 0,
+      "drafts": 1,
+      "materials": 1,
+      "pending": 1,
+      "reason": "本段没有新增合格配对。新读图遍历关系并创作遍历者，8次中文查询发现具体近名合肥遍历科技的软件服务资料；不是完全同名，按同计算核心混淆主动避让。首次中文返工无自然选稿后主动闭族，内部逐邻未选未查；第二次额度未用，不假称耗尽。英文匹配和同独立查重真实零英文收尾，未造英文凑数。总库仍29讨论+1储备。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/continuations/2026-11-08T182806Z/result.json"
+    },
     {
       "id": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T172307Z/result.json",
       "at": "2026-11-09T02:05:29.159585+08:00",
