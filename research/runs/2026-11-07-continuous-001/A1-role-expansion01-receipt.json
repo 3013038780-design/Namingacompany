@@ -1,0 +1,96 @@
+{
+  "agent_id": "/root/continuous_a1",
+  "role": "A1",
+  "completed_at": "2026-11-08T21:24:31.270510+08:00",
+  "status": "completed_bounded_addendum_pending_coordinator_acceptance",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/inputs/A1-role-expansion01/README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba",
+      "read_scope": "当前规范整体已读，特别核心名称与动态快照规则、角色与评分门槛；这里是本步冻结版本"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/inputs/A1-role-expansion01/AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80",
+      "read_scope": "全部执行规则"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/inputs/A1-role-expansion01/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567",
+      "read_scope": "当前授权与审美反馈"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.json",
+      "sha256": "b3bbd78ef83733b79b7033404dc29727a7e0c749988d06218820850f4de520be",
+      "read_scope": "已完成7例、6原则、6方向及访问边界"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.md",
+      "sha256": "50023a0d4970380ebd3afb8969343e6aaadab41c468ae7be66bf2da8f20dcda9",
+      "read_scope": "本轮已有案例与A2宏观交接"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.json",
+      "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132",
+      "read_scope": "已核品牌与构词方法，核对本次不重复算实质新核"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.md",
+      "sha256": "9e2c1589037d9d564619fd8d9d861dffd13288087c4f7dec8e49d5ecbd702dde",
+      "read_scope": "F1–F6及旧材料建议作为历史，不据此恢复已被后续命名的材料"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67",
+      "read_scope": "六宏观来源及未确认专名类别，保持原分类"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746",
+      "read_scope": "提取B027/B028/B029/B091及未计入B078，核原三类归属与来源边界"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T131434Z/material-proposal-index.json",
+      "sha256": "979285294d39c02bc2bd3de1e788f452c65d1d046711e0a4d3791a1e32ffb581",
+      "read_scope": "解析全部冻结50项事实/关系与40份中文提案名称、材料和家族关联；非重读50项外部正文"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T131434Z/history-scan.json",
+      "sha256": "a800c1066ed2b88b2d0392c6e3ddd93329356722288987f173329c1634f8454c",
+      "read_scope": "读取冻结历史扫描清单与去重范围；不把版本与家族字段数当新名数"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T131434Z/resume.json",
+      "sha256": "b7cd47ce1159ba561df90874825f9b12b3020304275d34e90ef561911381235b",
+      "read_scope": "当前batch24上游冻结范围，不反写其输入"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-role-expansion01.json",
+      "sha256": "bbb6c1f816e0942aa2ee0e5e7cca52437db41e909ceaa7a62fde0583a374dec4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-role-expansion01.md",
+      "sha256": "ffe4554c2cc10cdea50268781682f37ee91d7a8e51d585900227c5e575a96ba3"
+    }
+  ],
+  "counts": {
+    "substantive_existing_cases_added_to_this_run": 4,
+    "current_ai": 3,
+    "rsi_labs": 1,
+    "broad_tech": 0,
+    "new_market_brands": 0,
+    "new_company_name_proposals": 0,
+    "source_urls_body_read_for_counted_cases": 6,
+    "founder_explicit_naming_interview_cases": 1,
+    "company_semantic_or_mission_self_explanation_cases": 2,
+    "current_brand_context_without_historical_motive_cases": 1,
+    "deferred_cases_not_counted": 1,
+    "actual_source_discovery_query_groups": 5
+  },
+  "actual_execution": "原A1由/root真实followup_task唤醒；本聊天exec仓库阅读及web.run正文访问，未重写已启动batch24的输入版本。",
+  "next_step": "主控验收后，将本补充作为下一A2包的新增输入，不回填此前搜索计划或素材来源。",
+  "new_name_proposals": 0,
+  "git_actions_performed": false
+}

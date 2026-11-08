@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-08T21:39:49.295937+08:00",
+  "independence": "Read producer preview batch33 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C41",
+      "name": "Pulpwright",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 3,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 19,
+      "notes": {
+        "pronunciation": {
+          "reason": "两常规语素可按建议读",
+          "counter_association": "pulp末辅音相接需说清"
+        },
+        "spelling": {
+          "reason": "wright制造者结构能辨认但听写成本超过门槛",
+          "counter_association": "wright与right/write同音且含不发音字母首次易错写"
+        },
+        "grounding": {
+          "reason": "纤维成浆与制造者词义组成角色隐喻",
+          "counter_association": "wright木工常义迁移不等于昆虫正式称呼"
+        },
+        "bilingual_relation": {
+          "reason": "与中文同一材料制造过程双语关联明确",
+          "counter_association": "英文省去生命对象且不能补群体智能故事"
+        },
+        "distinctiveness": {
+          "reason": "拟称有结构但纸浆工匠身份过强",
+          "counter_association": "像纸业出版公司而非广义Lab"
+        }
+      },
+      "decision": "quality_reject",
+      "english_id": "C1-E35"
+    }
+  ]
+}

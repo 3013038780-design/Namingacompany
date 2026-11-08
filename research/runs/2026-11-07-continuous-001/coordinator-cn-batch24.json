@@ -1,0 +1,88 @@
+{
+  "reviewed_at": "2026-11-08T21:23:10.376498+08:00",
+  "independence": "Read producer preview batch24 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C41",
+      "name": "纸蜂",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两熟字构成完整生命制造者称呼，口语顺畅",
+          "counter_association": "可能被当剪纸小物件"
+        },
+        "distinctiveness": {
+          "reason": "纸状巢与蜂的画面明确",
+          "counter_association": "物种类名字并不自动原创"
+        },
+        "lab_fit": {
+          "reason": "生命加工材料和自建结构可以承载设计制造研究身份",
+          "counter_association": "文创蜂蜜或防治品牌首感需保留"
+        },
+        "grounding": {
+          "reason": "纤维加工者及产物在同一真实造巢过程",
+          "counter_association": "不是所有蜂都造同样巢，更不是蜜蜂"
+        },
+        "extension": {
+          "reason": "可延展到构造资源和环境关系",
+          "counter_association": "不能直接声称智能或材料高性能"
+        },
+        "semantic_coherence": {
+          "reason": "纸指巢材不硬说知识，蜂是制造者不泛勤奋",
+          "counter_association": "蜇人/虫害反联想真实"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "C1-C42",
+      "name": "双盲",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "既有两字研究称呼，直接可叫",
+          "counter_association": "字面可能被读成两人看不见"
+        },
+        "distinctiveness": {
+          "reason": "双向遮蔽身份的反差可复述",
+          "counter_association": "通用研究词品牌显著性有限"
+        },
+        "lab_fit": {
+          "reason": "研究评价方法可承担科学Lab立场",
+          "counter_association": "临床试验外包和不透明首感"
+        },
+        "grounding": {
+          "reason": "作品评审阶段身份分离为同一实际流程",
+          "counter_association": "编辑仍接收必要信息，不能说全流程无人知身份"
+        },
+        "extension": {
+          "reason": "可容纳认识和评价研究而不只期刊服务",
+          "counter_association": "不替团队声称已经公平/安全"
+        },
+        "semantic_coherence": {
+          "reason": "科学评价先看作品的态度与匿名关系一致",
+          "counter_association": "先看作品再看名字不是每一方必在以后公开身份"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-08T13:14:34.172Z",
+  "completed_at": "2026-11-08T21:50:00.506143+08:00",
+  "status": "two_same_run_packages_completed_zero_new_pairs",
+  "actual_A1": "/root/continuous_a1",
+  "actual_A2": "/root/continuous_a2",
+  "actual_A3_same_cn_en": "/root/live_a3",
+  "actual_A4": "/root/continuous_a4",
+  "new_A1_research_claimed": true,
+  "A1_existing_cases_substantively_reverified": 4,
+  "A1_new_market_brands": 0,
+  "A1_case_scope": "Midjourney/Runway/HuggingFace当前AI3，Ineffable相关Lab1；新补充只供后续batch25，不反写batch24。",
+  "new_materials": 4,
+  "new_chinese_drafts": 4,
+  "new_chinese_families_explored": 4,
+  "chinese_quality_passed": 3,
+  "chinese_public_use_passed": 2,
+  "new_english_versions": 5,
+  "english_quality_passed": 3,
+  "english_public_use_passed": 0,
+  "evidence_holds": 1,
+  "new_evidence_holds": 0,
+  "new_retained_families": 0,
+  "retained_pairs": [],
+  "new_A3_candidate_query_executions": 41,
+  "new_A3_search_results_returned": 41,
+  "new_A3_failed_or_unreturned_attempts": 0,
+  "new_root_candidate_query_executions": 0,
+  "cumulative_A3_candidate_query_executions": 506,
+  "cumulative_A3_search_results_returned": 505,
+  "root_additional_queries_prior_packet": 2,
+  "cumulative_recorded_candidate_query_executions": 508,
+  "cumulative_recorded_results_returned": 507,
+  "cumulative_materials": 54,
+  "cumulative_chinese_drafts": 44,
+  "cumulative_english_versions": 36,
+  "unused_english_id_not_counted": "C1-E36",
+  "catalog_counts": {
+    "discussion_candidates": 27,
+    "research_reserves": 1,
+    "total_unique_families": 28,
+    "withdrawn_families": 1,
+    "historical_unique_families": 29
+  },
+  "reason": "本段零新增：纸蜂、双盲中文初筛过，但英文分别因明确商业使用/质量和最后无合格稿，最多两次返工已尽；熟手首要招聘维修与通名气质质量未过，构境七查询查到成都构境科技第三方具名公司。A1实补核4例，Runway创始人原释名为models的平台/伸展台双义，已由真实A2新计划及Polanyi/Schön书正文接续，不反写前包。4资料4中文5英文、41新查询全部返回；所有具体去留与证据入网站，不把草案充备选。",
+  "query_breakdown": {
+    "C41_CN": 8,
+    "C42_CN": 8,
+    "E32_EN": 6,
+    "E34_EN": 6,
+    "C44_CN": 7,
+    "E37_EN": 6,
+    "C43_quality_not_searched": 0,
+    "E33_quality_not_searched": 0,
+    "E35_quality_not_searched": 0
+  },
+  "source_sampling": {
+    "new_materials": 4,
+    "root_new_materials_body_read": 4,
+    "minimum_required": 1,
+    "A1_new_case_source_urls_root_read": 6,
+    "scope": "大学纸蜂正文/出版指南、Polanyi实际节选及Schön六页文字均已实读；未看图/通读整本/验证旧实验。两个书名均有正文而非仅书目，新闻未新增，VT近期推广更新不冒新研究。"
+  },
+  "controls_and_registration": "原run2阳性对照与大陆入口限制准确复用、非新对照/逐名登记；本次UK各逐名不可访问，无官方核名或9/42通过。",
+  "prior_evidence_hold": "活变量/Maymatter无新可读原证，未重复失败入口，不R3。",
+  "whole_production_compliance_claimed": false,
+  "evidence_refs": [
+    {
+      "path": "A1-role-expansion01-receipt.json",
+      "sha256": "0ca3459762a110c6c1fe580b8b23179d336f26229a49bc7c64759f04ae8ffb74"
+    },
+    {
+      "path": "A2-creation-execution-batch24.json",
+      "sha256": "e40bb5246ba97fc6bc6cd176dc78e2cc4073e97086e7da0baa23be1af1fcbb88"
+    },
+    {
+      "path": "A2-creation-execution-batch25.json",
+      "sha256": "68421df33b4a2a6be7b8247587124c3eec2fba2481a5627abd76f28db0625537"
+    },
+    {
+      "path": "search-plan-role-expansion01-execution.json",
+      "sha256": "33b391fb374d87f8f3b0207132ca465d9afcf32ac5061c0e382fd3df045b7bcd"
+    },
+    {
+      "path": "A3-cn-batch26.json",
+      "sha256": "adf5036918dcbeae58c224ecc83a0d79e320436390c86f14576df074a282ef8c"
+    },
+    {
+      "path": "A3-cn-batch27.json",
+      "sha256": "72eeb449260b588f8b7d339c5917c9038882483d6499e9470530aed5b238e15d"
+    },
+    {
+      "path": "A3-en-batch31.json",
+      "sha256": "b2efa4f9b400d2563550981bb2461add061ab5bb01b4a72d1f6c47f447955b66"
+    },
+    {
+      "path": "A3-en-batch32.json",
+      "sha256": "f330bebaa9b9e28d2347e38a8a0de99c2f6f6f1ee3bed6686cc24be4c4d3cac4"
+    },
+    {
+      "path": "A3-en-batch34.json",
+      "sha256": "26b21a767f623b8ebab294558a06cf4432250b7a8cd03af8c0c7ac28203c42a9"
+    },
+    {
+      "path": "A4-batch24-final-closeout.json",
+      "sha256": "67d390b91776877549b8f57ec932e3a2691babf6fb11ff3fed2a37db5008a2dc"
+    },
+    {
+      "path": "A4-zero-input-batch23.json",
+      "sha256": "bd0afc899989a61fc3262b40a942ccfae5d8b8c7dadd0c6c2505285d47e6fdb5"
+    },
+    {
+      "path": "A3-en-zero-batch23.json",
+      "sha256": "c8ed1cfd1410f9390dc35e6b3c410ace6fef4fe36d6631aa6412acf60d94b67e"
+    },
+    {
+      "path": "continuations/2026-11-08T131434Z/root-segment-terminal-review.json",
+      "sha256": "23df1eade031452ac30e794a578af2e120b95ef0308396a99b049680a7039759"
+    },
+    {
+      "path": "continuations/2026-11-08T131434Z/handoffs-batch24.json",
+      "sha256": "1270fcac1605ea5566712d739f2412976adc6bb61f35ae3b4a26f61146d65b77"
+    },
+    {
+      "path": "continuations/2026-11-08T131434Z/handoffs-batch25.json",
+      "sha256": "da594185b95ffdad125b3d3c220105a248d0dc62b94b6f74888f104f16f7e067"
+    },
+    {
+      "path": "continuations/2026-11-08T131434Z/decisions-through-batch25.json",
+      "sha256": "3715efa09f755180fb506b111661f0730f9d836f63718f3c7bcf96e4fde523e0"
+    }
+  ]
+}

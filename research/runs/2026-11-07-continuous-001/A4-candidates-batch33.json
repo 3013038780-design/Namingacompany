@@ -1,0 +1,76 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-08T21:39:12.973347+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch24.json",
+      "sha256": "737968f781f98c11c77e781a4b4225ea4290a1ba3bdfe9cb993f4fd50cde871d"
+    },
+    {
+      "path": "materials-extension22.json",
+      "sha256": "beb5d4ecac9de295d9e07873e69bf296b95fce18fc504c14c42d4e12effb5967"
+    },
+    {
+      "path": "A3-cn-batch26.json",
+      "sha256": "adf5036918dcbeae58c224ecc83a0d79e320436390c86f14576df074a282ef8c"
+    },
+    {
+      "path": "A4-candidates-batch31.json",
+      "sha256": "714b90fa1a6ac106c726ffd35b810ab9506971df20e8d6baab860396d5422c93"
+    },
+    {
+      "path": "A4-quality-batch31.json",
+      "sha256": "c1ec5e04c67229fca5ac384620a78ee3a7e08297d0394965a5507f5b97dfd5b9"
+    },
+    {
+      "path": "coordinator-en-batch31.json",
+      "sha256": "eafdda15980fa42214182198c48abdccb9ed5945edd4e5ac51d094ccb4fa6cfe"
+    },
+    {
+      "path": "A3-en-batch31.json",
+      "sha256": "b2efa4f9b400d2563550981bb2461add061ab5bb01b4a72d1f6c47f447955b66"
+    },
+    {
+      "path": "A3-en-batch31.md",
+      "sha256": "a80022e0d98236c80dcb6ec1b7cbc3947a8ec6daf940242ae5ddecb9900ac95b"
+    },
+    {
+      "path": "A3-en-batch31-receipt.json",
+      "sha256": "a0076a40e0e2eb46c5ab7d3c2875ffc199e2928446129f7dc97b6926f349ac4f"
+    },
+    {
+      "path": "continuations/2026-11-08T131434Z/root-E32-review.json",
+      "sha256": "35081873e7f743cb26d95d4cb1fd498e469656139f59548e904f90ffe81fa759"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E35",
+      "chinese_id": "C1-C41",
+      "chinese": "纸蜂",
+      "english": "Pulpwright",
+      "family_id": "C1-BF-paper-wasp-material-maker",
+      "material_id": "C1-M51",
+      "suggested_pronunciation": "建议 PULP-right，/ˈpʌlpˌraɪt/，两个音节；wright按词典/r aɪt/即right读，w/gh不单独发音。合写名无公认读法。",
+      "type": "pulp + wright两个完整已有语素组成的制造者称呼",
+      "formation": "不再直接选物种名，转而给它的具体角色起外壳：把环境纤维加工成纸状巢材的制造者。pulp指造纸用纤维材料；wright是制造工匠，常用于组合称呼。完整保留两个语素，Pulpwright是本案拟称，不是Paper Wasp变空格、单复数或错拼；也不声称昆虫职业或机构原文正式称它wright。",
+      "bilingual_relation": "中文保留动物与产物，英文保留材料与制造者角色。两者仍讲同一过程：采来纤维不只是搬进巢里，而要先加工，形成能用来建巢的材料。不移到群体智能、终身学习或纸本知识生成故事。",
+      "meaning": "自己加工出建造所需的条件。作为研究主体可以讨论资源如何转为可用结构，不只是调用现成块；不承诺系统无外部资源或无限自举。",
+      "shortcoming": "首先可能像纸浆工艺、木工材料、写作或出版公司，AI Lab身份含蓄；wright与write/right同音，首听容易写Pulpwrite或Pulpright，需明确wright的制造者含义，不能把拼写成本说成不存在。pulp还会带来廉价通俗小说或糊状物联想。",
+      "boundary": "wright的词典主要例子偏木制品工匠，此处是制造者角色拟物，不说胡蜂是木工、人类制浆或材料性能等同生物过程。pulp用纤维制纸材料作简明指向，不假称大学给出完整工业制浆流程。只谈已读纤维加工巢材，不证明智能成长。中文防治/文创/蜂蜜和蜇人、Zhifeng近音及登记未清保留。",
+      "source_urls": [
+        "https://www.pubs.ext.vt.edu/content/pubs_ext_vt_edu/en/ENTO/ENTO-435/ENTO-435.html",
+        "https://www.merriam-webster.com/dictionary/pulp",
+        "https://www.merriam-webster.com/dictionary/wright"
+      ],
+      "read_scope": "VT本人batch31已实读118–136尤其129–132，沿其纤维加工事实，本次未假称新读完整昆虫行为。实际新读pulp词条31–85尤其61纤维制纸材料；wright31–50制造工匠及常用于组合，不将Wright人名字源/航空发明套作本案出处。",
+      "rework_attempt": 1,
+      "remaining_reworks": 1,
+      "status": "english_quality_proposal_not_usage_screened",
+      "replaces_candidate_id": "C1-E32",
+      "return_reason": "原A3及root读到Paper Wasp完整文具商业系列与PAPERWASP商业制造技术用名，按跨行业核心使用避让；不冒称精确AI公司或®官方登记。中文纸蜂原结论不倒写。"
+    }
+  ],
+  "usage_screening_performed": false
+}

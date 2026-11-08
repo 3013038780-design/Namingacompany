@@ -1,0 +1,88 @@
+{
+  "reviewed_at": "2026-11-08T21:42:12.988973+08:00",
+  "independence": "Read producer preview batch25 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C43",
+      "name": "熟手",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "完整日常称呼顺口",
+          "counter_association": "熟练不等于正确"
+        },
+        "distinctiveness": {
+          "reason": "普通熟练者词意义直白但专名辨识不足",
+          "counter_association": "泛指所有熟练人员难区分品牌"
+        },
+        "lab_fit": {
+          "reason": "能做事主体角色成立但首先像维修招工平台",
+          "counter_association": "招聘维修人力服务强于AI Lab"
+        },
+        "grounding": {
+          "reason": "实践认识与逐项言说的差别有原著关系",
+          "counter_association": "不是所有技能不可教或语言无用"
+        },
+        "extension": {
+          "reason": "可容纳能力实践而不绑定单功能",
+          "counter_association": "能力资历暗示可能被过读"
+        },
+        "semantic_coherence": {
+          "reason": "手作为熟练实践整体不拆两字寓意",
+          "counter_association": "不保证经验多更智能"
+        }
+      },
+      "decision": "quality_reject"
+    },
+    {
+      "candidate_id": "C1-C44",
+      "name": "构境",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两熟字作为创造情境动作整体可称呼",
+          "counter_association": "构境与构景听写区分有成本"
+        },
+        "distinctiveness": {
+          "reason": "构与境形成可复述情境构成画面",
+          "counter_association": "易与造境等常见设计表达混"
+        },
+        "lab_fit": {
+          "reason": "能承载模拟设计与行动情境研究身份",
+          "counter_association": "建筑景观或3D场景制作可能先浮现"
+        },
+        "grounding": {
+          "reason": "行动改变情境情境重定问题是同一原著实践关系",
+          "counter_association": "不代表任意改目标更好"
+        },
+        "extension": {
+          "reason": "不限定某个模型产品或建筑器件",
+          "counter_association": "不保证已实现世界模型"
+        },
+        "semantic_coherence": {
+          "reason": "创造条件与探索问题共同指向情境关系",
+          "counter_association": "不授权AI更改用户目的"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

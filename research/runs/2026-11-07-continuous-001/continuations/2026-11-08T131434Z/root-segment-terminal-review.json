@@ -1,0 +1,91 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-08T21:50:00.506143+08:00",
+  "decision": "zero_new_catalog_pairs_in_this_segment",
+  "candidate_ids": [
+    "C1-C41",
+    "C1-C42",
+    "C1-C43",
+    "C1-C44"
+  ],
+  "actual_source_review": "root实际读Cornell纸蜂207/211、VT118–136及日期，Nature单页0–22/2015博客27–34；TACK Polanyi31–45；共享同SHA Schön PDF86–89/98/102文字（印刷79–82/91/95）。原著节选非通读；未看图/现场/实验。",
+  "actual_usage_review": "root实际读网新e鉴通2/6/18及Steam双盲把戏8/18/28/69，未误把机制或较长完整标题作双盲同名；Papertex34–37/54/63–65与PaperSource27–31/37起具名售卖；unsigned.gg9/13–14/116/134具名自用平台，unsigned.now根页面工具打不开未冒root读；智联构境公司0–1/13/20，第三方不冒官方存续；Finnaij431/477–481/511/537–538具名设计售卖，非双层保护通名。",
+  "quality_review": "所有数字先无分预览独评封存再看作者；各轴最大差1，无达到2分需退重复评分；Pulpwright拼写3、NamesAside总20、熟手辨识/Lab3均不因来源真实补分。",
+  "family_and_scope": "C41材料加工者、C42评审身份分置、C43实践认识主体、C44情境中问题重定分别与旧关系比较。新A1只服务之后batch25，原batch24沿原基线，不事后贴原则。英语版本不算新家族；E36未用不算版本。",
+  "registration_and_limits": "大陆公司/9、42共同受限旧记录明确复用，英国逐名入口本次不可用，不称官方可注册、全球未注册。旧活变量/Maymatter未重复403，无第三次返工。",
+  "new_rows": [
+    {
+      "chinese_id": "C1-C41",
+      "chinese": "纸蜂",
+      "status": "英文返工耗尽，未入库",
+      "reason": "中文8查询公开初筛通过；Paper Wasp已有Papertex的PAPERWASP制造技术用名与PaperSource具名文具系列，英文6查询按商业核心避让。Pulpwright主控19/拼写3质量未过未查；最后原A4实际未选合格新稿，同一A3真实0新英文终核。两次返工已尽，不R3；不倒写中文占用。",
+      "evidence_refs": [
+        "A3-cn-batch26.json",
+        "A3-en-batch31.json",
+        "coordinator-en-batch33.json",
+        "A4-creation-execution-batch34.json",
+        "A3-en-batch34.json",
+        "A4-batch24-final-closeout.json"
+      ]
+    },
+    {
+      "chinese_id": "C1-C42",
+      "chinese": "双盲",
+      "status": "英文返工耗尽，未入库",
+      "reason": "中文8查询通过但保留双盲把戏完整游戏近似与临床/黑箱/通名风险。Names Aside主控20质量拒绝未查；Unsigned六查询已有具名AI/ML自用平台及音频平台；最后Double Veil六查询已有Finnaij具名手机壳设计与GigiBurris头饰，按跨行业商业产品核心避让。两次返工尽，无R3，不倒写中文占用或假称官方注册。",
+      "evidence_refs": [
+        "A3-cn-batch26.json",
+        "coordinator-en-batch31.json",
+        "A3-en-batch32.json",
+        "A3-en-batch34.json",
+        "A4-batch24-final-closeout.json"
+      ]
+    },
+    {
+      "chinese_id": "C1-C43",
+      "chinese": "熟手",
+      "status": "质量淘汰，未全面查重",
+      "reason": "原A2从Polanyi实读节选选择熟练实践主体，主控独立24/作者25，辨识3/Lab身份3，普通熟练者与招聘维修首感强；实际原A3中文未查、原A4零英文与同A3零终核。不因哲学出处补分，不称占用或可用。",
+      "evidence_refs": [
+        "materials-extension23.json",
+        "A2-candidates-batch25.json",
+        "coordinator-cn-batch25.json",
+        "A4-zero-input-batch23.json",
+        "A3-en-zero-batch23.json"
+      ]
+    },
+    {
+      "chinese_id": "C1-C44",
+      "chinese": "构境",
+      "status": "中文使用淘汰",
+      "reason": "从Schön设计行动改变情境并重定问题实读案例创作，双评25；七查询查到成都构境科技有限公司，智联可读完整核心与软件经营范围，第三方不是官方当前存续核验。另构境AI目录仅二手线索、官网超时不升级一手。原A4及同A3实际零英文；不换英文救回。",
+      "evidence_refs": [
+        "materials-extension23.json",
+        "A2-candidates-batch25.json",
+        "A3-cn-batch27.json",
+        "A4-zero-input-batch23.json",
+        "A3-en-zero-batch23.json"
+      ]
+    }
+  ],
+  "source_scope_correction_needed": false,
+  "whole_production_compliance_claimed": false,
+  "evidence_refs": [
+    {
+      "path": "coordinator-family-review-batch24.json",
+      "sha256": "2ad8aac0ea114bd765185d6c468384493b383008597bb259fc388e1e15fb7758"
+    },
+    {
+      "path": "coordinator-family-review-batch25.json",
+      "sha256": "d4af21b2d19eb928793aa612f9860d401e951b55b8bd8c49daed27e1e95b0bf5"
+    },
+    {
+      "path": "A4-batch24-final-closeout.json",
+      "sha256": "67d390b91776877549b8f57ec932e3a2691babf6fb11ff3fed2a37db5008a2dc"
+    },
+    {
+      "path": "A3-en-zero-batch23.json",
+      "sha256": "c8ed1cfd1410f9390dc35e6b3c410ace6fef4fe36d6631aa6412acf60d94b67e"
+    }
+  ]
+}

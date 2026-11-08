@@ -1,0 +1,125 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T21:39:41.366699+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch32.md",
+      "sha256": "b433bd0b0091d0188b0db2117320484a8819276fe226afd736bd741a261d2d49"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch32.json",
+      "sha256": "66457680072b324d985003a38070a43449d8bb7626c0da5ea414729d9213458e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch32.json",
+      "sha256": "1332866eedf22646ce162c509a082486574882d1c5be623bdc361ea52c3d7743"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch32.json",
+      "sha256": "e803aadffecc55d2c48060bc9461b78475cfe9ec2173e189ae7d9e249acdfa6b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch32.json",
+      "sha256": "0970a31570d8c6df4ef339fe3a54f145c10be2fd097f63f1e2dfb6657b4ce2ec"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch26.json",
+      "sha256": "adf5036918dcbeae58c224ecc83a0d79e320436390c86f14576df074a282ef8c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch26-receipt.json",
+      "sha256": "369c73ad1de4b63e8c662c59c434c7219f48030dd1f38c727e2b4012053f6d6c"
+    }
+  ],
+  "query_count": 6,
+  "results": [
+    {
+      "candidate_id": "C1-E34",
+      "name": "Unsigned",
+      "query_logs": [
+        {
+          "query": "\"Unsigned\"",
+          "executed_on": "2026-11-08",
+          "summary": "主要词典未署名/未签约与程序无符号义，普通词/数据类型不作品牌依据。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Unsigned\" company lab",
+          "executed_on": "2026-11-08",
+          "summary": "命中unsigned.gg具名AI/ML平台；实际打开正文核自用平台与非对外公司边界。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Unsigned\" AI model",
+          "executed_on": "2026-11-08",
+          "summary": "命中同一具名平台以及AI透明度中unsigned技术属性，不把属性当独立模型。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Unsigned\" software product",
+          "executed_on": "2026-11-08",
+          "summary": "主要未签名软件说明，如Kube Inspector unsigned builds，是属性而非产品名Unsigned。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Un Signed\" company",
+          "executed_on": "2026-11-08",
+          "summary": "分写命中UN-SIGNED HYPE作者/艺人资料，完整名不同，非精确软件主体主证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Unsigned\" brand platform",
+          "executed_on": "2026-11-08",
+          "summary": "命中Unsigned音频分析平台隐私页，正文明确运营主体与用户上传、生成内容及付费服务；完整商业核心确证。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "return_for_alternative_existing_named_software_platform",
+      "reason": "Unsigned已有完整具名AI/ML基础平台及音乐音频分析软件平台使用。不是仅unsigned无符号类型或未签名属性；前者明确只自用不对外销售，不称公司或已售产品，后者运营主体为网站自述非官方登记。",
+      "evidence": [
+        {
+          "url": "https://unsigned.gg/",
+          "access": "primary_platform_body_read",
+          "finding": "L9及13–14具名AI/ML平台及unsigned deploy示例；L116/134/140–144声明用于自身cerebral、无客户及不售服务，故确证具名平台使用而不当商业销量/公司登记证据。未背书性能或实际资源。"
+        },
+        {
+          "url": "https://www.unsigned.now/privacy",
+          "access": "primary_service_privacy_body_read",
+          "finding": "L8–11自述Unsigned Now LLC为Unsigned平台运营者；L20–29及42–44用户账户、音频上传分析、生成稿件与支付/试用服务。主体为网站自述，未官方核存续；不是普通unsigned artist句子。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403，本批未重访/未逐名逐类核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403，本批未重访/未逐名逐类核准。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Unsigned",
+          "scope": "2026-11-08实际逐名Unsigned查询入口不可访问，不代表无公司登记。"
+        }
+      },
+      "chinese_id": "C1-C42",
+      "chinese": "双盲",
+      "rework_attempt": 1,
+      "remaining_reworks": 1
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "passed_english_candidate_ids": [],
+  "returned_english_candidate_ids": [
+    "C1-E34"
+  ],
+  "quality_rejected_not_searched_ids": [],
+  "completed_search_result_count": 6,
+  "new_failed_search_attempts": 0,
+  "controls_reused_not_new": "原run2阳性对照，本批0新对照。"
+}

@@ -1,0 +1,66 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English screening",
+  "executed_at": "2026-11-08T21:39:41.366699+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch32.md",
+      "sha256": "b433bd0b0091d0188b0db2117320484a8819276fe226afd736bd741a261d2d49"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch32.json",
+      "sha256": "66457680072b324d985003a38070a43449d8bb7626c0da5ea414729d9213458e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch32.json",
+      "sha256": "1332866eedf22646ce162c509a082486574882d1c5be623bdc361ea52c3d7743"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch32.json",
+      "sha256": "e803aadffecc55d2c48060bc9461b78475cfe9ec2173e189ae7d9e249acdfa6b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch32.json",
+      "sha256": "0970a31570d8c6df4ef339fe3a54f145c10be2fd097f63f1e2dfb6657b4ce2ec"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch26.json",
+      "sha256": "adf5036918dcbeae58c224ecc83a0d79e320436390c86f14576df074a282ef8c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch26-receipt.json",
+      "sha256": "369c73ad1de4b63e8c662c59c434c7219f48030dd1f38c727e2b4012053f6d6c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-batch32.json",
+      "sha256": "f330bebaa9b9e28d2347e38a8a0de99c2f6f6f1ee3bed6686cc24be4c4d3cac4"
+    },
+    {
+      "path": "A3-en-batch32.md",
+      "sha256": "6e79bd90227ee7f9c9f8449833bb11bd4108948d8eb1aeaf1303164dacd7deff"
+    }
+  ],
+  "actual_new_candidate_queries": 6,
+  "completed_candidate_search_results": 6,
+  "unreturned_search_attempts": 0,
+  "actual_new_chinese_queries": 0,
+  "actual_new_english_queries": 6,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 487,
+  "prior_agent3_returned_candidate_results": 486,
+  "agent3_cumulative_candidate_queries": 493,
+  "agent3_cumulative_returned_candidate_results": 492,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 495,
+  "run_cumulative_returned_candidate_results": 494,
+  "passed_english_candidate_ids": [],
+  "returned_english_candidate_ids": [
+    "C1-E34"
+  ],
+  "quality_rejected_not_searched_ids": [],
+  "actual_execution": "实际读本批上游固定稿/双评，执行六有效查询并核两具名平台一手正文。数据类型和签名属性未当品牌。UK逐名访问失败；其他登记旧限制复用。",
+  "next": "同原A4最后一次返工；余一次，不自行创作或入库。",
+  "unchanged": "旧记录/库/队列/Git未改，无网页全文。"
+}

@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-08T21:35:35.271498+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E34",
+      "chinese_id": "C1-C42",
+      "english": "Unsigned",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个常规音节，完整熟词可自然称呼，不靠生造辅音。",
+          "counter_association": "末nd可能口语弱化，首遍仍需说清。"
+        },
+        "spelling": {
+          "reason": "完整un+signed结构，保留常用signed字形，不改写避重。",
+          "counter_association": "g不发音，新手听写有成本，不能假称人人首听会写。"
+        },
+        "grounding": {
+          "reason": "词典未署名义真实，指南明确向评审呈无作者身份稿件。",
+          "counter_association": "它只是主题外壳，不是该制度正式名，也不是仅消除手写签名。"
+        },
+        "bilingual_relation": {
+          "reason": "中文关系与英文呈交作品状态处在同一身份/作品分置流程。",
+          "counter_association": "不独自包含双方相互匿名、编辑角色及元数据条件。"
+        },
+        "distinctiveness": {
+          "reason": "单个完整词可独立指代研究主体，比栏目开场短语更紧。",
+          "counter_association": "音乐平台、未签合同或未签名软件风险真实，专名感谨慎。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "编辑自评非消费者测试，门槛不变；不足照列不由真词义挽救，主控先无分独评。"
+    }
+  ]
+}

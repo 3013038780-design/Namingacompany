@@ -1,0 +1,86 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-08T21:33:32.317947+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E32",
+      "chinese_id": "C1-C41",
+      "english": "Paper Wasp",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "完整对象称呼，paper与wasp常规三音节连贯可叫。",
+          "counter_association": "wasp末sp需要说清，单复数可能被混听。"
+        },
+        "spelling": {
+          "reason": "两个完整常用词，无截词、拼音或随机改字母。",
+          "counter_association": "可能写成来源常用复数Paper Wasps，品牌要固定单数。"
+        },
+        "grounding": {
+          "reason": "来源直接给出既有英文对象及纤维加工巢材过程，完整用词真实。",
+          "counter_association": "通用对象名称不是本轮发明，也不证明智能。"
+        },
+        "bilingual_relation": {
+          "reason": "中文和英文指向同一材料制造者，纸状巢材而非纸身昆虫。",
+          "counter_association": "中文蜂范围较宽，需说明是胡蜂非蜜蜂。"
+        },
+        "distinctiveness": {
+          "reason": "完整可感主角可自然成为研究称呼。",
+          "counter_association": "文创/防治首感和通用对象显著性有限，只谨慎讨论。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "原规范门槛不变，编辑自评非消费者测试；先主控无分独评，再同A3实际英文使用筛查。"
+    },
+    {
+      "candidate_id": "C1-E33",
+      "chinese_id": "C1-C42",
+      "english": "Names Aside",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个熟词构成正常短语，重音清楚。",
+          "counter_association": "names复数z需保留，不然听成Name Aside。"
+        },
+        "spelling": {
+          "reason": "完整常见词均容易还原，不人为造新写法。",
+          "counter_association": "词组边界可能被当成句子开场而非品牌。"
+        },
+        "grounding": {
+          "reason": "身份线索暂置评审之外的关系有指南流程及词典真义支持。",
+          "counter_association": "Names Aside不是正式制度术语，姓名不是所有身份线索。"
+        },
+        "bilingual_relation": {
+          "reason": "中文机制与英文其评价态度共享作品/身份分置。",
+          "counter_association": "英文不独自说出双向身份或编辑阶段。"
+        },
+        "distinctiveness": {
+          "reason": "短句式称呼可表达明确研究态度，无泛美好词堆叠。",
+          "counter_association": "可能像取名工作室或栏目，科技身份含蓄。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "原规范门槛不变，编辑自评非消费者测试；先主控无分独评，再同A3实际英文使用筛查。"
+    }
+  ]
+}

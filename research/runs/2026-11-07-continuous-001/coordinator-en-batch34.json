@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-08T21:43:36.318002+08:00",
+  "independence": "Read producer preview batch34 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C42",
+      "name": "Double Veil",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两完整常用词按正常读法连贯",
+          "counter_association": "末veil与vale同音"
+        },
+        "spelling": {
+          "reason": "拼写无硬改能够还原",
+          "counter_association": "首次需澄清veil不是vale"
+        },
+        "grounding": {
+          "reason": "双向关系与遮蔽比喻是真语义而非假制度名",
+          "counter_association": "并非真的两幅帘幕或双倍保密"
+        },
+        "bilingual_relation": {
+          "reason": "两方身份向对方遮蔽但作品传递与中文同流程",
+          "counter_association": "不保证公正/以后所有人身份公开"
+        },
+        "distinctiveness": {
+          "reason": "双帘幕给出清晰整体画面可成为专名",
+          "counter_association": "婚纱舞台奇幻以及双重掩饰首感真实"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E37"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T21:10:13.626009+08:00",
+  "generated_at": "2026-11-08T21:50:00.612646+08:00",
   "feed_url": "https://raw.githubusercontent.com/3013038780-design/Namingacompany/codex/naming-research-pilot/research/catalog/website.json",
   "counts": {
     "discussion_candidates": 27,
@@ -7646,9 +7646,183 @@
       "english_attempts": [
         "Spine Eddy"
       ]
+    },
+    {
+      "chinese_id": "C1-C41",
+      "chinese": "纸蜂",
+      "status": "英文返工耗尽，未入库",
+      "reason": "中文8查询公开初筛通过；Paper Wasp已有Papertex的PAPERWASP制造技术用名与PaperSource具名文具系列，英文6查询按商业核心避让。Pulpwright品牌审阅19/拼写3质量未过未查；最后英文匹配实际未选合格新稿，同一A3真实0新英文终核。两次返工已尽，不继续更换英文；不倒写中文占用。",
+      "evidence_refs": [
+        "A3-cn-batch26.json",
+        "A3-en-batch31.json",
+        "coordinator-en-batch33.json",
+        "A4-creation-execution-batch34.json",
+        "A3-en-batch34.json",
+        "A4-batch24-final-closeout.json"
+      ],
+      "run": "research/runs/2026-11-07-continuous-001",
+      "source": [
+        {
+          "title": "Cornell IPM: Paper Wasps",
+          "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/bees-and-wasps/identifying-bees-and-wasps/paper-wasps",
+          "reading_location": "实际读L149–176物种与巢概况，L189–217辨识/行为正文，核心L207/211纤维和唾液加工为纸状巢。未观察实物或读其外链研究。",
+          "read_at": "2026-11-08T21:20:02.228734+08:00",
+          "access": "body",
+          "source_type": "university_extension",
+          "reading_scope": "body_excerpt",
+          "published_at": null
+        },
+        {
+          "title": "Virginia Tech: Paper Wasps, ENTO-435NP",
+          "url": "https://www.pubs.ext.vt.edu/content/pubs_ext_vt_edu/en/ENTO/ENTO-435/ENTO-435.html",
+          "reading_location": "实际读L118–136作者/辨识/生活史，重点L129–132嚼碎植物纤维、纸状巢材与结构；L147–157核修订及发表日期。L138后控制建议不作为本卡研究证据或本次重点阅读。",
+          "read_at": "2026-11-08T21:20:02.228734+08:00",
+          "access": "body",
+          "source_type": "university_extension_publication",
+          "reading_scope": "body_excerpt_and_dates",
+          "published_at": "2026-09-09",
+          "revised_at": "2026-08-31",
+          "boundary": "本页为推广出版资料近期更新，不计最新研究新闻；未由更新日期推定发现刚发生。"
+        }
+      ],
+      "meaning": "一个小小的制造者，自己做出可用的材料。",
+      "crossing": "蜂并非只搬现成建筑块，而把环境纤维加工成适合建巢的材料。",
+      "shortcoming": "像剪纸文创、蜂蜜或防治品牌的风险；胡蜂蜇人的反联想必须保留。第一科技身份若不成立，不能因生物工程式故事给它补分。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch24.json",
+      "english_attempts": [
+        "Paper Wasp",
+        "Pulpwright"
+      ]
+    },
+    {
+      "chinese_id": "C1-C42",
+      "chinese": "双盲",
+      "status": "英文返工耗尽，未入库",
+      "reason": "中文8查询通过但保留双盲把戏完整游戏近似与临床/黑箱/通名风险。Names Aside品牌审阅20质量拒绝未查；Unsigned六查询已有具名AI/ML自用平台及音频平台；最后Double Veil六查询已有Finnaij具名手机壳设计与GigiBurris头饰，按跨行业商业产品核心避让。两次返工尽，无R3，不倒写中文占用或假称官方注册。",
+      "evidence_refs": [
+        "A3-cn-batch26.json",
+        "coordinator-en-batch31.json",
+        "A3-en-batch32.json",
+        "A3-en-batch34.json",
+        "A4-batch24-final-closeout.json"
+      ],
+      "run": "research/runs/2026-11-07-continuous-001",
+      "source": [
+        {
+          "title": "Nature Research: Double-anonymized peer review guidelines",
+          "url": "https://www.nature.com/documents/nr-double-blind-peer-review.pdf",
+          "reading_location": "实际读单页PDF全部L0–22：正文、图、元数据不留姓名/机构，自引用中性说法，部分信息放cover letter，发表后可转回；不把该指南当匿名效果实验。",
+          "read_at": "2026-11-08T21:20:02.228734+08:00",
+          "access": "body",
+          "source_type": "publisher_practice_guideline",
+          "reading_scope": "one_page_complete",
+          "published_at": null
+        },
+        {
+          "title": "Brooke LaFlamme, Nature Blogs: Double-blind peer review",
+          "url": "https://blogs.nature.com/blog/double-blind-peer-review/",
+          "reading_location": "实际读L27–34日期和全部短主文：2015年可选双盲机制，匿名评审者不接触作者身份，作者负责移除身份；未读评论及打不开的外链社论。",
+          "read_at": "2026-11-08T21:20:02.228734+08:00",
+          "access": "body",
+          "source_type": "publisher_editorial_blog",
+          "reading_scope": "complete_short_body",
+          "published_at": "2015-02-25"
+        }
+      ],
+      "meaning": "先看作品，再看名字。",
+      "crossing": "评审时先接触作品本身，身份信息按角色和阶段另置，而不是永久取消署名。",
+      "shortcoming": "盲目/不透明或临床外包的首联想；评价机制是一种立场，不是团队已完成公正/安全能力的承诺。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch24.json",
+      "english_attempts": [
+        "Names Aside",
+        "Unsigned",
+        "Double Veil"
+      ]
+    },
+    {
+      "chinese_id": "C1-C43",
+      "chinese": "熟手",
+      "status": "质量淘汰，未全面查重",
+      "reason": "原A2从Polanyi实读节选选择熟练实践主体，品牌审阅独立24/作者25，辨识3/Lab身份3，普通熟练者与招聘维修首感强；实际独立查重中文未查、英文匹配零英文与同一独立审查零终核。不因哲学出处补分，不称占用或可用。",
+      "evidence_refs": [
+        "materials-extension23.json",
+        "A2-candidates-batch25.json",
+        "coordinator-cn-batch25.json",
+        "A4-zero-input-batch23.json",
+        "A3-en-zero-batch23.json"
+      ],
+      "run": "research/runs/2026-11-07-continuous-001",
+      "source": [
+        {
+          "title": "Michael Polanyi, The Tacit Dimension, Tacit Knowing（TACK转载原著节选）",
+          "url": "https://tacit-knowledge-architecture.com/object/the-tacit-dimension-excerpt/",
+          "reading_location": "本次实际读L31–45原著节选：识认、说明、演示与接收者配合，实践/理论认识的联系。页面称整节选原书p4–13，但本次不据此声称读全p4–13，更未读全书；未采用L46后的旧实验论据。",
+          "read_at": "2026-11-08T21:41:11.063341+08:00",
+          "access": "body",
+          "source_type": "book_author_excerpt_reproduced_by_research_project",
+          "reading_scope": "book_excerpt",
+          "book_id": "Polanyi-The-Tacit-Dimension",
+          "published_at": null,
+          "book_original_year_attribution": "1966，页面所引书；具体转载依据版本/页界尚未核",
+          "boundary": "读到的是Polanyi本人论述的转载，不是TACK介绍代替正文；不采该页关于首版出版社的未核说法。作者的认识论解释不是本包独立实验定理。"
+        }
+      ],
+      "meaning": "不只说得出，也在乎做得到。",
+      "crossing": "能作为熟练实践者运用知识，不等于能把运用过程逐项说尽；传达还需要接收者参与。",
+      "shortcoming": "像熟练工招聘、维修或上门服务；手也可能被误解为只做机器人。应按第一机构身份独评，不能由哲学出处补分。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch25.json",
+      "english_attempts": []
+    },
+    {
+      "chinese_id": "C1-C44",
+      "chinese": "构境",
+      "status": "中文使用淘汰",
+      "reason": "从Schön设计行动改变情境并重定问题实读案例创作，双评25；七查询查到成都构境科技有限公司，智联可读完整核心与软件经营范围，第三方不是官方当前存续核验。另构境AI目录仅二手线索、官网超时不升级一手。英文匹配及同一独立审查实际零英文；不换英文救回。",
+      "evidence_refs": [
+        "materials-extension23.json",
+        "A2-candidates-batch25.json",
+        "A3-cn-batch27.json",
+        "A4-zero-input-batch23.json",
+        "A3-en-zero-batch23.json"
+      ],
+      "run": "research/runs/2026-11-07-continuous-001",
+      "source": [
+        {
+          "title": "Donald A. Schön, The Reflective Practitioner, Design as a Reflective Conversation with the Situation",
+          "url": "https://andymatuschak.org/files/papers/Schon%20-%20The%20Reflective%20Practitioner.pdf",
+          "reading_location": "web因文件过大失败后实际curl下载380页PDF；实读PDF86–89、98、102页（印刷79–82、91、95）：Quist/Petra设计片段与作者分析；另读PDF2–4/6题名版权及部分目录。未连续通读整章或整书，未将扫描全书当已读全书。",
+          "read_at": "2026-11-08T21:41:11.063341+08:00",
+          "access": "body",
+          "source_type": "book_author_text_scanned_copy",
+          "reading_scope": "book_chapter_selected_pages",
+          "book_id": "Schon-The-Reflective-Practitioner",
+          "published_at": null,
+          "book_copyright_year": "1983，PDF4版权页；扫描具体重印年未核",
+          "local_path": "/tmp/continuous001-schon.pdf",
+          "sha256": "6adda281532849a26a41a663f99a648759d6be3e6a61a97966b5c82e548ab707",
+          "boundary": "具体设计教学记录与作者分析，不是普遍证明所有活动目标都必须改变。只读文字提取，不声称目读图形或观看现场。"
+        }
+      ],
+      "meaning": "为可能发生的创造，构成情境。",
+      "crossing": "创造行动不只是填入既定解，情境变化也使行动者重新界定正在解决的问题。",
+      "shortcoming": "容易先像建筑、景观或3D场景制作，构/境近音常用字也需辨；若广义研究身份不足，不因故事完整而保留。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch25.json",
+      "english_attempts": []
     }
   ],
   "events": [
+    {
+      "id": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T131434Z/result.json",
+      "at": "2026-11-08T21:50:00.506143+08:00",
+      "date": "2026-11-08",
+      "title": "研究更新",
+      "retained": 0,
+      "drafts": 4,
+      "materials": 4,
+      "pending": 1,
+      "reason": "本段零新增：纸蜂、双盲中文初筛过，但英文分别因明确商业使用/质量和最后无合格稿，最多两次返工已尽；熟手首要招聘维修与通名气质质量未过，构境七查询查到成都构境科技第三方具名公司。A1实补核4例，Runway创始人原释名为models的平台/伸展台双义，已由真实A2新计划及Polanyi/Schön书正文接续，不反写前包。4资料4中文5英文、41新查询全部返回；所有具体去留与证据入网站，不把草案充备选。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/continuations/2026-11-08T131434Z/result.json"
+    },
     {
       "id": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T120952Z/result.json",
       "at": "2026-11-08T21:09:50.682361+08:00",

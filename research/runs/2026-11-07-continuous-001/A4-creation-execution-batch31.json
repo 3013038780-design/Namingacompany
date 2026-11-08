@@ -1,0 +1,144 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 English first proposals",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T21:33:32.317947+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch24.json",
+      "sha256": "737968f781f98c11c77e781a4b4225ea4290a1ba3bdfe9cb993f4fd50cde871d"
+    },
+    {
+      "path": "A2-quality-batch24.json",
+      "sha256": "b94e701ad8a0ca28f1ec3f0a69be6e989cf45d0215a3ea36be88eb3658cc0c21"
+    },
+    {
+      "path": "A2-creation-execution-batch24.json",
+      "sha256": "e40bb5246ba97fc6bc6cd176dc78e2cc4073e97086e7da0baa23be1af1fcbb88"
+    },
+    {
+      "path": "materials-extension22.json",
+      "sha256": "beb5d4ecac9de295d9e07873e69bf296b95fce18fc504c14c42d4e12effb5967"
+    },
+    {
+      "path": "coordinator-cn-batch24.json",
+      "sha256": "75a458571a11142e8e1658b0f4a96bddd6ae4578955fd357d3bd868b23c53fc0"
+    },
+    {
+      "path": "coordinator-family-review-batch24.json",
+      "sha256": "2ad8aac0ea114bd765185d6c468384493b383008597bb259fc388e1e15fb7758"
+    },
+    {
+      "path": "A3-cn-batch26.json",
+      "sha256": "adf5036918dcbeae58c224ecc83a0d79e320436390c86f14576df074a282ef8c"
+    },
+    {
+      "path": "A3-cn-batch26-receipt.json",
+      "sha256": "369c73ad1de4b63e8c662c59c434c7219f48030dd1f38c727e2b4012053f6d6c"
+    },
+    {
+      "path": "continuations/2026-11-08T131434Z/root-cn26-review.json",
+      "sha256": "5d4d0b41339c4d5af7773a6d2fce482b46a10d2b095847128073f74e210dce2b"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch24.json",
+      "sha256": "737968f781f98c11c77e781a4b4225ea4290a1ba3bdfe9cb993f4fd50cde871d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension22.json",
+      "sha256": "beb5d4ecac9de295d9e07873e69bf296b95fce18fc504c14c42d4e12effb5967",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch24.json",
+      "sha256": "b94e701ad8a0ca28f1ec3f0a69be6e989cf45d0215a3ea36be88eb3658cc0c21",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch24.json",
+      "sha256": "e40bb5246ba97fc6bc6cd176dc78e2cc4073e97086e7da0baa23be1af1fcbb88",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch24.json",
+      "sha256": "75a458571a11142e8e1658b0f4a96bddd6ae4578955fd357d3bd868b23c53fc0",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch24.json",
+      "sha256": "2ad8aac0ea114bd765185d6c468384493b383008597bb259fc388e1e15fb7758",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch26.json",
+      "sha256": "adf5036918dcbeae58c224ecc83a0d79e320436390c86f14576df074a282ef8c",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch26.md",
+      "sha256": "3682918470cb7929b373ecf32aada1378fff5f62229f9e5899ddbbdfa7f34459",
+      "match": true
+    }
+  ],
+  "actual_input_reading": "实际读取全部指定固定文件；首次合并输出截断后将materials-extension22和A2执行单独重读，不冒称读到被截断部分。",
+  "actual_sources": [
+    {
+      "url": "https://www.pubs.ext.vt.edu/content/pubs_ext_vt_edu/en/ENTO/ENTO-435/ENTO-435.html",
+      "scope": "VT118–136、142、149/157；未看图或外链原研究。"
+    },
+    {
+      "url": "https://www.nature.com/documents/nr-double-blind-peer-review.pdf",
+      "scope": "单页PDF文本0–22全部，未声称目读图片或链接全文。"
+    },
+    {
+      "url": "https://blogs.nature.com/blog/double-blind-peer-review/",
+      "scope": "2015-02-25博客27–34短主体，未读外链社论或评论。"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/name",
+      "scope": "31–52 name识别称呼义"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/aside",
+      "scope": "31–64 aside考虑之外义/X aside例式"
+    }
+  ],
+  "local_history_check": "research JSON english/name字段Paper Wasp与Names Aside精确串无命中；仅本地历史字面筛，不是外部预查或全家族仲裁。",
+  "actual_english_versions": 2,
+  "actual_new_chinese_names": 0,
+  "new_family_count": 0,
+  "english_output_ids": [
+    "C1-E32",
+    "C1-E33"
+  ],
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "rework_attempts": {
+    "C1-C41": 0,
+    "C1-C42": 0
+  },
+  "remaining_reworks": {
+    "C1-C41": 2,
+    "C1-C42": 2
+  },
+  "claim_boundary": "新A1补核未倒写中文词源；不由近期推广更新宣称新发现、不以历史双盲公告当现行全部政策，不保证消偏或后来全公开。",
+  "outputs": [
+    {
+      "path": "A4-candidates-batch31.json",
+      "sha256": "714b90fa1a6ac106c726ffd35b810ab9506971df20e8d6baab860396d5422c93"
+    },
+    {
+      "path": "A4-preview-batch31.md",
+      "sha256": "440f8422462d92d37ed69386faec2ce93cfe435485a024704139cbf8e2d5423e"
+    },
+    {
+      "path": "A4-quality-batch31.json",
+      "sha256": "c1ec5e04c67229fca5ac384620a78ee3a7e08297d0394965a5507f5b97dfd5b9"
+    }
+  ],
+  "next": "主控先看无分稿封存独评，再看数字；双过且家族门通过才原A3独立英文查询。",
+  "unchanged": "只写本批新档，旧稿/分/记录/队列/库/Git未改，无网页全文。"
+}

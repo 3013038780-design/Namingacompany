@@ -1,0 +1,375 @@
+{
+  "agent_id": "/root/continuous_a1",
+  "role": "A1",
+  "completed_at": "2026-11-08T21:24:31.270510+08:00",
+  "stage": "bounded_role_expansion_for_next_A2_package",
+  "protocol_version": "1.1",
+  "applies_to": "本任务完成并经主控验收后的下一A2资料/创作包，不反写当前已启动batch24输入",
+  "scope": "本run首次实质补核4个105基线既有案例；当前AI3、RSI相关1。不是新增市场品牌，不起本公司名字，不重做105。",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/inputs/A1-role-expansion01/README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba",
+      "read_scope": "当前规范整体已读，特别核心名称与动态快照规则、角色与评分门槛；这里是本步冻结版本"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/inputs/A1-role-expansion01/AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80",
+      "read_scope": "全部执行规则"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/inputs/A1-role-expansion01/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567",
+      "read_scope": "当前授权与审美反馈"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.json",
+      "sha256": "b3bbd78ef83733b79b7033404dc29727a7e0c749988d06218820850f4de520be",
+      "read_scope": "已完成7例、6原则、6方向及访问边界"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.md",
+      "sha256": "50023a0d4970380ebd3afb8969343e6aaadab41c468ae7be66bf2da8f20dcda9",
+      "read_scope": "本轮已有案例与A2宏观交接"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.json",
+      "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132",
+      "read_scope": "已核品牌与构词方法，核对本次不重复算实质新核"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.md",
+      "sha256": "9e2c1589037d9d564619fd8d9d861dffd13288087c4f7dec8e49d5ecbd702dde",
+      "read_scope": "F1–F6及旧材料建议作为历史，不据此恢复已被后续命名的材料"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67",
+      "read_scope": "六宏观来源及未确认专名类别，保持原分类"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746",
+      "read_scope": "提取B027/B028/B029/B091及未计入B078，核原三类归属与来源边界"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T131434Z/material-proposal-index.json",
+      "sha256": "979285294d39c02bc2bd3de1e788f452c65d1d046711e0a4d3791a1e32ffb581",
+      "read_scope": "解析全部冻结50项事实/关系与40份中文提案名称、材料和家族关联；非重读50项外部正文"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T131434Z/history-scan.json",
+      "sha256": "a800c1066ed2b88b2d0392c6e3ddd93329356722288987f173329c1634f8454c",
+      "read_scope": "读取冻结历史扫描清单与去重范围；不把版本与家族字段数当新名数"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T131434Z/resume.json",
+      "sha256": "b7cd47ce1159ba561df90874825f9b12b3020304275d34e90ef561911381235b",
+      "read_scope": "当前batch24上游冻结范围，不反写其输入"
+    }
+  ],
+  "frozen_history_counts": {
+    "materials": 50,
+    "chinese_ids": 40
+  },
+  "prior_review_case_ids_excluded": [
+    "B008",
+    "B009",
+    "B010",
+    "B011",
+    "B015",
+    "B025",
+    "B037",
+    "B074",
+    "B076",
+    "B077"
+  ],
+  "counts": {
+    "substantive_existing_cases_added_to_this_run": 4,
+    "current_ai": 3,
+    "rsi_labs": 1,
+    "broad_tech": 0,
+    "new_market_brands": 0,
+    "new_company_name_proposals": 0,
+    "source_urls_body_read_for_counted_cases": 6,
+    "founder_explicit_naming_interview_cases": 1,
+    "company_semantic_or_mission_self_explanation_cases": 2,
+    "current_brand_context_without_historical_motive_cases": 1,
+    "deferred_cases_not_counted": 1,
+    "actual_source_discovery_query_groups": 5
+  },
+  "cases": [
+    {
+      "id": "B027",
+      "name": "Midjourney",
+      "category": "current_ai",
+      "primary_source": "S5",
+      "secondary_sources": [
+        "S6"
+      ],
+      "baseline_classification_preserved": true,
+      "baseline_ref": "research/runs/2026-11-06-agent1-baseline105/cases.json#B027",
+      "new_market_brand_case": false,
+      "new_substantive_review_in_this_run": true,
+      "word_meaning": "旅途之中、行至中途。",
+      "origin_evidence_status": "企业官网自释，不等同初次命名决策档案。",
+      "verified_self_explanation_or_context": "官方About把人与技术放在已有过去和尚未想象出的未来之间，并把想成为什么作为研究问题。",
+      "researcher_naming_analysis": "名字给公司一个可以长期处于其中的世界观位置，不把公司压成某项工具或一代模型。",
+      "company_role_to_transfer": "共同探索者；参与未来活动与身份形成的研究机构。",
+      "next_A2_questions": [
+        "活动目标如何在探索中形成，而不只优化一个既定目标。",
+        "人、创造工具与可想象的行动范围如何共同改变；寻找作者的实践或设计研究正文。"
+      ],
+      "next_A2_reading_task": {
+        "status": "planned_not_read_by_this_A1",
+        "task": "阅读目标形成、创造活动和人的未来可能性相关章节/原始研究；先找到一种完整的活动关系，不先摘旅途或未来词。"
+      },
+      "failure_boundaries": [
+        "不是再造之后、第二次、未完、旅途的近义家族。",
+        "官网的美丽模型或宏大未来属于自述，不作性能证据；不推断名字导致商业成功。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.midjourney.com/home/",
+          "access": "body",
+          "read_scope": "About L10–14",
+          "supports": "公司直接用midjourney解释过去、未来与想成为什么；本步未取得初次命名访谈。",
+          "source_type": "company_primary_body",
+          "checked_at": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "B028",
+      "name": "Runway",
+      "category": "current_ai",
+      "primary_source": "S1",
+      "secondary_sources": [
+        "S6"
+      ],
+      "baseline_classification_preserved": true,
+      "baseline_ref": "research/runs/2026-11-06-agent1-baseline105/cases.json#B028",
+      "new_market_brand_case": false,
+      "new_substantive_review_in_this_run": true,
+      "word_meaning": "跑道或伸展台等既有词义；这次直接命名解释落在模特伸展台。",
+      "origin_evidence_status": "创始人直接受访的命名解释。",
+      "verified_self_explanation_or_context": "创始人对Paperspace说明早期希望艺术家能使用机器学习模型，想到了为models提供平台这一双义，因而采用runway。当前官方About又把艺术与科学结合用于世界模拟。",
+      "researcher_naming_analysis": "同一种关系在不同世界已有可想象的场所：公司是让能力被使用、作品得以出现的条件。新核说明比只说飞机起飞更贴近实际命名解释。",
+      "company_role_to_transfer": "为他者提供创造条件的场所或平台；不必是一件具体器件。",
+      "next_A2_questions": [
+        "有哪些真实场所、组织方式或实践，让别人已有的能力开始被使用或协同呈现？",
+        "两个领域是否共享同一种主体角色或关系，而不只是共享一个字形？先找关系，再看已有称呼能否承接。"
+      ],
+      "next_A2_reading_task": {
+        "status": "planned_not_read_by_this_A1",
+        "task": "可读创造实践、实验组织、知识展示/应用的作者资料；从“别人怎样有条件做事”找完整关系，而不是列模型、算法或器件术语。"
+      },
+      "failure_boundaries": [
+        "创始人采访支持的是该项目命名过程，不证明所有双关都好。",
+        "不复制runway、模特或起飞意象；不把公司叫平台就自动推出其商业模式。",
+        "当前官网的世界模型目标不是当年创始命名动机，二者分栏。"
+      ],
+      "sources": [
+        {
+          "url": "https://blog.paperspace.com/we-shape-our-tools-and-thereafter-our-tools-shape-us-interview-with-runwayml-founder-cristobal-valenzuela/",
+          "access": "body",
+          "read_scope": "Paperspace直接访谈L24–29，重点命名问答L24–25；未声称读整场视频",
+          "supports": "创始人解释短称呼需求，以及让艺术家使用ML模型与models平台的双义。",
+          "source_type": "primary_founder_interview_body",
+          "checked_at": "2026-11-08"
+        },
+        {
+          "url": "https://runway.com/about",
+          "access": "body",
+          "read_scope": "当前官方About L19–22；原runwayml.com/about重定向",
+          "supports": "当前艺术与科学、世界模拟的研究定位，不作历史命名证明。",
+          "source_type": "company_primary_body",
+          "checked_at": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "B029",
+      "name": "Hugging Face",
+      "category": "current_ai",
+      "primary_source": "S1",
+      "secondary_sources": [],
+      "baseline_classification_preserved": true,
+      "baseline_ref": "research/runs/2026-11-06-agent1-baseline105/cases.json#B029",
+      "new_market_brand_case": false,
+      "new_substantive_review_in_this_run": true,
+      "word_meaning": "hugging与face构成身体和社交动作的普通表达。",
+      "origin_evidence_status": "词义及当前品牌语境已读；历史命名动机本次未确认。",
+      "verified_self_explanation_or_context": "官方品牌资源提供标识并自述为机器学习社区的协作平台；主页同样强调模型、数据集和应用上的协作。",
+      "researcher_naming_analysis": "熟悉的身体关系可以让深技术机构先以欢迎参与、共同做事的角色出现。这里从词义与公司语境归纳作用，不把标识存在升级成创始人为何选名。",
+      "company_role_to_transfer": "可参与的伙伴和知识社区；亲近感与技术身份可以共同成立。",
+      "next_A2_questions": [
+        "哪些协作知识实践让陌生人能参与、接手、贡献或共同维护一个东西？",
+        "亲近感来自怎样的真实相处或参与关系，而不是把技术包装成育儿/服务微笑？"
+      ],
+      "next_A2_reading_task": {
+        "status": "planned_not_read_by_this_A1",
+        "task": "从协作知识生产、共同维护、贡献者关系的作者原文找可感场景；不只再找一个可爱动物或身体部位。"
+      },
+      "failure_boundaries": [
+        "未在本次官方正文中核到“最喜欢的emoji/先做聊天机器人”起名历史，不据媒体摘要补成事实。",
+        "不能用已有知名品牌的成功替任意可爱词开质量豁免；用户否决的育儿气质仍否决。",
+        "社区开放是对方自述，不替本公司承诺开放许可或安全立场。"
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/brand",
+          "access": "body",
+          "read_scope": "Brand Assets L38–44及HF Bio L131–133",
+          "supports": "实际品牌资源和企业自述协作社区定位，非创始命名史。",
+          "source_type": "company_primary_body",
+          "checked_at": "2026-11-08"
+        },
+        {
+          "url": "https://huggingface.co/",
+          "access": "body",
+          "read_scope": "主页L40–42、67–72；不采用动态模型数或价格",
+          "supports": "机器学习社区合作与共同使用模型/数据/应用的实际公开语境。",
+          "source_type": "company_primary_body",
+          "checked_at": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "B091",
+      "name": "Ineffable Intelligence",
+      "category": "rsi_labs",
+      "primary_source": "S6",
+      "secondary_sources": [
+        "S5"
+      ],
+      "baseline_classification_preserved": true,
+      "baseline_ref": "research/runs/2026-11-06-agent1-baseline105/cases.json#B091",
+      "new_market_brand_case": false,
+      "new_substantive_review_in_this_run": true,
+      "word_meaning": "难以用语言充分表达的、不可言说的。",
+      "origin_evidence_status": "企业以同名belief明确解释；未把主张当作已实现能力。",
+      "verified_self_explanation_or_context": "官网把从环境经验发现知识作为目标，把智能获得的深层知识未必能用人类语言表达列为Ineffable信念；创始人署名短文说明要为该研究提供长期空间。",
+      "researcher_naming_analysis": "公司可以因其关于知识是什么、从何而来的认识立场而得名。名字不必等于一项算法，研究使命本身也能容纳多种未来技术。",
+      "company_role_to_transfer": "对知识形成和表达边界持明确立场的研究机构。",
+      "next_A2_questions": [
+        "什么知识能被熟练运用，却不能仅靠逐字说明充分传递？找作者对技能、实践与表达的具体关系。",
+        "一个研究组织怎样为尚无即时产品的知识问题提供空间，而不变成无条件宏大承诺？"
+      ],
+      "next_A2_reading_task": {
+        "status": "planned_not_read_by_this_A1",
+        "task": "可从默会知识、技能与言语表达、科学实践的书籍章节或原始研究寻找关系；需真正阅读，不把书名当素材。"
+      },
+      "failure_boundaries": [
+        "不能照抄不可言说、神秘或超级智能的现成品牌叙事。",
+        "官网关于超智能、永远学习等是公司信念和目标，不是本项目认可的科学定理或已证实业绩。",
+        "生词或思想厚度不免除发音、自然称呼和AI Lab身份门槛，也不授权本公司承诺无限成长。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ineffable.ai/",
+          "access": "body",
+          "read_scope": "Mission L12–17；Beliefs L44–57；David Silver署名短文L73–105",
+          "supports": "明确区分从经验获得知识、Ineffable信念与创始人研究动机；未声称通读其他材料。",
+          "source_type": "company_primary_body",
+          "checked_at": "2026-11-08"
+        }
+      ]
+    }
+  ],
+  "next_package_transfer": [
+    {
+      "id": "RE01",
+      "case_refs": [
+        "B028"
+      ],
+      "company_identity": "给他者行动提供条件，而非把公司等同某个器件",
+      "macro_directions": [
+        "S1",
+        "S5"
+      ],
+      "instruction": "下一A2包先找一个能支持他人创造、发现或使用能力的完整场景；把场所、参与者和作用说清。别从“物理名词＋驱动力”模板开始，也不照抄跑道/伸展台。",
+      "source_boundary": "Runway起名双义已由创始人采访核；新公司采用同类角色仍须另有真实素材，不靠类比自证。"
+    },
+    {
+      "id": "RE02",
+      "case_refs": [
+        "B027"
+      ],
+      "company_identity": "人与技术共同探索可成为什么",
+      "macro_directions": [
+        "S5",
+        "S6"
+      ],
+      "instruction": "可读目标如何形成、创造实践怎样改变可选行动范围的作者正文。选完整活动关系，不再制造途中/之后/下一阶段的时间词家族。",
+      "source_boundary": "官网是明确自释世界观，不证明创始人最初选字过程或技术必然成功。"
+    },
+    {
+      "id": "RE03",
+      "case_refs": [
+        "B029"
+      ],
+      "company_identity": "参与者、伙伴与共同知识空间",
+      "macro_directions": [
+        "S1",
+        "S5"
+      ],
+      "instruction": "可读知识如何由多人贡献、接手与维护的实践，而非只找一个单体物理机制。可称呼的关系先成立，再检查科技Lab身份；亲近不等于育儿，也不自动合格。",
+      "source_boundary": "词义与当前社区定位可读，不把官方标识页面当命名历史证明；本公司没有被擅自赋予开放承诺。"
+    },
+    {
+      "id": "RE04",
+      "case_refs": [
+        "B091"
+      ],
+      "company_identity": "对知识形成与表达边界的研究立场",
+      "macro_directions": [
+        "S5",
+        "S6"
+      ],
+      "instruction": "可读技能、实践知识与语言表达的具体关系，寻找可自然称呼的认识对象或角色；不要只抽一个“难以描述”的哲学形容词当名字，也不统一改写持续成长。",
+      "source_boundary": "企业belief与科学事实分开；未知与神秘不是免检词源。"
+    }
+  ],
+  "deferred_not_counted": [
+    {
+      "id": "B078",
+      "name": "Mirendil",
+      "category": "rsi_labs",
+      "source_url": "https://mirendil.com/",
+      "access": "body_available_but_previous_etymology_not_found",
+      "read_scope": "当前首页L9–12",
+      "observed": "新版首页说明普及前沿AI研发、促进科学技术；先前基线的发现朋友释义脚注本步页面未再读到。",
+      "decision": "不将旧释名升级为本步重新核验；第三方对精灵语/托尔金解释未作命名事实采用，不为凑5例计入。"
+    }
+  ],
+  "naming_history_boundaries": [
+    "Runway新增直接访谈证据细化了基线仅以飞机起飞解释的读法，但不修改旧档；访谈的models伸展台双义应单列新证据。",
+    "Hugging Face官方品牌资源与社区定位不等于历史选名起因；媒体的emoji起源只见线索，本步不升级为已核事实。",
+    "Midjourney/Ineffable公司用同名词自释世界观和信念，不自动等于取得最初命名决策记录。"
+  ],
+  "source_discovery_queries": [
+    {
+      "query": "site.huggingface.co \"named\" \"emoji\" Hugging Face",
+      "executed_on": "2026-11-08"
+    },
+    {
+      "query": "site.runwayml.com \"name\" \"runway\" \"creative\" about",
+      "executed_on": "2026-11-08"
+    },
+    {
+      "query": "site.midjourney.com \"all on a journey\"",
+      "executed_on": "2026-11-08"
+    },
+    {
+      "query": "Runway Cristobal \"platform for models\" name",
+      "executed_on": "2026-11-08"
+    },
+    {
+      "query": "\"Mirendil\" \"friend\" discovery name",
+      "executed_on": "2026-11-08"
+    }
+  ],
+  "unchanged_gates": "原评分、研究覆盖、独立中英文查询、家族去重、返工上限与真实角色交接全部不变；宽身份是素材和角色选择，不是绕过Lab适配的理由。",
+  "execution_ref": "本聊天原/root/continuous_a1由/root实际followup_task唤醒；exec实读冻结索引，web.run实开原始采访及企业正文；本步没有名字提案、评分、占用或登记结论。"
+}

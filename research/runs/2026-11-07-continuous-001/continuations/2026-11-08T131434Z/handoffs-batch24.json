@@ -1,0 +1,227 @@
+{
+  "accepted_at": "2026-11-08T21:50:00.506143+08:00",
+  "same_research_run": true,
+  "whole_production_compliance_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "accepted_at": "2026-11-08T21:50:00.506143+08:00",
+      "from": "existing_A1",
+      "to": "same_A2",
+      "status": "accepted",
+      "candidate_ids": [],
+      "reason": "沿原已核案例/六方向创作本包，不将本次后完成A1补核反写来源。",
+      "refs": [
+        {
+          "path": "A1-final-input-reacceptance.json",
+          "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+        },
+        {
+          "path": "A1-formation-feedback.json",
+          "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        },
+        {
+          "path": "A2-creation-execution-batch24.json",
+          "sha256": "e40bb5246ba97fc6bc6cd176dc78e2cc4073e97086e7da0baa23be1af1fcbb88"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "accepted_at": "2026-11-08T21:50:00.506143+08:00",
+      "from": "same_A2",
+      "to": "coordinator",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C41",
+        "C1-C42"
+      ],
+      "reason": "四来源正文实际复核，两中文双25/轴差0，分别加工巢材与身份分置，不机械拼词。",
+      "refs": [
+        {
+          "path": "materials-extension22.json",
+          "sha256": "beb5d4ecac9de295d9e07873e69bf296b95fce18fc504c14c42d4e12effb5967"
+        },
+        {
+          "path": "A2-candidates-batch24.json",
+          "sha256": "737968f781f98c11c77e781a4b4225ea4290a1ba3bdfe9cb993f4fd50cde871d"
+        },
+        {
+          "path": "A2-quality-batch24.json",
+          "sha256": "b94e701ad8a0ca28f1ec3f0a69be6e989cf45d0215a3ea36be88eb3658cc0c21"
+        },
+        {
+          "path": "A2-creation-execution-batch24.json",
+          "sha256": "e40bb5246ba97fc6bc6cd176dc78e2cc4073e97086e7da0baa23be1af1fcbb88"
+        },
+        {
+          "path": "coordinator-cn-batch24.json",
+          "sha256": "75a458571a11142e8e1658b0f4a96bddd6ae4578955fd357d3bd868b23c53fc0"
+        },
+        {
+          "path": "coordinator-family-review-batch24.json",
+          "sha256": "2ad8aac0ea114bd765185d6c468384493b383008597bb259fc388e1e15fb7758"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "accepted_at": "2026-11-08T21:50:00.506143+08:00",
+      "from": "coordinator",
+      "to": "same_A3",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C41",
+        "C1-C42"
+      ],
+      "reason": "两中文各8有效查询，原同一A3；较长实义词/功能机制不截字当同名。",
+      "refs": [
+        {
+          "path": "A3-cn-batch26.json",
+          "sha256": "adf5036918dcbeae58c224ecc83a0d79e320436390c86f14576df074a282ef8c"
+        },
+        {
+          "path": "A3-cn-batch26-receipt.json",
+          "sha256": "369c73ad1de4b63e8c662c59c434c7219f48030dd1f38c727e2b4012053f6d6c"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "accepted_at": "2026-11-08T21:50:00.506143+08:00",
+      "from": "same_A3",
+      "to": "same_A4",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C41",
+        "C1-C42"
+      ],
+      "reason": "中文公开初筛风险通过，原A4实际匹配，不继承中文为英文可用。",
+      "refs": [
+        {
+          "path": "continuations/2026-11-08T131434Z/root-cn26-review.json",
+          "sha256": "5d4d0b41339c4d5af7773a6d2fce482b46a10d2b095847128073f74e210dce2b"
+        },
+        {
+          "path": "A4-creation-execution-batch31.json",
+          "sha256": "49a1e2fd0ceae371d64c3c497145f20bb8efc0d1403d1ab1b4fbd08721adae49"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "accepted_at": "2026-11-08T21:50:00.506143+08:00",
+      "from": "same_A4",
+      "to": "same_A3",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C41",
+        "C1-C42"
+      ],
+      "reason": "5个已提交英语版，PaperWasp/Unsigned/DoubleVeil双评过后才查；NamesAside/Pulpwright质量未过不查，最后纸蜂真实无选稿非零中文。",
+      "refs": [
+        {
+          "path": "A4-creation-execution-batch31.json",
+          "sha256": "49a1e2fd0ceae371d64c3c497145f20bb8efc0d1403d1ab1b4fbd08721adae49"
+        },
+        {
+          "path": "A4-creation-execution-batch32.json",
+          "sha256": "e803aadffecc55d2c48060bc9461b78475cfe9ec2173e189ae7d9e249acdfa6b"
+        },
+        {
+          "path": "A4-creation-execution-batch33.json",
+          "sha256": "7efc9b3574f10e68549ebb1cdf22233a2b480cd19fa055dfce48ad011fab01e7"
+        },
+        {
+          "path": "A4-creation-execution-batch34.json",
+          "sha256": "355ea06daee2f652231e098f8ae7e4f1b5d544b79c17d3554b96c54355614287"
+        },
+        {
+          "path": "coordinator-en-batch31.json",
+          "sha256": "eafdda15980fa42214182198c48abdccb9ed5945edd4e5ac51d094ccb4fa6cfe"
+        },
+        {
+          "path": "coordinator-en-batch32.json",
+          "sha256": "0970a31570d8c6df4ef339fe3a54f145c10be2fd097f63f1e2dfb6657b4ce2ec"
+        },
+        {
+          "path": "coordinator-en-batch33.json",
+          "sha256": "a1ef5e0ad637e8061eed6317482cb1dc36342bcca6c156350a6d7e90d3897c53"
+        },
+        {
+          "path": "coordinator-en-batch34.json",
+          "sha256": "945ae59dd192981d416ca3c5aadb9f3882a83690690f1ebe02945ba04e07b8e7"
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "accepted_at": "2026-11-08T21:50:00.506143+08:00",
+      "from": "same_A3",
+      "to": "coordinator",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C41",
+        "C1-C42"
+      ],
+      "reason": "同一A3三英语各6有效查询已有完整商业/软件平台核心；两次返工尽原A4实际收尾，未用E36不算第6版。",
+      "refs": [
+        {
+          "path": "A3-en-batch31.json",
+          "sha256": "b2efa4f9b400d2563550981bb2461add061ab5bb01b4a72d1f6c47f447955b66"
+        },
+        {
+          "path": "A3-en-batch31-receipt.json",
+          "sha256": "a0076a40e0e2eb46c5ab7d3c2875ffc199e2928446129f7dc97b6926f349ac4f"
+        },
+        {
+          "path": "A3-en-batch32.json",
+          "sha256": "f330bebaa9b9e28d2347e38a8a0de99c2f6f6f1ee3bed6686cc24be4c4d3cac4"
+        },
+        {
+          "path": "A3-en-batch32-receipt.json",
+          "sha256": "c6a7236afce743fb3d18fae8a0c344d652d101cb1c82938769dcb535c3a3cce2"
+        },
+        {
+          "path": "A3-en-batch34.json",
+          "sha256": "26b21a767f623b8ebab294558a06cf4432250b7a8cd03af8c0c7ac28203c42a9"
+        },
+        {
+          "path": "A3-en-batch34-receipt.json",
+          "sha256": "93eb9a7e68e536a12e2a971a3c33d1791c35d42c2c7521d24f4b0ac19676077d"
+        },
+        {
+          "path": "A4-batch24-final-closeout.json",
+          "sha256": "67d390b91776877549b8f57ec932e3a2691babf6fb11ff3fed2a37db5008a2dc"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "accepted_at": "2026-11-08T21:50:00.506143+08:00",
+      "from": "coordinator",
+      "to": "catalog",
+      "status": "zero_input",
+      "candidate_ids": [],
+      "reason": "没有完整通过配对，不写delivery、不增库、不倒写中文占用；0结果如实公开。",
+      "refs": [
+        {
+          "path": "continuations/2026-11-08T131434Z/root-segment-terminal-review.json",
+          "sha256": "23df1eade031452ac30e794a578af2e120b95ef0308396a99b049680a7039759"
+        },
+        {
+          "path": "continuations/2026-11-08T131434Z/decisions-through-batch25.json",
+          "sha256": "3715efa09f755180fb506b111661f0730f9d836f63718f3c7bcf96e4fde523e0"
+        }
+      ]
+    }
+  ]
+}

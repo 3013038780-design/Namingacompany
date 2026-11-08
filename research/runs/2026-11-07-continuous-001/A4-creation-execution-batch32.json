@@ -1,0 +1,82 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 English rework",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T21:35:35.271498+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch24.json",
+      "sha256": "737968f781f98c11c77e781a4b4225ea4290a1ba3bdfe9cb993f4fd50cde871d"
+    },
+    {
+      "path": "materials-extension22.json",
+      "sha256": "beb5d4ecac9de295d9e07873e69bf296b95fce18fc504c14c42d4e12effb5967"
+    },
+    {
+      "path": "A3-cn-batch26.json",
+      "sha256": "adf5036918dcbeae58c224ecc83a0d79e320436390c86f14576df074a282ef8c"
+    },
+    {
+      "path": "A3-cn-batch26-receipt.json",
+      "sha256": "369c73ad1de4b63e8c662c59c434c7219f48030dd1f38c727e2b4012053f6d6c"
+    },
+    {
+      "path": "A4-candidates-batch31.json",
+      "sha256": "714b90fa1a6ac106c726ffd35b810ab9506971df20e8d6baab860396d5422c93"
+    },
+    {
+      "path": "A4-quality-batch31.json",
+      "sha256": "c1ec5e04c67229fca5ac384620a78ee3a7e08297d0394965a5507f5b97dfd5b9"
+    },
+    {
+      "path": "coordinator-en-batch31.json",
+      "sha256": "eafdda15980fa42214182198c48abdccb9ed5945edd4e5ac51d094ccb4fa6cfe"
+    },
+    {
+      "path": "continuations/2026-11-08T131434Z/root-cn26-review.json",
+      "sha256": "5d4d0b41339c4d5af7773a6d2fce482b46a10d2b095847128073f74e210dce2b"
+    }
+  ],
+  "actual_return_review": "本人实际读coordinator-en-batch31.json，Names Aside主控总分未过，未做使用查询；本次按质量返工而非冒同名避重。Paper Wasp另交A3不在此返工。",
+  "actual_source_reading": [
+    {
+      "url": "https://www.nature.com/documents/nr-double-blind-peer-review.pdf",
+      "scope": "本人上批已实读完整单页L0–22，本次沿用，不新称读别的政策"
+    },
+    {
+      "url": "https://blogs.nature.com/blog/double-blind-peer-review/",
+      "scope": "本人上批已实读2015博客27–34短主体"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/unsigned",
+      "scope": "本次实际web31–48，完整形容词/读法/无签名与未签约两义"
+    }
+  ],
+  "local_history_check": "research JSON english/name字段unsigned精确无命中，仅本地历史字面，不是外部使用预查或全部同族仲裁。",
+  "english_output_ids": [
+    "C1-E34"
+  ],
+  "actual_english_versions": 1,
+  "actual_new_chinese_names": 0,
+  "new_family_count": 0,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "rework_attempt": 1,
+  "remaining_reworks": 1,
+  "outputs": [
+    {
+      "path": "A4-candidates-batch32.json",
+      "sha256": "66457680072b324d985003a38070a43449d8bb7626c0da5ea414729d9213458e"
+    },
+    {
+      "path": "A4-preview-batch32.md",
+      "sha256": "b433bd0b0091d0188b0db2117320484a8819276fe226afd736bd741a261d2d49"
+    },
+    {
+      "path": "A4-quality-batch32.json",
+      "sha256": "1332866eedf22646ce162c509a082486574882d1c5be623bdc361ea52c3d7743"
+    }
+  ],
+  "next": "主控先无分独评封存，再看producer；双过后原A3独立英文筛查，不能继承中文通过。",
+  "unchanged": "只写本人本批新档，Paper Wasp及旧稿/分/记录/队列/库/Git不改，无网页全文。"
+}

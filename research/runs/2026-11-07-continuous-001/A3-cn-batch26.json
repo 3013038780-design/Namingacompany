@@ -1,0 +1,213 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T21:30:36.331504+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch24.json",
+      "sha256": "737968f781f98c11c77e781a4b4225ea4290a1ba3bdfe9cb993f4fd50cde871d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension22.json",
+      "sha256": "beb5d4ecac9de295d9e07873e69bf296b95fce18fc504c14c42d4e12effb5967"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch24.json",
+      "sha256": "b94e701ad8a0ca28f1ec3f0a69be6e989cf45d0215a3ea36be88eb3658cc0c21"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch24.json",
+      "sha256": "e40bb5246ba97fc6bc6cd176dc78e2cc4073e97086e7da0baa23be1af1fcbb88"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch24.json",
+      "sha256": "75a458571a11142e8e1658b0f4a96bddd6ae4578955fd357d3bd868b23c53fc0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch24.json",
+      "sha256": "2ad8aac0ea114bd765185d6c468384493b383008597bb259fc388e1e15fb7758"
+    }
+  ],
+  "query_count": 16,
+  "results": [
+    {
+      "candidate_id": "C1-C41",
+      "name": "纸蜂",
+      "query_logs": [
+        {
+          "query": "\"纸蜂\"",
+          "executed_on": "2026-11-08",
+          "summary": "精确主要纸蜂窝材料论文/物种称呼，玻璃纸蜂等更长词；并非同核心科技品牌。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"纸蜂科技\"",
+          "executed_on": "2026-11-08",
+          "summary": "科技后缀主要觅蜂科技新闻和纸蜂窝行业，不把觅蜂异字当纸蜂同名。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"纸蜂智能\"",
+          "executed_on": "2026-11-08",
+          "summary": "智能后缀多纸蜂窝加工/材料年报及觅蜂新闻，未确认独立纸蜂智能主体；未读全部年报。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"纸蜂\" AI 模型 软件 公司",
+          "executed_on": "2026-11-08",
+          "summary": "AI模型软件主要纸蜂窝经营范围及创意工具目录，实际目录target find未匹配纸蜂，未确证具名软件。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"紙蜂\" 公司 軟體",
+          "executed_on": "2026-11-08",
+          "summary": "繁体结果为生物纸蜂、盛蜂/卜蜂等异字字号，不能据近字强判同名。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"zhifeng\" \"纸蜂\" company",
+          "executed_on": "2026-11-08",
+          "summary": "拼音并列中文主要德州智枫等不同字企业和名单，不冒纸蜂主体；未把所有zhifeng等同。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"纸蜂\" \"有限公司\"",
+          "executed_on": "2026-11-08",
+          "summary": "有限公司补搜为纸蜂窝工业目录/材料公司，字面产品类别不同，未确证本核心名公司。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"纸蜂\" 产品 app 品牌",
+          "executed_on": "2026-11-08",
+          "summary": "产品App品牌补搜仍纸蜂窝板/纸托盘材料及不同品牌，未确证纸蜂独立软件或完整商业名。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "public_use_screen_pass_with_species_and_material_nearwords",
+      "reason": "8条有效查询未确证纸蜂/紙蜂完整核心商业公司、AI模型或独立软件。纸蜂窝复合材料、玻璃纸蜂、觅蜂/智枫等是更长或不同核心词，不截字/换字称同名。保留昆虫/文创/防治及Zhifeng近音拥挤风险，登记未清。",
+      "evidence": [
+        {
+          "url": "https://chuchuang.work/design-creative",
+          "access": "third_party_directory_body_and_target_find_read",
+          "finding": "实际打开产品目录并定向find纸蜂无匹配，未发现具名纸蜂工具；这是一个目录的访问结果，不是全球无占用证明。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07 A3-controls.json共同入口403，本批未重访/未逐名逐类登记，不能当核名或注册通过。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07 A3-controls.json共同入口403，本批未重访/未逐名逐类登记，不能当核名或注册通过。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Zhifeng",
+          "scope": "2026-11-08本次实际逐名拼音搜索URL不可访问，不代表无公司或登记可用。"
+        }
+      }
+    },
+    {
+      "candidate_id": "C1-C42",
+      "name": "双盲",
+      "query_logs": [
+        {
+          "query": "\"双盲\"",
+          "executed_on": "2026-11-08",
+          "summary": "精确主要临床/论文评审方法与词典，术语存在不是公司品牌占用。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"双盲科技\"",
+          "executed_on": "2026-11-08",
+          "summary": "科技后缀为临床试验申办方及双盲方法并列，未确认双盲科技核心主体。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"双盲智能\"",
+          "executed_on": "2026-11-08",
+          "summary": "智能后缀为双盲评审招标/演练及AI评审说明，作为方法/流程非独立双盲智能公司。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"双盲\" AI 模型 软件 公司",
+          "executed_on": "2026-11-08",
+          "summary": "AI模型软件组合网新双盲判案机制已正文核，具名项目实际工伤e鉴通，非双盲模型。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"雙盲\" 公司 軟體",
+          "executed_on": "2026-11-08",
+          "summary": "繁体商店大操盘手双盲训练为功能模式，Cloudflare双盲渗透为方法，不将功能自动独立品牌。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"shuangmang\" company software",
+          "executed_on": "2026-11-08",
+          "summary": "拼音主要医学检索双盲及双芒媒体异字近音，不是完整中文双盲公司确证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"双盲\" \"有限公司\"",
+          "executed_on": "2026-11-08",
+          "summary": "有限公司补搜多双盲模式采购/演练，具体企业字号另名，未确证本核心主体。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"双盲\" app 品牌 游戏",
+          "executed_on": "2026-11-08",
+          "summary": "App/品牌/游戏补搜命中双盲把戏商业游戏；实际Steam正文核完整四字、非可删描述后缀；近似风险保留。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "public_use_screen_pass_with_named_game_near_match_and_generic_term",
+      "reason": "8条有效查询未确证完整核心双盲/雙盲作为独立公司、AI模型或软件名。已核网新双盲判案是工伤e鉴通机制说明，另确有完整四字双盲把戏商业游戏；把戏不是科技/Lab等组织后缀，不删后两字冒完全同名。近似游戏及科学方法通名显著性风险交主控终审，登记未清。",
+      "evidence": [
+        {
+          "url": "https://www.epsoft.com.cn/web/newsinfo.htm?oid=4074",
+          "access": "primary_company_news_body_read",
+          "finding": "L2/6产品工伤e鉴通，L18建立双盲判案质量管控机制；名称为评判方法/机制而非独立双盲模型或软件。不背书全国首个、准确率等营销性能。"
+        },
+        {
+          "url": "https://store.steampowered.com/app/2254710/Death_Trick_Double_Blind/?l=schinese",
+          "access": "primary_game_store_body_read",
+          "finding": "L8/14/69完整名双盲把戏，L18/37开发者Citreat Studio；为独立商业游戏，确为近似较长核心，不是双盲精确两字软件名。未试玩，不评游戏品质。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07 A3-controls.json共同入口403，本批未重访/未逐名逐类登记，不能当核名或注册通过。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07 A3-controls.json共同入口403，本批未重访/未逐名逐类登记，不能当核名或注册通过。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Shuangmang",
+          "scope": "2026-11-08本次实际逐名拼音搜索URL不可访问，不代表无公司或登记可用。"
+        }
+      }
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "passed_chinese_candidate_ids": [
+    "C1-C41",
+    "C1-C42"
+  ],
+  "completed_search_result_count": 16,
+  "new_failed_search_attempts": 0,
+  "controls_reused_not_new": "本run原2阳性对照，本批0新对照。",
+  "policy_read": {
+    "README_sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba",
+    "AGENTS_sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80",
+    "scope": "实际打开当前规则，沿同run既有完整规范阅读；不宣称重新外搜全部105案例。"
+  }
+}
