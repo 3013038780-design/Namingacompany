@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-09T03:29:12.385154+08:00",
+  "independence": "Read producer preview batch39 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C57",
+      "name": "时镜",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两个常见字形成可叫出的完整器物意象",
+          "counter_association": "可能被听成时境或石径"
+        },
+        "distinctiveness": {
+          "reason": "时间成为镜面的反常直觉有记点",
+          "counter_association": "影视钟表也可能用这个画面"
+        },
+        "lab_fit": {
+          "reason": "信号操作与时空条件可承载科学研究气质",
+          "counter_association": "影像或科幻道具首感仍明显"
+        },
+        "grounding": {
+          "reason": "时间界面改变反射是同一实验关系而非逐字吉祥解释",
+          "counter_association": "不是正式中文实验设备名且未核读原论文方法"
+        },
+        "extension": {
+          "reason": "可容纳研究条件及信息处理而非单个模型功能",
+          "counter_association": "不许诺已造光计算产品"
+        },
+        "semantic_coherence": {
+          "reason": "时间条件与反射作用围绕一个物理关系",
+          "counter_association": "不能推成时间旅行或模型学习原理"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

@@ -1,0 +1,3039 @@
+{
+  "scope": "仅本段新JSON可解析path/sha引用，历史扫描为时间点清单，不声称所有旧引用无缺口。",
+  "checked_references": 433,
+  "bad_count": 0,
+  "bad": [],
+  "checks": [
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "path": "README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba",
+      "actual_sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80",
+      "actual_sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "path": "research/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567",
+      "actual_sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67",
+      "actual_sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "path": "research/runs/2026-11-07-continuous-001/A1.json",
+      "sha256": "b3bbd78ef83733b79b7033404dc29727a7e0c749988d06218820850f4de520be",
+      "actual_sha256": "b3bbd78ef83733b79b7033404dc29727a7e0c749988d06218820850f4de520be",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.json",
+      "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132",
+      "actual_sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+      "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f",
+      "actual_sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "path": "research/runs/2026-11-07-continuous-001/plan-review.json",
+      "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896",
+      "actual_sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "path": "research/runs/2026-11-07-continuous-001/search-plan-role-expansion02.json",
+      "sha256": "f86b3c18c74f778d2a6fb4258fed662584879e5747bb0116e0cefc6288d98d1a",
+      "actual_sha256": "f86b3c18c74f778d2a6fb4258fed662584879e5747bb0116e0cefc6288d98d1a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T151606Z/plan-role-expansion02-review.json",
+      "sha256": "f5447836316e7ce5361681ccd0f5b5108b05e8eb761d035a3db15899c16d6867",
+      "actual_sha256": "f5447836316e7ce5361681ccd0f5b5108b05e8eb761d035a3db15899c16d6867",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/history-scan.json",
+      "sha256": "de9f0156b4560690a8d51ae3822abe87cfe078e973bffd9a785540827bd2e8a1",
+      "actual_sha256": "de9f0156b4560690a8d51ae3822abe87cfe078e973bffd9a785540827bd2e8a1",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T182806Z/decisions-through-batch38.json",
+      "sha256": "bae0f70e1829dd364699ecd78534e5c0a12574452d815a7335917085d2c1b9e6",
+      "actual_sha256": "bae0f70e1829dd364699ecd78534e5c0a12574452d815a7335917085d2c1b9e6",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch38.json",
+      "sha256": "8f2a90f69d7d3b27649da4551d7feb8d3d19f53b09e52d59d4515a21291920a9",
+      "actual_sha256": "8f2a90f69d7d3b27649da4551d7feb8d3d19f53b09e52d59d4515a21291920a9",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "path": "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "sha256": "ae6454d3c330698afa7d7844353f8709f59fb619500ae14cca10885864213ceb",
+      "actual_sha256": "ae6454d3c330698afa7d7844353f8709f59fb619500ae14cca10885864213ceb",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "actual_sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch39.json",
+      "sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4",
+      "actual_sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch39.json",
+      "sha256": "78ac22e6579ac6b7add0896b6201d5fc63b9b290a6708b3bb90bbc4d1be6e935",
+      "actual_sha256": "78ac22e6579ac6b7add0896b6201d5fc63b9b290a6708b3bb90bbc4d1be6e935",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch39.md",
+      "sha256": "f0a9a152192f925eb88deadf8eeb87d166a7c1afe7dcdbf18020296c6085b1bb",
+      "actual_sha256": "f0a9a152192f925eb88deadf8eeb87d166a7c1afe7dcdbf18020296c6085b1bb",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch39.json",
+      "sha256": "776f7cffb2bfa6d71a6e45ad58d3b8b639fd37df787c3abb156413ac72f5f6ff",
+      "actual_sha256": "776f7cffb2bfa6d71a6e45ad58d3b8b639fd37df787c3abb156413ac72f5f6ff",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch40.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch41.json",
+      "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "actual_sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch40.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch41.md",
+      "sha256": "3bbaa894efdfbf078404b8ef688888ff0a4f4b82a6f98d847baf682e55236dcb",
+      "actual_sha256": "3bbaa894efdfbf078404b8ef688888ff0a4f4b82a6f98d847baf682e55236dcb",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch40.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch41-receipt.json",
+      "sha256": "247fe0f8875466fc6873b1760740b419a68c153e672fbaa80f36f803d4c1eff5",
+      "actual_sha256": "247fe0f8875466fc6873b1760740b419a68c153e672fbaa80f36f803d4c1eff5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch40.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-cn41-review.json",
+      "sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759",
+      "actual_sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch40.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch39.json",
+      "sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4",
+      "actual_sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch40.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch39.json",
+      "sha256": "776f7cffb2bfa6d71a6e45ad58d3b8b639fd37df787c3abb156413ac72f5f6ff",
+      "actual_sha256": "776f7cffb2bfa6d71a6e45ad58d3b8b639fd37df787c3abb156413ac72f5f6ff",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch40.json",
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "actual_sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch40.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "sha256": "f7af25329efcb1708b39b73ee5205dc0c72d7878c7b79ce1c885f0ffd898d939",
+      "actual_sha256": "f7af25329efcb1708b39b73ee5205dc0c72d7878c7b79ce1c885f0ffd898d939",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch40.json",
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.json",
+      "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132",
+      "actual_sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch40.json",
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "actual_sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch40.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch40.json",
+      "sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a",
+      "actual_sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch40.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch40.json",
+      "sha256": "7a20e6a9705c8bc3483ea0debcac49c3311e2e50fada261c591c884e1ee06db2",
+      "actual_sha256": "7a20e6a9705c8bc3483ea0debcac49c3311e2e50fada261c591c884e1ee06db2",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch40.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch40.md",
+      "sha256": "c856111bc420fee34bc9bcdcaa2b5c8c341cdc573b807f69a6d95dc5a1e983fa",
+      "actual_sha256": "c856111bc420fee34bc9bcdcaa2b5c8c341cdc573b807f69a6d95dc5a1e983fa",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch40.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch40.json",
+      "sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "actual_sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-preview.json",
+      "sha256": "4fcba2f09cfc4a6bc5557761992b39428ea2f874b4c51c6de91eb4d34eb4c68a",
+      "actual_sha256": "4fcba2f09cfc4a6bc5557761992b39428ea2f874b4c51c6de91eb4d34eb4c68a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-preview.md",
+      "sha256": "9a2fe11e898f32ae19c5ab8088709c0a6d5cb04918248d0b3ff7d9d6a7483f8a",
+      "actual_sha256": "9a2fe11e898f32ae19c5ab8088709c0a6d5cb04918248d0b3ff7d9d6a7483f8a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-quality.json",
+      "sha256": "c774538d3717dd51817e64d3703beb990c642d30552dc7efee4255e992c79b37",
+      "actual_sha256": "c774538d3717dd51817e64d3703beb990c642d30552dc7efee4255e992c79b37",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "sha256": "9b62d30b83abcfb3630c3c46810ae5ce0f0ecfc71c31f758786c635b8c74d05e",
+      "actual_sha256": "9b62d30b83abcfb3630c3c46810ae5ce0f0ecfc71c31f758786c635b8c74d05e",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch45-source2.json",
+      "sha256": "a1e8177d8a1100d86c43a660a3038c19d703433f4c2fcff167e8a9186e929832",
+      "actual_sha256": "a1e8177d8a1100d86c43a660a3038c19d703433f4c2fcff167e8a9186e929832",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-en45-source2.json",
+      "sha256": "a0bd826354505bcc6020fb6c469dcf31f1cd637f4731c05dc5a778f55c4cf954",
+      "actual_sha256": "a0bd826354505bcc6020fb6c469dcf31f1cd637f4731c05dc5a778f55c4cf954",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "actual_sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum.md",
+      "sha256": "12da5555c74a21b0cd461a3c45112b3ae9eeb4f1c4e680d326091f37e1d7adac",
+      "actual_sha256": "12da5555c74a21b0cd461a3c45112b3ae9eeb4f1c4e680d326091f37e1d7adac",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum-receipt.json",
+      "sha256": "1556c5f3048571b88e3fc1a721defb76191ada2792138095dd04d34bb2710804",
+      "actual_sha256": "1556c5f3048571b88e3fc1a721defb76191ada2792138095dd04d34bb2710804",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-etail-addendum.json",
+      "sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099",
+      "actual_sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-etail-addendum.md",
+      "sha256": "c5415b971e65dbee9b5ab51f70151768510e8fd4608acd141a0d423134d2bcd9",
+      "actual_sha256": "c5415b971e65dbee9b5ab51f70151768510e8fd4608acd141a0d423134d2bcd9",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-etail-addendum-receipt.json",
+      "sha256": "17387a478a3c9beea3f7740f1e3dbcda816bdd3f42eb0ece64819fe006c1bcc6",
+      "actual_sha256": "17387a478a3c9beea3f7740f1e3dbcda816bdd3f42eb0ece64819fe006c1bcc6",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "actual_sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "actual_sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout-receipt.json",
+      "path": "A3-E47-correction-closeout.json",
+      "sha256": "339878232d9b02b54873dba2c861c767acefa277ca64799621bdf175771bbab7",
+      "actual_sha256": "339878232d9b02b54873dba2c861c767acefa277ca64799621bdf175771bbab7",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout-receipt.json",
+      "path": "A3-E47-correction-closeout.md",
+      "sha256": "d9751050cebd22de29cf174200f7677b15a8df644ad8ed20b8b3d7d73363b8f6",
+      "actual_sha256": "d9751050cebd22de29cf174200f7677b15a8df644ad8ed20b8b3d7d73363b8f6",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-preview.json",
+      "sha256": "4fcba2f09cfc4a6bc5557761992b39428ea2f874b4c51c6de91eb4d34eb4c68a",
+      "actual_sha256": "4fcba2f09cfc4a6bc5557761992b39428ea2f874b4c51c6de91eb4d34eb4c68a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-preview.md",
+      "sha256": "9a2fe11e898f32ae19c5ab8088709c0a6d5cb04918248d0b3ff7d9d6a7483f8a",
+      "actual_sha256": "9a2fe11e898f32ae19c5ab8088709c0a6d5cb04918248d0b3ff7d9d6a7483f8a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-quality.json",
+      "sha256": "c774538d3717dd51817e64d3703beb990c642d30552dc7efee4255e992c79b37",
+      "actual_sha256": "c774538d3717dd51817e64d3703beb990c642d30552dc7efee4255e992c79b37",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "sha256": "9b62d30b83abcfb3630c3c46810ae5ce0f0ecfc71c31f758786c635b8c74d05e",
+      "actual_sha256": "9b62d30b83abcfb3630c3c46810ae5ce0f0ecfc71c31f758786c635b8c74d05e",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch45-source2.json",
+      "sha256": "a1e8177d8a1100d86c43a660a3038c19d703433f4c2fcff167e8a9186e929832",
+      "actual_sha256": "a1e8177d8a1100d86c43a660a3038c19d703433f4c2fcff167e8a9186e929832",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-en45-source2.json",
+      "sha256": "a0bd826354505bcc6020fb6c469dcf31f1cd637f4731c05dc5a778f55c4cf954",
+      "actual_sha256": "a0bd826354505bcc6020fb6c469dcf31f1cd637f4731c05dc5a778f55c4cf954",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "actual_sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum.md",
+      "sha256": "12da5555c74a21b0cd461a3c45112b3ae9eeb4f1c4e680d326091f37e1d7adac",
+      "actual_sha256": "12da5555c74a21b0cd461a3c45112b3ae9eeb4f1c4e680d326091f37e1d7adac",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum-receipt.json",
+      "sha256": "1556c5f3048571b88e3fc1a721defb76191ada2792138095dd04d34bb2710804",
+      "actual_sha256": "1556c5f3048571b88e3fc1a721defb76191ada2792138095dd04d34bb2710804",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-etail-addendum.json",
+      "sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099",
+      "actual_sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-etail-addendum.md",
+      "sha256": "c5415b971e65dbee9b5ab51f70151768510e8fd4608acd141a0d423134d2bcd9",
+      "actual_sha256": "c5415b971e65dbee9b5ab51f70151768510e8fd4608acd141a0d423134d2bcd9",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-etail-addendum-receipt.json",
+      "sha256": "17387a478a3c9beea3f7740f1e3dbcda816bdd3f42eb0ece64819fe006c1bcc6",
+      "actual_sha256": "17387a478a3c9beea3f7740f1e3dbcda816bdd3f42eb0ece64819fe006c1bcc6",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "actual_sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-correction-closeout.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "actual_sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-etail-addendum-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "actual_sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-etail-addendum-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "actual_sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-etail-addendum-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "actual_sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-etail-addendum-receipt.json",
+      "path": "A3-E47-etail-addendum.json",
+      "sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099",
+      "actual_sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-etail-addendum-receipt.json",
+      "path": "A3-E47-etail-addendum.md",
+      "sha256": "c5415b971e65dbee9b5ab51f70151768510e8fd4608acd141a0d423134d2bcd9",
+      "actual_sha256": "c5415b971e65dbee9b5ab51f70151768510e8fd4608acd141a0d423134d2bcd9",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-etail-addendum.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "actual_sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-etail-addendum.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "actual_sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-etail-addendum.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "actual_sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "actual_sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45.md",
+      "sha256": "292dd12f1dffa0278d3d5018ce996e13754fbfef78cc63823e08c4e84be94dd9",
+      "actual_sha256": "292dd12f1dffa0278d3d5018ce996e13754fbfef78cc63823e08c4e84be94dd9",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "actual_sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum-receipt.json",
+      "path": "A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "actual_sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum-receipt.json",
+      "path": "A3-E47-profile-addendum.md",
+      "sha256": "12da5555c74a21b0cd461a3c45112b3ae9eeb4f1c4e680d326091f37e1d7adac",
+      "actual_sha256": "12da5555c74a21b0cd461a3c45112b3ae9eeb4f1c4e680d326091f37e1d7adac",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "actual_sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45.md",
+      "sha256": "292dd12f1dffa0278d3d5018ce996e13754fbfef78cc63823e08c4e84be94dd9",
+      "actual_sha256": "292dd12f1dffa0278d3d5018ce996e13754fbfef78cc63823e08c4e84be94dd9",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "actual_sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch41-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch39.json",
+      "sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4",
+      "actual_sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch41-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch39.md",
+      "sha256": "f0a9a152192f925eb88deadf8eeb87d166a7c1afe7dcdbf18020296c6085b1bb",
+      "actual_sha256": "f0a9a152192f925eb88deadf8eeb87d166a7c1afe7dcdbf18020296c6085b1bb",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch41-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch39.json",
+      "sha256": "776f7cffb2bfa6d71a6e45ad58d3b8b639fd37df787c3abb156413ac72f5f6ff",
+      "actual_sha256": "776f7cffb2bfa6d71a6e45ad58d3b8b639fd37df787c3abb156413ac72f5f6ff",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch41-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "sha256": "f7af25329efcb1708b39b73ee5205dc0c72d7878c7b79ce1c885f0ffd898d939",
+      "actual_sha256": "f7af25329efcb1708b39b73ee5205dc0c72d7878c7b79ce1c885f0ffd898d939",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch41-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "actual_sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch41-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch39.json",
+      "sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee",
+      "actual_sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch41-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch39.json",
+      "sha256": "10f1be7e1525a3d554f177342838899b61d9dfb21fa91566b269762364b8ade8",
+      "actual_sha256": "10f1be7e1525a3d554f177342838899b61d9dfb21fa91566b269762364b8ade8",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch41-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-batch39.json",
+      "sha256": "4db6eee8ffbde2a04107736d5c4ee61971d7ccb3796f965e50f1033ff1eaac93",
+      "actual_sha256": "4db6eee8ffbde2a04107736d5c4ee61971d7ccb3796f965e50f1033ff1eaac93",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch41-receipt.json",
+      "path": "A3-cn-batch41.json",
+      "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "actual_sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch41-receipt.json",
+      "path": "A3-cn-batch41.md",
+      "sha256": "3bbaa894efdfbf078404b8ef688888ff0a4f4b82a6f98d847baf682e55236dcb",
+      "actual_sha256": "3bbaa894efdfbf078404b8ef688888ff0a4f4b82a6f98d847baf682e55236dcb",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch41.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch39.json",
+      "sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4",
+      "actual_sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch41.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch39.md",
+      "sha256": "f0a9a152192f925eb88deadf8eeb87d166a7c1afe7dcdbf18020296c6085b1bb",
+      "actual_sha256": "f0a9a152192f925eb88deadf8eeb87d166a7c1afe7dcdbf18020296c6085b1bb",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch41.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch39.json",
+      "sha256": "776f7cffb2bfa6d71a6e45ad58d3b8b639fd37df787c3abb156413ac72f5f6ff",
+      "actual_sha256": "776f7cffb2bfa6d71a6e45ad58d3b8b639fd37df787c3abb156413ac72f5f6ff",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch41.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "sha256": "f7af25329efcb1708b39b73ee5205dc0c72d7878c7b79ce1c885f0ffd898d939",
+      "actual_sha256": "f7af25329efcb1708b39b73ee5205dc0c72d7878c7b79ce1c885f0ffd898d939",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch41.json",
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "actual_sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch41.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch39.json",
+      "sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee",
+      "actual_sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch41.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch39.json",
+      "sha256": "10f1be7e1525a3d554f177342838899b61d9dfb21fa91566b269762364b8ade8",
+      "actual_sha256": "10f1be7e1525a3d554f177342838899b61d9dfb21fa91566b269762364b8ade8",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch41.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-batch39.json",
+      "sha256": "4db6eee8ffbde2a04107736d5c4ee61971d7ccb3796f965e50f1033ff1eaac93",
+      "actual_sha256": "4db6eee8ffbde2a04107736d5c4ee61971d7ccb3796f965e50f1033ff1eaac93",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch42-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch40.json",
+      "sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a",
+      "actual_sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch42-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch40.md",
+      "sha256": "c856111bc420fee34bc9bcdcaa2b5c8c341cdc573b807f69a6d95dc5a1e983fa",
+      "actual_sha256": "c856111bc420fee34bc9bcdcaa2b5c8c341cdc573b807f69a6d95dc5a1e983fa",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch42-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch40.json",
+      "sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "actual_sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch42-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch40.json",
+      "sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "actual_sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch42-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch40.json",
+      "sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "actual_sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch42-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch40.json",
+      "sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "actual_sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch42-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "actual_sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch42-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch41.json",
+      "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "actual_sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch42-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-cn41-review.json",
+      "sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759",
+      "actual_sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch42-receipt.json",
+      "path": "A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "actual_sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch42-receipt.json",
+      "path": "A3-cn-batch42.md",
+      "sha256": "c18b6c4bbae49e72019ffaab3405e87b6f5755653ed850598e3561c43d2f5644",
+      "actual_sha256": "c18b6c4bbae49e72019ffaab3405e87b6f5755653ed850598e3561c43d2f5644",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch42.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch40.json",
+      "sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a",
+      "actual_sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch42.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch40.md",
+      "sha256": "c856111bc420fee34bc9bcdcaa2b5c8c341cdc573b807f69a6d95dc5a1e983fa",
+      "actual_sha256": "c856111bc420fee34bc9bcdcaa2b5c8c341cdc573b807f69a6d95dc5a1e983fa",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch42.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch40.json",
+      "sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "actual_sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch42.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch40.json",
+      "sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "actual_sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch42.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch40.json",
+      "sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "actual_sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch42.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch40.json",
+      "sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "actual_sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch42.json",
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "actual_sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch42.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch41.json",
+      "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "actual_sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-cn-batch42.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-cn41-review.json",
+      "sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759",
+      "actual_sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.md",
+      "sha256": "44857e134c5831fbf232b4e61825b33fade576c7f4056f7cc7093a19e4f75ad2",
+      "actual_sha256": "44857e134c5831fbf232b4e61825b33fade576c7f4056f7cc7093a19e4f75ad2",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "actual_sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch45.json",
+      "sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a",
+      "actual_sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3",
+      "actual_sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch45.json",
+      "sha256": "7e70f23d75c51263848619352425ddaf350081a3068041acf257211efcde3fef",
+      "actual_sha256": "7e70f23d75c51263848619352425ddaf350081a3068041acf257211efcde3fef",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-en45.json",
+      "sha256": "173bded2dad2ec8fa6693745e29ee3070631712d7f5b414fdfecb146718f54d6",
+      "actual_sha256": "173bded2dad2ec8fa6693745e29ee3070631712d7f5b414fdfecb146718f54d6",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "actual_sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "path": "A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "actual_sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "path": "A3-en-batch45.md",
+      "sha256": "292dd12f1dffa0278d3d5018ce996e13754fbfef78cc63823e08c4e84be94dd9",
+      "actual_sha256": "292dd12f1dffa0278d3d5018ce996e13754fbfef78cc63823e08c4e84be94dd9",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.md",
+      "sha256": "44857e134c5831fbf232b4e61825b33fade576c7f4056f7cc7093a19e4f75ad2",
+      "actual_sha256": "44857e134c5831fbf232b4e61825b33fade576c7f4056f7cc7093a19e4f75ad2",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "actual_sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch45.json",
+      "sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a",
+      "actual_sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3",
+      "actual_sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch45.json",
+      "sha256": "7e70f23d75c51263848619352425ddaf350081a3068041acf257211efcde3fef",
+      "actual_sha256": "7e70f23d75c51263848619352425ddaf350081a3068041acf257211efcde3fef",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-en45.json",
+      "sha256": "173bded2dad2ec8fa6693745e29ee3070631712d7f5b414fdfecb146718f54d6",
+      "actual_sha256": "173bded2dad2ec8fa6693745e29ee3070631712d7f5b414fdfecb146718f54d6",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "actual_sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-pending.json",
+      "path": "A4-candidates-batch45.json",
+      "sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "actual_sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-pending.json",
+      "path": "A4-preview-batch45.json",
+      "sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "actual_sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-pending.json",
+      "path": "A4-preview-batch45.md",
+      "sha256": "44857e134c5831fbf232b4e61825b33fade576c7f4056f7cc7093a19e4f75ad2",
+      "actual_sha256": "44857e134c5831fbf232b4e61825b33fade576c7f4056f7cc7093a19e4f75ad2",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-pending.json",
+      "path": "A4-quality-batch45.json",
+      "sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a",
+      "actual_sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-pending.json",
+      "path": "A4-creation-execution-batch45.json",
+      "sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3",
+      "actual_sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-pending.json",
+      "path": "A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "actual_sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-pending.json",
+      "path": "A3-en-batch45.md",
+      "sha256": "292dd12f1dffa0278d3d5018ce996e13754fbfef78cc63823e08c4e84be94dd9",
+      "actual_sha256": "292dd12f1dffa0278d3d5018ce996e13754fbfef78cc63823e08c4e84be94dd9",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-pending.json",
+      "path": "A3-en-batch45-receipt.json",
+      "sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "actual_sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-pending.json",
+      "path": "A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "actual_sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-pending.json",
+      "path": "A3-cn-batch42-receipt.json",
+      "sha256": "bd6d5b42054cfeaae0f66b1e18f55e0fe1ad717667fd0b1bf303209ff4eaad9a",
+      "actual_sha256": "bd6d5b42054cfeaae0f66b1e18f55e0fe1ad717667fd0b1bf303209ff4eaad9a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "A4-C57-source-correction-preview.json",
+      "sha256": "4fcba2f09cfc4a6bc5557761992b39428ea2f874b4c51c6de91eb4d34eb4c68a",
+      "actual_sha256": "4fcba2f09cfc4a6bc5557761992b39428ea2f874b4c51c6de91eb4d34eb4c68a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "A4-C57-source-correction-preview.md",
+      "sha256": "9a2fe11e898f32ae19c5ab8088709c0a6d5cb04918248d0b3ff7d9d6a7483f8a",
+      "actual_sha256": "9a2fe11e898f32ae19c5ab8088709c0a6d5cb04918248d0b3ff7d9d6a7483f8a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "A4-C57-source-correction-quality.json",
+      "sha256": "c774538d3717dd51817e64d3703beb990c642d30552dc7efee4255e992c79b37",
+      "actual_sha256": "c774538d3717dd51817e64d3703beb990c642d30552dc7efee4255e992c79b37",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "A4-C57-source-correction-execution.json",
+      "sha256": "9b62d30b83abcfb3630c3c46810ae5ce0f0ecfc71c31f758786c635b8c74d05e",
+      "actual_sha256": "9b62d30b83abcfb3630c3c46810ae5ce0f0ecfc71c31f758786c635b8c74d05e",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "A4-C57-postscreen-pending.json",
+      "sha256": "20f09bce2c1b92dd22660ba6e4c417e7ba4f13fe1e274a47a497691f089e6e02",
+      "actual_sha256": "20f09bce2c1b92dd22660ba6e4c417e7ba4f13fe1e274a47a497691f089e6e02",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "actual_sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "actual_sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "actual_sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "A3-E47-profile-addendum.md",
+      "sha256": "12da5555c74a21b0cd461a3c45112b3ae9eeb4f1c4e680d326091f37e1d7adac",
+      "actual_sha256": "12da5555c74a21b0cd461a3c45112b3ae9eeb4f1c4e680d326091f37e1d7adac",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "A3-E47-profile-addendum-receipt.json",
+      "sha256": "1556c5f3048571b88e3fc1a721defb76191ada2792138095dd04d34bb2710804",
+      "actual_sha256": "1556c5f3048571b88e3fc1a721defb76191ada2792138095dd04d34bb2710804",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "A3-E47-etail-addendum.json",
+      "sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099",
+      "actual_sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "A3-E47-etail-addendum.md",
+      "sha256": "c5415b971e65dbee9b5ab51f70151768510e8fd4608acd141a0d423134d2bcd9",
+      "actual_sha256": "c5415b971e65dbee9b5ab51f70151768510e8fd4608acd141a0d423134d2bcd9",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "A3-E47-etail-addendum-receipt.json",
+      "sha256": "17387a478a3c9beea3f7740f1e3dbcda816bdd3f42eb0ece64819fe006c1bcc6",
+      "actual_sha256": "17387a478a3c9beea3f7740f1e3dbcda816bdd3f42eb0ece64819fe006c1bcc6",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "actual_sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45.md",
+      "sha256": "292dd12f1dffa0278d3d5018ce996e13754fbfef78cc63823e08c4e84be94dd9",
+      "actual_sha256": "292dd12f1dffa0278d3d5018ce996e13754fbfef78cc63823e08c4e84be94dd9",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "actual_sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "actual_sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "A3-E47-profile-addendum.md",
+      "sha256": "12da5555c74a21b0cd461a3c45112b3ae9eeb4f1c4e680d326091f37e1d7adac",
+      "actual_sha256": "12da5555c74a21b0cd461a3c45112b3ae9eeb4f1c4e680d326091f37e1d7adac",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "actual_sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "actual_sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "actual_sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "A3-E47-etail-addendum.json",
+      "sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099",
+      "actual_sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-postscreen-review.json",
+      "path": "A3-E47-etail-addendum.md",
+      "sha256": "c5415b971e65dbee9b5ab51f70151768510e8fd4608acd141a0d423134d2bcd9",
+      "actual_sha256": "c5415b971e65dbee9b5ab51f70151768510e8fd4608acd141a0d423134d2bcd9",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "A4-candidates-batch45.json",
+      "sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "actual_sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "A4-preview-batch45.json",
+      "sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "actual_sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "A4-preview-batch45.md",
+      "sha256": "44857e134c5831fbf232b4e61825b33fade576c7f4056f7cc7093a19e4f75ad2",
+      "actual_sha256": "44857e134c5831fbf232b4e61825b33fade576c7f4056f7cc7093a19e4f75ad2",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "A4-quality-batch45.json",
+      "sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a",
+      "actual_sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "A4-creation-execution-batch45.json",
+      "sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3",
+      "actual_sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "actual_sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "A3-en-batch45.md",
+      "sha256": "292dd12f1dffa0278d3d5018ce996e13754fbfef78cc63823e08c4e84be94dd9",
+      "actual_sha256": "292dd12f1dffa0278d3d5018ce996e13754fbfef78cc63823e08c4e84be94dd9",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "A3-en-batch45-receipt.json",
+      "sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "actual_sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "actual_sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "A3-cn-batch42-receipt.json",
+      "sha256": "bd6d5b42054cfeaae0f66b1e18f55e0fe1ad717667fd0b1bf303209ff4eaad9a",
+      "actual_sha256": "bd6d5b42054cfeaae0f66b1e18f55e0fe1ad717667fd0b1bf303209ff4eaad9a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.md",
+      "sha256": "44857e134c5831fbf232b4e61825b33fade576c7f4056f7cc7093a19e4f75ad2",
+      "actual_sha256": "44857e134c5831fbf232b4e61825b33fade576c7f4056f7cc7093a19e4f75ad2",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "actual_sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch45.json",
+      "sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a",
+      "actual_sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3",
+      "actual_sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch45.json",
+      "sha256": "7e70f23d75c51263848619352425ddaf350081a3068041acf257211efcde3fef",
+      "actual_sha256": "7e70f23d75c51263848619352425ddaf350081a3068041acf257211efcde3fef",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-en45.json",
+      "sha256": "173bded2dad2ec8fa6693745e29ee3070631712d7f5b414fdfecb146718f54d6",
+      "actual_sha256": "173bded2dad2ec8fa6693745e29ee3070631712d7f5b414fdfecb146718f54d6",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "actual_sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "actual_sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "A3-en-batch45.md",
+      "sha256": "292dd12f1dffa0278d3d5018ce996e13754fbfef78cc63823e08c4e84be94dd9",
+      "actual_sha256": "292dd12f1dffa0278d3d5018ce996e13754fbfef78cc63823e08c4e84be94dd9",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch40.json",
+      "sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a",
+      "actual_sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch40.md",
+      "sha256": "c856111bc420fee34bc9bcdcaa2b5c8c341cdc573b807f69a6d95dc5a1e983fa",
+      "actual_sha256": "c856111bc420fee34bc9bcdcaa2b5c8c341cdc573b807f69a6d95dc5a1e983fa",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch40.json",
+      "sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "actual_sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch40.json",
+      "sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "actual_sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch40.json",
+      "sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "actual_sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch40.json",
+      "sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "actual_sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "actual_sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch41.json",
+      "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "actual_sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-cn41-review.json",
+      "sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759",
+      "actual_sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "actual_sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "A3-cn-batch42.md",
+      "sha256": "c18b6c4bbae49e72019ffaab3405e87b6f5755653ed850598e3561c43d2f5644",
+      "actual_sha256": "c18b6c4bbae49e72019ffaab3405e87b6f5755653ed850598e3561c43d2f5644",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "A4-C57-source-correction-preview.json",
+      "sha256": "4fcba2f09cfc4a6bc5557761992b39428ea2f874b4c51c6de91eb4d34eb4c68a",
+      "actual_sha256": "4fcba2f09cfc4a6bc5557761992b39428ea2f874b4c51c6de91eb4d34eb4c68a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "A4-C57-source-correction-preview.md",
+      "sha256": "9a2fe11e898f32ae19c5ab8088709c0a6d5cb04918248d0b3ff7d9d6a7483f8a",
+      "actual_sha256": "9a2fe11e898f32ae19c5ab8088709c0a6d5cb04918248d0b3ff7d9d6a7483f8a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "A4-C57-source-correction-quality.json",
+      "sha256": "c774538d3717dd51817e64d3703beb990c642d30552dc7efee4255e992c79b37",
+      "actual_sha256": "c774538d3717dd51817e64d3703beb990c642d30552dc7efee4255e992c79b37",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "path": "A4-C57-postscreen-pending.json",
+      "sha256": "20f09bce2c1b92dd22660ba6e4c417e7ba4f13fe1e274a47a497691f089e6e02",
+      "actual_sha256": "20f09bce2c1b92dd22660ba6e4c417e7ba4f13fe1e274a47a497691f089e6e02",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-preview.json",
+      "path": "A4-candidates-batch45.json",
+      "sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "actual_sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-preview.json",
+      "path": "A4-preview-batch45.json",
+      "sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "actual_sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-preview.json",
+      "path": "A4-preview-batch45.md",
+      "sha256": "44857e134c5831fbf232b4e61825b33fade576c7f4056f7cc7093a19e4f75ad2",
+      "actual_sha256": "44857e134c5831fbf232b4e61825b33fade576c7f4056f7cc7093a19e4f75ad2",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-preview.json",
+      "path": "A4-quality-batch45.json",
+      "sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a",
+      "actual_sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-preview.json",
+      "path": "A4-creation-execution-batch45.json",
+      "sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3",
+      "actual_sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-preview.json",
+      "path": "A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "actual_sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-preview.json",
+      "path": "A3-en-batch45.md",
+      "sha256": "292dd12f1dffa0278d3d5018ce996e13754fbfef78cc63823e08c4e84be94dd9",
+      "actual_sha256": "292dd12f1dffa0278d3d5018ce996e13754fbfef78cc63823e08c4e84be94dd9",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-preview.json",
+      "path": "A3-en-batch45-receipt.json",
+      "sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "actual_sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-preview.json",
+      "path": "A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "actual_sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-preview.json",
+      "path": "A3-cn-batch42-receipt.json",
+      "sha256": "bd6d5b42054cfeaae0f66b1e18f55e0fe1ad717667fd0b1bf303209ff4eaad9a",
+      "actual_sha256": "bd6d5b42054cfeaae0f66b1e18f55e0fe1ad717667fd0b1bf303209ff4eaad9a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "path": "A2-candidates-batch39.json",
+      "sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4",
+      "actual_sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "path": "A2-candidates-batch40.json",
+      "sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a",
+      "actual_sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "path": "A2-preview-batch40.md",
+      "sha256": "c856111bc420fee34bc9bcdcaa2b5c8c341cdc573b807f69a6d95dc5a1e983fa",
+      "actual_sha256": "c856111bc420fee34bc9bcdcaa2b5c8c341cdc573b807f69a6d95dc5a1e983fa",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "path": "A2-quality-batch40.json",
+      "sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "actual_sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "path": "A2-creation-execution-batch40.json",
+      "sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "actual_sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "path": "materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "actual_sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "path": "coordinator-cn-batch39.json",
+      "sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee",
+      "actual_sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "path": "coordinator-family-review-batch39.json",
+      "sha256": "10f1be7e1525a3d554f177342838899b61d9dfb21fa91566b269762364b8ade8",
+      "actual_sha256": "10f1be7e1525a3d554f177342838899b61d9dfb21fa91566b269762364b8ade8",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "path": "coordinator-cn-batch40.json",
+      "sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "actual_sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "path": "coordinator-family-review-batch40.json",
+      "sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "actual_sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "path": "A3-cn-batch41.json",
+      "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "actual_sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "path": "A3-cn-batch41.md",
+      "sha256": "3bbaa894efdfbf078404b8ef688888ff0a4f4b82a6f98d847baf682e55236dcb",
+      "actual_sha256": "3bbaa894efdfbf078404b8ef688888ff0a4f4b82a6f98d847baf682e55236dcb",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "path": "A3-cn-batch41-receipt.json",
+      "sha256": "247fe0f8875466fc6873b1760740b419a68c153e672fbaa80f36f803d4c1eff5",
+      "actual_sha256": "247fe0f8875466fc6873b1760740b419a68c153e672fbaa80f36f803d4c1eff5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "path": "A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "actual_sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "path": "A3-cn-batch42.md",
+      "sha256": "c18b6c4bbae49e72019ffaab3405e87b6f5755653ed850598e3561c43d2f5644",
+      "actual_sha256": "c18b6c4bbae49e72019ffaab3405e87b6f5755653ed850598e3561c43d2f5644",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "path": "A3-cn-batch42-receipt.json",
+      "sha256": "bd6d5b42054cfeaae0f66b1e18f55e0fe1ad717667fd0b1bf303209ff4eaad9a",
+      "actual_sha256": "bd6d5b42054cfeaae0f66b1e18f55e0fe1ad717667fd0b1bf303209ff4eaad9a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "path": "continuations/2026-11-08T192536Z/root-cn41-review.json",
+      "sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759",
+      "actual_sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "path": "continuations/2026-11-08T192536Z/root-cn42-review.json",
+      "sha256": "55349d3005f4f5c74ba81bc0bde95df8eb86744f00f37e03a3cc19055032c040",
+      "actual_sha256": "55349d3005f4f5c74ba81bc0bde95df8eb86744f00f37e03a3cc19055032c040",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "A2-candidates-batch39.json",
+      "sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4",
+      "actual_sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "A2-candidates-batch40.json",
+      "sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a",
+      "actual_sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "A2-preview-batch40.md",
+      "sha256": "c856111bc420fee34bc9bcdcaa2b5c8c341cdc573b807f69a6d95dc5a1e983fa",
+      "actual_sha256": "c856111bc420fee34bc9bcdcaa2b5c8c341cdc573b807f69a6d95dc5a1e983fa",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "A2-quality-batch40.json",
+      "sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "actual_sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "A2-creation-execution-batch40.json",
+      "sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "actual_sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "actual_sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "coordinator-cn-batch39.json",
+      "sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee",
+      "actual_sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "coordinator-family-review-batch39.json",
+      "sha256": "10f1be7e1525a3d554f177342838899b61d9dfb21fa91566b269762364b8ade8",
+      "actual_sha256": "10f1be7e1525a3d554f177342838899b61d9dfb21fa91566b269762364b8ade8",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "coordinator-cn-batch40.json",
+      "sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "actual_sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "coordinator-family-review-batch40.json",
+      "sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "actual_sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "A3-cn-batch41.json",
+      "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "actual_sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "A3-cn-batch41.md",
+      "sha256": "3bbaa894efdfbf078404b8ef688888ff0a4f4b82a6f98d847baf682e55236dcb",
+      "actual_sha256": "3bbaa894efdfbf078404b8ef688888ff0a4f4b82a6f98d847baf682e55236dcb",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "A3-cn-batch41-receipt.json",
+      "sha256": "247fe0f8875466fc6873b1760740b419a68c153e672fbaa80f36f803d4c1eff5",
+      "actual_sha256": "247fe0f8875466fc6873b1760740b419a68c153e672fbaa80f36f803d4c1eff5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "actual_sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "A3-cn-batch42.md",
+      "sha256": "c18b6c4bbae49e72019ffaab3405e87b6f5755653ed850598e3561c43d2f5644",
+      "actual_sha256": "c18b6c4bbae49e72019ffaab3405e87b6f5755653ed850598e3561c43d2f5644",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "A3-cn-batch42-receipt.json",
+      "sha256": "bd6d5b42054cfeaae0f66b1e18f55e0fe1ad717667fd0b1bf303209ff4eaad9a",
+      "actual_sha256": "bd6d5b42054cfeaae0f66b1e18f55e0fe1ad717667fd0b1bf303209ff4eaad9a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "continuations/2026-11-08T192536Z/root-cn41-review.json",
+      "sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759",
+      "actual_sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "continuations/2026-11-08T192536Z/root-cn42-review.json",
+      "sha256": "55349d3005f4f5c74ba81bc0bde95df8eb86744f00f37e03a3cc19055032c040",
+      "actual_sha256": "55349d3005f4f5c74ba81bc0bde95df8eb86744f00f37e03a3cc19055032c040",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch39.json",
+      "sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4",
+      "actual_sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch39.md",
+      "sha256": "f0a9a152192f925eb88deadf8eeb87d166a7c1afe7dcdbf18020296c6085b1bb",
+      "actual_sha256": "f0a9a152192f925eb88deadf8eeb87d166a7c1afe7dcdbf18020296c6085b1bb",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch39.json",
+      "sha256": "776f7cffb2bfa6d71a6e45ad58d3b8b639fd37df787c3abb156413ac72f5f6ff",
+      "actual_sha256": "776f7cffb2bfa6d71a6e45ad58d3b8b639fd37df787c3abb156413ac72f5f6ff",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "sha256": "f7af25329efcb1708b39b73ee5205dc0c72d7878c7b79ce1c885f0ffd898d939",
+      "actual_sha256": "f7af25329efcb1708b39b73ee5205dc0c72d7878c7b79ce1c885f0ffd898d939",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "actual_sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch39.json",
+      "sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee",
+      "actual_sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch39.json",
+      "sha256": "10f1be7e1525a3d554f177342838899b61d9dfb21fa91566b269762364b8ade8",
+      "actual_sha256": "10f1be7e1525a3d554f177342838899b61d9dfb21fa91566b269762364b8ade8",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-batch39.json",
+      "sha256": "4db6eee8ffbde2a04107736d5c4ee61971d7ccb3796f965e50f1033ff1eaac93",
+      "actual_sha256": "4db6eee8ffbde2a04107736d5c4ee61971d7ccb3796f965e50f1033ff1eaac93",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "A3-cn-batch41.json",
+      "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "actual_sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "A3-cn-batch41.md",
+      "sha256": "3bbaa894efdfbf078404b8ef688888ff0a4f4b82a6f98d847baf682e55236dcb",
+      "actual_sha256": "3bbaa894efdfbf078404b8ef688888ff0a4f4b82a6f98d847baf682e55236dcb",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch40.json",
+      "sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a",
+      "actual_sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch40.md",
+      "sha256": "c856111bc420fee34bc9bcdcaa2b5c8c341cdc573b807f69a6d95dc5a1e983fa",
+      "actual_sha256": "c856111bc420fee34bc9bcdcaa2b5c8c341cdc573b807f69a6d95dc5a1e983fa",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch40.json",
+      "sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "actual_sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch40.json",
+      "sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "actual_sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch40.json",
+      "sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "actual_sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch40.json",
+      "sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "actual_sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "actual_sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch41.json",
+      "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "actual_sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-cn41-review.json",
+      "sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759",
+      "actual_sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "actual_sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "A3-cn-batch42.md",
+      "sha256": "c18b6c4bbae49e72019ffaab3405e87b6f5755653ed850598e3561c43d2f5644",
+      "actual_sha256": "c18b6c4bbae49e72019ffaab3405e87b6f5755653ed850598e3561c43d2f5644",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "A4-preview-batch45.json",
+      "sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "actual_sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "A4-preview-batch45.md",
+      "sha256": "44857e134c5831fbf232b4e61825b33fade576c7f4056f7cc7093a19e4f75ad2",
+      "actual_sha256": "44857e134c5831fbf232b4e61825b33fade576c7f4056f7cc7093a19e4f75ad2",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "A4-candidates-batch45.json",
+      "sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "actual_sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "path": "A4-quality-batch45.json",
+      "sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a",
+      "actual_sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.json",
+      "path": "A2-candidates-batch39.json",
+      "sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4",
+      "actual_sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.json",
+      "path": "A2-candidates-batch40.json",
+      "sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a",
+      "actual_sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.json",
+      "path": "A2-preview-batch40.md",
+      "sha256": "c856111bc420fee34bc9bcdcaa2b5c8c341cdc573b807f69a6d95dc5a1e983fa",
+      "actual_sha256": "c856111bc420fee34bc9bcdcaa2b5c8c341cdc573b807f69a6d95dc5a1e983fa",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.json",
+      "path": "A2-quality-batch40.json",
+      "sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "actual_sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.json",
+      "path": "A2-creation-execution-batch40.json",
+      "sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "actual_sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.json",
+      "path": "materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "actual_sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.json",
+      "path": "coordinator-cn-batch39.json",
+      "sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee",
+      "actual_sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.json",
+      "path": "coordinator-family-review-batch39.json",
+      "sha256": "10f1be7e1525a3d554f177342838899b61d9dfb21fa91566b269762364b8ade8",
+      "actual_sha256": "10f1be7e1525a3d554f177342838899b61d9dfb21fa91566b269762364b8ade8",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.json",
+      "path": "coordinator-cn-batch40.json",
+      "sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "actual_sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.json",
+      "path": "coordinator-family-review-batch40.json",
+      "sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "actual_sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.json",
+      "path": "A3-cn-batch41.json",
+      "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "actual_sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.json",
+      "path": "A3-cn-batch41.md",
+      "sha256": "3bbaa894efdfbf078404b8ef688888ff0a4f4b82a6f98d847baf682e55236dcb",
+      "actual_sha256": "3bbaa894efdfbf078404b8ef688888ff0a4f4b82a6f98d847baf682e55236dcb",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.json",
+      "path": "A3-cn-batch41-receipt.json",
+      "sha256": "247fe0f8875466fc6873b1760740b419a68c153e672fbaa80f36f803d4c1eff5",
+      "actual_sha256": "247fe0f8875466fc6873b1760740b419a68c153e672fbaa80f36f803d4c1eff5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.json",
+      "path": "A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "actual_sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.json",
+      "path": "A3-cn-batch42.md",
+      "sha256": "c18b6c4bbae49e72019ffaab3405e87b6f5755653ed850598e3561c43d2f5644",
+      "actual_sha256": "c18b6c4bbae49e72019ffaab3405e87b6f5755653ed850598e3561c43d2f5644",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.json",
+      "path": "A3-cn-batch42-receipt.json",
+      "sha256": "bd6d5b42054cfeaae0f66b1e18f55e0fe1ad717667fd0b1bf303209ff4eaad9a",
+      "actual_sha256": "bd6d5b42054cfeaae0f66b1e18f55e0fe1ad717667fd0b1bf303209ff4eaad9a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.json",
+      "path": "continuations/2026-11-08T192536Z/root-cn41-review.json",
+      "sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759",
+      "actual_sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.json",
+      "path": "continuations/2026-11-08T192536Z/root-cn42-review.json",
+      "sha256": "55349d3005f4f5c74ba81bc0bde95df8eb86744f00f37e03a3cc19055032c040",
+      "actual_sha256": "55349d3005f4f5c74ba81bc0bde95df8eb86744f00f37e03a3cc19055032c040",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "continuations/2026-11-08T192536Z/root-E47-source-return.json",
+      "sha256": "9e69e29668b006d776be2b04949fa809b5ccedad9f353003c1a9541cf352b048",
+      "actual_sha256": "9e69e29668b006d776be2b04949fa809b5ccedad9f353003c1a9541cf352b048",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A1.json",
+      "sha256": "b3bbd78ef83733b79b7033404dc29727a7e0c749988d06218820850f4de520be",
+      "actual_sha256": "b3bbd78ef83733b79b7033404dc29727a7e0c749988d06218820850f4de520be",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A1-role-expansion02.json",
+      "sha256": "6a127ec64699a257e20f7959a2ce3309e8cefe7c2c117134c2220612a3dc3181",
+      "actual_sha256": "6a127ec64699a257e20f7959a2ce3309e8cefe7c2c117134c2220612a3dc3181",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "search-plan.json",
+      "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f",
+      "actual_sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "search-plan-role-expansion02.json",
+      "sha256": "f86b3c18c74f778d2a6fb4258fed662584879e5747bb0116e0cefc6288d98d1a",
+      "actual_sha256": "f86b3c18c74f778d2a6fb4258fed662584879e5747bb0116e0cefc6288d98d1a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A2-creation-execution-batch39.json",
+      "sha256": "f7af25329efcb1708b39b73ee5205dc0c72d7878c7b79ce1c885f0ffd898d939",
+      "actual_sha256": "f7af25329efcb1708b39b73ee5205dc0c72d7878c7b79ce1c885f0ffd898d939",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "actual_sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A2-preview-batch39.json",
+      "sha256": "78ac22e6579ac6b7add0896b6201d5fc63b9b290a6708b3bb90bbc4d1be6e935",
+      "actual_sha256": "78ac22e6579ac6b7add0896b6201d5fc63b9b290a6708b3bb90bbc4d1be6e935",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A2-quality-batch39.json",
+      "sha256": "776f7cffb2bfa6d71a6e45ad58d3b8b639fd37df787c3abb156413ac72f5f6ff",
+      "actual_sha256": "776f7cffb2bfa6d71a6e45ad58d3b8b639fd37df787c3abb156413ac72f5f6ff",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A2-preview-batch40.json",
+      "sha256": "7a20e6a9705c8bc3483ea0debcac49c3311e2e50fada261c591c884e1ee06db2",
+      "actual_sha256": "7a20e6a9705c8bc3483ea0debcac49c3311e2e50fada261c591c884e1ee06db2",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A2-quality-batch40.json",
+      "sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "actual_sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "coordinator-cn-batch39.json",
+      "sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee",
+      "actual_sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "coordinator-family-review-batch39.json",
+      "sha256": "10f1be7e1525a3d554f177342838899b61d9dfb21fa91566b269762364b8ade8",
+      "actual_sha256": "10f1be7e1525a3d554f177342838899b61d9dfb21fa91566b269762364b8ade8",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "coordinator-cn-batch40.json",
+      "sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "actual_sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "coordinator-family-review-batch40.json",
+      "sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "actual_sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "coordinator-cn-batch39.json",
+      "sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee",
+      "actual_sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "coordinator-cn-batch40.json",
+      "sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "actual_sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A3-cn-batch41.json",
+      "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "actual_sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A2-creation-execution-batch40.json",
+      "sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "actual_sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "actual_sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "continuations/2026-11-08T192536Z/root-cn41-review.json",
+      "sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759",
+      "actual_sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "continuations/2026-11-08T192536Z/root-cn42-review.json",
+      "sha256": "55349d3005f4f5c74ba81bc0bde95df8eb86744f00f37e03a3cc19055032c040",
+      "actual_sha256": "55349d3005f4f5c74ba81bc0bde95df8eb86744f00f37e03a3cc19055032c040",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "actual_sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A3-cn-batch42-receipt.json",
+      "sha256": "bd6d5b42054cfeaae0f66b1e18f55e0fe1ad717667fd0b1bf303209ff4eaad9a",
+      "actual_sha256": "bd6d5b42054cfeaae0f66b1e18f55e0fe1ad717667fd0b1bf303209ff4eaad9a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A4-creation-execution-batch45.json",
+      "sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3",
+      "actual_sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A4-candidates-batch45.json",
+      "sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "actual_sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A4-C57-source-correction-preview.json",
+      "sha256": "4fcba2f09cfc4a6bc5557761992b39428ea2f874b4c51c6de91eb4d34eb4c68a",
+      "actual_sha256": "4fcba2f09cfc4a6bc5557761992b39428ea2f874b4c51c6de91eb4d34eb4c68a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A4-C57-source-correction-quality.json",
+      "sha256": "c774538d3717dd51817e64d3703beb990c642d30552dc7efee4255e992c79b37",
+      "actual_sha256": "c774538d3717dd51817e64d3703beb990c642d30552dc7efee4255e992c79b37",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "coordinator-en-batch45-source2.json",
+      "sha256": "a1e8177d8a1100d86c43a660a3038c19d703433f4c2fcff167e8a9186e929832",
+      "actual_sha256": "a1e8177d8a1100d86c43a660a3038c19d703433f4c2fcff167e8a9186e929832",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "actual_sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A3-E47-correction-closeout.json",
+      "sha256": "339878232d9b02b54873dba2c861c767acefa277ca64799621bdf175771bbab7",
+      "actual_sha256": "339878232d9b02b54873dba2c861c767acefa277ca64799621bdf175771bbab7",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "actual_sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "actual_sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A3-E47-etail-addendum.json",
+      "sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099",
+      "actual_sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A3-E47-correction-closeout.json",
+      "sha256": "339878232d9b02b54873dba2c861c767acefa277ca64799621bdf175771bbab7",
+      "actual_sha256": "339878232d9b02b54873dba2c861c767acefa277ca64799621bdf175771bbab7",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "A4-C57-postscreen-review.json",
+      "sha256": "6b2785c3b83b2673528285c106a75a70f701b7a73c91687af81273b2f21342c8",
+      "actual_sha256": "6b2785c3b83b2673528285c106a75a70f701b7a73c91687af81273b2f21342c8",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "sha256": "98edc2dacf195d987f95bbaba133acb292d13b762e1bcd994d5241c66e89660c",
+      "actual_sha256": "98edc2dacf195d987f95bbaba133acb292d13b762e1bcd994d5241c66e89660c",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "sha256": "98edc2dacf195d987f95bbaba133acb292d13b762e1bcd994d5241c66e89660c",
+      "actual_sha256": "98edc2dacf195d987f95bbaba133acb292d13b762e1bcd994d5241c66e89660c",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "delivery-C1-E47.json",
+      "sha256": "2c075f2575e5279e4f798792ee2a400d867b6394ec827574eb9d0996bce3d70a",
+      "actual_sha256": "2c075f2575e5279e4f798792ee2a400d867b6394ec827574eb9d0996bce3d70a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "path": "continuations/2026-11-08T192536Z/decisions-through-batch40.json",
+      "sha256": "67fb89fd9fdd25c3ac41652aaa5ee0d9f909857d05fb43adc795097aa6497862",
+      "actual_sha256": "67fb89fd9fdd25c3ac41652aaa5ee0d9f909857d05fb43adc795097aa6497862",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/inputs/catalog-before.json",
+      "path": "research/runs/2026-11-07-continuous-001/reserve-followthrough/A3-review.json",
+      "sha256": "51961944239c9333693fc1349905525186e101721e87a825aaa29203caad7c57",
+      "actual_sha256": "51961944239c9333693fc1349905525186e101721e87a825aaa29203caad7c57",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/inputs/catalog-before.json",
+      "path": "research/runs/2026-11-07-continuous-001/reserve-followthrough/A4-review.json",
+      "sha256": "32c72654679dc95c314d19087fd2e9f80a1b11257a01dc5c76b3af63251d671f",
+      "actual_sha256": "32c72654679dc95c314d19087fd2e9f80a1b11257a01dc5c76b3af63251d671f",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/inputs/catalog-before.json",
+      "path": "research/runs/2026-11-07-continuous-001/reserve-followthrough/A3-review.json",
+      "sha256": "51961944239c9333693fc1349905525186e101721e87a825aaa29203caad7c57",
+      "actual_sha256": "51961944239c9333693fc1349905525186e101721e87a825aaa29203caad7c57",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/inputs/catalog-before.json",
+      "path": "research/runs/2026-11-07-continuous-001/reserve-followthrough/A4-review.json",
+      "sha256": "32c72654679dc95c314d19087fd2e9f80a1b11257a01dc5c76b3af63251d671f",
+      "actual_sha256": "32c72654679dc95c314d19087fd2e9f80a1b11257a01dc5c76b3af63251d671f",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/inputs/catalog-before.json",
+      "path": "research/runs/2026-11-07-continuous-001/reserve-followthrough/A3-review.json",
+      "sha256": "51961944239c9333693fc1349905525186e101721e87a825aaa29203caad7c57",
+      "actual_sha256": "51961944239c9333693fc1349905525186e101721e87a825aaa29203caad7c57",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/inputs/catalog-before.json",
+      "path": "research/runs/2026-11-07-continuous-001/reserve-followthrough/A4-review.json",
+      "sha256": "32c72654679dc95c314d19087fd2e9f80a1b11257a01dc5c76b3af63251d671f",
+      "actual_sha256": "32c72654679dc95c314d19087fd2e9f80a1b11257a01dc5c76b3af63251d671f",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/inputs/catalog-before.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-C06-withdrawal.json",
+      "sha256": "7d08b6078c782f3f4e2399b67c7bd7f7ead5a5a7c379ab5eb8d85b4b18716c5b",
+      "actual_sha256": "7d08b6078c782f3f4e2399b67c7bd7f7ead5a5a7c379ab5eb8d85b4b18716c5b",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/inputs/catalog-before.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-C06-use-addendum.json",
+      "sha256": "9a1a64e40c181d045613003e7737a3a208f72b4cde26dca0fcc0c6f5db3db4ce",
+      "actual_sha256": "9a1a64e40c181d045613003e7737a3a208f72b4cde26dca0fcc0c6f5db3db4ce",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/inputs/catalog-before.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-C08-core-addendum.json",
+      "sha256": "cbc4cec2390b79df9c6a5b01e75ac7a682c2bd59bd3e3cb72367b4a71dcbf52b",
+      "actual_sha256": "cbc4cec2390b79df9c6a5b01e75ac7a682c2bd59bd3e3cb72367b4a71dcbf52b",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-batch39.json",
+      "path": "A2-preview-batch39.json",
+      "sha256": "78ac22e6579ac6b7add0896b6201d5fc63b9b290a6708b3bb90bbc4d1be6e935",
+      "actual_sha256": "78ac22e6579ac6b7add0896b6201d5fc63b9b290a6708b3bb90bbc4d1be6e935",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-batch39.json",
+      "path": "A2-quality-batch39.json",
+      "sha256": "776f7cffb2bfa6d71a6e45ad58d3b8b639fd37df787c3abb156413ac72f5f6ff",
+      "actual_sha256": "776f7cffb2bfa6d71a6e45ad58d3b8b639fd37df787c3abb156413ac72f5f6ff",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-batch39.json",
+      "path": "A2-creation-execution-batch39.json",
+      "sha256": "f7af25329efcb1708b39b73ee5205dc0c72d7878c7b79ce1c885f0ffd898d939",
+      "actual_sha256": "f7af25329efcb1708b39b73ee5205dc0c72d7878c7b79ce1c885f0ffd898d939",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-batch39.json",
+      "path": "coordinator-cn-batch39.json",
+      "sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee",
+      "actual_sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-batch39.json",
+      "path": "coordinator-family-review-batch39.json",
+      "sha256": "10f1be7e1525a3d554f177342838899b61d9dfb21fa91566b269762364b8ade8",
+      "actual_sha256": "10f1be7e1525a3d554f177342838899b61d9dfb21fa91566b269762364b8ade8",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-batch40.json",
+      "path": "A2-quality-batch40.json",
+      "sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "actual_sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-batch40.json",
+      "path": "coordinator-cn-batch40.json",
+      "sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "actual_sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-en45-source2.json",
+      "path": "A4-C57-source-correction-preview.json",
+      "sha256": "4fcba2f09cfc4a6bc5557761992b39428ea2f874b4c51c6de91eb4d34eb4c68a",
+      "actual_sha256": "4fcba2f09cfc4a6bc5557761992b39428ea2f874b4c51c6de91eb4d34eb4c68a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-en45-source2.json",
+      "path": "A4-C57-source-correction-quality.json",
+      "sha256": "c774538d3717dd51817e64d3703beb990c642d30552dc7efee4255e992c79b37",
+      "actual_sha256": "c774538d3717dd51817e64d3703beb990c642d30552dc7efee4255e992c79b37",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-en45-source2.json",
+      "path": "A4-C57-source-correction-execution.json",
+      "sha256": "9b62d30b83abcfb3630c3c46810ae5ce0f0ecfc71c31f758786c635b8c74d05e",
+      "actual_sha256": "9b62d30b83abcfb3630c3c46810ae5ce0f0ecfc71c31f758786c635b8c74d05e",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-en45-source2.json",
+      "path": "coordinator-en-batch45-source2.json",
+      "sha256": "a1e8177d8a1100d86c43a660a3038c19d703433f4c2fcff167e8a9186e929832",
+      "actual_sha256": "a1e8177d8a1100d86c43a660a3038c19d703433f4c2fcff167e8a9186e929832",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-en45-source2.json",
+      "path": "A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "actual_sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-en45.json",
+      "path": "A4-preview-batch45.json",
+      "sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "actual_sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-en45.json",
+      "path": "A4-quality-batch45.json",
+      "sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a",
+      "actual_sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-en45.json",
+      "path": "A4-creation-execution-batch45.json",
+      "sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3",
+      "actual_sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-en45.json",
+      "path": "coordinator-en-batch45.json",
+      "sha256": "7e70f23d75c51263848619352425ddaf350081a3068041acf257211efcde3fef",
+      "actual_sha256": "7e70f23d75c51263848619352425ddaf350081a3068041acf257211efcde3fef",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/result.json",
+      "path": "materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "actual_sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/result.json",
+      "path": "A2-creation-execution-batch39.json",
+      "sha256": "f7af25329efcb1708b39b73ee5205dc0c72d7878c7b79ce1c885f0ffd898d939",
+      "actual_sha256": "f7af25329efcb1708b39b73ee5205dc0c72d7878c7b79ce1c885f0ffd898d939",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/result.json",
+      "path": "A2-creation-execution-batch40.json",
+      "sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "actual_sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/result.json",
+      "path": "A3-cn-batch41.json",
+      "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "actual_sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/result.json",
+      "path": "A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "actual_sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/result.json",
+      "path": "A4-creation-execution-batch45.json",
+      "sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3",
+      "actual_sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/result.json",
+      "path": "A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "actual_sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/result.json",
+      "path": "A4-C57-source-correction-execution.json",
+      "sha256": "9b62d30b83abcfb3630c3c46810ae5ce0f0ecfc71c31f758786c635b8c74d05e",
+      "actual_sha256": "9b62d30b83abcfb3630c3c46810ae5ce0f0ecfc71c31f758786c635b8c74d05e",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/result.json",
+      "path": "A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "actual_sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/result.json",
+      "path": "A3-E47-etail-addendum.json",
+      "sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099",
+      "actual_sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/result.json",
+      "path": "A3-E47-correction-closeout.json",
+      "sha256": "339878232d9b02b54873dba2c861c767acefa277ca64799621bdf175771bbab7",
+      "actual_sha256": "339878232d9b02b54873dba2c861c767acefa277ca64799621bdf175771bbab7",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/result.json",
+      "path": "A4-C57-postscreen-review.json",
+      "sha256": "6b2785c3b83b2673528285c106a75a70f701b7a73c91687af81273b2f21342c8",
+      "actual_sha256": "6b2785c3b83b2673528285c106a75a70f701b7a73c91687af81273b2f21342c8",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/result.json",
+      "path": "delivery-C1-E47.json",
+      "sha256": "2c075f2575e5279e4f798792ee2a400d867b6394ec827574eb9d0996bce3d70a",
+      "actual_sha256": "2c075f2575e5279e4f798792ee2a400d867b6394ec827574eb9d0996bce3d70a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/result.json",
+      "path": "continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "sha256": "98edc2dacf195d987f95bbaba133acb292d13b762e1bcd994d5241c66e89660c",
+      "actual_sha256": "98edc2dacf195d987f95bbaba133acb292d13b762e1bcd994d5241c66e89660c",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/result.json",
+      "path": "continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "sha256": "53e119947e2cace4749dccdce35e5d1c1c8974bb06c0a1692c756946c6982bea",
+      "actual_sha256": "53e119947e2cace4749dccdce35e5d1c1c8974bb06c0a1692c756946c6982bea",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/result.json",
+      "path": "continuations/2026-11-08T192536Z/decisions-through-batch40.json",
+      "sha256": "67fb89fd9fdd25c3ac41652aaa5ee0d9f909857d05fb43adc795097aa6497862",
+      "actual_sha256": "67fb89fd9fdd25c3ac41652aaa5ee0d9f909857d05fb43adc795097aa6497862",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "path": "materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "actual_sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "path": "A2-candidates-batch39.json",
+      "sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4",
+      "actual_sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "path": "A2-candidates-batch40.json",
+      "sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a",
+      "actual_sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "path": "A2-quality-batch40.json",
+      "sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "actual_sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "path": "A2-creation-execution-batch40.json",
+      "sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "actual_sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "path": "coordinator-cn-batch40.json",
+      "sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "actual_sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "path": "coordinator-family-review-batch40.json",
+      "sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "actual_sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "path": "A3-cn-batch41.json",
+      "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "actual_sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "path": "A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "actual_sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "path": "A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "actual_sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "path": "A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "actual_sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "path": "A3-E47-etail-addendum.json",
+      "sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099",
+      "actual_sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "path": "A4-C57-source-correction-preview.json",
+      "sha256": "4fcba2f09cfc4a6bc5557761992b39428ea2f874b4c51c6de91eb4d34eb4c68a",
+      "actual_sha256": "4fcba2f09cfc4a6bc5557761992b39428ea2f874b4c51c6de91eb4d34eb4c68a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "path": "A4-C57-source-correction-quality.json",
+      "sha256": "c774538d3717dd51817e64d3703beb990c642d30552dc7efee4255e992c79b37",
+      "actual_sha256": "c774538d3717dd51817e64d3703beb990c642d30552dc7efee4255e992c79b37",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "path": "A4-C57-source-correction-execution.json",
+      "sha256": "9b62d30b83abcfb3630c3c46810ae5ce0f0ecfc71c31f758786c635b8c74d05e",
+      "actual_sha256": "9b62d30b83abcfb3630c3c46810ae5ce0f0ecfc71c31f758786c635b8c74d05e",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "path": "coordinator-en-batch45-source2.json",
+      "sha256": "a1e8177d8a1100d86c43a660a3038c19d703433f4c2fcff167e8a9186e929832",
+      "actual_sha256": "a1e8177d8a1100d86c43a660a3038c19d703433f4c2fcff167e8a9186e929832",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "path": "A3-E47-correction-closeout.json",
+      "sha256": "339878232d9b02b54873dba2c861c767acefa277ca64799621bdf175771bbab7",
+      "actual_sha256": "339878232d9b02b54873dba2c861c767acefa277ca64799621bdf175771bbab7",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "path": "A4-C57-postscreen-review.json",
+      "sha256": "6b2785c3b83b2673528285c106a75a70f701b7a73c91687af81273b2f21342c8",
+      "actual_sha256": "6b2785c3b83b2673528285c106a75a70f701b7a73c91687af81273b2f21342c8",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "path": "continuations/2026-11-08T192536Z/root-E47-source-return.json",
+      "sha256": "9e69e29668b006d776be2b04949fa809b5ccedad9f353003c1a9541cf352b048",
+      "actual_sha256": "9e69e29668b006d776be2b04949fa809b5ccedad9f353003c1a9541cf352b048",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "path": "continuations/2026-11-08T192536Z/root-cn42-review.json",
+      "sha256": "55349d3005f4f5c74ba81bc0bde95df8eb86744f00f37e03a3cc19055032c040",
+      "actual_sha256": "55349d3005f4f5c74ba81bc0bde95df8eb86744f00f37e03a3cc19055032c040",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-E47-source-return.json",
+      "path": "A4-preview-batch45.json",
+      "sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "actual_sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-E47-source-return.json",
+      "path": "A4-quality-batch45.json",
+      "sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a",
+      "actual_sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-E47-source-return.json",
+      "path": "coordinator-en-batch45.json",
+      "sha256": "7e70f23d75c51263848619352425ddaf350081a3068041acf257211efcde3fef",
+      "actual_sha256": "7e70f23d75c51263848619352425ddaf350081a3068041acf257211efcde3fef",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-E47-source-return.json",
+      "path": "A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "actual_sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-cn41-review.json",
+      "path": "A3-cn-batch41.json",
+      "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "actual_sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-cn41-review.json",
+      "path": "A3-cn-batch41-receipt.json",
+      "sha256": "247fe0f8875466fc6873b1760740b419a68c153e672fbaa80f36f803d4c1eff5",
+      "actual_sha256": "247fe0f8875466fc6873b1760740b419a68c153e672fbaa80f36f803d4c1eff5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-cn41-review.json",
+      "path": "materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "actual_sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-cn42-review.json",
+      "path": "A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "actual_sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-cn42-review.json",
+      "path": "A3-cn-batch42-receipt.json",
+      "sha256": "bd6d5b42054cfeaae0f66b1e18f55e0fe1ad717667fd0b1bf303209ff4eaad9a",
+      "actual_sha256": "bd6d5b42054cfeaae0f66b1e18f55e0fe1ad717667fd0b1bf303209ff4eaad9a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-cn42-review.json",
+      "path": "coordinator-family-review-batch40.json",
+      "sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "actual_sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch39.json",
+      "path": "A2-preview-batch39.json",
+      "sha256": "78ac22e6579ac6b7add0896b6201d5fc63b9b290a6708b3bb90bbc4d1be6e935",
+      "actual_sha256": "78ac22e6579ac6b7add0896b6201d5fc63b9b290a6708b3bb90bbc4d1be6e935",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch39.json",
+      "path": "materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "actual_sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch39.json",
+      "path": "coordinator-cn-batch39.json",
+      "sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee",
+      "actual_sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch40.json",
+      "path": "A2-preview-batch40.json",
+      "sha256": "7a20e6a9705c8bc3483ea0debcac49c3311e2e50fada261c591c884e1ee06db2",
+      "actual_sha256": "7a20e6a9705c8bc3483ea0debcac49c3311e2e50fada261c591c884e1ee06db2",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch40.json",
+      "path": "A2-quality-batch40.json",
+      "sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "actual_sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch40.json",
+      "path": "A2-creation-execution-batch40.json",
+      "sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "actual_sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch40.json",
+      "path": "coordinator-cn-batch40.json",
+      "sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "actual_sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch40.json",
+      "path": "coordinator-family-review-batch39.json",
+      "sha256": "10f1be7e1525a3d554f177342838899b61d9dfb21fa91566b269762364b8ade8",
+      "actual_sha256": "10f1be7e1525a3d554f177342838899b61d9dfb21fa91566b269762364b8ade8",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "actual_sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "A3-E47-etail-addendum.json",
+      "sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099",
+      "actual_sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "A3-E47-correction-closeout.json",
+      "sha256": "339878232d9b02b54873dba2c861c767acefa277ca64799621bdf175771bbab7",
+      "actual_sha256": "339878232d9b02b54873dba2c861c767acefa277ca64799621bdf175771bbab7",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "actual_sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "A2-candidates-batch39.json",
+      "sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4",
+      "actual_sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "A2-candidates-batch40.json",
+      "sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a",
+      "actual_sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "A2-quality-batch40.json",
+      "sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "actual_sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "A2-creation-execution-batch40.json",
+      "sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "actual_sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "coordinator-cn-batch40.json",
+      "sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "actual_sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "coordinator-family-review-batch40.json",
+      "sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "actual_sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "A3-cn-batch41.json",
+      "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "actual_sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "actual_sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "actual_sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "actual_sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "A3-E47-etail-addendum.json",
+      "sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099",
+      "actual_sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "A4-C57-source-correction-preview.json",
+      "sha256": "4fcba2f09cfc4a6bc5557761992b39428ea2f874b4c51c6de91eb4d34eb4c68a",
+      "actual_sha256": "4fcba2f09cfc4a6bc5557761992b39428ea2f874b4c51c6de91eb4d34eb4c68a",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "A4-C57-source-correction-quality.json",
+      "sha256": "c774538d3717dd51817e64d3703beb990c642d30552dc7efee4255e992c79b37",
+      "actual_sha256": "c774538d3717dd51817e64d3703beb990c642d30552dc7efee4255e992c79b37",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "A4-C57-source-correction-execution.json",
+      "sha256": "9b62d30b83abcfb3630c3c46810ae5ce0f0ecfc71c31f758786c635b8c74d05e",
+      "actual_sha256": "9b62d30b83abcfb3630c3c46810ae5ce0f0ecfc71c31f758786c635b8c74d05e",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "coordinator-en-batch45-source2.json",
+      "sha256": "a1e8177d8a1100d86c43a660a3038c19d703433f4c2fcff167e8a9186e929832",
+      "actual_sha256": "a1e8177d8a1100d86c43a660a3038c19d703433f4c2fcff167e8a9186e929832",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "A3-E47-correction-closeout.json",
+      "sha256": "339878232d9b02b54873dba2c861c767acefa277ca64799621bdf175771bbab7",
+      "actual_sha256": "339878232d9b02b54873dba2c861c767acefa277ca64799621bdf175771bbab7",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "A4-C57-postscreen-review.json",
+      "sha256": "6b2785c3b83b2673528285c106a75a70f701b7a73c91687af81273b2f21342c8",
+      "actual_sha256": "6b2785c3b83b2673528285c106a75a70f701b7a73c91687af81273b2f21342c8",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "continuations/2026-11-08T192536Z/root-E47-source-return.json",
+      "sha256": "9e69e29668b006d776be2b04949fa809b5ccedad9f353003c1a9541cf352b048",
+      "actual_sha256": "9e69e29668b006d776be2b04949fa809b5ccedad9f353003c1a9541cf352b048",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "continuations/2026-11-08T192536Z/root-cn42-review.json",
+      "sha256": "55349d3005f4f5c74ba81bc0bde95df8eb86744f00f37e03a3cc19055032c040",
+      "actual_sha256": "55349d3005f4f5c74ba81bc0bde95df8eb86744f00f37e03a3cc19055032c040",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "actual_sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "matched": true
+    },
+    {
+      "file": "research/runs/2026-11-07-continuous-001/delivery-C1-E47.json",
+      "path": "A2-creation-execution-batch39.json",
+      "sha256": "f7af25329efcb1708b39b73ee5205dc0c72d7878c7b79ce1c885f0ffd898d939",
+      "actual_sha256": "f7af25329efcb1708b39b73ee5205dc0c72d7878c7b79ce1c885f0ffd898d939",
+      "matched": true
+    }
+  ]
+}

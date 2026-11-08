@@ -1,0 +1,96 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 actual corrected-source and usage-addenda acceptance",
+  "completed_at": "2026-11-09T03:57:05.574625+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-preview.json",
+      "sha256": "4fcba2f09cfc4a6bc5557761992b39428ea2f874b4c51c6de91eb4d34eb4c68a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-preview.md",
+      "sha256": "9a2fe11e898f32ae19c5ab8088709c0a6d5cb04918248d0b3ff7d9d6a7483f8a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-quality.json",
+      "sha256": "c774538d3717dd51817e64d3703beb990c642d30552dc7efee4255e992c79b37"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-C57-source-correction-execution.json",
+      "sha256": "9b62d30b83abcfb3630c3c46810ae5ce0f0ecfc71c31f758786c635b8c74d05e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch45-source2.json",
+      "sha256": "a1e8177d8a1100d86c43a660a3038c19d703433f4c2fcff167e8a9186e929832"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-en45-source2.json",
+      "sha256": "a0bd826354505bcc6020fb6c469dcf31f1cd637f4731c05dc5a778f55c4cf954"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum.md",
+      "sha256": "12da5555c74a21b0cd461a3c45112b3ae9eeb4f1c4e680d326091f37e1d7adac"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum-receipt.json",
+      "sha256": "1556c5f3048571b88e3fc1a721defb76191ada2792138095dd04d34bb2710804"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-etail-addendum.json",
+      "sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-etail-addendum.md",
+      "sha256": "c5415b971e65dbee9b5ab51f70151768510e8fd4608acd141a0d423134d2bcd9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-etail-addendum-receipt.json",
+      "sha256": "17387a478a3c9beea3f7740f1e3dbcda816bdd3f42eb0ece64819fe006c1bcc6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134"
+    }
+  ],
+  "all_hashes_match": true,
+  "candidate_id": "C1-E47",
+  "chinese_id": "C1-C57",
+  "english": "Tailfirst",
+  "source_correction_decision": "accepted_existing_dictionary_adverb_reselected_as_brand_theme",
+  "same_candidate_not_new_version": true,
+  "new_name_count": 0,
+  "actual_new_usage_queries": 0,
+  "actual_new_registration_attempts": 0,
+  "actual_new_external_body_reads": 0,
+  "usage_decision": "original_no_confirmed_exact_Tailfirst_use_observation_preserved_with_unresolved_specific_risks",
+  "pending": [
+    "original_A4_actual_non_numeric_postscreen",
+    "root_final_source_family_risk_decision_and_catalog_ownership"
+  ],
+  "final_delivery_authorized_by_this_receipt": false,
+  "agent3_cumulative_candidate_queries": 680,
+  "agent3_cumulative_returned_candidate_results": 679,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 682,
+  "run_cumulative_returned_candidate_results": 681,
+  "unchanged": "不重跑8查询，不改原稿/分/库/队列/Git。",
+  "hash_check_count": 61,
+  "outputs": [
+    {
+      "path": "A3-E47-correction-closeout.json",
+      "sha256": "339878232d9b02b54873dba2c861c767acefa277ca64799621bdf175771bbab7"
+    },
+    {
+      "path": "A3-E47-correction-closeout.md",
+      "sha256": "d9751050cebd22de29cf174200f7677b15a8df644ad8ed20b8b3d7d73363b8f6"
+    }
+  ]
+}

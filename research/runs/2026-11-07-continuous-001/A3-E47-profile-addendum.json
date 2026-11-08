@@ -1,0 +1,61 @@
+{
+  "role": "Agent 3 targeted actual profile follow-up",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-09T03:53:47.441017+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45.md",
+      "sha256": "292dd12f1dffa0278d3d5018ce996e13754fbfef78cc63823e08c4e84be94dd9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134"
+    }
+  ],
+  "candidate_id": "C1-E47",
+  "english": "Tailfirst",
+  "actual_new_candidate_search_queries": 0,
+  "actual_direct_external_actions": 4,
+  "evidence": [
+    {
+      "url": "https://github.com/tailfirst/tailfirst",
+      "access": "primary_repository_body_read",
+      "finding": "218行：L118–120及187–189 About明言profile real estate on GitHub；L161–165文件列表只README.md；L172–186 tailfirst标题与Systems描述并列apex/ignite/deepcut/vanta/echo，不是Tailfirst系统可执行包安装说明。未据无release断言绝不存在软件。"
+    },
+    {
+      "url": "https://github.com/tailfirst",
+      "access": "primary_profile_body_read_target_range",
+      "finding": "168行：98–108 Patrick V./Blacktrace个人身份；136–151自定义README标题tailfirst及系统清单，154–160公开仓库tailfirst与apex，并对前者说明profile real estate。存在同拼写技术作品集合展示身份，不只一个孤立用户名。"
+    },
+    {
+      "url": "https://github.com/tailfirst/tailfirst/blob/main/README.md",
+      "access": "primary_readme_body_read",
+      "finding": "185行：157文件20行/11loc/1.03KB，169–182标题与五具名系统列表。具名条目Apex等各异，没有明确称一项独立软件或注册研究机构叫Tailfirst。此页为实际个人profile展示配置，未将题头直接推科技企业。"
+    },
+    {
+      "url": "https://github.com/tailfirst/ignite",
+      "access": "actual_clicked_subsystem_link_404",
+      "finding": "自列表点击后实际404；未把可能规划条目作已发布独立产品证明。"
+    }
+  ],
+  "analysis": {
+    "nature": "individual_GitHub_profile_configuration_and_technical_portfolio_heading",
+    "not_just_account_id": "标题和Systems描述确为主动技术作品展示，形成同拼写技术作者/作品集合搜索身份；原报告只讲账户与Apex需此补充，不掩盖这层。",
+    "not_confirmed": "未见Tailfirst独立软件包/模型/公司/研究机构自我正式命名或商业品牌主体的足够正文证据；不以普通profile题头直接冒确证占用。",
+    "decision": "retain_public_use_precheck_with_explicit_technical_author_namespace_risk",
+    "editorial_boundary": "主控可因同场域身份/搜索混淆主动避让，但须标编辑风险，不称已证精确科技公司或软件占用。没有因是个人而自动忽略已展示技术内容。"
+  },
+  "formation_correction_required": "Collins既有tailfirst副词事实保持，待原A4实际补记；原EN45稿分/结论不改。",
+  "counters": {
+    "agent3_calls": 679,
+    "agent3_returns": 678,
+    "root_historical_queries": 2,
+    "run_calls": 681,
+    "run_returns": 680
+  },
+  "unchanged": "0新搜索/登记/对照，不改原EN45字节/库/队列/Git。"
+}

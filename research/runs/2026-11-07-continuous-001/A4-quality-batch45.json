@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-09T03:49:33.738289+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E47",
+      "chinese_id": "C1-C57",
+      "english": "Tailfirst",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个常用单音词衔接，TAIL-first可自然叫出。",
+          "counter_association": "不是已做听测，tale同音不会由读法消除。"
+        },
+        "spelling": {
+          "reason": "tail和first完整，不删字母；可直接解释成尾部先行。",
+          "counter_association": "初听可能写Tale First或分写，第一次需确认tail。"
+        },
+        "grounding": {
+          "reason": "原文同一猫形示意倒行，完整词义支持取尾部先行作为图景。",
+          "counter_association": "这是品牌图景推演，未看图也未实测尾部，不冒正式词条或科学逐字命题。"
+        },
+        "bilingual_relation": {
+          "reason": "中文逆序主体与英文倒行画面共用同一猫形信号说明。",
+          "counter_association": "不写猫或介质条件，空间先行不等于完整时间反射机制，不能声称逐字科学等同。"
+        },
+        "distinctiveness": {
+          "reason": "尾部先于头部的反常角色画面，短且能作为独立称呼。",
+          "counter_association": "宠物/游戏/退步首感强，独特编辑画面不代商业可用性。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "沿原门槛，不因出处或新词抬分；主题拟写边界须主控独评，未作市场查询。"
+    }
+  ]
+}

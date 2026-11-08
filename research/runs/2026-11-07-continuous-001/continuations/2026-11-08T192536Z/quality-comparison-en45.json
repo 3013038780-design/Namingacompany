@@ -1,0 +1,38 @@
+{
+  "reviewed_at": "2026-11-09T03:50:33.608359+08:00",
+  "candidate_id": "C1-C57",
+  "english_id": "C1-E47",
+  "english": "Tailfirst",
+  "decision": "accepted_for_same_A3_EN45",
+  "quality_independence": "root实际读无分预览、词典和已有来源后先封21，再读作者21；轴差0，非消费者听测。",
+  "dictionary_actual_read": [
+    {
+      "url": "https://www.merriam-webster.com/dictionary/tail",
+      "scope": "31–44尾部/动物后端、89–95粗俗/臀部另义、103尾端义；不用于彗尾或长尾经济解释。"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/first",
+      "scope": "31–42次序与77–86时间/空间先于，不借领先冠军作愿景。"
+    }
+  ],
+  "source_relation": "同一作者猫形信号倒行的说明，尾部先行只是常识图景推演；未看图像验证朝向，不把它当论文术语、原作者字句或信号与空间反转完全等同。",
+  "risks": "tail/tale同音、宠物游戏/倒退首感，英文未写猫/条件；不因中文过或无预查认英文可用。",
+  "refs": [
+    {
+      "path": "A4-preview-batch45.json",
+      "sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f"
+    },
+    {
+      "path": "A4-quality-batch45.json",
+      "sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a"
+    },
+    {
+      "path": "A4-creation-execution-batch45.json",
+      "sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3"
+    },
+    {
+      "path": "coordinator-en-batch45.json",
+      "sha256": "7e70f23d75c51263848619352425ddaf350081a3068041acf257211efcde3fef"
+    }
+  ]
+}

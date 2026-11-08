@@ -1,0 +1,40 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-09T03:42:15.144378+08:00",
+  "candidate_id": "C1-C57",
+  "name": "时镜",
+  "decision": "EXACT_TECH_USE_return_original_A2_CN_R1",
+  "company": "广州时镜科技有限公司",
+  "core_comparison": "时镜为完整核心字号，广州/科技/有限公司为地区行业组织形式，不是不同品牌。",
+  "evidence": [
+    {
+      "url": "https://www.shushuqiuzhi.com/article/139042",
+      "source_type": "third_party_recruitment_body",
+      "root_actual_read": "29/31/37完整名、软件信息行业、软件/游戏开发范围；招聘内容为第三方，非官方当前存续或业务能力核准。"
+    },
+    {
+      "url": "https://www.thnet.gov.cn/attachment/7/7985/7985933/10721094.pdf",
+      "source_type": "government_public_historical_list",
+      "root_actual_read": "先实际读A3共享PDF全文件SHA，页1表头+实体页3序155；随后root独立curl同政府URL，SHA一致，再读目标行。",
+      "sha256": "a410a9bdf4fb6d55af382ae6915956cec7929d3593ab3b0e25d59020f0e23941",
+      "title": "天河区一次性扩岗补助银行账号信息缺失企业名单（截至2026年3月6日）",
+      "boundary": "仅历史名单列名，非工商实时核准/商标注册查询或补助领取证明。未通读16页所有企业或视觉检查图像。"
+    }
+  ],
+  "ignored_non_evidence": "笔名、小说同题/一般时镜术语不当独立科技主体证明。",
+  "next": "原A2同C57/M70中文R1，可有据自然变形但不硬加字、换英语救名或计新家族；若无更自然选稿可建议闭族。",
+  "refs": [
+    {
+      "path": "A3-cn-batch41.json",
+      "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c"
+    },
+    {
+      "path": "A3-cn-batch41-receipt.json",
+      "sha256": "247fe0f8875466fc6873b1760740b419a68c153e672fbaa80f36f803d4c1eff5"
+    },
+    {
+      "path": "materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462"
+    }
+  ]
+}

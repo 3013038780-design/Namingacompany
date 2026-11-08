@@ -1,0 +1,49 @@
+{
+  "reviewed_at": "2026-11-09T03:44:45.934394+08:00",
+  "independence": "Read producer preview batch40 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C57",
+      "name": "逆序猫",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "逆序修饰具体主体形成三字完整称呼",
+          "counter_association": "逆序稍有专业门槛"
+        },
+        "distinctiveness": {
+          "reason": "倒序活动的猫有鲜明反常画面便于记住",
+          "counter_association": "也可能先像游戏角色"
+        },
+        "lab_fit": {
+          "reason": "逆序带程序和信号操作语境可承载研究身份",
+          "counter_association": "AI宠物或编程吉祥物首感明显"
+        },
+        "grounding": {
+          "reason": "作者概念图文字确有猫形信号与时间反射次序的对应",
+          "counter_association": "猫仅说明性意象而非测量对象且丢介质条件"
+        },
+        "extension": {
+          "reason": "可作为研究主体而不必绑定某个工具参数",
+          "counter_association": "不能借名字许诺突破时间因果"
+        },
+        "semantic_coherence": {
+          "reason": "主体和作用同在一幅科学示意关系中",
+          "counter_association": "不是量子叠加或活猫逆转实验"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ],
+  "version": 2,
+  "rework_attempt": 1
+}

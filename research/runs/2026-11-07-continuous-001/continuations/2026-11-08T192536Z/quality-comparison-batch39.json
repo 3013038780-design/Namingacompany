@@ -1,0 +1,33 @@
+{
+  "accepted_at": "2026-11-09T03:29:54.186313+08:00",
+  "candidate_ids": [
+    "C1-C57"
+  ],
+  "decision": "accepted_for_same_A3_CN41",
+  "producer_total": 25,
+  "coordinator_total": 25,
+  "max_axis_difference": 0,
+  "independence": "root实读无分稿和作者来源，封分后才打开作者数值；不靠市场无命中补分。",
+  "refs": [
+    {
+      "path": "A2-preview-batch39.json",
+      "sha256": "78ac22e6579ac6b7add0896b6201d5fc63b9b290a6708b3bb90bbc4d1be6e935"
+    },
+    {
+      "path": "A2-quality-batch39.json",
+      "sha256": "776f7cffb2bfa6d71a6e45ad58d3b8b639fd37df787c3abb156413ac72f5f6ff"
+    },
+    {
+      "path": "A2-creation-execution-batch39.json",
+      "sha256": "f7af25329efcb1708b39b73ee5205dc0c72d7878c7b79ce1c885f0ffd898d939"
+    },
+    {
+      "path": "coordinator-cn-batch39.json",
+      "sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee"
+    },
+    {
+      "path": "coordinator-family-review-batch39.json",
+      "sha256": "10f1be7e1525a3d554f177342838899b61d9dfb21fa91566b269762364b8ade8"
+    }
+  ]
+}

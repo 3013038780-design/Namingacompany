@@ -1,0 +1,74 @@
+{
+  "agent_id": "/root/live_a3",
+  "executed_at": "2026-11-09T03:46:34.235142+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch40.json",
+      "sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch40.md",
+      "sha256": "c856111bc420fee34bc9bcdcaa2b5c8c341cdc573b807f69a6d95dc5a1e983fa"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch40.json",
+      "sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch40.json",
+      "sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch40.json",
+      "sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch40.json",
+      "sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch41.json",
+      "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-cn41-review.json",
+      "sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5"
+    },
+    {
+      "path": "A3-cn-batch42.md",
+      "sha256": "c18b6c4bbae49e72019ffaab3405e87b6f5755653ed850598e3561c43d2f5644"
+    }
+  ],
+  "actual_new_candidate_queries": 8,
+  "completed_candidate_search_results": 8,
+  "unreturned_search_attempts": 0,
+  "actual_new_chinese_queries": 8,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 663,
+  "prior_agent3_returned_candidate_results": 662,
+  "agent3_cumulative_candidate_queries": 671,
+  "agent3_cumulative_returned_candidate_results": 670,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 673,
+  "run_cumulative_returned_candidate_results": 672,
+  "passed_chinese_candidate_ids": [
+    "C1-C57"
+  ],
+  "rejected_chinese_candidate_ids": [],
+  "held_chinese_candidate_ids": [],
+  "version": 2,
+  "rework_attempt": 1,
+  "next": "原A4匹配英文，质量通过后同一A3独立英语复查。",
+  "unchanged": "旧档/库/队列/Git未改，无网页全文。"
+}

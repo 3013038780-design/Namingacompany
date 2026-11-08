@@ -1,0 +1,58 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T03:28:46.758857+08:00",
+  "materials": [
+    {
+      "id": "C1-M70",
+      "family_id": "C1-MF-temporal-interface-wave-sequence-reflection",
+      "macro_id": "S3",
+      "plan_direction_id": "C1-D-S3",
+      "category": "time_condition_as_wave_manipulation_interface",
+      "case_ids": [
+        "B025",
+        "B074",
+        "B015"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Shixiong Yin: Observation of time-reflection for electromagnetic waves (Behind the Paper)",
+          "url": "https://communities.springernature.com/posts/observation-of-time-reflection-for-electromagnetic-waves",
+          "reading_location": "实际读L11–15署名/2023-03-14，L37–59作者正文及图注；包括时空界面区别、装置同步切换、测得脉冲顺序变化和后续潜在用途。没有实看图像、下载原论文、读原论文方法/补充或重复实验；参考文献只作引文入口不当已读。",
+          "read_at": "2026-11-09T03:28:46.758857+08:00",
+          "access": "body",
+          "source_type": "primary_research_author_explanation",
+          "published_at": "2023-03-14",
+          "reading_scope": "full_explanatory_body_and_captions",
+          "boundary": "这是论文作者对自己实验的释文，不冒充原论文完整审读。原Nature论文入口cookie重定向不可读；应用前景不是已完成光计算产品。正文L45与图注L48阻抗方向表述不一致，本包不援引方向/倍数，仅用同步突变及测得信号时序/频移关系。"
+        }
+      ],
+      "source_urls": [
+        "https://communities.springernature.com/posts/observation-of-time-reflection-for-electromagnetic-waves"
+      ],
+      "fact": "作者说明在传输线同步改变介质条件，观测到反射部分脉冲顺序反转并发生频率变换；这与波碰上固定空间镜面不同。",
+      "distinctive_relation": "镜面不必只是一处空间边界；当承载波的条件在同一时刻整体突变，时间条件也参与形成反射关系。",
+      "mechanism_to_material": "Cursor让可感对象先成为称呼，Recursive让真实机制提供研究身份，Sony有据构词反馈允许凝为整体新称呼。沿原S3条件怎样改变可操作关系与RX02-P1认识方法问题，实际读作者解释时间界面，不从未来/镜/智字库机械组合；不是因公司做持续学习就强说波变更聪明。",
+      "history_difference": "旧回响/Echo与声入纹分别借普通反射/返回及振动刻录重放，时间界面不是录制后逆放或普通空间回声：介质条件在时间上同时突变使波发生时序反转与频移。旧第三真值是逻辑unknown，骰子钟是随机等待时间，因序是因果偏序，均非此信号操作。旧NASA单格配准是同一实体双重校准角色，光线变化并不代表全属同族。用户已有相变不封禁所有条件变化，但若只把本名讲成临界跃迁/能力涌现、倒回过去或泛反思，则丢独特关系而应退旧族。",
+      "naming_potential": "时镜将时间界面与镜面作用压成一个完整器物意象，两个字共享同一实验关系，不必原封不动用时间反射术语。",
+      "shortcoming": "可能先像钟表、影像器材、科幻道具或文化摄影工作室；也容易让人误以为时间旅行/回看过去。",
+      "boundary": "时镜为本轮形象凝练，非作者设备正式中文名。反转的是信号时序/频率内容，不是因果倒流、人回过去、记忆恢复或模型自动自我改进。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft"
+    }
+  ],
+  "new_material_count": 1,
+  "new_chinese_draft_count": 1,
+  "coverage_note": "S3保守17/70约24.3%，古文仍4/70；这篇2023作者释文不算近90天新闻或书籍正文。",
+  "failed_accesses": [
+    {
+      "url": "https://www.nature.com/articles/s41567-023-01975-y",
+      "result": "实际open重定向idp.nature.com cookie授权不可读/500；未冒论文正文已读，不反复该入口。"
+    }
+  ]
+}

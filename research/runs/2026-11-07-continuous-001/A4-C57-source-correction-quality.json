@@ -1,0 +1,47 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "reviewed_at": "2026-11-09T03:53:39.785224+08:00",
+  "review_basis": "实际修正后的既有词再选择，不覆盖旧分/假称旧评知道词条",
+  "reviews": [
+    {
+      "candidate_id": "C1-E47",
+      "chinese_id": "C1-C57",
+      "english": "Tailfirst",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "既有副词有实际词条记音，两部分可清楚称呼。",
+          "counter_association": "存在词条不等所有听众熟悉，也不是本次做过听测。"
+        },
+        "spelling": {
+          "reason": "tailfirst完整词形已核，不需任意删字母或改拼音。",
+          "counter_association": "tail/tale听写、合写与分写竞争仍在，不能因为词典存在自动给满分。"
+        },
+        "grounding": {
+          "reason": "词典义与同一猫形倒行图景可支持品牌主题配对。",
+          "counter_association": "仅词典标时段不是已核首用；空间图景不等完整时间反射实证。"
+        },
+        "bilingual_relation": {
+          "reason": "中文逆序主体与英文尾部先行保持同一倒行示意关系。",
+          "counter_association": "英文不指猫、频移或介质条件，仍是主题意译，不能当标准科学译名。"
+        },
+        "distinctiveness": {
+          "reason": "短称呼有可复述的反常动作画面，普通词也可以被再选择为机构名。",
+          "counter_association": "词形已有、账户同拼写与宠物/游戏/倒退首感须保留，待实际系统线索补核。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "这是修正输入后真实再评，沿旧门槛；没有因词典发现而自动提分，待主控先读无分稿封独评。"
+    }
+  ]
+}
