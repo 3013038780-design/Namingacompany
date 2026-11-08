@@ -1,0 +1,154 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-09T04:32:33.765079+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch41.json",
+      "sha256": "2dc4c22fbb14d2cb7989871b033a591cceb24d840f11f00a8adab33078bce64d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch41.md",
+      "sha256": "d5444104044167a0c9b8331eb20ac4c832a318f69d376979e94c937d9cfcc447"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch41.json",
+      "sha256": "ad518c9459febbbfc8be84a792bd1818e3a519030d23e8392f9fd8e915faa054"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch41.json",
+      "sha256": "a5bdd47922c5dafa6aca154acda3ecf7bec13a33613e434c5556b4ae0f74ad06"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension35.json",
+      "sha256": "0193ec2db76c08b6054e38188eb184b1379f0f95db1a6d4361f985c931147397"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch41.json",
+      "sha256": "4888246a7e075897080b5a0d5d5814e794cdc7934f113a4a2f6931b270c6c9a2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch41.json",
+      "sha256": "a6e1acced3262d993adab4baa227ee01096c3298871a75d4ea9af517b73ce8ef"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T202508Z/quality-comparison-batch41.json",
+      "sha256": "d7fada3ef1a6911756bef72990f3517ec99e0dc69fd6c73c808dcc9c7f06ddab"
+    }
+  ],
+  "query_count": 9,
+  "completed_search_result_count": 9,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-C58",
+      "name": "洋脊",
+      "query_logs": [
+        {
+          "query": "\"洋脊\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "精确多地貌百科/教育词典/研究机构报道和术语，普通自然对象不是自动品牌占用。"
+        },
+        {
+          "query": "\"洋脊公司\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "公司组合主要国际海底管理局文书中勘探地域与承包公司分栏及小说地名，不把地理对象直接当公司名。"
+        },
+        {
+          "query": "\"洋脊科技\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "独立科技组合为海洋地质研究/课程计划与科技词散列，未确证完整洋脊科技公司。"
+        },
+        {
+          "query": "\"洋脊智能\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "独立智能组合为深海探测团队/数字生境系统中的洋中脊对象，非洋脊智能机构命名。"
+        },
+        {
+          "query": "\"洋脊\" AI 模型 软件",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "AI模型软件组是洋中脊地球动力学模型、ASPECT模拟软件用于研究该对象，不把模型研究对象当同名AI模型。"
+        },
+        {
+          "query": "\"洋脊\" 公司 軟體 品牌",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "洋脊简繁相同，此组额外繁体公司軟體品牌语境：教育资源/词典/地学论文，非完整同名品牌。"
+        },
+        {
+          "query": "\"yangji\" company AI software",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "拼音Yangji命中历史廣州市揚基信息科技与韩国Yangji空间规划主体等，非对应洋脊；历史交易所原PDF实际定位软件版权主体。"
+        },
+        {
+          "query": "\"洋基\" 科技",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "具体近音洋基查询命中洋基工程一手官网及洋基科技第三方电子插座销售正文；与洋脊仅末音声调区别但字形/自然含义不同，记录具体混淆不冒精确。"
+        },
+        {
+          "query": "\"杨脊\" 公司 科技",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "杨脊近形主要个人笔名/杨脊亭姓名、青杨脊虎天牛物种、不同企业中的分散字，不把人名/物种当本名公司。"
+        }
+      ],
+      "decision": "near_match_hold_not_exact_occupation",
+      "reason_code": "NEAR_MATCH_HOLD",
+      "reason": "未确证洋脊完整同名公司/软件/模型，但洋基工程一手科技工程品牌及洋基科技电子技术销售线索明确；洋脊yáng jǐ与洋基yáng jī仅末音声调差别、同洋首字，在科技机构称呼/听写语境存在具体近名混淆。不是自动把异字当同名，保留洋脊自然地貌与洋基不同含义，暂停交主控具体编辑判断，不称本名已注册。",
+      "evidence": [
+        {
+          "url": "https://www.yankey.com/chinese/about/about-us/",
+          "access": "primary_company_site_body_read",
+          "finding": "实际729行，L52洋基工程高科技厂房，L64–66集团与分公司/机电空调无尘室统包，L70导入3D BIM。洋基真实科技工程品牌，不是洋脊精确同名；页面公司业务自述不等官方登记。"
+        },
+        {
+          "url": "https://www.1111.com.tw/corp/9510291/",
+          "access": "third_party_company_profile_body_read",
+          "finding": "实际133行，L4洋基科技有限公司，L10编号80160865，L42万用插座/电子测试插座研发销售、L47产品。简介出现立洋基而标题洋基，存在异文，不能据此冒两名为同一官方主体/当前存续；近名技术销售线索具体可读。"
+        },
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2008/0526/03813_342257/e134.pdf",
+          "access": "primary_exchange_historical_issuer_pdf_body_target_read",
+          "finding": "实际99页PDF打开/查Yangji：实体42页/印刷VIII-42，L1911–1951元盛进销存/财务软件版权表列Guangzhou Yangji Information Technology Company Limited（廣州市揚基信息科技有限公司）；实体69页L2923–2927公司中英文名。是历史揚基不同字主体，非洋脊同名/实时登记；顺带返回历史9/42申请表不作本名商标查询结论。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Yangji",
+          "scope": "2026-11-09本次逐名拼音入口不可访问，非无登记。"
+        }
+      },
+      "risks": [
+        "近名有行业/语义差异及末音声调区别，非精确同字；所有yangji拼音命中不自动否决",
+        "洋基科技第三方简介有立洋基异文，不冒官方主体一致",
+        "历史揚基软件主体不等今日同名公司存续；未查本名9/42核准",
+        "原科学活动/残留洋脊区别、日期未核及模型解释范围依原稿保持；本角色未新读其科学来源"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "本run原两实际阳性，本次0新增。",
+  "passed_chinese_candidate_ids": [],
+  "rejected_chinese_candidate_ids": [],
+  "held_chinese_candidate_ids": [
+    "C1-C58"
+  ]
+}

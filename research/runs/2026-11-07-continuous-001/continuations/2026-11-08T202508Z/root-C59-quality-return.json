@@ -1,0 +1,51 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-09T04:57:42.241493+08:00",
+  "candidate_id": "C1-C59",
+  "name": "原星",
+  "decision": "quality_reject_return_original_A2_CN_R1_not_usage_rejection",
+  "producer_total": 24,
+  "coordinator_total": 23,
+  "max_axis_difference": 1,
+  "failed_axis": "distinctiveness3<4",
+  "reason": "缩称易融入原/元/源加星的通行科技式命名，独立记点不足。作者也自拒，不能用NASA/CAS出处把它补过，不送查用或配英语。",
+  "root_actual_source_review": [
+    {
+      "url": "https://xsg.tsinghua.edu.cn/info/1004/1973.htm",
+      "scope": "root实读31–48潘光旦/费孝通引文与评论位置；非原著全章或首用史验证，作者先后评价不当定论。",
+      "material": "C1-M72资料研究暂不命名"
+    },
+    {
+      "url": "https://science.nasa.gov/universe/stars/",
+      "scope": "278–295科普Birth/Life：云团、初期热源及主序阶段，未看影像/全页各章节。",
+      "boundary": "不将一般科普细化成所有大质量原恒星必然零核反应，也不称每团都成星。"
+    },
+    {
+      "url": "https://www.cas.cn/syky/202606/t20260609_5112114.shtml",
+      "scope": "376实际日期2026-06-23、386–399特定系统观测/模型和AI示意图文字；非原论文/图像/普适能力证明，非近90日新闻。"
+    }
+  ],
+  "family_scope": "M73完整形成中天体而非原力超能、二周目后用经验或地壳生成；若只说初生/成长则退旧族。M72现代关系差序资料与M73分开，不为每卡强配名。",
+  "refs": [
+    {
+      "path": "A2-preview-batch44.json",
+      "sha256": "1ce78331f73ca0fbf5088cfef3f77e619909c8a718b63ed15eab4dd9134d2005"
+    },
+    {
+      "path": "A2-quality-batch44.json",
+      "sha256": "da580b055d49b4de28beb8f86dcaaaf04ded18201a91d21921ad55ed0ebe8539"
+    },
+    {
+      "path": "A2-creation-execution-batch44.json",
+      "sha256": "38dd6b175e7061620c8ccf21811bc0f29e8e6fe7a31dc15862679842ce913035"
+    },
+    {
+      "path": "materials-extension36.json",
+      "sha256": "a6b043c18c7ff96e00517f53c2e552e23c4d4afa4ba61b4216e62f22134f4f80"
+    },
+    {
+      "path": "coordinator-cn-batch44.json",
+      "sha256": "acd15de2d181542946977cbcebc3ef0d03a036c76a03341a3b6360dbff87f7af"
+    }
+  ]
+}

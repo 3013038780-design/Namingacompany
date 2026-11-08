@@ -1,0 +1,71 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 bounded CN44 evidence follow-up",
+  "completed_at": "2026-11-09T04:44:14.748318+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch44.json",
+      "sha256": "b95f96ac5877be12d4e05947a215b0dc26cc39dd4ff4622b17e55decdd0676bf"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch44.md",
+      "sha256": "ad303f2565814eadc681197d7babc0313100cd43b6cf78162f543833eaad483b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch44-receipt.json",
+      "sha256": "9ad3907d8ebe6caaadf6b0b7048a6e210edc249e7d2ad6f4a9c8bfce13e0bd38"
+    }
+  ],
+  "candidate_id": "C1-C58",
+  "name": "洋中脊",
+  "version": 3,
+  "rework_attempt": 2,
+  "query_logs": [
+    {
+      "query": "\"孙国栋\" \"文化衫\" 海洋大学",
+      "executed_on": "2026-11-09",
+      "status": "completed_search_result",
+      "summary": "仍返回同两已403校方评估PDF索引，另孙国栋法大学者文章为不同人和学校，不能作创业主体核验。无新可读正文入口。"
+    },
+    {
+      "query": "site:ouc.edu.cn \"洋中脊\" 创业",
+      "executed_on": "2026-11-09",
+      "status": "completed_search_result",
+      "summary": "官方站限定仍同两PDF，其余OUC海洋科研新闻/地貌科普，与创业公司无关，不作替代正文。无新可读公司资料。"
+    },
+    {
+      "query": "\"洋中脊文化\"",
+      "executed_on": "2026-11-09",
+      "status": "completed_search_result",
+      "summary": "完整文化核心仍同两PDF，其余自然博物馆/地质研究/一般文化报道与本主体无关。无新可读公司原证。"
+    }
+  ],
+  "actual_new_candidate_queries": 3,
+  "completed_candidate_search_results": 3,
+  "actual_new_external_body_opens": 0,
+  "previous_failed_entries_not_retried": true,
+  "decision": "retain_EVIDENCE_HOLD_stop_repeating_unread_specific_lead",
+  "finding": "三条定向查询未获不同可读OUC官方新闻/学院创业HTML或另一报告入口。完整核心洋中脊文化创意公司仍为原两校方PDF索引，不能据摘要肯定占用或据不可读说通过。没有重复两403/0字节/蓝海天超时入口。",
+  "known_unread_leads": [
+    {
+      "url": "https://pgb.ouc.edu.cn/_upload/article/files/e7/49/9448bc6b4699b8108c8577b470cb/4c132daf-76a3-4504-92ea-aa8d0707e50e.pdf",
+      "scope": "同旧索引，仅复现，不重开"
+    },
+    {
+      "url": "https://pgb.ouc.edu.cn/_upload/article/files/42/ee/b0a98593419e8f04bd2ada63d0b7/2fcfb458-5856-4a07-a60c-3f65f5a46ca9.pdf",
+      "scope": "同旧索引，仅复现，不重开"
+    }
+  ],
+  "remaining_chinese_reworks": 0,
+  "eligible_chinese_for_english_count": 0,
+  "prior_agent3_candidate_queries": 698,
+  "prior_agent3_returned_candidate_results": 697,
+  "agent3_cumulative_candidate_queries": 701,
+  "agent3_cumulative_returned_candidate_results": 700,
+  "root_independent_queries_reported": 4,
+  "root_query_count_boundary": "原历史2，root本次报告自己另查2均返回同两PDF，A3不冒做这2条。",
+  "run_cumulative_candidate_queries": 705,
+  "run_cumulative_returned_candidate_results": 704,
+  "next": "停止此具体线索重复入口，保留待核实；等原A4实际zero30交接后同A3终核，不R3/不配英语。",
+  "unchanged": "旧稿/评分/库queue/Git不改，无网页全文。"
+}

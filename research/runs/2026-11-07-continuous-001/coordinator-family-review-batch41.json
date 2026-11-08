@@ -1,0 +1,55 @@
+{
+  "reviewed_at": "2026-11-09T04:30:39.392519+08:00",
+  "reviewer": "/root",
+  "candidate_id": "C1-C58",
+  "name": "洋脊",
+  "decision": "source_family_dual_quality_accepted_for_original_A3_CN43",
+  "source_review": [
+    {
+      "url": "https://oceanexplorer.noaa.gov/ocean-fact/mid-ocean-ridge/",
+      "actual_read": "59–67完整短正文/图注文字/2014发布与2024更新；未看地图或相关报告。",
+      "supports": "海底全球山系与分离板块边界处新洋壳形成，扩张速度影响形态。",
+      "boundary": "不说地球半径不断变大或大陆凭空产生；不将所有残留段说成活动。"
+    },
+    {
+      "url": "https://scsio.cas.cn/news/kydt/202609/t20260902_8276482.html",
+      "actual_read": "2–15报道完整短正文及19–23文字图注；未看图/原论文方法。",
+      "supports": "残留洋脊扩张停止后电性成像的深部结构及团队熔体解释/演化模型。",
+      "boundary": "长期保存是模型/综合解释，非直接观察19百万年；正文无日期，不以URL日期充近90日新闻。"
+    }
+  ],
+  "failed_access": {
+    "url": "https://www.nature.com/articles/s43247-026-03703-9",
+    "scope": "root独立一次open cookie授权500不可读，未读摘要/方法，不反复。"
+  },
+  "case_transfer_review": "寒武纪的自然时间/世界尺度与大疆完整空间身份是主迁移；Sony仅是无需强造字的辅参，不拿Cursor/Recursive通用标签代替实际寻找。B009词义与当代语境不冒创始命名史。",
+  "family_review": "全历史1701文件481名称串实际扫；与旧物态/临界跨阈值、外力改变路径、雾针输运、菌丝输运、时间反射关系不同。两来源同一洋脊对象只一卡，不凭数据新或海洋类新就计家族。泛成长/深处探索失去地表构造关系则应并旧上位族。",
+  "quality": {
+    "producer": 25,
+    "coordinator": 25,
+    "max_axis_difference": 0,
+    "independence": "先无分预览和源正文封root25，再读作者25；海洋工程/地勘首感保留，不靠出处补品牌弱项。"
+  },
+  "refs": [
+    {
+      "path": "A2-preview-batch41.json",
+      "sha256": "2f28d9f3ebf1a11d297d58a373fbac2d1e95c223c33239151b0201d5e9390684"
+    },
+    {
+      "path": "A2-quality-batch41.json",
+      "sha256": "ad518c9459febbbfc8be84a792bd1818e3a519030d23e8392f9fd8e915faa054"
+    },
+    {
+      "path": "A2-creation-execution-batch41.json",
+      "sha256": "a5bdd47922c5dafa6aca154acda3ecf7bec13a33613e434c5556b4ae0f74ad06"
+    },
+    {
+      "path": "materials-extension35.json",
+      "sha256": "0193ec2db76c08b6054e38188eb184b1379f0f95db1a6d4361f985c931147397"
+    },
+    {
+      "path": "coordinator-cn-batch41.json",
+      "sha256": "4888246a7e075897080b5a0d5d5814e794cdc7934f113a4a2f6931b270c6c9a2"
+    }
+  ]
+}

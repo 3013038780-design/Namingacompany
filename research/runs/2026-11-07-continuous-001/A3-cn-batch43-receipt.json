@@ -1,0 +1,68 @@
+{
+  "agent_id": "/root/live_a3",
+  "executed_at": "2026-11-09T04:32:33.765079+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch41.json",
+      "sha256": "2dc4c22fbb14d2cb7989871b033a591cceb24d840f11f00a8adab33078bce64d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch41.md",
+      "sha256": "d5444104044167a0c9b8331eb20ac4c832a318f69d376979e94c937d9cfcc447"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch41.json",
+      "sha256": "ad518c9459febbbfc8be84a792bd1818e3a519030d23e8392f9fd8e915faa054"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch41.json",
+      "sha256": "a5bdd47922c5dafa6aca154acda3ecf7bec13a33613e434c5556b4ae0f74ad06"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension35.json",
+      "sha256": "0193ec2db76c08b6054e38188eb184b1379f0f95db1a6d4361f985c931147397"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch41.json",
+      "sha256": "4888246a7e075897080b5a0d5d5814e794cdc7934f113a4a2f6931b270c6c9a2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch41.json",
+      "sha256": "a6e1acced3262d993adab4baa227ee01096c3298871a75d4ea9af517b73ce8ef"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T202508Z/quality-comparison-batch41.json",
+      "sha256": "d7fada3ef1a6911756bef72990f3517ec99e0dc69fd6c73c808dcc9c7f06ddab"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch43.json",
+      "sha256": "6fb6eaf6dcf020625e76adee1252cc25ec0f139d84ca77a878d3e4e9ab27691e"
+    },
+    {
+      "path": "A3-cn-batch43.md",
+      "sha256": "4b2770f085de7c75c561b4a37ec136e64e8cf499d68bdc51bde6f313998fbb2b"
+    }
+  ],
+  "actual_new_candidate_queries": 9,
+  "completed_candidate_search_results": 9,
+  "unreturned_search_attempts": 0,
+  "actual_new_chinese_queries": 9,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 680,
+  "prior_agent3_returned_candidate_results": 679,
+  "agent3_cumulative_candidate_queries": 689,
+  "agent3_cumulative_returned_candidate_results": 688,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 691,
+  "run_cumulative_returned_candidate_results": 690,
+  "passed_chinese_candidate_ids": [],
+  "rejected_chinese_candidate_ids": [],
+  "held_chinese_candidate_ids": [
+    "C1-C58"
+  ],
+  "next": "root具体近音混淆编辑决定；不自创英文/不重复旧入口。",
+  "unchanged": "旧档/库/队列/Git不改，无网页全文。"
+}

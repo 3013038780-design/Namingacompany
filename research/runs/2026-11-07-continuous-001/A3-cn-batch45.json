@@ -1,0 +1,193 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-09T05:06:43.324434+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch44.json",
+      "sha256": "84a4b07766f3f00b136604b41676d7b7fa9230ca080bf64057df316cbb25f2bd"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch44.md",
+      "sha256": "665be22d747003c7f91fa702b448e0815c9f6bc3adfe3049308dc26565ec8afe"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch44.json",
+      "sha256": "da580b055d49b4de28beb8f86dcaaaf04ded18201a91d21921ad55ed0ebe8539"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch44.json",
+      "sha256": "38dd6b175e7061620c8ccf21811bc0f29e8e6fe7a31dc15862679842ce913035"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch45.json",
+      "sha256": "8ae0a410b52854878dc9a2325e33b035496ea7b0e9d740ed8c2980168e0d4de6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch45.md",
+      "sha256": "d1a82eb78bad9ed965bae226979cd965abdd3824c7b0df57751365c093f1d791"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch45.json",
+      "sha256": "c0f74de159131ebe629b06adcfcef247e43be533c256298de34985f864e5c02e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch45.json",
+      "sha256": "534e492a2c90b4e49fc419cb9d97fce33ae200f0ed6e2f520373a53452aab259"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension36.json",
+      "sha256": "a6b043c18c7ff96e00517f53c2e552e23c4d4afa4ba61b4216e62f22134f4f80"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch44.json",
+      "sha256": "acd15de2d181542946977cbcebc3ef0d03a036c76a03341a3b6360dbff87f7af"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch44.json",
+      "sha256": "60073d261cc763428a5e3aac8e86c88d8faf488631c290c606d9f8a7d0f5f35d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch45.json",
+      "sha256": "8620624b67aeaec09f515ed6aecdd10635630ae09b28bd0ccdcdac1cf6090248"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch45.json",
+      "sha256": "23d133ea147f61d46e98b939f6d549b0090d56f2d0907b0f52622543f80ba969"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C59-name-boundary-clarification.json",
+      "sha256": "598fa5e9dd459e9012a0245aebf8b60d39fe62ac71f5781e0fa9655496fae63b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C59-name-boundary-clarification.md",
+      "sha256": "f43ec675e6744f7b06ab6e9aac4c8923eaa5486c7f7aedb91a34cd82b2fd7cd6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C59-name-boundary-clarification-receipt.json",
+      "sha256": "cf0ced2886e2188741f8fd6f12d664da996594cf7270a9b18572e7d8355f769e"
+    }
+  ],
+  "query_count": 8,
+  "completed_search_result_count": 8,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-C59",
+      "name": "原恒星",
+      "version": 2,
+      "rework_attempt": 1,
+      "replaces_name": "原星",
+      "decision": "editorial_avoid_existing_cross_industry_full_core_performing_brand",
+      "reason_code": "NEAR_MATCH_HOLD",
+      "selection_status": "not_selected_cross_industry_existing_core_brand",
+      "reason": "原恒星乐队本人账号正文明确其自我品牌核心、公开演出/开票/周边商品。依本项目跨行业真实商业核心避让口径不选；不是EXACT_TECH_USE，不称公司/模型同名或商标登记已核准。",
+      "query_logs": [
+        {
+          "query": "\"原恒星\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "精确无行业发现原恒星乐队-Protostar真实演出账号；随后实际打开本人简介、演出/开票/周边正文闭环，跨行业商业核心须避让。"
+        },
+        {
+          "query": "\"原恒星公司\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "原恒星公司/集团主要命中狂野星球家园指南；实际L21/30明确游戏内虚构第三方势力，不冒真实公司或独立同名软件。原恒星新材料之原可能为原先/前身，不拼接当字号。"
+        },
+        {
+          "query": "\"原恒星科技\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "科技组合主要原恒星天文学研究/恒星科技等不同核心，未在该组确证原恒星科技独立主体；不消除无行业组乐队使用。"
+        },
+        {
+          "query": "\"原恒星智能\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "智能组合为原恒星团科研、恒星AI和航天恒星平台，原为科学词或句子成分，不把恒星AI截成原恒星同名。"
+        },
+        {
+          "query": "\"原恒星\" AI 模型 软件",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "AI模型软件组为预测原恒星核的机器学习、SpecCLIP恒星光谱模型、CAS吸积结构模拟；原恒星是研究对象，不是该模型的正式商品名。"
+        },
+        {
+          "query": "\"原恆星\" 公司 軟體 品牌",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "繁体原恆星组主要科学/教育软件说明中的原恆星对象，产品本名另有太陽系之旅等，不把说明词当独立同名软件。"
+        },
+        {
+          "query": "\"yuanhengxing\" company software",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "拼音发现YUANHENGXING TOYS FACTORY，随后实际读bol商品页制造商栏；其中文对应未核，不冒原恒星精确中文公司。"
+        },
+        {
+          "query": "\"元恒星\" 科技",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "元恒星近音异字组主要恒星科技财务等，未确证元恒星具名科技主体；异字近音不当精确原恒星占用。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.sina.cn/media/7505173141",
+          "access": "artist_self_description_and_posts_actual_body_read",
+          "read_range": "23行页面，L2/6/8简介，L15–17演出/特典/T恤/开票/周年纪念礼盒，L20–23原创音乐署名；实际本次返回",
+          "finding": "账号完整名原恒星乐队-Protostar，简介自称女子流行摇滚乐队并给合作联系，公开演出、开票、纪念周边等。原恒星为其自我品牌核心，乐队为身份后缀；这是现实演出/文娱品牌使用，不是仅一首歌曲标题、个人用户名或天文术语。未查其登记/商标主体，不称科技AI同名。"
+        },
+        {
+          "url": "https://news.17173.com/content/2015-08-13/20150813105244431.shtml",
+          "access": "game_media_guide_body_read",
+          "read_range": "181行L11/15/21/30",
+          "finding": "狂野星球中的原恒星集团/公司为剧情内家园开发势力和道具购买方，明确游戏内语境；不是现实公司，也不是游戏产品本名原恒星。"
+        },
+        {
+          "url": "https://beta.bol.com/nl/nl/p/easymart-dansend-speelgoed-voor-kinderen-interactieve-jellyfish-met-muziek-en-led-bewegend-bump-go-speelgoed-roze-3/9300000399001436/",
+          "access": "retailer_product_manufacturer_field_body_read",
+          "read_range": "1872行L1363–1388、1433–1455，find定位",
+          "finding": "商品品牌EasyMart/产品Dansende Jellyfish，制造商栏YUANHENGXING TOYS FACTORY及汕头澄海地址。中文对应未核，只列拼音商业主体线索，不认定中文原恒星同名/AI软件；商品无联网和App要求为商页自述，不背书合规。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Yuanhengxing",
+          "scope": "2026-11-09本次逐名打开实际不可访问，不能称无登记。"
+        }
+      },
+      "remaining_chinese_reworks": 1,
+      "source_scope_acceptance": "已实际读原A2-name-boundary-clarification三档：当前名称为CAS正文已有完整科学类别词重新选作品牌，旧原星非标准简称边界已另档纠正；不冒新造词/首译，原稿SHA保留，AI示意图非观测照片及特定质量系统/能量多阶段边界保留。",
+      "prior_name_handling": "原星batch44因辨识质量未过，本次未查原星，不标其市场占用。",
+      "risks": [
+        "演出/文娱同核心实际使用，非科技AI证明",
+        "游戏虚构公司同词不是现实法人",
+        "拼音工厂中文对应未核",
+        "大陆工商及9/42商标未完成逐名核准"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "原run两实际阳性，当前0新增；大陆原403仅复用旧范围，未冒本次重试。",
+  "passed_chinese_candidate_ids": [],
+  "rejected_chinese_candidate_ids": [],
+  "held_chinese_candidate_ids": [
+    "C1-C59"
+  ],
+  "editorially_avoided_chinese_candidate_ids": [
+    "C1-C59"
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "accepted_at": "2026-11-09T05:04:26.950134+08:00",
+  "same_research_run": true,
+  "whole_production_compliance_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "from": "verified_A1",
+      "to": "same_A2",
+      "status": "accepted",
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "A1.json",
+          "sha256": "b3bbd78ef83733b79b7033404dc29727a7e0c749988d06218820850f4de520be"
+        },
+        {
+          "path": "A1-role-expansion02.json",
+          "sha256": "6a127ec64699a257e20f7959a2ce3309e8cefe7c2c117134c2220612a3dc3181"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "search-plan-role-expansion02.json",
+          "sha256": "f86b3c18c74f778d2a6fb4258fed662584879e5747bb0116e0cefc6288d98d1a"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A2-creation-execution-batch41.json",
+          "sha256": "a5bdd47922c5dafa6aca154acda3ecf7bec13a33613e434c5556b4ae0f74ad06"
+        }
+      ],
+      "accepted_at": "2026-11-09T05:04:26.950134+08:00",
+      "reason": "复用六世界与寒武纪/大疆自然整体身份分析，非再开105。"
+    },
+    {
+      "id": "H2",
+      "from": "same_A2",
+      "to": "root",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C58"
+      ],
+      "input_refs": [
+        {
+          "path": "A2-preview-batch41.json",
+          "sha256": "2f28d9f3ebf1a11d297d58a373fbac2d1e95c223c33239151b0201d5e9390684"
+        },
+        {
+          "path": "A2-quality-batch41.json",
+          "sha256": "ad518c9459febbbfc8be84a792bd1818e3a519030d23e8392f9fd8e915faa054"
+        },
+        {
+          "path": "A2-preview-batch43.json",
+          "sha256": "959ed2695eb4f4fb78a42c6d28219b53af612b5d413caf1b03451647eb5844f2"
+        },
+        {
+          "path": "A2-quality-batch43.json",
+          "sha256": "ad0017d303f86388298132dcfaecf969224d39ae6af1b3ad7bc213942a07eaaf"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "coordinator-cn-batch41.json",
+          "sha256": "4888246a7e075897080b5a0d5d5814e794cdc7934f113a4a2f6931b270c6c9a2"
+        },
+        {
+          "path": "coordinator-family-review-batch41.json",
+          "sha256": "a6e1acced3262d993adab4baa227ee01096c3298871a75d4ea9af517b73ce8ef"
+        },
+        {
+          "path": "coordinator-cn-batch43.json",
+          "sha256": "d93084d389baeebae2e8c353f6a4500dca1bb610c14820c50ea0ecadb586e9d9"
+        },
+        {
+          "path": "coordinator-family-review-batch43.json",
+          "sha256": "ae52453fa5f0545dfc9630c6dac37b5d69779572e7e548980fa3ad5719fc3ac3"
+        }
+      ],
+      "accepted_at": "2026-11-09T05:04:26.950134+08:00",
+      "reason": "原名与R2双25，root均先封独评，保留原R1无稿。原文全称反馈→原A2再核/独立取舍，不暗改原输出。"
+    },
+    {
+      "id": "H3",
+      "from": "root",
+      "to": "same_A3",
+      "status": "returned",
+      "candidate_ids": [
+        "C1-C58"
+      ],
+      "input_refs": [
+        {
+          "path": "coordinator-cn-batch41.json",
+          "sha256": "4888246a7e075897080b5a0d5d5814e794cdc7934f113a4a2f6931b270c6c9a2"
+        },
+        {
+          "path": "coordinator-cn-batch43.json",
+          "sha256": "d93084d389baeebae2e8c353f6a4500dca1bb610c14820c50ea0ecadb586e9d9"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-cn-batch43.json",
+          "sha256": "6fb6eaf6dcf020625e76adee1252cc25ec0f139d84ca77a878d3e4e9ab27691e"
+        },
+        {
+          "path": "A3-cn-batch44.json",
+          "sha256": "b95f96ac5877be12d4e05947a215b0dc26cc39dd4ff4622b17e55decdd0676bf"
+        },
+        {
+          "path": "A3-CN44-evidence-followup.json",
+          "sha256": "97519016f46a7ba0e29dde986a7a6011e170796a1bb5f1ed495c03a052bcc11e"
+        },
+        {
+          "path": "continuations/2026-11-08T202508Z/root-C58-terminal-input-review.json",
+          "sha256": "074863e0c50db91cdd6d3e9d64c56823a7d710b62f7adfadc408997f9651048f"
+        }
+      ],
+      "accepted_at": "2026-11-09T05:04:26.950134+08:00",
+      "reason": "原洋脊近音科技避让；最后新版完整商业核心线索未读正文，额外查询仍hold，不假通过或占用，R2已尽。"
+    },
+    {
+      "id": "H4",
+      "from": "same_A3",
+      "to": "same_A4",
+      "status": "zero_input",
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "A3-cn-batch44.json",
+          "sha256": "b95f96ac5877be12d4e05947a215b0dc26cc39dd4ff4622b17e55decdd0676bf"
+        },
+        {
+          "path": "A3-CN44-evidence-followup.json",
+          "sha256": "97519016f46a7ba0e29dde986a7a6011e170796a1bb5f1ed495c03a052bcc11e"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A4-zero-input-batch30.json",
+          "sha256": "ff826768a95d31b4da8b604e426294da3efb5700d729041047c09278f9e6f255"
+        },
+        {
+          "path": "A4-zero-input-batch30-receipt.json",
+          "sha256": "c36f010943448bbf6439e94dbfce09d1123db9042b5b8f2cf78574d2a53caea7"
+        }
+      ],
+      "accepted_at": "2026-11-09T05:04:26.950134+08:00",
+      "reason": "原A4实际读0合格中文，真实0英文/分/查询。"
+    },
+    {
+      "id": "H5",
+      "from": "same_A4",
+      "to": "same_A3",
+      "status": "zero_input",
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "A4-zero-input-batch30.json",
+          "sha256": "ff826768a95d31b4da8b604e426294da3efb5700d729041047c09278f9e6f255"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-en-zero-batch30.json",
+          "sha256": "4a7f681bfb9363399e28522d8686fa7107b48b2b2b5589fcb4c28b4581e87044"
+        }
+      ],
+      "accepted_at": "2026-11-09T05:04:26.950134+08:00",
+      "reason": "真实零英语回交原A3，未占EN46/E48。"
+    },
+    {
+      "id": "H6",
+      "from": "same_A3",
+      "to": "root",
+      "status": "zero_input",
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "A3-en-zero-batch30.json",
+          "sha256": "4a7f681bfb9363399e28522d8686fa7107b48b2b2b5589fcb4c28b4581e87044"
+        },
+        {
+          "path": "A3-en-zero-batch30-receipt.json",
+          "sha256": "95461a4d1a374f634459de99ab9de856a1b7d0de87d40f4a9a08b56587c11205"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "continuations/2026-11-08T202508Z/root-C58-zero-closeout.json",
+          "sha256": "406be7865ff4e7b1bb317084cda66558c428b177e88c00aeef15668566e4e6e2"
+        }
+      ],
+      "accepted_at": "2026-11-09T05:04:26.950134+08:00",
+      "reason": "同一原A3实际核124SHA，root实际读MD及输出，0新英语/查询。"
+    },
+    {
+      "id": "H7",
+      "from": "root",
+      "to": "catalog",
+      "status": "zero_input",
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "continuations/2026-11-08T202508Z/root-C58-zero-closeout.json",
+          "sha256": "406be7865ff4e7b1bb317084cda66558c428b177e88c00aeef15668566e4e6e2"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "continuations/2026-11-08T202508Z/decisions-through-batch43.json",
+          "sha256": "f4f7c414e923e29b200bb39fb219a631229086c9582690f066991e5d43d23fce"
+        }
+      ],
+      "accepted_at": "2026-11-09T05:04:26.950134+08:00",
+      "reason": "C58具体证据暂停单列，不进讨论总库，不反复403/不R3。",
+      "terminal_decision": "evidence_hold_no_admission"
+    }
+  ]
+}

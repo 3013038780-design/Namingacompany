@@ -1,0 +1,48 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-09T05:03:14.441789+08:00",
+  "candidate_id": "C1-C59",
+  "name": "原恒星",
+  "version": 2,
+  "rework_attempt": 1,
+  "decision": "accepted_for_same_A3_CN45_after_original_author_scope_clarification",
+  "quality": {
+    "root": 25,
+    "producer": 25,
+    "max_axis_difference": 0,
+    "independence": "先无分预览封root25，再读原作者新稿25，原星两份拒绝不改。"
+  },
+  "source_boundary_correction": "原稿science_boundary复制原星简称范围，原A2实际另档承认/纠正并重读CAS386–399；root实际读新addendum并与已亲读的源文相符。现名原恒星确为中文机构正文既有完整科学名称，非首造；原星非标准简称仅历史名，旧字节照存。不是增加新词形/素材/评分/返工。",
+  "source_limits": "复用NASA278–295一般阶段、CAS376/386–399特定大质量系统和AI示意图文字；不冒原论文/初译史/普遍零核反应/每团都成星或所有结局一致。",
+  "family_review": "同C59/M73恢复完整对象，不另计创意。与原力、经验后天成长、地壳生成、地照光返回关系具体区别，不把所有星形或成长泛词当新族。M72现代思想资料仍未起名。",
+  "refs": [
+    {
+      "path": "A2-preview-batch45.json",
+      "sha256": "f76e6763d3c157c095d0c3a8d903af72e73e3e7f7cd03911f5139adc458c1277"
+    },
+    {
+      "path": "A2-quality-batch45.json",
+      "sha256": "c0f74de159131ebe629b06adcfcef247e43be533c256298de34985f864e5c02e"
+    },
+    {
+      "path": "A2-creation-execution-batch45.json",
+      "sha256": "534e492a2c90b4e49fc419cb9d97fce33ae200f0ed6e2f520373a53452aab259"
+    },
+    {
+      "path": "coordinator-cn-batch45.json",
+      "sha256": "8620624b67aeaec09f515ed6aecdd10635630ae09b28bd0ccdcdac1cf6090248"
+    },
+    {
+      "path": "A2-C59-name-boundary-clarification.json",
+      "sha256": "598fa5e9dd459e9012a0245aebf8b60d39fe62ac71f5781e0fa9655496fae63b"
+    },
+    {
+      "path": "A2-C59-name-boundary-clarification-receipt.json",
+      "sha256": "cf0ced2886e2188741f8fd6f12d664da996594cf7270a9b18572e7d8355f769e"
+    },
+    {
+      "path": "coordinator-family-review-batch44.json",
+      "sha256": "60073d261cc763428a5e3aac8e86c88d8faf488631c290c606d9f8a7d0f5f35d"
+    }
+  ]
+}

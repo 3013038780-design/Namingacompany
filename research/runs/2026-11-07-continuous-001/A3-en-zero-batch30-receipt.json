@@ -1,0 +1,99 @@
+{
+  "role": "Agent 3 actual English zero-input final verification",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-09T04:48:14.702633+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch30.json",
+      "sha256": "ff826768a95d31b4da8b604e426294da3efb5700d729041047c09278f9e6f255"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch30.md",
+      "sha256": "e54e7059cf9b0f07617a26b29a7855159b77a04883e7e3d66f54568a25df94e0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch30-receipt.json",
+      "sha256": "c36f010943448bbf6439e94dbfce09d1123db9042b5b8f2cf78574d2a53caea7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch43.json",
+      "sha256": "6fb6eaf6dcf020625e76adee1252cc25ec0f139d84ca77a878d3e4e9ab27691e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch43-receipt.json",
+      "sha256": "5b6546557cfbca63e3ec6b5f8ee2788b1ae3de054265aa5a13a820e2db55f911"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch44.json",
+      "sha256": "b95f96ac5877be12d4e05947a215b0dc26cc39dd4ff4622b17e55decdd0676bf"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch44-receipt.json",
+      "sha256": "9ad3907d8ebe6caaadf6b0b7048a6e210edc249e7d2ad6f4a9c8bfce13e0bd38"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-CN44-evidence-followup.json",
+      "sha256": "97519016f46a7ba0e29dde986a7a6011e170796a1bb5f1ed495c03a052bcc11e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-CN44-evidence-followup-receipt.json",
+      "sha256": "a77f0da81515cbc2196e6ac880e7386a830a21080456eb5f5403fa98fafe972f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T202508Z/root-C58-terminal-input-review.json",
+      "sha256": "074863e0c50db91cdd6d3e9d64c56823a7d710b62f7adfadc408997f9651048f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch43.json",
+      "sha256": "6738731f2762505b53174c65e7d3065021270f0d49ef358111840047268f2181"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch43.md",
+      "sha256": "9aa7c598f64202907e95ffb33251892507354bbf6240ef6e6e1f81a4a48e1645"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch43.json",
+      "sha256": "ad0017d303f86388298132dcfaecf969224d39ae6af1b3ad7bc213942a07eaaf"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch43.json",
+      "sha256": "077d041f00294d4efa5e7c9d6a2a2e609ca65d36648b634fc22b6c65821ab98f"
+    }
+  ],
+  "all_hashes_match": true,
+  "candidate_id": "C1-C58",
+  "submitted_chinese_spellings": [
+    "洋脊",
+    "洋中脊"
+  ],
+  "eligible_chinese_input_count": 0,
+  "actual_english_input_count": 0,
+  "actual_english_output_count": 0,
+  "actual_new_candidate_queries": 0,
+  "actual_new_registration_attempts": 0,
+  "actual_new_control_queries": 0,
+  "actual_new_external_reads": 0,
+  "decision": "completed_actual_zero_English_final_check_with_CN_EVIDENCE_HOLD",
+  "completed_chinese_reworks": 2,
+  "remaining_chinese_reworks": 0,
+  "no_R3": true,
+  "EN46_and_E48_not_consumed": true,
+  "query_attribution": "本次0；此前CN43九/CN44九/A3定向三，root另两与历史两分列，不冒他人执行。",
+  "agent3_cumulative_candidate_queries": 701,
+  "agent3_cumulative_returned_candidate_results": 700,
+  "root_independent_queries_reported": 4,
+  "run_cumulative_candidate_queries": 705,
+  "run_cumulative_returned_candidate_results": 704,
+  "boundary": "实际读取固定原A4回执与中文记录后终核，非未开始当零；不重访403/空下载/超时，无新英语救名；本包角色收尾，不自开下一批。旧字节/库queue/Git未改。",
+  "hash_check_count": 124,
+  "outputs": [
+    {
+      "path": "A3-en-zero-batch30.json",
+      "sha256": "4a7f681bfb9363399e28522d8686fa7107b48b2b2b5589fcb4c28b4581e87044"
+    },
+    {
+      "path": "A3-en-zero-batch30.md",
+      "sha256": "470af0f1c5c371a61a82992f8c73804111b30b739af3d28997601776d2ba5b4a"
+    }
+  ]
+}

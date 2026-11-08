@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 bounded CN44 evidence follow-up",
+  "completed_at": "2026-11-09T04:44:14.748318+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch44.json",
+      "sha256": "b95f96ac5877be12d4e05947a215b0dc26cc39dd4ff4622b17e55decdd0676bf"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch44.md",
+      "sha256": "ad303f2565814eadc681197d7babc0313100cd43b6cf78162f543833eaad483b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch44-receipt.json",
+      "sha256": "9ad3907d8ebe6caaadf6b0b7048a6e210edc249e7d2ad6f4a9c8bfce13e0bd38"
+    }
+  ],
+  "candidate_id": "C1-C58",
+  "name": "洋中脊",
+  "version": 3,
+  "rework_attempt": 2,
+  "actual_new_candidate_queries": 3,
+  "completed_candidate_search_results": 3,
+  "actual_new_external_body_opens": 0,
+  "previous_failed_entries_not_retried": true,
+  "decision": "retain_EVIDENCE_HOLD_stop_repeating_unread_specific_lead",
+  "remaining_chinese_reworks": 0,
+  "eligible_chinese_for_english_count": 0,
+  "prior_agent3_candidate_queries": 698,
+  "prior_agent3_returned_candidate_results": 697,
+  "agent3_cumulative_candidate_queries": 701,
+  "agent3_cumulative_returned_candidate_results": 700,
+  "root_independent_queries_reported": 4,
+  "root_query_count_boundary": "原历史2，root本次报告自己另查2均返回同两PDF，A3不冒做这2条。",
+  "run_cumulative_candidate_queries": 705,
+  "run_cumulative_returned_candidate_results": 704,
+  "next": "停止此具体线索重复入口，保留待核实；等原A4实际zero30交接后同A3终核，不R3/不配英语。",
+  "unchanged": "旧稿/评分/库queue/Git不改，无网页全文。",
+  "outputs": [
+    {
+      "path": "A3-CN44-evidence-followup.json",
+      "sha256": "97519016f46a7ba0e29dde986a7a6011e170796a1bb5f1ed495c03a052bcc11e"
+    },
+    {
+      "path": "A3-CN44-evidence-followup.md",
+      "sha256": "65424b1ba42ecf7c3141b4d42c7739900c0603b696bda5ba55d05ed80bd60c03"
+    }
+  ]
+}
