@@ -1,0 +1,66 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese screening",
+  "executed_at": "2026-11-08T23:30:47.541136+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch29.json",
+      "sha256": "780d764e852ce7ad10b78f299763512d2079561557b928fdb553480d6acfa01e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch29.json",
+      "sha256": "890f503487776dcac1915a85c2c8d5b2ee934266ebdc292c3020cb28d565a6bf"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch29.json",
+      "sha256": "a327fd3dc312db6e3f4a8749d2688b22fb1001f000de5ec0f3875a1e2361bbe3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension27.json",
+      "sha256": "e6a46bceabc5d35190d2aabb0cbf02dedfbe3e7a68389e47e5542c8731ade31d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch29.json",
+      "sha256": "057efaa78caeeb23cb4bf580e165b743134411987dde24dcb9463b76af42a299"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch29.json",
+      "sha256": "3cfbb2ddf9a3a1da24ea5c239e227e8e6678ecc6dfd8a28cfb81978fa0c4379a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch31.json",
+      "sha256": "5fbb8fadc893d38a198b045c0e553ed059814efebd6a2fc3deeea26506b61292"
+    },
+    {
+      "path": "A3-cn-batch31.md",
+      "sha256": "f4e5dd60a1be17ceb5240bb632b9ad08eac13c198621e2697cf50eaed45733e3"
+    }
+  ],
+  "actual_new_candidate_queries": 17,
+  "completed_candidate_search_results": 17,
+  "unreturned_search_attempts": 0,
+  "actual_new_chinese_queries": 17,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 530,
+  "prior_agent3_returned_candidate_results": 529,
+  "agent3_cumulative_candidate_queries": 547,
+  "agent3_cumulative_returned_candidate_results": 546,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 549,
+  "run_cumulative_returned_candidate_results": 548,
+  "passed_english_candidate_ids": [],
+  "returned_english_candidate_ids": [],
+  "quality_rejected_not_searched_ids": [],
+  "actual_execution": "真实17有效查询、学术语境与企业主体正文核验；英国详情可读、台湾403和上海后续超时如实，未假工商/9、42核准。",
+  "next": "仅C48交原A4英文匹配；C49拒绝不配英文。",
+  "unchanged": "旧记录/库/队列/Git未改，无网页全文。",
+  "passed_chinese_candidate_ids": [
+    "C1-C48"
+  ],
+  "rejected_chinese_candidate_ids": [
+    "C1-C49"
+  ]
+}

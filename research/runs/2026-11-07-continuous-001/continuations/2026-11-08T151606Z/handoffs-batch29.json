@@ -1,0 +1,163 @@
+{
+  "accepted_at": "2026-11-08T23:46:06.220126+08:00",
+  "same_research_run": true,
+  "new_A1_basis_for_batch29": false,
+  "whole_production_compliance_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "from": "existing_A1",
+      "to": "same_A2",
+      "status": "accepted",
+      "reason": "批29真实沿原方向与当时已核案例；本次稍后补核02不反写为已创作输入。",
+      "refs": [
+        {
+          "path": "A1-role-expansion01.json",
+          "sha256": "bbb6c1f816e0942aa2ee0e5e7cca52437db41e909ceaa7a62fde0583a374dec4"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "search-plan-role-expansion01.json",
+          "sha256": "f31362aa572027c687bec63511fdd041da77add18b23214268d34c277b0d0610"
+        },
+        {
+          "path": "A2-creation-execution-batch29.json",
+          "sha256": "a327fd3dc312db6e3f4a8749d2688b22fb1001f000de5ec0f3875a1e2361bbe3"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "from": "same_A2",
+      "to": "root",
+      "status": "accepted",
+      "reason": "不同计算状态/共同星球完整关系，中文均双25，实际来源与旧家族对照；先无分独评封存。",
+      "refs": [
+        {
+          "path": "materials-extension27.json",
+          "sha256": "e6a46bceabc5d35190d2aabb0cbf02dedfbe3e7a68389e47e5542c8731ade31d"
+        },
+        {
+          "path": "A2-candidates-batch29.json",
+          "sha256": "780d764e852ce7ad10b78f299763512d2079561557b928fdb553480d6acfa01e"
+        },
+        {
+          "path": "A2-quality-batch29.json",
+          "sha256": "890f503487776dcac1915a85c2c8d5b2ee934266ebdc292c3020cb28d565a6bf"
+        },
+        {
+          "path": "coordinator-cn-batch29.json",
+          "sha256": "057efaa78caeeb23cb4bf580e165b743134411987dde24dcb9463b76af42a299"
+        },
+        {
+          "path": "coordinator-family-review-batch29.json",
+          "sha256": "3cfbb2ddf9a3a1da24ea5c239e227e8e6678ecc6dfd8a28cfb81978fa0c4379a"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "from": "root",
+      "to": "same_A3",
+      "status": "accepted_mixed",
+      "reason": "第三真值十查询过；同星七查询已有同核心同星科技公开用名拒绝。",
+      "refs": [
+        {
+          "path": "A3-cn-batch31.json",
+          "sha256": "5fbb8fadc893d38a198b045c0e553ed059814efebd6a2fc3deeea26506b61292"
+        },
+        {
+          "path": "A3-cn-batch31-receipt.json",
+          "sha256": "8bc518e90e27c29de3a15492e10f6b0bf1ad0addd2f7dc10f6bca76b06025aab"
+        },
+        {
+          "path": "continuations/2026-11-08T151606Z/root-cn31-review.json",
+          "sha256": "cd30a38993ae1cf5164bd9767b371b511fa7851bf7e4bce6851d6fd321cafc4c"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "from": "same_A3",
+      "to": "same_A4",
+      "status": "accepted_partial",
+      "reason": "C48有资格匹配Neither；C49无资格0英文，不写整批零。",
+      "refs": [
+        {
+          "path": "A4-candidates-batch36.json",
+          "sha256": "8bcfa86cecb21cdaf5b40d8c4ec6cf6c9656e0149d5dd94b5ddb4883987079f0"
+        },
+        {
+          "path": "A4-creation-execution-batch36.json",
+          "sha256": "6ca0c3d714a744900acd2d447bf87fb45d6cb50526c996a3b95c716d1fece961"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "from": "same_A4",
+      "to": "same_A3",
+      "status": "accepted_then_quality_return",
+      "reason": "Neither质量过送查，Undetermined首返质量主控20未过，同A3实际零市场验收。",
+      "refs": [
+        {
+          "path": "coordinator-en-batch36.json",
+          "sha256": "b38a977ea641e3285879587dd051e5dab83c80c535cd22a1b06c6cfb10ac397b"
+        },
+        {
+          "path": "A4-quality-batch36.json",
+          "sha256": "1b2334955667215bbbbd5de78351ed2446c783b94f7c51761d6dcd2b9331de45"
+        },
+        {
+          "path": "coordinator-en-batch37.json",
+          "sha256": "b14f43c216e5c561c86940005ba9e2527fdf96a5bc96c9ea8e929e5ac82c4149"
+        },
+        {
+          "path": "A4-quality-batch37.json",
+          "sha256": "022e65d4d870dd7c4540ca4a11fc06fb39bc7b673a3297da8c85f78ca05ba326"
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "from": "same_A3",
+      "to": "root",
+      "status": "completed_no_survivor",
+      "reason": "Neither具名AI软件拒绝；R1质量不合格未查；最后R2无选稿实际0终验，同一A3双语未跳角色。",
+      "refs": [
+        {
+          "path": "A3-en-batch36.json",
+          "sha256": "146267daf1e47ac557e3d52c66336d0159afe31bb99867a637207eae8c009b68"
+        },
+        {
+          "path": "A3-en-batch37.json",
+          "sha256": "6ddade83ade21283171176f0286daddea245e8dc4f3afb72c5cca28c49ec3332"
+        },
+        {
+          "path": "A4-creation-execution-batch38.json",
+          "sha256": "3e70b030e2c9458f7df298284d33df2145346badbf8bc3c5d42894415b1d9668"
+        },
+        {
+          "path": "A3-en-batch38.json",
+          "sha256": "d4abce763f9e9471b433c0ccf60682ff4cdd735ab707b43c269908e644feda6b"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "from": "root",
+      "to": "catalog",
+      "status": "no_admission",
+      "reason": "C48英语返工尽无合格配对，C49中文使用拒绝；真实零入库，整体研究接续。",
+      "refs": [
+        {
+          "path": "continuations/2026-11-08T151606Z/root-C48-terminal-review.json",
+          "sha256": "ef119d78c8d2d609ea5d37bd2717973be8ecaa657b1bb3062cdab76f21f66475"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T23:39:54.721908+08:00",
+  "protocol_version": "1.1",
+  "plan_type": "additive_role_expansion02_to_existing_six_worlds",
+  "no_new_names": true,
+  "no_new_materials": true,
+  "not_retroactive_to_batch29": true,
+  "original_plan_ref": {
+    "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+    "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+  },
+  "previous_role_addendum_ref": {
+    "path": "research/runs/2026-11-07-continuous-001/search-plan-role-expansion01.json",
+    "sha256": "f31362aa572027c687bec63511fdd041da77add18b23214268d34c277b0d0610"
+  },
+  "new_A1_ref": {
+    "path": "research/runs/2026-11-07-continuous-001/A1-role-expansion02.json",
+    "sha256": "6a127ec64699a257e20f7959a2ce3309e8cefe7c2c117134c2220612a3dc3181"
+  },
+  "source_page_clarification_ref": {
+    "path": "research/runs/2026-11-07-continuous-001/A1-role-expansion02-page-scope-clarification.json",
+    "sha256": "8ed9c1ae49244aaee8b97ddf8e0e06e4693c6b849dfdf9face6de3c1ce75c0f9"
+  },
+  "acceptance_ref": {
+    "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T151606Z/A1-expansion02-acceptance.json",
+    "sha256": "0ed20551c3dd3ea104a0f40f3ce76a57fcb48d3ac6eef3d9b325deed05a55c62"
+  },
+  "frozen_history_ref": {
+    "path": "research/runs/2026-11-07-continuous-001/A2-history-role-expansion02.json",
+    "sha256": "7d8816a2ffdd9dd888ea1db39c9a2b1042c23a0e0f8f79456fd88a5e646a9e57"
+  },
+  "directions": [
+    {
+      "id": "C1-RX02-P1",
+      "title": "新活动范围怎样成为可能，认识方法怎样被实践",
+      "macro_ids": [
+        "S2",
+        "S3",
+        "S5",
+        "S6"
+      ],
+      "original_direction_refs": [
+        "C1-D-S2",
+        "C1-D-S3",
+        "C1-D-S5",
+        "C1-D-S6"
+      ],
+      "case_refs": [
+        {
+          "case_id": "B001",
+          "name": "寒武纪 / Cambricon",
+          "analysis_location": "A1-role-expansion02.json cases/B001",
+          "case_finding": "承载的不是一块芯片的形状，而是多种新能力走入生活的时代。自然史提供整个世界的时间尺度，公司占据参与开启这一阶段的位置。",
+          "evidence_boundary": "original_interview_explicit_founder_attribution",
+          "transfer_not_copy": "时代参与者与基础能力推动者，可跨具体芯片型号。"
+        },
+        {
+          "case_id": "B004",
+          "name": "第四范式 / 4Paradigm",
+          "analysis_location": "A1-role-expansion02.json cases/B004",
+          "case_finding": "一个真正能涵盖许多研究对象的方法论，成为机构身份。科学材料并不只剩器件、符号或算法的部件名称，也可以讲知识如何产生。",
+          "evidence_boundary": "original_founder_interview_reporter_naming_attribution_plus_primary_concept_book",
+          "transfer_not_copy": "新认识方式的实践者与提供者，而非一代功能软件。"
+        },
+        {
+          "case_id": "B028",
+          "name": "Runway",
+          "analysis_location": "A1-role-expansion01.json cases/B028",
+          "case_finding": "新核命名采访中的平台关系：让艺术家有条件使用models，机构可为他者创造提供条件，而不是一件物体。",
+          "evidence_boundary": "已验收角色补充01事实；本步不重新外开采访，也不把当前世界模拟目标当原始选名动机。"
+        }
+      ],
+      "transfer_mechanism": "寒武纪借整段新活动时代，第四范式借认识方式，Runway补谁由此能行动。去找条件改变后什么新主体/新问题/新做法开始出现，以及限制；不先摘时代名、爆发或第几的模板。",
+      "questions": [
+        "哪个实际转变使过去不能观察、记录、比较或参与的事情变得可能？它除了更快/更多，还改变了研究者能提出什么问题？",
+        "新活动依赖哪些共同条件与参与者；条件失去时会失败在哪，原作者的解释和实证各到哪里？",
+        "公司可承担的是提供何种认识/活动条件，而不是把某个仪器、数据量或时代名等同自身？"
+      ],
+      "queries": {
+        "zh": [
+          "科学史 新观察 新问题 记录 比较 方法 作者 原文",
+          "研究基础设施 数据管理 使研究成为可能 科研人员 具体案例"
+        ],
+        "en": [
+          "scientific practice new observable questions data infrastructure primary authors",
+          "Thomas Kuhn revolutions changes world view chapter scientific practice",
+          "Fourth Paradigm data intensive discovery case studies data curation scientific questions"
+        ]
+      },
+      "planned_sources": [
+        {
+          "title": "The Fourth Paradigm: Data-Intensive Scientific Discovery",
+          "author": "Microsoft Research编者原书；具体实例章作者待核目录",
+          "target": "先核正式目录，选一段前言以外、展示采集/管理/分析如何改变实际问题范围的实例正文，不重复宣称A2已读A1前言。",
+          "selection_reason": "承接第四范式的认识方法身份，找条件和实际活动，不拿数据规模当真理。",
+          "planned_entry": "Microsoft Research原书PDF；此前A1前言实体13–15页/印刷xi–xiii的澄清仅作边界，下一篇章仍未读。",
+          "access_status": "planned_not_read",
+          "edition_and_pages": "先核正式目录/版本与合法正文可读性，再记录实际章页；此处不预填已读页数。"
+        },
+        {
+          "title": "The Structure of Scientific Revolutions",
+          "author": "Thomas S. Kuhn",
+          "target": "拟定位Revolutions as Changes of World View相关章中的具体科学实践案例；章节编号/版本实访核。",
+          "selection_reason": "比较认识方法变化如何影响对象/问题，不把Kuhn的范式定义与数据密集科学标签无条件混用。",
+          "planned_entry": "出版社样章/作者资料/图书馆合法节选待定位。",
+          "access_status": "planned_not_read",
+          "edition_and_pages": "先核正式目录/版本与合法正文可读性，再记录实际章页；此处不预填已读页数。"
+        }
+      ],
+      "news_plan": {
+        "status": "planned_not_read",
+        "entry": "中国科学院、作者大学与科学设施研究团队的原始新闻/访谈，优先记录/比较/新问题形成的具体实例。",
+        "query_zh": "site:cas.cn 科研 数据 观测 新问题 研究方法 原理 2026",
+        "query_en": "university research new scientific questions data archive participation 2026",
+        "date_policy": "实际打开后核发表日期和正文，近90天窗按实际读日算；不把设施首页日期、项目愿望或页脚更新当新研究。"
+      },
+      "selection_criteria": [
+        "能说明条件变化前后谁可以做什么，存在完整的世界/实践关系，而非只报参数提升。",
+        "名字可成为时代参与者或认识方法实践者；自然完整称呼和Lab身份独立评，不以宏大背景补分。"
+      ],
+      "rejection_criteria": [
+        "照抄地质纪年、第五/第六某某、爆发跃迁或给词根加智/元。",
+        "把自然生命史等同AI规律，把数据量等同真理，或把一件仪器的功能再当整个机构。"
+      ],
+      "history_risks": [
+        "既有相变/临界网络、下一无穷、公设之外/未尽之问、反例、有界好奇、第三真值均需按具体关系对照；新书/新编号不自动新家族。",
+        "与C44构境的活动中重定问题、C31未然机的反事实、旧NASA单格及视觉感知区分；若仅剩换视角/探索未来应停止。"
+      ],
+      "next_deliverable": "实际读少量作者正文后先写一个条件—参与者—新活动关系与限制；有自然机构身份才凝练中文，不为每文配名。"
+    },
+    {
+      "id": "C1-RX02-P2",
+      "title": "从中国文化中的完整行动与关系取得可称呼身份",
+      "macro_ids": [
+        "S4",
+        "S1",
+        "S5"
+      ],
+      "original_direction_refs": [
+        "C1-D-S4",
+        "C1-D-S1",
+        "C1-D-S5"
+      ],
+      "case_refs": [
+        {
+          "case_id": "B006",
+          "name": "百度 / Baidu",
+          "analysis_location": "A1-role-expansion02.json cases/B006",
+          "case_finding": "文化材料提供的是一个人正在寻找的完整行动，不仅是两字漂亮。人的寻找与计算检索共享一个真实动作关系，因此能把机器技术接入人的语言经验。",
+          "evidence_boundary": "original_event_reporting_not_literal_founder_naming_quote",
+          "transfer_not_copy": "帮助人接近所寻事物的技术主体；本步不把2005年只做搜索的表态当公司永恒业务承诺。"
+        },
+        {
+          "case_id": "B029",
+          "name": "Hugging Face",
+          "analysis_location": "A1-role-expansion01.json cases/B029",
+          "case_finding": "普通身体/社交表达可先让深技术机构成为可参与的伙伴；可借完整关系而不是可爱字面。",
+          "evidence_boundary": "角色补充01核了词义与当前协作语境，未核emoji历史动机；本步不改成创始释名。"
+        },
+        {
+          "case_id": "B015",
+          "name": "Sony / 索尼",
+          "analysis_location": "A1.json cases/B015；A1-formation-feedback.md F3/F5",
+          "case_finding": "真实来源可融合成可独立发音的整体；中文也可凝练完整关系，不要求只摘古书现成双字。",
+          "evidence_boundary": "原A1及formation反馈已核；语言机制是研究分析，不把所有组合都称成功模板。"
+        }
+      ],
+      "transfer_mechanism": "百度借的是人正在做什么，HF借人与人怎样相处，Sony允许自然的新整体。去读行动者、对象、条件和他者关系都可说清的中国实践；文化厚度来自原文动作，不靠古雅字。现代中文优先，古文只保留有限可选入口。",
+      "questions": [
+        "原文中一个人怎样与他者、材料或约定发生关系，这个行动为什么需要该情境才成立？",
+        "这个行动/角色今天能否不用古雅词也被理解，能否借给公司一种长期身份，而非书店/手工课/育儿服务？",
+        "凝练会保留哪一独特关系、丢掉哪些历史条件；它是否其实只是旧寻找、验真、作数或师徒协作换字？"
+      ],
+      "queries": {
+        "zh": [
+          "中国 现代 知识实践 行动 角色 关系 作者 正文",
+          "费孝通 乡土中国 差序格局 礼治秩序 原文 正式版本",
+          "天工开物 陶埏 冶铸 原文 工序 注释 博物馆"
+        ],
+        "en": [
+          "Chinese knowledge practices social relationships primary author text",
+          "Fei Xiaotong From the Soil differential mode association chapter excerpt",
+          "Tiangong Kaiwu pottery casting primary text museum interpretation"
+        ]
+      },
+      "planned_sources": [
+        {
+          "title": "乡土中国",
+          "author": "费孝通",
+          "target": "优先核差序格局/礼治秩序篇的具体行动及关系例证；先找正式原文节选，不由二手口号替代作者正文。",
+          "selection_reason": "补现代中文文化来源，观察关系如何组织行动；不是宣称乡土解释是普遍人性或要求公司采同制度。",
+          "planned_entry": "作者作品正式版本/出版社样章或高校合法原文入口待定位。",
+          "access_status": "planned_not_read",
+          "edition_and_pages": "先核正式目录/版本与合法正文可读性，再记录实际章页；此处不预填已读页数。"
+        },
+        {
+          "title": "天工开物（有限备选）",
+          "author": "宋应星",
+          "target": "仅在现代入口不足且有潜力时选陶埏或冶铸中的一个具体工序段，配可读注释核原意；不预分配名字。",
+          "selection_reason": "以完整人类行动而非古雅器物字为素材；一段能清楚说明何人在何条件下做何事即可，不通读整书凑工作量。",
+          "planned_entry": "权威古籍正文及博物馆/科学史解释入口待定位，读到才算古文卡。",
+          "access_status": "planned_not_read",
+          "edition_and_pages": "先核正式目录/版本与合法正文可读性，再记录实际章页；此处不预填已读页数。"
+        }
+      ],
+      "news_plan": {
+        "status": "planned_not_read",
+        "entry": "中国科技馆、博物馆/科学史团队或作者机构的当代实践正文，须能定位具体行动与角色，不只是展览标题。",
+        "query_zh": "博物馆 科学史 知识实践 工序 人物 行动 原文",
+        "query_en": "Chinese museum knowledge practice craft action primary account",
+        "date_policy": "历史事迹年代与网页发表日期分开；只有实际满足窗口的新闻才计近90天。"
+      },
+      "selection_criteria": [
+        "一条可在日常语言中复述的完整行动/关系，可进一步凝练成整体称呼或有据融合。",
+        "现代中文及少量古文并用，原文、现代解释、品牌联想分层。"
+      ],
+      "rejection_criteria": [
+        "寻/探/求、同诗句近邻词或寻找故事改字复活；把记者词源报道改成创始人逐字释名。",
+        "只剩古风字、器物部件、文创/家具/育儿首感；不因古书真实就放行。"
+      ],
+      "history_risks": [
+        "旧验合/合符、作数/算筹、伶伦/隶首/开明兽、活字/织数/飞梭、残卷重逢均需比较对象—动作—条件，不能换朝代或材料就算新。",
+        "刚读过共同实践/熟手/千手稿等协作认识角色不再换词；若只剩群体/伙伴/共同维护，应退旧家族。"
+      ],
+      "next_deliverable": "实际读一个作者具体例证及必要注释后，先确定可借角色与原义限制；不照着古文字库排列组合，不为古文比例补名。"
+    }
+  ],
+  "coverage_policy": "只增加两条宽寻找路径，原S1–S6全部仍有效，不重做105/方法工程。古文≤15%、单类≤30%、原来源与质量/返工/查重门槛均不改；不把古文15%当必须凑满。",
+  "unknown_name_policy": "本阶段无名字；未知入口标计划未读，不补作者原书汉字/页码或词源。未来来源未确认词不编故事。",
+  "pilot_plan": {
+    "reading_status": "new_entries_planned_not_read",
+    "search_status": "queries_planned_not_executed",
+    "next_action": "待root内部验收后沿已授权持续任务实际阅读少量正文并继续中文，不增加用户审批。",
+    "new_materials": 0,
+    "new_names": 0,
+    "new_english": 0
+  }
+}

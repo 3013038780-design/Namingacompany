@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-08T23:34:33.006871+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E39",
+      "chinese_id": "C1-C48",
+      "english": "Neither",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个常规音节的完整词可连贯称呼，无拼凑读音。",
+          "counter_association": "两种标准读法并存，th对中文口语有门槛。"
+        },
+        "spelling": {
+          "reason": "完整neither不改字母，常用词结构可识别。",
+          "counter_association": "ei次序和th需要确认，不能许诺首听必会写。"
+        },
+        "grounding": {
+          "reason": "代词真义和unknown不同于既有两类构成真实分类关系。",
+          "counter_association": "这不是数据库正式状态名，日常neither也不自动代表三值逻辑。"
+        },
+        "bilingual_relation": {
+          "reason": "中文第三位置与英文相对真/假的分类关系指向同一unknown状态。",
+          "counter_association": "英文未单独说出真/假或SQL，必须保留短释义。"
+        },
+        "distinctiveness": {
+          "reason": "单个紧凑常用词有明确反差，能独立作为称呼而非功能长句。",
+          "counter_association": "消极/拒绝选择或文化服饰首感存在，不能用未筛来担保独占。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "编辑自评非消费者测试，原门槛不改；主控先无分独评，不能以计算出处真实补品牌不足。"
+    }
+  ]
+}

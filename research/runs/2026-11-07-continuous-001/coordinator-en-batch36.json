@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-08T23:35:58.568981+08:00",
+  "independence": "Read producer preview batch36 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C48",
+      "name": "Neither",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "完整常用词两种标准读法均能自然叫",
+          "counter_association": "th与双读音首次口头需约定"
+        },
+        "spelling": {
+          "reason": "原拼写熟悉无避重改字母",
+          "counter_association": "ei听写可能反置"
+        },
+        "grounding": {
+          "reason": "不属于所对照两类这一词义真实",
+          "counter_association": "不是SQL正式状态名或NOT公式替代"
+        },
+        "bilingual_relation": {
+          "reason": "以类别关系对应unknown区别于true/false而非重复数字",
+          "counter_association": "是元层类别主题而非第三客观真理"
+        },
+        "distinctiveness": {
+          "reason": "短单词和明确态度有独立称呼辨识",
+          "counter_association": "否定拒绝选择及服饰文化品牌首感"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E39"
+    }
+  ]
+}

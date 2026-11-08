@@ -1,0 +1,242 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T23:30:47.541136+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch29.json",
+      "sha256": "780d764e852ce7ad10b78f299763512d2079561557b928fdb553480d6acfa01e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch29.json",
+      "sha256": "890f503487776dcac1915a85c2c8d5b2ee934266ebdc292c3020cb28d565a6bf"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch29.json",
+      "sha256": "a327fd3dc312db6e3f4a8749d2688b22fb1001f000de5ec0f3875a1e2361bbe3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension27.json",
+      "sha256": "e6a46bceabc5d35190d2aabb0cbf02dedfbe3e7a68389e47e5542c8731ade31d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch29.json",
+      "sha256": "057efaa78caeeb23cb4bf580e165b743134411987dde24dcb9463b76af42a299"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch29.json",
+      "sha256": "3cfbb2ddf9a3a1da24ea5c239e227e8e6678ecc6dfd8a28cfb81978fa0c4379a"
+    }
+  ],
+  "query_count": 17,
+  "results": [
+    {
+      "candidate_id": "C1-C48",
+      "name": "第三真值",
+      "query_logs": [
+        {
+          "query": "\"第三真值\"",
+          "executed_on": "2026-11-08",
+          "summary": "主要学术论文/教材与专利第三真值框描述，无具体同名商业主体确证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"第三真值科技\"",
+          "executed_on": "2026-11-08",
+          "summary": "单独科技精确返回分散第三/真等文本与异名科技资讯，无本名公司确证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"第三真值智能\"",
+          "executed_on": "2026-11-08",
+          "summary": "单独智能精确主要AI资讯泛页，无本名智能主体确证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"第三真值\" AI 模型 软件 公司",
+          "executed_on": "2026-11-08",
+          "summary": "AI模型软件主要逻辑学术论文/异名模型资料，不以SQL普通状态当产品名。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"第三真值\" 公司 軟體 品牌",
+          "executed_on": "2026-11-08",
+          "summary": "繁简同形加繁体公司软件品牌检索，主要逻辑论文与直真科技异名，非本名。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"disanzhenzhi\" company \"ThirdTruthValue\"",
+          "executed_on": "2026-11-08",
+          "summary": "合并拼音/英文近似条件无结果；另分别单独查询，不靠这条排除两个单项。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"第3真值\" \"第三值\" 公司 软件",
+          "executed_on": "2026-11-08",
+          "summary": "序数和简称变形主要直真科技/普通第三值描述，不把不同核心当本名；此组合不能代表各变形所有登记。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"第三真值\" 有限公司",
+          "executed_on": "2026-11-08",
+          "summary": "公司后缀独立补搜主要学术论文/教材，无具体本名公司确证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"disanzhenzhi\"",
+          "executed_on": "2026-11-08",
+          "summary": "拼音独立查询无结果，不称全球无使用。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"ThirdTruthValue\"",
+          "executed_on": "2026-11-08",
+          "summary": "英文连写近似独立查询命中论文OCR连词thirdtruthvalue，普通逻辑术语；仅中文辅助，不是本轮英文名提案或英文通过。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "pass_public_use_initial_screen_only",
+      "reason": "10实际有效查询未确证本中文独立公司/软件/模型商业核心。主要学术三值逻辑术语与第三真值框专利描述，不以普通术语当品牌。仅公开初筛，未来英文须另配独立筛查，登记未清。",
+      "evidence": [
+        {
+          "url": "https://www.tup.tsinghua.edu.cn/upload/books/yz/090897-01.pdf",
+          "access": "publisher_sample_pdf_selected_text_read",
+          "finding": "PDF页14(印刷014)L365–375第三真值逻辑是教材讨论表达，不是软件品牌。仅核命名使用语境，不背书该段全部哲学/逻辑结论，也不将此新查来源回写A2原SQL文档。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403，本批未重访/未逐名逐类核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403，本批未重访/未逐名逐类核准。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Disanzhenzhi",
+          "scope": "2026-11-08逐名Disanzhenzhi搜索入口不可访问，不称无登记。"
+        }
+      },
+      "risks": [
+        "学术表达/论文标题首感与第三真理误读",
+        "第三真值并非本轮全球首造",
+        "公司与9/42登记未清，英文未配未筛"
+      ]
+    },
+    {
+      "candidate_id": "C1-C49",
+      "name": "同星",
+      "query_logs": [
+        {
+          "query": "\"同星\"",
+          "executed_on": "2026-11-08",
+          "summary": "命中浙江同星科技巨潮公告，实际开两页公司公告核完整用名。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"同星科技\"",
+          "executed_on": "2026-11-08",
+          "summary": "单独科技精确命中浙江上市公司和台湾科技公司登记索引；台湾入口403，只索引不当正文核注册。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"同星智能\"",
+          "executed_on": "2026-11-08",
+          "summary": "单独智能精确命中上海同星智能官网与软件业务；初开导航可读、随后about定位find超时，未冒阅读未返段。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"同星\" AI 模型 软件 公司",
+          "executed_on": "2026-11-08",
+          "summary": "AI软件组有同星TSMaster等具体软件线索，核心已有公司证据充分；9类商标为第三方索引未核法律状态。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"同星\" 公司 軟體 品牌",
+          "executed_on": "2026-11-08",
+          "summary": "繁简同形补繁体软件/公司检索，台湾同星科技索引与上海主体，不能称大陆9/42已清。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"tongxing\" company AI",
+          "executed_on": "2026-11-08",
+          "summary": "拼音命中英国TONGXING LIMITED，实际开官方详情可读Active及批发/果蔬零售；不知中文对应名，不冒同一公司。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"童星\" 科技 软件",
+          "executed_on": "2026-11-08",
+          "summary": "童星异字近音科技企业线索，非同星精确主证；不混称中文同名。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "reject_existing_exact_core_technology_company",
+      "reason": "实际读巨潮上市公司公告完整浙江同星科技股份有限公司及证券简称同星科技，科技为后缀，同星核心相同。拒绝不依童星异字或拼音。公告不是本次工商/商标核名；不把英国拼音公司当同一中文主体。",
+      "evidence": [
+        {
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225449115.PDF",
+          "access": "primary_listed_company_announcement_pdf_text_read",
+          "finding": "两页公告页1L0–6、页2L43–45完整浙江同星科技股份有限公司、同星科技简称及2026-07-30落款。仅核企业公开用名，不给出新工商/商标核准。"
+        },
+        {
+          "url": "https://www.tosunai.com/aboutus/",
+          "access": "primary_site_initial_open_navigation_read_followup_timeout",
+          "finding": "初开546行页面返回前段含TSMaster及硬软件导航；后续find具体公司/about段超时，未声称已读后段。搜索摘要为上海同星智能主体，非本案唯一主证。"
+        },
+        {
+          "url": "https://findbiz.nat.gov.tw/fts/company/54046101",
+          "access": "official_registry_endpoint_403_search_index_only",
+          "finding": "检索摘要为同星科技股份有限公司，实际打开403；不把摘要当本次可读官方登记记录。"
+        },
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/12245314",
+          "access": "official_company_detail_body_read",
+          "finding": "L13–15 TONGXING LIMITED 12245314；L27–33 Active/2019成立；L47–50批发及果蔬零售。拼音现有公司但未核中文对应，不等同同星中文主体。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403，本批未重访/未逐名逐类核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403，本批未重访/未逐名逐类核准。"
+        },
+        "uk_company": {
+          "status": "individual_detail_accessible",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/12245314",
+          "scope": "本次实际读详情状态及SIC，仅本公司拼音，不是全球名称登记清单或本中文批准。"
+        },
+        "taiwan_company": {
+          "status": "unavailable_403",
+          "url": "https://findbiz.nat.gov.tw/fts/company/54046101",
+          "scope": "本次实际打开403，检索摘要不冒正文注册核验。"
+        }
+      },
+      "risks": [
+        "同星核心已有科技公司公开使用，停止英文",
+        "童星/同行等近音不冒精确同名",
+        "英国拼音企业与大陆/台湾中文主体未认同一；9/42未清"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "quality_rejected_not_searched_ids": [],
+  "completed_search_result_count": 17,
+  "new_failed_search_attempts": 0,
+  "controls_reused_not_new": "原run2阳性对照，本批0新对照。",
+  "passed_chinese_candidate_ids": [
+    "C1-C48"
+  ],
+  "rejected_chinese_candidate_ids": [
+    "C1-C49"
+  ]
+}

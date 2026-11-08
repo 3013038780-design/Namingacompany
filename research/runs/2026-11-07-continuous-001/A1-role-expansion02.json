@@ -1,0 +1,313 @@
+{
+  "agent_id": "/root/continuous_a1",
+  "role": "A1",
+  "completed_at": "2026-11-08T23:24:25.909303+08:00",
+  "protocol_version": "1.1",
+  "stage": "bounded_role_expansion02",
+  "scope": "只补核105基线3个本run之前未实质核验案例，不创作本公司名，不重开计划。",
+  "applies_to": "仅供主控验收后batch29之后下一A2包；不得反写已启动batch29输入或给旧创作事后贴标签",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/inputs/A1-role-expansion02/README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba",
+      "read_scope": "本步完整读取当前规范/反馈；冻结副本，不改原文"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/inputs/A1-role-expansion02/AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80",
+      "read_scope": "本步完整读取当前规范/反馈；冻结副本，不改原文"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/inputs/A1-role-expansion02/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567",
+      "read_scope": "本步完整读取当前规范/反馈；冻结副本，不改原文"
+    },
+    {
+      "path": "research/seed/README.md",
+      "sha256": "44cb357ed9db7edb5dc6c9a32ef1729e482ab3a9ef1f9dc6598dfbb3fc0d33b3",
+      "read_scope": "版本与材料边界全文"
+    },
+    {
+      "path": "research/seed/brand-naming-foundation.md",
+      "sha256": "92cb6c7cd36c201d35900528826a8aa9aca5a75c632df57d30dcaade5547f519",
+      "read_scope": "既有初始阅读复用；本步只定位寒武纪/第四范式/百度三行，不冒称重读105正文"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67",
+      "read_scope": "完整六宏观来源、角色与构词分类"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746",
+      "read_scope": "B001/B004/B006具体记录及既有来源；不复核其他102案"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.json",
+      "sha256": "b3bbd78ef83733b79b7033404dc29727a7e0c749988d06218820850f4de520be",
+      "read_scope": "既核7案、原则与六方向；本步复用"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.md",
+      "sha256": "50023a0d4970380ebd3afb8969343e6aaadab41c468ae7be66bf2da8f20dcda9",
+      "read_scope": "复用已读研究结论与范围"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.json",
+      "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132",
+      "read_scope": "F1–F6、已核案例与未证词源边界"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-role-expansion01.json",
+      "sha256": "bbb6c1f816e0942aa2ee0e5e7cca52437db41e909ceaa7a62fde0583a374dec4",
+      "read_scope": "上次4案、可迁移关系与访问边界"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T151606Z/material-proposal-index.json",
+      "sha256": "c9b777a166f5d9e3d847a650449ae8f2e07ed7167740f26157538892864328d5",
+      "read_scope": "冻结58材料的事实/家族摘要及47中文名称/谱系索引，不重读58外部正文"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T141904Z/decisions-through-batch28.json",
+      "sha256": "34de9017319fd197e788bb346a71d91996f59a11aca01a76c8e6a09073b7b9d2",
+      "read_scope": "实际逐项读取47案最终去留与原因；不使用旧17项decisions.json作为当前状态"
+    }
+  ],
+  "frozen_history_counts": {
+    "materials": 58,
+    "chinese_ids": 47,
+    "decisions": 47
+  },
+  "prior_substantive_case_ids_excluded": [
+    "B008",
+    "B009",
+    "B010",
+    "B011",
+    "B015",
+    "B025",
+    "B027",
+    "B028",
+    "B029",
+    "B037",
+    "B074",
+    "B076",
+    "B077",
+    "B091"
+  ],
+  "counts": {
+    "substantive_existing_baseline_cases_added": 3,
+    "broad_tech": 3,
+    "current_ai": 0,
+    "rsi_labs": 0,
+    "new_market_cases": 0,
+    "new_company_names": 0,
+    "body_source_urls_for_counted_cases": 4,
+    "whole_books_read": 0
+  },
+  "sources": [
+    {
+      "id": "RE2-S1",
+      "url": "https://ict.cas.cn/xwgg/mtwz/201811/t20181103_5163704.html",
+      "title": "陈天石：为人工智能装上“中国芯”",
+      "access": "body",
+      "method": "web_body",
+      "read_scope": "正文L53–83，重点L72/75与命名解释L83；不以页面URL日期推断采访日期",
+      "source_type": "institution_republished_original_radio_interview",
+      "source_attribution": "中科院计算所转载中国之声《新闻纵横》记者采访；不是公司官网创始档案",
+      "supports": "地质时代与AI时代的命名联系，采访明确归于陈天石；其他成就不作当前技术背书",
+      "checked_at": "2026-11-08T23:24:25.909303+08:00"
+    },
+    {
+      "id": "RE2-S2",
+      "url": "https://www.nbd.com.cn/articles/2024-08-13/3503085.html",
+      "title": "每经专访第四范式董事长戴文渊：澄清AI热潮背后的误解，向“无穷大”前进",
+      "published_at": "2024-08-13",
+      "access": "body",
+      "method": "curl_HTML_body_after_web_timeout",
+      "read_scope": "实际curl保存HTML，去标签读取正文导语至命名段及其后客户价值引语；未声称通读专访",
+      "source_type": "original_reporter_founder_interview",
+      "supports": "原始专访报道把公司名联系到Jim Gray2007演讲；命名段是记者叙述，不伪装为创始人逐字引语",
+      "temporary_local_html_sha256": "d873f182a988d9e7b2813ecaf968a28fc00762b713bf062377ecb93597ded835",
+      "checked_at": "2026-11-08T23:24:25.909303+08:00"
+    },
+    {
+      "id": "RE2-S3",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2009/10/Fourth_Paradigm.pdf",
+      "title": "The Fourth Paradigm: Data-Intensive Scientific Discovery",
+      "published_at": "2009",
+      "access": "body",
+      "method": "web_PDF_text_body",
+      "read_scope": "本步较早成功返回PDF封面/版权、PDF12–14页（印刷xi–xiii）Gordon Bell前言L94–178；后续重开超时不抹去此前实际阅读，未读287页全书",
+      "source_type": "primary_edited_book_foreword",
+      "supports": "数据密集科学及捕获、管理、分析，数据记录/来源/共享等条件；证明概念，不单独证明公司命名史",
+      "checked_at": "2026-11-08T23:24:25.909303+08:00"
+    },
+    {
+      "id": "RE2-S4",
+      "url": "https://tech.sina.com.cn/i/2005-08-15/0822692771.shtml",
+      "title": "李彦宏：三度思维“百度”中文之美",
+      "published_at": "2005-08-15",
+      "access": "body",
+      "method": "web_body",
+      "read_scope": "题名/署名L4–8及L11正文：8月13日记者见面会、开头公司名与青玉案会议室、末段中文搜索/文化讨论；未采用过时业务排名或专利唯一性断言",
+      "source_type": "original_reporter_event_account_republished_by_sina",
+      "source_attribution": "第一财经日报许金晶记者原报道，新浪转载；本步没有找到公司早期命名决策档案",
+      "supports": "报道明确将名字联系到宋词寻找情境；这项出处是记者陈述，并非正文中创始人逐字解释选名",
+      "checked_at": "2026-11-08T23:24:25.909303+08:00"
+    }
+  ],
+  "cases": [
+    {
+      "id": "B001",
+      "name": "寒武纪 / Cambricon",
+      "category": "broad_tech",
+      "primary_source": "S2",
+      "secondary_sources": [
+        "S3"
+      ],
+      "narrative_role": "R6",
+      "word_meaning": "中文是完整地质时代名；采访借该时期生命多样化的时代意象。",
+      "origin_evidence_status": "original_interview_explicit_founder_attribution",
+      "verified_source_fact": "机构转载的原始广播采访明确把处理器和公司命名与创始人期待人工智能迎来新爆发时代联系起来。",
+      "researcher_analysis": "承载的不是一块芯片的形状，而是多种新能力走入生活的时代。自然史提供整个世界的时间尺度，公司占据参与开启这一阶段的位置。",
+      "company_long_term_role": "时代参与者与基础能力推动者，可跨具体芯片型号。",
+      "why_callable_editorial": "三个熟悉汉字构成一个已有完整专名；能整体称呼，时代画面可先于专业解释进入记忆。未做消费者验证。",
+      "bilingual_boundary": "Cambricon与Cambrian词形有关可作观察；本步采访未解释英文最终拼写，不能据此声称已核英文创造过程。",
+      "next_A2_questions": [
+        "哪些真实技术或知识转变，不只是提高一个参数，而是让原来不能参与的主体开始做多种事情？",
+        "历史/自然研究怎样描述一种新活动范围的形成？找阶段的具体条件与参与者，而非只摘爆发、跃迁、时代三个词。"
+      ],
+      "next_A2_reading_targets": [
+        "科学机构关于技术/生态活动范围形成的原始回顾或研究正文；先验证发生了什么，不先列地质年代词表。"
+      ],
+      "failure_boundaries": [
+        "地质生命史不是AI能力必然爆发的定律；不把品牌愿景当科学预测。",
+        "不复制寒武纪的时代名模板，不用爆发近义词硬加智/元，不回到用户已有相变家族。",
+        "整体时代叙事不能替任何候选补Lab身份分；已有家族仍不算新。"
+      ],
+      "source_refs": [
+        "RE2-S1"
+      ],
+      "baseline_classification_preserved": true,
+      "new_market_brand": false,
+      "new_substantive_review_in_this_run": true,
+      "next_A2_targets_status": "planned_not_read_by_this_A1"
+    },
+    {
+      "id": "B004",
+      "name": "第四范式 / 4Paradigm",
+      "category": "broad_tech",
+      "primary_source": "S3",
+      "secondary_sources": [
+        "S6"
+      ],
+      "narrative_role": "R6",
+      "word_meaning": "范式是一套认识与研究方式；本例的具体概念是数据密集型科学发现。",
+      "origin_evidence_status": "original_founder_interview_reporter_naming_attribution_plus_primary_concept_book",
+      "verified_source_fact": "原始专访报道将公司命名联系到Jim Gray的四范式演讲。微软研究院2009原书前言把数据密集科学、数据采集/管理/分析与新发现条件联系起来。",
+      "researcher_analysis": "一个真正能涵盖许多研究对象的方法论，成为机构身份。科学材料并不只剩器件、符号或算法的部件名称，也可以讲知识如何产生。",
+      "company_long_term_role": "新认识方式的实践者与提供者，而非一代功能软件。",
+      "why_callable_editorial": "第四+范式在汉语中是完整、有节奏的名词短语；序号留下结构性问题，概念给出可展开的第二层。不是序号越大越先进。",
+      "bilingual_boundary": "4Paradigm保留同一数字和核心概念；本步未核最初选定该英文字形的过程。",
+      "next_A2_questions": [
+        "哪些科学/计算实践改变了什么可以被观察、记录、比较或解释，而不只是提高速度？",
+        "一种新认识方法靠什么共同条件成立，能否把公司角色讲成提供这些条件的主体，而不是某个工具按钮？"
+      ],
+      "next_A2_reading_targets": [
+        "科学/计算方法的作者原著、科学史原始叙述或机构研究正文；寻找认识对象和共同条件的改变，不只摘术语。"
+      ],
+      "failure_boundaries": [
+        "不创造第五/第六某某的机械序号家族；ordinal不提供先进性证据。",
+        "数据变多不自动产生真理，采集质量、管理与解释仍是条件。",
+        "不能把当今所有AI技术都归为同一范式，也不能冒充通读原书。"
+      ],
+      "source_refs": [
+        "RE2-S2",
+        "RE2-S3"
+      ],
+      "baseline_classification_preserved": true,
+      "new_market_brand": false,
+      "new_substantive_review_in_this_run": true,
+      "next_A2_targets_status": "planned_not_read_by_this_A1"
+    },
+    {
+      "id": "B006",
+      "name": "百度 / Baidu",
+      "category": "broad_tech",
+      "primary_source": "S4",
+      "secondary_sources": [
+        "S5"
+      ],
+      "narrative_role": "R2",
+      "word_meaning": "所据报道指向宋词中反复寻找的行动；此处不另添神话、摆渡谐音或玄学意义。",
+      "origin_evidence_status": "original_event_reporting_not_literal_founder_naming_quote",
+      "verified_source_fact": "2005年第一财经日报原始见面会报道明确说公司名称来自宋词的寻找语句，并同时记述青玉案会议室称呼；末段讨论中文搜索与中文文化的关联。",
+      "researcher_analysis": "文化材料提供的是一个人正在寻找的完整行动，不仅是两字漂亮。人的寻找与计算检索共享一个真实动作关系，因此能把机器技术接入人的语言经验。",
+      "company_long_term_role": "帮助人接近所寻事物的技术主体；本步不把2005年只做搜索的表态当公司永恒业务承诺。",
+      "why_callable_editorial": "两个常见字、两个音节，摘取后能独立称呼；诗词背景增厚意义，不要求每次说名字都先背全词。该判断不是传播因果研究。",
+      "bilingual_boundary": "Baidu为中文拼音形式，可共同保留同一身份；不替它另造英语神话词源。",
+      "next_A2_questions": [
+        "中国文化与知识实践有哪些可清楚说明的完整行动、角色或人与知识的关系，今天仍能让人直接理解？",
+        "从原文的行动找公司能承担的长期角色，是否无需借古雅字也能成为称呼？先排除本轮寻找、验真、作数及既有文化人物家族。"
+      ],
+      "next_A2_reading_targets": [
+        "中国现代知识实践、作者原著或馆方解释中有具体行动和参与者的段落；古籍只在必要时读原段，不让文化方向退化为古诗漂亮词摘抄。"
+      ],
+      "failure_boundaries": [
+        "古文≤15%不变；这是一种有效机制，不是全池都回古文的理由。",
+        "记者陈述不升级为创始人逐字释名，词义联系不等于企业当年完整选择过程已核。",
+        "不再改写寻/探/求或从同一诗句摘近邻词充新家族；来源真实仍须独立品牌适配。"
+      ],
+      "source_refs": [
+        "RE2-S4"
+      ],
+      "baseline_classification_preserved": true,
+      "new_market_brand": false,
+      "new_substantive_review_in_this_run": true,
+      "next_A2_targets_status": "planned_not_read_by_this_A1"
+    }
+  ],
+  "transfer_conclusion": "本次不是再加三个词库：扩大可作为公司的身份单位，从部件/个人瞬间转向时代、认识方法与有文化根基的人类行动。自然、科学与文化沿原S2/S3/S4分类各自展开，不统一改写成长，也不删除原S1/S5/S6方向。",
+  "specific_next_step": "原A2可沿已验收六方向，下一包优先直接实读能改变活动范围或认识条件的资料，以及中国知识实践的完整行动；先写事实关系和公司可承担角色，再实际创作。不得为本补充新开计划/卡片审批工程。",
+  "history_application": "47案显示普通熟词可能商业拥挤，但熟手/千手稿等也提示真实出处不补Lab身份；不能仅抄词典词，也不能强拼科技字。既有反事实、身体迁移、奖赏误差、群体连接、检索/验真/文化人物等谱系仍先去重。",
+  "source_access_limits": [
+    {
+      "url": "https://ir.baidu.com/static-files/74abc09d-eab5-4519-8ff8-d933fc825e1e",
+      "status": "not_used_as_name_origin",
+      "finding": "web返回2005年288页申报文件，实际检索未找到poem出处；curl返回单页Access Denied。搜索摘要中的词源不能补作正文证据。"
+    },
+    {
+      "url": "https://www.nbd.com.cn/articles/2024-08-13/3503085.html",
+      "status": "web_timeout_curl_body_success",
+      "finding": "web初次仅返回页头，随后多次超时；实际curl正文成功且读取命名段，因此按curl记录。"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2009/10/Fourth_Paradigm.pdf",
+      "status": "earlier_body_success_later_timeout",
+      "finding": "较早成功读指定前言；后续重开超时，不扩大阅读页数。"
+    },
+    {
+      "url": "https://www.spacex.com/mission/",
+      "status": "not_counted",
+      "finding": "任务中尝试使命页面无可读正文；另读官方IR联系页有法定全称及NASA资料入口前段，但未完成足够使命段核对，SpaceX不计本次案例。"
+    },
+    {
+      "url": "https://ir.baidu.com/company-overview",
+      "status": "context_only_not_name_origin",
+      "finding": "当前使命正文可读但没有命名史；不替代原始来源。"
+    },
+    {
+      "url": "https://home.baidu.com/home/index/company",
+      "status": "context_only_not_name_origin",
+      "finding": "当前介绍可读但不含本次要核的出处。"
+    },
+    {
+      "case_id": "B021",
+      "status": "not_counted",
+      "finding": "Oracle命名故事只有待查线索，未取得本步可用命名正文；不把oracle词义或甲骨文形象当已证历史原因。"
+    }
+  ],
+  "unchanged_gates": "不改README、队列、总库、质量分数、四角色职责、家族和双语独立查询/返工规则；本文件不是候选查重或注册可用报告。",
+  "new_name_proposals": [],
+  "execution_ref": "真实Agent /root/continuous_a1，本任务工具记录；独立原A1继续，不另冒充角色。"
+}

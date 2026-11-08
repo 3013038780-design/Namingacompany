@@ -1,0 +1,54 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English quality-rejected input acceptance",
+  "executed_at": "2026-11-08T23:44:01.563292+08:00",
+  "inputs": [
+    {
+      "path": "A4-candidates-batch37.json",
+      "sha256": "f78bcf1907bd75c76f39b2e77bf456f23cfd8c13458755cafc5b59b4a9ae9a20"
+    },
+    {
+      "path": "A4-preview-batch37.md",
+      "sha256": "253801974cf4779f04e2d40f8b7c76a09b8a4e0a2eed70edc66b3dda0fc40cb4"
+    },
+    {
+      "path": "A4-quality-batch37.json",
+      "sha256": "022e65d4d870dd7c4540ca4a11fc06fb39bc7b673a3297da8c85f78ca05ba326"
+    },
+    {
+      "path": "A4-creation-execution-batch37.json",
+      "sha256": "a761760f6f8a3a526d5bb895b1e06cb87aa607a037df071aa801416c122ddaea"
+    },
+    {
+      "path": "coordinator-en-batch37.json",
+      "sha256": "b14f43c216e5c561c86940005ba9e2527fdf96a5bc96c9ea8e929e5ac82c4149"
+    },
+    {
+      "path": "A3-cn-batch31.json",
+      "sha256": "5fbb8fadc893d38a198b045c0e553ed059814efebd6a2fc3deeea26506b61292"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-batch37.json",
+      "sha256": "6ddade83ade21283171176f0286daddea245e8dc4f3afb72c5cca28c49ec3332"
+    },
+    {
+      "path": "A3-en-batch37.md",
+      "sha256": "9214a1247048b9424c3a6f844bbbcf2b384c4eb6b506d414607da6589a0240b3"
+    }
+  ],
+  "actual_english_drafts_reviewed": 1,
+  "actual_eligible_market_inputs": 0,
+  "actual_new_candidate_queries": 0,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "actual_execution": "实际读固定稿/双评及执行核SHA后挡质量不合格输入，不是未执行伪零。",
+  "rework_attempt": 1,
+  "remaining_reworks": 1,
+  "agent3_cumulative_candidate_queries": 553,
+  "agent3_cumulative_returned_candidate_results": 552,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 555,
+  "run_cumulative_returned_candidate_results": 554
+}

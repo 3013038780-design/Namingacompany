@@ -1,0 +1,41 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-08T23:32:25.604489+08:00",
+  "results": [
+    {
+      "chinese_id": "C1-C48",
+      "chinese": "第三真值",
+      "decision": "accept_public_use_precheck_to_original_A4",
+      "effective_queries": 10,
+      "actual_scope": "root亲读清华出版社样章PDF第14页/P13 365–375，仅确认第三真值逻辑为教材表达非独立商业品牌；不把此页哲学/物理解释当A2原SQL素材或科学定论。真实命名来源仍固定PG18原文，英语未知未配，不继承中文通过。",
+      "risks": "学术词及第三真理误读，登记未清。"
+    },
+    {
+      "chinese_id": "C1-C49",
+      "chinese": "同星",
+      "decision": "accept_existing_core_tech_use_rejection",
+      "effective_queries": 7,
+      "actual_scope": "root实际web巨潮公司公告PDF两页，首页0–6和第二页43–45完整浙江同星科技股份有限公司/证券简称同星科技；只核已有公开核心用名，未审股东/投资价值、当前工商或9与42。科技为后缀非不同名。",
+      "other_leads": "上海同星智能后续段超时不当主证；英国Tongxing拼音登记不推同一中文，root不冒本人读过英国详情。",
+      "next": "不配英文救回；此批C48有资格，不能把整批写零。"
+    }
+  ],
+  "refs": [
+    {
+      "path": "A3-cn-batch31.json",
+      "sha256": "5fbb8fadc893d38a198b045c0e553ed059814efebd6a2fc3deeea26506b61292"
+    },
+    {
+      "path": "A3-cn-batch31-receipt.json",
+      "sha256": "8bc518e90e27c29de3a15492e10f6b0bf1ad0addd2f7dc10f6bca76b06025aab"
+    },
+    {
+      "path": "coordinator-cn-batch29.json",
+      "sha256": "057efaa78caeeb23cb4bf580e165b743134411987dde24dcb9463b76af42a299"
+    },
+    {
+      "path": "coordinator-family-review-batch29.json",
+      "sha256": "3cfbb2ddf9a3a1da24ea5c239e227e8e6678ecc6dfd8a28cfb81978fa0c4379a"
+    }
+  ]
+}

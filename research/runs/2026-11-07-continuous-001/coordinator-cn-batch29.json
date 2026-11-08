@@ -1,0 +1,88 @@
+{
+  "reviewed_at": "2026-11-08T23:25:55.293835+08:00",
+  "independence": "Read producer preview batch29 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C48",
+      "name": "第三真值",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "序数与知识对象组成完整四字名词称呼",
+          "counter_association": "容易像论文标题"
+        },
+        "distinctiveness": {
+          "reason": "第三位置留下明确逻辑对象画面",
+          "counter_association": "被误听成第三种更高真理"
+        },
+        "lab_fit": {
+          "reason": "逻辑与信息状态能承载计算研究身份",
+          "counter_association": "数据库或逻辑小工具首感"
+        },
+        "grounding": {
+          "reason": "SQL布尔unknown异于false有固定文档证据",
+          "counter_association": "NULL的具体语义不能省成所有世界都三值"
+        },
+        "extension": {
+          "reason": "可谈认识与表达边界而非单一数据库功能",
+          "counter_association": "不证明模型懂得自己未知"
+        },
+        "semantic_coherence": {
+          "reason": "第三说明语义位置而非更先进真理",
+          "counter_association": "仅说探索未知会丢失真值关系并回旧族"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "C1-C49",
+      "name": "同星",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两个熟字两音节作为公司称呼顺口",
+          "counter_association": "可能被听成童星"
+        },
+        "distinctiveness": {
+          "reason": "共享同颗星球给出简明空间图景",
+          "counter_association": "星字品牌拥挤和同心同行近音"
+        },
+        "lab_fit": {
+          "reason": "共同世界的位置可容纳航天科学与长期研究身份",
+          "counter_association": "航天公益或娱乐教育首感需保留"
+        },
+        "grounding": {
+          "reason": "凝练共同居住星球的当事人叙述明确非原文中文",
+          "counter_association": "主观体验叙述不是认知因果实验"
+        },
+        "extension": {
+          "reason": "世界观能跨多种研究和产品",
+          "counter_association": "不能泛化全部人有相同太空体验"
+        },
+        "semantic_coherence": {
+          "reason": "同与星共享同一处境不分拆好寓意",
+          "counter_association": "不把星球偷换恒星或声称世界统一"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T23:47:27.947912+08:00",
+  "materials": [
+    {
+      "id": "C1-M61",
+      "family_id": "C1-MF-research-demands-and-who-defines-infrastructure-requirements",
+      "macro_id": "S6",
+      "plan_direction_id": "C1-D-S6",
+      "category": "scientific_method_institutional_purpose",
+      "case_ids": [
+        "B001",
+        "B004",
+        "B028"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Mark R. Abbott: A New Path for Science? in The Fourth Paradigm: Data-Intensive Scientific Discovery",
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2009/10/Fourth_Paradigm.pdf",
+          "reading_location": "实际读取root已提供本地287页PDF，读实体145–147页/印刷111–113，内容为科学供给/需求与EOSDIS架构争论；另读实体6版权、9–10目录定位。没有通读章后余页或整书，没有把原A1的前言页数当本次阅读。",
+          "read_at": "2026-11-08T23:47:27.947912+08:00",
+          "access": "body",
+          "source_type": "author_book_chapter_excerpt",
+          "reading_scope": "three_selected_chapter_pages",
+          "published_at": "2009",
+          "edition": "Second printing, version 1.1, October 2009，实体6版权页实际核",
+          "local_path": "/tmp/root-fourth-paradigm.pdf",
+          "sha256": "0265ce049b467138bbff93bfaa558118e591ffe3724e8d27ee22a930be1c780d",
+          "boundary": "2009作者对科学组织/历史架构的分析与主张，不推定2026所有研究机构仍相同；未独立核其参考文献和EOSDIS性能。正文图仅读提取文字，不声称目读图形。"
+        }
+      ],
+      "source_urls": [
+        "https://www.microsoft.com/en-us/research/wp-content/uploads/2009/10/Fourth_Paradigm.pdf"
+      ],
+      "fact": "作者讨论科学知识供给与使用者问题需求的错位，并以EOSDIS说明争论不只是集中或分散，也涉及谁定义要求。",
+      "distinctive_relation": "新技术容量和终端变化，并不自动使旧研究流程适合新的知识问题；需要同时审视研究服务的目标和要求定义。",
+      "mechanism_to_material": "新核第四范式把认识方式而非器件作为机构身份，寒武纪提示活动范围的时代条件，原Runway提供为他者创造条件的角色。沿已验RX02-P1进入科学组织怎样对接真实问题，不从时代词或第几模板抽名。时代愿望、原书方法观点与已实现能力分开。",
+      "history_difference": "与Schön构境的个体设计中问题重构、Benkler角色接手条件、DOE行动完成不等科学有效性均有区别；但若品牌只剩泛化平台/更好提问/对接需求，独特性又会丢失，本包不因新章节就认定新品牌。",
+      "naming_potential": "材料可帮助识别公司是研究方法实践者还是单纯算力/数据提供者；当前没有自然且有独立机构身份的称呼。",
+      "shortcoming": "容易凝成科研服务、咨询或工作流栏目；也可能以宏观立场替一个弱名字补分，故不交名字。",
+      "boundary": "本卡取作者关于研究目标与要求定义的方法立场为S6入口；架构不是新的物理器件发明，也不声称满足需求必然产生真理或智能跃迁。",
+      "is_classical": false,
+      "status": "read_material_no_qualified_name",
+      "role_path_id": "C1-RX02-P1",
+      "secondary_macro_ids": [
+        "S3",
+        "S4"
+      ],
+      "name_generation_disposition": "未形成正式中文草案；没有新C50，不为保持数量硬命名。"
+    }
+  ],
+  "failed_accesses": [
+    {
+      "url": "https://sociologyol.ruc.edu.cn/shxyj/shxll/a44f00be1dd8498e908e0c53a4d5e5a3.htm",
+      "result": "现代中文P2入口web502；curl未生成可读本地文件。仅检索摘要，未读论文或费孝通原著正文，不记素材/书籍。"
+    }
+  ],
+  "new_material_count": 1,
+  "new_chinese_draft_count": 0,
+  "scope": "按主控新增小成本边界止于一段实际作者正文；不扩整书或多类别以延后交付。",
+  "coverage_note": "本次一项S6认识方法立场，古文不增；原60资料增至61，仍49中文，不将目录或未读P2入口计阅读卡。"
+}

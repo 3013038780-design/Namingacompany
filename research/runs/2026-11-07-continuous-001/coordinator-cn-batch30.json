@@ -1,0 +1,28 @@
+{
+  "reviewed_at": "2026-11-08T15:47:51.851853+00:00",
+  "reviewer": "/root",
+  "reviews": [],
+  "decision": "actual_no_chinese_output_reviewed_no_scores_invented",
+  "reason": "实际读无分preview及M61原书关系后核0候选，真实阅读不强制产名。",
+  "source_reading": {
+    "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2009/10/Fourth_Paradigm.pdf",
+    "local_path": "/tmp/root-fourth-paradigm.pdf",
+    "sha256": "0265ce049b467138bbff93bfaa558118e591ffe3724e8d27ee22a930be1c780d",
+    "root_actual_scope": "本段实际PyMuPDF提取读实体145–147/印刷111–113三页，Mark R. Abbott A New Path for Science?；作者知识供需错位与EOSDIS要求定义论述，不是独立性能实证。原A2另读版权/目录，root此步不冒读其全部范围。图形仅提取文字，不称目读；未通章/全书/参考文献。"
+  },
+  "family_review": "0正式新草案，无C50，不因多一篇原书章节即新增命名家族；泛平台/提问称呼不能靠宏观观点补分。",
+  "refs": [
+    {
+      "path": "materials-extension28.json",
+      "sha256": "34d889977d7269c2b89e40995820daf54ff966ab5edefd4116e3bec9b57076b5"
+    },
+    {
+      "path": "A2-preview-batch30.md",
+      "sha256": "1d733708a852d5dde823f4e45b6c66f4f070ae6b66d1d4bf57303d10b4d9a430"
+    },
+    {
+      "path": "A2-candidates-batch30.json",
+      "sha256": "07b0ea9fd3daf8998a31ab7e0270062f694ebfdcd5e973ba21cac44e0c5964f9"
+    }
+  ]
+}

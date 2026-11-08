@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T22:50:21.081087+08:00",
+  "generated_at": "2026-11-08T23:51:31.513923+08:00",
   "feed_url": "https://raw.githubusercontent.com/3013038780-design/Namingacompany/codex/naming-research-pilot/research/catalog/website.json",
   "counts": {
     "discussion_candidates": 28,
@@ -8157,9 +8157,101 @@
       "shortcoming": "与知觉、智觉同音，口头介绍需解释织字；可能像纺织感官或艺术装置，觉也可能被读成觉醒。若独立Lab身份不足，不能靠论文给它补分。",
       "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch28.json",
       "english_attempts": []
+    },
+    {
+      "chinese_id": "C1-C48",
+      "chinese": "第三真值",
+      "status": "英文返工耗尽，未形成合格配对",
+      "reason": "PostgreSQL18三值状态unknown不等于false，中文双25和10次查询公开初筛通过。Neither经6查询确证已有同名AI项目记忆/MCP软件；Undetermined品牌审阅20/作者21质量未过，未做市场筛查；最后R2实际无合格选稿，同一独立查重真实零新英文终核。只有2英文稿，E41未用，返工额度尽不继续更换英文；不倒写中文占用，不列讨论或待核储备。",
+      "evidence_refs": [
+        "materials-extension27.json",
+        "A3-cn-batch31.json",
+        "A3-en-batch36.json",
+        "A3-en-batch37.json",
+        "A4-creation-execution-batch38.json",
+        "A3-en-batch38.json",
+        "continuations/2026-11-08T151606Z/root-C48-terminal-review.json"
+      ],
+      "run": "research/runs/2026-11-07-continuous-001",
+      "source": [
+        {
+          "title": "PostgreSQL 18 Documentation: Boolean Type",
+          "url": "https://www.postgresql.org/docs/18/datatype-boolean.html",
+          "reading_location": "实际读固定18页面L20–62，重点L20–28的true/false及由SQL null表示的unknown；先读current同版后复开固定版本。不运行数据库，不把页头新闻日期当文档发表日期。",
+          "read_at": "2026-11-08T23:24:07.823388+08:00",
+          "access": "body",
+          "source_type": "official_computing_documentation",
+          "reading_scope": "body_excerpt",
+          "published_at": null
+        },
+        {
+          "title": "PostgreSQL 18 Documentation: Comparison Functions and Operators",
+          "url": "https://www.postgresql.org/docs/18/functions-comparison.html",
+          "reading_location": "先实际读current解析为18的L49–115相关正文，后复开固定18同URL章节；重点普通比较遇NULL的unknown、IS UNKNOWN等谓词的二值结果。不是读取SQL标准原件。",
+          "read_at": "2026-11-08T23:24:07.823388+08:00",
+          "access": "body",
+          "source_type": "official_computing_documentation",
+          "reading_scope": "body_excerpt",
+          "published_at": null,
+          "boundary": "unknown为SQL逻辑状态，不是概率一半、客观第三真理或更高一级真；IS UNKNOWN等检测本身仍返回true/false。"
+        }
+      ],
+      "meaning": "给未知一个准确的位置。",
+      "crossing": "表达系统为未知保留一种不同于肯定和否定的逻辑状态。",
+      "shortcoming": "学术感与真理宣言误读；第三真值也像论文标题。若不能不读释义就像机构称呼，应按自然度淘汰。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch29.json",
+      "english_attempts": [
+        "Neither",
+        "Undetermined"
+      ]
+    },
+    {
+      "chinese_id": "C1-C49",
+      "chinese": "同星",
+      "status": "中文使用淘汰",
+      "reason": "NASA宇航员报道中共同星球/共同大气和家的关系为真实来源，非认知增强实验。中文双25后7查询确认浙江同星科技股份有限公司公开完整同核心用名；科技为后缀，巨潮原公告可读，非仅拼音/童星同音。没有配英文救回，混合包C48有资格不写整批零；公司当前工商与9/42未核准。",
+      "evidence_refs": [
+        "materials-extension27.json",
+        "A3-cn-batch31.json",
+        "A4-creation-execution-batch36.json",
+        "A3-en-batch36.json",
+        "continuations/2026-11-08T151606Z/root-cn31-review.json"
+      ],
+      "run": "research/runs/2026-11-07-continuous-001",
+      "source": [
+        {
+          "title": "Linda E. Grimm / NASA Johnson: The Overview Effect: Astronaut Perspectives from 25 Years in Low Earth Orbit",
+          "url": "https://www.nasa.gov/centers-and-facilities/johnson/the-overview-effect-astronaut-perspectives-from-25-years-in-low-earth-orbit/",
+          "reading_location": "实际读L244–288标题日期及报道正文，重点Koch/Behnken/Stott等对同一星球、共同大气及家的陈述。未看NASA+视频、未读Frank White原书或心理学原论文，亦未自行观察太空。",
+          "read_at": "2026-11-08T23:24:07.823388+08:00",
+          "access": "body",
+          "source_type": "institutional_report_of_first_person_experience",
+          "reading_scope": "article_body",
+          "published_at": "2025-11-23",
+          "page_last_updated": "2025-11-21，页脚与发表日期先后不一致，照录不修补",
+          "boundary": "宇航员当事人叙述和机构报道，不是已证明太空观察提高认知的对照实验；旧新闻不计近90天。"
+        }
+      ],
+      "meaning": "在同一个世界里，研究新的可能。",
+      "crossing": "改变观看位置后，原来的地理局部被体验为同一共同家园中的部分。",
+      "shortcoming": "像天文/航天企业或社会公益，也与同心/同行近音；星字拥挤。若只剩泛化团结和宏大未来，独特性及Lab身份会不足。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch29.json",
+      "english_attempts": []
     }
   ],
   "events": [
+    {
+      "id": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T151606Z/result.json",
+      "at": "2026-11-08T23:51:31.340491+08:00",
+      "date": "2026-11-08",
+      "title": "研究更新",
+      "retained": 0,
+      "drafts": 2,
+      "materials": 3,
+      "pending": 1,
+      "reason": "本段没有新增合格配对：第三真值中文10查询通过，但Neither六查询已有同名AI/MCP软件，Undetermined质量未过未查，最后返工无合格输出；同星七查询已有同星科技核心用名，未配英文。另补核寒武纪、第四范式、百度三例，将时代参与者/认识方法/完整人类行动转为寻找路径，按新计划实读Abbott原书三页，只有研究材料、没有硬配名字。新增3素材2中文2英文稿，23次新使用查询全部返回，具体淘汰与来源可查；总库仍28讨论+1储备。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/continuations/2026-11-08T151606Z/result.json"
+    },
     {
       "id": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T141904Z/result.json",
       "at": "2026-11-08T22:50:20.965679+08:00",

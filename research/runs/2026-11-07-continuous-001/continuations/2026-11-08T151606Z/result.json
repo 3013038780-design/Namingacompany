@@ -1,0 +1,139 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-08T15:16:06.312Z",
+  "completed_at": "2026-11-08T23:51:31.340491+08:00",
+  "status": "two_same_run_packages_complete_zero_new_pairs",
+  "actual_A1": "/root/continuous_a1",
+  "actual_A2": "/root/continuous_a2",
+  "actual_A3_same_cn_en": "/root/live_a3",
+  "actual_A4": "/root/continuous_a4",
+  "A1_existing_baseline_cases_newly_verified_this_segment": 3,
+  "A1_new_market_brand_count": 0,
+  "A1_full_round_coverage_claimed": false,
+  "A1_expansion02_applied_prospectively_only": true,
+  "new_materials": 3,
+  "new_chinese_drafts": 2,
+  "new_chinese_families_explored": 2,
+  "chinese_quality_passed": 2,
+  "chinese_public_use_passed": 1,
+  "new_english_versions": 2,
+  "english_quality_passed": 1,
+  "english_public_use_passed": 0,
+  "evidence_holds": 1,
+  "new_evidence_holds": 0,
+  "new_retained_families": 0,
+  "retained_pairs": [],
+  "new_A3_candidate_query_executions": 23,
+  "new_A3_search_results_returned": 23,
+  "new_A3_failed_or_unreturned_attempts": 0,
+  "new_root_candidate_query_executions": 0,
+  "root_new_source_discovery_queries_not_usage_queries": 0,
+  "cumulative_A3_candidate_query_executions": 553,
+  "cumulative_A3_search_results_returned": 552,
+  "root_additional_queries_prior_packet": 2,
+  "cumulative_recorded_candidate_query_executions": 555,
+  "cumulative_recorded_results_returned": 554,
+  "cumulative_materials": 61,
+  "cumulative_chinese_drafts": 49,
+  "cumulative_english_versions": 39,
+  "catalog_counts": {
+    "discussion_candidates": 28,
+    "research_reserves": 1,
+    "total_unique_families": 29,
+    "withdrawn_families": 1,
+    "historical_unique_families": 30
+  },
+  "reason": "本段没有新增合格配对：第三真值中文10查询通过，但Neither六查询已有同名AI/MCP软件，Undetermined质量未过未查，最后返工无合格输出；同星七查询已有同星科技核心用名，未配英文。另补核寒武纪、第四范式、百度三例，将时代参与者/认识方法/完整人类行动转为寻找路径，按新计划实读Abbott原书三页，只有研究材料、没有硬配名字。新增3素材2中文2英文稿，23次新使用查询全部返回，具体淘汰与来源可查；总库仍28讨论+1储备。",
+  "query_breakdown": {
+    "C48_CN": 10,
+    "C49_CN": 7,
+    "E39_EN": 6,
+    "E40_quality_not_searched": 0,
+    "last_rework_no_output_EN38": 0,
+    "batch30_no_chinese_CN32": 0,
+    "zeroEN26": 0
+  },
+  "source_sampling": {
+    "new_materials": 3,
+    "root_new_materials_body_read": 3,
+    "minimum_required": 1,
+    "scope": "root实际读固定PG18两章、NASA报道正文及日期、Abbott实体PDF145–147/印刷111–113。A2版权/目录额外定位不冒root全读。另新核A1三例及书前言页码澄清独立记录，非给旧草案补来源。三个新材料均非古文、无新近90天新闻，不称通章全书或原实验实证。"
+  },
+  "controls_and_registration": "同run两阳性对照及大陆公司/9与42入口限制准确复用；实际逐名UK入口不可用，没有正式核名/商标核准。",
+  "prior_evidence_hold": "活变量/Maymatter无新原证不重复403，已耗尽返工不追加。",
+  "whole_production_compliance_claimed": false,
+  "evidence_refs": [
+    {
+      "path": "materials-extension27.json",
+      "sha256": "e6a46bceabc5d35190d2aabb0cbf02dedfbe3e7a68389e47e5542c8731ade31d"
+    },
+    {
+      "path": "A2-creation-execution-batch29.json",
+      "sha256": "a327fd3dc312db6e3f4a8749d2688b22fb1001f000de5ec0f3875a1e2361bbe3"
+    },
+    {
+      "path": "A3-cn-batch31.json",
+      "sha256": "5fbb8fadc893d38a198b045c0e553ed059814efebd6a2fc3deeea26506b61292"
+    },
+    {
+      "path": "A3-en-batch36.json",
+      "sha256": "146267daf1e47ac557e3d52c66336d0159afe31bb99867a637207eae8c009b68"
+    },
+    {
+      "path": "A3-en-batch37.json",
+      "sha256": "6ddade83ade21283171176f0286daddea245e8dc4f3afb72c5cca28c49ec3332"
+    },
+    {
+      "path": "A4-creation-execution-batch38.json",
+      "sha256": "3e70b030e2c9458f7df298284d33df2145346badbf8bc3c5d42894415b1d9668"
+    },
+    {
+      "path": "A3-en-batch38.json",
+      "sha256": "d4abce763f9e9471b433c0ccf60682ff4cdd735ab707b43c269908e644feda6b"
+    },
+    {
+      "path": "A1-role-expansion02-receipt.json",
+      "sha256": "a275c4c2d9f53486f2404d4ce5bd16f3bdc0733c59c269f503fd96e98dbbc3b9"
+    },
+    {
+      "path": "A1-role-expansion02-page-scope-clarification.json",
+      "sha256": "8ed9c1ae49244aaee8b97ddf8e0e06e4693c6b849dfdf9face6de3c1ce75c0f9"
+    },
+    {
+      "path": "search-plan-role-expansion02-execution.json",
+      "sha256": "75ab2720fc576065f6de1baff5c0a502f42490f13f540f424196c876e679cb9a"
+    },
+    {
+      "path": "materials-extension28.json",
+      "sha256": "34d889977d7269c2b89e40995820daf54ff966ab5edefd4116e3bec9b57076b5"
+    },
+    {
+      "path": "A2-creation-execution-batch30.json",
+      "sha256": "7f8870fb3614668f65c40ae0d777383cc137358cae0c155d4c080a4d31bb1887"
+    },
+    {
+      "path": "A3-cn-batch32.json",
+      "sha256": "fc055cdd66651e0ef7012952765a870f988707fd7d873c1d68af66e8d2903fd0"
+    },
+    {
+      "path": "A4-zero-input-batch26.json",
+      "sha256": "d2f95f7848462beb90784b52e09f83b70e6cc0f84e731a7d1f906a089821bd45"
+    },
+    {
+      "path": "A3-en-zero-batch26.json",
+      "sha256": "e9ac7b0c35dbd3b3ad500042ac8266b468f2fcaf722ffbcb73f57ef259774369"
+    },
+    {
+      "path": "continuations/2026-11-08T151606Z/handoffs-batch29.json",
+      "sha256": "f09af31f26033e33302b9837fbce60cc16241ca4827bcf9c86694c9abec4432b"
+    },
+    {
+      "path": "continuations/2026-11-08T151606Z/handoffs-batch30.json",
+      "sha256": "8e37f4058a7d4acb0a29feb612cf73682d87deba123b070f9aab764533138171"
+    },
+    {
+      "path": "continuations/2026-11-08T151606Z/decisions-through-batch30.json",
+      "sha256": "1ad15284a36129e13f97546ef47e98e04cf076d727d8e9e09a0d95b94be1d6e6"
+    }
+  ]
+}

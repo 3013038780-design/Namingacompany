@@ -1,0 +1,74 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-08T23:42:51.454667+08:00",
+  "inputs": [
+    {
+      "path": "A4-candidates-batch36.json",
+      "sha256": "8bcfa86cecb21cdaf5b40d8c4ec6cf6c9656e0149d5dd94b5ddb4883987079f0"
+    },
+    {
+      "path": "A4-quality-batch36.json",
+      "sha256": "1b2334955667215bbbbd5de78351ed2446c783b94f7c51761d6dcd2b9331de45"
+    },
+    {
+      "path": "coordinator-en-batch36.json",
+      "sha256": "b38a977ea641e3285879587dd051e5dab83c80c535cd22a1b06c6cfb10ac397b"
+    },
+    {
+      "path": "A3-cn-batch31.json",
+      "sha256": "5fbb8fadc893d38a198b045c0e553ed059814efebd6a2fc3deeea26506b61292"
+    },
+    {
+      "path": "A3-en-batch36.json",
+      "sha256": "146267daf1e47ac557e3d52c66336d0159afe31bb99867a637207eae8c009b68"
+    },
+    {
+      "path": "A3-en-batch36.md",
+      "sha256": "fe84342c25d4cda2b29b0729fb708cad6335283d80559b8ce4e39474721e733f"
+    },
+    {
+      "path": "A3-en-batch36-receipt.json",
+      "sha256": "99c957b491919e8b62b747e5cbe0dcd8113d7ae2a4799058e7cd258fa48b25d8"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E40",
+      "chinese_id": "C1-C48",
+      "chinese": "第三真值",
+      "english": "Undetermined",
+      "family_id": "C1-BF-third-truth-value-unknown-state",
+      "material_id": "C1-M59",
+      "suggested_pronunciation": "采用词典un-di-TER-mund，/ˌʌndɪˈtɜːrmənd/，四个音节，第三音节重读；不是把Neither改写字母。",
+      "type": "完整既有形容词作状态称呼，非正式SQL状态名",
+      "formation": "选择完整词undetermined，词典定义为未得到明确判定、确定或识别。由Neither的相对分类说法，转为给这个未定状态一个完整称呼；不靠拼音、截词或添后缀避重。这个词本身没有说结果是假，也未承诺将来必能确定；本案不另引未读哲学或量子理论。",
+      "bilingual_relation": "中文给unknown第三个逻辑位置，英文给尚不能按现有信息确定为真/假的状态一个称呼。核心仍是未知不等于否定；Undetermined不是PostgreSQL状态正式名，正式名仍为unknown。不是说程序执行未完成、人格犹豫或AI自知无知，亦非直接替换某个SQL谓词的公式。",
+      "meaning": "把未定如实保留，而不是把它当作已经否定。可以承载研究状态表达与判断依据的组织身份，不把不作判断宣传成永不行动。",
+      "shortcoming": "四音节较长，可能像项目尚未确定名字或团队犹豫不决；单独看未必知道指逻辑状态，也可能联想诊断/案件未查明。完整词的自然性不等于强专名或理想AI Lab身份，首次需要解释其对应状态。",
+      "boundary": "只借SQL unknown与false区别，不承诺一切未定最终可解或所有逻辑三值；IS UNKNOWN本身仍二值，NULL普通比较也不按一般等号处理。没有第三客观真理、概率一半、量子叠加或模型自知含义。中文学术词/第三真理误读与登记限制照留；英语尚未查使用。",
+      "source_urls": [
+        "https://www.postgresql.org/docs/18/datatype-boolean.html",
+        "https://www.postgresql.org/docs/18/functions-comparison.html",
+        "https://www.merriam-webster.com/dictionary/undetermined"
+      ],
+      "read_scope": "PG18两章沿本人batch36实际阅读Boolean20–62、Comparison49–60与76–104；本次未重新运行SQL或声称通读标准。实际新读Merriam-Webster undetermined31–48完整词/读音/未明确判定义。",
+      "rework_attempt": 1,
+      "remaining_reworks": 1,
+      "status": "english_quality_proposal_not_usage_screened",
+      "replaces_candidate_id": "C1-E39",
+      "return_reason": "原A3官网Neither及GitHub neither-mcp正文确证具名独立AI/MCP软件，按软件使用返工；不是Neither Nor服饰长名截短、普通变量或官方注册结论。"
+    }
+  ],
+  "excluded_upstream": [
+    {
+      "chinese_id": "C1-C49",
+      "chinese": "同星",
+      "eligible_english_inputs": 0,
+      "actual_english_creation": 0,
+      "new_scores": 0,
+      "reason": "原A3七有效中文查询后巨潮公告完整浙江同星科技股份有限公司确证同核心使用；不靠童星异字或英国Tongxing拼音认同一主体。不配英文救回，非当前工商/9和42官方核准。"
+    }
+  ],
+  "usage_screening_performed": false
+}

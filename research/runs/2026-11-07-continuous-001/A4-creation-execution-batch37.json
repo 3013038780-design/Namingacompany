@@ -1,0 +1,118 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 English first rework",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T23:42:51.454667+08:00",
+  "inputs": [
+    {
+      "path": "A4-candidates-batch36.json",
+      "sha256": "8bcfa86cecb21cdaf5b40d8c4ec6cf6c9656e0149d5dd94b5ddb4883987079f0"
+    },
+    {
+      "path": "A4-quality-batch36.json",
+      "sha256": "1b2334955667215bbbbd5de78351ed2446c783b94f7c51761d6dcd2b9331de45"
+    },
+    {
+      "path": "coordinator-en-batch36.json",
+      "sha256": "b38a977ea641e3285879587dd051e5dab83c80c535cd22a1b06c6cfb10ac397b"
+    },
+    {
+      "path": "A3-cn-batch31.json",
+      "sha256": "5fbb8fadc893d38a198b045c0e553ed059814efebd6a2fc3deeea26506b61292"
+    },
+    {
+      "path": "A3-en-batch36.json",
+      "sha256": "146267daf1e47ac557e3d52c66336d0159afe31bb99867a637207eae8c009b68"
+    },
+    {
+      "path": "A3-en-batch36.md",
+      "sha256": "fe84342c25d4cda2b29b0729fb708cad6335283d80559b8ce4e39474721e733f"
+    },
+    {
+      "path": "A3-en-batch36-receipt.json",
+      "sha256": "99c957b491919e8b62b747e5cbe0dcd8113d7ae2a4799058e7cd258fa48b25d8"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch36.json",
+      "sha256": "8bcfa86cecb21cdaf5b40d8c4ec6cf6c9656e0149d5dd94b5ddb4883987079f0",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch36.md",
+      "sha256": "c1c9ae923ce7cd19cd7d5682111e25be79a9063219c0e74f5050cee0564c61a0",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch36.json",
+      "sha256": "1b2334955667215bbbbd5de78351ed2446c783b94f7c51761d6dcd2b9331de45",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch36.json",
+      "sha256": "6ca0c3d714a744900acd2d447bf87fb45d6cb50526c996a3b95c716d1fece961",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch36.json",
+      "sha256": "b38a977ea641e3285879587dd051e5dab83c80c535cd22a1b06c6cfb10ac397b",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch31.json",
+      "sha256": "5fbb8fadc893d38a198b045c0e553ed059814efebd6a2fc3deeea26506b61292",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch36.json",
+      "sha256": "146267daf1e47ac557e3d52c66336d0159afe31bb99867a637207eae8c009b68",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch36.md",
+      "sha256": "fe84342c25d4cda2b29b0729fb708cad6335283d80559b8ce4e39474721e733f",
+      "match": true
+    }
+  ],
+  "actual_return_review": "实际读原A3-en36 JSON/MD/receipt完整软件证据及边界，非本人新开官网或运行软件。",
+  "source_reading": "原PG18两源沿本人batch36实际读段；本次实读词典undetermined31–48及建议标准读法，不充新科学来源。",
+  "local_history_check": "research JSON english/name字段Undetermined精确串无命中，仅本地历史，不是市场预查。",
+  "eligible_english_inputs": 1,
+  "english_output_ids": [
+    "C1-E40"
+  ],
+  "actual_english_versions": 1,
+  "actual_new_chinese_names": 0,
+  "new_family_count": 0,
+  "rework_attempt": 1,
+  "remaining_reworks": 1,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "excluded_upstream": [
+    {
+      "chinese_id": "C1-C49",
+      "chinese": "同星",
+      "eligible_english_inputs": 0,
+      "actual_english_creation": 0,
+      "new_scores": 0,
+      "reason": "原A3七有效中文查询后巨潮公告完整浙江同星科技股份有限公司确证同核心使用；不靠童星异字或英国Tongxing拼音认同一主体。不配英文救回，非当前工商/9和42官方核准。"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A4-candidates-batch37.json",
+      "sha256": "f78bcf1907bd75c76f39b2e77bf456f23cfd8c13458755cafc5b59b4a9ae9a20"
+    },
+    {
+      "path": "A4-preview-batch37.md",
+      "sha256": "253801974cf4779f04e2d40f8b7c76a09b8a4e0a2eed70edc66b3dda0fc40cb4"
+    },
+    {
+      "path": "A4-quality-batch37.json",
+      "sha256": "022e65d4d870dd7c4540ca4a11fc06fb39bc7b673a3297da8c85f78ca05ba326"
+    }
+  ],
+  "next": "主控先无分独评，再隔离作者分；双过才同原A3独立英语筛查，不继承中文。",
+  "unchanged": "旧稿/原分/查询/队列/库/Git未改，只新四档，无网页全文。"
+}

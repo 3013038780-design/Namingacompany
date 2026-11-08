@@ -1,0 +1,146 @@
+{
+  "accepted_at": "2026-11-08T23:51:31.340491+08:00",
+  "same_research_run": true,
+  "whole_production_compliance_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "from": "existing_and_new_verified_A1",
+      "to": "same_A2",
+      "status": "accepted",
+      "reason": "先核寒武纪/第四范式/百度三既有案例，再原A2计划与root验收后实际读取新正文，不倒填batch29。",
+      "refs": [
+        {
+          "path": "A1-role-expansion02.json",
+          "sha256": "6a127ec64699a257e20f7959a2ce3309e8cefe7c2c117134c2220612a3dc3181"
+        },
+        {
+          "path": "A1-role-expansion02-page-scope-clarification.json",
+          "sha256": "8ed9c1ae49244aaee8b97ddf8e0e06e4693c6b849dfdf9face6de3c1ce75c0f9"
+        },
+        {
+          "path": "continuations/2026-11-08T151606Z/A1-expansion02-acceptance.json",
+          "sha256": "0ed20551c3dd3ea104a0f40f3ce76a57fcb48d3ac6eef3d9b325deed05a55c62"
+        },
+        {
+          "path": "search-plan-role-expansion02.json",
+          "sha256": "f86b3c18c74f778d2a6fb4258fed662584879e5747bb0116e0cefc6288d98d1a"
+        },
+        {
+          "path": "continuations/2026-11-08T151606Z/plan-role-expansion02-review.json",
+          "sha256": "f5447836316e7ce5361681ccd0f5b5108b05e8eb761d035a3db15899c16d6867"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "from": "same_A2",
+      "to": "root",
+      "status": "accepted_material_only",
+      "reason": "Abbott三页原书认识方法与使用者需求关系，root独立读同SHA实体145–147；没有自然Lab整体称呼，0草案空评分，无C50。",
+      "refs": [
+        {
+          "path": "materials-extension28.json",
+          "sha256": "34d889977d7269c2b89e40995820daf54ff966ab5edefd4116e3bec9b57076b5"
+        },
+        {
+          "path": "A2-candidates-batch30.json",
+          "sha256": "07b0ea9fd3daf8998a31ab7e0270062f694ebfdcd5e973ba21cac44e0c5964f9"
+        },
+        {
+          "path": "A2-preview-batch30.md",
+          "sha256": "1d733708a852d5dde823f4e45b6c66f4f070ae6b66d1d4bf57303d10b4d9a430"
+        },
+        {
+          "path": "A2-quality-batch30.json",
+          "sha256": "623d2e92c45fd092c95f3d6b7d2e85c2fad055d9cba85d204a650ef36f007c92"
+        },
+        {
+          "path": "coordinator-cn-batch30.json",
+          "sha256": "9fc8f13efdd38e02c7d1c5ac32282e22a60300740fafae1288979c4984b69086"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "from": "root",
+      "to": "same_A3",
+      "status": "zero_input",
+      "reason": "同一原A3实际读零中文输入，不把尚未开始当零，无市场查询。",
+      "refs": [
+        {
+          "path": "A3-cn-batch32.json",
+          "sha256": "fc055cdd66651e0ef7012952765a870f988707fd7d873c1d68af66e8d2903fd0"
+        },
+        {
+          "path": "A3-cn-batch32-receipt.json",
+          "sha256": "cc80483f5a3d7249791d13fb86775cb35dc8b63bc483331d628d54f45421eb0f"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "from": "same_A3",
+      "to": "same_A4",
+      "status": "zero_input",
+      "reason": "原A4实际读上游0合格中文后零匹配，不伪造名字。",
+      "refs": [
+        {
+          "path": "A4-zero-input-batch26.json",
+          "sha256": "d2f95f7848462beb90784b52e09f83b70e6cc0f84e731a7d1f906a089821bd45"
+        },
+        {
+          "path": "A4-zero-input-batch26-receipt.json",
+          "sha256": "9c6411150b80dc758ee9b90a80679d934599307310b7b2d3261258e872a7ac8a"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "from": "same_A4",
+      "to": "same_A3",
+      "status": "zero_input",
+      "reason": "原A4真实0新英文/分数/查询，交同一原A3终验。",
+      "refs": [
+        {
+          "path": "A4-zero-input-batch26.json",
+          "sha256": "d2f95f7848462beb90784b52e09f83b70e6cc0f84e731a7d1f906a089821bd45"
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "from": "same_A3",
+      "to": "root",
+      "status": "zero_input",
+      "reason": "同一原A3实际核零输入交接，未替未查名字发可用结论。",
+      "refs": [
+        {
+          "path": "A3-en-zero-batch26.json",
+          "sha256": "e9ac7b0c35dbd3b3ad500042ac8266b468f2fcaf722ffbcb73f57ef259774369"
+        },
+        {
+          "path": "A3-en-zero-batch26-receipt.json",
+          "sha256": "06d01eb520beb8d9d3f40184028722e6a268b1f7db8ccf2023b64ad54620a156"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "from": "root",
+      "to": "catalog",
+      "status": "no_admission",
+      "reason": "无正式草案不新增名字/家族行，材料保留，整体接续不同关系寻找。",
+      "refs": [
+        {
+          "path": "coordinator-cn-batch30.json",
+          "sha256": "9fc8f13efdd38e02c7d1c5ac32282e22a60300740fafae1288979c4984b69086"
+        },
+        {
+          "path": "continuations/2026-11-08T151606Z/decisions-through-batch30.json",
+          "sha256": "1ad15284a36129e13f97546ef47e98e04cf076d727d8e9e09a0d95b94be1d6e6"
+        }
+      ]
+    }
+  ]
+}
