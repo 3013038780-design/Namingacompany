@@ -1,0 +1,63 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English screening",
+  "executed_at": "2026-11-08T17:17:14.041799+08:00",
+  "candidate_id": "C1-E26",
+  "chinese_id": "C1-C31",
+  "decision": "public_use_screen_pass",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch26.md",
+      "sha256": "149ffcf979ee6bca81c5684fa3c43d59ef234c90fdc391143efd66906ebb9826"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch26.json",
+      "sha256": "79773c9389afba8e05b15a2230896cffbc56e9b12a8dfdfb8d1fe830b150e3f1"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch26.json",
+      "sha256": "8558a2c2201db8fc6ac154c6728d780f1c2f059d536f567fe7fc422825fe0f4e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch26.json",
+      "sha256": "12e2e4ff6c68b4aed74e84f761a9538a9dcf1d7fb8f937fbf6061e45b2d8e51e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch26.json",
+      "sha256": "7adb282526dc5f1047f228d2307770394f4c4eddf03af7e9bb0ade5df8fa3eab"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch20.json",
+      "sha256": "46fb678428531c7bbd0edc34489bb1e7d457b12aaf36c6a54711e63481016d99"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch20-receipt.json",
+      "sha256": "4144ad247fa67e6f33db4c233a1d48d4c61ccb932d30373136424267d908e3b6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T062253Z/root-C31-nearname-review.json",
+      "sha256": "0acc4b62241c19cdb3a68ccc3c8f186685698ac1dbd223eafab8a77d7b0288a8"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-batch26.json",
+      "sha256": "4815c6d509a5f171f0ed39736ca56218f55c67ed3662e6c2d25edcc9034d45ef"
+    },
+    {
+      "path": "A3-en-batch26.md",
+      "sha256": "b0fcf000d19674958f0a667f408ab9b3f2ec8c80115513cd5e77457e76251fa1"
+    }
+  ],
+  "actual_new_candidate_queries": 9,
+  "actual_new_chinese_queries": 0,
+  "actual_new_english_queries": 9,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 377,
+  "agent3_cumulative_candidate_queries": 386,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 388,
+  "actual_execution": "真实读取A4四档、主控评审和原CN20；9英文查询；实际打开MW、AI转录、词条页面以排除假阳性。域名索引超时不当主体证据；UK逐名不可访问，大陆复用旧403未核。C32无合格输入0英文。",
+  "next": "交主控H7复核来源/关系/质量及近名风险；不自行入总库。",
+  "unchanged": "旧稿/总库/Git未改；无用户通知，无网页全文。"
+}

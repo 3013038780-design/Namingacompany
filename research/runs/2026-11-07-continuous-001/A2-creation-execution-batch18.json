@@ -1,0 +1,116 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-08T16:58:59.494650+08:00",
+  "stage": "same_run_bounded_package_batch18",
+  "input_refs": [
+    {
+      "path": "README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.md",
+      "sha256": "50023a0d4970380ebd3afb8969343e6aaadab41c468ae7be66bf2da8f20dcda9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.md",
+      "sha256": "9e2c1589037d9d564619fd8d9d861dffd13288087c4f7dec8e49d5ecbd702dde"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+      "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/plan-review.json",
+      "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T051531Z/decisions-through-batch17.json",
+      "sha256": "d5055d8d4bb0f97fd5fdfafbb8024539723fdf4796a8e192fb6fa724a955f618"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T051531Z/material-proposal-index.json",
+      "sha256": "50e51af1018f7000d7be85d07574b6bfde01050a364decaab8cc0e8c2fda102e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T062253Z/material-proposal-index.json",
+      "sha256": "e688d825ee8d9f15703c6ba25e58361f0742cc15d7aaff2c30f4784357e812fe"
+    }
+  ],
+  "history_scan": {
+    "method": "all non-input history JSON parsed and exact draft/relation words searched; no market queries",
+    "file_count": 693,
+    "manifest_sha256": "e49c01f024270c6d8e6713efdd2e6edcce3bb0c4446ff0dc3964588fd8e30d1c"
+  },
+  "reading_evidence": [
+    {
+      "title": "Pearl, Glymour & Jewell: Causal Inference in Statistics: A Primer",
+      "url": "https://web.cs.ucla.edu/~kaoru/BIB5/pearl-etal-2016-primer-text.pdf",
+      "published_at": "2016, copyright/edition page confirmed",
+      "reading_location": "实际curl下载并pypdf读PDF114/117/118页（纸本92/95/96页），反事实结构模型、Joe例子及§4.2.4三步；另核PDF版权页。未通读159页或其他章节；web检索Joe/Abduction超时，未冒充web成功。",
+      "reading_scope": "book_excerpt",
+      "access": "body",
+      "method": "curl_PDF_pypdf_text",
+      "local_path": "/tmp/continuous001-causal-primer.pdf",
+      "sha256": "1041d4522d8c458868d1e16617bf663cd9c3764cdf91df42d689798095d61d59",
+      "read_at": "2026-11-08T16:58:59.494650+08:00"
+    },
+    {
+      "title": "Botvinick & Cohen: Rubber hands ‘feel’ touch that eyes see",
+      "url": "https://www.psychology.mcmaster.ca/bennett/psy720/readings/m5/botvinick.pdf",
+      "published_at": "1998-02-19",
+      "reading_location": "单页原论文正文/实验与对照及解释，OCR L6–61和L82–113、图表问项L115–157。页面双栏OCR顺序倒置，按内容理解；未读参考文献内研究或后续复制文献。",
+      "reading_scope": "one_page_article_body",
+      "access": "body",
+      "method": "web_PDF_body",
+      "read_at": "2026-11-08T16:58:59.494650+08:00"
+    },
+    {
+      "title": "Alistair Sinclair: Berkeley CS271 Fall2024 Lecture15",
+      "url": "https://people.eecs.berkeley.edu/~sinclair/cs271/n15.pdf",
+      "published_at": "2024-10-24",
+      "reading_location": "本次只读PDF第1页L0–40，§15.1/Theorem15.1与图示、临界窗口说明；第2页仅出现分枝过程开头，未读完整证明。",
+      "reading_scope": "lecture_excerpt",
+      "access": "body",
+      "method": "web_PDF_body",
+      "read_at": "2026-11-08T16:58:59.494650+08:00"
+    }
+  ],
+  "new_material_count": 3,
+  "new_chinese_draft_count": 2,
+  "new_english_count": 0,
+  "name_usage_queries_performed": false,
+  "output_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension17.json",
+      "sha256": "f9e2e35ae9a0b2863c20001215e97eab573dfc6db3490e632b72ace96944a9aa"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch18.json",
+      "sha256": "6c404de20de01d7590b8f10ec5f7f409b7450cd8173872dd982ae05dba3a48b0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch18.md",
+      "sha256": "f06b6ef7905901e02edc34a096c1bc7760c5571a1469466f91e16130df3ab2ff"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch18.json",
+      "sha256": "76a33f8b20fc2200a4e2a4d90ff73b605aed47e3edddd55a57c4ace129f73279"
+    }
+  ],
+  "whole_production_batch_complete": false,
+  "boundary": "旧35/37索引仅起点，以冻结30提案和新增M36/M37闭族为准；不重开A1计划，不改旧档/Git/catalog/feed，无用户通知。原文通读范围不夸大；第三素材未配名字不计新增品牌。"
+}

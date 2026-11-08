@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T14:00:26.489937+08:00",
+  "generated_at": "2026-11-08T17:25:39.945882+08:00",
   "feed_url": "https://raw.githubusercontent.com/3013038780-design/Namingacompany/codex/naming-research-pilot/research/catalog/website.json",
   "counts": {
-    "discussion_candidates": 24,
+    "discussion_candidates": 25,
     "research_reserves": 1,
-    "total_unique_families": 25,
+    "total_unique_families": 26,
     "withdrawn_families": 1,
-    "historical_unique_families": 26
+    "historical_unique_families": 27
   },
   "worlds": [
     {
@@ -5618,6 +5618,272 @@
         }
       },
       "record_date": "2026-11-07T21:34:39.981233+08:00"
+    },
+    {
+      "id": "N0027",
+      "chinese": "未然机",
+      "english": "Supposal",
+      "family_id": "C1-BF-machine-for-unrealized-conditions",
+      "status": "discussion_candidate",
+      "primary_world": "S3",
+      "tags": [
+        "S5",
+        "因果模型",
+        "反事实条件",
+        "拟物称呼"
+      ],
+      "classification_reason": "科学计算对象的可求解关系拟成思考机器；实际个体证据与未现实条件共享同一模型，非任意未来想象。",
+      "brief": "以事实约束背景，推问未曾发生的另一种结果。",
+      "source": {
+        "title": "Pearl, Glymour & Jewell: Causal Inference in Statistics: A Primer",
+        "url": "https://web.cs.ucla.edu/~kaoru/BIB5/pearl-etal-2016-primer-text.pdf",
+        "read_scope": "实际读PDF114/117/118页（纸本92/95/96），同单位固定背景U、Joe例子与§4.2.4三步；核PDF6版权页2016；未通读159页。",
+        "date": "2016",
+        "access": "body_via_PDF_text",
+        "sha256": "1041d4522d8c458868d1e16617bf663cd9c3764cdf91df42d689798095d61d59"
+      },
+      "fact": "在给定结构模型中，先用同一实际单位的证据约束其背景，再替换一项结构条件，并在保持该背景的模型里推问另一结果；能否求解依赖模型、变量及证据条件。",
+      "meaning": "让没有发生的另一种条件，也能成为可严肃讨论的问题。",
+      "crossing": "用同一实际个体的证据固定背景，再改一项条件，询问没有实际经历的另一结果。 “未然机”是将这一条件求问拟成思考机器的品牌比喻，并非原书装置名。",
+      "layers": [
+        "可以直接叫出的三字想象机器",
+        "实际证据与未现实条件共同限定问题",
+        "探索现实经验允许我们推问什么"
+      ],
+      "chinese_shortcoming": "可能被理解为预测未来的机器或科幻产品；未然字义有些书面，机构身份可能被单一产品感压住。 AI科技圈已有未然科技、未然图灵等近名，虽然未确证完整“未然机”，仍存在识别和权利近似风险。",
+      "english_formation": "选用完整英语名词supposal。Merriam-Webster释义包括作出假设的过程，以及所假定的事物。不是把Suppose任意换字母，也不把它宣传成Pearl书中正式装置名或新创术语。词在本案提供一项可以拿来研究的假定条件，具体的同个体反事实语义由已读模型来源限定。",
+      "bilingual_relation": "中文把未现实条件的求问拟成一台机器，英文给这台机器所处理的假定一个名词称呼。这里不是任意想象未来：先以同一实际对象的证据约束背景，再改条件计算另一结果；中文说工具角色，英文说处理的假设对象，主题配对不逐字翻译。",
+      "english_shortcoming": "supposal不如suppose常见，首次可能需解释并确认双p拼写，也容易与proposal混听。整体有学术/文学假想作品气质，或被理解成泛假设生成工具；英文单独未包含固定同一个体背景、干预和重新求解条件。独立品牌判断不能由词典收录代替。 检索出现的supposal.md只为第三方估值索引，未核域名登记及当前站点，不据此证明市场占用或域名可购。",
+      "source_boundary": "不等于预测未来或看见平行宇宙；因果模型和背景不充分时不能据观察唯一确定个体反事实。 Supposal为完整既有英语名词，词典义广于严格反事实；中文同行近名与登记未核准不因初筛通过消失。",
+      "suggested_pronunciation": "suh-POH-zul，/səˈpoʊzəl/，三个音节；采用词典读法。",
+      "cn_screen_summary": "10组实际查询未确证完整核心未然机/未然機/Weiranji已作为公司、AI模型或独立软件使用。已核同领域近名未然科技及未然图灵；机是本名拟物核心，不能按科技/公司后缀删除，故近名不冒充精确占用。未然词面在AI科技圈较拥挤，保留混淆与品牌识别风险，交主控终审而不作登记可用保证。",
+      "en_screen_summary": "2026-11-08本轮9组真实英文查询未确证Supposal完整核心已用于公司、AI模型或独立软件/产品；学术/词典/劳资谈判普通词及AI访谈转录不当品牌。低频正式语感、proposal/suppose听写与中文未然同行前缀风险保持；仅公开使用初筛，登记未清，不称全球未使用或可注册。",
+      "screened_dates": [
+        "2026-11-08"
+      ],
+      "origin_record": "research/runs/2026-11-07-continuous-001/delivery.json",
+      "origin_chinese_id": "C1-C31",
+      "origin_english_id": "C1-E26",
+      "chinese_registration_record": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用A3-controls.json本轮2026-11-07实际共同入口403；本批未新访问，未逐名检索。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用A3-controls.json本轮2026-11-07共同入口403；本批未新访问，未做9/42逐名逐类登记检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Weiranji",
+          "scope": "2026-11-08实际逐名Weiranji URL尝试不可访问；不是无公司结论。"
+        }
+      },
+      "english_registration_record": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run A3-controls.json中2026-11-07共同入口403；本批未新访问，未逐名核名。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run A3-controls.json中2026-11-07共同入口403；本批未进入9/42逐名逐类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Supposal",
+          "scope": "2026-11-08本次实际逐名Supposal搜索URL不可访问，不是无公司结论。"
+        }
+      },
+      "registration_status": "not_officially_cleared",
+      "registration_note": "原始记录逐入口披露；公开使用初筛不是企业核名或9/42类商标可注册结论。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/delivery.json",
+      "screening": {
+        "zh": {
+          "decision": "public_use_screen_pass",
+          "reason": "10组实际查询未确证完整核心未然机/未然機/Weiranji已作为公司、AI模型或独立软件使用。已核同领域近名未然科技及未然图灵；机是本名拟物核心，不能按科技/公司后缀删除，故近名不冒充精确占用。未然词面在AI科技圈较拥挤，保留混淆与品牌识别风险，交主控终审而不作登记可用保证。",
+          "queries": [
+            {
+              "query": "\"未然机\"",
+              "executed_on": "2026-11-08",
+              "summary": "结果主要为未然、防患于未然等辞典/拆字匹配，未确证完整未然机具名商业对象。"
+            },
+            {
+              "query": "\"未然机科技\"",
+              "executed_on": "2026-11-08",
+              "summary": "命中未然图灵AI预测引擎资料，实际正文品牌未然图灵/ProphetLab，不含机；不能自动视作未然机科技。"
+            },
+            {
+              "query": "\"未然机智能\"",
+              "executed_on": "2026-11-08",
+              "summary": "命中未然图灵及未然智能近名企业；珠海官网确有未然智能公司及体感互动业务，核心缺机，不是精确同名。"
+            },
+            {
+              "query": "\"未然机\" 公司 品牌",
+              "executed_on": "2026-11-08",
+              "summary": "出现未然资本招聘品牌线索；全文核心未然/未然资本与本名未然机不同，非本名商业占用确证。"
+            },
+            {
+              "query": "\"未然机\" AI 模型 软件",
+              "executed_on": "2026-11-08",
+              "summary": "出现未然象限、杭州未然人工智能等公司目录；杭州页正文核其实际名称不含机；都是相关行业近名而非本名。"
+            },
+            {
+              "query": "\"未然機\" 公司 軟體",
+              "executed_on": "2026-11-08",
+              "summary": "命中台湾公司批量PDF及拆字内容，未获得未然機完整具名软件/公司记录；未冒称通读该批量清册。"
+            },
+            {
+              "query": "\"weiranji\" company",
+              "executed_on": "2026-11-08",
+              "summary": "返回茶叶电商等无关噪声，未确认Weiranji完整公司或软件名；不是拼音全球未用证明。"
+            },
+            {
+              "query": "\"未然机\" 产品 游戏",
+              "executed_on": "2026-11-08",
+              "summary": "命中珠海未然科技体感游戏官网及未然探偵游戏等近名，未然科技官网正文核实不含本名机字。"
+            },
+            {
+              "query": "\"未然机\" \"有限公司\"",
+              "executed_on": "2026-11-08",
+              "summary": "命中未然资本、未然图灵等较短或不同核心名；未确证完整未然机有限公司主体。"
+            },
+            {
+              "query": "\"未然機\" AI 品牌",
+              "executed_on": "2026-11-08",
+              "summary": "主要日语未然に防ぐ表示事先防止，相关具名产品为广告チェックAI等，不是未然機品牌；未确证繁体完整商业名。"
+            }
+          ],
+          "evidence": [
+            {
+              "url": "https://weinsci.com/",
+              "access": "primary_company_body_read",
+              "finding": "官网L4–31体感互动及拟推出语音交互；L105未然智能科技（珠海）有限公司，L107 WEIN。实际品牌未然科技，不含机，是同领域近名而非本名。"
+            },
+            {
+              "url": "https://vc.pedaily.cn/company/903929.html",
+              "access": "secondary_company_profile_body_read",
+              "finding": "L27–32品牌未然图灵/ProphetLab、AI预测方向；L65–67及126–150全称上海未然图灵智能科技有限公司。资料自称公开整理，非官方登记，不核其融资/能力或实时存续；完整核心不同。"
+            },
+            {
+              "url": "https://www.shuididp.cn/yp-ca01f13a9179c65c9178dc11068bd501.html",
+              "access": "third_party_directory_body_read",
+              "finding": "L22/69–94杭州未然人工智能科技有限公司及软件AI范围；L72明示互联网数据，L147免责声明。没有机字，不以第三方目录冒称实时官方登记。"
+            }
+          ],
+          "registration": {
+            "mainland_company": {
+              "status": "unavailable",
+              "url": "https://www.gsxt.gov.cn/",
+              "scope": "复用A3-controls.json本轮2026-11-07实际共同入口403；本批未新访问，未逐名检索。"
+            },
+            "mainland_trademark_9_42": {
+              "status": "unavailable",
+              "url": "https://wcjs.sbj.cnipa.gov.cn/",
+              "scope": "复用A3-controls.json本轮2026-11-07共同入口403；本批未新访问，未做9/42逐名逐类登记检索。"
+            },
+            "uk_company": {
+              "status": "unavailable",
+              "url": "https://find-and-update.company-information.service.gov.uk/search?q=Weiranji",
+              "scope": "2026-11-08实际逐名Weiranji URL尝试不可访问；不是无公司结论。"
+            }
+          }
+        },
+        "en": {
+          "decision": "public_use_screen_pass",
+          "reason": "2026-11-08本轮9组真实英文查询未确证Supposal完整核心已用于公司、AI模型或独立软件/产品；学术/词典/劳资谈判普通词及AI访谈转录不当品牌。低频正式语感、proposal/suppose听写与中文未然同行前缀风险保持；仅公开使用初筛，登记未清，不称全球未使用或可注册。",
+          "queries": [
+            {
+              "query": "\"Supposal\"",
+              "executed_on": "2026-11-08",
+              "summary": "完整精确返回历史/现代词典及集体谈判文件标题；未确证Supposal公司或产品。"
+            },
+            {
+              "query": "\"Supposal\" company lab",
+              "executed_on": "2026-11-08",
+              "summary": "公司/Lab组合仍主要词典、航空论坛和工资谈判文件普通词用法；未确证独立机构品牌。"
+            },
+            {
+              "query": "\"Supposal\" AI model",
+              "executed_on": "2026-11-08",
+              "summary": "Latent Space AI访谈出现supposal，实际正文L228–242是谈话中一个词而非模型名称；其他多词典和机构谈判文件。"
+            },
+            {
+              "query": "\"Supposal\" software product",
+              "executed_on": "2026-11-08",
+              "summary": "OneWordDaily词条例句包含company/product，实际页面L8–38词义例句，L51运营方RJS另名；不是Supposal软件。"
+            },
+            {
+              "query": "\"Supposal\" brand startup",
+              "executed_on": "2026-11-08",
+              "summary": "supposal.md第三方域名估值索引，非公司/产品发布；打开超时未声称读站点或证实其运营使用。另有词典/个人评论/谈判文件。"
+            },
+            {
+              "query": "\"Sup Posal\" technology",
+              "executed_on": "2026-11-08",
+              "summary": "合理分词主要SUP-POSAL词典OCR与无关含sup/posal文字，未确证Sup Posal科技品牌；不把OCR断词当公司。"
+            },
+            {
+              "query": "\"Supposal\" app",
+              "executed_on": "2026-11-08",
+              "summary": "主要词典和劳资协议Appendix A/APP compensation等文本；APP语境并非Supposal应用命名。"
+            },
+            {
+              "query": "\"Supposal\" github software",
+              "executed_on": "2026-11-08",
+              "summary": "GitHub/software定向仍主要词典和课程/谈判文件，未确证具名Supposal仓库、独立软件或包；不是穷尽代码托管平台。"
+            },
+            {
+              "query": "\"Suppose\" \"Proposal\" AI software brand",
+              "executed_on": "2026-11-08",
+              "summary": "近听Suppose/Proposal边界查询命中假设语句、提案/RFP工具和论文，用法不同；不据共现认定Supposal品牌或与Proposal等义。"
+            }
+          ],
+          "evidence": [
+            {
+              "url": "https://www.merriam-webster.com/dictionary/supposal",
+              "access": "primary_dictionary_body_read",
+              "finding": "L31–42完整现成名词及读法、假设过程/对象义；不是公司或软件命名使用证据。"
+            },
+            {
+              "url": "https://latent.space/p/axolotl/",
+              "access": "primary_transcript_body_read",
+              "finding": "实际核L228–242，L234 swyx谈话里like, supposal；上下文讨论模型评测污染，不把该词当独立模型名。未据转录评价词语正确性。"
+            },
+            {
+              "url": "https://oneworddaily.com/word/supposal",
+              "access": "primary_editorial_word_entry_body_read",
+              "finding": "L8–38词条和例句，L51运营RJS Tech Solutions LLP另名；Supposal是本页解释对象，不是软件品牌。"
+            },
+            {
+              "url": "https://domainindex.com/domains/supposal.md",
+              "access": "search_index_only_open_timeout",
+              "finding": "第三方域名评估摘要，仅列supposal.md，页面打开超时；没有实际公司/产品主体线索，不能据域名词条证明市场占用，也未核其域名登记/可购状态。"
+            }
+          ],
+          "registration": {
+            "mainland_company": {
+              "status": "unavailable",
+              "url": "https://www.gsxt.gov.cn/",
+              "scope": "复用本run A3-controls.json中2026-11-07共同入口403；本批未新访问，未逐名核名。"
+            },
+            "mainland_trademark_9_42": {
+              "status": "unavailable",
+              "url": "https://wcjs.sbj.cnipa.gov.cn/",
+              "scope": "复用本run A3-controls.json中2026-11-07共同入口403；本批未进入9/42逐名逐类检索。"
+            },
+            "uk_company": {
+              "status": "unavailable",
+              "url": "https://find-and-update.company-information.service.gov.uk/search?q=Supposal",
+              "scope": "2026-11-08本次实际逐名Supposal搜索URL不可访问，不是无公司结论。"
+            }
+          }
+        }
+      },
+      "record_date": "2026-11-08T17:22:56.050649+08:00"
     }
   ],
   "research": [
@@ -6544,9 +6810,86 @@
         "Saydo",
         "Hereby"
       ]
+    },
+    {
+      "chinese_id": "C1-C31",
+      "chinese": "未然机",
+      "status": "讨论备选，完整中英文公开使用初筛通过",
+      "reason": "未然机/Supposal：中文25/25、英文21/21独立质量过门，同一独立查重中文10查询/英文9查询未确证完整同名公司、模型或独立软件；品牌审阅实际复核书籍页、词典、AI转录假阳性和历史家族后入讨论库。中文未然同行近名、英文低频/听写及官方登记未清完整保留，非可注册结论。",
+      "evidence_refs": [
+        "delivery-C1-E26.json",
+        "A3-cn-batch20.json",
+        "A3-en-batch26.json",
+        "A4-C31-postscreen-review.json",
+        "continuations/2026-11-08T062253Z/root-C31-terminal-review.json"
+      ],
+      "run": "research/runs/2026-11-07-continuous-001",
+      "source": [
+        {
+          "title": "Pearl, Glymour & Jewell: Causal Inference in Statistics: A Primer",
+          "url": "https://web.cs.ucla.edu/~kaoru/BIB5/pearl-etal-2016-primer-text.pdf",
+          "published_at": "2016, copyright/edition page confirmed",
+          "reading_location": "实际curl下载并pypdf读PDF114/117/118页（纸本92/95/96页），反事实结构模型、Joe例子及§4.2.4三步；另核PDF版权页。未通读159页或其他章节；web检索Joe/Abduction超时，未冒充web成功。",
+          "reading_scope": "book_excerpt",
+          "access": "body",
+          "method": "curl_PDF_pypdf_text",
+          "local_path": "/tmp/continuous001-causal-primer.pdf",
+          "sha256": "1041d4522d8c458868d1e16617bf663cd9c3764cdf91df42d689798095d61d59",
+          "read_at": "2026-11-08T16:58:59.494650+08:00"
+        }
+      ],
+      "meaning": "让没有发生的另一种条件，也能成为可严肃讨论的问题。",
+      "crossing": "用同一实际个体的证据固定背景，再改一项条件，询问没有实际经历的另一结果。",
+      "shortcoming": "可能被理解为预测未来的机器或科幻产品；未然字义有些书面，机构身份可能被单一产品感压住。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch18.json",
+      "english_attempts": [
+        "Supposal"
+      ]
+    },
+    {
+      "chinese_id": "C1-C32",
+      "chinese": "借身",
+      "status": "质量淘汰，未查",
+      "reason": "品牌审阅先封存24（Lab身份3<4）后读作者25，最大轴差1；灵异附身/虚构身体迁移与VR窄化首感，真实身体归属实验不能补品牌分。未使用查询、不称占用/可用，也不借新纸本保证独立家族。",
+      "evidence_refs": [
+        "A2-candidates-batch18.json",
+        "coordinator-cn-batch18.json",
+        "coordinator-family-review-batch18.json",
+        "A3-cn-batch20.json"
+      ],
+      "run": "research/runs/2026-11-07-continuous-001",
+      "source": [
+        {
+          "title": "Botvinick & Cohen: Rubber hands ‘feel’ touch that eyes see",
+          "url": "https://www.psychology.mcmaster.ca/bennett/psy720/readings/m5/botvinick.pdf",
+          "published_at": "1998-02-19",
+          "reading_location": "单页原论文正文/实验与对照及解释，OCR L6–61和L82–113、图表问项L115–157。页面双栏OCR顺序倒置，按内容理解；未读参考文献内研究或后续复制文献。",
+          "reading_scope": "one_page_article_body",
+          "access": "body",
+          "method": "web_PDF_body",
+          "read_at": "2026-11-08T16:58:59.494650+08:00"
+        }
+      ],
+      "meaning": "身体的边界，也有可以研究的形成过程。",
+      "crossing": "外部假肢体可以在特定感觉匹配下被体验为身体的一部分，而非只是被看见的物件。",
+      "shortcoming": "借身可能引出附身、灵异或借尸还魂联想；亦可能只像VR/机器人具身产品，不能据实验来源消除这些行业成本。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch18.json",
+      "english_attempts": []
     }
   ],
   "events": [
+    {
+      "id": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T062253Z/result.json",
+      "at": "2026-11-08T17:24:58.861782+08:00",
+      "date": "2026-11-08",
+      "title": "研究更新",
+      "retained": 1,
+      "drafts": 2,
+      "materials": 3,
+      "pending": 1,
+      "reason": "未然机 / Supposal进入讨论备选：同个体事实约束背景后改条件，再推问未现实结果，非预言机器。中文10/英文9实际查询、双评及来源家族终审通过；中文未然同行近名、英文低频听写和登记未清保留。借身因品牌审阅Lab身份未过，未查、不配英文。第三项随机图阈值只留研究材料，不硬配名字。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/continuations/2026-11-08T062253Z/result.json"
+    },
     {
       "id": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T051531Z/result.json",
       "at": "2026-11-08T14:00:07.565926+08:00",

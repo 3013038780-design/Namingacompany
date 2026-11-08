@@ -1,0 +1,93 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T16:58:59.494650+08:00",
+  "scope": "无分稿先交，作者数字主控独评封存后读取",
+  "reviews": [
+    {
+      "candidate_id": "C1-C31",
+      "name": "未然机",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "三字整体像一个可叫出的想象机器",
+          "counter_association": "未然略书面，可能需解释读义"
+        },
+        "distinctiveness": {
+          "reason": "未现实与计算对象形成清楚主角",
+          "counter_association": "可能与预言机器混淆"
+        },
+        "lab_fit": {
+          "reason": "机与条件求解可承载计算/推理研究",
+          "counter_association": "第一感也可能是单一科幻产品"
+        },
+        "grounding": {
+          "reason": "书籍具体段落支持固定背景与干预后求值",
+          "counter_association": "称呼为研究者构造，非作者原名"
+        },
+        "extension": {
+          "reason": "可容纳因果、推问与决策研究",
+          "counter_association": "不许诺任何如果都能求解"
+        },
+        "semantic_coherence": {
+          "reason": "未然与机共享模型处理非实际条件的关系",
+          "counter_association": "不能让未然变成未来准确预测"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "C1-C32",
+      "name": "借身",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两字完整动作可以直接称呼",
+          "counter_association": "也像灵异设定"
+        },
+        "distinctiveness": {
+          "reason": "自我与外物的边界有鲜明认知主角",
+          "counter_association": "借尸还魂联想强"
+        },
+        "lab_fit": {
+          "reason": "身体归属和具身研究的身份可成立",
+          "counter_association": "可能只像VR/机器人产品"
+        },
+        "grounding": {
+          "reason": "单页原论文实验与异步对照可读",
+          "counter_association": "小样本和体验不等于真实身体迁移"
+        },
+        "extension": {
+          "reason": "可延展自我、感知与环境研究",
+          "counter_association": "不能泛化能力外挂而撞旧族"
+        },
+        "semantic_coherence": {
+          "reason": "借身各层围绕外物纳入身体体验",
+          "counter_association": "借不意味着真实取得运动能力"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

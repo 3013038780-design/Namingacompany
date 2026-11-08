@@ -1,0 +1,58 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese screening",
+  "executed_at": "2026-11-08T17:06:55.970162+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch18.md",
+      "sha256": "f06b6ef7905901e02edc34a096c1bc7760c5571a1469466f91e16130df3ab2ff"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch18.json",
+      "sha256": "6c404de20de01d7590b8f10ec5f7f409b7450cd8173872dd982ae05dba3a48b0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch18.json",
+      "sha256": "76a33f8b20fc2200a4e2a4d90ff73b605aed47e3edddd55a57c4ace129f73279"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension17.json",
+      "sha256": "f9e2e35ae9a0b2863c20001215e97eab573dfc6db3490e632b72ace96944a9aa"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch18.json",
+      "sha256": "34cf0d33f16423bb8c85a72a2ed4c077065852c95d5ddb072c7e1d49ca918037"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch18.json",
+      "sha256": "1f5f1d72b924a5dca6b9c7ece4a9b5b7e1119f04e44a434acbdb43e41f54b019"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch20.json",
+      "sha256": "46fb678428531c7bbd0edc34489bb1e7d457b12aaf36c6a54711e63481016d99"
+    },
+    {
+      "path": "A3-cn-batch20.md",
+      "sha256": "8ddfc8496de60b52b17f001247c83604222a578277ce0f0fdcd29cdaaea756b7"
+    }
+  ],
+  "passed_chinese_candidate_ids": [
+    "C1-C31"
+  ],
+  "quality_rejected_not_searched_ids": [
+    "C1-C32"
+  ],
+  "actual_new_candidate_queries": 10,
+  "actual_new_chinese_queries": 10,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 367,
+  "agent3_cumulative_candidate_queries": 377,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 379,
+  "actual_execution": "真实读取双评/候选/素材/家族；10中文查询并核珠海官网、上海AI近名报道与杭州第三方目录正文。UK逐名不可访问；大陆旧403不冒本次重查。C32质量挡住0查询。",
+  "next": "交主控终审中文近名风险后原A4真实配对；英文尚未输入、不提前查或称通过。",
+  "unchanged": "旧档/总库/Git未改；无用户通知，无网页全文。"
+}

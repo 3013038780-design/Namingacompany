@@ -1,0 +1,132 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T16:58:59.494650+08:00",
+  "materials": [
+    {
+      "id": "C1-M38",
+      "family_id": "C1-MF-same-unit-counterfactual-by-structural-intervention",
+      "macro_id": "S3",
+      "plan_direction_id": "C1-D-S3",
+      "category": "book_excerpt",
+      "case_ids": [
+        "B074",
+        "B002"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Pearl, Glymour & Jewell: Causal Inference in Statistics: A Primer",
+          "url": "https://web.cs.ucla.edu/~kaoru/BIB5/pearl-etal-2016-primer-text.pdf",
+          "published_at": "2016, copyright/edition page confirmed",
+          "reading_location": "实际curl下载并pypdf读PDF114/117/118页（纸本92/95/96页），反事实结构模型、Joe例子及§4.2.4三步；另核PDF版权页。未通读159页或其他章节；web检索Joe/Abduction超时，未冒充web成功。",
+          "reading_scope": "book_excerpt",
+          "access": "body",
+          "method": "curl_PDF_pypdf_text",
+          "local_path": "/tmp/continuous001-causal-primer.pdf",
+          "sha256": "1041d4522d8c458868d1e16617bf663cd9c3764cdf91df42d689798095d61d59",
+          "read_at": "2026-11-08T16:58:59.494650+08:00"
+        }
+      ],
+      "source_urls": [
+        "https://web.cs.ucla.edu/~kaoru/BIB5/pearl-etal-2016-primer-text.pdf"
+      ],
+      "fact": "书中给出由证据确定背景、修改目标结构关系、在改后模型中计算结果的反事实步骤；结论依赖模型及有关变量假设。",
+      "distinctive_relation": "用同一实际个体的证据固定背景，再改一项条件，询问没有实际经历的另一结果。",
+      "mechanism_to_material": "Recursive以计算过程承担研究身份，Google基线以知识对象作可称呼专名；这里不摘反事实术语，尝试把条件计算变成一个完整想象对象。Google沿用基线未重新核词源。",
+      "history_difference": "因序是事件偏序与逻辑时钟，非干预同一单位的反事实；虚拟排练是学得世界模型中练策略，反事实这里先由实际证据约束背景再改一条结构关系，不能仅因未发生都模拟就当然新族。旧未尽之问是可错/未完认识，本项是一个条件干预问题的模型语义。若最后只讲想象另一种未来，应与旧排练/之后家族合并。",
+      "naming_potential": "未现实的条件与可操作模型相接，可形成思考机器的完整意象。",
+      "boundary": "不等于预测未来或看见平行宇宙；因果模型和背景不充分时不能据观察唯一确定个体反事实。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft"
+    },
+    {
+      "id": "C1-M39",
+      "family_id": "C1-MF-sensory-matching-external-limb-ownership",
+      "macro_id": "S5",
+      "plan_direction_id": "C1-D-S5",
+      "category": "one_page_article_body",
+      "case_ids": [
+        "B037",
+        "B027"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Botvinick & Cohen: Rubber hands ‘feel’ touch that eyes see",
+          "url": "https://www.psychology.mcmaster.ca/bennett/psy720/readings/m5/botvinick.pdf",
+          "published_at": "1998-02-19",
+          "reading_location": "单页原论文正文/实验与对照及解释，OCR L6–61和L82–113、图表问项L115–157。页面双栏OCR顺序倒置，按内容理解；未读参考文献内研究或后续复制文献。",
+          "reading_scope": "one_page_article_body",
+          "access": "body",
+          "method": "web_PDF_body",
+          "read_at": "2026-11-08T16:58:59.494650+08:00"
+        }
+      ],
+      "source_urls": [
+        "https://www.psychology.mcmaster.ca/bennett/psy720/readings/m5/botvinick.pdf"
+      ],
+      "fact": "小样本实验中同步触摸真手和所见假手可诱发身体归属体验；异步对照较弱。作者将其联系到多感觉匹配。",
+      "distinctive_relation": "外部假肢体可以在特定感觉匹配下被体验为身体的一部分，而非只是被看见的物件。",
+      "mechanism_to_material": "Imbue提供对认识产生作用的角色，Midjourney提示过程/行动位置；由它们进入自我身体边界怎样在具体条件下被体验，不把所有材料都说成长。后者是继承基线。",
+      "history_difference": "探形为获得物体形状，应手为传感结构，橡皮鸭为自我解释，均非身体归属体验；分身有别是同源内容修改隔离，本项不是复制或借他人记忆。与旧添一指/添一笔的增加能力也应区分：本研究不增加真实肢体或运动能力，若品牌只讲能力外挂则应并旧族。",
+      "naming_potential": "用借用身体的动作凝练主角，不原样摘橡胶手幻觉术语。",
+      "boundary": "单页早期小样本，不推广人人必然如此；归属感不等于假手能动、实际身体转移、机器意识或临床效果。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft"
+    },
+    {
+      "id": "C1-M40",
+      "family_id": "C1-MF-random-graph-giant-component-threshold",
+      "macro_id": "S3",
+      "plan_direction_id": "C1-D-S3",
+      "category": "lecture_excerpt",
+      "case_ids": [
+        "B074",
+        "B002"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Alistair Sinclair: Berkeley CS271 Fall2024 Lecture15",
+          "url": "https://people.eecs.berkeley.edu/~sinclair/cs271/n15.pdf",
+          "published_at": "2024-10-24",
+          "reading_location": "本次只读PDF第1页L0–40，§15.1/Theorem15.1与图示、临界窗口说明；第2页仅出现分枝过程开头，未读完整证明。",
+          "reading_scope": "lecture_excerpt",
+          "access": "body",
+          "method": "web_PDF_body",
+          "read_at": "2026-11-08T16:58:59.494650+08:00"
+        }
+      ],
+      "source_urls": [
+        "https://people.eecs.berkeley.edu/~sinclair/cs271/n15.pdf"
+      ],
+      "fact": "指定随机图模型在参数跨过临界范围时，其最大连通分量有不同渐近尺度；讲义亦说明有限临界窗口的平滑变化。",
+      "distinctive_relation": "逐条连接与宏观连通规模之间有模型特定的阈值关系。",
+      "mechanism_to_material": "沿计算结构/知识对象找联结机制，不将图论直接改为智能涌现或增长。",
+      "history_difference": "旧元胞/共生网、用户既有相变与比特群岛均有邻近上位意象，未仅凭新讲义就判新品牌族。",
+      "naming_potential": "本次只有真实机制素材；突然成网容易夸大瞬时跃变，连野等凝练会丢掉阈值且接近旧群岛/网络画面，因此不交名字。",
+      "boundary": "不能说任意现实网络都如此或一条边必然造成巨变；渐近概率结论不是对单个有限图的确定保证。",
+      "is_classical": false,
+      "status": "read_no_qualified_name"
+    }
+  ],
+  "new_material_count": 3,
+  "new_chinese_draft_count": 2,
+  "scope": "三种不同关系比较，第三项没有形成有把握自然称呼，不为三四项比较规模强凑名字。",
+  "source_dates_note": "2016书节选、1998论文、2024讲义，均不计近九十天新闻，无古文。"
+}

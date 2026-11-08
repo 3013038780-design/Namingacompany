@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-08T17:13:44.876955+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E26",
+      "chinese_id": "C1-C31",
+      "english": "Supposal",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个常规音节且主重音清楚，词典读法连贯，没有自造辅音串或截词读音。",
+          "counter_association": "不常见的完整词仍需首次听一遍，与proposal近听应注意。"
+        },
+        "spelling": {
+          "reason": "完整词典拼法，可用熟悉suppose词干帮助记忆，不是随机字母变形。",
+          "counter_association": "双p与结尾al对首次听写有成本，不能假称人人会写。"
+        },
+        "grounding": {
+          "reason": "假设过程/对象为词典真义，书中固定同单位再改条件提供本案具体处理关系。",
+          "counter_association": "普通假设词广于结构反事实，不能据此声称词典定义含整个三步模型。"
+        },
+        "bilingual_relation": {
+          "reason": "中文想象机器与英文其处理的假设对象同属模型化未现实条件，配对自然。",
+          "counter_association": "单词未独自编码事实证据约束与结构替换，必须保留出处和条件。"
+        },
+        "distinctiveness": {
+          "reason": "完整名词可叫成研究主体，有明确知识对象而非功能按钮或无义拼音。",
+          "counter_association": "学术/文学假想和假设生成工具首感存在，独立性不是由查重未知保证。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "规范门槛未改，主观编辑自评；主控先读无分预览独评，后同A3独立筛查。"
+    }
+  ]
+}

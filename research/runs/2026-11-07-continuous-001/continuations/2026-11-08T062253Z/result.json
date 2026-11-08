@@ -1,0 +1,128 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-08T06:22:53.376Z",
+  "completed_at": "2026-11-08T17:24:58.861782+08:00",
+  "status": "one_new_discussion_pair_admitted_other_draft_quality_rejected",
+  "actual_A1_basis_reused": [
+    "A1-final-input-reacceptance.json",
+    "A1-formation-feedback.json",
+    "search-plan.json",
+    "plan-review.json"
+  ],
+  "new_A1_research_claimed": false,
+  "actual_A2": "/root/continuous_a2",
+  "actual_A3_same_cn_en": "/root/live_a3",
+  "actual_A4": "/root/continuous_a4",
+  "new_materials": 3,
+  "new_chinese_drafts": 2,
+  "new_chinese_families_explored": 2,
+  "chinese_family_reviews_passed": 1,
+  "chinese_quality_passed": 1,
+  "chinese_public_use_passed": 1,
+  "new_english_versions": 1,
+  "english_quality_passed": 1,
+  "english_public_use_passed": 1,
+  "evidence_holds": 1,
+  "new_evidence_holds": 0,
+  "new_retained_families": 1,
+  "retained_pairs": [
+    {
+      "chinese": "未然机",
+      "english": "Supposal",
+      "chinese_id": "C1-C31",
+      "english_id": "C1-E26"
+    }
+  ],
+  "new_A3_candidate_query_executions": 19,
+  "new_root_candidate_query_executions": 0,
+  "cumulative_A3_candidate_query_executions": 386,
+  "root_additional_queries_prior_packet": 2,
+  "cumulative_recorded_candidate_query_executions": 388,
+  "cumulative_materials": 40,
+  "cumulative_chinese_drafts": 32,
+  "cumulative_english_versions": 26,
+  "catalog_counts": {
+    "discussion_candidates": 25,
+    "research_reserves": 1,
+    "total_unique_families": 26,
+    "withdrawn_families": 1,
+    "historical_unique_families": 27
+  },
+  "reason": "未然机 / Supposal进入讨论备选：同个体事实约束背景后改条件，再推问未现实结果，非预言机器。中文10/英文9实际查询、双评及来源家族终审通过；中文未然同行近名、英文低频听写和登记未清保留。借身因主控Lab身份未过，未查、不配英文。第三项随机图阈值只留研究材料，不硬配名字。",
+  "query_breakdown": {
+    "C31_Chinese": 10,
+    "Supposal_English": 9,
+    "C32_quality_reject_not_searched": 0
+  },
+  "source_sampling": {
+    "new_materials": 3,
+    "root_body_read_materials": 2,
+    "minimum_required_sample": 1,
+    "reviewed_ids": [
+      "C1-M38",
+      "C1-M39"
+    ],
+    "M40_root_access": "仅本次web入口不可访问，未冒称独立读取；保留原A2明确首1页阅读，不计新名"
+  },
+  "prior_evidence_hold": "活变量/Maymatter不重复旧403，无新原证不改结论。",
+  "controls_and_registration": "同run公司/软件阳性对照及大陆共同入口受限记录复用，不假称本次新做；UK中英文逐名实际尝试不可访问。最终讨论名单不等于公司核名或第9/42类商标核准。",
+  "whole_production_compliance_claimed": false,
+  "evidence_refs": [
+    {
+      "path": "A2-creation-execution-batch18.json",
+      "sha256": "4fd47d336d1d2c29d3c93595a36e8829dce631b77e7b68a34ccbe3d59ed56cc2"
+    },
+    {
+      "path": "materials-extension17.json",
+      "sha256": "f9e2e35ae9a0b2863c20001215e97eab573dfc6db3490e632b72ace96944a9aa"
+    },
+    {
+      "path": "coordinator-cn-batch18.json",
+      "sha256": "34cf0d33f16423bb8c85a72a2ed4c077065852c95d5ddb072c7e1d49ca918037"
+    },
+    {
+      "path": "coordinator-family-review-batch18.json",
+      "sha256": "1f5f1d72b924a5dca6b9c7ece4a9b5b7e1119f04e44a434acbdb43e41f54b019"
+    },
+    {
+      "path": "A3-cn-batch20.json",
+      "sha256": "46fb678428531c7bbd0edc34489bb1e7d457b12aaf36c6a54711e63481016d99"
+    },
+    {
+      "path": "A4-creation-execution-batch26.json",
+      "sha256": "12e2e4ff6c68b4aed74e84f761a9538a9dcf1d7fb8f937fbf6061e45b2d8e51e"
+    },
+    {
+      "path": "A4-quality-batch26.json",
+      "sha256": "8558a2c2201db8fc6ac154c6728d780f1c2f059d536f567fe7fc422825fe0f4e"
+    },
+    {
+      "path": "coordinator-en-batch26.json",
+      "sha256": "7adb282526dc5f1047f228d2307770394f4c4eddf03af7e9bb0ade5df8fa3eab"
+    },
+    {
+      "path": "A3-en-batch26.json",
+      "sha256": "4815c6d509a5f171f0ed39736ca56218f55c67ed3662e6c2d25edcc9034d45ef"
+    },
+    {
+      "path": "A4-C31-postscreen-review.json",
+      "sha256": "c3b468d21d2c352922e960c5ec22dd8f23dc14cd747b1166d6407fbc083b6f4e"
+    },
+    {
+      "path": "delivery-C1-E26.json",
+      "sha256": "554ef7417e3d82dc9a47c9391561fcf9eecb730d5eb9a20996bdb31408619d87"
+    },
+    {
+      "path": "continuations/2026-11-08T062253Z/root-C31-terminal-review.json",
+      "sha256": "c9e2b8fc20c8ea7586fe9c568d058f187e708be2256e0b920b87e698eecc1c7b"
+    },
+    {
+      "path": "continuations/2026-11-08T062253Z/handoffs-batch18.json",
+      "sha256": "66efab10b73526dca79b4670b02f754baee7d103928bb2d2ce637d2974cb70b6"
+    },
+    {
+      "path": "continuations/2026-11-08T062253Z/decisions-through-batch18.json",
+      "sha256": "a1694ffbc31b1b423ee0ada1baf59d9350099cac5ba9dbd10be2832fdfb10fab"
+    }
+  ]
+}

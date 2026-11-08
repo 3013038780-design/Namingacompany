@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-08T17:15:02.211240+08:00",
+  "independence": "Read producer preview batch26 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C31",
+      "name": "Supposal",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "现成名词读法三音节可按词典口头称呼",
+          "counter_association": "不如suppose常见初听可能停顿"
+        },
+        "spelling": {
+          "reason": "完整既有拼法有suppose到名词的可理解形态",
+          "counter_association": "双p及proposal近听有听写成本"
+        },
+        "grounding": {
+          "reason": "词典明确假设过程及所假定对象义并非任意改拼",
+          "counter_association": "不能冒称Pearl正式装置或每个supposal都严格反事实"
+        },
+        "bilingual_relation": {
+          "reason": "中文给反事实提问工具角色英文给假定对象主题配对成立",
+          "counter_association": "英文词本身未给出固定U与干预背景"
+        },
+        "distinctiveness": {
+          "reason": "少见但有完整声音与假设研究身份可作为独立称呼",
+          "counter_association": "学术文学假想作品气质可能先于Lab且不凭少见就断可用"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E26"
+    }
+  ]
+}

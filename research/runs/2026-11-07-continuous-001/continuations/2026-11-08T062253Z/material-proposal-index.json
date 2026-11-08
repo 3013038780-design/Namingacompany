@@ -1,0 +1,487 @@
+{
+  "generated_at": "2026-11-08T16:55:26.239183+08:00",
+  "scope": "原始素材/候选与最新冻结30案自动对照；仅该run已登记material_ids关系，仍须语义历史核对，不是新A1/素材或查重。旧material_only不改。",
+  "decision_snapshot": {
+    "path": "continuations/2026-11-08T051531Z/decisions-through-batch17.json",
+    "sha256": "d5055d8d4bb0f97fd5fdfafbb8024539723fdf4796a8e192fb6fa724a955f618"
+  },
+  "material_count": 37,
+  "items": [
+    {
+      "material_id": "C1-M01",
+      "macro_id": "S3",
+      "relation": "规则关系不必预先固定一个输入方向；改动已知信息后，同一关系能支持另一方向计算。",
+      "source_file": "materials-pilot.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C01",
+          "chinese": "由此及彼",
+          "latest_decision": "本轮未交付"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M02",
+      "macro_id": "S2",
+      "relation": "相同材料的不同端部，在洞口几何约束下有不同进入难度；行为与形状、用途相接。",
+      "source_file": "materials-pilot.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C02",
+          "chinese": "探形",
+          "latest_decision": "使用淘汰"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M03",
+      "macro_id": "S1",
+      "relation": "结构和感知在制作时一体形成；动作本身同时成为可读的信息。",
+      "source_file": "materials-pilot.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C03",
+          "chinese": "应手",
+          "latest_decision": "使用淘汰"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M04",
+      "macro_id": "S4",
+      "relation": "一半不足以授权，形状/文字及双方持有关系共同构成一次验合。",
+      "source_file": "materials-pilot.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C04",
+          "chinese": "合符",
+          "latest_decision": "质量淘汰，未查"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M05",
+      "macro_id": "S5",
+      "relation": "参照不在单方说出词时自动完成，听者的反馈参与建立双方可复用的约定。",
+      "source_file": "materials-pilot.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C05",
+          "chinese": "会意",
+          "latest_decision": "使用淘汰"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M06",
+      "macro_id": "S3",
+      "relation": "信息并非每片只装一个原始片段；足够的正确采样子集携带可恢复同一完整对象的关系。",
+      "source_file": "materials-pilot.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C06",
+          "chinese": "余量",
+          "latest_decision": "补核后撤回，非备选"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M07",
+      "macro_id": "S2",
+      "relation": "同一个对象把分散的捕获、进入和排出步骤连接起来，而不是只增加一个更大的收集面。",
+      "source_file": "materials-pilot.json",
+      "prior_proposals": [],
+      "never_proposed_in_candidate_files": true
+    },
+    {
+      "material_id": "C1-M08",
+      "macro_id": "S2",
+      "relation": "局部反馈不是简单让数量变多，而是参与停止自我更新、进入另一种细胞角色的分化条件。",
+      "source_file": "materials-pilot.json",
+      "prior_proposals": [],
+      "never_proposed_in_candidate_files": true
+    },
+    {
+      "material_id": "C1-M09",
+      "macro_id": "S5",
+      "relation": "自发声与返回回声可携带环境形状信息，所用感觉输入与典型视觉区功能之间出现跨通道关系。",
+      "source_file": "materials-extension1.json",
+      "prior_proposals": [],
+      "never_proposed_in_candidate_files": true
+    },
+    {
+      "material_id": "C1-M10",
+      "macro_id": "S3",
+      "relation": "进入局部时不丢掉回到整体所需的上下文；焦点和其余结构一起组成可导航位置。",
+      "source_file": "materials-extension1.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C07",
+          "chinese": "开合",
+          "latest_decision": "使用淘汰"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M11",
+      "macro_id": "S2",
+      "relation": "行动者临时变成支撑别人行动的结构；结构大小与可活动成员数量存在代价。",
+      "source_file": "materials-extension1.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C08",
+          "chinese": "活桥",
+          "latest_decision": "新增讨论备选"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M12",
+      "macro_id": "S4",
+      "relation": "相同小棍通过方向、数位和空位表达不同数字，布置本身参与意义。",
+      "source_file": "materials-extension1.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C09",
+          "chinese": "横竖之间",
+          "latest_decision": "质量淘汰，未查"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M13",
+      "macro_id": "S4",
+      "relation": "一个非人身体具有多个人面，并处在一个超日常世界的门槛；这是原文已有的角色场景。",
+      "source_file": "materials-extension1.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C10",
+          "chinese": "开明兽",
+          "latest_decision": "使用淘汰"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M14",
+      "macro_id": "S2",
+      "relation": "外部住所可以更换，但共生伙伴被主动搬到新住所的对应功能位置。",
+      "source_file": "materials-extension2.json",
+      "prior_proposals": [],
+      "never_proposed_in_candidate_files": true
+    },
+    {
+      "material_id": "C1-M15",
+      "macro_id": "S2",
+      "relation": "行动留下的环境痕迹可以成为后续选择的外部依据；抹去痕迹与背景的差异会削弱这条可用信息。",
+      "source_file": "materials-extension2.json",
+      "prior_proposals": [],
+      "never_proposed_in_candidate_files": true
+    },
+    {
+      "material_id": "C1-M16",
+      "macro_id": null,
+      "relation": "文字从被输入的符号变成被执行的计算，结果再进入下一次互动。",
+      "source_file": "materials-extension3.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C11",
+          "chinese": "回车以后",
+          "latest_decision": "本轮未交付"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M17",
+      "macro_id": null,
+      "relation": "不是沿一股风被吹走；飞行轨迹利用不同速度风层间的差异，横向行进也能取得维持飞行的能量。",
+      "source_file": "materials-extension3.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C12",
+          "chinese": "横风",
+          "latest_decision": "家族淘汰，未查"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M18",
+      "macro_id": null,
+      "relation": "以同一实体承担原来需要两个实体配准的角色，改变对齐条件。",
+      "source_file": "materials-extension3.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C16",
+          "chinese": "自成一格",
+          "latest_decision": "质量淘汰，未查"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M19",
+      "macro_id": "S1",
+      "relation": "同一知识结构可以按任务显示不同层次与相互关联的片段，阅读者不必只沿线性文页走。",
+      "source_file": "materials-extension4.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C13",
+          "chinese": "跳读",
+          "latest_decision": "本轮未交付"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M20",
+      "macro_id": "S3",
+      "relation": "事件顺序可由发生的依赖关系组织；无法由此比较的事件，不必伪造唯一真实先后。",
+      "source_file": "materials-extension4.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C17",
+          "chinese": "因序",
+          "latest_decision": "品牌辨识主动避让"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M21",
+      "macro_id": "S5",
+      "relation": "持续交谈的场景意义可以保留，但作为同一对象的外观细节却未必被逐一比较。",
+      "source_file": "materials-extension4.json",
+      "prior_proposals": [],
+      "never_proposed_in_candidate_files": true
+    },
+    {
+      "material_id": "C1-M22",
+      "macro_id": "S5",
+      "relation": "一个让人确信的主观信号，可能有行动激励价值，却不是同等可靠的质量凭证。",
+      "source_file": "materials-extension4.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C28",
+          "chinese": "灵感之外",
+          "latest_decision": "质量淘汰，未查"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M23",
+      "macro_id": "S6",
+      "relation": "让结果是否讨人喜欢与研究是否值得记录分开，使不如预期的发现仍可进入知识。",
+      "source_file": "materials-extension4.json",
+      "prior_proposals": [],
+      "never_proposed_in_candidate_files": true
+    },
+    {
+      "material_id": "C1-M24",
+      "macro_id": "S6",
+      "relation": "动作完成是一层，所达成的结果能否作为有效实验结果是另一层；能力应由使用条件中的实际结果检验。",
+      "source_file": "materials-extension4.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C14",
+          "chinese": "作数",
+          "latest_decision": "新增讨论备选"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M25",
+      "macro_id": "S3",
+      "relation": "保留元素身份而改变可测质量，让研究者能把原本不易分辨的流转联系起来；不是把物质换成完全不同的彩色标签。",
+      "source_file": "materials-extension5.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C15",
+          "chinese": "同位素",
+          "latest_decision": "使用淘汰"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M26",
+      "macro_id": "S5",
+      "relation": "精确细节可能损失，但中心之外保留的信息仍可帮助判断下一步该看哪里；局部精确与周边概括不是同等精度的重复采样。",
+      "source_file": "materials-extension6.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C18",
+          "chinese": "余光",
+          "latest_decision": "使用淘汰"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M27",
+      "macro_id": "S3",
+      "relation": "同源与独立并不矛盾：最初可共享相同物理内容，但某一方的内存修改不必改坏另一方。",
+      "source_file": "materials-extension7.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C19",
+          "chinese": "分身有别",
+          "latest_decision": "本轮未交付，英文返工耗尽"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M28",
+      "macro_id": "S1",
+      "relation": "瞬时振动经机械形变留下空间轨迹，之后通过逆向机械读取转回声学输出。",
+      "source_file": "materials-extension7.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C20",
+          "chinese": "声入纹",
+          "latest_decision": "质量淘汰，未查"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M29",
+      "macro_id": "S5",
+      "relation": "同样棋子数量，摆放是否形成熟悉关系会影响专家可用的结构；优势不等同一块对任何内容都更大的原始记忆。",
+      "source_file": "materials-extension8.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C21",
+          "chinese": "识局",
+          "latest_decision": "商业核心使用淘汰"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M30",
+      "macro_id": "S4",
+      "relation": "角色所做的并非只演奏一段乐曲，而是在传统叙事中把声音组织成可传授、可使用的律制；这是文化身份，不称现代科学实证。",
+      "source_file": "materials-extension9.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C22",
+          "chinese": "伶伦",
+          "latest_decision": "同名AI系统使用淘汰"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M31",
+      "macro_id": "S3",
+      "relation": "一个值是否应保留，取决于它从当前位置往后是否还可能在被覆盖前使用；不是它看起来新鲜、经常变化或本身很大。",
+      "source_file": "materials-extension9-supplement.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C23",
+          "chinese": "活变量",
+          "latest_decision": "中文通过，英文证据待核实，非完整备选"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M32",
+      "macro_id": "S6",
+      "relation": "让同一科学问题进入新数据研究，再比较结果；不是原输出自我重复就算第二次证明。",
+      "source_file": "materials-extension10.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C24",
+          "chinese": "复证",
+          "latest_decision": "中文通过，英文返工耗尽，非完整备选"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M33",
+      "macro_id": "S3",
+      "relation": "通过选择表示方式，使正负整数的加减能共用加法规则；并非多加一种模型或用更多算力。",
+      "source_file": "materials-extension11.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C25",
+          "chinese": "补码",
+          "latest_decision": "质量淘汰，未查"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M34",
+      "macro_id": "S2",
+      "relation": "改变外部物件的大小—距离关系，让一个固定观看位置获得特定视觉场景；构筑的是供另一个行动者观看的环境。",
+      "source_file": "materials-extension12.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C26",
+          "chinese": "园丁鸟",
+          "latest_decision": "已有同核心公司及软件使用，淘汰"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M35",
+      "macro_id": "S1",
+      "relation": "物件不需要思考或给答案；为了向它解释而改变的，是说者表达和检查自身假设的方式。",
+      "source_file": "materials-extension13.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C27",
+          "chinese": "橡皮鸭",
+          "latest_decision": "已有具名AI软件代理使用，淘汰"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M36",
+      "macro_id": "S5",
+      "relation": "没得到所料的奖赏不是没有信息：预期时点的缺失本身可以与既有预测比较，产生有方向的差异。",
+      "source_file": "materials-extension15.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C29",
+          "chinese": "失算",
+          "latest_decision": "已有完整同名游戏软件使用，淘汰"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    },
+    {
+      "material_id": "C1-M37",
+      "macro_id": "S4",
+      "relation": "有些话不是报告行动已经发生，说出它本身就是在进行一种行动，但效力依赖所处情境。",
+      "source_file": "materials-extension16.json",
+      "prior_proposals": [
+        {
+          "candidate_id": "C1-C30",
+          "chinese": "言有所为",
+          "latest_decision": "中文初筛通过，英文返工耗尽，非完整备选"
+        }
+      ],
+      "never_proposed_in_candidate_files": false
+    }
+  ]
+}
