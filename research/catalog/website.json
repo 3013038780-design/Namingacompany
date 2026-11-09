@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T12:23:11.511050+08:00",
+  "generated_at": "2026-11-09T13:56:02.153582+08:00",
   "feed_url": "https://raw.githubusercontent.com/3013038780-design/Namingacompany/codex/naming-research-pilot/research/catalog/website.json",
   "counts": {
     "discussion_candidates": 30,
@@ -9268,9 +9268,69 @@
       "shortcoming": "原有体贴入微/刻画入微的形容词语境，可能先像咨询、护理或文化工作室；又有入围近音。若独立品牌辨识只剩认真细致，应质量否决而不是靠论文补分。",
       "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch50.json",
       "english_attempts": []
+    },
+    {
+      "chinese_id": "C1-C62",
+      "chinese": "接招",
+      "status": "已有同核心商业品牌，编辑避让；首返无稿主动闭族",
+      "reason": "Johnstone原著的承接伙伴前提与口头同意区别真实，root独立读原PDF物理46–49/印刷92–99及课程正文，双25后8查。36氪可读接招创业媒体品牌/北京趋势前线信息科技旗下产品；另香港官方2018历史名单载接招集团/Jiezhao Group、2711670，非当前存续或AI业务核准。独立查重 NEAR_MATCH_HOLD+商业核心主动不选，不倒写精确AI模型/软件占用或商标已注册。原A2R1内部有来有往/不拆台/共演者首感不合未选未查，实际主动闭族余1未用，非两返尽。英文匹配及同独立查重实际零英文收尾。",
+      "evidence_refs": [
+        "materials-extension39.json",
+        "A2-candidates-batch52.json",
+        "coordinator-cn-batch52.json",
+        "A3-cn-batch51.json",
+        "A2-creation-execution-batch53.json",
+        "A4-zero-input-batch34.json",
+        "A3-en-zero-batch34.json",
+        "continuations/2026-11-09T042642Z/root-cn51-return.json"
+      ],
+      "run": "research/runs/2026-11-07-continuous-001",
+      "source": [
+        {
+          "title": "Keith Johnstone, Impro: Improvisation and the Theatre, Spontaneity chapter",
+          "url": "https://users.iit.demokritos.gr/~k.palaiologos/thymeli/pdf_files/Johnstone,%20Keith%20(1981),%20Impro_%20Improvisation%20and%20the%20Theatre,%20London_Methuen%20Drama.pdf",
+          "source_type": "book_author_text_university_hosted_copy",
+          "book_id": "Johnstone-Impro-1979-1981",
+          "published_at": "1979原硬皮/1981平装，所见版权页另列1989重印；不是近期新闻",
+          "access": "body",
+          "reading_scope": "selected_four_scanned_spreads_not_whole_chapter",
+          "reading_location": "web实际读书目/版权L1–76；后find三次超时。curl实际下载后fitz实读PDF物理46–49页（印刷92–99），包括Working Someone、Blocking and Accepting及场景对话。未目读图/观看演出/参与训练，未通读全章或全书。",
+          "read_at": "2026-11-09T12:35:23.111324+08:00",
+          "local_path": "/tmp/a2-johnstone-impro.pdf",
+          "sha256": "78e76f719b44f6ef6e9dec50c77800a7ab537e7d3c148ab0b5695705e5fd92cc",
+          "boundary": "作者的戏剧训练观察、例子与解释，不是控制实验或所有情境必须接受他人要求的普遍规则。书中accept指继续情境前提，不等于口头说Yes；不把拒绝现实有害要求说成错误。"
+        },
+        {
+          "title": "The Second City: Improv 1 Online",
+          "url": "https://www.secondcity.com/classes/virtual/improv/improv-1-online-vir",
+          "source_type": "practitioner_training_program",
+          "access": "body",
+          "reading_location": "web实际读L144–174概念与完整课程介绍；页面未示发文日期，课表2027不是新闻发布日期。",
+          "published_at": null,
+          "read_at": "2026-11-09T12:35:23.111324+08:00",
+          "boundary": "训练机构课程自述，只作并行实践语境，不当课程有效性实验、原著章节或近90日新闻。"
+        }
+      ],
+      "meaning": "让别人的行动在我们这里继续发生。",
+      "crossing": "戏剧角色可能对抗，但演员仍使对方的创造有后续；品牌借这一能回应、能接手的参与者身份，不把现实冲突都包装成合作。",
+      "shortcoming": "武术、竞技游戏、营销应战或单功能对话App首感；也可能像命令别人来挑战。若只像游戏/话术培训，不因原著有名或来源真实而补Lab分。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/A2-candidates-batch52.json",
+      "english_attempts": []
     }
   ],
   "events": [
+    {
+      "id": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T042642Z/result.json",
+      "at": "2026-11-09T13:52:00.220236+08:00",
+      "date": "2026-11-09",
+      "title": "研究更新",
+      "retained": 0,
+      "drafts": 1,
+      "materials": 1,
+      "pending": 2,
+      "reason": "本包新增合格配对0。接招从Johnstone原著承接伙伴前提的关系选择，双25后8次中文使用查询全返，查到既有接招创业媒体商业品牌；另香港官方历史同核心公司名，按商业品牌避让，不冒精确AI软件或实时注册占用。原A2首返实际无稿后主动闭族余1未用，内部三表达未选未查；英文匹配及同独立查重实际零英文。1个新材料/原著指定节选，0新案例核验，原A1只复用具体案例机制。上一heartbeat中断后由下一heartbeat接续原包，未另开重复轮。总库仍30讨论+1储备，2待核项分开。",
+      "record_url": "https://github.com/3013038780-design/Namingacompany/blob/codex/naming-research-pilot/research/runs/2026-11-07-continuous-001/continuations/2026-11-09T042642Z/result.json"
+    },
     {
       "id": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/result.json",
       "at": "2026-11-09T12:22:59.930743+08:00",

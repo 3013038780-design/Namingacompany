@@ -1,0 +1,45 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-09T13:37:42.392588+08:00",
+  "candidate_id": "C1-C62",
+  "name": "接招",
+  "decision": "accept_editorial_nonselection_existing_commercial_core_return_original_A2_R1",
+  "A3_raw_reason_code": "NEAR_MATCH_HOLD",
+  "selection": "not_selected_existing_cross_industry_core_commercial_use",
+  "actual_root_read": [
+    {
+      "url": "https://pitchhub.36kr.com/project/1678460453155848",
+      "scope": "19项目接招、23创业报道新媒体平台、43–45完整产品简介及所属北京趋势前线信息科技，53–56第三方工商字段",
+      "finding": "具体商业媒体品牌，不冒同名AI基础模型/独立软件或官方实时工商核准。不是普通接招动词。"
+    },
+    {
+      "url": "https://www.cr.gov.hk/docs/wrpt/wk_new%26changednamecoys_20180618.pdf",
+      "scope": "原PDF文本5212–5240，实体143页/zero-based142，序1564接招集團有限公司/Jiezhao Group Limited，2711670，20-06-2018；截图一次超时，未冒视觉验证。",
+      "finding": "官方历史成立记录，列表2018-06-25发布，非当前存续/业务/商标或AI方向核验。2712064属于邻行捷萊仕，未误配。"
+    }
+  ],
+  "other_leads": "原A3台湾第三方接招行销与拼音演讲台索引分别分层，root未新开，不依赖未读官网作中文同名确证。",
+  "CN_reworks_used": 0,
+  "CN_reworks_available": 2,
+  "English_eligible": false,
+  "new_A3_queries": 8,
+  "new_root_usage_queries": 0,
+  "refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch51.json",
+      "sha256": "a9b2e8f269dee932b18fa749f250fc692fe8421472673b12d7a6e14d5a5739e4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch51-receipt.json",
+      "sha256": "36099d7aa1a157e45dbc747df4869509ed535c88abef423abc40b747c3cea41c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch52.json",
+      "sha256": "f0ad50f8243ab8b8086c03efd0a4562ede671be74962c85b2acdf56a0ff8a432"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch52.json",
+      "sha256": "a6608d6c5340472562f2925a5a87dc0e3c6a005d7fd3d6cabcc001a05a030872"
+    }
+  ]
+}

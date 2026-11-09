@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-11-09T13:57:14.845047+08:00",
+  "packet": "C62_complete_next_A2batch54_in_progress_separate",
+  "data_validation": "passed_consistency_whole_production_INCOMPLETE",
+  "unit_tests": {
+    "passed": 29,
+    "failed": 0
+  },
+  "renderer_exit": 0,
+  "reference_verification": {
+    "new_resolvable_refs": 524,
+    "bad": 0
+  },
+  "stable_previous_catalog_entries": {
+    "all_32_deep_equal": true,
+    "stable_IDs_unchanged": true
+  },
+  "local_feed": {
+    "entries": 32,
+    "events": 21,
+    "research_rows": 62,
+    "pending_rows": 2,
+    "latest_event": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T042642Z/result.json"
+  },
+  "new_query_groups_checked": 8,
+  "registration_boundary": "使用/历史登记与现时商标和工商核准分开；不声称可注册。",
+  "public_after_push": "not_yet_checked"
+}

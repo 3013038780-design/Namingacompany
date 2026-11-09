@@ -1,0 +1,179 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-09T13:35:38.266730+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch52.json",
+      "sha256": "de831a8c9e8f4e75aa5ea7be1e6a627cbf7e74ea1d9e77f0151f93b59ef4c567"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch52.md",
+      "sha256": "b0a8dda7d9d70459d6c6f31d8710c74b6c3cdb442a5b27bbde245be168c691cc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch52.json",
+      "sha256": "de831a8c9e8f4e75aa5ea7be1e6a627cbf7e74ea1d9e77f0151f93b59ef4c567"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch52.json",
+      "sha256": "24fa65f23bda171bcf96a025ea414b54faaf77eaf063083659d7b05d2ade870f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch52-receipt.json",
+      "sha256": "8590bf83ef7dcc6bf59942f1943efb592594233227b6527fc4de718858438a16"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch52.json",
+      "sha256": "3e962b8458e25237ca36d6166d9ea2a27d1577e927c3bc50ef995663b346bb48"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension39.json",
+      "sha256": "4615aa738af3daa85c81635107e9c70ce66a7dfe787230b3f447912b60b4c01b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch52.json",
+      "sha256": "f0ad50f8243ab8b8086c03efd0a4562ede671be74962c85b2acdf56a0ff8a432"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch52.json",
+      "sha256": "a6608d6c5340472562f2925a5a87dc0e3c6a005d7fd3d6cabcc001a05a030872"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T042642Z/root-M76-source-review.json",
+      "sha256": "b0b1112a1b50fcbbe8fe817aeafa5cb06aab054582d42d4488bf156b4ba482ce"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T042642Z/quality-comparison-batch52.json",
+      "sha256": "921145edb146d65a207b578161b785998651e10d249d6d8318b420fb4ff30ed0"
+    }
+  ],
+  "query_count": 8,
+  "completed_search_result_count": 8,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-C62",
+      "name": "接招",
+      "pinyin": "jiē zhāo",
+      "version": 1,
+      "rework_attempt": 0,
+      "material_id": "C1-M76",
+      "family_id": "C1-BF-taking-up-another-action-without-erasing-its-premise",
+      "decision": "editorial_avoid_existing_full_core_media_business_brand_and_company_names",
+      "reason_code": "NEAR_MATCH_HOLD",
+      "selection_status": "not_selected_existing_cross_industry_core_commercial_use",
+      "reason": "可读36氪明确接招独立创业报道媒体产品及科技公司主体，另官方历史接招集团名/台湾接招行销具体主体。依项目既有商业核心避让，不称精确同名AI模型或软件/官方现时登记核准。",
+      "query_logs": [
+        {
+          "query": "\"接招\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "无行业精确主要词典武术/接受挑战普通动作，也有TakeThat中文团名和更长剧集标题；不凭词义或维基标题证明公司占用。"
+        },
+        {
+          "query": "\"接招公司\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "公司组有历史接招企业社、接招行销公司和新闻动词等；实际打开台湾LawPlayer完整公司正文，第三方状态不冒官方实时登记。"
+        },
+        {
+          "query": "\"接招科技\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "科技组发现36氪接招创业新媒体项目，实际打开L19/23/49明确其产品名及北京趋势前线信息科技主体；不是把接招动词混为科技名。"
+        },
+        {
+          "query": "\"接招智能\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "智能组主要安全论坛/蚂蚁新模型如何接招等标题，接招作应对动作，不当独立接招智能公司或AI模型名称。"
+        },
+        {
+          "query": "\"接招\" AI 模型 软件",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "AI模型软件组为Ling3.1flash发布接招等普通动词，主体实际模型名另有其名，不把报道标题推为接招AI产品。"
+        },
+        {
+          "query": "\"接招\" 公司 軟體 品牌",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "简繁同形，另补繁体商业语境；出现团体、营销公司及普通接受挑战句，具体商业核心与更长剧名/小牛接招有意义前缀分清。"
+        },
+        {
+          "query": "\"jiezhao\" company software",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "拼音命中Jiezhao演讲台企业索引、学者JieZhao个人及香港接招集团历史官方名单。前两主体索引/官网403或不可访问不冒本中文同公司；香港原PDF实际读闭2018名称。"
+        },
+        {
+          "query": "\"捷招科技\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "捷招合理同音异字组主要招聘/学校词串和不同捷普/捷亮公司；异字核心不自动算接招精确主体。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://pitchhub.36kr.com/project/1678460453155848",
+          "access": "third_party_business_project_body_read",
+          "read_range": "186行L19/21–23/47–49/70–74/118",
+          "finding": "接招为创业报道新媒体平台、北京趋势前线信息科技有限公司旗下产品。既有独立具名媒体商业品牌，不说已确认AI公司/独立可安装软件；融资/股权/现时状态未另核。"
+        },
+        {
+          "url": "https://www.cr.gov.hk/docs/wrpt/wk_new%26changednamecoys_20180618.pdf",
+          "access": "official_historical_company_list_pdf_body_read",
+          "read_range": "276页，物理143页/印刷143，L5212–5240，表头与JiezhaoGroup行",
+          "finding": "2018-06-18至24名单实际有Jiezhao Group Limited/接招集團有限公司，成立2018-06-20。官方历史名称事实；不是当前公司存续/业务/9与42商标核准。集团为组织描述，不使接招核心不同。"
+        },
+        {
+          "url": "https://lawplayer.com/company/66255539",
+          "access": "third_party_company_profile_body_read",
+          "read_range": "349行L42–46/76–80/87–115",
+          "finding": "接招行銷股份有限公司及服饰批零行业，数据自述截至2026-09-01。第三方当前状态字段不冒本人已做台湾官方查册；按跨行业同核心风险报告。"
+        },
+        {
+          "url": "https://www.cbinsights.com/company/jiezhao",
+          "access": "search_index_actual_body_403",
+          "finding": "Jiezhao演讲台/系统方案企业的具体索引，实际403；索引官网https://www.jiezhaokeji.com实际不可访问，中文对应/当前业务未核，不据此说接招科技确证。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Jiezhao",
+          "scope": "2026-11-09本次逐名入口不可访问，非无登记。"
+        },
+        "hong_kong_historical_company": {
+          "status": "verified_historical_name_only",
+          "url": "https://www.cr.gov.hk/docs/wrpt/wk_new%26changednamecoys_20180618.pdf",
+          "scope": "本次实际官方2018名单，接招集团完整名称/当时成立；未核现时存续/业务/商标。"
+        }
+      },
+      "remaining_chinese_reworks": 2,
+      "source_boundary": "现成中文品牌再选择、非Johnstone原文中文或武术定律；保留伙伴前提继续回应不等于无条件赞同。本人只读本次上游范围与原角色记录，不冒本阶段新读原著或做戏剧训练。"
+    }
+  ],
+  "passed_chinese_candidate_ids": [],
+  "rejected_chinese_candidate_ids": [],
+  "held_chinese_candidate_ids": [
+    "C1-C62"
+  ],
+  "editorially_avoided_chinese_candidate_ids": [
+    "C1-C62"
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "同run旧两阳性本次0新增；大陆旧403准确复用非新访问。"
+}

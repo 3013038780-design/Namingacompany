@@ -1,0 +1,83 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 actual zero-input execution receipt",
+  "executed_at": "2026-11-09T13:49:26.410018+08:00",
+  "inputs": [
+    {
+      "path": "A3-cn-batch51.json",
+      "sha256": "a9b2e8f269dee932b18fa749f250fc692fe8421472673b12d7a6e14d5a5739e4"
+    },
+    {
+      "path": "A3-cn-batch51.md",
+      "sha256": "7090c097c256bcd79ea1840c2ea5a6f87ea297d0af30850097b43d34e2db5267"
+    },
+    {
+      "path": "A3-cn-batch51-receipt.json",
+      "sha256": "36099d7aa1a157e45dbc747df4869509ed535c88abef423abc40b747c3cea41c"
+    },
+    {
+      "path": "A2-preview-batch53.md",
+      "sha256": "ae0876ef7634dfd6d9b0a82ff273a3f1db2f2be74c3224aa81c48c2182141615"
+    },
+    {
+      "path": "A2-candidates-batch53.json",
+      "sha256": "a7171d1dcdbe10424a0d91f72515da4a9700df344b6d07fa6516c875a17bd3ab"
+    },
+    {
+      "path": "A2-quality-batch53.json",
+      "sha256": "0a163b8f175ee658033812a9ea9aa4631a725a385dbd928c195e535b6a36eb50"
+    },
+    {
+      "path": "A2-creation-execution-batch53.json",
+      "sha256": "f2a6e4327da4e5906134a0cbff7c30cf77091a6ca986a1636154b81484db9d20"
+    },
+    {
+      "path": "coordinator-cn-batch53.json",
+      "sha256": "c0b9ae96223107fff735b1d8b5569b46455389bd5e3f987d953ee0fa32e7bece"
+    },
+    {
+      "path": "A3-cn-batch52.json",
+      "sha256": "b1ac3111752f59fe296021402ac57b96cdbf90d6beb829b2ed1762e56ed0e704"
+    },
+    {
+      "path": "A3-cn-batch52.md",
+      "sha256": "5ff5fb548f4d4cb3a58f5d3639431d418134e8cf197f9eef725e499b72bbe613"
+    },
+    {
+      "path": "A3-cn-batch52-receipt.json",
+      "sha256": "563a843de40cc8830873c6b44e1395d490f3fd8b9446d26d615f2e95e0769a3f"
+    },
+    {
+      "path": "continuations/2026-11-09T042642Z/root-cn51-return.json",
+      "sha256": "a18456b864351426d114161275ea2f7cd7a0f40ceca990b4bd3c90d05d09871f"
+    },
+    {
+      "path": "continuations/2026-11-09T042642Z/root-C62-terminal-input-review.json",
+      "sha256": "f24cf1a02c3e8ff7ec2407c53072276857a50a8f9bc13242c801cb0b6e1a59cb"
+    }
+  ],
+  "all_referenced_hashes_match": true,
+  "verified_reference_count": 43,
+  "actual_chinese_families_reviewed": 1,
+  "submitted_chinese_spelling_count": 1,
+  "qualified_chinese_input_count": 0,
+  "eligible_english_inputs": 0,
+  "actual_english_creation": 0,
+  "actual_new_scores": 0,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "completed_chinese_reworks": 1,
+  "unused_chinese_rework_allowance": 1,
+  "R2_performed": false,
+  "outputs": [
+    {
+      "path": "A4-zero-input-batch34.json",
+      "sha256": "26696c99512d0fb5b58f2a7a57580ec18346085f29629eaefd6dcf0809cf763a"
+    },
+    {
+      "path": "A4-zero-input-batch34.md",
+      "sha256": "81b0dc5171d2caa16a90ac5f593a3fbd3af8f01b08ad3142e47e152b4f008c8b"
+    }
+  ],
+  "next": "same original live_a3 EN-zero-batch34 actual final check"
+}

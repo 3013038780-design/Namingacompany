@@ -1,0 +1,29 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-09T13:33:37.034492+08:00",
+  "material_id": "C1-M76",
+  "actual_sources": [
+    {
+      "title": "Keith Johnstone, Impro",
+      "url": "https://users.iit.demokritos.gr/~k.palaiologos/thymeli/pdf_files/Johnstone,%20Keith%20(1981),%20Impro_%20Improvisation%20and%20the%20Theatre,%20London_Methuen%20Drama.pdf",
+      "local_path": "/tmp/a2-johnstone-impro.pdf",
+      "sha256": "78e76f719b44f6ef6e9dec50c77800a7ab537e7d3c148ab0b5695705e5fd92cc",
+      "root_actual_read": "同SHA文件用fitz实际提取并读物理46–49跨页、印刷92–99。另渲染并目读物理48跨页，核实左96/右97及段落关系。",
+      "supports": "作者区分口头反对与抹去对方设定；回应可保留角色/处境前提并发展动作。文字是训练实践解释，不是控制实验。",
+      "boundary": "未读全章/全书、未看演出或实操，原作者英语段落没有接招汉字；不把所有现实要求必须接受作为原则。"
+    },
+    {
+      "title": "Second City Improv 1 Online",
+      "url": "https://www.secondcity.com/classes/virtual/improv/improv-1-online-vir",
+      "root_actual_read": "144–174概念与完整课程介绍，107–109题名简述；课表127–140只用来区分课程日期，不充新闻时间。",
+      "supports": "课程自述成组练习、回应伙伴和共同创作，可作实践语境，不证明普遍有效性或原书命名史。"
+    }
+  ],
+  "source_sampling": {
+    "new_materials": 1,
+    "root_sources_for_card_read": 2,
+    "minimum_other_cards": 1
+  },
+  "date_boundary": "书籍旧版印本、课程未核发布日期，无新近90日新闻，不以2027课表充发文日期。",
+  "no_market_queries_by_root": true
+}

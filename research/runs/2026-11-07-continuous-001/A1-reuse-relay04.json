@@ -1,0 +1,161 @@
+{
+  "agent_id": "/root/continuous_a1",
+  "role": "A1",
+  "completed_at": "2026-11-09T12:30:00.263095+08:00",
+  "stage": "reuse_relay04",
+  "protocol_version": "1.1",
+  "scope": "同001真实原A1极简复用交接；不新开命名轮、不新开计划、不改变六世界",
+  "applies_to": "供root验收后原A2后续批次实际阅读/创作；不是已启动候选的事后原则或来源标签",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/inputs/A1-reuse-relay04/README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba",
+      "read_scope": "当前规范/反馈文本复用核对；无规范变化或门槛修改"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/inputs/A1-reuse-relay04/AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80",
+      "read_scope": "当前规范/反馈文本复用核对；无规范变化或门槛修改"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/inputs/A1-reuse-relay04/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567",
+      "read_scope": "当前规范/反馈文本复用核对；无规范变化或门槛修改"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.json",
+      "sha256": "b3bbd78ef83733b79b7033404dc29727a7e0c749988d06218820850f4de520be",
+      "read_scope": "重读已核B008/B037、六原则及其证据边界"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.json",
+      "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132",
+      "read_scope": "重读F1–F6，保留关系句与整体自然称呼要求"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-role-expansion01.json",
+      "sha256": "bbb6c1f816e0942aa2ee0e5e7cca52437db41e909ceaa7a62fde0583a374dec4",
+      "read_scope": "仅重读已核B027及先前阅读范围，外部URL本次不重开"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-role-expansion03.json",
+      "sha256": "eab7c0cd091de9a281b1ef9aacec0cde26f37cca555f30d2411f6ac795ce35f2",
+      "read_scope": "重读腾讯/火山引擎已核事实、后设分析和不套引擎模板结论"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+      "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f",
+      "read_scope": "重读已验六方向，重点S4/S5的角色/实践/行动问题，其他方向仍保留"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/plan-review.json",
+      "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896",
+      "read_scope": "核主控accepted及已验六方向，不再提交新计划"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T042642Z/history-scan.json",
+      "sha256": "a730da27525989039c0f428c8249039bf9afe894791e54f8f5bfcb771a0c2b6a",
+      "read_scope": "本段冻结历史扫描索引与名称字段范围，非本步重读全部原稿"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/decisions-through-batch51.json",
+      "sha256": "7da30e91c3698de779e3dd04c739081fa782a59520d5aae0463c2eba09760dfe",
+      "read_scope": "复用前59案去留并重读末段；实际读新增C60/C61取舍，累计61案"
+    }
+  ],
+  "counts": {
+    "existing_verified_cases_reused": 3,
+    "newly_verified_cases": 0,
+    "new_market_cases": 0,
+    "new_external_reading": 0,
+    "new_source_discovery_queries": 0,
+    "new_name_proposals": 0,
+    "frozen_decisions": 61
+  },
+  "existing_mechanism_handoffs": [
+    {
+      "id": "RR04-1",
+      "case_id": "B008",
+      "name": "阿里巴巴 / Alibaba",
+      "existing_evidence_ref": "A1.json#cases/B008",
+      "existing_fact": "已读公司FAQ直接解释全球熟悉/易发音，并以故事中的开门说明为小企业打开机会。",
+      "fact_boundary": "本次仅复用该企业正文核验，不重读小说，也不把企业释名当全体消费者研究。",
+      "mechanism_to_reuse": "故事中的角色、行动与他者机会构成完整关系；名称不是一张文化漂亮词清单。",
+      "plan_direction_ids": [
+        "C1-D-S4"
+      ],
+      "next_A2_reading_questions": [
+        "在中国现代工程、科学实践、创作或叙事的原始正文里，谁在什么具体情境下，使其他人原来办不到的事情开始能做？读完一段行动经过，不只摘人物称号。",
+        "这段关系是否能给公司一个长期角色，而非只能给一次活动、文创产品或某项服务命名？"
+      ],
+      "what_to_read_next": "沿原S4查作者/参与者记录中的完整事件或情景；现代文化与实践可用，不限定古文。由A2实际找正文，此条不计新资料阅读。",
+      "must_retain": "行动者—条件/行动—他者改变的同场关系；角色有画面并能被自然称呼。",
+      "do_not_copy": [
+        "不再造芝麻、开门、宝藏或故事角色近邻，不因换了另一篇故事就称独立家族。",
+        "不把所有故事角色都当合格Lab名字，文化来源不抵消品牌身份不足；古文≤15%保持。"
+      ]
+    },
+    {
+      "id": "RR04-2",
+      "case_id": "B027",
+      "name": "Midjourney",
+      "existing_evidence_ref": "A1-role-expansion01.json#cases/B027",
+      "existing_fact": "已读官网About把人与技术放在过去与尚未想象出的未来之间，讨论想成为什么。",
+      "fact_boundary": "这是公司当下明确的世界观自释，不等于初次命名决策档案或科学结论。",
+      "mechanism_to_reuse": "名称可以给机构一个处于共同活动中的位置，让身份容纳尚未确定的研究，而不把公司等同某个器件或一次功能。",
+      "plan_direction_ids": [
+        "C1-D-S5"
+      ],
+      "next_A2_reading_questions": [
+        "作者或参与者如何记述一个目标尚未定型的共同活动：做出的东西、遇到的人或一次试验，怎样改变后续可做的事？请读实际过程，避免只读未来宣言。",
+        "原文中能否找到区别于“成长更强”的位置或参与关系，让公司像一个长期行动主体，而不是路程时间词？"
+      ],
+      "what_to_read_next": "沿原S5读现代创作/研究实践的参与者正文；先核具体关系与旧资料是否相同，再实际创作，不新增卡/计划审批。",
+      "must_retain": "活动中的位置与参与方式；允许完整场景/角色或自然短语，不限制两字或完整学术术语。",
+      "do_not_copy": [
+        "不再翻新途中、之后、下一次、二次出发、未完等历史家族。",
+        "已有Schön问题重构、Lave参与实践材料不能换书名就新增家族；若关系相同只能复用旧素材，不补新阅读量。"
+      ]
+    },
+    {
+      "id": "RR04-3",
+      "case_id": "B037",
+      "name": "Imbue",
+      "existing_evidence_ref": "A1.json#cases/B037",
+      "existing_fact": "已读实际命名顾问叙述改名过程及把智能/人类价值赋予计算机的解释。",
+      "fact_boundary": "这是命名参与方对该项目的叙述；团队喜欢不等于普遍市场验证，其当年法律尽调不转移给本项目。",
+      "mechanism_to_reuse": "对他者产生什么作用可以成为机构身份；不必所有名字都是被研究对象的名词。",
+      "plan_direction_ids": [
+        "C1-D-S5",
+        "C1-D-S6"
+      ],
+      "next_A2_reading_questions": [
+        "实际实践中，一方如何让另一方已有但用不出来的能力进入行动？读材料里的参与者、转交方式与必要条件，不预填“赋能/增强”的答案。",
+        "这种作用是否有可见场景或自然可称呼的角色，能说明我们与模型/使用者的关系，同时避免育儿、培训、咨询服务的首感？"
+      ],
+      "what_to_read_next": "沿原S5/S6读取原作者的技术实践/协作事件；明确谁使谁能够做什么，再让A2决定有无自然称呼。未来资料尚未阅读，本次不贴来源标签。",
+      "must_retain": "作用关系中的对象、动作及条件，不能只剩正向动词。",
+      "do_not_copy": [
+        "不把增强、赋能、聪明、成长的近义词配对，也不再复制引擎尾缀。",
+        "共同参照、团队共享、胶带微尺度、烛芯供料等既有材料须按原家族去重；换一个角色词不自动变新。"
+      ]
+    }
+  ],
+  "context_observation": "61案里完整术语与两字熟词有公开使用拥挤，也有熟手/千手稿等出处真实但身份不足；C60/C61均为真实来源但同核心使用淘汰。其结果支持拓宽称呼实现方式，不证明熟词或科学术语应全部禁用，更不保证故事/长短语能通过。",
+  "existing_rules_reused": [
+    "C1-P1",
+    "C1-P2",
+    "C1-P4",
+    "C1-P5",
+    "C1-P6",
+    "F1",
+    "F3",
+    "F4",
+    "F5",
+    "F6"
+  ],
+  "direct_next_step": "原A2沿已验六方向直接找原始正文，在角色、行动位置和对他者作用中择真正不同关系；关系可完整说出后再创作自然称呼，字数不限。不为本交接增加用户审批或再交计划，也不规定三种机制各必须产名。",
+  "unchanged_boundaries": "原质量门槛、四角色分工、中英文查重/核心商业使用口径、同族计数、返工上限和古文≤15%均不变。未修改旧反馈或规范/库/queue/Git。",
+  "new_name_proposals": [],
+  "execution_ref": "真实原Agent /root/continuous_a1，本次只有仓库实读与复用，没有web调用。"
+}

@@ -1,0 +1,135 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-09T12:35:23.111324+08:00",
+  "stage": "same_run_relay04_guided_author_book_excerpt_and_one_CN",
+  "input_refs": [
+    {
+      "path": "README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-reuse-relay04.json",
+      "sha256": "1d1b8c1a257f6507af1ac4fd8c8fe68607b0c8d096fadbd8672af3fdd9306362"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-reuse-relay04.md",
+      "sha256": "ed047c42d5e9a9d9f5a8649426de5700476e90fda6fdee7e393e1162feb891ae"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-reuse-relay04-receipt.json",
+      "sha256": "8fcbe02718f7b575341338b8f4126c9b09e9da6bf85e1e880ab5f0e1eede21b6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T042642Z/resume.json",
+      "sha256": "e22d85f54167ac09e68dcda45cd7b46312ae25ac6398763889879bfafef6daf2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T042642Z/history-scan.json",
+      "sha256": "a730da27525989039c0f428c8249039bf9afe894791e54f8f5bfcb771a0c2b6a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T042642Z/h1-relay04-review.json",
+      "sha256": "ba566475544b135d2ca1b87f26df9c0a355519d34db3d07b61eb7d516c10c546"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/decisions-through-batch51.json",
+      "sha256": "7da30e91c3698de779e3dd04c739081fa782a59520d5aae0463c2eba09760dfe"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+      "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+    },
+    {
+      "path": "research/runs/2026-11-06/materials.json",
+      "sha256": "2adee64be866696bc1165ef904534d7d17a73dcfc04229a7e39c417593e49924"
+    },
+    {
+      "path": "research/runs/2026-11-06/candidates.json",
+      "sha256": "95b101c47e050a5359b52580e63892f671f627953383320a921239d754e24399"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch1.json",
+      "sha256": "de29716948169e218e2207fdb612e83e8d0a5e6dbed0e3bc5b92e623f9fae2d4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch25.json",
+      "sha256": "248efb7ee3e82a1f38a52810c95c4859c123699fdbfb88c825c1ba1fd6216c88"
+    }
+  ],
+  "actual_input_boundary": "当前规范分段实际读；新relay04全文与验收实际读。复用原A1/六方向已验计划，不重开案例/计划或称本角色新读其外部命名证据。冻结历史复用并全runs逐字节扫描，旧爵士/临场集、应手、构境实际对象关系抽核。",
+  "questions_before_reading": [
+    "无预写结局的共同活动中，怎样接手伙伴已经给出的行动，而非仅嘴上赞同？",
+    "对他者的作用可否形成长期参与角色，而非培训服务/写作功能？"
+  ],
+  "reading_evidence": [
+    {
+      "title": "Keith Johnstone, Impro: Improvisation and the Theatre, Spontaneity chapter",
+      "url": "https://users.iit.demokritos.gr/~k.palaiologos/thymeli/pdf_files/Johnstone,%20Keith%20(1981),%20Impro_%20Improvisation%20and%20the%20Theatre,%20London_Methuen%20Drama.pdf",
+      "source_type": "book_author_text_university_hosted_copy",
+      "book_id": "Johnstone-Impro-1979-1981",
+      "published_at": "1979原硬皮/1981平装，所见版权页另列1989重印；不是近期新闻",
+      "access": "body",
+      "reading_scope": "selected_four_scanned_spreads_not_whole_chapter",
+      "reading_location": "web实际读书目/版权L1–76；后find三次超时。curl实际下载后fitz实读PDF物理46–49页（印刷92–99），包括Working Someone、Blocking and Accepting及场景对话。未目读图/观看演出/参与训练，未通读全章或全书。",
+      "read_at": "2026-11-09T12:35:23.111324+08:00",
+      "local_path": "/tmp/a2-johnstone-impro.pdf",
+      "sha256": "78e76f719b44f6ef6e9dec50c77800a7ab537e7d3c148ab0b5695705e5fd92cc",
+      "boundary": "作者的戏剧训练观察、例子与解释，不是控制实验或所有情境必须接受他人要求的普遍规则。书中accept指继续情境前提，不等于口头说Yes；不把拒绝现实有害要求说成错误。"
+    },
+    {
+      "title": "The Second City: Improv 1 Online",
+      "url": "https://www.secondcity.com/classes/virtual/improv/improv-1-online-vir",
+      "source_type": "practitioner_training_program",
+      "access": "body",
+      "reading_location": "web实际读L144–174概念与完整课程介绍；页面未示发文日期，课表2027不是新闻发布日期。",
+      "published_at": null,
+      "read_at": "2026-11-09T12:35:23.111324+08:00",
+      "boundary": "训练机构课程自述，只作并行实践语境，不当课程有效性实验、原著章节或近90日新闻。"
+    }
+  ],
+  "access_failures_recorded_in": "materials-extension39.json",
+  "history_scan": {
+    "file_count": 1915,
+    "manifest_sha256": "9c761b1ac9258bae23e49c7454f9b7e62b5278a5697a38476081efd611dba1ac",
+    "semantic_comparisons": "实际读旧2026-11-06 M07爵士与C13临场集：其核心为既有技能在现场产生表达、反馈积累，故本包不选无脚本/即兴生成当新族。新关系限于接手伙伴已经建立的情境前提与后续行动：哪怕人物口头反对，仍可保留前提；不同于单人现场出新。旧C03应手为手套形变传感/工具回应，不是两位参与者守住共同前提；C44构境为改变情境使问题重新成形，本项守住已给前提继续共同行动；千手稿为模块贡献/整合，不是现场一方接手另一方行为。家族计数仍待主控实质核，不因换了戏剧书就算新。",
+    "not_a_market_screen": true
+  },
+  "new_material_count": 1,
+  "new_chinese_primary_id_count": 1,
+  "new_chinese_draft_count": 1,
+  "new_selected_family_count": 1,
+  "family_count_boundary": "待主控具体关系核验；若认为与旧临场集仍是同族，不能因换书/领域计新。",
+  "new_english_count": 0,
+  "new_recent_news_count": 0,
+  "name_usage_queries_performed": false,
+  "output_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension39.json",
+      "sha256": "4615aa738af3daa85c81635107e9c70ce66a7dfe787230b3f447912b60b4c01b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch52.json",
+      "sha256": "de831a8c9e8f4e75aa5ea7be1e6a627cbf7e74ea1d9e77f0151f93b59ef4c567"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch52.json",
+      "sha256": "de831a8c9e8f4e75aa5ea7be1e6a627cbf7e74ea1d9e77f0151f93b59ef4c567"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch52.md",
+      "sha256": "b0a8dda7d9d70459d6c6f31d8710c74b6c3cdb442a5b27bbde245be168c691cc"
+    }
+  ],
+  "numeric_quality_status": "separate_file_after_unscored",
+  "boundary": "只自己新档，不改旧稿/分数/库queueREADMEGit；不把原著片段冒整书，未看图片/演出或做训练。原两个闭族未复活，未自行开batch53。"
+}

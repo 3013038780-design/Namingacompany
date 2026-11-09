@@ -1,0 +1,34 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-09T04:26:42.436Z",
+  "resumed_at": "2026-11-09T12:28:25.004476+08:00",
+  "protocol_version": "1.1",
+  "roles_actually_confirmed_idle": [
+    "/root/continuous_a2",
+    "/root/live_a3",
+    "/root/continuous_a4"
+  ],
+  "same_run": true,
+  "previous_result": {
+    "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/result.json",
+    "sha256": "784b89091a24be5f572de5f8a0dbe4ac39caa66baa0c3b5ebb813b081c2117e9"
+  },
+  "frozen_previous_decisions": {
+    "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/decisions-through-batch51.json",
+    "sha256": "7da30e91c3698de779e3dd04c739081fa782a59520d5aae0463c2eba09760dfe"
+  },
+  "history_scan": {
+    "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T042642Z/history-scan.json",
+    "sha256": "a730da27525989039c0f428c8249039bf9afe894791e54f8f5bfcb771a0c2b6a"
+  },
+  "unchanged_seed_reused_after_prior_full_read": {
+    "path": "research/seed/brand-naming-foundation.md",
+    "sha256": "92cb6c7cd36c201d35900528826a8aa9aca5a75c632df57d30dcaade5547f519"
+  },
+  "classification_actually_read_this_segment": {
+    "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+    "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+  },
+  "next": "A2batch52 M76+ C62+; reuse verified A1 mechanisms and six-world plan; broaden modern culture/practice/action",
+  "new_A1_cases_claimed": 0
+}
