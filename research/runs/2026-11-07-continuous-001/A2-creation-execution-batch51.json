@@ -1,0 +1,62 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "completed_at": "2026-11-09T12:14:47.673832+08:00",
+  "stage": "C61_same_family_CN_R1_actual_comparison_zero_selection",
+  "input_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.json",
+      "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.md",
+      "sha256": "b6ad12aeabe9bb9901eafd52eb7c37f050d541f54115bb3a6fd03788265a87ac"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49-receipt.json",
+      "sha256": "ba15ec67c8d8dcfbec8f78ebd3a0ba6c192526b75e3f6c7104a52b3bf4536ca7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-cn49-return.json",
+      "sha256": "1329318db92d95a9db25af14a2aff23de642eea2b5037be13b16bf7f0065aec9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch50.json",
+      "sha256": "0dab66b8fe3cedeeb21ed44c64cd22e872769fc62596b496b3ea621aa960cf7d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension38.json",
+      "sha256": "74cb9092800e90dc8bb5ae246346e990b8c485b42aa39088b51c89bfe5b0a328"
+    }
+  ],
+  "actual_work": [
+    "实际读CN49 JSON完整查询/证据/登记边界、MD、receipt与root退回记录。",
+    "同M75研究角色考察三四字完整场景，比较语感、首要品牌身份与科学损失，不仅用入/微同义字换词。",
+    "内部比较场景/尺度/微物之光三种凝练路线，仍偏文化栏目/精密测量或把不同辐射错混；不选为正式稿。"
+  ],
+  "new_material_count": 0,
+  "new_chinese_primary_id_count": 0,
+  "new_chinese_draft_count": 0,
+  "new_selected_surface_count": 0,
+  "new_family_count": 0,
+  "rework_attempt_executed": 1,
+  "remaining_chinese_reworks": 1,
+  "recommendation": "voluntarily_close_C61_family_one_rework_unused",
+  "name_usage_queries_performed": false,
+  "new_english_count": 0,
+  "output_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.md",
+      "sha256": "2a1cb5920d6f78b59050150e25f5faca7ee81197012c16ff8975e704cc456474"
+    }
+  ],
+  "boundary": "没有新版名字，version2是请求阶段而不是已选字面；内部短语不是新提案/已占用。旧稿/原分/源码SHA保持，未查市场/配英文/动库queueREADMEGit，不另开新族或下一批。"
+}

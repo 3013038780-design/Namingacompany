@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-09T05:39:37.074405+08:00",
+  "independence": "Read producer preview batch47 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C60",
+      "name": "火芯",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两常用字两音节可直接称呼且能读成一个芯部物象",
+          "counter_association": "容易被当普通零件名称"
+        },
+        "distinctiveness": {
+          "reason": "火和芯构成有边界的内部部件形象而非抽象智元组合",
+          "counter_association": "火心火新同音且芯字科技命名常见"
+        },
+        "lab_fit": {
+          "reason": "芯与火的工程感可承载基础条件研究和科技机构",
+          "counter_association": "电子烟芯电池或点火硬件的第一联想强于AI"
+        },
+        "grounding": {
+          "reason": "已独立读法拉第指定两讲芯供料与燃料空气的原本关系并明确品牌凝练非原文术语",
+          "counter_association": "名字省略空气汽化条件不可用来证明模型越用越强"
+        },
+        "extension": {
+          "reason": "可从内部供给条件延展到其他系统不局限一项模型功能",
+          "counter_association": "若产品只作支撑角色名字也可能被限成硬件部件"
+        },
+        "semantic_coherence": {
+          "reason": "物件形象和使活动发生的条件保持同一方向",
+          "counter_association": "火不是全部由芯决定也不是凭空燃烧"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

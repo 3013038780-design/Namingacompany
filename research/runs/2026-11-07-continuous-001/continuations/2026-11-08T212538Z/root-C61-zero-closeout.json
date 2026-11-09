@@ -1,0 +1,37 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-09T12:22:59.930743+08:00",
+  "candidate_id": "C1-C61",
+  "decision": "no_admission_actual_original_A4_same_A3_zero_complete",
+  "root_actual_read": "原A4zero33 MD、A3另档阅读范围纠正MD、A4另档纠正验收MD、同原A3 ENzero33 MD及完成回执实际阅读。",
+  "CN_reworks_actually_completed": 1,
+  "CN_allowance_unused": 1,
+  "new_EN": 0,
+  "scope_correction": "原CN50 MD模板CN47错误原档、原A3实际重读纠正、原A4后续接受、同原A3终核完整保存，未静改旧字节或冒最初无错；纠错不添名字/评分/查询。",
+  "refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.json",
+      "sha256": "25a50f023beb4f1cd770600db26da8b8d98ef81098d7cee4acb25d0a387a9130"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-reading-scope-correction.json",
+      "sha256": "fcc3190f05fcf644553b0aa3adb971e4619fbe00a1e914e5fc4d7f5cad3be848"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch33.json",
+      "sha256": "c8fad10d3c90da96b425d8a6c8dba8a967863eff6c443877419f335f62de24a7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-C61-CN50-correction-acceptance.json",
+      "sha256": "34254776069ef7b8b7a590b3508865b7b1c93e89ca334e138610908b0e518ef9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch33.json",
+      "sha256": "0ff9afdf13315c3e59367465f06f23203f8bd44b6fc5c87ec8a4db18bd7c057f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch33-receipt.json",
+      "sha256": "582ec65b0cd3d906121c15db2046f6a312b5ec625dbd9b93fdf025b214d1bc08"
+    }
+  ]
+}

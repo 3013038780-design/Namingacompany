@@ -1,0 +1,15 @@
+{
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-09T05:42:22.035536+08:00",
+  "original_ref": {
+    "path": "A3-cn-batch47.json",
+    "sha256": "5c170d1779c9673272c03586d189e5dc765d2bd602d6edd6b39a1a106279b27d"
+  },
+  "correction": "CN47 evidence[3] access字符串误写name_located：实际打开鱼泡4144行后find郑州火芯未匹配；query摘要曾出现该公司但当前动态正文未复现。须以本补记明确正文未核，不作为公司确证。原报告字节保持。",
+  "specific_url": "https://www.yupao.com/topic/a503-dygl4yvsar5u/",
+  "actual_response": "body_opened_find_no_match",
+  "new_queries": 0,
+  "decision_changed": false,
+  "reason": "EXACT_TECH_USE主证为实际可读BOSS深圳市火芯科技及本人台湾火芯商业站，不依赖鱼泡辅助索引。",
+  "counter": "717/716 + root4 = 721/720 unchanged"
+}

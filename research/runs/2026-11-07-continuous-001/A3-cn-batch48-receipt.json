@@ -1,0 +1,78 @@
+{
+  "agent_id": "/root/live_a3",
+  "executed_at": "2026-11-09T05:47:51.074014+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch48.json",
+      "sha256": "bbcdb0863de8d653bbbc8f7266d025a7d5d9622ab048e5c5c77ce226e2c207a6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch48.md",
+      "sha256": "3bb71e5fd598ce566a7b08b9009f80acef5ca610d9163289bdb01c38cbcd4481"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch48.json",
+      "sha256": "9c9a2b4d14f6a6f3c7db173b96b309325d7221b46e4772b647df4d39bdc97670"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch48.json",
+      "sha256": "4a7cc292ead64b2caaf3729277bae0c4227511baaf0ddbb1358d97d56d965604"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch48.json",
+      "sha256": "c838e8775e400bc80c6887c3ca16577a2b39b17897938ad567f7d953599e1aea"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch48.json",
+      "sha256": "3518e1ffa7f53debbc387378eb0735b41d199a4f0176c058f582c34c0391920c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-C60-terminal-input-review.json",
+      "sha256": "cb8abf86a35c3d116cfe72ac890c3ef78e9b75ace458054a4c55ae6f2253ff1d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch47.json",
+      "sha256": "5c170d1779c9673272c03586d189e5dc765d2bd602d6edd6b39a1a106279b27d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch47.md",
+      "sha256": "90324abe9b28e8430572ac7731e0285ebe0bae189c49a9135352c17e6e569f2d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch47-receipt.json",
+      "sha256": "9ec0f1281cbfb0485ea5763e7bed877f4b36406789c841efe4348ad4a0947fbe"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch47-auxiliary-scope-correction.json",
+      "sha256": "dead1fb0ac59f8ceba0973b510ba01ac45b8be2dd059cb7cb91e50882fc3382f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch48.json",
+      "sha256": "b6e3872256e18c821cbf5dc441cc6c8abedaf7bd6320ba3bf076f4e4c1aed213"
+    },
+    {
+      "path": "A3-cn-batch48.md",
+      "sha256": "0846b972b1c7cd4935b785c2a322bfee30f2994a1fa04c618e307bded662179e"
+    }
+  ],
+  "all_input_hashes_match": true,
+  "verified_reference_count": 42,
+  "actual_new_candidate_queries": 0,
+  "actual_new_chinese_queries": 0,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "actual_new_registry_accesses": 0,
+  "selected_new_chinese_count": 0,
+  "english_eligible_count": 0,
+  "CN_reworks_actually_completed": 1,
+  "CN_rework_allowances_unused": 1,
+  "agent3_cumulative_candidate_queries": 717,
+  "agent3_cumulative_returned_candidate_results": 716,
+  "root_independent_queries_reported": 4,
+  "run_cumulative_candidate_queries": 721,
+  "run_cumulative_returned_candidate_results": 720,
+  "status": "actual_zero_selection_checked_complete_not_unstarted",
+  "next": "original_A4_zero32_then_same_A3_EN_zero32"
+}

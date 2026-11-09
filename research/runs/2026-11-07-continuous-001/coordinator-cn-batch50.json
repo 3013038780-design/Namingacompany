@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-09T06:11:28.518453+08:00",
+  "independence": "Read producer preview batch50 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C61",
+      "name": "入微",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "既有两个熟字的完整表达可直接称呼不需解释读音",
+          "counter_association": "也常只是体贴或描写的日常修饰语"
+        },
+        "distinctiveness": {
+          "reason": "进入微小尺度的方向图像能在两字内被记住",
+          "counter_association": "不直接显出胶带或界面而且近音入围"
+        },
+        "lab_fit": {
+          "reason": "微观研究和深入细部的姿态可以承载科学技术研究机构",
+          "counter_association": "咨询护理文化工作室或显微硬件联想仍明显"
+        },
+        "grounding": {
+          "reason": "实际原文有接触界面微小发射区域及短事件的研究对象支撑微观入口这一有限品牌再选择",
+          "counter_association": "源没有中文入微且名称丢掉接触分离真空与粘滑条件不能当实验命名或性能结论"
+        },
+        "extension": {
+          "reason": "研究进入普通事物内部可跨材料计算和多个产品",
+          "counter_association": "若只剩认真细致会弱化机构的具体身份"
+        },
+        "semantic_coherence": {
+          "reason": "深入动作与细部研究保持同一研究姿态而非拼两好字",
+          "counter_association": "微小不等微弱辐射也不等微调或更强智能"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

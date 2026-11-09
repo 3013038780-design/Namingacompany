@@ -1,0 +1,51 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-09T12:15:45.911024+08:00",
+  "candidate_id": "C1-C61",
+  "decision": "accept_actual_R1_zero_selection_voluntary_close_one_allowance_unused",
+  "actual_read": "完整无分preview51/零quality51/执行记录；内部几路三四字整体表达尚未由原A2选作正式候选，主控不代补稿或造分。",
+  "CN_reworks_actually_completed": 1,
+  "remaining_CN_allowance_unused": 1,
+  "selected_new_CN_forms": 0,
+  "eligible_CN_for_English": 0,
+  "internal_phrases": [
+    {
+      "name": "寻常深处",
+      "status": "internal_not_selected_not_searched",
+      "reason": "作者认为散文/生活内容品牌首感"
+    },
+    {
+      "name": "毫厘之间",
+      "status": "internal_not_selected_not_searched",
+      "reason": "作者认为栏目/精密测量首感且宽泛尺度不能独显所读关系"
+    },
+    {
+      "name": "微物之光",
+      "status": "internal_not_selected_not_searched",
+      "reason": "作者认为科普/文化意象，不能在释义里把微小发射源写成微弱辐射"
+    }
+  ],
+  "source_note": "不声称这些短语本身都是科学错误或已占用；微小对象的光这一语句不自动意味着光能量弱。未正式选择的理由与实际使用证据分开。入微原双25与M75关系保留，中文使用否决不倒写源错。",
+  "refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch51.json",
+      "sha256": "cd242e8974d68314e854eacbc259ee4cbd81aa9738b4240c4e9394557acb5cd5"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch51.json",
+      "sha256": "c12181400b36403a7c78ba235dc49d173b0edeeecf186e9e89cdd792b5af9fee"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch51.json",
+      "sha256": "b5f94a46c9a75ef2d8a319a6d50510d664cbc6eed504e09aaa5fade4d725ac00"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-cn49-return.json",
+      "sha256": "1329318db92d95a9db25af14a2aff23de642eea2b5037be13b16bf7f0065aec9"
+    }
+  ]
+}

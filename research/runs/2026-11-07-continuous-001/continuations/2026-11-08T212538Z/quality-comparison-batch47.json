@@ -1,0 +1,22 @@
+{
+  "reviewed_at": "2026-11-09T05:40:29.139941+08:00",
+  "root_sealed_before_producer_numeric_read": true,
+  "root_total": 25,
+  "producer_total": 25,
+  "max_axis_difference": 0,
+  "decision": "both_pass",
+  "refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch47.json",
+      "sha256": "bfcafae2f5d914201c0117f576f61118c7bf60ac2871fa20f4bc200af504b73b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch47.json",
+      "sha256": "035605bef8159438bf6b38a56767b129a76d6629b1c0436b00fecb72941177d3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch47-receipt.json",
+      "sha256": "2a4214fa702ecf3384338b2109263cb68fdf1d0d00560a84bfa4b0dfb1b91342"
+    }
+  ]
+}

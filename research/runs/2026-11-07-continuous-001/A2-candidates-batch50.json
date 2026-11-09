@@ -1,0 +1,87 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T06:08:50.928508+08:00",
+  "candidates": [
+    {
+      "id": "C1-C61",
+      "name": "入微",
+      "pinyin": "rù wēi",
+      "material_id": "C1-M75",
+      "material_ids": [
+        "C1-M75"
+      ],
+      "family_id": "C1-BF-entering-microscopic-events-of-ordinary-interface",
+      "plan_direction_id": "C1-D-S1",
+      "case_ids": [
+        "B011",
+        "SUP-VOLCENGINE-01"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "UCLA Putterman Research Group: Triboelectrification",
+          "url": "https://acoustics-research.physics.ucla.edu/triboelectrification/",
+          "reading_location": "实际读L21–28研究问题、L39–47胶带发光/真空说明、L52–71源与装置图注文字。未看图片/视频、核公司链接或做实验。网页无可核发布日期，所谓仍有疑问仅作该组页面陈述，不冒截至2026全部理论进展结论。",
+          "read_at": "2026-11-09T06:00:01.202653+08:00",
+          "access": "body",
+          "source_type": "original_research_group_explanation",
+          "published_at": null,
+          "reading_scope": "specified_body_and_caption_text",
+          "boundary": "原组图注的电压/商业化进展不是本包独立验证；不把常压可见光与真空X射线混同，不说普通日常撕胶带必产生所报X射线。"
+        },
+        {
+          "title": "Camara, Escobar, Hird & Putterman: Correlation between nanosecond X-ray flashes and stick–slip friction in peeling tape (2008)",
+          "url": "https://courses.physics.ucsd.edu/2016/Spring/physics100c/Lectures/scotchtapexray.pdf",
+          "reading_location": "实际读原论文PDF实体第1页及第2页开头至L109：题名作者、摘要、引言、主要观测关系与条件；正文印刷1089–1090对应范围。未读剩余页/全部Methods/补充、未观察原图或复现实验。",
+          "read_at": "2026-11-09T06:00:01.202653+08:00",
+          "access": "body",
+          "source_type": "original_research_paper_university_hosted_copy",
+          "published_at": "2008-10-23（论文首页）",
+          "reading_scope": "page_1_and_page_2_opening_to_L109",
+          "boundary": "本文报告粘滑事件与X射线脉冲相关，且所述实验常压下未观测到X射线；不冒完整理论证明。PDF文本上标/负号/微米符号有转录风险，本包不用其OCR给出装置参数或重建方案。"
+        }
+      ],
+      "source_urls": [
+        "https://acoustics-research.physics.ucla.edu/triboelectrification/",
+        "https://courses.physics.ucsd.edu/2016/Spring/physics100c/Lectures/scotchtapexray.pdf"
+      ],
+      "formation": "复用上一包已经实读的同一关系，这次不把胶带/真空/X射线逐字压成器件名，而选择进入普通动作内部短暂而微小事件的研究角色。入微是现成中文表达的再选择，不宣称首造、标准科学名称或原论文中文原词。不是新物理关系，也没有另增素材。",
+      "relation_sentence": "研究者把日常剥离动作放入可控制条件，并把接触界面微小区域、短暂事件中的辐射变成可测对象。",
+      "condensation_path": "普通胶带的整体动作→进入其界面内很小、很短的事件→入微；以完整研究姿态凝练，不拆入为市场进入、微为微服务另编词义。",
+      "meaning": "进入寻常事物里尚未看清的细部，研究作用怎样真实发生。",
+      "crossing": "日常动作的熟悉外观与其界面内微小、短暂且依赖条件的物理事件交叉。品牌取进入这一层的研究角色，不称纸面观察本身制造了辐射。",
+      "layers": [
+        "中文原有细致深入的自然语感，可直接作称呼",
+        "在普通材料里进入非日常尺度的事件，熟悉事物仍有未知结构",
+        "研究的尺度和细节意识可以跨到计算与智能，但不作模型微调、智能必然增强的承诺"
+      ],
+      "material_feature_retained": "保留进入普通接触界面内部微小/短暂事件的具体研究画面；原论文所述亚毫米区域和短脉冲是这一画面的依据，不仅以看得更细泛化所有实验。",
+      "material_feature_lost": "称呼不再显出胶带、粘滑、真空或辐射条件，也不直接表达接触分离；独特科学关系须在第二层说明，不能假称两个字已精确描述实验。",
+      "why_name_not_generic": "现成熟词作为研究角色整体再选择，入微比直摘胶带器具更有长期研究身份；但不是因词义优雅或论文真实便天然独特。",
+      "shortcoming": "原有体贴入微/刻画入微的形容词语境，可能先像咨询、护理或文化工作室；又有入围近音。若独立品牌辨识只剩认真细致，应质量否决而不是靠论文补分。",
+      "science_boundary": "英文论文没有入微这一中文名称。本名是既有中文词的品牌再选择，不声称原文命名或自己首造；真空下X射线观测与常压可见光分开，相关性非完整机制定论，不把X射线说成微弱光，不说放大能量/日常任意剥离都能成像；没有新读全文/方法或实际实验。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "本次实际全research JSON/MD精确串扫入微/察微/见微无命中，并实际抽取旧察觉原稿：其主关系是刺激检测与主观报告/认知偏差，本项是外部材料界面微尺度事件，不主张主体意识。旧余光C18为周边视觉与有损背景，不是微小区域辐射；旧沙阵为场排列颗粒，纹影为密度梯度可视化；新名若泛化为看见隐藏东西会丢掉区别，因此明确保留接触界面事件。与C60火芯的供料燃烧/星尘炉核过程不同。不因精确字串无历史命中宣称市场可用；没有市场查询。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是入微，做人工智能研究。",
+        "入微发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened"
+    }
+  ],
+  "scope": "batch50低成本复用M75完整研究角色再观察；首次正式选C61，不是返工，不增加材料数；未查使用、未配英文。"
+}

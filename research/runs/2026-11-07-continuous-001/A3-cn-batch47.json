@@ -1,0 +1,162 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-09T05:42:13.994876+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch47.json",
+      "sha256": "3995f2002467cab2ea185ba1839f76015e3bda76b3f778a3d48a6343f7e1e2a9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch47.md",
+      "sha256": "1c89fcffd2e2f82c8288e36ab076675813014b312cd0e3fc2de93c0d030bdfb1"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch47.json",
+      "sha256": "035605bef8159438bf6b38a56767b129a76d6629b1c0436b00fecb72941177d3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch47-receipt.json",
+      "sha256": "2a4214fa702ecf3384338b2109263cb68fdf1d0d00560a84bfa4b0dfb1b91342"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch47.json",
+      "sha256": "ff2de85f62396175d6fa89ff2b4cd45fd304321e84344dcf1669f9eb7bde0f48"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension37.json",
+      "sha256": "e3195eb7db4411f8d3fb33f9dc8bcbe348a26c4496a56e2d4e7838c4118430c0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch47.json",
+      "sha256": "bfcafae2f5d914201c0117f576f61118c7bf60ac2871fa20f4bc200af504b73b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch47.json",
+      "sha256": "537d9b41d91aa18dc956a45e40b189685ed775adde785affdf54b1c11673dd01"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/quality-comparison-batch47.json",
+      "sha256": "8e2d6206e3e57642871ebbfcc886693cf427927112c192fe17da69268465c8e9"
+    }
+  ],
+  "query_count": 8,
+  "completed_search_result_count": 8,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-C60",
+      "name": "火芯",
+      "pinyin": "huǒ xīn",
+      "version": 1,
+      "material_id": "C1-M74",
+      "family_id": "C1-BF-wick-as-enabling-core-of-flame",
+      "decision": "rejected_existing_full_core_technology_company_and_brand",
+      "reason_code": "EXACT_TECH_USE",
+      "reason": "深圳市火芯科技有限公司第三方公司正文明确火芯品牌和摄像头/车载电子/自动化研发销售，地域+科技+组织形式不构成不同字号。另台湾火芯本人官网存在同核心营销商业使用。拒绝为公开使用事实，不称官方存续、9/42商标核准或AI模型同名。",
+      "query_logs": [
+        {
+          "query": "\"火芯\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "无行业精确发现深圳市火芯科技、ICHOT火芯电子商城及台湾火芯营销公司，实际打开关键正文核实；歌曲火芯、个人火芯账号不当公司使用依据。"
+        },
+        {
+          "query": "\"火芯公司\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "公司组合主要火芯云品牌索引、ICHOT公司介绍等；火芯云含有意义云字不无条件截掉作为本名，核心精确公司证据来自另组实际BOSS正文。"
+        },
+        {
+          "query": "\"火芯科技\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "科技精确命中深圳市火芯科技有限公司；实际公司简介明确火芯为旗下品牌，业务摄像头/汽车电子监控及自动化器件研发销售，为同核心科技使用。"
+        },
+        {
+          "query": "\"火芯智能\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "智能精确命中郑州火芯智能科技招聘线索、以及火芯纪元智能等较长核心。前者打开招聘聚合正文，后者纪元是有意义部分不随意去掉；不把智能字样本身当已核AI模型。"
+        },
+        {
+          "query": "\"火芯\" AI 模型 软件",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "AI模型软件组包括火芯时代、上海火芯微电子历史服务清单等；不因搜索带AI把电子/营销主体变成AI Lab，不对所有长名自动缩核心。原名科技公司已有充分拒绝证据。"
+        },
+        {
+          "query": "\"火芯\" 公司 軟體 品牌",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "火芯简繁字形相同，另补繁体业务语境查台湾火芯有限公司及本名品牌；实际本人官网数字营销/内容制作业务和底部完整公司名可读。"
+        },
+        {
+          "query": "\"huoxin\" company software",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "Huoxin拼音组出现新加坡及香港同拼写公司、ICHOT电商英文介绍、火信聊天软件及个人HuoxinHong；中文对应不一，未核具体海外登记当前状态，不冒本中文精确同名。"
+        },
+        {
+          "query": "\"火心\" 科技",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "火心合理近音异字组发现火心创新技术历史名单、烁火心乙等不同核心；未因同音把异字主体当火芯精确公司。本名已有直接证据，无需靠这些近名拒绝。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://m.zhipin.com/companys/56bb86e4430707941Hx829i9GFY~.html",
+          "access": "third_party_company_recruitment_body_read",
+          "read_range": "91行L4/6/13/17–19/79–84",
+          "finding": "完整深圳市火芯科技有限公司；简介明确火芯为旗下品牌，摄像头、车载电子监控与自动化器件研发销售。第三方页面现有存续/登记栏目不等于官方实时工商核准；职位过期不自动取消品牌使用事实。此为同核心科技使用主证。"
+        },
+        {
+          "url": "https://www.huoxin.com.tw/",
+          "access": "company_own_site_body_read",
+          "read_range": "92行L24–27/32–52/81–91",
+          "finding": "关于火芯自称数字营销/内容公司，底部火芯有限公司及Huoxin Media署名；为跨行业同核心真实商业使用，页面公司登记宣传不替代官方核验。"
+        },
+        {
+          "url": "https://en.ichot.com/web/dynamic/id/146",
+          "access": "company_own_english_about_body_read",
+          "read_range": "368行L273–277/344",
+          "finding": "当前英文正文介绍ICHOT电子元件分销与供应链，底部Shenzhen huoxin electronics；搜索摘要的中文火芯商城自述未在当前英文正文同样出现，故不冒全文中文已读。中文www.ichot.com对应页本次不可访问，保留响应差异，此不是本次另立英文提案筛查。"
+        },
+        {
+          "url": "https://www.yupao.com/topic/a503-dygl4yvsar5u/",
+          "access": "third_party_recruitment_aggregate_body_opened_and_name_located",
+          "finding": "打开4144行招聘聚合并find郑州火芯；非工商/AI模型发布页。此辅助线索非主拒绝依据，页面兼职报酬不背书。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Huoxin",
+          "scope": "2026-11-09本次逐名入口实际不可访问，非无公司。"
+        }
+      },
+      "remaining_chinese_reworks": 2,
+      "science_boundary": "已读原A2节选与主控源审范围记录；火芯为wick供料关系的中文品牌凝练非书中现成中文标准名，芯不是能量源/最热中心，不承诺模型强化。本人本阶段未新读外部科学原书，不冒上游读书为自己。",
+      "unverified_auxiliary_leads": "北京火芯科技财报索引、其他较长科技名/香港历史及新加坡拼音名并未逐一核当前主体；不借这些未闭辅助线索声称额外确证，也不影响已可读精确公司/品牌主证拒绝。"
+    }
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "同run两已实际阳性，本次新增0，原大陆入口限制复用不冒重查。",
+  "passed_chinese_candidate_ids": [],
+  "rejected_chinese_candidate_ids": [
+    "C1-C60"
+  ],
+  "held_chinese_candidate_ids": []
+}

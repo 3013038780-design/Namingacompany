@@ -1,0 +1,24 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-09T05:42:20.989313+08:00",
+  "candidate_id": "C1-C60",
+  "name": "火芯",
+  "decision": "EXACT_TECH_USE",
+  "evidence": [
+    {
+      "name": "深圳市火芯科技有限公司 / 火芯品牌",
+      "url": "https://m.zhipin.com/companys/56bb86e4430707941Hx829i9GFY~.html",
+      "root_actual_read": "4完整公司名，6电子/半导体类别，13具体品牌及摄像头/车载电子监控/模具自动化研发生产销售，17旗下品牌火芯，59–80第三方工商字段",
+      "type": "readable_third_party_recruitment_company_brand_page",
+      "boundary": "明确现实科技商业核心使用；第三方存续和信用代码字段不冒官方实时登记或9/42商标核准。职位过期不等品牌从未使用。"
+    },
+    {
+      "name": "火芯有限公司 / Huoxin Media",
+      "url": "https://www.huoxin.com.tw/",
+      "root_actual_read": "16–27公司自述、36–52业务、81–83自名及编号",
+      "type": "company_self_website_primary",
+      "boundary": "同核心跨行业商业品牌的额外避让证据；官网自称合法登记非root独立政府登记核验。未点咨询或联系他人。"
+    }
+  ],
+  "scope": "root只开两条原A3已查出的证据正文，不新增候选搜索查询；原A3正式筛查记录待独立封存引用。"
+}

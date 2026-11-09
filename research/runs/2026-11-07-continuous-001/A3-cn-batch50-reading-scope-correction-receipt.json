@@ -1,0 +1,79 @@
+{
+  "agent_id": "/root/live_a3",
+  "executed_at": "2026-11-09T12:18:05.037217+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.json",
+      "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.md",
+      "sha256": "b6ad12aeabe9bb9901eafd52eb7c37f050d541f54115bb3a6fd03788265a87ac"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49-receipt.json",
+      "sha256": "ba15ec67c8d8dcfbec8f78ebd3a0ba6c192526b75e3f6c7104a52b3bf4536ca7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.json",
+      "sha256": "25a50f023beb4f1cd770600db26da8b8d98ef81098d7cee4acb25d0a387a9130"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.md",
+      "sha256": "4b51718a15451030c125f1221c52d15ced518a78fefc76b30eefbc28a5add66e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-receipt.json",
+      "sha256": "d65fb57b040f58c5ebe2cd8f65d1e039494f61f112711a6af8e030f5673f72df"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.md",
+      "sha256": "2a1cb5920d6f78b59050150e25f5faca7ee81197012c16ff8975e704cc456474"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch51.json",
+      "sha256": "cd242e8974d68314e854eacbc259ee4cbd81aa9738b4240c4e9394557acb5cd5"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch51.json",
+      "sha256": "c12181400b36403a7c78ba235dc49d173b0edeeecf186e9e89cdd792b5af9fee"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch51.json",
+      "sha256": "b5f94a46c9a75ef2d8a319a6d50510d664cbc6eed504e09aaa5fade4d725ac00"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-C61-terminal-input-review.json",
+      "sha256": "c79dea36d2211aa3d5c6354862067b3c47c98758ed19efe389397d886285381e"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch50-reading-scope-correction.json",
+      "sha256": "fcc3190f05fcf644553b0aa3adb971e4619fbe00a1e914e5fc4d7f5cad3be848"
+    },
+    {
+      "path": "A3-cn-batch50-reading-scope-correction.md",
+      "sha256": "9ab5e63a822dc7ce1e8954c9628d8ab2817c7475f973c7807c6bfa0d33a291e7"
+    }
+  ],
+  "actual_action": "实际重读本包C61/CN49源证和CN50输入，承认并纠正MD模板阅读范围说明；保留原稿原SHA。",
+  "actual_new_candidate_queries": 0,
+  "actual_new_scores": 0,
+  "actual_new_names": 0,
+  "agent3_cumulative_candidate_queries": 725,
+  "agent3_cumulative_returned_candidate_results": 724,
+  "root_independent_queries_reported": 4,
+  "run_cumulative_candidate_queries": 729,
+  "run_cumulative_returned_candidate_results": 728,
+  "decision_changed": false,
+  "next": "原A4实际接受本纠正并完成zero33后，同原A3英语零终验。"
+}

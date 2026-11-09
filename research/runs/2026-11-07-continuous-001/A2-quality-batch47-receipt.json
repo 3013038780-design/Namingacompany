@@ -1,0 +1,35 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-09T05:39:58.126316+08:00",
+  "stage": "isolated_numeric_self_review_after_unscored_delivery",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch47.json",
+      "sha256": "0bfd77458610aafb3a31d06f76d603f9f20a3ee97bb7fcff79e1e15eabc068f6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch47.json",
+      "sha256": "3995f2002467cab2ea185ba1839f76015e3bda76b3f778a3d48a6343f7e1e2a9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension37.json",
+      "sha256": "e3195eb7db4411f8d3fb33f9dc8bcbe348a26c4496a56e2d4e7838c4118430c0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch47.json",
+      "sha256": "ff2de85f62396175d6fa89ff2b4cd45fd304321e84344dcf1669f9eb7bde0f48"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch47.json",
+      "sha256": "035605bef8159438bf6b38a56767b129a76d6629b1c0436b00fecb72941177d3"
+    }
+  ],
+  "actual_action": "无分小包先交后独立逐轴自评；未打开主控本包分数文件或root-Faraday-source-review，旧creation回执不覆盖，后写数字以此补充真实SHA。",
+  "new_candidate_ids": 0,
+  "new_source_count": 0,
+  "changes_to_prior_bytes": false
+}

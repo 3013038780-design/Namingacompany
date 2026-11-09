@@ -1,0 +1,53 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T06:09:10.965127+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-C61",
+      "name": "入微",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "既有两字中文表达顺口、可直接进入称呼，没有不识字或长术语阅读负担",
+          "counter_association": "原有形容词语法通常接体贴/刻画，独立称呼需要品牌再约定；入围近音"
+        },
+        "distinctiveness": {
+          "reason": "以进入微小层面的完整动作角色形成稳定可复述的形象，短称有方向，不只是泛优秀/智慧的赞词",
+          "counter_association": "现成词非独创，脱离界面事件后可能只剩认真细致这一普遍品质；未查商业使用，不拿历史无串命中当专属"
+        },
+        "lab_fit": {
+          "reason": "整体能作为深入作用细节的研究主体称呼，实验和计算中都有自然的尺度/结构研究身份，不锁具体器件",
+          "counter_association": "护理咨询、文化刻画的首感也成立；若主控认为需要长出处才能成为Lab，应独立拒绝"
+        },
+        "grounding": {
+          "reason": "原文小区域/短脉冲支持进入日常动作内微小事件的画面，动作与条件同属已读关系，中文品牌层明确",
+          "counter_association": "不是论文原有中文词，凝练省略接触分离、真空等独特条件；不借词义细致冒微观机制全解"
+        },
+        "extension": {
+          "reason": "研究者角色可承载多个知识领域及长期Lab，不限定材料仪器或单一AI产品",
+          "counter_association": "若泛化为所有认真研究都会失去故事焦点，不可改成模型必然提高精度的功能承诺"
+        },
+        "semantic_coherence": {
+          "reason": "入这一动作和微小事件在同一进入细部关系中成立，未将两字拆成市场进入/微服务等独立寓意",
+          "counter_association": "微不是说X射线微弱、也不是看得更细就产生能量；名字本身不完整说明实验"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ],
+  "qualified_candidate_ids": [
+    "C1-C61"
+  ],
+  "boundary": "无分preview/candidates/execution先封并通知root，本数字后写，未读root本包分数；熟词可品牌化但不宣称独创或可用，保留辨识/行业首感风险让独立评审判断。"
+}

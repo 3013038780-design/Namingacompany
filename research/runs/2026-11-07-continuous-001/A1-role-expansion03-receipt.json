@@ -1,0 +1,95 @@
+{
+  "agent_id": "/root/continuous_a1",
+  "role": "A1",
+  "completed_at": "2026-11-09T05:47:31.408044+08:00",
+  "actual_execution": true,
+  "stage": "targeted_existing_role_addendum_not_new_naming_round",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/inputs/A1-role-expansion03/README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba",
+      "read_scope": "本步完整读取规范/审美反馈；冻结本次版本"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/inputs/A1-role-expansion03/AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80",
+      "read_scope": "本步完整读取规范/审美反馈；冻结本次版本"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/inputs/A1-role-expansion03/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567",
+      "read_scope": "本步完整读取规范/审美反馈；冻结本次版本"
+    },
+    {
+      "path": "research/seed/README.md",
+      "sha256": "44cb357ed9db7edb5dc6c9a32ef1729e482ab3a9ef1f9dc6598dfbb3fc0d33b3",
+      "read_scope": "种子版本及原105计数边界"
+    },
+    {
+      "path": "research/seed/brand-naming-foundation.md",
+      "sha256": "92cb6c7cd36c201d35900528826a8aa9aca5a75c632df57d30dcaade5547f519",
+      "read_scope": "本步只重读腾讯行及火山引擎补充章节275–288；其余沿用此前实读"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746",
+      "read_scope": "只核B011原分类和证据边界"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67",
+      "read_scope": "复用六宏观来源/角色分类，不改基线"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.json",
+      "sha256": "b3bbd78ef83733b79b7033404dc29727a7e0c749988d06218820850f4de520be",
+      "read_scope": "复用原案例范围和六原则，不计新研究量"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.json",
+      "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132",
+      "read_scope": "实际重读F1–F6及B011此前只核当前品牌语境的边界"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/history-scan.json",
+      "sha256": "0197a084edc6665289fa378481f22f2643f7451ff93eaef647fc59de4ddb0424",
+      "read_scope": "本段冻结历史扫描清单/增量路径与名称字段索引，非重读1795份原稿或消费新名字"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T202508Z/decisions-through-batch46.json",
+      "sha256": "d38263ba15370dc62fe71d6f0a265ba6b682eb7e320405da6646d4ef75a6ea7b",
+      "read_scope": "实际逐条读59个中文ID的最终状态与理由；不是动态decisions当前字节"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-role-expansion03.json",
+      "sha256": "eab7c0cd091de9a281b1ef9aacec0cde26f37cca555f30d2411f6ac795ce35f2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-role-expansion03.md",
+      "sha256": "68bbaa55099b37305d8126e724efcfc25ea025fe841379e5a54117538b2e9e02"
+    }
+  ],
+  "counts": {
+    "objects_reviewed": 2,
+    "baseline_cases_reverified": 1,
+    "seed_supplement_case_separately_recorded": 1,
+    "new_market_discoveries": 0,
+    "new_company_names": 0,
+    "body_source_urls_read": 3,
+    "whole_books_read": 0,
+    "source_discovery_queries_executed": 5
+  },
+  "applies_to": "仅在root验收后供未来A2；不得反写已启动C60或旧创作的来源标签",
+  "checks": {
+    "frozen_inputs_match": true,
+    "only_two_case_objects": true,
+    "Tencent_reverification_not_new_case": true,
+    "Volcengine_outside_baseline105": true,
+    "origin_and_analysis_separated": true,
+    "no_names_created": true,
+    "no_root_docs_catalog_queue_or_git_changes": true
+  },
+  "execution_ref": "本任务实际原A1 exec/web执行；未启动其他角色、未补造命名回执。"
+}

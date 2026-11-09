@@ -1,0 +1,40 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-09T06:01:43.797638+08:00",
+  "decision": "accept_material_M75_for_further_exploration_zero_CN_in_batch49",
+  "material_id": "C1-M75",
+  "CN_id_allocated": false,
+  "new_selected_CN_names": 0,
+  "actual_root_read": "A2-preview49/materials-extension38完整；UCLA作者组与2008原论文指定段已独立读，正文范围见单独root-tape源审。",
+  "source_sampling": {
+    "new_materials": 1,
+    "root_sources_for_new_materials_read": 1,
+    "minimum_required": 1
+  },
+  "science_boundary": "真空/常压可见光与X射线不同；相关观测非机制全部定论；2008旧文非新闻，不重建装置/不临床成像背书。",
+  "history_review": "长按/抬眼/选框三份旧原稿已实际读，Apple导航/429非核心正文，拟议翻掌既未选也未查，不新增材料/中文。新胶带界面机械分离及条件辐射观测不同于C60燃料供给/星尘炉聚变，仅源关系有潜力不自动品牌新族。",
+  "next_authorized": "原A2下一batch50可低成本复用M75考察完整场景/角色式自然中文，未有候选ID前不是正式CN返工，不多算素材；仍无好名则保留素材。不要求每卡硬配名。",
+  "case_migration": "新A1腾讯语义整体/火山引擎条件与角色启发在新阅读选择之前交接，原始命名动机边界保留；不反写C60。",
+  "refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch49.json",
+      "sha256": "76375bd0edea324b5d49ff67b352abea1cc7a0fc504f4089ca04688a8be79e24"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension38.json",
+      "sha256": "74cb9092800e90dc8bb5ae246346e990b8c485b42aa39088b51c89bfe5b0a328"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch49.json",
+      "sha256": "ccbecf63784dd616b26de32feadf582a64ab309ddf2dd57bb651347548799dbc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/a1-expansion03-review.json",
+      "sha256": "2adbc4deaad1d2bf8c0efaa2a6c898afc53fafae6f631bd1008bb9bc13b6a011"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-tape-source-review.json",
+      "sha256": "93b3265f782ea19ada13e496eb544fb401fba42925f20aef3177e161b041080a"
+    }
+  ]
+}

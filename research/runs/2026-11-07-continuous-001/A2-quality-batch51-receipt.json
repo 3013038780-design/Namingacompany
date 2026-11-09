@@ -1,0 +1,19 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "completed_at": "2026-11-09T12:15:00.566872+08:00",
+  "refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch51.json",
+      "sha256": "c12181400b36403a7c78ba235dc49d173b0edeeecf186e9e89cdd792b5af9fee"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch51.json",
+      "sha256": "cd242e8974d68314e854eacbc259ee4cbd81aa9738b4240c4e9394557acb5cd5"
+    }
+  ],
+  "boundary": "无分先交后封零quality，未改旧执行/旧分字节。"
+}
