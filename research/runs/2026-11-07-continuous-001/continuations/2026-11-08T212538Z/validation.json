@@ -48,9 +48,27 @@
     "old_EN36_gap_not_counted": true
   },
   "public_feed_after_push": {
-    "status": "not_yet_checked"
+    "checked_at": "2026-11-09T12:26:04.747029+08:00",
+    "status": "immutable_commit_and_current_branch_confirmed_latest",
+    "research_commit": "24fabb8cbcb34bca6cede3d47d5b4f9b669a64ce",
+    "latest_event": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/result.json",
+    "entries": 32,
+    "events": 20,
+    "research_rows": 61,
+    "pending_rows": 2,
+    "scope": "实际curl读取公开提交feed及当前分支feed；不是冒用户浏览器已刷新。"
   },
   "research_commit_CI": {
-    "status": "not_yet_run"
+    "research_commit": "24fabb8cbcb34bca6cede3d47d5b4f9b669a64ce",
+    "name": "validate",
+    "status": "completed",
+    "conclusion": "success",
+    "checked_at": "2026-11-09T12:26:04.747029+08:00"
+  },
+  "PR": {
+    "number": 4,
+    "state": "open",
+    "body_updated": true,
+    "merged": false
   }
 }

@@ -198,12 +198,12 @@
     "sites_url": "https://naming-research-desk.panelladelva5115.chatgpt.site",
     "update_after_every_segment": "python3 scripts/build_catalog.py then python3 scripts/build_site_feed.py; push research/catalog/website.json to existing branch/PR; website reads it without UI redeploy",
     "latest_publication_verification": {
-      "research_commit": "f34e9e68e25be40f6e16567679fde59fcb9adfba",
+      "research_commit": "24fabb8cbcb34bca6cede3d47d5b4f9b669a64ce",
       "committed_feed_confirmed": true,
-      "branch_feed_observed_snapshot": "2026-11-08T202508Z",
+      "branch_feed_observed_snapshot": "2026-11-08T212538Z",
       "branch_feed_confirmed_latest": true,
-      "checked_at": "2026-11-09T05:19:12.142419+08:00",
-      "next_resume_check": "接续当前研究队列；固定入口已读到本段最新数据，不重新部署UI或另建调度。"
+      "checked_at": "2026-11-09T12:26:04.747029+08:00",
+      "next_resume_check": "原研究接下一A2batch52/C62+/M76+；本段新数据已公开可读，不重新部署UI或另建调度。"
     }
   }
 }
