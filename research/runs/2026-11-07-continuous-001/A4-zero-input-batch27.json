@@ -1,0 +1,139 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 actual zero-qualified-input review",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-09T01:34:02.181190+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch33.json",
+      "sha256": "dff34d16663df235471ae77f7dc80a1f783fca115dd0660698403b84da1e9e70"
+    },
+    {
+      "path": "A2-preview-batch33.md",
+      "sha256": "7fc409a4555892dfb4cbe08144e224c4355f0609870e2dd869d15b089655f27e"
+    },
+    {
+      "path": "A2-quality-batch33.json",
+      "sha256": "8a4d499b8f5669092eabc46237c2e48ef804ac16263e071ee6089bb1fbbe00e1"
+    },
+    {
+      "path": "A2-creation-execution-batch33.json",
+      "sha256": "6f6319c9da50d96e0fcc8e63951d26dad35709efc7f09ff30eb0b4dc11bc2801"
+    },
+    {
+      "path": "coordinator-cn-batch33.json",
+      "sha256": "92ad9d2719c839b651278c064c0553cd61dab078b5ad8823894daa24c0e4e6f7"
+    },
+    {
+      "path": "coordinator-family-review-batch33.json",
+      "sha256": "f8d9e5c15af9affbd5cb1d44c2555286e4e5ed9afd83332c32164a95b09461ec"
+    },
+    {
+      "path": "A3-cn-batch35.json",
+      "sha256": "9bdf67b4be90bc395f58f8811928bbee47d78fbc307f9418e3774541b5c0a7e2"
+    },
+    {
+      "path": "A3-cn-batch35.md",
+      "sha256": "80b73c31e27b5e023090f0ce0c7299a1e6ece95550938f6a6e114c9409e340cb"
+    },
+    {
+      "path": "A3-cn-batch35-receipt.json",
+      "sha256": "9d7eb3be5b63260ddb04d2c01f2627f72482f7ae2eca91254a2e1ed6be9e23ac"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch33.md",
+      "sha256": "7fc409a4555892dfb4cbe08144e224c4355f0609870e2dd869d15b089655f27e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch33.json",
+      "sha256": "dff34d16663df235471ae77f7dc80a1f783fca115dd0660698403b84da1e9e70",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch33.json",
+      "sha256": "8a4d499b8f5669092eabc46237c2e48ef804ac16263e071ee6089bb1fbbe00e1",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch33.json",
+      "sha256": "6f6319c9da50d96e0fcc8e63951d26dad35709efc7f09ff30eb0b4dc11bc2801",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension31.json",
+      "sha256": "03c8710f5a7025054e9420ab44041b5f63aaf91ae1d35764834d797c9e120d99",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch33.json",
+      "sha256": "92ad9d2719c839b651278c064c0553cd61dab078b5ad8823894daa24c0e4e6f7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch33.json",
+      "sha256": "f8d9e5c15af9affbd5cb1d44c2555286e4e5ed9afd83332c32164a95b09461ec",
+      "match": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba",
+      "match": true
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80",
+      "match": true
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch35.json",
+      "sha256": "9bdf67b4be90bc395f58f8811928bbee47d78fbc307f9418e3774541b5c0a7e2",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch35.md",
+      "sha256": "80b73c31e27b5e023090f0ce0c7299a1e6ece95550938f6a6e114c9409e340cb",
+      "match": true
+    }
+  ],
+  "actual_chinese_candidates": 2,
+  "excluded_candidates": [
+    {
+      "candidate_id": "C1-C53",
+      "chinese": "剪贴板",
+      "upstream_quality": "producer/coordinator均过；不重新评分",
+      "a3_result": "reject_existing_exact_named_software",
+      "exclusion_reason": "原A3实际Apple分发正文标题剪贴板、个人开发者辉宇吴和独立应用说明；不是只把Windows系统功能通名当品牌。拒绝基于具名软件，不冒个人为法人或AI模型。",
+      "english_eligibility": false
+    },
+    {
+      "candidate_id": "C1-C54",
+      "chinese": "红皇后",
+      "upstream_quality": "producer/coordinator均过；不重新评分",
+      "a3_result": "reject_existing_exact_core_named_software",
+      "exclusion_reason": "原GitHub作者About明确红皇后班级班里系统，具有前后端/文档的独立学校软件核心名；非小说角色、生态假说本身或虚构AI。台湾历史索引/超时原PDF不当官方当前登记，跨类商标不冒9/42核准。",
+      "english_eligibility": false
+    }
+  ],
+  "qualified_chinese_input_count": 0,
+  "eligible_english_inputs": 0,
+  "actual_english_creation": 0,
+  "actual_new_scores": 0,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "english_candidates": [],
+  "decision": "completed_actual_zero_qualified_chinese_input_check",
+  "reading_boundary": "已实际读A2四档、主控中文/家族审查、原A3 CN35三档；第一次批量输出中间截断部分已另调用完整读回A2 execution和root两档。仅核读固定报告，不冒自己另开Apple/GitHub或论文源；原A3实际13查询不是本人查询。",
+  "response_difference": "父任务消息说明root本次Apple访问404，原A3本次可读；保留不同观察，不把root说成已读该Apple正文，也不以root404覆盖原A3可读记录。该差异来源为实际父交接消息，本人未找到并引用额外root网页回执。",
+  "registration_limits": "大陆GSXT/CNIPA9/42复用旧入口403未逐名核，英国逐名不可访问；仅公开使用拒绝，非全部注册已核。",
+  "scope": "只收尾A2batch33两中文。C52英文已有实际配对另案终审，不混入本包零输入；不消耗新的实际英文批次或E号。",
+  "unchanged": "旧稿/分数/receipt/库/队列/Git不改，不换英语救被拒中文；这是真实验收上游后的零输入，不是未开始。",
+  "next": "同一原live_a3执行en-zero-batch27真实终核"
+}

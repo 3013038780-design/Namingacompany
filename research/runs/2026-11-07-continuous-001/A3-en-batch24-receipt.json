@@ -1,0 +1,58 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English screening",
+  "executed_at": "2026-11-08T13:50:32.632492+08:00",
+  "candidate_id": "C1-E24",
+  "chinese_id": "C1-C30",
+  "decision": "reject_exact_existing_technology_brand_and_ai_software",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch24.md",
+      "sha256": "46c5239b36e9743d6f78676a84ec9fd3bb479c3fa83ac6f3bff64f2d9dd93b06"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch24.json",
+      "sha256": "37696a1e10e2790ad3b40315a633f9ea2f39d5b170a2b19c56f04dce7dcdb7e3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch24.json",
+      "sha256": "652f66f2754369c7a4a1f7f82ba68fa08551e09697cdb409180686b10e55e501"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch24.json",
+      "sha256": "ff8d6b441fab6377e1290fa790718e0848dfe0d52d2938ca40181d63a63022ba"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch24.json",
+      "sha256": "b6022e0e0872dea2f3d5491735f46c2ebe3480febfccbc5dc21b4206594fba38"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch19.json",
+      "sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-C30-formation-reacceptance.json",
+      "sha256": "ae6cf8dfd04f850162e3498a6d5c9527f943892ba2bf97068100bcceb39017f6"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-batch24.md",
+      "sha256": "ea00806b8c1038f83e172dfff35e6836f7f520e5c38d54b0e77249e75198f399"
+    },
+    {
+      "path": "A3-en-batch24.json",
+      "sha256": "e617f4d99d4c50b8908de1e3c7a90d18b41f29654b536dbc8418d7f90e1e2cff"
+    }
+  ],
+  "actual_new_candidate_queries": 6,
+  "actual_new_english_queries": 6,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 353,
+  "agent3_cumulative_candidate_queries": 359,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 361,
+  "actual_execution": "实际读固定英文提案/两评审/执行回执和中文形成边界；六查询并读深圳官方品牌及Mac软件官网，Sedo近形另核不混精确。英国逐名入口失败。",
+  "next": "退原A4最后一次英文返工；同中文版本非新名字。",
+  "unchanged": "旧稿、总库、Git不改，无用户通知或外部网页全文。"
+}

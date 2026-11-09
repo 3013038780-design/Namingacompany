@@ -1,0 +1,158 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T23:24:07.823388+08:00",
+  "candidates": [
+    {
+      "id": "C1-C48",
+      "name": "第三真值",
+      "pinyin": "dì sān zhēn zhí",
+      "material_id": "C1-M59",
+      "material_ids": [
+        "C1-M59"
+      ],
+      "family_id": "C1-BF-third-truth-value-unknown-state",
+      "plan_direction_id": "C1-D-S3",
+      "case_ids": [
+        "B004",
+        "B074",
+        "B002"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "PostgreSQL 18 Documentation: Boolean Type",
+          "url": "https://www.postgresql.org/docs/18/datatype-boolean.html",
+          "reading_location": "实际读固定18页面L20–62，重点L20–28的true/false及由SQL null表示的unknown；先读current同版后复开固定版本。不运行数据库，不把页头新闻日期当文档发表日期。",
+          "read_at": "2026-11-08T23:24:07.823388+08:00",
+          "access": "body",
+          "source_type": "official_computing_documentation",
+          "reading_scope": "body_excerpt",
+          "published_at": null
+        },
+        {
+          "title": "PostgreSQL 18 Documentation: Comparison Functions and Operators",
+          "url": "https://www.postgresql.org/docs/18/functions-comparison.html",
+          "reading_location": "先实际读current解析为18的L49–115相关正文，后复开固定18同URL章节；重点普通比较遇NULL的unknown、IS UNKNOWN等谓词的二值结果。不是读取SQL标准原件。",
+          "read_at": "2026-11-08T23:24:07.823388+08:00",
+          "access": "body",
+          "source_type": "official_computing_documentation",
+          "reading_scope": "body_excerpt",
+          "published_at": null,
+          "boundary": "unknown为SQL逻辑状态，不是概率一半、客观第三真理或更高一级真；IS UNKNOWN等检测本身仍返回true/false。"
+        }
+      ],
+      "source_urls": [
+        "https://www.postgresql.org/docs/18/datatype-boolean.html",
+        "https://www.postgresql.org/docs/18/functions-comparison.html"
+      ],
+      "formation": "由文档实际存在的第三状态unknown，凝为第三真值这个完整序数-逻辑对象称呼；数字来自实际关系，非模仿第四范式随意加序数。真值是中文逻辑表达，原英文没有这四个汉字，不冒充摘取中文原文或全球首造。",
+      "relation_sentence": "在该表达系统里，未知不被直接压成否定，而有不同于true/false的逻辑位置。",
+      "condensation_path": "由文档实际存在的第三状态unknown，凝为第三真值这个完整序数-逻辑对象称呼；数字来自实际关系，非模仿第四范式随意加序数。真值是中文逻辑表达，原英文没有这四个汉字，不冒充摘取中文原文或全球首造。",
+      "meaning": "给未知一个准确的位置。",
+      "crossing": "表达系统为未知保留一种不同于肯定和否定的逻辑状态。",
+      "layers": [
+        "真、假之外的有条件第三逻辑位置",
+        "不混淆未知与否定的表达",
+        "研究可表达的知识状态，而非已实现可靠性承诺"
+      ],
+      "material_feature_retained": "保留三态表达与unknown不同于false的区别",
+      "material_feature_lost": "舍去具体SQL谓词与NULL语义条件；不表示第三个数值常量、客观真理层级或模型自省。",
+      "why_name_not_generic": "由文档实际存在的第三状态unknown，凝为第三真值这个完整序数-逻辑对象称呼；数字来自实际关系，非模仿第四范式随意加序数。真值是中文逻辑表达，原英文没有这四个汉字，不冒充摘取中文原文或全球首造。",
+      "shortcoming": "学术感与真理宣言误读；第三真值也像论文标题。若不能不读释义就像机构称呼，应按自然度淘汰。",
+      "science_boundary": "不是所有逻辑都三值、不是客观事实有第三种真理、更不证明AI知道自己不知道。未知与false的区别是具体SQL语义；第三不表示更高或更正确。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "已读公设之外原稿，其为哥德尔边界/未解问题姿态；未尽之问为知识可错与问题无终态；反例为具体实例否定全称。这一项限定已有计算语义将unknown与false分开，不以尚未回答/未来可解或突破公理作叙事。旧补码是有符号整数表示，零/01单位词也不是三态逻辑。若品牌只剩对未知保持开放，应保守并回旧开放问题上位家族。 实际历史精确串扫描无命中；不是市场检索。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是第三真值，做人工智能研究。",
+        "第三真值发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened",
+      "a1_role_expansion_used_as_context_only": true
+    },
+    {
+      "id": "C1-C49",
+      "name": "同星",
+      "pinyin": "tóng xīng",
+      "material_id": "C1-M60",
+      "material_ids": [
+        "C1-M60"
+      ],
+      "family_id": "C1-BF-inhabitants-of-one-shared-planet",
+      "plan_direction_id": "C1-D-S5",
+      "case_ids": [
+        "B053",
+        "B027"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Linda E. Grimm / NASA Johnson: The Overview Effect: Astronaut Perspectives from 25 Years in Low Earth Orbit",
+          "url": "https://www.nasa.gov/centers-and-facilities/johnson/the-overview-effect-astronaut-perspectives-from-25-years-in-low-earth-orbit/",
+          "reading_location": "实际读L244–288标题日期及报道正文，重点Koch/Behnken/Stott等对同一星球、共同大气及家的陈述。未看NASA+视频、未读Frank White原书或心理学原论文，亦未自行观察太空。",
+          "read_at": "2026-11-08T23:24:07.823388+08:00",
+          "access": "body",
+          "source_type": "institutional_report_of_first_person_experience",
+          "reading_scope": "article_body",
+          "published_at": "2025-11-23",
+          "page_last_updated": "2025-11-21，页脚与发表日期先后不一致，照录不修补",
+          "boundary": "宇航员当事人叙述和机构报道，不是已证明太空观察提高认知的对照实验；旧新闻不计近90天。"
+        }
+      ],
+      "source_urls": [
+        "https://www.nasa.gov/centers-and-facilities/johnson/the-overview-effect-astronaut-perspectives-from-25-years-in-low-earth-orbit/"
+      ],
+      "formation": "把同在一颗星球这一完整关系凝为同星；同说明主体共享的处境，星提供这同一处境的具体世界，两字不分别编同心/星辰远大的寓意。是品牌凝练，不声称NASA正文已有中文同星或全球首造。",
+      "relation_sentence": "从外部看回去，原来的不同地方都是同一颗共同生活的星球的部分。",
+      "condensation_path": "把同在一颗星球这一完整关系凝为同星；同说明主体共享的处境，星提供这同一处境的具体世界，两字不分别编同心/星辰远大的寓意。是品牌凝练，不声称NASA正文已有中文同星或全球首造。",
+      "meaning": "在同一个世界里，研究新的可能。",
+      "crossing": "改变观看位置后，原来的地理局部被体验为同一共同家园中的部分。",
+      "layers": [
+        "共同生活的一颗星球的具体画面",
+        "从局部到共同家园的位置变化",
+        "研究机构与他者处在同一世界的角色联想，不等于普遍心理效果"
+      ],
+      "material_feature_retained": "保留同一星球与共同居住位置的整体意象",
+      "material_feature_lost": "舍去具体宇航经历、轨道与大气条件，不声称所有人观看太空有相同体验。",
+      "why_name_not_generic": "把同在一颗星球这一完整关系凝为同星；同说明主体共享的处境，星提供这同一处境的具体世界，两字不分别编同心/星辰远大的寓意。是品牌凝练，不声称NASA正文已有中文同星或全球首造。",
+      "shortcoming": "像天文/航天企业或社会公益，也与同心/同行近音；星字拥挤。若只剩泛化团结和宏大未来，独特性及Lab身份会不足。",
+      "science_boundary": "不将主观报道当认知提升证据，不替公司承诺开放许可、世界统一或任何已实现技术；星在本名指星球，不把地球当恒星。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "实际读旧地球回信原稿，作用是地照光返程与遥观测信息，不是从轨道看共同家园；星间为恒星外流塑造星际介质，两者也不是本项当事人共居位置的认识。月之暗面是基线参照，不以共用太空意象自动新增；与M05共同指代、P1可贡献参与条件也不同，若解释只剩泛化团结/伙伴或星际宏大，应保守合并，不把一条NASA报道当独立家族自证。 实际历史精确串扫描无命中；不是市场检索。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是同星，做人工智能研究。",
+        "同星发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened",
+      "a1_role_expansion_used_as_context_only": true
+    }
+  ],
+  "scope": "两个不同关系的中文整体；未查市场、未配英文，不续织造/GUI/旧开放问题族。"
+}

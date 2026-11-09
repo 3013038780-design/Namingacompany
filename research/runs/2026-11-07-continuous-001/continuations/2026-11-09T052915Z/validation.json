@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-11-09T17:28:22.412175+08:00",
+  "build_catalog": {
+    "exit_code": 0,
+    "discussion": 30,
+    "reserve": 1,
+    "withdrawn": 1,
+    "entries": 32,
+    "all_existing_entries_and_stable_ids_deep_equal_before": true
+  },
+  "build_site_feed": {
+    "exit_code": 0,
+    "entries": 32,
+    "events": 22,
+    "research_rows": 63,
+    "pending": 2,
+    "latest_event": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/result.json"
+  },
+  "validate_research": {
+    "exit_code": 0,
+    "scope": "数据一致性检查通过，整轮仍INCOMPLETE，不声称生产覆盖达标"
+  },
+  "unit_tests": {
+    "count": 29,
+    "passed": 29,
+    "exit_code": 0
+  },
+  "legacy_report_render": {
+    "exit_code": 0
+  },
+  "new_resolvable_sha_references": {
+    "checked": 547,
+    "bad": 0
+  },
+  "public_feed_verification": "pending_push",
+  "CI_verification": "pending_push"
+}

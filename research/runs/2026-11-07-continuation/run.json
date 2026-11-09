@@ -1,0 +1,83 @@
+{
+  "protocol_version": "1.1",
+  "run_id": "2026-11-07-continuation",
+  "date": "2026-11-07",
+  "coordinator_id": "/root",
+  "status": "incomplete",
+  "profile": "user_authorized_today_continuation",
+  "started_recorded_at": "2026-11-07T18:07:58+08:00",
+  "daily_starting_pairs": 3,
+  "daily_goal": 20,
+  "target_new_pairs": 17,
+  "chinese_family_batch_target": 24,
+  "daily_max_batches": 3,
+  "roles": {
+    "A1": {
+      "agent_id": "/root/live_a1",
+      "status": "completed",
+      "execution_ref": "本聊天实际collaboration.followup_task",
+      "completed_at": "2026-11-07T18:08:43.604767+08:00",
+      "output_files": [
+        "A1.md",
+        "A1.json"
+      ]
+    },
+    "A2": {
+      "agent_id": "/root/live_a2",
+      "status": "completed",
+      "execution_ref": "本聊天实际collaboration.followup_task",
+      "output_files": [
+        "A2.md",
+        "A2.json",
+        "A2-supplement8.md",
+        "A2-supplement8.json",
+        "A2-index32.md",
+        "A2-index32.json"
+      ],
+      "completion_ref": "原A2本聊天完工消息与A2-index32.json记录，32字面29命名家族上限。"
+    },
+    "A3": {
+      "agent_id": "/root/live_a3",
+      "status": "completed",
+      "execution_ref": "本聊天实际collaboration.followup_task",
+      "completion_ref": "本聊天原A3实际完工消息 + A3-index.json，24中文/37英文，362候选查询另2对照。",
+      "output_files": [
+        "A3-index.json",
+        "A3-controls.json"
+      ]
+    },
+    "A4": {
+      "agent_id": "/root/live_a4",
+      "status": "completed",
+      "execution_ref": "本聊天实际collaboration.followup_task /root/live_a4",
+      "completed_at": "2026-11-07T19:00:40+08:00",
+      "output_files": [
+        "A4.md",
+        "A4.json"
+      ],
+      "completion_ref": "原A4实际FINAL完工回执及A4.md，22中文37英文20批。"
+    }
+  },
+  "scope": "用户要求现在续跑，方向与表达调整不降低原质量与独立使用筛查标准；不增加等待用户审批素材阶段。",
+  "profile_delivery_status": "complete_17_new_discussion_pairs_today20",
+  "completed_recorded_at": "2026-11-07T19:03:07.019611+08:00",
+  "actual_counts": {
+    "A1_cases_reviewed": 8,
+    "A1_new_primary_body_reads": 4,
+    "chinese_drafts": 32,
+    "brand_family_upper_bound": 29,
+    "chinese_dual_quality_pass": 24,
+    "chinese_usage_screened": 24,
+    "chinese_public_use_precheck_pass": 22,
+    "english_proposals": 37,
+    "english_usage_screened": 37,
+    "candidate_query_groups": 362,
+    "control_query_groups": 2,
+    "selected_new_pairs": 17,
+    "previously_delivered_today": 3,
+    "today_total": 20,
+    "daily_goal": 20,
+    "daily_shortfall": 0
+  },
+  "production_compliance_note": "通用生产协议仍以incomplete标记；A1复用8例及现有阅读、32草案按8小批递交，未另满足常规生产研究规模/规范文件结构。不修改原门槛，不将少量续跑配对的实质验收冒充全生产协议通过。实际四Agent及17新增双语公开初筛配对已完成，今日加前轮3为20。"
+}

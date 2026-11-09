@@ -1,0 +1,51 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 zero matching receipt",
+  "executed_at": "2026-11-08T20:43:01.022092+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch22.json",
+      "sha256": "d1cbf13f48570bddc5fc99989682c42ea0c68c402b93ac6d5133015a3c964e7f"
+    },
+    {
+      "path": "A2-quality-batch22.json",
+      "sha256": "3716ffe4162f3fa1e7d04a487d6cbc4c0578b8f78f00b6aaec353565a1086774"
+    },
+    {
+      "path": "coordinator-cn-batch22.json",
+      "sha256": "ae7b10cd9efbde9d2437d31dfeaf620784f8a66bcd323a358976b95a2ff915c2"
+    },
+    {
+      "path": "coordinator-family-review-batch22.json",
+      "sha256": "ade6687a88e08443f4992af11016587b8627e9f7f5d98bf9cc05ea85afffe931"
+    },
+    {
+      "path": "A3-cn-batch24.json",
+      "sha256": "be8d7ac04690afc479c44064d604f32f7abb52f8680c5e9c8551b595fa2736d2"
+    },
+    {
+      "path": "A3-cn-batch24.md",
+      "sha256": "fa02c23514926bd369a5e27e4500394e56aa41e86ab87ce912b68c18eabd8af4"
+    },
+    {
+      "path": "A3-cn-batch24-receipt.json",
+      "sha256": "f52795a1d970959832fe648f00f84a6532f7d25dcd2e9c4fb730ed726ce6b236"
+    }
+  ],
+  "eligible_english_inputs": 0,
+  "actual_english_creation": 0,
+  "actual_scores": 0,
+  "actual_usage_queries": 0,
+  "outputs": [
+    {
+      "path": "A4-zero-input-batch22.json",
+      "sha256": "48565cf2ae7a44fb022e623713afc2ee6e73fab42e22248edd7275276a2d5490"
+    },
+    {
+      "path": "A4-zero-input-batch22.md",
+      "sha256": "f8262d61069e2866a75e972c439e7fe119cfd791799ecfab6497895fdad0befc"
+    }
+  ],
+  "next": "same original A3 actual zero-input English review",
+  "english_batch30_E31_unused": true
+}

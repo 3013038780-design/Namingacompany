@@ -1,0 +1,52 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T04:39:09.516196+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-C58",
+      "name": "洋中脊",
+      "version": 3,
+      "rework_attempt": 2,
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "完整既有三字地貌称呼，节奏可独立叫出，不是装饰插字",
+          "counter_association": "仍有脊的专业认读成本，普通公众未必熟悉对象"
+        },
+        "distinctiveness": {
+          "reason": "三音节与海底整体山系画面明确，比泛地球骨架有具体对象",
+          "counter_association": "术语自然不代表独占；与洋基的区别须A3独查，不以多一字自动无混淆"
+        },
+        "lab_fit": {
+          "reason": "地球构造与新地表形成的完整自然世界可承载深技术研究身份",
+          "counter_association": "海洋工程、地勘、户外或科普品牌首感仍强，不借原文补品牌身份"
+        },
+        "grounding": {
+          "reason": "主控指明后实际再核南海所L5完整术语，M71两来源支持地貌和活动条件",
+          "counter_association": "不冒独立想到/首造，也不把残留洋脊写成仍扩张，未核中文初译史"
+        },
+        "extension": {
+          "reason": "完整地理世界可承载不同研究而不逐字解释当前产品",
+          "counter_association": "若只谈实际海洋制品会将身份收窄为单一服务"
+        },
+        "semantic_coherence": {
+          "reason": "同一地貌/生成场所关系保持，完整词不拆字各编吉祥义",
+          "counter_association": "中是术语成分，不作全球全部脊段都在海洋几何中央的保证"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ],
+  "boundary": "这是root指明原文后的原A2独立品牌取舍，不是主控给定必选；无分新稿已先交，数字独档，原R1及原洋脊评分不动。"
+}

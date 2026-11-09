@@ -1,0 +1,95 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-07T21:20:14.072001+08:00",
+  "scope": "producer主观编辑评审，主控先封存独评后打开；未对外承诺通过。",
+  "reviews": [
+    {
+      "candidate_id": "C1-C13",
+      "name": "跳读",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "现成动作词，读说无门槛",
+          "counter_association": "像速读课程"
+        },
+        "distinctiveness": {
+          "reason": "跳与读形成明确动作形象",
+          "counter_association": "公共语言独占性待A3实际查"
+        },
+        "lab_fit": {
+          "reason": "知识组织、计算阅读可承接研究身份",
+          "counter_association": "容易先像阅读APP"
+        },
+        "grounding": {
+          "reason": "NLS视图与跳转关系有实际正文，中文是品牌借用",
+          "counter_association": "未读原始整场演示"
+        },
+        "extension": {
+          "reason": "不限定一种模型或文档产品",
+          "counter_association": "若只做读书就偏窄"
+        },
+        "semantic_coherence": {
+          "reason": "日常跳读与非线性导航同一行动关系",
+          "counter_association": "跳读也有不认真含义"
+        }
+      },
+      "decision": "quality_pass",
+      "independent_submission_ref": "A2-quality-batch4.json producer-only submission"
+    },
+    {
+      "candidate_id": "C1-C14",
+      "name": "作数",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 5
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "现成口语动词，声音简短直接",
+          "counter_association": "听写做数算数"
+        },
+        "distinctiveness": {
+          "reason": "事情究竟作不作数有鲜明口语态度",
+          "counter_association": "可能是统计工具第一联想"
+        },
+        "lab_fit": {
+          "reason": "把智能能力落到实际结果，可承接Lab使命",
+          "counter_association": "也可能财税公司"
+        },
+        "grounding": {
+          "reason": "DOE原文确区分动作与实验结果，项目尚非完成",
+          "counter_association": "不是已证团队成果"
+        },
+        "extension": {
+          "reason": "可覆盖多任务多系统的有效能力研究",
+          "counter_association": "太宽时需持续研究赋义"
+        },
+        "semantic_coherence": {
+          "reason": "有效的日常原义与科学效度要求同向",
+          "counter_association": "不把作数偷换成永不出错"
+        }
+      },
+      "decision": "quality_pass",
+      "independent_submission_ref": "A2-quality-batch4.json producer-only submission"
+    }
+  ]
+}

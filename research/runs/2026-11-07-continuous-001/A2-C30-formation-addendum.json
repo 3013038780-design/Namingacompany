@@ -1,0 +1,84 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "recorded_at": "2026-11-08T13:34:21.831414+08:00",
+  "candidate_id": "C1-C30",
+  "name": "言有所为",
+  "scope": "原家族形成说明补充，不新命名、不改旧稿或分数",
+  "source_readings": [
+    {
+      "url": "https://fltrp-gy.oss-cn-shanghai.aliyuncs.com/gykejianupload/20211027/files/%E8%A8%80%E8%AF%AD%E8%A1%8C%E4%B8%BA%E7%9A%84%E4%BC%9A%E8%AF%9D%E5%88%86%E6%9E%90%E7%A0%94%E7%A9%B6%E7%9B%AE%E5%BD%95%2B%E6%A0%B7%E7%AB%A0.pdf",
+      "title": "外研社《言语行为的会话分析研究》目录与样章",
+      "access": "publisher_sample_body",
+      "read_at": "2026-11-08T13:34:21.831414+08:00",
+      "reading_scope": "PDF第5–6页/印刷1–2页，L134–145；重点L138现成言有所为表述Austin施为句；未读全书、未核书版权页日期",
+      "finding": "四字不仅曾出现在出版物，且与本案属于同源Austin言语行动思想译述。不是无关巧合或科技公司使用。",
+      "date_boundary": "URL路径含20211027不当图书出版年，精确出版信息本次未确认。"
+    },
+    {
+      "url": "https://fls.hbut.edu.cn/info/1143/6542.htm",
+      "title": "湖北工业大学外国语学院：孙炳文",
+      "access": "university_author_bibliography_body",
+      "read_at": "2026-11-08T13:34:21.831414+08:00",
+      "reading_scope": "L2网页日期、L16/L37研究代表作、L41专著书名及2017出版年；未读书本",
+      "finding": "官方作者页列《从言有所为到译有所为-机构话语翻译中的目的等效研究》，外文出版社2017。标题含既有学术表达；并非同核心科技品牌的证明。",
+      "date_boundary": "页面发布时间2026-04-20；2017为该页所列书目年份，不是本次实际读书日期。"
+    }
+  ],
+  "formation_correction": {
+    "original_actual_action": "A2先读Stanford英文Austin节选，经关系句得到言有所为，旧回执记录的阅读来源不包含本次中文样章和教授页。",
+    "newly_learned": "原A3后续检索发现、A2本次才实际读到：相同四字在中文学术译述中早有同源使用。",
+    "correct_current_description": "既有中文学术表达的再选择；本次创作路径与既有译述重合。不能再把它呈现为本轮字面新组合、首次造词或未有中译先例。",
+    "not_claimed": "没有声称新查样章是当时起稿的输入；不把事后发现倒写成原先书籍阅读，也不据2017标题宣称已找到该表达最早出处。",
+    "earlier_boundary": "旧稿未声称全球首造，且不是Austin英文原文中的汉字或古语这一点仍成立；但其本轮凝练、新称呼语境容易使读者误以为中文词面新造，这个印象现在明确纠正。"
+  },
+  "quality_followup": {
+    "producer_still_supports_independent_brand_review": true,
+    "scores_raised": false,
+    "old_scores_unchanged": true,
+    "reason": "本次原评分基于自然度、言与行动的明确角色及机构延展，而非发明了全新汉字组合。现成学术表达可被选作品牌，并不自动失去称呼能力；但不再把字面原创程度作为优势。",
+    "distinctiveness_limit": "词面独创程度比原稿语境所暗示的更低，不能作为独占概念宣传；辨识需要靠完整品牌使用建立，不说已有知名度即等于本公司辨识。",
+    "industry_risk": "语言教学、翻译研究、教育出版联想已有具体作品支撑，比抽象短板更实在，须在对外释义及主控复评中保留。",
+    "lab_identity_position": "我仍认为语言/行动关系可独立承载语言智能与智能体研究身份，因此不因出现学术书名自动判身份不符；这不是要求主控保留，若首感复评偏教学则按既有门槛退回。",
+    "no_scoring_substitution": "新增中文译述证据不拿来抬高来源分或补身份分，不以A3未确证商业同名代替品牌质量。"
+  },
+  "usage_boundary": "A2没有新增查询。书名与学术译述不是自动同名科技/AI公司、模型或软件占用，也不能反推注册可用。原A3公开初筛及登记边界照原报告，须由同一A3接受补充后才下游。",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch19.json",
+      "sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch19.md",
+      "sha256": "3c210a50959e2341471b33b194da5964f19cb5097cfe716b21f23f1a96bdab08"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch19-receipt.json",
+      "sha256": "abb2fd8613f22685a3703043465c2f9ef6ff754f8e9d7e61b6fce8e015944637"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch17.md",
+      "sha256": "cb0e4b62dd78e2754c74402e7186e0e9121ca9b76293c6a111f64a289edc1dd2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch17.json",
+      "sha256": "d51374c05140f2c05ea4acc5877f7c3ff47903a654fee4483d8a4eb1e6564fc3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch17.json",
+      "sha256": "6dce8c6b0f529882fdb36d93e9bdac29d55138f0fce9f66edeb1bd2b7c1e7369"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch17.json",
+      "sha256": "09741e3f97088c8295924fe12ba5f2fbd419d03fc411dcc7d05726e636db8083"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension16.json",
+      "sha256": "569977557a7fd1019204cbb3dcab108444cf242990e01e949c31c842b29ca0cd"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch17.json",
+      "sha256": "9708f5d24f401197346a05624dbec732ee80e21fbf47f4a79948061bba30d043"
+    }
+  ],
+  "next": "交主控实际复核补充形成说明和品牌身份，再同A3验收，之后才原A4。"
+}

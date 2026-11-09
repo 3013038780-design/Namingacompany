@@ -1,0 +1,64 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English screening",
+  "executed_at": "2026-11-08T21:36:41.195895+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch31.json",
+      "sha256": "714b90fa1a6ac106c726ffd35b810ab9506971df20e8d6baab860396d5422c93"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch31.json",
+      "sha256": "c1ec5e04c67229fca5ac384620a78ee3a7e08297d0394965a5507f5b97dfd5b9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch31.json",
+      "sha256": "49a1e2fd0ceae371d64c3c497145f20bb8efc0d1403d1ab1b4fbd08721adae49"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch31.json",
+      "sha256": "eafdda15980fa42214182198c48abdccb9ed5945edd4e5ac51d094ccb4fa6cfe"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch26.json",
+      "sha256": "adf5036918dcbeae58c224ecc83a0d79e320436390c86f14576df074a282ef8c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch26-receipt.json",
+      "sha256": "369c73ad1de4b63e8c662c59c434c7219f48030dd1f38c727e2b4012053f6d6c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-batch31.json",
+      "sha256": "b2efa4f9b400d2563550981bb2461add061ab5bb01b4a72d1f6c47f447955b66"
+    },
+    {
+      "path": "A3-en-batch31.md",
+      "sha256": "a80022e0d98236c80dcb6ec1b7cbc3947a8ec6daf940242ae5ddecb9900ac95b"
+    }
+  ],
+  "actual_new_candidate_queries": 6,
+  "completed_candidate_search_results": 6,
+  "unreturned_search_attempts": 0,
+  "actual_new_chinese_queries": 0,
+  "actual_new_english_queries": 6,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 481,
+  "prior_agent3_returned_candidate_results": 480,
+  "agent3_cumulative_candidate_queries": 487,
+  "agent3_cumulative_returned_candidate_results": 486,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 489,
+  "run_cumulative_returned_candidate_results": 488,
+  "passed_english_candidate_ids": [],
+  "returned_english_candidate_ids": [
+    "C1-E32"
+  ],
+  "quality_rejected_not_searched_ids": [
+    "C1-E33"
+  ],
+  "actual_execution": "真实读上游双评/候选/执行，E32六有效查询并核制造商/文具商原网页商业用名，物种及研究对象用法不误杀；E33质量拒绝真实0查询。UK逐名失败，登记未清。",
+  "next": "Paper Wasp返同原A4首返，Names Aside质量返原A4，不以失败英文计新增；原中文结论不倒写。",
+  "unchanged": "旧记录/库/队列/Git未改，无网页全文。"
+}

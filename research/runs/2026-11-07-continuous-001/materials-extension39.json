@@ -1,0 +1,81 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T12:35:23.111324+08:00",
+  "materials": [
+    {
+      "id": "C1-M76",
+      "family_id": "C1-MF-preserving-partner-premise-to-develop-joint-action",
+      "macro_id": "S5",
+      "secondary_macro_ids": [
+        "S4"
+      ],
+      "plan_direction_id": "C1-D-S5",
+      "category": "modern_performance_practice_and_partner_action",
+      "case_ids": [
+        "B027",
+        "B037"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P4",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Keith Johnstone, Impro: Improvisation and the Theatre, Spontaneity chapter",
+          "url": "https://users.iit.demokritos.gr/~k.palaiologos/thymeli/pdf_files/Johnstone,%20Keith%20(1981),%20Impro_%20Improvisation%20and%20the%20Theatre,%20London_Methuen%20Drama.pdf",
+          "source_type": "book_author_text_university_hosted_copy",
+          "book_id": "Johnstone-Impro-1979-1981",
+          "published_at": "1979原硬皮/1981平装，所见版权页另列1989重印；不是近期新闻",
+          "access": "body",
+          "reading_scope": "selected_four_scanned_spreads_not_whole_chapter",
+          "reading_location": "web实际读书目/版权L1–76；后find三次超时。curl实际下载后fitz实读PDF物理46–49页（印刷92–99），包括Working Someone、Blocking and Accepting及场景对话。未目读图/观看演出/参与训练，未通读全章或全书。",
+          "read_at": "2026-11-09T12:35:23.111324+08:00",
+          "local_path": "/tmp/a2-johnstone-impro.pdf",
+          "sha256": "78e76f719b44f6ef6e9dec50c77800a7ab537e7d3c148ab0b5695705e5fd92cc",
+          "boundary": "作者的戏剧训练观察、例子与解释，不是控制实验或所有情境必须接受他人要求的普遍规则。书中accept指继续情境前提，不等于口头说Yes；不把拒绝现实有害要求说成错误。"
+        },
+        {
+          "title": "The Second City: Improv 1 Online",
+          "url": "https://www.secondcity.com/classes/virtual/improv/improv-1-online-vir",
+          "source_type": "practitioner_training_program",
+          "access": "body",
+          "reading_location": "web实际读L144–174概念与完整课程介绍；页面未示发文日期，课表2027不是新闻发布日期。",
+          "published_at": null,
+          "read_at": "2026-11-09T12:35:23.111324+08:00",
+          "boundary": "训练机构课程自述，只作并行实践语境，不当课程有效性实验、原著章节或近90日新闻。"
+        }
+      ],
+      "source_urls": [
+        "https://users.iit.demokritos.gr/~k.palaiologos/thymeli/pdf_files/Johnstone,%20Keith%20(1981),%20Impro_%20Improvisation%20and%20the%20Theatre,%20London_Methuen%20Drama.pdf",
+        "https://www.secondcity.com/classes/virtual/improv/improv-1-online-vir"
+      ],
+      "fact": "作者区分接纳与阻断：口头反对仍可延续伙伴的设定，抹去前提才可能使共同场景无法发展；书中用成对行动示例说明。",
+      "distinctive_relation": "不是一味同意，而是在回应时保留对方已经建立、双方可以继续行动的条件。",
+      "mechanism_to_material": "实际搜读前已向主控记录B027共同活动位置、B037对他者作用的问题：目标没有预写脚本时如何接手伙伴行动。于是选择训练实践者及原作者书，而非先找一个漂亮角色名再补出处；企业当下世界观/命名参与方自释不冒本角色新核起名史。",
+      "history_difference": "实际读旧2026-11-06 M07爵士与C13临场集：其核心为既有技能在现场产生表达、反馈积累，故本包不选无脚本/即兴生成当新族。新关系限于接手伙伴已经建立的情境前提与后续行动：哪怕人物口头反对，仍可保留前提；不同于单人现场出新。旧C03应手为手套形变传感/工具回应，不是两位参与者守住共同前提；C44构境为改变情境使问题重新成形，本项守住已给前提继续共同行动；千手稿为模块贡献/整合，不是现场一方接手另一方行为。家族计数仍待主控实质核，不因换了戏剧书就算新。",
+      "naming_potential": "可将接手对方行动的参与角色自然凝练，而非直接抄书名或把即兴场景都计新族。",
+      "shortcoming": "戏剧/培训或过度迎合联想；角色若只剩配合、即兴能力便退回旧家族，源真实不补品牌身份。",
+      "boundary": "作者的戏剧训练观察、例子与解释，不是控制实验或所有情境必须接受他人要求的普遍规则。书中accept指继续情境前提，不等于口头说Yes；不把拒绝现实有害要求说成错误。",
+      "is_classical": false,
+      "status": "candidate_proposed_pending_coordinator_family_review",
+      "classification_reason": "入口是作者对参与者回应/行动发展的实践分析，主S5；戏剧文化为次S4，不因配额换主类。"
+    }
+  ],
+  "new_material_count": 1,
+  "new_chinese_draft_count": 1,
+  "coverage_note": "新增一部原著的特定节选正文与一辅助课程页；非通读整书，新增近90日新闻0。古文未加，计4/76；单类仍低于30%。近90新闻缺额不靠课程日期或页脚补齐。",
+  "failed_accesses": [
+    {
+      "url": "https://www.impro.global/images/guides/Maestro_ENG_2018.pdf",
+      "status": "web401",
+      "counted_as_read": false
+    },
+    {
+      "url": "https://users.iit.demokritos.gr/~k.palaiologos/thymeli/pdf_files/Johnstone,%20Keith%20(1981),%20Impro_%20Improvisation%20and%20the%20Theatre,%20London_Methuen%20Drama.pdf",
+      "status": "首次web可读前部，后find三次timeout；Python urllib证书失败，curl成功；pdftotext未安装/pypdf无目标匹配后fitz实际提取指定页",
+      "counted_as_read": "only_specified_actual_fitz_pages"
+    }
+  ]
+}

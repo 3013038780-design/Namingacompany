@@ -1,0 +1,27 @@
+{
+  "reviewer": "/root",
+  "accepted_at": "2026-11-07T21:53:00.685572+08:00",
+  "decision": "accept_current_frozen_input_after_actual_role_reread",
+  "evidence_refs": [
+    {
+      "path": "inputs/decisions-final-work-segment.json",
+      "sha256": "fed3a07ae01e5f1b84e009cca9db92f693673fc536b62cc1591fe1c48477ff37"
+    },
+    {
+      "path": "A1-final-input-reacceptance.json",
+      "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+    },
+    {
+      "path": "A4-final-input-reacceptance.json",
+      "sha256": "f37744f9896c168ae5932f97899d720f73a6be2b7956bb9a349818b24870c758"
+    },
+    {
+      "path": "mutable-index-reacceptance.json",
+      "sha256": "e79aef3d07e8614368082edaab8ea139cd0ece09f90ec2a10305c2284c060500"
+    }
+  ],
+  "historical_mutable_index_gaps": 2,
+  "old_bytes_recovered": false,
+  "old_receipts_unchanged": true,
+  "note": "两原角色已实际读取冻结最终17案，当前结论重新确认；原历史输入版本未保全如实保留缺口，不冒称旧SHA匹配。后续索引交接先冻结快照。"
+}

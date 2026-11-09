@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T16:41:27+08:00",
+  "reviews": [
+    {
+      "candidate_id": "LD-E07",
+      "chinese_id": "LD-C07",
+      "english": "Codabitat",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "code/habitat的熟悉声音融合，可按四音节自然读。",
+          "counter_association": "首遍可能在中间多读一个h。"
+        },
+        "spelling": {
+          "reason": "九字母，可由cod+abitat分段解释。",
+          "counter_association": "听到首遍可能写成Codehabitat。"
+        },
+        "formation": {
+          "reason": "一个真实研究场景中本来相连的code和habitat融合。",
+          "counter_association": "整体新造词无公认字典义。"
+        },
+        "bilingual_relation": {
+          "reason": "两语共同指向数字程序及其适应环境，主题直接一致。",
+          "counter_association": "并非中文四字逐个英译。"
+        },
+        "distinctiveness": {
+          "reason": "有完整场所/机构身份，可容纳持续研究与多个产品。",
+          "counter_association": "可能先像编程社区或沙盒产品。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，不代替主控独评/A3英文查重。"
+    }
+  ]
+}

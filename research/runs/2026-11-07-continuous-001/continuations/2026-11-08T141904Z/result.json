@@ -1,0 +1,147 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-08T14:19:04.966Z",
+  "completed_at": "2026-11-08T22:50:20.965679+08:00",
+  "status": "three_same_run_packages_one_new_pair_admitted",
+  "actual_A1_basis_reused": [
+    "A1-role-expansion01.json",
+    "A1-formation-feedback.json",
+    "search-plan.json",
+    "search-plan-role-expansion01.json"
+  ],
+  "new_A1_research_claimed": false,
+  "actual_A2": "/root/continuous_a2",
+  "actual_A3_same_cn_en": "/root/live_a3",
+  "actual_A4": "/root/continuous_a4",
+  "new_materials": 4,
+  "new_chinese_drafts": 3,
+  "new_chinese_families_explored": 3,
+  "chinese_quality_passed": 2,
+  "chinese_public_use_passed": 1,
+  "new_english_versions": 1,
+  "english_quality_passed": 1,
+  "english_public_use_passed": 1,
+  "evidence_holds": 1,
+  "new_evidence_holds": 0,
+  "new_retained_families": 1,
+  "retained_pairs": [
+    {
+      "chinese": "选框",
+      "english": "Common Grip",
+      "chinese_id": "C1-C46",
+      "english_id": "C1-E38"
+    }
+  ],
+  "new_A3_candidate_query_executions": 24,
+  "new_A3_search_results_returned": 24,
+  "new_A3_failed_or_unreturned_attempts": 0,
+  "new_root_candidate_query_executions": 0,
+  "root_new_source_discovery_queries_not_usage_queries": 2,
+  "cumulative_A3_candidate_query_executions": 530,
+  "cumulative_A3_search_results_returned": 529,
+  "root_additional_queries_prior_packet": 2,
+  "cumulative_recorded_candidate_query_executions": 532,
+  "cumulative_recorded_results_returned": 531,
+  "cumulative_materials": 58,
+  "cumulative_chinese_drafts": 47,
+  "cumulative_english_versions": 37,
+  "catalog_counts": {
+    "discussion_candidates": 28,
+    "research_reserves": 1,
+    "total_unique_families": 29,
+    "withdrawn_families": 1,
+    "historical_unique_families": 30
+  },
+  "reason": "新增讨论备选选框 / Common Grip：让不同对象进入同一次行动。固定Inkscape1.3选择范围与共同变换关系，中文10/英文6查询及终审通过；保留通用控件/握把器材首感、轩旷近音、普通品类和登记限制。千手稿首要出版写作产品气质质量未过；织觉官网已有杭州织觉智能科技AI纺织质检同核心，八查询淘汰，两包均真实零英文收尾。新4资料3中文1英文、24使用查询全返，不把原著阅读或变体充名字。",
+  "query_breakdown": {
+    "C45_quality_not_searched": 0,
+    "C46_CN": 10,
+    "E38_EN": 6,
+    "C47_CN": 8,
+    "zeroEN24": 0,
+    "zeroEN25": 0
+  },
+  "source_sampling": {
+    "new_materials": 4,
+    "root_new_materials_body_read": 3,
+    "minimum_required": 1,
+    "scope": "root实读Benkler259–295、Inkscape固定1.3 9–74、蜘蛛综述独立下载PDF1/6/7；Lave扫描原A2目读两页，root未读，无名只材料。所有入库来源逐项复核；书/章节节选非全书，原实验未读，综述观点不当无争议定理。"
+  },
+  "controls_and_registration": "本run原两阳性对照及大陆入口限制准确复用，非新对照或逐名核准；本次各UK逐名入口不可用，非正式公司核名/9与42清权。",
+  "prior_evidence_hold": "活变量/Maymatter无新原证不重复403，已耗尽返工不追加。",
+  "whole_production_compliance_claimed": false,
+  "evidence_refs": [
+    {
+      "path": "A2-creation-execution-batch26.json",
+      "sha256": "7b269035478fa1a502c3188575a067bf2fd0a16b3a35cee803ec14099e59f55c"
+    },
+    {
+      "path": "A2-creation-execution-batch27.json",
+      "sha256": "f1cc179ca8dd63084f1e8c109d2747f816fcdf35a1f080db3d593f065c2e4fd8"
+    },
+    {
+      "path": "A2-creation-execution-batch28.json",
+      "sha256": "b2a2587a4bade5b9c6ed6c0b7ec72538014b689afa0c215aa442ba7e64c6e8ad"
+    },
+    {
+      "path": "A3-cn-batch28.json",
+      "sha256": "2869c4576d4bae549c5cee2bc942c6906a4089b064dd10a6f0483418a941f75f"
+    },
+    {
+      "path": "A4-zero-input-batch24.json",
+      "sha256": "46c32a19fe6411f518ebf9882755026c5863c562e3cde7cbce40d4ebf9f4c709"
+    },
+    {
+      "path": "A3-en-zero-batch24.json",
+      "sha256": "de46d0745ed582bbf8acef7b71872c69140f3bbdd94b96592e3c932e3890ee29"
+    },
+    {
+      "path": "A3-cn-batch29.json",
+      "sha256": "1b41cdbf9aa61e11da190d79d15e50f61c911addc3eda31c242ae805558193fa"
+    },
+    {
+      "path": "A4-creation-execution-batch35.json",
+      "sha256": "17c09054d1c8cae22112e64dacaf5dccfabf9bcb98691b91f56280c778983eb3"
+    },
+    {
+      "path": "A3-en-batch35.json",
+      "sha256": "950f5490c21ac936f03adfb72f6b91478242e8aa36bbb3ecbc5816ba8a95253c"
+    },
+    {
+      "path": "A4-C46-postscreen-review.json",
+      "sha256": "30f71754164f8184da4a61e2ddd794d09142b27e019e4f2f4259ac0f98188393"
+    },
+    {
+      "path": "delivery-C1-E38.json",
+      "sha256": "de1ec57999ecd75d73c9fe640d989f80fdcc979989b17eaf0d2132cb3579b3a7"
+    },
+    {
+      "path": "A3-cn-batch30.json",
+      "sha256": "78f1ab56f0c90f14097937947339b9f055154f006a04db3d4c0eff9171efceed"
+    },
+    {
+      "path": "A4-zero-input-batch25.json",
+      "sha256": "821294af2a1471a4a5a32e36e7f65769bd8ddf7eed070a548488dc8a949c76c2"
+    },
+    {
+      "path": "A3-en-zero-batch25.json",
+      "sha256": "e74739f9e64c5a349036a010bad6de99823829161bbd32a0281285ac461e5b49"
+    },
+    {
+      "path": "continuations/2026-11-08T141904Z/handoffs-batch26.json",
+      "sha256": "c9a2874b95ef7f824a81ff83bbc898c76095d07574feef7f2cedd513cde8c883"
+    },
+    {
+      "path": "continuations/2026-11-08T141904Z/handoffs-batch27.json",
+      "sha256": "cf2d65dd248d374ffcf130d58d9c584fea5f2996019c94465f79db5528380428"
+    },
+    {
+      "path": "continuations/2026-11-08T141904Z/handoffs-batch28.json",
+      "sha256": "5a4ce76632914b1ff4e1e48e3885e482e2c8f6f2f05a2c9d5331367c0a89937a"
+    },
+    {
+      "path": "continuations/2026-11-08T141904Z/decisions-through-batch28.json",
+      "sha256": "34de9017319fd197e788bb346a71d91996f59a11aca01a76c8e6a09073b7b9d2"
+    }
+  ]
+}

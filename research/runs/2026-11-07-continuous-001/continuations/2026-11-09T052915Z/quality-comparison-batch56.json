@@ -1,0 +1,24 @@
+{
+  "reviewed_at": "2026-11-09T16:55:16.743546+08:00",
+  "candidate_id": "C1-C63",
+  "version": 3,
+  "root_review_sealed_before_numeric_read_in_prior_interrupted_turn": true,
+  "root_total": 26,
+  "producer_total": 25,
+  "max_axis_difference": 1,
+  "decision": "both_pass",
+  "refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch56.json",
+      "sha256": "dae53eda4cc4d763c235f3720be420f905599b969d036de63f7e25bedf730eaa"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch56.json",
+      "sha256": "2e4846b58c932b064b5d7b92809dc204eeb45c559fbd5a058575bc7f967865b2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch56-receipt.json",
+      "sha256": "7a676215d56c352eecb334c9b0ace03c4cb64658c20d8781ede80c5b73f4d52a"
+    }
+  ]
+}

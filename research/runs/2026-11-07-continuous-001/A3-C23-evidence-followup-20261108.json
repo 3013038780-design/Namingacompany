@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/live_a3",
+  "executed_at": "2026-11-08T10:42:54.562499+08:00",
+  "candidate_id": "C1-E19",
+  "chinese_id": "C1-C23",
+  "name": "Maymatter",
+  "inputs": [
+    {
+      "path": "A3-en-batch19.json",
+      "sha256": "7c66cfe45dcedaaf1f25ddb84a587e14a86f92aa1f154a1e2351686abde7ba69"
+    },
+    {
+      "path": "A3-en-batch19-receipt.json",
+      "sha256": "fd3c8e037ccf5eb1ca6c1a8655086a1dda94a86f7b60429c8df54e5897a94bfa"
+    },
+    {
+      "path": "A3-en19-publication-normalization.json",
+      "sha256": "a1bf7da414ed6661a46b1d89cac7108f14e06dc7cae1f9d610a97dfa5aacde13"
+    }
+  ],
+  "new_query_count": 2,
+  "query_logs": [
+    {
+      "query": "\"\"Cellier des Maymatter\"\" \"catalogue\"",
+      "executed_on": "2026-11-08",
+      "summary": "搜索原酒款加catalogue图录，无结果，未发现不同一手图录。"
+    },
+    {
+      "query": "\"\"Guillaume CHEROYAN\"\" \"\"VINS, RHUMS, WHISKYS\"\"",
+      "executed_on": "2026-11-08",
+      "summary": "定向拍卖行人名与独特拍卖标题，仅返回原平台同场其他拍品；没有独立原始图录或目标酒瓶标签。"
+    }
+  ],
+  "new_readable_primary_evidence": 0,
+  "evidence_scope": "两个定向不同一手入口定位动作，未找到可读独立拍卖行原图录或目标实物标签；未重跑19旧查询，也未重试403。",
+  "indexed_lead_url": "https://www.interencheres.com/art-decoration/vins-rhums-whiskys-et-alcools-677433/lot-86989073.html?similar=true",
+  "decision": "evidence_paused_original_unresolved_decision_unchanged",
+  "changes_original_conclusion": false,
+  "next": "停止此线补查；不是确证占用，也不是通过。等待新中文授权。",
+  "actual_new_control_queries": 0,
+  "agent3_cumulative_candidate_queries": 285,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 287,
+  "external_webpage_fulltext_attached": false,
+  "old_files_catalog_git_unchanged": true
+}

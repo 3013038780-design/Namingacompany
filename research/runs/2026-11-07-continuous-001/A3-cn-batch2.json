@@ -1,0 +1,242 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T20:49:52.729134+08:00",
+  "input_batch": "A2 batch1",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch1.json",
+      "sha256": "de29716948169e218e2207fdb612e83e8d0a5e6dbed0e3bc5b92e623f9fae2d4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch1.md",
+      "sha256": "d87c287021b3259660e742121471cfc689118926b5ae8684ec44f008a23f4ff7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch1.json",
+      "sha256": "e1a05ad992652744001c7cf6a2659c4eb8ae85034dccc9460a893f94cf0a976d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch1.json",
+      "sha256": "3945d61b3c61e96f043a6e9045268a55065d19588cd9eef2dc9a96aa7e03f49d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch1.json",
+      "sha256": "3a18cb9dc6e7131e9d8b2c06a96a4cff443285684a2f4239570e841dc25a37f0"
+    }
+  ],
+  "query_count": 20,
+  "results": [
+    {
+      "candidate_id": "C1-C03",
+      "name": "应手",
+      "query_logs": [
+        {
+          "query": "\"应手\"",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名应手AI Agent Skill市场已存在，官网自述海南天远大数据科技有限公司旗下；不用较长应手小匠或普通得心应手句代替同名主证。"
+        },
+        {
+          "query": "\"应手\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名应手AI Agent Skill市场已存在，官网自述海南天远大数据科技有限公司旗下；不用较长应手小匠或普通得心应手句代替同名主证。"
+        },
+        {
+          "query": "\"应手\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名应手AI Agent Skill市场已存在，官网自述海南天远大数据科技有限公司旗下；不用较长应手小匠或普通得心应手句代替同名主证。"
+        },
+        {
+          "query": "\"應手\" 公司 軟體",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名应手AI Agent Skill市场已存在，官网自述海南天远大数据科技有限公司旗下；不用较长应手小匠或普通得心应手句代替同名主证。"
+        },
+        {
+          "query": "\"yingshou\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名应手AI Agent Skill市场已存在，官网自述海南天远大数据科技有限公司旗下；不用较长应手小匠或普通得心应手句代替同名主证。"
+        }
+      ],
+      "decision": "reject",
+      "reason": "完整同名应手AI Agent Skill市场已存在，官网自述海南天远大数据科技有限公司旗下；不用较长应手小匠或普通得心应手句代替同名主证。",
+      "evidence": [
+        {
+          "url": "https://skill.tybigdata.com/about",
+          "access": "primary_product_body_read_web_and_curl",
+          "finding": "官网标题应手，发现获取管理AI Agent Skill；我们的公司及页尾海南天远大数据科技有限公司。正文实际可读，后续find超时已curl补读，不称登记状态核验。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        }
+      }
+    },
+    {
+      "candidate_id": "C1-C05",
+      "name": "会意",
+      "query_logs": [
+        {
+          "query": "\"会意\"",
+          "executed_on": "2026-11-07",
+          "summary": "核心同名现有科技服务主体温州会意数字技术有限公司；明道云伙伴条目软件开发/IT服务及论文公司署名佐证。会意通为更长软件名，HuiYi可能另中文，均非本次核心否决唯一依据。"
+        },
+        {
+          "query": "\"会意\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "核心同名现有科技服务主体温州会意数字技术有限公司；明道云伙伴条目软件开发/IT服务及论文公司署名佐证。会意通为更长软件名，HuiYi可能另中文，均非本次核心否决唯一依据。"
+        },
+        {
+          "query": "\"会意\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "核心同名现有科技服务主体温州会意数字技术有限公司；明道云伙伴条目软件开发/IT服务及论文公司署名佐证。会意通为更长软件名，HuiYi可能另中文，均非本次核心否决唯一依据。"
+        },
+        {
+          "query": "\"會意\" 公司 軟體",
+          "executed_on": "2026-11-07",
+          "summary": "核心同名现有科技服务主体温州会意数字技术有限公司；明道云伙伴条目软件开发/IT服务及论文公司署名佐证。会意通为更长软件名，HuiYi可能另中文，均非本次核心否决唯一依据。"
+        },
+        {
+          "query": "\"huiyi\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "核心同名现有科技服务主体温州会意数字技术有限公司；明道云伙伴条目软件开发/IT服务及论文公司署名佐证。会意通为更长软件名，HuiYi可能另中文，均非本次核心否决唯一依据。"
+        },
+        {
+          "query": "\"温州会意数字技术有限公司\" 软件",
+          "executed_on": "2026-11-07",
+          "summary": "核心同名现有科技服务主体温州会意数字技术有限公司；明道云伙伴条目软件开发/IT服务及论文公司署名佐证。会意通为更长软件名，HuiYi可能另中文，均非本次核心否决唯一依据。"
+        }
+      ],
+      "decision": "reject",
+      "reason": "核心同名现有科技服务主体温州会意数字技术有限公司；明道云伙伴条目软件开发/IT服务及论文公司署名佐证。会意通为更长软件名，HuiYi可能另中文，均非本次核心否决唯一依据。",
+      "evidence": [
+        {
+          "url": "https://www.mingdao.com/partner/huiyi",
+          "access": "primary_partner_page_title_meta_read_plus_search_render",
+          "finding": "web返回动态壳、curl标题/meta明确温州会意数字技术有限公司及软件开发说明；搜索完整渲染伙伴描述、IT服务、客户1–5。不可伪称静态正文已完整显示公司详情。"
+        },
+        {
+          "url": "https://www.2winpub.com/static/uploads/journalArticle/gcjsyj0513022.pdf",
+          "access": "publisher_pdf_opened",
+          "finding": "2023论文企业信息化与网络安全的策略分析，作者公司署名温州会意数字技术有限公司；主体确证，非当前工商状态核查。"
+        },
+        {
+          "url": "https://jxt.zj.gov.cn/module/download/downfile.jsp?classid=0&filename=c7988d84b7644d4f886c163c5b379c54.pdf",
+          "access": "official_document_search_text_only",
+          "finding": "浙江经信厅2024文件名单含公司全名；未冒称官方登记记录或现时在营核验。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        }
+      }
+    },
+    {
+      "candidate_id": "C1-C06",
+      "name": "余量",
+      "query_logs": [
+        {
+          "query": "\"余量\"",
+          "executed_on": "2026-11-07",
+          "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+        },
+        {
+          "query": "\"余量\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+        },
+        {
+          "query": "\"余量\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+        },
+        {
+          "query": "\"餘量\" 公司 軟體",
+          "executed_on": "2026-11-07",
+          "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+        },
+        {
+          "query": "\"yuliang\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+        },
+        {
+          "query": "\"余量科技\" OR \"余量智能\" OR \"余量软件\"",
+          "executed_on": "2026-11-07",
+          "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+        },
+        {
+          "query": "\"余量\" \"有限公司\"",
+          "executed_on": "2026-11-07",
+          "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+        },
+        {
+          "query": "\"余量科技\" OR \"余量智能\" OR \"余量软件\"",
+          "executed_on": "2026-11-07",
+          "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+        },
+        {
+          "query": "\"余量\" \"有限公司\"",
+          "executed_on": "2026-11-07",
+          "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+        }
+      ],
+      "decision": "public_use_screen_pass",
+      "reason": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。",
+      "evidence": [
+        {
+          "url": "https://raw.githubusercontent.com/licyer/dsh-token-monitor/main/README.md",
+          "access": "primary_source_readme_body_read_curl",
+          "finding": "产品/插件名dsh-token-monitor，余量与用量监控是功能说明，非独立余量品牌。Github页面find无匹配已用raw正文补读。"
+        },
+        {
+          "url": "https://www.yulianggroup.cn/company/",
+          "access": "primary_company_body_read",
+          "finding": "官网明列上海禹亮信息科技有限公司、Shanghai Yuliang Information Technology；中文禹亮非余量，英文直拼Yuliang另行避让。"
+        },
+        {
+          "url": "https://www.companies.sg/business/202425251E/YULIANG-TECHNOLOGY-PTE-LTD",
+          "access": "third_party_company_search_text_only",
+          "finding": "新加坡YULIANG TECHNOLOGY PTE.LTD目录，UEN202425251E，游戏软件出版；中文名称并未核为余量，不能用作中文确占证据。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Yuliang",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      }
+    }
+  ],
+  "passed_chinese_candidate_ids": [
+    "C1-C06"
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛，不称全球未使用或官方注册可用；无命中不编造证明来源。"
+}

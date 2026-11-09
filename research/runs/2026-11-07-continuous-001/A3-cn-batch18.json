@@ -1,0 +1,116 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T13:23:03.757302+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch16.md",
+      "sha256": "6e553c6779a0a2fb3dc0626ef0d302bc869180276bc90bd9e8f210faa45617d9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch16.json",
+      "sha256": "eee1500c74c7f4637e589f6196a4257d36c959d2daabdd4dab434ad5c8a65668"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch16.json",
+      "sha256": "6a48f596dad549e17c77949341bbe7041ffae26c6e4f0f8c8e0dce5d0977be83"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension15.json",
+      "sha256": "ad5ea5eb8a063d85b91e08ea92a1457d00a4e86c375135b0c73b9e3e814bc432"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch16.json",
+      "sha256": "33e0866e4619f9e8ea7e19841b59233bf773536221ed854afbc75a95779b5801"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch16.json",
+      "sha256": "f654137e034211dc5ad9d097c2e46ad9fd591d88f141b21e3e5457f6d3f6cfee"
+    }
+  ],
+  "query_count": 8,
+  "results": [
+    {
+      "candidate_id": "C1-C29",
+      "name": "失算",
+      "query_logs": [
+        {
+          "query": "\"失算\"",
+          "executed_on": "2026-11-08",
+          "summary": "教育部词典普通动词及新闻文学用例，不构成商业品牌。"
+        },
+        {
+          "query": "\"失算科技\"",
+          "executed_on": "2026-11-08",
+          "summary": "失算的时代科技等新闻句，未证失算科技完整公司字号。"
+        },
+        {
+          "query": "\"失算智能\"",
+          "executed_on": "2026-11-08",
+          "summary": "数签工具失算新闻与AI电力文章普通错误描述，未证失算智能品牌。"
+        },
+        {
+          "query": "\"失算\" 公司 品牌",
+          "executed_on": "2026-11-08",
+          "summary": "公司经营/品牌策略失算新闻和作品，具体同名游戏另核，未证精确公司。"
+        },
+        {
+          "query": "\"失算\" AI 模型 软件",
+          "executed_on": "2026-11-08",
+          "summary": "电力AI失算、天气预报和办公工具报道，软件名各有其名，不能认失算模型。"
+        },
+        {
+          "query": "\"失算\" 游戏 App",
+          "executed_on": "2026-11-08",
+          "summary": "TapTap完整同名游戏失算与DEMO，可读开发者介绍；其他游戏内成就/关卡不是独立失算品牌。"
+        },
+        {
+          "query": "\"shisuan\" technology company",
+          "executed_on": "2026-11-08",
+          "summary": "石蒜智算模型API官网与个人shisuan帐号；异字/个人分开，官网正文核汉字。"
+        },
+        {
+          "query": "\"失算\" 有限公司",
+          "executed_on": "2026-11-08",
+          "summary": "TapTap缓存供应商公司及电影出品方、词典/医学失算语义；当前平台正文供应商已变化，按正文记录不以缓存确证法人。"
+        }
+      ],
+      "decision": "reject_exact_named_game_software_use",
+      "reason": "TapTap开发者发布页现有完整游戏名失算，试玩DEMO及作者说明可读，按用户排除已用软件/产品偏好否决；不是因常用动词、电影歌曲标题、负面语义或石蒜异字而直接占用。",
+      "evidence": [
+        {
+          "url": "https://www.taptap.cn/app/915684",
+          "access": "developer_platform_game_body_read",
+          "finding": "L21失算，L29试玩DEMO，L44–52开发者明确近未来叙事游戏，L57工作室cbn522，L81下方名失算测试。当前正文L43/62供应商chenbainian；搜索缓存上海创巴科技有限公司不能当当前正文确证法人。只核公开具名游戏软件使用，不保证上线平台全部可玩或下载实际执行。"
+        },
+        {
+          "url": "https://api.shisuanai.com/",
+          "access": "primary_different_chinese_brand_body_read",
+          "finding": "L0为石蒜智算，L8–11模型接入层，与失算拼音近但汉字/完整名不同。该近名不自动当失算科技或失算模型；不背书其模型数量/SLA等。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用Nov7本run实际403共同入口，非本次新访问或逐名核名。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用Nov7本run共同403，未逐名9/42。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Shisuan",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      },
+      "traditional_form": "失算繁简同形；不重跑同一精确词，以失算游戏App与有限公司两条补足查询覆盖。",
+      "english_screening_performed": false
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "passed_chinese_candidate_ids": []
+}

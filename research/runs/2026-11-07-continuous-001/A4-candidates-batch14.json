@@ -1,0 +1,60 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-07T23:12:11.228721+08:00",
+  "inputs": [
+    {
+      "path": "README.md",
+      "sha256": "e3ac33611b2580d321a0434f7ac3a1b1da75678b1a7756ac38326d338b686257"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch8.json",
+      "sha256": "846cc81e69427062e8ad7b39a97c05520913cf25c23f728caa7bd425a6753324"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension7.json",
+      "sha256": "a839a21b7574701971769bb560d69e1cc2074b56b2336c7ce9bbf01e14352f59"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch8.json",
+      "sha256": "2c2e5e6ba6e4ddddec282e5fe5a5429cc8fca0c5e26b4801002afff188da6efc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch8.json",
+      "sha256": "8eff341cd0f3a410ce5806a1054796bccb3e2a7d700f3411a44198f42f1f0914"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch9.json",
+      "sha256": "a96a892a652654642fe4a7df0591ade4a7c936e5865429556cc62f1c2b6f60ff"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E14",
+      "chinese_id": "C1-C19",
+      "chinese": "分身有别",
+      "english": "Ownwrite",
+      "suggested_pronunciation": "OWN-write，/ˈoʊn.raɪt/，两个音节；write的w按通常拼法不发音。",
+      "type": "两个完整常见英语语素形成的品牌新合成",
+      "formation": "own（自己的）+ write（写入），各保留完整拼法。把工程文档里“一方写自己的页，不改另一方”的关系压成称呼；不是把出生、变强或成长词加到复制机制上。Ownwrite不是已核实的词典词或COW正式术语。",
+      "bilingual_relation": "中文保留同源的分身与各自变化的差别；英文突出差别如何有边界地形成——各自写入自己的状态。主题配对而非逐字翻译：相同的起始内容不必锁死为始终相同，自己的修改也不必污染另一方。",
+      "meaning": "从共同起点开始，保留各自改写的空间。可以承载AI Lab对状态、多个主体与经验差异的研究，不把一个初始模型的所有后续使用强行讲成同一条轨迹；这是一种研究立场，非已实现能力宣告。",
+      "shortcoming": "第一印象容易是写作、版权或编辑工具，而非整个AI研究公司；听写可能成为Ownright或Own Write，own和write虽常见，新合成仍需首次说明。英文单独不明确讲出初始共享，也没有直接说明页面隔离条件；需由中文及真实来源承接，不能把文字改写与内存写入混为同一具体操作。",
+      "boundary": "own是对私有内存修改的品牌转用，不是所有资源均已私有，也不主张最初每个物理页都独占。只在相应写入条件下产生私有页，原只读页仍共享；文件描述符可能共享同一open file description。不是无开销无限复制、自动学习或能力提升定理。",
+      "source_urls": [
+        "https://pdos.csail.mit.edu/6.1810/2024/labs/cow.html",
+        "https://man7.org/linux/man-pages/man2/fork.2.html"
+      ],
+      "read_scope": "本人本次实际打开MIT 2024 COW实验页并读8–16行及44–56行，核初始共享页、写时复制、原只读页例外和内存不足条件；实际打开Linux fork(2)并读25–42行、99–122行、194–199行，核相同初始内容、分离内存空间与共享文件描述符边界。未运行fork、实现xv6或做模型实验。",
+      "family_id": "C1-BF-shared-start-private-changes",
+      "status": "english_quality_proposal_not_usage_screened",
+      "rework_attempt": 0,
+      "remaining_reworks": 2
+    }
+  ],
+  "usage_screening_performed": false
+}

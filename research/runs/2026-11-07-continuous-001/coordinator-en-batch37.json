@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-08T23:43:25.672231+08:00",
+  "independence": "Read producer preview batch37 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C48",
+      "name": "Undetermined",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 20,
+      "notes": {
+        "pronunciation": {
+          "reason": "完整常用读音有据可读但四音节较长",
+          "counter_association": "长词及重音需学习"
+        },
+        "spelling": {
+          "reason": "完整既有词无硬改字母听写仍有长词成本",
+          "counter_association": "undetermined与determined长词易拼写失误"
+        },
+        "grounding": {
+          "reason": "词典未明确判定义与实读SQL状态限制清晰",
+          "counter_association": "不能扩成量子叠加或AI自知"
+        },
+        "bilingual_relation": {
+          "reason": "以未定呼应第三真值但英文不直接保留独立类别结构",
+          "counter_association": "容易理解成程序未完成或团队没有主见"
+        },
+        "distinctiveness": {
+          "reason": "未确定是研究状态和待命名通用标记作为机构称呼辨识弱",
+          "counter_association": "像临时未命名项目或案件诊断状态"
+        }
+      },
+      "decision": "quality_reject",
+      "english_id": "C1-E40"
+    }
+  ]
+}

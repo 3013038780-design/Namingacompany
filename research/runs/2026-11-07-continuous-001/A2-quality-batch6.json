@@ -1,0 +1,95 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-07T21:33:56.682854+08:00",
+  "scope": "producer自评另档，主控独评封存后再读，未向预览露分。",
+  "reviews": [
+    {
+      "candidate_id": "C1-C16",
+      "name": "自成一格",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "已有整词，四字节奏熟悉",
+          "counter_association": "可能像设计咨询"
+        },
+        "distinctiveness": {
+          "reason": "完整一格的图景容易复述",
+          "counter_association": "通用成语辨识需实际筛"
+        },
+        "lab_fit": {
+          "reason": "结构和组织方式可成为研究身份",
+          "counter_association": "不是裸名就有AI业务解释"
+        },
+        "grounding": {
+          "reason": "物理单格栅双角色已读，但成语是编辑比喻",
+          "counter_association": "格不等于一个网孔或同词源"
+        },
+        "extension": {
+          "reason": "不限定一类光学测量产品",
+          "counter_association": "自成不等于无外部条件"
+        },
+        "semantic_coherence": {
+          "reason": "成语整体与结构自配合有接点",
+          "counter_association": "不能退化成单纯夸自己独特"
+        }
+      },
+      "decision": "quality_pass",
+      "independent_submission_ref": "A2-quality-batch6.json producer-only submission"
+    },
+    {
+      "candidate_id": "C1-C17",
+      "name": "因序",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 5
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "熟字双音节顺口，新组合只需简短释义",
+          "counter_association": "易听成音序"
+        },
+        "distinctiveness": {
+          "reason": "因与序的约束关系有特定内核",
+          "counter_association": "不是现成词透明度较低"
+        },
+        "lab_fit": {
+          "reason": "依赖、排序、组织行动有研究机构气质",
+          "counter_association": "可能像语言检索产品"
+        },
+        "grounding": {
+          "reason": "偏序与逻辑时钟边界据原论文正文",
+          "counter_association": "不宣称发现所有因果"
+        },
+        "extension": {
+          "reason": "可覆盖多系统行动而非单一排序工具",
+          "counter_association": "不可锁死任务调度工具"
+        },
+        "semantic_coherence": {
+          "reason": "因的联系确实限定序的成立",
+          "counter_association": "不能偷换成所有事件都可排绝对顺序"
+        }
+      },
+      "decision": "quality_pass",
+      "independent_submission_ref": "A2-quality-batch6.json producer-only submission"
+    }
+  ]
+}

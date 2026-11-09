@@ -1,0 +1,146 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T17:06:55.970162+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch18.md",
+      "sha256": "f06b6ef7905901e02edc34a096c1bc7760c5571a1469466f91e16130df3ab2ff"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch18.json",
+      "sha256": "6c404de20de01d7590b8f10ec5f7f409b7450cd8173872dd982ae05dba3a48b0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch18.json",
+      "sha256": "76a33f8b20fc2200a4e2a4d90ff73b605aed47e3edddd55a57c4ace129f73279"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension17.json",
+      "sha256": "f9e2e35ae9a0b2863c20001215e97eab573dfc6db3490e632b72ace96944a9aa"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch18.json",
+      "sha256": "34cf0d33f16423bb8c85a72a2ed4c077065852c95d5ddb072c7e1d49ca918037"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch18.json",
+      "sha256": "1f5f1d72b924a5dca6b9c7ece4a9b5b7e1119f04e44a434acbdb43e41f54b019"
+    }
+  ],
+  "query_count": 10,
+  "results": [
+    {
+      "candidate_id": "C1-C31",
+      "name": "未然机",
+      "query_logs": [
+        {
+          "query": "\"未然机\"",
+          "executed_on": "2026-11-08",
+          "summary": "结果主要为未然、防患于未然等辞典/拆字匹配，未确证完整未然机具名商业对象。"
+        },
+        {
+          "query": "\"未然机科技\"",
+          "executed_on": "2026-11-08",
+          "summary": "命中未然图灵AI预测引擎资料，实际正文品牌未然图灵/ProphetLab，不含机；不能自动视作未然机科技。"
+        },
+        {
+          "query": "\"未然机智能\"",
+          "executed_on": "2026-11-08",
+          "summary": "命中未然图灵及未然智能近名企业；珠海官网确有未然智能公司及体感互动业务，核心缺机，不是精确同名。"
+        },
+        {
+          "query": "\"未然机\" 公司 品牌",
+          "executed_on": "2026-11-08",
+          "summary": "出现未然资本招聘品牌线索；全文核心未然/未然资本与本名未然机不同，非本名商业占用确证。"
+        },
+        {
+          "query": "\"未然机\" AI 模型 软件",
+          "executed_on": "2026-11-08",
+          "summary": "出现未然象限、杭州未然人工智能等公司目录；杭州页正文核其实际名称不含机；都是相关行业近名而非本名。"
+        },
+        {
+          "query": "\"未然機\" 公司 軟體",
+          "executed_on": "2026-11-08",
+          "summary": "命中台湾公司批量PDF及拆字内容，未获得未然機完整具名软件/公司记录；未冒称通读该批量清册。"
+        },
+        {
+          "query": "\"weiranji\" company",
+          "executed_on": "2026-11-08",
+          "summary": "返回茶叶电商等无关噪声，未确认Weiranji完整公司或软件名；不是拼音全球未用证明。"
+        },
+        {
+          "query": "\"未然机\" 产品 游戏",
+          "executed_on": "2026-11-08",
+          "summary": "命中珠海未然科技体感游戏官网及未然探偵游戏等近名，未然科技官网正文核实不含本名机字。"
+        },
+        {
+          "query": "\"未然机\" \"有限公司\"",
+          "executed_on": "2026-11-08",
+          "summary": "命中未然资本、未然图灵等较短或不同核心名；未确证完整未然机有限公司主体。"
+        },
+        {
+          "query": "\"未然機\" AI 品牌",
+          "executed_on": "2026-11-08",
+          "summary": "主要日语未然に防ぐ表示事先防止，相关具名产品为广告チェックAI等，不是未然機品牌；未确证繁体完整商业名。"
+        }
+      ],
+      "decision": "public_use_screen_pass_with_nearname_risk",
+      "reason": "10组实际查询未确证完整核心未然机/未然機/Weiranji已作为公司、AI模型或独立软件使用。已核同领域近名未然科技及未然图灵；机是本名拟物核心，不能按科技/公司后缀删除，故近名不冒充精确占用。未然词面在AI科技圈较拥挤，保留混淆与品牌识别风险，交主控终审而不作登记可用保证。",
+      "evidence": [
+        {
+          "url": "https://weinsci.com/",
+          "access": "primary_company_body_read",
+          "finding": "官网L4–31体感互动及拟推出语音交互；L105未然智能科技（珠海）有限公司，L107 WEIN。实际品牌未然科技，不含机，是同领域近名而非本名。"
+        },
+        {
+          "url": "https://vc.pedaily.cn/company/903929.html",
+          "access": "secondary_company_profile_body_read",
+          "finding": "L27–32品牌未然图灵/ProphetLab、AI预测方向；L65–67及126–150全称上海未然图灵智能科技有限公司。资料自称公开整理，非官方登记，不核其融资/能力或实时存续；完整核心不同。"
+        },
+        {
+          "url": "https://www.shuididp.cn/yp-ca01f13a9179c65c9178dc11068bd501.html",
+          "access": "third_party_directory_body_read",
+          "finding": "L22/69–94杭州未然人工智能科技有限公司及软件AI范围；L72明示互联网数据，L147免责声明。没有机字，不以第三方目录冒称实时官方登记。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用A3-controls.json本轮2026-11-07实际共同入口403；本批未新访问，未逐名检索。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用A3-controls.json本轮2026-11-07共同入口403；本批未新访问，未做9/42逐名逐类登记检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Weiranji",
+          "scope": "2026-11-08实际逐名Weiranji URL尝试不可访问；不是无公司结论。"
+        }
+      }
+    },
+    {
+      "candidate_id": "C1-C32",
+      "name": "借身",
+      "decision": "quality_reject_not_searched",
+      "reason": "实际核主控24且lab_fit3低于4；作者25不改变任一方未过即挡的门槛。不是市场占用结论。",
+      "query_logs": [],
+      "evidence": [],
+      "registration": {
+        "status": "not_searched_quality_gate"
+      }
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "passed_chinese_candidate_ids": [
+    "C1-C31"
+  ],
+  "quality_rejected_not_searched_ids": [
+    "C1-C32"
+  ],
+  "controls_reused_not_new": "A3-controls.json: 本run真实公司/软件两阳性对照，本批0新增对照。"
+}

@@ -1,0 +1,54 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T11:08:15.831603+08:00",
+  "work_packet": "A2 batch12 / A3 cn14",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch12.json",
+      "sha256": "321cc74ede8fd9bdd8ac62a089ead76ae3c122f9ada7d18e3b1600e994063542"
+    },
+    {
+      "path": "A2-quality-batch12.json",
+      "sha256": "f05a00c1688d34060c58a1c008253ebb266cc325a720599312d9e86ffaa264f6"
+    },
+    {
+      "path": "coordinator-cn-batch12.json",
+      "sha256": "d674ac35967022418211abc2662e16fb7c6252eb71ed0f81ec4bc3a98072317e"
+    },
+    {
+      "path": "coordinator-family-review-batch12.json",
+      "sha256": "33baa46d1ad253406aab14ac195e500e486ba950c7f9cef31bb41576c0e2da8b"
+    },
+    {
+      "path": "A3-cn-batch14.json",
+      "sha256": "316327419ce0085a3ce5469f5c1d750b2c9aee904f21be1d8eb495bce41cd364"
+    },
+    {
+      "path": "A3-cn-batch14-receipt.json",
+      "sha256": "8dbed8de7e8337f77f1a81eb6c8646475393e02f8c5f6abca4b2f43a60ccea83"
+    }
+  ],
+  "actual_upstream_read": true,
+  "actual_execution": "实际读取唯一中文候选、双评分与主控家族/质量理由、原A3 cn14零筛查报告及receipt，核输出SHA；真实零匹配验收，非未开始。",
+  "upstream_chinese_candidates": 1,
+  "qualified_chinese_inputs": 0,
+  "english_candidates": [],
+  "english_output_count": 0,
+  "new_english_scores": 0,
+  "new_usage_queries": 0,
+  "new_registration_queries": 0,
+  "decision": "zero_input_after_chinese_quality_rejection",
+  "excluded": [
+    {
+      "candidate_id": "C1-C25",
+      "name": "补码",
+      "reason_code": "BRAND_FIT",
+      "reason": "主控Lab身份未达门槛，首感编程教学术语/工具；任一评审须达门槛，producer通过不能救回。未查使用，不称占用或可用。"
+    }
+  ],
+  "prior_A3_execution": "原A3实际核上游输入0且查询0，未将质量失败伪记市场否决。",
+  "next": "交同一原A3实际英语零输入终检，再由主控H7归档；只标本工作包，不停止后续其他研究。",
+  "unchanged": "不造英文或评分，不搜索、不修改旧稿/receipt/总库/Git，不重启创作或超额返工。"
+}

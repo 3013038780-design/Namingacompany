@@ -1,0 +1,303 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T16:40:35.855417+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A2-preview-batch2.md",
+      "sha256": "afca4f3f7f139b2273754ef00c8aad5cf15e51e23fd0448f518d579806c65933"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/coordinator-cn-batch2.json",
+      "sha256": "9086764b3f843948e18754bc90cfc9d4756410e4aeba3c1b0fdfbe6bc6b90ae1"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A2-quality-batch2.json",
+      "sha256": "28f467d86714ca2c9b6b74c80b8a28f0ad7324a01781847d04bc4cf94c79f66a"
+    }
+  ],
+  "authorized_ids": [
+    "LD-C05",
+    "LD-C07",
+    "LD-C08"
+  ],
+  "not_screened_ids": [
+    "LD-C06"
+  ],
+  "query_count": 24,
+  "results": [
+    {
+      "candidate_id": "LD-C05",
+      "name": "比特群岛",
+      "decision": "public_use_screen_pass",
+      "reason": "搜索返回比特大陆、群岛网站及地理群岛等分词近邻，未见完整四字同名科技/AI公司或产品。",
+      "query_logs": [
+        {
+          "category": "exact_no_industry",
+          "query": "\"比特群岛\"",
+          "executed_on": "2026-11-07",
+          "summary": "搜索返回比特大陆、群岛网站及地理群岛等分词近邻，未见完整四字同名科技/AI公司或产品。"
+        },
+        {
+          "category": "company_tech",
+          "query": "\"比特群岛\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "搜索返回比特大陆、群岛网站及地理群岛等分词近邻，未见完整四字同名科技/AI公司或产品。"
+        },
+        {
+          "category": "AI_model_software",
+          "query": "\"比特群岛\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "搜索返回比特大陆、群岛网站及地理群岛等分词近邻，未见完整四字同名科技/AI公司或产品。"
+        },
+        {
+          "category": "traditional",
+          "query": "\"比特群島\" 公司",
+          "executed_on": "2026-11-07",
+          "summary": "搜索返回比特大陆、群岛网站及地理群岛等分词近邻，未见完整四字同名科技/AI公司或产品。"
+        },
+        {
+          "category": "pinyin",
+          "query": "\"bitequndao\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "搜索返回比特大陆、群岛网站及地理群岛等分词近邻，未见完整四字同名科技/AI公司或产品。"
+        },
+        {
+          "category": "exact_company_supplement",
+          "query": "\"比特群岛科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "搜索返回比特大陆、群岛网站及地理群岛等分词近邻，未见完整四字同名科技/AI公司或产品。"
+        },
+        {
+          "category": "trademark_web_supplement",
+          "query": "\"比特群岛\" 商标 公司",
+          "executed_on": "2026-11-07",
+          "summary": "搜索返回比特大陆、群岛网站及地理群岛等分词近邻，未见完整四字同名科技/AI公司或产品。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "detail": "403；未完成逐名登记查询"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "detail": "403；未完成逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "detail": "403；未完成逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Bitequndao",
+          "detail": "表单首页可读，逐名URL工具不可访问"
+        }
+      },
+      "claim_limits": "本轮公开使用初筛未见明确完整同名；不表示全球无使用或可注册。",
+      "opened_evidence": [
+        {
+          "url": "https://www.qundao.top/latest",
+          "read_scope": "L0–24",
+          "finding": "现有网站名群岛，另列妙比特项目；页面不叫比特群岛，不能把分散文字拼成同名证据。"
+        }
+      ]
+    },
+    {
+      "candidate_id": "LD-C07",
+      "name": "代码生境",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整四字同名；生境科技为部分二字重合线索，不等同代码生境的完全同名。该部分重合供用户品牌判断，未从搜索摘要断言登记状态。",
+      "query_logs": [
+        {
+          "category": "exact_no_industry",
+          "query": "\"代码生境\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整四字同名；生境科技为部分二字重合线索，不等同代码生境的完全同名。该部分重合供用户品牌判断，未从搜索摘要断言登记状态。"
+        },
+        {
+          "category": "company_tech",
+          "query": "\"代码生境\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整四字同名；生境科技为部分二字重合线索，不等同代码生境的完全同名。该部分重合供用户品牌判断，未从搜索摘要断言登记状态。"
+        },
+        {
+          "category": "AI_model_software",
+          "query": "\"代码生境\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整四字同名；生境科技为部分二字重合线索，不等同代码生境的完全同名。该部分重合供用户品牌判断，未从搜索摘要断言登记状态。"
+        },
+        {
+          "category": "traditional",
+          "query": "\"代碼生境\" 公司",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整四字同名；生境科技为部分二字重合线索，不等同代码生境的完全同名。该部分重合供用户品牌判断，未从搜索摘要断言登记状态。"
+        },
+        {
+          "category": "pinyin",
+          "query": "\"daimashengjing\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整四字同名；生境科技为部分二字重合线索，不等同代码生境的完全同名。该部分重合供用户品牌判断，未从搜索摘要断言登记状态。"
+        },
+        {
+          "category": "exact_company_supplement",
+          "query": "\"代码生境科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整四字同名；生境科技为部分二字重合线索，不等同代码生境的完全同名。该部分重合供用户品牌判断，未从搜索摘要断言登记状态。"
+        },
+        {
+          "category": "trademark_web_supplement",
+          "query": "\"代码生境\" 商标 公司",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整四字同名；生境科技为部分二字重合线索，不等同代码生境的完全同名。该部分重合供用户品牌判断，未从搜索摘要断言登记状态。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "detail": "403；未完成逐名登记查询"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "detail": "403；未完成逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "detail": "403；未完成逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Daimashengjing",
+          "detail": "表单首页可读，逐名URL工具不可访问"
+        }
+      },
+      "claim_limits": "本轮公开使用初筛未见明确完整同名；不表示全球无使用或可注册。",
+      "opened_evidence": [
+        {
+          "url": "https://mba.sem.tsinghua.edu.cn/kcbs/index.html",
+          "read_scope": "检索返回生境科技，自行打开970行页面后find未定位该文字",
+          "finding": "部分字词品牌线索，非完整代码生境同名证据；不称已核验企业实时状态。"
+        }
+      ]
+    },
+    {
+      "candidate_id": "LD-C08",
+      "name": "孤子雨",
+      "decision": "public_use_screen_pass",
+      "reason": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。",
+      "query_logs": [
+        {
+          "category": "exact_no_industry",
+          "query": "\"孤子雨\"",
+          "executed_on": "2026-11-07",
+          "summary": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。"
+        },
+        {
+          "category": "company_tech",
+          "query": "\"孤子雨\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。"
+        },
+        {
+          "category": "AI_model_software",
+          "query": "\"孤子雨\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。"
+        },
+        {
+          "category": "traditional_equivalent_supplement",
+          "query": "\"孤子雨\" 科技 有限公司",
+          "executed_on": "2026-11-07",
+          "summary": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。"
+        },
+        {
+          "category": "pinyin",
+          "query": "\"guziyu\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。"
+        },
+        {
+          "category": "software_product_supplement",
+          "query": "\"孤子雨\" 软件 产品",
+          "executed_on": "2026-11-07",
+          "summary": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。"
+        },
+        {
+          "category": "exact_company_supplement",
+          "query": "\"孤子雨科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。"
+        },
+        {
+          "category": "trademark_web_supplement",
+          "query": "\"孤子雨\" 商标 公司",
+          "executed_on": "2026-11-07",
+          "summary": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。"
+        },
+        {
+          "category": "exact_corporation_supplement",
+          "query": "\"孤子雨\" \"有限公司\"",
+          "executed_on": "2026-11-07",
+          "summary": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。"
+        },
+        {
+          "category": "extra_not_minimum",
+          "query": "\"孤子雨\" \"g u z i\"",
+          "executed_on": "2026-11-07",
+          "summary": "主要为非线性光学论文、大学研究概况和专利技术描述；未见名为孤子雨的公司、模型或独立软件品牌。繁简同形，增加软件及科技有限公司查询。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "detail": "403；未完成逐名登记查询"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "detail": "403；未完成逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "detail": "403；未完成逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Guziyu",
+          "detail": "表单首页可读，逐名URL工具不可访问"
+        }
+      },
+      "claim_limits": "本轮公开使用初筛未见明确完整同名；不表示全球无使用或可注册。",
+      "opened_evidence": [
+        {
+          "url": "https://faculty.dpi.tsinghua.edu.cn/yangchangxi/zh_CN/zdylm/14530/list/index.htm",
+          "read_scope": "研究概况正文及检索摘要",
+          "finding": "研究者以孤子雨描述脉冲现象，不是商业品牌。"
+        },
+        {
+          "url": "https://patentimages.storage.googleapis.com/ee/4d/93/2422e069ccda90/CN111244739A.pdf",
+          "read_scope": "本角色检索返回背景技术，未本次打开全文；A2另有全文阅读记录",
+          "finding": "用于激光器技术描述，不据专利术语出现判品牌占用。"
+        }
+      ]
+    }
+  ],
+  "passed_candidate_ids": [
+    "LD-C05",
+    "LD-C07",
+    "LD-C08"
+  ],
+  "a4_input_candidate_ids": [
+    "LD-C05",
+    "LD-C07",
+    "LD-C08"
+  ]
+}

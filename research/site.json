@@ -1,0 +1,34 @@
+{
+  "project_id": "appgprj_6aef50c0969c8191aa904b87ce9e223c",
+  "expected_url": "https://naming-research-desk.panelladelva5115.chatgpt.site",
+  "status": "live",
+  "audience": "public_github_repository_data",
+  "source_directory": "/Users/olivialee/Documents/ChatGPT/临时项目/naming-research-site",
+  "interface_source": "web",
+  "feed_path": "research/catalog/website.json",
+  "upstream_feed_url": "https://raw.githubusercontent.com/3013038780-design/Namingacompany/codex/naming-research-pilot/research/catalog/website.json",
+  "update_policy": "existing_hourly_research_task_updates_repository_feed_no_second_schedule",
+  "user_authorized_new_website": "2026-11-08",
+  "old_website_untouched": true,
+  "primary_url": "https://3013038780-design.github.io/Namingacompany/",
+  "github_pages": {
+    "branch": "codex/naming-site-pages",
+    "path": "/",
+    "url": "https://3013038780-design.github.io/Namingacompany/",
+    "source_commit": "9c6a6d1448a11ddcffe608dfa7af4a32b9e53750",
+    "public_source_data_only": true,
+    "status": "built",
+    "https_enforced": true,
+    "browser_verification": "实际浏览器已打开，页面正常显示，且已读到已连接最新研究数据。"
+  },
+  "sites_deployment": {
+    "id": "appgdep_6aef53f4199481919358cd560fe9ddc4",
+    "version_id": "appgprj_6aef50c0969c8191aa904b87ce9e223c~appgver_223d621c34b88191b9e1a05c29f1d41f",
+    "status": "succeeded",
+    "url": "https://naming-research-desk.panelladelva5115.chatgpt.site",
+    "commit_sha": "07a44f00558c174b36d654b51ff1cd2a7b1ee034",
+    "browser_verification": "Cloudflare access block in current browser; no security bypass attempted",
+    "audience": "owner_private_preserved"
+  },
+  "verified_at": "2026-11-08T00:43:36.042975+08:00"
+}

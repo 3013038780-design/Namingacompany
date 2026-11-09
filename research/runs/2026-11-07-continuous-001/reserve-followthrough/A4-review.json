@@ -1,0 +1,157 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "completed_at": "2026-11-07T20:23:45.086271+08:00",
+  "stage": "reserve_editorial_followthrough",
+  "scope": "三项既有配对的非数字编辑终审；保留原双评审，不伪称重新盲评分、不改旧分数，不代主控升格。",
+  "input_root": "repository",
+  "inputs": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "README.md",
+      "sha256": "c76e5de480b152e980dc90d54010187f17940e0d066e9b83372dcf8ca0ef9766"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567"
+    },
+    {
+      "path": "research/seed/README.md",
+      "sha256": "44cb357ed9db7edb5dc6c9a32ef1729e482ab3a9ef1f9dc6598dfbb3fc0d33b3"
+    },
+    {
+      "path": "research/seed/brand-naming-foundation.md",
+      "sha256": "92cb6c7cd36c201d35900528826a8aa9aca5a75c632df57d30dcaade5547f519"
+    },
+    {
+      "path": "research/catalog/README.md",
+      "sha256": "3f8b62c60700d3dd5e57910abee576a76c9b1940408f56cf014bb2f54f1c8f83"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/reserves.json",
+      "sha256": "7f87020c5eb78da63272b6eac46069c621e3ab2839bc9aeb38d8220fce0705ab"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/reserve-followthrough/A3-review.json",
+      "sha256": "51961944239c9333693fc1349905525186e101721e87a825aaa29203caad7c57"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/reserve-followthrough/A3-review.md",
+      "sha256": "4a37b8cef875ae66671a1690cb6c6a0a1609fcb1fecbd27b0e8e939ea8544b98"
+    }
+  ],
+  "history_scan": {
+    "json_files_parsed": 294,
+    "distinct_name_case_or_version_strings": 373,
+    "distinct_family_strings": 99,
+    "note": "实际解析扫描；这些不是新增候选数量。"
+  },
+  "source_body_reads": [
+    {
+      "url": "https://sicp.sourceacademy.org/chapters/4.2.2.html",
+      "access": "body",
+      "actual_scope": "L365–385，重点脚注3 L381",
+      "finding": "call-by-need是惰性求值结合记忆化，不是所有惰性求值的同义词；本次未通读SICP。",
+      "reader": "/root/continuous_a4"
+    },
+    {
+      "url": "https://arxiv.org/html/1808.04355v1",
+      "access": "body",
+      "actual_scope": "摘要L49–56、§5 Discussion L209–218",
+      "finding": "预测误差驱动探索在随机性下有局限，noisy-TV会减慢学习；名字可表达审慎探索，不能声称已解决问题或获得数学上界。",
+      "reader": "/root/continuous_a4"
+    },
+    {
+      "url": "https://www.visitbeijing.com.cn/article/47QloB45oRt",
+      "access": "body_curl_after_web_timeout",
+      "actual_scope": "curl实际下载正文，读取鸽哨制作技艺与末段哨口受风角度/声响关系",
+      "finding": "器具、运动气流和可听信号确实相接；未采信最早军事起源，也未读古籍原卷。",
+      "reader": "/root/continuous_a4"
+    }
+  ],
+  "results": [
+    {
+      "chinese_id": "CT-C30",
+      "english_id": "CT-E34",
+      "chinese": "懒函数",
+      "english": "Call by Need",
+      "decision": "retain_for_discussion_after_coordinator_acceptance",
+      "reason_codes": [],
+      "naturalness": "三个完整常用英文词，读音和拼写正常；整个短语也是既有计算术语，能自然当作研究机构的称呼，不依赖改拼音。",
+      "source_and_bilingual_relation": "中文让函数具有一点懒的性格，英文取需要时求值并记忆结果这一更具体策略；两者共有按需求工作这个真关系。中文不是SICP统一正式术语，英文也不等于全部lazy evaluation。",
+      "brand_case": "把有选择地工作作为有性格的技术身份，能容纳计算、资源调度与推理研究；与Imbue式作用身份不同，它借真实机制获得圈内认同。",
+      "limitations": [
+        "懒字可能被理解为不努力或不可靠；应保留这个负面，不靠解释消除。",
+        "程序员首先会理解为求值策略，圈外人可能以为是按需调用服务；偏开发者/工程品牌。",
+        "通用术语使检索独特性和独占性偏弱；A3未见精确商用命名，不等于法律可独占。"
+      ],
+      "why_not_automatic": "因为本次语义、称呼和研究身份独立成立而建议进入讨论，不是因为每日20配额取消；仍需主控终审。",
+      "suggested_pronunciation": "KAWL by NEED /kɔːl baɪ niːd/（建议）",
+      "source_urls": [
+        "https://sicp.sourceacademy.org/chapters/4.2.2.html"
+      ],
+      "usage_verdict_source": "继承同A3-review已核原查询；A4没有重新查重或新增查询。"
+    },
+    {
+      "chinese_id": "CT-C31",
+      "english_id": "CT-E35",
+      "chinese": "有界好奇",
+      "english": "Measured Wonder",
+      "decision": "retain_for_discussion_after_coordinator_acceptance",
+      "reason_codes": [],
+      "naturalness": "两个完整普通词形成正常修饰关系，measured取审慎、有分寸，wonder取好奇与惊叹；可以像一个思想性研究机构称呼，不是为避重生造拼写。",
+      "source_and_bilingual_relation": "中文说探索的适用条件，英文说对未知的审慎姿态；共同回应好奇激励与真正学习价值未必一致的研究问题。不是论文中的算法名，也没有量化好奇的上界。",
+      "brand_case": "能给长期研究留位置：保持探索，同时检验探索在何种条件下真正有用。它的力量偏研究态度，不是产品功能说明。",
+      "limitations": [
+        "中文有界略书面，可能被理解为限制想象力；英文可能先像艺术、科学传播或思想机构。",
+        "已有同标题歌曲、漫画以及Wonder Constant Labs哲学句，普通英语词组本身并不独占。",
+        "叙事相近必须留档，但A3并未确认它是对方公司/软件/模型的品牌名；不能冒充精确占用。"
+      ],
+      "why_not_automatic": "普通英语自然、双语研究态度一致，具备可讨论性；不是因初筛无撞名便认定突出品牌，也不列作最强优先推荐。",
+      "suggested_pronunciation": "MEH-zherd WUN-der /ˈmɛʒərd ˈwʌndər/（建议）",
+      "source_urls": [
+        "https://arxiv.org/html/1808.04355v1"
+      ],
+      "usage_verdict_source": "继承同A3已核记录及本次漫画正文补证；A4没有重新查重或主张法律可用。"
+    },
+    {
+      "chinese_id": "CT-C28",
+      "english_id": "CT-E37",
+      "chinese": "鸽哨",
+      "english": "Airsung",
+      "decision": "continue_reserve_do_not_adopt_current_english",
+      "reason_codes": [
+        "NEAR_MATCH_HOLD",
+        "BRAND_DISTINCTIVENESS_EDITORIAL_AVOIDANCE"
+      ],
+      "naturalness": "air+sung能构成由空气奏出的新词画面，发音短；构词本身不是错误，但新词成立不足以解决品牌独立性。",
+      "source_and_bilingual_relation": "中文为中国具体器物，英文侧重运动气流经器具转声，两端确实是同一作用；sung是品牌拟人，不把器具说成人声或自学习。",
+      "brand_case": "中国生活器物有记忆，声音表达也可讲感知与作用；但科技Lab身份仍较依赖解释，首联想偏音频、音乐或民俗。",
+      "limitations": [
+        "同A3补证Aisung为真实电子音响品牌，Airsung只多一个r，视觉近似且拟讲的都是声音；即使部分口音能区分读音，仍存在品牌记忆/听写混淆成本。",
+        "这是编辑上主动避让当前英文，不是确认Airsung被精确同名科技公司占用，也不是商标近似法律结论。",
+        "中文鸽哨不因此自动被判已占用或永久淘汰；未来若保留中文，英文应重新构思完整故事并走既有返工和A3复查，不改几个字母躲检索。"
+      ],
+      "why_not_automatic": "来源关系真实且精确整体未见商用，不足以挽救已知近似电子品牌与声音气质重叠。当前不进入讨论备选。",
+      "suggested_pronunciation": "AIR-sung /ˈɛrsʌŋ/（原建议，不作为采用）",
+      "source_urls": [
+        "https://www.visitbeijing.com.cn/article/47QloB45oRt"
+      ],
+      "usage_verdict_source": "Aisung商品/原图与第三方38类线索全部归同A3-review；A4未重复查重，不把AISUNG第三方条目解释成Airsung第9/42类结论。"
+    }
+  ],
+  "counts": {
+    "existing_pairs_reviewed": 3,
+    "retain_for_discussion_after_coordinator_acceptance": 2,
+    "continue_reserve": 1,
+    "new_english_proposals": 0,
+    "new_use_search_queries": 0,
+    "official_registration_queries_by_A4": 0
+  },
+  "independence_note": "本次是额外编辑终审，不是新的producer/coordinator盲评分；旧数字评审保持原样。",
+  "claim_limits": "A3公开使用初筛与登记限制沿原证据日期披露。A4不声称全球无注册，不改主库、旧Actor、Git、网站或自动任务。",
+  "execution_ref": "本聊天实际collaboration.spawn_agent continuous_a4后执行文件读取、历史解析、3处源正文核对和本报告写入。"
+}

@@ -1,0 +1,69 @@
+{
+  "agent_id": "/root/live_a4",
+  "role": "A4",
+  "recorded_at": "2026-11-07T18:31:22+08:00",
+  "input_authorization": "主控明确CT-C03/08各最后第2次、CT-C12第1次英文返工",
+  "candidates": [
+    {
+      "id": "CT-E15",
+      "chinese_id": "CT-C03",
+      "chinese": "影子刻度",
+      "english": "Noontally",
+      "suggested_pronunciation": "NOON-tal-ee /ˈnuːntæli/",
+      "type": "两个完整英语词的品牌合成词，不是标准仪器名",
+      "formation": "noon是正午，tally是计数/记录；Noontally是正午留下的观测记录。两个词保留完整拼写，回到圭表在正午测影读变化的真实知识实践，不微改Measured Light。",
+      "bilingual_relation": "中文给影子与刻度的画面，英文给正午与反复观测记录的实践；两边都来自中国圭表同一器物关系，不说圭表只是一份计数表。",
+      "meaning": "把每天可观察的细微变化留下来，逐渐读出更长时间的规律；知识来自可比较的经验痕迹，而非一次出厂就完成认识。",
+      "shortcoming": "noon可能先带午间/时间管理联想，tally也可能像记账工具；英文不直接显示AI或影子，需要中国器物故事补第二层。该合成名不是圭表标准翻译。",
+      "source_urls": [
+        "https://www.dpm.org.cn/lemmas/239748.html"
+      ],
+      "read_scope": "继承A2与主控已读故宫圭表正文，A4原访问失败，不声称新读。正午、影长与节气关系为上游实际核验；品牌词为本轮创作。",
+      "rework_of": "CT-E08",
+      "rework_number_for_chinese": 2,
+      "rework_reason": "Measured Light已由A3核到独立开源配色主题组件，源YAML明确name/author并由Komorebi主题选择器使用。",
+      "status": "quality_proposal_not_screened"
+    },
+    {
+      "id": "CT-E16",
+      "chinese_id": "CT-C08",
+      "chinese": "多想一步",
+      "english": "Reasonstride",
+      "suggested_pronunciation": "REE-zun-stryd /ˈriːzənstraɪd/",
+      "type": "两个完整英语词的品牌合成词，不冒称科学既有术语",
+      "formation": "reason是推理/理性思考，stride是一步有方向的跨进；Reasonstride把推理的展开比作向前迈步。保留完整英语词，不在One Thought Further上加后缀，不剪拼音。",
+      "bilingual_relation": "中文多想一步与英文推理迈步共享判断可以分步展开的关系；英文更集中于认识活动，不承诺每一步必有收益或只有一步。",
+      "meaning": "让已有判断有继续展开与校正的空间。CoT中间步骤研究是具体锚点，品牌可容纳更广认知研究；不把更多步骤当成必然更正确的定理。",
+      "shortcoming": "可能先像推理框架或认知工具；reason与stride的合成不是英语固定词，需以两个普通词介绍，不能将名字当作算法定义。",
+      "source_urls": [
+        "https://arxiv.org/abs/2201.11903"
+      ],
+      "read_scope": "复用A4实际读论文摘要L16–17，不宣称新读所有实验；迈步是本轮品牌比喻，不是作者原话。",
+      "rework_of": "CT-E11",
+      "rework_number_for_chinese": 2,
+      "rework_reason": "One Thought Further有完整同名品牌网站，身份未明；主控主动避让，不写成已确认AI公司或商标。",
+      "status": "quality_proposal_not_screened"
+    },
+    {
+      "id": "CT-E17",
+      "chinese_id": "CT-C12",
+      "chinese": "方格动物",
+      "english": "Rulefauna",
+      "suggested_pronunciation": "ROOL-faw-nuh /ˈruːlfɔːnə/",
+      "type": "两个完整英语词的品牌合成词，非科学标准术语",
+      "formation": "rule是规则，fauna指一地或一时期的动物群；Rulefauna以一群由规则呈现的拟动物图样作为品牌画面。两词的交叉来自生命游戏规则与整体行为，不是任取两个漂亮字。",
+      "bilingual_relation": "中文侧是格中可看见的动物形象，英文侧是形成这些行为的规则与一群拟动物；共同承载人工生命计算世界，不说代码图案就是生物动物。",
+      "meaning": "从简单的局部状态与规则中观察丰富的整体活动，让研究有可记住的主角。标准生命游戏规则本身不学习，不能用名字证明AI会递归自改进。",
+      "shortcoming": "fauna可能先引起生物技术联想，普通读者需一次说明；依然可能像人工生命游戏品牌。英文是品牌拟人，不是某个已发表算法名。",
+      "source_urls": [
+        "https://natureofcode.com/cellular-automata/"
+      ],
+      "read_scope": "复用A4实际读The Game of Life与Rules L661–711，特别固定格子切换形成表观运动；未通读全章。",
+      "rework_of": "CT-E13",
+      "rework_number_for_chinese": 1,
+      "rework_reason": "Gridfolk已有活跃Etsy商店及2011历史游戏项目，主控主动避让；不夸大为同名AI公司登记。",
+      "status": "quality_proposal_not_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

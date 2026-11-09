@@ -1,0 +1,78 @@
+{
+  "agent_id": "/root/live_a3",
+  "executed_at": "2026-11-09T12:13:08.036910+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch50.json",
+      "sha256": "0dab66b8fe3cedeeb21ed44c64cd22e872769fc62596b496b3ea621aa960cf7d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch50.md",
+      "sha256": "b127b197796780dd45b1bd71b05e310b0366820921c44b0e212696a217a7989d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch50.json",
+      "sha256": "0dab66b8fe3cedeeb21ed44c64cd22e872769fc62596b496b3ea621aa960cf7d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch50.json",
+      "sha256": "56fad7b28fb70d720df950283c1ec164f1da2746fa9ede01c1cd110054a79c8a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch50-receipt.json",
+      "sha256": "99726db3c19a996a42a463610a22474948b8faf9e7ffdde7af637002858e0ed8"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch50.json",
+      "sha256": "11cf06b6763b51937b9fc6e21c66fbe23c5bcd39a6d1e9066d2fa7adfe5b6a5c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension38.json",
+      "sha256": "74cb9092800e90dc8bb5ae246346e990b8c485b42aa39088b51c89bfe5b0a328"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch50.json",
+      "sha256": "2831ab46a723d5d0e20b332e2beb8558eb08f96f94e1c9077f099affee460122"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch50.json",
+      "sha256": "3ef38674e4368690244db726087d6292c4f31bcdc07538cc370473c6e852b8da"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/quality-comparison-batch50.json",
+      "sha256": "4d1da11e1a66bec85af56f87a039dc1a772c49e2dd19f941d89c0e0823c76a3f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-M75-material-review.json",
+      "sha256": "d47c4ffe9977087184b7cc49c72dee330bde8a46af387d2915f9593de03c2f23"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch49.json",
+      "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a"
+    },
+    {
+      "path": "A3-cn-batch49.md",
+      "sha256": "b6ad12aeabe9bb9901eafd52eb7c37f050d541f54115bb3a6fd03788265a87ac"
+    }
+  ],
+  "actual_new_candidate_queries": 8,
+  "completed_candidate_search_results": 8,
+  "actual_new_chinese_queries": 8,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 717,
+  "prior_agent3_returned_candidate_results": 716,
+  "agent3_cumulative_candidate_queries": 725,
+  "agent3_cumulative_returned_candidate_results": 724,
+  "root_independent_queries_reported": 4,
+  "run_cumulative_candidate_queries": 729,
+  "run_cumulative_returned_candidate_results": 728,
+  "passed_chinese_candidate_ids": [],
+  "rejected_chinese_candidate_ids": [
+    "C1-C61"
+  ],
+  "remaining_chinese_reworks": 2,
+  "next": "原A2同中文家族首返；不配英语救回，等正式授权。"
+}

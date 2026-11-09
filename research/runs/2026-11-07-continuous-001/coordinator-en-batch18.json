@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-08T00:17:22.232730+08:00",
+  "independence": "Read producer preview batch18 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C23",
+      "name": "Still in Play",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个普通单音节自然可说",
+          "counter_association": "短语节奏可能像项目标题"
+        },
+        "spelling": {
+          "reason": "均为标准常用拼法无听写改造",
+          "counter_association": "大小写不能规避实际同名"
+        },
+        "grounding": {
+          "reason": "in play状态隐喻有实际英语词义",
+          "counter_association": "词典并非计算技术等义定义"
+        },
+        "bilingual_relation": {
+          "reason": "仍可参与后续与当前值用途主题相接",
+          "counter_association": "不保证一直实际使用或永久保留"
+        },
+        "distinctiveness": {
+          "reason": "完整状态表达可以作品牌称呼",
+          "counter_association": "第一印象偏游戏体育或文化媒体"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E18"
+    }
+  ]
+}

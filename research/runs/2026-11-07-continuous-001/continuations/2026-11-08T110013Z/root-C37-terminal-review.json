@@ -1,0 +1,99 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-08T19:34:42.423046+08:00",
+  "candidate_id": "C1-C37",
+  "english_id": "C1-E28",
+  "decision": "discussion_candidate",
+  "source_verification": "root实际核同SHA205页Waterloo2015博士论文，pypdf读封面及PDF31–33/印刷21–23，Definition2.15独立指数等待累计为鸣响时刻；未通读。实际读Merriam-Webster chance34–81及bell31–60，完整词概率/信号钟铃义支持合成比喻。",
+  "family_verification": "全历史1097文件命名字段与原案对照；旧因序是依赖偏序/逻辑时钟，异步是暂停继续调度，噪声种子是随机初态经学习去噪，本案随机等待形成事件鸣响节奏。不是因为另论文即新族；不得泛化随机/时间或能力成长。",
+  "historical_same_word_risk": "root实际读HKEX2015草稿表文本549–653尤其620–626，确有Dice clock/骰子鐘外观设计描述；保留词面非首造和玩具钟首感。不将设计描述自动当当前独立AI品牌、商标或现时权利状态。截图未得到可读图，未称目读实物或全稿。",
+  "false_positive_verification": "root实际读第三方AppStorio完整标题骰子-钟敏骰子模拟器等，不能删敏及标点判同名。英文CHANCE品牌/Bell Cuff样式的拆分由同一A3实际读厂家规格正文；root本次web及curl均403，未独立读该PDF，不冒称再核。原A3具名判断与具体行位保留，无新增同名公司线索。人名/用户名不自动独立品牌，未把不可读论坛当公司确证。",
+  "quality": {
+    "chinese": [
+      25,
+      25
+    ],
+    "english": [
+      21,
+      21
+    ],
+    "all_axes_pass": true,
+    "maximum_axis_difference": 1,
+    "score_scope": "先无分预览独评封存，后对照作者；额外风险复核不改原分，不是消费者测试。"
+  },
+  "limitations": "骰字读写及桌游/玩具/赌博器材首感；Chance Bell可像人名，英文玩具音乐/抽奖联想；中文已有同词历史器物设计。骰子是概率意象，不等同均匀六面骰精确实现指数等待；不是装置实测或随机必使智能提高。大陆公司及9/42未逐名核准，英国逐名入口不可访问，公开使用快照非可注册。",
+  "evidence_refs": [
+    {
+      "path": "A2-candidates-batch21.json",
+      "sha256": "03c41e0e634c0454be18a12582bc8383183b5aeeb86abca08f54d16ea9bbfaf4"
+    },
+    {
+      "path": "A2-quality-batch21.json",
+      "sha256": "b2279af2ce4311012c1073a21b19159f0151f1648ef02e1cbbc26eced908df7e"
+    },
+    {
+      "path": "A2-creation-execution-batch21.json",
+      "sha256": "898ba2d777e1c982bfe0a3bdc4b372cae7034d1ad19e6ef98a93abd2660290db"
+    },
+    {
+      "path": "materials-extension20.json",
+      "sha256": "d7bc23a3392897e047569c8608a0d6c711eb52333dddc499602adcbd988c5e5b"
+    },
+    {
+      "path": "coordinator-cn-batch21.json",
+      "sha256": "8dc53ed028e8f10955a77e09cbe2a92ca6de5a47885a8cb3923aa12335b2c6e1"
+    },
+    {
+      "path": "coordinator-family-review-batch21.json",
+      "sha256": "cedb1897412ad5b45fa6c6d402d3dc56ead04ad7fb69e5ad9e53809d1913ac9d"
+    },
+    {
+      "path": "A3-cn-batch23.json",
+      "sha256": "6af294d33fa08604f58ec5749d41ce8325b84d0a68bfb2bbdd661bd142eed5c6"
+    },
+    {
+      "path": "A3-cn-batch23-receipt.json",
+      "sha256": "d28ce13df901efc2766a58f08ccd50cd102c21ba46d05db537c484dae547298c"
+    },
+    {
+      "path": "A4-candidates-batch27.json",
+      "sha256": "bc3e8941f60bf727f0ccc81c37008f64b7d1151b9bca901838f5d900b195bd68"
+    },
+    {
+      "path": "A4-quality-batch27.json",
+      "sha256": "e0c16cec60856da02043153ef6db36d4a49c2de1392f511b84927883de63dcad"
+    },
+    {
+      "path": "A4-creation-execution-batch27.json",
+      "sha256": "df3b8b86d89a9b0eb4ea65634b3db528800f5a308f92859e14bc9316813f4179"
+    },
+    {
+      "path": "coordinator-en-batch27.json",
+      "sha256": "653a2b13cfe4093b685a01582bbddaaa0a710572216ee1a369a1625f23f78a07"
+    },
+    {
+      "path": "A3-en-batch27.json",
+      "sha256": "71c47599a915989da1b96e51cc2f14f2bc180271a27e7730ee4a80e75ea72ebd"
+    },
+    {
+      "path": "A3-en-batch27-receipt.json",
+      "sha256": "57f821f12375afb37ee706a075d69d4f5591c9818daacd9202c9d89751e0a130"
+    },
+    {
+      "path": "A4-C37-postscreen-review.json",
+      "sha256": "054df130131d868f722f7ee0c03211cb00101f4a6e41886b510865990d58fa72"
+    },
+    {
+      "path": "continuations/2026-11-08T110013Z/root-source-review-batch21.json",
+      "sha256": "cb893a30f1d521aba15f407c36eee25a54e744e341046616d0bb397f74d7edf4"
+    },
+    {
+      "path": "continuations/2026-11-08T110013Z/root-cn23-risk-review.json",
+      "sha256": "11bf05677ee3d1ac23bdea09c6c9e0f62992eb013e9da6786d9f3332ef15f43f"
+    },
+    {
+      "path": "continuations/2026-11-08T110013Z/root-cn23-evidence-review.json",
+      "sha256": "4cc05e38c9ce6e33b2ba7e75f4f197697c6f2c16b77472397efd97330f25091c"
+    }
+  ]
+}

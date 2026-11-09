@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-09T17:18:08.413365+08:00",
+  "independence": "Read producer preview batch47 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C63",
+      "name": "Anteroom",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个音节重音正常有完整词条读音",
+          "counter_association": "听感ante可能误听anti"
+        },
+        "spelling": {
+          "reason": "正常已有词无需随机拼写但ante不如room熟悉",
+          "counter_association": "应明确正常合写而非Antiroom"
+        },
+        "grounding": {
+          "reason": "词典完整前室和等候室义直接支持空间关系",
+          "counter_association": "并不证明队列正式叫前室或保证进入"
+        },
+        "bilingual_relation": {
+          "reason": "以已到但未进入下一活动的前室呼应消息候场",
+          "counter_association": "省略消息和匹配算法只作主题对应"
+        },
+        "distinctiveness": {
+          "reason": "完整空间名可称呼可形成研究场所形象",
+          "counter_association": "先联想酒店室内或候诊等待需团队定位"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E49"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-08T11:00:13.782Z",
+  "completed_at": "2026-11-08T19:40:25.563626+08:00",
+  "status": "one_new_pair_admitted_other_English_reworks_exhausted",
+  "actual_A1_basis_reused": [
+    "A1-final-input-reacceptance.json",
+    "A1-formation-feedback.json",
+    "search-plan.json",
+    "plan-review.json"
+  ],
+  "new_A1_research_claimed": false,
+  "actual_A2": "/root/continuous_a2",
+  "actual_A3_same_cn_en": "/root/live_a3",
+  "actual_A4": "/root/continuous_a4",
+  "new_materials": 3,
+  "new_chinese_drafts": 2,
+  "new_chinese_families_explored": 2,
+  "chinese_quality_passed": 2,
+  "chinese_public_use_passed": 2,
+  "new_english_versions": 4,
+  "english_quality_passed": 4,
+  "english_public_use_passed": 1,
+  "evidence_holds": 1,
+  "new_evidence_holds": 0,
+  "new_retained_families": 1,
+  "retained_pairs": [
+    {
+      "chinese": "骰子钟",
+      "english": "Chancebell",
+      "chinese_id": "C1-C37",
+      "english_id": "C1-E28"
+    }
+  ],
+  "new_A3_candidate_query_executions": 39,
+  "new_A3_search_results_returned": 39,
+  "new_A3_failed_or_unreturned_attempts": 0,
+  "new_root_candidate_query_executions": 0,
+  "cumulative_A3_candidate_query_executions": 438,
+  "cumulative_A3_search_results_returned": 437,
+  "root_additional_queries_prior_packet": 2,
+  "cumulative_recorded_candidate_query_executions": 440,
+  "cumulative_recorded_results_returned": 439,
+  "cumulative_materials": 48,
+  "cumulative_chinese_drafts": 37,
+  "cumulative_english_versions": 30,
+  "catalog_counts": {
+    "discussion_candidates": 26,
+    "research_reserves": 1,
+    "total_unique_families": 27,
+    "withdrawn_families": 1,
+    "historical_unique_families": 28
+  },
+  "reason": "新增讨论备选骰子钟 / Chancebell：从泊松钟的随机等待与鸣响时刻构成完整器物想象，中文8/英文6组查询与终审通过；保留骰字读写、玩具/抽奖、人名听写、历史同词器物设计和登记限制。乐观锁中文通过，但Still Current、Versionmark、Aftercheck三英文均已有具体商业或软件使用，原A4完成两返及收尾，不R3。铅笔材料只留研究，不硬配名。",
+  "query_breakdown": {
+    "Chinese_C36": 7,
+    "Chinese_C37": 8,
+    "English_initial_two": 12,
+    "C36_English_first_rework": 6,
+    "C36_English_last_rework": 6
+  },
+  "source_sampling": {
+    "new_materials": 3,
+    "root_body_read_materials": 3,
+    "minimum_required_sample": 1,
+    "scope": "微软官方保存版本对照；Waterloo同SHA205页论文封面/PDF31–33；日立铅笔正文。未通读或看电镜照片。"
+  },
+  "evidence_boundary": "Hubbell厂家规格由原A3实际读，root本次web/curl403未独立读，不重复该失败入口；历史HKEX设计表root实际读文本不冒现时权利状态。",
+  "controls_and_registration": "原2阳性对照及大陆共同入口受限记录复用，本次英国逐名入口不可读；非大陆公司核名或9/42商标核准。",
+  "prior_evidence_hold": "活变量/Maymatter无新原证未重复403，不追加英文R3。",
+  "whole_production_compliance_claimed": false,
+  "evidence_refs": [
+    {
+      "path": "A2-creation-execution-batch21.json",
+      "sha256": "898ba2d777e1c982bfe0a3bdc4b372cae7034d1ad19e6ef98a93abd2660290db"
+    },
+    {
+      "path": "A3-cn-batch23.json",
+      "sha256": "6af294d33fa08604f58ec5749d41ce8325b84d0a68bfb2bbdd661bd142eed5c6"
+    },
+    {
+      "path": "A4-creation-execution-batch27.json",
+      "sha256": "df3b8b86d89a9b0eb4ea65634b3db528800f5a308f92859e14bc9316813f4179"
+    },
+    {
+      "path": "A4-creation-execution-batch28.json",
+      "sha256": "1d09616ecdd4b8a3746c0195fc08e76d448c4ac0408d6d228a91f799879f24fb"
+    },
+    {
+      "path": "A4-creation-execution-batch29.json",
+      "sha256": "f9bc8beddabfd9c3c47b4c3236fbafcf99497e10b7626e1d5cb41a620ea89fc2"
+    },
+    {
+      "path": "A3-en-batch27.json",
+      "sha256": "71c47599a915989da1b96e51cc2f14f2bc180271a27e7730ee4a80e75ea72ebd"
+    },
+    {
+      "path": "A3-en-batch28.json",
+      "sha256": "ec1d20c9858545cdf2781a3d440d056c720da46f7310c459cb5e2fd7b13ed115"
+    },
+    {
+      "path": "A3-en-batch29.json",
+      "sha256": "992ddfad94c544a75a29034a53613f952dbcab4570ec5c7cf22dae6b2b8a8cc1"
+    },
+    {
+      "path": "A4-C36-closeout.json",
+      "sha256": "c29803902b093b3ca8eeb796825ec7240e2e87ac39a67e701e4a5a6663fc37ff"
+    },
+    {
+      "path": "A4-C37-postscreen-review.json",
+      "sha256": "054df130131d868f722f7ee0c03211cb00101f4a6e41886b510865990d58fa72"
+    },
+    {
+      "path": "delivery-C1-E28.json",
+      "sha256": "8128f80010727a6d7557a6c62012eaa7e8e562a57506b5c8c1c0adf6d3ab07f6"
+    },
+    {
+      "path": "continuations/2026-11-08T110013Z/handoffs-batch21.json",
+      "sha256": "885527d79ef0fd001154cbf5c9088df39071e5e3cfd061263253ecbc4d265cd7"
+    },
+    {
+      "path": "continuations/2026-11-08T110013Z/decisions-through-batch21.json",
+      "sha256": "f26f08e5ae6e0ec7c2c8cfe4879511d240733bf346553e273cd7d972d335ece4"
+    }
+  ]
+}

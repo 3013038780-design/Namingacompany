@@ -1,0 +1,83 @@
+{
+  "scope": "主控实际读旧两案内容，不变旧分/状态；固定对照用于新关系审阅",
+  "items": [
+    {
+      "source_commit": "1966ea5166b8acb7fbd19fdf0c8cd24cf0743e1f",
+      "source_path": "research/runs/2026-11-07-continuation/A2-batch5.json",
+      "source_sha256": "67bec68ded5a23fa64a67fd22349ef1bba1adbb82a49ec67bc1d6e3c76418261",
+      "entry": {
+        "id": "CT-C17",
+        "name": "添一指",
+        "pinyin": "tiān yī zhǐ",
+        "family_id": "CT-F-supernumerary-motor-augmentation",
+        "source_world": "S5 增强他者的关系",
+        "case_ids": [
+          "B037"
+        ],
+        "mechanism_ids": [
+          "CN5"
+        ],
+        "source": {
+          "title": "Royal College of Art：Dani Clode: The Third Thumb Project",
+          "url": "https://www.rca.ac.uk/news-and-events/news/dani-clode-ma-design-products-2017-is-using-her-third-thumb-design-to-show-how-the-brain-adapts-to-robotic-augmentation/",
+          "read_scope": "2022-01-27作者访谈36–49、63–92行；另读Plasticity Lab研究页50–58行，Cambridge 2024新闻入口403未当作已打开全文",
+          "date": "2022-01-27"
+        },
+        "fact": "Third Thumb把额外机器手指接到现有手上，由脚部传感器控制；使用者学习配合，部分原有手指协同方式及神经身体表征出现变化，也存在权衡，并非白加一个器件就全面变强。",
+        "crossing": "从Imbue的CN5继续寻找“增强已有主体”的真实关系，这次进入运动增强与人机共同适应，不把成长等同植物。",
+        "meaning": "给已有能力添一个可被学会、可被调用的自由度。名字是基于真实增强物件的新动宾称呼，不复用项目原名“第三拇指”，也不冒称身体研究证明了AI的能力提升。",
+        "layers": [
+          "可见的额外手指",
+          "主体学习使用新的能力",
+          "增强系统而非替换主体"
+        ],
+        "retained": "增加资源必须与原有控制能力一起适应",
+        "lost": "神经身体表征研究不能外推成任何模型即插即用变聪明",
+        "strength": "三个常用字构成自然动作，有手势画面；添一指可以直接说而不用先解释神经可塑性。",
+        "weakness": "可能像康复、指法或机器人配件公司；若品牌特别排斥具身和硬件首联想，这个方向应舍弃。",
+        "history_check": "旧添一笔是书写/编辑，本案机械增肢与主体学习配合有不同真实机制；不把加一指、再添指计另一家族。"
+      }
+    },
+    {
+      "source_commit": "1966ea5166b8acb7fbd19fdf0c8cd24cf0743e1f",
+      "source_path": "research/runs/2026-11-07-continuation/A2-batch8.json",
+      "source_sha256": "75bc84915565d0c97cd6712af805dc06b96b8cc53e2b9cddc0def84fb7ce33a6",
+      "entry": {
+        "id": "CT-C32",
+        "name": "虚拟排练",
+        "pinyin": "xū nǐ pái liàn",
+        "family_id": "CT-F-world-model-imagined-behavior-practice",
+        "source_world": "S5 认知方法与模型内练习",
+        "case_ids": [
+          "B037",
+          "B013",
+          "B076"
+        ],
+        "mechanism_ids": [
+          "CN5",
+          "CN1",
+          "CN2"
+        ],
+        "source": {
+          "title": "Hafner等：Dream to Control: Learning Behaviors by Latent Imagination",
+          "url": "https://arxiv.org/pdf/1912.01603",
+          "read_scope": "实际读PDF第1–2页Abstract/Introduction/Control with World Models，含经验学习动态模型、潜空间预测轨迹、行动价值学习及回到环境收集经验；未通读实验与证明",
+          "date": "2020-03-17"
+        },
+        "fact": "Dreamer从经验学习世界模型，在其潜在状态空间预测假设轨迹，并沿轨迹训练行为与价值模型，之后到真实任务环境执行并收集更多经验。模型中排练不是人类睡眠实验，也不自动等于严格定义的离线强化学习。",
+        "crossing": "从Imbue的CN5寻找增强已有行动能力的关系，再用CN1的日常实践词排练把世界模型研究说成人能理解的动作；不是机械给模型添一个“进化”词。",
+        "meaning": "行动之前，可以先在一个可计算的世界里试演。虚拟和排练的关系是同一真实实践：在内部模型中比较未来行动，再让经验返回研究。",
+        "layers": [
+          "人熟悉的上场前排练",
+          "模型里预测多种行动轨迹",
+          "经验与内部演练共同影响行为"
+        ],
+        "retained": "世界模型里的试演可用于学习行为",
+        "lost": "模型错误会误导练习，虚拟排练不保证现实安全或通用任务成功",
+        "strength": "四字是自然现成说法，动作与场所相容，不需要解释每个汉字。",
+        "weakness": "可能像仿真产品、演艺软件或培训平台，Lab长期身份略偏功能性；若主控认为只是产品描述，应退回，不将资料真实当作通过。",
+        "history_check": "与旧转场/下一镜的影片叙事不同，亦非代码生境的执行环境；本案核心是由学习到的世界模型产生假设轨迹再训练行为，不按相同虚拟字根多计。"
+      }
+    }
+  ]
+}

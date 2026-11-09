@@ -1,0 +1,32 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-09T05:50:22.910831+08:00",
+  "candidate_id": "C1-C60",
+  "decision": "no_admission_original_A4_and_same_A3_actual_zero_complete",
+  "root_actual_read": "实际读CN48、A4zero32、同A3ENzero32三份MD，角色完成回执消息及引用核验结果；0英语，不冒未开始已完成。",
+  "remaining_CN_rework_allowance": 1,
+  "voluntarily_closed": true,
+  "new_english": 0,
+  "refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch48.json",
+      "sha256": "b6e3872256e18c821cbf5dc441cc6c8abedaf7bd6320ba3bf076f4e4c1aed213"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch32.json",
+      "sha256": "df0af83a4ca4bf09c4f04bf79c460eb488b6b4390e324214573e15985096f91f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch32-receipt.json",
+      "sha256": "0b22218e1d7d6b121df73c69f2441c17b9f10d03289fbfde47d4615216c42eea"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch32.json",
+      "sha256": "b8973355c6c53d8d97dbe0c04bbe036ec30e0f2b4e8265128da3062447d54d66"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch32-receipt.json",
+      "sha256": "87df4cde5e74ddd8275a66cd28e6d0d7a5a00741b2cc66748c92c370bd77c0e1"
+    }
+  ]
+}

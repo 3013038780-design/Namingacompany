@@ -1,0 +1,119 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-08T20:49:21.089080+08:00",
+  "stage": "same_run_reused_materials_package_batch23",
+  "input_refs": [
+    {
+      "path": "README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.md",
+      "sha256": "50023a0d4970380ebd3afb8969343e6aaadab41c468ae7be66bf2da8f20dcda9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.md",
+      "sha256": "9e2c1589037d9d564619fd8d9d861dffd13288087c4f7dec8e49d5ecbd702dde"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+      "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/plan-review.json",
+      "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T120952Z/decisions-through-batch22.json",
+      "sha256": "0aedabee8e6bb61bb8877b39c80c98f8a4ac22259521c28ec985d5684417d28a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T120952Z/material-proposal-index-through-batch22.json",
+      "sha256": "7acef63a86693374af795d13ec9c8beadb1be16a51c42fb86ec3d80e7c70e42d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T120952Z/history-scan.json",
+      "sha256": "9ac192526997afb033608ec178ef1ea2ac51b98b1380dc481e9ee0a14058bd64"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-pilot.json",
+      "sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension2.json",
+      "sha256": "833b912f5bb41ab1919c3472a78ed9911554183e7c8cc0f42c863ed133c9732c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension4.json",
+      "sha256": "2b90619996a1920932e9dd0a261a4a6d8fa9bb3e20633f18bc310409c0257eba"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension20.json",
+      "sha256": "d7bc23a3392897e047569c8608a0d6c711eb52333dddc499602adcbd988c5e5b"
+    }
+  ],
+  "input_reading_boundary": "继承同段已读当前规则/105分类与原A1验收计划，不重开；实读最新50材料39提案索引中M07/08/14/15/21/23/40/41/43/48并比较可称呼性，最终只对M07凝练。索引与旧材料阅读不算新增原始来源或通读所有旧文。",
+  "history_scan": {
+    "method": "解析非inputs历史JSON，名称字段雾针/雾/守门/海葵/捕获/采集精确串检索；按锥形刺捕获雾滴 vs 合流/上升流/记录痕迹的对象-作用-画面进行语义对照，不将新闻标题不同当新族。",
+    "file_count": 818,
+    "manifest_sha256": "eba5e60d5a57be73586b0cf0dce57a716c98cdf1a3b3bb38dd103ea2e989ef75"
+  },
+  "reading_evidence": [
+    {
+      "title": "中科院理化所：科研人员研发出仿生仙人掌集雾器",
+      "url": "https://www.cas.cn/syky/202609/t20260928_5121136.shtml",
+      "source_type": "news",
+      "reading_scope": "excerpt",
+      "reading_location": "本包curl重新实际读原HTML发布日期2026年10月08日及完整科学正文，重点三级路径、径向锥形仿生刺背风侧局部微涡旋、碰撞概率与模式限制；无行号时以段落开头“团队突破传统平面与网状结构的局限”“粒子图像测速和流场分析显示”定位。",
+      "published_at": "2026-10-08",
+      "book_id": null,
+      "access": "body",
+      "method": "curl_HTML_tag_stripping_then_actual_body_read",
+      "checked_at": "2026-11-07",
+      "read_at": "2026-11-08T20:48:53.332598+08:00",
+      "local_path": "/tmp/continuous001-cactus-revisit.html",
+      "local_sha256": "8e7ebf3b113714fe3a13adfafea463283adb3d43e6892b3654742cc8a58c53e7"
+    }
+  ],
+  "new_material_count": 0,
+  "reused_material_ids": [
+    "C1-M07"
+  ],
+  "new_chinese_draft_count": 1,
+  "new_english_count": 0,
+  "name_usage_queries_performed": false,
+  "output_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-material-reuse-batch23.json",
+      "sha256": "0ea3da91e277ce675e111b3956d1552650114c1108f567047235ba9aca229248"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch23.json",
+      "sha256": "2ed9786614c8c7f38068d2417538708a47138f7afb324bf25084012814fb06e4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch23.md",
+      "sha256": "b828445c74e4361be78e796d10fc9acde702ca8038e50fb6645ad886b26fca64"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch23.json",
+      "sha256": "13fbd12fdca9d83d767da62668f93df5ff62ebd8406cdb7cde9dcb9650744b58"
+    }
+  ],
+  "whole_production_batch_complete": false,
+  "boundary": "比较不等于每资料配名；新组合仍一个M07家族。没有改旧记录material_only或原分类；没有新增M51或伪增新闻阅读数量。无英文、Git、队列、库或feed改动，未自行查询市场使用。curl读取原HTML，初次bs4导入失败后改标准库去标签，实际读到完整科学主文与页面日期；未读原论文全文。"
+}

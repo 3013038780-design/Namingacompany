@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-08T20:51:05.893313+08:00",
+  "independence": "Read producer preview batch23 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C40",
+      "name": "雾针",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两个熟字形成完整小器物画面，读音简洁",
+          "counter_association": "可能误听悟真等"
+        },
+        "distinctiveness": {
+          "reason": "雾中针形结构的反差具体",
+          "counter_association": "雾字科技名并不稀有"
+        },
+        "lab_fit": {
+          "reason": "精微结构与环境作用可承载科学工程研究身份",
+          "counter_association": "雾化针灸和水务首感较强，须披露"
+        },
+        "grounding": {
+          "reason": "锥形刺改变雾滴绕流及碰撞是同一真实关系",
+          "counter_association": "原完整装置的三级路径不能全归一根刺"
+        },
+        "extension": {
+          "reason": "可以延展形态环境和信息作用研究",
+          "counter_association": "不把集水效果译作AI性能"
+        },
+        "semantic_coherence": {
+          "reason": "介质与形态在同场相遇，未堆无关寓意",
+          "counter_association": "crossing旧整体装置表述需原A2明确仅作背景"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

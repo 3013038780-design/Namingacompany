@@ -1,0 +1,257 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "reviewed_at": "2026-11-08T19:37:57.245381+08:00",
+  "role": "Agent 4 family closeout",
+  "chinese_id": "C1-C36",
+  "chinese": "乐观锁",
+  "family_id": "C1-BF-optimistic-lock-versioned-commit",
+  "inputs": [
+    {
+      "path": "A3-en-batch27.json",
+      "sha256": "71c47599a915989da1b96e51cc2f14f2bc180271a27e7730ee4a80e75ea72ebd"
+    },
+    {
+      "path": "A3-en-batch27.md",
+      "sha256": "39b96731b4ae8f0abc439d203eeff57a088ae57a5acc3b27f505d75084a1f843"
+    },
+    {
+      "path": "A3-en-batch27-receipt.json",
+      "sha256": "57f821f12375afb37ee706a075d69d4f5591c9818daacd9202c9d89751e0a130"
+    },
+    {
+      "path": "A3-en-batch28.json",
+      "sha256": "ec1d20c9858545cdf2781a3d440d056c720da46f7310c459cb5e2fd7b13ed115"
+    },
+    {
+      "path": "A3-en-batch28.md",
+      "sha256": "f643f908a56e93b62450b4dd026d684ba4e272475c6185459af9676191bb68e4"
+    },
+    {
+      "path": "A3-en-batch28-receipt.json",
+      "sha256": "8b1419cc99787cb233aba9ee9abcd0cb9659c1f8e99533f525ec3c0a169426cd"
+    },
+    {
+      "path": "A3-en-batch29.json",
+      "sha256": "992ddfad94c544a75a29034a53613f952dbcab4570ec5c7cf22dae6b2b8a8cc1"
+    },
+    {
+      "path": "A3-en-batch29.md",
+      "sha256": "e17a01aa1b91820f25b82464327d3128f804126fb85fe30fd192641c33db66ff"
+    },
+    {
+      "path": "A3-en-batch29-receipt.json",
+      "sha256": "89013d70553501874b69e32598f9a8bde0eb3cd5237a1946f2bf5c7b4c8100ef"
+    },
+    {
+      "path": "A3-cn-batch23.json",
+      "sha256": "6af294d33fa08604f58ec5749d41ce8325b84d0a68bfb2bbdd661bd142eed5c6"
+    },
+    {
+      "path": "A4-candidates-batch27.json",
+      "sha256": "bc3e8941f60bf727f0ccc81c37008f64b7d1151b9bca901838f5d900b195bd68"
+    },
+    {
+      "path": "A4-candidates-batch28.json",
+      "sha256": "9e3223c205e5bc46ca468bd1337bcf5f67346464abe9e0fd65faea25685c0d57"
+    },
+    {
+      "path": "A4-candidates-batch29.json",
+      "sha256": "cc20675d09f0f818ebc24885704bab9b7d5b0a8b197a5189a20b761bd4b45ebb"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "receipt": "A3-en-batch27-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch27.json",
+      "sha256": "bc3e8941f60bf727f0ccc81c37008f64b7d1151b9bca901838f5d900b195bd68",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch27-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch27.json",
+      "sha256": "e0c16cec60856da02043153ef6db36d4a49c2de1392f511b84927883de63dcad",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch27-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch27.json",
+      "sha256": "df3b8b86d89a9b0eb4ea65634b3db528800f5a308f92859e14bc9316813f4179",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch27-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch27.json",
+      "sha256": "653a2b13cfe4093b685a01582bbddaaa0a710572216ee1a369a1625f23f78a07",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch27-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch23.json",
+      "sha256": "6af294d33fa08604f58ec5749d41ce8325b84d0a68bfb2bbdd661bd142eed5c6",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch27-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch23-receipt.json",
+      "sha256": "d28ce13df901efc2766a58f08ccd50cd102c21ba46d05db537c484dae547298c",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch27-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T110013Z/root-cn23-risk-review.json",
+      "sha256": "11bf05677ee3d1ac23bdea09c6c9e0f62992eb013e9da6786d9f3332ef15f43f",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch27-receipt.json",
+      "path": "A3-en-batch27.json",
+      "sha256": "71c47599a915989da1b96e51cc2f14f2bc180271a27e7730ee4a80e75ea72ebd",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch27-receipt.json",
+      "path": "A3-en-batch27.md",
+      "sha256": "39b96731b4ae8f0abc439d203eeff57a088ae57a5acc3b27f505d75084a1f843",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch28-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch28.json",
+      "sha256": "9e3223c205e5bc46ca468bd1337bcf5f67346464abe9e0fd65faea25685c0d57",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch28-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch28.json",
+      "sha256": "d84d409cc64f6f23c609d055634b6e28ae213b1977cc65d5ce50af38eed38ef0",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch28-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch28.json",
+      "sha256": "1d09616ecdd4b8a3746c0195fc08e76d448c4ac0408d6d228a91f799879f24fb",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch28-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch28.json",
+      "sha256": "10d9c8f48a7fa67cd48d9b944b907ae0fe69340819115b2f1a24286fb5411de3",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch28-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch27.json",
+      "sha256": "71c47599a915989da1b96e51cc2f14f2bc180271a27e7730ee4a80e75ea72ebd",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch28-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch23.json",
+      "sha256": "6af294d33fa08604f58ec5749d41ce8325b84d0a68bfb2bbdd661bd142eed5c6",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch28-receipt.json",
+      "path": "A3-en-batch28.json",
+      "sha256": "ec1d20c9858545cdf2781a3d440d056c720da46f7310c459cb5e2fd7b13ed115",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch28-receipt.json",
+      "path": "A3-en-batch28.md",
+      "sha256": "f643f908a56e93b62450b4dd026d684ba4e272475c6185459af9676191bb68e4",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch29-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch29.json",
+      "sha256": "cc20675d09f0f818ebc24885704bab9b7d5b0a8b197a5189a20b761bd4b45ebb",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch29-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch29.json",
+      "sha256": "8c4c6db4d6d16ec77597aa11c73d00818b1cd2b74f51a56fef82653209cb8c6b",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch29-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch29.json",
+      "sha256": "f9bc8beddabfd9c3c47b4c3236fbafcf99497e10b7626e1d5cb41a620ea89fc2",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch29-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch29.json",
+      "sha256": "1ab3b1446a9d89c85deafe8b4ab6043b1bd4c74bc25456039d4211f6df5e6926",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch29-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch28.json",
+      "sha256": "ec1d20c9858545cdf2781a3d440d056c720da46f7310c459cb5e2fd7b13ed115",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch29-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch23.json",
+      "sha256": "6af294d33fa08604f58ec5749d41ce8325b84d0a68bfb2bbdd661bd142eed5c6",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch29-receipt.json",
+      "path": "A3-en-batch29.json",
+      "sha256": "992ddfad94c544a75a29034a53613f952dbcab4570ec5c7cf22dae6b2b8a8cc1",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch29-receipt.json",
+      "path": "A3-en-batch29.md",
+      "sha256": "e17a01aa1b91820f25b82464327d3128f804126fb85fe30fd192641c33db66ff",
+      "match": true
+    }
+  ],
+  "decision": "english_rework_exhausted_no_bilingual_delivery",
+  "versions": [
+    {
+      "id": "C1-E27",
+      "english": "Still Current",
+      "rework_attempt": 0,
+      "result": "existing_core_service_brand_avoidance",
+      "reason": "原A3官网正文确证Still Current文化策略品牌；MCP目录可读而源库404，保留层级，不冒称当前库可下载。",
+      "primary_evidence_url": "https://www.stillcurrent.it/about"
+    },
+    {
+      "id": "C1-E29",
+      "english": "Versionmark",
+      "rework_attempt": 1,
+      "result": "existing_named_software_rejection",
+      "reason": "原A3 NuGet/GitHub正文确证DemaConsulting.VersionMark独立.NET工具，核心VersionMark不能因公司前缀而视为不同；另version-mark JS包。",
+      "primary_evidence_url": "https://www.nuget.org/packages/DemaConsulting.VersionMark/"
+    },
+    {
+      "id": "C1-E30",
+      "english": "Aftercheck",
+      "rework_attempt": 2,
+      "result": "existing_core_ai_software_rejection",
+      "reason": "原A3读aftercheck.ai具名AfterCheck AI扩展官网；另一AfterCheck B2B客户反馈软件由原A3读其主页/运营政策，root政策访问timeout边界不改成root已读。",
+      "primary_evidence_url": "https://www.aftercheck.ai/",
+      "secondary_evidence_urls": [
+        "https://tryaftercheck.com/",
+        "https://tryaftercheck.com/privacy"
+      ]
+    }
+  ],
+  "remaining_reworks": 0,
+  "no_R3": true,
+  "chinese_status_preserved": "中文原公开使用初筛带技术通名风险通过，不因三英文使用失败追认为中文已占用；未得到完整双语配对。",
+  "claim_boundary": "本人实际读取固定角色报告并核输入输出SHA；没有本次重开官网/运行软件，不背书AI正确率、扩展可下载、全部集成上线或公司/商标登记。只认公开使用性质，不称三案均已注册。",
+  "C37_boundary": "Chancebell既有非数字postscreen支持照留，本次不改分/不返工；主控所报终审与delivery由主控负责，此文件只关闭C36。",
+  "actual_new_english_names": 0,
+  "actual_new_usage_queries": 0,
+  "actual_new_registration_queries": 0,
+  "new_scores": 0,
+  "old_artifacts_untouched": true,
+  "queue_catalog_git_untouched": true,
+  "next": "只关闭C36英文配对，整个持续研究不停止；主控处理本段归档/网站/PR。"
+}

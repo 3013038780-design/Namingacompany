@@ -1,0 +1,38 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-08T17:23:07.339Z",
+  "resumed_at": "2026-11-09T01:24:07.239564+08:00",
+  "same_run": "2026-11-07-continuous-001",
+  "head": "5f3a9986ec5cc034a96c1c5450186d49b950ce9b",
+  "new_A1_claimed": false,
+  "A1_basis_reused": [
+    "A1-role-expansion01.json",
+    "A1-role-expansion02.json",
+    "search-plan.json",
+    "search-plan-role-expansion02.json"
+  ],
+  "prior_counts": {
+    "materials": 65,
+    "chinese": 52,
+    "english_versions": 45
+  },
+  "immutable_input_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/decisions-through-batch32.json",
+      "sha256": "d43201f0116544f9c19fe414bd40912f42ecbff51cbbff680860daaf35fbc21a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-history-through-batch31.json",
+      "sha256": "061426cbba2f82711bad387a01cb48d3602318afe963eb91d5cc0ea32ffeacee"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension30.json",
+      "sha256": "c716bd12c909eaddfe8b59c8a5553e3d87ddbd2228244e16036b927e126e2fc6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch32.json",
+      "sha256": "3ae172436db41bda689c817caa38f68cbfee3af60c35193269ce7185a5f59a2e"
+    }
+  ],
+  "note": "原角色上段已完成、Git干净、无在途重复研究；已有不可变64/51索引+M65/C52增量完整供后段复用。"
+}

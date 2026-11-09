@@ -1,0 +1,62 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "run": "2026-11-07-continuous-001",
+  "executed_at": "2026-11-07T20:32:15+08:00",
+  "purpose": "本轮新执行阳性对照及登记入口准备；不替代任何候选逐名筛查",
+  "control_query_count": 2,
+  "candidate_query_count": 0,
+  "controls": [
+    {
+      "kind": "company",
+      "query": "Anthropic company official",
+      "executed_at": "2026-11-07T20:32:15+08:00",
+      "expected": "existing_ai_company",
+      "observed": "positive",
+      "evidence": {
+        "url": "https://www.anthropic.com/company",
+        "access": "primary_company_body_read",
+        "finding": "官网Company正文自述Anthropic为public benefit corporation，研究并部署AI系统。搜索亦返回官方公司页；排除搜索中仿拼antohropic.com域名，不作为证据。"
+      }
+    },
+    {
+      "kind": "software_product",
+      "query": "GitHub Copilot official product",
+      "executed_at": "2026-11-07T20:32:15+08:00",
+      "expected": "existing_ai_software_product",
+      "observed": "positive",
+      "evidence": {
+        "url": "https://github.com/features/copilot",
+        "access": "primary_product_body_read",
+        "finding": "GitHub官网产品页标题GitHub Copilot，AI coding agent并列Desktop/CLI/VS Code产品入口；为产品不是公司名称。"
+      }
+    }
+  ],
+  "registration_entries": [
+    {
+      "region": "mainland_china",
+      "type": "company",
+      "url": "https://www.gsxt.gov.cn/",
+      "attempted_at": "2026-11-07T20:32:15+08:00",
+      "status": "unavailable",
+      "tool_observation": "web open返回403 Forbidden",
+      "scope": "只尝试首页入口；没有登录、验证码交互、没有输入候选名、没有逐名核名。"
+    },
+    {
+      "region": "mainland_china",
+      "type": "trademark",
+      "classes": [
+        9,
+        42
+      ],
+      "url": "https://wcjs.sbj.cnipa.gov.cn/",
+      "attempted_at": "2026-11-07T20:32:15+08:00",
+      "status": "unavailable",
+      "tool_observation": "web open返回403 Forbidden",
+      "scope": "第9/42类共同入口实际仅打开一次；未进入类别筛选、未输入候选词、没有完成任一逐类检索。"
+    }
+  ],
+  "readme_gate": "README本轮≥2阳性对照含公司/产品；候选中文及英文各≥5组真实独立查询，收到主控明确质量授权才执行。",
+  "claim_limits": "入口失败不是名字无注册；阳性对照不是任何新名字查重；公司和产品阳性均已官方正文核实，不采信新闻财务/估值或仿拼域名。",
+  "next": "等待主控合格中文ID；不创作、不放行未授权候选，不改旧Actor、主库或git。"
+}

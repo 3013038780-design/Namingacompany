@@ -1,0 +1,38 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English zero-input receipt",
+  "executed_at": "2026-11-08T11:08:50.660245+08:00",
+  "inputs": [
+    {
+      "path": "A4-zero-batch12.json",
+      "sha256": "3d7653c1d87bf5b722ef75e0b47afbcdf7f597fa17602afe125e0fd56c368181"
+    },
+    {
+      "path": "A4-zero-batch12.md",
+      "sha256": "06d39c0362166bf8c159d501beb17d1bc82e7f8e056d51f89603075cdbc4722f"
+    },
+    {
+      "path": "A3-cn-batch14.json",
+      "sha256": "316327419ce0085a3ce5469f5c1d750b2c9aee904f21be1d8eb495bce41cd364"
+    },
+    {
+      "path": "A3-cn-batch14-receipt.json",
+      "sha256": "8dbed8de7e8337f77f1a81eb6c8646475393e02f8c5f6abca4b2f43a60ccea83"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-zero-batch12.json",
+      "sha256": "65536760519322b58139f35ebd76c340924d0b23b00a1d14d27e8a932786b356"
+    },
+    {
+      "path": "A3-en-zero-batch12.md",
+      "sha256": "79f28fb38bfa6e955437865b44ec9b20d906878c8aa3e41efce8f381a1721ac5"
+    }
+  ],
+  "actual_read_and_hash_check": true,
+  "english_input_count": 0,
+  "english_output_count": 0,
+  "actual_new_queries": 0,
+  "next": "主控H7与工作段checkpoint。"
+}

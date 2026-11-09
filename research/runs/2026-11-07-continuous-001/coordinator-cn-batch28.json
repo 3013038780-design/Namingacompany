@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-08T22:39:55.965346+08:00",
+  "independence": "Read producer preview batch28 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C47",
+      "name": "织觉",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两熟字动作与感觉可形成完整称呼",
+          "counter_association": "需解释织不是知"
+        },
+        "distinctiveness": {
+          "reason": "知觉读音与织出感知条件的反差可记",
+          "counter_association": "与智觉知觉同音拥挤"
+        },
+        "lab_fit": {
+          "reason": "构成感知条件的生物与计算关系能承载研究身份",
+          "counter_association": "纺织艺术装置或觉醒精神性可能先浮现"
+        },
+        "grounding": {
+          "reason": "外部网可调张力影响同系统输入有作者正文",
+          "counter_association": "综述引证不是本次原实验或公认定论"
+        },
+        "extension": {
+          "reason": "可扩展到环境与感知而不固定某器件",
+          "counter_association": "不声称任意模型外挂变强"
+        },
+        "semantic_coherence": {
+          "reason": "织与觉在同一可调感知关系中互相增厚",
+          "counter_association": "不把觉解释独立意识或网自己思考"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

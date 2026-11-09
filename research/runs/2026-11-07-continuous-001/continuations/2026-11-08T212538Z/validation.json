@@ -1,0 +1,74 @@
+{
+  "checked_at": "2026-11-09T12:24:04.939714+08:00",
+  "data_validation": {
+    "exit_code": 0,
+    "status": "data_consistency_passed_whole_production_INCOMPLETE",
+    "no_protocol_compliance_claimed": true
+  },
+  "unit_tests": {
+    "passed": 29,
+    "failed": 0
+  },
+  "report_renderer": {
+    "exit_code": 0,
+    "old_UI_files_changed": false
+  },
+  "reference_verification": {
+    "new_resolvable_references_checked": 1195,
+    "bad": 0,
+    "scope": "仅本段新JSON可解析path/sha引用，历史扫描为时间点清单，不声称所有旧引用无缺口。"
+  },
+  "catalog": {
+    "all_previous_32_entries_deep_equal": true,
+    "stable_existing_ids_preserved": true,
+    "counts": {
+      "discussion": 30,
+      "reserve": 1,
+      "withdrawn": 1
+    }
+  },
+  "website_local_feed": {
+    "entries": 32,
+    "events": 20,
+    "research_rows": 61,
+    "pending_rows": 2,
+    "latest_event": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/result.json",
+    "C60_C61_not_in_catalog": true
+  },
+  "independent_query_groups_checked": {
+    "C60_CN47": 8,
+    "C61_CN49": 8,
+    "company_technology_intelligence_separate_queries": true
+  },
+  "cumulative_counts_actual_file_scan": {
+    "unique_materials": 75,
+    "unique_CN_ids": 61,
+    "selected_CN_literal_forms": 65,
+    "actual_EN_ids": 46,
+    "old_EN36_gap_not_counted": true
+  },
+  "public_feed_after_push": {
+    "checked_at": "2026-11-09T12:26:04.747029+08:00",
+    "status": "immutable_commit_and_current_branch_confirmed_latest",
+    "research_commit": "24fabb8cbcb34bca6cede3d47d5b4f9b669a64ce",
+    "latest_event": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/result.json",
+    "entries": 32,
+    "events": 20,
+    "research_rows": 61,
+    "pending_rows": 2,
+    "scope": "实际curl读取公开提交feed及当前分支feed；不是冒用户浏览器已刷新。"
+  },
+  "research_commit_CI": {
+    "research_commit": "24fabb8cbcb34bca6cede3d47d5b4f9b669a64ce",
+    "name": "validate",
+    "status": "completed",
+    "conclusion": "success",
+    "checked_at": "2026-11-09T12:26:04.747029+08:00"
+  },
+  "PR": {
+    "number": 4,
+    "state": "open",
+    "body_updated": true,
+    "merged": false
+  }
+}

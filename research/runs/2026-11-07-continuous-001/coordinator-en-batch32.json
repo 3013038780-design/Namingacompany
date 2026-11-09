@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-08T21:36:37.142220+08:00",
+  "independence": "Read producer preview batch32 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C42",
+      "name": "Unsigned",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "正常现成两音节可叫",
+          "counter_association": "signed中g不发音及过去分词尾组合"
+        },
+        "spelling": {
+          "reason": "完整常见词无拼音改字母",
+          "counter_association": "口语偶可能误听unsent但通常易还原"
+        },
+        "grounding": {
+          "reason": "未署名完整词义真实并选作品状态",
+          "counter_association": "不是双盲制度正式名称或只删手写签名"
+        },
+        "bilingual_relation": {
+          "reason": "作品先于作者身份进入评价承接中文同主题",
+          "counter_association": "仅呈现给评审者作品状态不编码全部双方信息"
+        },
+        "distinctiveness": {
+          "reason": "短词留下明确作品状态可称呼但形容词独占弱",
+          "counter_association": "未签约音乐平台或未签名软件安全首感"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E34"
+    }
+  ]
+}

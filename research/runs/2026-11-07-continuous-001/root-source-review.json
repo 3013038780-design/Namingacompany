@@ -1,0 +1,82 @@
+{
+  "reviewer": "/root",
+  "recorded_at": "2026-11-07T20:30:17.851085+08:00",
+  "scope": "主控独立核对实际读到的来源；不是替A2阅读，不作为未见素材的预先通过。",
+  "items": [
+    {
+      "url": "https://sicp.sourceacademy.org/chapters/3.3.5.html",
+      "access": "body",
+      "read_scope": "正文L263–326，关系网络、C/F转换、矛盾及撤销传播、adder实现",
+      "supports": "相同约束网络可依给定信息向不同方向求值，已有输入必须撤销才能换值，冲突被报告；不把固定规则传播称为模型自学习。"
+    },
+    {
+      "url": "https://www.gutenberg.org/files/2355/2355-h/2355-h.htm",
+      "access": "body_excerpt",
+      "read_scope": "ChapterII塞洞用途与插入方向段，L227、235–252、281–302、335–342，未读全书或整个章节",
+      "supports": "蚯蚓选取叶柄/叶片并塞入洞口为历史观察；具体用途在L245–249保留疑问和最可能解释，some intelligence为Darwin作者推断，不外推今日智能定理。"
+    },
+    {
+      "material_id": "C1-M02",
+      "url": "https://www.gutenberg.org/files/2355/2355-h/2355-h.htm",
+      "access": "body_excerpt",
+      "read_scope": "新增L300–328，实际纸三角、夹子/短管几何比较、作者推断",
+      "supports": "保留原观察和Darwin的解释层级，不将历史判断当现代智能定理。"
+    },
+    {
+      "material_id": "C1-M03",
+      "url": "https://arxiv.org/html/2609.11077v1",
+      "access": "body_excerpt",
+      "read_scope": "§3 L133–155；§9 L321–330",
+      "supports": "三材料、变形测量、迟滞蠕变、实例校准和泛化限制。"
+    },
+    {
+      "material_id": "C1-M03",
+      "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+      "access": "body",
+      "read_scope": "日期L84、正文L109–133",
+      "supports": "发布日期2026-10-22，自感知器物和材料机制的机构新闻；意识为拟人。"
+    },
+    {
+      "material_id": "C1-M04",
+      "url": "https://www.dpm.org.cn/Uploads/File/pdf/29/80/62/2980629cbde6dc6ce987d74ab22b3424.pdf",
+      "access": "body_curl_PyMuPDF",
+      "read_scope": "PDF单页0，印刷015全页",
+      "supports": "虎符两半分持、文字形制及勘合验真。"
+    },
+    {
+      "material_id": "C1-M05",
+      "url": "https://web.stanford.edu/~clark/1980s/Clark%2C%20H.H.%20_%20Wilkes-Gibbs%2C%20D.%20_Referring%20as%20a%20collaborative%20process_%201986.pdf",
+      "access": "body_shared_download_PyMuPDF",
+      "read_scope": "原A2实际下载/tmp/continuous001-clark.pdf，主控读印刷2/3/5/15/21节选；自身另下载SSL失败，不冒称自身请求成功",
+      "supports": "共同指称、对话修正、相互接受及重复图形任务中形成简短称呼。"
+    },
+    {
+      "material_id": "C1-M05",
+      "url": "https://www.csiro.au/en/news/all/news/2026/august/human-robot-alignment",
+      "access": "body",
+      "read_scope": "日期L26、正文L30–44",
+      "supports": "2026-08-14机构研究讨论，共同理解需维护、更多通信未必更好；不冒称读Nature论文。"
+    },
+    {
+      "material_id": "C1-M06",
+      "url": "https://people.eecs.berkeley.edu/~venkatg/teaching/ECC-fall22/scribes/lecture05.pdf",
+      "access": "body_curl_PyMuPDF",
+      "read_scope": "PDF第一页，定义5.1、拉格朗日插值及定理5.2",
+      "supports": "Reed–Solomon编码冗余，位置已知正确采样子集的恢复；不外推任意错误。"
+    },
+    {
+      "material_id": "C1-M08",
+      "url": "https://www.cas.cn/syky/202611/t20261102_5123232.shtml",
+      "access": "body_shared_curl_HTML",
+      "read_scope": "原A2实际下载/tmp/continuous001-stoma.html的正文和发布日期，非导航或搜索摘要",
+      "supports": "2026-11-05拟南芥气孔谱系分化反馈，不是即时气孔开闭；材料暂不命名。"
+    },
+    {
+      "material_id": "C1-M07",
+      "url": "https://www.cas.cn/syky/202609/t20260928_5121136.shtml",
+      "access": "body_shared_curl_HTML",
+      "read_scope": "原A2下载/tmp/continuous001-fog.html，主控独立读取去脚本后的标题、2026年10月08日发布日期及主要全文",
+      "supports": "三级捕获—吸入—沟槽输运，圆柱方向适应；主动制冷与被动冷凝两种模式分开。正文日期与URL路径日期不同，以正文为准；本批不命名，不冒称读论文全文。"
+    }
+  ]
+}

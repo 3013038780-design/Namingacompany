@@ -1,0 +1,61 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-09T05:02:38.310431+08:00",
+  "stage": "same_C59_name_specific_boundary_addendum_after_root_feedback",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch44.json",
+      "sha256": "84a4b07766f3f00b136604b41676d7b7fa9230ca080bf64057df316cbb25f2bd"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch45.json",
+      "sha256": "8ae0a410b52854878dc9a2325e33b035496ea7b0e9d740ed8c2980168e0d4de6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch45.json",
+      "sha256": "f76e6763d3c157c095d0c3a8d903af72e73e3e7f7cd03911f5139adc458c1277"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch45.md",
+      "sha256": "d1a82eb78bad9ed965bae226979cd965abdd3824c7b0df57751365c093f1d791"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch45.json",
+      "sha256": "c0f74de159131ebe629b06adcfcef247e43be533c256298de34985f864e5c02e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension36.json",
+      "sha256": "a6b043c18c7ff96e00517f53c2e552e23c4d4afa4ba61b4216e62f22134f4f80"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch45.json",
+      "sha256": "534e492a2c90b4e49fc419cb9d97fce33ae200f0ed6e2f520373a53452aab259"
+    }
+  ],
+  "actual_actions": [
+    "逐字段对照原星与原恒星候选/预览，实际确认science_boundary旧简称声明被遗漏复制。",
+    "重新实际open CAS原URL，读L386–399确认完整原恒星用词与AI图注。",
+    "另档写当前adopted_science_boundary，逐名保留历史原星声明；原稿/原分/SHA不改。"
+  ],
+  "source_reinspections": 1,
+  "new_source_count": 0,
+  "new_material_count": 0,
+  "new_chinese_primary_id_count": 0,
+  "new_family_count": 0,
+  "new_surface_revision_count": 0,
+  "new_score_count": 0,
+  "rework_attempt_unchanged": 1,
+  "output_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C59-name-boundary-clarification.json",
+      "sha256": "598fa5e9dd459e9012a0245aebf8b60d39fe62ac71f5781e0fa9655496fae63b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C59-name-boundary-clarification.md",
+      "sha256": "f43ec675e6744f7b06ab6e9aac4c8923eaa5486c7f7aedb91a34cd82b2fd7cd6"
+    }
+  ],
+  "boundary": "这是现有名字来源性质逐名澄清，不是新候选、词形返工或质量重打；不含市场查询/英语，不改库queue/Git。主控应读取addendum后再交原A3。"
+}

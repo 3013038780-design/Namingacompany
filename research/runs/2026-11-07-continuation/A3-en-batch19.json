@@ -1,0 +1,152 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T19:02:43.722222+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-preview-batch19.md",
+      "sha256": "69ec2d39092f8484b00eb49d14832b57fee550d8b7708c7df1c10a2fb112c0df"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-en-batch19.json",
+      "sha256": "88ae29819bc73d36bce62594ffe695f6a845af90ef021583f4e6aa63ece301f1"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-quality-batch19.json",
+      "sha256": "10484570b6bd00ef639f912aa97446d6226964af165f327ace88aefe567bd4fb"
+    }
+  ],
+  "query_count": 10,
+  "results": [
+    {
+      "candidate_id": "CT-E35",
+      "chinese_candidate_id": "CT-C31",
+      "chinese": "有界好奇",
+      "name": "Measured Wonder",
+      "decision": "public_use_screen_pass",
+      "reason": "5组未见独立同名公司、模型或软件品牌。已见同名歌曲、TBC3d作品文章；Wonder Constant Labs用该短语说明研究哲学，品牌本身另名。披露同领域叙事相近及文化标题，不冒称完全未使用。",
+      "query_logs": [
+        {
+          "query": "\"Measured Wonder\"",
+          "executed_on": "2026-11-07",
+          "summary": "5组未见独立同名公司、模型或软件品牌。已见同名歌曲、TBC3d作品文章；Wonder Constant Labs用该短语说明研究哲学，品牌本身另名。披露同领域叙事相近及文化标题，不冒称完全未使用。"
+        },
+        {
+          "query": "\"Measured Wonder\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "5组未见独立同名公司、模型或软件品牌。已见同名歌曲、TBC3d作品文章；Wonder Constant Labs用该短语说明研究哲学，品牌本身另名。披露同领域叙事相近及文化标题，不冒称完全未使用。"
+        },
+        {
+          "query": "\"Measured Wonder\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "5组未见独立同名公司、模型或软件品牌。已见同名歌曲、TBC3d作品文章；Wonder Constant Labs用该短语说明研究哲学，品牌本身另名。披露同领域叙事相近及文化标题，不冒称完全未使用。"
+        },
+        {
+          "query": "\"Measured Wonder\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "5组未见独立同名公司、模型或软件品牌。已见同名歌曲、TBC3d作品文章；Wonder Constant Labs用该短语说明研究哲学，品牌本身另名。披露同领域叙事相近及文化标题，不冒称完全未使用。"
+        },
+        {
+          "query": "\"MeasuredWonder\" OR \"Measured-Wonder\"",
+          "executed_on": "2026-11-07",
+          "summary": "5组未见独立同名公司、模型或软件品牌。已见同名歌曲、TBC3d作品文章；Wonder Constant Labs用该短语说明研究哲学，品牌本身另名。披露同领域叙事相近及文化标题，不冒称完全未使用。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://wonderconstantlabs.com/about",
+          "access": "primary_company_body_read",
+          "finding": "公司名Wonder Constant Labs、商业产品RECON；measured wonder为研究哲学普通句，有语义叙事相近风险，非完整同名公司或产品。"
+        },
+        {
+          "url": "https://www.tbc3d.com/measured-wonder/",
+          "access": "search_text_only_open_inaccessible",
+          "finding": "标题Measured Wonder，By TBC/2026-05-17；全文不可访问，不假称软件项目或公司。"
+        },
+        {
+          "url": "https://open.spotify.com/track/5UQ8yvljBcfglOB5Lbg3XY",
+          "access": "search_text_only",
+          "finding": "Inspired歌曲Measured Wonder (Top Retro Deep House Music)，文化标题披露。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Measured%20Wonder",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    },
+    {
+      "candidate_id": "CT-E36",
+      "chinese_candidate_id": "CT-C32",
+      "chinese": "虚拟排练",
+      "name": "Latent Stage",
+      "decision": "reject",
+      "reason": "完整同名世界模型组件/产品线和生成视频软件项目已有实际使用。达瓦官网明确Latent Stage，Daydream创作者同名项目正文说明实时生成视频实现；非仅通用latent stage术语。",
+      "query_logs": [
+        {
+          "query": "\"Latent Stage\"",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名世界模型组件/产品线和生成视频软件项目已有实际使用。达瓦官网明确Latent Stage，Daydream创作者同名项目正文说明实时生成视频实现；非仅通用latent stage术语。"
+        },
+        {
+          "query": "\"Latent Stage\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名世界模型组件/产品线和生成视频软件项目已有实际使用。达瓦官网明确Latent Stage，Daydream创作者同名项目正文说明实时生成视频实现；非仅通用latent stage术语。"
+        },
+        {
+          "query": "\"Latent Stage\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名世界模型组件/产品线和生成视频软件项目已有实际使用。达瓦官网明确Latent Stage，Daydream创作者同名项目正文说明实时生成视频实现；非仅通用latent stage术语。"
+        },
+        {
+          "query": "\"Latent Stage\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名世界模型组件/产品线和生成视频软件项目已有实际使用。达瓦官网明确Latent Stage，Daydream创作者同名项目正文说明实时生成视频实现；非仅通用latent stage术语。"
+        },
+        {
+          "query": "\"LatentStage\" OR \"Latent-Stage\"",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名世界模型组件/产品线和生成视频软件项目已有实际使用。达瓦官网明确Latent Stage，Daydream创作者同名项目正文说明实时生成视频实现；非仅通用latent stage术语。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://dawahezhi.com/en",
+          "access": "primary_company_body_read",
+          "finding": "DISENTANGLED LATENT STAGE标题及产品线Latent Stage，说明世界理解/构建；不背书其性能数字。"
+        },
+        {
+          "url": "https://app.daydream.live/creators/ddickinson/latent-stage",
+          "access": "primary_developer_project_body_read",
+          "finding": "项目标题Latent Stage，David Dickinson，Daydream Scope；说明生成视频/MIDI控制软件栈，不是个人名。"
+        }
+      ],
+      "registration": {
+        "status": "not_checked_after_confirmed_use_or_active_avoidance",
+        "note": "依据公开使用，不称登记通过或当前已注册。"
+      }
+    }
+  ],
+  "passed_english_candidate_ids": [
+    "CT-E35"
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛不等于全球未使用、核名通过或第9/42类可注册。重复复核查询计入实际查询数。"
+}

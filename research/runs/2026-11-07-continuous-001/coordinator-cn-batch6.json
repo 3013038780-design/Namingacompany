@@ -1,0 +1,88 @@
+{
+  "reviewed_at": "2026-11-07T21:40:41.847410+08:00",
+  "independence": "Read producer preview batch6 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C16",
+      "name": "自成一格",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 3
+      },
+      "total": 23,
+      "notes": {
+        "naturalness": {
+          "reason": "完整成语节奏自然",
+          "counter_association": "容易像自夸口号"
+        },
+        "distinctiveness": {
+          "reason": "有整体风格记忆",
+          "counter_association": "普通成语专名需建立"
+        },
+        "lab_fit": {
+          "reason": "自对齐是可讲的研究画面但首印象设计更强",
+          "counter_association": "设计建筑品牌咨询先于Lab"
+        },
+        "grounding": {
+          "reason": "同格栅两程作用确有来源",
+          "counter_association": "不是原装置命名"
+        },
+        "extension": {
+          "reason": "可讲组织条件",
+          "counter_association": "不能说完全无校准"
+        },
+        "semantic_coherence": {
+          "reason": "完整意象有联系但格的两义需解释",
+          "counter_association": "风格之格与格栅不是同义"
+        }
+      },
+      "decision": "quality_reject"
+    },
+    {
+      "candidate_id": "C1-C17",
+      "name": "因序",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两个熟字可直接称呼",
+          "counter_association": "需要一次释义"
+        },
+        "distinctiveness": {
+          "reason": "紧凑新称呼",
+          "counter_association": "音序同音听写需说明"
+        },
+        "lab_fit": {
+          "reason": "因果依赖与事件安排有计算身份",
+          "counter_association": "可能像检索语言工具"
+        },
+        "grounding": {
+          "reason": "Lamport实际事件消息依赖决定偏序",
+          "counter_association": "不能反推时钟值即因果"
+        },
+        "extension": {
+          "reason": "可延伸多系统行动",
+          "counter_association": "不能把所有事硬排唯一顺序"
+        },
+        "semantic_coherence": {
+          "reason": "因作为序的依据是真实约束",
+          "counter_association": "不是现成学术术语"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

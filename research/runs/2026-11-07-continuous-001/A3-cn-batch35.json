@@ -1,0 +1,233 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-09T01:32:29.029849+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch33.md",
+      "sha256": "7fc409a4555892dfb4cbe08144e224c4355f0609870e2dd869d15b089655f27e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch33.json",
+      "sha256": "dff34d16663df235471ae77f7dc80a1f783fca115dd0660698403b84da1e9e70"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch33.json",
+      "sha256": "8a4d499b8f5669092eabc46237c2e48ef804ac16263e071ee6089bb1fbbe00e1"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch33.json",
+      "sha256": "6f6319c9da50d96e0fcc8e63951d26dad35709efc7f09ff30eb0b4dc11bc2801"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension31.json",
+      "sha256": "03c8710f5a7025054e9420ab44041b5f63aaf91ae1d35764834d797c9e120d99"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch33.json",
+      "sha256": "92ad9d2719c839b651278c064c0553cd61dab078b5ad8823894daa24c0e4e6f7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch33.json",
+      "sha256": "f8d9e5c15af9affbd5cb1d44c2555286e4e5ed9afd83332c32164a95b09461ec"
+    },
+    {
+      "path": "README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567"
+    }
+  ],
+  "query_count": 13,
+  "completed_search_result_count": 13,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-C53",
+      "name": "剪贴板",
+      "query_logs": [
+        {
+          "query": "\"剪贴板\"",
+          "executed_on": "2026-11-09",
+          "summary": "精确主要微软系统功能文档及Win32通用词，不以系统功能本身当独立软件名。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"剪贴板科技\"",
+          "executed_on": "2026-11-09",
+          "summary": "科技精确主要通用剪贴板功能/科技品牌文章、语义剪贴板较长项目，不任意删语义等有意义限定。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"剪贴板智能\"",
+          "executed_on": "2026-11-09",
+          "summary": "智能精确主要SmartPaste智能剪贴板与刀刃的智能识别功能，核心不同不当本名公司。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"剪贴板\" AI 模型 软件 公司",
+          "executed_on": "2026-11-09",
+          "summary": "AI模型软件组Clipboard AI/DPaste/GenClipboard等不同完整名及功能，不能全部截成剪贴板精确占用。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"剪貼板\" 公司 軟體 品牌",
+          "executed_on": "2026-11-09",
+          "summary": "繁体组PasteNow/ClipboardFusion/FIPLAB通用类别与功能说明，非完整本名主体主证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"jiantieban\" company software",
+          "executed_on": "2026-11-09",
+          "summary": "拼音组土拨鼠云传送URL路径/个人GitHub仓库描述和jt软件的技能目录，不把路径或描述自动独立品牌。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"剪贴板\" \"App\" 开发者",
+          "executed_on": "2026-11-09",
+          "summary": "针对独立App补搜，Apple完整标题剪贴板，实际开正文核开发者辉宇吴和应用内容，明确同名软件。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "reject_existing_exact_named_software",
+      "reason": "Apple分发页标题完整剪贴板、开发者辉宇吴及独立应用说明。直接同名软件使用拒绝，非仅Windows系统功能或所有剪贴板管理器类别。",
+      "evidence": [
+        {
+          "url": "https://apps.apple.com/cn/app/剪贴板/id6751185139",
+          "access": "official_app_distribution_body_read",
+          "finding": "L19标题剪贴板，L33开发者辉宇吴，L49–50独立应用功能与后台限制，L147–153版本历史。开发者是个人不冒法人；拒绝基于产品名，不据个人身份。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Jiantieban",
+          "scope": "2026-11-09本次逐名入口不可访问，不称无登记。"
+        }
+      },
+      "risks": [
+        "系统通用功能与具名独立应用分开",
+        "未背书隐私/性能与下载现状",
+        "工商及9/42未清，拒绝只依公开软件命名"
+      ]
+    },
+    {
+      "candidate_id": "C1-C54",
+      "name": "红皇后",
+      "query_logs": [
+        {
+          "query": "\"红皇后\"",
+          "executed_on": "2026-11-09",
+          "summary": "精确组文学影视角色/个人笔名与30类商标索引；商标索引不冒9/42或现营公司，角色/笔名不自动占用。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"红皇后科技\"",
+          "executed_on": "2026-11-09",
+          "summary": "科技精确组中用科技新闻红皇后为科幻比喻，实际产品超级玛丽；另3LAB红皇后精华油及商标索引，不冒红皇后科技公司。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"红皇后智能\"",
+          "executed_on": "2026-11-09",
+          "summary": "智能精确主要生化危机剧情虚构AI及泛智能文章，不称真实已部署AI模型。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"红皇后\" AI 模型 软件 公司",
+          "executed_on": "2026-11-09",
+          "summary": "AI模型软件组红皇后效应文章/理论/科幻比喻，未据这些冒现实基础模型。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"紅皇后\" 公司 軟體 品牌",
+          "executed_on": "2026-11-09",
+          "summary": "繁体组台湾紅皇后股份有限公司历史政府清册及商标线索；官方详情不可访问/原PDF超时，历史仅索引不当现登记核验。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"honghuanghou\" company software",
+          "executed_on": "2026-11-09",
+          "summary": "拼音组原GitHub honghuanghou学校管理系统，实际开About明确中文红皇后班级班里系统及代码/系统文档，独立具名软件，不是小说角色。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "reject_existing_exact_core_named_software",
+      "reason": "原仓库About明确红皇后班级班里系统，前后端及系统文档可读，按独立软件核心使用拒绝；非把小说角色/生态假说或剧情AI冒现实模型。台湾历史公司和跨类商标不是本案唯一主证。",
+      "evidence": [
+        {
+          "url": "https://github.com/yoin007/honghuanghou",
+          "access": "primary_software_repository_body_read",
+          "finding": "L115仓库honghuanghou，L149–176前后端及系统文档，L211–213 About明确红皇后班级班里系统。学校管理软件公开核心命名，不冒正式商业发售或AI模型效果，未运行代码。"
+        },
+        {
+          "url": "https://www.ijiwei.com/n/933360",
+          "access": "technology_news_body_read_for_disambiguation",
+          "finding": "L12–16实际具名工业系统超级玛丽6.5，红皇后/莫斯是科幻比喻；不将其当真实红皇后模型或背书性能。"
+        },
+        {
+          "url": "https://findbiz.nat.gov.tw/fts/company/53306141",
+          "access": "official_detail_inaccessible",
+          "finding": "本次官方详情不可访问，不冒已读/核实时状态。"
+        },
+        {
+          "url": "https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=376590000Achange10802.pdf&method=report&reportClass=cmpyCityItem&subPath=10802",
+          "access": "government_pdf_search_index_only_open_timeout",
+          "finding": "检索摘要2019清册579行紅皇后股份有限公司/53306141，实际PDF打开超时；历史索引不当本次正文/当前存续，已有独立软件证据足够，不重复失败入口。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Honghuanghou",
+          "scope": "2026-11-09本次逐名入口不可访问。"
+        },
+        "taiwan_company": {
+          "status": "unavailable",
+          "url": "https://findbiz.nat.gov.tw/fts/company/53306141",
+          "scope": "本次详情不可访问，2019政府清册PDF打开超时；仅检索历史线索，不声称本次核准存续。"
+        }
+      },
+      "risks": [
+        "虚构红皇后AI与独立学校管理软件不同事实",
+        "文学人物/生态假说/笔名不自动商业占用",
+        "食品/医疗商标索引类目不同且状态未官方核，不冒9/42已核",
+        "台湾历史企业未读正文，不断言当前登记；拒绝有独立原仓库主证"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "2026-11-07本run两个实际阳性对照，0新增。",
+  "claim_limits": "公开软件使用，不假称工商/商标核准；登记失败不当清白。",
+  "passed_chinese_candidate_ids": [],
+  "rejected_chinese_candidate_ids": [
+    "C1-C53",
+    "C1-C54"
+  ]
+}

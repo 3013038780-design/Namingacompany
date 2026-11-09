@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T13:19:15.266477+08:00",
+  "scope": "作者独立数字，主控先封存独评",
+  "reviews": [
+    {
+      "candidate_id": "C1-C29",
+      "name": "失算",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "两字完整口语动词，读听可复述，能直接称呼",
+          "counter_association": "负面惯用语有强语境惯性"
+        },
+        "distinctiveness": {
+          "reason": "把常见负面动作转为机构名有鲜明反差",
+          "counter_association": "可能记住的是一次失败而不是公司"
+        },
+        "lab_fit": {
+          "reason": "计算/预测与认知研究身份直接，不靠冷僻术语",
+          "counter_association": "财经账户/计算工具和技术不可靠联想强"
+        },
+        "grounding": {
+          "reason": "所读原文支持预期未满足的时序信息及模型解释",
+          "counter_association": "名称不是技术译名，不覆盖所有脑机制"
+        },
+        "extension": {
+          "reason": "可涵盖预测、反馈、学习的多项研究",
+          "counter_association": "若只剩励志犯错成长就泛化且撞旧族"
+        },
+        "semantic_coherence": {
+          "reason": "各层围绕预期与实际可比较的失配",
+          "counter_association": "不能从失算推出必有收益或必然进步"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

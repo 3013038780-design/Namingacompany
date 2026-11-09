@@ -1,0 +1,55 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T05:00:22.429547+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-C59",
+      "name": "原恒星",
+      "version": 2,
+      "rework_attempt": 1,
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "完整既有三字天体称呼，语素边界清楚，可直接用于机构自称",
+          "counter_association": "较短称多一个音节，原恒星仍有专业认读成本"
+        },
+        "distinctiveness": {
+          "reason": "完整类别名提供确定对象锚点，区别泛原/元/源加星式短名；问起名字可以复述是那个形成中天体",
+          "counter_association": "词典类别名不等于独占品牌，现有天文/软件使用必须另查，不能因更专业而自动加分"
+        },
+        "lab_fit": {
+          "reason": "明确天体/观测科学的整体可以承载深技术研究机构身份",
+          "counter_association": "天文科普、航天或科幻项目首感仍在，主控可独立认为广义Lab不足"
+        },
+        "grounding": {
+          "reason": "原中文机构正文直接使用完整原恒星，NASA一般阶段与CAS特定系统仍分开",
+          "counter_association": "未核词的初译史，不拿全部天体核反应或成长结局作普遍定理"
+        },
+        "extension": {
+          "reason": "完整自然对象可容纳长期多研究，不局限模型或一功能",
+          "counter_association": "若只剩初生/成长宣传便失去独特主体"
+        },
+        "semantic_coherence": {
+          "reason": "恢复恒星这一完整语素，仍指同一早期天体与结构条件",
+          "counter_association": "恒不解释成永恒/恒强；不会把形成阶段与所有稳定主序状态混同"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ],
+  "qualified_candidate_ids": [
+    "C1-C59"
+  ],
+  "boundary": "新稿重新评审而非调高原星原分；辨识改善理由为完整类别锚点，不是源真或专业程度。原稿作者自拒照存，无分稿先交独评，数字独档。"
+}

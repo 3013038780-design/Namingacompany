@@ -1,0 +1,88 @@
+{
+  "reviewed_at": "2026-11-07T21:21:05.949364+08:00",
+  "independence": "Read producer preview batch4 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C13",
+      "name": "跳读",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "现成阅读动作易说",
+          "counter_association": "也可能被理解成草草略读"
+        },
+        "distinctiveness": {
+          "reason": "有主动换路画面",
+          "counter_association": "词本身普通"
+        },
+        "lab_fit": {
+          "reason": "可承载知识组织和使用研究",
+          "counter_association": "首听偏阅读App"
+        },
+        "grounding": {
+          "reason": "NLS有可寻址链接及视图",
+          "counter_association": "不是历史演示原中文"
+        },
+        "extension": {
+          "reason": "能超出单一读书产品",
+          "counter_association": "需要实际研究建立Lab身份"
+        },
+        "semantic_coherence": {
+          "reason": "阅读动作与非线性结构相接",
+          "counter_association": "不能泛化成换视角同族"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "C1-C14",
+      "name": "作数",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "完整日常谓词自然",
+          "counter_association": "容易写成做数或算数"
+        },
+        "distinctiveness": {
+          "reason": "有效作数的口语态度鲜明",
+          "counter_association": "普通口语非专名"
+        },
+        "lab_fit": {
+          "reason": "能容纳实际有效性研究",
+          "counter_association": "可能像统计财税工具"
+        },
+        "grounding": {
+          "reason": "DOE项目明确行动与效度差别",
+          "counter_association": "项目目标不是已完成成果"
+        },
+        "extension": {
+          "reason": "不限单一模型工具",
+          "counter_association": "不是永远正确承诺"
+        },
+        "semantic_coherence": {
+          "reason": "口语有效与科研结果有效同义相接",
+          "counter_association": "数的数字义不该事后硬拆"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

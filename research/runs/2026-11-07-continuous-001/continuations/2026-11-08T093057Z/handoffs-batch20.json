@@ -1,0 +1,190 @@
+{
+  "accepted_at": "2026-11-08T18:34:26.743155+08:00",
+  "same_research_run": true,
+  "new_A1_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "accepted_at": "2026-11-08T18:34:26.743155+08:00",
+      "from": "existing_A1",
+      "to": "same_A2",
+      "status": "accepted",
+      "candidate_ids": [],
+      "reason": "沿原真实A1案例及已验收六向计划复用，不计新A1案例。",
+      "refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A1-final-input-reacceptance.json",
+          "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.json",
+          "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "accepted_at": "2026-11-08T18:34:26.743155+08:00",
+      "from": "same_A2",
+      "to": "coordinator",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C34",
+        "C1-C35"
+      ],
+      "reason": "先无分独评封存，两者主控25/作者25、轴差0。具体磁性颗粒结构和古数学人名分别核族，不按大类封禁。",
+      "refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch20.json",
+          "sha256": "508a65ba331ed2fa1eb76094043af9a1aaab468431e614ab04b460d717450d16"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch20.md",
+          "sha256": "d1d8c36a0d418bc8c8e4ef7d69202d0f52b290b458932e44c77d9126f5d1f8d3"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch20.json",
+          "sha256": "dd4ee1bd5620c11134f9864ba26d2dc339a3a468aa5d63ee9fff5b884706f2ed"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch20.json",
+          "sha256": "fb1843494b5503dde8f538bb2cd5b68b0162daec7f8ffb0e630cd6dca14cf96d"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/materials-extension19.json",
+          "sha256": "2c04a81472f4e75739b73041ac36c6e54f9addced87b1d17991755bc21ebc9b8"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch20.json",
+          "sha256": "5d33fb60e1af7ecac73968630df9b372a916a717c4502b07a36fade4256b57f7"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch20.json",
+          "sha256": "4deaabf9daa28c9ae68bbe8f8bd1130707aa0098944348fcb6d54500deaf671e"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "accepted_at": "2026-11-08T18:34:26.743155+08:00",
+      "from": "coordinator",
+      "to": "same_A3",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C34",
+        "C1-C35"
+      ],
+      "reason": "同一原A3逐名六组已返回查询；额外海南1次未返回终止单列，不能充有效结果。两者明确具名使用均否决。",
+      "refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch22.json",
+          "sha256": "cb947eaff7237c2bb83c5651e7da33f6addc3a18741ce630a7d7ccbe08014572"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch22-receipt.json",
+          "sha256": "dcdcbd2a733386d81c7ded58b2fd79fa284303bea223baa2c5543a672cdb0305"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "accepted_at": "2026-11-08T18:34:26.743155+08:00",
+      "from": "same_A3",
+      "to": "same_A4",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C34",
+        "C1-C35"
+      ],
+      "reason": "原A4实际读上游，合格中文0，未配英文救回。",
+      "refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch20.json",
+          "sha256": "bde296fa5b03e117199ce882c890f3e9fa1794920cb148a139f9f6fdd71169ec"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch20-receipt.json",
+          "sha256": "4950bf7e10dd5f0b4060549b7c36ae7e9b035313749ed18e40bdec7171df65f0"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "accepted_at": "2026-11-08T18:34:26.743155+08:00",
+      "from": "same_A4",
+      "to": "same_A3",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C34",
+        "C1-C35"
+      ],
+      "reason": "英文0，不造弱英语，不占英文batch27。",
+      "refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch20.json",
+          "sha256": "bde296fa5b03e117199ce882c890f3e9fa1794920cb148a139f9f6fdd71169ec"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch20.json",
+          "sha256": "79e67455faf4bc1973590538a445cad67aae1e3ced49023108e8c9564abbf18a"
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "accepted_at": "2026-11-08T18:34:26.743155+08:00",
+      "from": "same_A3",
+      "to": "coordinator",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C34",
+        "C1-C35"
+      ],
+      "reason": "同一原A3实际核读A4零输入与SHA，英文0查询完成零终核。",
+      "refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch20.json",
+          "sha256": "79e67455faf4bc1973590538a445cad67aae1e3ced49023108e8c9564abbf18a"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch20-receipt.json",
+          "sha256": "2f9a41fd2269841e9ed3c2c4392207d668c46b47bb2612133cbc1d15920955e1"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "accepted_at": "2026-11-08T18:34:26.743155+08:00",
+      "from": "coordinator",
+      "to": "catalog",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C34",
+        "C1-C35"
+      ],
+      "reason": "两素材来源正文均核，具名商业使用否决，无合格配对不入库。公司登记/9/42未核准，不用™、目录或无返回查询冒登记。",
+      "refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T093057Z/root-source-review-batch20.json",
+          "sha256": "e2f56951349b3ed78acd787ebf518aa5d3eef04aeae2616e25089eee00796e6c"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T093057Z/root-batch20-terminal-rejections.json",
+          "sha256": "60cc1055df4fb13d90ab0e32a64d941158045b11de46cfc9b433fdb2e0c6347a"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T093057Z/decisions-through-batch20.json",
+          "sha256": "ae0a8f4ea6ae7f6c3884d7bec38b1b082c2ba9a9b076022296c538c2755fa63a"
+        }
+      ]
+    }
+  ]
+}

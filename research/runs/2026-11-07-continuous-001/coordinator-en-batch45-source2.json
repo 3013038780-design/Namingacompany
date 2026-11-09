@@ -1,0 +1,45 @@
+{
+  "reviewed_at": "2026-11-09T03:54:22.233118+08:00",
+  "independence": "实际读A4-C57-source-correction-preview.json与Collins215–230，先封本修正版独评，再读取修正版A4数字；原coordinator-en-batch45原盲评分保持。",
+  "reviews": [
+    {
+      "candidate_id": "C1-C57",
+      "name": "Tailfirst",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "既有完整词有词典记音两部分清楚可称呼",
+          "counter_association": "品牌称呼重音仍可变化不是听测"
+        },
+        "spelling": {
+          "reason": "完整词形无需删改且能按熟词拆解",
+          "counter_association": "tail与tale同音及分写竞争保持"
+        },
+        "grounding": {
+          "reason": "Collins完整副词及尾后部在前之义直接支持本次选词",
+          "counter_association": "1885–90仅词典标段未核首用原证"
+        },
+        "bilingual_relation": {
+          "reason": "同一倒行猫图景与尾部先行作主题配对",
+          "counter_association": "空间图景不等同时间反射且英文不含猫"
+        },
+        "distinctiveness": {
+          "reason": "既有词的反常方向画面可以成为研究称呼",
+          "counter_association": "宠物游戏倒退及同拼写个人作品命名空间风险保持"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E47"
+    }
+  ],
+  "correction_of": "coordinator-en-batch45.json",
+  "same_english_id_not_new_version": true
+}

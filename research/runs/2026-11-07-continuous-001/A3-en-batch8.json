@@ -1,0 +1,114 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T21:27:00.106039+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch8.md",
+      "sha256": "9f5b04bedcce096508cfd0d7927291cb41483da668f89b8a532ce52a79be7e20"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-batch8.json",
+      "sha256": "30204c184958f4cc8451a38243d280062b37dacfde21a7e6bd6661b06d70baab"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch8.json",
+      "sha256": "f8f038bb435d6451befb1e9407bcc3ad8e4e61210240b608f0d3c9575b166119"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch8.json",
+      "sha256": "1734b7515e8654bce22e7c0bb7696d1b39f26713f104e69394fc419b2f9f39af"
+    }
+  ],
+  "query_count": 7,
+  "results": [
+    {
+      "candidate_id": "C1-E08",
+      "name": "At Runtime",
+      "query_logs": [
+        {
+          "query": "\"At Runtime\"",
+          "executed_on": "2026-11-07",
+          "summary": "ATRUNTIME整体连写已实际用于墨西哥电子控制/灯光工程商业品牌，官网明确自称our brand atruntime，非只因Runtime通名或普通at runtime句子否决。回车以后已是最后英文返工，中文本轮无可交付英文。"
+        },
+        {
+          "query": "\"At Runtime\" company lab",
+          "executed_on": "2026-11-07",
+          "summary": "ATRUNTIME整体连写已实际用于墨西哥电子控制/灯光工程商业品牌，官网明确自称our brand atruntime，非只因Runtime通名或普通at runtime句子否决。回车以后已是最后英文返工，中文本轮无可交付英文。"
+        },
+        {
+          "query": "\"At Runtime\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "ATRUNTIME整体连写已实际用于墨西哥电子控制/灯光工程商业品牌，官网明确自称our brand atruntime，非只因Runtime通名或普通at runtime句子否决。回车以后已是最后英文返工，中文本轮无可交付英文。"
+        },
+        {
+          "query": "\"At Runtime\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "ATRUNTIME整体连写已实际用于墨西哥电子控制/灯光工程商业品牌，官网明确自称our brand atruntime，非只因Runtime通名或普通at runtime句子否决。回车以后已是最后英文返工，中文本轮无可交付英文。"
+        },
+        {
+          "query": "\"AtRuntime\"",
+          "executed_on": "2026-11-07",
+          "summary": "ATRUNTIME整体连写已实际用于墨西哥电子控制/灯光工程商业品牌，官网明确自称our brand atruntime，非只因Runtime通名或普通at runtime句子否决。回车以后已是最后英文返工，中文本轮无可交付英文。"
+        },
+        {
+          "query": "\"At Run Time\" company",
+          "executed_on": "2026-11-07",
+          "summary": "ATRUNTIME整体连写已实际用于墨西哥电子控制/灯光工程商业品牌，官网明确自称our brand atruntime，非只因Runtime通名或普通at runtime句子否决。回车以后已是最后英文返工，中文本轮无可交付英文。"
+        },
+        {
+          "query": "\"Runtime\" company software",
+          "executed_on": "2026-11-07",
+          "summary": "ATRUNTIME整体连写已实际用于墨西哥电子控制/灯光工程商业品牌，官网明确自称our brand atruntime，非只因Runtime通名或普通at runtime句子否决。回车以后已是最后英文返工，中文本轮无可交付英文。"
+        }
+      ],
+      "decision": "return_for_alternative_exhausted",
+      "reason": "ATRUNTIME整体连写已实际用于墨西哥电子控制/灯光工程商业品牌，官网明确自称our brand atruntime，非只因Runtime通名或普通at runtime句子否决。回车以后已是最后英文返工，中文本轮无可交付英文。",
+      "evidence": [
+        {
+          "url": "https://iluminacion-dmx.com/index.html",
+          "access": "primary_brand_body_read",
+          "finding": "L15–23 Our brand, atruntime；墨西哥设计制造DMX灯光、LED控制器、像素控制器、电子控制卡，联系Fernando Cardenas。为实际科技商业品牌，不等于AI同名公司或官方商标状态。"
+        },
+        {
+          "url": "https://iluminacion-dmx.com/uploads/3/5/3/9/3539824/manual_de_usuario_tarjetas_controladoras_dmx.pdf",
+          "access": "primary_manual_search_extract_only",
+          "finding": "搜索提取用户手册有Productos exclusivos de ATRUNTIME及atruntime.com、软硬件功能；未独立全文下载，不冒称读全。"
+        },
+        {
+          "url": "https://ww1.microchip.com/downloads/en/Market_Communication/EngineersGuidetoMicrochipTechnology2019.pdf",
+          "access": "primary_vendor_guide_search_extract_only",
+          "finding": "2019 Microchip指南列ATRUNTIME ELECTRONICS ENGINEERING，嵌入系统/IoT/固件/桌面网页开发与墨西哥地址。未独立全文核读，佐证不是普通时间短语。"
+        },
+        {
+          "url": "https://www.ycombinator.com/companies/runtime",
+          "access": "primary_directory_search_extract_open_no_readable_lines",
+          "finding": "另有Runtime AI agent harness真实主体近邻；直接打开无可读行，仅目录索引文本。不以Runtime核心通名单独替代ATRUNTIME全名证据。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=At%20Runtime",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      },
+      "chinese_candidate_id": "C1-C11",
+      "chinese": "回车以后",
+      "version": "last_rework_attempt2",
+      "precise_use_type": "exact_normalized_atruntime_electronics_brand_not_only_generic_runtime"
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。"
+}

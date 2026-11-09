@@ -1,0 +1,309 @@
+{
+  "accepted_at": "2026-11-09T02:05:29.159585+08:00",
+  "same_research_run": true,
+  "new_A1_claimed": false,
+  "whole_production_compliance_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "from": "verified_existing_A1",
+      "to": "same_A2",
+      "status": "accepted",
+      "reason": "Cursor/Runway日常中介与行动条件，Sakana/寒武纪/Alibaba的生命关系与文化人物外壳实际引向素材，原计划复用非新开研究轮。",
+      "refs": [
+        {
+          "path": "A1.json",
+          "sha256": "b3bbd78ef83733b79b7033404dc29727a7e0c749988d06218820850f4de520be"
+        },
+        {
+          "path": "A1-role-expansion01.json",
+          "sha256": "bbb6c1f816e0942aa2ee0e5e7cca52437db41e909ceaa7a62fde0583a374dec4"
+        },
+        {
+          "path": "A1-role-expansion02.json",
+          "sha256": "6a127ec64699a257e20f7959a2ce3309e8cefe7c2c117134c2220612a3dc3181"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "search-plan-role-expansion02.json",
+          "sha256": "f86b3c18c74f778d2a6fb4258fed662584879e5747bb0116e0cefc6288d98d1a"
+        },
+        {
+          "path": "continuations/2026-11-08T151606Z/plan-role-expansion02-review.json",
+          "sha256": "f5447836316e7ce5361681ccd0f5b5108b05e8eb761d035a3db15899c16d6867"
+        },
+        {
+          "path": "A2-creation-execution-batch33.json",
+          "sha256": "6f6319c9da50d96e0fcc8e63951d26dad35709efc7f09ff30eb0b4dc11bc2801"
+        }
+      ],
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "A1.json",
+          "sha256": "b3bbd78ef83733b79b7033404dc29727a7e0c749988d06218820850f4de520be"
+        },
+        {
+          "path": "A1-role-expansion01.json",
+          "sha256": "bbb6c1f816e0942aa2ee0e5e7cca52437db41e909ceaa7a62fde0583a374dec4"
+        },
+        {
+          "path": "A1-role-expansion02.json",
+          "sha256": "6a127ec64699a257e20f7959a2ce3309e8cefe7c2c117134c2220612a3dc3181"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "search-plan-role-expansion02.json",
+          "sha256": "f86b3c18c74f778d2a6fb4258fed662584879e5747bb0116e0cefc6288d98d1a"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A2-creation-execution-batch33.json",
+          "sha256": "6f6319c9da50d96e0fcc8e63951d26dad35709efc7f09ff30eb0b4dc11bc2801"
+        }
+      ],
+      "accepted_at": "2026-11-09T02:05:29.159585+08:00"
+    },
+    {
+      "id": "H2",
+      "from": "same_A2",
+      "to": "root",
+      "status": "accepted",
+      "reason": "两真实关系只两中文，root先无分封独评后读作者，25/25与26/25、轴差<=1；root三来源指定正文均实读，小说/理论/系统功能层次分开。",
+      "refs": [
+        {
+          "path": "materials-extension31.json",
+          "sha256": "03c8710f5a7025054e9420ab44041b5f63aaf91ae1d35764834d797c9e120d99"
+        },
+        {
+          "path": "A2-candidates-batch33.json",
+          "sha256": "dff34d16663df235471ae77f7dc80a1f783fca115dd0660698403b84da1e9e70"
+        },
+        {
+          "path": "A2-quality-batch33.json",
+          "sha256": "8a4d499b8f5669092eabc46237c2e48ef804ac16263e071ee6089bb1fbbe00e1"
+        },
+        {
+          "path": "coordinator-cn-batch33.json",
+          "sha256": "92ad9d2719c839b651278c064c0553cd61dab078b5ad8823894daa24c0e4e6f7"
+        },
+        {
+          "path": "coordinator-family-review-batch33.json",
+          "sha256": "f8d9e5c15af9affbd5cb1d44c2555286e4e5ed9afd83332c32164a95b09461ec"
+        }
+      ],
+      "candidate_ids": [
+        "C1-C53",
+        "C1-C54"
+      ],
+      "input_refs": [
+        {
+          "path": "A2-candidates-batch33.json",
+          "sha256": "dff34d16663df235471ae77f7dc80a1f783fca115dd0660698403b84da1e9e70"
+        },
+        {
+          "path": "A2-quality-batch33.json",
+          "sha256": "8a4d499b8f5669092eabc46237c2e48ef804ac16263e071ee6089bb1fbbe00e1"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "coordinator-cn-batch33.json",
+          "sha256": "92ad9d2719c839b651278c064c0553cd61dab078b5ad8823894daa24c0e4e6f7"
+        },
+        {
+          "path": "coordinator-family-review-batch33.json",
+          "sha256": "f8d9e5c15af9affbd5cb1d44c2555286e4e5ed9afd83332c32164a95b09461ec"
+        }
+      ],
+      "accepted_at": "2026-11-09T02:05:29.159585+08:00"
+    },
+    {
+      "id": "H3",
+      "from": "root",
+      "to": "same_A3",
+      "status": "returned",
+      "reason": "7+6查询，独立同名App与学校软件使用；普通功能/小说假说不作为拒绝主证，原A3可读/root404分别记录。",
+      "refs": [
+        {
+          "path": "A3-cn-batch35.json",
+          "sha256": "9bdf67b4be90bc395f58f8811928bbee47d78fbc307f9418e3774541b5c0a7e2"
+        },
+        {
+          "path": "A3-cn-batch35-receipt.json",
+          "sha256": "9d7eb3be5b63260ddb04d2c01f2627f72482f7ae2eca91254a2e1ed6be9e23ac"
+        },
+        {
+          "path": "continuations/2026-11-08T172307Z/root-cn35-review.json",
+          "sha256": "59ee7c2f734d6495f505067ff642411f7fb8b642ffcd3d8d9262b5dcc33f7883"
+        }
+      ],
+      "candidate_ids": [
+        "C1-C53",
+        "C1-C54"
+      ],
+      "terminal_state": "zero_qualified_due_named_software",
+      "input_refs": [
+        {
+          "path": "coordinator-cn-batch33.json",
+          "sha256": "92ad9d2719c839b651278c064c0553cd61dab078b5ad8823894daa24c0e4e6f7"
+        },
+        {
+          "path": "coordinator-family-review-batch33.json",
+          "sha256": "f8d9e5c15af9affbd5cb1d44c2555286e4e5ed9afd83332c32164a95b09461ec"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-cn-batch35.json",
+          "sha256": "9bdf67b4be90bc395f58f8811928bbee47d78fbc307f9418e3774541b5c0a7e2"
+        },
+        {
+          "path": "A3-cn-batch35-receipt.json",
+          "sha256": "9d7eb3be5b63260ddb04d2c01f2627f72482f7ae2eca91254a2e1ed6be9e23ac"
+        }
+      ],
+      "accepted_at": "2026-11-09T02:05:29.159585+08:00"
+    },
+    {
+      "id": "H4",
+      "from": "same_A3",
+      "to": "same_A4",
+      "status": "zero_input",
+      "reason": "原A4实际读两名上游拒绝及固定SHA，0合格中文/0英文/0分/0查询，不是尚未开始。",
+      "refs": [
+        {
+          "path": "A4-zero-input-batch27.json",
+          "sha256": "871593f542f1192fd16d3a272d2bbd455bd0699e51ad06f13edbd5a87376dd94"
+        },
+        {
+          "path": "A4-zero-input-batch27-receipt.json",
+          "sha256": "2fc86872d60bd52388a31dd09399e02caca433d787bb91657559af6f49121640"
+        }
+      ],
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "A3-cn-batch35.json",
+          "sha256": "9bdf67b4be90bc395f58f8811928bbee47d78fbc307f9418e3774541b5c0a7e2"
+        },
+        {
+          "path": "A3-cn-batch35-receipt.json",
+          "sha256": "9d7eb3be5b63260ddb04d2c01f2627f72482f7ae2eca91254a2e1ed6be9e23ac"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A4-zero-input-batch27.json",
+          "sha256": "871593f542f1192fd16d3a272d2bbd455bd0699e51ad06f13edbd5a87376dd94"
+        },
+        {
+          "path": "A4-zero-input-batch27-receipt.json",
+          "sha256": "2fc86872d60bd52388a31dd09399e02caca433d787bb91657559af6f49121640"
+        }
+      ],
+      "accepted_at": "2026-11-09T02:05:29.159585+08:00"
+    },
+    {
+      "id": "H5",
+      "from": "same_A4",
+      "to": "same_A3",
+      "status": "zero_input",
+      "reason": "真实零输出交同一原A3，不占EN45/E47或救中文。",
+      "refs": [
+        {
+          "path": "A4-zero-input-batch27.json",
+          "sha256": "871593f542f1192fd16d3a272d2bbd455bd0699e51ad06f13edbd5a87376dd94"
+        }
+      ],
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "A4-zero-input-batch27.json",
+          "sha256": "871593f542f1192fd16d3a272d2bbd455bd0699e51ad06f13edbd5a87376dd94"
+        },
+        {
+          "path": "A4-zero-input-batch27-receipt.json",
+          "sha256": "2fc86872d60bd52388a31dd09399e02caca433d787bb91657559af6f49121640"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-en-zero-batch27.json",
+          "sha256": "6812952e0269c22b433f6f96860589f574fb59f9a97006b696cb2707edc1a136"
+        }
+      ],
+      "accepted_at": "2026-11-09T02:05:29.159585+08:00"
+    },
+    {
+      "id": "H6",
+      "from": "same_A3",
+      "to": "root",
+      "status": "zero_input",
+      "reason": "同一原A3实际核32项引用，0英语/查询，累计数不变。",
+      "refs": [
+        {
+          "path": "A3-en-zero-batch27.json",
+          "sha256": "6812952e0269c22b433f6f96860589f574fb59f9a97006b696cb2707edc1a136"
+        },
+        {
+          "path": "A3-en-zero-batch27-receipt.json",
+          "sha256": "d87b2e402e8bc989345d3b7e1461530196125abf20e56b0ce0a8c15622f0d30f"
+        }
+      ],
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "A3-en-zero-batch27.json",
+          "sha256": "6812952e0269c22b433f6f96860589f574fb59f9a97006b696cb2707edc1a136"
+        },
+        {
+          "path": "A3-en-zero-batch27-receipt.json",
+          "sha256": "d87b2e402e8bc989345d3b7e1461530196125abf20e56b0ce0a8c15622f0d30f"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "continuations/2026-11-08T172307Z/root-zero-terminal-review.json",
+          "sha256": "7cdf400a7f0c71494bd0c247fcf3d84983feac5dac861fefca435d9530bc8a1c"
+        }
+      ],
+      "accepted_at": "2026-11-09T02:05:29.159585+08:00"
+    },
+    {
+      "id": "H7",
+      "from": "root",
+      "to": "catalog",
+      "status": "zero_input",
+      "reason": "C53/C54已有具名软件使用，不入备选，具体证据与失败性质公开。",
+      "refs": [
+        {
+          "path": "continuations/2026-11-08T172307Z/decisions-through-batch36.json",
+          "sha256": "df179aaf42e52874a807e9c4e9c0929ff9add5e8262a3b1bc6c0adc27de33b98"
+        }
+      ],
+      "candidate_ids": [],
+      "terminal_decision": "no_admission",
+      "input_refs": [
+        {
+          "path": "continuations/2026-11-08T172307Z/root-zero-terminal-review.json",
+          "sha256": "7cdf400a7f0c71494bd0c247fcf3d84983feac5dac861fefca435d9530bc8a1c"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "continuations/2026-11-08T172307Z/decisions-through-batch36.json",
+          "sha256": "df179aaf42e52874a807e9c4e9c0929ff9add5e8262a3b1bc6c0adc27de33b98"
+        }
+      ],
+      "accepted_at": "2026-11-09T02:05:29.159585+08:00"
+    }
+  ]
+}

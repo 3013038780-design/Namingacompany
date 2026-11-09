@@ -1,0 +1,176 @@
+{
+  "accepted_at": "2026-11-08T17:43:15.028780+08:00",
+  "same_research_run": true,
+  "new_A1_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "accepted_at": "2026-11-08T17:43:15.028780+08:00",
+      "from": "existing_A1",
+      "to": "same_A2",
+      "status": "accepted",
+      "candidate_ids": [],
+      "reason": "同一真实原A1案例与已验收六向计划沿用，不计新案例",
+      "refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A1-final-input-reacceptance.json",
+          "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.json",
+          "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "accepted_at": "2026-11-08T17:43:15.028780+08:00",
+      "from": "same_A2",
+      "to": "coordinator",
+      "status": "returned",
+      "candidate_ids": [
+        "C1-C33"
+      ],
+      "reason": "先无分独评23再看作者25，自然与Lab各3挡住，差1，无>=2分强制返评；素材真实不补品牌",
+      "refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch19.json",
+          "sha256": "ebf4e8ee050a011b3736a64f465e6c3775d57fb67da61ee6460ee0f7ffc8a43b"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/materials-extension18.json",
+          "sha256": "8846f4654ee5d3782297b11876b27ade8c541474d0b3c1d551a70c9b1ede42a9"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch19.md",
+          "sha256": "18efe48d70b4707abdfea15163a572d9b406621f2e468c5d66be54e6b1278682"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch19.json",
+          "sha256": "19b096bb9387bff5ed5161f6172e06552e099d6ac0dc0561f45855a9ca182256"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch19.json",
+          "sha256": "6b11d60f4a1e461ddaea1b67bb0aa7e49f849496ab6d5e34e2731d577830817c"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch19.json",
+          "sha256": "26a7936699967417e6298a0b28971a9291bffbb6699c9cd6c274cdb8ca8115a2"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "accepted_at": "2026-11-08T17:43:15.028780+08:00",
+      "from": "coordinator",
+      "to": "same_A3",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C33"
+      ],
+      "reason": "实际原A3核上游，C33零查询，不称占用或可用",
+      "refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch21.json",
+          "sha256": "83100580afd76a9d6e5cab68cabbafb3836c560a27c21cb033f017b2b25fece6"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch21-receipt.json",
+          "sha256": "b7da753ab4b6235ed263b4ee230dc6d1eca1f674e643c398052b97714109a6e6"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "accepted_at": "2026-11-08T17:43:15.028780+08:00",
+      "from": "same_A3",
+      "to": "same_A4",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C33"
+      ],
+      "reason": "原A4实际核零中文输入，不配英文救回",
+      "refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch19.json",
+          "sha256": "e9343b6ef297fc4fbd9798bf7367f851e595c5c599d7e82448385ec709608984"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch19-receipt.json",
+          "sha256": "29e27541da5e3c78ddee5c5cc2383da5c21973116efcbcf230a9eca6a51670e0"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "accepted_at": "2026-11-08T17:43:15.028780+08:00",
+      "from": "same_A4",
+      "to": "same_A3",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C33"
+      ],
+      "reason": "实际英文0，不伪造质量评或占用查询",
+      "refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch19.json",
+          "sha256": "e9343b6ef297fc4fbd9798bf7367f851e595c5c599d7e82448385ec709608984"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch19.json",
+          "sha256": "c73a87ef4eee5978987f902d6661e68a30c708f3e29c5e3f35f02e9f7de85ab3"
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "accepted_at": "2026-11-08T17:43:15.028780+08:00",
+      "from": "same_A3",
+      "to": "coordinator",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C33"
+      ],
+      "reason": "同一原A3实际读A4零档核SHA并完成零终核",
+      "refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch19.json",
+          "sha256": "c73a87ef4eee5978987f902d6661e68a30c708f3e29c5e3f35f02e9f7de85ab3"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch19-receipt.json",
+          "sha256": "c4575afed2d804720773588a27783cc85d43523534f09888c0183dba1a93a538"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "accepted_at": "2026-11-08T17:43:15.028780+08:00",
+      "from": "coordinator",
+      "to": "catalog",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C33"
+      ],
+      "reason": "没有合格配对，不入库；原待核C23和登记边界保持，不虚称生产全批完成",
+      "refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T093057Z/root-source-and-quality-review-batch19.json",
+          "sha256": "de9f8ccc351ddb652a11ce4a11733e6cca0be20dc865a2ba208d015b2b10f14d"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T093057Z/decisions-through-batch19.json",
+          "sha256": "04b39003c7f5540ad8d1d20063f9ef969bd62541dfe3d7350544f10de8a72480"
+        }
+      ]
+    }
+  ]
+}

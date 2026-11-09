@@ -1,0 +1,138 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-06T18:02:42+08:00",
+  "status": "reviewed_with_holds_not_ready_to_expand",
+  "scope": "Material checkpoint only, not Chinese brand quality gate or full H2 acceptance.",
+  "materials_ref": {
+    "path": "materials.json",
+    "sha256": "4a5ecefea5c3c8f77237b8861da18ad467f1bb38bb426f4488fcb8f7dd483d31"
+  },
+  "producer_receipt_ref": {
+    "path": "producer-receipt.json",
+    "sha256": "618105bea822e7b7bf715c0cc9e58664f949e68ea1bc38f66569f0d63c298b32"
+  },
+  "reviews": [
+    {
+      "material_id": "P01",
+      "plan_direction_id": "D1",
+      "case_ids": [
+        "B025",
+        "B013"
+      ],
+      "title": "意符与可供性的区分",
+      "status": "retain_for_research",
+      "reason": "Cursor/Apple的使用关系被具体化为行动可能性与可感线索的区别；Norman正文与例子支持。与旧按键/触觉载体区别成立，但后续不能只挑新物件名。",
+      "source_audit": "source-review.json",
+      "new_brand_names": 0
+    },
+    {
+      "material_id": "P02",
+      "plan_direction_id": "D2A",
+      "case_ids": [
+        "B039"
+      ],
+      "title": "山坡风的昼夜热力反转与地形收束",
+      "status": "retain_for_research",
+      "reason": "Mistral的地域力量引出坡面热差/密度/重力的具体因果及反转条件；与旧上升流的驱动机制有区别。不能缩成借风或永远向上。",
+      "source_audit": "source-review.json",
+      "new_brand_names": 0
+    },
+    {
+      "material_id": "P03",
+      "plan_direction_id": "D2B",
+      "case_ids": [
+        "B076",
+        "B085"
+      ],
+      "title": "丛枝菌根共生调控网络的差异性基因保留与蛋白互作",
+      "status": "hold_scale_and_methods",
+      "reason": "正文支持演化中的构件与互作分化；但不等于使用期间结构重构，计划发生尺度调整，且原论文方法待核。作为问题卡保留，不计当前清晰保留项。",
+      "source_audit": "source-review.json",
+      "new_brand_names": 0
+    },
+    {
+      "material_id": "P04",
+      "plan_direction_id": "D3A",
+      "case_ids": [
+        "B010"
+      ],
+      "title": "信息表示中的位序列与解释上下文",
+      "status": "retain_for_research",
+      "reason": "Byte基本单位的案例引到位载体与合法解释的区别，原书1.1直接支持；与闭包保留词法环境不同。后续需继续保留编码/解释关系，不泛化成语境。",
+      "source_audit": "source-review.json",
+      "new_brand_names": 0
+    },
+    {
+      "material_id": "P05",
+      "plan_direction_id": "D3B",
+      "case_ids": [
+        "B004"
+      ],
+      "title": "科学工作流演化的来源追踪",
+      "status": "hold_family_boundary",
+      "reason": "流程修改树是真实机制，且与敦煌碎片对象不同；仍需辨清与旧高阶方法、增量/历史留痕家族的关系。暂不以新书实例判成新独立命名资源。",
+      "source_audit": "source-review.json",
+      "new_brand_names": 0
+    },
+    {
+      "material_id": "P06",
+      "plan_direction_id": "D4",
+      "case_ids": [
+        "B021"
+      ],
+      "title": "敦煌散藏文物数字资源重聚与残卷缀合",
+      "status": "retain_for_research",
+      "reason": "Oracle/甲骨文的知识记录传统引出中国当代文献实践，数字缀合与原出处权利共存的关系明确；不当作算法性能验证，也不缩成旧合流。",
+      "source_audit": "source-review.json",
+      "new_brand_names": 0
+    },
+    {
+      "material_id": "P07",
+      "plan_direction_id": "D5",
+      "case_ids": [
+        "B023",
+        "B037"
+      ],
+      "title": "驾驶舱速度标记与分布式认知中的任务重构",
+      "status": "retain_for_research",
+      "reason": "Anthropic/Imbue主体与赋能问题，落实到任务形式及系统边界改变；作者直接排除个人记忆增强的误读。与旧滑尺/地图区别须继续保留系统组织层。",
+      "source_audit": "source-review.json",
+      "new_brand_names": 0
+    },
+    {
+      "material_id": "P08",
+      "plan_direction_id": "D6",
+      "case_ids": [
+        "B033",
+        "B022"
+      ],
+      "title": "关机博弈中的目标不确定性与人类监督激励",
+      "status": "discussion_only",
+      "reason": "将SSI/OpenAI的目标与约束转成明确激励模型，有实质原理；但公司的价值立场尚未选择，只作立场讨论，不作为命名承诺。",
+      "source_audit": "source-review.json",
+      "new_brand_names": 0
+    }
+  ],
+  "counts": {
+    "submitted_cards": 8,
+    "macro_directions": 6,
+    "retain_for_research": 5,
+    "hold_scale_or_family": 2,
+    "discussion_only": 1,
+    "new_names": 0
+  },
+  "pilot_continue_rule": {
+    "minimum_clear_distinct_families_worth_retaining": 6,
+    "current_clear_retained": 5,
+    "met": false,
+    "conclusion": "Do not expand to24 or begin naming. Deliver8 investigated cards with real holds; next targeted research should address scale/family issues, not fill count."
+  },
+  "metadata_rework": "Original3 artifacts and receipt preserved; A2 replaced unstable line references and corrected aggregate-record time labels. No source fact changed.",
+  "source_correction_trigger": "No core factual mismatch found in8-card main-source audit; all8 reviewed independently.",
+  "not_started": [
+    "name_creation",
+    "A3",
+    "A4",
+    "registration_screening"
+  ]
+}

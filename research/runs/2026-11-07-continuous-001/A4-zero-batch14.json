@@ -1,0 +1,60 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T11:46:23.614575+08:00",
+  "work_packet": "A2 batch14 / A3 cn16",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch14.json",
+      "sha256": "5c06e31638fd0f96e5cdc53fa2595baa64a9210b21808568bd46f141bfd15731"
+    },
+    {
+      "path": "A2-quality-batch14.json",
+      "sha256": "7c7629f4e9d28dae03ff8913ddaad967187f0ffd8473e1a05f2649e278026eb5"
+    },
+    {
+      "path": "coordinator-cn-batch14.json",
+      "sha256": "9f15fa57c0207ff257155fe455c6511bc6a44a0aef23e9893fdfd9c9282f88c4"
+    },
+    {
+      "path": "coordinator-family-review-batch14.json",
+      "sha256": "86231769440843107b6540779e9ecaf882d3132588d07e773028daa7a0fd71f5"
+    },
+    {
+      "path": "A3-cn-batch16.json",
+      "sha256": "ce5acf487a72937c44e186ee344c309c6ad83d74b671ad2c50a432488085faa3"
+    },
+    {
+      "path": "A3-cn-batch16.md",
+      "sha256": "723eb14be221e96fb209ed079115dddb053d79e22b1ba14cb4c707d116e49827"
+    },
+    {
+      "path": "A3-cn-batch16-receipt.json",
+      "sha256": "e4f293f6e28b26888f6b0d065367f19ed3321a1adc37cccc53366c6223d6f70f"
+    }
+  ],
+  "actual_upstream_read": true,
+  "execution": "实际读取橡皮鸭唯一候选、双质量评审、主控家族审核、原A3正式JSON/可读MD/receipt并核输出SHA，完成本包真实零匹配。",
+  "upstream_chinese_candidates": 1,
+  "chinese_quality_accepted": 1,
+  "A3_chinese_queries_reported": 9,
+  "qualified_chinese_inputs": 0,
+  "english_candidates": [],
+  "english_output_count": 0,
+  "new_english_scores": 0,
+  "new_usage_queries": 0,
+  "new_registration_queries": 0,
+  "decision": "zero_input_after_named_ai_agent_and_company_core_use",
+  "excluded": [
+    {
+      "candidate_id": "C1-C27",
+      "name": "橡皮鸭",
+      "reason": "原A3读GitHub官方中文产品文档，Copilot内置具名代理橡皮鸭/橡胶鸭；不是只有通用橡皮鸭调试法。南京橡皮鸭科技有限公司另在历史科技入库名单镜像出现。",
+      "limits": "具名AI代理不等于独立基础模型；历史名单镜像不等于实时工商登记。官方名单目标超时及机器翻译用词混用按原档披露，不冒称9/42商标已核。"
+    }
+  ],
+  "reading_boundary": "本角色此次仅读上游落盘证据，未重新访问官网/列表/登记门户，不擅将RubberDuck等当英文候选或英文审查。",
+  "next": "交同一原A3实际英文零输入终核；只关闭此家族本包，整体持续研究不停止。",
+  "unchanged": "不换英文救中文、不新词或分数、不搜索、不修改旧稿/receipt/总库/索引/Git。"
+}

@@ -1,0 +1,80 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "executed_at": "2026-11-08T17:13:44.876955+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch18.json",
+      "sha256": "6c404de20de01d7590b8f10ec5f7f409b7450cd8173872dd982ae05dba3a48b0"
+    },
+    {
+      "path": "A2-quality-batch18.json",
+      "sha256": "76a33f8b20fc2200a4e2a4d90ff73b605aed47e3edddd55a57c4ace129f73279"
+    },
+    {
+      "path": "materials-extension17.json",
+      "sha256": "f9e2e35ae9a0b2863c20001215e97eab573dfc6db3490e632b72ace96944a9aa"
+    },
+    {
+      "path": "coordinator-cn-batch18.json",
+      "sha256": "34cf0d33f16423bb8c85a72a2ed4c077065852c95d5ddb072c7e1d49ca918037"
+    },
+    {
+      "path": "coordinator-family-review-batch18.json",
+      "sha256": "1f5f1d72b924a5dca6b9c7ece4a9b5b7e1119f04e44a434acbdb43e41f54b019"
+    },
+    {
+      "path": "A3-cn-batch20.json",
+      "sha256": "46fb678428531c7bbd0edc34489bb1e7d457b12aaf36c6a54711e63481016d99"
+    },
+    {
+      "path": "A3-cn-batch20.md",
+      "sha256": "8ddfc8496de60b52b17f001247c83604222a578277ce0f0fdcd29cdaaea756b7"
+    },
+    {
+      "path": "A3-cn-batch20-receipt.json",
+      "sha256": "4144ad247fa67e6f33db4c233a1d48d4c61ccb932d30373136424267d908e3b6"
+    },
+    {
+      "path": "continuations/2026-11-08T062253Z/root-C31-nearname-review.json",
+      "sha256": "0acc4b62241c19cdb3a68ccc3c8f186685698ac1dbd223eafab8a77d7b0288a8"
+    }
+  ],
+  "actual_upstream_check": "读两候选/双评/素材/家族/A3正式中文报告/receipt及主控近名决定，核receipt输出SHA。仅C31合格，C32拒绝未查。",
+  "actual_source_reads": [
+    {
+      "url": "https://web.cs.ucla.edu/~kaoru/BIB5/pearl-etal-2016-primer-text.pdf",
+      "local_path": "/tmp/continuous001-causal-primer.pdf",
+      "sha256": "1041d4522d8c458868d1e16617bf663cd9c3764cdf91df42d689798095d61d59",
+      "scope": "pypdf实际PDF114/117/118页，非全书"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/supposal",
+      "scope": "实际web31–42行词义和读法"
+    }
+  ],
+  "local_history_query": "rg English/name字段Supposal，无本地命中；不是市场使用查询。",
+  "nearname_boundary": "按固定报告披露未然科技/未然图灵/杭州近名；机非组织后缀，主控珠海原站失败范围不改，不冒称本次独立正文复核。",
+  "relationship_used": "同个体事实约束背景后改条件，再模型求解未现实结果；非普通未来预测或虚拟排练练策略。",
+  "output_candidate_ids": [
+    "C1-E26"
+  ],
+  "upstream_chinese_drafts": 2,
+  "eligible_chinese_for_English": 1,
+  "excluded_chinese_ids": [
+    "C1-C32"
+  ],
+  "excluded_english_outputs": 0,
+  "new_chinese_names": 0,
+  "new_english_versions": 1,
+  "usage_queries": 0,
+  "registration_queries": 0,
+  "rework_attempt": 0,
+  "remaining_reworks": 2,
+  "outputs": [
+    "A4-preview-batch26.md",
+    "A4-candidates-batch26.json",
+    "A4-quality-batch26.json"
+  ],
+  "original_records_unchanged": true
+}

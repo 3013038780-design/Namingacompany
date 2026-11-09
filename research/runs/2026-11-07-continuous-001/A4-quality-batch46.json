@@ -1,0 +1,60 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "reviewed_at": "2026-11-09T17:03:15.240251+08:00",
+  "unscored_stage_refs": [
+    {
+      "path": "A4-preview-batch46.json",
+      "sha256": "61766414b1d46bc77f458da8ffef1e70de8398851f8d5f150e01a901887b0efd"
+    },
+    {
+      "path": "A4-preview-batch46.md",
+      "sha256": "34331406efc87a4f2cbe32ada02abdad470bb1628c8a7e66fb4a3b8e9257d214"
+    },
+    {
+      "path": "A4-creation-execution-batch46.json",
+      "sha256": "c14b5fe15202b71e1e60ed4d62324dcd5a0986e2a888d8e3b79677d01a9008e6"
+    }
+  ],
+  "reviews": [
+    {
+      "candidate_id": "C1-E48",
+      "chinese_id": "C1-C63",
+      "english": "At Hand",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个常用单音词顺口，可轻读at重读hand，不需教授陌生词形。",
+          "counter_association": "整句音标是作者建议而非本词条录音，不等于已做受众听测。"
+        },
+        "spelling": {
+          "reason": "正常分写at hand，全词形已核，不需要随机改字母或解释隐蔽词根。",
+          "counter_association": "可能分合写/连字符或误以Hand是主名，首次仍需明确完整称呼。"
+        },
+        "grounding": {
+          "reason": "词条可取用范围义真实，Erlang消息已在队列与取用分层真实，共同支持有限主题。",
+          "counter_association": "within reach非消息已匹配的证明，英文不是正式机制名或每项必可立即执行。"
+        },
+        "bilingual_relation": {
+          "reason": "中文候场与英文在手边都表示已经就位而尚未必投入行动。",
+          "counter_association": "英文丢消息主体与具体匹配条件，仅主题对应，不能假装逐字或算法等同。"
+        },
+        "distinctiveness": {
+          "reason": "短语作为称呼完整、日常，可先承载研究态度再讲信息到行动的关系。",
+          "counter_association": "泛用性高、助手/生活服务/护理或手作首感强，独立记点只达较弱档；出处真不能补满，主控可独判研究身份不足。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "沿原五轴/关键轴门槛，未看主控EN46数值；先无分稿与执行封存交接后才实际写本数字。自然常用不代表独特商业身份；独立辨识较弱如实，不因来源抬分。"
+    }
+  ]
+}

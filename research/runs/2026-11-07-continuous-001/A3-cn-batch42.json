@@ -1,0 +1,153 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-09T03:46:34.235142+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch40.json",
+      "sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch40.md",
+      "sha256": "c856111bc420fee34bc9bcdcaa2b5c8c341cdc573b807f69a6d95dc5a1e983fa"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch40.json",
+      "sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch40.json",
+      "sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch40.json",
+      "sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch40.json",
+      "sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch41.json",
+      "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-cn41-review.json",
+      "sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759"
+    }
+  ],
+  "query_count": 8,
+  "completed_search_result_count": 8,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-C57",
+      "name": "逆序猫",
+      "traditional": "逆序貓",
+      "version": 2,
+      "rework_attempt": 1,
+      "replaces_name": "时镜",
+      "query_logs": [
+        {
+          "query": "\"逆序猫\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "精确主要洛谷逆序对题设中的TOM老猫与成语逆序猫噬鹦鹉；两类实际正文消歧，不是完整独立品牌。"
+        },
+        {
+          "query": "\"逆序猫公司\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "公司精确主要猫眼电影版权名单/导航散列词/小说剧情公司，不见明确完整逆序猫商业主体。"
+        },
+        {
+          "query": "\"逆序猫科技\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "科技精确主要ICP备案普通清单及逆序队高校竞赛队，队名不同且不是本名科技公司。"
+        },
+        {
+          "query": "\"逆序猫智能\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "智能精确主要编程用户题库/导航列表/金融资讯散列词，不见明确逆序猫智能主体；未以用户页自动判软件品牌。"
+        },
+        {
+          "query": "\"逆序猫\" AI 模型 软件",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "AI模型软件组是逆向工程工具REA报道、猫砂盆设备讨论、题解及普通导航，不是完整逆序猫模型/软件命名。"
+        },
+        {
+          "query": "\"逆序貓\" 公司 軟體 品牌",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "繁体主要照片轻删App内逆序浏览与猫搜索功能分散描述、洛谷题解与程式貓週刊；名称不同，不自动合并为逆序貓软件。"
+        },
+        {
+          "query": "\"nixumao\" company software",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "合理拼音nixumao公司软件搜索无命中，不当注册无记录证明。"
+        },
+        {
+          "query": "\"逆序喵\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "近写逆序喵主要逆序队/喵语气词题解、论坛排序功能及游戏中的逆序接电，未确证完整近形商业主体。"
+        }
+      ],
+      "decision": "pass_public_use_precheck_not_registration_clearance",
+      "reason": "八组有效独立查询覆盖新名字，未见明确完整同核心科技/AI/模型/独立软件或商业主体；具体潜在串命中已读正文消歧。允许送原A4，非全球未使用/可注册。",
+      "evidence": [
+        {
+          "url": "https://www.luogu.com.cn/problem/P1908",
+          "access": "primary_problem_platform_body_read",
+          "finding": "实际19行：L2 P1908逆序对，L6猫猫TOM/小老鼠JERRY和逆序对题设，L10/14输入输出。产品/题目名称不是逆序猫，猫与逆序分散普通文本，不判品牌占用。"
+        },
+        {
+          "url": "https://www.lqyfsx.com/jielong/maoshiyingwu.html",
+          "access": "author_content_page_body_read",
+          "finding": "实际140行，L2猫噬鹦鹉成语接龙，L68逆序猫噬鹦鹉串，L79–82为逆序接龙规则；逆序是规则、猫是成语首字，非独立逆序猫软件或公司。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Nixumao",
+          "scope": "2026-11-09本次逐名拼音入口不可访问；非无登记。"
+        }
+      },
+      "risks": [
+        "游戏角色/编程吉祥物/AI宠物首感依原双评保留，未见同名不是品牌质量加分",
+        "猫只是原作者概念示意文本，未看原图/原论文方法，不是活猫/猫图像信号实际测量",
+        "同C57/M70原家族R1，不新增家族/主ID/材料，不继承旧时镜的8查询",
+        "大陆公司与9/42未逐名核准，境外入口不可访问，公开检索范围有限"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "原run两实际阳性复用，本次0新增。",
+  "passed_chinese_candidate_ids": [
+    "C1-C57"
+  ],
+  "rejected_chinese_candidate_ids": [],
+  "held_chinese_candidate_ids": [],
+  "new_primary_families": 0,
+  "new_materials": 0,
+  "selected_surface_revision": 1
+}

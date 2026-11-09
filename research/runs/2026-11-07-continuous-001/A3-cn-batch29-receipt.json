@@ -1,0 +1,64 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese screening",
+  "executed_at": "2026-11-08T22:35:43.035866+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch27.json",
+      "sha256": "2cdc172cfe581bf798eabbd41a78b08d98d953a3586584e19fdd2ee63a54a1b4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch27.json",
+      "sha256": "8c88a41338d4c9f7296017dbb681c943a9cb6202f22a5f6c33fac04f2f6c739b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch27.json",
+      "sha256": "f1cc179ca8dd63084f1e8c109d2747f816fcdf35a1f080db3d593f065c2e4fd8"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension25.json",
+      "sha256": "a910d37fd432d098fb7cdd36e7ea1ea09113e42e4fb027b1f0450e6702bc56bb"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch27.json",
+      "sha256": "7e241761162a02b7be03cc0af2ec28ffe86a02462515912abeadcd73f53e5d05"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch27.json",
+      "sha256": "f0e7a7daba847189eb69ac53b9d218df760b9f8cd3822ce6305d9d60efa77d22"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch29.json",
+      "sha256": "1b41cdbf9aa61e11da190d79d15e50f61c911addc3eda31c242ae805558193fa"
+    },
+    {
+      "path": "A3-cn-batch29.md",
+      "sha256": "8d6dce041a1a3a0284e51c69feb7793ed4f288d0b317121ad242183167a1b7f5"
+    }
+  ],
+  "actual_new_candidate_queries": 10,
+  "completed_candidate_search_results": 10,
+  "unreturned_search_attempts": 0,
+  "actual_new_chinese_queries": 10,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 506,
+  "prior_agent3_returned_candidate_results": 505,
+  "agent3_cumulative_candidate_queries": 516,
+  "agent3_cumulative_returned_candidate_results": 515,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 518,
+  "run_cumulative_returned_candidate_results": 517,
+  "passed_english_candidate_ids": [],
+  "returned_english_candidate_ids": [],
+  "quality_rejected_not_searched_ids": [],
+  "actual_execution": "真实10查询，具体拼音公司线索经专利PDF首页核为轩旷；普通功能/动作与独立品牌分明。",
+  "next": "C46交原A4英文匹配，再同A3独立英文筛查，不直接入库。",
+  "unchanged": "旧记录/库/队列/Git未改，无网页全文。",
+  "passed_chinese_candidate_ids": [
+    "C1-C46"
+  ],
+  "rejected_chinese_candidate_ids": []
+}

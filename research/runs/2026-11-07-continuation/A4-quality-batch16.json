@@ -1,0 +1,84 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T18:52:28+08:00",
+  "reviews": [
+    {
+      "candidate_id": "CT-E29",
+      "chinese_id": "CT-C16",
+      "english": "Pass the Ember",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通动作词组，四音节直接可读。",
+          "counter_association": "the在元音前通常读thee，也有弱读变体。"
+        },
+        "spelling": {
+          "reason": "三个完整普通词，无变形。",
+          "counter_association": "须查PassTheEmber连写。"
+        },
+        "formation": {
+          "reason": "传递火种的完整行动场景。",
+          "counter_association": "不是原典英文翻译引用。"
+        },
+        "bilingual_relation": {
+          "reason": "两语都保留火在载体之间继续相传。",
+          "counter_association": "不把文化意象当性能保证。"
+        },
+        "distinctiveness": {
+          "reason": "有可记行动和角色，但独立专名感中等。",
+          "counter_association": "可能像文化活动/标语。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；待主控独评和原A3，两个中文各还余1次返工。"
+    },
+    {
+      "candidate_id": "CT-E30",
+      "chinese_id": "CT-C18",
+      "english": "Sky Detour",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "sky与detour正常三音节。",
+          "counter_association": "detour有地域重音/元音差异。"
+        },
+        "spelling": {
+          "reason": "两个完整词，无造字母。",
+          "counter_association": "须查SkyDetour与Sky-Detour。"
+        },
+        "formation": {
+          "reason": "天空与绕行路径组成同一完整场景。",
+          "counter_association": "detour为比喻，不是物理术语。"
+        },
+        "bilingual_relation": {
+          "reason": "光路与天空路径相接，锚点仍是透镜几何。",
+          "counter_association": "英文不直接显示light。"
+        },
+        "distinctiveness": {
+          "reason": "有未知路径与观察世界的机构想象。",
+          "counter_association": "可能像航旅/科幻品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；待主控独评和原A3，两个中文各还余1次返工。"
+    }
+  ]
+}

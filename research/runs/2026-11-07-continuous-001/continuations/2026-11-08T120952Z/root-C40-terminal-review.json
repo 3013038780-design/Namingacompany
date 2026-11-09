@@ -1,0 +1,103 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-08T21:07:49.913340+08:00",
+  "candidate_id": "C1-C40",
+  "english_id": "C1-E31",
+  "decision": "discussion_candidate",
+  "source_verification": "root实际web读CAS日期376与科学正文386–397特别390，圆柱绕流/径向锥形刺/局部微涡旋/雾滴碰撞；未看图或原论文全方法/实测。原M07复用不计新材料。实际读MW spine31–57植物尖刺及eddy31–56空气/水回旋义。",
+  "scope_correction": "原A2原crossing沿用整机三级背景，root实际退原作者澄清；作者实际重读并另留补记，不覆盖原稿/分/执行SHA。采用补记candidate_specific_crossing，原名保留和损失不变，A3中文/A4/同A3英文均实际读并固定该补记。不是事后声称旧原稿本来已同步收窄。",
+  "family_verification": "全历史1151文件命名字段及原稿比对，M07此前未提案；旧声入纹触针/铅笔留痕是记录，合流汇聚/上升流输送非本锥形刺改变局部流场捕获。不泛化未知突破/噪声收集，不因新描述另算多个家族。",
+  "false_positive_verification": "root实际读AIバトラー7和33–44，霧針是角色招式，页上模型另名；未读生成长小说。root核共享原包README同SHA1965cd4b6b0e3cc78e12c2519e6061fa11e5cb1d2845d238ebb9dc49cd62cc50，实际读示例eddy变量/资源名称，软件包为@vf.js/spine，未安装/运行代码。root实际读HSMC32–48姓名Eddy Achkar与spine专科，不误作Spine Eddy品牌。npm403等访问边界按原A3保留未重复。",
+  "quality": {
+    "chinese": [
+      25,
+      25
+    ],
+    "english": [
+      21,
+      21
+    ],
+    "all_axes_pass": true,
+    "maximum_axis_difference": 0,
+    "score_scope": "先无分预览独评封存后看作者数字，补审未新打分，不是消费者测试。"
+  },
+  "limitations": "中文雾化/针灸/纹身/水务首感、雾模糊与针刺痛；英文spine脊柱医疗/仿真课题、Eddy/Eddie听写及介质省略；同词虚构招式与Wuzhen近音拥挤。只借捕获入口，不把吸入排水和主动制冷归单针，不承诺AI表现。大陆公司/9与42未逐名核准，英国逐名入口不可访问，非全球无注册或可注册。",
+  "evidence_refs": [
+    {
+      "path": "A2-candidates-batch23.json",
+      "sha256": "2ed9786614c8c7f38068d2417538708a47138f7afb324bf25084012814fb06e4"
+    },
+    {
+      "path": "A2-quality-batch23.json",
+      "sha256": "13fbd12fdca9d83d767da62668f93df5ff62ebd8406cdb7cde9dcb9650744b58"
+    },
+    {
+      "path": "A2-creation-execution-batch23.json",
+      "sha256": "3e0e0965d66046249d3d50a5f6af0d8e833a8dc4a049aae5c12da40fe592b8a9"
+    },
+    {
+      "path": "A2-material-reuse-batch23.json",
+      "sha256": "0ea3da91e277ce675e111b3956d1552650114c1108f567047235ba9aca229248"
+    },
+    {
+      "path": "A2-C40-source-scope-addendum.json",
+      "sha256": "0ab1e9325b0192f362b04646a23803ddc6d4bedaaf010b56face886655030119"
+    },
+    {
+      "path": "A2-C40-source-scope-addendum-execution.json",
+      "sha256": "df34b988a8579d1323792ca3bf8b2ecf8ad35d427d85c9d36e10e888fa9a79db"
+    },
+    {
+      "path": "coordinator-cn-batch23.json",
+      "sha256": "da5695d6f2cdc5f0d77d29eb2147e129d743635df8d42e2df4eb7dbabb59ad2a"
+    },
+    {
+      "path": "coordinator-family-review-batch23.json",
+      "sha256": "8bae13163b9559ecfe8eb04a30566659e01cf0e89b5e8eba244da4fddbf122dc"
+    },
+    {
+      "path": "A3-cn-batch25.json",
+      "sha256": "cdfc1c430be3e97a00877caaad758c2d51f839a11ed876aa62f9e1417f562cdb"
+    },
+    {
+      "path": "A3-cn-batch25-receipt.json",
+      "sha256": "fd02073652004b2b07d11077f3259e1c74e1ba0ce7016c130f6b82fc5c4229d4"
+    },
+    {
+      "path": "A4-candidates-batch30.json",
+      "sha256": "6a54fd55a32cb6c0c496c1a8c796eed765f87c72431b783859ad39d53a325345"
+    },
+    {
+      "path": "A4-quality-batch30.json",
+      "sha256": "1396ecf23e9eb9d59456c9a9919ef63622b22f5355424bc207d828d6f43ea0b0"
+    },
+    {
+      "path": "A4-creation-execution-batch30.json",
+      "sha256": "ac552432dddd57c7dc03ad34be84ec80bd1efaecbd0d5f853d945333fa72701d"
+    },
+    {
+      "path": "coordinator-en-batch30.json",
+      "sha256": "af494e5f191a0a5d46e225c38a95ac30cea295596ea7a2a597d994dce072af09"
+    },
+    {
+      "path": "A3-en-batch30.json",
+      "sha256": "3c1642b2cd458c7c704ca129048156e6fc2a5d14a19f13665c90549f1b61f7a4"
+    },
+    {
+      "path": "A3-en-batch30-receipt.json",
+      "sha256": "387dca350ea8dd02ec51cc943a68e8e52f3b55585793b621ee7839932b2909a8"
+    },
+    {
+      "path": "A4-C40-postscreen-review.json",
+      "sha256": "308339c54e3acd2646d2fa5719606c8b04b2bfaf20512e7e87be42e25ef1c28f"
+    },
+    {
+      "path": "continuations/2026-11-08T120952Z/root-C40-source-scope-acceptance.json",
+      "sha256": "8bae13163b9559ecfe8eb04a30566659e01cf0e89b5e8eba244da4fddbf122dc"
+    },
+    {
+      "path": "continuations/2026-11-08T120952Z/root-C40-cn25-review.json",
+      "sha256": "48a00f6fdac7b8ad10c7a2deb90bba6ae7684928c9ee11ac6bcbbfe0dd829501"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-08T16:58:14.940619+00:00",
+  "reviewer": "/root",
+  "english_id": "C1-E44",
+  "decision": "accept_existing_named_AI_software_rejection_return_original_A4_R1",
+  "actual_root_reading": [
+    {
+      "url": "https://docs.sortie-ai.com/",
+      "scope": "378–393具名Sortie工单到coding-agent会话编排、429署名Sortie AI LLC。只核软件使用性质，不安装/运行、不验证性能或公司法律登记。"
+    },
+    {
+      "url": "https://github.com/sortie-ai/sortie",
+      "scope": "227–250自述开源coding-agent orchestrator/具名Sortie与安装名，仅读正文不执行命令。不是普通French出口或任务功能词，不说它是基础模型。"
+    }
+  ],
+  "quality_comparison": {
+    "root": 21,
+    "producer": 21,
+    "all_gates_pass": true,
+    "max_axis_difference": 0,
+    "root_sealed_before_producer_read": true
+  },
+  "new_root_usage_queries": 0,
+  "remaining_reworks": 2,
+  "refs": [
+    {
+      "path": "A4-candidates-batch42.json",
+      "sha256": "06b9c83322aeabf93451c6eb4a504a1d51283d5205e7be20bb3ddee1ce334598"
+    },
+    {
+      "path": "A4-quality-batch42.json",
+      "sha256": "04b80d9c07a74a01531289f7e271bfeb02bbb6ba80c438cd5e4b07b070e87b4c"
+    },
+    {
+      "path": "coordinator-en-batch42.json",
+      "sha256": "4cccacf4c9d9e93fe2fcfd908f845f7c3b25dff470626bbe3f0771691b45e06e"
+    },
+    {
+      "path": "A3-en-batch42.json",
+      "sha256": "5e350022ee8708bf195c6b66487e8df47b093c8c63bcefc21679469ba8e60d4a"
+    },
+    {
+      "path": "A3-en-batch42-receipt.json",
+      "sha256": "5a18a3de9997d5e62b4151b2a87da0abf03b944b68f3227c4f35c28557a9eb3b"
+    }
+  ]
+}

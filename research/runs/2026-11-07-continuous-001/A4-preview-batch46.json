@@ -1,0 +1,82 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-09T17:02:55.231153+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch56.json",
+      "sha256": "8412aceed2d36bb701a986410cfb448ca956f5e9f3c4eb09b4672c10d09b48e7"
+    },
+    {
+      "path": "A2-preview-batch56.md",
+      "sha256": "c5595b6669584769fdcfc6eede643be516203f2bb711aae3196a416bc2950a7c"
+    },
+    {
+      "path": "A2-quality-batch56.json",
+      "sha256": "2e4846b58c932b064b5d7b92809dc204eeb45c559fbd5a058575bc7f967865b2"
+    },
+    {
+      "path": "A2-quality-batch56-receipt.json",
+      "sha256": "7a676215d56c352eecb334c9b0ace03c4cb64658c20d8781ede80c5b73f4d52a"
+    },
+    {
+      "path": "A2-creation-execution-batch56.json",
+      "sha256": "969f4f11af4804611c96b33addea1a88cc861b6194329c5d6bed69f79d4fed81"
+    },
+    {
+      "path": "coordinator-cn-batch56.json",
+      "sha256": "dae53eda4cc4d763c235f3720be420f905599b969d036de63f7e25bedf730eaa"
+    },
+    {
+      "path": "coordinator-family-review-batch56.json",
+      "sha256": "50117e275d310729ce4ef3aa242529cf7c45bced8db0ec2d11e5529b0b89ca5c"
+    },
+    {
+      "path": "A3-cn-batch54.json",
+      "sha256": "015776d140ea5fe30c25f24a325b4cebddd2d3a157008255d1d1c55802ab3530"
+    },
+    {
+      "path": "A3-cn-batch54.md",
+      "sha256": "e554ea28e5efcd125d2494ee4ce27634f42af19a0e10fd3d56e861617738e518"
+    },
+    {
+      "path": "A3-cn-batch54-receipt.json",
+      "sha256": "1abeb99bb25ac17cd079777893cfa3360e7dbdeba504646df9b36846df14a3ff"
+    },
+    {
+      "path": "continuations/2026-11-09T052915Z/root-cn54-accepted-handoff.json",
+      "sha256": "c3c7a6aca04e5a31932a2af6229afd32c31f949997d12ed0e646db82e9064851"
+    },
+    {
+      "path": "continuations/2026-11-09T052915Z/root-M77-source-review.json",
+      "sha256": "438e348cdffe97bc8aec20c34713f8f419dde120038daacb2f5fb456dd647c8e"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E48",
+      "chinese_id": "C1-C63",
+      "chinese": "消息候场",
+      "chinese_version": 3,
+      "english": "At Hand",
+      "family_id": "C1-BF-messages-as-visitors-at-another-process-door",
+      "material_id": "C1-M77",
+      "suggested_pronunciation": "建议 /ət ˈhænd/，两音节，at轻读、hand重读；可按两个完整常用词称呼。该词条正文未给整句音标，这是作者的品牌口语建议，不冒词典整句音频验证。",
+      "type": "完整既有英语短语的品牌再选择；非新词或拼音改造",
+      "formation": "本次先实际核完整at hand词条。Merriam-Webster将其列为phrase，第一义为时间或位置接近、够得着，例句用手边现有材料。本名取已在可取用范围这一义，不取第二义正在受到关注，不声称待选消息已经被执行。两词保持原样、正常分写，不靠加AI/Labs或换字母造区别；品牌创作是挑选主题关系，不是首造短语。",
+      "bilingual_relation": "中文把已入队、尚待receive匹配的消息拟作候场者；英文把同一状态换成已在手边、可供取用的主题表达。已经到达与这一次实际拿来用不是一件事：这是真实源关系和日常可感比喻的连接。英文不逐字翻候场，也不借旧C62戏剧接纳规则；At Hand本身不含匹配算法，只有品牌主题对应而非正式计算术语。",
+      "meaning": "信息就在这里，什么时候进入行动，仍由具体条件决定。作为Lab可把信息、工具与行动之间的关系作为长期问题，不要求名字逐字包办当前产品或承诺每条消息都有价值。",
+      "shortcoming": "现成短语泛用、搜索辨识弱，可能首先像随身助手、生活服务/护理、手作或工具供应商，独立研究机构身份需要定位承接。也可能听成at-hand形容词或Hand单独品牌；不应把消息已就位解释成所有资源随时立即可用。英文丢了消息和候场主角，也没写选择条件，必须坦然作为宽主题配对，不能靠解释硬说成一模一样。",
+      "boundary": "仅以已入队的消息情境作有限类比，不是所有信号都成消息、必达、全局FIFO、必轮到或有意愿。优先消息与receive择取、别名失效丢弃保留；信号异步不保证分布式发送永不挂起。没有运行程序或读底层实现。THE HALF·候场演出及票务近名风险、中文登记限制沿CN54保留，英文未查使用，不能继承中文通过。",
+      "source_urls": [
+        "https://www.erlang.org/doc/system/ref_man_processes.html",
+        "https://www.merriam-webster.com/dictionary/at%20hand"
+      ],
+      "read_scope": "本人本次实际读OTP29.1.2页头、48–63别名、80–89信号、116–144接收/队列/receive/优先例外、167–169及177–178丢失/次序/限流；未看图像、运行代码或通读全部手册。MW完整at hand31–46实际读两义，54–62只见词典first-known-use标十二世纪之前，不冒核首用原证，也不拿这一年代当品牌故事。",
+      "rework_attempt": 0,
+      "remaining_reworks": 2,
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

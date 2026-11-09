@@ -1,0 +1,133 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 actual first English rework unscored stage",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-09T17:17:07.843601+08:00",
+  "inputs": [
+    {
+      "path": "A4-candidates-batch46.json",
+      "sha256": "61766414b1d46bc77f458da8ffef1e70de8398851f8d5f150e01a901887b0efd"
+    },
+    {
+      "path": "A4-preview-batch46.json",
+      "sha256": "61766414b1d46bc77f458da8ffef1e70de8398851f8d5f150e01a901887b0efd"
+    },
+    {
+      "path": "A4-quality-batch46.json",
+      "sha256": "5aa4545402a94e20c030f6e33524deb6d4934b5c58d89d409976aa4f4ce2eeb1"
+    },
+    {
+      "path": "A4-creation-execution-batch46.json",
+      "sha256": "c14b5fe15202b71e1e60ed4d62324dcd5a0986e2a888d8e3b79677d01a9008e6"
+    },
+    {
+      "path": "A3-en-batch46.json",
+      "sha256": "8fde3f2b8f30cc9871f7dfd3019d499cc13b1267d99521acf5411dd407b9b837"
+    },
+    {
+      "path": "A3-en-batch46.md",
+      "sha256": "e6e95c98d69873d402d56dae2feb279fdeb5882a045335716da00c7b5867c95d"
+    },
+    {
+      "path": "A3-en-batch46-receipt.json",
+      "sha256": "0e192a607e66867a4c9df8d879a87d1f8245f80fe18167582cc4b5fd12589eac"
+    },
+    {
+      "path": "A3-cn-batch54.json",
+      "sha256": "015776d140ea5fe30c25f24a325b4cebddd2d3a157008255d1d1c55802ab3530"
+    },
+    {
+      "path": "continuations/2026-11-09T052915Z/root-cn54-accepted-handoff.json",
+      "sha256": "c3c7a6aca04e5a31932a2af6229afd32c31f949997d12ed0e646db82e9064851"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch46.json",
+      "sha256": "61766414b1d46bc77f458da8ffef1e70de8398851f8d5f150e01a901887b0efd",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch46.md",
+      "sha256": "34331406efc87a4f2cbe32ada02abdad470bb1628c8a7e66fb4a3b8e9257d214",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch46.json",
+      "sha256": "61766414b1d46bc77f458da8ffef1e70de8398851f8d5f150e01a901887b0efd",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch46.json",
+      "sha256": "5aa4545402a94e20c030f6e33524deb6d4934b5c58d89d409976aa4f4ce2eeb1",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch46.json",
+      "sha256": "c14b5fe15202b71e1e60ed4d62324dcd5a0986e2a888d8e3b79677d01a9008e6",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch46.json",
+      "sha256": "cc8f1f25754a4604b4c51c4a44d38e6a3594372f2f23b4971198cc03dff91c2c",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch54.json",
+      "sha256": "015776d140ea5fe30c25f24a325b4cebddd2d3a157008255d1d1c55802ab3530",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch54.md",
+      "sha256": "e554ea28e5efcd125d2494ee4ce27634f42af19a0e10fd3d56e861617738e518",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch54-receipt.json",
+      "sha256": "1abeb99bb25ac17cd079777893cfa3360e7dbdeba504646df9b36846df14a3ff",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch46.json",
+      "sha256": "8fde3f2b8f30cc9871f7dfd3019d499cc13b1267d99521acf5411dd407b9b837",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch46.md",
+      "sha256": "e6e95c98d69873d402d56dae2feb279fdeb5882a045335716da00c7b5867c95d",
+      "match": true
+    }
+  ],
+  "actual_reading": "Erlang沿本人EN46实际页头OTP29.1.2、48–63/80–89/116–144/167–169/177–178，不冒本次新读全手册/运行程序。本次实际读MW Anteroom31–40/48–56与Collins215–230/240–285完整词义、拼法、发音与构成；MW标1668与Collins标1755–65并不一致，不借其断言绝对首用或补年代故事，未核原始历史文献。",
+  "return_reading": "实际完整读原A3 EN46 JSON/MD/receipt与具名AI服务/软件不同证据，固定receipt输入输出SHA匹配；本人未新访问商业站，不冒上游执行为自己。",
+  "full_form_before_selection": "实际打开两部词典完整anteroom条目再采用，明确既有词，不用组成词推断新造。",
+  "local_history_check": "全research JSON english/name字段Anteroom/ante-room/ante room精确rg无命中，exit1；仅历史字面不是市场预查。",
+  "eligible_english_inputs": 1,
+  "english_output_ids": [
+    "C1-E49"
+  ],
+  "actual_english_versions": 1,
+  "actual_new_chinese_names": 0,
+  "new_family_count": 0,
+  "rework_attempt": 1,
+  "remaining_reworks": 1,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "numeric_quality_status": "先交本无分稿/执行后另档producer数字，未读主控本版预评分",
+  "outputs": [
+    {
+      "path": "A4-candidates-batch47.json",
+      "sha256": "ca1b6f5acf4627abe3bcc863481a7543a6e9e7e5dea565256f8fe822f39f4b30"
+    },
+    {
+      "path": "A4-preview-batch47.json",
+      "sha256": "ca1b6f5acf4627abe3bcc863481a7543a6e9e7e5dea565256f8fe822f39f4b30"
+    },
+    {
+      "path": "A4-preview-batch47.md",
+      "sha256": "daab58d9b23ffd5858a84377771db39de8931ec2118de1a95f1eba8ea79056cd"
+    }
+  ],
+  "next": "root先无分独评，再看producer，双过才同原A3 EN47独立筛查。",
+  "unchanged": "旧稿/评分/raw/receipt/catalog/queue/delivery/README/Git未改，不重配中文。"
+}

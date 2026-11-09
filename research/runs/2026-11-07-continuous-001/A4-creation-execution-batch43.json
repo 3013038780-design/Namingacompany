@@ -1,0 +1,105 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 actual English first rework",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-09T00:59:09.415904+08:00",
+  "inputs": [
+    {
+      "path": "A4-candidates-batch42.json",
+      "sha256": "06b9c83322aeabf93451c6eb4a504a1d51283d5205e7be20bb3ddee1ce334598"
+    },
+    {
+      "path": "A4-quality-batch42.json",
+      "sha256": "04b80d9c07a74a01531289f7e271bfeb02bbb6ba80c438cd5e4b07b070e87b4c"
+    },
+    {
+      "path": "A3-cn-batch34.json",
+      "sha256": "4c75c10ef5911955763946a0553d328c871d388a226bbf7eabc590cbda6b3e80"
+    },
+    {
+      "path": "A3-en-batch42.json",
+      "sha256": "5e350022ee8708bf195c6b66487e8df47b093c8c63bcefc21679469ba8e60d4a"
+    },
+    {
+      "path": "A3-en-batch42.md",
+      "sha256": "908fd2a77e0b98920f62fb46ef19a772d58a87fd3e4a5e76e675d1176e2bb187"
+    },
+    {
+      "path": "A3-en-batch42-receipt.json",
+      "sha256": "5a18a3de9997d5e62b4151b2a87da0abf03b944b68f3227c4f35c28557a9eb3b"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch42.md",
+      "sha256": "b87c4280a36adda0ad6bfd63b8571ad7964d16cc75ee441940dd05a255c1b27c",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch42.json",
+      "sha256": "06b9c83322aeabf93451c6eb4a504a1d51283d5205e7be20bb3ddee1ce334598",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch42.json",
+      "sha256": "04b80d9c07a74a01531289f7e271bfeb02bbb6ba80c438cd5e4b07b070e87b4c",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch42.json",
+      "sha256": "86a5b6f53075ab22fffc1db80009994b0159a1afc6d17371586e5337c313701e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch42.json",
+      "sha256": "4cccacf4c9d9e93fe2fcfd908f845f7c3b25dff470626bbe3f0771691b45e06e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch34.json",
+      "sha256": "4c75c10ef5911955763946a0553d328c871d388a226bbf7eabc590cbda6b3e80",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch42.json",
+      "sha256": "5e350022ee8708bf195c6b66487e8df47b093c8c63bcefc21679469ba8e60d4a",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch42.md",
+      "sha256": "908fd2a77e0b98920f62fb46ef19a772d58a87fd3e4a5e76e675d1176e2bb187",
+      "match": true
+    }
+  ],
+  "actual_return_reading": "实际读EN42 JSON/MD/receipt完整独立AI编排软件证据，不冒本人另开代码库或运行软件。",
+  "source_reading": "原CAAC/NASA沿本人batch42真实段落，本次新实读MW back209–228返回/回应义，不把原源没有的合写词冒正式术语。",
+  "local_history_check": "research JSON english/name字段Flightback/Flight Back精确无命中，仅本地历史字面非市场预查。",
+  "eligible_english_inputs": 1,
+  "english_output_ids": [
+    "C1-E45"
+  ],
+  "actual_english_versions": 1,
+  "actual_new_chinese_names": 0,
+  "new_family_count": 0,
+  "rework_attempt": 1,
+  "remaining_reworks": 1,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "closed_excluded_families": "C50已闭无R3，C51保持中文拒绝0英文，不重开。",
+  "outputs": [
+    {
+      "path": "A4-candidates-batch43.json",
+      "sha256": "5c179540fb2be5700697673177a029d84f32eeb73c141cf3d90be8ca3769cadf"
+    },
+    {
+      "path": "A4-preview-batch43.md",
+      "sha256": "871260689e64df1e33f2fad5950a43ce04c230de00b1734c2b2f84b3f96f701c"
+    },
+    {
+      "path": "A4-quality-batch43.json",
+      "sha256": "5d8da1e565886547b51160529edc96d59a49c52f9dc9865957e8170a07c792e0"
+    }
+  ],
+  "next": "主控先独评无分稿后读producer，双过才原A3独立实际英语筛查。",
+  "unchanged": "只新四档，旧字节/评分/队列/库/Git未改，无网页全文。"
+}

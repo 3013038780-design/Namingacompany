@@ -1,0 +1,68 @@
+{
+  "agent": "/root/live_a2",
+  "recorded_at": "2026-11-07T18:28:32.576116+08:00",
+  "candidate_count": 24,
+  "literal_names": [
+    "星际渡口",
+    "地球回信",
+    "影子刻度",
+    "未尽之问",
+    "拨码",
+    "页脚",
+    "念头引擎",
+    "多想一步",
+    "解环",
+    "换坐标",
+    "色序",
+    "方格动物",
+    "长按",
+    "侧音",
+    "纸旋翼",
+    "递火",
+    "添一指",
+    "光的弯道",
+    "噪声种子",
+    "雨影",
+    "海底雪",
+    "一点缺陷",
+    "指南鱼",
+    "云形尺"
+  ],
+  "distinct_family_count_before_parent_family_review": 24,
+  "english_created": 0,
+  "not_a_final_delivery": true,
+  "input_hashes_at_final_reread": {
+    "README.md": "5a9a1b8a7bf373bd65fc063c0c53c31ce42321bea4c7ee30107c501fd97d0d22",
+    "AGENTS.md": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80",
+    "research/preferences.json": "67172f848596849032f0fd190711e349f1d8f6db9cb4ac3d0c5f8eb5f3761e81",
+    "research/seed/README.md": "44cb357ed9db7edb5dc6c9a32ef1729e482ab3a9ef1f9dc6598dfbb3fc0d33b3",
+    "research/seed/brand-naming-foundation.md": "92cb6c7cd36c201d35900528826a8aa9aca5a75c632df57d30dcaade5547f519",
+    "research/runs/2026-11-07-continuation/A1.md": "b1cf4a3419deeec0814160f844b34f75b99efb1525fa361c45f342ea94caf459",
+    "research/runs/2026-11-07-continuation/A1.json": "41c2fb73121accd2e34e1b27986b4f8d0f0d95127f539a485484a9063120e158"
+  },
+  "integrity_note": "本回执记录最终复读时的哈希，不冒充创建草案前的哈希。创建前输入哈希见A2-reading-preparation.json；初始材料早期一次输出有截断，随后使用逐段完整阅读补齐，此处不把截断输出宣称全文已读。",
+  "source_world_counts": {
+    "S2": 7,
+    "S4": 4,
+    "S5": 4,
+    "S1": 5,
+    "S3": 3,
+    "S6": 1
+  },
+  "classical_literature_count": 1,
+  "classical_or_ancient_book_conservative_count": 2,
+  "classical_note": "递火为古文意象；指南鱼即使保守连古籍知识工具一起计也是2/24。影子刻度与解环分别读馆方工具词条与现代数字电路课件，未摘古文。",
+  "known_self_rejections": [
+    "CT-C06",
+    "CT-C15",
+    "CT-C20"
+  ],
+  "parent_reported_rejections": {
+    "CT-C04": "完全同名已上线互动数字读物，公开使用否决；不是AI公司或商标登记结论",
+    "CT-C11": "主控Lab身份与延展未过；未全面查重"
+  },
+  "family_boundary_holds": [
+    "CT-C14与旧回响的声音反馈边界，交主控复核，不以换词自动认定新家族。"
+  ],
+  "limits": "24是原始草案，不是24通过；中文与英文下游去留以A3/A4和主控真实记录为准。"
+}

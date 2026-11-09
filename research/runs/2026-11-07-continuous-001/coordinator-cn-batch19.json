@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-08T17:40:22.227567+08:00",
+  "independence": "Read producer preview batch19 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C33",
+      "name": "算着走",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 3,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 23,
+      "notes": {
+        "naturalness": {
+          "reason": "算着走能读懂但更像尚待接宾语的口语动作，不如完整称呼自然",
+          "counter_association": "着字使动作句感突出"
+        },
+        "distinctiveness": {
+          "reason": "算与走的先后动作容易复述",
+          "counter_association": "与算着来走着瞧等日常句易混"
+        },
+        "lab_fit": {
+          "reason": "首感路线规划随身计算器或走一步算一步，研究机构身份不足",
+          "counter_association": "容易被看作旅行或计费工具"
+        },
+        "grounding": {
+          "reason": "部分计算结果决定路径是同场计算关系，形成过程明确",
+          "counter_association": "固定分支不是学习也非改规则"
+        },
+        "extension": {
+          "reason": "可以延伸计算与决策而不局限单个模型",
+          "counter_association": "行为描述不自动成为组织身份"
+        },
+        "semantic_coherence": {
+          "reason": "先有结果再安排下一步的故事统一",
+          "counter_association": "程序内部路径与人的边走边想不是严格等同"
+        }
+      },
+      "decision": "quality_reject"
+    }
+  ]
+}

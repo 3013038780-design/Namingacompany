@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-09T05:01:29.569446+08:00",
+  "independence": "Read producer preview batch45 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C59",
+      "name": "原恒星",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "已有完整三字类别词可直接称呼",
+          "counter_association": "专业认读成本和科普项目首感保持"
+        },
+        "distinctiveness": {
+          "reason": "恢复恒星完整词使对象不只泛原加星",
+          "counter_association": "完整术语不等商业独有仍须独立查"
+        },
+        "lab_fit": {
+          "reason": "天体结构与形成条件可承载基础研究身份",
+          "counter_association": "航天或科幻作品首联想仍强"
+        },
+        "grounding": {
+          "reason": "中国机构正文实际完整类别与NASA一般阶段资料对应明确",
+          "counter_association": "原星旧边界复制须原作者另档区分不得冒现稿不是类别"
+        },
+        "extension": {
+          "reason": "可容纳多年研究不局限某模型操作",
+          "counter_association": "不能只讲必然变强"
+        },
+        "semantic_coherence": {
+          "reason": "形成中天体主体和其条件为同一关系",
+          "counter_association": "不将恒解释永远不变或所有形成星体结局相同"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

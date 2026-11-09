@@ -1,0 +1,77 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T18:20:51.269824+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-preview-batch4.md",
+      "sha256": "672c3e76ab572b78beea0c581c09e8c4f8a9dde41d711dfd2e99c078e33a7f42"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-en-batch4.json",
+      "sha256": "0f68b6d1a8f11bd7d18fe26d7bf89ec674c4a6bc183a401a99c3c5dc1be09683"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-quality-batch4.json",
+      "sha256": "91095d1b4ed29c4fd9bb4ff28c5d1fdf74f258b0605193b9649bcfe2246bf404"
+    }
+  ],
+  "query_count": 5,
+  "results": [
+    {
+      "candidate_id": "CT-E06",
+      "chinese_candidate_id": "CT-C02",
+      "chinese": "地球回信",
+      "name": "Returnlight",
+      "decision": "reject",
+      "reason": "现有完整同名网页数字产品Returnlight，现场可读介绍提供情境选择、Ready Strip及保存重开；不是引用公益组织本身的公司名，也未证AI模型或注册商标。",
+      "query_logs": [
+        {
+          "query": "\"Returnlight\"",
+          "executed_on": "2026-11-07",
+          "summary": "现有完整同名网页数字产品Returnlight，现场可读介绍提供情境选择、Ready Strip及保存重开；不是引用公益组织本身的公司名，也未证AI模型或注册商标。"
+        },
+        {
+          "query": "\"Returnlight\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "现有完整同名网页数字产品Returnlight，现场可读介绍提供情境选择、Ready Strip及保存重开；不是引用公益组织本身的公司名，也未证AI模型或注册商标。"
+        },
+        {
+          "query": "\"Returnlight\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "现有完整同名网页数字产品Returnlight，现场可读介绍提供情境选择、Ready Strip及保存重开；不是引用公益组织本身的公司名，也未证AI模型或注册商标。"
+        },
+        {
+          "query": "\"Returnlight\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "现有完整同名网页数字产品Returnlight，现场可读介绍提供情境选择、Ready Strip及保存重开；不是引用公益组织本身的公司名，也未证AI模型或注册商标。"
+        },
+        {
+          "query": "\"Return Light\" company software AI",
+          "executed_on": "2026-11-07",
+          "summary": "现有完整同名网页数字产品Returnlight，现场可读介绍提供情境选择、Ready Strip及保存重开；不是引用公益组织本身的公司名，也未证AI模型或注册商标。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://bouldercountylostpetrescue.pages.dev/",
+          "access": "primary_product_body_read",
+          "finding": "页首及产品标题Returnlight；正文自称app，场景检查、响应选择、三步骤Ready Strip与本地状态介绍。未测试完整交互或证明公益组织授权。"
+        },
+        {
+          "url": "https://library.4d-japan.com/doc/4Dv15/4D/15.4/Picture-Metadata-Names.302-3274072.en.html",
+          "access": "search_text_only",
+          "finding": "EXIF Flash ReturnLight为元数据字段，非独立软件品牌；不用于否决。"
+        }
+      ],
+      "registration": {
+        "status": "not_checked_after_confirmed_digital_product_use",
+        "note": "依据实际同名产品介绍退回，不称注册公司/商标。"
+      },
+      "reason_code": "EXACT_DIGITAL_PRODUCT_USE"
+    }
+  ],
+  "passed_english_candidate_ids": [],
+  "controls": "A3-controls.json",
+  "claim_limits": "仅公开使用初筛。实际已读正文、索引全文与失败打开分别记录；不声称官方核名或9/42商标通过。"
+}

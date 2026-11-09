@@ -1,0 +1,60 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T13:23:52.630392+08:00",
+  "work_packet": "A2 batch16 / A3 cn18",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch16.json",
+      "sha256": "eee1500c74c7f4637e589f6196a4257d36c959d2daabdd4dab434ad5c8a65668"
+    },
+    {
+      "path": "A2-quality-batch16.json",
+      "sha256": "6a48f596dad549e17c77949341bbe7041ffae26c6e4f0f8c8e0dce5d0977be83"
+    },
+    {
+      "path": "coordinator-cn-batch16.json",
+      "sha256": "33e0866e4619f9e8ea7e19841b59233bf773536221ed854afbc75a95779b5801"
+    },
+    {
+      "path": "coordinator-family-review-batch16.json",
+      "sha256": "f654137e034211dc5ad9d097c2e46ad9fd591d88f141b21e3e5457f6d3f6cfee"
+    },
+    {
+      "path": "A3-cn-batch18.json",
+      "sha256": "730fbfa05bfbc86f62787a1fc5fdeeb712aad7d34e4a47d934fd5d8a3ec94592"
+    },
+    {
+      "path": "A3-cn-batch18.md",
+      "sha256": "ae7ad78d57ef7a449152eae8d17b48caddfc9a4923db987f8969497c59577783"
+    },
+    {
+      "path": "A3-cn-batch18-receipt.json",
+      "sha256": "fd63305938e9ad5b42cf837742eff009f36bae32e1b10fdbfc1ba06b96cf9a6b"
+    }
+  ],
+  "actual_upstream_read": true,
+  "execution": "真实读取唯一失算候选、producer/root双质量及家族评审、原A3 cn18 JSON/MD/receipt并核输出固定SHA，完成本包零匹配验收。",
+  "upstream_chinese_candidates": 1,
+  "chinese_quality_accepted": 1,
+  "A3_chinese_queries_reported": 8,
+  "qualified_chinese_inputs": 0,
+  "english_candidates": [],
+  "english_output_count": 0,
+  "new_english_scores": 0,
+  "new_usage_queries": 0,
+  "new_registration_queries": 0,
+  "decision": "zero_input_after_named_game_software_rejection",
+  "excluded": [
+    {
+      "candidate_id": "C1-C29",
+      "name": "失算",
+      "reason": "原A3TapTap开发者发布页确证完整同名游戏作品及试玩DEMO介绍，按已有软件/产品使用否决；不是因为负面字义或普通动词。",
+      "boundary": "正文供应商chenbainian、工作室cbn522，不将缓存上海创巴法人当当前页核实；不保证正式上线或实际试玩，不称同名AI模型/官方登记/9和42商标已核。石蒜智算为异字近名不作本名主证。"
+    }
+  ],
+  "actual_reading_boundary": "本人本次仅读落盘记录，不重新访问TapTap、品牌官网或登记门户；原网络执行署/root/live_a3。",
+  "next": "同一原A3实际英文零输入终检；本族本包关闭，整体研究及其他关系继续。",
+  "unchanged": "不以英文救中文，不造词/评分/查询，不改旧稿/分/receipt/总库/索引/Git。"
+}

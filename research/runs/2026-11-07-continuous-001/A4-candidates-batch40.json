@@ -1,0 +1,71 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-09T00:43:43.676249+08:00",
+  "inputs": [
+    {
+      "path": "A4-candidates-batch39.json",
+      "sha256": "583fb250f4bf87f926fce6f795186cd33c0699589b2f774a7a8a078d7a171f83"
+    },
+    {
+      "path": "A4-quality-batch39.json",
+      "sha256": "70d9b1ed0328291a403b1ac0798d61e19ff1d174fe2af500f73b90ac6cf1f3e5"
+    },
+    {
+      "path": "coordinator-en-batch39.json",
+      "sha256": "d8490a0281e563437267b8ab748c25223b78f389a49dd53001796e6190746e9e"
+    },
+    {
+      "path": "A3-cn-batch33.json",
+      "sha256": "c52519eca6ea430ea230ddf0ebb4bf02cd91a9eee2bb44328b079d0990211573"
+    },
+    {
+      "path": "A3-en-batch39.json",
+      "sha256": "b0df81dc104e991c3ca2f10251e1d6114af180525af652c04eb8d73d368736ca"
+    },
+    {
+      "path": "A3-en-batch39.md",
+      "sha256": "f9168d6a099abf2672aff0778acf96a69dbf8423a683b15b68917a00be006b25"
+    },
+    {
+      "path": "A3-en-batch39-receipt.json",
+      "sha256": "bff531b4ea91913442d6bdb40b41b729565d22533d5d8844b0523ecd268b48d7"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E42",
+      "chinese_id": "C1-C50",
+      "chinese": "陆行鱼",
+      "english": "Landfish",
+      "family_id": "C1-BF-terrestrial-fish-as-cross-medium-actor",
+      "material_id": "C1-M62",
+      "suggested_pronunciation": "建议 LAND-fish，/ˈlændˌfɪʃ/，两个音节，按land与fish完整读。新合写名无公认读法，nd-f衔接需说清。",
+      "type": "land + fish两个完整常用名词的主体称呼，本案拟称非正式物种名",
+      "formation": "从岸边的一片鳍，转回中文真正要命名的完整主角：在水外也能活动的鱼。land与fish形成环境/主体的正常名词组合，不改旧Shorefin的字母或使用其shore/fin词根加后缀。其独立意义直接是陆上的鱼，不各拆成土地广阔、鱼有智慧的寓意，也不假称Landfish已是该物种公认英文名。",
+      "bilingual_relation": "中文动作陆行鱼与英文主体Landfish对应同一个跨环境生命对象；英文不像一项适应器件，不要求记住具体鱼种，第一次听到也保留鱼与陆地的反常识相遇。陆上运动只是有条件的活动范围，呼吸与运动支持仍分别存在，绝非鱼长出腿才叫进步。",
+      "meaning": "同一个行动者，可以有不止一种活动环境。研究主题是能力和支持条件怎样共同界定可行动的世界，不是抛弃约束、上岸成功或变得比水中生物更高级。",
+      "shortcoming": "水产养殖、钓鱼、奇幻游戏或少儿动物品牌可能先于AI Lab；Land与fish都是通词，新合写形式本身不保证独占。land也可能被理解为把鱼捕捞上岸的动词，而不是鱼自主活动；名字没写呼吸支持细节，需说明原生物条件。",
+      "boundary": "Landfish为本案品牌拟称，不重新命名物种或把所有鱼称为陆生鱼；不是干旱裸地任意生存、人类步态、训练长器官、智力提升或模型持续成长证明。主体仍源于Periophthalmodon schlosseri的已读鳃室/皮肤/胸鳍关系。中文游戏/水产首感、陆行鸟联想及登记未清不删。英文尚未使用筛查。",
+      "source_urls": [
+        "https://biodiversitysg.nparks.gov.sg/our-biodiversity/marine-fishes/giant-mudskipper/"
+      ],
+      "read_scope": "沿本人batch39已实际web阅读的NParks19–48，尤其34水外呼吸、45潮间带和48胸鳍移动；本次没有新读物种原始研究、目读图片或野外观察。land/fish为完整常用词且原机构正文有相应主体与陆上事实，不虚构另读词源或声称原文出现合写Landfish。",
+      "rework_attempt": 1,
+      "remaining_reworks": 1,
+      "status": "english_quality_proposal_not_usage_screened",
+      "replaces_candidate_id": "C1-E41",
+      "return_reason": "Shorefin按第三方历史商业核心与SureFin近听软件风险编辑避让；历史Inactive非当前AI公司，近形非精确，ShoreFin公益项目非商业公司。原A3正文与后续403访问边界保留，不冒官方登记已核。"
+    }
+  ],
+  "excluded_upstream": [
+    {
+      "chinese_id": "C1-C51",
+      "chinese": "斑马线",
+      "eligible_english_inputs": 0,
+      "actual_english_creation": 0,
+      "reason": "原A3九查询后可读第三方深圳市斑马线科技有限公司同核心使用，原root接受；不是仅道路通名或斑马App异名。第三方非本次官方存续/9与42核准，不配英文救回。"
+    }
+  ],
+  "usage_screening_performed": false
+}

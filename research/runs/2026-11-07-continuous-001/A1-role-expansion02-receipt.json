@@ -1,0 +1,105 @@
+{
+  "agent_id": "/root/continuous_a1",
+  "role": "A1",
+  "completed_at": "2026-11-08T23:24:25.909303+08:00",
+  "actual_execution": true,
+  "scope": "同001原A1的有边界补核，不是新一轮完整A1生产批",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/inputs/A1-role-expansion02/README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba",
+      "read_scope": "本步完整读取当前规范/反馈；冻结副本，不改原文"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/inputs/A1-role-expansion02/AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80",
+      "read_scope": "本步完整读取当前规范/反馈；冻结副本，不改原文"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/inputs/A1-role-expansion02/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567",
+      "read_scope": "本步完整读取当前规范/反馈；冻结副本，不改原文"
+    },
+    {
+      "path": "research/seed/README.md",
+      "sha256": "44cb357ed9db7edb5dc6c9a32ef1729e482ab3a9ef1f9dc6598dfbb3fc0d33b3",
+      "read_scope": "版本与材料边界全文"
+    },
+    {
+      "path": "research/seed/brand-naming-foundation.md",
+      "sha256": "92cb6c7cd36c201d35900528826a8aa9aca5a75c632df57d30dcaade5547f519",
+      "read_scope": "既有初始阅读复用；本步只定位寒武纪/第四范式/百度三行，不冒称重读105正文"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67",
+      "read_scope": "完整六宏观来源、角色与构词分类"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746",
+      "read_scope": "B001/B004/B006具体记录及既有来源；不复核其他102案"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.json",
+      "sha256": "b3bbd78ef83733b79b7033404dc29727a7e0c749988d06218820850f4de520be",
+      "read_scope": "既核7案、原则与六方向；本步复用"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.md",
+      "sha256": "50023a0d4970380ebd3afb8969343e6aaadab41c468ae7be66bf2da8f20dcda9",
+      "read_scope": "复用已读研究结论与范围"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.json",
+      "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132",
+      "read_scope": "F1–F6、已核案例与未证词源边界"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-role-expansion01.json",
+      "sha256": "bbb6c1f816e0942aa2ee0e5e7cca52437db41e909ceaa7a62fde0583a374dec4",
+      "read_scope": "上次4案、可迁移关系与访问边界"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T151606Z/material-proposal-index.json",
+      "sha256": "c9b777a166f5d9e3d847a650449ae8f2e07ed7167740f26157538892864328d5",
+      "read_scope": "冻结58材料的事实/家族摘要及47中文名称/谱系索引，不重读58外部正文"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T141904Z/decisions-through-batch28.json",
+      "sha256": "34de9017319fd197e788bb346a71d91996f59a11aca01a76c8e6a09073b7b9d2",
+      "read_scope": "实际逐项读取47案最终去留与原因；不使用旧17项decisions.json作为当前状态"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-role-expansion02.json",
+      "sha256": "6a127ec64699a257e20f7959a2ce3309e8cefe7c2c117134c2220612a3dc3181"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-role-expansion02.md",
+      "sha256": "0bdcaab2948ee7913aa0c587654a13d04d0b21dd62039a165af2d5a329135bb3"
+    }
+  ],
+  "counts": {
+    "substantive_existing_baseline_cases_added": 3,
+    "broad_tech": 3,
+    "current_ai": 0,
+    "rsi_labs": 0,
+    "new_market_cases": 0,
+    "new_company_names": 0,
+    "body_source_urls_for_counted_cases": 4,
+    "whole_books_read": 0
+  },
+  "applies_to": "仅供主控验收后batch29之后下一A2包；不得反写已启动batch29输入或给旧创作事后贴标签",
+  "validation": {
+    "all_input_sha_match": true,
+    "only_three_previously_unreviewed_cases": true,
+    "baseline_categories_preserved": true,
+    "no_company_names_created": true,
+    "no_registration_clearance_claim": true,
+    "root_documents_queue_catalog_git_untouched": true
+  },
+  "reading_boundary": "复用旧A1与formation/role-expansion01，实际补读4个计入来源正文；没有通读未读书籍，没有用搜索摘要填词源。",
+  "execution_ref": "本任务实际exec/web调用记录；真实原A1 /root/continuous_a1"
+}

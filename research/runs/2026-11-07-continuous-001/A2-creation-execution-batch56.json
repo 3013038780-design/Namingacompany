@@ -1,0 +1,77 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-09T14:13:25.007644+08:00",
+  "stage": "C63_same_family_last_CN_R2_object_waiting_scene",
+  "input_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch55.json",
+      "sha256": "8a632a76633692edde19ea3ba39359f4324f3924f58b3147c0df996821bf35f1"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch55.json",
+      "sha256": "53a9bc9f2cfc7b12c48499a2060c90edceaa01db0e2d779c29c932399df56506"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch55-receipt.json",
+      "sha256": "cfb3b5ab8c307d6ab657914e6a86844488ac2fd4f652ab89ba8af5064852c92f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch55.json",
+      "sha256": "3fd9a111cde311e3780a4872b710fd48670709f0645b420724de176902503792"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/quality-comparison-batch55.json",
+      "sha256": "f5055f228d9e85bce2bab1821bc819987edf14adee4bbaf42ab2f383001b3c6b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension40.json",
+      "sha256": "46ed952561e3aac0dfdb22505bc1ce343ccad8469e8a29275366adafdd85eef3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch53.json",
+      "sha256": "e0a29847ebc41df177fbf314629b12d84aea4d3ef4953792d5c3f676b3d5dd89"
+    }
+  ],
+  "actual_work": [
+    "实际读已封上一版双评比较：主控26、作者24且Lab3；保留真实分歧，不把主控较高分覆盖旧作者自拒。",
+    "在同源队列/receive关系上考察对象与等待选择状态，将候场作为有限比喻而非只换来访动词。",
+    "本地全runs精确消息候场/候场无命中，保留原family和M77，旧舞台合作材料不冒本名新源。"
+  ],
+  "new_material_count": 0,
+  "reused_material_ids": [
+    "C1-M77"
+  ],
+  "new_chinese_primary_id_count": 0,
+  "new_chinese_draft_count": 1,
+  "new_selected_surface_count": 1,
+  "new_family_count": 0,
+  "rework_attempt_executed": 2,
+  "remaining_chinese_reworks": 0,
+  "selected_revision": {
+    "candidate_id": "C1-C63",
+    "version": 3,
+    "name": "消息候场",
+    "replaces_name": "来信未开"
+  },
+  "name_usage_queries_performed": false,
+  "new_english_count": 0,
+  "new_external_reading_count": 0,
+  "output_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch56.json",
+      "sha256": "8412aceed2d36bb701a986410cfb448ca956f5e9f3c4eb09b4672c10d09b48e7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch56.json",
+      "sha256": "8412aceed2d36bb701a986410cfb448ca956f5e9f3c4eb09b4672c10d09b48e7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch56.md",
+      "sha256": "c5595b6669584769fdcfc6eede643be516203f2bb711aae3196a416bc2950a7c"
+    }
+  ],
+  "numeric_quality_status": "separate_file_after_unscored",
+  "boundary": "没有重看外部文档/另加材料，旧作者评分不改，未读本版主控预评分。只新档，不改库queueREADMEGit，不开新族或R3。"
+}

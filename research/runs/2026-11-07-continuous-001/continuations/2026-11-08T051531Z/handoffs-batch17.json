@@ -1,0 +1,331 @@
+{
+  "accepted_at": "2026-11-08T14:00:07.565926+08:00",
+  "same_research_run": true,
+  "new_A1_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "accepted_at": "2026-11-08T14:00:07.565926+08:00",
+      "from": "existing_A1",
+      "to": "same_A2",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C30"
+      ],
+      "reason": "复用实际A1案例、现代思想方向与F1/F3关系凝练；原A2读冻结29案后进入Austin，未新计案例或重开计划。",
+      "refs": [
+        {
+          "path": "A1-final-input-reacceptance.json",
+          "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+        },
+        {
+          "path": "A1-formation-feedback.json",
+          "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        },
+        {
+          "path": "continuations/2026-11-08T051531Z/decisions-through-batch16.json",
+          "sha256": "01806e2dfee25e86c915254707833ce313b0f3ff355e0d61cde5c3cb61b1c9db"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "accepted_at": "2026-11-08T14:00:07.565926+08:00",
+      "from": "same_A2",
+      "to": "coordinator",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C30"
+      ],
+      "reason": "主控无分独评25封存后读producer25，六轴同分，言语构成行动与旧结果有效性/解释器输入不同。",
+      "refs": [
+        {
+          "path": "A2-candidates-batch17.json",
+          "sha256": "d51374c05140f2c05ea4acc5877f7c3ff47903a654fee4483d8a4eb1e6564fc3"
+        },
+        {
+          "path": "A2-quality-batch17.json",
+          "sha256": "6dce8c6b0f529882fdb36d93e9bdac29d55138f0fce9f66edeb1bd2b7c1e7369"
+        },
+        {
+          "path": "A2-creation-execution-batch17.json",
+          "sha256": "09741e3f97088c8295924fe12ba5f2fbd419d03fc411dcc7d05726e636db8083"
+        },
+        {
+          "path": "materials-extension16.json",
+          "sha256": "569977557a7fd1019204cbb3dcab108444cf242990e01e949c31c842b29ca0cd"
+        },
+        {
+          "path": "coordinator-cn-batch17.json",
+          "sha256": "9708f5d24f401197346a05624dbec732ee80e21fbf47f4a79948061bba30d043"
+        },
+        {
+          "path": "coordinator-family-review-batch17.json",
+          "sha256": "de44a10f5b3d1fa681cf8f1e442f875e45456dad2c936e65b165c923dbde7ae7"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "accepted_at": "2026-11-08T14:00:07.565926+08:00",
+      "from": "coordinator",
+      "to": "same_A3",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C30"
+      ],
+      "reason": "十中文查询未确证同名商业主体/模型/软件；新查同源既有学术表达，先退来源说明，不直接交A4。",
+      "refs": [
+        {
+          "path": "A3-cn-batch19.json",
+          "sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc"
+        },
+        {
+          "path": "A3-cn-batch19-receipt.json",
+          "sha256": "abb2fd8613f22685a3703043465c2f9ef6ff754f8e9d7e61b6fce8e015944637"
+        }
+      ]
+    },
+    {
+      "id": "H2-source-return",
+      "accepted_at": "2026-11-08T14:00:07.565926+08:00",
+      "from": "same_A3",
+      "to": "same_A2",
+      "status": "returned",
+      "candidate_ids": [
+        "C1-C30"
+      ],
+      "reason": "原A2实际读中文样章/作者书目，明确既有学术表达再选择，不倒写其为原输入，不改旧稿/分数。",
+      "refs": [
+        {
+          "path": "A3-cn-batch19.json",
+          "sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc"
+        },
+        {
+          "path": "A2-C30-formation-addendum.json",
+          "sha256": "bbe7c9a8d5906538676a5fb951c061c83b4a2e34bcb80a0dace8b7d5454bbc80"
+        },
+        {
+          "path": "A2-C30-formation-addendum-execution.json",
+          "sha256": "d28b02f393f6914b6cf164302429ab9d4e451f6f0e76dab249f75a5e77fcde81"
+        }
+      ]
+    },
+    {
+      "id": "H4-source-reaccepted",
+      "accepted_at": "2026-11-08T14:00:07.565926+08:00",
+      "from": "same_A3",
+      "to": "same_A4",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C30"
+      ],
+      "reason": "主控和同A3实际验收补记后才交原A4，教育出版具体联想及未核PEP索引继续披露。",
+      "refs": [
+        {
+          "path": "A2-C30-formation-addendum.json",
+          "sha256": "bbe7c9a8d5906538676a5fb951c061c83b4a2e34bcb80a0dace8b7d5454bbc80"
+        },
+        {
+          "path": "coordinator-C30-formation-reacceptance.json",
+          "sha256": "a0b99dcaecf3fef455c2c85f56cc4b8604bba80df28e82204ec19787618f6ecd"
+        },
+        {
+          "path": "A3-C30-formation-reacceptance.json",
+          "sha256": "ae6cf8dfd04f850162e3498a6d5c9527f943892ba2bf97068100bcceb39017f6"
+        }
+      ]
+    },
+    {
+      "id": "H5-23",
+      "accepted_at": "2026-11-08T14:00:07.565926+08:00",
+      "from": "same_A4",
+      "to": "same_A3",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C30"
+      ],
+      "reason": "初稿Wordact：主控先无分封存后读作者，两份均21，差不超过1，五轴过门。",
+      "refs": [
+        {
+          "path": "A4-candidates-batch23.json",
+          "sha256": "a51effd83f1d26652d77ea447e22ff3d4d8f5fb302312d9d9d8b3d15d134ba52"
+        },
+        {
+          "path": "A4-quality-batch23.json",
+          "sha256": "816ed8822ca430b427e6d6c101a6570a0ad2049d9ed207a81d8b6e982511fb98"
+        },
+        {
+          "path": "A4-creation-execution-batch23.json",
+          "sha256": "d38e40e69633e73a64651ace06b65fcc2d36b314214fadacc8bef2c00dac802a"
+        },
+        {
+          "path": "coordinator-en-batch23.json",
+          "sha256": "5fc3ad72d3846d6903be5500f7923384cf137e5646e384fe67b02775cbc2a10d"
+        }
+      ]
+    },
+    {
+      "id": "H6-23",
+      "accepted_at": "2026-11-08T14:00:07.565926+08:00",
+      "from": "same_A3",
+      "to": "same_A4",
+      "status": "returned",
+      "candidate_ids": [
+        "C1-C30"
+      ],
+      "reason": "初稿Wordact：实际原A3独立查询并核具体使用，性质分别保存，失败沿原A4返工，最后无R3。",
+      "refs": [
+        {
+          "path": "A3-en-batch23.json",
+          "sha256": "6df2a3aa3f220bb088dc59102681caf876b0bb6716cef83b4b09f34639306e59"
+        },
+        {
+          "path": "A3-en-batch23-receipt.json",
+          "sha256": "d958bcdbf5c70f32e9b3cd027f7b9c99295a531ed1bed0380d0ba1eaeeb99b75"
+        },
+        {
+          "path": "continuations/2026-11-08T051531Z/root-C30-E23-use-verification.json",
+          "sha256": "861acd54fc51f47b7a25ec79140d1cc774e2eb88b6cdce5660ab69770afee845"
+        }
+      ]
+    },
+    {
+      "id": "H5-24",
+      "accepted_at": "2026-11-08T14:00:07.565926+08:00",
+      "from": "same_A4",
+      "to": "same_A3",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C30"
+      ],
+      "reason": "首次返工Saydo：主控先无分封存后读作者，两份均21，差不超过1，五轴过门。",
+      "refs": [
+        {
+          "path": "A4-candidates-batch24.json",
+          "sha256": "37696a1e10e2790ad3b40315a633f9ea2f39d5b170a2b19c56f04dce7dcdb7e3"
+        },
+        {
+          "path": "A4-quality-batch24.json",
+          "sha256": "652f66f2754369c7a4a1f7f82ba68fa08551e09697cdb409180686b10e55e501"
+        },
+        {
+          "path": "A4-creation-execution-batch24.json",
+          "sha256": "ff8d6b441fab6377e1290fa790718e0848dfe0d52d2938ca40181d63a63022ba"
+        },
+        {
+          "path": "coordinator-en-batch24.json",
+          "sha256": "b6022e0e0872dea2f3d5491735f46c2ebe3480febfccbc5dc21b4206594fba38"
+        }
+      ]
+    },
+    {
+      "id": "H6-24",
+      "accepted_at": "2026-11-08T14:00:07.565926+08:00",
+      "from": "same_A3",
+      "to": "same_A4",
+      "status": "returned",
+      "candidate_ids": [
+        "C1-C30"
+      ],
+      "reason": "首次返工Saydo：实际原A3独立查询并核具体使用，性质分别保存，失败沿原A4返工，最后无R3。",
+      "refs": [
+        {
+          "path": "A3-en-batch24.json",
+          "sha256": "e617f4d99d4c50b8908de1e3c7a90d18b41f29654b536dbc8418d7f90e1e2cff"
+        },
+        {
+          "path": "A3-en-batch24-receipt.json",
+          "sha256": "e288369017b690b3ccd195b4adca309e9fe720bdba4b708c60fe13d5c90ed6d9"
+        },
+        {
+          "path": "continuations/2026-11-08T051531Z/root-C30-E24-use-verification.json",
+          "sha256": "b421f2312ca624b6173f4068a0c71b7d7258987d1900143f8a481e023077b052"
+        }
+      ]
+    },
+    {
+      "id": "H5-25",
+      "accepted_at": "2026-11-08T14:00:07.565926+08:00",
+      "from": "same_A4",
+      "to": "same_A3",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C30"
+      ],
+      "reason": "最后返工Hereby：主控先无分封存后读作者，两份均21，差不超过1，五轴过门。",
+      "refs": [
+        {
+          "path": "A4-candidates-batch25.json",
+          "sha256": "3a475e0f42f68d80b74d8bb896fe2ac06be57046741354b7e40de1f0101eef1a"
+        },
+        {
+          "path": "A4-quality-batch25.json",
+          "sha256": "287bfb129e3591352171fd20a2d7c7cfa937f0f1d7b9e61cc6b92877f0372c5c"
+        },
+        {
+          "path": "A4-creation-execution-batch25.json",
+          "sha256": "fdd431725b6cebb7ca8b16187b19f87fa1ef6714a2f8cf71007872d0e48d606f"
+        },
+        {
+          "path": "coordinator-en-batch25.json",
+          "sha256": "6016e6fa4415a33c4454597913e99f692f7bbca638364e9450573b9ab25adc11"
+        }
+      ]
+    },
+    {
+      "id": "H6-25",
+      "accepted_at": "2026-11-08T14:00:07.565926+08:00",
+      "from": "same_A3",
+      "to": "coordinator",
+      "status": "returned",
+      "candidate_ids": [
+        "C1-C30"
+      ],
+      "reason": "最后返工Hereby：实际原A3独立查询并核具体使用，性质分别保存，失败沿原A4返工，最后无R3。",
+      "refs": [
+        {
+          "path": "A3-en-batch25.json",
+          "sha256": "001dabbd68398180303537e86160b219282a1eadfc20bdd1429732f0a56d815f"
+        },
+        {
+          "path": "A3-en-batch25-receipt.json",
+          "sha256": "e358d2cd3a75520313189399d9ee219dbbfdee4d73127dd6305069f16a46b15a"
+        },
+        {
+          "path": "continuations/2026-11-08T051531Z/root-C30-E25-use-verification.json",
+          "sha256": "1415e72df148b942f0e4a1fd5505582dd440365e9657d731d14fa9a81e0cd05b"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "accepted_at": "2026-11-08T14:00:07.565926+08:00",
+      "from": "coordinator",
+      "to": "catalog",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C30"
+      ],
+      "reason": "原A4已实际读三次结果收尾，中文通过不能充双语配对；有真实软件证据所以零保留，不是未查就交付。",
+      "refs": [
+        {
+          "path": "A4-closeout-batch17.json",
+          "sha256": "8762b845758348649015142b183b9a2b2a670a7006e9f97fdb484ad86d80cf3c"
+        },
+        {
+          "path": "continuations/2026-11-08T051531Z/decisions-through-batch17.json",
+          "sha256": "d5055d8d4bb0f97fd5fdfafbb8024539723fdf4796a8e192fb6fa724a955f618"
+        }
+      ]
+    }
+  ]
+}

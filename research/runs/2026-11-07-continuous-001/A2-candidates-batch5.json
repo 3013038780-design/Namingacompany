@@ -1,0 +1,74 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-07T21:22:04.925374+08:00",
+  "candidates": [
+    {
+      "id": "C1-C15",
+      "name": "同位素",
+      "pinyin": "tóng wèi sù",
+      "material_id": "C1-M25",
+      "material_ids": [
+        "C1-M25"
+      ],
+      "family_id": "C1-BF-same-identity-distinguishable-trace",
+      "plan_direction_id": "C1-D-S3",
+      "case_ids": [
+        "B074",
+        "B002"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "source_urls": [
+        "https://www.isotopes.gov/isotope-basics",
+        "https://danlab.bact.wisc.edu/data-processing-analysis/"
+      ],
+      "sources": [
+        {
+          "title": "National Isotope Development Center: Isotope Basics",
+          "url": "https://www.isotopes.gov/isotope-basics",
+          "reading_location": "正文L8–22：质子/中子、元素身份和同位素性质；未采用过时数量统计",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_body",
+          "published_at": null
+        },
+        {
+          "title": "UW–Madison DAN Lab: Data Processing/Analysis — Isotope Tracers",
+          "url": "https://danlab.bact.wisc.edu/data-processing-analysis/",
+          "reading_location": "curl HTML实际读Isotope Tracers Introduction、Nomenclature前段以及末尾Kinetic Isotope Effect全节；未通读中部校正与计算各节",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "curl_HTML_body",
+          "published_at": null,
+          "updated_at": "2022-01-24"
+        }
+      ],
+      "formation": "直接取高中科学已有的完整名词，不截成奇怪新字，也不把同、位、素分开编寓意。",
+      "meaning": "同一种身份，可以有不同的样子；细小的差别，能让经历被读出来。",
+      "crossing": "科学里的同位素，既保持同一元素身份，又能因质量差异被测量区分。稳定同位素示踪进一步让人观察物质经过了哪里；名称把身份、差别与可追溯经历放在同一个真实对象中。",
+      "layers": [
+        "熟悉而完整的三字科学对象",
+        "元素身份相同与可测质量不同共存",
+        "实验中用差异读出流转过程，为研究系统如何被理解提供角色"
+      ],
+      "material_feature_retained": "保留同一身份下的可区分差别，并把这差别用于认识过程。",
+      "material_feature_lost": "名称不含标记原子的具体位置、质谱或代谢反应条件，不代表任何身份差异都能等价迁移到智能。",
+      "why_name_not_generic": "是一个原本存在的完整对象，身份和差别确实同在；没有质量越重越聪明之类临时科技故事。",
+      "shortcoming": "会首先想到核技术、化学或医学示踪，可能过度限定AI Lab；部分人把同位素直接等同放射性。它是常见科学词，实际科技使用需要A3查，不以词本身好便假设可用。",
+      "science_boundary": "不同同位素并非在全部反应中表现完全相同；KIE尤其能使氘标记干扰速率。品牌只借对象关系，不说同位素机制证明模型学习或能力增长。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "旧显影以潜在影像经处理变可见，M18利用共同格栅自对准，M09回声定位由声认识形状；本项保留同元素身份又以质量区分的标记关系。若只讲揭示隐藏信息，应并回显影上位家族，不以新化学论文算新。"
+      },
+      "oral_test": [
+        "我们是同位素，做人工智能研究。",
+        "同位素发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened"
+    }
+  ],
+  "scope": "一项中文科学对象草案，不是可用或注册结论。"
+}

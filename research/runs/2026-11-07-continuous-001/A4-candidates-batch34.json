@@ -1,0 +1,120 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-08T21:42:52.333577+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch24.json",
+      "sha256": "737968f781f98c11c77e781a4b4225ea4290a1ba3bdfe9cb993f4fd50cde871d"
+    },
+    {
+      "path": "materials-extension22.json",
+      "sha256": "beb5d4ecac9de295d9e07873e69bf296b95fce18fc504c14c42d4e12effb5967"
+    },
+    {
+      "path": "A3-cn-batch26.json",
+      "sha256": "adf5036918dcbeae58c224ecc83a0d79e320436390c86f14576df074a282ef8c"
+    },
+    {
+      "path": "A4-candidates-batch31.json",
+      "sha256": "714b90fa1a6ac106c726ffd35b810ab9506971df20e8d6baab860396d5422c93"
+    },
+    {
+      "path": "A4-candidates-batch32.json",
+      "sha256": "66457680072b324d985003a38070a43449d8bb7626c0da5ea414729d9213458e"
+    },
+    {
+      "path": "A4-candidates-batch33.json",
+      "sha256": "f18a7f649a193a52004574839d82743f5dd04c91c7cca6c80736dc81cef2c5a3"
+    },
+    {
+      "path": "coordinator-en-batch31.json",
+      "sha256": "eafdda15980fa42214182198c48abdccb9ed5945edd4e5ac51d094ccb4fa6cfe"
+    },
+    {
+      "path": "coordinator-en-batch32.json",
+      "sha256": "0970a31570d8c6df4ef339fe3a54f145c10be2fd097f63f1e2dfb6657b4ce2ec"
+    },
+    {
+      "path": "coordinator-en-batch33.json",
+      "sha256": "a1ef5e0ad637e8061eed6317482cb1dc36342bcca6c156350a6d7e90d3897c53"
+    },
+    {
+      "path": "A3-en-batch31.json",
+      "sha256": "b2efa4f9b400d2563550981bb2461add061ab5bb01b4a72d1f6c47f447955b66"
+    },
+    {
+      "path": "A3-en-batch32.json",
+      "sha256": "f330bebaa9b9e28d2347e38a8a0de99c2f6f6f1ee3bed6686cc24be4c4d3cac4"
+    },
+    {
+      "path": "A3-en-batch32.md",
+      "sha256": "6e79bd90227ee7f9c9f8449833bb11bd4108948d8eb1aeaf1303164dacd7deff"
+    },
+    {
+      "path": "A3-en-batch32-receipt.json",
+      "sha256": "c6a7236afce743fb3d18fae8a0c344d652d101cb1c82938769dcb535c3a3cce2"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E37",
+      "chinese_id": "C1-C42",
+      "chinese": "双盲",
+      "english": "Double Veil",
+      "family_id": "C1-BF-double-anonymized-review-identity-separation",
+      "material_id": "C1-M52",
+      "suggested_pronunciation": "建议 DUB-ul VAYL，/ˈdʌbəl ˌveɪl/，两词共三个音节；均按完整词读，veil不改成vale以避重。",
+      "type": "完整形容词+名词的遮蔽意象，本案主题拟称非制度术语",
+      "formation": "double取双向关系，veil取遮蔽身份的帘幕式意象。不是Names Aside句段改一两个词，也不在Unsigned上加后缀；改用一个整体可感的外壳：两方评价关系中各有一层向对方遮去身份的帘幕。veil的比喻遮蔽义和double的twofold relation均有词典正文支持。指南并没有要求真挂两幅布，拟物与事实分开。",
+      "bilingual_relation": "中文用既有研究术语，英文把双方身份对彼此遮蔽的关系画成双向帘幕；作品仍进入评审，身份及必要信息由编辑按角色和阶段处理。它说的是遮哪一类信息、对谁遮，而不是把所有工作放入黑箱。",
+      "meaning": "让作品穿过来，让身份先留在另一侧。可承载研究组织对信息与判断关系的长期提问，不直接声称评价已公正、安全或不受任何偏见。",
+      "shortcoming": "可能先像婚纱、服饰、舞台或奇幻作品；veil与vale同音，首次听写仍需确认，独立AI研究身份不直接显现。帘幕也会让人想到秘密、不透明或双重掩饰；不能仅靠双盲的科学出处消掉这些反联想。",
+      "boundary": "double是双向角色关系，不是双层安全强度、双倍保密或两个真实布幕的实验。匿名不保证无法推知作者/消除偏见；编辑仍收必要身份与利益信息，不承诺以后所有身份公开。英文拟称非Nature正式用语，2015公告不证明现行全部政策。中文通名/临床/黑箱及双盲把戏游戏近似、登记未清继续披露；英文未查使用。",
+      "source_urls": [
+        "https://www.nature.com/documents/nr-double-blind-peer-review.pdf",
+        "https://blogs.nature.com/blog/double-blind-peer-review/",
+        "https://www.merriam-webster.com/dictionary/veil",
+        "https://www.merriam-webster.com/dictionary/double"
+      ],
+      "read_scope": "Nature指南0–22及2015博客27–34沿本人batch31真实阅读，不声称本次重核所有现行政策。本人本次实读veil词条31–77遮蔽/比喻义，double31–50双向关系/两部分义；未借其他宗教或历史词源充出处。",
+      "rework_attempt": 2,
+      "remaining_reworks": 0,
+      "status": "english_quality_proposal_not_usage_screened",
+      "replaces_candidate_id": "C1-E34",
+      "return_reason": "Names Aside先前质量未过、未查；Unsigned原A3已核具名AI/ML自用平台及另一音频软件。前者不称外售公司，后者原A3读到而root打不开的访问差异保持；两种失败性质分开。"
+    }
+  ],
+  "no_output_families": [
+    {
+      "chinese_id": "C1-C41",
+      "chinese": "纸蜂",
+      "family_id": "C1-BF-paper-wasp-material-maker",
+      "decision": "last_rework_review_completed_no_quality_proposal_selected_close_english_family",
+      "eligible_input": true,
+      "rework_attempt": 2,
+      "remaining_reworks": 0,
+      "actual_new_english_versions": 0,
+      "formal_new_english_id": null,
+      "reserved_E36_used": false,
+      "reason": "实际最后返工取舍后，不能选出既保留纤维加工/制造者关系、又比纸业工匠或育儿建巢更自然的独立Lab英文。材料加工词外壳首感仍像纸浆工厂，泛建巢角色又丢掉加工材料的独特关系；不用新拟物把同一个问题藏起来。",
+      "previous_versions": [
+        {
+          "id": "C1-E32",
+          "english": "Paper Wasp",
+          "result": "existing_cross_industry_commercial_core_use",
+          "detail": "完整文具系列与制造技术商业用名，不冒称AI精确同名或®注册已核。"
+        },
+        {
+          "id": "C1-E35",
+          "english": "Pulpwright",
+          "result": "quality_reject_not_searched",
+          "detail": "主控拼写未达门槛且纸业工匠首感重，未做使用查询，不称占用。"
+        }
+      ],
+      "claim_boundary": "不是上游零输入，而是有资格中文在最后返工中实际未选出合格英文。中文原公开初筛不追认为占用；两个已提交英文版本同一个家族，最后零输出不虚构第三英文版。",
+      "no_R3": true
+    }
+  ],
+  "usage_screening_performed": false
+}

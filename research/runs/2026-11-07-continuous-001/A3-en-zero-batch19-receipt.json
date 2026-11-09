@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English zero final receipt",
+  "executed_at": "2026-11-08T17:42:23.550911+08:00",
+  "inputs": [
+    {
+      "path": "A4-zero-input-batch19.json",
+      "sha256": "e9343b6ef297fc4fbd9798bf7367f851e595c5c599d7e82448385ec709608984"
+    },
+    {
+      "path": "A4-zero-input-batch19.md",
+      "sha256": "5acafe12c29a943e143ed3bd7657b5c59aacb4c0b3fd24a20d89b50adb4f0ab1"
+    },
+    {
+      "path": "A4-zero-input-batch19-receipt.json",
+      "sha256": "29e27541da5e3c78ddee5c5cc2383da5c21973116efcbcf230a9eca6a51670e0"
+    },
+    {
+      "path": "A3-cn-batch21.json",
+      "sha256": "83100580afd76a9d6e5cab68cabbafb3836c560a27c21cb033f017b2b25fece6"
+    },
+    {
+      "path": "A3-cn-batch21.md",
+      "sha256": "9be521c0b56ba6e9f75fa53834f18727940673e953e7c9b8951d988202b4f13d"
+    },
+    {
+      "path": "A3-cn-batch21-receipt.json",
+      "sha256": "b7da753ab4b6235ed263b4ee230dc6d1eca1f674e643c398052b97714109a6e6"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-zero-batch19.json",
+      "sha256": "c73a87ef4eee5978987f902d6661e68a30c708f3e29c5e3f35f02e9f7de85ab3"
+    },
+    {
+      "path": "A3-en-zero-batch19.md",
+      "sha256": "48c18284e3a05adea643a05b3f7f70517608a93f0ad91d242ae510c5a215b39f"
+    }
+  ],
+  "actual_upstream_read": true,
+  "all_referenced_hashes_matched": true,
+  "qualified_chinese_inputs": 0,
+  "english_inputs": 0,
+  "english_outputs": 0,
+  "actual_new_queries": 0,
+  "agent3_cumulative_candidate_queries": 386,
+  "run_cumulative_candidate_queries": 388,
+  "next": "交主控H7记录本包零保留；只闭此包，不停止整个研究。"
+}

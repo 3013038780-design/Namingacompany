@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-07",
+  "stage": "A1",
+  "agent_id": "/root/agent1_baseline105",
+  "status": "completed",
+  "completed_at": "2026-11-07T16:11:27+08:00",
+  "execution_receipt": "collaboration.followup_task to /root/agent1_baseline105, current Codex chat",
+  "scope": "用户授权最小完整循环中的3案精简复用交接，不声称生产批规范达标",
+  "input_refs": [
+    {
+      "path": "README.md",
+      "sha256": "cd8b811fb3e013630b4d77445a987caf9f0ff5d73adfdab60322e3d4a8c24828"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "8f5eeb1278f4dfaa0d87927537caae459a7552069a5596982edafd06b44a4cd4"
+    },
+    {
+      "path": "research/seed/README.md",
+      "sha256": "44cb357ed9db7edb5dc6c9a32ef1729e482ab3a9ef1f9dc6598dfbb3fc0d33b3"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/README.md",
+      "sha256": "72ec38fefa7cec1ad528378a38cb1cd5b156ebe23ed74b1bd7f9a86943a0edd9"
+    },
+    {
+      "path": "research/runs/2026-11-06/candidates.json",
+      "sha256": "95b101c47e050a5359b52580e63892f671f627953383320a921239d754e24399"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "sha256": "ae6454d3c330698afa7d7844353f8709f59fb619500ae14cca10885864213ceb"
+    },
+    {
+      "path": "research/runs/2026-11-06-round2/candidates.json",
+      "sha256": "988c2b975769b1da82e528e0ee999f025f94a38af62ace9752259129329995cf"
+    }
+  ],
+  "actual_work": [
+    "读当前最小试验授权与偏好",
+    "重读B010/B037/B076及既往来源范围",
+    "扫描历史候选名称以提示去重风险",
+    "提取三种不同机制及对A2的具体查找问题"
+  ],
+  "cases": [
+    {
+      "case_id": "B010",
+      "name": "字节跳动 / ByteDance",
+      "market": "broad_tech",
+      "meaning": "byte为字节，dance为舞动。",
+      "origin_boundary": "既往官网审阅支持品牌使用，未确认创始命名动机；技术单位与动作的关系是命名分析。",
+      "mechanism": "让真实技术对象进入可感动作，用一个画面表达技术有活力，而非逐字自夸。",
+      "principle": "技术对象与动作必须确有结构或作用关系，中文先像称呼，再讲深层。",
+      "question_for_A2": "计算系统中，哪些真实对象会因运行、反馈或历史而改变其后续能力？找它们已有的自然中文称呼或完整关系，避免只给历史提案换字而计为新创意。",
+      "failure_boundary": "不能把任意技术名词加动作当作成立，也不能原样换掉字节和跳动冒充新家族。",
+      "sources": [
+        {
+          "url": "https://www.bytedance.com/",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reading_scope": "既往品牌与使命段；本次重读仓库B010记录，未新开外链"
+        }
+      ]
+    },
+    {
+      "case_id": "B037",
+      "name": "Imbue",
+      "market": "current_ai",
+      "meaning": "使充满、赋予、浸润。",
+      "origin_boundary": "既往主控已打开命名顾问案例，支持赋予智能/人类价值的解释；本次继承，不重新声称访问。",
+      "mechanism": "从公司对已有对象产生的改变命名；增强者角色比聪明程度更能说明关系。",
+      "principle": "先找真实赋能关系，再看其称呼是否独立成立，不强行直译英文。",
+      "question_for_A2": "哪些科学或工程过程会让一个已经成形的系统在使用中获得新能力，而不是换掉重建？其现成称呼能否承载研究机构？",
+      "failure_boundary": "来源真实仍要淘汰育儿、教育、养生或加工工序气质；不以拼英语词根代替自然中文。",
+      "sources": [
+        {
+          "url": "https://www.ahundredmonkeys.com/case-study/imbue/",
+          "access": "prior_review",
+          "reader": "prior_coordinator",
+          "review_file": "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+          "reading_scope": "既往命名顾问20/32；本次重读B037记录，未新开外链"
+        }
+      ]
+    },
+    {
+      "case_id": "B076",
+      "name": "Sakana AI",
+      "market": "rsi_labs",
+      "meaning": "日语中鱼；公司明确借鱼群简单互动形成整体。",
+      "origin_boundary": "既往官方seed-round正文核验支持鱼及群体意象；不由群体行为推断持续学习性能。",
+      "mechanism": "普通生命对象承载深层组织规律，表面易叫，专业机制后讲。",
+      "principle": "自然名字需要能回到真实关系，不能只剩生长、生命力等泛好意头。",
+      "question_for_A2": "中国自然观察与现代复杂系统资料中，哪些有现成中文称呼的现象，由局部互动形成可见整体？区别于树木长大和鱼群的近义改写。",
+      "failure_boundary": "不采用日语命名，不照搬鱼群，不把生态名自动包装成科技Lab；机制弱或行业误读强即淘汰。",
+      "sources": [
+        {
+          "url": "https://sakana.ai/seed-round/",
+          "access": "prior_review",
+          "reader": "prior_A1_and_coordinator",
+          "review_file": "research/runs/2026-11-06-agent1-baseline105/cases.json",
+          "reading_scope": "既往官方命名说明5；本次重读B076记录，未新开外链"
+        }
+      ]
+    }
+  ],
+  "principle_count": 3,
+  "new_market_cases": 0,
+  "new_name_proposals": 0,
+  "external_pages_opened_this_pass": 0,
+  "handoff_to": "A2",
+  "handoff_suggestion": "直接围绕三问题各探索一条不同家族中文路径，最多3草案；出处随名保存。无需再向用户交素材卡审批；名称质量不成立可如实淘汰，不为走流程强留。"
+}

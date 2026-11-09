@@ -1,0 +1,84 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-08T23:34:33.006871+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch29.json",
+      "sha256": "780d764e852ce7ad10b78f299763512d2079561557b928fdb553480d6acfa01e"
+    },
+    {
+      "path": "A2-quality-batch29.json",
+      "sha256": "890f503487776dcac1915a85c2c8d5b2ee934266ebdc292c3020cb28d565a6bf"
+    },
+    {
+      "path": "A2-creation-execution-batch29.json",
+      "sha256": "a327fd3dc312db6e3f4a8749d2688b22fb1001f000de5ec0f3875a1e2361bbe3"
+    },
+    {
+      "path": "materials-extension27.json",
+      "sha256": "e6a46bceabc5d35190d2aabb0cbf02dedfbe3e7a68389e47e5542c8731ade31d"
+    },
+    {
+      "path": "coordinator-cn-batch29.json",
+      "sha256": "057efaa78caeeb23cb4bf580e165b743134411987dde24dcb9463b76af42a299"
+    },
+    {
+      "path": "coordinator-family-review-batch29.json",
+      "sha256": "3cfbb2ddf9a3a1da24ea5c239e227e8e6678ecc6dfd8a28cfb81978fa0c4379a"
+    },
+    {
+      "path": "A3-cn-batch31.json",
+      "sha256": "5fbb8fadc893d38a198b045c0e553ed059814efebd6a2fc3deeea26506b61292"
+    },
+    {
+      "path": "A3-cn-batch31.md",
+      "sha256": "f4e5dd60a1be17ceb5240bb632b9ad08eac13c198621e2697cf50eaed45733e3"
+    },
+    {
+      "path": "A3-cn-batch31-receipt.json",
+      "sha256": "8bc518e90e27c29de3a15492e10f6b0bf1ad0addd2f7dc10f6bca76b06025aab"
+    },
+    {
+      "path": "continuations/2026-11-08T151606Z/root-cn31-review.json",
+      "sha256": "cd30a38993ae1cf5164bd9767b371b511fa7851bf7e4bce6851d6fd321cafc4c"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E39",
+      "chinese_id": "C1-C48",
+      "chinese": "第三真值",
+      "english": "Neither",
+      "family_id": "C1-BF-third-truth-value-unknown-state",
+      "material_id": "C1-M59",
+      "suggested_pronunciation": "建议采用词典NEE-ther，/ˈniːðər/；/ˈnaɪðər/也是词典接受的完整读法，两个音节。不将ei任改为其他字母。",
+      "type": "完整既有词典词作研究称呼，不是术语改拼或拼音",
+      "formation": "neither的代词义是两个或多个中的哪一个都不是，本案明确所对照的两类是true与false。不是把未知写成一个更好听的no，而是给既非该true类也非该false类的unknown留下位置。Neither不是PostgreSQL正式状态名，状态仍叫unknown；这是以完整普通词指向分类关系的主题配对，不宣称新造词。",
+      "bilingual_relation": "中文直接给第三逻辑位置命名；英文不重复序数，而回答它与已有两类的关系。固定文档明确unknown以NULL表示、普通比较遇NULL不会直接压成false。这里英语的neither描述状态类别，不是将它翻译成SQL表达式NOT TRUE AND NOT FALSE后声称得到unknown，也不把任何日常两难都当三值逻辑。",
+      "meaning": "未能判为真，不等于已经判为假。研究组织可据此重视可表达状态的差别，不用一种否定吞掉所有未知；不保证模型已可靠判断自身知识。",
+      "shortcoming": "常用否定词可能听成拒绝选择、消极或“两边都不要”，也可能像服饰/文化品牌；作为代词需要解释所指两类。ei与th有听写/发音成本，两种标准读法使口头一致性需建立，不能假称普通词就自带强独占性。",
+      "boundary": "只借具体SQL布尔语义的状态区别，不说世界万物必有第三真理、不说第三比真更高级或unknown是五成概率。IS UNKNOWN等检测本身仍返回true/false，非无限追加更多真值；NULL也非总可用普通等号比较的值。清华样章只在CN筛查用于学术用法消歧，不充本名新科学来源。中文学术标题/第三真理误读及登记未清照留，英文未筛不继承中文通过。",
+      "source_urls": [
+        "https://www.postgresql.org/docs/18/datatype-boolean.html",
+        "https://www.postgresql.org/docs/18/functions-comparison.html",
+        "https://www.merriam-webster.com/dictionary/neither"
+      ],
+      "read_scope": "本人本次实际web读固定PG18 Boolean20–62，Comparison49–60及76–104，明确普通比较/IS UNKNOWN区别；未运行SQL或读SQL标准原件。另实读neither31–76及113–125的词义、双读音与代词可独立回答例式，不把词典当市场使用核准。未本人新读清华样章或NASA来源。",
+      "rework_attempt": 0,
+      "remaining_reworks": 2,
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "excluded_upstream": [
+    {
+      "chinese_id": "C1-C49",
+      "chinese": "同星",
+      "eligible_english_inputs": 0,
+      "actual_english_creation": 0,
+      "new_scores": 0,
+      "reason": "原A3七有效中文查询后巨潮公告完整浙江同星科技股份有限公司确证同核心使用；不靠童星异字或英国Tongxing拼音认同一主体。不配英文救回，非当前工商/9和42官方核准。"
+    }
+  ],
+  "usage_screening_performed": false
+}

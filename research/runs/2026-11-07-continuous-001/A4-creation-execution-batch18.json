@@ -1,0 +1,66 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "executed_at": "2026-11-08T00:16:56.133796+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch10-supplement.json",
+      "sha256": "f9c9f0348c2725fa5471ef6fdcea0e936d301973ef2d42cf56f0a5762d315312"
+    },
+    {
+      "path": "materials-extension9-supplement.json",
+      "sha256": "b540d8dd81109c30db56bbc1953cbb9d5e24993503c0b6224ae829aab2db9e6c"
+    },
+    {
+      "path": "coordinator-cn-batch10-supplement.json",
+      "sha256": "c4800c7516e4c52b9c9837b63c364445627016f1de9465a7edc28b84f57ad526"
+    },
+    {
+      "path": "coordinator-family-review-batch10-supplement.json",
+      "sha256": "fbb66bf2d9f1ea36dbc8ceda0b9194ac8e472c23c69d411ea7a0385d46b97eca"
+    },
+    {
+      "path": "A3-cn-batch12.json",
+      "sha256": "2ee03dd9bd80253389874defab204f28195f5e65cf3ebfd144c9c0b525d46ac7"
+    },
+    {
+      "path": "A3-cn-batch12-receipt.json",
+      "sha256": "2c4d885ebdaeb2a4c52f31430514ac8848f87523b712a6499784b1ae0c912f6f"
+    },
+    {
+      "path": "A4-candidates-batch17.json",
+      "sha256": "c97063f7efd9c3a866f9ab5e31fc3ae4f01ecc576cf9b527f42e50132530a5aa"
+    },
+    {
+      "path": "A3-en-batch17.json",
+      "sha256": "508c6a7e2382292f8988aad6ecc85fbefad6b5e7307ee307be7263ffe45f5f03"
+    }
+  ],
+  "actual_new_source_reads": [
+    {
+      "url": "https://www.merriam-webster.com/dictionary/in%20play",
+      "scope": "31–34行in play词条；品牌计算引申为本人解释，不冒充词典事实"
+    }
+  ],
+  "reused_primary_source_read": {
+    "url": "https://www.cs.cornell.edu/courses/cs4120/2023sp/notes/livevar/",
+    "scope": "前稿1–29、48–69行，未冒称新增阅读"
+  },
+  "actual_A3_report_read": "A3-en-batch17正式证据，Obsidian独立Live Variables插件与作者仓库；仅s近同核心避让，非精确单数AI公司登记。",
+  "relationship_used": "当前值后续仍可能使用，当前尚有保留角色；不是惰性求值、二次开局或能力增长。",
+  "output_candidate_ids": [
+    "C1-E18"
+  ],
+  "new_chinese_names": 0,
+  "new_english_versions": 1,
+  "usage_queries": 0,
+  "registration_queries": 0,
+  "rework_attempt": 1,
+  "remaining_reworks": 1,
+  "outputs": [
+    "A4-preview-batch18.md",
+    "A4-candidates-batch18.json",
+    "A4-quality-batch18.json"
+  ],
+  "original_records_unchanged": true
+}

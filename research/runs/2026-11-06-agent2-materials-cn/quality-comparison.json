@@ -1,0 +1,1006 @@
+{
+  "compared_at": "2026-11-06T14:25:04+08:00",
+  "producer_scores_unsealed_after": "editorial-quality.json submission at 2026-11-06T14:21:10+08:00",
+  "independent_submission_sha256": "270f196f602be33da6e8ba1390a67259c43b83733ee24132db14c8f1a42f7014",
+  "input_version_note": "独立评分时的候选输入已按原哈希精确重建并保存editorial-input-candidates.json；A2随后只增角色/原则应用字段，不改名称、释义或短板。",
+  "candidate_input_sha256": "d76ac2b92dedd406682429ea95618d36966b98e798139eeed7ff03c4c22d782a",
+  "later_candidate_sha256": "ae6454d3c330698afa7d7844353f8709f59fb619500ae14cca10885864213ceb",
+  "rework": "A2C21 grounding producer5/coordinator3; one actual A2 re-review lowers producer to3, remains hold; original rating preserved.",
+  "entries": [
+    {
+      "candidate_id": "A2C01",
+      "name": "视差",
+      "family_id": "F01-parallax",
+      "producer_scores_original": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_scores_effective": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 5,
+        "semantic_coherence": 4
+      },
+      "producer_total_effective": 26,
+      "coordinator_total": 27,
+      "quality_pass_both": true,
+      "disagreements_effective": {},
+      "decision": "dual_editorial_pass",
+      "reason_codes": [],
+      "reason": "两份中文编辑评审同时过线；仍未查重，且H2新增家族缺1，当前不进入下游。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C02",
+      "name": "另解",
+      "family_id": "F02-alternative-explanation",
+      "producer_scores_original": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_scores_effective": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "producer_total_effective": 23,
+      "coordinator_total": 21,
+      "quality_pass_both": false,
+      "disagreements_effective": {},
+      "decision": "not_advanced_editorial",
+      "reason_codes": [
+        "QUALITY_THRESHOLD",
+        "BRAND_FIT"
+      ],
+      "reason": "双评未过：记忆辨识、AI Lab身份。第一联想可能是题解栏目或教辅；像对某题的追加答案，长期机构气质偏弱。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C03",
+      "name": "弦外",
+      "family_id": "F03-cognitive-fringe",
+      "producer_scores_original": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_scores_effective": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_total_effective": 25,
+      "coordinator_total": 25,
+      "quality_pass_both": false,
+      "disagreements_effective": {},
+      "decision": "not_advanced_editorial",
+      "reason_codes": [
+        "QUALITY_THRESHOLD",
+        "BRAND_FIT"
+      ],
+      "reason": "双评未过：AI Lab身份。第一联想是音乐、文学或文化机构；若必须长篇解释才像Lab，就不成立；不可夸称模型有主观意识。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C04",
+      "name": "显影",
+      "family_id": "F04-photogram",
+      "producer_scores_original": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_scores_effective": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_total_effective": 25,
+      "coordinator_total": 24,
+      "quality_pass_both": false,
+      "disagreements_effective": {},
+      "decision": "not_advanced_editorial",
+      "reason_codes": [
+        "QUALITY_THRESHOLD",
+        "BRAND_FIT"
+      ],
+      "reason": "双评未过：AI Lab身份。摄影工作室、影像软件第一联想很强；容易被限定为视觉领域；显现不自动表示学习发生。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C05",
+      "name": "随行",
+      "family_id": "F05-closure-environment",
+      "producer_scores_original": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 2,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_scores_effective": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 2,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 3
+      },
+      "producer_total_effective": 22,
+      "coordinator_total": 21,
+      "quality_pass_both": false,
+      "disagreements_effective": {},
+      "decision": "not_advanced_editorial",
+      "reason_codes": [
+        "QUALITY_THRESHOLD",
+        "BRAND_FIT"
+      ],
+      "reason": "双评未过：记忆辨识、AI Lab身份。旅游、出行或随身助手的第一联想强；容易像产品而非研究机构；闭包本身并不会持续学习。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C06",
+      "name": "通式",
+      "family_id": "F06-higher-order-method",
+      "producer_scores_original": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_scores_effective": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 3
+      },
+      "producer_total_effective": 24,
+      "coordinator_total": 22,
+      "quality_pass_both": false,
+      "disagreements_effective": {},
+      "decision": "not_advanced_editorial",
+      "reason_codes": [
+        "QUALITY_THRESHOLD"
+      ],
+      "reason": "双评未过：记忆辨识。像教材栏目；声调平直，缺具体画面；通用性主张也容易显得空泛。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C07",
+      "name": "不变",
+      "family_id": "F07-symmetry-invariance",
+      "producer_scores_original": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 2
+      },
+      "producer_scores_effective": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 2
+      },
+      "coordinator_scores": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 2,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 2
+      },
+      "producer_total_effective": 22,
+      "coordinator_total": 20,
+      "quality_pass_both": false,
+      "disagreements_effective": {},
+      "decision": "not_advanced_editorial",
+      "reason_codes": [
+        "QUALITY_THRESHOLD",
+        "BRAND_FIT"
+      ],
+      "reason": "双评未过：记忆辨识、AI Lab身份、多层一致性。与持续成长在字面上容易对立；可能被读成固执不变；宣传解释无法消除这一张力。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C08",
+      "name": "莫尔纹",
+      "family_id": "F08-moire-relation",
+      "producer_scores_original": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 3,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_scores_effective": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 3,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_total_effective": 22,
+      "coordinator_total": 24,
+      "quality_pass_both": false,
+      "disagreements_effective": {},
+      "decision": "historical_branch",
+      "reason_codes": [
+        "HISTORY_OR_FAMILY_DUPLICATE"
+      ],
+      "reason": "保守归并历史叠加意象，保留研究、不计新增。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C09",
+      "name": "一闪",
+      "family_id": "F09-fast-radio-burst",
+      "producer_scores_original": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 3
+      },
+      "producer_scores_effective": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 3
+      },
+      "coordinator_scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 3
+      },
+      "producer_total_effective": 21,
+      "coordinator_total": 22,
+      "quality_pass_both": false,
+      "disagreements_effective": {},
+      "decision": "not_advanced_editorial",
+      "reason_codes": [
+        "QUALITY_THRESHOLD",
+        "BRAND_FIT"
+      ],
+      "reason": "双评未过：记忆辨识、AI Lab身份。像闪光灯、摄影App或快服务；短暂与长期Lab有张力；不代表持续成长。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C10",
+      "name": "星间",
+      "family_id": "F10-stellar-outflow",
+      "producer_scores_original": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_scores_effective": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 5,
+        "semantic_coherence": 3
+      },
+      "producer_total_effective": 22,
+      "coordinator_total": 23,
+      "quality_pass_both": false,
+      "disagreements_effective": {},
+      "decision": "not_advanced_editorial",
+      "reason_codes": [
+        "QUALITY_THRESHOLD"
+      ],
+      "reason": "双评未过：记忆辨识、AI Lab身份。可能像天文馆或文艺品牌；来源并不能证明星间二字天然有计算身份；星字在现有科技语汇中常见。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C11",
+      "name": "察觉",
+      "family_id": "F11-perception-context",
+      "producer_scores_original": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_scores_effective": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_total_effective": 25,
+      "coordinator_total": 24,
+      "quality_pass_both": false,
+      "disagreements_effective": {},
+      "decision": "not_advanced_editorial",
+      "reason_codes": [
+        "QUALITY_THRESHOLD"
+      ],
+      "reason": "双评未过：记忆辨识。可能像安全监控、心理咨询产品；名字容易承诺AI拥有主观体验，应避免此说法。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C12",
+      "name": "等高线",
+      "family_id": "F12-contour-representation",
+      "producer_scores_original": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_scores_effective": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_total_effective": 26,
+      "coordinator_total": 26,
+      "quality_pass_both": true,
+      "disagreements_effective": {},
+      "decision": "dual_editorial_pass",
+      "reason_codes": [],
+      "reason": "两份中文编辑评审同时过线；仍未查重，且H2新增家族缺1，当前不进入下游。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C13",
+      "name": "下一镜",
+      "family_id": "F13-film-montage",
+      "producer_scores_original": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 2,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "producer_scores_effective": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 2,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 3,
+        "distinctiveness": 3,
+        "lab_fit": 2,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 3
+      },
+      "producer_total_effective": 20,
+      "coordinator_total": 18,
+      "quality_pass_both": false,
+      "disagreements_effective": {},
+      "decision": "not_advanced_editorial",
+      "reason_codes": [
+        "QUALITY_THRESHOLD",
+        "BRAND_FIT",
+        "UNNATURAL"
+      ],
+      "reason": "双评未过：自然称呼、记忆辨识、AI Lab身份。首先像影视公司或短视频剪辑产品；把持续学习说成下一个镜头并不充分。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C14",
+      "name": "转场",
+      "family_id": "F14-exaptation",
+      "producer_scores_original": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 2,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "producer_scores_effective": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 2,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 3,
+        "extension": 3,
+        "semantic_coherence": 3
+      },
+      "producer_total_effective": 21,
+      "coordinator_total": 20,
+      "quality_pass_both": false,
+      "disagreements_effective": {},
+      "decision": "not_advanced_editorial",
+      "reason_codes": [
+        "QUALITY_THRESHOLD",
+        "BRAND_FIT"
+      ],
+      "reason": "双评未过：记忆辨识、AI Lab身份、来源与组合。影视与舞台第一联想；也像单纯迁移部署；缺少长期研究机构的独立身份。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C15",
+      "name": "活版",
+      "family_id": "F15-movable-type",
+      "producer_scores_original": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_scores_effective": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_total_effective": 25,
+      "coordinator_total": 24,
+      "quality_pass_both": false,
+      "disagreements_effective": {},
+      "decision": "not_advanced_editorial",
+      "reason_codes": [
+        "QUALITY_THRESHOLD",
+        "BRAND_FIT"
+      ],
+      "reason": "双评未过：AI Lab身份。可能首先像出版社、字体或印刷公司；活字不代表智能会自学；行业定位需承认这一成本。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C16",
+      "name": "对读",
+      "family_id": "F16-parallel-script-decipherment",
+      "producer_scores_original": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_scores_effective": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "producer_total_effective": 23,
+      "coordinator_total": 21,
+      "quality_pass_both": false,
+      "disagreements_effective": {},
+      "decision": "not_advanced_editorial",
+      "reason_codes": [
+        "QUALITY_THRESHOLD",
+        "BRAND_FIT"
+      ],
+      "reason": "双评未过：记忆辨识、AI Lab身份。偏阅读App、文献研究或翻译工具；声音温和但难有规模气势；对照不是万能译解。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C17",
+      "name": "择径",
+      "family_id": "F17-fermat-path",
+      "producer_scores_original": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_scores_effective": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 3
+      },
+      "producer_total_effective": 23,
+      "coordinator_total": 22,
+      "quality_pass_both": false,
+      "disagreements_effective": {},
+      "decision": "not_advanced_editorial",
+      "reason_codes": [
+        "QUALITY_THRESHOLD"
+      ],
+      "reason": "双评未过：记忆辨识。听写可能成泽境/则径；有户外导航意味；将自然原理人格化只是品牌叙事。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C18",
+      "name": "留白",
+      "family_id": "F18-negative-space",
+      "producer_scores_original": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 2,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_scores_effective": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 2,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 2,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 3
+      },
+      "producer_total_effective": 22,
+      "coordinator_total": 21,
+      "quality_pass_both": false,
+      "disagreements_effective": {},
+      "decision": "not_advanced_editorial",
+      "reason_codes": [
+        "QUALITY_THRESHOLD",
+        "BRAND_FIT"
+      ],
+      "reason": "双评未过：记忆辨识、AI Lab身份。设计事务所、家居或文创第一联想强；容易被读成空白而非研究；泛文化词辨识压力大。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C19",
+      "name": "织数",
+      "family_id": "F19-punched-card-pattern",
+      "producer_scores_original": {
+        "naturalness": 3,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_scores_effective": {
+        "naturalness": 3,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 3,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_total_effective": 22,
+      "coordinator_total": 22,
+      "quality_pass_both": false,
+      "disagreements_effective": {},
+      "decision": "not_advanced_editorial",
+      "reason_codes": [
+        "QUALITY_THRESHOLD",
+        "BRAND_FIT",
+        "UNNATURAL"
+      ],
+      "reason": "双评未过：自然称呼、记忆辨识、AI Lab身份。不看解释容易像纺织数字化公司；数的读音易混；两个字压缩仍显造词。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C20",
+      "name": "触媒",
+      "family_id": "F20-catalytic-barrier",
+      "producer_scores_original": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_scores_effective": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 5,
+        "semantic_coherence": 4
+      },
+      "producer_total_effective": 26,
+      "coordinator_total": 27,
+      "quality_pass_both": true,
+      "disagreements_effective": {},
+      "decision": "dual_editorial_pass",
+      "reason_codes": [],
+      "reason": "两份中文编辑评审同时过线；仍未查重，且H2新增家族缺1，当前不进入下游。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C21",
+      "name": "行话",
+      "family_id": "F21-dance-code",
+      "producer_scores_original": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 3
+      },
+      "producer_scores_effective": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 3,
+        "extension": 4,
+        "semantic_coherence": 3
+      },
+      "coordinator_scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 3,
+        "extension": 4,
+        "semantic_coherence": 3
+      },
+      "producer_total_effective": 22,
+      "coordinator_total": 22,
+      "quality_pass_both": false,
+      "disagreements_effective": {},
+      "decision": "not_advanced_editorial",
+      "reason_codes": [
+        "QUALITY_THRESHOLD",
+        "BRAND_FIT"
+      ],
+      "reason": "双评未过：AI Lab身份、来源与组合。固定词应读hang hua，不能宣传成xing hua双读皆公认；像行业资讯或聊天产品，圈内话亦有排他意味。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C22",
+      "name": "过境",
+      "family_id": "F22-migration-stopover",
+      "producer_scores_original": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 2,
+        "grounding": 4,
+        "extension": 2,
+        "semantic_coherence": 3
+      },
+      "producer_scores_effective": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 2,
+        "grounding": 4,
+        "extension": 2,
+        "semantic_coherence": 3
+      },
+      "coordinator_scores": {
+        "naturalness": 5,
+        "distinctiveness": 3,
+        "lab_fit": 2,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 3
+      },
+      "producer_total_effective": 19,
+      "coordinator_total": 20,
+      "quality_pass_both": false,
+      "disagreements_effective": {},
+      "decision": "not_advanced_editorial",
+      "reason_codes": [
+        "QUALITY_THRESHOLD",
+        "BRAND_FIT"
+      ],
+      "reason": "双评未过：记忆辨识、AI Lab身份、长期延展。首先像旅行、物流或出入境服务；过境只停留片刻，不符合长期投入研究的承诺。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C23",
+      "name": "空格键",
+      "family_id": "F23-spacebar-interface",
+      "producer_scores_original": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "producer_scores_effective": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 3
+      },
+      "producer_total_effective": 24,
+      "coordinator_total": 23,
+      "quality_pass_both": false,
+      "disagreements_effective": {},
+      "decision": "not_advanced_editorial",
+      "reason_codes": [
+        "QUALITY_THRESHOLD"
+      ],
+      "reason": "双评未过：AI Lab身份。键盘外设、游戏工作室或效率插件第一联想强；按键太具体，容易成为产品品牌。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    },
+    {
+      "candidate_id": "A2C24",
+      "name": "凸点",
+      "family_id": "F24-braille-tactile-code",
+      "producer_scores_original": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_scores_effective": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 4,
+        "extension": 3,
+        "semantic_coherence": 3
+      },
+      "producer_total_effective": 23,
+      "coordinator_total": 21,
+      "quality_pass_both": false,
+      "disagreements_effective": {},
+      "decision": "not_advanced_editorial",
+      "reason_codes": [
+        "QUALITY_THRESHOLD",
+        "BRAND_FIT"
+      ],
+      "reason": "双评未过：记忆辨识、AI Lab身份。像触觉硬件或零件公司；声音可能有突点/秃点的误听；不应消解盲文的文化与无障碍主体。",
+      "market_screening": "not_started",
+      "registration_status": "not_checked",
+      "is_final_candidate": false
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "stage": "same_heartbeat_followthrough_chinese_batch10",
+  "completed_at": "2026-11-08T00:06:19.086295+08:00",
+  "input_refs": [
+    {
+      "path": "continuations/2026-11-07T155304Z/decisions-through-batch9.json",
+      "sha256": "c58704d2336ee4fd39edfe5e73633c985953cf8144613f62c5d39ffff5515a0e"
+    },
+    {
+      "path": "coordinator-cn-batch9.json",
+      "sha256": "85ae9ee6e246f7e9e5431076a0fe7d3c6aaa9e1fba1050981c7c50a3aab73bdf"
+    },
+    {
+      "path": "coordinator-family-review-batch9.json",
+      "sha256": "042102f38b59110191c5538f13f401d1d4ec5003517301ed3dfd36bd98a16279"
+    },
+    {
+      "path": "A3-cn-batch10.json",
+      "sha256": "2179b9ba1b5c71277b1ced490d859f432f06ee4befd57ef3f4d30b549bcaf126"
+    },
+    {
+      "path": "A1.md",
+      "sha256": "50023a0d4970380ebd3afb8969343e6aaadab41c468ae7be66bf2da8f20dcda9"
+    },
+    {
+      "path": "A1-formation-feedback.md",
+      "sha256": "9e2c1589037d9d564619fd8d9d861dffd13288087c4f7dec8e49d5ecbd702dde"
+    },
+    {
+      "path": "search-plan.json",
+      "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+    }
+  ],
+  "new_material_count": 1,
+  "new_chinese_draft_count": 1,
+  "new_english_count": 0,
+  "name_usage_queries_performed": false,
+  "source_dates_note": "本次真实阅读日期以completed_at为准；2022馆方旧文不充近九十天新闻，未新增整书通读。",
+  "output_refs": [
+    {
+      "path": "materials-extension9.json",
+      "sha256": "cf709bf4993046c93991facc95fa170f9db074eac113e29558b5292b875d2a02"
+    },
+    {
+      "path": "A2-candidates-batch10.json",
+      "sha256": "dac3fad4d578088af37f3daefa42fb863ad081cd708711869be0d2bf922b80c3"
+    },
+    {
+      "path": "A2-preview-batch10.md",
+      "sha256": "78e3ae6ef17e97035df6a9bfa0bda60d6e525de5a33e54cafe668cc26ee8eecf"
+    },
+    {
+      "path": "A2-quality-batch10.json",
+      "sha256": "457560a520c747d1ca460a62a95906a676aea37eb349893bf29be259d1f597d8"
+    }
+  ],
+  "whole_production_batch_complete": false,
+  "boundary": "原文件/原评分不改，不重开计划，不改总库/Git，不通知用户。"
+}

@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-09T14:15:35.406699+08:00",
+  "independence": "Read producer preview batch56 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C63",
+      "name": "消息候场",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "计算中的消息和自然候场动词构成完整四字画面可顺口称呼",
+          "counter_association": "仍像句子或一款排队功能名称"
+        },
+        "distinctiveness": {
+          "reason": "将消息拟人为已就位等待取用的主角有明确可复述状态",
+          "counter_association": "候场很有演艺场景也可能像栏目标题"
+        },
+        "lab_fit": {
+          "reason": "保留消息这一信息系统对象可承载通信和智能行动衔接研究",
+          "counter_association": "通知发布管理或演艺候场软件第一联想不弱"
+        },
+        "grounding": {
+          "reason": "官方明确消息入队后receive按匹配择取候场的已到而待选对应核心事实",
+          "counter_association": "不能把候场读成每项必轮到或消息有意志"
+        },
+        "extension": {
+          "reason": "研究信息何时进入行动可以跨产品与多种智能系统",
+          "counter_association": "长期若只讲等待会像消极排队服务"
+        },
+        "semantic_coherence": {
+          "reason": "同一消息的存放等待与条件择取保持一幅场景而非叠加别的寓意",
+          "counter_association": "未显示优先消息别名与匹配细节也不等全局FIFO"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "observed_at": "2026-11-09T16:55:16.743546+08:00",
+  "heartbeat_triggers": [
+    "2026-11-09T06:52:49.218Z",
+    "2026-11-09T07:50:19.819Z",
+    "2026-11-09T08:54:03.432Z"
+  ],
+  "same_existing_packet": true,
+  "state": "旧主控轮被中断；原A2R2已封而新中文筛查尚未派发，本次仅接续，不把无工具执行的两个中断心跳假装成新研究。",
+  "source_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch56.json",
+      "sha256": "969f4f11af4804611c96b33addea1a88cc861b6194329c5d6bed69f79d4fed81"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch56.json",
+      "sha256": "dae53eda4cc4d763c235f3720be420f905599b969d036de63f7e25bedf730eaa"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/quality-comparison-batch56.json",
+      "sha256": "3e4d68d82c25dd32cea6a462cebf3aa0607a3ed6713652a796ef24c105d02840"
+    }
+  ]
+}

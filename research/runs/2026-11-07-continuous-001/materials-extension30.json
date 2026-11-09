@@ -1,0 +1,71 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T00:48:54.432556+08:00",
+  "materials": [
+    {
+      "id": "C1-M65",
+      "family_id": "C1-MF-flight-test-person-as-real-condition-research-role",
+      "macro_id": "S6",
+      "plan_direction_id": "C1-D-S6",
+      "category": "complete_human_engineering_research_role",
+      "case_ids": [
+        "B037",
+        "B074",
+        "B028"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "中国民航试飞员和试飞工程师的职责、程序和培训要求（2015历史文件）",
+          "url": "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/201511/P020151103347671915307.pdf",
+          "reading_location": "实际读PDF物理4–5页、印刷1–2页，L40–69目的/适用范围/背景/职责；重点L59–69新或改装飞机飞行试验、工程数据评估、判定与记录。不称通读17页。另读发布页L48–76的日期及废止状态。",
+          "read_at": "2026-11-09T00:48:54.432556+08:00",
+          "access": "body",
+          "source_type": "historical_professional_practice_document",
+          "published_at": "2015-08-18",
+          "reading_scope": "specified_professional_role_excerpt",
+          "boundary": "发布页明确废止，不作现行政策或执业要求建议；职责同时描述试飞员与试飞工程师，不能把团队每一项职责都归一个飞行员独自完成。",
+          "status_page_url": "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/201511/t20151102_8381.html"
+        },
+        {
+          "title": "NASA Announces X-70 Experimental Aircraft to Advance Flight Research",
+          "url": "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/",
+          "reading_location": "实际读文章L244–266与L282–284日期：11月4日发布、11月5日更新、载人可重构研究平台与真实飞行试验、可更换载荷、未来首飞计划。未读外链研究、未观察飞行，也不从图注推实机已首飞。",
+          "read_at": "2026-11-09T00:48:54.432556+08:00",
+          "access": "body",
+          "source_type": "research_agency_news_release",
+          "published_at": "2026-11-04",
+          "last_updated": "2026-11-05",
+          "reading_scope": "full_short_article_body",
+          "boundary": "当前是平台公布与设计/计划，首飞在未来两年内的预期不是已完成实验结果。新闻只支持当代实践背景，试飞员角色职责主要据历史民航文件。",
+          "within_90_days_at_reading": true
+        }
+      ],
+      "source_urls": [
+        "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/201511/P020151103347671915307.pdf",
+        "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/"
+      ],
+      "fact": "历史民航职责说明将新/改装飞机的实际飞行、工程数据评估、判定和记录放在同一专业团队工作中。当代NASA公告仍以载人真实飞行平台探索新航空技术，但相关首飞尚属未来计划。",
+      "distinctive_relation": "让尚待了解的新机器进入真实工作条件，再以团队试验和工程证据认识它，而不是只把既有机器驾驶得熟练。",
+      "mechanism_to_material": "原A1 Imbue将机构放在他者行动条件的角色，Recursive以实际研究过程形成身份；新核Runway提醒名称可以先给可理解的完整人类活动角色。本包沿原S6研究姿态与参与者问题找实际工程探索中的人，而非从航空零件或腾飞吉祥意象列词。",
+      "history_difference": "旧C43熟手是实践技能不能完整用言语传递，首感普通熟练工，已质量拒绝；本项不是熟练的同义词，是对新/改装飞行器进行真实条件试验、评估数据并形成判断的工程研究角色。旧M24/作数关注机器人动作完成与科学有效性不能相等，本项关注研究者进入真实飞行条件与团队获得工程证据的角色，不复用作数的有效性判据口号。旧虚拟排练/反事实在模型内改变条件，本项是真实试飞，不说替代仿真或冒险越界。旧Runway已核初始比喻为时装展示平台，不借跑道字面再造起飞/领航族。若只剩测试工具/能力放大泛角色，不能凭另一新闻当新家族。",
+      "naming_potential": "试飞员是能直接叫出的完整人物角色：带新技术进入真实环境、把未知变成可评估经验，具有直接工程研究首感。",
+      "shortcoming": "可能首先像航空培训、试飞招聘、单项飞行测试服务或游戏；与持续学习的关系为品牌研究态度，不是现成算法能力。",
+      "boundary": "不声称试飞越危险越好、试飞员单独完成全部审定，或所有模型使用后必然更聪明；已废止文件只支撑历史专业角色，不作现行法。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft",
+      "secondary_macro_ids": [
+        "S3"
+      ],
+      "classification_reason": "主入口为机构以怎样的完整工程探索者角色参与世界，故S6；没有把技术锁/算法挪类，飞行器技术只是角色所在条件。"
+    }
+  ],
+  "new_material_count": 1,
+  "new_chinese_draft_count": 1,
+  "coverage_note": "两文同一角色关系合为一素材，不拆双卡。新增S6，S3仍保守15/65，古文4/65；NASA11/4新闻正文在阅读日近90天，旧民航文件不是新闻。没有新增书籍通读。"
+}

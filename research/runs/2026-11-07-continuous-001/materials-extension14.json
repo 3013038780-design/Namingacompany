@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T11:50:12.329476+08:00",
+  "materials": [],
+  "material_reuses": [
+    {
+      "material_id": "C1-M22",
+      "new_material": false,
+      "family_id": "C1-MF-insight-confidence-vs-independent-merit",
+      "macro_id": "S5",
+      "plan_direction_id": "C1-D-S5",
+      "case_ids": [
+        "B037",
+        "B027"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P4",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "McGuinness, Schooler, Gable & Gross: The Aha! Glow: Insight Experiences Bias Judgements of Idea Quality in Divergent Contexts",
+          "url": "https://metalab.psych.ucsb.edu/media/171",
+          "published_at": "2026-08-01",
+          "reading_location": "沿用M22原已读PDF页1–3/20–21；本次实际重读L0–154摘要引言，并追加读L861–1024（PDF19–22页）结果概括、总讨论、动机与局限。不声称通读25页方法和附录。",
+          "reading_scope": "excerpt_and_reread",
+          "access": "body",
+          "method": "web_PDF_body",
+          "read_at": "2026-11-08T11:50:12.329476+08:00"
+        }
+      ],
+      "fact": "发散任务中，洞见强度对自我创意评分的影响可大于对外部评分的指示；作者又讨论洞见与持续投入的动机关系，明确动机分析是自报与相关，不能确定因果方向。",
+      "mechanism_to_material": "Imbue将对认识的作用形成角色，Midjourney以非终点的过程位置建立称呼。用同一素材中体验与评价不同步的关系，凝练一个离开瞬间确定感、仍有可研究空间的整体称呼；不摘Aha/灵感当新术语。",
+      "distinctive_relation": "灵感可以帮助人投入，却不能独自为其创意价值盖章；激励与诊断质量并非同一功能。",
+      "boundary": "不是所有直觉无效，收敛情境有较好准确性关联；独立评分也非绝对真理，动机因果未确证。",
+      "history_difference": "旧弦外为James意识边缘/尚未聚焦的关联，不是洞见信心与作品质量之差；旧多想一步为推理步数，未尽之问为可错认识，复证为新数据再做研究。此处具体是灵感带来的确定感与创造质量在发散情境的脱钩，若只剩泛化多思考/不止于答案须合并，不靠之外二字自动另计新族。",
+      "is_classical": false,
+      "status": "existing_material_first_chinese_draft"
+    }
+  ],
+  "new_material_count": 0,
+  "scope": "真实使用尚未命名M22并补读讨论/局限，不创建M36或重复计算素材家族；旧M18/M20已形成自成一格/因序，不能据早期material_only恢复。",
+  "source_dates_note": "2026-08-01不是本次近九十天新闻；没有新增古文、书籍或新论文。"
+}

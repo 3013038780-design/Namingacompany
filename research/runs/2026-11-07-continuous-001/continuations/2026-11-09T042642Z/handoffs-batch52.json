@@ -1,0 +1,214 @@
+{
+  "accepted_at": "2026-11-09T13:52:00.220236+08:00",
+  "whole_production_compliance_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "from": "/root/continuous_a1",
+      "to": "/root/continuous_a2",
+      "status": "accepted",
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A1-reuse-relay04.json",
+          "sha256": "1d1b8c1a257f6507af1ac4fd8c8fe68607b0c8d096fadbd8672af3fdd9306362"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A1-reuse-relay04-receipt.json",
+          "sha256": "8fcbe02718f7b575341338b8f4126c9b09e9da6bf85e1e880ab5f0e1eede21b6"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T042642Z/h1-relay04-review.json",
+          "sha256": "ba566475544b135d2ca1b87f26df9c0a355519d34db3d07b61eb7d516c10c546"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch52.json",
+          "sha256": "3e962b8458e25237ca36d6166d9ea2a27d1577e927c3bc50ef995663b346bb48"
+        }
+      ],
+      "accepted_at": "2026-11-09T13:52:00.220236+08:00",
+      "reason": "原A1三例已有机制的具体阅读问题，0新案例/外部阅读，不把短交接冒新市场研究。"
+    },
+    {
+      "id": "H2",
+      "from": "/root/continuous_a2",
+      "to": "/root",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C62"
+      ],
+      "input_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/materials-extension39.json",
+          "sha256": "4615aa738af3daa85c81635107e9c70ce66a7dfe787230b3f447912b60b4c01b"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch52.json",
+          "sha256": "de831a8c9e8f4e75aa5ea7be1e6a627cbf7e74ea1d9e77f0151f93b59ef4c567"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch52.json",
+          "sha256": "24fa65f23bda171bcf96a025ea414b54faaf77eaf063083659d7b05d2ade870f"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch52-receipt.json",
+          "sha256": "8590bf83ef7dcc6bf59942f1943efb592594233227b6527fc4de718858438a16"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch52.json",
+          "sha256": "f0ad50f8243ab8b8086c03efd0a4562ede671be74962c85b2acdf56a0ff8a432"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch52.json",
+          "sha256": "a6608d6c5340472562f2925a5a87dc0e3c6a005d7fd3d6cabcc001a05a030872"
+        }
+      ],
+      "accepted_at": "2026-11-09T13:52:00.220236+08:00",
+      "reason": "原著独特成对关系与旧临场生成/模块分工区别；root先封25再读作者25。"
+    },
+    {
+      "id": "H3",
+      "from": "/root",
+      "to": "/root/live_a3",
+      "status": "returned",
+      "candidate_ids": [
+        "C1-C62"
+      ],
+      "input_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch52.json",
+          "sha256": "f0ad50f8243ab8b8086c03efd0a4562ede671be74962c85b2acdf56a0ff8a432"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch52.json",
+          "sha256": "a6608d6c5340472562f2925a5a87dc0e3c6a005d7fd3d6cabcc001a05a030872"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch51.json",
+          "sha256": "a9b2e8f269dee932b18fa749f250fc692fe8421472673b12d7a6e14d5a5739e4"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch53.json",
+          "sha256": "f2a6e4327da4e5906134a0cbff7c30cf77091a6ca986a1636154b81484db9d20"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch52.json",
+          "sha256": "b1ac3111752f59fe296021402ac57b96cdbf90d6beb829b2ed1762e56ed0e704"
+        }
+      ],
+      "accepted_at": "2026-11-09T13:52:00.220236+08:00",
+      "reason": "8查商业品牌编辑不选，原A2首返无稿主动闭族余1未用。"
+    },
+    {
+      "id": "H4",
+      "from": "/root/live_a3",
+      "to": "/root/continuous_a4",
+      "status": "zero_input",
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch52.json",
+          "sha256": "b1ac3111752f59fe296021402ac57b96cdbf90d6beb829b2ed1762e56ed0e704"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch52-receipt.json",
+          "sha256": "563a843de40cc8830873c6b44e1395d490f3fd8b9446d26d615f2e95e0769a3f"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch34.json",
+          "sha256": "26696c99512d0fb5b58f2a7a57580ec18346085f29629eaefd6dcf0809cf763a"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch34-receipt.json",
+          "sha256": "08dfb7eb0d202dc6742765007409de2b24c9336eb0224ce017d48ec21a30eb38"
+        }
+      ],
+      "accepted_at": "2026-11-09T13:52:00.220236+08:00",
+      "reason": "原A4实际核0中文资格，不配英文救回。"
+    },
+    {
+      "id": "H5",
+      "from": "/root/continuous_a4",
+      "to": "/root/live_a3",
+      "status": "zero_input",
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch34.json",
+          "sha256": "26696c99512d0fb5b58f2a7a57580ec18346085f29629eaefd6dcf0809cf763a"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch34.json",
+          "sha256": "a0e2ac36295bbf4fecc74b5e10bb77d1182965c75a7509fd11cf9b18dd426420"
+        }
+      ],
+      "accepted_at": "2026-11-09T13:52:00.220236+08:00",
+      "reason": "同一原A3核实际零输入。"
+    },
+    {
+      "id": "H6",
+      "from": "/root/live_a3",
+      "to": "/root",
+      "status": "zero_input",
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch34.json",
+          "sha256": "a0e2ac36295bbf4fecc74b5e10bb77d1182965c75a7509fd11cf9b18dd426420"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch34-receipt.json",
+          "sha256": "36cbcb238de4be60daa7065b331f099c4c6f2d0aac421439a6e5e373dd5269df"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T042642Z/root-C62-zero-closeout.json",
+          "sha256": "75910088aaed75559d092281bd303ed721ec6fe4ae01b4b62ce6d39232829dff"
+        }
+      ],
+      "accepted_at": "2026-11-09T13:52:00.220236+08:00",
+      "reason": "主控实际读终核与原A4输出，不冒未开始已完成。"
+    },
+    {
+      "id": "H7",
+      "from": "/root",
+      "to": "catalog",
+      "status": "zero_input",
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T042642Z/root-C62-zero-closeout.json",
+          "sha256": "75910088aaed75559d092281bd303ed721ec6fe4ae01b4b62ce6d39232829dff"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T042642Z/decisions-through-batch53.json",
+          "sha256": "1ea5fff0edaa0926a44fe0d4559d7012eaf0677fc75863da9e74a7adc389715c"
+        }
+      ],
+      "accepted_at": "2026-11-09T13:52:00.220236+08:00",
+      "reason": "0入库，商业使用/原书语义/质量/内部未选分层，保留下一接续。",
+      "terminal_decision": "no_admission"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-07T21:04:17.428886+08:00",
+  "candidates": [
+    {
+      "id": "C1-C11",
+      "name": "回车以后",
+      "pinyin": "huí chē yǐ hòu",
+      "material_id": "C1-M16",
+      "family_id": "C1-BF-submission-becomes-interaction",
+      "formation": "取每个电脑使用者熟悉的回车动作，组成完整日常短语；这是本轮创作，不假称书中有这四字。",
+      "meaning": "真正值得研究的事情，从一次输入被交给系统以后开始。",
+      "crossing": "一个普通按键动作连接人的表达与程序执行。SICP的交互示例先提交定义、随后调用，输入不只是静态文字，而进入能返回结果、继续互动的系统。",
+      "layers": [
+        "回车是熟悉的计算机动作",
+        "输入、求值、输出形成可继续的互动",
+        "实验室研究人与智能系统接触后会发生什么，不限于单一聊天或代码工具"
+      ],
+      "material_feature_retained": "保留从输入到执行与回应的边界，以及之后还可继续互动。",
+      "material_feature_lost": "名称不能完整表达语法、环境、错误处理或多行输入规则；以后不是保证系统一定成功。",
+      "why_name_not_generic": "四字具有一个明确的动作及时点，不是未来、智、进化等泛词拼接；按键本来就是这个交互的日常外壳。",
+      "shortcoming": "有点像程序员专栏、播客或软件体验文章；四字比短词长。回车的打印机起源不在本次实读范围，不拿它补一个未查历史故事。",
+      "science_boundary": "一按回车不保证代码完整、执行成功或智能增强；解释器保存定义不是自主学习，中文是交互体验概括。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "不把REPL重命名为另一个同缩写品牌：核心是日常提交动作以后的交互场景。旧惰性求值是等待需要时才计算；旧二周目是通关后重开并保留进度。若主控判断只剩循环后成长，应合并，不因四字新就新增。"
+      },
+      "oral_test": [
+        "我们是回车以后，做人工智能研究。",
+        "回车以后发布了新研究。"
+      ],
+      "material_ids": [
+        "C1-M16"
+      ],
+      "plan_direction_id": "C1-D-S1",
+      "case_ids": [
+        "B025",
+        "B015"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P3"
+      ],
+      "source_urls": [
+        "https://sicp.sourceacademy.org/chapters/4.1.4.html",
+        "https://docs.python.org/3/tutorial/interpreter.html",
+        "https://docs.python.org/3/tutorial/appendix.html"
+      ],
+      "sources": [
+        {
+          "title": "SICP 4.1.4 Running the Evaluator as a Program",
+          "url": "https://sicp.sourceacademy.org/chapters/4.1.4.html",
+          "reading_location": "正文L271–304及脚注L318：全局环境、driver loop、define append及下一次调用示例",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_body",
+          "published_at": null
+        },
+        {
+          "title": "Python官方教程：Using the Python Interpreter及Appendix",
+          "url": "https://docs.python.org/3/tutorial/interpreter.html",
+          "reading_location": "正文L10–17、23–37交互输入与多行结构；另读appendix L3–14错误后返回提示符",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_body",
+          "published_at": null
+        }
+      ],
+      "status": "chinese_draft_not_screened"
+    },
+    {
+      "id": "C1-C12",
+      "name": "横风",
+      "pinyin": "héng fēng",
+      "material_id": "C1-M17",
+      "family_id": "C1-BF-crosswind-trajectory-harvesting-gradient",
+      "formation": "采用真实日常气象和飞行用词，不造术语、不改英文拼音。品牌解释借动态滑翔中横风飞行与跨风层轨迹的关系。",
+      "meaning": "前进不只有顺着一股力量；与环境形成新的关系，也能获得行动条件。",
+      "crossing": "横风对普通直线航行常是扰动，在特定风切变和轨迹下，飞行者却能从不同速度风层间获取能量。这个反差来自实际力学关系，不是把逆境包装成励志。",
+      "layers": [
+        "两个简单字形成直接风向感",
+        "海鸟动态滑翔里相对平均风的横向行进",
+        "研究智能系统怎样通过与环境的关系获得新的可行能力"
+      ],
+      "material_feature_retained": "保留横向飞行和非均匀风场之间的关系，不泛化成风就是无限能量。",
+      "material_feature_lost": "名字没有说风速梯度、剪切层厚度、周期轨迹和阻力损耗条件。",
+      "why_name_not_generic": "横风本来就是能单独称呼的真实现象，第二层是有条件的飞行能量关系；不是横向＋风格的现代吉字组合。",
+      "shortcoming": "可能先像天气、航空或户外品牌；横也可能让人想到蛮横。公司科技身份需要长期内容支撑，不能靠一篇力学论文自动成立。",
+      "science_boundary": "均匀横风本身不供无限能量，不是顺风逆风都一样好；模型分析与GPS对照不证明实际飞鸟每次全局最优。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "不同于旧上升流的垂直抬升、旧坡风的密度重力驱动，本项为水平速度梯度与可采能轨迹。若名字仅成为任何借风故事，则不能因风的种类不同就新增；保留风向与飞行路径的关系才有差别。"
+      },
+      "oral_test": [
+        "我们是横风，做人工智能研究。",
+        "横风发布了一项研究。"
+      ],
+      "material_ids": [
+        "C1-M17"
+      ],
+      "plan_direction_id": "C1-D-S2",
+      "case_ids": [
+        "B076",
+        "B039"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3"
+      ],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5665832/"
+      ],
+      "sources": [
+        {
+          "title": "Bousquet, Triantafyllou & Slotine: Optimal dynamic soaring consists of successive shallow arcs",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5665832/",
+          "published_at": "2017-10-04",
+          "reading_location": "正文L81–113：摘要、引言、风剖面及轨迹图说明；未通读后续模型推导",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_body"
+        }
+      ],
+      "status": "chinese_draft_not_screened"
+    }
+  ],
+  "scope": "两项未查重中文草案；不加古文，不为每个来源强命名。"
+}

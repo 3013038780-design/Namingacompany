@@ -1,0 +1,93 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T17:49:59.476814+08:00",
+  "scope": "主控先封存独评，再看作者数字",
+  "reviews": [
+    {
+      "candidate_id": "C1-C34",
+      "name": "沙阵",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两个熟字构成完整阵形物象，可以直接叫",
+          "counter_association": "沙与砂听写差异"
+        },
+        "distinctiveness": {
+          "reason": "有可画出的颗粒与阵形",
+          "counter_association": "也像沙盘游戏"
+        },
+        "lab_fit": {
+          "reason": "材料响应与整体结构可承载科学/计算研究身份",
+          "counter_association": "砂石材料或军事游戏首感可能更强"
+        },
+        "grounding": {
+          "reason": "展项和藏品正文均支持排列及固定记录",
+          "counter_association": "沙阵是本轮凝练，不是正式物理术语"
+        },
+        "extension": {
+          "reason": "可谈个体、环境与表示关系，不限一个工具",
+          "counter_association": "若泛成群体涌现会回旧族"
+        },
+        "semantic_coherence": {
+          "reason": "沙与阵在同一材料场景共存",
+          "counter_association": "不能让阵形等同智能"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "C1-C35",
+      "name": "隶首",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两字完整人名，音节可直接称呼",
+          "counter_association": "隶字笔画多、人物陌生"
+        },
+        "distinctiveness": {
+          "reason": "有具体人名声形，不是泛化智慧词",
+          "counter_association": "近音力首等需辨"
+        },
+        "lab_fit": {
+          "reason": "算术传统人物可承担计算研究文化身份",
+          "counter_association": "书法隶属联想也明显"
+        },
+        "grounding": {
+          "reason": "实际原序与渲染扫描页支持旧记载及未知边界",
+          "counter_association": "不证实发明优先权或具体方法"
+        },
+        "extension": {
+          "reason": "文化人物专名可容纳多年不同研究",
+          "counter_association": "不能以传说捆绑为算术专用工具"
+        },
+        "semantic_coherence": {
+          "reason": "各层均围绕同一个作数传统人物",
+          "counter_association": "刘徽的谨慎不是隶首本人态度"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

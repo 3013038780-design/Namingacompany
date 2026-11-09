@@ -1,0 +1,51 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-07T21:58:55.414873+08:00",
+  "scope": "主控先封存独评再打开；分数是编辑判断，非消费者测试。",
+  "reviews": [
+    {
+      "candidate_id": "C1-C18",
+      "name": "余光",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "现成两字词，读音与身体经验熟悉",
+          "counter_association": "容易带文学语感"
+        },
+        "distinctiveness": {
+          "reason": "中心与周边有具体可感位置",
+          "counter_association": "光字广用且词本身普通，实际品牌需A3查"
+        },
+        "lab_fit": {
+          "reason": "感知、表示与认识可承接研究机构",
+          "counter_association": "可先想到眼镜/摄影或照明"
+        },
+        "grounding": {
+          "reason": "材料支持周边保留信息且有损，候选模型边界分开",
+          "counter_association": "不能将模型假设写成已定机制"
+        },
+        "extension": {
+          "reason": "可容纳感知与相关信息使用的多种研究",
+          "counter_association": "不应只解释成一个眼动产品"
+        },
+        "semantic_coherence": {
+          "reason": "日常视觉经验与专业表征围绕同一中心外关系",
+          "counter_association": "残照含义不纳入未来成长叙事"
+        }
+      },
+      "decision": "quality_pass",
+      "independent_submission_ref": "A2-quality-batch7.json producer-only submission"
+    }
+  ]
+}

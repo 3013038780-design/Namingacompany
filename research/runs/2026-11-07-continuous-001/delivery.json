@@ -1,0 +1,4340 @@
+{
+  "scope": "流式逐名终审交付；研究整批仍在进行，不冒称完整生产协议完成。",
+  "discussion_pairs": [
+    {
+      "chinese_id": "C1-C06",
+      "english_id": "C1-E02",
+      "family_id": "C1-BF-redundancy-enabling-reconstruction",
+      "chinese": "余量",
+      "pinyin": "yú liàng",
+      "english": "Spare Signal",
+      "suggested_pronunciation": "SPAIR SIG-nuhl /spɛər ˈsɪɡnəl/（建议，按两个常用词读）。",
+      "source": {
+        "title": "UC Berkeley CS294-226 Lecture 5: RS, BCH and Concatenated Codes",
+        "url": "https://people.eecs.berkeley.edu/~venkatg/teaching/ECC-fall22/scribes/lecture05.pdf",
+        "read_scope": "PDF第一页§1 Definition5.1、Lagrange插值段、Theorem5.2；未读后续BCH与级联证明",
+        "date": "2022-09-12",
+        "access": "body"
+      },
+      "fact": "Reed–Solomon编码以多于消息维度的采样表示消息；有限域中次数小于k的多项式可由k个正确、位置已知的不同采样恢复，额外采样允许一部分位置擦除。",
+      "meaning": "在恰好够用之外留出空间，让一个系统面对损失时仍有恢复的可能。",
+      "crossing": "Reed–Solomon以多于消息维度的正确采样编码同一对象，在规定条件下容许部分擦除；“余量”保留多出来的部分如何变成系统韧性的关系。",
+      "layers": [
+        "普通语言中的预留空间与从容",
+        "信息编码中冗余采样和可恢复性的真实联系",
+        "帮助已有系统获得更多应对真实使用条件的研究角色"
+      ],
+      "shortcoming": "可能像存储、通信或量化业务，声音也近雨量；单独名字不直接说明AI，需要长期研究赋予具体身份。",
+      "english_formation": "spare取额外可供使用、满足基本需要之外保留的意思；signal给出携带信息的可感对象。两个完整普通英语词组成额外一份有用信息的画面，不改Yuliang拼音，也不宣称Spare Signal是Reed–Solomon编码正式术语。",
+      "bilingual_relation": "中文给预留冗余一个宽的工程称呼，英文让多出来的部分成为仍可发挥作用的信息。共享的关系是超过最低需要的编码观测可以在条件满足时支持恢复；不是把余量理解成剩余垃圾或闲置空信号。",
+      "english_shortcoming": "可能先像通信、射频、音频或灾备品牌，研究机构身份偏工程；spare也可能被误读为可有可无的备件。是两个普通词形成的短语，专名独特性中等，须独立查公司、模型、软件和分词变体。 Euresys既有工程文档还把spare signal用于未来预留、当前忽略的字段，因此可能听成尚未启用的备用信号。A4补审后保留为讨论备选，不称首创短语或编码正式术语。",
+      "scientific_boundary": "可靠恢复依赖正确采样、已知位置等条件，不能推广为任意错误可恢复、无损压缩或凭空增加知识。",
+      "chinese_screen": {
+        "candidate_id": "C1-C06",
+        "name": "余量",
+        "query_logs": [
+          {
+            "query": "\"余量\"",
+            "executed_on": "2026-11-07",
+            "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+          },
+          {
+            "query": "\"余量\" 公司 科技",
+            "executed_on": "2026-11-07",
+            "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+          },
+          {
+            "query": "\"余量\" AI 模型 软件",
+            "executed_on": "2026-11-07",
+            "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+          },
+          {
+            "query": "\"餘量\" 公司 軟體",
+            "executed_on": "2026-11-07",
+            "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+          },
+          {
+            "query": "\"yuliang\" company AI",
+            "executed_on": "2026-11-07",
+            "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+          },
+          {
+            "query": "\"余量科技\" OR \"余量智能\" OR \"余量软件\"",
+            "executed_on": "2026-11-07",
+            "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+          },
+          {
+            "query": "\"余量\" \"有限公司\"",
+            "executed_on": "2026-11-07",
+            "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+          },
+          {
+            "query": "\"余量科技\" OR \"余量智能\" OR \"余量软件\"",
+            "executed_on": "2026-11-07",
+            "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+          },
+          {
+            "query": "\"余量\" \"有限公司\"",
+            "executed_on": "2026-11-07",
+            "summary": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "7种distinct查询及2次复核共9实际查询，未见完整同名科技公司、模型或独立软件。软件余量为用量/额度功能；现有Yuliang Technology及上海禹亮拼音须披露，不能认成中文余量；较长余量创投不是完整科技品牌。",
+        "evidence": [
+          {
+            "url": "https://raw.githubusercontent.com/licyer/dsh-token-monitor/main/README.md",
+            "access": "primary_source_readme_body_read_curl",
+            "finding": "产品/插件名dsh-token-monitor，余量与用量监控是功能说明，非独立余量品牌。Github页面find无匹配已用raw正文补读。"
+          },
+          {
+            "url": "https://www.yulianggroup.cn/company/",
+            "access": "primary_company_body_read",
+            "finding": "官网明列上海禹亮信息科技有限公司、Shanghai Yuliang Information Technology；中文禹亮非余量，英文直拼Yuliang另行避让。"
+          },
+          {
+            "url": "https://www.companies.sg/business/202425251E/YULIANG-TECHNOLOGY-PTE-LTD",
+            "access": "third_party_company_search_text_only",
+            "finding": "新加坡YULIANG TECHNOLOGY PTE.LTD目录，UEN202425251E，游戏软件出版；中文名称并未核为余量，不能用作中文确占证据。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "本轮实际入口403，未逐名检索"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "共同入口实际403，未进入逐名逐类检索"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Yuliang",
+            "scope": "实际逐名搜索URL不可访问，不代表无公司"
+          }
+        }
+      },
+      "english_screen": {
+        "candidate_id": "C1-E02",
+        "chinese_candidate_id": "C1-C06",
+        "chinese": "余量",
+        "name": "Spare Signal",
+        "query_logs": [
+          {
+            "query": "\"Spare Signal\"",
+            "executed_on": "2026-11-07",
+            "summary": "工程信号/电信文档以及采购备件，未见品牌"
+          },
+          {
+            "query": "\"Spare Signal\" company lab",
+            "executed_on": "2026-11-07",
+            "summary": "公司采购项目spare signal processing unit是备用部件描述，不等于公司名"
+          },
+          {
+            "query": "\"Spare Signal\" AI model",
+            "executed_on": "2026-11-07",
+            "summary": "AI文本多为spare compute/Signal Type AI或协议备用字段，不是完整同名模型"
+          },
+          {
+            "query": "\"Spare Signal\" software product",
+            "executed_on": "2026-11-07",
+            "summary": "软件说明与专利标题/针脚功能，spare Signal Sidearm指备机"
+          },
+          {
+            "query": "\"SpareSignal\" OR \"Spare-Signal\"",
+            "executed_on": "2026-11-07",
+            "summary": "分合合理变体无搜索结果，不把无结果解释成全球无注册"
+          },
+          {
+            "query": "\"Spare Signal\" startup brand -patent -site:volza.com -filetype:pdf",
+            "executed_on": "2026-11-07",
+            "summary": "噪声过滤补查仍为备用线路专利/文档，不是startup品牌；搜索未严格过滤全部专利结果已检视"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "六组独立查询未确证完整同名公司、AI模型或独立软件品牌。真实普通工程字段、采购备件及专利语言与品牌区分；不称全球未使用或可注册。",
+        "semantic_risk": "Euresys真实工程用法指未来预留、当前忽略的备用信号，不等于候选希望表达的承载可用冗余信息。此为命名含义短板交A4/终审，不假作同名占用。",
+        "evidence": [
+          {
+            "url": "https://documentation.euresys.com/Products/MultiCam/MultiCam_6_16/Content/MultiCam_6_7_HTML_Documentation/99990_1.htm",
+            "access": "primary_software_docs_body_read",
+            "finding": "MultiCam/GRABLINK Camera Link Enable Signals：Spare定义为未来使用、当前忽略；是字段功能说明不是独立Spare Signal品牌。"
+          },
+          {
+            "url": "https://store.zortrax.com/parts-and-accessories/zortrax-signal-adapter-m200plus-m300plus",
+            "access": "search_text_only_body_timeout",
+            "finding": "标题Signal Adapter，描述A spare signal adapter；是备件修饰语，不是Spare Signal整体产品。打开超时，不假称已读原全文。"
+          },
+          {
+            "url": "https://www.ericsson.com/4ac5bb/assets/local/about-ericsson/ericsson-history/lme-review/documents/da2011-35553-ericsson_review_vol_38_1961.pdf",
+            "access": "search_text_only",
+            "finding": "1961技术资料A5备用信号含spare signal描述，不是同名软件或公司。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "本轮入口403，未逐名核名"
+          },
+          "mainland_trademark_class_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "共同入口本轮403，未逐名逐类"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Spare%20Signal",
+            "scope": "本候选逐名URL实际打开不可访问，非无公司结论"
+          }
+        }
+      },
+      "quality": {
+        "chinese_producer": {
+          "candidate_id": "C1-C06",
+          "name": "余量",
+          "language": "zh",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a2",
+          "scores": {
+            "naturalness": 5,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 4,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 25,
+          "notes": {
+            "naturalness": {
+              "reason": "现成工程日常词顺口",
+              "counter_association": "容易听成雨量"
+            },
+            "distinctiveness": {
+              "reason": "预留空间有清楚内核",
+              "counter_association": "通用词独立性待筛"
+            },
+            "lab_fit": {
+              "reason": "冗余可靠系统有工程科技身份",
+              "counter_association": "可能偏量化/存储通信"
+            },
+            "grounding": {
+              "reason": "超过最低需要与可恢复关系有据",
+              "counter_association": "不直接包含所有编码条件"
+            },
+            "extension": {
+              "reason": "可延展到稳健和真实场景系统",
+              "counter_association": "需避免只做单一容错工具"
+            },
+            "semantic_coherence": {
+              "reason": "日常余裕与编码作用相容",
+              "counter_association": "余量不等于无限能力增长"
+            }
+          },
+          "decision": "quality_pass",
+          "execution_ref": "本轮A2实际创作后自评；数值单独文件，不向主控预览/消息露分",
+          "independent_submission_ref": "A2-quality-batch1.json producer-only submission"
+        },
+        "chinese_coordinator": {
+          "candidate_id": "C1-C06",
+          "name": "余量",
+          "reviewer": "coordinator",
+          "scores": {
+            "naturalness": 5,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 26,
+          "notes": {
+            "naturalness": {
+              "reason": "完整常用工程词顺口",
+              "counter_association": "声音近雨量"
+            },
+            "distinctiveness": {
+              "reason": "预留空间有可感尺度",
+              "counter_association": "通名可能已用"
+            },
+            "lab_fit": {
+              "reason": "冗余和韧性有技术身份",
+              "counter_association": "像存储通信或量化"
+            },
+            "grounding": {
+              "reason": "正确已知位置采样恢复的条件已核",
+              "counter_association": "不是任意错误都恢复"
+            },
+            "extension": {
+              "reason": "能谈已有系统的使用韧性",
+              "counter_association": "独立研究称呼需内容承接"
+            },
+            "semantic_coherence": {
+              "reason": "额外容量与可恢复性是同一关系",
+              "counter_association": "不能说凭空增加知识"
+            }
+          },
+          "decision": "quality_pass"
+        },
+        "english_producer": {
+          "candidate_id": "C1-E02",
+          "chinese_id": "C1-C06",
+          "english": "Spare Signal",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a4",
+          "scores": {
+            "pronunciation": 5,
+            "spelling": 5,
+            "grounding": 4,
+            "bilingual_relation": 5,
+            "distinctiveness": 3
+          },
+          "total": 22,
+          "notes": {
+            "pronunciation": {
+              "reason": "两个普通词，三音节可按正常英语直接叫出。",
+              "counter_association": "spare开头辅音及地域读音对部分使用者有成本。"
+            },
+            "spelling": {
+              "reason": "完整单词，易拼写，没有为了避重改字母。",
+              "counter_association": "可能被连写为SpareSignal，需A3另查。"
+            },
+            "grounding": {
+              "reason": "额外可用信息与编码冗余恢复的关系有讲义支持。",
+              "counter_association": "signal是品牌拟物，不是讲义算法名或闲置频道。"
+            },
+            "bilingual_relation": {
+              "reason": "余量的工程宽称呼和额外信息的具体画面承接同一恢复作用。",
+              "counter_association": "英文比中文偏通信，但不承诺多就是强。"
+            },
+            "distinctiveness": {
+              "reason": "两个普通词形成可想象对象，能作为工程研究机构称呼。",
+              "counter_association": "通用短语独立性中等，通信/音频首联想明显。"
+            }
+          },
+          "status": "pass_quality_gate",
+          "note": "主观编辑判断；等待主控先读无分预览独评，再读本档并授权原A3。"
+        },
+        "english_coordinator": {
+          "candidate_id": "C1-C06",
+          "name": "Spare Signal",
+          "reviewer": "coordinator",
+          "scores": {
+            "pronunciation": 5,
+            "spelling": 5,
+            "grounding": 4,
+            "bilingual_relation": 5,
+            "distinctiveness": 3
+          },
+          "total": 22,
+          "notes": {
+            "pronunciation": {
+              "reason": "两个常用英语词三音节顺口",
+              "counter_association": "可能像音频产品"
+            },
+            "spelling": {
+              "reason": "完整单词可直接拼写",
+              "counter_association": "分写连写都需查"
+            },
+            "grounding": {
+              "reason": "冗余信息关系有编码讲义支撑而短语为品牌表达",
+              "counter_association": "不是正式编码术语或备用空频道"
+            },
+            "bilingual_relation": {
+              "reason": "预留余量与额外有效信息属于同一恢复过程",
+              "counter_association": "spare可能被误解为无用备件"
+            },
+            "distinctiveness": {
+              "reason": "整体能称呼但专名性中等",
+              "counter_association": "工程通信领域较窄"
+            }
+          },
+          "decision": "quality_pass",
+          "english_id": "C1-E02"
+        }
+      },
+      "terminal_review": {
+        "reviewer": "/root",
+        "reviewed_at": "2026-11-07T21:01:25.048366+08:00",
+        "decision": "discussion_candidate",
+        "reason": "四份质量过门槛、双语公开使用筛查通过；主控已核出处及与旧余项不同家族；实际A4接受工程用语语义短板补审。登记未清空。",
+        "evidence_refs": [
+          {
+            "path": "A2-candidates-batch1.json",
+            "sha256": "de29716948169e218e2207fdb612e83e8d0a5e6dbed0e3bc5b92e623f9fae2d4"
+          },
+          {
+            "path": "A2-quality-batch1.json",
+            "sha256": "e1a05ad992652744001c7cf6a2659c4eb8ae85034dccc9460a893f94cf0a976d"
+          },
+          {
+            "path": "coordinator-cn-batch1.json",
+            "sha256": "3945d61b3c61e96f043a6e9045268a55065d19588cd9eef2dc9a96aa7e03f49d"
+          },
+          {
+            "path": "coordinator-family-review-batch1.json",
+            "sha256": "3a18cb9dc6e7131e9d8b2c06a96a4cff443285684a2f4239570e841dc25a37f0"
+          },
+          {
+            "path": "A3-cn-batch2.json",
+            "sha256": "2166ecfaeecbb954fcdba3a9249949f914c9b7eb09f2852eb77ea4c45646788f"
+          },
+          {
+            "path": "A4-batch2.json",
+            "sha256": "d937c1ebd13b25bbf085e88c32a3175520566248f8c45a3d5aaa104b5d446b54"
+          },
+          {
+            "path": "A4-quality-batch2.json",
+            "sha256": "b8491c0eef8daae57c1934773179402b58f8225acffab78fc394bb2b55fef040"
+          },
+          {
+            "path": "coordinator-en-batch2.json",
+            "sha256": "ad2ac74bde4ae3a1a736b4ccbacd7bbd24164480fa672c8059c586b5998054c7"
+          },
+          {
+            "path": "A3-en-batch2.json",
+            "sha256": "fbc7bc6f8f3c4e3ffd91d66f82ba0299bc18b2ba2461633e25898c291d1d0eb2"
+          },
+          {
+            "path": "A4-E02-usage-note.json",
+            "sha256": "d24ba7e761b8715091332c4d04fc5c8d6da1608df3c9a9c9c0a70bff4046b859"
+          },
+          {
+            "path": "root-source-review.json",
+            "sha256": "49a558674f99af9d362b985ff2275710ff36fb03054230d5714ba662b2bede7e"
+          }
+        ]
+      }
+    },
+    {
+      "chinese_id": "C1-C08",
+      "english_id": "C1-E04",
+      "family_id": "C1-BF-members-become-adaptive-support",
+      "chinese": "活桥",
+      "pinyin": "huó qiáo",
+      "english": "Antspan",
+      "suggested_pronunciation": "ANT-span /ˈæntspæn/（建议，两处a均按ant/span的普通读音）。",
+      "source": {
+        "title": "Reid et al.: Army ants dynamically adjust living bridges in response to a cost–benefit trade-off",
+        "url": "https://www.thekaolab.com/papers/Reid_PNAS_2015.pdf",
+        "read_scope": "作者实验室托管原论文，PDF页1–2摘要/实验设计/结果；讨论段动态变位、成本与最优性限制",
+        "date": "2015-11-23",
+        "access": "body"
+      },
+      "fact": "行军蚁以身体连接成桥，桥随交通量和地形几何调整位置与大小；投入桥体的工蚁暂时不能觅食，存在结构收益与成员占用的代价权衡。",
+      "meaning": "连接并非预先建成；行动者本身也能成为新的支撑。",
+      "crossing": "桥通常是固定设施，论文中的桥却由活动的蚂蚁身体构成，并依使用条件改变形状和位置。活与桥之间的反差，来自同一个真实对象，而非两个好字硬拼。",
+      "layers": [
+        "一座会活起来的桥，有直接图景",
+        "成员临时成为结构，结构随交通与地形变化",
+        "研究群体、工具与智能系统怎样形成新的可用组织"
+      ],
+      "shortcoming": "容易先被当成桥梁工程、城市更新或生态公司；活字也可能显轻。需主控独立判断它能否像真实研究机构称呼。",
+      "english_formation": "ant是蚂蚁，span可指桥跨或跨越的距离。把ant与span两个完整英语语素连成一个短称呼：蚂蚁本身构成可跨越的桥跨。两部分原本就在同一个真实对象中，不是为了避重拼入无义字母，也不宣称Antspan是论文正式术语或现成词典词。",
+      "bilingual_relation": "中文保留活的桥这一反常对象，英文保留组成桥的蚂蚁与它们共同形成的跨距；两边指向同一身体自组装结构。中文更宽，英文把自然出处带在名称里，非逐字翻译。",
+      "english_shortcoming": "初次需介绍ant+span的拆分；连读ntsp辅音较密，但仍是两个正常短词。可能先像蚁群算法、昆虫研究或桥梁工程，英文比中文更绑定蚂蚁形象；不应把所有带ant的品牌当同一词源，也不能靠动物名自动获得AI身份。 实际已见antispam类别的Antspan误拼语境；快速听写、自动纠错和检索可能偏向antispam。已由A4及主控读原上下文后补审接受为讨论名，不称即听即写或词形从未出现。",
+      "scientific_boundary": "观察中的调整不证明全局最优，更不直接证明AI能力提升；投入桥体不等于死亡牺牲。",
+      "chinese_screen": {
+        "candidate_id": "C1-C08",
+        "name": "活桥",
+        "query_logs": [
+          {
+            "query": "\"活桥\"",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。"
+          },
+          {
+            "query": "\"活桥\" 公司 科技",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。"
+          },
+          {
+            "query": "\"活桥\" AI 模型 软件",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。"
+          },
+          {
+            "query": "\"活橋\" 公司 軟體",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。"
+          },
+          {
+            "query": "\"huoqiao\" company AI",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。"
+          },
+          {
+            "query": "\"活桥科技\" OR \"活桥智能\" OR \"活桥软件\"",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。"
+          },
+          {
+            "query": "\"活桥\" \"有限公司\"",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "七组独立查询未确证完整同名科技公司、模型或独立软件。活桥为树根桥、车渡等内容通用称呼；Huoqiao目录多地址地名，不能当同名公司；火种桥/乐活桥另名。",
+        "evidence": [
+          {
+            "url": "https://www.xinhuanet.com/world/2016-04/13/c_128890254.htm",
+            "access": "search_text_only_open_redirect_loop",
+            "finding": "2016报道当地居民以树根建活桥，标题描述自然/工程对象，非科技品牌；打开重定向循环。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "本轮实际入口403，未逐名检索"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "共同入口实际403，未进入逐名逐类检索"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Huoqiao",
+            "scope": "实际逐名搜索URL不可访问，不代表无公司"
+          }
+        }
+      },
+      "english_screen": {
+        "candidate_id": "C1-E04",
+        "name": "Antspan",
+        "query_logs": [
+          {
+            "query": "\"Antspan\"",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。"
+          },
+          {
+            "query": "\"Antspan\" company lab technology",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。"
+          },
+          {
+            "query": "\"Antspan\" AI model",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。"
+          },
+          {
+            "query": "\"Antspan\" software product",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。"
+          },
+          {
+            "query": "\"Ant Span\" OR \"Ant-Span\" company software",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。"
+          },
+          {
+            "query": "\"Antspan\" brand startup -site:seslisozluk.net -filetype:pdf -site:reclameaqui.com.br -site:solutudo.com.br",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。"
+          },
+          {
+            "query": "\"Antspan\" \"MAV\"",
+            "executed_on": "2026-11-07",
+            "summary": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "七组独立查询未确证完整同名公司、AI模型或独立软件品牌。已读简历中Antspan是反垃圾邮件类别误拼，实际软件MAV Mail Suite；公司邮箱个人标识、HTML ant+span标签黏连、普通信号功能不能冒称品牌。",
+        "evidence": [
+          {
+            "url": "https://sites.google.com/site/silviogarbes/curriculo",
+            "access": "primary_personal_cv_body_read",
+            "finding": "L125 Antspan: MAV Mail Suite Anstispam，与Antivirus: AVG Network等同列，是技术类别说明与软件实例，不是独立Antspan软件名。个人不作同名公司。"
+          },
+          {
+            "url": "https://www.solutudo.com.br/empresas/go/goiania/terraplanagens/lc-pavimentacao-e-terraplanagem-ltda-37271884",
+            "access": "third_party_search_text_only",
+            "finding": "实际公司LC Pavimentacao E Terraplanagem Ltda，Antspan在邮箱标识出现而非公司/产品名称。"
+          },
+          {
+            "url": "https://s3.amazonaws.com/el.com.br/portal/uploads/1847/arquivos/E7CCCBA7F8EFD0E6D1B1B5132A527C4F.pdf",
+            "access": "government_report_search_text_only",
+            "finding": "Gerenciamento do Sistema de AntSpan后是放行/阻挡邮件、blacklist/whitelist，属于antispam服务类别。未据此虚构厂商。"
+          },
+          {
+            "url": "https://www.seslisozluk.net/ant---nedir-ne-demek/",
+            "access": "search_text_only",
+            "finding": "摘要出现span class word-self antspan，HTML标签黏连，不作为实际Antspan词典词或软件证据。"
+          },
+          {
+            "url": "https://www.reclameaqui.com.br/hostgator/email-nao-estao-funcionando_sU4snEJqFRA5E7Qq/",
+            "access": "search_text_only_body_403",
+            "finding": "用户投诉antspan阻挡邮件，网页403；语境指反垃圾过滤，不据此确证完整同名软件。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "本轮实际入口403，未逐名检索"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "共同入口实际403，未进入逐名逐类检索"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Antspan",
+            "scope": "实际逐名搜索URL不可访问，不代表无公司"
+          }
+        },
+        "chinese_candidate_id": "C1-C08",
+        "chinese": "活桥",
+        "semantic_risk": "已实际见多处Antspan作为antispam误拼；与反垃圾邮件词形/发音近似，须交A4主控再评品牌独立性，不能声称世上首次造词；不因该通类词就自动认实际科技品牌占用。"
+      },
+      "quality": {
+        "chinese_producer": {
+          "candidate_id": "C1-C08",
+          "name": "活桥",
+          "language": "zh",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a2",
+          "scores": {
+            "naturalness": 5,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 5
+          },
+          "total": 27,
+          "notes": {
+            "naturalness": {
+              "reason": "两字正常修饰关系，读音简单",
+              "counter_association": "像基建公司"
+            },
+            "distinctiveness": {
+              "reason": "活的桥有物体反差可记",
+              "counter_association": "可能生态项目也用此画面"
+            },
+            "lab_fit": {
+              "reason": "自组织和适应结构能支撑研究身份",
+              "counter_association": "研究身份不能只靠蚂蚁论文"
+            },
+            "grounding": {
+              "reason": "身体组成桥且随交通改变为原研究对象",
+              "counter_association": "没有最优保证"
+            },
+            "extension": {
+              "reason": "能研究不同智能组织及工具结构",
+              "counter_association": "若只限桥梁仿生会过窄"
+            },
+            "semantic_coherence": {
+              "reason": "活的成员和桥的支撑作用确在同一对象",
+              "counter_association": "不能只剩连接与活力的泛泛解释"
+            }
+          },
+          "decision": "quality_pass",
+          "independent_submission_ref": "A2-quality-batch2.json producer-only submission"
+        },
+        "chinese_coordinator": {
+          "candidate_id": "C1-C08",
+          "name": "活桥",
+          "reviewer": "coordinator",
+          "scores": {
+            "naturalness": 4,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 25,
+          "notes": {
+            "naturalness": {
+              "reason": "两字可直接称呼",
+              "counter_association": "活字口语化"
+            },
+            "distinctiveness": {
+              "reason": "活的桥有清晰反常性",
+              "counter_association": "初听工程生态"
+            },
+            "lab_fit": {
+              "reason": "可容纳群体组织研究",
+              "counter_association": "要靠研究建立身份"
+            },
+            "grounding": {
+              "reason": "成员成为桥体确有实验",
+              "counter_association": "不是证明全局最优"
+            },
+            "extension": {
+              "reason": "不限单一算法",
+              "counter_association": "若泛化连接会与旧家族重合"
+            },
+            "semantic_coherence": {
+              "reason": "成员与结构同一关系",
+              "counter_association": "不代表成员死亡"
+            }
+          },
+          "decision": "quality_pass"
+        },
+        "english_producer": {
+          "candidate_id": "C1-E04",
+          "chinese_id": "C1-C08",
+          "english": "Antspan",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a4",
+          "scores": {
+            "pronunciation": 4,
+            "spelling": 5,
+            "grounding": 5,
+            "bilingual_relation": 5,
+            "distinctiveness": 4
+          },
+          "total": 23,
+          "notes": {
+            "pronunciation": {
+              "reason": "ant和span各一个短音节，组合后读法可直接解释。",
+              "counter_association": "中间ntsp辅音群对部分使用者有一次连读成本。"
+            },
+            "spelling": {
+              "reason": "两个完整普通语素直接相接，可还原拼写。",
+              "counter_association": "初次可能分写Ant Span，需A3另查。"
+            },
+            "grounding": {
+              "reason": "蚂蚁与桥跨同在原论文真实对象中，组合有完整关系。",
+              "counter_association": "Antspan是品牌造词，不是现成术语或论文命名。"
+            },
+            "bilingual_relation": {
+              "reason": "活的桥和蚂蚁形成的桥跨指向同一身体自组装。",
+              "counter_association": "英文比中文更绑定蚂蚁，需要接受具体自然形象。"
+            },
+            "distinctiveness": {
+              "reason": "短词有可画的主体与作用，能形成独立研究称呼。",
+              "counter_association": "昆虫、蚁群算法和土木工程联想可能更先出现。"
+            }
+          },
+          "status": "pass_quality_gate",
+          "note": "主观编辑判断；等待主控先读无分预览独评，再读本档并授权原A3。"
+        },
+        "english_coordinator": {
+          "candidate_id": "C1-C08",
+          "name": "Antspan",
+          "reviewer": "coordinator",
+          "scores": {
+            "pronunciation": 4,
+            "spelling": 4,
+            "grounding": 5,
+            "bilingual_relation": 5,
+            "distinctiveness": 4
+          },
+          "total": 22,
+          "notes": {
+            "pronunciation": {
+              "reason": "两单音节可顺接",
+              "counter_association": "ntsp辅音簇略密"
+            },
+            "spelling": {
+              "reason": "两个完整词素可辨",
+              "counter_association": "首次需介绍词素拆分"
+            },
+            "grounding": {
+              "reason": "蚂蚁组成桥跨真实同源",
+              "counter_association": "不是论文正式术语"
+            },
+            "bilingual_relation": {
+              "reason": "两语均指活体桥结构",
+              "counter_association": "英文比中文更绑定蚂蚁"
+            },
+            "distinctiveness": {
+              "reason": "单词形称呼较鲜明",
+              "counter_association": "像蚁群软件或桥梁工程"
+            }
+          },
+          "decision": "quality_pass",
+          "english_id": "C1-E04"
+        }
+      },
+      "terminal_review": {
+        "reviewer": "/root",
+        "reviewed_at": "2026-11-07T21:11:22.301030+08:00",
+        "decision": "discussion_candidate",
+        "reason": "真实出处、独立双评、同一A3中英分段查询已核，家族非旧英文改写，具体条件与反联想保留；官方登记未清空。 主控实际读个人CV125–127，支持非独立软件；补审风险不改变既有通过，但最终短板明列。",
+        "evidence_refs": [
+          {
+            "path": "A2-candidates-batch2.json",
+            "sha256": "a6edfe841b0c674cf075ca8f5b3333632cb70e12c210047233bae14ec6a00419"
+          },
+          {
+            "path": "A2-quality-batch2.json",
+            "sha256": "f9468f86c3e49fa4ec59ddf61a9320929a43a84f6ad1e2c7ce1433fae021d5d0"
+          },
+          {
+            "path": "coordinator-cn-batch2.json",
+            "sha256": "f5637459e86591cafb960eb846ef4a447098edb2f29ca52fe64abb3710a8cc60"
+          },
+          {
+            "path": "A3-cn-batch3.json",
+            "sha256": "c202e39d45f913f8a42b016f764a7f809b341633a6743fc3df99283ccc763084"
+          },
+          {
+            "path": "A4-batch4.json",
+            "sha256": "cf7421fcd00d3ba846c91a9bdbbfb6ca733401495d9d09934209224ef43793d1"
+          },
+          {
+            "path": "A4-quality-batch4.json",
+            "sha256": "984e65b7a179c1716aa322da017708702dae22a8d03164d7c83da635a20650fd"
+          },
+          {
+            "path": "coordinator-en-batch4.json",
+            "sha256": "be3423f457c6a899183210a89f8eccf11e31ae3cc4ac08c43b7942a7667f8f5a"
+          },
+          {
+            "path": "A3-en-batch4.json",
+            "sha256": "f2faa8c3645160bfbffb37d78063370d4e60b87c04b2615d7c7c7f994a9cd9be"
+          },
+          {
+            "path": "root-source-review-batch2.json",
+            "sha256": "eec81a96b67e1197d76864e1453828b7dd4d4d8663cf007a09fcf6ac589f66ea"
+          },
+          {
+            "path": "A4-E04-usage-note.json",
+            "sha256": "855de77a04c8f0cd66983b53f6beb713e4f637a0cff3598d2b3a0934257758be"
+          }
+        ]
+      }
+    },
+    {
+      "chinese_id": "C1-C14",
+      "english_id": "C1-E11",
+      "family_id": "C1-BF-real-outcome-counts-as-valid",
+      "chinese": "作数",
+      "pinyin": "zuò shù",
+      "english": "Factborne",
+      "suggested_pronunciation": "FACT-born，/ˈfækt.bɔːrn/，两个音节。",
+      "source": {
+        "title": "DOE Announces Four National Laboratory-Led Selections to Advance Robotics and Automation for Autonomous Scientific Discovery",
+        "url": "https://www.energy.gov/science/articles/doe-announces-four-national-laboratory-led-selections-advance-robotics-and",
+        "read_scope": "正文L7–30，重点DART L17–18、四项目角色L23–28与协商边界L29–30",
+        "date": "2026-10-08",
+        "access": "body"
+      },
+      "fact": "DOE于2026-10-08公布自主科研机器人项目选择，DART目标明确区分机器人完成动作，与实际物理和科学结果满足实验要求。该公告是协商选定项目的目标，不是已经完成成果。",
+      "meaning": "能力最终要在真实事情上作数。",
+      "crossing": "DOE的自主科研项目明确：机器人完成动作之外，还需物理与科学结果符合实验要求。口语里“说了不算，要真的作数”将这种结果有效性转成自然可称呼的研究立场。",
+      "layers": [
+        "日常说一件事情有效、能被当回事",
+        "动作完成与科学结果有效之间的区别",
+        "实验室研究已有智能在真实使用中怎样形成可检验的能力"
+      ],
+      "shortcoming": "可能被听写成做数或算数，也可能像数据统计、财税工具；一旦使用这个名字，宣传便会受到有效性这个立场的检验。不是宣称公司永远正确。",
+      "english_formation": "fact（实际发生或存在的事实）+ borne（承载、携带；bear的过去分词）。现有英语有airborne等完整构形；本案把承载对象换为事实，表达研究主张由实际事实托住的关系。Factborne不是已核实的词典词，也不是现有科学机制的正式名称。这里不是born出生，亦非把Bear Out改一两个字母避重。",
+      "bilingual_relation": "中文作数要求结果实际有效、可采用；英文把对能力的主张视作需要由事实承载的东西。一边说结果要有效，一边说凭什么成立：依靠已观察的事实，而非仅完成动作或作出漂亮承诺。二者共享主张与有效结果之间的支撑关系。",
+      "english_shortcoming": "Fact-borne是有据语素的比喻性新合成，需要首次解释，并非母语既有习语；可能被听写为Factborn，/ktb/边界需清晰发音。也可能首先被理解成事实核查或新闻工具公司。borne原有携带/传播义不自动等于科学证实，这段从承载到主张支撑的转用必须承认，不能靠词典引文掩盖。",
+      "scientific_boundary": "来源是选定协商项目的未来目标，不能当已完成成绩；有效性要依具体任务和实验证据判断，不承诺每一次模型输出都可靠。",
+      "chinese_screen": {
+        "candidate_id": "C1-C14",
+        "name": "作数",
+        "query_logs": [
+          {
+            "query": "\"作数\"",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          },
+          {
+            "query": "\"作数\" 公司 科技",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          },
+          {
+            "query": "\"作数\" AI 模型 软件",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          },
+          {
+            "query": "\"作數\" 公司 軟體",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          },
+          {
+            "query": "\"zuoshu\" company AI",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          },
+          {
+            "query": "\"作数科技\"",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          },
+          {
+            "query": "\"作数智能\"",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          },
+          {
+            "query": "\"作数\" \"有限公司\"",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "八组查询未确证中文同核心公司/AI模型/独立软件。SSE搜索疑似作数数字电视集团实际PDF首面为华数，是OCR误识。Zuoshu已有做書文化媒体及印尼ZUOSHU家电商标线索，不等于中文作数；若未来采用Zuoshu英文须独立避重。",
+        "evidence": [
+          {
+            "url": "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202501/052897_20250123_H0S4.pdf",
+            "access": "primary_pdf_downloaded_first_page_render_visually_read",
+            "finding": "web打开超时；curl完整下载127页PDF至/tmp/a3-zuoshu-sse.pdf，首面渲染/tmp/a3-zuoshu-sse-p1.png明确华数数字电视传媒集团有限公司审计报告。不是作数公司。"
+          },
+          {
+            "url": "https://zuoshu.com/t/zixun",
+            "access": "search_index_only_open_timeout",
+            "finding": "做書为出版文化自媒体，同拼音不同中文字，不用作中文精确占用。"
+          },
+          {
+            "url": "https://dgip.go.id/uploads/berita_resmi/file/ad2dfc97cc337246c2b0d5d686b2e3d3.pdf",
+            "access": "search_index_only_not_pdf_read",
+            "finding": "印尼官方商标公告搜索索引ZUOSHU+LOGO、DID2024129957、11类电热家电。未逐页核读，中文未知，不作为作数同名证明；披露拼音英文风险。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "本轮实际入口403，未逐名检索"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "共同入口实际403，未进入逐名逐类检索"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Zuoshu",
+            "scope": "实际逐名搜索URL不可访问，不代表无公司"
+          }
+        }
+      },
+      "english_screen": {
+        "candidate_id": "C1-E11",
+        "name": "Factborne",
+        "query_logs": [
+          {
+            "query": "\"Factborne\"",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          },
+          {
+            "query": "\"Factborne\" company lab",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          },
+          {
+            "query": "\"Factborne\" AI model",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          },
+          {
+            "query": "\"Factborne\" software product",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          },
+          {
+            "query": "\"Fact Borne\"",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          },
+          {
+            "query": "\"Factborn\"",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          },
+          {
+            "query": "\"Fact Born\" company software",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          },
+          {
+            "query": "\"Factborn\" company AI software",
+            "executed_on": "2026-11-07",
+            "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。",
+        "evidence": [
+          {
+            "url": "https://timesofindia.indiatimes.com/city/hyderabad/pw-sets-terms-for-oppn-parties/articleshow/336311.cms",
+            "access": "primary_news_body_read",
+            "finding": "2003新闻正文L174显示A factborne out by the reality…，前后多处丢空格，如heartlandwith，明确语句而非Factborne商业机构。"
+          },
+          {
+            "url": "https://cp3.irmp.ucl.ac.be/projects/madgraph/attachment/wiki/GIFSchool/HiggsGG-NLO.nb",
+            "access": "search_index_code_extract_read_open_timeout",
+            "finding": "Mathematica notebook L226 factborn=gs2，随后用于Born表达式，是内部变量，不是独立软件Factborn；直接打开超时，读取范围仅索引代码。"
+          },
+          {
+            "url": "https://www.buzzsprout.com/2567929/episodes/18847716-forkortelser-ai-assistenter-og-refleksjoner",
+            "access": "search_index_transcript_extract_only",
+            "finding": "北欧语言播客6:16转录句中factborn，节目自身名称Forkortelser, AI-assistenter og refleksjoner；无独立Factborn商业品牌证据。"
+          },
+          {
+            "url": "https://www.cmsdistribution.com/vendors/rocket-software",
+            "access": "search_index_body_extract_only",
+            "finding": "Rocket Software厂商介绍a fact born out by…普通语句，不是Fact Born软件品牌。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "本轮实际入口403，未逐名检索"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "共同入口实际403，未进入逐名逐类检索"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Factborne",
+            "scope": "实际逐名搜索URL不可访问，不代表无公司"
+          }
+        },
+        "chinese_candidate_id": "C1-C14",
+        "chinese": "作数",
+        "version": "first_english_rework_attempt1",
+        "precise_use_type": "no_confirmed_same_core_public_technology_or_commercial_brand_found"
+      },
+      "quality": {
+        "chinese_producer": {
+          "candidate_id": "C1-C14",
+          "name": "作数",
+          "language": "zh",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a2",
+          "scores": {
+            "naturalness": 5,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 4,
+            "extension": 4,
+            "semantic_coherence": 5
+          },
+          "total": 26,
+          "notes": {
+            "naturalness": {
+              "reason": "现成口语动词，声音简短直接",
+              "counter_association": "听写做数算数"
+            },
+            "distinctiveness": {
+              "reason": "事情究竟作不作数有鲜明口语态度",
+              "counter_association": "可能是统计工具第一联想"
+            },
+            "lab_fit": {
+              "reason": "把智能能力落到实际结果，可承接Lab使命",
+              "counter_association": "也可能财税公司"
+            },
+            "grounding": {
+              "reason": "DOE原文确区分动作与实验结果，项目尚非完成",
+              "counter_association": "不是已证团队成果"
+            },
+            "extension": {
+              "reason": "可覆盖多任务多系统的有效能力研究",
+              "counter_association": "太宽时需持续研究赋义"
+            },
+            "semantic_coherence": {
+              "reason": "有效的日常原义与科学效度要求同向",
+              "counter_association": "不把作数偷换成永不出错"
+            }
+          },
+          "decision": "quality_pass",
+          "independent_submission_ref": "A2-quality-batch4.json producer-only submission"
+        },
+        "chinese_coordinator": {
+          "candidate_id": "C1-C14",
+          "name": "作数",
+          "reviewer": "coordinator",
+          "scores": {
+            "naturalness": 5,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 4,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 25,
+          "notes": {
+            "naturalness": {
+              "reason": "完整日常谓词自然",
+              "counter_association": "容易写成做数或算数"
+            },
+            "distinctiveness": {
+              "reason": "有效作数的口语态度鲜明",
+              "counter_association": "普通口语非专名"
+            },
+            "lab_fit": {
+              "reason": "能容纳实际有效性研究",
+              "counter_association": "可能像统计财税工具"
+            },
+            "grounding": {
+              "reason": "DOE项目明确行动与效度差别",
+              "counter_association": "项目目标不是已完成成果"
+            },
+            "extension": {
+              "reason": "不限单一模型工具",
+              "counter_association": "不是永远正确承诺"
+            },
+            "semantic_coherence": {
+              "reason": "口语有效与科研结果有效同义相接",
+              "counter_association": "数的数字义不该事后硬拆"
+            }
+          },
+          "decision": "quality_pass"
+        },
+        "english_producer": {
+          "candidate_id": "C1-E11",
+          "chinese_id": "C1-C14",
+          "english": "Factborne",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a4",
+          "scores": {
+            "pronunciation": 4,
+            "spelling": 4,
+            "grounding": 4,
+            "bilingual_relation": 5,
+            "distinctiveness": 4
+          },
+          "total": 21,
+          "notes": {
+            "pronunciation": {
+              "reason": "完整熟悉的fact与borne，两个音节，可正常称呼。",
+              "counter_association": "fact末尾kt与borne起首b相接，口头首次需清楚。"
+            },
+            "spelling": {
+              "reason": "各语素保持标准拼法，没有截词或无义字母。",
+              "counter_association": "born同音有真实听写成本，需解释末尾e为borne携带。"
+            },
+            "grounding": {
+              "reason": "事实与承载共同形成主张依靠实际结果成立的单一支撑关系，不是附加成长美好词。",
+              "counter_association": "carried-by转为证据支撑属于品牌比喻，不能当严格词典等义。"
+            },
+            "bilingual_relation": {
+              "reason": "中文结果作数、英文主张须以事实为依据，共同落实有效结果与能力主张的关系。",
+              "counter_association": "中文还包括承诺生效，英文更偏事实证据；不是逐字翻译。"
+            },
+            "distinctiveness": {
+              "reason": "完整合成可作为独立专名，不是普通操作按钮或完整口号。",
+              "counter_association": "可能像事实核查产品，其实际已有使用与近似拼法仍待A3。"
+            }
+          },
+          "status": "pass_quality_gate",
+          "note": "主观编辑判断；等待主控先读无分预览独评，再读本档并授权原A3。"
+        },
+        "english_coordinator": {
+          "candidate_id": "C1-C14",
+          "name": "Factborne",
+          "reviewer": "coordinator",
+          "scores": {
+            "pronunciation": 5,
+            "spelling": 4,
+            "grounding": 4,
+            "bilingual_relation": 4,
+            "distinctiveness": 4
+          },
+          "total": 21,
+          "notes": {
+            "pronunciation": {
+              "reason": "fact与borne两普通音节保留常规读音",
+              "counter_association": "ktb边界需清晰"
+            },
+            "spelling": {
+              "reason": "完整词素可以解释拼写",
+              "counter_association": "borne与born同音"
+            },
+            "grounding": {
+              "reason": "主张由事实承载为有边界的品牌比喻",
+              "counter_association": "承载不自动等同科学证实"
+            },
+            "bilingual_relation": {
+              "reason": "作数与事实支撑共同要求实际结果",
+              "counter_association": "非逐字等义且偏事实核查"
+            },
+            "distinctiveness": {
+              "reason": "完整新称呼有鲜明态度",
+              "counter_association": "新闻核查工具首联想明显"
+            }
+          },
+          "decision": "quality_pass",
+          "english_id": "C1-E11"
+        }
+      },
+      "terminal_review": {
+        "reviewer": "/root",
+        "reviewed_at": "2026-11-07T21:34:39.981233+08:00",
+        "decision": "discussion_candidate",
+        "reason": "真实出处、独立双评、同一A3中英分段查询已核，家族非旧英文改写，具体条件与反联想保留；官方登记未清空。 主控独立核读DOE正文10–30，MW fact及borne原义；承载转为证据支撑是明示品牌比喻，非辞典等义、既有机制或性能承诺。",
+        "evidence_refs": [
+          {
+            "path": "A2-candidates-batch4.json",
+            "sha256": "957bf8655fc641d800ed4929e7fcfc65e307d461c4ca379e068325b10b0fa813"
+          },
+          {
+            "path": "A2-quality-batch4.json",
+            "sha256": "468616ee2229b52b29bc10e73d28574cf58129aef0f7a877227a9dd196fc1676"
+          },
+          {
+            "path": "coordinator-cn-batch4.json",
+            "sha256": "5f4874e4f6ef4a05e2b8e5ba85322ae92f55d931ff2dc96eaa4b7c4e0b4f7eff"
+          },
+          {
+            "path": "A3-cn-batch5.json",
+            "sha256": "68decdd14702ea14101fa2ed22e3c373328eeeb0db85c37d2ff9bccc9eeeeb08"
+          },
+          {
+            "path": "A4-batch11.json",
+            "sha256": "64de497390eb70869fa0d2a0888a8842741ae13a9d8c63d997a9b35ae066ec70"
+          },
+          {
+            "path": "A4-quality-batch11.json",
+            "sha256": "b2c6685ff15de05bfed817c0e54ce05bb671eb5c4026e2a2d63c8b1f44e9efc5"
+          },
+          {
+            "path": "coordinator-en-batch11.json",
+            "sha256": "6ef20031c966665951fa660fba1ac8f7bfda6ab516db7bba915069fa7b89ae83"
+          },
+          {
+            "path": "A3-en-batch11.json",
+            "sha256": "4e1267083380c070a710e5edc0b6785a7e008be6f96537800940f2765c7d01e2"
+          }
+        ]
+      }
+    },
+    {
+      "chinese_id": "C1-C31",
+      "english_id": "C1-E26",
+      "family_id": "C1-BF-machine-for-unrealized-conditions",
+      "chinese": "未然机",
+      "pinyin": "wèi rán jī",
+      "english": "Supposal",
+      "suggested_pronunciation": "suh-POH-zul，/səˈpoʊzəl/，三个音节；采用词典读法。",
+      "source": {
+        "title": "Pearl, Glymour & Jewell: Causal Inference in Statistics: A Primer",
+        "url": "https://web.cs.ucla.edu/~kaoru/BIB5/pearl-etal-2016-primer-text.pdf",
+        "read_scope": "实际读PDF114/117/118页（纸本92/95/96），同单位固定背景U、Joe例子与§4.2.4三步；核PDF6版权页2016；未通读159页。",
+        "date": "2016",
+        "access": "body_via_PDF_text",
+        "sha256": "1041d4522d8c458868d1e16617bf663cd9c3764cdf91df42d689798095d61d59"
+      },
+      "fact": "在给定结构模型中，先用同一实际单位的证据约束其背景，再替换一项结构条件，并在保持该背景的模型里推问另一结果；能否求解依赖模型、变量及证据条件。",
+      "meaning": "让没有发生的另一种条件，也能成为可严肃讨论的问题。",
+      "crossing": "用同一实际个体的证据固定背景，再改一项条件，询问没有实际经历的另一结果。 “未然机”是将这一条件求问拟成思考机器的品牌比喻，并非原书装置名。",
+      "layers": [
+        "可以直接叫出的三字想象机器",
+        "实际证据与未现实条件共同限定问题",
+        "探索现实经验允许我们推问什么"
+      ],
+      "shortcoming": "可能被理解为预测未来的机器或科幻产品；未然字义有些书面，机构身份可能被单一产品感压住。 AI科技圈已有未然科技、未然图灵等近名，虽然未确证完整“未然机”，仍存在识别和权利近似风险。",
+      "english_formation": "选用完整英语名词supposal。Merriam-Webster释义包括作出假设的过程，以及所假定的事物。不是把Suppose任意换字母，也不把它宣传成Pearl书中正式装置名或新创术语。词在本案提供一项可以拿来研究的假定条件，具体的同个体反事实语义由已读模型来源限定。",
+      "bilingual_relation": "中文把未现实条件的求问拟成一台机器，英文给这台机器所处理的假定一个名词称呼。这里不是任意想象未来：先以同一实际对象的证据约束背景，再改条件计算另一结果；中文说工具角色，英文说处理的假设对象，主题配对不逐字翻译。",
+      "english_shortcoming": "supposal不如suppose常见，首次可能需解释并确认双p拼写，也容易与proposal混听。整体有学术/文学假想作品气质，或被理解成泛假设生成工具；英文单独未包含固定同一个体背景、干预和重新求解条件。独立品牌判断不能由词典收录代替。 检索出现的supposal.md只为第三方估值索引，未核域名登记及当前站点，不据此证明市场占用或域名可购。",
+      "scientific_boundary": "不等于预测未来或看见平行宇宙；因果模型和背景不充分时不能据观察唯一确定个体反事实。 Supposal为完整既有英语名词，词典义广于严格反事实；中文同行近名与登记未核准不因初筛通过消失。",
+      "english_dictionary_source": {
+        "url": "https://www.merriam-webster.com/dictionary/supposal",
+        "read_scope": "实际词条31–42名词、读法及过程/假设对象两义"
+      },
+      "chinese_screen": {
+        "candidate_id": "C1-C31",
+        "name": "未然机",
+        "query_logs": [
+          {
+            "query": "\"未然机\"",
+            "executed_on": "2026-11-08",
+            "summary": "结果主要为未然、防患于未然等辞典/拆字匹配，未确证完整未然机具名商业对象。"
+          },
+          {
+            "query": "\"未然机科技\"",
+            "executed_on": "2026-11-08",
+            "summary": "命中未然图灵AI预测引擎资料，实际正文品牌未然图灵/ProphetLab，不含机；不能自动视作未然机科技。"
+          },
+          {
+            "query": "\"未然机智能\"",
+            "executed_on": "2026-11-08",
+            "summary": "命中未然图灵及未然智能近名企业；珠海官网确有未然智能公司及体感互动业务，核心缺机，不是精确同名。"
+          },
+          {
+            "query": "\"未然机\" 公司 品牌",
+            "executed_on": "2026-11-08",
+            "summary": "出现未然资本招聘品牌线索；全文核心未然/未然资本与本名未然机不同，非本名商业占用确证。"
+          },
+          {
+            "query": "\"未然机\" AI 模型 软件",
+            "executed_on": "2026-11-08",
+            "summary": "出现未然象限、杭州未然人工智能等公司目录；杭州页正文核其实际名称不含机；都是相关行业近名而非本名。"
+          },
+          {
+            "query": "\"未然機\" 公司 軟體",
+            "executed_on": "2026-11-08",
+            "summary": "命中台湾公司批量PDF及拆字内容，未获得未然機完整具名软件/公司记录；未冒称通读该批量清册。"
+          },
+          {
+            "query": "\"weiranji\" company",
+            "executed_on": "2026-11-08",
+            "summary": "返回茶叶电商等无关噪声，未确认Weiranji完整公司或软件名；不是拼音全球未用证明。"
+          },
+          {
+            "query": "\"未然机\" 产品 游戏",
+            "executed_on": "2026-11-08",
+            "summary": "命中珠海未然科技体感游戏官网及未然探偵游戏等近名，未然科技官网正文核实不含本名机字。"
+          },
+          {
+            "query": "\"未然机\" \"有限公司\"",
+            "executed_on": "2026-11-08",
+            "summary": "命中未然资本、未然图灵等较短或不同核心名；未确证完整未然机有限公司主体。"
+          },
+          {
+            "query": "\"未然機\" AI 品牌",
+            "executed_on": "2026-11-08",
+            "summary": "主要日语未然に防ぐ表示事先防止，相关具名产品为广告チェックAI等，不是未然機品牌；未确证繁体完整商业名。"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "10组实际查询未确证完整核心未然机/未然機/Weiranji已作为公司、AI模型或独立软件使用。已核同领域近名未然科技及未然图灵；机是本名拟物核心，不能按科技/公司后缀删除，故近名不冒充精确占用。未然词面在AI科技圈较拥挤，保留混淆与品牌识别风险，交主控终审而不作登记可用保证。",
+        "evidence": [
+          {
+            "url": "https://weinsci.com/",
+            "access": "primary_company_body_read",
+            "finding": "官网L4–31体感互动及拟推出语音交互；L105未然智能科技（珠海）有限公司，L107 WEIN。实际品牌未然科技，不含机，是同领域近名而非本名。"
+          },
+          {
+            "url": "https://vc.pedaily.cn/company/903929.html",
+            "access": "secondary_company_profile_body_read",
+            "finding": "L27–32品牌未然图灵/ProphetLab、AI预测方向；L65–67及126–150全称上海未然图灵智能科技有限公司。资料自称公开整理，非官方登记，不核其融资/能力或实时存续；完整核心不同。"
+          },
+          {
+            "url": "https://www.shuididp.cn/yp-ca01f13a9179c65c9178dc11068bd501.html",
+            "access": "third_party_directory_body_read",
+            "finding": "L22/69–94杭州未然人工智能科技有限公司及软件AI范围；L72明示互联网数据，L147免责声明。没有机字，不以第三方目录冒称实时官方登记。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "复用A3-controls.json本轮2026-11-07实际共同入口403；本批未新访问，未逐名检索。"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "复用A3-controls.json本轮2026-11-07共同入口403；本批未新访问，未做9/42逐名逐类登记检索。"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Weiranji",
+            "scope": "2026-11-08实际逐名Weiranji URL尝试不可访问；不是无公司结论。"
+          }
+        },
+        "source_decision": "public_use_screen_pass_with_nearname_risk",
+        "decision_normalization": "仅派生交付数据映射原明确通过且附近名风险标签到统一公开初筛通过枚举；风险、原词、证据、登记字段全部保留。原A3报告/回执字节不改，不将hold或reject映射为pass。"
+      },
+      "english_screen": {
+        "candidate_id": "C1-E26",
+        "name": "Supposal",
+        "query_logs": [
+          {
+            "query": "\"Supposal\"",
+            "executed_on": "2026-11-08",
+            "summary": "完整精确返回历史/现代词典及集体谈判文件标题；未确证Supposal公司或产品。"
+          },
+          {
+            "query": "\"Supposal\" company lab",
+            "executed_on": "2026-11-08",
+            "summary": "公司/Lab组合仍主要词典、航空论坛和工资谈判文件普通词用法；未确证独立机构品牌。"
+          },
+          {
+            "query": "\"Supposal\" AI model",
+            "executed_on": "2026-11-08",
+            "summary": "Latent Space AI访谈出现supposal，实际正文L228–242是谈话中一个词而非模型名称；其他多词典和机构谈判文件。"
+          },
+          {
+            "query": "\"Supposal\" software product",
+            "executed_on": "2026-11-08",
+            "summary": "OneWordDaily词条例句包含company/product，实际页面L8–38词义例句，L51运营方RJS另名；不是Supposal软件。"
+          },
+          {
+            "query": "\"Supposal\" brand startup",
+            "executed_on": "2026-11-08",
+            "summary": "supposal.md第三方域名估值索引，非公司/产品发布；打开超时未声称读站点或证实其运营使用。另有词典/个人评论/谈判文件。"
+          },
+          {
+            "query": "\"Sup Posal\" technology",
+            "executed_on": "2026-11-08",
+            "summary": "合理分词主要SUP-POSAL词典OCR与无关含sup/posal文字，未确证Sup Posal科技品牌；不把OCR断词当公司。"
+          },
+          {
+            "query": "\"Supposal\" app",
+            "executed_on": "2026-11-08",
+            "summary": "主要词典和劳资协议Appendix A/APP compensation等文本；APP语境并非Supposal应用命名。"
+          },
+          {
+            "query": "\"Supposal\" github software",
+            "executed_on": "2026-11-08",
+            "summary": "GitHub/software定向仍主要词典和课程/谈判文件，未确证具名Supposal仓库、独立软件或包；不是穷尽代码托管平台。"
+          },
+          {
+            "query": "\"Suppose\" \"Proposal\" AI software brand",
+            "executed_on": "2026-11-08",
+            "summary": "近听Suppose/Proposal边界查询命中假设语句、提案/RFP工具和论文，用法不同；不据共现认定Supposal品牌或与Proposal等义。"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "2026-11-08本轮9组真实英文查询未确证Supposal完整核心已用于公司、AI模型或独立软件/产品；学术/词典/劳资谈判普通词及AI访谈转录不当品牌。低频正式语感、proposal/suppose听写与中文未然同行前缀风险保持；仅公开使用初筛，登记未清，不称全球未使用或可注册。",
+        "evidence": [
+          {
+            "url": "https://www.merriam-webster.com/dictionary/supposal",
+            "access": "primary_dictionary_body_read",
+            "finding": "L31–42完整现成名词及读法、假设过程/对象义；不是公司或软件命名使用证据。"
+          },
+          {
+            "url": "https://latent.space/p/axolotl/",
+            "access": "primary_transcript_body_read",
+            "finding": "实际核L228–242，L234 swyx谈话里like, supposal；上下文讨论模型评测污染，不把该词当独立模型名。未据转录评价词语正确性。"
+          },
+          {
+            "url": "https://oneworddaily.com/word/supposal",
+            "access": "primary_editorial_word_entry_body_read",
+            "finding": "L8–38词条和例句，L51运营RJS Tech Solutions LLP另名；Supposal是本页解释对象，不是软件品牌。"
+          },
+          {
+            "url": "https://domainindex.com/domains/supposal.md",
+            "access": "search_index_only_open_timeout",
+            "finding": "第三方域名评估摘要，仅列supposal.md，页面打开超时；没有实际公司/产品主体线索，不能据域名词条证明市场占用，也未核其域名登记/可购状态。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "复用本run A3-controls.json中2026-11-07共同入口403；本批未新访问，未逐名核名。"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "复用本run A3-controls.json中2026-11-07共同入口403；本批未进入9/42逐名逐类检索。"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Supposal",
+            "scope": "2026-11-08本次实际逐名Supposal搜索URL不可访问，不是无公司结论。"
+          }
+        },
+        "chinese_id": "C1-C31",
+        "chinese": "未然机",
+        "rework_attempt": 0,
+        "remaining_reworks": 2
+      },
+      "quality": {
+        "chinese_producer": {
+          "candidate_id": "C1-C31",
+          "name": "未然机",
+          "language": "zh",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a2",
+          "scores": {
+            "naturalness": 4,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 25,
+          "notes": {
+            "naturalness": {
+              "reason": "三字整体像一个可叫出的想象机器",
+              "counter_association": "未然略书面，可能需解释读义"
+            },
+            "distinctiveness": {
+              "reason": "未现实与计算对象形成清楚主角",
+              "counter_association": "可能与预言机器混淆"
+            },
+            "lab_fit": {
+              "reason": "机与条件求解可承载计算/推理研究",
+              "counter_association": "第一感也可能是单一科幻产品"
+            },
+            "grounding": {
+              "reason": "书籍具体段落支持固定背景与干预后求值",
+              "counter_association": "称呼为研究者构造，非作者原名"
+            },
+            "extension": {
+              "reason": "可容纳因果、推问与决策研究",
+              "counter_association": "不许诺任何如果都能求解"
+            },
+            "semantic_coherence": {
+              "reason": "未然与机共享模型处理非实际条件的关系",
+              "counter_association": "不能让未然变成未来准确预测"
+            }
+          },
+          "decision": "quality_pass"
+        },
+        "chinese_coordinator": {
+          "candidate_id": "C1-C31",
+          "name": "未然机",
+          "reviewer": "coordinator",
+          "scores": {
+            "naturalness": 4,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 25,
+          "notes": {
+            "naturalness": {
+              "reason": "三个熟字构成完整想象机器称呼可口头叫出",
+              "counter_association": "未然略书面且可能被听成未来"
+            },
+            "distinctiveness": {
+              "reason": "未现实条件与可求解机器形成明确画面",
+              "counter_association": "容易先像科幻作品或单一产品"
+            },
+            "lab_fit": {
+              "reason": "机器作为条件计算/认识工具能承载计算研究机构身份",
+              "counter_association": "不能仅凭机字就给科技身份或预测能力加分"
+            },
+            "grounding": {
+              "reason": "实读书中同单位固定U替换结构方程再求解的反事实语义支持关系",
+              "counter_association": "不是作者原有装置/算法名或原文中文称呼"
+            },
+            "extension": {
+              "reason": "可容纳因果条件与模型推问的多年研究",
+              "counter_association": "不能扩成无证据任意平行世界"
+            },
+            "semantic_coherence": {
+              "reason": "未然与机同属未现实条件的模型化求问非吉祥字拼接",
+              "counter_association": "若只讲模拟未来就与旧虚拟排练族重合"
+            }
+          },
+          "decision": "quality_pass"
+        },
+        "english_producer": {
+          "candidate_id": "C1-E26",
+          "chinese_id": "C1-C31",
+          "english": "Supposal",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a4",
+          "scores": {
+            "pronunciation": 5,
+            "spelling": 4,
+            "grounding": 4,
+            "bilingual_relation": 4,
+            "distinctiveness": 4
+          },
+          "total": 21,
+          "notes": {
+            "pronunciation": {
+              "reason": "三个常规音节且主重音清楚，词典读法连贯，没有自造辅音串或截词读音。",
+              "counter_association": "不常见的完整词仍需首次听一遍，与proposal近听应注意。"
+            },
+            "spelling": {
+              "reason": "完整词典拼法，可用熟悉suppose词干帮助记忆，不是随机字母变形。",
+              "counter_association": "双p与结尾al对首次听写有成本，不能假称人人会写。"
+            },
+            "grounding": {
+              "reason": "假设过程/对象为词典真义，书中固定同单位再改条件提供本案具体处理关系。",
+              "counter_association": "普通假设词广于结构反事实，不能据此声称词典定义含整个三步模型。"
+            },
+            "bilingual_relation": {
+              "reason": "中文想象机器与英文其处理的假设对象同属模型化未现实条件，配对自然。",
+              "counter_association": "单词未独自编码事实证据约束与结构替换，必须保留出处和条件。"
+            },
+            "distinctiveness": {
+              "reason": "完整名词可叫成研究主体，有明确知识对象而非功能按钮或无义拼音。",
+              "counter_association": "学术/文学假想和假设生成工具首感存在，独立性不是由查重未知保证。"
+            }
+          },
+          "status": "pass_quality_gate",
+          "decision": "quality_pass",
+          "note": "规范门槛未改，主观编辑自评；主控先读无分预览独评，后同A3独立筛查。"
+        },
+        "english_coordinator": {
+          "candidate_id": "C1-C31",
+          "name": "Supposal",
+          "reviewer": "coordinator",
+          "scores": {
+            "pronunciation": 4,
+            "spelling": 4,
+            "grounding": 5,
+            "bilingual_relation": 4,
+            "distinctiveness": 4
+          },
+          "total": 21,
+          "notes": {
+            "pronunciation": {
+              "reason": "现成名词读法三音节可按词典口头称呼",
+              "counter_association": "不如suppose常见初听可能停顿"
+            },
+            "spelling": {
+              "reason": "完整既有拼法有suppose到名词的可理解形态",
+              "counter_association": "双p及proposal近听有听写成本"
+            },
+            "grounding": {
+              "reason": "词典明确假设过程及所假定对象义并非任意改拼",
+              "counter_association": "不能冒称Pearl正式装置或每个supposal都严格反事实"
+            },
+            "bilingual_relation": {
+              "reason": "中文给反事实提问工具角色英文给假定对象主题配对成立",
+              "counter_association": "英文词本身未给出固定U与干预背景"
+            },
+            "distinctiveness": {
+              "reason": "少见但有完整声音与假设研究身份可作为独立称呼",
+              "counter_association": "学术文学假想作品气质可能先于Lab且不凭少见就断可用"
+            }
+          },
+          "decision": "quality_pass",
+          "english_id": "C1-E26"
+        }
+      },
+      "terminal_review": {
+        "reviewer": "/root",
+        "reviewed_at": "2026-11-08T17:22:56.050649+08:00",
+        "candidate_id": "C1-C31",
+        "english_id": "C1-E26",
+        "decision": "discussion_candidate",
+        "source_verification": "主控实际读书PDF114/117/118页（纸本92/95/96）及PDF6版权页确认2016；MW Supposal31–42词义/读法；未通读159页。",
+        "family_verification": "原案虚拟排练是世界模型中前瞻轨迹练行为，本案以同一事实单位证据约束U后改结构条件求未现实结果，具体对象/作用不同。另实际全历史带family_id名称条目定向查counterfactual/反事实/未然，未发现其他既有完整对应提案；不以新书自动增族。",
+        "false_positive_verification": "主控实际读Latent Space转录228–242仅普通词，OneWordDaily8–38及51为词条与另名运营方，非具名Supposal模型/软件。不以未读域名估值索引证明占用或清白。",
+        "nearname_verification": "未然科技/未然图灵为同行近名，机是完整拟物核心非组织行业后缀；当前仅全文核心未确证使用，不保证商标近似或混淆排除。主控仅实际读未然图灵二手正文，珠海站502/TLS无正文范围保留，原A3已读官网。",
+        "quality": {
+          "chinese": [
+            25,
+            25
+          ],
+          "english": [
+            21,
+            21
+          ],
+          "all_axes_pass": true,
+          "maximum_axis_difference": 1,
+          "score_scope": "原先独立编辑评分，不是消费者测试；末次风险核对不加分、不修改原分。"
+        },
+        "limitations": "中文同行前缀拥挤，英文低频正式/文学感、双p与proposal近听；结果依赖模型及证据，不是预言机器或平行宇宙可见。大陆登记及9/42未逐名核准，英国逐名入口不可访问，公开使用快照不等于可注册。",
+        "C32_excluded": "借身质量未过未查；原A3核0查询、原A4明确0英文，未用它增加交付。",
+        "evidence_refs": [
+          {
+            "path": "A2-candidates-batch18.json",
+            "sha256": "6c404de20de01d7590b8f10ec5f7f409b7450cd8173872dd982ae05dba3a48b0"
+          },
+          {
+            "path": "A2-quality-batch18.json",
+            "sha256": "76a33f8b20fc2200a4e2a4d90ff73b605aed47e3edddd55a57c4ace129f73279"
+          },
+          {
+            "path": "A2-creation-execution-batch18.json",
+            "sha256": "4fd47d336d1d2c29d3c93595a36e8829dce631b77e7b68a34ccbe3d59ed56cc2"
+          },
+          {
+            "path": "materials-extension17.json",
+            "sha256": "f9e2e35ae9a0b2863c20001215e97eab573dfc6db3490e632b72ace96944a9aa"
+          },
+          {
+            "path": "coordinator-cn-batch18.json",
+            "sha256": "34cf0d33f16423bb8c85a72a2ed4c077065852c95d5ddb072c7e1d49ca918037"
+          },
+          {
+            "path": "coordinator-family-review-batch18.json",
+            "sha256": "1f5f1d72b924a5dca6b9c7ece4a9b5b7e1119f04e44a434acbdb43e41f54b019"
+          },
+          {
+            "path": "A3-cn-batch20.json",
+            "sha256": "46fb678428531c7bbd0edc34489bb1e7d457b12aaf36c6a54711e63481016d99"
+          },
+          {
+            "path": "A3-cn-batch20-receipt.json",
+            "sha256": "4144ad247fa67e6f33db4c233a1d48d4c61ccb932d30373136424267d908e3b6"
+          },
+          {
+            "path": "A4-candidates-batch26.json",
+            "sha256": "79773c9389afba8e05b15a2230896cffbc56e9b12a8dfdfb8d1fe830b150e3f1"
+          },
+          {
+            "path": "A4-quality-batch26.json",
+            "sha256": "8558a2c2201db8fc6ac154c6728d780f1c2f059d536f567fe7fc422825fe0f4e"
+          },
+          {
+            "path": "A4-creation-execution-batch26.json",
+            "sha256": "12e2e4ff6c68b4aed74e84f761a9538a9dcf1d7fb8f937fbf6061e45b2d8e51e"
+          },
+          {
+            "path": "coordinator-en-batch26.json",
+            "sha256": "7adb282526dc5f1047f228d2307770394f4c4eddf03af7e9bb0ade5df8fa3eab"
+          },
+          {
+            "path": "A3-en-batch26.json",
+            "sha256": "4815c6d509a5f171f0ed39736ca56218f55c67ed3662e6c2d25edcc9034d45ef"
+          },
+          {
+            "path": "A3-en-batch26-receipt.json",
+            "sha256": "161da834e6b7455b9bf5f1aba1b74691532b569aa2a01e0ae7fedc625e9bee1b"
+          },
+          {
+            "path": "A4-C31-postscreen-review.json",
+            "sha256": "c3b468d21d2c352922e960c5ec22dd8f23dc14cd747b1166d6407fbc083b6f4e"
+          },
+          {
+            "path": "continuations/2026-11-08T062253Z/root-C31-nearname-review.json",
+            "sha256": "0acc4b62241c19cdb3a68ccc3c8f186685698ac1dbd223eafab8a77d7b0288a8"
+          },
+          {
+            "path": "continuations/2026-11-08T062253Z/inputs/prior-body-and-simulation-families.json",
+            "sha256": "c38ea19782c800734bef51f26ff34ce72c67ec1f09aa2f4e9ba3804bb6957d6c"
+          }
+        ]
+      },
+      "source_reading_refs": [
+        {
+          "path": "materials-extension17.json",
+          "sha256": "f9e2e35ae9a0b2863c20001215e97eab573dfc6db3490e632b72ace96944a9aa"
+        }
+      ],
+      "screening_as_of": "2026-11-08"
+    },
+    {
+      "chinese_id": "C1-C37",
+      "english_id": "C1-E28",
+      "family_id": "C1-BF-dice-clock-random-waiting",
+      "chinese": "骰子钟",
+      "pinyin": "tóu zi zhōng",
+      "english": "Chancebell",
+      "suggested_pronunciation": "建议 CHANCE-bell，/ˈtʃæns.bel/，英式chance也可/ˈtʃɑːns/；两个音节，按chance与bell完整读，不宣称造词已有公认读法。",
+      "source": {
+        "title": "Abbas Mehrabian: Diameter and Rumour Spreading in Real-World Network Models",
+        "url": "https://dspacemainprd01.lib.uwaterloo.ca/server/api/core/bitstreams/3bcb3ff9-fdd0-4605-9e83-5d4e5752eff0/content",
+        "read_scope": "实际下载原论文，读PDF31–33页、印刷21–23：Definition 2.15独立指数等待及累计鸣响时刻，随后无记忆性、叠加/抽稀关系。封面确认作者、博士论文和2015年；不称通读。",
+        "date": "2015",
+        "access": "body_via_PDF_text",
+        "sha256": "0708aa2ae82bbb22eaa97e4828f4f9ceb74c89e378777d268e9478b6b7386329"
+      },
+      "fact": "参数大于零、独立同分布指数等待相加定义逐次鸣响的时刻；等待长度并非固定周期。骰子只为品牌概率意象，不是论文装置或均匀六面骰的精确实现。",
+      "meaning": "把偶然带进节奏。",
+      "crossing": "钟保持事件节奏角色，下一次何时响却由随机等待决定。",
+      "layers": [
+        "把偶然带进节奏。",
+        "钟保持事件节奏角色，下一次何时响却由随机等待决定。"
+      ],
+      "shortcoming": "骰字读写成本，可能先像桌游、玩具、赌博器材或时钟产品；第一机构身份不能靠说明论文补救。 历史外观设计表已经出现同词骰子鐘，不声称词面首创或没有同词器物。",
+      "english_formation": "chance是概率/不确定机会，bell是可发声作信号的钟铃。不是两个美好意象并排：这是同一个对象——一口由随机等待决定下一次响起的铃——的触发条件与对象。Merriam-Webster词条分别核到chance的likelihood/possibility及bell的信号与报时响声；Chancebell是本案创作，不是论文的正式Poisson clock名称。",
+      "bilingual_relation": "中文用骰子把概率具象化、用钟把触发具象化；英文用chance指向等待的不确定，用bell把一次触发变成可听见的响声。两种语言讲同一随机节奏，不逐字照搬dice/clock。论文给出独立指数等待相加得到鸣响时刻；真实关系是等待与触发，不是模型越摇越聪明。",
+      "english_shortcoming": "可能首先像玩具、音乐器材、桌游或抽奖服务；听写可能分成Chance Bell并当作人名。chance/bell交界需要把/ns/说清，英文单独未交代指数分布、独立性或速率，不能说听名就懂Poisson过程。中文骰字也有读写成本。",
+      "scientific_boundary": "骰子是概率意象，不称六面均匀骰子恰好产生指数分布；不称真实制造过这个钟，不将无记忆性等同模型失忆。 论文中的clock是数学构造，未读到实体随机铃或六面骰实现，不声称物理装置实测。chance不表示自然无因、不可建模或必有好运。中文并非首造词：A3及root已读历史HKEX表Dice clock/骰子鐘外观设计描述，保留同词器物/玩具联想；历史设计不是当前AI品牌、现时商标或可注册证明。本次本人未目读表中实物图像。",
+      "english_dictionary_sources": [
+        {
+          "url": "https://www.merriam-webster.com/dictionary/chance",
+          "read_scope": "root实际34–81概率/可能性词义"
+        },
+        {
+          "url": "https://www.merriam-webster.com/dictionary/bell",
+          "read_scope": "root实际31–60信号/报时钟铃词义"
+        }
+      ],
+      "chinese_screen": {
+        "candidate_id": "C1-C37",
+        "name": "骰子钟",
+        "query_logs": [
+          {
+            "query": "\"骰子钟\"",
+            "executed_on": "2026-11-08",
+            "summary": "精确返回骰宝/骰盅、骰子-钟敏模拟器及词典，钟敏字词需分开不能截断成骰子钟。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"骰子钟科技\"",
+            "executed_on": "2026-11-08",
+            "summary": "科技后缀多工具网站骰子与钟并列模块及商品噪声，未确认同核心公司。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"骰子钟智能\"",
+            "executed_on": "2026-11-08",
+            "summary": "智能后缀多工具模块/电商多商品混排，未将页面同时有骰子钟字当独立品牌。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"骰子钟\" AI 模型 软件 公司",
+            "executed_on": "2026-11-08",
+            "summary": "AI模型软件组合多骰子设备专利与随机工具，具体产品名不同，未确证本名公司/模型。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"骰子鐘\" 公司 軟體",
+            "executed_on": "2026-11-08",
+            "summary": "繁体命中港交所设计表，实际打开并定位页13骰子鐘(98-00366)描述；历史硬件同词如实保留，非软件品牌或现时登记。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"tou zhong\" \"dice\" software",
+            "executed_on": "2026-11-08",
+            "summary": "本条是近名骰钟tou zhong词典用法，不是完整骰子钟拼音；骰钟/骰盅通用品类不能直接当本名。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"touzizhong\" company software",
+            "executed_on": "2026-11-08",
+            "summary": "补完整touzizhong拼音结果主要投资者名单等无关噪声，未确证本名主体。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"骰子钟\" 品牌 产品 游戏",
+            "executed_on": "2026-11-08",
+            "summary": "品牌产品游戏补查为全民骰宝等不同完整名；第三方骰子-钟敏应用正文已核，非骰子钟精确同名。",
+            "status": "completed_search_result"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "8条有效查询未确证完整核心公司、AI模型或独立软件品牌。历史港交所草稿确列骰子鐘(98-00366)外观设计描述，不能声称词面首造或没有同词硬件；该描述本身尚不证明独立品牌，交主控编辑终审，不冒称现时专利/商标或登记可用。",
+        "evidence": [
+          {
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0130/a4563/etime-20150115-32.pdf",
+            "access": "primary_exchange_filing_text_excerpt_read",
+            "finding": "PDF第13页L620–626：Design Dice clock (98-00366)/(骰子鐘(98-00366))，设计号201230362252.0，主体Zhangzhou Hongyuan，列示期限2012-08-03至2022-08-02；当时申请版草稿非现时登记。实际读表格文本/发起页12截图工具调用，未声称目读实物设计或通读全稿。"
+          },
+          {
+            "url": "https://app-6449362276.appstor.io/",
+            "access": "third_party_app_page_body_read",
+            "finding": "L15/30/64实际名骰子-钟敏骰子模拟器,摇骰子&骰子游戏，provider博文杨，骰子通用物件与钟敏另一名字；不能删敏和标点拼成本候选来判精确同名。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "复用本run2026-11-07 A3-controls.json共同入口403，本批未新访问，未做逐名/9与42类核验。"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "复用本run2026-11-07 A3-controls.json共同入口403，本批未新访问，未做逐名/9与42类核验。"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Touzizhong",
+            "scope": "2026-11-08本次实际逐名拼音搜索URL不可访问，不能解释为无登记。"
+          }
+        },
+        "source_decision": "public_use_screen_pass_with_historical_design_description",
+        "decision_normalization": "仅派生交付将原明确公开初筛通过且附风险的标签归一到统一通过枚举；原词、查询、风险、证据、登记全部保留，原A3文件不改；未把hold/reject映射通过。"
+      },
+      "english_screen": {
+        "candidate_id": "C1-E28",
+        "name": "Chancebell",
+        "query_logs": [
+          {
+            "query": "\"Chancebell\"",
+            "executed_on": "2026-11-08",
+            "summary": "精确合写主要2015评论与2010游戏论坛用户名，未确证独立科技主体。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Chancebell\" company lab",
+            "executed_on": "2026-11-08",
+            "summary": "company/Lab仍个人用户名页面，未确证名为Chancebell机构；不以company搜索无名担保注册。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Chancebell\" AI model",
+            "executed_on": "2026-11-08",
+            "summary": "AI/model仍个人评论和论坛，未确证模型名或软件名。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Chancebell\" software product",
+            "executed_on": "2026-11-08",
+            "summary": "software/product主要游戏论坛chancebell Guest身份，不是软件标题；实际打开403不冒正文。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Chance Bell\" company software",
+            "executed_on": "2026-11-08",
+            "summary": "分写命中真实人名及CHANCE Bell Cuff商品，实际读厂家规格确认CHANCE为品牌、Bell Cuff为样式；不是完整Chancebell独立品牌。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Chance-Bell\" brand",
+            "executed_on": "2026-11-08",
+            "summary": "连字符仍运动员人名与同一工业规格，拼写边界记录，不把个人姓名自动否决。",
+            "status": "completed_search_result"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "6组有效查询未确证Chancebell/Chance Bell整体为独立公司、AI模型或软件品牌。主要人名/用户名；工业资料中Chance Bell Cuff为CHANCE品牌加Bell Cuff袖口样式，不截出Chance Bell就冒同名品牌。人名感、玩具/抽奖联想与中文历史同词器物风险保持，登记未清。",
+        "evidence": [
+          {
+            "url": "https://hubbellcdn.com/specsheet/PSC418BCYB12_Specsheet.pdf",
+            "access": "primary_manufacturer_specsheet_body_read",
+            "finding": "单页L4 Style Bell Cuff，L28–32标题Chance Bell Cuff Class4及by CHANCE Utility、目录号PSC418BCYB12；完整产品描述为绝缘橡胶装备，不是独立Chancebell品牌/软件。"
+          },
+          {
+            "url": "https://www.fmylife.com/article/today-my-girlfriend-and-i-were-talking-about-times-we-d-made-our-mothers-cry-she-said-she-d-only-m_133992.html",
+            "access": "search_index_only_open_timeout",
+            "finding": "搜索多次返回ChanceBell评论署名和2015评论上下文，打开超时；只记个人用户名线索，不冒正文核公司或品牌。"
+          },
+          {
+            "url": "https://nextgenupdate.com/forums/call-duty-modern-warfare-2/95034-a-new-shotgun-insane-range-6.html",
+            "access": "search_index_only_open_403",
+            "finding": "搜索展示chancebell Guest发帖身份，实际打开403；未当游戏产品名，未借其个人行为评价品牌。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "复用本run2026-11-07共同入口403，本批未重访，未逐名逐类登记。"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "复用本run2026-11-07共同入口403，本批未重访，未逐名逐类登记。"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Chancebell",
+            "scope": "2026-11-08实际逐名搜索URL不可访问，不代表无登记。"
+          }
+        },
+        "chinese_id": "C1-C37",
+        "rework_attempt": 0,
+        "remaining_reworks": 2,
+        "source_decision": "public_use_screen_pass_with_personal_name_and_descriptive_product_risks",
+        "decision_normalization": "仅派生交付将原明确公开初筛通过且附风险的标签归一到统一通过枚举；原词、查询、风险、证据、登记全部保留，原A3文件不改；未把hold/reject映射通过。"
+      },
+      "quality": {
+        "chinese_producer": {
+          "candidate_id": "C1-C37",
+          "name": "骰子钟",
+          "language": "zh",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a2",
+          "scores": {
+            "naturalness": 4,
+            "distinctiveness": 5,
+            "lab_fit": 4,
+            "grounding": 4,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 25,
+          "notes": {
+            "naturalness": {
+              "reason": "骰子和钟形成一件可直接想象的完整物件",
+              "counter_association": "骰字读写及游戏首感成本"
+            },
+            "distinctiveness": {
+              "reason": "两个具体器物形成清楚而少见的整体画面",
+              "counter_association": "新组合不等于市场未使用，尚未查询"
+            },
+            "lab_fit": {
+              "reason": "概率与时间事件形成计算实验身份，整体像一个可称呼的研究品牌",
+              "counter_association": "玩具时钟或赌博器材也可能先浮现"
+            },
+            "grounding": {
+              "reason": "原论文定义支持随机等待鸣响，骰子是清楚标出的概率比喻",
+              "counter_association": "不是原文器物名，也不将均匀骰等同指数分布"
+            },
+            "extension": {
+              "reason": "可容纳随机过程、异步系统和事件研究",
+              "counter_association": "不能将随机性说成更智能或自我成长"
+            },
+            "semantic_coherence": {
+              "reason": "骰子对应随机，钟对应等待与时刻，在同一关系内",
+              "counter_association": "舍弃了独立性、分布与速率，不是精确模型名称"
+            }
+          },
+          "decision": "quality_pass"
+        },
+        "chinese_coordinator": {
+          "candidate_id": "C1-C37",
+          "name": "骰子钟",
+          "reviewer": "coordinator",
+          "scores": {
+            "naturalness": 4,
+            "distinctiveness": 5,
+            "lab_fit": 4,
+            "grounding": 4,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 25,
+          "notes": {
+            "naturalness": {
+              "reason": "三个字形成完整器物想象，语法自然",
+              "counter_association": "骰有读写成本及色子异称"
+            },
+            "distinctiveness": {
+              "reason": "骰子与钟构成鲜明随机节奏画面",
+              "counter_association": "可能像桌游或小说道具"
+            },
+            "lab_fit": {
+              "reason": "概率与事件节奏的科学器物可容纳随机计算研究",
+              "counter_association": "玩具赌博或时钟产品首感需明示"
+            },
+            "grounding": {
+              "reason": "随机等待与鸣响同属泊松钟关系，骰子是概率比喻并非实物六面实现",
+              "counter_association": "不得把离散均匀骰子等同指数等待"
+            },
+            "extension": {
+              "reason": "可承载概率探索和计算研究而不限闹钟功能",
+              "counter_association": "不能声称随机等于学习或性能提高"
+            },
+            "semantic_coherence": {
+              "reason": "随机何时响而非确定刻度增厚同一时间器物",
+              "counter_association": "原文并无骰子装置名称"
+            }
+          },
+          "decision": "quality_pass"
+        },
+        "english_producer": {
+          "candidate_id": "C1-E28",
+          "chinese_id": "C1-C37",
+          "english": "Chancebell",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a4",
+          "scores": {
+            "pronunciation": 4,
+            "spelling": 5,
+            "grounding": 4,
+            "bilingual_relation": 5,
+            "distinctiveness": 3
+          },
+          "total": 21,
+          "notes": {
+            "pronunciation": {
+              "reason": "两个完整常见音节连读可行，按正常chance/bell读。",
+              "counter_association": "ns与b交界需要说清，也可能听为人名Chance Bell。"
+            },
+            "spelling": {
+              "reason": "完整chance和bell直接合写，不截语素、不换字母。",
+              "counter_association": "首次书写可能拆成两词，大小写需要品牌用法固定。"
+            },
+            "grounding": {
+              "reason": "随机等待触发同一铃响的关系有Poisson clock定义依据，铃的信号义真实。",
+              "counter_association": "bell是创作拟物而非论文实体装置；不能声称原书提出Chancebell。"
+            },
+            "bilingual_relation": {
+              "reason": "中文骰子/钟与英文概率/铃分别抓同一等待触发对象，映射清楚。",
+              "counter_association": "没有保留分布参数、独立性和完整过程细节。"
+            },
+            "distinctiveness": {
+              "reason": "一个完整可想象对象形成专名，可成为研究主体称呼。",
+              "counter_association": "玩具/音乐/赌运工具首感，AI Lab身份需整体呈现支持；未凭查重未知夸大。"
+            }
+          },
+          "status": "pass_quality_gate",
+          "decision": "quality_pass",
+          "note": "主观编辑自评非消费者测试；未以来源真实/待查重补独立性。主控先读无分预览独评，之后由原A3查询。"
+        },
+        "english_coordinator": {
+          "candidate_id": "C1-C37",
+          "name": "Chancebell",
+          "reviewer": "coordinator",
+          "scores": {
+            "pronunciation": 4,
+            "spelling": 4,
+            "grounding": 5,
+            "bilingual_relation": 4,
+            "distinctiveness": 4
+          },
+          "total": 21,
+          "notes": {
+            "pronunciation": {
+              "reason": "按两个完整英语词读，节奏清楚",
+              "counter_association": "ns与b交界需读清"
+            },
+            "spelling": {
+              "reason": "chance和bell完整保留无字母硬改",
+              "counter_association": "可被分写Chance Bell并作人名"
+            },
+            "grounding": {
+              "reason": "概率触发与报时钟铃在同一鸣响对象关系内，构词可追溯",
+              "counter_association": "不等同论文正式术语或真实骰子装置"
+            },
+            "bilingual_relation": {
+              "reason": "两种语言都把随机等待和鸣响时刻拟物化",
+              "counter_association": "未传达指数分布和速率"
+            },
+            "distinctiveness": {
+              "reason": "合成整体有画面可称呼",
+              "counter_association": "玩具音乐和抽奖联想仍在"
+            }
+          },
+          "decision": "quality_pass",
+          "english_id": "C1-E28"
+        }
+      },
+      "terminal_review": {
+        "reviewer": "/root",
+        "reviewed_at": "2026-11-08T19:34:42.423046+08:00",
+        "candidate_id": "C1-C37",
+        "english_id": "C1-E28",
+        "decision": "discussion_candidate",
+        "source_verification": "root实际核同SHA205页Waterloo2015博士论文，pypdf读封面及PDF31–33/印刷21–23，Definition2.15独立指数等待累计为鸣响时刻；未通读。实际读Merriam-Webster chance34–81及bell31–60，完整词概率/信号钟铃义支持合成比喻。",
+        "family_verification": "全历史1097文件命名字段与原案对照；旧因序是依赖偏序/逻辑时钟，异步是暂停继续调度，噪声种子是随机初态经学习去噪，本案随机等待形成事件鸣响节奏。不是因为另论文即新族；不得泛化随机/时间或能力成长。",
+        "historical_same_word_risk": "root实际读HKEX2015草稿表文本549–653尤其620–626，确有Dice clock/骰子鐘外观设计描述；保留词面非首造和玩具钟首感。不将设计描述自动当当前独立AI品牌、商标或现时权利状态。截图未得到可读图，未称目读实物或全稿。",
+        "false_positive_verification": "root实际读第三方AppStorio完整标题骰子-钟敏骰子模拟器等，不能删敏及标点判同名。英文CHANCE品牌/Bell Cuff样式的拆分由同一A3实际读厂家规格正文；root本次web及curl均403，未独立读该PDF，不冒称再核。原A3具名判断与具体行位保留，无新增同名公司线索。人名/用户名不自动独立品牌，未把不可读论坛当公司确证。",
+        "quality": {
+          "chinese": [
+            25,
+            25
+          ],
+          "english": [
+            21,
+            21
+          ],
+          "all_axes_pass": true,
+          "maximum_axis_difference": 1,
+          "score_scope": "先无分预览独评封存，后对照作者；额外风险复核不改原分，不是消费者测试。"
+        },
+        "limitations": "骰字读写及桌游/玩具/赌博器材首感；Chance Bell可像人名，英文玩具音乐/抽奖联想；中文已有同词历史器物设计。骰子是概率意象，不等同均匀六面骰精确实现指数等待；不是装置实测或随机必使智能提高。大陆公司及9/42未逐名核准，英国逐名入口不可访问，公开使用快照非可注册。",
+        "evidence_refs": [
+          {
+            "path": "A2-candidates-batch21.json",
+            "sha256": "03c41e0e634c0454be18a12582bc8383183b5aeeb86abca08f54d16ea9bbfaf4"
+          },
+          {
+            "path": "A2-quality-batch21.json",
+            "sha256": "b2279af2ce4311012c1073a21b19159f0151f1648ef02e1cbbc26eced908df7e"
+          },
+          {
+            "path": "A2-creation-execution-batch21.json",
+            "sha256": "898ba2d777e1c982bfe0a3bdc4b372cae7034d1ad19e6ef98a93abd2660290db"
+          },
+          {
+            "path": "materials-extension20.json",
+            "sha256": "d7bc23a3392897e047569c8608a0d6c711eb52333dddc499602adcbd988c5e5b"
+          },
+          {
+            "path": "coordinator-cn-batch21.json",
+            "sha256": "8dc53ed028e8f10955a77e09cbe2a92ca6de5a47885a8cb3923aa12335b2c6e1"
+          },
+          {
+            "path": "coordinator-family-review-batch21.json",
+            "sha256": "cedb1897412ad5b45fa6c6d402d3dc56ead04ad7fb69e5ad9e53809d1913ac9d"
+          },
+          {
+            "path": "A3-cn-batch23.json",
+            "sha256": "6af294d33fa08604f58ec5749d41ce8325b84d0a68bfb2bbdd661bd142eed5c6"
+          },
+          {
+            "path": "A3-cn-batch23-receipt.json",
+            "sha256": "d28ce13df901efc2766a58f08ccd50cd102c21ba46d05db537c484dae547298c"
+          },
+          {
+            "path": "A4-candidates-batch27.json",
+            "sha256": "bc3e8941f60bf727f0ccc81c37008f64b7d1151b9bca901838f5d900b195bd68"
+          },
+          {
+            "path": "A4-quality-batch27.json",
+            "sha256": "e0c16cec60856da02043153ef6db36d4a49c2de1392f511b84927883de63dcad"
+          },
+          {
+            "path": "A4-creation-execution-batch27.json",
+            "sha256": "df3b8b86d89a9b0eb4ea65634b3db528800f5a308f92859e14bc9316813f4179"
+          },
+          {
+            "path": "coordinator-en-batch27.json",
+            "sha256": "653a2b13cfe4093b685a01582bbddaaa0a710572216ee1a369a1625f23f78a07"
+          },
+          {
+            "path": "A3-en-batch27.json",
+            "sha256": "71c47599a915989da1b96e51cc2f14f2bc180271a27e7730ee4a80e75ea72ebd"
+          },
+          {
+            "path": "A3-en-batch27-receipt.json",
+            "sha256": "57f821f12375afb37ee706a075d69d4f5591c9818daacd9202c9d89751e0a130"
+          },
+          {
+            "path": "A4-C37-postscreen-review.json",
+            "sha256": "054df130131d868f722f7ee0c03211cb00101f4a6e41886b510865990d58fa72"
+          },
+          {
+            "path": "continuations/2026-11-08T110013Z/root-source-review-batch21.json",
+            "sha256": "cb893a30f1d521aba15f407c36eee25a54e744e341046616d0bb397f74d7edf4"
+          },
+          {
+            "path": "continuations/2026-11-08T110013Z/root-cn23-risk-review.json",
+            "sha256": "11bf05677ee3d1ac23bdea09c6c9e0f62992eb013e9da6786d9f3332ef15f43f"
+          },
+          {
+            "path": "continuations/2026-11-08T110013Z/root-cn23-evidence-review.json",
+            "sha256": "4cc05e38c9ce6e33b2ba7e75f4f197697c6f2c16b77472397efd97330f25091c"
+          }
+        ]
+      },
+      "source_reading_refs": [
+        {
+          "path": "materials-extension20.json",
+          "sha256": "d7bc23a3392897e047569c8608a0d6c711eb52333dddc499602adcbd988c5e5b"
+        }
+      ],
+      "screening_as_of": "2026-11-08"
+    },
+    {
+      "chinese_id": "C1-C40",
+      "english_id": "C1-E31",
+      "family_id": "C1-BF-fog-capture-conical-spine",
+      "chinese": "雾针",
+      "pinyin": "wù zhēn",
+      "english": "Spine Eddy",
+      "suggested_pronunciation": "建议 SPINE ED-ee，/ˈspaɪn ˌɛdi/，两词共三个音节；均采用完整词常规读法，不虚构造词公认读法。",
+      "source": {
+        "title": "中科院理化所：科研人员研发出仿生仙人掌集雾器",
+        "url": "https://www.cas.cn/syky/202609/t20260928_5121136.shtml",
+        "read_scope": "本包curl重新实际读原HTML发布日期2026年10月08日及完整科学正文，重点三级路径、径向锥形仿生刺背风侧局部微涡旋、碰撞概率与模式限制；无行号时以段落开头“团队突破传统平面与网状结构的局限”“粒子图像测速和流场分析显示”定位。",
+        "date": "2026-10-08",
+        "access": "body",
+        "local_sha256": "8e7ebf3b113714fe3a13adfafea463283adb3d43e6892b3654742cc8a58c53e7"
+      },
+      "fact": "在该仿生圆柱装置的绕流条件下，径向锥形刺参与形成背风侧局部微涡旋，改变雾滴与收集表面碰撞的条件；整机还包含吸入和排水环节，不能全部归给单刺。",
+      "meaning": "细小的形态，也能改变相遇的条件。",
+      "crossing": "在仿生圆柱装置的绕流条件下，径向锥形刺的形态参与形成背风侧局部微涡旋，使雾滴更易与收集表面碰撞；名字借的是这个捕获入口的形态与环境关系。",
+      "layers": [
+        "雾与针构成可想象的完整微观场景",
+        "结构改变周围条件，而不只增加表面积",
+        "关于形态、环境与相遇关系的研究联想，非AI性能事实"
+      ],
+      "shortcoming": "可能像雾化针头、针灸或节水装置；雾有模糊感，针有刺痛感。作为广义AI研究身份必须独立成立，不能靠原论文精细机制抬分。 霧針也出现为虚构角色招式，Wuzhen近音存在地名和其他用法；未将其误作同名公司或模型。",
+      "english_formation": "spine取植物的硬尖刺义；eddy取空气或水的局部回旋流义。Spine Eddy不是给科技词加美好动词，而是把同一场景中的结构及其邻近流动放在一起：刺的形态参与改变周围流场。完整分写保留正常拼法，不把两个词删音成难以还原的字母串；也不把spine的骨气/书脊、eddy的思想回流另加为本案出处。",
+      "bilingual_relation": "中文看雾中的针形刺；英文看这个刺与局部涡旋的关系。双方共享同一装置捕获入口的形态—流场—相遇关系，不强译成Fog Needle，也不说单根针独自吸水、排水。英文省掉雾介质，换来能具体说明周围条件如何改变的动作场景。",
+      "english_shortcoming": "spine更常先想到脊柱，可能像脊椎医疗、人体工学或医学仿真；Eddy也可被听作人名Eddie。两个词都是完整常用词，但作为整体不是成熟日常短语，第一眼可能像流体仿真课题而非独立公司。英文未直接保留雾这一介质，需中文与短释义帮助辨认；不能由来源真实补品牌薄弱。",
+      "scientific_boundary": "雾针为本轮对雾中锥形仿生刺的品牌凝练，不是原报道正式器件名；以针描述刺的形态，不声称针灸。只读机构正文，未核原论文全部方法或独立复现实验；不把集水指标变成AI表现承诺，也不混主动制冷与被动模式。 两个名词是本案拟称，不称原报道或词典收录Spine Eddy。只借仿生圆柱绕流条件下径向锥形刺参与捕获的入口，非独针全部装置；微涡旋不可脱离装置条件当普适结论。不把主动制冷、孔吸入、沟槽排水归给一根刺，不背书AI表现或论文独立复现。针具/纹身/水务首感、霧針虚构招式、Wuzhen近音及登记未清保留。",
+      "source_scope_correction": {
+        "original_crossing": "同一个对象把分散的捕获、进入和排出步骤连接起来，而不是只增加一个更大的收集面。",
+        "adopted_crossing": "在仿生圆柱装置的绕流条件下，径向锥形刺的形态参与形成背风侧局部微涡旋，使雾滴更易与收集表面碰撞；名字借的是这个捕获入口的形态与环境关系。",
+        "reason": "主控发现crossing字段继承原M07整体装置关系，易使本名特征范围被扩大；作者承认此字段未同步收窄。",
+        "addendum_ref": {
+          "path": "A2-C40-source-scope-addendum.json",
+          "sha256": "0ab1e9325b0192f362b04646a23803ddc6d4bedaaf010b56face886655030119"
+        },
+        "original_ref": {
+          "path": "A2-candidates-batch23.json",
+          "sha256": "2ed9786614c8c7f38068d2417538708a47138f7afb324bf25084012814fb06e4"
+        }
+      },
+      "english_dictionary_sources": [
+        {
+          "url": "https://www.merriam-webster.com/dictionary/spine",
+          "read_scope": "root实际31–57植物尖刺义"
+        },
+        {
+          "url": "https://www.merriam-webster.com/dictionary/eddy",
+          "read_scope": "root实际31–56空气/水回旋义"
+        }
+      ],
+      "chinese_screen": {
+        "candidate_id": "C1-C40",
+        "name": "雾针",
+        "query_logs": [
+          {
+            "query": "\"雾针\"",
+            "executed_on": "2026-11-08",
+            "summary": "主要仪器电喷雾针与纹身打雾针商品，额外字与品类属性保留，不截短认本名商业品牌。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"雾针科技\"",
+            "executed_on": "2026-11-08",
+            "summary": "精确雾针科技返回雾炮/雾化供应链与不同字号企业，未确证本核心主体。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"雾针智能\"",
+            "executed_on": "2026-11-08",
+            "summary": "精确雾针智能主要气雾针剂枪游戏技能及其他雨雾智能工程，未确证本名公司。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"雾针\" AI 模型 软件 公司",
+            "executed_on": "2026-11-08",
+            "summary": "AI/模型/软件组合主要大型算法目录和聚合新闻拆字匹配，没有具体雾针品牌线索；未假称核全部备案清册。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"霧針\" 公司 軟體",
+            "executed_on": "2026-11-08",
+            "summary": "繁体多打霧針针具类别与微针/雾化年报，不将功能部件标题自动当品牌。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"wuzhen\" \"雾针\" company",
+            "executed_on": "2026-11-08",
+            "summary": "拼音并列中文结果为企业名录Wuzhen镇等地名拆词，并非雾针同名公司。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"雾针\" \"有限公司\"",
+            "executed_on": "2026-11-08",
+            "summary": "独立有限公司补搜仍为喷雾针采购/仪器/专利与供应商，完整字号不同，不冒当前登记。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"霧針\" AI 品牌",
+            "executed_on": "2026-11-08",
+            "summary": "繁体品牌补搜出现AIバトラー霧針魔法，实际正文闭环为角色技能，非模型/独立软件品牌。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"雾针\" 软件 游戏 品牌",
+            "executed_on": "2026-11-08",
+            "summary": "软件游戏补搜多气雾针剂枪技能、雾影猎人不同游戏、聚合页，未确证名为雾针独立软件。",
+            "status": "completed_search_result"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "9条有效查询未确证完整雾针/霧針同核心公司、模型或独立软件品牌。喷雾针/打雾针为更长仪器或纹身类别；AIバトラー确有同词魔法招式，但实际正文为角色设定，不是独立产品/模型名。保留医疗纹身联想、虚构招式同词、Wuzhen近音拥挤风险；登记未清。",
+        "evidence": [
+          {
+            "url": "https://ai-battler.com/battle-result/cmm843s9i049es60oaw9edmgp",
+            "access": "primary_game_content_body_excerpt_read",
+            "finding": "实际L33–44角色魔法设定含霧針及奥义；不是AIバトラー产品名称，页面L7模型另名。只读该设定段，不宣称通读大段自动生成小说。"
+          },
+          {
+            "url": "https://www.btatt2.com/categories/tattoo-needles",
+            "access": "retail_category_open_dynamic_body_partial",
+            "finding": "网页实际返回类别/品牌导航与动态模板；搜索索引有AEROLITE圆形打霧針，但本次可读正文未匹配该中文，未冒读完整商品或认定霧針品牌。"
+          },
+          {
+            "url": "https://www.biomart.cn/infosupply/122211748.htm",
+            "access": "search_index_only_open_429",
+            "finding": "搜索显示TIS Electrode/电喷雾针、品牌sciex；实际打开429，只记喷雾针类别/较长名线索，不当本候选同名公司/产品确证。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "复用本run2026-11-07 A3-controls.json共同入口403；本批未新访问、未逐名逐类核准。"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "复用本run2026-11-07 A3-controls.json共同入口403；本批未新访问、未逐名逐类核准。"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Wuzhen",
+            "scope": "2026-11-08实际逐名Wuzhen搜索URL不可访问，非无登记结论。"
+          }
+        },
+        "source_scope_acceptance": "实际读A2-C40-source-scope-addendum.json/md及execution、主控受理：crossing仅保留绕流条件下径向锥形刺捕获入口；不把整机吸入/排水作用归给针，未改原稿/原分。",
+        "source_decision": "public_use_screen_pass_with_generic_hardware_and_fictional_usage_risks",
+        "decision_normalization": "仅在派生交付将原明确通过且附风险的公开初筛标签归一；原词/查询/证据/风险/登记全留，原A3文件字节不改，未把hold/reject映射通过。"
+      },
+      "english_screen": {
+        "candidate_id": "C1-E31",
+        "name": "Spine Eddy",
+        "query_logs": [
+          {
+            "query": "\"Spine Eddy\"",
+            "executed_on": "2026-11-08",
+            "summary": "精确短语主要spine医疗与Eddy医生姓名共现、示例代码，未确证整体商业名；后核相关实际角色。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Spine Eddy\" company lab",
+            "executed_on": "2026-11-08",
+            "summary": "company/Lab仍医生/医疗机构和名单普通共现，不把人名当完整公司字号。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Spine Eddy\" AI model",
+            "executed_on": "2026-11-08",
+            "summary": "AI/model多脊柱医学AI论文，其具体模型另叫LVP等，未认定Spine Eddy模型。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Spine Eddy\" software product",
+            "executed_on": "2026-11-08",
+            "summary": "software/product命中@vf.js/spine中const eddy示例；实际curl原包README核变量用法，不是独立Spine Eddy软件。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"SpineEddy\"",
+            "executed_on": "2026-11-08",
+            "summary": "连写SpineEddy无结果，不能据此担保全球无登记；其他覆盖独立记录。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Spine-Eddy\" brand",
+            "executed_on": "2026-11-08",
+            "summary": "连字符结果为Chris Eddy从业资料、EDDY PROJECT等不同完整名及书目，不以单词分开出现判整体占用。",
+            "status": "completed_search_result"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "2026-11-08本轮6有效查询未确证Spine Eddy/SpineEddy/Spine-Eddy完整核心用于公司、AI模型或独立软件品牌。具体命中为脊柱相关医生姓名及@vf.js/spine示例eddy变量，已核正文排除；不把单独Spine或Eddy项目都视作整体占用。保留脊椎医疗/仿真与Eddie听写、中文针具/虚构同词风险，登记未清。",
+        "evidence": [
+          {
+            "url": "https://cdn.jsdelivr.net/npm/@vf.js/spine@2.1.22/README.md",
+            "access": "package_readme_curl_body_read",
+            "finding": "web不可访问后curl实际HTTP200/1643字节，README示例const eddy = Spine.from(resources.eddyData,app)，eddy为变量/实例名；软件包@vf.js/spine，不是Spine Eddy独立品牌。"
+          },
+          {
+            "url": "https://www.npmjs.com/package/@vf.js/spine",
+            "access": "primary_registry_open_403",
+            "finding": "实际npm打开403，不假称读注册页；CDN README另实际核。"
+          },
+          {
+            "url": "https://socket.dev/npm/package/%40vf.js%2Fspine",
+            "access": "search_index_only_open_unavailable",
+            "finding": "索引同一示例代码，打开不可用；正文根据另成功CDN，不把索引冒成功打开。"
+          },
+          {
+            "url": "https://www.hsmc.ae/our-doctors/eddy-achkar/",
+            "access": "primary_doctor_profile_excerpt_read",
+            "finding": "L32–48姓名Eddy Achkar、physiotherapy及spine injuries专科；不是名为Spine Eddy公司/产品。仅核姓名/角色，不评价医疗能力。"
+          },
+          {
+            "url": "https://spineandbrainsurgery.co.zw/complex-spinal-surgery/",
+            "access": "original_page_redirected_to_account_suspended",
+            "finding": "搜索有Serge Eddy姓名，实际页转托管Account Suspended，未声称读当前原医生正文或推断公司停业。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "复用本run2026-11-07共同入口403；本批未新访问，未逐名逐类登记核准。"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "复用本run2026-11-07共同入口403；本批未新访问，未逐名逐类登记核准。"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=SpineEddy",
+            "scope": "2026-11-08实际逐名SpineEddy搜索URL不可访问，非无公司登记结论。"
+          }
+        },
+        "chinese_id": "C1-C40",
+        "chinese": "雾针",
+        "rework_attempt": 0,
+        "remaining_reworks": 2,
+        "source_scope_preserved": "原A2-C40-source-scope-addendum及CN25风险保持：只捕获入口形态/局部流场，不是针独自完成三级，不把英文通过当注册许可。",
+        "local_evidence": {
+          "path": "/tmp/a3-vf-spine-readme.txt",
+          "bytes": 1643,
+          "sha256": "1965cd4b6b0e3cc78e12c2519e6061fa11e5cb1d2845d238ebb9dc49cd62cc50",
+          "publication": "本地证据不提交全文，仅摘要与公开原链接"
+        },
+        "source_decision": "public_use_screen_pass_with_medical_and_name_associations",
+        "decision_normalization": "仅在派生交付将原明确通过且附风险的公开初筛标签归一；原词/查询/证据/风险/登记全留，原A3文件字节不改，未把hold/reject映射通过。"
+      },
+      "quality": {
+        "chinese_producer": {
+          "candidate_id": "C1-C40",
+          "name": "雾针",
+          "language": "zh",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a2",
+          "scores": {
+            "naturalness": 4,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 25,
+          "notes": {
+            "naturalness": {
+              "reason": "雾和针形成可直接想象的一个对象，两音节能称呼",
+              "counter_association": "可能像某种雾化针具而不是机构"
+            },
+            "distinctiveness": {
+              "reason": "雾中细针的轮廓清楚，不是泛化智能/成长词",
+              "counter_association": "不以本轮新组合推定市场无人使用"
+            },
+            "lab_fit": {
+              "reason": "微结构、环境与作用条件可以直接承载科学工程研究身份",
+              "counter_association": "节水设备、医疗针具或针灸首联想也真实存在，不能由出处补救"
+            },
+            "grounding": {
+              "reason": "实际重读正文明确锥形刺与雾滴绕流、微涡旋及捕获关系，两个字同场",
+              "counter_association": "针是对仿生刺的形态比喻，不是正式器件名或独立针灸机制"
+            },
+            "extension": {
+              "reason": "可谈结构改变行动条件，不必只绑一个集水设备",
+              "counter_association": "若泛成所有信息收集都更高效，会丢掉本案特征"
+            },
+            "semantic_coherence": {
+              "reason": "外壳和第二层都围绕形态影响雾滴相遇这一关系",
+              "counter_association": "不能把未知雾+突破针分成两条毫无关系的宣传故事"
+            }
+          },
+          "decision": "quality_pass"
+        },
+        "chinese_coordinator": {
+          "candidate_id": "C1-C40",
+          "name": "雾针",
+          "reviewer": "coordinator",
+          "scores": {
+            "naturalness": 4,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 25,
+          "notes": {
+            "naturalness": {
+              "reason": "两个熟字形成完整小器物画面，读音简洁",
+              "counter_association": "可能误听悟真等"
+            },
+            "distinctiveness": {
+              "reason": "雾中针形结构的反差具体",
+              "counter_association": "雾字科技名并不稀有"
+            },
+            "lab_fit": {
+              "reason": "精微结构与环境作用可承载科学工程研究身份",
+              "counter_association": "雾化针灸和水务首感较强，须披露"
+            },
+            "grounding": {
+              "reason": "锥形刺改变雾滴绕流及碰撞是同一真实关系",
+              "counter_association": "原完整装置的三级路径不能全归一根刺"
+            },
+            "extension": {
+              "reason": "可以延展形态环境和信息作用研究",
+              "counter_association": "不把集水效果译作AI性能"
+            },
+            "semantic_coherence": {
+              "reason": "介质与形态在同场相遇，未堆无关寓意",
+              "counter_association": "crossing旧整体装置表述需原A2明确仅作背景"
+            }
+          },
+          "decision": "quality_pass"
+        },
+        "english_producer": {
+          "candidate_id": "C1-E31",
+          "chinese_id": "C1-C40",
+          "english": "Spine Eddy",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a4",
+          "scores": {
+            "pronunciation": 5,
+            "spelling": 4,
+            "grounding": 5,
+            "bilingual_relation": 4,
+            "distinctiveness": 3
+          },
+          "total": 21,
+          "notes": {
+            "pronunciation": {
+              "reason": "两个完整词以常规读法连贯称呼，无奇怪辅音串。",
+              "counter_association": "Eddy听来像Eddie人名，可能需先介绍。"
+            },
+            "spelling": {
+              "reason": "spine和eddy是完整词，不删改字母，分写可还原两个对象。",
+              "counter_association": "听到eddy可能写Eddie；需明确流动名词拼法，不能说零听写成本。"
+            },
+            "grounding": {
+              "reason": "植物刺与空气局部回旋的词义真实，报道明确这两个对象在同一捕获入口相接。",
+              "counter_association": "这不是原作者器件名，不概括单针所有整机能力。"
+            },
+            "bilingual_relation": {
+              "reason": "中文以介质和形态写场景，英文以形态和周围流动写同一个入口的因果关系。",
+              "counter_association": "英文未保留雾介质和圆柱条件，不独自编码整个机制。"
+            },
+            "distinctiveness": {
+              "reason": "具体形态/局部流动的组合可作研究称呼，非泛科技口号。",
+              "counter_association": "医疗/仿真课题首感明显，独立Lab专名感仅谨慎讨论。"
+            }
+          },
+          "status": "pass_quality_gate",
+          "decision": "quality_pass",
+          "note": "主观编辑自评非测试，不改原门槛、不把真实来源或待查重当自动质量通过；主控先无分独评。"
+        },
+        "english_coordinator": {
+          "candidate_id": "C1-C40",
+          "name": "Spine Eddy",
+          "reviewer": "coordinator",
+          "scores": {
+            "pronunciation": 5,
+            "spelling": 4,
+            "grounding": 5,
+            "bilingual_relation": 4,
+            "distinctiveness": 3
+          },
+          "total": 21,
+          "notes": {
+            "pronunciation": {
+              "reason": "两个完整常用词正常读，n后接元音连贯",
+              "counter_association": "整体并非成熟日常短语"
+            },
+            "spelling": {
+              "reason": "标准spine和eddy拼写清楚，无造字母",
+              "counter_association": "eddy可能听写Eddie人名"
+            },
+            "grounding": {
+              "reason": "植物尖刺与局部回旋流为同一实际结构环境关系",
+              "counter_association": "不把骨气书脊等别义当来源"
+            },
+            "bilingual_relation": {
+              "reason": "中文介质加形态与英文形态加流动指向同一捕获入口",
+              "counter_association": "英文省略雾介质，不能直接看出三级背景"
+            },
+            "distinctiveness": {
+              "reason": "整体可称呼但医学和仿真题目首感只达谨慎讨论",
+              "counter_association": "专名辨识有限，不凭未查重给高分"
+            }
+          },
+          "decision": "quality_pass",
+          "english_id": "C1-E31"
+        }
+      },
+      "terminal_review": {
+        "reviewer": "/root",
+        "reviewed_at": "2026-11-08T21:07:49.913340+08:00",
+        "candidate_id": "C1-C40",
+        "english_id": "C1-E31",
+        "decision": "discussion_candidate",
+        "source_verification": "root实际web读CAS日期376与科学正文386–397特别390，圆柱绕流/径向锥形刺/局部微涡旋/雾滴碰撞；未看图或原论文全方法/实测。原M07复用不计新材料。实际读MW spine31–57植物尖刺及eddy31–56空气/水回旋义。",
+        "scope_correction": "原A2原crossing沿用整机三级背景，root实际退原作者澄清；作者实际重读并另留补记，不覆盖原稿/分/执行SHA。采用补记candidate_specific_crossing，原名保留和损失不变，A3中文/A4/同A3英文均实际读并固定该补记。不是事后声称旧原稿本来已同步收窄。",
+        "family_verification": "全历史1151文件命名字段及原稿比对，M07此前未提案；旧声入纹触针/铅笔留痕是记录，合流汇聚/上升流输送非本锥形刺改变局部流场捕获。不泛化未知突破/噪声收集，不因新描述另算多个家族。",
+        "false_positive_verification": "root实际读AIバトラー7和33–44，霧針是角色招式，页上模型另名；未读生成长小说。root核共享原包README同SHA1965cd4b6b0e3cc78e12c2519e6061fa11e5cb1d2845d238ebb9dc49cd62cc50，实际读示例eddy变量/资源名称，软件包为@vf.js/spine，未安装/运行代码。root实际读HSMC32–48姓名Eddy Achkar与spine专科，不误作Spine Eddy品牌。npm403等访问边界按原A3保留未重复。",
+        "quality": {
+          "chinese": [
+            25,
+            25
+          ],
+          "english": [
+            21,
+            21
+          ],
+          "all_axes_pass": true,
+          "maximum_axis_difference": 0,
+          "score_scope": "先无分预览独评封存后看作者数字，补审未新打分，不是消费者测试。"
+        },
+        "limitations": "中文雾化/针灸/纹身/水务首感、雾模糊与针刺痛；英文spine脊柱医疗/仿真课题、Eddy/Eddie听写及介质省略；同词虚构招式与Wuzhen近音拥挤。只借捕获入口，不把吸入排水和主动制冷归单针，不承诺AI表现。大陆公司/9与42未逐名核准，英国逐名入口不可访问，非全球无注册或可注册。",
+        "evidence_refs": [
+          {
+            "path": "A2-candidates-batch23.json",
+            "sha256": "2ed9786614c8c7f38068d2417538708a47138f7afb324bf25084012814fb06e4"
+          },
+          {
+            "path": "A2-quality-batch23.json",
+            "sha256": "13fbd12fdca9d83d767da62668f93df5ff62ebd8406cdb7cde9dcb9650744b58"
+          },
+          {
+            "path": "A2-creation-execution-batch23.json",
+            "sha256": "3e0e0965d66046249d3d50a5f6af0d8e833a8dc4a049aae5c12da40fe592b8a9"
+          },
+          {
+            "path": "A2-material-reuse-batch23.json",
+            "sha256": "0ea3da91e277ce675e111b3956d1552650114c1108f567047235ba9aca229248"
+          },
+          {
+            "path": "A2-C40-source-scope-addendum.json",
+            "sha256": "0ab1e9325b0192f362b04646a23803ddc6d4bedaaf010b56face886655030119"
+          },
+          {
+            "path": "A2-C40-source-scope-addendum-execution.json",
+            "sha256": "df34b988a8579d1323792ca3bf8b2ecf8ad35d427d85c9d36e10e888fa9a79db"
+          },
+          {
+            "path": "coordinator-cn-batch23.json",
+            "sha256": "da5695d6f2cdc5f0d77d29eb2147e129d743635df8d42e2df4eb7dbabb59ad2a"
+          },
+          {
+            "path": "coordinator-family-review-batch23.json",
+            "sha256": "8bae13163b9559ecfe8eb04a30566659e01cf0e89b5e8eba244da4fddbf122dc"
+          },
+          {
+            "path": "A3-cn-batch25.json",
+            "sha256": "cdfc1c430be3e97a00877caaad758c2d51f839a11ed876aa62f9e1417f562cdb"
+          },
+          {
+            "path": "A3-cn-batch25-receipt.json",
+            "sha256": "fd02073652004b2b07d11077f3259e1c74e1ba0ce7016c130f6b82fc5c4229d4"
+          },
+          {
+            "path": "A4-candidates-batch30.json",
+            "sha256": "6a54fd55a32cb6c0c496c1a8c796eed765f87c72431b783859ad39d53a325345"
+          },
+          {
+            "path": "A4-quality-batch30.json",
+            "sha256": "1396ecf23e9eb9d59456c9a9919ef63622b22f5355424bc207d828d6f43ea0b0"
+          },
+          {
+            "path": "A4-creation-execution-batch30.json",
+            "sha256": "ac552432dddd57c7dc03ad34be84ec80bd1efaecbd0d5f853d945333fa72701d"
+          },
+          {
+            "path": "coordinator-en-batch30.json",
+            "sha256": "af494e5f191a0a5d46e225c38a95ac30cea295596ea7a2a597d994dce072af09"
+          },
+          {
+            "path": "A3-en-batch30.json",
+            "sha256": "3c1642b2cd458c7c704ca129048156e6fc2a5d14a19f13665c90549f1b61f7a4"
+          },
+          {
+            "path": "A3-en-batch30-receipt.json",
+            "sha256": "387dca350ea8dd02ec51cc943a68e8e52f3b55585793b621ee7839932b2909a8"
+          },
+          {
+            "path": "A4-C40-postscreen-review.json",
+            "sha256": "308339c54e3acd2646d2fa5719606c8b04b2bfaf20512e7e87be42e25ef1c28f"
+          },
+          {
+            "path": "continuations/2026-11-08T120952Z/root-C40-source-scope-acceptance.json",
+            "sha256": "8bae13163b9559ecfe8eb04a30566659e01cf0e89b5e8eba244da4fddbf122dc"
+          },
+          {
+            "path": "continuations/2026-11-08T120952Z/root-C40-cn25-review.json",
+            "sha256": "48a00f6fdac7b8ad10c7a2deb90bba6ae7684928c9ee11ac6bcbbfe0dd829501"
+          }
+        ]
+      },
+      "source_reading_refs": [
+        {
+          "path": "materials-pilot.json",
+          "sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7"
+        },
+        {
+          "path": "A2-material-reuse-batch23.json",
+          "sha256": "0ea3da91e277ce675e111b3956d1552650114c1108f567047235ba9aca229248"
+        },
+        {
+          "path": "A2-C40-source-scope-addendum.json",
+          "sha256": "0ab1e9325b0192f362b04646a23803ddc6d4bedaaf010b56face886655030119"
+        }
+      ],
+      "screening_as_of": "2026-11-08"
+    },
+    {
+      "chinese_id": "C1-C46",
+      "english_id": "C1-E38",
+      "family_id": "C1-BF-selection-frame-as-operable-scope",
+      "chinese": "选框",
+      "pinyin": "xuǎn kuàng",
+      "english": "Common Grip",
+      "suggested_pronunciation": "建议 KOM-un GRIP，/ˈkɑːmən ˌɡrɪp/（英式common可/ˈkɒmən/），两词共三个音节，常规完整词读法。",
+      "source": {
+        "title": "Inkscape Beginners’ Guide 1.3: The Selector Tool",
+        "url": "https://inkscape-manuals.readthedocs.io/en/1.3/selector-tool.html",
+        "read_scope": "实际读L9–74正文，命名核心L54–69：多对象选择、矩形框、各对象边界与围绕整体选择的变换把手、包含/接触模式。未实际运行软件或目读示例图，不把当前最新版本行为混入固定1.3文档。",
+        "date": null,
+        "access": "body"
+      },
+      "fact": "固定1.3手册用矩形选择范围取入多个对象，并把变换把手放在整体选择周围；选择范围、对象边界与永久编组是不同关系。",
+      "meaning": "让想做的动作，找到可以作用的范围。",
+      "crossing": "把动作将作用于哪些对象先变为可看见、可改变的范围，使多个对象可以共同操作。",
+      "layers": [
+        "手边可见的电脑对象",
+        "行动之前明确对象与范围",
+        "机构使复杂创造获得可操作条件的角色联想，而非已实现能力声明"
+      ],
+      "shortcoming": "容易被听成设计软件的一项控件或视觉产品，而非长期研究机构；选也有筛掉他者的联想，框也可能像限制。第一Lab身份不能依赖长解释补分。 选矿/轩旷等近音与配镜动作同词保留；实际拼音线索为轩旷，未当本中文精确公司。",
+      "english_formation": "common取多个对象共享，grip取抓握/操持这一名词意象。不是给grip加正向形容词，common具体说明不同对象现在共享一次操作的作用范围。手册本身将Selector比作手，并说明变换箭头围绕整体选择；Common Grip据此把共同操持这一关系凝成完整短称呼，不把Selection Box错拼成新词。",
+      "bilingual_relation": "中文让选择范围看得见，英文把纳入该范围的多个对象怎样被共同操作想象为一个共同的握持。对象仍可以各不相同，只是当前选集有了共同的变换入口；不是把它们永久融合，也不是人人意见一致。",
+      "english_shortcoming": "grip首先可能像运动握把、摄影器材、工业夹具或控制服务，common也可能被听成普通/平庸；整体专名感有限。英文比中文少了框的可见边界，不读出处时不容易知道来自电脑选择操作；不能拿来源真实补行业身份。 普通握把品类与另一软件中的外观描述存在，不据此声称独占。",
+      "scientific_boundary": "固定1.3文档支持多选与边界，不承诺所有软件相同，也不把选框本身当已实现智能增强。变换范围与永久编组不同。 这是操持关系拟物，不是原手册正式工具名；grip不表示握力指标、绝对控制或监控人。只据固定1.3手册：selection box取入对象，bounding box显示对象边界，整体变换把手为当前选择服务；三者不混为同一种永久群组。中文控件/配镜动作通名、选矿/轩旷近音及登记未清保留，不用Xuankuang直接当英语避重。",
+      "english_dictionary_sources": [
+        {
+          "url": "https://www.merriam-webster.com/dictionary/common",
+          "read_scope": "root实际60–71共享义"
+        },
+        {
+          "url": "https://www.merriam-webster.com/dictionary/grip",
+          "read_scope": "root实际69–117操持/把手义"
+        }
+      ],
+      "chinese_screen": {
+        "candidate_id": "C1-C46",
+        "name": "选框",
+        "query_logs": [
+          {
+            "query": "\"选框\"",
+            "executed_on": "2026-11-08",
+            "summary": "主要复选框/框选控件与词典，功能词不等独立产品名。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"选框科技\"",
+            "executed_on": "2026-11-08",
+            "summary": "单独科技精确查询主要导航及分散词汇，未确证选框科技主体。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"选框智能\"",
+            "executed_on": "2026-11-08",
+            "summary": "单独智能精确主要西门子选择框/智能卡说明，非选框智能公司。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"选框\" AI 模型 软件 公司",
+            "executed_on": "2026-11-08",
+            "summary": "AI模型软件主要GUI框选功能/模型选择说明，未发现独立选框模型。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"選框\" 公司 軟體",
+            "executed_on": "2026-11-08",
+            "summary": "繁体主要软件手册、勾選框、界面操作，未确证選框商业主体。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"xuankuang\" company software",
+            "executed_on": "2026-11-08",
+            "summary": "拼音命中杭州Xuankuang科技具体公司线索，须后续中文核对；选矿行业罗马拼音不可当选框。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"选框\" 品牌 APP",
+            "executed_on": "2026-11-08",
+            "summary": "品牌APP命中Opteyes线上选框与嘉艺画框App配框功能，主体全名不同。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"杭州\" \"xuankuang\" 科技",
+            "executed_on": "2026-11-08",
+            "summary": "定向杭州拼音中文查询主要选矿行业，无本名确证。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"2019-12-31\" \"杭州\" \"炫旷\"",
+            "executed_on": "2026-11-08",
+            "summary": "炫旷为尝试消歧的假设汉字，查询无该主体确证，不能作为已核公司名。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Hangzhou Xuankuang\" patent",
+            "executed_on": "2026-11-08",
+            "summary": "定向英文企业专利查到CN112516709A；实际打开中文镜像并下载PDF文本第一页申请人杭州轩旷科技有限公司，异字近音线索闭环。",
+            "status": "completed_search_result"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "本次10有效查询未确证选框为独立商业核心公司/软件/模型。大量选框是GUI或配镜动作，不能自动品牌占用；拼音具体公司核专利首页为轩旷而非选框。仅公开初筛，非注册核准。",
+        "evidence": [
+          {
+            "url": "https://www.iheima.com/article-312075.html",
+            "access": "publisher_body_read",
+            "finding": "L15/19/28完整品牌Opteyes App，选框为配镜动作，非名为选框的软件；未背书文章性能宣传。"
+          },
+          {
+            "url": "https://discovery.patsnap.com/company/hangzhou-xuankuang-technology/",
+            "access": "third_party_company_body_read",
+            "finding": "L6/41/126为英文Hangzhou Xuankuang主体，不能由拼音推定中文同名；后续专利原页已核轩旷。"
+          },
+          {
+            "url": "https://patents.google.com/patent/CN112516709A/zh",
+            "access": "patent_mirror_body_read",
+            "finding": "L25–35英文申请人及时间元数据；assignee和法律状态站方声明可能不准确，不据此核当前存续。"
+          },
+          {
+            "url": "https://patentimages.storage.googleapis.com/61/d8/ea/62ce4ff4630172/CN112516709A.pdf",
+            "access": "published_patent_pdf_first_page_text_read",
+            "finding": "PDF页1 L6–9 (71)申请人杭州轩旷科技有限公司及唐国苗，明确与选框异字。只读首页身份范围，不宣称读完整11页或核当前专利法律状态。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "复用本run2026-11-07共同入口403，本批未重访/未逐名逐类核准。"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "复用本run2026-11-07共同入口403，本批未重访/未逐名逐类核准。"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Xuankuang",
+            "scope": "2026-11-08实际逐名Xuankuang入口不可访问；不等于无登记。"
+          }
+        },
+        "risks": [
+          "选矿/轩旷近音，拼音不宜直接照搬既有企业Roman形式",
+          "GUI通名显著性弱、视觉控件或配镜首感",
+          "公司及9/42官方登记未清"
+        ],
+        "source_decision": "pass_public_use_initial_screen_only",
+        "decision_normalization": "仅将原A3明确公开使用初筛通过标签派生归一以适配总库；原文件字节、查询、证据、风险和登记均不改；不把hold/reject映射通过。"
+      },
+      "english_screen": {
+        "candidate_id": "C1-E38",
+        "name": "Common Grip",
+        "query_logs": [
+          {
+            "query": "\"Common Grip\"",
+            "executed_on": "2026-11-08",
+            "summary": "主要高尔夫/乒乓常见握法，普通短语非独立品牌。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Common Grip\" company lab",
+            "executed_on": "2026-11-08",
+            "summary": "实验室手术刀握法及夹具行业通用描述，未确证完整公司。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Common Grip\" AI model",
+            "executed_on": "2026-11-08",
+            "summary": "AI回答网球握法及研究grip-types的通用对象，非名为Common Grip的模型。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Common Grip\" software product",
+            "executed_on": "2026-11-08",
+            "summary": "软件Grip Control及DuriFishing分类线索；均实际开正文辨产品名与分类/描述。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"CommonGrip\"",
+            "executed_on": "2026-11-08",
+            "summary": "合写命中2017McLane目录OCR把common与grip粘连，非新独立软件主证。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Common-Grip\" brand",
+            "executed_on": "2026-11-08",
+            "summary": "命中HOUSE OF COMMON品牌握力器、普通冰球握把，开字段核品牌全称，不截作Common Grip。",
+            "status": "completed_search_result"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "六有效查询未确证完整独立公司/软件/产品品牌；软件Grip Control中的common grip为外观描述，DuriFishing为通用握把分类且供应商Rodcraft，多型号无独立Common Grip品牌确证；HOUSE OF COMMON为不同完整品牌。仅公开初筛，不假登记通过。",
+        "evidence": [
+          {
+            "url": "https://shareapp.net/grip_download/",
+            "access": "software_directory_body_read",
+            "finding": "L10产品Grip Control、L14开发AlterSourcing，L23–25 common grip只是控件外观描述。"
+          },
+          {
+            "url": "https://www.durifishing.com/collections/common-grip",
+            "access": "primary_seller_category_and_products_read",
+            "finding": "L97–124 Handles & Grips下Common Grip分类，L300–335/350–384/468–478多型号，VENDOR Rodcraft及general purpose描述；未见Common Grip独立品牌/专名系列证据，不因一般品类在售就否决。"
+          },
+          {
+            "url": "https://www.flipkart.com/house-common-grip-hand-gripper-strengthening-grip-fitness/p/itm7a4dbdaa1e704",
+            "access": "marketplace_product_fields_read",
+            "finding": "L114–124 Brand=HOUSE OF COMMON、Model=Grip Hand gripper for hand strengthening、Type=Hand Grip/Fitness Grip；完整品牌不是Common Grip。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "复用本run2026-11-07共同入口403，本批未重访/未逐名逐类核准。"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "复用本run2026-11-07共同入口403，本批未重访/未逐名逐类核准。"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=CommonGrip",
+            "scope": "2026-11-08实际逐名CommonGrip入口不可访问，非无登记。"
+          }
+        },
+        "chinese_id": "C1-C46",
+        "chinese": "选框",
+        "rework_attempt": 0,
+        "remaining_reworks": 2,
+        "risks": [
+          "运动握把/工业夹具/摄影器材第一联想与通用词显著性低",
+          "登记与9/42未清",
+          "中文选框通名与选矿/轩旷近音风险保持"
+        ],
+        "source_decision": "pass_public_use_initial_screen_only",
+        "decision_normalization": "仅将原A3明确公开使用初筛通过标签派生归一以适配总库；原文件字节、查询、证据、风险和登记均不改；不把hold/reject映射通过。"
+      },
+      "quality": {
+        "chinese_producer": {
+          "candidate_id": "C1-C46",
+          "name": "选框",
+          "language": "zh",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a2",
+          "scores": {
+            "naturalness": 4,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 25,
+          "notes": {
+            "naturalness": {
+              "reason": "既有电脑对象的普通中文称呼，两音节可直接叫出",
+              "counter_association": "像一项控件而非公司"
+            },
+            "distinctiveness": {
+              "reason": "可见边界和选择动作形成清楚画面",
+              "counter_association": "也是通用功能词，未查询使用前不知道品牌拥挤程度"
+            },
+            "lab_fit": {
+              "reason": "第一对象即日常计算创造工具，具备软件与交互研究身份",
+              "counter_association": "可能只像图形软件/计算机视觉单产品，仍需主控独评广义Lab"
+            },
+            "grounding": {
+              "reason": "固定版本官方手册明确框选范围及围绕整体选择的变换作用",
+              "counter_association": "不把多选当永久编组，也不把中文简称冒充英文原文中文"
+            },
+            "extension": {
+              "reason": "可谈使对象成为可操作范围的条件，能容纳多种创造研究",
+              "counter_association": "若只做框选控件就过窄，宽身份不能无限泛化"
+            },
+            "semantic_coherence": {
+              "reason": "选和框在同一操作范围关系中成立",
+              "counter_association": "不将选编成最佳、框编成宏大框架的无关宣传"
+            }
+          },
+          "decision": "quality_pass"
+        },
+        "chinese_coordinator": {
+          "candidate_id": "C1-C46",
+          "name": "选框",
+          "reviewer": "coordinator",
+          "scores": {
+            "naturalness": 4,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 25,
+          "notes": {
+            "naturalness": {
+              "reason": "既有电脑称呼两熟字可直接叫",
+              "counter_association": "首遍可能听选矿"
+            },
+            "distinctiveness": {
+              "reason": "选择范围可见边界带来明确画面",
+              "counter_association": "控件通名显著性有限"
+            },
+            "lab_fit": {
+              "reason": "电脑交互入口能承载计算工具与研究身份",
+              "counter_association": "设计软件控件或视觉外包先于广义Lab"
+            },
+            "grounding": {
+              "reason": "取入对象与共同作用范围在同一次界面操作成立",
+              "counter_association": "选框与对象bounding box和永久编组不同"
+            },
+            "extension": {
+              "reason": "可讲选择和行动关系而不只一种文档功能",
+              "counter_association": "不能宣称通用智能或更优控制"
+            },
+            "semantic_coherence": {
+              "reason": "选的动作与框的可见范围同场一致",
+              "counter_association": "框字限制排除的负联想存在"
+            }
+          },
+          "decision": "quality_pass"
+        },
+        "english_producer": {
+          "candidate_id": "C1-E38",
+          "chinese_id": "C1-C46",
+          "english": "Common Grip",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a4",
+          "scores": {
+            "pronunciation": 5,
+            "spelling": 5,
+            "grounding": 4,
+            "bilingual_relation": 5,
+            "distinctiveness": 3
+          },
+          "total": 22,
+          "notes": {
+            "pronunciation": {
+              "reason": "三个常规音节衔接自然，可直接叫出。",
+              "counter_association": "grip末p需说清，不应混作群体group。"
+            },
+            "spelling": {
+              "reason": "两个完整常用词，不删音改字母，听写可正常还原。",
+              "counter_association": "可能合写CommonGrip，品牌需固定分词展示。"
+            },
+            "grounding": {
+              "reason": "多对象共享操作范围与手式操持来自同一文档段落，词典真义支持。",
+              "counter_association": "是主题拟物不是手册正式机制名，英文未呈现所有边界规则。"
+            },
+            "bilingual_relation": {
+              "reason": "中文取入可见范围与英文共同操持是同一次选择变换的两面。",
+              "counter_association": "不说对象已合并或全体观点一致，英文不独自包含框形。"
+            },
+            "distinctiveness": {
+              "reason": "完整操持意象可作为短称呼，不是长功能句或任意字母。",
+              "counter_association": "运动/摄影/夹具首感和通用词弱专名感保留，独立身份谨慎。"
+            }
+          },
+          "status": "pass_quality_gate",
+          "decision": "quality_pass",
+          "note": "原门槛未改，编辑自评非消费者测试；主控先无分独评，来源真义不补品牌不足。"
+        },
+        "english_coordinator": {
+          "candidate_id": "C1-C46",
+          "name": "Common Grip",
+          "reviewer": "coordinator",
+          "scores": {
+            "pronunciation": 4,
+            "spelling": 5,
+            "grounding": 4,
+            "bilingual_relation": 5,
+            "distinctiveness": 3
+          },
+          "total": 21,
+          "notes": {
+            "pronunciation": {
+              "reason": "两个完整基础词发音顺畅",
+              "counter_association": "gr音簇对部分中文说话者需练习"
+            },
+            "spelling": {
+              "reason": "常用词拼写正常无任意删改",
+              "counter_association": "常用不代表听写永久零成本"
+            },
+            "grounding": {
+              "reason": "共享对象与操持是同一次选择操作的比喻",
+              "counter_association": "不是Inkscape原工具正式名称"
+            },
+            "bilingual_relation": {
+              "reason": "从多个对象当前共享变换入口承接可见选框",
+              "counter_association": "不是永久编组或多人一致同意"
+            },
+            "distinctiveness": {
+              "reason": "共同握持有画面但短语专名辨识谨慎",
+              "counter_association": "运动摄影握把工业夹具先浮现且common有平庸义"
+            }
+          },
+          "decision": "quality_pass",
+          "english_id": "C1-E38"
+        }
+      },
+      "terminal_review": {
+        "reviewer": "/root",
+        "reviewed_at": "2026-11-08T22:47:04.438335+08:00",
+        "candidate_id": "C1-C46",
+        "english_id": "C1-E38",
+        "decision": "discussion_candidate",
+        "source_verification": "root实际web固定Inkscape1.3正文9–74尤其11/54–69，多选框取入对象、对象边界显示、整体变换把手分开；未运行软件/看图，不推全部软件或当前最新版本行为。MW common60–71共享义、grip69–117操持/把手义实际读，品牌比喻非官方机制名。",
+        "family_verification": "冻结54/44与后续原稿/家族对照：选框取入对象与共同变换范围，非旧光路单格配准、NLS视图寻址、写时复制隔离修改或构境问题重定。若退成一般更好控制则不具独立关系；本案保留当前可操作对象集。",
+        "usage_evidence_verification": "root实际读母页后点击专利PDF成功，首页0–9申请人杭州轩旷，非选框；仅历史申请人消歧，不作实时工商。i黑马13/17/26明确Opteyes为App，选框为动作，不背书配镜性能。Shareapp10/14/23–25完整GripControl软件与common grip外观描述；DuriFishing97–128/228–286握把类别、多型号Rodcraft/general-purpose，不是独立同名品牌确证。Flipkart root当前仅返回完整标题/类别，原A3表字段另保留，不冒双方读相同响应。",
+        "quality": {
+          "chinese": [
+            25,
+            25
+          ],
+          "english": [
+            22,
+            21
+          ],
+          "all_axes_pass": true,
+          "maximum_axis_difference": 1,
+          "independence": "每阶段先无分预览独评封存后读作者；非消费者研究，查重结果未补分。"
+        },
+        "limitations": "中文控件通名/视觉单产品/配镜动作及选矿、轩旷近音；英文运动/摄影/工业握把和控制服务首感、common普通/平庸义、弱专名感，且省去可见框形。公开同词品类/描述确实存在，非保证独占。大陆公司/9、42未逐名核准，UK逐名不可用，非可注册或全球未用结论。多选不等于永久编组或智能最优选择。",
+        "A4_postscreen_actual_review": true,
+        "whole_production_compliance_claimed": false,
+        "evidence_refs": [
+          {
+            "path": "A2-candidates-batch27.json",
+            "sha256": "2cdc172cfe581bf798eabbd41a78b08d98d953a3586584e19fdd2ee63a54a1b4"
+          },
+          {
+            "path": "A2-quality-batch27.json",
+            "sha256": "8c88a41338d4c9f7296017dbb681c943a9cb6202f22a5f6c33fac04f2f6c739b"
+          },
+          {
+            "path": "A2-creation-execution-batch27.json",
+            "sha256": "f1cc179ca8dd63084f1e8c109d2747f816fcdf35a1f080db3d593f065c2e4fd8"
+          },
+          {
+            "path": "materials-extension25.json",
+            "sha256": "a910d37fd432d098fb7cdd36e7ea1ea09113e42e4fb027b1f0450e6702bc56bb"
+          },
+          {
+            "path": "coordinator-cn-batch27.json",
+            "sha256": "7e241761162a02b7be03cc0af2ec28ffe86a02462515912abeadcd73f53e5d05"
+          },
+          {
+            "path": "coordinator-family-review-batch27.json",
+            "sha256": "f0e7a7daba847189eb69ac53b9d218df760b9f8cd3822ce6305d9d60efa77d22"
+          },
+          {
+            "path": "A3-cn-batch29.json",
+            "sha256": "1b41cdbf9aa61e11da190d79d15e50f61c911addc3eda31c242ae805558193fa"
+          },
+          {
+            "path": "A3-cn-batch29-receipt.json",
+            "sha256": "b2305a1b58182e83b617b5d047f4020f73a1ef4f2c9eb245e7909865016603a3"
+          },
+          {
+            "path": "A4-candidates-batch35.json",
+            "sha256": "ce2ba3e28805bc678d29fb8b8bee635973a5adbee014c807e76f2958a5672aa4"
+          },
+          {
+            "path": "A4-quality-batch35.json",
+            "sha256": "642929fd73e77ae24a4c1c5f2ec79d78539847c7f33b1c17fe5bd2f30c5f6ce9"
+          },
+          {
+            "path": "A4-creation-execution-batch35.json",
+            "sha256": "17c09054d1c8cae22112e64dacaf5dccfabf9bcb98691b91f56280c778983eb3"
+          },
+          {
+            "path": "coordinator-en-batch35.json",
+            "sha256": "cf383d6089fe70077288e8959cde39e127dfea3873d27a6d53cc4f368b93363f"
+          },
+          {
+            "path": "A3-en-batch35.json",
+            "sha256": "950f5490c21ac936f03adfb72f6b91478242e8aa36bbb3ecbc5816ba8a95253c"
+          },
+          {
+            "path": "A3-en-batch35-receipt.json",
+            "sha256": "6e6e782cb44dba24f5d94cc819b2ae8942d67123acac357caa3f3ada4cc09058"
+          },
+          {
+            "path": "A4-C46-postscreen-review.json",
+            "sha256": "30f71754164f8184da4a61e2ddd794d09142b27e019e4f2f4259ac0f98188393"
+          },
+          {
+            "path": "continuations/2026-11-08T141904Z/root-C46-cn29-review.json",
+            "sha256": "0f7f6a8d50c5ca40b2cf9931b849d49abfddf411ef75f5d571d2d0fb53e2447f"
+          },
+          {
+            "path": "continuations/2026-11-08T141904Z/root-C46-en35-review.json",
+            "sha256": "54694115bb97c6688efdc558c2681e723551e769faa74ba795ec3491c71e4c0b"
+          }
+        ]
+      },
+      "source_reading_refs": [
+        {
+          "path": "materials-extension25.json",
+          "sha256": "a910d37fd432d098fb7cdd36e7ea1ea09113e42e4fb027b1f0450e6702bc56bb"
+        },
+        {
+          "path": "A2-creation-execution-batch27.json",
+          "sha256": "f1cc179ca8dd63084f1e8c109d2747f816fcdf35a1f080db3d593f065c2e4fd8"
+        }
+      ],
+      "screening_as_of": "2026-11-08",
+      "derived_boundary_stage_note": "英文原提案中的“英文未做使用筛查”仅为当时阶段说明；本次首次发布前派生展示删除该过时阶段句，保留全部事实边界。原A4提案字节不改，实际英语筛查及原记录均另存，不将旧阶段说明作为当前状态。"
+    },
+    {
+      "chinese_id": "C1-C52",
+      "english_id": "C1-E46",
+      "family_id": "C1-BF-test-pilot-as-engineering-research-participant",
+      "chinese": "试飞员",
+      "pinyin": "shì fēi yuán",
+      "english": "Trialnaut",
+      "suggested_pronunciation": "建议 TRY-ul-nawt，/ˈtraɪəlˌnɔːt/，通常三个音节；trial本身有压缩读法，新拟称尚无公认读音。",
+      "source": {
+        "title": "中国民航试飞员和试飞工程师的职责、程序和培训要求（2015历史文件）",
+        "url": "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/201511/P020151103347671915307.pdf",
+        "read_scope": "实际读PDF物理4–5页、印刷1–2页，L40–69目的/适用范围/背景/职责；重点L59–69新或改装飞机飞行试验、工程数据评估、判定与记录。不称通读17页。另读发布页L48–76的日期及废止状态。",
+        "date": "2015-08-18",
+        "access": "body"
+      },
+      "additional_sources": [
+        {
+          "title": "NASA Announces X-70 Experimental Aircraft to Advance Flight Research",
+          "url": "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/",
+          "reading_location": "实际读文章L244–266与L282–284日期：11月4日发布、11月5日更新、载人可重构研究平台与真实飞行试验、可更换载荷、未来首飞计划。未读外链研究、未观察飞行，也不从图注推实机已首飞。",
+          "read_at": "2026-11-09T00:48:54.432556+08:00",
+          "access": "body",
+          "source_type": "research_agency_news_release",
+          "published_at": "2026-11-04",
+          "last_updated": "2026-11-05",
+          "reading_scope": "full_short_article_body",
+          "boundary": "当前是平台公布与设计/计划，首飞在未来两年内的预期不是已完成实验结果。新闻只支持当代实践背景，试飞员角色职责主要据历史民航文件。",
+          "within_90_days_at_reading": true
+        },
+        {
+          "title": "历史文件发布与废止状态",
+          "url": "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/201511/t20151102_8381.html",
+          "read_scope": "root实际48–76"
+        }
+      ],
+      "fact": "历史民航文件把新或改装飞机的实际飞行试验、工程数据评估、判定与记录放在同一专业团队活动中；NASA当代新平台仅公布设计与未来首飞计划。",
+      "meaning": "把未知带进真实世界，也把经验带回研究。",
+      "crossing": "让尚待了解的新机器进入真实工作条件，再以团队试验和工程证据认识它，而不是只把既有机器驾驶得熟练。",
+      "layers": [
+        "具体完整的工程探索者人物",
+        "到真实条件中研究新机器，经验与判断形成反馈",
+        "机构愿意参与探索而非仅展示静态性能的立场，非算法效果保证"
+      ],
+      "shortcoming": "航空培训、招聘、游戏或单项测试产品首感；也有把模型当不安全原型的风险。完整工程研究角色可以承载AI Lab身份，但航空单行业误读仍然明显。 职业通名、雷电试飞员VR较长游戏名及人物修辞用法照留；没有确证独立同核心品牌不等于通词独占。",
+      "english_formation": "trial在本次实际所读词典中有试验、试用、检验质量或用途的含义；-naut在Collins是参与载具航行的人，尤其科学调查载具。Trialnaut把试验的性质放入这一探索者角色，不剪掉字母、不从Flightback微变，也没有添加成功/聪明等吉祥动词。它是本轮拟称，词典只证明组成部分，绝不声称词典已有Trialnaut。",
+      "bilingual_relation": "试飞员是把新机器带入实际条件、与工程团队取得和评估数据的人；Trialnaut以trial说明为什么出发，以-naut保留实际参与航行/探索的角色。两语共享的是由参与者实施的真实工程试验，而非飞行服务或从远处想象未来。英语比中文更宽，可作为研究团队的主题称呼；从具体载具角色延伸到AI Lab是品牌比喻，不是原文科学结论。",
+      "english_shortcoming": "trial也有诉讼、临床试验和试用版联想；-naut容易先想到宇航员、科幻人物。首次听写可能落成trial not/naught，虽完整trial与astronaut同类词尾可帮助还原，仍宜首次展示拼写。它是新拟称而非日常熟词，不能把有词源等同所有人会自然叫出；英文没有直说团队数据评估，须在叙事中说明。",
+      "scientific_boundary": "不声称试飞越危险越好、试飞员单独完成全部审定，或所有模型使用后必然更聪明；已废止文件只支撑历史专业角色，不作现行法。 不是试飞员的标准职业英译，也不把AI Lab说成实际载人航空机构。沿原CAAC废止文件只说明历史角色、NASA平台公布与未来首飞不冒成已完成结果；不把trial用于人体试验承诺，不声称冒险越大越好、单人独审全部、每次试验都会进步。中文职业/培训/影视游戏等泛用和登记限制保持；英语已完成本轮公开初筛，登记限制另列。",
+      "derived_boundary_stage_note": "原A4未查阶段稿字节保留；首次展示前仅把已过时英语未查阶段句改为当前公开初筛/登记未清状态，语义条件与科学限制不改。 中文短板展示另将已完成的待主控独评阶段句改为当前身份判断和仍存的航空误读，具体风险保留，原A2稿不改。",
+      "english_dictionary_sources": [
+        {
+          "url": "https://www.merriam-webster.com/dictionary/trial",
+          "read_scope": "root实际31–63试验/诉讼含义"
+        },
+        {
+          "url": "https://www.collinsdictionary.com/dictionary/english/naut",
+          "read_scope": "root实际215–224科学调查载具航行参与者结合形式"
+        },
+        {
+          "url": "https://www.merriam-webster.com/dictionary/astronaut",
+          "read_scope": "root实际31–58完整称呼与-naut构词参照"
+        }
+      ],
+      "chinese_screen": {
+        "candidate_id": "C1-C52",
+        "name": "试飞员",
+        "query_logs": [
+          {
+            "query": "\"试飞员\"",
+            "executed_on": "2026-11-09",
+            "summary": "精确主要职业百科、民航历史文件、人物新闻与中国试飞员学院，不把职业对象自动当独立商业核心。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"试飞员科技\"",
+            "executed_on": "2026-11-09",
+            "summary": "科技后缀独立精确主要科技单位岗位招聘、试飞院资料，未确证试飞员科技完整企业。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"试飞员智能\"",
+            "executed_on": "2026-11-09",
+            "summary": "智能后缀独立精确主要院所招聘与民航试飞员体能智能检测等较长功能软件，不截有意义限定冒精确试飞员智能品牌。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"试飞员\" AI 模型 软件 公司",
+            "executed_on": "2026-11-09",
+            "summary": "AI模型组Orangebeard自动试飞员为功能描述/翻译，及AI众测人类试飞员和华为培训人物比喻；无完整独立本名模型确证。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"試飛員\" 公司 軟體 品牌",
+            "executed_on": "2026-11-09",
+            "summary": "繁体主要官方词典、职业保险表和人物传记，另有同词书/电影标题语境，不能自动等于公司/软件核心。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"shifeiyuan\" company software",
+            "executed_on": "2026-11-09",
+            "summary": "拼音主要Shifeiyuan Road地址；不把地址自动认拼音企业，未确证本拼音软件品牌。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"试飞员\" APP",
+            "executed_on": "2026-11-09",
+            "summary": "APP组命中雷电试飞员VR游戏，实际开正文完整名含雷电，不随意删有意义词当精确本名。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"试飞员\" 有限公司 品牌",
+            "executed_on": "2026-11-09",
+            "summary": "有限公司品牌补搜仍主要航空职业/招聘/院所通用描述，未确证本核心公司；无结果不冒法律无注册。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"试飞员\" 软件 -雷电 -职责 -培训 -飞行员 -飞行试验 -飞行工程师",
+            "executed_on": "2026-11-09",
+            "summary": "减去主要职业噪声的软件补搜主要职业资料/科研或较长功能系统；未确证独立本名软件。",
+            "status": "completed_search_result"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "9有效实际查询未确证完整核心独立公司/软件/模型。具体线索为职业通名、人物修辞、较长功能系统与雷电试飞员VR近名，不随意截限定词冒精确占用。可交原A4配英文，未成为已登记可用的双语成品。",
+        "evidence": [
+          {
+            "url": "https://qcon.infoq.cn/2026/shanghai/speaker/10871",
+            "access": "conference_speaker_primary_body_read",
+            "finding": "L19–28蒋烁淼、观测云CEO，L23被称云计算的试飞员为人物修辞；公司为观测云，非试飞员。未测试演讲性能主张。"
+          },
+          {
+            "url": "https://www.9game.cn/ldsfyvr/",
+            "access": "game_distribution_page_body_read",
+            "finding": "L31–47完整雷电试飞员VR、街机游戏及Teebik-inc开发者。雷电有区别意义，不截掉冒独立完整名试飞员。近似游戏风险保留，不冒现时所有渠道正式发售。"
+          },
+          {
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=128580&la=0&powerMode=0",
+            "access": "official_dictionary_body_read",
+            "finding": "L21/29–32試飛員及拼音/职业释义，是已有通用职业称呼，不自动商业品牌占用。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable_reused_not_revisited",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable_reused_not_revisited",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Shifeiyuan",
+            "scope": "2026-11-09本次逐名入口不可访问，不称无登记。"
+          }
+        },
+        "risks": [
+          "职业/航空培训招聘首感及中国试飞员学院既有机构语境",
+          "雷电试飞员VR近名、同词书电影与岗位人物修辞不自动独立公司却增加搜索噪声",
+          "历史职责文件已废止；NASA为未来首飞计划，本次使用筛查未新读这些源，不冒当前职业规范",
+          "大陆公司与9/42、境外登记未清；英文未配未查"
+        ],
+        "source_decision": "pass_public_use_initial_screen_only",
+        "decision_normalization": "仅在原A4实际复审及主控终审已经完成后，派生归一原A3明确公开初筛通过标签；原文件字节/查询/证据/风险/登记不改，不将未审pending或hold/reject映射通过。"
+      },
+      "english_screen": {
+        "candidate_id": "C1-E46",
+        "chinese_id": "C1-C52",
+        "chinese": "试飞员",
+        "english": "Trialnaut",
+        "query_logs": [
+          {
+            "query": "\"Trialnaut\"",
+            "executed_on": "2026-11-09",
+            "summary": "精确完整词返回无结果，仅此公开索引观察，不称全球无使用。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Trialnaut\" company labs",
+            "executed_on": "2026-11-09",
+            "summary": "完整词公司Lab组无结果，不等公司登记核准。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Trialnaut\" AI model",
+            "executed_on": "2026-11-09",
+            "summary": "完整词AI模型组无结果，未确证本名AI公司或模型。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Trialnaut\" software product",
+            "executed_on": "2026-11-09",
+            "summary": "完整词软件产品组无结果，未确证独立本名软件。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Trial Naut\"",
+            "executed_on": "2026-11-09",
+            "summary": "分写组NAUT临床试验与NAUT API的trial普通用法，实际开法兰克福官方一页PDF短名NAUT，非整体Trial Naut商业品牌。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Trialnot\"",
+            "executed_on": "2026-11-09",
+            "summary": "近听Trialnot组HEGAY ONE页FREE TRIALNot started、TrialNot for sale及临床trialNot applicable排版拼接；实际开主线L33确认，不当Trialnot软件。",
+            "status": "completed_search_result"
+          },
+          {
+            "query": "\"Trialnaught\"",
+            "executed_on": "2026-11-09",
+            "summary": "近听Trialnaught完整词无结果，不据音近通用naught另判占用。",
+            "status": "completed_search_result"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "7有效查询未确证完整本名公司/模型/独立软件或同核心商业品牌；NAUT临床试验与Trialnot拼接线索已可读正文消歧。不把无结果当全球唯一或登记通过，交原A4非数字风险复审及主控终审，不能自行入库。",
+        "evidence": [
+          {
+            "url": "https://registerffm.de/uct_trial/pdf/uct_de/kurzprotokoll_.pdf?id=901&oid=12:5:5",
+            "access": "primary_research_registry_one_page_pdf_text_read",
+            "finding": "实际一页PDF L2–5科学标题普通trial、Kurztitel NAUT；L11 sponsor Heidelberg/L18 Frankfurt CTCN。不是Trialnaut或Trial Naut独立整体品牌。仅核用名，未作医学解释或背书疗效。"
+          },
+          {
+            "url": "https://one.hegavora.com/account",
+            "access": "primary_product_account_preview_body_read",
+            "finding": "L31–35 ACCOUNT PREVIEW、FREE TRIALNot started；L43–46实际产品HEGAY ONE 20/PRO。Trialnot为试用标记与Not started排版拼接，不是独立品牌。仅读公开预览未登录操作。"
+          },
+          {
+            "url": "https://www.orpha.net/en/research-trials/clinical-trial/520679",
+            "access": "search_index_only_open_403",
+            "finding": "该临床条目实际open403，未称正文已读；改用可读法兰克福原短协议核NAUT名称，不重复403。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable_reused_not_revisited",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable_reused_not_revisited",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Trialnaut",
+            "scope": "2026-11-09本次逐名入口不可访问，不称无登记。"
+          }
+        },
+        "risks": [
+          "新拟称非词典合词，trial诉讼/临床/试用首感",
+          "naut科幻角色和not/naught首次听写成本",
+          "中文职业/航空培训招聘及雷电试飞员VR近名风险照留",
+          "公司与9/42、境外登记未清，当前仅公开初筛",
+          "最后R2余0，通过仍须A4实际postscreen及主控终审"
+        ],
+        "source_decision": "pass_public_use_initial_screen_only_pending_postscreen_and_coordinator",
+        "decision_normalization": "仅在原A4实际复审及主控终审已经完成后，派生归一原A3明确公开初筛通过标签；原文件字节/查询/证据/风险/登记不改，不将未审pending或hold/reject映射通过。"
+      },
+      "quality": {
+        "chinese_producer": {
+          "candidate_id": "C1-C52",
+          "name": "试飞员",
+          "language": "zh",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a2",
+          "scores": {
+            "naturalness": 4,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 25,
+          "notes": {
+            "naturalness": {
+              "reason": "已有完整专业人物称呼，三字可直接用于机构自称",
+              "counter_association": "职业通名易被听成岗位而不是公司"
+            },
+            "distinctiveness": {
+              "reason": "人物主角和试验飞行画面明确",
+              "counter_association": "试飞员并非独有称谓，领域商业拥挤尚未查"
+            },
+            "lab_fit": {
+              "reason": "第一印象是新航空技术的真实工程研究参与者，可承载深技术研究身份",
+              "counter_association": "可能被限于飞行培训/试飞招聘/单项航空测试服务，广义Lab仍需主控独判"
+            },
+            "grounding": {
+              "reason": "历史职责正文支持真实飞行、工程数据与评估角色；同一职业不是熟练/腾飞分字吉祥解释",
+              "counter_association": "文件已废止，当前NASA计划不等于完成首飞或验证成效"
+            },
+            "extension": {
+              "reason": "角色可承载怎样让新机器进入真实条件、怎样积累可判断经验的多年研究",
+              "counter_association": "不能只剩AI测试工具或把模型当危险原型"
+            },
+            "semantic_coherence": {
+              "reason": "试飞、工程证据和参与探索围绕同一完整角色",
+              "counter_association": "不承诺试飞一次就更智能，不把一个人拟人化成全部团队职责"
+            }
+          },
+          "decision": "quality_pass"
+        },
+        "chinese_coordinator": {
+          "candidate_id": "C1-C52",
+          "name": "试飞员",
+          "reviewer": "coordinator",
+          "scores": {
+            "naturalness": 5,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 26,
+          "notes": {
+            "naturalness": {
+              "reason": "现成完整三字角色可直接称呼",
+              "counter_association": "职业通名也会像招聘栏目"
+            },
+            "distinctiveness": {
+              "reason": "新机器真实试飞的具体人物图像可记",
+              "counter_association": "可能像航空培训或游戏"
+            },
+            "lab_fit": {
+              "reason": "明确工程探索参与者可承载实验与能力认识的研究机构",
+              "counter_association": "航空单项服务或测试产品首感强"
+            },
+            "grounding": {
+              "reason": "历史职责把真实试验数据评估判断记录放在同一专业团队关系",
+              "counter_association": "废止文件只支撑历史角色不作现行规范"
+            },
+            "extension": {
+              "reason": "角色可涵盖不同待认识的机器而非特定模型参数",
+              "counter_association": "若只宣传飞得更高会回泛进阶"
+            },
+            "semantic_coherence": {
+              "reason": "进入真实条件把经验带回判断围绕同一研究角色",
+              "counter_association": "不意味一个试飞员独自完成审定或试验越冒险越好"
+            }
+          },
+          "decision": "quality_pass"
+        },
+        "english_producer": {
+          "candidate_id": "C1-E46",
+          "chinese_id": "C1-C52",
+          "english": "Trialnaut",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a4",
+          "scores": {
+            "pronunciation": 4,
+            "spelling": 4,
+            "grounding": 5,
+            "bilingual_relation": 5,
+            "distinctiveness": 4
+          },
+          "total": 22,
+          "notes": {
+            "pronunciation": {
+              "reason": "trial与熟悉-naut词尾衔接，可按TRY-ul-nawt称呼。",
+              "counter_association": "trial本身可压缩，首次需建议读法，不当已验证用户测试。"
+            },
+            "spelling": {
+              "reason": "trial完整不改，-naut为可辨识结合形式，可借astronaut还原；没有任意删字母。",
+              "counter_association": "同音not/naught造成首次听写成本，不能隐瞒或当零成本。"
+            },
+            "grounding": {
+              "reason": "试验与参与科学调查载具航行的人是同一试飞事件两部分，均有本次实际读词典支持。",
+              "counter_association": "把角色延伸Lab是品牌比喻，并非辞书收录Trialnaut或已观测AI能力增长。"
+            },
+            "bilingual_relation": {
+              "reason": "两语都保留亲自将新机器进入真实条件检验的参与者角色。",
+              "counter_association": "英文宽于飞行，团队工程数据评估须叙事说明；不是标准职业译名。"
+            },
+            "distinctiveness": {
+              "reason": "新角色称呼可以独立叫出，有试验探索者图景，未变成飞行索赔功能句。",
+              "counter_association": "航空科幻、临床试验或诉讼工具首感都可能；此项仅编辑判断不代市场查重。"
+            }
+          },
+          "status": "pass_quality_gate",
+          "decision": "quality_pass",
+          "note": "原门槛未改。词源、可称呼性和具体角色独立判断；首次听写成本仍须主控独立评，最后机会不改变门槛。"
+        },
+        "english_coordinator": {
+          "candidate_id": "C1-C52",
+          "name": "Trialnaut",
+          "reviewer": "coordinator",
+          "scores": {
+            "pronunciation": 4,
+            "spelling": 4,
+            "grounding": 5,
+            "bilingual_relation": 5,
+            "distinctiveness": 4
+          },
+          "total": 22,
+          "notes": {
+            "pronunciation": {
+              "reason": "trial与naut按熟悉词形能形成完整三音节人物称呼且建议读法明确",
+              "counter_association": "trial压缩读法可能改变音节"
+            },
+            "spelling": {
+              "reason": "完整trial及astronaut式naut有拼写线索但not或naught需首次区分",
+              "counter_association": "首次听写会落成trialnot"
+            },
+            "grounding": {
+              "reason": "试验义与科学调查载具参与者结合形式共属真实试验角色不是随机字母",
+              "counter_association": "不是现有职业标准译名或已有词典合词"
+            },
+            "bilingual_relation": {
+              "reason": "中文真实试飞参与者与英文参与试验的航行探索者共享完整角色",
+              "counter_association": "英文更宽不包含全部团队审定职责"
+            },
+            "distinctiveness": {
+              "reason": "新整体有科学探索者形象而非航班返程服务说明",
+              "counter_association": "科幻角色临床或诉讼首感需披露"
+            }
+          },
+          "decision": "quality_pass",
+          "english_id": "C1-E46"
+        }
+      },
+      "terminal_review": {
+        "reviewer": "/root",
+        "reviewed_at": "2026-11-09T01:11:40.692853+08:00",
+        "candidate_id": "C1-C52",
+        "english_id": "C1-E46",
+        "decision": "discussion_candidate",
+        "source_verification": "root实际读CAAC历史PDF实体4–5/印刷1–2(40–69)及发布页48–76明确废止；局方试飞员/试飞工程师团队真实试验与工程数据评估记录，不全归单人。NASA244–266/282–284为11月4日公布、5日更新，首飞仍未来，非已完成飞行成果。MW trial31–63、Collins -naut215–224与MW astronaut31–58实际读，组成部分可据，新合词本身不是词典收录/标准职业译名。未通全文/目读图形/观察飞行或核首用史。",
+        "family_verification": "实际对照历史候选/家族索引、熟手的实践运用未必说尽与作数的动作完成不等于科学有效性原稿；此项是参与新机器真实条件工程试验的完整研究者身份，非泛熟练者/口号/GUI控件/水陆鱼主体。只有同为人物或同属认识活动不是自动同族，若退成更好测试泛功能则不具独立故事。",
+        "usage_evidence_verification": "root实际读QCon19–28为观测云CEO人物修辞；九游30–47为雷电试飞员VR完整名，雷电有意义不剥掉，但近名风险留。root实际一页法兰克福PDF2–5为普通trial描述与独立短名NAUT，仅核名称不作医学解释；HEGAY ONE公开预览31–46为FREE TRIALNot started排版拼接及HEGAY ONE产品名，不登录/不操作/不采用许可状态示例当真实账户。Orphanet403不用作已读主证。",
+        "quality": {
+          "chinese": [
+            25,
+            26
+          ],
+          "english": [
+            22,
+            22
+          ],
+          "all_axes_pass": true,
+          "maximum_axis_difference": 1,
+          "independence": "主控每阶段先无分预览封独评，再读作者数值；非消费者研究，查重没有补分。"
+        },
+        "classification": "名称总库主S3：源于航空飞行试验专业实践与工程证据；次S5行动参与者、S6研究立场。原A2素材按S6计划入口存档，不回改原卡/比例统计，不把所有职业角色都当来源使命；总库按名字实际来源作主次编辑分类。",
+        "limitations": "中文职业通名、航空培训/招聘/游戏单产品首感与雷电试飞员VR近名；英文trial诉讼/临床/试用、-naut科幻及not/naught首次听写成本，新拟称没有公认读音。英语主题比中文更宽，不含全部团队判断职责，不承诺智能增长/试验成功/冒险更好。CN9/EN7只为2026-11-09公开初筛，官方工商/9、42与境外登记未清，不是全球唯一或可注册保证。",
+        "A4_postscreen_actual_review": true,
+        "whole_production_compliance_claimed": false,
+        "evidence_refs": [
+          {
+            "path": "materials-extension30.json",
+            "sha256": "c716bd12c909eaddfe8b59c8a5553e3d87ddbd2228244e16036b927e126e2fc6"
+          },
+          {
+            "path": "A2-candidates-batch32.json",
+            "sha256": "3ae172436db41bda689c817caa38f68cbfee3af60c35193269ce7185a5f59a2e"
+          },
+          {
+            "path": "A2-quality-batch32.json",
+            "sha256": "3f8dff77641476027aea5061b99c2af47077f00320e9af5a3cf59eb6b21b707d"
+          },
+          {
+            "path": "A2-creation-execution-batch32.json",
+            "sha256": "01f93f93bced5741a204d783e39cd3e51e9fd3a59abc9753e3e40a12b9ce912a"
+          },
+          {
+            "path": "coordinator-cn-batch32.json",
+            "sha256": "647cf2c26180875bc91049803a3eff9d53fa14ca46c94b18267c1a1c3f80aeef"
+          },
+          {
+            "path": "coordinator-family-review-batch32.json",
+            "sha256": "a13999f7acdbe8ba41e10001052efe57bf52a889897f8debee485ba6f7c8e31d"
+          },
+          {
+            "path": "A3-cn-batch34.json",
+            "sha256": "4c75c10ef5911955763946a0553d328c871d388a226bbf7eabc590cbda6b3e80"
+          },
+          {
+            "path": "A3-cn-batch34-receipt.json",
+            "sha256": "c23c8f555fb8c8c347ecc4cedce9c2bf4a4e3e8fe95440ac9134ee9c5c5beac9"
+          },
+          {
+            "path": "A4-candidates-batch44.json",
+            "sha256": "eb7febaadcd744e49697ac8314db66e83e2d6c3ee5a2b4c69d5b8e178b6f6569"
+          },
+          {
+            "path": "A4-quality-batch44.json",
+            "sha256": "06469ffb12535905f963748e24412a21d43e64b8fc6307b02527245f58b62c0b"
+          },
+          {
+            "path": "A4-creation-execution-batch44.json",
+            "sha256": "b680af4fcc5bf438aa312c9b0a8c177db70956cdce803a05ac01dd3a3152c8b0"
+          },
+          {
+            "path": "coordinator-en-batch44.json",
+            "sha256": "c04b7bed0b1ac681ee0d3eaf82545809ea77d4658bc5a953a7d51119702b04f7"
+          },
+          {
+            "path": "A3-en-batch44.json",
+            "sha256": "10e591fc8146f4f91e25a31185b7e0271d9369ca26f1ce6a1a15218c63b190d4"
+          },
+          {
+            "path": "A3-en-batch44-receipt.json",
+            "sha256": "47018c7b90f114ddb852a6d963861b615ce5de46ec82679b71fc625c660117b8"
+          },
+          {
+            "path": "A4-C52-postscreen-review.json",
+            "sha256": "87e910d109584d3aea1243a207b40115d995e62b6d27e3ed997c067f1749577e"
+          },
+          {
+            "path": "continuations/2026-11-08T161934Z/root-cn34-review.json",
+            "sha256": "27107cf20e349ec7ccc200857dd8a331fdcbfa63c8fc71baa5700a740932c010"
+          }
+        ]
+      },
+      "source_reading_refs": [
+        {
+          "path": "materials-extension30.json",
+          "sha256": "c716bd12c909eaddfe8b59c8a5553e3d87ddbd2228244e16036b927e126e2fc6"
+        },
+        {
+          "path": "A2-creation-execution-batch32.json",
+          "sha256": "01f93f93bced5741a204d783e39cd3e51e9fd3a59abc9753e3e40a12b9ce912a"
+        }
+      ],
+      "screening_as_of": "2026-11-09"
+    },
+    {
+      "chinese_id": "C1-C57",
+      "english_id": "C1-E47",
+      "family_id": "C1-BF-time-mirror-as-temporal-condition-interface",
+      "chinese": "逆序猫",
+      "pinyin": "nì xù māo",
+      "english": "Tailfirst",
+      "suggested_pronunciation": "Collins实际词条记音为(ˈteilˈfɜːrst)，两部分均标重读；本品牌可按TAIL-FIRST两拍清楚称呼。原稿/ˈteɪlˌfɜːrst/仅作者当时建议，不是词典不存在的证明或标准词条转录；本次不声称做过真实听测。",
+      "source": {
+        "title": "Shixiong Yin: Observation of time-reflection for electromagnetic waves (Behind the Paper)",
+        "url": "https://communities.springernature.com/posts/observation-of-time-reflection-for-electromagnetic-waves",
+        "read_scope": "实际读L11–15署名/2023-03-14，L37–59作者正文及图注；包括时空界面区别、装置同步切换、测得脉冲顺序变化和后续潜在用途。没有实看图像、下载原论文、读原论文方法/补充或重复实验；参考文献只作引文入口不当已读。",
+        "date": "2023-03-14",
+        "access": "body"
+      },
+      "fact": "作者用猫形信号示意比较空间与时间界面；同步改变介质条件的实测脉冲反射部分呈逆向时序和频率变化，概念猫不是实际测量对象。",
+      "meaning": "熟悉的形象，也可以遇到不熟悉的规则。",
+      "crossing": "作者用同一猫形信号对比空间与时间界面；本名保留后者的逆序作用与具体示意主体。",
+      "layers": [
+        "一个可直接想象的数字小生物主体",
+        "同一信号形象在不同界面规则下呈现不同时间次序",
+        "从熟悉事物重问操作条件的研究姿态，不是无条件性能上升"
+      ],
+      "shortcoming": "可能像游戏角色、编程吉祥物或AI宠物产品；逆序有一点编程读写门槛。需要独立判断是否足够像广义AI Lab，不能因示意图里真有猫就补品牌分。本修订已独立完成中文公开使用初筛，不继承时镜查询。 原时镜确证同核心科技公司使用；本修订独立筛查，不覆盖旧结论或算新家族。",
+      "english_formation": "tailfirst已经是英语副词，意为尾部或后部在前。Collins把构成记为tail+first，并标Word origin 1885–90；这只是该词典记录的时段，本人未核1885–90首用原始文献，不能称本轮创造完整词形或全球首用。本次创作只在于选这个既有词与逆序猫主题配对、拟作研究机构称呼，不是重新发明构词。",
+      "bilingual_relation": "作者解释同一猫形信号在时间界面后呈现倒着走向源头的图景。中文点出逆序的猫，英文以尾部先行拟写这个倒行主体，是同场主题配对而非逐字英译。原文未用Tailfirst，本次也没有观察图像确认尾巴朝向；把倒着走凝为尾部先行是品牌层的常识性图景推演，不把空间朝向与信号时间逆转完全等同。",
+      "english_shortcoming": "可能像宠物品牌、动画/游戏角色，或先想到倒行、退步；tail与tale同音，有故事优先/内容工具听写竞争。英文不指明猫、介质突变或频移，需要保留中文与出处才完整；它也可能只是一般后端优先动作描述，不因查无历史精确稿就认独特商业品牌。 同拼写AI技术作者个人作品主页身份和2010 E-TAIL FIRST LTD近名历史均存在；未核其当前状态/业务或简称，不称已清风险。",
+      "scientific_boundary": "猫只来自作者的概念示意及文字说明，未实看图片，不是实验以活猫或真实猫图像信号完成。实际结果为脉冲时序反射与频率变化；不逆转实际时间、因果或动物状态。原论文全文未读，阻抗方向差异仍不取。 猫为作者概念示意，实测是非对称脉冲，不是活猫或实际猫图像实验。未看图像、未读原论文方法/补充；作者释文45与48阻抗方向不同不采用方向/倍数。不解释为时间旅行、因果倒流、退回历史、录音后逆放或AI增益实证。英文只是主题拟称，非装置/现象正式术语。时镜旧科技使用拒绝保持，逆序猫新版只公开使用初筛，英语已完成本轮独立公开初筛，具体近名及登记未清风险另列。",
+      "derived_boundary_stage_note": "首次展示只更新修正预览中已过时的英语未筛阶段句；原副词来源错误、初评、修正版和查询原字节保留，科学与风险条件不删。 首次发布前另将中文短板中已过时未查句及双语screen.reason阶段说明更新为当前状态，原reason保存为source_reason；query_logs/evidence/risks/registration与全部原筛查文件不改。",
+      "english_dictionary_sources": [
+        {
+          "url": "https://www.collinsdictionary.com/dictionary/english/tailfirst",
+          "read_scope": "root实际215–230完整副词/记音/词典标时段；非首用文献"
+        },
+        {
+          "url": "https://www.merriam-webster.com/dictionary/tail",
+          "read_scope": "root实际31–44、89–103词义及另义"
+        },
+        {
+          "url": "https://www.merriam-webster.com/dictionary/first",
+          "read_scope": "root实际31–42、77–86词义"
+        },
+        {
+          "url": "https://www.collinsdictionary.com/dictionary/english/e-tail",
+          "read_scope": "root实际215–234，核具体近名完整词区别，不充其实际业务证明"
+        }
+      ],
+      "chinese_screen": {
+        "candidate_id": "C1-C57",
+        "name": "逆序猫",
+        "traditional": "逆序貓",
+        "version": 2,
+        "rework_attempt": 1,
+        "replaces_name": "时镜",
+        "query_logs": [
+          {
+            "query": "\"逆序猫\"",
+            "executed_on": "2026-11-09",
+            "status": "completed_search_result",
+            "summary": "精确主要洛谷逆序对题设中的TOM老猫与成语逆序猫噬鹦鹉；两类实际正文消歧，不是完整独立品牌。"
+          },
+          {
+            "query": "\"逆序猫公司\"",
+            "executed_on": "2026-11-09",
+            "status": "completed_search_result",
+            "summary": "公司精确主要猫眼电影版权名单/导航散列词/小说剧情公司，不见明确完整逆序猫商业主体。"
+          },
+          {
+            "query": "\"逆序猫科技\"",
+            "executed_on": "2026-11-09",
+            "status": "completed_search_result",
+            "summary": "科技精确主要ICP备案普通清单及逆序队高校竞赛队，队名不同且不是本名科技公司。"
+          },
+          {
+            "query": "\"逆序猫智能\"",
+            "executed_on": "2026-11-09",
+            "status": "completed_search_result",
+            "summary": "智能精确主要编程用户题库/导航列表/金融资讯散列词，不见明确逆序猫智能主体；未以用户页自动判软件品牌。"
+          },
+          {
+            "query": "\"逆序猫\" AI 模型 软件",
+            "executed_on": "2026-11-09",
+            "status": "completed_search_result",
+            "summary": "AI模型软件组是逆向工程工具REA报道、猫砂盆设备讨论、题解及普通导航，不是完整逆序猫模型/软件命名。"
+          },
+          {
+            "query": "\"逆序貓\" 公司 軟體 品牌",
+            "executed_on": "2026-11-09",
+            "status": "completed_search_result",
+            "summary": "繁体主要照片轻删App内逆序浏览与猫搜索功能分散描述、洛谷题解与程式貓週刊；名称不同，不自动合并为逆序貓软件。"
+          },
+          {
+            "query": "\"nixumao\" company software",
+            "executed_on": "2026-11-09",
+            "status": "completed_search_result",
+            "summary": "合理拼音nixumao公司软件搜索无命中，不当注册无记录证明。"
+          },
+          {
+            "query": "\"逆序喵\"",
+            "executed_on": "2026-11-09",
+            "status": "completed_search_result",
+            "summary": "近写逆序喵主要逆序队/喵语气词题解、论坛排序功能及游戏中的逆序接电，未确证完整近形商业主体。"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "新版八次独立查询未见明确完整同核心公司、模型或独立软件；与原时镜分别筛查，后续双语及终审已完成。登记限制与误中正文见原查询。",
+        "evidence": [
+          {
+            "url": "https://www.luogu.com.cn/problem/P1908",
+            "access": "primary_problem_platform_body_read",
+            "finding": "实际19行：L2 P1908逆序对，L6猫猫TOM/小老鼠JERRY和逆序对题设，L10/14输入输出。产品/题目名称不是逆序猫，猫与逆序分散普通文本，不判品牌占用。"
+          },
+          {
+            "url": "https://www.lqyfsx.com/jielong/maoshiyingwu.html",
+            "access": "author_content_page_body_read",
+            "finding": "实际140行，L2猫噬鹦鹉成语接龙，L68逆序猫噬鹦鹉串，L79–82为逆序接龙规则；逆序是规则、猫是成语首字，非独立逆序猫软件或公司。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable_reused_not_revisited",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable_reused_not_revisited",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Nixumao",
+            "scope": "2026-11-09本次逐名拼音入口不可访问；非无登记。"
+          }
+        },
+        "risks": [
+          "游戏角色/编程吉祥物/AI宠物首感依原双评保留，未见同名不是品牌质量加分",
+          "猫只是原作者概念示意文本，未看原图/原论文方法，不是活猫/猫图像信号实际测量",
+          "同C57/M70原家族R1，不新增家族/主ID/材料，不继承旧时镜的8查询",
+          "大陆公司与9/42未逐名核准，境外入口不可访问，公开检索范围有限"
+        ],
+        "source_decision": "pass_public_use_precheck_not_registration_clearance",
+        "decision_normalization": "仅在原A4实际来源纠正/非数字复审、同A3纠正验收和root终审完成后派生归一原A3明确初筛通过；原文件字节/查询/证据/风险/登记不改，不将未完成pending本身当通过。",
+        "source_reason": "八组有效独立查询覆盖新名字，未见明确完整同核心科技/AI/模型/独立软件或商业主体；具体潜在串命中已读正文消歧。允许送原A4，非全球未使用/可注册。"
+      },
+      "english_screen": {
+        "candidate_id": "C1-E47",
+        "chinese_id": "C1-C57",
+        "chinese": "逆序猫",
+        "english": "Tailfirst",
+        "rework_attempt": 0,
+        "query_logs": [
+          {
+            "query": "\"Tailfirst\"",
+            "executed_on": "2026-11-09",
+            "status": "completed_search_result",
+            "summary": "精确为词典既有副词tailfirst和GitHub账户tailfirst/apex；实际核两类，个人账户不自动具名软件。"
+          },
+          {
+            "query": "\"Tailfirst\" company lab",
+            "executed_on": "2026-11-09",
+            "status": "completed_search_result",
+            "summary": "公司Lab组主要同Apex仓库及词典，未确证完整Tailfirst公司/Lab；不是全球无主体断言。"
+          },
+          {
+            "query": "\"Tailfirst\" AI model",
+            "executed_on": "2026-11-09",
+            "status": "completed_search_result",
+            "summary": "AI/model命中tailfirst/apex推理协议skill，实际项目名Apex而非Tailfirst；不把用户命名空间当AI模型。"
+          },
+          {
+            "query": "\"Tailfirst\" software product",
+            "executed_on": "2026-11-09",
+            "status": "completed_search_result",
+            "summary": "软件产品组同Apex仓库与词典，实际标题/说明区分作者tailfirst与作品Apex。"
+          },
+          {
+            "query": "\"tail first\" company software",
+            "executed_on": "2026-11-09",
+            "status": "completed_search_result",
+            "summary": "分写命中E-TAIL FIRST LTD（有意义E-TAIL完整核心）第三方Inactive线索及NemAnalysis手册tail-first蠕虫方向参数，非Tailfirst独立软件。"
+          },
+          {
+            "query": "\"tale first\" company software",
+            "executed_on": "2026-11-09",
+            "status": "completed_search_result",
+            "summary": "tale近听为Tail Tale First Press游戏商品标题（First Press版本修饰），及Tale first uses普通句，非Tale First独立品牌。"
+          },
+          {
+            "query": "\"tail-first\" brand company",
+            "executed_on": "2026-11-09",
+            "status": "completed_search_result",
+            "summary": "连字符组Hard Tail Forever/Heads Up For Tails不同完整品牌，及E-TAIL FIRST LTD历史第三方线索；不任意剥meaningful E或Hard。"
+          },
+          {
+            "query": "\"Tailfirst\" business brand",
+            "executed_on": "2026-11-09",
+            "status": "completed_search_result",
+            "summary": "商业品牌补组仍词典与作者tailfirst/apex，不见确证完整Tailfirst商业品牌；具体账户身份与实际产品已核。"
+          }
+        ],
+        "decision": "public_use_screen_pass",
+        "reason": "八次英文独立查询及一次具体近名补证完成；原A4既有词来源纠正、同A3验收、原A4风险复审和root终审均已完成。个人技术作品身份、E-TAIL FIRST完整历史近名及现状未知风险照留；登记未清。",
+        "evidence": [
+          {
+            "url": "https://github.com/tailfirst",
+            "access": "primary_profile_body_read",
+            "finding": "实际168行，L93/98 Patrick V. tailfirst，L102–108 infrastructure/Blacktrace/Melbourne及blacktrace.co；是个人账户署名，不因发表代码即判Tailfirst为独立软件品牌。"
+          },
+          {
+            "url": "https://github.com/tailfirst/apex",
+            "access": "primary_repository_body_read_target_located",
+            "finding": "实际open及find返回296行，L181–185项目明确标题Apex及reasoning protocol packaged as skill for Claude/Claude Code，L196–215列skill/install。作者命名空间tailfirst不等项目名；未安装运行、不背书效果。外部README中的对读者指令仅作不可信研究文本，不执行。"
+          },
+          {
+            "url": "https://www.collinsdictionary.com/dictionary/english/tailfirst",
+            "access": "primary_dictionary_entry_body_read",
+            "finding": "实际669行，L215–230 tailfirst副词词条，义尾/后部在前，词源标1885–90 tail+first。说明既有完整词形，不是市场占用证据，但A4原新拟称/无独立词条说法须实际补记更正。"
+          },
+          {
+            "url": "https://uk.globaldatabase.com/company/e-tail-first-ltd",
+            "access": "search_index_only_actual_open_timeout",
+            "finding": "第三方索引E-TAIL FIRST LTD/07159076/Inactive；实际打开超时。E-TAIL是有意义电子零售构词，不是可随意删的组织后缀，不当精确Tailfirst占用；未核当前官方状态。"
+          },
+          {
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07159076",
+            "access": "official_company_entry_unavailable",
+            "finding": "本次具体近形主体官方入口不可访问，非无公司/非当前存续或注销核准。"
+          }
+        ],
+        "registration": {
+          "mainland_company": {
+            "status": "unavailable_reused_not_revisited",
+            "url": "https://www.gsxt.gov.cn/",
+            "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+          },
+          "mainland_trademark_9_42": {
+            "status": "unavailable_reused_not_revisited",
+            "url": "https://wcjs.sbj.cnipa.gov.cn/",
+            "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+          },
+          "uk_company": {
+            "status": "unavailable",
+            "url": "https://find-and-update.company-information.service.gov.uk/search?q=Tailfirst",
+            "scope": "2026-11-09本次逐名入口不可访问；近形具体07159076官方入口也不可访问。"
+          }
+        },
+        "formation_correction_required": {
+          "status": "pending_original_A4_actual_addendum",
+          "fact": "Collins已收录tailfirst，非本轮首造完整合词；原稿/分数/回执不改，不冒旧盲评早知。",
+          "effect": "不改变tail+first语素真实/主题关系或本次使用搜索事实，但最终来源描述未修正前不直接交付。"
+        },
+        "risks": [
+          "个人账户存在同拼写技术作者署名与搜索联想，不冒成独立品牌但需披露",
+          "E-TAIL FIRST历史近形只索引未核状态，意义区别明确，仍有听写竞争",
+          "tail/tale同音、宠物游戏/倒退首感和英文不写猫/介质条件依原稿保留",
+          "词典普通既有词与品牌使用不同，不能因词已在字典就判公司占用",
+          "大陆工商9/42及境外逐名官方登记未清，非可注册保证"
+        ],
+        "source_decision": "pass_public_use_precheck_pending_formation_correction_and_final_reviews",
+        "decision_normalization": "仅在原A4实际来源纠正/非数字复审、同A3纠正验收和root终审完成后派生归一原A3明确初筛通过；原文件字节/查询/证据/风险/登记不改，不将未完成pending本身当通过。",
+        "source_reason": "八有效查询未确证完整Tailfirst公司/模型/独立软件品牌；已核tailfirst个人账户与软件Apex分离，普通词典副词/方向参数/不同E-TAIL核心不自动占用。使用初筛通过但来源描述新发现错误，须原A4实际更正为既有词再选择，再postscreen/root终审，未自行入库。"
+      },
+      "supplemental_english_screening": {
+        "query_logs": [
+          {
+            "query": "\"07159076\" \"E-TAIL FIRST\"",
+            "executed_on": "2026-11-09",
+            "status": "completed_search_result",
+            "summary": "定向主体新查询获得The Gazette2010成立公告原PDF入口，并复现第三方Inactive索引；实际读原PDF目标行，未以索引Inactive当官方当前状态。"
+          }
+        ],
+        "profile_ref": {
+          "path": "A3-E47-profile-addendum.json",
+          "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982"
+        },
+        "historical_company_ref": {
+          "path": "A3-E47-etail-addendum.json",
+          "sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099"
+        },
+        "source_correction_acceptance_ref": {
+          "path": "A3-E47-correction-closeout.json",
+          "sha256": "339878232d9b02b54873dba2c861c767acefa277ca64799621bdf175771bbab7"
+        }
+      },
+      "quality": {
+        "chinese_producer": {
+          "candidate_id": "C1-C57",
+          "name": "逆序猫",
+          "version": 2,
+          "rework_attempt": 1,
+          "language": "zh",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a2",
+          "scores": {
+            "naturalness": 4,
+            "distinctiveness": 4,
+            "lab_fit": 4,
+            "grounding": 5,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 25,
+          "notes": {
+            "naturalness": {
+              "reason": "逆序与猫成为一个可叫出的完整主角，三字节奏清楚",
+              "counter_association": "逆序略有技术门槛，可能先被当成角色昵称"
+            },
+            "distinctiveness": {
+              "reason": "猫形信号和反常次序给出具体易复述画面",
+              "counter_association": "拟人科技动物不等于独有品牌，未查新版市场"
+            },
+            "lab_fit": {
+              "reason": "编程/信号语义与数字生物的整体可承载AI研究团队身份",
+              "counter_association": "游戏、吉祥物或AI宠物产品首感也强，主控须独判广义Lab而非只判科技产品"
+            },
+            "grounding": {
+              "reason": "原已读作者L37–43明确同一猫形信号的空间/时间界面对照，猫和逆序共享实际说明",
+              "counter_association": "是概念示意而非活体或猫图像测量，未看原图/读原论文，不混证据层级"
+            },
+            "extension": {
+              "reason": "完整拟人主角可跨多研究产品，第二层是对条件和规则的研究",
+              "counter_association": "如果只做信号逆序或小猫助手产品会变窄"
+            },
+            "semantic_coherence": {
+              "reason": "逆序是该示意信号在时间界面上的作用，猫是同一形象",
+              "counter_association": "不是量子叠加猫、时间旅行或随意可爱动物套科技词"
+            }
+          },
+          "decision": "quality_pass"
+        },
+        "chinese_coordinator": {
+          "candidate_id": "C1-C57",
+          "name": "逆序猫",
+          "reviewer": "coordinator",
+          "scores": {
+            "naturalness": 4,
+            "distinctiveness": 5,
+            "lab_fit": 4,
+            "grounding": 4,
+            "extension": 4,
+            "semantic_coherence": 4
+          },
+          "total": 25,
+          "notes": {
+            "naturalness": {
+              "reason": "逆序修饰具体主体形成三字完整称呼",
+              "counter_association": "逆序稍有专业门槛"
+            },
+            "distinctiveness": {
+              "reason": "倒序活动的猫有鲜明反常画面便于记住",
+              "counter_association": "也可能先像游戏角色"
+            },
+            "lab_fit": {
+              "reason": "逆序带程序和信号操作语境可承载研究身份",
+              "counter_association": "AI宠物或编程吉祥物首感明显"
+            },
+            "grounding": {
+              "reason": "作者概念图文字确有猫形信号与时间反射次序的对应",
+              "counter_association": "猫仅说明性意象而非测量对象且丢介质条件"
+            },
+            "extension": {
+              "reason": "可作为研究主体而不必绑定某个工具参数",
+              "counter_association": "不能借名字许诺突破时间因果"
+            },
+            "semantic_coherence": {
+              "reason": "主体和作用同在一幅科学示意关系中",
+              "counter_association": "不是量子叠加或活猫逆转实验"
+            }
+          },
+          "decision": "quality_pass"
+        },
+        "english_producer": {
+          "candidate_id": "C1-E47",
+          "chinese_id": "C1-C57",
+          "english": "Tailfirst",
+          "reviewer": "producer",
+          "reviewer_id": "/root/continuous_a4",
+          "scores": {
+            "pronunciation": 5,
+            "spelling": 4,
+            "grounding": 4,
+            "bilingual_relation": 4,
+            "distinctiveness": 4
+          },
+          "total": 21,
+          "notes": {
+            "pronunciation": {
+              "reason": "既有副词有实际词条记音，两部分可清楚称呼。",
+              "counter_association": "存在词条不等所有听众熟悉，也不是本次做过听测。"
+            },
+            "spelling": {
+              "reason": "tailfirst完整词形已核，不需任意删字母或改拼音。",
+              "counter_association": "tail/tale听写、合写与分写竞争仍在，不能因为词典存在自动给满分。"
+            },
+            "grounding": {
+              "reason": "词典义与同一猫形倒行图景可支持品牌主题配对。",
+              "counter_association": "仅词典标时段不是已核首用；空间图景不等完整时间反射实证。"
+            },
+            "bilingual_relation": {
+              "reason": "中文逆序主体与英文尾部先行保持同一倒行示意关系。",
+              "counter_association": "英文不指猫、频移或介质条件，仍是主题意译，不能当标准科学译名。"
+            },
+            "distinctiveness": {
+              "reason": "短称呼有可复述的反常动作画面，普通词也可以被再选择为机构名。",
+              "counter_association": "词形已有、账户同拼写与宠物/游戏/倒退首感须保留，待实际系统线索补核。"
+            }
+          },
+          "status": "pass_quality_gate",
+          "decision": "quality_pass",
+          "note": "这是修正输入后真实再评，沿旧门槛；没有因词典发现而自动提分，待主控先读无分稿封独评。"
+        },
+        "english_coordinator": {
+          "candidate_id": "C1-C57",
+          "name": "Tailfirst",
+          "reviewer": "coordinator",
+          "scores": {
+            "pronunciation": 5,
+            "spelling": 4,
+            "grounding": 5,
+            "bilingual_relation": 4,
+            "distinctiveness": 4
+          },
+          "total": 22,
+          "notes": {
+            "pronunciation": {
+              "reason": "既有完整词有词典记音两部分清楚可称呼",
+              "counter_association": "品牌称呼重音仍可变化不是听测"
+            },
+            "spelling": {
+              "reason": "完整词形无需删改且能按熟词拆解",
+              "counter_association": "tail与tale同音及分写竞争保持"
+            },
+            "grounding": {
+              "reason": "Collins完整副词及尾后部在前之义直接支持本次选词",
+              "counter_association": "1885–90仅词典标段未核首用原证"
+            },
+            "bilingual_relation": {
+              "reason": "同一倒行猫图景与尾部先行作主题配对",
+              "counter_association": "空间图景不等同时间反射且英文不含猫"
+            },
+            "distinctiveness": {
+              "reason": "既有词的反常方向画面可以成为研究称呼",
+              "counter_association": "宠物游戏倒退及同拼写个人作品命名空间风险保持"
+            }
+          },
+          "decision": "quality_pass",
+          "english_id": "C1-E47"
+        }
+      },
+      "terminal_review": {
+        "reviewer": "/root",
+        "reviewed_at": "2026-11-09T03:58:53.589683+08:00",
+        "candidate_id": "C1-C57",
+        "english_id": "C1-E47",
+        "decision": "discussion_candidate_with_explicit_screening_limits",
+        "source_verification": "root实读作者署名日期11–15及37–59解释全文/文字图注，时间界面与反射脉冲次序/频移；猫是概念示意，实际测量是脉冲，未看图/原论文方法/补充或复现实验。45与48阻抗方向相异不援引倍数/方向；不是活猫/真实猫图像实验、因果倒流或AI增益证明。Collins tailfirst215–230为既有副词/记音/1885–90词典标段，不冒首用文献；MW tail/first所读原词义及负面另义保持。",
+        "family_verification": "由时镜到逆序猫仍C57/M70同一时间界面/信号关系，不计新家族。与Echo普通空间回声、刻录重放、下一镜蒙太奇、因果偏序/随机等待/逻辑unknown具体区别；猫不是任意动物或量子叠加猫。",
+        "quality": {
+          "chinese": [
+            25,
+            25
+          ],
+          "corrected_english": [
+            21,
+            22
+          ],
+          "original_english": [
+            21,
+            21
+          ],
+          "maximum_axis_difference": 1,
+          "all_axes_pass": true,
+          "independence": "每次root先无分预览封独评再读作者；英语来源纠正后重新封分，原数字和原错保持，非消费者研究。"
+        },
+        "lexical_correction": "原A4误称新拟词/无独立词条，root实际退回SOURCE_INVALID窄范围词汇事实。原A4重核本包全部4来源/另存纠正，自评与root重评、同A3来源验收、原A4真实非数值postscreen均完成；旧稿/原分不改，仍同E47一个英语稿，未造返工新词数量。",
+        "usage_evidence_verification": "root实读洛谷P1908题名逆序对与TOM题设、成语接龙68及79–82规则拼接，非逆序猫软件。root实读GitHub个人Patrick V./Blacktrace profile、profile仓库About和仅README/系统清单，以及Apex仓库181–185；确有同拼写技术作者与作品展示身份，但当前具体软件自名Apex等，profile明确配置用途，未确证独立Tailfirst软件/模型/公司。保留同场搜索身份风险，不写没人使用该字符串。",
+        "historical_nearname_review": "root实读Gazette单页L0/41，2010-02-23刊物列E-TAIL FIRST LTD/07159076/16-02-2010成立。另亲读Collins e-tail215–234为网上零售完整词，与tail不同，非可删组织后缀；这使已核完整历史公司核心不同，而不只是因为更长排除。未核当前状态/业务/是否有简称，不称Inactive或clear。按公开使用讨论口径保留具体近名风险，不将其冒判精确Tailfirst占用，也不作权利不冲突结论。",
+        "editorial_risk_decision": "支持作为带日期的讨论备选：已核具体资料未确证完全同名机构/软件；个人技术作者身份和不同完整历史核心正面披露。若后续发现实际同名品牌，按规则撤回。此为品牌编辑判断，非商标可用意见或风险消除。",
+        "classification": "主S3科学信号/时间界面关系；交叉S1熟悉猫形示意、S5重新研究条件的姿态。不是实际猫生物研究，不将概念图误归自然观察。",
+        "limitations": "中文逆序专业门槛、游戏/AI宠物/吉祥物首感；英文尾部先行/倒退、tail与tale听写、同场技术作者身份和E-TAIL FIRST历史近名；英语不含猫、条件/频移且空间图景非完整时间反射。8中文+8英文+1具体近名补查询只是2026-11-09公开使用快照，大陆工商/9、42及境外登记未清，非全球唯一/可注册保证。",
+        "whole_production_compliance_claimed": false,
+        "evidence_refs": [
+          {
+            "path": "materials-extension34.json",
+            "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462"
+          },
+          {
+            "path": "A2-candidates-batch39.json",
+            "sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4"
+          },
+          {
+            "path": "A2-candidates-batch40.json",
+            "sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a"
+          },
+          {
+            "path": "A2-quality-batch40.json",
+            "sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103"
+          },
+          {
+            "path": "A2-creation-execution-batch40.json",
+            "sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295"
+          },
+          {
+            "path": "coordinator-cn-batch40.json",
+            "sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62"
+          },
+          {
+            "path": "coordinator-family-review-batch40.json",
+            "sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a"
+          },
+          {
+            "path": "A3-cn-batch41.json",
+            "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c"
+          },
+          {
+            "path": "A3-cn-batch42.json",
+            "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5"
+          },
+          {
+            "path": "A3-en-batch45.json",
+            "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc"
+          },
+          {
+            "path": "A3-E47-profile-addendum.json",
+            "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982"
+          },
+          {
+            "path": "A3-E47-etail-addendum.json",
+            "sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099"
+          },
+          {
+            "path": "A4-C57-source-correction-preview.json",
+            "sha256": "4fcba2f09cfc4a6bc5557761992b39428ea2f874b4c51c6de91eb4d34eb4c68a"
+          },
+          {
+            "path": "A4-C57-source-correction-quality.json",
+            "sha256": "c774538d3717dd51817e64d3703beb990c642d30552dc7efee4255e992c79b37"
+          },
+          {
+            "path": "A4-C57-source-correction-execution.json",
+            "sha256": "9b62d30b83abcfb3630c3c46810ae5ce0f0ecfc71c31f758786c635b8c74d05e"
+          },
+          {
+            "path": "coordinator-en-batch45-source2.json",
+            "sha256": "a1e8177d8a1100d86c43a660a3038c19d703433f4c2fcff167e8a9186e929832"
+          },
+          {
+            "path": "A3-E47-correction-closeout.json",
+            "sha256": "339878232d9b02b54873dba2c861c767acefa277ca64799621bdf175771bbab7"
+          },
+          {
+            "path": "A4-C57-postscreen-review.json",
+            "sha256": "6b2785c3b83b2673528285c106a75a70f701b7a73c91687af81273b2f21342c8"
+          },
+          {
+            "path": "continuations/2026-11-08T192536Z/root-E47-source-return.json",
+            "sha256": "9e69e29668b006d776be2b04949fa809b5ccedad9f353003c1a9541cf352b048"
+          },
+          {
+            "path": "continuations/2026-11-08T192536Z/root-cn42-review.json",
+            "sha256": "55349d3005f4f5c74ba81bc0bde95df8eb86744f00f37e03a3cc19055032c040"
+          }
+        ]
+      },
+      "screening_as_of": "2026-11-09",
+      "source_reading_refs": [
+        {
+          "path": "materials-extension34.json",
+          "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462"
+        },
+        {
+          "path": "A2-creation-execution-batch39.json",
+          "sha256": "f7af25329efcb1708b39b73ee5205dc0c72d7878c7b79ce1c885f0ffd898d939"
+        }
+      ]
+    }
+  ],
+  "status_note": "本数组保留曾准入终审记录。当前推荐必须应用research/catalog/revisions.json，不能以数组长度当当前备选数。C1-C06已撤回，不推荐。",
+  "withdrawn_ids": [
+    "C1-C06"
+  ]
+}

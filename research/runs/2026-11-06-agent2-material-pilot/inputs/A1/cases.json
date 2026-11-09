@@ -1,0 +1,3975 @@
+{
+  "date": "2026-11-06",
+  "agent": "/root/agent1_baseline105",
+  "scope": "原主表105组逐案重分析，0新增品牌、0命名提案；非完整命名循环",
+  "baseline_sha256": "92cb6c7cd36c201d35900528826a8aa9aca5a75c632df57d30dcaade5547f519",
+  "cases": [
+    {
+      "id": "B001",
+      "name": "寒武纪 / Cambricon",
+      "original_category": "broad_tech",
+      "source_line": 23,
+      "primary_source": "S2",
+      "classification_basis": "地质时代的生命分化",
+      "secondary_sources": [
+        "S3"
+      ],
+      "meaning_and_origin_from_seed": "寒武纪是地质年代；Cambricon为与Cambrian（寒武纪）有词形联系的品牌名。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "地质时代的生命分化，连接智能能力出现新阶段",
+      "narrative_role": "R6",
+      "brand_story": "把生命演化的重要阶段，转成对智能时代的期待。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司置身时代变化而非芯片规格；生命史不能保证智能也必然大爆发",
+      "bilingual_relation": "中文完整时代名，英文相关专名词形未重新核实",
+      "sources": [
+        {
+          "url": "https://ict.cas.cn/xwgg/mtwz/201811/t20181103_5163704.html",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 23
+        },
+        {
+          "url": "https://ict.cas.cn/xwgg/mtwz/201811/t20181103_5163704.html",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "采访83",
+          "supports": "创始人明确希望AI迎来大爆发；支持生命/地质来源与时代叙事。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B002",
+      "name": "Google / 谷歌",
+      "original_category": "broad_tech",
+      "source_line": 24,
+      "primary_source": "S3",
+      "classification_basis": "数学大数的尺度",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "来自googol的拼写变化，googol是10的100次方。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "数学大数的尺度，连接互联网信息规模",
+      "narrative_role": "R3",
+      "brand_story": "组织极大规模的信息。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "以知识对象表达信息组织雄心；谷与歌的中文联想不能倒写成英文词源",
+      "bilingual_relation": "英文数学词变形，中文同时接声音与独立意象",
+      "sources": [
+        {
+          "url": "https://about.google/company-info/our-story/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 24
+        },
+        {
+          "url": "https://about.google/company-info/our-story/",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "名称是 googol（1 后接100个0）的文字游戏，呼应组织全球信息的使命。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        },
+        {
+          "url": "https://blog.google/company-news/inside-google/company-announcements/google-fun-facts-25th-birthday/",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "名称是 googol（1 后接100个0）的文字游戏，呼应组织全球信息的使命。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "变形、短化或融合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B003",
+      "name": "Tesla / 特斯拉",
+      "original_category": "broad_tech",
+      "source_line": 25,
+      "primary_source": "S4",
+      "classification_basis": "科学人物与电气发明史",
+      "secondary_sources": [
+        "S3"
+      ],
+      "meaning_and_origin_from_seed": "Nikola Tesla（尼古拉·特斯拉）的姓氏。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "科学人物与电气发明史，成为当代工程的精神前史",
+      "narrative_role": "R6",
+      "brand_story": "承接电气时代的发明精神。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "人物一次带出完整研究传统；也会借来人物争议",
+      "bilingual_relation": "同一人物经稳定音译进入中文",
+      "sources": [
+        {
+          "url": "https://www.harbert.auburn.edu/binaries/documents/center-for-ethical-organizational-cultures/cases/tesla.pdf",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 25
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B004",
+      "name": "第四范式 / 4Paradigm",
+      "original_category": "broad_tech",
+      "source_line": 26,
+      "primary_source": "S3",
+      "classification_basis": "数据密集科学的范式变化",
+      "secondary_sources": [
+        "S6"
+      ],
+      "meaning_and_origin_from_seed": "Paradigm是范式、基本思考框架；第四范式来自数据密集型科学发现。  ·",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "数据密集科学的范式变化，连接企业参与的知识时代",
+      "narrative_role": "R6",
+      "brand_story": "技术带来的不只是新工具，而是一种新研究方法。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "表达新的研究方法而非某产品；序号本身不证明先进",
+      "bilingual_relation": "中文与4Paradigm共享方法论对象",
+      "sources": [
+        {
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2009/10/Fourth_Paradigm.pdf",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 26
+        },
+        {
+          "url": "https://www.nbd.com.cn/articles/2024-08-13/3503085.html",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 26
+        },
+        {
+          "url": "https://www.nbd.com.cn/articles/2024-08-13/3503085.html",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "创始访谈35–40",
+          "supports": "原始专访明确Jim Gray第四范式演讲和公司命名联系。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "学术概念短语",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B005",
+      "name": "NVIDIA / 英伟达",
+      "original_category": "broad_tech",
+      "source_line": 27,
+      "primary_source": "S7",
+      "classification_basis": "不透明专名通过产品逐步绑定到底层计算",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "NVIDIA/英伟达为实际品牌；本轮没有足够原始命名说明确认具体语素来源，不补invidia或神话叙事。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "不透明专名通过产品逐步绑定到底层计算",
+      "narrative_role": "R3",
+      "brand_story": "强大的底层计算能力。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "语义留白也能形成身份；本轮不补拉丁语或神话词源",
+      "bilingual_relation": "近音中文有独立正向字义，不能反证英文来源",
+      "sources": [
+        {
+          "url": "https://www.nvidia.com/en-au/about-nvidia/corporate-timeline/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 27
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "具体来源未确认的专名",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "brand_context"
+    },
+    {
+      "id": "B006",
+      "name": "百度 / Baidu",
+      "original_category": "broad_tech",
+      "source_line": 28,
+      "primary_source": "S4",
+      "classification_basis": "文学里的寻找",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "取自辛弃疾《青玉案·元夕》的“众里寻他千百度”；英文是拼音。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "文学里的寻找，与信息检索共享人的意图",
+      "narrative_role": "R2",
+      "brand_story": "持续寻找理想答案。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "让查询变为求索；并非所有含寻找的诗句都适合品牌",
+      "bilingual_relation": "中文文化记忆由拼音保留，不另造英文典故",
+      "sources": [
+        {
+          "url": "https://baidu.gcs-web.com/static-files/74abc09d-eab5-4519-8ff8-d933fc825e1e",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 28
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "学术概念短语",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B007",
+      "name": "商汤 / SenseTime",
+      "original_category": "broad_tech",
+      "source_line": 29,
+      "primary_source": "S4",
+      "classification_basis": "文字推动文明的历史参照",
+      "secondary_sources": [
+        "S3",
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "中文商汤有历史文明入口；主控本轮读到官方演讲将名称联系商朝与文字推动文明。Sense和Time为感知、时间的词义，两边不等义。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "文字推动文明的历史参照，连接感知智能推动新变化",
+      "narrative_role": "R6",
+      "brand_story": "将历史尺度与机器感知连接起来。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "借文明尺度建立长期身份；商朝参照不能偷换成已证实帝王崇拜",
+      "bilingual_relation": "中文历史、英文感知时间，分侧成立并非直译",
+      "sources": [
+        {
+          "url": "https://sensetime.com/cn/news/news-article1",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 29
+        },
+        {
+          "url": "https://sensetime.com/cn/news/news-article1",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "演讲69–71",
+          "supports": "官方演讲以商朝与文字推动文明说明名字；不擅自换成某帝王是创始动机。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "学术概念短语",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B008",
+      "name": "阿里巴巴 / Alibaba",
+      "original_category": "broad_tech",
+      "source_line": 30,
+      "primary_source": "S4",
+      "classification_basis": "宝藏之门的故事",
+      "secondary_sources": [
+        "S1"
+      ],
+      "meaning_and_origin_from_seed": "来自《阿里巴巴与四十大盗》的既有人物名。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "宝藏之门的故事，连接打开商业机会的角色",
+      "narrative_role": "R1",
+      "brand_story": "打开机会与财富之门。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "借已有情节建立入口形象；文化熟悉度会跨地区变化",
+      "bilingual_relation": "同一故事人物的中英文称呼",
+      "sources": [
+        {
+          "url": "https://singjupost.com/jack-ma-alibaba-group-stanford-gsb-2015-entrepreneurial-company-of-the-year-transcript/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 30
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B009",
+      "name": "大疆 / DJI",
+      "original_category": "broad_tech",
+      "source_line": 31,
+      "primary_source": "S2",
+      "classification_basis": "可开拓的疆域空间",
+      "secondary_sources": [
+        "S6"
+      ],
+      "meaning_and_origin_from_seed": "Da-Jiang Innovations的缩写；官方将大疆创新解释为Innovation Without Borders。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "可开拓的疆域空间，连接创新边界",
+      "narrative_role": "R6",
+      "brand_story": "创新的疆界可以继续向外延伸。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司扮演开拓者而非只卖飞行器；不是某条江的名字",
+      "bilingual_relation": "中文空间意象与DJI机构缩写分工",
+      "sources": [
+        {
+          "url": "https://www.dji.com/pt/newsroom/news/dji-opens-new-headquarters-for-creative-community-in-the-sky",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 31
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B010",
+      "name": "字节跳动 / ByteDance",
+      "original_category": "broad_tech",
+      "source_line": 32,
+      "primary_source": "S3",
+      "classification_basis": "字节这个信息单元获得跳动的身体动作",
+      "secondary_sources": [
+        "S1"
+      ],
+      "meaning_and_origin_from_seed": "Byte是字节，Dance是舞动、跳舞。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "字节这个信息单元获得跳动的身体动作",
+      "narrative_role": "R3",
+      "brand_story": "数字信息开始活动并产生生命感。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "底层计算与活跃生命感共存；不能从动作推定算法特性",
+      "bilingual_relation": "Byte/Dance与字节/跳动共享画面",
+      "sources": [
+        {
+          "url": "https://www.bytedance.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 32
+        },
+        {
+          "url": "https://www.bytedance.com/?locale=zh",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "官网使用这组中英文品牌，使命为激发创造、丰富生活；未找到本轮创始命名过程说明。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        },
+        {
+          "url": "https://www.bytedance.com/",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "官网使用这组中英文品牌，使命为激发创造、丰富生活；未找到本轮创始命名过程说明。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B011",
+      "name": "腾讯 / Tencent",
+      "original_category": "broad_tech",
+      "source_line": 33,
+      "primary_source": "S3",
+      "classification_basis": "通信中的讯息获得腾起的动势",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "中文连接腾起与通信；英文为声音相关的品牌词，也有ten cent的拆读联想。  ·",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "通信中的讯息获得腾起的动势",
+      "narrative_role": "R3",
+      "brand_story": "让连接与信息流动起来。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "身份能由通信延伸连接；构词解读不是完整创始命名史",
+      "bilingual_relation": "Tencent与中文声音相关，ten cent拆读不是已核实词源",
+      "sources": [
+        {
+          "url": "https://www.tencent.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 33
+        },
+        {
+          "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2017-05-09/doc-ifyexxhw2972113.shtml",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 33
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B012",
+      "name": "SpaceX",
+      "original_category": "broad_tech",
+      "source_line": 34,
+      "primary_source": "S2",
+      "classification_basis": "物理太空的远处边界",
+      "secondary_sources": [
+        "S6"
+      ],
+      "meaning_and_origin_from_seed": "Space是太空；品牌对应Space Exploration Technologies（太空探索技术）。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "物理太空的远处边界，连接人类抵达未知的远征",
+      "narrative_role": "R6",
+      "brand_story": "向人类尚未抵达的空间出发。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "比某型号火箭更宽；X的未知联想不能说成唯一官方解释",
+      "bilingual_relation": "英文缩写与太空对象并存，中文不必另配典故",
+      "sources": [
+        {
+          "url": "https://ir.spacex.com/privacy-and-legal/default.aspx",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 34
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B013",
+      "name": "Apple / 苹果",
+      "original_category": "broad_tech",
+      "source_line": 35,
+      "primary_source": "S1",
+      "classification_basis": "普通水果的生活熟悉感",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "苹果这一日常水果。沃兹尼亚克的公开访谈谈到它带来的良好、亲近感受。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "普通水果的生活熟悉感，连接复杂计算的可亲近性",
+      "narrative_role": "R1",
+      "brand_story": "技术可以进入普通人的生活。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "先建立生活关系再赋予科技身份；不需要水果解释计算原理",
+      "bilingual_relation": "苹果与Apple为同一日常对象",
+      "sources": [
+        {
+          "url": "https://techbbq.dk/tech-arena-2024-a-conversation-with-steve-wozniak/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 35
+        },
+        {
+          "url": "https://techbbq.dk/tech-arena-2024-a-conversation-with-steve-wozniak/",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "原始访谈295–305",
+          "supports": "访谈包含Apple Records相关回忆及水果好感；不把牛顿/图灵故事硬当创始解释。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B014",
+      "name": "Adobe",
+      "original_category": "broad_tech",
+      "source_line": 36,
+      "primary_source": "S2",
+      "classification_basis": "具体溪流的地方起点",
+      "secondary_sources": [
+        "S1"
+      ],
+      "meaning_and_origin_from_seed": "来自创始人John Warnock家附近的Adobe Creek河流名。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "具体溪流的地方起点，连接后来广阔的创作工具世界",
+      "narrative_role": "R2",
+      "brand_story": "从具体地方出发，长成容纳创造工具的世界。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司可保留来处而不锁定功能；河流不自动是产品机理",
+      "bilingual_relation": "地名声音自立，中文音译保留专名",
+      "sources": [
+        {
+          "url": "https://business.adobe.com/uk/resources/10-things-you-might-not-know-about-adobes-40-years-of-innovation.html",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 36
+        },
+        {
+          "url": "https://business.adobe.com/uk/resources/10-things-you-might-not-know-about-adobes-40-years-of-innovation.html",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "Did you know112",
+          "supports": "官方明确Adobe Creek来源；地理起点不等于河流必须隐喻软件。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B015",
+      "name": "Sony / 索尼",
+      "original_category": "broad_tech",
+      "source_line": 37,
+      "primary_source": "S1",
+      "classification_basis": "声音体验与年轻创造群体",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "官方说明由拉丁语sonus（声音）与sonny（年轻男孩的称呼）组合。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "声音体验与年轻创造群体，共同塑造技术品牌人格",
+      "narrative_role": "R1",
+      "brand_story": "声音、年轻与创造力。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "来源是感官与人群；拉丁语素不自动等于古典思想",
+      "bilingual_relation": "sonus与sonny融合为新专名，索尼承接声音",
+      "sources": [
+        {
+          "url": "https://www.sony.com.hk/aboutsony/html/en/history.jsp",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 37
+        },
+        {
+          "url": "https://www.sony.com.hk/aboutsony/html/en/history.jsp",
+          "access": "body",
+          "reader": "A1",
+          "reading_scope": "history17–18",
+          "supports": "官方sonus/sonny解释",
+          "checked_at": "2026-11-06"
+        },
+        {
+          "url": "https://www.sony.com.hk/aboutsony/html/en/history.jsp",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "历史17–18",
+          "supports": "sonus与sonny两来源、年轻团队创造均有官方解释；语种不是来源大类。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B016",
+      "name": "Cisco / 思科",
+      "original_category": "broad_tech",
+      "source_line": 38,
+      "primary_source": "S2",
+      "classification_basis": "旧金山的地理来处",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "由San Francisco（旧金山）缩短而来。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "旧金山的地理来处，连接网络企业的长期身份",
+      "narrative_role": "R3",
+      "brand_story": "从一个地方出发，连接更大的网络。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "地名可承载起点而非设备规格；城市不是网络原理",
+      "bilingual_relation": "Cisco保留地名片段，思科以音译建立称呼",
+      "sources": [
+        {
+          "url": "https://heritage.cisco.com/category/cisco-timeline/1985/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 38
+        },
+        {
+          "url": "https://heritage.cisco.com/category/cisco-timeline/1985/",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "First logo created75",
+          "supports": "官方说明San Francisco缩短及桥梁设备/金门桥关系；地理素材与连接角色可分别分析。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "变形、短化或融合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B017",
+      "name": "Intel / 英特尔",
+      "original_category": "broad_tech",
+      "source_line": 39,
+      "primary_source": "S3",
+      "classification_basis": "集成电子的工程关系",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "Integrated Electronics（集成电子）的合成缩写。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "集成电子的工程关系，成为底层能力提供者身份",
+      "narrative_role": "R3",
+      "brand_story": "把底层电子能力集成起来。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "技术本体可以独立称呼；intelligence近形只是额外联想",
+      "bilingual_relation": "英文缩合，中文音译，不必翻译整个全称",
+      "sources": [
+        {
+          "url": "https://www.intel.co.id/content/www/id/id/history/virtual-vault/articles/intels-founding.html",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 39
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B018",
+      "name": "联想 / Lenovo",
+      "original_category": "broad_tech",
+      "source_line": 40,
+      "primary_source": "S5",
+      "classification_basis": "人的联想活动",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "Le来自原英文Legend，novo表示新。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "人的联想活动，连接计算工具打开可能性的角色",
+      "narrative_role": "R1",
+      "brand_story": "从已有积累进入新的阶段。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "中文不受硬件规格限制；英文造词史不能倒推心理学来源",
+      "bilingual_relation": "中文心理词与Le加novo形成不同入口",
+      "sources": [
+        {
+          "url": "https://static.lenovo.com/we/assets/img/affiliate-resource/History%2520of%2520Lenovo.pdf%3Fv0.1",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 40
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "变形、短化或融合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B019",
+      "name": "小米 / Xiaomi",
+      "original_category": "broad_tech",
+      "source_line": 41,
+      "primary_source": "S1",
+      "classification_basis": "日常谷物和生活情境",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "小米这一谷物；WIPO的企业故事将名称联系到创办初期的小米粥。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "日常谷物和生活情境，连接大众技术的亲近感",
+      "narrative_role": "R1",
+      "brand_story": "从细小、朴素的起点长出大规模技术产品。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "细小朴素也能形成公司身份；不能把生长当增长保证",
+      "bilingual_relation": "中文生活词与拼音保持同一身份",
+      "sources": [
+        {
+          "url": "https://www.wipo.int/en/web/ip-advantage/w/stories/xiaomi-corporation-promoting-a-better-life-through-innovative-technology",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 41
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B020",
+      "name": "Amazon / 亚马逊",
+      "original_category": "broad_tech",
+      "source_line": 42,
+      "primary_source": "S2",
+      "classification_basis": "河流分支汇聚",
+      "secondary_sources": [
+        "S6"
+      ],
+      "meaning_and_origin_from_seed": "Amazon是亚马逊河及流域的名称。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "河流分支汇聚，映射商品与服务的广阔生态",
+      "narrative_role": "R3",
+      "brand_story": "成为汇聚众多事物的大系统。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "可讲系统规模不写具体业务；本轮未重证完整取名动机",
+      "bilingual_relation": "同一地理对象经音译保持识别",
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.com/about-us",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 42
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B021",
+      "name": "Oracle / 甲骨文",
+      "original_category": "broad_tech",
+      "source_line": 43,
+      "primary_source": "S4",
+      "classification_basis": "古老求问与记录文化",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "Oracle意为神谕、预言或提供答案的权威；中文甲骨文也是记录、求问的文化对象。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "古老求问与记录文化，连接信息中获得答案",
+      "narrative_role": "R4",
+      "brand_story": "从保存的信息中获得回答与洞见。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "知识权威感超越存储功能；预言不能当准确率保证",
+      "bilingual_relation": "Oracle与甲骨文在知识文化相接而非词义等同",
+      "sources": [
+        {
+          "url": "https://www.oracle.com/ua/corporate/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 43
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B022",
+      "name": "OpenAI",
+      "original_category": "current_ai",
+      "source_line": 53,
+      "primary_source": "S6",
+      "classification_basis": "开放立场与AI领域直接成为组织承诺",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "Open是开放，AI是人工智能。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "开放立场与AI领域直接成为组织承诺",
+      "narrative_role": "R6",
+      "brand_story": "智能应当以更广泛有益的方式发展。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司把发展智能的价值位置写出；行为会持续受名字检验",
+      "bilingual_relation": "英文立场组合自立，无需另配中文自然意象",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-openai/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 53
+        },
+        {
+          "url": "https://openai.com/index/introducing-openai/",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "2015创立声明28–41",
+          "supports": "历史声明说明广泛人类利益、发表与共享；用于当时命名立场，不推断当前一切政策。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B023",
+      "name": "Anthropic",
+      "original_category": "current_ai",
+      "source_line": 54,
+      "primary_source": "S5",
+      "classification_basis": "关于人类的形容词",
+      "secondary_sources": [
+        "S6"
+      ],
+      "meaning_and_origin_from_seed": "一个既有形容词，意为与人、人类有关的。  ·",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "关于人类的形容词，连接人与技术关系的研究",
+      "narrative_role": "R4",
+      "brand_story": "研究智能，也关心人与智能的关系。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司占据心智应服务谁的思想位置；词义宽不说明路线",
+      "bilingual_relation": "保留思想性英文，中文释义不是官方译名",
+      "sources": [
+        {
+          "url": "https://www.merriam-webster.com/dictionary/anthropic",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 54
+        },
+        {
+          "url": "https://www.anthropic.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 54
+        },
+        {
+          "url": "https://www.merriam-webster.com/dictionary/anthropic",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "定义42/词史54",
+          "supports": "人类相关词义及希腊语词根；不证明公司来自人择原理。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B024",
+      "name": "Perplexity",
+      "original_category": "current_ai",
+      "source_line": 55,
+      "primary_source": "S5",
+      "classification_basis": "求知时的困惑",
+      "secondary_sources": [
+        "S3"
+      ],
+      "meaning_and_origin_from_seed": "日常英语是困惑、疑惑；在语言模型里也是“困惑度”这一技术指标。  ·",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "求知时的困惑，与模型困惑度构成同词双入口",
+      "narrative_role": "R4",
+      "brand_story": "从困惑出发，找到有根据的回答。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "人的经验和专业指标共享入口；降低指标不等于解决所有困惑",
+      "bilingual_relation": "英文多义完整，困惑度只是其中技术译法",
+      "sources": [
+        {
+          "url": "https://hub-prod.perplexity.ai/hub/faq/what-is-perplexity",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 55
+        },
+        {
+          "url": "https://aclanthology.org/2024.emnlp-main.787.pdf",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 55
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B025",
+      "name": "Anysphere / Cursor",
+      "original_category": "current_ai",
+      "source_line": 56,
+      "primary_source": "S1",
+      "classification_basis": "本组以Cursor的可见日常光标为主入口；Anysphere的宽空间作次来源，不因sphere一词就认定特定数学来源",
+      "secondary_sources": [
+        "S2"
+      ],
+      "meaning_and_origin_from_seed": "Any是任意，Sphere是球体或领域；Cursor是光标。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "电脑界面上每天可见的光标，成为人开始软件创造的位置；Anysphere另提供宽阔空间的母品牌层",
+      "narrative_role": "R1",
+      "brand_story": "让人从一个光标开始，完成更大范围的软件创造。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "手边物件能承载很大的创作能力；本组不是把几何词自动当科学出处，主码不能覆盖母产品两条来源",
+      "bilingual_relation": "Anysphere与Cursor是机构/产品分层，不是中英文对应；主分类以产品入口编码只是本次编辑选择",
+      "sources": [
+        {
+          "url": "https://cursor.com/en-US/terms-of-service",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 56
+        },
+        {
+          "url": "https://docs.cursor.com/en/inline-edit/overview",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "官方文档确认AI编程工具与编辑行为；旧文档说明可在光标位置生成代码。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        },
+        {
+          "url": "https://docs.cursor.com/ai-features/rules",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "官方文档确认AI编程工具与编辑行为；旧文档说明可在光标位置生成代码。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B026",
+      "name": "Cognition",
+      "original_category": "current_ai",
+      "source_line": 57,
+      "primary_source": "S5",
+      "classification_basis": "人的理解记忆判断",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "认知：理解、思考、记忆、判断等心智活动。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "人的理解记忆判断，成为机器应能完成工作的对象",
+      "narrative_role": "R4",
+      "brand_story": "把心智活动变成能真正完成工作的能力。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "长期心智能力比某项任务更宽；完整概念也可能过于通用",
+      "bilingual_relation": "Cognition自立，认知只是释义",
+      "sources": [
+        {
+          "url": "https://cognition.com/about",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 57
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B027",
+      "name": "Midjourney",
+      "original_category": "current_ai",
+      "source_line": 58,
+      "primary_source": "S5",
+      "classification_basis": "人处于旅途中的时间经验",
+      "secondary_sources": [
+        "S6"
+      ],
+      "meaning_and_origin_from_seed": "在旅途之中、行至中途。官网直接用“我们都在旅途中”表达过去与未知未来的关系。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "人处于旅途中的时间经验，连接创作与技术的未完成性",
+      "narrative_role": "R2",
+      "brand_story": "人和技术还在决定自己将成为什么。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司表达探索姿态而非终点；途中也可能被读成尚未成熟",
+      "bilingual_relation": "英语熟词组成位置感，不硬配中文机构名",
+      "sources": [
+        {
+          "url": "https://www.midjourney.com/home/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 58
+        },
+        {
+          "url": "https://www.midjourney.com/home/",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "About14–19",
+          "supports": "官方明确过去/未知未来与我们想成为什么；时间经验成为长期身份。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B028",
+      "name": "Runway",
+      "original_category": "current_ai",
+      "source_line": 59,
+      "primary_source": "S1",
+      "classification_basis": "飞机起飞与作品登场的设施",
+      "secondary_sources": [
+        "S6"
+      ],
+      "meaning_and_origin_from_seed": "飞机跑道，也可指时装秀的伸展台。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "飞机起飞与作品登场的设施，转为创意发生的条件",
+      "narrative_role": "R1",
+      "brand_story": "为想象和创意提供起飞的场所。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "产品是创作者的出发地；场所比喻不是模型机理",
+      "bilingual_relation": "英文双义共享场所角色，中文不需唯一译词",
+      "sources": [
+        {
+          "url": "https://runway.com/about",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 59
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B029",
+      "name": "Hugging Face",
+      "original_category": "current_ai",
+      "source_line": 60,
+      "primary_source": "S1",
+      "classification_basis": "身体的拥抱与面孔",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "拥抱的脸、张开双臂的笑脸，与其使用的🤗形象相连。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "身体的拥抱与面孔，建立技术社区的欢迎关系",
+      "narrative_role": "R1",
+      "brand_story": "一个欢迎人参与的开放技术社区。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "科技可有温度；亲和名称不能证明实际开放或性能",
+      "bilingual_relation": "英文场景与表情共同识别，不必逐字造中文名",
+      "sources": [
+        {
+          "url": "https://huggingface.co/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 60
+        },
+        {
+          "url": "https://huggingface.co/brand",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "官方品牌页使用拥抱表情的视觉标识；本轮不将命名起源当成创始团队已证实陈述。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B030",
+      "name": "Replit",
+      "original_category": "current_ai",
+      "source_line": 61,
+      "primary_source": "S3",
+      "classification_basis": "计算机交互循环",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "来自REPL：Read–Eval–Print Loop，即读取、求值、输出的交互式循环；早期写作repl.it。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "计算机交互循环，连接人即时试验的工作习惯",
+      "narrative_role": "R1",
+      "brand_story": "写一点，运行一下，在反馈中继续创造。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "真实计算实践形成工具身份；圈外理解仍需解释REPL",
+      "bilingual_relation": "技术缩写转写为可读品牌，不是任意拼字母",
+      "sources": [
+        {
+          "url": "https://replit.com/blog/dotcom",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 61
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "变形、短化或融合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B031",
+      "name": "Reflection",
+      "original_category": "current_ai",
+      "source_line": 62,
+      "primary_source": "S5",
+      "classification_basis": "心智反思与物理反射",
+      "secondary_sources": [
+        "S2"
+      ],
+      "meaning_and_origin_from_seed": "反射、映照，也指反思；同一词连接物理现象与认知活动。  ·",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "心智反思与物理反射，共享回看与映照结构",
+      "narrative_role": "R4",
+      "brand_story": "智能能映照世界，也能回看自己的思考过程。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "智能像能观察自身的主体；物理反射不包含持续改进",
+      "bilingual_relation": "英文双义同时工作，中文反射和反思难一词覆盖",
+      "sources": [
+        {
+          "url": "https://reflection.ai/blog/reflection-a-path-to-superintelligence/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 62
+        },
+        {
+          "url": "https://reflection.ai/about",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 62
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B032",
+      "name": "Thinking Machines Lab",
+      "original_category": "current_ai",
+      "source_line": 63,
+      "primary_source": "S6",
+      "classification_basis": "会思考的机器是直接而长期的研究命题",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "会思考的机器实验室；由普通英语组成一个完整的研究命题。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "会思考的机器是直接而长期的研究命题",
+      "narrative_role": "R4",
+      "brand_story": "重新研究机器如何思考、如何与人协作。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司先宣布研究什么；日常短语亦有思想史重合",
+      "bilingual_relation": "普通英语形成完整机构称谓，Lab说明性质",
+      "sources": [
+        {
+          "url": "https://trust.thinkingmachines.ai/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 63
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B033",
+      "name": "Safe Superintelligence / SSI",
+      "original_category": "current_ai",
+      "source_line": 64,
+      "primary_source": "S6",
+      "classification_basis": "超级智能的目标与安全约束共同成为承诺",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "安全的超级智能；SSI是三个词的首字母缩写。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "超级智能的目标与安全约束共同成为承诺",
+      "narrative_role": "R6",
+      "brand_story": "能力与安全共同构成一个研究目标。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "身份由研究终点及发展方式组成；不能只留能力忽略约束",
+      "bilingual_relation": "全称表达使命，SSI承担传播效率",
+      "sources": [
+        {
+          "url": "https://ssi.inc/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 64
+        },
+        {
+          "url": "https://ssi.inc/",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "创立声明4–10",
+          "supports": "明确使命、名字和产品路线统一；直接使命命名的一手例子。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B034",
+      "name": "Unconventional AI",
+      "original_category": "current_ai",
+      "source_line": 65,
+      "primary_source": "S6",
+      "classification_basis": "非传统是一种面对主流的研究态度",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "非传统、不循常规的人工智能；直接表达研究立场。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "非传统是一种面对主流的研究态度",
+      "narrative_role": "R2",
+      "brand_story": "新的智能可能来自重新理解计算本身。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "先说选择什么道路再说算法；不同不自动等于有效",
+      "bilingual_relation": "英文态度短语形成机构名",
+      "sources": [
+        {
+          "url": "https://unconv.ai/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 65
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B035",
+      "name": "Google DeepMind",
+      "original_category": "current_ai",
+      "source_line": 66,
+      "primary_source": "S5",
+      "classification_basis": "深层心智把计算研究放进人的认识世界",
+      "secondary_sources": [
+        "S3"
+      ],
+      "meaning_and_origin_from_seed": "Deep是深、深层，Mind是心智；两个常见词形成“深层心智”的图像。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "深层心智把计算研究放进人的认识世界",
+      "narrative_role": "R4",
+      "brand_story": "深入心智，寻找通用智能背后的原理。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "身份可跨任务延伸；深不等于某一种深度网络",
+      "bilingual_relation": "两个认知熟词合成，Google为上层母品牌",
+      "sources": [
+        {
+          "url": "https://deepmind.google/about/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 66
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B036",
+      "name": "AMI Labs",
+      "original_category": "current_ai",
+      "source_line": 67,
+      "primary_source": "S6",
+      "classification_basis": "先进机器智能全称与法语朋友形成主次入口",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "Advanced Machine Intelligence（先进机器智能）的缩写；ami在法语中另有朋友之义。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "先进机器智能全称与法语朋友形成主次入口",
+      "narrative_role": "R4",
+      "brand_story": "智能从理解真实世界开始。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "技术目标也可获得关系温度；朋友同形不是已证实起名动机",
+      "bilingual_relation": "目标缩写与法语词重叠，非中文逐字对译",
+      "sources": [
+        {
+          "url": "https://amilabs.xyz/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 67
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B037",
+      "name": "Imbue",
+      "original_category": "current_ai",
+      "source_line": 68,
+      "primary_source": "S5",
+      "classification_basis": "给已有对象赋予能力与价值",
+      "secondary_sources": [
+        "S6"
+      ],
+      "meaning_and_origin_from_seed": "使充满、赋予、浸润。命名顾问解释为给计算机赋予智能与人类价值。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "给已有对象赋予能力与价值，连接增强他者的作用",
+      "narrative_role": "R3",
+      "brand_story": "赋予机器能力，也赋予它应当服务的价值。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司讲对别人产生什么改变；宽动词需要真实对象承接",
+      "bilingual_relation": "英语关系动词独立，不强造逐字中文",
+      "sources": [
+        {
+          "url": "https://www.ahundredmonkeys.com/case-study/imbue/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 68
+        },
+        {
+          "url": "https://www.ahundredmonkeys.com/case-study/imbue/",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "命名顾问20/32",
+          "supports": "顾问确认Generally Intelligent改名及赋予智能/人类价值的解释。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B038",
+      "name": "Liquid AI",
+      "original_category": "current_ai",
+      "source_line": 69,
+      "primary_source": "S2",
+      "classification_basis": "液态物性与液态网络谱系",
+      "secondary_sources": [
+        "S3"
+      ],
+      "meaning_and_origin_from_seed": "Liquid是液体、液态或流动的；与公司的液态神经网络研究谱系呼应。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "液态物性与液态网络谱系，提供可适应系统的直觉",
+      "narrative_role": "R5",
+      "brand_story": "让智能以灵活、高效的方式进入不同场景。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "自然形态能承担研究世界观；液态不等于上线自动学习",
+      "bilingual_relation": "物态词加AI，中文液态仅释义",
+      "sources": [
+        {
+          "url": "https://www.liquid.ai/company",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 69
+        },
+        {
+          "url": "https://www.liquid.ai/research",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "官网研究页说明起源于MIT十余年的Liquid Neural Networks研究。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B039",
+      "name": "Mistral AI",
+      "original_category": "current_ai",
+      "source_line": 70,
+      "primary_source": "S2",
+      "classification_basis": "真实地域风名",
+      "secondary_sources": [
+        "S6"
+      ],
+      "meaning_and_origin_from_seed": "Mistral是法国地中海地区一种强冷风的名称。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "真实地域风名，带来欧洲来处和自然动势",
+      "narrative_role": "R2",
+      "brand_story": "一股来自欧洲、推动模型生态发展的新风。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司像推动变化的一股新力量；风力不是模型能力证据",
+      "bilingual_relation": "保留风的专名，不硬配中文近音",
+      "sources": [
+        {
+          "url": "https://legal.mistral.ai/terms/commercial-terms-of-service/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 70
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B040",
+      "name": "Cohere",
+      "original_category": "current_ai",
+      "source_line": 71,
+      "primary_source": "S5",
+      "classification_basis": "凝聚连贯的关系动作",
+      "secondary_sources": [
+        "S6"
+      ],
+      "meaning_and_origin_from_seed": "凝聚、连贯、结合成一个整体，是一个自然的英语动词。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "凝聚连贯的关系动作，连接碎片知识与组织需求",
+      "narrative_role": "R3",
+      "brand_story": "让分散的知识、语言与组织需求形成整体。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司是形成整体的条件；连贯并不能替代全部智能能力",
+      "bilingual_relation": "自然动词自立，不需拆成两个中文意象",
+      "sources": [
+        {
+          "url": "https://cohere.com/newsroom",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 71
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B041",
+      "name": "Nous Research",
+      "original_category": "current_ai",
+      "source_line": 72,
+      "primary_source": "S4",
+      "classification_basis": "古希腊智性思想",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "Nous是古希腊哲学中的智性、理智；Research意为研究。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "古希腊智性思想，连接机器认知研究",
+      "narrative_role": "R4",
+      "brand_story": "把智性和智能能力开放给更多人。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "研究者进入关于理智的长期讨论；古词提高初次理解成本",
+      "bilingual_relation": "思想术语加Research，不以中文直译减薄传统",
+      "sources": [
+        {
+          "url": "https://nousresearch.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 72
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B042",
+      "name": "World Labs",
+      "original_category": "current_ai",
+      "source_line": 73,
+      "primary_source": "S6",
+      "classification_basis": "理解并作用于世界是直接研究范围声明",
+      "secondary_sources": [
+        "S2"
+      ],
+      "meaning_and_origin_from_seed": "World是世界，Labs是实验室；直接指向理解、生成和作用于世界。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "理解并作用于世界是直接研究范围声明",
+      "narrative_role": "R6",
+      "brand_story": "让AI拥有能够理解、生成和行动的世界。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司先定世界级研究对象；宽度须由成果接住",
+      "bilingual_relation": "World与Labs共同交代对象及机构",
+      "sources": [
+        {
+          "url": "https://www.worldlabs.ai/about",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 73
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B043",
+      "name": "General Intuition",
+      "original_category": "current_ai",
+      "source_line": 74,
+      "primary_source": "S5",
+      "classification_basis": "直觉这一人对环境的理解方式",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "General是一般或通用，Intuition是直觉；指向对现实世界的广泛直觉。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "直觉这一人对环境的理解方式，转为通用能力研究",
+      "narrative_role": "R4",
+      "brand_story": "通过互动与探索，获得对现实的直觉。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "比单任务更接近长期心智；General太宽也会削弱辨识",
+      "bilingual_relation": "两个认知词形成完整概念",
+      "sources": [
+        {
+          "url": "https://www.generalintuition.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 74
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B044",
+      "name": "Standard Intelligence",
+      "original_category": "current_ai",
+      "source_line": 75,
+      "primary_source": "S6",
+      "classification_basis": "标准常规是关于智能成为基础能力的主张",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "Standard是标准、常规，Intelligence是智能；语气平实，有机构感。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "标准常规是关于智能成为基础能力的主张",
+      "narrative_role": "R3",
+      "brand_story": "智能会成为广泛可用的基础能力。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "平实语气可有机构权威；通用名与同名主体多",
+      "bilingual_relation": "普通英文机构化，不补中文文化出处",
+      "sources": [
+        {
+          "url": "https://si.inc/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 75
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B045",
+      "name": "Mobius Intelligence",
+      "original_category": "current_ai",
+      "source_line": 76,
+      "primary_source": "S3",
+      "classification_basis": "拓扑曲面的连续性",
+      "secondary_sources": [
+        "S2"
+      ],
+      "meaning_and_origin_from_seed": "Möbius是莫比乌斯带：带子扭转半圈后首尾相接，形成只有一个面、一条边的曲面；看似相对的“两面”，沿带面其实连续相通。Intelligence意为智能。  ·",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "拓扑曲面的连续性，连接看似相对部分的相通",
+      "narrative_role": "R5",
+      "brand_story": "可把学习与行动、模型与环境想象成彼此相接的过程；回返带来新的反馈。这是品牌联想，持续变强并非该曲面的数学性质。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "数学可变为可见世界；连续不意味着能力增长",
+      "bilingual_relation": "曲面与人名关联有稳定中文称呼",
+      "sources": [
+        {
+          "url": "https://mobiuslab.ai/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 76
+        },
+        {
+          "url": "https://www.physics.wisc.edu/ingersollmuseum/exhibits/mechanics/mobiusstrip/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 76
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B046",
+      "name": "Goodfire",
+      "original_category": "current_ai",
+      "source_line": 77,
+      "primary_source": "S2",
+      "classification_basis": "自然火的力量被Good赋予价值方向",
+      "secondary_sources": [
+        "S6"
+      ],
+      "meaning_and_origin_from_seed": "Good是好的，Fire是火；两个普通词形成“有益的火”的形象。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "自然火的力量被Good赋予价值方向",
+      "narrative_role": "R6",
+      "brand_story": "把强大的智能变成可理解、有益的力量。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司同时讲力量和导向；火的失控义不能全部删掉",
+      "bilingual_relation": "两个英语熟词构成同一形象，不补神话出处",
+      "sources": [
+        {
+          "url": "https://www.goodfire.com/company",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 77
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B047",
+      "name": "Hume AI",
+      "original_category": "current_ai",
+      "source_line": 78,
+      "primary_source": "S4",
+      "classification_basis": "休谟关于情感偏好的思想",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "Hume是哲学家休谟的姓氏；公司把情感、偏好与其思想明确联系起来。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "休谟关于情感偏好的思想，连接AI价值与交互",
+      "narrative_role": "R4",
+      "brand_story": "理解人的偏好，需要理解人的情感。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "人物承接理论世界而非泛写情绪；不了解人物时需补背景",
+      "bilingual_relation": "沿用人物姓氏，AI说明当代场域",
+      "sources": [
+        {
+          "url": "https://www.hume.ai/about",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 78
+        },
+        {
+          "url": "https://www.hume.ai/about",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "Our Academic Origins21–24",
+          "supports": "官方明确休谟思想与情感偏好/AI原则的关系。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B048",
+      "name": "Harmonic",
+      "original_category": "current_ai",
+      "source_line": 79,
+      "primary_source": "S3",
+      "classification_basis": "调和谐波等跨数学物理音乐的秩序",
+      "secondary_sources": [
+        "S1"
+      ],
+      "meaning_and_origin_from_seed": "和声的、谐波的、调和的；一个词横跨音乐、物理与数学。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "调和谐波等跨数学物理音乐的秩序，连接可理解推理",
+      "narrative_role": "R4",
+      "brand_story": "推理能够具有可以理解和验证的内在秩序。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "专业秩序与感官和谐可共鸣；和谐不是正确性保证",
+      "bilingual_relation": "英文同词多域，中文译法随语境变化",
+      "sources": [
+        {
+          "url": "https://www.harmonic.fun/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 79
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B049",
+      "name": "Axiom Math",
+      "original_category": "current_ai",
+      "source_line": 80,
+      "primary_source": "S3",
+      "classification_basis": "公理这一推理起点",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "Axiom是公理，Math是数学；公理是建立推理体系的起点。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "公理这一推理起点，连接可靠知识体系的建立",
+      "narrative_role": "R4",
+      "brand_story": "从清晰的起点出发，建立可靠的推理。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司身份是基础推理；公理不能被营销为无需验证",
+      "bilingual_relation": "数学概念和Math领域词共同成立",
+      "sources": [
+        {
+          "url": "https://axiommath.ai/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 80
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B050",
+      "name": "Fundamental",
+      "original_category": "current_ai",
+      "source_line": 81,
+      "primary_source": "S6",
+      "classification_basis": "根本基础这一研究层级判断",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "根本的、基础的；直接表达研究在知识体系中的位置。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "根本基础这一研究层级判断，连接能力底座",
+      "narrative_role": "R3",
+      "brand_story": "回到基础问题，建立新的模型能力。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "容纳多种长期路线；基础性仍需具体研究支持",
+      "bilingual_relation": "普通性质词变机构名，不冒充某个定理",
+      "sources": [
+        {
+          "url": "https://fundamental.tech/about",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 81
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B051",
+      "name": "Eureka Labs",
+      "original_category": "current_ai",
+      "source_line": 82,
+      "primary_source": "S5",
+      "classification_basis": "人发现答案的感叹时刻",
+      "secondary_sources": [
+        "S4"
+      ],
+      "meaning_and_origin_from_seed": "Eureka源于“我找到了”的发现感叹词；Labs是实验室。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "人发现答案的感叹时刻，连接学习与理解",
+      "narrative_role": "R2",
+      "brand_story": "让理解和发现的时刻发生在更多人身上。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "研究可表达为体验；也容易偏教育而非基础Lab",
+      "bilingual_relation": "既有感叹词加Labs，不推定特定古人取名动机",
+      "sources": [
+        {
+          "url": "https://eurekalabs.ai/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 82
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B052",
+      "name": "深度求索 / DeepSeek",
+      "original_category": "current_ai",
+      "source_line": 88,
+      "primary_source": "S5",
+      "classification_basis": "求索这一人的行动姿态",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "Deep是深，Seek是寻找、探索；英文基本保留中文“深入求索”的动作。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "求索这一人的行动姿态，连接持续探索未知",
+      "narrative_role": "R2",
+      "brand_story": "不断深入未知，而不只停留在表面的回答。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "身份可跨研究方法而保留方向；深入不等于一定更好",
+      "bilingual_relation": "DeepSeek共享深入求索动作，不逐字等式",
+      "sources": [
+        {
+          "url": "https://deepseek.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 88
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B053",
+      "name": "月之暗面 / Moonshot AI",
+      "original_category": "current_ai",
+      "source_line": 89,
+      "primary_source": "S2",
+      "classification_basis": "中文未知月面与英文登月挑战",
+      "secondary_sources": [
+        "S6",
+        "S4"
+      ],
+      "meaning_and_origin_from_seed": "Moonshot指登月计划，也指高难度、宏大目标的尝试；与中文未知月面的意象主题呼应。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "中文未知月面与英文登月挑战，连接未抵达空间",
+      "narrative_role": "R2",
+      "brand_story": "以宏大的挑战探索尚未照亮的空间。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司讲将去哪里；不把音乐联想或登月史当完整起名确认",
+      "bilingual_relation": "中文空间、英文挑战、Kimi产品称呼分层",
+      "sources": [
+        {
+          "url": "https://www.kimi.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 89
+        },
+        {
+          "url": "https://www.moonshot.ai/",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "首页品牌及页脚54、产品62",
+          "supports": "确认Moonshot AI与Kimi分层用名；不据此证明Pink Floyd音乐词源。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "学术概念短语",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B054",
+      "name": "MiniMax",
+      "original_category": "current_ai",
+      "source_line": 90,
+      "primary_source": "S3",
+      "classification_basis": "极值与权衡的数学知识",
+      "secondary_sources": [
+        "S1"
+      ],
+      "meaning_and_origin_from_seed": "Mini与Max在字面上形成小与大的对照，minimax也是优化和博弈论术语。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "极值与权衡的数学知识，连接大小边界关系",
+      "narrative_role": "R5",
+      "brand_story": "在边界、尺度与权衡中寻找更强的智能。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "术语自带对称；不能仅凭术语存在确认创始选择动机",
+      "bilingual_relation": "沿用英文品牌，字面Mini和Max另有反差",
+      "sources": [
+        {
+          "url": "https://www.minimax.io/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 90
+        },
+        {
+          "url": "https://www.minimax.io/",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "公司介绍108–113",
+          "supports": "确认品牌及通用AI身份，不能据官网业务证明minimax算法是创始起名动机。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B055",
+      "name": "阶跃星辰 / StepFun",
+      "original_category": "current_ai",
+      "source_line": 91,
+      "primary_source": "S3",
+      "classification_basis": "阶跃变化与星辰远方",
+      "secondary_sources": [
+        "S2"
+      ],
+      "meaning_and_origin_from_seed": "Step是步、台阶，Fun是趣味；词形也可联想step function（阶跃函数）。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "阶跃变化与星辰远方，连接能力跃升的目标",
+      "narrative_role": "R6",
+      "brand_story": "能力可以发生阶段性跃升，并抵达更远处。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "把变化方式与目的地相接；不证明已实现跃迁",
+      "bilingual_relation": "StepFun与step function可联想，Fun另有趣味义",
+      "sources": [
+        {
+          "url": "https://www.stepfun.com/about",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 91
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B056",
+      "name": "字节 Seed",
+      "original_category": "current_ai",
+      "source_line": 92,
+      "primary_source": "S2",
+      "classification_basis": "生命种子的起点与未来生态",
+      "secondary_sources": [
+        "S6"
+      ],
+      "meaning_and_origin_from_seed": "Seed是种子：生命、成长与新事物的起点。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "生命种子的起点与未来生态，连接研究的孕育",
+      "narrative_role": "R5",
+      "brand_story": "今日的一粒种子可以长成整个模型生态。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "当前成果像未来系统的源头；种子不自动意味着持续学习",
+      "bilingual_relation": "Seed为研究子品牌，字节为上层身份",
+      "sources": [
+        {
+          "url": "https://seed.bytedance.com/en/models",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 92
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B057",
+      "name": "零一万物 / 01.AI",
+      "original_category": "current_ai",
+      "source_line": 93,
+      "primary_source": "S3",
+      "classification_basis": "二进制基元与万物世界",
+      "secondary_sources": [
+        "S2",
+        "S6"
+      ],
+      "meaning_and_origin_from_seed": "01是计算机二进制的基本符号；“万物”把极简起点连接到广阔世界。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "二进制基元与万物世界，形成从微小到广阔的尺度命题",
+      "narrative_role": "R6",
+      "brand_story": "从0与1这样的简单起点走向万物。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "不是简单给零一加大词；宏大范围需要业务承接",
+      "bilingual_relation": "01.AI保留数字核心，中文扩展世界想象",
+      "sources": [
+        {
+          "url": "https://www.01.ai/cn1",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 93
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B058",
+      "name": "智谱 / Z.ai",
+      "original_category": "current_ai",
+      "source_line": 94,
+      "primary_source": "S5",
+      "classification_basis": "智能与谱的知识组织意象",
+      "secondary_sources": [
+        "S3"
+      ],
+      "meaning_and_origin_from_seed": "“智”与“谱”连接智能和知识结构；Z.ai以一个字母与AI域名建立简短英文品牌。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "智能与谱的知识组织意象，连接结构化心智",
+      "narrative_role": "R4",
+      "brand_story": "把知识与认知组织成可发展的结构。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "谱让认知具有秩序；不自动证明来自知识图谱",
+      "bilingual_relation": "中文给知识画面，Z.ai给短识别，非词义对译",
+      "sources": [
+        {
+          "url": "https://www.zhipuai.cn/investor_relations/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 94
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B059",
+      "name": "百川智能 / Baichuan",
+      "original_category": "current_ai",
+      "source_line": 95,
+      "primary_source": "S2",
+      "classification_basis": "河流汇聚的形态",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "百川指众多河流；Baichuan保留中文的声音和自然形象。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "河流汇聚的形态，连接多源知识相接",
+      "narrative_role": "R3",
+      "brand_story": "让不同来源的知识汇聚成更大的能力。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "可以讲兼容与连接；也可能被看成单纯聚合服务",
+      "bilingual_relation": "拼音保留中文对象，不另换学术术语",
+      "sources": [
+        {
+          "url": "https://www.baichuan-ai.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 95
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B060",
+      "name": "面壁智能 / ModelBest",
+      "original_category": "current_ai",
+      "source_line": 96,
+      "primary_source": "S5",
+      "classification_basis": "面壁的专注行为",
+      "secondary_sources": [
+        "S4"
+      ],
+      "meaning_and_origin_from_seed": "Model是模型，Best是最好；中文“面壁”另有专注、沉思与文化联想。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "面壁的专注行为，连接深入研究的姿态",
+      "narrative_role": "R2",
+      "brand_story": "以持续、深入的探索寻找更好的模型。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司借沉思而非功能立身份；佛教或科幻典故未获确认不能任选",
+      "bilingual_relation": "ModelBest讲模型目标，中文讲沉思，分侧成立",
+      "sources": [
+        {
+          "url": "https://www.modelbest.cn/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 96
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B061",
+      "name": "生数科技 / GenSpi",
+      "original_category": "current_ai",
+      "source_line": 97,
+      "primary_source": "S3",
+      "classification_basis": "生成与数字的技术语义",
+      "secondary_sources": [
+        "S2"
+      ],
+      "meaning_and_origin_from_seed": "“生数”连接生命或生成与数字；GenSpi为品牌造词，Gen容易联想到generate（生成）。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "生成与数字的技术语义，连接创造新内容",
+      "narrative_role": "R6",
+      "brand_story": "从数字模型生成并理解新的世界。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "生可读生命与生成；多义不能无限扩写",
+      "bilingual_relation": "GenSpi为专名，Gen可联想生成但Spi来源未确认",
+      "sources": [
+        {
+          "url": "https://www.genspi.com/zh/about/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 97
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B062",
+      "name": "硅基流动 / SiliconFlow",
+      "original_category": "current_ai",
+      "source_line": 98,
+      "primary_source": "S3",
+      "classification_basis": "硅的计算材料身份与流动动作",
+      "secondary_sources": [
+        "S2"
+      ],
+      "meaning_and_origin_from_seed": "Silicon是硅，Flow是流动；计算材料与动态行为组合成同一幅画面。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "硅的计算材料身份与流动动作，连接可供他人使用的能力",
+      "narrative_role": "R3",
+      "brand_story": "让算力、模型与智能服务更顺畅地流动。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "底层资源获得服务动势；不是流体物理的性能声明",
+      "bilingual_relation": "中英文共享材料与动作",
+      "sources": [
+        {
+          "url": "https://www.siliconflow.cn/about",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 98
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B063",
+      "name": "无问芯穹 / Infinigence",
+      "original_category": "current_ai",
+      "source_line": 99,
+      "primary_source": "S3",
+      "classification_basis": "芯片的微小底座与穹顶广阔空间",
+      "secondary_sources": [
+        "S2",
+        "S4"
+      ],
+      "meaning_and_origin_from_seed": "Infinigence为造词，词形容易使人联想到infinite（无限）与intelligence（智能）。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "芯片的微小底座与穹顶广阔空间，连接能力尺度",
+      "narrative_role": "R3",
+      "brand_story": "底层计算连接广阔的智能空间。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "能把基础设施放进大世界；电影与英文融合史均未重证",
+      "bilingual_relation": "中文芯穹与英文无限智能联想主题相容不直译",
+      "sources": [
+        {
+          "url": "https://docs.infini-ai.com/legal/terms-of-service.html",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 99
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B064",
+      "name": "自变量 / X Square Robot",
+      "original_category": "current_ai",
+      "source_line": 100,
+      "primary_source": "S3",
+      "classification_basis": "自变量和平方各自的数学身份",
+      "secondary_sources": [
+        "S6"
+      ],
+      "meaning_and_origin_from_seed": "X Square是x的平方；中文“自变量”与英文共享数学语境。  ·",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "自变量和平方各自的数学身份，连接自主变化的期待",
+      "narrative_role": "R5",
+      "brand_story": "从抽象模型走向真实世界里的自主行动。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "学科与行动联想可并存；自变量不等于x平方",
+      "bilingual_relation": "同数学领域不同对象，不声称字面对等",
+      "sources": [
+        {
+          "url": "https://x2robot.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 100
+        },
+        {
+          "url": "https://www.x2robot.cn/about",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 100
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B065",
+      "name": "星海图 / Galaxea",
+      "original_category": "current_ai",
+      "source_line": 101,
+      "primary_source": "S2",
+      "classification_basis": "星空海洋与地图",
+      "secondary_sources": [
+        "S3"
+      ],
+      "meaning_and_origin_from_seed": "Galaxea在这里是品牌专名；中文“星海图”直接呈现星空、海洋与地图的探索意象。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "星空海洋与地图，连接现实智能的探索方向",
+      "narrative_role": "R2",
+      "brand_story": "为智能进入现实世界描绘地图。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "多种熟悉空间形成场景；英文近形不能推定拉丁词源",
+      "bilingual_relation": "中文主叙事，Galaxea专名来源未确认",
+      "sources": [
+        {
+          "url": "https://www.galaxea-ai.com/zh/policy.html",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 101
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B066",
+      "name": "模思智能 / Mosi",
+      "original_category": "current_ai",
+      "source_line": 102,
+      "primary_source": "S5",
+      "classification_basis": "计算模型的模与思考的思",
+      "secondary_sources": [
+        "S3"
+      ],
+      "meaning_and_origin_from_seed": "“模”让人想到模型、建模，“思”指思考；Mosi与“模思”近音，中文语义与英文声音配合。此处为构词分析。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "计算模型的模与思考的思，连接机器与认识活动",
+      "narrative_role": "R4",
+      "brand_story": "从能够生成内容的模型，走向能够理解与思考的智能；名字把机器机制与人的认知放在一起。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "比纯智能后缀多一层心智；独特画面仍较弱",
+      "bilingual_relation": "Mosi近音服务中文语义",
+      "sources": [
+        {
+          "url": "https://www.mosi.cn/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 102
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B067",
+      "name": "幂级智能 / DenseAI",
+      "original_category": "current_ai",
+      "source_line": 103,
+      "primary_source": "S3",
+      "classification_basis": "幂的数学结构与稠密反馈",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "“幂”是数学中的乘方概念，“幂级”也容易唤起幂级数的联想；Dense意为稠密，投资方介绍中使用DenseAI，并提到密集强化学习。中英文是主题呼应。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "幂的数学结构与稠密反馈，连接能力成长的技术想象",
+      "narrative_role": "R5",
+      "brand_story": "可以把能力成长想象成持续叠加的数学过程，把训练想象成密集经验的积累；“幂”带来增长联想，并不承诺实际增长率。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "学科字有体系感；不能把幂当实际增长率保证",
+      "bilingual_relation": "DenseAI讲稠密，幂级讲数学，主题相容非直译",
+      "sources": [
+        {
+          "url": "https://www.linkxcap.com/zh/portfolio/miji-intelligence.html",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 103
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B068",
+      "name": "光轮智能 / Lightwheel",
+      "original_category": "current_ai",
+      "source_line": 104,
+      "primary_source": "S1",
+      "classification_basis": "有形轮的转动与无形光影",
+      "secondary_sources": [
+        "S2"
+      ],
+      "meaning_and_origin_from_seed": "Light是光，Wheel是轮，中英文共享“发光的轮”这一画面。名字本身可直接理解；具体命名典故暂无官方解释。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "有形轮的转动与无形光影，连接可运行装置的动力感",
+      "narrative_role": "R3",
+      "brand_story": "可以联想到持续运转、向前推进，以及虚拟光影与物理世界的连接。名字给出动势，容得下仿真、机器人及更广的研究。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "普通工程物能承载能力输出；运动不证明学习机制",
+      "bilingual_relation": "Lightwheel与中文共享发光之轮",
+      "sources": [
+        {
+          "url": "https://www.guanglun.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 104
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B069",
+      "name": "时氪砹 / Moments AI",
+      "original_category": "current_ai",
+      "source_line": 105,
+      "primary_source": "S5",
+      "classification_basis": "一个个时刻的时间经验",
+      "secondary_sources": [
+        "S3"
+      ],
+      "meaning_and_origin_from_seed": "Moments是“时刻、瞬间”的复数；“时氪”与“时刻”近音，氪、砹又都是化学元素用字。“砹”读ài，可与AI形成声音联想；这些是字词解读。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "一个个时刻的时间经验，连接交互积累",
+      "narrative_role": "R5",
+      "brand_story": "每一次使用都是一个学习时刻；许多微小的交互可以积累为成长。英文复数提供了“经验由很多瞬间组成”的叙事空间。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "成长变成日常时间；元素换字不说明研究元素科学",
+      "bilingual_relation": "英文普通时间词，中文氪砹近音改字增加读写成本",
+      "sources": [
+        {
+          "url": "https://momentsai.cn/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 105
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B070",
+      "name": "维度之门 / Dimension Gate",
+      "original_category": "current_ai",
+      "source_line": 106,
+      "primary_source": "S3",
+      "classification_basis": "科学维度和日常门",
+      "secondary_sources": [
+        "S1",
+        "S4"
+      ],
+      "meaning_and_origin_from_seed": "Dimension指维度，Gate指门，中英文直接对应。“维度”既有数学、物理含义，也常用于科幻中的不同空间；“门”是日常可感的入口。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "科学维度和日常门，连接可进入的新空间",
+      "narrative_role": "R2",
+      "brand_story": "打开新的观察方式、能力空间或未知世界。它给人探索邀请，也为未来业务保留空间。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "抽象概念获得入口；门不是技术实现的说明",
+      "bilingual_relation": "Dimension Gate与中文共享概念加入口",
+      "sources": [
+        {
+          "url": "https://dimension-gate.com/technology",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 106
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B071",
+      "name": "Kyutai",
+      "original_category": "current_ai",
+      "source_line": 112,
+      "primary_source": "S3",
+      "classification_basis": "球体这一几何对象词义",
+      "secondary_sources": [
+        "S2"
+      ],
+      "meaning_and_origin_from_seed": "日语球体读きゅうたい、指球形物体，词典本轮已读；Kyutai官网确认机构使命，尚未确认公司明确起名因果。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "球体这一几何对象词义，提供完整形状的入口",
+      "narrative_role": "R3",
+      "brand_story": "用开放研究构建更完整的智能能力。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "形状可成为独立称呼；不能由球体推断智能完备",
+      "bilingual_relation": "日语读音的罗马字，不是中文官方品牌，动机未确认",
+      "sources": [
+        {
+          "url": "https://kyutai.org/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 112
+        },
+        {
+          "url": "https://kyutai.org/",
+          "access": "body",
+          "reader": "A1",
+          "reading_scope": "首页26–41",
+          "supports": "机构与开放科学使命，不证明球体起名",
+          "checked_at": "2026-11-06"
+        },
+        {
+          "url": "https://kotobank.jp/word/%E7%90%83%E4%BD%93-477139",
+          "access": "body",
+          "reader": "A1",
+          "reading_scope": "大辞泉12–28",
+          "supports": "日语球体的词义与读音，不证明公司动机",
+          "checked_at": "2026-11-06"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B072",
+      "name": "智源 / BAAI",
+      "original_category": "current_ai",
+      "source_line": 113,
+      "primary_source": "S6",
+      "classification_basis": "智能源头和研究学院的身份",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "中文有智能源头的联想；BAAI来自Beijing Academy of Artificial Intelligence。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "智能源头和研究学院的身份，连接原创知识底座",
+      "narrative_role": "R3",
+      "brand_story": "成为原创智能思想与技术的源头。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "明确研究生态角色；源头主张不等于原创优先权证明",
+      "bilingual_relation": "中文角色意象与BAAI机构缩写分工",
+      "sources": [
+        {
+          "url": "https://www.baai.ac.cn/about-us",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 113
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B073",
+      "name": "BIGAI / 北京通用人工智能研究院",
+      "original_category": "current_ai",
+      "source_line": 114,
+      "primary_source": "S6",
+      "classification_basis": "通用人工智能的机构研究对象",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "来自Beijing Institute for General Artificial Intelligence的首字母，同时形成Big AI的视觉读法。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "通用人工智能的机构研究对象，连接公共学术身份",
+      "narrative_role": "R4",
+      "brand_story": "围绕通用智能形成系统研究。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "准确交代机构性质；BIG字形不等于具备通用性",
+      "bilingual_relation": "中文全称与英文机构首字母缩写",
+      "sources": [
+        {
+          "url": "https://www.bigai.ai/about/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 114
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B074",
+      "name": "Recursive Superintelligence",
+      "original_category": "rsi_labs",
+      "source_line": 139,
+      "primary_source": "S3",
+      "classification_basis": "递归机制把研究改进本身也放进改进过程",
+      "secondary_sources": [
+        "S6"
+      ],
+      "meaning_and_origin_from_seed": "英语“递归的”：一个过程以自身或同类结构继续展开。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "递归机制把研究改进本身也放进改进过程",
+      "narrative_role": "R5",
+      "brand_story": "让改进的方法本身也能够被改进。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "机制成为对智能的认识；递归不必然带来能力上升",
+      "bilingual_relation": "术语直接配Superintelligence，不另造中文品牌",
+      "sources": [
+        {
+          "url": "https://recursive.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 139
+        },
+        {
+          "url": "https://recursive.com/",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "官网描述Eureka Machine通过构思、实现、验证自动化科学方法，使发现成为后续发现的踏脚石。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B075",
+      "name": "Ricursive Intelligence",
+      "original_category": "rsi_labs",
+      "source_line": 140,
+      "primary_source": "S3",
+      "classification_basis": "recursive近形与芯片AI互相支撑",
+      "secondary_sources": [
+        "S6"
+      ],
+      "meaning_and_origin_from_seed": "对recursive（递归的）的拼写改写，加上Intelligence（智能）。  ·",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "recursive近形与芯片AI互相支撑，形成闭环机制",
+      "narrative_role": "R5",
+      "brand_story": "更好的AI设计更好的芯片，更好的芯片再支持更好的AI。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "名字与研究结构相接；Ri形成与读音仍需证据",
+      "bilingual_relation": "变体有专名感也带来近名混淆",
+      "sources": [
+        {
+          "url": "https://www.ricursive.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 140
+        },
+        {
+          "url": "https://radical.vc/portfolio/ricursive-intelligence/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 140
+        },
+        {
+          "url": "https://www.ricursive.com/",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "官网描述AI设计芯片、芯片支撑AI的闭环，以递归方式加速。未核实Ri的独立词源。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "变形、短化或融合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B076",
+      "name": "Sakana AI",
+      "original_category": "rsi_labs",
+      "source_line": 141,
+      "primary_source": "S2",
+      "classification_basis": "鱼群由简单互动形成复杂整体",
+      "secondary_sources": [
+        "S3"
+      ],
+      "meaning_and_origin_from_seed": "Sakana是日语“鱼”。公司公开借鱼群说明简单个体形成集体行为。  ·",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "鱼群由简单互动形成复杂整体，连接智能的组织方式",
+      "narrative_role": "R5",
+      "brand_story": "智能可以从简单个体的相互作用中长出来。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "表层是生命、深层是生成机制；不能把群体现象泛化为性能证据",
+      "bilingual_relation": "日语鱼的称呼进入英文品牌，不要求新中文名日式化",
+      "sources": [
+        {
+          "url": "https://sakana.ai/series-a/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 141
+        },
+        {
+          "url": "https://sakana.ai/dgm/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 141
+        },
+        {
+          "url": "https://sakana.ai/seed-round/",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "Sakana在日语中意为鱼；公司明确鱼群由简单规则形成整体，连接演化与集体智能研究；逆向红鱼代表探索自己的方向。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        },
+        {
+          "url": "https://sakana.ai/company-info/",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "Sakana在日语中意为鱼；公司明确鱼群由简单规则形成整体，连接演化与集体智能研究；逆向红鱼代表探索自己的方向。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        },
+        {
+          "url": "https://sakana.ai/seed-round/",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "官方起名说明5",
+          "supports": "日语鱼、鱼群简单规则形成整体和逆向红鱼的解释均明确。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B077",
+      "name": "Core Automation",
+      "original_category": "rsi_labs",
+      "source_line": 142,
+      "primary_source": "S6",
+      "classification_basis": "核心自动化的目标",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "Core是核心，Automation是自动化，合起来是“核心自动化”。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "核心自动化的目标，连接研究系统本身被自动化",
+      "narrative_role": "R3",
+      "brand_story": "把AI研究本身变成可自动运转的系统。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司讲对研究做什么；清楚也伴随通用词辨识局限",
+      "bilingual_relation": "普通英文工作目标组合",
+      "sources": [
+        {
+          "url": "https://www.coreauto.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 142
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B078",
+      "name": "Mirendil",
+      "original_category": "rsi_labs",
+      "source_line": 143,
+      "primary_source": "S5",
+      "classification_basis": "官网自释发现的朋友",
+      "secondary_sources": [
+        "S4"
+      ],
+      "meaning_and_origin_from_seed": "官网注19自释珍贵、隐藏和尚未发现宝藏的朋友，概括为发现的朋友；本轮不认定特定文学语言谱系。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "官网自释发现的朋友，连接未知宝藏与同行伙伴",
+      "narrative_role": "R2",
+      "brand_story": "科学发现可以是一场寻找未知珍宝的旅程，AI是旅程中的伙伴。专名留出想象空间；需要讲一次出处，用户才能进入第二层。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "可选择与发现同行而非掌控发现；不补虚构语言谱系",
+      "bilingual_relation": "专名与自定义释义配合，译义不是官方中文",
+      "sources": [
+        {
+          "url": "https://mirendil.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 143
+        },
+        {
+          "url": "https://mirendil.com/",
+          "access": "body",
+          "reader": "A1",
+          "reading_scope": "官网注19",
+          "supports": "自定义发现朋友释义，不证明特定文学语言",
+          "checked_at": "2026-11-06"
+        },
+        {
+          "url": "https://mirendil.com/",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "脚注19",
+          "supports": "官方自释发现的朋友；未说明出自某部文学作品，不补托尔金出处。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "变形、短化或融合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B079",
+      "name": "Discovery Loop",
+      "original_category": "rsi_labs",
+      "source_line": 144,
+      "primary_source": "S3",
+      "classification_basis": "发现目的与实验程序循环",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "Discovery是发现，Loop是环、循环。官网将科学实验描述为提出实验、执行、观察结果、再迭代的过程，并以自动化整个实验循环为目标。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "发现目的与实验程序循环，连接持续运转的科学过程",
+      "narrative_role": "R5",
+      "brand_story": "每次实验的结果成为下一次探索的起点。名字把一次性的灵感变成能持续运行、不断产生新发现的过程。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "从一次成果转成可重复系统；循环可能无效不保证越跑越强",
+      "bilingual_relation": "普通词组合成研究机制，不是任意两好词",
+      "sources": [
+        {
+          "url": "https://www.discoveryloop.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 144
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B080",
+      "name": "Inherent",
+      "original_category": "rsi_labs",
+      "source_line": 145,
+      "primary_source": "S6",
+      "classification_basis": "固有内在这一性质判断",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "内在的、固有的；描述事物自身包含的性质。  ·",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "固有内在这一性质判断，连接智能自身的创造能力",
+      "narrative_role": "R4",
+      "brand_story": "让发现和创造成为智能内在的能力。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "名字表达智能是什么；省略对象会增加理解成本",
+      "bilingual_relation": "性质词直接作机构身份",
+      "sources": [
+        {
+          "url": "https://inherentlabs.ai/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 145
+        },
+        {
+          "url": "https://radical.vc/portfolio/inherent/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 145
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B081",
+      "name": "Ndea",
+      "original_category": "rsi_labs",
+      "source_line": 146,
+      "primary_source": "S4",
+      "classification_basis": "希腊直觉和逻辑概念",
+      "secondary_sources": [
+        "S5",
+        "S3"
+      ],
+      "meaning_and_origin_from_seed": "官网35–38明确idea换n，借en noia/dia noia联系直觉理解与逻辑推理，并使用N ideas表达。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "希腊直觉和逻辑概念，连接深度学习与程序合成",
+      "narrative_role": "R4",
+      "brand_story": "把直觉与逻辑结合起来，创造更多新想法。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "改idea字母背后有认识论路线；思想解释需官方来源",
+      "bilingual_relation": "idea换n与N ideas及思想概念叠合",
+      "sources": [
+        {
+          "url": "https://ndea.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 146
+        },
+        {
+          "url": "https://ndea.com/",
+          "access": "body",
+          "reader": "A1",
+          "reading_scope": "35–38",
+          "supports": "官方希腊思想、idea改写、N ideas",
+          "checked_at": "2026-11-06"
+        },
+        {
+          "url": "https://ndea.com/",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "A New Research Lab35–38",
+          "supports": "官方说明idea换n与两种希腊思想概念、N ideas；可确认定义而非臆造词根。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "变形、短化或融合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B082",
+      "name": "Periodic Labs",
+      "original_category": "rsi_labs",
+      "source_line": 147,
+      "primary_source": "S3",
+      "classification_basis": "周期与元素周期表语境",
+      "secondary_sources": [
+        "S2"
+      ],
+      "meaning_and_origin_from_seed": "Periodic意为周期性的；也让人联想到periodic table，即元素周期表。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "周期与元素周期表语境，连接有秩序的反复发现",
+      "narrative_role": "R5",
+      "brand_story": "科学发现可以在一轮又一轮实验中加速。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "科学时间和知识结构共存；周期表不是已确认命名动机",
+      "bilingual_relation": "英文多义，Labs明确机构",
+      "sources": [
+        {
+          "url": "https://periodic.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 147
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B083",
+      "name": "After Labs",
+      "original_category": "rsi_labs",
+      "source_line": 148,
+      "primary_source": "S5",
+      "classification_basis": "之后这一时间位置",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "After是“之后、后来”，Labs是实验室；可自然理解为研究训练结束之后的事。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "之后这一时间位置，连接训练结束后的学习疆域",
+      "narrative_role": "R5",
+      "brand_story": "学习的故事在训练结束之后继续发生。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "日常时间词可打开研究问题；之后是什么仍需业务说明",
+      "bilingual_relation": "英文时间词不应硬译为功能名",
+      "sources": [
+        {
+          "url": "https://afterlabs.ai/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 148
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B084",
+      "name": "Trajectory",
+      "original_category": "rsi_labs",
+      "source_line": 149,
+      "primary_source": "S3",
+      "classification_basis": "物理与强化学习轨迹",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "轨迹、发展路径；在物理学和强化学习中都有完整含义。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "物理与强化学习轨迹，连接行动经历及发展路径",
+      "narrative_role": "R5",
+      "brand_story": "智能沿着真实经历形成自己的发展路径。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "把成长放在可积累经历中；有轨迹不自动会学习",
+      "bilingual_relation": "英文跨域同词，轨迹是释义",
+      "sources": [
+        {
+          "url": "https://www.trajectory.ai/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 149
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B085",
+      "name": "Plastic Labs",
+      "original_category": "rsi_labs",
+      "source_line": 150,
+      "primary_source": "S2",
+      "classification_basis": "材料可塑性与认知可塑性",
+      "secondary_sources": [
+        "S3"
+      ],
+      "meaning_and_origin_from_seed": "Plastic既可指塑料，也有“可塑、可被塑造”的意思，连接认知可塑性。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "材料可塑性与认知可塑性，连接经验改变结构",
+      "narrative_role": "R5",
+      "brand_story": "经验能够重新塑造智能的结构与习惯。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "智能可以被经验重塑；塑料的廉价联想也存在",
+      "bilingual_relation": "英文同词多义，中文难由一词覆盖",
+      "sources": [
+        {
+          "url": "https://plasticlabs.ai/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 150
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B086",
+      "name": "Letta",
+      "original_category": "rsi_labs",
+      "source_line": 151,
+      "primary_source": "S7",
+      "classification_basis": "简短专名先成为相处对象",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "本轮官网说明经验学习的智能主体，未见Letta词源；近似人名仅为语感分析。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "简短专名先成为相处对象，学习身份由研究叙事补足",
+      "narrative_role": "R1",
+      "brand_story": "一个持续存在、记得经历的智能伙伴。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "词源仍未知；不能因像人名就认定来自某个人",
+      "bilingual_relation": "不编中文品牌或潜在拉丁语源",
+      "sources": [
+        {
+          "url": "https://www.letta.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 151
+        },
+        {
+          "url": "https://www.letta.com/",
+          "access": "body",
+          "reader": "A1",
+          "reading_scope": "首页4/13",
+          "supports": "研究叙事，未见词源",
+          "checked_at": "2026-11-06"
+        },
+        {
+          "url": "https://www.letta.com/",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "首页4/13",
+          "supports": "确认研究与持续记忆方向；没找到名字词源，像人名是分析。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "具体来源未确认的专名",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "brand_context"
+    },
+    {
+      "id": "B087",
+      "name": "Engram",
+      "original_category": "rsi_labs",
+      "source_line": 152,
+      "primary_source": "S3",
+      "classification_basis": "神经科学记忆痕迹",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "神经科学中的“记忆痕迹”：经验在系统中留下可保留的印记。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "神经科学记忆痕迹，连接经验在系统留下改变",
+      "narrative_role": "R5",
+      "brand_story": "每一次经历都能留下未来可以调用的痕迹。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "专业机制与成长故事直接相接；痕迹不等于每次提升能力",
+      "bilingual_relation": "专业名词自立，中文为概念译法",
+      "sources": [
+        {
+          "url": "https://engram.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 152
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B088",
+      "name": "Integral AI",
+      "original_category": "rsi_labs",
+      "source_line": 153,
+      "primary_source": "S3",
+      "classification_basis": "数学积分与整体性同词",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "Integral有完整、不可或缺的意思，也与数学积分同形。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "数学积分与整体性同词，连接部分经验成为系统",
+      "narrative_role": "R4",
+      "brand_story": "把记忆、预测与行动连成一个智能整体。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "可以讲完整智能；不能据名字断定公司用某积分算法",
+      "bilingual_relation": "英文两义重叠，中文整体和积分并非同义",
+      "sources": [
+        {
+          "url": "https://www.integral.ai/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 153
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B089",
+      "name": "Mind Lab / Macaron",
+      "original_category": "rsi_labs",
+      "source_line": 154,
+      "primary_source": "S5",
+      "classification_basis": "机构心智研究与产品食物人格",
+      "secondary_sources": [
+        "S1"
+      ],
+      "meaning_and_origin_from_seed": "Mind Lab直译为心智实验室；Macaron是马卡龙，属于产品层的日常食物词。  ·",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "机构心智研究与产品食物人格，分担深度和亲近",
+      "narrative_role": "R1",
+      "brand_story": "机构研究心智，产品用日常称呼进入生活。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "品牌层级不必包办所有情绪；不能将马卡龙硬配记忆算法",
+      "bilingual_relation": "Mind Lab与Macaron为母产品关系而非翻译",
+      "sources": [
+        {
+          "url": "https://www.mindlab.im/updates/introducing-macaron-v1",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 154
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.09819",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 154
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B090",
+      "name": "Prime Intellect",
+      "original_category": "rsi_labs",
+      "source_line": 155,
+      "primary_source": "S5",
+      "classification_basis": "智力主体与prime品质",
+      "secondary_sources": [
+        "S3"
+      ],
+      "meaning_and_origin_from_seed": "Prime有首要、卓越之义，也有数学“素数”义；Intellect指智力、理智。  ·",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "智力主体与prime品质，连接高阶能力愿景",
+      "narrative_role": "R4",
+      "brand_story": "更多人可以拥有、训练和持续塑造自己的智能。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "不受某任务限制；素数只是次联想非已证实来源",
+      "bilingual_relation": "英文认知短语自立，不硬配中文",
+      "sources": [
+        {
+          "url": "https://www.primeintellect.ai/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 155
+        },
+        {
+          "url": "https://www.primeintellect.ai/blog/prime-agent",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 155
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B091",
+      "name": "Ineffable Intelligence",
+      "original_category": "rsi_labs",
+      "source_line": 156,
+      "primary_source": "S6",
+      "classification_basis": "未来知识超出言说的主张",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "Ineffable是难以言说、不可言传的；公司以此表达未来智能知识可能超出人类语言。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "未来知识超出言说的主张，连接从经验获得认识的智能主体",
+      "narrative_role": "R4",
+      "brand_story": "通过经验形成超出已有语言描述的知识。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司讲智能可能成为什么；思想厚度伴随生词传播成本",
+      "bilingual_relation": "英语研究命题，不冒充中文品牌",
+      "sources": [
+        {
+          "url": "https://www.ineffable.ai/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 156
+        },
+        {
+          "url": "https://www.ineffable.ai/",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "Beliefs47–57",
+          "supports": "官方用难以言说的知识解释Ineffable并陈述持续学习；这是公开主张而非已实现能力。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B092",
+      "name": "DarwinAI",
+      "original_category": "rsi_labs",
+      "source_line": 157,
+      "primary_source": "S4",
+      "classification_basis": "达尔文人物和演化谱系",
+      "secondary_sources": [
+        "S3"
+      ],
+      "meaning_and_origin_from_seed": "Darwin是达尔文的姓氏，AI是人工智能；名字把进化论带入智能研究。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "达尔文人物和演化谱系，连接适应选择的研究传统",
+      "narrative_role": "R5",
+      "brand_story": "智能像生命一样，通过演化寻找更合适的形态。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "人物带入整个理论世界；历史案例不是当前RSI市场席位证明",
+      "bilingual_relation": "科学人物姓氏加AI",
+      "sources": [
+        {
+          "url": "https://uwaterloo.ca/news/eng-breaking-free-internet-stand-alone-ai",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 157
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B093",
+      "name": "超衍智能 / Apex Intelligence",
+      "original_category": "rsi_labs",
+      "source_line": 163,
+      "primary_source": "S6",
+      "classification_basis": "超级衍生过程与Apex高点",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "创始人解释“超衍”来自超级衍生；Apex指顶点、尖端，Intelligence指智能。  ·",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "超级衍生过程与Apex高点，连接产生新能力的方向",
+      "narrative_role": "R5",
+      "brand_story": "通过持续衍生和改进，抵达新的能力高点。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "中英文分别讲形成与抵达；进阶仍须研究证明",
+      "bilingual_relation": "中文过程与英文高度共享主题不直译",
+      "sources": [
+        {
+          "url": "https://www.36kr.com/p/3967660006430340",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 163
+        },
+        {
+          "url": "https://www.apexin.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 163
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B094",
+      "name": "元环智能 / MetaCircle",
+      "original_category": "rsi_labs",
+      "source_line": 164,
+      "primary_source": "S3",
+      "classification_basis": "元层次与环结构",
+      "secondary_sources": [
+        "S2"
+      ],
+      "meaning_and_origin_from_seed": "Meta可表示“关于自身的”或更高层次的，Circle是圆、环；中文“元”也有本原、基本之义。官网提到用元模型设计模型，为Meta的自我研究含义提供了实际呼应。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "元层次与环结构，连接系统研究自身和反馈",
+      "narrative_role": "R5",
+      "brand_story": "研究模型的模型、改进研究的研究；一次实验的认识进入下一次实验，形成可积累的研究循环。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "可将自研究放进形状；通用元环字义不能各自编故事",
+      "bilingual_relation": "Meta元与Circle环共享构成，元另有本原义",
+      "sources": [
+        {
+          "url": "https://meta-circle.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 164
+        },
+        {
+          "url": "https://meta-circle.com/",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "AI for AI21–23",
+          "supports": "官网有meta models设计models，支持主题对应，不是已证实历史构词过程。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B095",
+      "name": "日行迹 / Analemma",
+      "original_category": "rsi_labs",
+      "source_line": 165,
+      "primary_source": "S2",
+      "classification_basis": "太阳年度同刻轨迹",
+      "secondary_sources": [
+        "S3"
+      ],
+      "meaning_and_origin_from_seed": "Analemma指固定地点、每天同一钟表时刻记录太阳位置，一年累积得到的日行迹，常呈8字形；与地轴倾斜和轨道偏心有关。“日行迹”是对应的天文名称。  ·",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "太阳年度同刻轨迹，连接时间积累后显现结构",
+      "narrative_role": "R5",
+      "brand_story": "每一天都留下经验，时间让规律逐渐显现。循环中有变化，重复观察也能带来新认识，这层含义很适合长期学习的品牌叙事。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "自然现象让长期性可见；经验积累是解读不是官方动机",
+      "bilingual_relation": "日行迹与Analemma指同一天文概念",
+      "sources": [
+        {
+          "url": "https://analemma.ai/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 165
+        },
+        {
+          "url": "https://www.36kr.com/p/3680086801936003",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 165
+        },
+        {
+          "url": "https://www.sii.edu.cn/2026/0304/c27a761/page.htm",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "77–80；另读36氪106–110与NASA APOD2002-07-09说明",
+          "supports": "上海创智学院确认日行迹/Analemma身份，原采访报道明确天文命名；NASA解释同地点同钟表时刻的太阳年度轨迹。时间积累→认识形成是品牌分析，不冒称团队自述动机。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B096",
+      "name": "镜智格物 / EverMind",
+      "original_category": "rsi_labs",
+      "source_line": 166,
+      "primary_source": "S4",
+      "classification_basis": "格物的知识传统与镜的映照",
+      "secondary_sources": [
+        "S1",
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "“镜”是映照，“智”指智能，“格物”指探究事物的道理；Ever有始终、长久之义，Mind是心智。中文公司与EverMind团队的关系见；聚焦长期记忆。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "格物的知识传统与镜的映照，连接长期记忆心智",
+      "narrative_role": "R4",
+      "brand_story": "经验被记住，智能便能在过去的基础上继续理解世界。中文构词为命名解读，EverMind不是“镜智格物”的逐字译名。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "中文给求知姿态、英文给持续心智；公司关系和起名动机分证据",
+      "bilingual_relation": "EverMind非镜智格物逐字译名",
+      "sources": [
+        {
+          "url": "https://m.sohu.com/a/1065813771_121123796",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 166
+        },
+        {
+          "url": "https://evermind.ai/zh/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 166
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B097",
+      "name": "无限镜元 / MirroS",
+      "original_category": "rsi_labs",
+      "source_line": 167,
+      "primary_source": "S1",
+      "classification_basis": "镜的日常映照关系",
+      "secondary_sources": [
+        "S3"
+      ],
+      "meaning_and_origin_from_seed": "“无限”指开放的尺度，“镜”让人想到映照，“元”有基本单元、元层次的联想；MirroS在拼写上接近mirror。世界模型及智能体—环境双向演化方向见。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "镜的日常映照关系，连接系统与环境互相更新",
+      "narrative_role": "R5",
+      "brand_story": "在可模拟的世界中探索，再让行动反馈改写对世界的认识；现实与模拟彼此映照。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "普通物件能打开世界模型关系；不能凭镜字断定架构",
+      "bilingual_relation": "MirroS接近mirror只是词形观察",
+      "sources": [
+        {
+          "url": "https://www.linkxcap.com/zh/portfolio/mirros.html",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 167
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B098",
+      "name": "奇点逃逸 / Antropy",
+      "original_category": "rsi_labs",
+      "source_line": 168,
+      "primary_source": "S3",
+      "classification_basis": "科学奇点的边界和逃逸动作",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "“奇点”横跨数学、物理与技术未来想象，“逃逸”是离开束缚；英文Antropy为，构词来源未确认。谈及可学习的Agent系统。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "科学奇点的边界和逃逸动作，连接越出既有能力范围",
+      "narrative_role": "R6",
+      "brand_story": "智能从既有能力范围中走出去，在行动、协作和反馈中寻找新的可能。这是品牌隐喻，不是物理过程的技术说明。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "讲越界而非单纯抵达一点；技术奇点不等于物理定理",
+      "bilingual_relation": "Antropy构词未确认，中文可独立分析",
+      "sources": [
+        {
+          "url": "https://www.linkxcap.com/zh/portfolio.html",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 168
+        },
+        {
+          "url": "https://www.36kr.com/p/3967334281631365",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 168
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B099",
+      "name": "元知进化 / CogEvol",
+      "original_category": "rsi_labs",
+      "source_line": 169,
+      "primary_source": "S5",
+      "classification_basis": "认识自己的认知与演化关系",
+      "secondary_sources": [
+        "S2"
+      ],
+      "meaning_and_origin_from_seed": "“元知”可唤起对认知本身的认识，“进化”给出变化方向；CogEvol可从cognition（认知）与evolution（进化）理解。官网强调人类与机器认知的协同进化。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "认识自己的认知与演化关系，连接人机互相改变",
+      "narrative_role": "R5",
+      "brand_story": "使用智能的过程也改变人的认识；人与机器都可以在交互中成长。英文拆词属于构词分析。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "成长可讲关系而非机器独自变强；元认知含义保持分析层",
+      "bilingual_relation": "CogEvol认知演化联想可解释但历史未确认",
+      "sources": [
+        {
+          "url": "https://cogevol.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 169
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B100",
+      "name": "深势科技 / DP Technology",
+      "original_category": "rsi_labs",
+      "source_line": 170,
+      "primary_source": "S3",
+      "classification_basis": "物理势与深度学习",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "“深”指向深层规律，也与深度学习呼应；“势”在物理中可指势能或势函数，日常又有趋势、潜力之义。官网以AI科学家及自主科学发现系统为研究目标。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "物理势与深度学习，连接表象下规律和未释放可能",
+      "narrative_role": "R2",
+      "brand_story": "通过学习发现表象下的规律，把尚未释放的可能转成科学发现。这里分析的是词义与研究的呼应。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "专业字有日常入口；深不说明层数，势不保证增长",
+      "bilingual_relation": "DP准确全称未重核，不反推中文来源",
+      "sources": [
+        {
+          "url": "https://www.dp.tech/about",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 170
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B101",
+      "name": "晶泰科技 / XtalPi",
+      "original_category": "rsi_labs",
+      "source_line": 171,
+      "primary_source": "S3",
+      "classification_basis": "晶体科学与电影冒险",
+      "secondary_sources": [
+        "S4"
+      ],
+      "meaning_and_origin_from_seed": "公司直接解释：Xtal来自早期用AI预测晶体结构的研究，Pi受电影《少年派的奇幻漂流》启发，寄托韧性、发现和探索未知。  ·",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "晶体科学与电影冒险，连接可计算结构和穿越未知",
+      "narrative_role": "R2",
+      "brand_story": "研究既需要精密计算，也需要穿越未知的耐心与勇气。一个技术起点可以长出超越具体业务的探索故事。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "科学与现代文化可同在一名；Pi不能想当然说成圆周率",
+      "bilingual_relation": "Xtal科学短化与Pi电影线索，官方帖子本轮仅搜索返回",
+      "sources": [
+        {
+          "url": "https://www.linkedin.com/posts/xtalpi_xtalpi360-xtalpistory-drugdiscovery-activity-7288590621512990721-b99u",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 171
+        },
+        {
+          "url": "https://www.xtalpi.com/en",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 171
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B102",
+      "name": "百奥几何 / BioGeometry",
+      "original_category": "rsi_labs",
+      "source_line": 172,
+      "primary_source": "S3",
+      "classification_basis": "生命与几何在分子形状功能上相遇",
+      "secondary_sources": [
+        "S2"
+      ],
+      "meaning_and_origin_from_seed": "Bio指生命、生物，Geometry指几何；中文“百奥”与Bio形成声音联系，“几何”则直接对应。官网将生成式模型用于生物分子的序列、结构和功能设计。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "生命与几何在分子形状功能上相遇，连接设计生命的研究",
+      "narrative_role": "R2",
+      "brand_story": "生命的功能与结构相连，理解形状也能帮助创造新的分子。名字把生命的复杂性变成可以理解和设计的问题。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "双学科有实体关系；不是任何两领域并列都成立",
+      "bilingual_relation": "Bio百奥近音，Geometry几何语义对应",
+      "sources": [
+        {
+          "url": "https://www.biogeom.com/zh/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 172
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B103",
+      "name": "智在无界 / BeingBeyond",
+      "original_category": "rsi_labs",
+      "source_line": 173,
+      "primary_source": "S6",
+      "classification_basis": "无界超越的研究姿态",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "中文把“智能”与“无边界”连接，也容易让人联想到“志在”的语感；Being有存在、存在者之义，Beyond是超越、在……之外。官网研究通用具身基础模型。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "无界超越的研究姿态，连接跨身体与任务的具身愿景",
+      "narrative_role": "R6",
+      "brand_story": "智能能够走进更多身体、任务与现实环境。名字表达长期探索的姿态，容得下未来研究路线。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "边界主张容纳未来；不等于无约束能力",
+      "bilingual_relation": "中文智在志在近音与BeingBeyond主题相接",
+      "sources": [
+        {
+          "url": "https://beingbeyond.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 173
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B104",
+      "name": "千寻智能 / Spirit AI",
+      "original_category": "rsi_labs",
+      "source_line": 174,
+      "primary_source": "S5",
+      "classification_basis": "持续寻找与精神心智",
+      "secondary_sources": [
+        "S4"
+      ],
+      "meaning_and_origin_from_seed": "“寻”是寻找，“千寻”可读出反复探寻的意味；Spirit是精神、灵魂，也可表示生命力。公司以机器人通用大脑为研究方向。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "持续寻找与精神心智，连接机器参与现实的追寻",
+      "narrative_role": "R2",
+      "brand_story": "不断寻找让机器理解世界、参与生活的方法。中英文共同营造有心智的伙伴形象，靠主题而非直译配对。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "中文称呼自然、英文赋机器主体性；不擅自归因电影",
+      "bilingual_relation": "千寻与Spirit共享主题非字面对等",
+      "sources": [
+        {
+          "url": "https://www.spirit-ai.com/about",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 174
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B105",
+      "name": "星动纪元 / RobotEra",
+      "original_category": "rsi_labs",
+      "source_line": 175,
+      "primary_source": "S2",
+      "classification_basis": "中文星辰宇宙与时代开启",
+      "secondary_sources": [
+        "S6"
+      ],
+      "meaning_and_origin_from_seed": "Robot是机器人，Era是时代；中文“星”给宇宙尺度，“动”给行动，“纪元”给时代开启的意味。官方宣传册使用“开创机器人新纪元”的表达。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "中文星辰宇宙与时代开启，连接机器行动进入新世界",
+      "narrative_role": "R6",
+      "brand_story": "让智能获得行动的身体，并把一次技术突破放进新时代的叙事。名字讲的是未来将发生什么。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "像新纪元的开端；宇宙修饰也可能空泛",
+      "bilingual_relation": "中文空间情绪、RobotEra直接时代，两边不同任务",
+      "sources": [
+        {
+          "url": "https://www.robotera.com/static/pc/default/images/cnStar.pdf",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 175
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    }
+  ],
+  "principles": [
+    {
+      "id": "P1",
+      "name": "先选择科技在人的世界里处于什么位置",
+      "claim": "名称可把科技放在前台成为原理与对象，也可借自然/文化解释科技，或让科技退到背景以生活关系进入。它们是不同品牌立场，不是一套术语等级。",
+      "positive_example": "Intel/Recursive把技术放前台；寒武纪/Oracle借外部世界；Apple/Cursor以生活对象进入。",
+      "counterexample": "只按有没有AI、芯、量子等词判断科技身份，会漏掉大量本组重要样本。",
+      "boundary": "普通对象不自动适合本项目；必须能与真实组织身份共同成立。"
+    },
+    {
+      "id": "P2",
+      "name": "来源世界与公司角色需要分别选择",
+      "claim": "从自然取材，并没有规定公司应讲成长；从科学取材，也没有规定必须表现冷硬。",
+      "positive_example": "同在自然类：寒武纪讲时代，Sakana讲组织与成长，Mistral讲动势和来处，日行迹讲时间结构。",
+      "counterexample": "把所有自然名统一解释成生命力，抹掉公司之间最有价值的差别。",
+      "boundary": "来源与角色可交叉，分类不是自动组合词的模板。"
+    },
+    {
+      "id": "P3",
+      "name": "研究场域里的名字在回答不同层级的问题",
+      "claim": "可以命名研究对象、形成能力的过程、面向的未知，或选择发展的价值方向。",
+      "positive_example": "Cognition回答研究何种心智；Recursive回答怎样改进；Midjourney回答身处何种旅途；SSI回答目标与约束。",
+      "counterexample": "把同一个业务说明改写成不同近义词，仍只停在功能层而未形成独立身份。",
+      "boundary": "这些只是本精选样本里的路径，数量不能推出全市场潮流或成败因果。"
+    },
+    {
+      "id": "P4",
+      "name": "双语可以共同建构世界，不必压成同一张词义表",
+      "claim": "中文和英文可各借一个知识世界，保持主题相容；也可共享对象或声音。",
+      "positive_example": "商汤/SenseTime分借历史与感知；月之暗面/Moonshot分借未知空间与挑战；SiliconFlow共享材料和运动。",
+      "counterexample": "只按其中一侧的主分类去解释另一侧，会把语义差异误当成译名错误。",
+      "boundary": "独立表达仍需诚实说明关系，不编官方词源、文化出典或确定读音。"
+    },
+    {
+      "id": "P5",
+      "name": "文化历史与科学知识是长期身份资源，不能缩成古文和术语二选一",
+      "claim": "人类理解未知的传统包括人物、诗歌、思想、实验方法、模型和物件；这些资源常在同一名字里相接。",
+      "positive_example": "Tesla/Hume借人物的思想前史；百度借寻找的情感；Ndea借认识论；第四范式借知识方法。",
+      "counterexample": "认为有文化厚度就必须古诗摘字，或有研究气质就只能数学符号，都会过早缩窄素材。",
+      "boundary": "历史或学术含量不是天然审美加分，需与名称实际角色一致。"
+    },
+    {
+      "id": "P6",
+      "name": "先建立可持续的公司身份，再决定用多少业务解释",
+      "claim": "机构可拥有一个比当前产品更大的世界；产品、子品牌和简介共同补足具体用途。",
+      "positive_example": "Anysphere/Cursor、月之暗面/Kimi、Mind Lab/Macaron把长期身份与日常入口分层。",
+      "counterexample": "强迫一个公司名同时交代技术机制、产品功能、用户体验和全部寓意，会丢失清楚身份。",
+      "boundary": "宽泛不是越大越好，未知专名也不免于定位判断。"
+    },
+    {
+      "id": "P7",
+      "name": "后续素材搜索应围绕多个知识世界并行展开",
+      "claim": "持续学习既涉及记忆与时间，也涉及反馈、组织、适应、认识与知识传承；同一业务可以选择不同大叙事。",
+      "positive_example": "本组用Engram、Discovery Loop、Plastic、Sakana、Mirendil分别打开不同世界，而非都叫进化。",
+      "counterexample": "只沿成长、递归、迭代等少数词根反复变形，产生的是一个家族的外形变化。",
+      "boundary": "本轮只给研究地图，不把这些已使用词或尚未阅读的领域当新候选。"
+    }
+  ],
+  "counterexamples": [
+    {
+      "id": "C1",
+      "error": "把样本所属场域当成命名来源",
+      "comparison": "广义科技/AI/RSI是研究集合；Sakana和寒武纪跨集合但同借自然，Recursive和Google跨集合但同借科学。"
+    },
+    {
+      "id": "C2",
+      "error": "把同一素材世界等同同一种品牌故事",
+      "comparison": "自然可以讲亲近、尺度、力量、组织或时间，不能统一翻译为成长。"
+    },
+    {
+      "id": "C3",
+      "error": "把构词方式当成来源方向",
+      "comparison": "Google科学来源用变形，Cisco地理来源用短化；造词不是与自然并列的知识世界。"
+    },
+    {
+      "id": "C4",
+      "error": "把双语主码当成两边唯一共同词源",
+      "comparison": "商汤/SenseTime、月之暗面/Moonshot、星海图/Galaxea分别有不同来源与证据边界。"
+    }
+  ]
+}

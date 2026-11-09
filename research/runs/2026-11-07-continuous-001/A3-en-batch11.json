@@ -1,0 +1,119 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T21:33:25.602505+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch11.md",
+      "sha256": "3f3abc758eb60d15aa81d2e578b0f91e55fc1f289b72a027fcfc6d5350d3b848"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-batch11.json",
+      "sha256": "64de497390eb70869fa0d2a0888a8842741ae13a9d8c63d997a9b35ae066ec70"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch11.json",
+      "sha256": "b2c6685ff15de05bfed817c0e54ce05bb671eb5c4026e2a2d63c8b1f44e9efc5"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch11.json",
+      "sha256": "6ef20031c966665951fa660fba1ac8f7bfda6ab516db7bba915069fa7b89ae83"
+    }
+  ],
+  "query_count": 8,
+  "results": [
+    {
+      "candidate_id": "C1-E11",
+      "name": "Factborne",
+      "query_logs": [
+        {
+          "query": "\"Factborne\"",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+        },
+        {
+          "query": "\"Factborne\" company lab",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+        },
+        {
+          "query": "\"Factborne\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+        },
+        {
+          "query": "\"Factborne\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+        },
+        {
+          "query": "\"Fact Borne\"",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+        },
+        {
+          "query": "\"Factborn\"",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+        },
+        {
+          "query": "\"Fact Born\" company software",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+        },
+        {
+          "query": "\"Factborn\" company AI software",
+          "executed_on": "2026-11-07",
+          "summary": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。"
+        }
+      ],
+      "decision": "public_use_screen_pass",
+      "reason": "八组查询未确证同核心商业品牌、公司、AI模型或独立软件。精确factborne命中是普通a fact borne out丢空格，Factborn近形是研究代码内部变量或播客转录碎片；均非实际命名主体。通过仅公开使用初筛，不承诺注册或英语语感质量。",
+      "evidence": [
+        {
+          "url": "https://timesofindia.indiatimes.com/city/hyderabad/pw-sets-terms-for-oppn-parties/articleshow/336311.cms",
+          "access": "primary_news_body_read",
+          "finding": "2003新闻正文L174显示A factborne out by the reality…，前后多处丢空格，如heartlandwith，明确语句而非Factborne商业机构。"
+        },
+        {
+          "url": "https://cp3.irmp.ucl.ac.be/projects/madgraph/attachment/wiki/GIFSchool/HiggsGG-NLO.nb",
+          "access": "search_index_code_extract_read_open_timeout",
+          "finding": "Mathematica notebook L226 factborn=gs2，随后用于Born表达式，是内部变量，不是独立软件Factborn；直接打开超时，读取范围仅索引代码。"
+        },
+        {
+          "url": "https://www.buzzsprout.com/2567929/episodes/18847716-forkortelser-ai-assistenter-og-refleksjoner",
+          "access": "search_index_transcript_extract_only",
+          "finding": "北欧语言播客6:16转录句中factborn，节目自身名称Forkortelser, AI-assistenter og refleksjoner；无独立Factborn商业品牌证据。"
+        },
+        {
+          "url": "https://www.cmsdistribution.com/vendors/rocket-software",
+          "access": "search_index_body_extract_only",
+          "finding": "Rocket Software厂商介绍a fact born out by…普通语句，不是Fact Born软件品牌。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Factborne",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      },
+      "chinese_candidate_id": "C1-C14",
+      "chinese": "作数",
+      "version": "first_english_rework_attempt1",
+      "precise_use_type": "no_confirmed_same_core_public_technology_or_commercial_brand_found"
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。"
+}

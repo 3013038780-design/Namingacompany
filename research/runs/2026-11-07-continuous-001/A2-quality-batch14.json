@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T11:43:00.965295+08:00",
+  "scope": "producer数字另档，主控先独评封存",
+  "reviews": [
+    {
+      "candidate_id": "C1-C27",
+      "name": "橡皮鸭",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "既有三字物件称呼，一听能复述，不是残句",
+          "counter_association": "橡皮有时先想到文具而非材质"
+        },
+        "distinctiveness": {
+          "reason": "有明确小鸭桌面画面，严肃科技中有记点",
+          "counter_association": "玩具俗称本身并非独创"
+        },
+        "lab_fit": {
+          "reason": "计算文化里可识别的思考伙伴，能承载人机协作研究",
+          "counter_association": "非程序员可能先想到洗浴或儿童玩具"
+        },
+        "grounding": {
+          "reason": "实际书籍两页和教师正文都支持无言听众/显式解释关系",
+          "counter_association": "实践经验不是因果效果实验"
+        },
+        "extension": {
+          "reason": "可容纳辅助思考、协作与研究工具，而不只某个模型",
+          "counter_association": "若仅剩调试就过窄"
+        },
+        "semantic_coherence": {
+          "reason": "所有层围绕同一对象承接解释者思考条件",
+          "counter_association": "不能突然赋予鸭子思考/自主学习能力"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

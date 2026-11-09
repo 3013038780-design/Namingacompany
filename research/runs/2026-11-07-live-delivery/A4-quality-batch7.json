@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T16:47:15+08:00",
+  "reviews": [
+    {
+      "candidate_id": "LD-E11",
+      "chinese_id": "LD-C07",
+      "english": "Daimaji",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个清楚开放音节，可顺口称呼。",
+          "counter_association": "dai可能首次读day，需固定dye。"
+        },
+        "spelling": {
+          "reason": "七字母，daima/ji便于分段记。",
+          "counter_association": "英语听写可能把dai写作die。"
+        },
+        "formation": {
+          "reason": "真实中文拼音的明确人为缩形，没有伪造外语义。",
+          "counter_association": "去掉sheng和鼻尾，不是完整拼音。"
+        },
+        "bilingual_relation": {
+          "reason": "声音身份来自同一完整中文品牌。",
+          "counter_association": "英文独立不包含科学字面义。"
+        },
+        "distinctiveness": {
+          "reason": "整体短且有机构专名感，可容纳未来多个产品。",
+          "counter_association": "可能被先当作人名。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑意见，待主控独评和原A3；本中文不再有额外英文返工额度。"
+    }
+  ]
+}

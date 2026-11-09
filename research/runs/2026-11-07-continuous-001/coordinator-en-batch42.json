@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-09T00:56:01.028801+08:00",
+  "independence": "Read producer preview batch42 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C52",
+      "name": "Sortie",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个短音节节奏清楚可直接作为称呼且词典读法有据",
+          "counter_association": "词典另一重音也存在应统一建议"
+        },
+        "spelling": {
+          "reason": "完整既有词没有硬改但法语ie结尾需介绍",
+          "counter_association": "可能从听音写成Sorty"
+        },
+        "grounding": {
+          "reason": "词典飞机任务或外出义与真实试飞任务处于同一关系",
+          "counter_association": "军事出击第一义真实不能温和化"
+        },
+        "bilingual_relation": {
+          "reason": "中文参与者和英文任务为主题配对不是全部sortie都等于试飞",
+          "counter_association": "没有说每次飞行任务都获有效研究成果"
+        },
+        "distinctiveness": {
+          "reason": "短完整词能形成清楚的行动称呼且非功能长句",
+          "counter_association": "军事航空游戏或户外品牌首感强"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E44"
+    }
+  ]
+}

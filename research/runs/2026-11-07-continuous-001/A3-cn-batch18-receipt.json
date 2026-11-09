@@ -1,0 +1,54 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese screening",
+  "executed_at": "2026-11-08T13:23:03.757302+08:00",
+  "candidate_id": "C1-C29",
+  "decision": "reject_exact_named_game_software_use",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch16.md",
+      "sha256": "6e553c6779a0a2fb3dc0626ef0d302bc869180276bc90bd9e8f210faa45617d9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch16.json",
+      "sha256": "eee1500c74c7f4637e589f6196a4257d36c959d2daabdd4dab434ad5c8a65668"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch16.json",
+      "sha256": "6a48f596dad549e17c77949341bbe7041ffae26c6e4f0f8c8e0dce5d0977be83"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension15.json",
+      "sha256": "ad5ea5eb8a063d85b91e08ea92a1457d00a4e86c375135b0c73b9e3e814bc432"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch16.json",
+      "sha256": "33e0866e4619f9e8ea7e19841b59233bf773536221ed854afbc75a95779b5801"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch16.json",
+      "sha256": "f654137e034211dc5ad9d097c2e46ad9fd591d88f141b21e3e5457f6d3f6cfee"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch18.md",
+      "sha256": "ae7ad78d57ef7a449152eae8d17b48caddfc9a4923db987f8969497c59577783"
+    },
+    {
+      "path": "A3-cn-batch18.json",
+      "sha256": "730fbfa05bfbc86f62787a1fc5fdeeb712aad7d34e4a47d934fd5d8a3ec94592"
+    }
+  ],
+  "actual_new_candidate_queries": 8,
+  "actual_new_chinese_queries": 8,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 329,
+  "agent3_cumulative_candidate_queries": 337,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 339,
+  "actual_execution": "实际读候选/素材/双评/家族，八查询并核TapTap开发者作品正文、石蒜智算官网。区分作品软件名、普通动词、同拼音异字与缓存法人差异。",
+  "next": "中文0通过交原A4真实零匹配，再同A3英文零核；不擅配英文。",
+  "unchanged": "旧Actor、总库、Git保持；无用户通知/外部网页全文。"
+}

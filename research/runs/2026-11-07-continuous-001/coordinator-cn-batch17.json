@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-08T13:29:05.299853+08:00",
+  "independence": "Read producer preview batch17 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C30",
+      "name": "言有所为",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "四字主谓结构完整顺口可作为称呼",
+          "counter_association": "也像活动标题和宣传句"
+        },
+        "distinctiveness": {
+          "reason": "言这个主角与行动角色相接比泛智能口号可辨",
+          "counter_association": "有所为较常见不自动独特须查市场使用"
+        },
+        "lab_fit": {
+          "reason": "语言与行动的直接联系可承载语言模型智能体与认识研究身份",
+          "counter_association": "公益组织或语言培训是现实混淆风险但不排除机构身份"
+        },
+        "grounding": {
+          "reason": "所读Austin原文节选确证合适情境中发言本身可构成承诺等行动",
+          "counter_association": "四字是编辑凝练不是原文古语或官方译名"
+        },
+        "extension": {
+          "reason": "主张可容纳多种语言行动研究而非锁定单一工具",
+          "counter_association": "不能许诺说话即改变世界或调用必然成功"
+        },
+        "semantic_coherence": {
+          "reason": "言与所为共享同一情境行动关系并未分别堆好寓意",
+          "counter_association": "必须保留约定权限情境条件不能退化成说到做到"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

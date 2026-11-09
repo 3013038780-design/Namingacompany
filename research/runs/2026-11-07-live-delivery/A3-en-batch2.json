@@ -1,0 +1,126 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T16:42:40.443978+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A4-preview-batch2.md",
+      "sha256": "e647457d6e7f635b83e3aff300e7218a75377e7602c08e0f74554b74580934e1"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/A4-quality-batch2.json",
+      "sha256": "3aa7dbfdef25ad1ab45bbd1c3547855d428824651f2bbc66cd8506470674717d"
+    },
+    {
+      "path": "research/runs/2026-11-07-live-delivery/coordinator-en-batch2.json",
+      "sha256": "81a6114b7b918fcc2f97b5bc3f49505a75dd3916a6597b2ff261101f509cd601"
+    }
+  ],
+  "results": [
+    {
+      "candidate_id": "LD-E03",
+      "chinese_candidate_id": "LD-C01",
+      "name": "Invercade",
+      "chinese": "逆级联",
+      "version": 2,
+      "decision": "return_for_alternative",
+      "reason": "西班牙INVERCADE GESTION SL在2009官方登记中明确，业务为财务/税务咨询，是跨行业核心名使用；不标同名科技公司。主控可另配以避免已存在企业核心名。",
+      "query_logs": [
+        {
+          "category": "exact_no_industry",
+          "query": "\"Invercade\"",
+          "executed_on": "2026-11-07",
+          "summary": "返回西班牙金融税务咨询公司及历史官方登记。"
+        },
+        {
+          "category": "company_lab",
+          "query": "\"Invercade\" company lab",
+          "executed_on": "2026-11-07",
+          "summary": "返回西班牙金融税务咨询公司及历史官方登记。"
+        },
+        {
+          "category": "AI_model",
+          "query": "\"Invercade\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "返回西班牙金融税务咨询公司及历史官方登记。"
+        },
+        {
+          "category": "software_product",
+          "query": "\"Invercade\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "返回西班牙金融税务咨询公司及历史官方登记。"
+        },
+        {
+          "category": "variants",
+          "query": "\"Inver Cade\" OR \"Inver-cade\"",
+          "executed_on": "2026-11-07",
+          "summary": "返回西班牙金融税务咨询公司及历史官方登记。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2009-53-28",
+          "status": "official_body_opened",
+          "finding": "官方BORME 136699列INVERCADE GESTION SL成立、2009-02-23运营起点和财务/税务/会计咨询业务。非科技行业。"
+        }
+      ]
+    },
+    {
+      "candidate_id": "LD-E04",
+      "chinese_candidate_id": "LD-C02",
+      "name": "Negentia",
+      "chinese": "负熵流",
+      "version": 2,
+      "decision": "reject",
+      "reason_code": "EXACT_TECH_USE",
+      "reason": "Negentia官网明确同名AI银行/气候风险基础设施，属于现有同名科技服务；法律页自称公司并说明登记办理中，否决依据是实际使用而非已完成登记。",
+      "query_logs": [
+        {
+          "category": "exact_no_industry",
+          "query": "\"Negentia\"",
+          "executed_on": "2026-11-07",
+          "summary": "Negentia官网和其发布页确认同名AI支撑的银行基础设施。"
+        },
+        {
+          "category": "company_lab",
+          "query": "\"Negentia\" company lab",
+          "executed_on": "2026-11-07",
+          "summary": "Negentia官网和其发布页确认同名AI支撑的银行基础设施。"
+        },
+        {
+          "category": "AI_model",
+          "query": "\"Negentia\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "Negentia官网和其发布页确认同名AI支撑的银行基础设施。"
+        },
+        {
+          "category": "software_product",
+          "query": "\"Negentia\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "Negentia官网和其发布页确认同名AI支撑的银行基础设施。"
+        },
+        {
+          "category": "variants",
+          "query": "\"Negen Tia\" OR \"Negent-ia\" company",
+          "executed_on": "2026-11-07",
+          "summary": "Negentia官网和其发布页确认同名AI支撑的银行基础设施。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.negentia.com/",
+          "status": "primary_body_read",
+          "finding": "品牌Negentia；Une infrastructure dédiée段明确AI推理支撑银行风险/融资基础设施，另有软件化融资计算演示。"
+        },
+        {
+          "url": "https://www.negentia.com/mentions-legales.html",
+          "status": "primary_body_read",
+          "finding": "L10–12列Negentia公司，资本1000欧元、图卢兹地址并写en cours d’immatriculation，不称官方已登记。"
+        }
+      ]
+    }
+  ],
+  "query_count": 10,
+  "passed_english_candidate_ids": [],
+  "claim_limits": "公开使用初筛不等于全球无使用或公司/商标可注册。"
+}

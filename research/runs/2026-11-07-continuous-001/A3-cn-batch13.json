@@ -1,0 +1,143 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T10:51:25.804279+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch11.md",
+      "sha256": "aa769f6d5d00c599be624290f8cc900646834b5980e05d162c63c86b2cfe91cc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch11.json",
+      "sha256": "76af2b122af8c2f5dfd7e3ded9e08559393182082f0ebd8bb483092ef72a1eec"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch11.json",
+      "sha256": "bd1113119914f52a398f9d634a1ae62c2f9278162bf096534aba1e6a24070209"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension10.json",
+      "sha256": "46b79ce31367a23388ba13910cf7aaa15ce69c8a824b16f7f2039027d376090b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch11.json",
+      "sha256": "b6efc93956396ce283b8097ef55ad096ba9a651ef6a8075a61b1a960743c3911"
+    }
+  ],
+  "query_count": 12,
+  "results": [
+    {
+      "candidate_id": "C1-C24",
+      "name": "复证",
+      "query_logs": [
+        {
+          "query": "\"复证\"",
+          "executed_on": "2026-11-08",
+          "summary": "主要是资质复证/续证、古籍/医学与普通再次证明文本，没有独立商业核心名确证。"
+        },
+        {
+          "query": "\"复证科技\"",
+          "executed_on": "2026-11-08",
+          "summary": "科技协会目录、金证科技批复等拆字/跨段命中，未发现复证科技主体。"
+        },
+        {
+          "query": "\"复证智能\"",
+          "executed_on": "2026-11-08",
+          "summary": "AI与金融证据文章/专利普通用法，未证复证智能品牌。"
+        },
+        {
+          "query": "\"复证\" 公司",
+          "executed_on": "2026-11-08",
+          "summary": "公司证书复审与复星/复洁等异核心文本，未确证同名公司。"
+        },
+        {
+          "query": "\"复证\" AI 模型 软件",
+          "executed_on": "2026-11-08",
+          "summary": "模型发布/AI工具/证据专利一般复验用语，未发现复证命名模型或软件。"
+        },
+        {
+          "query": "\"複證\" 公司 軟體",
+          "executed_on": "2026-11-08",
+          "summary": "繁体主要證券複委託及认证文书内容，未证複證独立品牌。"
+        },
+        {
+          "query": "\"fuzheng\" technology AI",
+          "executed_on": "2026-11-08",
+          "summary": "FUZHENG显示模组品牌及研究者人名；必须核中文后再分辨，不能自动等于复证。"
+        },
+        {
+          "query": "\"复证\" 品牌 产品",
+          "executed_on": "2026-11-08",
+          "summary": "品牌检索主要复真/可复美等异名与质量复证评审，不属同核心。"
+        },
+        {
+          "query": "\"复证\" \"有限公司\"",
+          "executed_on": "2026-11-08",
+          "summary": "有限公司主要培训/取复证项目与批复证监文本，未见复证字号。"
+        },
+        {
+          "query": "\"复证\" \"科技\" \"品牌\"",
+          "executed_on": "2026-11-08",
+          "summary": "宝骅GC复证评审、复洁科技新闻和企业命名研究，不是复证品牌。"
+        },
+        {
+          "query": "\"复证\" \"模型\" \"名称\"",
+          "executed_on": "2026-11-08",
+          "summary": "量化平台文档复证为验证动作及专利过程，非名为复证的模型。"
+        },
+        {
+          "query": "\"深圳\" \"FUZHENG\" \"光电\"",
+          "executed_on": "2026-11-08",
+          "summary": "定向拼音主体中文确为富正光电，异字；官网正文已打开确认。"
+        }
+      ],
+      "decision": "public_use_screen_pass",
+      "reason": "12组实际查询覆盖精确/公司科技AI模型软件/繁体/拼音和核心后缀，未确证复证同核心商业公司或模型软件；证书复证及科研复核是通用过程。FUZHENG实际科技品牌中文富正，记录拼音风险，不误称复证同名。仅公开使用初筛，官方登记未核完。",
+      "evidence": [
+        {
+          "url": "https://yjglj.sh.gov.cn/wsbs/bmbw/20221114/bf9f737278794f78975615730308b764.html",
+          "access": "government_body_read_generic_process",
+          "finding": "L4咨询网上考试复证，L8答可参加复审；为操作证复审通用过程，不是独立公司/产品品牌。"
+        },
+        {
+          "url": "https://fzlcddisplay.com/",
+          "access": "primary_company_body_read_different_chinese",
+          "finding": "L4官方页标深圳市富正光电有限公司/FUZHENG；L9–34为TFT-LCD/OLED模组业务。与复证同拼音但字不同；不冒称复证科技占用。"
+        },
+        {
+          "url": "https://tftdisplaymodule.com/",
+          "access": "primary_company_body_read_pinyin_risk",
+          "finding": "L2、31–34、115为SHENZHEN FUZHENG PHOTOELECTRIC及显示器模组研发生产说明；只确证公开品牌/业务，不把性能或官方登记状态当已核准。"
+        },
+        {
+          "url": "https://yqylrq.com/",
+          "access": "search_only_open_502",
+          "finding": "索引为南通源泉压力容器质量体系复证审核通过，打开502；本身呈现复审事件，未作为独立品牌或无占用证明。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07已实际403共同入口，非本次新访问；未逐名官方登记。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07入口403，未逐名9/42商标核验。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Fuzheng",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      },
+      "chinese_pass_does_not_clear_english": "Fuzheng同拼音已见实际显示模组品牌，英文须独立匹配筛查。"
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "passed_chinese_candidate_ids": [
+    "C1-C24"
+  ]
+}

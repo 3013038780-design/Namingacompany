@@ -1,0 +1,77 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T05:38:30.323080+08:00",
+  "candidates": [
+    {
+      "id": "C1-C60",
+      "name": "火芯",
+      "pinyin": "huǒ xīn",
+      "material_id": "C1-M74",
+      "material_ids": [
+        "C1-M74"
+      ],
+      "family_id": "C1-BF-wick-as-enabling-core-of-flame",
+      "plan_direction_id": "C1-D-S1",
+      "case_ids": [
+        "B025",
+        "B028",
+        "B010"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Michael Faraday: The Chemical History of a Candle, edited by William Crookes (PG14474, 1908 impression)",
+          "url": "https://www.gutenberg.org/cache/epub/14474/pg14474-images.html",
+          "reading_location": "实际读L3–40书目/版本；第一讲L83–113日常物件入口、L123–140芯的毛细供料与燃料状态；另由find实际读第二讲L180–192蜡蒸气及空气反应段。未通读第一讲、第二讲或全书，未实看插图/复现实验。",
+          "read_at": "2026-11-09T05:38:30.323080+08:00",
+          "access": "body",
+          "source_type": "primary_science_lecture_book_excerpt",
+          "published_at": "1908（此印本封面）；PG2004发布/2026-10-20更新为电子版记录，不是新研究新闻",
+          "reading_scope": "specified_excerpts_across_lecture_I_and_II",
+          "book_id": "Faraday_Candle_PG14474_1908",
+          "boundary": "以原作者演示叙述为历史科学正文，不能把19世纪所有气体/蒸气分类或修辞当完整现行模型。芯供给燃料，燃烧还依赖燃料与空气；芯不是能量凭空来源，也不是最热的火焰中心。"
+        }
+      ],
+      "source_urls": [
+        "https://www.gutenberg.org/cache/epub/14474/pg14474-images.html"
+      ],
+      "formation": "先写浸润芯把燃料带到火焰反应部位，再将这个供料物件与所支撑的火焰凝为火芯。两字同在一个具体装置关系里，不用火代表流量爆红、芯代表芯片各编好寓意；不是原文现成中文术语，也不宣称首造或可用。",
+      "relation_sentence": "芯组织燃料的到达，使火焰在具备空气与热等条件时能够维持。",
+      "condensation_path": "先写浸润芯把燃料带到火焰反应部位，再将这个供料物件与所支撑的火焰凝为火芯。两字同在一个具体装置关系里，不用火代表流量爆红、芯代表芯片各编好寓意；不是原文现成中文术语，也不宣称首造或可用。",
+      "meaning": "研究让行动发生的内部条件。",
+      "crossing": "一个日常小部件把燃料带到可发生反应的位置，供料、热与空气条件共同支撑火焰。",
+      "layers": [
+        "一个可叫出的火与供料芯的整体形象",
+        "小结构通过组织条件支持另一种可见活动",
+        "研究使系统可行动的条件，不是保证任何模型变强的产品承诺"
+      ],
+      "material_feature_retained": "保留芯/燃料通路对火焰的具体支持角色，不把芯当燃料能量本源",
+      "material_feature_lost": "省去毛细细节、燃料气化/空气条件与装置限制；名字不等于芯片业务、最热中心或无尽燃烧。",
+      "why_name_not_generic": "先写浸润芯把燃料带到火焰反应部位，再将这个供料物件与所支撑的火焰凝为火芯。两字同在一个具体装置关系里，不用火代表流量爆红、芯代表芯片各编好寓意；不是原文现成中文术语，也不宣称首造或可用。",
+      "shortcoming": "电子烟芯、点火器、芯片/电池或香薰器物首感，火灾/过热联想；火心/火新等听写风险。广义科技Lab身份需独评，不因书有名或芯有科技联想就补过。",
+      "science_boundary": "火芯是本轮基于烛芯供料角色的品牌凝练，英文原文使用wick，没有直接给出中文火芯或证明此为正式科学器件名；不把芯=芯片作为已读词源，也不保证持续增强。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "实际核旧递火CT-C16原稿：薪火在不同载体之间传递能力/点燃别处，本项为同一燃烧装置内的燃料通路，不借火种传承/文明口号。旧星尘炉C24为恒星核聚变与元素循环，曾修正吸积盘加热错误；本项是化学燃烧及毛细供料，不说分散输入都变成更强能量，也不把燃烧/聚变混用。旧雾针C40只取捕获入口，整体另有非对称孔/毛细沟槽，本项取浸润芯的燃料供给和反应条件；不是换动物再做集雾捕获。旧原语/底座的泛支撑角色也不能单独证明新族，必须保留具体芯/燃料通路。 实际历史精确串扫描无命中；不是市场检索。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是火芯，做人工智能研究。",
+        "火芯发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened"
+    }
+  ],
+  "scope": "一个已读日常物件关系先交可审小包，不为两案扩弱稿；未查使用或配英文。"
+}

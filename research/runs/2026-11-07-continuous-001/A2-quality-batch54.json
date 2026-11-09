@@ -1,0 +1,53 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T13:57:36.266156+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-C63",
+      "name": "消息串门",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "消息与串门共享同一个到访动作，四字整句式称呼可读可复述，没有生僻字或程序缩写，拟人也符合日常汉语",
+          "counter_association": "并非现成词，初听像一条社交功能说明；四字比短词更需定名习惯"
+        },
+        "distinctiveness": {
+          "reason": "一条消息来串门有完整具体小场景，画面比泛信息流/智能平台明确，也有容易复述的轻巧声调",
+          "counter_association": "资讯/聊天领域消息类词很多，画面清楚不代表未被商业使用；尚未查"
+        },
+        "lab_fit": {
+          "reason": "信息这一明确计算对象获得行动形象，能承载进程通信/系统交互的研究身份，不是家居物件本身或纯文化栏目",
+          "counter_association": "第一眼也可能像社交App/社区消息或快递工具，若研究主体身份仅靠长手册才能出现，应独立拒绝"
+        },
+        "grounding": {
+          "reason": "开发者原文直接区分异步到达、入队与receive取用；消息主角和串门动作从同一真实对象关系中凝练，条件限制另列完整",
+          "counter_association": "原文无中文消息串门，不是真有小人访问进程；门口等待仅比喻，不能暗示消息任意游走或送达保证"
+        },
+        "extension": {
+          "reason": "信息在独立行动者之间建立联系可以容纳长期系统/智能研究，而非单一通知接口名称",
+          "counter_association": "若品牌叙事只做聊天提醒，会把公司收窄成通讯产品；不自动含模型学习或变强"
+        },
+        "semantic_coherence": {
+          "reason": "主角消息与动作串门处在同一到达他处、等待被取用的场景，不把两字词各讲吉祥寓意",
+          "counter_association": "串门的人有自主意图，程序消息没有；不得由拟人推出AI有意愿或越权访问合理"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ],
+  "qualified_candidate_ids": [
+    "C1-C63"
+  ],
+  "boundary": "无分预览/素材/执行先交后写独立数字，未看主控本包分数。主控须独立品牌与家族审，不因第一手文档或四字形式而自动保留。"
+}

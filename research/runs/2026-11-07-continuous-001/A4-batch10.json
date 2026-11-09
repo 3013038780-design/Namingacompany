@@ -1,0 +1,41 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "submitted_at": "2026-11-07T21:26:22.370871+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch4.json",
+      "sha256": "957bf8655fc641d800ed4929e7fcfc65e307d461c4ca379e068325b10b0fa813"
+    },
+    {
+      "path": "materials-extension4.json",
+      "sha256": "2b90619996a1920932e9dd0a261a4a6d8fa9bb3e20633f18bc310409c0257eba"
+    },
+    {
+      "path": "A3-cn-batch5.json",
+      "sha256": "68decdd14702ea14101fa2ed22e3c373328eeeb0db85c37d2ff9bccc9eeeeb08"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E10",
+      "chinese_id": "C1-C14",
+      "chinese": "作数",
+      "english": "Bear Out",
+      "suggested_pronunciation": "BEAR OUT，/ˌber ˈaʊt/，两个音节。",
+      "type": "既有英语短语动词",
+      "formation": "bear out是完整既有表达，指证实、为某项主张提供支持。Merriam-Webster词条以理论得到数据支持为例；本案不把bear拆成熊、把out拆成向外再造寓意。",
+      "bilingual_relation": "作数表示结果有效、能当回事；Bear Out表示主张得到证据支持。中文说结果是否有效采用，英文说能力主张是否经得起实际结果支持，共同依靠真实结果，不是逐字翻译。",
+      "meaning": "比完成一个动作更进一步，追问它的结果能否支持所声称的能力。可以承载一个以实验与结果为基础的AI研究立场：让所说的能力，在实际任务上作数。",
+      "shortcoming": "作为短语动词通常带宾语，单作公司名有省略感；初听可能想到熊或听写成bare out，口语说明需使用完整两词。本身仍是普通表达，独立辨识度有限，也可能像验证工具公司。不能把这些问题靠实验室后缀消除。",
+      "boundary": "该词不意味着所有主张均被证实，更不意味着公司永远正确。DOE资料是协商选定项目的未来研究目标，不是已经完成的性能事实；Bear Out是品牌选取的现有英语表达，并非DOE项目名称。",
+      "source_urls": [
+        "https://www.energy.gov/science/articles/doe-announces-four-national-laboratory-led-selections-advance-robotics-and",
+        "https://www.merriam-webster.com/dictionary/bear%20out"
+      ],
+      "read_scope": "本人实际打开DOE正文并读L10–30，重点DART对动作完成与科学结果满足实验要求的区分（17–18行）及协商边界（30行）；实际读Merriam-Webster bear out词条31–42行释义与数据支持理论的例句。未通读项目技术报告或词源史。",
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

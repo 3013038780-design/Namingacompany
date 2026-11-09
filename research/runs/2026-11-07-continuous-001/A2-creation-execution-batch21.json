@@ -1,0 +1,147 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-08T19:13:15.638345+08:00",
+  "stage": "same_run_bounded_package_batch21",
+  "input_refs": [
+    {
+      "path": "README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567"
+    },
+    {
+      "path": "research/seed/README.md",
+      "sha256": "44cb357ed9db7edb5dc6c9a32ef1729e482ab3a9ef1f9dc6598dfbb3fc0d33b3"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.md",
+      "sha256": "50023a0d4970380ebd3afb8969343e6aaadab41c468ae7be66bf2da8f20dcda9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.md",
+      "sha256": "9e2c1589037d9d564619fd8d9d861dffd13288087c4f7dec8e49d5ecbd702dde"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+      "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/plan-review.json",
+      "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T093057Z/decisions-through-batch20.json",
+      "sha256": "ae0a8f4ea6ae7f6c3884d7bec38b1b082c2ba9a9b076022296c538c2755fa63a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T110013Z/history-scan.json",
+      "sha256": "e7d9f2e357e1adab7e05211190fa653cebd067c1bed32a67b012fb54a586e755"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T110013Z/material-proposal-index.json",
+      "sha256": "15542f83d86685cf23ed10ff47f11f52f3f7b8eb7365e5e3d748509eee1b6019"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T110013Z/resume.json",
+      "sha256": "f9546c234b00c5646ac1d7456825ade973871dfee53ee2a468ea4a22f7d7810d"
+    }
+  ],
+  "history_scan": {
+    "method": "全部非inputs JSON解析；精确乐观锁/骰子钟/随机钟串扫描，并对版本隔离、核验、逻辑时钟、二周目、声音留迹等既有对象作用作语义对照；冻结索引为入口而非新的案例重读。",
+    "file_count": 758,
+    "manifest_sha256": "4c412efcccba1693e7fe7683786ed2c0ee55007504111bf97fed6f0d8cd8c0e1"
+  },
+  "reading_evidence": [
+    {
+      "title": "Microsoft EF Core: Handling Concurrency Conflicts",
+      "url": "https://learn.microsoft.com/en-us/ef/core/saving/concurrency",
+      "reading_location": "实际读L34–139及L189–200：乐观并发、版本令牌与更新条件、冲突异常、显式重试/合并；L195出现optimistic locking。中文乐观锁为通常译名，不声称英文页逐字写中文。",
+      "read_at": "2026-11-08T19:12:46.560422+08:00",
+      "access": "body",
+      "published_at": "2023-07-05",
+      "source_type": "technical_documentation",
+      "reading_scope": "body_excerpt",
+      "boundary": "页头虽有授权提示，正文实际返回；不是近90天新闻。"
+    },
+    {
+      "title": "Abbas Mehrabian: Diameter and Rumour Spreading in Real-World Network Models",
+      "url": "https://dspacemainprd01.lib.uwaterloo.ca/server/api/core/bitstreams/3bcb3ff9-fdd0-4605-9e83-5d4e5752eff0/content",
+      "reading_location": "实际下载原论文，读PDF31–33页、印刷21–23：Definition 2.15独立指数等待及累计鸣响时刻，随后无记忆性、叠加/抽稀关系。封面确认作者、博士论文和2015年；不称通读。",
+      "read_at": "2026-11-08T19:12:46.560422+08:00",
+      "access": "body",
+      "published_at": "2015",
+      "source_type": "doctoral_thesis",
+      "reading_scope": "definition_and_adjacent_excerpt",
+      "local_path": "/tmp/continuous001-mehrabian-thesis.pdf",
+      "sha256": "0708aa2ae82bbb22eaa97e4828f4f9ceb74c89e378777d268e9478b6b7386329"
+    },
+    {
+      "title": "Hitachi High-Tech: Let’s learn the secrets of stationery!",
+      "url": "https://www.hitachi-hightech.com/global/en/science-edu/micro/content14/write_study.html",
+      "reading_location": "实际读L29–59铅笔段：石墨/黏土、层状碳结构、在纸面摩擦时薄层剥离附着留下痕迹。没有观察电镜图或做实验。",
+      "read_at": "2026-11-08T19:12:46.560422+08:00",
+      "access": "body",
+      "published_at": null,
+      "source_type": "science_outreach",
+      "reading_scope": "pencil_body_excerpt",
+      "boundary": "仅支持书写材料关系，不支持铅笔电子电路；页脚版权年不当发布日期。"
+    },
+    {
+      "title": "Oracle Java Tutorials: Starvation and Livelock",
+      "url": "https://docs.oracle.com/javase/tutorial/essential/concurrency/starvelive.html",
+      "reading_location": "实际读L79–91，活锁线程未阻塞、持续互相响应却不前进；走廊互让例子。",
+      "read_at": "2026-11-08T19:12:46.560422+08:00",
+      "access": "body",
+      "published_at": null,
+      "source_type": "legacy_technical_tutorial",
+      "reading_scope": "body_excerpt",
+      "boundary": "明确JDK8旧教程；不是所有现行Java实现结论。只作锁机制对照，不拆新素材或新家族。"
+    }
+  ],
+  "failed_accesses": [
+    {
+      "url": "https://research.tue.nl/files/46910977/740151-1.pdf",
+      "result": "web与curl均403，摘要不算正文；改读Waterloo作者论文。"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7414167/",
+      "result": "前次返回作者列表；正文请求输出未能读取，重试验证码。未读电子功能正文，不能据此记铅笔电路材料。"
+    }
+  ],
+  "new_material_count": 3,
+  "new_chinese_draft_count": 2,
+  "new_english_count": 0,
+  "name_usage_queries_performed": false,
+  "output_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension20.json",
+      "sha256": "d7bc23a3392897e047569c8608a0d6c711eb52333dddc499602adcbd988c5e5b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch21.json",
+      "sha256": "03c41e0e634c0454be18a12582bc8383183b5aeeb86abca08f54d16ea9bbfaf4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch21.md",
+      "sha256": "0a6ac083572f5f4cfe5fad0137830509cfd78de610560b0cae0f4f18a0c79296"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch21.json",
+      "sha256": "b2279af2ce4311012c1073a21b19159f0151f1648ef02e1cbbc26eced908df7e"
+    }
+  ],
+  "whole_production_batch_complete": false,
+  "boundary": "原A1六方向与已验计划复用，不重开轮次；没有将105案例或全部历史逐条重新外部核实。锁两文不拆材料。论文只读记录节选，不新增整书/近90天新闻完成量。没有Git/队列/总库/feed操作，不改旧原稿/分数/素材。"
+}

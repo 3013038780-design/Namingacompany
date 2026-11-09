@@ -1,0 +1,76 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-08T17:13:44.876955+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch18.json",
+      "sha256": "6c404de20de01d7590b8f10ec5f7f409b7450cd8173872dd982ae05dba3a48b0"
+    },
+    {
+      "path": "A2-quality-batch18.json",
+      "sha256": "76a33f8b20fc2200a4e2a4d90ff73b605aed47e3edddd55a57c4ace129f73279"
+    },
+    {
+      "path": "materials-extension17.json",
+      "sha256": "f9e2e35ae9a0b2863c20001215e97eab573dfc6db3490e632b72ace96944a9aa"
+    },
+    {
+      "path": "coordinator-cn-batch18.json",
+      "sha256": "34cf0d33f16423bb8c85a72a2ed4c077065852c95d5ddb072c7e1d49ca918037"
+    },
+    {
+      "path": "coordinator-family-review-batch18.json",
+      "sha256": "1f5f1d72b924a5dca6b9c7ece4a9b5b7e1119f04e44a434acbdb43e41f54b019"
+    },
+    {
+      "path": "A3-cn-batch20.json",
+      "sha256": "46fb678428531c7bbd0edc34489bb1e7d457b12aaf36c6a54711e63481016d99"
+    },
+    {
+      "path": "A3-cn-batch20.md",
+      "sha256": "8ddfc8496de60b52b17f001247c83604222a578277ce0f0fdcd29cdaaea756b7"
+    },
+    {
+      "path": "A3-cn-batch20-receipt.json",
+      "sha256": "4144ad247fa67e6f33db4c233a1d48d4c61ccb932d30373136424267d908e3b6"
+    },
+    {
+      "path": "continuations/2026-11-08T062253Z/root-C31-nearname-review.json",
+      "sha256": "0acc4b62241c19cdb3a68ccc3c8f186685698ac1dbd223eafab8a77d7b0288a8"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E26",
+      "chinese_id": "C1-C31",
+      "chinese": "未然机",
+      "english": "Supposal",
+      "family_id": "C1-BF-machine-for-unrealized-conditions",
+      "suggested_pronunciation": "suh-POH-zul，/səˈpoʊzəl/，三个音节；采用词典读法。",
+      "type": "既有完整词典名词，非避重改拼",
+      "formation": "选用完整英语名词supposal。Merriam-Webster释义包括作出假设的过程，以及所假定的事物。不是把Suppose任意换字母，也不把它宣传成Pearl书中正式装置名或新创术语。词在本案提供一项可以拿来研究的假定条件，具体的同个体反事实语义由已读模型来源限定。",
+      "bilingual_relation": "中文把未现实条件的求问拟成一台机器，英文给这台机器所处理的假定一个名词称呼。这里不是任意想象未来：先以同一实际对象的证据约束背景，再改条件计算另一结果；中文说工具角色，英文说处理的假设对象，主题配对不逐字翻译。",
+      "meaning": "让一个如果，成为可认真研究的对象。既不把现实之外都当可知，也不因没有实际发生就停止提问；Lab可以研究实际证据允许我们提出哪些模型化反事实问题。",
+      "shortcoming": "supposal不如suppose常见，首次可能需解释并确认双p拼写，也容易与proposal混听。整体有学术/文学假想作品气质，或被理解成泛假设生成工具；英文单独未包含固定同一个体背景、干预和重新求解条件。独立品牌判断不能由词典收录代替。",
+      "boundary": "supposal词义比结构反事实更宽，不把一般假设都等同同个体反事实。结果受结构模型、变量和背景证据约束，不能说看见平行世界、准确预测未来或任何如果都可唯一求解；本案不是在世界模型里练策略。未然科技/未然图灵等同行前缀拥挤风险继续披露，机是中文拟物核心而非可删组织后缀；近名不是已核精确占用或权利已排除。",
+      "source_urls": [
+        "https://web.cs.ucla.edu/~kaoru/BIB5/pearl-etal-2016-primer-text.pdf",
+        "https://www.merriam-webster.com/dictionary/supposal"
+      ],
+      "read_scope": "本人本次从A2共享本地PDF以pypdf实际读PDF114/117/118页（纸本92/95/96），核文件SHA与原素材一致；读同单位背景U、最小替换、Joe例子及三步，不声称通读159页。另实际打开Merriam-Webster supposal词条31–42行，核名词、标准读法与假设过程/对象义。中文近名仅据实际已读A3与主控固定报告：主控珠海官网502/TLS无正文不冒称成功；本人本次未重开公司官网。",
+      "rework_attempt": 0,
+      "remaining_reworks": 2,
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "usage_screening_performed": false,
+  "excluded_upstream": [
+    {
+      "chinese_id": "C1-C32",
+      "chinese": "借身",
+      "decision": "quality_reject_no_english",
+      "reason": "主控Lab身份未达门槛，未查使用，实际合格英文匹配输入0，不为其造英文。"
+    }
+  ]
+}

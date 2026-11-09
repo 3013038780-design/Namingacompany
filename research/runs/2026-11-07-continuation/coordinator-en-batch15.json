@@ -1,0 +1,80 @@
+{
+  "reviewed_at": "2026-11-07T18:53:08.181279+08:00",
+  "independence": "Read producer preview batch15 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C26",
+      "name": "Single Witness",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个普通词可稳定称呼",
+          "counter_association": "四音节略长"
+        },
+        "spelling": {
+          "reason": "完整词无造假拼写",
+          "counter_association": "witness有双s"
+        },
+        "grounding": {
+          "reason": "具体见证对全称断言作用清楚",
+          "counter_association": "不是数学书品牌原词"
+        },
+        "bilingual_relation": {
+          "reason": "中文知识词与英文实例角色同核",
+          "counter_association": "不能套成一失误否定概率模型"
+        },
+        "distinctiveness": {
+          "reason": "有一个小实例挑战大断言的记点",
+          "counter_association": "像法律调查品牌"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E27"
+    },
+    {
+      "candidate_id": "CT-C28",
+      "name": "Pigeon Whistle",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通器物词能自然读",
+          "counter_association": "四音节比单词长"
+        },
+        "spelling": {
+          "reason": "正常拼写但有静音字母",
+          "counter_association": "pigeon和whistle首次听写需确认"
+        },
+        "grounding": {
+          "reason": "中国真实物件与飞行气流关系",
+          "counter_association": "不是鸽子自己的叫声"
+        },
+        "bilingual_relation": {
+          "reason": "两语同一器物不生硬绕译",
+          "counter_association": "不说有声即有智能"
+        },
+        "distinctiveness": {
+          "reason": "完整物象可建立机构角色",
+          "counter_association": "普通商品类别需分品牌"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E28"
+    }
+  ]
+}

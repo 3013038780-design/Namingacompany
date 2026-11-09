@@ -1,0 +1,52 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese screening",
+  "executed_at": "2026-11-08T11:39:05.915115+08:00",
+  "candidate_id": "C1-C26",
+  "decision": "reject_existing_core_company_and_software_use",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch13.md",
+      "sha256": "e3652acbec0c839a9b92309a9b3a40044651f50f0721ae85d95567d11d3e8659"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch13.json",
+      "sha256": "0e99febef4e281c06f2b9e49b4313e6dc44c3f9735c6cefd5b40bb7d7ce13098"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch13.json",
+      "sha256": "d4f30c51995daac1993de42b48169e5bc62de4d5ffb46e738e8086e8fcee86f7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension12.json",
+      "sha256": "e2d11c576bc35eebd1363856fcce9a378f7c35d633932aa1ff1763426bc9b986"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch13.json",
+      "sha256": "5c526472825a39c4a28805a25b915cc163f157e28a59b90d82234589b28c4caf"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch13.json",
+      "sha256": "6bf09eff4366ceabace708402f09f5575bdd4cc76fbefb9817fdfc686a575885"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch15.md",
+      "sha256": "9f9dbdc6ad4b64935873723f1c5e530050da69c15a63b5b0e84c7693dcc14141"
+    },
+    {
+      "path": "A3-cn-batch15.json",
+      "sha256": "aa82bfa8e497155d5bbd8f27f3fbbc52fe6777287d2d63bf92c51997c3afd7f4"
+    }
+  ],
+  "actual_new_candidate_queries": 8,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 312,
+  "agent3_cumulative_candidate_queries": 320,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 322,
+  "actual_execution": "实际读候选/材料/双评/家族，八查询与公司官网、采购公示和App平台正文；两PDF目标查询超时单列，未冒称目标全文已读。",
+  "next": "中文0通过，交原A4真实零输入检查，后续同A3核英文零输入。",
+  "unchanged": "原稿、总库、Git不改，无用户通知、不附外部网页全文。"
+}

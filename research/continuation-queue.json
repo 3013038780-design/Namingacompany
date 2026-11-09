@@ -1,0 +1,200 @@
+{
+  "updated_at": "2026-11-09T17:27:43.008793+08:00",
+  "policy": "continuous_no_quantity_quota",
+  "scheduler": {
+    "id": "automation",
+    "kind": "heartbeat",
+    "status": "ACTIVE",
+    "cadence": "hourly",
+    "destination": "existing_chat",
+    "verified_from_app_tool_and_local_record": true,
+    "local_runtime_requirement": "电脑开机、应用运行、仓库与工具可用；定时接续不是无限常驻"
+  },
+  "catalog": {
+    "path": "research/catalog/README.md",
+    "discussion_candidates": 30,
+    "research_reserves": 1,
+    "total_unique_families": 31,
+    "withdrawn_families": 1,
+    "historical_unique_families": 32
+  },
+  "active_run": "research/runs/2026-11-07-continuous-001",
+  "actual_state": "C63_all_original_roles_closed_zero_admission_publishing_same_site_PR",
+  "next_action": "接续同研究001的下一独立来源家族：先原A1补充跨世界具体案例迁移/阅读问题，再原A2按已验收计划找真实资料及中文，保留原双评/同A3双查和英文2返机制。C63两中文及两英文返工已尽，无R3；旧待核无新可读原证不重复失败入口。",
+  "pending_stages": [
+    "A2真实资料→中文创作；先素材小批内部快审",
+    "主控独立中文质量→同A3中文使用筛查",
+    "实际A4英文匹配→同A3英文使用复查→主控终审",
+    "合格新增持续更新总库，不重复计旧储备/英文版本"
+  ],
+  "single_writer_policy": "当前研究未归档前不启动另一套同项目命名轮次；唤醒先检查现有角色是否还在运行，若完成则读取真实回执后接续。",
+  "quantity_stop": null,
+  "do_not_repeat": [
+    "先前20讨论配对和3研究储备不再作为新增",
+    "所有历史命名家族与其英文返工版本不作新增",
+    "不重复每天从零研究105案例"
+  ],
+  "role_lifecycle_note": "若跨唤醒原实例不可访问，建立新实际实例并记录交接，不沿用失效ID冒充同一执行；A3双阶段必须由实际同一个审查实例完成，必要时由新A3重做中文和英文两段并分别保留历史。",
+  "checkpoint_refs": [
+    "research/runs/2026-11-07-continuous-001/A1.json",
+    "research/runs/2026-11-07-continuous-001/A2-execution.json",
+    "research/runs/2026-11-07-continuous-001/search-plan.json",
+    "research/runs/2026-11-07-continuous-001/plan-review.json",
+    "research/runs/2026-11-07-continuous-001/handoffs.json",
+    "research/runs/2026-11-07-continuous-001/run.json"
+  ],
+  "in_flight_agents": [],
+  "latest_completed": {
+    "sequence": [
+      "A3储备",
+      "A4储备",
+      "A1接力",
+      "A2阅读创作",
+      "A3中文",
+      "A4英文",
+      "同A3英文",
+      "A1构词反馈",
+      "A2新凝练",
+      "同A3中文/英文",
+      "A4收尾"
+    ],
+    "prior_reserves_promoted": 2,
+    "new_creative_families": 2,
+    "receipts": [
+      "research/runs/2026-11-07-continuous-001/reserve-followthrough/A3-review.json",
+      "research/runs/2026-11-07-continuous-001/reserve-followthrough/A4-review.json",
+      "research/runs/2026-11-07-continuous-001/A1-relay.json",
+      "research/runs/2026-11-07-continuous-001/delivery-first.json",
+      "research/runs/2026-11-07-continuous-001/progress.json",
+      "research/runs/2026-11-07-continuous-001/decisions.json",
+      "research/runs/2026-11-07-continuous-001/A3-en-batch13.json",
+      "research/runs/2026-11-07-continuous-001/A4-closeout.json"
+    ],
+    "withdrawn_after_correction": 1
+  },
+  "latest_material_pilot": {
+    "source": "research/runs/2026-11-07-continuous-001/materials-pilot.json",
+    "cards": 8,
+    "review": "research/runs/2026-11-07-continuous-001/materials-review.json",
+    "accepted_for_exploration": [
+      "C1-M01",
+      "C1-M02",
+      "C1-M03",
+      "C1-M04",
+      "C1-M05",
+      "C1-M06"
+    ],
+    "reading_only": [
+      "C1-M07",
+      "C1-M08"
+    ],
+    "new_names_yet": 2,
+    "whole_24_family_research_complete": false,
+    "cumulative_materials": 77,
+    "cumulative_chinese_drafts": 63,
+    "cumulative_selected_chinese_literal_forms_including_revisions": 69
+  },
+  "closed_current_families": {
+    "C1-C01": "英文3版已有商业使用，返工耗尽",
+    "C1-C11": "英文Linewake/AtRuntime已有商业使用，Replyrise质量不通过，返工耗尽",
+    "C1-C13": "英文Passageway/Textrove已有软件或品牌，Linkroam搜索联想避让，返工耗尽",
+    "C1-C06": "官方科技企业名单确证已有杭州余量科技，撤回；禁止换英文救回中文",
+    "C1-C17": "主控跨类同字标志及科技近名编辑避让，不等于精确科技占用",
+    "C1-C18": "余光有完整同核心独立软件与照明品牌，中文使用淘汰；不配英文救回、不变体新增",
+    "C1-C19": "分身有别中文公开使用通过，但Ownwrite质量失败未查，Branchwise同名模型/软件，Kinstate已有历史企业名称编辑避让，英文2次返工耗尽，禁止R3及同族新增",
+    "C1-C20": "声入纹自然度/Lab身份未过，未查，不以声音纹路同族变体充新增",
+    "C1-C21": "识局官网明确商业核心识局控股，同名使用淘汰，不换英文救回",
+    "C1-C22": "伶伦已被官方AI音乐制作系统使用，不配英文救回",
+    "C1-C24": "中文公开使用初筛过，Reinquire广告软件，Fresh Witness旧Witness家族，Otherdata同核心软件；英文两次返工用尽，不R3。",
+    "C1-C25": "补码Lab身份3<4，主控24/作者25，质量淘汰未查；实际A3/A4/A3零输入收尾，不称占用。",
+    "C1-C26": "园丁鸟八查询已有同核心公司与软件，原A4及同A3实际零验收，不换英文救回。",
+    "C1-C27": "GitHub官方中文具名橡皮鸭代理使用已核，九查询中文否决，原A4/同A3实际零输入终核；不配英文救回。",
+    "C1-C28": "灵感之外Lab身份3<4，主控24/作者25，质量淘汰未查；实际A3/A4/A3零输入终核，不称占用或可用。",
+    "C1-C29": "TapTap完整同名失算具名游戏DEMO使用，八查询淘汰，原A4/同A3实际零验收，不换英文救回。",
+    "C1-C30": "中文初筛过且既有学术表达补记已验收；Wordact历史网站软件、Saydo科技AI软件、Hereby任务器及AI合同平台，三版未过，两返工尽，不R3。",
+    "C1-C32": "借身主控Lab身份3<4，24/作者25，质量未过未查，不用真实实验补身份或换英语救回。",
+    "C1-C33": "算着走自然3/Lab3，主控23/作者25，质量未过未查；原A3/原A4/同A3真实零收尾，不称占用。",
+    "C1-C34": "沙阵数篷科技官网具名可信计算软件，六组已返回查询确证，使用淘汰；原A4/同A3真实零英文。",
+    "C1-C35": "隶首安徽AI企业第三方资料及华润具名数智平台报道，六组返回+一未返回分列，使用淘汰；原A4/同A3真实零英文。",
+    "C1-C36": "乐观锁中文公开初筛通过保留通名风险；Still Current商业品牌、Versionmark具名软件、Aftercheck AI扩展/B2B软件，英文两返用尽，原A4已实际收尾，无R3、不倒写中文占用。",
+    "C1-C38": "飞梭已有网新AI/RPA平台与致景App，六有效查询使用否决，原A4及同A3真实零英文；不换词根/英文救回。",
+    "C1-C39": "捕蝇草已有hap同名游戏软件，六有效查询使用否决，原A4及同A3真实零英文；不是物种通名本身当占用。",
+    "C1-C41": "中文8查询公开初筛通过；Paper Wasp已有Papertex的PAPERWASP制造技术用名与PaperSource具名文具系列，英文6查询按商业核心避让。Pulpwright主控19/拼写3质量未过未查；最后原A4实际未选合格新稿，同一A3真实0新英文终核。两次返工已尽，不R3；不倒写中文占用。",
+    "C1-C42": "中文8查询通过但保留双盲把戏完整游戏近似与临床/黑箱/通名风险。Names Aside主控20质量拒绝未查；Unsigned六查询已有具名AI/ML自用平台及音频平台；最后Double Veil六查询已有Finnaij具名手机壳设计与GigiBurris头饰，按跨行业商业产品核心避让。两次返工尽，无R3，不倒写中文占用或假称官方注册。",
+    "C1-C43": "原A2从Polanyi实读节选选择熟练实践主体，主控独立24/作者25，辨识3/Lab身份3，普通熟练者与招聘维修首感强；实际原A3中文未查、原A4零英文与同A3零终核。不因哲学出处补分，不称占用或可用。",
+    "C1-C44": "从Schön设计行动改变情境并重定问题实读案例创作，双评25；七查询查到成都构境科技有限公司，智联可读完整核心与软件经营范围，第三方不是官方当前存续核验。另构境AI目录仅二手线索、官网超时不升级一手。原A4及同A3实际零英文；不换英文救回。",
+    "C1-C45": "多人通过共享资源接手贡献的Benkler原著关系真实；千手与手稿共字融合有画面，但主控24/作者25、Lab身份3，首要征稿出版/AI写作产品气质。未送市场查，原A3中文、原A4及同原A3英文实际零验收完成，不称占用或可用。",
+    "C1-C47": "蜘蛛可调外部网参与输入条件的综述关系有据，双评25后八有效查询发现杭州织觉智能科技有限公司官网AI纺织质检/机器视觉完整同核心使用。智能/科技为后缀，不当不同名；非只知觉/智觉同音。原A4及同原A3实际零英文，未核公司当前工商/性能认证，不换英文救回。",
+    "C1-C48": "PostgreSQL18三值状态unknown不等于false，中文双25和10次查询公开初筛通过。Neither经6查询确证已有同名AI项目记忆/MCP软件；Undetermined主控20/作者21质量未过，未做市场筛查；最后R2实际无合格选稿，同一原A3真实零新英文终核。只有2英文稿，E41未用，返工额度尽不R3；不倒写中文占用，不列讨论或待核储备。",
+    "C1-C49": "NASA宇航员报道中共同星球/共同大气和家的关系为真实来源，非认知增强实验。中文双25后7查询确认浙江同星科技股份有限公司公开完整同核心用名；科技为后缀，巨潮原公告可读，非仅拼音/童星同音。没有配英文救回，混合包C48有资格不写整批零；公司当前工商与9/42未核准。",
+    "C1-C50": "NParks巨型弹涂鱼在水外有条件运动/呼吸的真实关系，中文双25、8查询公开初筛通过。Shorefin按历史Inactive商业核心与SureFin近听软件避让（不是当前AI精确同名）；Landfish已有作者公开的同名独立学校游戏软件；Intertidal已有官网及英国官方05451870 Active技术测试分析公司。三个英语版均独立查过，原A4已实际最终收尾，2返工尽无R3；不倒写中文占用，不列讨论或待核储备。",
+    "C1-C51": "完整公共场景与共同规则/可见条件关系来自英国指定法域指南，非条纹自动安全。中文作者25/主控26后9查询，企查查可读深圳市斑马线科技有限公司/安全光幕与检测光栅销售，同核心科技使用拒绝；第三方非官方当前存续核准。原A3台湾官方页可读与root403响应分开；香港解散历史不当现行在册。C50同批有资格，不假称全批零；未配英文救回。",
+    "C1-C53": "日常计算的复制—暂存—择取—跨任务复用来自微软功能正文；中文双25后7查询发现Apple独立应用完整名剪贴板，个人开发者辉宇吴。原A3本次实际读标题/开发者/独立应用说明，不是系统功能名本身当占用；root该URL/短id/原引用重开均不可访问或404，两位观察分开，不冒root亲读、当前可下载或公司注册核准。原A4及同A3实际零英文收尾，不配英文救回。",
+    "C1-C54": "Carroll第二章奔跑相对位置与2016生态模型有真实文献联系，持续演化与停滞皆有条件；不是小说证明普遍AI进化。中文作者25/主控26后6查询，原GitHub公开具名红皇后班级班里系统及前后端/文档，原A3与root均读正文。不把小说角色、生态假说或科幻比喻当真实同名AI模型，也不冒学校软件商业发售/注册核准。原A4及同A3真实零英文收尾。",
+    "C1-C55": "同一真菌菌丝聚束/自身输运网络关系。原名菌缆双25、9查询未确证精确同名，但与广东军缆信息技术有限公司同音近形，科技/软件服务正文可读，root主动避让而非假称精确占用。原A2同族R1菌络双25后8查询发现TapTap官方入驻游戏菌络Mycelia（DEMO开发中，非冒正式商发）；最后R2无合格选稿，内部活络因保健/社交首感未选未查，不称占用。两次中文返工真实完成，余0无R3；原A3最后零新名、原A4及同A3零英文均实际验收。两个正式写法只一主ID/家族、一个素材，不计两项新增。",
+    "C1-C56": "康奈尔图遍历讲义正文有沿边探索源点可达对象、记录已发现避免环内重复及DFS回退关系。中文作者25/主控26后8次查询，第三方正文合肥遍历科技有限公司有软件开发/计算机系统服务；遍历者多有意义角色字者，不能删为完全同名，但同计算核心近名由root主动避让，不冒精确占用/官方现时登记核准。原A2中文R1无合格新稿，内部逐邻仅动作片段且丢发现状态/环处理，未选未查、不称占用；主动闭族，第二次额度未用而非耗尽。原A3最后零新名、原A4及同原A3实际零英文；不换英文救回，不计变体新增。",
+    "C1-C59": "原星是由原恒星缩成的品牌短称，作者24/root先封23，辨识轴均3不合格，未市场查询。R1恢复CAS原文完整科学名称原恒星，双25；原A2另档纠正复制原星旧边界字段，旧稿/分数保存。8查询发现本人乐队账号原恒星乐队-Protostar、自名与实际演出/周边商业使用，按跨行业同核心品牌主动避让，不冒科技公司/商标已注册。虚构游戏公司不作主证。最后R2内部星胚偏育儿/科幻角色未选未查，实际空稿；两中文返工尽无R3，原A4及同原A3实际零英文。",
+    "C1-C60": "Faraday烛芯毛细供料/反应条件关系真实，中文双25后8查询发现深圳市火芯科技有限公司明确火芯品牌及摄像头/车载电子/自动化研发生产，BOSS可读第三方；另台湾火芯有限公司本人官网数字营销商业使用。按同核心科技使用拒绝，不冒官方登记/9与42核准。鱼泡郑州索引当前正文未复现，原A3已另档纠正，不作为主证。原A2R1内部烛芯偏香薰/耗材未选未查，实际无正式修订；主动闭族，尚1额度未用而非两次耗尽。原A4及同原A3实际零英文收尾。",
+    "C1-C61": "从普通胶带界面微尺度/短事件的研究角色选择既有熟词，不冒论文汉字或首造。双25后8查询发现本人入微咨询/上海入微企业管理咨询有限公司及独立入微销售云CRM产品，另原A3可读上海入微科技与入微智能RoomWits品牌资料。按同核心商业/软件使用拒绝，非普通修饰词、官方实时登记或基础模型同名结论。原A2R1内部寻常深处/毫厘之间/微物之光未选未查，不称占用或短语本身科学错误；实际主动闭族余1未用。原A4与同原A3真实零英文，CN50旧标签模板错句另档纠正并由原A4再接受，旧档/分数/SHA均保留。",
+    "C1-C62": "Johnstone原著的承接伙伴前提与口头同意区别真实，root独立读原PDF物理46–49/印刷92–99及课程正文，双25后8查。36氪可读接招创业媒体品牌/北京趋势前线信息科技旗下产品；另香港官方2018历史名单载接招集团/Jiezhao Group、2711670，非当前存续或AI业务核准。原A3 NEAR_MATCH_HOLD+商业核心主动不选，不倒写精确AI模型/软件占用或商标已注册。原A2R1内部有来有往/不拆台/共演者首感不合未选未查，实际主动闭族余1未用，非两返尽。原A4及同原A3实际零英文收尾。",
+    "C1-C63": "消息串门与串门AI同领域近名由主控主动避让，非完整名精确占用；R1来信未开作者24/Lab3、root26，未全过质量且未查；R2消息候场作者25/root26，10组中文查询公开初筛通过，保留THE HALF·候场演出及票务小程序的不同完整名近名风险。At Hand与Anteroom均双21后各6查，分别有本人AI服务/桌面软件及AI发布审查工具具名同核心使用。最后原A4 R2实际无合格新选，内部If and When/Cuebox未选未查，E50未分配。两英文返工用尽，同原A3真实零新增终核；不倒写中文已占用，不列讨论或待核储备，不R3。"
+  },
+  "heartbeat_checkpoint": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/resume.json",
+  "latest_frozen_decision_snapshot": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/decisions-through-batch56.json",
+  "latest_continuation_result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/result.json",
+  "latest_completed_packet": {
+    "new_retained_families": 0,
+    "new_materials": 1,
+    "new_chinese": 1,
+    "new_english_versions": 2,
+    "A3_new_queries": 30,
+    "A3_returned_results": 30,
+    "cumulative_A3_queries": 763,
+    "combined_recorded_queries": 767,
+    "combined_returned_results": 766,
+    "result": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/result.json"
+  },
+  "pending_evidence": [
+    {
+      "chinese_id": "C1-C23",
+      "chinese": "活变量",
+      "english_id": "C1-E19",
+      "english": "Maymatter",
+      "state": "unresolved_specific_commercial_lead",
+      "detail": "Cellier des Maymatter酒款拍卖索引，原文403，未确证占用亦未排除；只能补证据，不能英文R3。",
+      "record": "research/runs/2026-11-07-continuous-001/A3-en-batch19.json",
+      "last_followup": "research/runs/2026-11-07-continuous-001/A3-C23-evidence-followup-20261108.json",
+      "followup_outcome": "两次不同一手入口定位均无新可读原证，维持暂停；停止重复补查。"
+    },
+    {
+      "chinese_id": "C1-C58",
+      "chinese": "洋中脊",
+      "english_id": null,
+      "english": "",
+      "state": "unresolved_specific_CN_commercial_core_lead",
+      "detail": "OUC评估PDF索引提洋中脊文化创意公司；原文403/0字节未闭证。A3额外3定向查询、root2查询无新可读主体，既不推荐也不确证占用；中文两返工已尽，后续仅新可读原证补核，不R3。",
+      "record": "research/runs/2026-11-07-continuous-001/A3-cn-batch44.json",
+      "last_followup": "research/runs/2026-11-07-continuous-001/A3-CN44-evidence-followup.json",
+      "followup_outcome": "维持证据暂停，停止重复失败入口。"
+    }
+  ],
+  "website": {
+    "authorized_at": "2026-11-08T00:27:25.728158+08:00",
+    "status": "live",
+    "project_id": "appgprj_6aef50c0969c8191aa904b87ce9e223c",
+    "source_path": "/Users/olivialee/Documents/ChatGPT/临时项目/naming-research-site",
+    "data_feed": "research/catalog/website.json",
+    "old_site_untouched": true,
+    "url": "https://3013038780-design.github.io/Namingacompany/",
+    "sites_url": "https://naming-research-desk.panelladelva5115.chatgpt.site",
+    "update_after_every_segment": "python3 scripts/build_catalog.py then python3 scripts/build_site_feed.py; push research/catalog/website.json to existing branch/PR; website reads it without UI redeploy",
+    "latest_publication_verification": {
+      "research_commit": "de8abd67ddaa4738d05357abd3678948d3b8f9bf",
+      "committed_feed_confirmed": true,
+      "branch_feed_observed_snapshot": "2026-11-09T042642Z",
+      "branch_feed_confirmed_latest": true,
+      "checked_at": "2026-11-09T14:06:44.651236+08:00",
+      "next_resume_check": "C62完整收尾已公开；当前原A2batch55为C63首返，接续该实际在途，不重复开启研究。"
+    }
+  }
+}

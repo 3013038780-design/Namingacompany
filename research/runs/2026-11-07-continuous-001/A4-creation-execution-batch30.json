@@ -1,0 +1,155 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 English first proposal",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T21:00:22.908621+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch23.json",
+      "sha256": "2ed9786614c8c7f38068d2417538708a47138f7afb324bf25084012814fb06e4"
+    },
+    {
+      "path": "A2-quality-batch23.json",
+      "sha256": "13fbd12fdca9d83d767da62668f93df5ff62ebd8406cdb7cde9dcb9650744b58"
+    },
+    {
+      "path": "A2-creation-execution-batch23.json",
+      "sha256": "3e0e0965d66046249d3d50a5f6af0d8e833a8dc4a049aae5c12da40fe592b8a9"
+    },
+    {
+      "path": "A2-C40-source-scope-addendum.json",
+      "sha256": "0ab1e9325b0192f362b04646a23803ddc6d4bedaaf010b56face886655030119"
+    },
+    {
+      "path": "A2-C40-source-scope-addendum.md",
+      "sha256": "ee6601e1dd1bb56140880cf49a7eeeba246b3dd4779bf1a4ee0eca5ba4de88d2"
+    },
+    {
+      "path": "A2-C40-source-scope-addendum-execution.json",
+      "sha256": "df34b988a8579d1323792ca3bf8b2ecf8ad35d427d85c9d36e10e888fa9a79db"
+    },
+    {
+      "path": "coordinator-cn-batch23.json",
+      "sha256": "da5695d6f2cdc5f0d77d29eb2147e129d743635df8d42e2df4eb7dbabb59ad2a"
+    },
+    {
+      "path": "coordinator-family-review-batch23.json",
+      "sha256": "8bae13163b9559ecfe8eb04a30566659e01cf0e89b5e8eba244da4fddbf122dc"
+    },
+    {
+      "path": "A3-cn-batch25.json",
+      "sha256": "cdfc1c430be3e97a00877caaad758c2d51f839a11ed876aa62f9e1417f562cdb"
+    },
+    {
+      "path": "A3-cn-batch25.md",
+      "sha256": "fc30c5cb867d59e9817d9b9dc22579c2039f14cf4c46438ea77eda50434986af"
+    },
+    {
+      "path": "A3-cn-batch25-receipt.json",
+      "sha256": "fd02073652004b2b07d11077f3259e1c74e1ba0ce7016c130f6b82fc5c4229d4"
+    },
+    {
+      "path": "continuations/2026-11-08T120952Z/root-C40-cn25-review.json",
+      "sha256": "48a00f6fdac7b8ad10c7a2deb90bba6ae7684928c9ee11ac6bcbbfe0dd829501"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch23.json",
+      "sha256": "2ed9786614c8c7f38068d2417538708a47138f7afb324bf25084012814fb06e4",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch23.json",
+      "sha256": "13fbd12fdca9d83d767da62668f93df5ff62ebd8406cdb7cde9dcb9650744b58",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch23.json",
+      "sha256": "3e0e0965d66046249d3d50a5f6af0d8e833a8dc4a049aae5c12da40fe592b8a9",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch23.json",
+      "sha256": "da5695d6f2cdc5f0d77d29eb2147e129d743635df8d42e2df4eb7dbabb59ad2a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch23.json",
+      "sha256": "8bae13163b9559ecfe8eb04a30566659e01cf0e89b5e8eba244da4fddbf122dc",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C40-source-scope-addendum.json",
+      "sha256": "0ab1e9325b0192f362b04646a23803ddc6d4bedaaf010b56face886655030119",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C40-source-scope-addendum.md",
+      "sha256": "ee6601e1dd1bb56140880cf49a7eeeba246b3dd4779bf1a4ee0eca5ba4de88d2",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C40-source-scope-addendum-execution.json",
+      "sha256": "df34b988a8579d1323792ca3bf8b2ecf8ad35d427d85c9d36e10e888fa9a79db",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch25.json",
+      "sha256": "cdfc1c430be3e97a00877caaad758c2d51f839a11ed876aa62f9e1417f562cdb",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch25.md",
+      "sha256": "fc30c5cb867d59e9817d9b9dc22579c2039f14cf4c46438ea77eda50434986af",
+      "match": true
+    },
+    {
+      "path": "A2-C40-source-scope-addendum-execution.json",
+      "all_output_and_unchanged_original_refs_match": true
+    }
+  ],
+  "actual_source_reading": [
+    {
+      "url": "https://www.cas.cn/syky/202609/t20260928_5121136.shtml",
+      "scope": "实际web376、386–397，限定捕获入口和整机/模式区别；不读图或原论文"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/spine",
+      "scope": "实际web31–57植物尖刺义"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/eddy",
+      "scope": "实际web31–56空气/水回旋流义"
+    }
+  ],
+  "exploratory_source_scope": "为辨别局部流动用词，另实际读pin/wake词典、NASA圆柱绕流短页及COMSOL模型介绍6–19；一组技术来源查询site.grc.nasa.gov stationary cylinder wake flow，不是名称市场查询。最终稿不采wake词，未把NASA通用圆柱模型混成CAS原研究证据，未运行仿真或声称读824行全部建模步骤。",
+  "local_history_check": "research JSON检索spine.?eddy无命中，仅本地字面史，不替代主控家族审查或A3市场查询。",
+  "english_output_ids": [
+    "C1-E31"
+  ],
+  "actual_english_versions": 1,
+  "actual_new_chinese_names": 0,
+  "new_family_count": 0,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "rework_attempt": 0,
+  "remaining_reworks": 2,
+  "source_scope_correction_accepted": "原crossing整机三级仅背景；本英文限针形刺在圆柱绕流条件下捕获入口，不追改原稿/分数。",
+  "outputs": [
+    {
+      "path": "A4-candidates-batch30.json",
+      "sha256": "6a54fd55a32cb6c0c496c1a8c796eed765f87c72431b783859ad39d53a325345"
+    },
+    {
+      "path": "A4-preview-batch30.md",
+      "sha256": "e38bf3bc8ddd95033a35f87cc2cc398e949b2e94319b0d7e7094b1f7c9e10403"
+    },
+    {
+      "path": "A4-quality-batch30.json",
+      "sha256": "1396ecf23e9eb9d59456c9a9919ef63622b22f5355424bc207d828d6f43ea0b0"
+    }
+  ],
+  "next": "主控先独评无分稿后看producer，双过才同一原A3英文实际筛查。",
+  "unchanged": "只写本次新档；旧分/库/队列/Git未改，无网页全文。"
+}

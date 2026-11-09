@@ -1,0 +1,60 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 E-TAIL FIRST specific lead follow-up",
+  "completed_at": "2026-11-09T03:54:38.212253+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982"
+    }
+  ],
+  "candidate_id": "C1-E47",
+  "english": "Tailfirst",
+  "actual_new_candidate_queries": 1,
+  "completed_candidate_search_results": 1,
+  "actual_direct_open_actions": 3,
+  "query_logs": [
+    {
+      "query": "\"07159076\" \"E-TAIL FIRST\"",
+      "executed_on": "2026-11-09",
+      "status": "completed_search_result",
+      "summary": "定向主体新查询获得The Gazette2010成立公告原PDF入口，并复现第三方Inactive索引；实际读原PDF目标行，未以索引Inactive当官方当前状态。"
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://find-and-update.company-information.service.gov.uk/company/07159076/filing-history",
+      "access": "official_filing_entry_unavailable",
+      "finding": "本次不同filing-history入口不可访问，未重复原overview失败。"
+    },
+    {
+      "url": "https://www.thegazette.co.uk/company/07159076",
+      "access": "gazette_company_landing_unavailable",
+      "finding": "本次主体聚合入口不可访问，未据此无记录。"
+    },
+    {
+      "url": "https://www.thegazette.co.uk/London/issue/822444/supplement/24/data.pdf",
+      "access": "primary_official_gazette_pdf_body_read",
+      "finding": "实际单页57行：L0 A1 Certificate of Incorporation new companies；L41 E-TAIL FIRST LTD 07159076 16/02/2010。2010-02-23刊物页24，仅证明该完整历史公司名成立记录；不提供业务/存续/注销/商标现时状态，未声称实际贸易已证。"
+    }
+  ],
+  "decision": "historical_company_core_confirmed_near_name_risk_remains_unresolved",
+  "core_comparison": "E-TAIL FIRST完整历史公司核心得到原公告证实。E不是地区/组织后缀，不能删成Tailfirst精确同名；E-TAIL与tail有意义差别，但本次并未核它实际商业使用是否缩为Tailfirst、行业或现时状态，不能仅靠语言差别称已清。",
+  "effect_on_original_screen": "原EN45仅未确证完整Tailfirst公司/软件使用的观察保留，不覆盖原档；补核后将具体历史近名和当前使用未解决风险明确交root编辑取舍，不能称Inactive已核、clear或本名精确占用。",
+  "prior_agent3_candidate_queries": 679,
+  "prior_agent3_returned_candidate_results": 678,
+  "agent3_cumulative_candidate_queries": 680,
+  "agent3_cumulative_returned_candidate_results": 679,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 682,
+  "run_cumulative_returned_candidate_results": 681,
+  "unchanged": "旧EN45/profile补记/库/队列/Git不改，无网页全文。"
+}

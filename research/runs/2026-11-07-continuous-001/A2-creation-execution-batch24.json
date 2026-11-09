@@ -1,0 +1,150 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-08T21:20:32.527031+08:00",
+  "stage": "same_run_bounded_package_batch24",
+  "input_refs": [
+    {
+      "path": "README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567"
+    },
+    {
+      "path": "research/seed/README.md",
+      "sha256": "44cb357ed9db7edb5dc6c9a32ef1729e482ab3a9ef1f9dc6598dfbb3fc0d33b3"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.md",
+      "sha256": "50023a0d4970380ebd3afb8969343e6aaadab41c468ae7be66bf2da8f20dcda9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.md",
+      "sha256": "9e2c1589037d9d564619fd8d9d861dffd13288087c4f7dec8e49d5ecbd702dde"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+      "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/plan-review.json",
+      "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T120952Z/decisions-through-batch23.json",
+      "sha256": "434f359da193556d0fcb218a6c9a67f9c93cbef57e70ea9b820513041aaae23b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T131434Z/history-scan.json",
+      "sha256": "a800c1066ed2b88b2d0392c6e3ddd93329356722288987f173329c1634f8454c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T131434Z/material-proposal-index.json",
+      "sha256": "979285294d39c02bc2bd3de1e788f452c65d1d046711e0a4d3791a1e32ffb581"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T131434Z/resume.json",
+      "sha256": "b7cd47ce1159ba561df90874825f9b12b3020304275d34e90ef561911381235b"
+    }
+  ],
+  "input_reading_boundary": "沿原实际A1和已验收计划/构词反馈；当前规则偏好和队列实读，冻结50材料40提案及历史索引作为对照；不声称重新外部核验105案例。M14/M23/M48前段已比较无强名，本包不再硬榨。",
+  "history_scan": {
+    "method": "非inputs历史JSON解析，纸蜂/双盲/盲评/纸巢/蜂巢/匿名名称字段扫描无精确提案；材料加工与旧群体组织、纸旋翼、材料留迹比具体作用，身份分置与M23结果接受、复证及注意盲点比关系，不把不同新闻算新族。",
+    "file_count": 847,
+    "frozen_file_count": 1208,
+    "frozen_material_count": {
+      "materials": 50,
+      "chinese_ids": 40
+    },
+    "manifest_sha256": "a7901891c9172efca14c060ae004f9a973cb867d8350e4305894ac855452899c"
+  },
+  "reading_evidence": [
+    {
+      "title": "Cornell IPM: Paper Wasps",
+      "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/bees-and-wasps/identifying-bees-and-wasps/paper-wasps",
+      "reading_location": "实际读L149–176物种与巢概况，L189–217辨识/行为正文，核心L207/211纤维和唾液加工为纸状巢。未观察实物或读其外链研究。",
+      "read_at": "2026-11-08T21:20:02.228734+08:00",
+      "access": "body",
+      "source_type": "university_extension",
+      "reading_scope": "body_excerpt",
+      "published_at": null
+    },
+    {
+      "title": "Virginia Tech: Paper Wasps, ENTO-435NP",
+      "url": "https://www.pubs.ext.vt.edu/content/pubs_ext_vt_edu/en/ENTO/ENTO-435/ENTO-435.html",
+      "reading_location": "实际读L118–136作者/辨识/生活史，重点L129–132嚼碎植物纤维、纸状巢材与结构；L147–157核修订及发表日期。L138后控制建议不作为本卡研究证据或本次重点阅读。",
+      "read_at": "2026-11-08T21:20:02.228734+08:00",
+      "access": "body",
+      "source_type": "university_extension_publication",
+      "reading_scope": "body_excerpt_and_dates",
+      "published_at": "2026-09-09",
+      "revised_at": "2026-08-31",
+      "boundary": "本页为推广出版资料近期更新，不计最新研究新闻；未由更新日期推定发现刚发生。"
+    },
+    {
+      "title": "Nature Research: Double-anonymized peer review guidelines",
+      "url": "https://www.nature.com/documents/nr-double-blind-peer-review.pdf",
+      "reading_location": "实际读单页PDF全部L0–22：正文、图、元数据不留姓名/机构，自引用中性说法，部分信息放cover letter，发表后可转回；不把该指南当匿名效果实验。",
+      "read_at": "2026-11-08T21:20:02.228734+08:00",
+      "access": "body",
+      "source_type": "publisher_practice_guideline",
+      "reading_scope": "one_page_complete",
+      "published_at": null
+    },
+    {
+      "title": "Brooke LaFlamme, Nature Blogs: Double-blind peer review",
+      "url": "https://blogs.nature.com/blog/double-blind-peer-review/",
+      "reading_location": "实际读L27–34日期和全部短主文：2015年可选双盲机制，匿名评审者不接触作者身份，作者负责移除身份；未读评论及打不开的外链社论。",
+      "read_at": "2026-11-08T21:20:02.228734+08:00",
+      "access": "body",
+      "source_type": "publisher_editorial_blog",
+      "reading_scope": "complete_short_body",
+      "published_at": "2015-02-25"
+    }
+  ],
+  "failed_accesses": [
+    {
+      "url": "https://www.nature.com/articles/518274b",
+      "result": "原社论跳登录失败，不作已读依据；实际改读Nature作者博客短主文。"
+    },
+    {
+      "url": "https://www.nature.com/nature/editorial-policies/peer-review",
+      "result": "open/find均跳登录失败，未冒充现行政策全文核实；采用实际可读指南与明确日期的历史公告。"
+    }
+  ],
+  "new_material_count": 2,
+  "new_chinese_draft_count": 2,
+  "new_english_count": 0,
+  "name_usage_queries_performed": false,
+  "output_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension22.json",
+      "sha256": "beb5d4ecac9de295d9e07873e69bf296b95fce18fc504c14c42d4e12effb5967"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch24.json",
+      "sha256": "737968f781f98c11c77e781a4b4225ea4290a1ba3bdfe9cb993f4fd50cde871d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch24.md",
+      "sha256": "e2996e88ff230a112b6e021ddd99022208f9ac5b08d4e6a6a2fdbc3a835af1ec"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch24.json",
+      "sha256": "b94e701ad8a0ca28f1ec3f0a69be6e989cf45d0215a3ea36be88eb3658cc0c21"
+    }
+  ],
+  "whole_production_batch_complete": false,
+  "boundary": "无新古文，不将推广资料的近期日期计作新近研究新闻，不虚构书籍通读。现成词和同场凝练都可，但均未市场查询，不假称可用。没有改旧稿/分数/素材状态、Git、队列、库或feed。"
+}

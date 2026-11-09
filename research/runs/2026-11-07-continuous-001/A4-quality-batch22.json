@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-08T10:59:30.857223+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E22",
+      "chinese_id": "C1-C24",
+      "english": "Otherdata",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个正常完整英语词，四音节有常规读法，可以自然称呼。",
+          "counter_association": "th对非母语受众有成本，data口音读法不唯一。"
+        },
+        "spelling": {
+          "reason": "other和data均为标准常用拼法，合写不需要新字母或缩写规则。",
+          "counter_association": "Other Data与Otherdata需统一呈现，A3应覆盖两种分写。"
+        },
+        "grounding": {
+          "reason": "另一份新收集数据直接是本案replication和同数据重算的差别，不借证人角色。",
+          "counter_association": "普通other data本身不保证新收集或同一问题，必须保持关系解释的约束。"
+        },
+        "bilingual_relation": {
+          "reason": "中文再检验动作和英文更换研究数据相接，把重复检验落到同一问题与新证据。",
+          "counter_association": "若只讲其他不相干数据，不能保留原关系；名称单独未含比较条件。"
+        },
+        "distinctiveness": {
+          "reason": "具体研究对象可以做完整机构称呼，不是Witness的修饰词替换。",
+          "counter_association": "普通分类词组、数据咨询平台首感明显，只到最低独立接受，不借未查使用提高判断。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "规范门槛未改，主观编辑自评；主控先独评，再交原A3英文筛查。"
+    }
+  ]
+}

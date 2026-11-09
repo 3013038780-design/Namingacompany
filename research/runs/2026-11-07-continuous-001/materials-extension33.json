@@ -1,0 +1,59 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T02:34:41.166211+08:00",
+  "materials": [
+    {
+      "id": "C1-M69",
+      "family_id": "C1-MF-graph-traversal-reachable-coverage-with-discovery-state",
+      "macro_id": "S3",
+      "plan_direction_id": "C1-D-S3",
+      "category": "systematic_computational_explorer_role",
+      "case_ids": [
+        "B074",
+        "B037",
+        "B015"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Cornell CS2110: Lecture 22 Graph Traversals (Spring 2026)",
+          "url": "https://courses.cis.cornell.edu/courses/cs2110/2026sp/lectures/lec22/",
+          "reading_location": "实际读L24–28概述，L592–720迷宫图建模、DFS关系、初次循环错误与discovered集合修正，L1115–1142示例逐步文字与次序不唯一。部分代码随段返回但未运行/测试；未通读1744行、未实看动画或读后续全部BFS/练习。",
+          "read_at": "2026-11-09T02:34:41.166211+08:00",
+          "access": "body",
+          "source_type": "university_author_teaching_notes",
+          "published_at": null,
+          "reading_scope": "specified_graph_traversal_and_DFS_body_excerpt",
+          "boundary": "2026sp为课程学期不当页面发布日期或近90天新闻。遍历范围依图与源点可达性；DFS次序未唯一指定，不保证最短路。记录已发现是避免在环内重复的算法条件，不等于算法学会新规则。中文是通常术语的角色化凝练，不冒英文文档含汉字或最早词源。"
+        }
+      ],
+      "source_urls": [
+        "https://courses.cis.cornell.edu/courses/cs2110/2026sp/lectures/lec22/"
+      ],
+      "fact": "讲义用图把迷宫邻接关系表示出来；DFS深入一条可行分支后回退探索其他分支，保存已发现顶点以避免有环时反复递归。",
+      "distinctive_relation": "探索者沿真实连边抵达可达对象，既记住已发现之处，也保留返回分支的条件；覆盖不等于任意游走。",
+      "mechanism_to_material": "Recursive提示过程可以成为机构身份，Imbue提示先看一个参与世界的角色，Sony有据形成完整称呼的反馈允许从原动作凝成主角。沿原S3计算关系怎样工作与RX02-P1认识方法路径，实际查图搜索正文，不用算法名装饰成长口号；术语遍历加者是普通汉语角色化，不伪造语素来源。",
+      "history_difference": "旧跳读/M19是使用者通过地址链接在视图/文档间非线性访问，本项是按给定图结构系统探索源点可达顶点，并以发现状态避免重复：操作主体、覆盖目标和循环处理不同，不因都有链接就封禁全部图搜索。旧M15黏菌外痕导航是行动留下物理标记与背景可读性，本项显式数据结构记录算法状态，不把它说成环境记忆外挂。旧因序/M20关注事件因果偏序，并不实施图的覆盖搜索；本名不以某一种唯一访问次序讲秩序。旧由此及彼为固定约束关系反向求值，不等于访问图可达对象。若只剩抽象探索世界/不走回头路，须退回上位族，不因讲义换新就计族。",
+      "naming_potential": "遍历者是一个可直接叫出的完整计算探索角色，有系统到达而非只追逐远方的第二层。",
+      "shortcoming": "可能像爬虫/数据采集工具、游戏人物或旅行者，且遍字容易被读成无所不知；不能靠算法真给机构气质补分。",
+      "boundary": "有限图上的可达范围与发现状态是条件；不是遍历所有无限可能、学习任何任务或保证最短最优，更不承诺无所不知。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft"
+    }
+  ],
+  "new_material_count": 1,
+  "new_chinese_draft_count": 1,
+  "coverage_note": "新增S3一关系，保守S3为16/69约23.2%，古文仍4/69；本段不再扩第二项，未新增近90天新闻或整书阅读。",
+  "entry_only_not_read": [
+    {
+      "url": "https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/",
+      "status": "topic_search_entry_only_not_read",
+      "boundary": "仅搜索入口，不算新闻正文或素材。"
+    }
+  ]
+}

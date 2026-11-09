@@ -1,0 +1,140 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T21:36:41.195895+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch31.json",
+      "sha256": "714b90fa1a6ac106c726ffd35b810ab9506971df20e8d6baab860396d5422c93"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch31.json",
+      "sha256": "c1ec5e04c67229fca5ac384620a78ee3a7e08297d0394965a5507f5b97dfd5b9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch31.json",
+      "sha256": "49a1e2fd0ceae371d64c3c497145f20bb8efc0d1403d1ab1b4fbd08721adae49"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch31.json",
+      "sha256": "eafdda15980fa42214182198c48abdccb9ed5945edd4e5ac51d094ccb4fa6cfe"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch26.json",
+      "sha256": "adf5036918dcbeae58c224ecc83a0d79e320436390c86f14576df074a282ef8c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch26-receipt.json",
+      "sha256": "369c73ad1de4b63e8c662c59c434c7219f48030dd1f38c727e2b4012053f6d6c"
+    }
+  ],
+  "query_count": 6,
+  "results": [
+    {
+      "candidate_id": "C1-E32",
+      "name": "Paper Wasp",
+      "query_logs": [
+        {
+          "query": "\"Paper Wasp\"",
+          "executed_on": "2026-11-08",
+          "summary": "精确主要自然生命/大学推广物种页，物种名本身不当品牌使用。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Paper Wasp\" company lab",
+          "executed_on": "2026-11-08",
+          "summary": "公司/Lab主要蜂研究团队及过敏原检测，Paper Wasp为研究/检测对象，不自动独立Lab名。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Paper Wasp\" AI model",
+          "executed_on": "2026-11-08",
+          "summary": "AI/model命中paper-wasp运动研究仓库，完整名称不同且对象是动物；未冒完全同名基础模型。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Paper Wasp\" software product",
+          "executed_on": "2026-11-08",
+          "summary": "software/product主要蜂毒蛋白和除虫服务对象，通用品类不作精确软件品牌依据。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"PaperWasp\" company software",
+          "executed_on": "2026-11-08",
+          "summary": "合写命中Papertex官网PAPERWASP®技术商业呈现，实际正文核名称及经营上下文，不假注册。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Paper-Wasp\" brand",
+          "executed_on": "2026-11-08",
+          "summary": "连字符品牌命中Paper Source Paper Wasp商业系列，实际页面完整核心和多商品售卖确证；跨行业亦按项目避让。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "return_for_alternative_existing_commercial_core_use",
+      "reason": "已有Paper Wasp完整文具商业系列及PAPERWASP制造技术品牌式使用，官网正文闭环，不是仅物种出现。按项目跨行业商业核心主动避让；未确证完全同名AI公司/模型，网站®不当官方注册证明。原中文纸蜂不因英文失败倒写为市场占用。",
+      "evidence": [
+        {
+          "url": "https://en.paper-tex.com/",
+          "access": "primary_manufacturer_brand_body_read",
+          "finding": "L34–37 PAPERWASP®标题与仿生纸纱技术，L54 Papertex为Jiangsu Xinzeqi独立品牌；只核商业命名使用，不验证专利/注册、材料环保性能或中文对应名。"
+        },
+        {
+          "url": "https://www.papersource.com/collections/paper-wasp-collection",
+          "access": "primary_commercial_collection_body_read",
+          "finding": "L27–31 Paper Wasp Collection，L37–80多款Paper Wasp计划本/桌垫/文具实际售价与售卖链接；完整核心商业系列，不是普通虫类介绍。"
+        },
+        {
+          "url": "https://github.com/PavlicLab/CVPR2024-CV4Animals2024-TPSM_for_Paper_Wasps",
+          "access": "primary_repository_title_read",
+          "finding": "仓库完整名TPSM_for_Paper_Wasps，描述为针对纸蜂群体运动模型研究，paper wasps是应用研究对象，不用它当精确名为Paper Wasp的AI模型。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403，本批未重访/未逐名逐类核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403，本批未重访/未逐名逐类核准。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Paperwasp",
+          "scope": "2026-11-08实际逐名Paperwasp搜索URL不可访问，不代表无公司登记。"
+        }
+      },
+      "chinese_id": "C1-C41",
+      "chinese": "纸蜂",
+      "rework_attempt": 0,
+      "remaining_reworks": 2
+    },
+    {
+      "candidate_id": "C1-E33",
+      "chinese_id": "C1-C42",
+      "name": "Names Aside",
+      "decision": "not_screened_upstream_quality_reject",
+      "reason": "主控20<21，作者21、单轴差≤1；任一方未过即不查，未使用查询不称占用/可用。",
+      "query_logs": [],
+      "evidence": [],
+      "registration": {
+        "status": "not_searched_quality_gate"
+      }
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "passed_english_candidate_ids": [],
+  "returned_english_candidate_ids": [
+    "C1-E32"
+  ],
+  "quality_rejected_not_searched_ids": [
+    "C1-E33"
+  ],
+  "completed_search_result_count": 6,
+  "new_failed_search_attempts": 0,
+  "controls_reused_not_new": "原run2阳性对照，本批0新对照。"
+}

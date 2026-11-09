@@ -1,0 +1,213 @@
+{
+  "agent_id": "/root/continuous_a1",
+  "role": "A1",
+  "completed_at": "2026-11-09T05:47:31.408044+08:00",
+  "stage": "bounded_targeted_role_expansion03",
+  "protocol_version": "1.1",
+  "scope": "只核腾讯与种子补充火山引擎两例；不新开命名轮，不起本公司名，不改规范/总库/队列/Git",
+  "applies_to": "仅在root验收后供未来A2；不得反写已启动C60或旧创作的来源标签",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/inputs/A1-role-expansion03/README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba",
+      "read_scope": "本步完整读取规范/审美反馈；冻结本次版本"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/inputs/A1-role-expansion03/AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80",
+      "read_scope": "本步完整读取规范/审美反馈；冻结本次版本"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/inputs/A1-role-expansion03/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567",
+      "read_scope": "本步完整读取规范/审美反馈；冻结本次版本"
+    },
+    {
+      "path": "research/seed/README.md",
+      "sha256": "44cb357ed9db7edb5dc6c9a32ef1729e482ab3a9ef1f9dc6598dfbb3fc0d33b3",
+      "read_scope": "种子版本及原105计数边界"
+    },
+    {
+      "path": "research/seed/brand-naming-foundation.md",
+      "sha256": "92cb6c7cd36c201d35900528826a8aa9aca5a75c632df57d30dcaade5547f519",
+      "read_scope": "本步只重读腾讯行及火山引擎补充章节275–288；其余沿用此前实读"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746",
+      "read_scope": "只核B011原分类和证据边界"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67",
+      "read_scope": "复用六宏观来源/角色分类，不改基线"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.json",
+      "sha256": "b3bbd78ef83733b79b7033404dc29727a7e0c749988d06218820850f4de520be",
+      "read_scope": "复用原案例范围和六原则，不计新研究量"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.json",
+      "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132",
+      "read_scope": "实际重读F1–F6及B011此前只核当前品牌语境的边界"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/history-scan.json",
+      "sha256": "0197a084edc6665289fa378481f22f2643f7451ff93eaef647fc59de4ddb0424",
+      "read_scope": "本段冻结历史扫描清单/增量路径与名称字段索引，非重读1795份原稿或消费新名字"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T202508Z/decisions-through-batch46.json",
+      "sha256": "d38263ba15370dc62fe71d6f0a265ba6b682eb7e320405da6646d4ef75a6ea7b",
+      "read_scope": "实际逐条读59个中文ID的最终状态与理由；不是动态decisions当前字节"
+    }
+  ],
+  "counts": {
+    "objects_reviewed": 2,
+    "baseline_cases_reverified": 1,
+    "seed_supplement_case_separately_recorded": 1,
+    "new_market_discoveries": 0,
+    "new_company_names": 0,
+    "body_source_urls_read": 3,
+    "whole_books_read": 0,
+    "source_discovery_queries_executed": 5
+  },
+  "frozen_context": {
+    "history_scan_ref": "continuations/2026-11-08T212538Z/history-scan.json",
+    "history_manifest_reported_file_count": 1795,
+    "history_unique_name_strings": 487,
+    "decision_ref": "continuations/2026-11-08T202508Z/decisions-through-batch46.json",
+    "chinese_decisions_read": 59,
+    "note": "清单数量为主控冻结索引口径，不声称本步重读1795文件；名字字段值也不等于合格名字数。"
+  },
+  "sources": [
+    {
+      "id": "RE3-S1",
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2017-05-09/doc-ifyexxhw2972113.shtml",
+      "title": "《腾讯传》：关于腾讯（00700），你所不知的10个真相",
+      "published_at": "2017-05-09",
+      "access": "body",
+      "read_scope": "web正文L46–51，转载/作者署名、第一节起名与英文名两段；未通读本书或后9节",
+      "source_type": "named_author_book_excerpt_republished",
+      "provenance": "页面说明来自腾讯开放平台、摘选吴晓波《腾讯传1998–2016：中国互联网公司进化论》；经智通财经/新浪转载。本步实际读转载节选，不声称取得原书影印页、首发稿或原始录音。",
+      "evidence_layers": [
+        "L49：作者交代讯为通信尾缀，并载马化腾对备选顺序、注册取舍和名字个人色彩的回忆。",
+        "L49后段：腾与名字、讯与润迅关系的推测，不能因作者说八九不离十就升级为逐字创始解释。",
+        "L51：作者叙述英文受到Lucent启发、追求字形对称；引号内说话人未在该段明指，不能直接署名为马化腾引语。",
+        "L51：Ten Cent与后来的微结算对应是作者事后联想，不是原始商业命名动机。"
+      ],
+      "checked_at": "2026-11-09T05:47:31.408044+08:00"
+    },
+    {
+      "id": "RE3-S2",
+      "url": "https://www.volcengine.com/about",
+      "title": "为什么选火山—火山引擎",
+      "access": "body",
+      "read_scope": "web L16–18平台定义、L41–53产品矩阵/基础服务语境，L228–230对外驱动与核心理念；没有把客户列表/图片当命名解释",
+      "source_type": "company_primary_current_self_definition",
+      "evidence_layers": [
+        "公司自述把内部积累的方法、技术能力和应用工具提供给外部企业。",
+        "正文以为客户增长提供动力表达当前公司角色；不是名称创始解释。",
+        "该页没有本步能核到的最初起名原因、命名者回忆或火山一词历史选择过程。"
+      ],
+      "checked_at": "2026-11-09T05:47:31.408044+08:00"
+    },
+    {
+      "id": "RE3-S3",
+      "url": "https://www.usgs.gov/faqs/how-do-volcanoes-erupt?page=1",
+      "title": "How Do Volcanoes Erupt?",
+      "access": "body",
+      "read_scope": "FAQ正文L5–9；未读Related中的其他书籍/论文",
+      "source_type": "scientific_institution_primary_explanation",
+      "evidence_layers": [
+        "岩浆可上升、聚集并通过通道到达地表；喷发有爆发式和非爆发式，行为依组成和气体逸出等条件。",
+        "这里只约束自然比喻的事实边界，不证明火山引擎团队曾参考此页或采用相同解释。"
+      ],
+      "checked_at": "2026-11-09T05:47:31.408044+08:00"
+    }
+  ],
+  "cases": [
+    {
+      "id": "B011",
+      "name": "腾讯 / Tencent",
+      "case_origin": "105基线B011，原run已做构词分析；本步增加实际命名节选证据，不计新市场公司",
+      "original_category": "broad_tech",
+      "primary_source": "S3",
+      "secondary_sources": [
+        "S5"
+      ],
+      "baseline_classification_preserved": true,
+      "prior_status": "formation-feedback只读官方当下公司语境，未核历史起名解释；旧档保持原样",
+      "literal_meaning": "讯指消息/通信；腾在现代字义中可读为腾起、有动势。后一字义读法不等于当年命名人的全部原意。",
+      "origin_evidence_status": "具名书籍节选载创始人回忆；实读为转载，不是原始录音/原书影印",
+      "verified_origin_facts": "节选载讯与通信有关、腾讯是多个备选中最终能登记的一项，马化腾曾因个人名字色彩而犹豫。现实选择包含注册约束，不是先完成完美寓意设计。",
+      "english_evidence_boundary": "Lucent启发及对称诉求属于作者叙述/未明确说话者引句；十分钱与微结算是事后联想，不作为最初商业愿景。Tencent当前称呼不是本步创作。",
+      "researcher_analysis": "两个熟悉语素可以压缩成一个完整称呼；中文语义仍能读出通信对象与运动感，而不必先背学术名词。但这项构词解读和真实历史选择应分开。",
+      "two_worlds_shared_action": "信息本来就有发送、传递、到达的动作；腾所带的运动感与这个对象在想象上相接，而不是“腾好、讯也好”的两个独立吉祥义。这里是语言图像关系，不是物理定律。",
+      "why_whole_name_callable": "两个常用字、两音节，整体可以像一个专名被叫出；没有把所有技术功能放进称呼。此为编辑分析，不是消费者实验或成功因果证明。",
+      "long_term_role": "通信/连接的主体称呼可以随业务发展扩展，完整身份由长期行为填入，不要求每个字都是一套技术。",
+      "A2_search_questions": [
+        "真实对象本来以什么方式行动或发生关系，日常中文怎样自然说这句话？优先读正文里的动作，不从科技字/吉祥字两张表配对。",
+        "哪些动作、角色或场景能从现有关系中凝练成熟悉语素组成的整体称呼，避免留下口号或只适合一个小工具？"
+      ],
+      "A2_execution_boundary": "先把对象—动作—条件写实，再尝试整体称呼；允许自然新组合，但不能把避重改字、附智/元/跃或事后个人故事当新原理。",
+      "failure_examples": [
+        "不能把腾讯历史写成已证实的腾飞讯息组合。",
+        "不能据此鼓励使用本团队个人姓名或照抄讯尾缀；本步未推荐任何本公司名。",
+        "不能以创始人随手选名的经历为理由，免除本项目质量或查重。"
+      ],
+      "sources": [
+        "RE3-S1"
+      ]
+    },
+    {
+      "id": "SUP-VOLCENGINE-01",
+      "name": "火山引擎",
+      "case_origin": "初始材料后文补充案例，非105主例；本补充单列，不给基线105虚增",
+      "original_category": "seed_supplement",
+      "macro_source_analysis": [
+        "S2自然力量",
+        "S3工程角色"
+      ],
+      "classification_boundary": "宏观标签为本补充的编辑交叉分析，不改105主类或合计",
+      "literal_meaning": "火山是可直接想象的自然地貌/活动；引擎是机器动力装置，也常作推动系统运作的比喻。",
+      "origin_evidence_status": "官网当前业务语义已读；创始命名动机未知",
+      "verified_company_facts": "官网把平台说明为将字节跳动内部积累的能力提供给外部企业，并用为客户增长提供动力表述角色。",
+      "unverified_motive": "本步未取得命名者访谈或初次命名解释；不能把用户与研究者提出的流量火热、地热、源源不断等层次写成创始团队原意。",
+      "researcher_analysis": "火山提供宏观画面和力量释放的动势，引擎把力量接到推动他者的工程角色。组合把自然场景与工程用途拢在同一个驱动图像里，名字因此比各字独立寓意更完整。",
+      "two_worlds_shared_action": "自然侧有内部过程向外部表现，工程侧有动力推动系统运作；二者可共享力量被释放、参与推动的抽象关系。是有限品牌比喻，不是火山真实作为发动机，也不证明某次喷发必然可控。",
+      "why_whole_name_callable": "火山+引擎是两个常见双音词形成的2+2节奏；前半能看见，后半给出作用角色，不靠术语解释才知道如何称呼。仍是编辑判断，非市场实验。",
+      "long_term_role": "把公司放在让别的企业有能力行动的位置，宽于某一算法或部件；但云平台身份不等于研究Lab，应迁移角色关系而非现成行业包装。",
+      "A2_search_questions": [
+        "自然/工程/日常实践中，有没有一种完整的关系能让潜在能力转为他者可用的行动条件？必须说清谁对谁、靠什么，不自动等同成长。",
+        "材料中的场景和作用是否本来相连，能否让一个自然的中文整体同时承接画面与角色？若需要分别编两个好寓意，说明关系还不够。"
+      ],
+      "A2_execution_boundary": "下一A2在原已验六方向内直接阅读与创作，不另开模板库；可以选角色、场所、动作或完整形象，不强制都是自然名词+工程名词。",
+      "failure_examples": [
+        "将任何自然词接引擎、实验室、智能都不自动得到内在关系；不能按同一模板增加家族计数。",
+        "火山并非总爆发、持续稳定或有用，负面灾害联想不能删；USGS机制只是比喻边界，不能当命名史。",
+        "不复活历史念头引擎/Thoughtgear、既有风/借力、地质/星体或已否决家族；新资料不自动产生独立创意。"
+      ],
+      "sources": [
+        "RE3-S2",
+        "RE3-S3"
+      ]
+    }
+  ],
+  "conclusion": "自然中文组合允许不是现成术语，但应成为一个有共同对象/动作/角色的整体称呼。腾讯提醒现实选名史与后设语义可同时存在，火山引擎提醒画面与作用角色可以共处；都不能变成科学字+美好字或某某引擎模板。",
+  "specific_next_A2_use": [
+    "沿已验六方向直接读材料，找能完整说出的关系与角色，避免先圈出所有好字再做排列组合。",
+    "中文先听整体称呼，再看是否保留事实关系；品牌身份和独特关系是两个检查，不能互相补分。",
+    "本补充只是构思方法参照，不是新素材或旧候选的来源证明；新名字仍由原A2实读创作并交后续角色。"
+  ],
+  "history_boundary": "59案中熟手/千手稿/原星等说明真实来源不自动达到辨识与Lab身份；科学术语同名和自然称呼商业拥挤也都存在。不能用本补充绕开家族去重或跨行业避让。",
+  "access_limits": [
+    "本步没有遭遇需要反复重试的403；未扩读第三公司。",
+    "腾讯只读具名书籍转载节选，不冒充通读原书或访谈录音。",
+    "火山官网支持当前角色，不支持创始命名史；USGS只支持自然过程边界。",
+    "未把搜索中其他公司/产品或没有打开的传记版本当已读来源。"
+  ],
+  "new_name_proposals": [],
+  "execution_ref": "真实原Agent /root/continuous_a1；本任务实际exec/web记录。"
+}

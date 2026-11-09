@@ -1,0 +1,112 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-08T09:30:57.436Z",
+  "completed_at": "2026-11-08T18:34:26.743155+08:00",
+  "status": "two_same_run_packages_completed_zero_new_pairs",
+  "actual_A1_basis_reused": [
+    "A1-final-input-reacceptance.json",
+    "A1-formation-feedback.json",
+    "search-plan.json",
+    "plan-review.json"
+  ],
+  "new_A1_research_claimed": false,
+  "actual_A2": "/root/continuous_a2",
+  "actual_A3_same_cn_en": "/root/live_a3",
+  "actual_A4": "/root/continuous_a4",
+  "new_materials": 5,
+  "new_chinese_drafts": 3,
+  "new_chinese_families_explored": 3,
+  "chinese_quality_passed": 2,
+  "chinese_public_use_passed": 0,
+  "new_english_versions": 0,
+  "english_quality_passed": 0,
+  "english_public_use_passed": 0,
+  "evidence_holds": 1,
+  "new_evidence_holds": 0,
+  "new_retained_families": 0,
+  "retained_pairs": [],
+  "new_A3_candidate_query_executions": 13,
+  "new_A3_search_results_returned": 12,
+  "new_A3_failed_or_unreturned_attempts": 1,
+  "new_root_candidate_query_executions": 0,
+  "cumulative_A3_candidate_query_executions": 399,
+  "cumulative_A3_search_results_returned": 398,
+  "root_additional_queries_prior_packet": 2,
+  "cumulative_recorded_candidate_query_executions": 401,
+  "cumulative_recorded_results_returned": 400,
+  "cumulative_materials": 45,
+  "cumulative_chinese_drafts": 35,
+  "cumulative_english_versions": 26,
+  "catalog_counts": {
+    "discussion_candidates": 25,
+    "research_reserves": 1,
+    "total_unique_families": 26,
+    "withdrawn_families": 1,
+    "historical_unique_families": 27
+  },
+  "reason": "本段继续两小包，读5项新资料、提出3中文。算着走因自然称呼/Lab身份未过，未查使用；沙阵/隶首双中文质量过线后，分别查到数篷科技同名可信计算平台、华润电力同名数智管控平台（另安徽AI公司目录）。具名使用淘汰，原A4及同A3实际完成零英文终核，本段无新入库。",
+  "query_breakdown": {
+    "C33_quality_reject_not_searched": 0,
+    "C34_returned": 6,
+    "C35_returned": 6,
+    "C35_extra_Hainan_started_unreturned": 1
+  },
+  "source_sampling": {
+    "new_materials": 5,
+    "root_body_read_materials": 4,
+    "batch19_reviewed": 2,
+    "batch19_minimum": 1,
+    "batch20_reviewed": 2,
+    "batch20_minimum": 1,
+    "M43_root_access": "web timeout未读；不冒否定原A2实读",
+    "M45_root_scope": "原序网页及同SHA扫描PDF6/8页目读，非通读371页"
+  },
+  "prior_evidence_hold": "活变量/Maymatter未重复旧403，无新原证不改结论，不追加英文R3。",
+  "whole_production_compliance_claimed": false,
+  "evidence_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch19.json",
+      "sha256": "ebf4e8ee050a011b3736a64f465e6c3775d57fb67da61ee6460ee0f7ffc8a43b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch20.json",
+      "sha256": "508a65ba331ed2fa1eb76094043af9a1aaab468431e614ab04b460d717450d16"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch21.json",
+      "sha256": "83100580afd76a9d6e5cab68cabbafb3836c560a27c21cb033f017b2b25fece6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch19.json",
+      "sha256": "e9343b6ef297fc4fbd9798bf7367f851e595c5c599d7e82448385ec709608984"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch19.json",
+      "sha256": "c73a87ef4eee5978987f902d6661e68a30c708f3e29c5e3f35f02e9f7de85ab3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch22.json",
+      "sha256": "cb947eaff7237c2bb83c5651e7da33f6addc3a18741ce630a7d7ccbe08014572"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch20.json",
+      "sha256": "bde296fa5b03e117199ce882c890f3e9fa1794920cb148a139f9f6fdd71169ec"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch20.json",
+      "sha256": "79e67455faf4bc1973590538a445cad67aae1e3ced49023108e8c9564abbf18a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T093057Z/handoffs-batch19.json",
+      "sha256": "98912b63c0c30a905eda1c7599e2fb46e2945bc120f84d042c59ee7bdfaf0532"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T093057Z/handoffs-batch20.json",
+      "sha256": "070f2cf0a8b86ea369682bf24ef0e58d4bfa216a78f7724fe37c571444cfd469"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T093057Z/decisions-through-batch20.json",
+      "sha256": "ae0a8f4ea6ae7f6c3884d7bec38b1b082c2ba9a9b076022296c538c2755fa63a"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T20:55:52.922557+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch23.json",
+      "sha256": "2ed9786614c8c7f38068d2417538708a47138f7afb324bf25084012814fb06e4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch23.json",
+      "sha256": "13fbd12fdca9d83d767da62668f93df5ff62ebd8406cdb7cde9dcb9650744b58"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch23.json",
+      "sha256": "3e0e0965d66046249d3d50a5f6af0d8e833a8dc4a049aae5c12da40fe592b8a9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch23.json",
+      "sha256": "da5695d6f2cdc5f0d77d29eb2147e129d743635df8d42e2df4eb7dbabb59ad2a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch23.json",
+      "sha256": "8bae13163b9559ecfe8eb04a30566659e01cf0e89b5e8eba244da4fddbf122dc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C40-source-scope-addendum.json",
+      "sha256": "0ab1e9325b0192f362b04646a23803ddc6d4bedaaf010b56face886655030119"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C40-source-scope-addendum.md",
+      "sha256": "ee6601e1dd1bb56140880cf49a7eeeba246b3dd4779bf1a4ee0eca5ba4de88d2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C40-source-scope-addendum-execution.json",
+      "sha256": "df34b988a8579d1323792ca3bf8b2ecf8ad35d427d85c9d36e10e888fa9a79db"
+    }
+  ],
+  "query_count": 9,
+  "results": [
+    {
+      "candidate_id": "C1-C40",
+      "name": "雾针",
+      "query_logs": [
+        {
+          "query": "\"雾针\"",
+          "executed_on": "2026-11-08",
+          "summary": "主要仪器电喷雾针与纹身打雾针商品，额外字与品类属性保留，不截短认本名商业品牌。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"雾针科技\"",
+          "executed_on": "2026-11-08",
+          "summary": "精确雾针科技返回雾炮/雾化供应链与不同字号企业，未确证本核心主体。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"雾针智能\"",
+          "executed_on": "2026-11-08",
+          "summary": "精确雾针智能主要气雾针剂枪游戏技能及其他雨雾智能工程，未确证本名公司。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"雾针\" AI 模型 软件 公司",
+          "executed_on": "2026-11-08",
+          "summary": "AI/模型/软件组合主要大型算法目录和聚合新闻拆字匹配，没有具体雾针品牌线索；未假称核全部备案清册。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"霧針\" 公司 軟體",
+          "executed_on": "2026-11-08",
+          "summary": "繁体多打霧針针具类别与微针/雾化年报，不将功能部件标题自动当品牌。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"wuzhen\" \"雾针\" company",
+          "executed_on": "2026-11-08",
+          "summary": "拼音并列中文结果为企业名录Wuzhen镇等地名拆词，并非雾针同名公司。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"雾针\" \"有限公司\"",
+          "executed_on": "2026-11-08",
+          "summary": "独立有限公司补搜仍为喷雾针采购/仪器/专利与供应商，完整字号不同，不冒当前登记。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"霧針\" AI 品牌",
+          "executed_on": "2026-11-08",
+          "summary": "繁体品牌补搜出现AIバトラー霧針魔法，实际正文闭环为角色技能，非模型/独立软件品牌。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"雾针\" 软件 游戏 品牌",
+          "executed_on": "2026-11-08",
+          "summary": "软件游戏补搜多气雾针剂枪技能、雾影猎人不同游戏、聚合页，未确证名为雾针独立软件。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "public_use_screen_pass_with_generic_hardware_and_fictional_usage_risks",
+      "reason": "9条有效查询未确证完整雾针/霧針同核心公司、模型或独立软件品牌。喷雾针/打雾针为更长仪器或纹身类别；AIバトラー确有同词魔法招式，但实际正文为角色设定，不是独立产品/模型名。保留医疗纹身联想、虚构招式同词、Wuzhen近音拥挤风险；登记未清。",
+      "evidence": [
+        {
+          "url": "https://ai-battler.com/battle-result/cmm843s9i049es60oaw9edmgp",
+          "access": "primary_game_content_body_excerpt_read",
+          "finding": "实际L33–44角色魔法设定含霧針及奥义；不是AIバトラー产品名称，页面L7模型另名。只读该设定段，不宣称通读大段自动生成小说。"
+        },
+        {
+          "url": "https://www.btatt2.com/categories/tattoo-needles",
+          "access": "retail_category_open_dynamic_body_partial",
+          "finding": "网页实际返回类别/品牌导航与动态模板；搜索索引有AEROLITE圆形打霧針，但本次可读正文未匹配该中文，未冒读完整商品或认定霧針品牌。"
+        },
+        {
+          "url": "https://www.biomart.cn/infosupply/122211748.htm",
+          "access": "search_index_only_open_429",
+          "finding": "搜索显示TIS Electrode/电喷雾针、品牌sciex；实际打开429，只记喷雾针类别/较长名线索，不当本候选同名公司/产品确证。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07 A3-controls.json共同入口403；本批未新访问、未逐名逐类核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07 A3-controls.json共同入口403；本批未新访问、未逐名逐类核准。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Wuzhen",
+          "scope": "2026-11-08实际逐名Wuzhen搜索URL不可访问，非无登记结论。"
+        }
+      },
+      "source_scope_acceptance": "实际读A2-C40-source-scope-addendum.json/md及execution、主控受理：crossing仅保留绕流条件下径向锥形刺捕获入口；不把整机吸入/排水作用归给针，未改原稿/原分。"
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "passed_chinese_candidate_ids": [
+    "C1-C40"
+  ],
+  "completed_search_result_count": 9,
+  "new_failed_search_attempts": 0,
+  "controls_reused_not_new": "本run原2阳性对照，本批0新增；旧403/辅助主体不重复。"
+}

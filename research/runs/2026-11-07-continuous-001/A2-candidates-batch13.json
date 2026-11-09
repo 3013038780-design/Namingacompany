@@ -1,0 +1,85 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T11:36:00.363426+08:00",
+  "candidates": [
+    {
+      "id": "C1-C26",
+      "name": "园丁鸟",
+      "pinyin": "yuán dīng niǎo",
+      "material_id": "C1-M34",
+      "material_ids": [
+        "C1-M34"
+      ],
+      "family_id": "C1-BF-animal-builder-of-perceptual-environment",
+      "plan_direction_id": "C1-D-S2",
+      "case_ids": [
+        "B076",
+        "B053"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Kelley & Endler: How do great bowerbirds construct perspective illusions?",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5319334/",
+          "published_at": "2017-01-18",
+          "reading_location": "HTML L85–139摘要/引言/方法与首段结果；L153–165结果；L191–211讨论与认知解释限制。没有读取全部附录、原始录像或参考文献各论文。",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body",
+          "read_at": "2026-11-08T11:36:00.363426+08:00"
+        },
+        {
+          "title": "中国国家地理：园丁鸟（作者韩奔、韩联宪）",
+          "url": "https://www.dili360.com/cng/article/p538190146486d19.htm",
+          "published_at": "2014-05 issue; exact day not given",
+          "reading_location": "公开题名、署名及L7–23导语/图片说明/第一段；L25–27提示其余需小程序，未读未开放全文。仅据此确认中文称呼与一般建亭语境，不用该导语证明原论文技术结果。",
+          "reading_scope": "public_excerpt",
+          "access": "partial_body",
+          "method": "web_HTML_body",
+          "read_at": "2026-11-08T11:36:00.363426+08:00"
+        }
+      ],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5319334/",
+        "https://www.dili360.com/cng/article/p538190146486d19.htm"
+      ],
+      "formation": "直接采用已有中文动物称呼园丁鸟。不是园丁加鸟机械造词；中文杂志公开节选确认称呼，具体透视行为来自原论文，不将宽称呼误说成论文该物种唯一精确学名。",
+      "relation_sentence": "一只鸟选择并安排物件，让另一只鸟从特定位置看见一个被构筑过的场景。",
+      "condensation_path": "以完整行动者作称呼，把真实关系留作第二层；不把物种名改成智鸟/进化鸟，也不硬用专业幻觉名称。",
+      "meaning": "一个会组织外部世界、让场景成立的自然建造者。",
+      "crossing": "日常能理解的园丁角色与鸟的外部建造行为，在同一个自然对象上相接；研究层可关注感知、环境与行动怎样相互作用。",
+      "layers": [
+        "有声音和形象的自然主角",
+        "物件不是越多越好，其安排与观看条件共同起作用",
+        "研究者通过组织条件，使新的观察和行动有可能发生"
+      ],
+      "material_feature_retained": "保留行动者选择安排外物、场景对观看条件有依赖的关系。",
+      "material_feature_lost": "称呼不显示物件梯度、求偶背景、特定种和实验样本；不能从两字园丁推导育儿式成长或优化保证。",
+      "why_name_not_generic": "是已有完整动物称呼和具体建造行为，不是自然词加科技后缀；并非把鱼换成鸟继续复述同一群体叙事。",
+      "shortcoming": "园艺/教育/景观工作室的行业联想明显；鸟类形象可能可爱过头。视觉错觉也可能引出包装与欺骗联想，不能抹去该出处风险。名字是否独立承载AI Lab必须另评。",
+      "science_boundary": "园丁鸟是较宽的中文称呼，本实验不是所有园丁鸟、雌雄或所有建亭行为的一般实验。内部模板、初次学习与试误是作者讨论的可能解释，未证明其懂人类几何或具有通用智能。梯度在重建中不持续单调变好。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "Sakana是群体简单规则与组织，不是单鸟为观看者布置环境；活桥是个体身体成通路，园丁鸟则使用外部物件；余光是观察者周边信息压缩，探形是触觉/声学获得形状，算筹是离散表示规则。本项为物体大小、距离与指定观看位置共同形成显示场景。若最终只剩泛化造园/成长/装饰，不凭新物种另算品牌族。 历史园丁鸟/亭鸟/bowerbird搜索仅见本角色上包计划入口记录，无既有中文草案命中；不是市场使用查询。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是园丁鸟，做人工智能研究。",
+        "园丁鸟发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened"
+    }
+  ],
+  "scope": "未经市场筛查的中文草案，无英文或可用性结论。"
+}

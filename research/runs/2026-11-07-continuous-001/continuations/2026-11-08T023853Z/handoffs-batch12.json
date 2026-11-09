@@ -1,0 +1,175 @@
+{
+  "reviewed_at": "2026-11-08T11:10:16.344583+08:00",
+  "same_research_run": true,
+  "new_A1_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "from": "existing_A1",
+      "to": "same_A2",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C25"
+      ],
+      "reason": "复用原实际A1分类和案例机制，C24关闭后才交原A2下一小包，未并发另开研究。",
+      "refs": [
+        {
+          "path": "A1-final-input-reacceptance.json",
+          "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+        },
+        {
+          "path": "A1-formation-feedback.json",
+          "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        },
+        {
+          "path": "continuations/2026-11-08T023853Z/decisions-through-batch11.json",
+          "sha256": "1c6d355f99b7a97c9487e455adbbabe8bbe27f193b33599290878bf2075df56a"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "from": "same_A2",
+      "to": "coordinator",
+      "status": "reviewed_quality_reject",
+      "candidate_ids": [
+        "C1-C25"
+      ],
+      "reason": "主控先读无分预览与来源封存24再读producer25，Lab身份3未过4，差1无需差2重评，不以真实原理补品牌分。",
+      "refs": [
+        {
+          "path": "A2-creation-execution-batch12.json",
+          "sha256": "9cdbc4f7e8472a4d0910d2014fcd45eacec349f1d03a62bdc82e601319edf4b9"
+        },
+        {
+          "path": "A2-candidates-batch12.json",
+          "sha256": "321cc74ede8fd9bdd8ac62a089ead76ae3c122f9ada7d18e3b1600e994063542"
+        },
+        {
+          "path": "materials-extension11.json",
+          "sha256": "b8467ca302575cc9c68d065f2ebd3544d53d687abec142150ad3aa035c55a9d7"
+        },
+        {
+          "path": "coordinator-cn-batch12.json",
+          "sha256": "d674ac35967022418211abc2662e16fb7c6252eb71ed0f81ec4bc3a98072317e"
+        },
+        {
+          "path": "A2-quality-batch12.json",
+          "sha256": "f05a00c1688d34060c58a1c008253ebb266cc325a720599312d9e86ffaa264f6"
+        },
+        {
+          "path": "coordinator-family-review-batch12.json",
+          "sha256": "33baa46d1ad253406aab14ac195e500e486ba950c7f9cef31bb41576c0e2da8b"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "from": "coordinator",
+      "to": "same_A3",
+      "status": "zero_input_actual_checked",
+      "candidate_ids": [
+        "C1-C25"
+      ],
+      "reason": "实际A3核质量失败，上游合格0，中文查询0；未查不称占用。",
+      "refs": [
+        {
+          "path": "A3-cn-batch14.json",
+          "sha256": "316327419ce0085a3ce5469f5c1d750b2c9aee904f21be1d8eb495bce41cd364"
+        },
+        {
+          "path": "A3-cn-batch14-receipt.json",
+          "sha256": "8dbed8de7e8337f77f1a81eb6c8646475393e02f8c5f6abca4b2f43a60ccea83"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "from": "same_A3",
+      "to": "same_A4",
+      "status": "zero_input_actual_checked",
+      "candidate_ids": [
+        "C1-C25"
+      ],
+      "reason": "原A4实际核上游，合格中文0，未制造英文、评分或查询。",
+      "refs": [
+        {
+          "path": "A4-zero-batch12.json",
+          "sha256": "3d7653c1d87bf5b722ef75e0b47afbcdf7f597fa17602afe125e0fd56c368181"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "from": "same_A4",
+      "to": "same_A3",
+      "status": "zero_english_input",
+      "candidate_ids": [
+        "C1-C25"
+      ],
+      "reason": "英文提交0；原A3仍实际读取核对。",
+      "refs": [
+        {
+          "path": "A4-zero-batch12.json",
+          "sha256": "3d7653c1d87bf5b722ef75e0b47afbcdf7f597fa17602afe125e0fd56c368181"
+        },
+        {
+          "path": "A4-zero-batch12.md",
+          "sha256": "06d39c0362166bf8c159d501beb17d1bc82e7f8e056d51f89603075cdbc4722f"
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "from": "same_A3",
+      "to": "coordinator",
+      "status": "zero_input_verified",
+      "candidate_ids": [
+        "C1-C25"
+      ],
+      "reason": "同一原A3实际核A4与中文回执SHA，无新增查询。",
+      "refs": [
+        {
+          "path": "A3-en-zero-batch12.json",
+          "sha256": "65536760519322b58139f35ebd76c340924d0b23b00a1d14d27e8a932786b356"
+        },
+        {
+          "path": "A3-en-zero-batch12-receipt.json",
+          "sha256": "d5aa4212464df542f1349f7b2b89c65ee0d711df789695f5cad1e6840e64f87b"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "from": "coordinator",
+      "to": "catalog",
+      "status": "zero_retained",
+      "candidate_ids": [
+        "C1-C25"
+      ],
+      "reason": "无完整过关配对，不更新备选总数；只更新研究历史和网站每日记录。",
+      "refs": [
+        {
+          "path": "coordinator-family-review-batch12.json",
+          "sha256": "33baa46d1ad253406aab14ac195e500e486ba950c7f9cef31bb41576c0e2da8b"
+        },
+        {
+          "path": "A3-en-zero-batch12.json",
+          "sha256": "65536760519322b58139f35ebd76c340924d0b23b00a1d14d27e8a932786b356"
+        },
+        {
+          "path": "continuations/2026-11-08T023853Z/decisions-through-batch12.json",
+          "sha256": "3dc9346b7fc789f6c157e9e818fdb34f82e2e298bc9bafcba08558ea0170abb4"
+        }
+      ]
+    }
+  ]
+}

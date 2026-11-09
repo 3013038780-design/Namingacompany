@@ -1,0 +1,39 @@
+{
+  "agent_id": "/root/live_a3",
+  "executed_at": "2026-11-09T03:53:47.441017+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45.md",
+      "sha256": "292dd12f1dffa0278d3d5018ce996e13754fbfef78cc63823e08c4e84be94dd9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982"
+    },
+    {
+      "path": "A3-E47-profile-addendum.md",
+      "sha256": "12da5555c74a21b0cd461a3c45112b3ae9eeb4f1c4e680d326091f37e1d7adac"
+    }
+  ],
+  "actual_new_candidate_search_queries": 0,
+  "actual_direct_external_actions": 4,
+  "decision": "retain_public_use_precheck_with_explicit_technical_author_namespace_risk",
+  "counters": {
+    "agent3_calls": 679,
+    "agent3_returns": 678,
+    "root_historical_queries": 2,
+    "run_calls": 681,
+    "run_returns": 680
+  },
+  "unchanged": "0新搜索/登记/对照，不改原EN45字节/库/队列/Git。"
+}

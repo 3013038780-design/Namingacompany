@@ -1,0 +1,136 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 last English rework",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T19:34:33.778414+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch21.json",
+      "sha256": "03c41e0e634c0454be18a12582bc8383183b5aeeb86abca08f54d16ea9bbfaf4"
+    },
+    {
+      "path": "materials-extension20.json",
+      "sha256": "d7bc23a3392897e047569c8608a0d6c711eb52333dddc499602adcbd988c5e5b"
+    },
+    {
+      "path": "coordinator-cn-batch21.json",
+      "sha256": "8dc53ed028e8f10955a77e09cbe2a92ca6de5a47885a8cb3923aa12335b2c6e1"
+    },
+    {
+      "path": "coordinator-family-review-batch21.json",
+      "sha256": "cedb1897412ad5b45fa6c6d402d3dc56ead04ad7fb69e5ad9e53809d1913ac9d"
+    },
+    {
+      "path": "A3-cn-batch23.json",
+      "sha256": "6af294d33fa08604f58ec5749d41ce8325b84d0a68bfb2bbdd661bd142eed5c6"
+    },
+    {
+      "path": "A4-candidates-batch27.json",
+      "sha256": "bc3e8941f60bf727f0ccc81c37008f64b7d1151b9bca901838f5d900b195bd68"
+    },
+    {
+      "path": "A4-candidates-batch28.json",
+      "sha256": "9e3223c205e5bc46ca468bd1337bcf5f67346464abe9e0fd65faea25685c0d57"
+    },
+    {
+      "path": "coordinator-en-batch28.json",
+      "sha256": "10d9c8f48a7fa67cd48d9b944b907ae0fe69340819115b2f1a24286fb5411de3"
+    },
+    {
+      "path": "A3-en-batch27.json",
+      "sha256": "71c47599a915989da1b96e51cc2f14f2bc180271a27e7730ee4a80e75ea72ebd"
+    },
+    {
+      "path": "A3-en-batch28.json",
+      "sha256": "ec1d20c9858545cdf2781a3d440d056c720da46f7310c459cb5e2fd7b13ed115"
+    },
+    {
+      "path": "A3-en-batch28.md",
+      "sha256": "f643f908a56e93b62450b4dd026d684ba4e272475c6185459af9676191bb68e4"
+    },
+    {
+      "path": "A3-en-batch28-receipt.json",
+      "sha256": "8b1419cc99787cb233aba9ee9abcd0cb9659c1f8e99533f525ec3c0a169426cd"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch28.json",
+      "sha256": "9e3223c205e5bc46ca468bd1337bcf5f67346464abe9e0fd65faea25685c0d57",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch28.json",
+      "sha256": "d84d409cc64f6f23c609d055634b6e28ae213b1977cc65d5ce50af38eed38ef0",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch28.json",
+      "sha256": "1d09616ecdd4b8a3746c0195fc08e76d448c4ac0408d6d228a91f799879f24fb",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch28.json",
+      "sha256": "10d9c8f48a7fa67cd48d9b944b907ae0fe69340819115b2f1a24286fb5411de3",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch27.json",
+      "sha256": "71c47599a915989da1b96e51cc2f14f2bc180271a27e7730ee4a80e75ea72ebd",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch23.json",
+      "sha256": "6af294d33fa08604f58ec5749d41ce8325b84d0a68bfb2bbdd661bd142eed5c6",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch28.json",
+      "sha256": "ec1d20c9858545cdf2781a3d440d056c720da46f7310c459cb5e2fd7b13ed115",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch28.md",
+      "sha256": "f643f908a56e93b62450b4dd026d684ba4e272475c6185459af9676191bb68e4",
+      "match": true
+    }
+  ],
+  "actual_reading": "实际读A3-en28 JSON/MD/receipt及其具名NuGet/GitHub/CDN使用性质，非本人新查网页；原源原理沿既有真实阅读，新读两词典正文范围见稿件。",
+  "dictionary_reading": [
+    {
+      "url": "https://www.merriam-webster.com/dictionary/after",
+      "scope": "实际open L42–75、125–195时间先后及语素义"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/check",
+      "scope": "实际open L36–69、209–226对照原本/核验行为义"
+    }
+  ],
+  "local_history_check": "research下JSON搜索aftercheck/after check无命中；仅本地字面检索，不是使用查询或完整家族审查替代。",
+  "english_output_ids": [
+    "C1-E30"
+  ],
+  "actual_english_versions": 1,
+  "actual_new_chinese_names": 0,
+  "new_family_count": 0,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "rework_attempt": 2,
+  "remaining_reworks": 0,
+  "outputs": [
+    {
+      "path": "A4-candidates-batch29.json",
+      "sha256": "cc20675d09f0f818ebc24885704bab9b7d5b0a8b197a5189a20b761bd4b45ebb"
+    },
+    {
+      "path": "A4-preview-batch29.md",
+      "sha256": "d62986dd331808ae13882256010328614d0b339a44db37524781e2ab4f02e2d5"
+    },
+    {
+      "path": "A4-quality-batch29.json",
+      "sha256": "8c4c6db4d6d16ec77597aa11c73d00818b1cd2b74f51a56fef82653209cb8c6b"
+    }
+  ],
+  "next": "主控独评后与隔离自评对照，双过才由原A3实际英文查询；失败闭此家族英文，无R3，不停止整个研究。",
+  "unchanged": "旧稿/旧分/原查询/Chancebell补审/库/队列/Git未改，无网页全文。"
+}

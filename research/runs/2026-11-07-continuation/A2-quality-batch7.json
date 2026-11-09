@@ -1,0 +1,97 @@
+{
+  "agent": "/root/live_a2",
+  "assessments": [
+    {
+      "id": "CT-C25",
+      "name": "抬眼",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "现成两字动作，发音与书写成本低。",
+        "distinctiveness": "向上看一眼有明确姿态，但普通动词的搜索辨识度仍需查。",
+        "lab_fit": "动作能承载主动感知研究，视光行业误读使其不满分。",
+        "grounding": "专业原理与日常动作有关但不完全等同，主动降低来源精确性评分。",
+        "extension": "不绑定眼球追踪器或某种视觉模型，可作为认知研究入口。",
+        "semantic_coherence": "日常看向世界与主动获取信息是同一动作层，不附会向上即增长。"
+      },
+      "counter_association": "可能先想到眼镜、摄影或视觉应用；科技Lab可以承载感知与认知研究，但不是一眼就说明全栈AI。"
+    },
+    {
+      "id": "CT-C26",
+      "name": "反例",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "现成两字词，口头可直接叫，音节清晰。",
+        "distinctiveness": "反例有鲜明反转记忆，通用词会使商业检索更难。",
+        "lab_fit": "数学、验证和边界有直接研究身份，质量测试业务误读扣分。",
+        "grounding": "MIT教材具体页实读支持全称断言与单一反例关系。",
+        "extension": "可覆盖数学、软件验证和系统研究，不局限一个失败样本集。",
+        "semantic_coherence": "名字、方法和研究态度围绕同一否定见证，未把反说成反重力。"
+      },
+      "counter_association": "反字偏负面，可能被理解为唱反调或测试咨询；源词是通用术语，独占与检索难度要查，不能以简短就假设无使用。"
+    },
+    {
+      "id": "CT-C27",
+      "name": "纸上机器",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "纸上机器是完整日常短语，不需补词才成立。",
+        "distinctiveness": "纸与机器的尺度反差有记忆，读物命名近似需查。",
+        "lab_fit": "机器与计算史有明确技术身份，但可能像教育或纸上原型。",
+        "grounding": "原文明确纸的比拟、符号与状态，未冒称品牌中文原句。",
+        "extension": "规则与实现的关系能容纳多类计算研究，不限某种芯片。",
+        "semantic_coherence": "纸上描述与可执行过程的关系一致，并非纸代表环保、机器代表强大。"
+      },
+      "counter_association": "纸上谈兵的消极联想、教育读物/原型玩具首联想；与本轮纸旋翼共享纸字但构式和核心故事不同，仍交主控保守复核，不仅凭机制名不同自动判新家族。"
+    },
+    {
+      "id": "CT-C28",
+      "name": "鸽哨",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "鸽哨是两字真实物件，发音自然并有响声记忆。",
+        "distinctiveness": "鸽与哨的关系独特，风物已有品类用法需查。",
+        "lab_fit": "器具、运动和感知可承载工程研究，但民俗首联想让其身份存在明显风险。",
+        "grounding": "原创现场报道实际读到制作与声音变化，不借传说补原理。",
+        "extension": "物件可承载人与环境互动的宽故事，不局限语音模型。",
+        "semantic_coherence": "飞行驱动气流经器物发声是同一关系，未把鸽解释和平、哨解释号令。"
+      },
+      "counter_association": "民俗工艺、音乐或养鸽行业的首联想强；若主控判断不足以承载Lab身份，应按定位淘汰，不能只因中国出处漂亮放行。"
+    }
+  ]
+}

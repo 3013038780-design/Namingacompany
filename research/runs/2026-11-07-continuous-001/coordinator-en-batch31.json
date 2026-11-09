@@ -1,0 +1,80 @@
+{
+  "reviewed_at": "2026-11-08T21:34:13.472755+08:00",
+  "independence": "Read producer preview batch31 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C41",
+      "name": "Paper Wasp",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个完整常用词和通常发音，称呼顺畅",
+          "counter_association": "wasp尾辅音对中文口语有门槛"
+        },
+        "spelling": {
+          "reason": "常用词正常拼写无需硬改",
+          "counter_association": "可能写复数Wasps"
+        },
+        "grounding": {
+          "reason": "来源直接是同一生命对象的真实现成称呼",
+          "counter_association": "不能当单一物种或所有蜂"
+        },
+        "bilingual_relation": {
+          "reason": "纸状巢材与加工者和中文同场一致",
+          "counter_association": "不是蜜蜂或身体由纸做成"
+        },
+        "distinctiveness": {
+          "reason": "昆虫制造者有清晰画面但品类词独占弱",
+          "counter_association": "灭虫文创比AI先浮现"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E32"
+    },
+    {
+      "candidate_id": "C1-C42",
+      "name": "Names Aside",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 20,
+      "notes": {
+        "pronunciation": {
+          "reason": "正常英语短语读音顺畅",
+          "counter_association": "句段而非专名的首感"
+        },
+        "spelling": {
+          "reason": "完整词无硬改易拼",
+          "counter_association": "names末z易漏"
+        },
+        "grounding": {
+          "reason": "name和aside词义真实但自造品牌短语对作品评价角色指向较弱",
+          "counter_association": "本短语不是研究制度名称也不含双方对等遮蔽"
+        },
+        "bilingual_relation": {
+          "reason": "把身份先置一旁承接双盲主题但不逐译",
+          "counter_association": "只代表姓名一部分不能假称所有身份信息去除"
+        },
+        "distinctiveness": {
+          "reason": "短语画面较弱易像栏目开场独立品牌辨识勉强",
+          "counter_association": "像取名咨询品牌而非独立研究主体"
+        }
+      },
+      "decision": "quality_reject",
+      "english_id": "C1-E33"
+    }
+  ]
+}

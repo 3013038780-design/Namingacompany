@@ -1,0 +1,277 @@
+{
+  "date": "2026-11-06",
+  "purpose": "将落选原因中的公开使用证据与登记状态分开，纠正笼统已注册表述",
+  "scope": "此文件只记录客观占用或近名线索；品牌气质和自然度淘汰由主控另行记录。",
+  "official_registration_check": "未完成；不能将官网或第三方信息写作已核实工商/第9/42类商标注册。",
+  "entries": [
+    {
+      "candidate_id": "C08",
+      "name": "渐近线",
+      "match_type": "same_chinese_trade_name_existing_tech_companies",
+      "decision": "否决",
+      "reason": "已有科技企业实际使用渐近线字号，不适合作为新的独立科技品牌。",
+      "used_by": [
+        {
+          "name": "深圳市渐近线科技有限公司",
+          "category": "工业互联网、工业场景软件、数字孪生与三维仿真",
+          "evidence": [
+            {
+              "url": "https://www.kczg.org.cn/annualmeeting/rankdetail?id=705",
+              "source_level": "中国科协科创中国页面",
+              "access": "已打开正文",
+              "observation": "页面列明公司全称，并说明工业场景软件及代码动态编译平台业务。"
+            },
+            {
+              "url": "https://www.innohere.com/ir/117748/general.html",
+              "source_level": "第三方企业信息平台",
+              "access": "已打开正文",
+              "observation": "披露成立日期2021-03-11及计算机软硬件、大数据、人工智能等经营范围。"
+            }
+          ]
+        },
+        {
+          "name": "江苏渐近线文化科技有限公司",
+          "category": "数字展示、数字创意、数智文创与互动展示软件",
+          "evidence": [
+            {
+              "url": "https://www.to-lim.com/story",
+              "source_level": "公司官网",
+              "access": "已打开正文",
+              "observation": "公司全称及业务介绍明确，列出多个渐近线虚拟现实、交互展示与建模软件名称。"
+            }
+          ]
+        }
+      ],
+      "registration_statement": "已有公司实际使用获公开证据支持；深圳公司成立信息由第三方披露。未完成GSXT工商或商标官方查询，不能说已核实第9/42类注册。"
+    },
+    {
+      "candidate_id": "C10",
+      "name": "底稿",
+      "match_type": "contained_in_existing_AI_product_name",
+      "decision": "因产品命名重叠与描述性过强而降级，非同名公司否决",
+      "reason": "讯兔科技的Alpha派报告底稿Agent已使用底稿作为AI产品核心称呼，且该词本身是投研文档描述词。",
+      "used_by": [
+        {
+          "name": "讯兔科技 / Alpha派报告底稿Agent",
+          "category": "AI金融数据与投研生产力产品",
+          "evidence": [
+            {
+              "url": "https://m.sohu.com/a/970997312_122014422",
+              "source_level": "新闻报道正文",
+              "access": "已打开正文",
+              "observation": "文章标题与正文确认发布Alpha派报告底稿Agent，提供AI读图及Excel底稿生成。"
+            }
+          ]
+        }
+      ],
+      "registration_statement": "已核实公开产品使用；未核实商标或同名公司登记。"
+    },
+    {
+      "candidate_id": "C07",
+      "name": "回算",
+      "match_type": "romanization_same_or_near_industry_brand",
+      "decision": "近音同业风险，避用Huisuan英文；不是中文完全同名证据",
+      "reason": "候选拼音Huisuan与现有HuiSuan Labs AI算力品牌同拼写关系强；无法据此断言回算中文已注册。",
+      "used_by": [
+        {
+          "name": "HuiSuan Labs",
+          "category": "台湾及东南亚AI算力、GPU集群与IDC基础设施",
+          "evidence": [
+            {
+              "url": "https://huisuanlabs.ai/en/",
+              "source_level": "公司自述页面检索索引",
+              "access": "本轮搜索可读，页面直开超时",
+              "observation": "索引返回完整官网介绍及AI算力业务；正文直开超时。"
+            }
+          ]
+        }
+      ],
+      "registration_statement": "品牌使用线索，非中文字号或商标登记核验；也未核实惠算科技中文主体对应关系。"
+    },
+    {
+      "candidate_id": "C20",
+      "name": "添一笔",
+      "match_type": "contained_in_existing_game_title",
+      "decision": "近似游戏名与创作工具局限，降级",
+      "reason": "已有汉字游戏添一笔变新字，候选三字包含其中；不能说添一笔完全同名注册。",
+      "used_by": [
+        {
+          "name": "添一笔变新字；开发/供应商dongyeming",
+          "category": "安卓/iOS汉字益智游戏",
+          "evidence": [
+            {
+              "url": "https://www.taptap.cn/app/233925",
+              "source_level": "开发者官方入驻游戏平台",
+              "access": "已打开正文",
+              "observation": "页面列游戏全称、开发供应商、上线日期2022-04-20及汉字添笔玩法。"
+            }
+          ]
+        }
+      ],
+      "registration_statement": "已核实公开游戏产品；未核实同名公司或商标注册。"
+    },
+    {
+      "candidate_id": "C02",
+      "name": "新回路",
+      "match_type": "historical_roman_domain_only",
+      "decision": "待核实，不能以占用为由确定否决",
+      "reason": "第三方保存xinhuilu.com历史站点信息，不足以确认当前公司、模型或产品使用新回路名称。",
+      "used_by": [
+        {
+          "name": "xinhuilu.com历史网页标题7E互联CDN系统",
+          "category": "历史域名快照",
+          "evidence": [
+            {
+              "url": "https://xinhuilu.com.cutestat.com/",
+              "source_level": "第三方域名分析页",
+              "access": "已打开正文",
+              "observation": "显示历史网站元数据与2019年更新时间，主体和当前品牌均未核实。"
+            }
+          ]
+        }
+      ],
+      "registration_statement": "历史域名不等于公司名、模型名或商标注册。"
+    },
+    {
+      "candidate_id": "C05",
+      "name": "续编",
+      "match_type": "romanization_cross_industry_brand",
+      "decision": "Xubian英文避用；中文是否保留由编辑质量判断",
+      "reason": "Xubian已用于变压器企业英文名称，不是续编中文已被注册的证据。",
+      "used_by": [
+        {
+          "name": "Jiangsu Xubian Transformer Co., Ltd.",
+          "category": "变压器研发制造销售",
+          "evidence": [
+            {
+              "url": "https://xubiantransformer.com/about.asp",
+              "source_level": "企业官网检索索引",
+              "access": "本轮搜索可读，直开超时",
+              "observation": "官网索引说明变压器研发制造销售及江苏徐州所在地。"
+            },
+            {
+              "url": "https://www.tendata.com/en/supplier/jiangsu-xubian-transformer-co-ltd-CHN30cd53d8797feb1f654d94decc35844b.html",
+              "source_level": "第三方贸易数据页",
+              "access": "本轮搜索索引",
+              "observation": "索引对应中文江苏徐变变压器有限公司，徐变并非续编。"
+            }
+          ]
+        }
+      ],
+      "registration_statement": "英文品牌跨行业使用；未完成中文续编官方登记查询。"
+    },
+    {
+      "candidate_id": "C01",
+      "name": "留枝",
+      "match_type": "cross_industry_company_record",
+      "decision": "跨行业登记线索需披露；不称在营科技品牌",
+      "reason": "存在广州留枝机械设备有限公司第三方登记记录，但页面当前显示撤销，不能说在营。",
+      "used_by": [
+        {
+          "name": "广州留枝机械设备有限公司",
+          "category": "机械零件与设备销售、安装",
+          "evidence": [
+            {
+              "url": "https://www.shuididp.cn/yp-8888a4e4500a1a51287716598f480b01.html",
+              "source_level": "第三方企业登记信息页",
+              "access": "已打开正文",
+              "observation": "披露公司全称、成立日期2025-10-13，经营状态撤销。"
+            }
+          ]
+        }
+      ],
+      "registration_statement": "第三方工商记录，非官方实时登记核验；状态为撤销，不据此判定权利已消灭或名称可用。"
+    },
+    {
+      "candidate_id": "C24",
+      "name": "星尘炉",
+      "match_type": "contained_in_game_community_item_term",
+      "decision": "有游戏文化联想，非公司或模型占用否决",
+      "reason": "页面实际出现源质星尘炉，不是名为星尘炉的科技公司、模型或独立产品。",
+      "used_by": [
+        {
+          "name": "七日世界社区攻略中的源质星尘炉称呼",
+          "category": "游戏社区道具用词",
+          "evidence": [
+            {
+              "url": "https://www.233leyuan.com/post-detail/2057567179090817024",
+              "source_level": "游戏社区攻略",
+              "access": "已打开正文",
+              "observation": "文章标题出现硫磺电池回收炉与源质星尘炉对比。"
+            }
+          ]
+        }
+      ],
+      "registration_statement": "不构成公司或模型注册证据；不按完全同名科技品牌处理。"
+    },
+    {
+      "name": "Unfinal",
+      "match_type": "exact_existing_software_product",
+      "decision": "英文否决",
+      "reason": "已有同名写作平台。",
+      "used_by": [
+        {
+          "name": "Unfinal",
+          "category": "在线写作平台",
+          "evidence": [
+            {
+              "url": "https://unfinal.page/n",
+              "source_level": "产品官网",
+              "access": "已打开正文",
+              "observation": "正文明确自述Unfinal为写作平台，内容实时公开。"
+            }
+          ]
+        }
+      ],
+      "registration_statement": "产品实际使用，不是商标登记核验。"
+    },
+    {
+      "name": "Deepborne",
+      "match_type": "exact_existing_game_product",
+      "decision": "英文否决",
+      "reason": "开发者已经发布同名Windows游戏。",
+      "used_by": [
+        {
+          "name": "Deepborne by armadilliestairlines",
+          "category": "Windows海底ROV街机飞行游戏",
+          "evidence": [
+            {
+              "url": "https://armadilliestairlines.itch.io/deepborne",
+              "source_level": "开发者发布页",
+              "access": "已打开正文",
+              "observation": "标题Deepborne，页面提供Windows游戏下载与版本日志。"
+            }
+          ]
+        }
+      ],
+      "registration_statement": "开发者公开产品使用，不是公司名或商标登记结论。"
+    },
+    {
+      "name": "Furtherword",
+      "match_type": "existing_AI_service_listing_with_redirected_site",
+      "decision": "英文避用；披露名称历史使用及当前跳转",
+      "reason": "产品目录已收录Furtherword AI明信片服务；原域名当前跳转Greetingswell，不假称仍以旧名运营。",
+      "used_by": [
+        {
+          "name": "Furtherword（当前域名跳转Greetingswell）",
+          "category": "AI图像与文本生成明信片服务",
+          "evidence": [
+            {
+              "url": "https://huntscreens.com/products/furtherword",
+              "source_level": "第三方产品目录",
+              "access": "已打开正文",
+              "observation": "目录标题与正文列Furtherword及AI定制明信片产品，链接furtherword.com。"
+            },
+            {
+              "url": "https://furtherword.com/",
+              "source_level": "原域名当前重定向",
+              "access": "已打开正文",
+              "observation": "跳转https://app.greetingswell.com/，当前页面提供AI图像生成及文本建议。"
+            }
+          ]
+        }
+      ],
+      "registration_statement": "历史/目录品牌使用与当前网站跳转，未核实法人或商标。"
+    }
+  ]
+}

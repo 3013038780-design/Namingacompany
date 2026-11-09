@@ -1,0 +1,47 @@
+{
+  "agent_id": "/root/live_a3",
+  "executed_at": "2026-11-08T10:55:36.065102+08:00",
+  "candidate_id": "C1-C24",
+  "name": "复证",
+  "original_inputs": [
+    {
+      "path": "A3-cn-batch13.json",
+      "sha256": "e309200efff2c49126ce985443ec69d31bbf44e6dc75bca1ff4a57d6e598e5b4"
+    },
+    {
+      "path": "A3-cn-batch13-receipt.json",
+      "sha256": "03b22b6492ec0b57ce89420d3e7e451e7c198e5b92ecc46820e06dd629e96626"
+    }
+  ],
+  "actual_new_chinese_queries": 2,
+  "actual_new_english_queries": 0,
+  "query_logs": [
+    {
+      "query": "\"復證\" 公司 科技 軟體",
+      "executed_on": "2026-11-08",
+      "summary": "公司科技軟體检索主要法院正文復證稱为再次作证动作，eLogistics等另名软件；未发现完整復證商业核心名。"
+    },
+    {
+      "query": "\"復證\" AI 品牌",
+      "executed_on": "2026-11-08",
+      "summary": "主要品牌观察目录、粮商恢复许可证新闻、法院证言及运动禁药復證講習會，后者已开主办方正文确认资格更新过程；未发现完整品牌。"
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://www.antidoping.org.tw/news/115%E5%B9%B4%E9%81%8B%E5%8B%95%E7%A6%81%E8%97%A5%E7%AE%A1%E5%88%B6%E5%93%A1%E6%9A%A8%E8%A1%80%E6%B6%B2%E6%8E%A1%E6%A8%A3%E5%93%A1%E5%BE%A9%E8%AD%89%E8%AC%9B%E7%BF%92%E6%9C%83/",
+      "access": "organizer_primary_body_read",
+      "scope": "L53–75復證講習會名称/主办与资格；L98延长证件效期，普通复训续证过程，不是独立復證品牌。"
+    }
+  ],
+  "original_decision": "public_use_screen_pass",
+  "changes_original_decision": false,
+  "result": "补覆盖正确繁体復證，未确证新商业核心主体，中文原初筛保持；不是全球注册可用。",
+  "registration": "未新增官方登记查询，沿原cn13逐项限制不变。",
+  "prior_agent3_candidate_queries": 304,
+  "agent3_cumulative_candidate_queries": 306,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 308,
+  "old_records_unchanged": true,
+  "new_control_queries": 0
+}

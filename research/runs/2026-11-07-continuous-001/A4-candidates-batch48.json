@@ -1,0 +1,89 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-09T17:22:14.108847+08:00",
+  "inputs": [
+    {
+      "path": "A4-candidates-batch46.json",
+      "sha256": "61766414b1d46bc77f458da8ffef1e70de8398851f8d5f150e01a901887b0efd"
+    },
+    {
+      "path": "A4-quality-batch46.json",
+      "sha256": "5aa4545402a94e20c030f6e33524deb6d4934b5c58d89d409976aa4f4ce2eeb1"
+    },
+    {
+      "path": "A4-candidates-batch47.json",
+      "sha256": "ca1b6f5acf4627abe3bcc863481a7543a6e9e7e5dea565256f8fe822f39f4b30"
+    },
+    {
+      "path": "A4-quality-batch47.json",
+      "sha256": "ac87378f1a1b4b2d49192498355bfbbcd58ae55f4c52a87d8d9b0402d1899326"
+    },
+    {
+      "path": "A3-en-batch46.json",
+      "sha256": "8fde3f2b8f30cc9871f7dfd3019d499cc13b1267d99521acf5411dd407b9b837"
+    },
+    {
+      "path": "A3-en-batch47.json",
+      "sha256": "629b688fb473b09eedb1b610d0a24d22eb50e53bb6c234d6c87f7ec598801d73"
+    },
+    {
+      "path": "A3-en-batch47.md",
+      "sha256": "1ebac0c39b005027fe769eb8d89a71708a249391447ec0a17fdcbeb53fe394c9"
+    },
+    {
+      "path": "A3-en-batch47-receipt.json",
+      "sha256": "259a2b0f23966faf8afac40e79c7c077bc195afe9784cbe41152172d136f3db5"
+    },
+    {
+      "path": "A3-cn-batch54.json",
+      "sha256": "015776d140ea5fe30c25f24a325b4cebddd2d3a157008255d1d1c55802ab3530"
+    },
+    {
+      "path": "continuations/2026-11-09T052915Z/root-cn54-accepted-handoff.json",
+      "sha256": "c3c7a6aca04e5a31932a2af6229afd32c31f949997d12ed0e646db82e9064851"
+    }
+  ],
+  "candidates": [],
+  "rework_result": {
+    "chinese_id": "C1-C63",
+    "chinese": "消息候场",
+    "chinese_version": 3,
+    "family_id": "C1-BF-messages-as-visitors-at-another-process-door",
+    "material_id": "C1-M77",
+    "rework_attempt": 2,
+    "remaining_reworks": 0,
+    "eligible_chinese_inputs": 1,
+    "selected_new_english_count": 0,
+    "candidate_id_not_allocated": "C1-E50 unused",
+    "decision": "actual_final_english_rework_no_quality_selected_candidate",
+    "actual_comparison": [
+      {
+        "expression": "If and When",
+        "status": "considered_not_submitted_not_usage_searched",
+        "reason": "尝试把匹配条件与取用时机合为一个正常英语条件句式，关系比纯等待宽。但首次独立称呼更像尚未决定/暂不承诺的项目或排期栏目，长解释才回到有规则的计算选择。可读字典全文未取得，不声称该整语已由词典核准或首造。即使语法与关系可解释，当前没有足够强的独立研究品牌身份，不选。"
+      },
+      {
+        "expression": "Cuebox",
+        "status": "considered_not_submitted_not_usage_searched",
+        "reason": "尝试用待触发的信息与容器构成一个整体对象。但cue偏行动提示/舞台发令，消息未必是指令，box偏工具容器，首感更像舞台/音频控制器或消息管理单功能。不能为了剩最后机会把两普通词拼成看似新公司而忽略对象与品牌身份的损失，不选；未核完整词典词形、不称新词或已被使用。"
+      }
+    ],
+    "reason": "同一消息已入队与receive按匹配取用关系仍真实，但本次比较未找到自然可独立称呼且足以承载广义Lab的更好英文。不会把全部可能英文说成已占用，也不把这次零选说成上游没有资格或尚未开始。",
+    "source_boundary": "Erlang本人EN46已读范围复用，不新看手册/运行代码；匹配选择/优先消息/alias与信号例外保持。条件句式是品牌试探，不把它当Erlang正式术语或全局FIFO/消息必执行。",
+    "prior_english_results": [
+      {
+        "id": "C1-E48",
+        "english": "At Hand",
+        "result": "明确同核心AI服务/软件使用拒绝，原质量不改"
+      },
+      {
+        "id": "C1-E49",
+        "english": "Anteroom",
+        "result": "明确独立同名AI软件使用拒绝，个人开发/免费仍是具名软件，非登记法律判断"
+      }
+    ],
+    "CN_status": "中文CN54公开使用初筛与THE HALF·候场具体风险保持，不倒写中文已占用或改中文救英文。"
+  },
+  "usage_screening_performed": false
+}

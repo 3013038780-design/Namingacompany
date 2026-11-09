@@ -1,0 +1,166 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 actual English zero-input final check",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T22:31:18.283312+08:00",
+  "inputs": [
+    {
+      "path": "A4-zero-input-batch24.json",
+      "sha256": "46c32a19fe6411f518ebf9882755026c5863c562e3cde7cbce40d4ebf9f4c709"
+    },
+    {
+      "path": "A4-zero-input-batch24.md",
+      "sha256": "ca7061b156b335a6e8202fe5e19dcbc495f618c2055a6a1d1eb42e18818c77df"
+    },
+    {
+      "path": "A4-zero-input-batch24-receipt.json",
+      "sha256": "4cb5069efe2f030edd28898cc7f82d019608478ef4f3ff43b067486bf5eb6bc7"
+    },
+    {
+      "path": "A3-cn-batch28.json",
+      "sha256": "2869c4576d4bae549c5cee2bc942c6906a4089b064dd10a6f0483418a941f75f"
+    },
+    {
+      "path": "A3-cn-batch28.md",
+      "sha256": "37ef3e18b7fcad564d226a5030e35a5abdd20ce2e0bf049072f56745a5061d65"
+    },
+    {
+      "path": "A3-cn-batch28-receipt.json",
+      "sha256": "639c61325f76fabe488633802a2c3a35c820d6837b53bbf621ad65aa9b77dd52"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "A2-candidates-batch26.json",
+      "expected": "0b7d5d65810296c3b6d6b883207dc603c2020cd5e467b4dadf19507538f81783",
+      "actual": "0b7d5d65810296c3b6d6b883207dc603c2020cd5e467b4dadf19507538f81783",
+      "match": true
+    },
+    {
+      "path": "A2-quality-batch26.json",
+      "expected": "05195e333498e1792e257d974b6a07d51a8c621b39ccfb91990d8d9a23f02115",
+      "actual": "05195e333498e1792e257d974b6a07d51a8c621b39ccfb91990d8d9a23f02115",
+      "match": true
+    },
+    {
+      "path": "A2-creation-execution-batch26.json",
+      "expected": "7b269035478fa1a502c3188575a067bf2fd0a16b3a35cee803ec14099e59f55c",
+      "actual": "7b269035478fa1a502c3188575a067bf2fd0a16b3a35cee803ec14099e59f55c",
+      "match": true
+    },
+    {
+      "path": "coordinator-cn-batch26.json",
+      "expected": "9f4702a0dc83a84209e5232644f28023f1cc5256476af40bcb6a0e79cb210ab1",
+      "actual": "9f4702a0dc83a84209e5232644f28023f1cc5256476af40bcb6a0e79cb210ab1",
+      "match": true
+    },
+    {
+      "path": "coordinator-family-review-batch26.json",
+      "expected": "4224531e44135d3750c997a466b41ed9153363905511593736e658daee714e97",
+      "actual": "4224531e44135d3750c997a466b41ed9153363905511593736e658daee714e97",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch28.json",
+      "expected": "2869c4576d4bae549c5cee2bc942c6906a4089b064dd10a6f0483418a941f75f",
+      "actual": "2869c4576d4bae549c5cee2bc942c6906a4089b064dd10a6f0483418a941f75f",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch28.md",
+      "expected": "37ef3e18b7fcad564d226a5030e35a5abdd20ce2e0bf049072f56745a5061d65",
+      "actual": "37ef3e18b7fcad564d226a5030e35a5abdd20ce2e0bf049072f56745a5061d65",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch28-receipt.json",
+      "expected": "639c61325f76fabe488633802a2c3a35c820d6837b53bbf621ad65aa9b77dd52",
+      "actual": "639c61325f76fabe488633802a2c3a35c820d6837b53bbf621ad65aa9b77dd52",
+      "match": true
+    },
+    {
+      "path": "A4-zero-input-batch24.json",
+      "expected": "46c32a19fe6411f518ebf9882755026c5863c562e3cde7cbce40d4ebf9f4c709",
+      "actual": "46c32a19fe6411f518ebf9882755026c5863c562e3cde7cbce40d4ebf9f4c709",
+      "match": true
+    },
+    {
+      "path": "A4-zero-input-batch24.md",
+      "expected": "ca7061b156b335a6e8202fe5e19dcbc495f618c2055a6a1d1eb42e18818c77df",
+      "actual": "ca7061b156b335a6e8202fe5e19dcbc495f618c2055a6a1d1eb42e18818c77df",
+      "match": true
+    },
+    {
+      "path": "A2-preview-batch26.md",
+      "expected": "55291099fc10e7ce71e4429463d5575342369c7dd5a43746762eacd1968022df",
+      "actual": "55291099fc10e7ce71e4429463d5575342369c7dd5a43746762eacd1968022df",
+      "match": true
+    },
+    {
+      "path": "A2-candidates-batch26.json",
+      "expected": "0b7d5d65810296c3b6d6b883207dc603c2020cd5e467b4dadf19507538f81783",
+      "actual": "0b7d5d65810296c3b6d6b883207dc603c2020cd5e467b4dadf19507538f81783",
+      "match": true
+    },
+    {
+      "path": "A2-quality-batch26.json",
+      "expected": "05195e333498e1792e257d974b6a07d51a8c621b39ccfb91990d8d9a23f02115",
+      "actual": "05195e333498e1792e257d974b6a07d51a8c621b39ccfb91990d8d9a23f02115",
+      "match": true
+    },
+    {
+      "path": "A2-creation-execution-batch26.json",
+      "expected": "7b269035478fa1a502c3188575a067bf2fd0a16b3a35cee803ec14099e59f55c",
+      "actual": "7b269035478fa1a502c3188575a067bf2fd0a16b3a35cee803ec14099e59f55c",
+      "match": true
+    },
+    {
+      "path": "materials-extension24.json",
+      "expected": "c991853695eee27b440649404d1fc297fd10c50541aff498a5bbad7714124c23",
+      "actual": "c991853695eee27b440649404d1fc297fd10c50541aff498a5bbad7714124c23",
+      "match": true
+    },
+    {
+      "path": "coordinator-cn-batch26.json",
+      "expected": "9f4702a0dc83a84209e5232644f28023f1cc5256476af40bcb6a0e79cb210ab1",
+      "actual": "9f4702a0dc83a84209e5232644f28023f1cc5256476af40bcb6a0e79cb210ab1",
+      "match": true
+    },
+    {
+      "path": "coordinator-family-review-batch26.json",
+      "expected": "4224531e44135d3750c997a466b41ed9153363905511593736e658daee714e97",
+      "actual": "4224531e44135d3750c997a466b41ed9153363905511593736e658daee714e97",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch28.json",
+      "expected": "2869c4576d4bae549c5cee2bc942c6906a4089b064dd10a6f0483418a941f75f",
+      "actual": "2869c4576d4bae549c5cee2bc942c6906a4089b064dd10a6f0483418a941f75f",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch28.md",
+      "expected": "37ef3e18b7fcad564d226a5030e35a5abdd20ce2e0bf049072f56745a5061d65",
+      "actual": "37ef3e18b7fcad564d226a5030e35a5abdd20ce2e0bf049072f56745a5061d65",
+      "match": true
+    }
+  ],
+  "upstream_package": "A2batch26/CN28",
+  "actual_chinese_drafts_reviewed": 1,
+  "eligible_chinese_inputs_for_english": 0,
+  "actual_english_inputs": 0,
+  "actual_english_outputs": 0,
+  "actual_new_candidate_queries": 0,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "actual_new_registration_queries": 0,
+  "decision": "actual_zero_input_check_completed",
+  "reason": "实际读A4零回执与CN28固定稿，千手稿C45主控Lab3质量未过未查，英语资格0/输出0/查询0；不是尚未开始。M56仅素材无名，不计第二候选。",
+  "separate_package": "在途A2batch27不纳入本零包，不预填。",
+  "agent3_cumulative_candidate_queries": 506,
+  "agent3_cumulative_returned_candidate_results": 505,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 508,
+  "run_cumulative_returned_candidate_results": 507,
+  "unchanged": "旧稿/队列/库/Git未改，无外部新访问。"
+}

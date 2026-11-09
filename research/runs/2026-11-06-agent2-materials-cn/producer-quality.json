@@ -1,0 +1,992 @@
+{
+  "role": "Agent2_producer",
+  "blind_review_note": "主控在保存独立评分前不得读取本文件。分数为编辑判断，非消费者测试。",
+  "protocol_version": "1.0",
+  "scored_at": "2026-11-06",
+  "ratings": [
+    {
+      "candidate_id": "A2C01",
+      "name": "视差",
+      "dimensions": {
+        "naturalness": {
+          "score": 5,
+          "reason": "两字现成术语、读音稳定",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：容易被理解为视觉算法公司"
+        },
+        "distinctiveness": {
+          "score": 4,
+          "reason": "视位置差异有明确画面",
+          "counter_association": "现成词视差的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 4,
+          "reason": "测量与认知都给研究机构入口",
+          "counter_association": "容易被理解为视觉算法公司"
+        },
+        "grounding": {
+          "score": 5,
+          "reason": "空间位置差与测距的关系是实在几何",
+          "counter_association": "品牌不能据此声称所有多视角都必然更准确。"
+        },
+        "extension": {
+          "score": 4,
+          "reason": "不限于一个特定模型功能",
+          "counter_association": "如果长期品牌仅被锁定为“换一个观察位置，同一对象看起来会相对背景移动。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 4,
+          "reason": "改变看法与获取距离同讲观察关系",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“从不同经验看同一世界”"
+        }
+      },
+      "total": 26,
+      "threshold_pass": true,
+      "editorial_disposition": "review",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C02",
+      "name": "另解",
+      "dimensions": {
+        "naturalness": {
+          "score": 4,
+          "reason": "常用短说法可直接叫出",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：第一联想可能是题解栏目或教辅"
+        },
+        "distinctiveness": {
+          "score": 3,
+          "reason": "更像栏目描述而非专名",
+          "counter_association": "现成词另解的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 3,
+          "reason": "教辅题解联想比研究机构强",
+          "counter_association": "第一联想可能是题解栏目或教辅"
+        },
+        "grounding": {
+          "score": 5,
+          "reason": "白杆案例确实以线索改换解释",
+          "counter_association": "不是要让AI永远持异议；不拆五步骤凑五家族。"
+        },
+        "extension": {
+          "score": 4,
+          "reason": "机构可以长久研究多种解释",
+          "counter_association": "如果长期品牌仅被锁定为“还存在另一种解释或解决方法。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 4,
+          "reason": "不同解释与新认识围绕同一主题",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“接受解释还可被改写”"
+        }
+      },
+      "total": 23,
+      "threshold_pass": false,
+      "editorial_disposition": "hold",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C03",
+      "name": "弦外",
+      "dimensions": {
+        "naturalness": {
+          "score": 5,
+          "reason": "熟语压缩、发音清晰",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：第一联想是音乐、文学或文化机构"
+        },
+        "distinctiveness": {
+          "score": 4,
+          "reason": "琴弦之外有鲜明听觉画面",
+          "counter_association": "现成词弦外的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 3,
+          "reason": "音乐文化第一联想无法消除",
+          "counter_association": "第一联想是音乐、文学或文化机构"
+        },
+        "grounding": {
+          "score": 5,
+          "reason": "作者自身明确用音乐泛音比喻认知关系",
+          "counter_association": "这是1890心理学著作中的理论，不当现代神经科学实验证明。"
+        },
+        "extension": {
+          "score": 4,
+          "reason": "可以容纳理解与信息的长期研究",
+          "counter_association": "如果长期品牌仅被锁定为“字面是琴弦之外，日常会想到弦外之音。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 4,
+          "reason": "各层都围绕没有直接说出的关系",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“理解不止字面符号”"
+        }
+      },
+      "total": 25,
+      "threshold_pass": false,
+      "editorial_disposition": "hold",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C04",
+      "name": "显影",
+      "dimensions": {
+        "naturalness": {
+          "score": 5,
+          "reason": "熟悉动作词、称呼顺口",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：摄影工作室、影像软件第一联想很强"
+        },
+        "distinctiveness": {
+          "score": 4,
+          "reason": "潜像变可见有过程画面",
+          "counter_association": "现成词显影的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 4,
+          "reason": "实验与科学证据可以支撑Lab角色",
+          "counter_association": "摄影工作室、影像软件第一联想很强"
+        },
+        "grounding": {
+          "score": 4,
+          "reason": "成像到知识显现属诚实类比，非同机制",
+          "counter_association": "光留痕是实物过程，知识显现只是品牌赋义；不继承旧重写本家族。"
+        },
+        "extension": {
+          "score": 4,
+          "reason": "不受具体视觉算法固定",
+          "counter_association": "如果长期品牌仅被锁定为“让潜在影像成为可见图像的摄影过程。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 4,
+          "reason": "隐藏线索成为可见关系是统一核心",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“让隐藏关系可读”"
+        }
+      },
+      "total": 25,
+      "threshold_pass": true,
+      "editorial_disposition": "review",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C05",
+      "name": "随行",
+      "dimensions": {
+        "naturalness": {
+          "score": 5,
+          "reason": "日常熟词顺口",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：旅游、出行或随身助手的第一联想强"
+        },
+        "distinctiveness": {
+          "score": 3,
+          "reason": "旅游助手中常见、专名差异弱",
+          "counter_association": "现成词随行的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 2,
+          "reason": "更像出行产品，基础研究身份薄",
+          "counter_association": "旅游、出行或随身助手的第一联想强"
+        },
+        "grounding": {
+          "score": 4,
+          "reason": "闭包带环境与同行是完整类比",
+          "counter_association": "闭包不等于模型持续学习；不冒充新增存储或反馈机制。"
+        },
+        "extension": {
+          "score": 4,
+          "reason": "可以从工具扩到多个能力场景",
+          "counter_association": "如果长期品牌仅被锁定为“随着行动一起走。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 4,
+          "reason": "每层都围绕能力带着背景同行",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“能力带着成立语境进入新任务”"
+        }
+      },
+      "total": 22,
+      "threshold_pass": false,
+      "editorial_disposition": "hold",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C06",
+      "name": "通式",
+      "dimensions": {
+        "naturalness": {
+          "score": 4,
+          "reason": "像现成术语，能够读出",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：像教材栏目"
+        },
+        "distinctiveness": {
+          "score": 3,
+          "reason": "短但画面稀薄、教材感强",
+          "counter_association": "现成词通式的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 4,
+          "reason": "通用方法比单次答案更像研究对象",
+          "counter_association": "像教材栏目"
+        },
+        "grounding": {
+          "score": 5,
+          "reason": "参数化计算方法有上游正文依据",
+          "counter_association": "不从本章迭代求根例再造旧不动点家族。"
+        },
+        "extension": {
+          "score": 4,
+          "reason": "能容纳研究不同方法的机构",
+          "counter_association": "如果长期品牌仅被锁定为“能表达一类关系的普遍形式。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 4,
+          "reason": "通用表达与方法层级相互一致",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“研究解法背后的方法”"
+        }
+      },
+      "total": 24,
+      "threshold_pass": false,
+      "editorial_disposition": "hold",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C07",
+      "name": "不变",
+      "dimensions": {
+        "naturalness": {
+          "score": 5,
+          "reason": "熟词直接可说",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：与持续成长在字面上容易对立"
+        },
+        "distinctiveness": {
+          "score": 3,
+          "reason": "声音平，常用抽象词辨识偏弱",
+          "counter_association": "现成词不变的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 3,
+          "reason": "理论研究意味与固执联想并存",
+          "counter_association": "与持续成长在字面上容易对立"
+        },
+        "grounding": {
+          "score": 5,
+          "reason": "物理不变性有确实的定义与章节",
+          "counter_association": "不能从理想对称推出任意现实环境任务不变。"
+        },
+        "extension": {
+          "score": 4,
+          "reason": "求规律可长期展开",
+          "counter_association": "如果长期品牌仅被锁定为“在某种变化下仍保持同一性质。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 2,
+          "reason": "日常不改变与能力继续改变有明显冲突",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“从变化中找规律”"
+        }
+      },
+      "total": 22,
+      "threshold_pass": false,
+      "editorial_disposition": "reject",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C08",
+      "name": "莫尔纹",
+      "dimensions": {
+        "naturalness": {
+          "score": 4,
+          "reason": "三字可说，但需教莫尔",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：莫尔与摩尔容易混"
+        },
+        "distinctiveness": {
+          "score": 3,
+          "reason": "专业现成词且莫尔/摩尔易混",
+          "counter_association": "现成词莫尔纹的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 4,
+          "reason": "物理材料身份强",
+          "counter_association": "莫尔与摩尔容易混"
+        },
+        "grounding": {
+          "score": 3,
+          "reason": "卡片主事实是超晶格，纹样转称需明确边界",
+          "counter_association": "与用户旧叠字家族不按字形去重；若主控认定同一折叠/叠加母意象，应合并不计新增。本文非普通印刷莫尔纹的全部定义。"
+        },
+        "extension": {
+          "score": 4,
+          "reason": "可容纳结构关系研究",
+          "counter_association": "如果长期品牌仅被锁定为“重合图样之间出现的可见关系图案的常见称呼。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 4,
+          "reason": "关系形成新结构是统一主旨",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“关系产生新结构”"
+        }
+      },
+      "total": 22,
+      "threshold_pass": false,
+      "editorial_disposition": "historical_branch",
+      "hard_history_veto": true,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C09",
+      "name": "一闪",
+      "dimensions": {
+        "naturalness": {
+          "score": 5,
+          "reason": "短动作，口头自然",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：像闪光灯、摄影App或快服务"
+        },
+        "distinctiveness": {
+          "score": 3,
+          "reason": "轻快但闪字在产品中辨识弱",
+          "counter_association": "现成词一闪的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 3,
+          "reason": "摄影App/快服务联想强于Lab",
+          "counter_association": "像闪光灯、摄影App或快服务"
+        },
+        "grounding": {
+          "score": 4,
+          "reason": "短事件确是射电暴特性，知识入口仅类比",
+          "counter_association": "不许说爆发是持续能力增长，来源仍未被完全证实。"
+        },
+        "extension": {
+          "score": 3,
+          "reason": "短暂性限制长期主体感",
+          "counter_association": "如果长期品牌仅被锁定为“短暂亮起或突然掠过。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 3,
+          "reason": "瞬时发现与长期机构仍有拉扯",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“微小事件打开巨大未知”"
+        }
+      },
+      "total": 21,
+      "threshold_pass": false,
+      "editorial_disposition": "hold",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C10",
+      "name": "星间",
+      "dimensions": {
+        "naturalness": {
+          "score": 4,
+          "reason": "空间构词可叫，但非强熟词",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：可能像天文馆或文艺品牌"
+        },
+        "distinctiveness": {
+          "score": 3,
+          "reason": "星字科技常见，二字不够独立",
+          "counter_association": "现成词星间的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 3,
+          "reason": "较像天文文化，计算身份未建立",
+          "counter_association": "可能像天文馆或文艺品牌"
+        },
+        "grounding": {
+          "score": 4,
+          "reason": "主体与空间相互作用有真实对象",
+          "counter_association": "与旧吸积盘的物质向内输入分开；若只解释成长/孕育便会失去独立性。"
+        },
+        "extension": {
+          "score": 4,
+          "reason": "宽空间可容多产品",
+          "counter_association": "如果长期品牌仅被锁定为“星体之间的空间。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 4,
+          "reason": "各层围绕主体之间的世界",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“研究注意主体之间的关系”"
+        }
+      },
+      "total": 22,
+      "threshold_pass": false,
+      "editorial_disposition": "hold",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C11",
+      "name": "察觉",
+      "dimensions": {
+        "naturalness": {
+          "score": 5,
+          "reason": "普通动词顺口",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：可能像安全监控、心理咨询产品"
+        },
+        "distinctiveness": {
+          "score": 3,
+          "reason": "通用心理动词专名性有限",
+          "counter_association": "现成词察觉的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 4,
+          "reason": "心智对象可支撑AI研究身份",
+          "counter_association": "可能像安全监控、心理咨询产品"
+        },
+        "grounding": {
+          "score": 5,
+          "reason": "实验确区分检测与报告偏差",
+          "counter_association": "不能说AI具有人的主观体验；这张不拆光遗传方法另计。"
+        },
+        "extension": {
+          "score": 4,
+          "reason": "认知研究长期宽度足够",
+          "counter_association": "如果长期品牌仅被锁定为“从信号中注意到某件事。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 4,
+          "reason": "信号解释与何者值得注意相一致",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“智能是参与解释的主体”"
+        }
+      },
+      "total": 25,
+      "threshold_pass": false,
+      "editorial_disposition": "review",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C12",
+      "name": "等高线",
+      "dimensions": {
+        "naturalness": {
+          "score": 5,
+          "reason": "稳定三字，念起来完整",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：测绘/户外公司第一联想"
+        },
+        "distinctiveness": {
+          "score": 4,
+          "reason": "连线表现山谷有明确图形记忆",
+          "counter_association": "现成词等高线的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 4,
+          "reason": "制图与知识表示能支撑探索机构",
+          "counter_association": "测绘/户外公司第一联想"
+        },
+        "grounding": {
+          "score": 5,
+          "reason": "同海拔线表现立体关系有明确依据",
+          "counter_association": "地理地图不是世界模型架构；不再起旧推演场变体。"
+        },
+        "extension": {
+          "score": 4,
+          "reason": "组织关系不只适于一个应用",
+          "counter_association": "如果长期品牌仅被锁定为“地图上连接等海拔位置的线。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 4,
+          "reason": "让复杂关系可读为同一核心",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“把复杂世界变得可读”"
+        }
+      },
+      "total": 26,
+      "threshold_pass": true,
+      "editorial_disposition": "review",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C13",
+      "name": "下一镜",
+      "dimensions": {
+        "naturalness": {
+          "score": 4,
+          "reason": "自然名词短语，略像标题",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：首先像影视公司或短视频剪辑产品"
+        },
+        "distinctiveness": {
+          "score": 3,
+          "reason": "与影视标题相近",
+          "counter_association": "现成词下一镜的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 2,
+          "reason": "第一行业是影视剪辑",
+          "counter_association": "首先像影视公司或短视频剪辑产品"
+        },
+        "grounding": {
+          "score": 4,
+          "reason": "镜头间关系理论明确，但下一个不代表关系质量",
+          "counter_association": "不把任何拼接都称智能涌现；与旧爵士即兴不同。"
+        },
+        "extension": {
+          "score": 3,
+          "reason": "容易被限定创作内容产品",
+          "counter_association": "如果长期品牌仅被锁定为“接在当前镜头之后的一个镜头。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 4,
+          "reason": "理解在片段关系中发生相一致",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“理解发生在片段之间”"
+        }
+      },
+      "total": 20,
+      "threshold_pass": false,
+      "editorial_disposition": "reject",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C14",
+      "name": "转场",
+      "dimensions": {
+        "naturalness": {
+          "score": 5,
+          "reason": "现成动作词顺口",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：影视与舞台第一联想"
+        },
+        "distinctiveness": {
+          "score": 3,
+          "reason": "广用舞台电影词，专名性弱",
+          "counter_association": "现成词转场的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 2,
+          "reason": "更像影视或会展服务",
+          "counter_association": "影视与舞台第一联想"
+        },
+        "grounding": {
+          "score": 4,
+          "reason": "功能情境变化与场景转换是类比非术语译法",
+          "counter_association": "不是生命有意为未来设计，也不是重新把可塑性换名。"
+        },
+        "extension": {
+          "score": 3,
+          "reason": "容易只讲一次迁移",
+          "counter_association": "如果长期品牌仅被锁定为“从一个场所或场景转入另一个。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 4,
+          "reason": "角色转入新条件主线一致",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“已有能力进入新用途”"
+        }
+      },
+      "total": 21,
+      "threshold_pass": false,
+      "editorial_disposition": "hold",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C15",
+      "name": "活版",
+      "dimensions": {
+        "naturalness": {
+          "score": 5,
+          "reason": "两字既有词，称呼完整",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：可能首先像出版社、字体或印刷公司"
+        },
+        "distinctiveness": {
+          "score": 4,
+          "reason": "具体技术形象可记",
+          "counter_association": "现成词活版的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 3,
+          "reason": "印刷字体第一行业联想强",
+          "counter_association": "可能首先像出版社、字体或印刷公司"
+        },
+        "grounding": {
+          "score": 5,
+          "reason": "可分离单元可重排有清晰制法依据",
+          "counter_association": "研究对象是模块化知识载体，不借木材来讲森林成长；未读古文原书故is_classical=false。"
+        },
+        "extension": {
+          "score": 4,
+          "reason": "模块化表达可容长期计算研究",
+          "counter_association": "如果长期品牌仅被锁定为“由可分离活字排成印版的印刷方式。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 4,
+          "reason": "单元成为新表达是统一主线",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“已有单元形成新表达”"
+        }
+      },
+      "total": 25,
+      "threshold_pass": false,
+      "editorial_disposition": "review",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C16",
+      "name": "对读",
+      "dimensions": {
+        "naturalness": {
+          "score": 5,
+          "reason": "现成动作，容易叫",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：偏阅读App、文献研究或翻译工具"
+        },
+        "distinctiveness": {
+          "score": 3,
+          "reason": "像阅读功能、工具栏目",
+          "counter_association": "现成词对读的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 3,
+          "reason": "文献阅读比通用Lab联想强",
+          "counter_association": "偏阅读App、文献研究或翻译工具"
+        },
+        "grounding": {
+          "score": 4,
+          "reason": "三文字同文对照与阅读比较关系成立",
+          "counter_association": "三种文字不等于三种语言，不能错误写成三语；对读不自动能解任意未知代码。"
+        },
+        "extension": {
+          "score": 4,
+          "reason": "可扩不同表征研究",
+          "counter_association": "如果长期品牌仅被锁定为“把不同文本放在一起比较阅读。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 4,
+          "reason": "理解来自对照是单一核心",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“让不同表征相互解释”"
+        }
+      },
+      "total": 23,
+      "threshold_pass": false,
+      "editorial_disposition": "hold",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C17",
+      "name": "择径",
+      "dimensions": {
+        "naturalness": {
+          "score": 4,
+          "reason": "两字可读但听写需澄清",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：听写可能成泽境/则径"
+        },
+        "distinctiveness": {
+          "score": 3,
+          "reason": "近音泽境等削弱识别",
+          "counter_association": "现成词择径的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 4,
+          "reason": "选择计算路径有工程入口",
+          "counter_association": "听写可能成泽境/则径"
+        },
+        "grounding": {
+          "score": 4,
+          "reason": "教材中少时非最短路，关系真实",
+          "counter_association": "严格广义表述需驻时；这里仅沿教材几何光学示例，不许声称光有目的或全局最优。"
+        },
+        "extension": {
+          "score": 4,
+          "reason": "研究方法与行动道路皆可展开",
+          "counter_association": "如果长期品牌仅被锁定为“选择一条路径。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 4,
+          "reason": "路线应适合条件是统一故事",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“有效不必等于笔直”"
+        }
+      },
+      "total": 23,
+      "threshold_pass": false,
+      "editorial_disposition": "hold",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C18",
+      "name": "留白",
+      "dimensions": {
+        "naturalness": {
+          "score": 5,
+          "reason": "自然熟词",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：设计事务所、家居或文创第一联想强"
+        },
+        "distinctiveness": {
+          "score": 3,
+          "reason": "设计类常用称呼，独立度弱",
+          "counter_association": "现成词留白的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 2,
+          "reason": "文创家居先于科技身份",
+          "counter_association": "设计事务所、家居或文创第一联想强"
+        },
+        "grounding": {
+          "score": 4,
+          "reason": "未标记区域参与结构有正文依据",
+          "counter_association": "缺空白不自动说明能力低；不要偷换成拓扑开集或旧余项。"
+        },
+        "extension": {
+          "score": 4,
+          "reason": "未知与布局可以长期展开",
+          "counter_association": "如果长期品牌仅被锁定为“在构图中保留未着墨或未填入内容的部分。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 4,
+          "reason": "为关系留位置主旨一致",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“让未知有位置”"
+        }
+      },
+      "total": 22,
+      "threshold_pass": false,
+      "editorial_disposition": "reject",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C19",
+      "name": "织数",
+      "dimensions": {
+        "naturalness": {
+          "score": 3,
+          "reason": "压缩造词，数还多音",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：不看解释容易像纺织数字化公司"
+        },
+        "distinctiveness": {
+          "score": 3,
+          "reason": "并列字感仍重，听写有成本",
+          "counter_association": "现成词织数的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 3,
+          "reason": "纺织数字化第一联想",
+          "counter_association": "不看解释容易像纺织数字化公司"
+        },
+        "grounding": {
+          "score": 5,
+          "reason": "计算与织造由历史人物明确建立比喻",
+          "counter_association": "不是把织字硬贴算法；二进制既有种子不是本轮新发明，独立点在可执行图样。"
+        },
+        "extension": {
+          "score": 4,
+          "reason": "可讲指令生成形式",
+          "counter_association": "如果长期品牌仅被锁定为“将计算模式像织造那样组织起来的品牌表达。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 4,
+          "reason": "可执行图样从两个领域汇于同一关系",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“计算可以产生丰富形式”"
+        }
+      },
+      "total": 22,
+      "threshold_pass": false,
+      "editorial_disposition": "reject",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C20",
+      "name": "触媒",
+      "dimensions": {
+        "naturalness": {
+          "score": 5,
+          "reason": "稳定既有化学词",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：化工材料第一联想"
+        },
+        "distinctiveness": {
+          "score": 4,
+          "reason": "非泛科技后缀、词有明确角色",
+          "counter_association": "现成词触媒的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 4,
+          "reason": "科学对象与赋能基础能力相配",
+          "counter_association": "化工材料第一联想"
+        },
+        "grounding": {
+          "score": 5,
+          "reason": "降低反应门槛有真实化学关系",
+          "counter_association": "不是输出能量或承诺必然变强；催化剂也有失活等现实限制。"
+        },
+        "extension": {
+          "score": 4,
+          "reason": "为他者转化可长久容纳多路线",
+          "counter_association": "如果长期品牌仅被锁定为“催化剂的另一种中文称呼，也可引申为促成变化的条件。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 4,
+          "reason": "各层都讲促成变化的条件",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“公司成为变化发生的条件”"
+        }
+      },
+      "total": 26,
+      "threshold_pass": true,
+      "editorial_disposition": "review",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C21",
+      "name": "行话",
+      "dimensions": {
+        "naturalness": {
+          "score": 5,
+          "reason": "固定读hang hua，日常熟词",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：固定词应读hang hua，不能宣传成xing hua双读皆公认"
+        },
+        "distinctiveness": {
+          "score": 4,
+          "reason": "熟词放在Lab上有可记张力",
+          "counter_association": "现成词行话的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 3,
+          "reason": "行业资讯/聊天产品先于研究机构",
+          "counter_association": "固定词应读hang hua，不能宣传成xing hua双读皆公认"
+        },
+        "grounding": {
+          "score": 5,
+          "reason": "蜂舞实际把行程转为他者可执行信息",
+          "counter_association": "与Sakana鱼群局部同步不同，独立点是经历的空间编码；不再按群体智能再算一次。"
+        },
+        "extension": {
+          "score": 4,
+          "reason": "跨主体交流可以长期研究",
+          "counter_association": "如果长期品牌仅被锁定为“一个群体内部用于沟通的语言。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 3,
+          "reason": "圈内行话的封闭性与开放理解略冲突",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“经历成为可传递的指引”"
+        }
+      },
+      "total": 24,
+      "threshold_pass": false,
+      "editorial_disposition": "hold",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C22",
+      "name": "过境",
+      "dimensions": {
+        "naturalness": {
+          "score": 5,
+          "reason": "熟词短而自然",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：首先像旅行、物流或出入境服务"
+        },
+        "distinctiveness": {
+          "score": 3,
+          "reason": "普通交通词，专名性弱",
+          "counter_association": "现成词过境的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 2,
+          "reason": "旅行物流第一联想强",
+          "counter_association": "首先像旅行、物流或出入境服务"
+        },
+        "grounding": {
+          "score": 4,
+          "reason": "中转事实真实，能力成长仅品牌类比",
+          "counter_association": "不能把休整解释成学习或能力永久提升；迁徙隐喻与旧长风保持来源区分。"
+        },
+        "extension": {
+          "score": 2,
+          "reason": "只是经过，主体长期承诺不足",
+          "counter_association": "如果长期品牌仅被锁定为“从某地经过，进入下一段行程。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 3,
+          "reason": "补给条件与过境短暂性有张力",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“技术存在于更长的旅程中”"
+        }
+      },
+      "total": 19,
+      "threshold_pass": false,
+      "editorial_disposition": "reject",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C23",
+      "name": "空格键",
+      "dimensions": {
+        "naturalness": {
+          "score": 5,
+          "reason": "三字日常物件顺口",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：键盘外设、游戏工作室或效率插件第一联想强"
+        },
+        "distinctiveness": {
+          "score": 4,
+          "reason": "具体手边按键有视觉记忆",
+          "counter_association": "现成词空格键的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 3,
+          "reason": "更像键盘/效率插件产品",
+          "counter_association": "键盘外设、游戏工作室或效率插件第一联想强"
+        },
+        "grounding": {
+          "score": 5,
+          "reason": "确有独立物理键码记录",
+          "counter_association": "空格/播放暂停等具体行为依应用决定，不能说一个键在所有环境都同义。"
+        },
+        "extension": {
+          "score": 3,
+          "reason": "易被限定人机接口产品",
+          "counter_association": "如果长期品牌仅被锁定为“键盘上常见的一枚实体按键。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 4,
+          "reason": "未写字也能输入是统一入口",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“没有字形也能发出指令”"
+        }
+      },
+      "total": 24,
+      "threshold_pass": false,
+      "editorial_disposition": "hold",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    },
+    {
+      "candidate_id": "A2C24",
+      "name": "凸点",
+      "dimensions": {
+        "naturalness": {
+          "score": 4,
+          "reason": "可说，但声音略生硬",
+          "counter_association": "脱离解释时可能被听成或看成其他日常说法；本案具体成本：像触觉硬件或零件公司"
+        },
+        "distinctiveness": {
+          "score": 3,
+          "reason": "具体小点但误听多",
+          "counter_association": "现成词凸点的熟悉感不等于独占辨识；仍可能只被记住为普通词义"
+        },
+        "lab_fit": {
+          "score": 3,
+          "reason": "硬件零件身份比AI研究强",
+          "counter_association": "像触觉硬件或零件公司"
+        },
+        "grounding": {
+          "score": 5,
+          "reason": "凸点相对位置组成符码确实成立",
+          "counter_association": "不能用残障作为励志装饰；只借信息表示机制。"
+        },
+        "extension": {
+          "score": 4,
+          "reason": "感知信息载体可延展",
+          "counter_association": "如果长期品牌仅被锁定为“从表面隆起、能被触到的点。”这一表面用途，跨产品宽度会减弱"
+        },
+        "semantic_coherence": {
+          "score": 4,
+          "reason": "触觉携带知识是统一主线",
+          "counter_association": "第二层是作者品牌解读；若读者只读日常义，未必自然理解“把信息带入另一种感官”"
+        }
+      },
+      "total": 23,
+      "threshold_pass": false,
+      "editorial_disposition": "hold",
+      "hard_history_veto": false,
+      "reason": "仅作者中文自评；主控独立复评和后续公开使用筛查均未据此通过"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-09T12:13:08.036910+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch50.json",
+      "sha256": "0dab66b8fe3cedeeb21ed44c64cd22e872769fc62596b496b3ea621aa960cf7d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch50.md",
+      "sha256": "b127b197796780dd45b1bd71b05e310b0366820921c44b0e212696a217a7989d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch50.json",
+      "sha256": "0dab66b8fe3cedeeb21ed44c64cd22e872769fc62596b496b3ea621aa960cf7d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch50.json",
+      "sha256": "56fad7b28fb70d720df950283c1ec164f1da2746fa9ede01c1cd110054a79c8a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch50-receipt.json",
+      "sha256": "99726db3c19a996a42a463610a22474948b8faf9e7ffdde7af637002858e0ed8"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch50.json",
+      "sha256": "11cf06b6763b51937b9fc6e21c66fbe23c5bcd39a6d1e9066d2fa7adfe5b6a5c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension38.json",
+      "sha256": "74cb9092800e90dc8bb5ae246346e990b8c485b42aa39088b51c89bfe5b0a328"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch50.json",
+      "sha256": "2831ab46a723d5d0e20b332e2beb8558eb08f96f94e1c9077f099affee460122"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch50.json",
+      "sha256": "3ef38674e4368690244db726087d6292c4f31bcdc07538cc370473c6e852b8da"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/quality-comparison-batch50.json",
+      "sha256": "4d1da11e1a66bec85af56f87a039dc1a772c49e2dd19f941d89c0e0823c76a3f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-M75-material-review.json",
+      "sha256": "d47c4ffe9977087184b7cc49c72dee330bde8a46af387d2915f9593de03c2f23"
+    }
+  ],
+  "query_count": 8,
+  "completed_search_result_count": 8,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-C61",
+      "name": "入微",
+      "pinyin": "rù wēi",
+      "version": 1,
+      "rework_attempt": 0,
+      "family_id": "C1-BF-entering-microscopic-events-of-ordinary-interface",
+      "material_id": "C1-M75",
+      "decision": "rejected_existing_technology_company_software_and_commercial_core_brand",
+      "reason_code": "EXACT_TECH_USE",
+      "reason": "实际本人公司/产品页明确入微品牌和入微销售云CRM，另第三方可读上海入微科技及行业品牌入微智能RoomWits；核心相同不因咨询/销售云/科技后缀较长忽略。普通入微词义本身不构成占用，拒绝依据是具名商业/软件使用，不冒登记核准。",
+      "query_logs": [
+        {
+          "query": "\"入微\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "精确无行业多为细致入微词典/形容词语境，不能把熟词本身当品牌；继续独立公司等组找到具体主体。"
+        },
+        {
+          "query": "\"入微公司\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "公司组命中本人入微咨询官网，实际完整上海入微企业管理咨询、品牌和收费课程，同时实际点击独立入微销售云CRM产品页闭环。"
+        },
+        {
+          "query": "\"入微科技\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "科技组命中上海入微科技具体企业及小程序搭建入微科技网站名，企查查正文L53–62实际可读；武汉/湖南等其他索引不冒当前主体核完。寻幽入微有意义字不剥成全同。"
+        },
+        {
+          "query": "\"入微智能\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "智能组命中入微智能RoomWits，旅连连原入口超时，另迈点品牌库正文L49/63–64实际可读同核心酒店数字化AI/物联网服务品牌；不背书其效果或当前业务状态。"
+        },
+        {
+          "query": "\"入微\" AI 模型 软件",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "AI模型软件组主要微信小微/WeLM等不同完整名称和功能文句，不因其中细致入微形容词把小微当本名模型；本人CRM产品主证来自公司主页点击，不说本组直接出现AI模型同名。"
+        },
+        {
+          "query": "\"入微\" 公司 軟體 品牌",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "入微简繁同形，另补繁体公司/软件语境，多为咨询商业主体、形容词以及较长精致入微软件等。精致为意义核心，不随意删除；确证本名依原公司/产品正文。"
+        },
+        {
+          "query": "\"ruwei\" company software",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "ruwei拼音组含RuweiTechnology及个人名、如偉等，部分近形Ruiwei需区分；未核中文对应不当入微精确占用，不作为拟采用英文通过。"
+        },
+        {
+          "query": "\"入围科技\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "入围科技合理近音异字主要入围科技奖/竞赛普通动词，不认作独立入围科技公司或入微精确主体。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.ruweizixun.com/",
+          "access": "company_own_site_body_read",
+          "read_range": "343行L4/21–26/50–91/135/215/334",
+          "finding": "上海入微企业管理咨询有限公司、入微咨询品牌、课程及价格，并导航入微销售云CRM；实际商业核心使用非泛形容词。不背书客户规模/满意率宣传。"
+        },
+        {
+          "url": "https://www.ruweizixun.com/crm",
+          "access": "developer_brand_own_product_page_clicked_and_read",
+          "read_range": "189行L20/31–37/130–131/180",
+          "finding": "明确独立产品入微销售云CRM，客户过程/合同/财务/学习系统等软件介绍，与主公司入微品牌一致。销售云CRM为产品功能品类描述，核心品牌入微；不是文章普通词。未实际登录、测试产品或验证性能。"
+        },
+        {
+          "url": "https://top.qcc.com/tc/36a7168c629f.html",
+          "access": "third_party_company_directory_body_read",
+          "read_range": "310行L53–62",
+          "finding": "上海入微科技有限公司及网站名小程序搭建入微科技，具体科技公司使用；不把第三方存续字段当官方实时工商登记核准。附近其他公司经营范围不误配本公司。"
+        },
+        {
+          "url": "https://www.chinatravelhub.com/company/90124/",
+          "access": "actual_open_timeout_search_index_only",
+          "finding": "入微智能RoomWits索引具体主体线索，此入口正文超时未读；后经另一实际可读迈点品牌页闭环，不能声称此入口成功。"
+        },
+        {
+          "url": "https://i.meadin.com/brandindex/437493",
+          "access": "industry_brand_profile_body_read",
+          "read_range": "192行L49/63–66",
+          "finding": "入微智能RoomWits酒店场景数字化运营/AI与物联网服务品牌介绍，页面显示2022年10月指数，属于公开使用历史/品牌材料，不冒2026在营官方确认或AI基础模型。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Ruwei",
+          "scope": "2026-11-09本次逐名入口实际不可访问，非无登记。"
+        }
+      },
+      "remaining_chinese_reworks": 2,
+      "lineage": "M75在batch49只有材料与0正式名；本名batch50首次选择，不是返工、不另增材料。",
+      "science_boundary": "现成中文研究角色再选择，非英文论文中文原名/术语/首造；上游论文实读范围、真空/常压/相关性边界保持，本阶段未新读科学论文。"
+    }
+  ],
+  "passed_chinese_candidate_ids": [],
+  "rejected_chinese_candidate_ids": [
+    "C1-C61"
+  ],
+  "held_chinese_candidate_ids": [],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "原run两个真实阳性，本次0新增。原大陆403仅复用，未冒重复入口访问。"
+}

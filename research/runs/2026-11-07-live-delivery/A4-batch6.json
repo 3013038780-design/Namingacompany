@@ -1,0 +1,30 @@
+{
+  "agent_id": "/root/live_a4",
+  "role": "A4",
+  "recorded_at": "2026-11-07T16:44:53+08:00",
+  "input_authorization": "主控明确LD-C07第1次英文返工，中文资格不变",
+  "candidates": [
+    {
+      "id": "LD-E10",
+      "chinese_id": "LD-C07",
+      "chinese": "代码生境",
+      "english": "Jingora",
+      "suggested_pronunciation": "jin-GOR-uh /dʒɪŋˈɡɔːrə/",
+      "type": "中英声音与主题融合的新造专名，非词典词",
+      "formation": "保留中文“境”的jing声音，以agora后段-ora衔接，形成Jingora。agora真实指古希腊城市中的市场或公共会聚空间；两者共同给出让主体在其中活动与相遇的场所关系。这里是命名者本轮跨主题创作，不把Jingora伪装为希腊语现成词。",
+      "bilingual_relation": "中文强调代码与使行动/适应发生的环境；英文借中文境的声音和公共会聚空间的角色，讲提供互动条件的机构。不是逐字翻译，也不声称agora等于生物生境。",
+      "meaning": "公司提供让不同系统持续行动、试验、交换与改变的场所条件；中文保留数字生命科学出处，英文建立更宽的交流/发现空间身份。",
+      "shortcoming": "英文不直接显示code，可能像社区或会聚平台；jing的鼻尾对部分英语使用者需一次示范，字面不能单独还原计算生境。",
+      "source_urls": [
+        "https://www.caltech.edu/about/news/researchers-mutate-digital-organisms-348",
+        "https://pleiades.stoa.org/vocabularies/place-types/agora"
+      ],
+      "read_scope": "科学背景继承A2/主控对Caltech报道的正文核验；A4本次实际打开Pleiades agora词汇页L40–46，见Getty词汇定义。Cambridge词典搜索有定义但直接打开403，不称读到其正文。",
+      "rework_of": "LD-E07",
+      "rework_number_for_chinese": 1,
+      "rework_reason": "上案Codabitat与同领域Codehabitat公司在发音/构词上过近，按主控反馈主动另选；不把近似写成完全同名。",
+      "status": "english_quality_proposal_not_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

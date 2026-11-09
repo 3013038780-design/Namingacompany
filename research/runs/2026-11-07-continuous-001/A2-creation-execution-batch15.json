@@ -1,0 +1,97 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-08T11:50:12.329476+08:00",
+  "stage": "same_run_bounded_package_batch15",
+  "input_refs": [
+    {
+      "path": "README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.md",
+      "sha256": "50023a0d4970380ebd3afb8969343e6aaadab41c468ae7be66bf2da8f20dcda9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.md",
+      "sha256": "9e2c1589037d9d564619fd8d9d861dffd13288087c4f7dec8e49d5ecbd702dde"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-final-input-reacceptance.json",
+      "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+      "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/plan-review.json",
+      "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension4.json",
+      "sha256": "2b90619996a1920932e9dd0a261a4a6d8fa9bb3e20633f18bc310409c0257eba"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T033348Z/decisions-through-batch14.json",
+      "sha256": "7392bc7aa94ac799f640a0253fc030067af608d8947acff74c3e7ec0e030b13a"
+    }
+  ],
+  "history_scan": {
+    "method": "non-input research/runs JSON parsed; exact draft and family relations searched, not manual all-file full reread",
+    "file_count": 612,
+    "manifest_sha256": "40b5c0fb75a84b81a53f857bf6db78a44a57b404ad89ee8a00ece731662b81d9"
+  },
+  "reading_evidence": [
+    {
+      "title": "McGuinness, Schooler, Gable & Gross: The Aha! Glow: Insight Experiences Bias Judgements of Idea Quality in Divergent Contexts",
+      "url": "https://metalab.psych.ucsb.edu/media/171",
+      "published_at": "2026-08-01",
+      "reading_location": "沿用M22原已读PDF页1–3/20–21；本次实际重读L0–154摘要引言，并追加读L861–1024（PDF19–22页）结果概括、总讨论、动机与局限。不声称通读25页方法和附录。",
+      "reading_scope": "excerpt_and_reread",
+      "access": "body",
+      "method": "web_PDF_body",
+      "read_at": "2026-11-08T11:50:12.329476+08:00"
+    }
+  ],
+  "new_material_count": 0,
+  "reused_material_ids": [
+    "C1-M22"
+  ],
+  "new_chinese_draft_count": 1,
+  "new_english_count": 0,
+  "name_usage_queries_performed": false,
+  "output_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension14.json",
+      "sha256": "76f42852813152f626d8a801705ea115305c81d2c98379fd5ee4f97a99ff8744"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch15.json",
+      "sha256": "d3e818d6cfd59ed76c86f7efa21b81367f7147b9cf5398d11e6a213b013a9441"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch15.md",
+      "sha256": "8f4f8964a3b611199720845c5dcc2c22be08d6ef339b3fcc960e60057f31c5b8"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch15.json",
+      "sha256": "0656d8aae6538853bf30245acffcc38785aeea10dc12b367a5e05239affa9b6b"
+    }
+  ],
+  "whole_production_batch_complete": false,
+  "boundary": "不重新分配M36给已读M22，不恢复M18/M20闭族；原A1/计划有效。不查使用英文，不改旧档/Git/catalog/feed，无用户通知。"
+}

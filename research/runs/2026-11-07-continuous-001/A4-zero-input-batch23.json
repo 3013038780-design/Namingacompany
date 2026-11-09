@@ -1,0 +1,118 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 actual English zero-input check",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T21:45:49.006435+08:00",
+  "upstream_package": "A2-batch25 / A3-cn27",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch25.json",
+      "sha256": "248efb7ee3e82a1f38a52810c95c4859c123699fdbfb88c825c1ba1fd6216c88"
+    },
+    {
+      "path": "A2-quality-batch25.json",
+      "sha256": "07ac2322dee5aa24bea9e74bbc841870109750a1e388bffaf0b7e812772c93b6"
+    },
+    {
+      "path": "coordinator-cn-batch25.json",
+      "sha256": "75fb7a35d08210bee162c9a941505971ee569b345fc2dc041f1c4a552c6af27f"
+    },
+    {
+      "path": "coordinator-family-review-batch25.json",
+      "sha256": "d4af21b2d19eb928793aa612f9860d401e951b55b8bd8c49daed27e1e95b0bf5"
+    },
+    {
+      "path": "A3-cn-batch27.json",
+      "sha256": "72eeb449260b588f8b7d339c5917c9038882483d6499e9470530aed5b238e15d"
+    },
+    {
+      "path": "A3-cn-batch27.md",
+      "sha256": "bb131d1b0cefeae8b2050b5f3ee2b7e69c4f696aecb7735a4e7cab2413698934"
+    },
+    {
+      "path": "A3-cn-batch27-receipt.json",
+      "sha256": "2cb655784c53f7e609975778b05286c7010caed350eeddc6f472074640a36f0c"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/search-plan-role-expansion01.md",
+      "sha256": "fa949ea9c2af701a46c59eb7b5a12b2450ad74ff19cb0aed1b0acebcd1cc25f6",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T131434Z/plan-role-expansion01-review.json",
+      "sha256": "396d181692c304115cde3c712697d224fbb0ce319383e5a33dd872a2e36e03fb",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch25.json",
+      "sha256": "248efb7ee3e82a1f38a52810c95c4859c123699fdbfb88c825c1ba1fd6216c88",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch25.json",
+      "sha256": "07ac2322dee5aa24bea9e74bbc841870109750a1e388bffaf0b7e812772c93b6",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch25.json",
+      "sha256": "68421df33b4a2a6be7b8247587124c3eec2fba2481a5627abd76f28db0625537",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension23.json",
+      "sha256": "31ac8c109aa69d67ec1962abbb9c0a83b88fba360cdb61e03082931209cfe655",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch25.json",
+      "sha256": "75fb7a35d08210bee162c9a941505971ee569b345fc2dc041f1c4a552c6af27f",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch25.json",
+      "sha256": "d4af21b2d19eb928793aa612f9860d401e951b55b8bd8c49daed27e1e95b0bf5",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch27.json",
+      "sha256": "72eeb449260b588f8b7d339c5917c9038882483d6499e9470530aed5b238e15d",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch27.md",
+      "sha256": "bb131d1b0cefeae8b2050b5f3ee2b7e69c4f696aecb7735a4e7cab2413698934",
+      "match": true
+    }
+  ],
+  "actual_chinese_drafts_reviewed": 2,
+  "quality_passed_chinese": 1,
+  "public_use_passed_chinese": 0,
+  "eligible_english_inputs": 0,
+  "english_candidates": [],
+  "decision": "zero_input_after_actual_upstream_review",
+  "exclusions": [
+    {
+      "chinese_id": "C1-C43",
+      "chinese": "熟手",
+      "stage": "chinese_quality",
+      "reason": "主控辨识与Lab身份未达门槛，未送市场筛查。作者过线不能补救；未查不称占用或可用。"
+    },
+    {
+      "chinese_id": "C1-C44",
+      "chinese": "构境",
+      "stage": "chinese_public_use",
+      "reason": "已读第三方招聘页具名成都构境科技有限公司及软件/信息系统经营描述，按公开使用避让；非当前官方工商核准。构境AI目录为具体二手线索，官网超时未升级一手；FORM GALLERY展示站不冒销售企业。",
+      "evidence_url": "https://m.zhaopin.com/company/91510W75WQ4TSGDRUI.htm"
+    }
+  ],
+  "actual_english_creation": 0,
+  "actual_new_scores": 0,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "reading_boundary": "本人本次实际读上游候选/作者与主控双评/家族、A3固定JSON/MD/receipt并核SHA。本人未重新外查招聘页或原书全文，不把A3阅读冒本人新查询。",
+  "separate_active_family": "C42 Double Veil为此前最后返工的在途英文筛查，非本包输入，不纳入本次零输入结论、不覆盖其记录。",
+  "next": "同一原A3实际英文零输入终核；整体研究继续。",
+  "unchanged": "只写本包新档，不改旧稿/分数/库/队列/Git，不占下一实际英文编号。"
+}

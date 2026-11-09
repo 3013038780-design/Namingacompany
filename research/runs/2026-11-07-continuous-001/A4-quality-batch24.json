@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-08T13:48:22.285636+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E24",
+      "chinese_id": "C1-C30",
+      "english": "Saydo",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个普通单音节动词完整相连，整体短而可叫，无生造发音。",
+          "counter_association": "读得快可能像另一个两音节专名而不被自动分成两个动词。"
+        },
+        "spelling": {
+          "reason": "say与do标准完整拼法，无截字或随机改形。",
+          "counter_association": "Sedo、Say Do等听写/分词风险实际存在，不能以未查夸可用。"
+        },
+        "grounding": {
+          "reason": "说话本身可能构成行动的关系直接出自Austin节选，不外加能力增长动词。",
+          "counter_association": "say-do也可能表示承诺与兑现的先后关系，必须明示本案不是履约保证。"
+        },
+        "bilingual_relation": {
+          "reason": "中文言与为、英文say与do共享同一合适情境中的话语行动，不逐字硬译。",
+          "counter_association": "两词本身未显示约定/权限条件；仍须保留边界，不当性能保证。"
+        },
+        "distinctiveness": {
+          "reason": "短的整体专名可以承载语言与行动研究主体。",
+          "counter_association": "语音待办/教育练习第一联想较强，独立辨识只达最低接受。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "规范门槛未改，主观编辑自评；主控先独立评无分稿，英文另交原A3查使用。"
+    }
+  ]
+}

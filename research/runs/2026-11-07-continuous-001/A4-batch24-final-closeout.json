@@ -1,0 +1,196 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 actual batch24 English final closeout",
+  "reviewed_at": "2026-11-08T21:47:05.332898+08:00",
+  "protocol_version": "1.1",
+  "inputs": [
+    {
+      "path": "A3-cn-batch26.json",
+      "sha256": "adf5036918dcbeae58c224ecc83a0d79e320436390c86f14576df074a282ef8c"
+    },
+    {
+      "path": "A4-candidates-batch31.json",
+      "sha256": "714b90fa1a6ac106c726ffd35b810ab9506971df20e8d6baab860396d5422c93"
+    },
+    {
+      "path": "A4-candidates-batch32.json",
+      "sha256": "66457680072b324d985003a38070a43449d8bb7626c0da5ea414729d9213458e"
+    },
+    {
+      "path": "A4-candidates-batch33.json",
+      "sha256": "f18a7f649a193a52004574839d82743f5dd04c91c7cca6c80736dc81cef2c5a3"
+    },
+    {
+      "path": "A4-candidates-batch34.json",
+      "sha256": "1b6bf76b604de403db8fede7f3d4db7affe15107b9efa1aa3042e1c202936444"
+    },
+    {
+      "path": "A4-creation-execution-batch34.json",
+      "sha256": "355ea06daee2f652231e098f8ae7e4f1b5d544b79c17d3554b96c54355614287"
+    },
+    {
+      "path": "coordinator-en-batch31.json",
+      "sha256": "eafdda15980fa42214182198c48abdccb9ed5945edd4e5ac51d094ccb4fa6cfe"
+    },
+    {
+      "path": "coordinator-en-batch32.json",
+      "sha256": "0970a31570d8c6df4ef339fe3a54f145c10be2fd097f63f1e2dfb6657b4ce2ec"
+    },
+    {
+      "path": "coordinator-en-batch33.json",
+      "sha256": "a1ef5e0ad637e8061eed6317482cb1dc36342bcca6c156350a6d7e90d3897c53"
+    },
+    {
+      "path": "coordinator-en-batch34.json",
+      "sha256": "945ae59dd192981d416ca3c5aadb9f3882a83690690f1ebe02945ba04e07b8e7"
+    },
+    {
+      "path": "A3-en-batch31.json",
+      "sha256": "b2efa4f9b400d2563550981bb2461add061ab5bb01b4a72d1f6c47f447955b66"
+    },
+    {
+      "path": "A3-en-batch32.json",
+      "sha256": "f330bebaa9b9e28d2347e38a8a0de99c2f6f6f1ee3bed6686cc24be4c4d3cac4"
+    },
+    {
+      "path": "A3-en-batch34.json",
+      "sha256": "26b21a767f623b8ebab294558a06cf4432250b7a8cd03af8c0c7ac28203c42a9"
+    },
+    {
+      "path": "A3-en-batch34.md",
+      "sha256": "f4817a76279986ef70cd3d52a1fb330300402f7aa19bed7a15a6242a5e7d5d44"
+    },
+    {
+      "path": "A3-en-batch34-receipt.json",
+      "sha256": "93eb9a7e68e536a12e2a971a3c33d1791c35d42c2c7521d24f4b0ac19676077d"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch34.md",
+      "sha256": "8e925d353b9cbd446aa7e58869bcfe6fb0c344de4dd2ba145a8198456e61143a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch34.json",
+      "sha256": "1b6bf76b604de403db8fede7f3d4db7affe15107b9efa1aa3042e1c202936444",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch34.json",
+      "sha256": "5f40b58e414c3abea63778a993f65e9e9e895f4225763e7e3bac5c4e1192b604",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch34.json",
+      "sha256": "355ea06daee2f652231e098f8ae7e4f1b5d544b79c17d3554b96c54355614287",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch34.json",
+      "sha256": "945ae59dd192981d416ca3c5aadb9f3882a83690690f1ebe02945ba04e07b8e7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch26.json",
+      "sha256": "adf5036918dcbeae58c224ecc83a0d79e320436390c86f14576df074a282ef8c",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch31.json",
+      "sha256": "b2efa4f9b400d2563550981bb2461add061ab5bb01b4a72d1f6c47f447955b66",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch32.json",
+      "sha256": "f330bebaa9b9e28d2347e38a8a0de99c2f6f6f1ee3bed6686cc24be4c4d3cac4",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch34.json",
+      "sha256": "26b21a767f623b8ebab294558a06cf4432250b7a8cd03af8c0c7ac28203c42a9",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch34.md",
+      "sha256": "f4817a76279986ef70cd3d52a1fb330300402f7aa19bed7a15a6242a5e7d5d44",
+      "match": true
+    }
+  ],
+  "decision": "both_english_families_closed_no_bilingual_delivery",
+  "chinese_drafts": 2,
+  "independent_chinese_families": 2,
+  "chinese_public_use_passed": 2,
+  "submitted_english_versions": 5,
+  "english_versions_screened": 3,
+  "quality_rejected_english_not_screened": 2,
+  "bilingual_final_deliveries": 0,
+  "unused_english_ids": [
+    "C1-E36"
+  ],
+  "no_R3": true,
+  "families": [
+    {
+      "chinese_id": "C1-C41",
+      "chinese": "纸蜂",
+      "rework_attempt": 2,
+      "remaining_reworks": 0,
+      "submitted_english_versions": 2,
+      "versions": [
+        {
+          "id": "C1-E32",
+          "english": "Paper Wasp",
+          "result": "existing_cross_industry_commercial_core_avoidance",
+          "reason": "完整文具系列及PAPERWASP商业制造技术用名，不是仅物种称呼；®非官方登记核准。"
+        },
+        {
+          "id": "C1-E35",
+          "english": "Pulpwright",
+          "result": "quality_reject_not_searched",
+          "reason": "主控拼写未过，wright/write/right听写与纸浆工匠首感；未查不称占用。"
+        }
+      ],
+      "last_rework": "有资格中文经过实际最后创作取舍，没有选中合格新英文；原A3已实际复核此零新英文结果，不是原中文零输入。E36未使用不当第三英文版。"
+    },
+    {
+      "chinese_id": "C1-C42",
+      "chinese": "双盲",
+      "rework_attempt": 2,
+      "remaining_reworks": 0,
+      "submitted_english_versions": 3,
+      "versions": [
+        {
+          "id": "C1-E33",
+          "english": "Names Aside",
+          "result": "quality_reject_not_searched",
+          "reason": "主控总分不足，栏目/取名咨询首感与评价主体不清；未查不称占用。"
+        },
+        {
+          "id": "C1-E34",
+          "english": "Unsigned",
+          "result": "existing_named_platform_use_rejection",
+          "reason": "unsigned.gg明确AI/ML自用平台、无外售客户不称商业销量；另Unsigned音频分析平台的运营政策原A3读到，root访问失败不冒双方都读。"
+        },
+        {
+          "id": "C1-E37",
+          "english": "Double Veil",
+          "result": "existing_cross_industry_named_product_avoidance",
+          "reason": "Finnaij明确系列内自家设计花纹完整产品名，另Gigi Burris具名头饰；不是仅双层材料/普通技巧，也不冒精确AI同名或官方商标注册。",
+          "primary_evidence_urls": [
+            "https://finnaij.com/products/double-veil-iphone-magsafe-tough-case",
+            "https://gigiburris.com/collections/moire-masks-scrunchies/products/double-veil-black-aw21"
+          ]
+        }
+      ]
+    }
+  ],
+  "chinese_status_preserved": "中文纸蜂/双盲原公开初筛风险通过，不因英文失败倒写为中文被占用；来源、短板及登记未清照留。",
+  "actual_reading_boundary": "本次本人实际读A3-en34 JSON/MD/receipt和coordinator-en34，并复读上述各版本固定候选/结果及root质量。未重开商品官网或购买/验证图样，root已亲读主商品页的情况据交接，不冒本人新网页查询。",
+  "actual_new_english_names": 0,
+  "actual_new_scores": 0,
+  "actual_new_usage_queries": 0,
+  "actual_new_registration_queries": 0,
+  "old_artifacts_untouched": true,
+  "catalog_queue_git_untouched": true,
+  "next": "主控本段H7/归档/网站与PR同步；只关闭两家族，不结束整体持续研究。"
+}

@@ -1,0 +1,160 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 final English rework for two existing families",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T21:42:52.333577+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch24.json",
+      "sha256": "737968f781f98c11c77e781a4b4225ea4290a1ba3bdfe9cb993f4fd50cde871d"
+    },
+    {
+      "path": "materials-extension22.json",
+      "sha256": "beb5d4ecac9de295d9e07873e69bf296b95fce18fc504c14c42d4e12effb5967"
+    },
+    {
+      "path": "A3-cn-batch26.json",
+      "sha256": "adf5036918dcbeae58c224ecc83a0d79e320436390c86f14576df074a282ef8c"
+    },
+    {
+      "path": "A4-candidates-batch31.json",
+      "sha256": "714b90fa1a6ac106c726ffd35b810ab9506971df20e8d6baab860396d5422c93"
+    },
+    {
+      "path": "A4-candidates-batch32.json",
+      "sha256": "66457680072b324d985003a38070a43449d8bb7626c0da5ea414729d9213458e"
+    },
+    {
+      "path": "A4-candidates-batch33.json",
+      "sha256": "f18a7f649a193a52004574839d82743f5dd04c91c7cca6c80736dc81cef2c5a3"
+    },
+    {
+      "path": "coordinator-en-batch31.json",
+      "sha256": "eafdda15980fa42214182198c48abdccb9ed5945edd4e5ac51d094ccb4fa6cfe"
+    },
+    {
+      "path": "coordinator-en-batch32.json",
+      "sha256": "0970a31570d8c6df4ef339fe3a54f145c10be2fd097f63f1e2dfb6657b4ce2ec"
+    },
+    {
+      "path": "coordinator-en-batch33.json",
+      "sha256": "a1ef5e0ad637e8061eed6317482cb1dc36342bcca6c156350a6d7e90d3897c53"
+    },
+    {
+      "path": "A3-en-batch31.json",
+      "sha256": "b2efa4f9b400d2563550981bb2461add061ab5bb01b4a72d1f6c47f447955b66"
+    },
+    {
+      "path": "A3-en-batch32.json",
+      "sha256": "f330bebaa9b9e28d2347e38a8a0de99c2f6f6f1ee3bed6686cc24be4c4d3cac4"
+    },
+    {
+      "path": "A3-en-batch32.md",
+      "sha256": "6e79bd90227ee7f9c9f8449833bb11bd4108948d8eb1aeaf1303164dacd7deff"
+    },
+    {
+      "path": "A3-en-batch32-receipt.json",
+      "sha256": "c6a7236afce743fb3d18fae8a0c344d652d101cb1c82938769dcb535c3a3cce2"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch32.md",
+      "sha256": "b433bd0b0091d0188b0db2117320484a8819276fe226afd736bd741a261d2d49",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch32.json",
+      "sha256": "66457680072b324d985003a38070a43449d8bb7626c0da5ea414729d9213458e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch32.json",
+      "sha256": "1332866eedf22646ce162c509a082486574882d1c5be623bdc361ea52c3d7743",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch32.json",
+      "sha256": "e803aadffecc55d2c48060bc9461b78475cfe9ec2173e189ae7d9e249acdfa6b",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch32.json",
+      "sha256": "0970a31570d8c6df4ef339fe3a54f145c10be2fd097f63f1e2dfb6657b4ce2ec",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch26.json",
+      "sha256": "adf5036918dcbeae58c224ecc83a0d79e320436390c86f14576df074a282ef8c",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch26-receipt.json",
+      "sha256": "369c73ad1de4b63e8c662c59c434c7219f48030dd1f38c727e2b4012053f6d6c",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch32.json",
+      "sha256": "f330bebaa9b9e28d2347e38a8a0de99c2f6f6f1ee3bed6686cc24be4c4d3cac4",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch32.md",
+      "sha256": "6e79bd90227ee7f9c9f8449833bb11bd4108948d8eb1aeaf1303164dacd7deff",
+      "match": true
+    }
+  ],
+  "actual_return_review": "本人实际读coordinator-en33 Pulpwright质量理由与A3-en32 JSON/MD/receipt；前者未查不可称占用，后者具名平台使用且自用/原作者正文与root访问边界保持。",
+  "actual_source_reading": [
+    {
+      "url": "https://www.merriam-webster.com/dictionary/veil",
+      "scope": "本次实读veil31–77，特别比喻遮蔽义"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/double",
+      "scope": "本次实读double31–50双向关系与两部分义"
+    }
+  ],
+  "source_reuse": "Nature双盲与VT纤维加工巢材沿本人上批真实阅读，不新称通读或实验。",
+  "local_history_check": "research JSON english/name字段double veil合写/分写无精确命中，仅历史字面不是市场预查。",
+  "eligible_chinese_inputs": 2,
+  "english_output_ids": [
+    "C1-E37"
+  ],
+  "actual_english_versions": 1,
+  "no_output_chinese_ids": [
+    "C1-C41"
+  ],
+  "no_output_not_zero_input": true,
+  "new_scores_for_C41": 0,
+  "reserved_E36_unused": true,
+  "actual_new_chinese_names": 0,
+  "new_family_count": 0,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "rework_attempts": {
+    "C1-C41": 2,
+    "C1-C42": 2
+  },
+  "remaining_reworks": {
+    "C1-C41": 0,
+    "C1-C42": 0
+  },
+  "no_R3_for_either_family": true,
+  "outputs": [
+    {
+      "path": "A4-candidates-batch34.json",
+      "sha256": "1b6bf76b604de403db8fede7f3d4db7affe15107b9efa1aa3042e1c202936444"
+    },
+    {
+      "path": "A4-preview-batch34.md",
+      "sha256": "8e925d353b9cbd446aa7e58869bcfe6fb0c344de4dd2ba145a8198456e61143a"
+    },
+    {
+      "path": "A4-quality-batch34.json",
+      "sha256": "5f40b58e414c3abea63778a993f65e9e9e895f4225763e7e3bac5c4e1192b604"
+    }
+  ],
+  "next": "主控独评Double Veil后决定是否送同原A3；C41最后实际未选稿关闭，不伪造英文零输入。C42失败也关闭不R3，整体研究仍继续。",
+  "unchanged": "只写本人本批新档，原稿/旧分/原查询/队列/库/Git未改，无网页全文。"
+}

@@ -1,0 +1,51 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-07T23:03:18.784760+08:00",
+  "scope": "主控先封存独评再打开；仅producer编辑判断。",
+  "reviews": [
+    {
+      "candidate_id": "C1-C19",
+      "name": "分身有别",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 5
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "四字完整主谓，可正常叫出，熟字无需教读音",
+          "counter_association": "新整体略像说明句，仍须独立审美"
+        },
+        "distinctiveness": {
+          "reason": "多分身且各自有别有明确主体画面",
+          "counter_association": "惯用分身语感与多开工具易混"
+        },
+        "lab_fit": {
+          "reason": "计算进程与多个智能主体可承接Lab研究",
+          "counter_association": "可能只像数字人或分身产品"
+        },
+        "grounding": {
+          "reason": "内存共同起点/私有修改有课程与手册正文支持",
+          "counter_association": "并非外部所有资源完全隔离"
+        },
+        "extension": {
+          "reason": "可容纳状态隔离与多主体研究，不锁一个多开功能",
+          "counter_association": "不能只剩副本越来越多"
+        },
+        "semantic_coherence": {
+          "reason": "同源、各自变化与边界在同一工程关系",
+          "counter_association": "分身有别不保证学习、个性或能力提升"
+        }
+      },
+      "decision": "quality_pass",
+      "independent_submission_ref": "A2-quality-batch8.json producer-only submission"
+    }
+  ]
+}

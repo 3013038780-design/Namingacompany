@@ -1,0 +1,105 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T21:08:23.951342+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch5.md",
+      "sha256": "b33ea970db84ae58cb7477852c66fc26538e8b6587f3d4c3062ce0c10dfb9a54"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-batch5.json",
+      "sha256": "a94b81c013c6b796289081c95fc01a6b67cb938b8bcfaf626fac2646f4a9ec67"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch5.json",
+      "sha256": "e4e953a108cd2e4be386b4a0e3b59cc596d62124e67b07012bb7f94524343e8f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch5.json",
+      "sha256": "6ae7b9d4b741182755066aa03e8422f5f1dcf34e8ee323cd34a31acd7f4364a7"
+    }
+  ],
+  "query_count": 6,
+  "results": [
+    {
+      "candidate_id": "C1-E05",
+      "name": "What Follows",
+      "query_logs": [
+        {
+          "query": "\"What Follows\"",
+          "executed_on": "2026-11-07",
+          "summary": "已确证精确同名商业传播工作室What Follows，科技公司传播/品牌顾问服务。按已有商业品牌偏好避让，不伪称AI公司、模型或软件产品精确同名；最后返工结束，中文本轮转无合格英文储备。"
+        },
+        {
+          "query": "\"What Follows\" company lab technology",
+          "executed_on": "2026-11-07",
+          "summary": "已确证精确同名商业传播工作室What Follows，科技公司传播/品牌顾问服务。按已有商业品牌偏好避让，不伪称AI公司、模型或软件产品精确同名；最后返工结束，中文本轮转无合格英文储备。"
+        },
+        {
+          "query": "\"What Follows\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "已确证精确同名商业传播工作室What Follows，科技公司传播/品牌顾问服务。按已有商业品牌偏好避让，不伪称AI公司、模型或软件产品精确同名；最后返工结束，中文本轮转无合格英文储备。"
+        },
+        {
+          "query": "\"What Follows\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "已确证精确同名商业传播工作室What Follows，科技公司传播/品牌顾问服务。按已有商业品牌偏好避让，不伪称AI公司、模型或软件产品精确同名；最后返工结束，中文本轮转无合格英文储备。"
+        },
+        {
+          "query": "\"WhatFollows\" OR \"What-Follows\"",
+          "executed_on": "2026-11-07",
+          "summary": "已确证精确同名商业传播工作室What Follows，科技公司传播/品牌顾问服务。按已有商业品牌偏好避让，不伪称AI公司、模型或软件产品精确同名；最后返工结束，中文本轮转无合格英文储备。"
+        },
+        {
+          "query": "\"What Follows\" brand startup -patent -filetype:pdf",
+          "executed_on": "2026-11-07",
+          "summary": "已确证精确同名商业传播工作室What Follows，科技公司传播/品牌顾问服务。按已有商业品牌偏好避让，不伪称AI公司、模型或软件产品精确同名；最后返工结束，中文本轮转无合格英文储备。"
+        }
+      ],
+      "decision": "return_for_alternative",
+      "reason": "已确证精确同名商业传播工作室What Follows，科技公司传播/品牌顾问服务。按已有商业品牌偏好避让，不伪称AI公司、模型或软件产品精确同名；最后返工结束，中文本轮转无合格英文储备。",
+      "evidence": [
+        {
+          "url": "https://whatfollows.co.uk/",
+          "access": "primary_commercial_studio_body_read",
+          "finding": "London communications studio，创始人Hannah Martin、What Follows团队/品牌名、传播项目及客户见证；商业主体非个人账号。"
+        },
+        {
+          "url": "https://whatfollows.co.uk/services",
+          "access": "primary_services_body_read",
+          "finding": "定位叙事、融资传播、市场进入及付费顾问服务，明确What Follows商业提供者；只核名称使用不背书客户及效果。"
+        },
+        {
+          "url": "https://whatfollows.beehiiv.com/p/the-world-this-week-in-ai-56da",
+          "access": "search_text_only",
+          "finding": "另见What Follows AI资讯通讯名称；没有开正文，不单独以此推断AI模型。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=What%20Follows",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      },
+      "chinese_candidate_id": "C1-C01",
+      "chinese": "由此及彼",
+      "version": "attempt2_last_rework",
+      "next_state": "chinese_reserve_without_qualified_english_this_round",
+      "precise_use_type": "exact_commercial_communications_studio_not_ai_software"
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。"
+}

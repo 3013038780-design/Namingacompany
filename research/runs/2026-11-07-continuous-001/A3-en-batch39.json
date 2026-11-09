@@ -1,0 +1,143 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-09T00:38:08.199203+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch39.md",
+      "sha256": "5aadce6b3387e5385d88ed9fb8547196fc19993302e964fa5fc716595c2f4146"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch39.json",
+      "sha256": "583fb250f4bf87f926fce6f795186cd33c0699589b2f774a7a8a078d7a171f83"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch39.json",
+      "sha256": "70d9b1ed0328291a403b1ac0798d61e19ff1d174fe2af500f73b90ac6cf1f3e5"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch39.json",
+      "sha256": "2bf829940bddb54e36a80fd901f9553e5f8b1f9e83c74ef150b673d14fee175c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch39.json",
+      "sha256": "d8490a0281e563437267b8ab748c25223b78f389a49dd53001796e6190746e9e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch33.json",
+      "sha256": "c52519eca6ea430ea230ddf0ebb4bf02cd91a9eee2bb44328b079d0990211573"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch33-receipt.json",
+      "sha256": "5a2dd54f29cf0a96b2e867782cd093e017d68e6d8f5eb12caf59a289ac185da3"
+    }
+  ],
+  "query_count": 6,
+  "completed_search_result_count": 6,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-E41",
+      "chinese_id": "C1-C50",
+      "chinese": "陆行鱼",
+      "english": "Shorefin",
+      "query_logs": [
+        {
+          "query": "\"Shorefin\"",
+          "executed_on": "2026-11-09",
+          "summary": "精确词命中尼日利亚SHOREFIN VENTURES历史商业记录、公益ShoreFin研究项目、游戏用户名及游戏内ShoreFin Cash。个人用户名非自动软件占用。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Shorefin\" company lab",
+          "executed_on": "2026-11-09",
+          "summary": "公司Lab组再次返回SHOREFIN VENTURES（第三方称Inactive、金融服务、个体经营）与海洋公益项目；不称AI Lab。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Shorefin\" AI model",
+          "executed_on": "2026-11-09",
+          "summary": "AI模型组主要Fishtographers更新里的ShoreFin Cash、游戏论坛用户与海洋项目；没有据此确证独立Shorefin AI模型。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Shorefin\" software product",
+          "executed_on": "2026-11-09",
+          "summary": "软件产品组主要游戏更新及论坛署名；游戏名称Fishtographers，不能把游戏内词直接当独立软件。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Shore Fin\" company",
+          "executed_on": "2026-11-09",
+          "summary": "分写组出现Shore Financial Services法律简称Shore Fin及历史付款名单；未将长正式名自动缩为完整Shorefin精确商业主证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Surefin\" company software",
+          "executed_on": "2026-11-09",
+          "summary": "合理近听Surefin组命中实际软件，官方about正文L49–56及86–88核软件性质；近形近听不是Shorefin精确同名。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "return_for_rework_editorial_avoidance_historical_business_core_and_near_software",
+      "reason": "已有SHOREFIN VENTURES完整核心的历史商业记录（第三方、Inactive非现时确权）；另有官方可读SureFin近听软件和同拼研究项目。依本项目主动避让既有商业核心及明显混淆风险退回，不称精确现存AI同名/商标在册。",
+      "evidence": [
+        {
+          "url": "https://b2bhint.com/en/company/ng/shorefin-ventures--BN-2875008",
+          "access": "third_party_historical_business_body_initially_returned_followup_403",
+          "finding": "初开实际返回157行主体页，包括经营金融服务、个体经营与公司关系；检索及页面记录SHOREFIN VENTURES/BN-2875008/2019-04-26，索引称Inactive。随后针对L20定位再开403，停止；不是本次尼日利亚官方存续核验。不把Inactive当当前在册。"
+        },
+        {
+          "url": "https://surefin.de/about/",
+          "access": "primary_software_site_body_read",
+          "finding": "L49–56将SureFin称软件、L86–88说明软件开发，L8/65链接app.surefin.de。近听真实软件但拼写Surefin不同，单列混淆；不背书营收性能。"
+        },
+        {
+          "url": "https://www.welshwildlife.org/marine-megafauna",
+          "access": "primary_research_organization_body_read",
+          "finding": "L15–17明确ShoreFin 2016 Report，页面另介绍海豚调查/photo-ID。既有研究项目名称，不冒商业公司或AI软件。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Shorefin",
+          "scope": "2026-11-09本次逐名入口不可访问，不代表无登记。"
+        }
+      },
+      "risks": [
+        "Shorefin历史金融个体经营记录并非当前科技公司确证",
+        "Surefin近听为不同拼写，不冒精确同名",
+        "研究项目、游戏内货币/用户名与独立商业软件分开",
+        "中文通过保持，英文首版失败，尚余2次返工",
+        "公司与9/42登记未清"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "原run两个实际阳性对照，0新增。",
+  "claim_limits": "公开使用与编辑避让，非全球注册核准。",
+  "passed_english_candidate_ids": [],
+  "returned_english_candidate_ids": [
+    "C1-E41"
+  ],
+  "excluded_upstream": [
+    {
+      "chinese_id": "C1-C51",
+      "eligible_english_inputs": 0,
+      "actual_new_english_queries": 0,
+      "reason": "中文既有科技公司使用拒绝；本批仍有C50非全批零。"
+    }
+  ],
+  "actual_new_chinese_names": 0
+}

@@ -1,0 +1,73 @@
+{
+  "protocol_version": "1.1",
+  "run_id": "2026-11-07-live-delivery",
+  "date": "2026-11-07",
+  "coordinator_id": "/root",
+  "status": "incomplete",
+  "profile": "user_authorized_immediate_small_delivery",
+  "authorization": "用户要求现在继续跑四个Agent，淘汰后继续补，先交付几个完成中英文查重的名字；不再停留流程解释。",
+  "scope": "少量实质双语交付，保留质量与每名5组查询，复用已验案例；不声称生产批数量或每日20产能。",
+  "started_recorded_at": "2026-11-07T16:34:16+08:00",
+  "roles": {
+    "A1": {
+      "agent_id": "/root/live_a1",
+      "status": "completed",
+      "execution_ref": "本聊天实际collaboration.spawn_agent",
+      "output_files": [
+        "A1.md",
+        "A1.json"
+      ],
+      "completed_at": "2026-11-07T16:33:42.393174+08:00"
+    },
+    "A2": {
+      "agent_id": "/root/live_a2",
+      "status": "completed",
+      "execution_ref": "本聊天实际collaboration.spawn_agent",
+      "completed_at": "2026-11-07T16:39:25.127430+08:00"
+    },
+    "A3": {
+      "agent_id": "/root/live_a3",
+      "status": "completed",
+      "execution_ref": "本聊天实际collaboration.spawn_agent",
+      "completed_at": "2026-11-07T16:49:27.215628+08:00"
+    },
+    "A4": {
+      "agent_id": "/root/live_a4",
+      "status": "completed",
+      "execution_ref": "本聊天实际collaboration.spawn_agent",
+      "completed_at": "2026-11-07T16:47:15+08:00",
+      "output_files": [
+        "A4.md",
+        "A4-final-followup.md"
+      ]
+    }
+  },
+  "actual_counts": {
+    "reused_cases": 7,
+    "new_market_cases": 0,
+    "chinese_drafts": 8,
+    "independent_families": 8,
+    "chinese_quality_pass": 5,
+    "chinese_screened": 5,
+    "english_forms": 11,
+    "english_screened": 11,
+    "english_public_technology_precheck_pass": 4,
+    "selected_complete_discussion_pairs": 3,
+    "daily_goal": 20,
+    "daily_shortfall": 17,
+    "positive_controls": 2,
+    "candidate_query_groups": 113
+  },
+  "schedule": "应用每日09:00启动，已创建；本轮即时执行并非等待明日",
+  "status_scope": "原生产批数量与书籍新闻配额尚未达成，不声称原生产规范完整合规",
+  "immediate_delivery_status": "completed_with_public_precheck_discussion_pairs",
+  "completed_recorded_at": "2026-11-07T16:49:42+08:00",
+  "daily_goal_status": "partial_not_20",
+  "not_claimed": [
+    "官方公司核名通过",
+    "商标第9/42类已可注册",
+    "全球未使用",
+    "每日20已验证产能"
+  ],
+  "validation_scope": "生产批通用校验记录未达配额；即时3组双语交付另做逐名质量、来源、查询覆盖、角色和交接的专项验收，不冒充生产批通过。"
+}

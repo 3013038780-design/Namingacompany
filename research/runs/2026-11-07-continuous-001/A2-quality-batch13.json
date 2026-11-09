@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T11:36:00.363426+08:00",
+  "scope": "作者数字隔离，主控独评封存后再读",
+  "reviews": [
+    {
+      "candidate_id": "C1-C26",
+      "name": "园丁鸟",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "已有三字动物称呼，有完整主角，可直接说我们是园丁鸟",
+          "counter_association": "不熟悉者可能以为人为新造的卡通角色"
+        },
+        "distinctiveness": {
+          "reason": "园丁与鸟形成可复述的行动者图像",
+          "counter_association": "动物可爱感可能压过研究感"
+        },
+        "lab_fit": {
+          "reason": "主动建造环境的非人行动者可承载感知/行动/认知研究身份",
+          "counter_association": "园艺教育景观联想显著，须主控独立判断"
+        },
+        "grounding": {
+          "reason": "中文称呼和原实验分别有可读正文，不把讨论推断说成证据",
+          "counter_association": "宽称呼不等同该实验物种精确名称"
+        },
+        "extension": {
+          "reason": "角色可涵盖构筑条件与行动的多年研究",
+          "counter_association": "过度泛化会只剩园丁式培育"
+        },
+        "semantic_coherence": {
+          "reason": "主角及第二层均围绕外物安排与呈现场景",
+          "counter_association": "错觉的求偶背景不能被改写为真理或诚信承诺"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

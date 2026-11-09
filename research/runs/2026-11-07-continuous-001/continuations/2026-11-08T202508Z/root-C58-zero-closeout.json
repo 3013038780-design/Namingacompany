@@ -1,0 +1,27 @@
+{
+  "reviewed_at": "2026-11-09T04:48:52.766043+08:00",
+  "reviewer": "/root",
+  "candidate_id": "C1-C58",
+  "decision": "complete_zero_English_handoff_evidence_hold_not_admitted",
+  "actual_root_read": "已实际读原A4zero30和同原A3zeroEN30 MD，原A3核124固定SHA；上下游资格0非未开始。",
+  "remaining_CN_reworks": 0,
+  "new_EN": 0,
+  "refs": [
+    {
+      "path": "A4-zero-input-batch30.json",
+      "sha256": "ff826768a95d31b4da8b604e426294da3efb5700d729041047c09278f9e6f255"
+    },
+    {
+      "path": "A4-zero-input-batch30-receipt.json",
+      "sha256": "c36f010943448bbf6439e94dbfce09d1123db9042b5b8f2cf78574d2a53caea7"
+    },
+    {
+      "path": "A3-en-zero-batch30.json",
+      "sha256": "4a7f681bfb9363399e28522d8686fa7107b48b2b2b5589fcb4c28b4581e87044"
+    },
+    {
+      "path": "A3-en-zero-batch30-receipt.json",
+      "sha256": "95461a4d1a374f634459de99ab9de856a1b7d0de87d40f4a9a08b56587c11205"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 actual final English rework",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-09T01:04:42.496400+08:00",
+  "inputs": [
+    {
+      "path": "A4-candidates-batch43.json",
+      "sha256": "5c179540fb2be5700697673177a029d84f32eeb73c141cf3d90be8ca3769cadf"
+    },
+    {
+      "path": "A4-quality-batch43.json",
+      "sha256": "5d8da1e565886547b51160529edc96d59a49c52f9dc9865957e8170a07c792e0"
+    },
+    {
+      "path": "A3-en-batch43.json",
+      "sha256": "3f5d764845c94d54ae724cf16f9a21565b35e0f468d9f952eb649b779e972ea7"
+    },
+    {
+      "path": "A3-en-batch43.md",
+      "sha256": "aa48422b616d0cc80adf44ae6712b66846cd99a060d1707c0af733ae5572db80"
+    },
+    {
+      "path": "A3-en-batch43-receipt.json",
+      "sha256": "528d96d7bd96b82339d47c83fe2e86338c9e6a09a3b5cabe2bc05c74745ef4a9"
+    },
+    {
+      "path": "A3-cn-batch34.json",
+      "sha256": "4c75c10ef5911955763946a0553d328c871d388a226bbf7eabc590cbda6b3e80"
+    },
+    {
+      "path": "continuations/2026-11-08T161934Z/root-cn34-review.json",
+      "sha256": "27107cf20e349ec7ccc200857dd8a331fdcbfa63c8fc71baa5700a740932c010"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch43.md",
+      "sha256": "871260689e64df1e33f2fad5950a43ce04c230de00b1734c2b2f84b3f96f701c",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch43.json",
+      "sha256": "5c179540fb2be5700697673177a029d84f32eeb73c141cf3d90be8ca3769cadf",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch43.json",
+      "sha256": "5d8da1e565886547b51160529edc96d59a49c52f9dc9865957e8170a07c792e0",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch43.json",
+      "sha256": "14c1d52240cf67f231c55abd45c0920f00e838df422bd784686901d5a945ccbf",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch43.json",
+      "sha256": "28beb379158c822aa8ef357f54ead9e8dbdee967bb3725bb72d347bec89d9bc9",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch34.json",
+      "sha256": "4c75c10ef5911955763946a0553d328c871d388a226bbf7eabc590cbda6b3e80",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch42.json",
+      "sha256": "5e350022ee8708bf195c6b66487e8df47b093c8c63bcefc21679469ba8e60d4a",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch43.json",
+      "sha256": "3f5d764845c94d54ae724cf16f9a21565b35e0f468d9f952eb649b779e972ea7",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch43.md",
+      "sha256": "aa48422b616d0cc80adf44ae6712b66846cd99a060d1707c0af733ae5572db80",
+      "match": true
+    }
+  ],
+  "actual_return_reading": "实际重读原EN43 JSON/MD/receipt：完整商业品牌与候补项目分别处理，未把Devpost403或Fightback近形作精确主证；旧字节SHA全部匹配。",
+  "source_reading": "CAAC PDF40–69、状态页48–76及NASA244–266复用本人batch42实际阅读，不冒通读整份。本次实际读MW trial31–63（试验/检验义及诉讼义）、Collins -naut215–224科学调查载具导航参与者定义、MW astronaut31–45/54–60/118–120构词及希腊sailor词源。MW独立-naut入口曾失败，不能称该页已读；依可读Collins及astronaut构词支持。",
+  "failed_source_access": [
+    {
+      "url": "https://www.merriam-webster.com/dictionary/-naut",
+      "status": "inaccessible_internal_error",
+      "not_claimed_read": true
+    }
+  ],
+  "local_history_check": "research JSON english/name字段Trialnaut精确无命中（rg exit1）；仅本地历史检查，不是市场预查或家族登记核准。",
+  "eligible_english_inputs": 1,
+  "english_output_ids": [
+    "C1-E46"
+  ],
+  "actual_english_versions": 1,
+  "actual_new_chinese_names": 0,
+  "new_family_count": 0,
+  "rework_attempt": 2,
+  "remaining_reworks": 0,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "closed_excluded_families": "C50已闭不R3；C51资格0不配英语；不重开其他中文。",
+  "outputs": [
+    {
+      "path": "A4-candidates-batch44.json",
+      "sha256": "eb7febaadcd744e49697ac8314db66e83e2d6c3ee5a2b4c69d5b8e178b6f6569"
+    },
+    {
+      "path": "A4-preview-batch44.md",
+      "sha256": "85aaa27bede091062e22495ec976a6ea5b83a86eb85e5bb8312242d65296672b"
+    },
+    {
+      "path": "A4-quality-batch44.json",
+      "sha256": "06469ffb12535905f963748e24412a21d43e64b8fc6307b02527245f58b62c0b"
+    }
+  ],
+  "next": "主控先无分独评，双过才同一A3实际英文筛查。若不过本族关闭，不R3。",
+  "unchanged": "只新四档，原稿/评分/查询/receipt/队列/库/Git未改；不附网页全文。"
+}

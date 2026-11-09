@@ -1,0 +1,25 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "executed_at": "2026-11-07T18:07:52.818491+08:00",
+  "new_control_queries": 2,
+  "controls": [
+    {
+      "kind": "company",
+      "name": "Anthropic",
+      "query": "Anthropic company official",
+      "url": "https://www.anthropic.com/company",
+      "read_scope": "L10–23、84–86",
+      "observed": "官网明确AI研究及公益公司身份，阳性。"
+    },
+    {
+      "kind": "software_product",
+      "name": "GitHub Copilot",
+      "query": "GitHub Copilot official product",
+      "url": "https://github.com/features/copilot",
+      "read_scope": "L92–120",
+      "observed": "官方产品正文明确GitHub Copilot及Desktop/CLI/VS Code，阳性。"
+    }
+  ],
+  "note": "本续跑新执行，不复用前轮查询冒充新查询；对照不计候选逐名查询。"
+}

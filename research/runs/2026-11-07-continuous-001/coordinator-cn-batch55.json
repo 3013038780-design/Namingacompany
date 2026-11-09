@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-09T14:09:08.335183+08:00",
+  "independence": "Read producer preview batch55 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C63",
+      "name": "来信未开",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "两个自然双字片段组成完整场景没有生僻字或被截断的术语",
+          "counter_association": "初听也像小说或书信栏目标题"
+        },
+        "distinctiveness": {
+          "reason": "一封已到仍待打开的信有明确悬念和可复述画面比泛未知更具体",
+          "counter_association": "画面可能被看成情感故事而非研究"
+        },
+        "lab_fit": {
+          "reason": "信息与后续行动的分层可承载知识和交互研究机构并保留面向未知的空间",
+          "counter_association": "邮件管理内容出版首感可能比基础模型更强"
+        },
+        "grounding": {
+          "reason": "来和未开限定同一条已入队未被receive取用的消息映射直接且边界明确",
+          "counter_association": "开封不是运行时解码或理解也不是信号都保证到达"
+        },
+        "extension": {
+          "reason": "完整中间状态可容纳通信认知与多种产品不只一个消息按钮",
+          "counter_association": "若长期叙事停在未处理会显得被动或积压"
+        },
+        "semantic_coherence": {
+          "reason": "已经来到与尚待取用是同一对象的两阶段并非拼两个好运词",
+          "counter_association": "名字省去alias和选择性匹配并有故意不回复的负面读法"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

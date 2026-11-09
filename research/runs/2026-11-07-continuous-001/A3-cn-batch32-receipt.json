@@ -1,0 +1,63 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese actual zero-candidate acceptance",
+  "executed_at": "2026-11-08T23:48:34.672555+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch30.json",
+      "sha256": "07b0ea9fd3daf8998a31ab7e0270062f694ebfdcd5e973ba21cac44e0c5964f9"
+    },
+    {
+      "path": "A2-preview-batch30.md",
+      "sha256": "1d733708a852d5dde823f4e45b6c66f4f070ae6b66d1d4bf57303d10b4d9a430"
+    },
+    {
+      "path": "A2-quality-batch30.json",
+      "sha256": "623d2e92c45fd092c95f3d6b7d2e85c2fad055d9cba85d204a650ef36f007c92"
+    },
+    {
+      "path": "A2-creation-execution-batch30.json",
+      "sha256": "7f8870fb3614668f65c40ae0d777383cc137358cae0c155d4c080a4d31bb1887"
+    },
+    {
+      "path": "materials-extension28.json",
+      "sha256": "34d889977d7269c2b89e40995820daf54ff966ab5edefd4116e3bec9b57076b5"
+    },
+    {
+      "path": "coordinator-cn-batch30.json",
+      "sha256": "9fc8f13efdd38e02c7d1c5ac32282e22a60300740fafae1288979c4984b69086"
+    },
+    {
+      "path": "search-plan-role-expansion02.json",
+      "sha256": "f86b3c18c74f778d2a6fb4258fed662584879e5747bb0116e0cefc6288d98d1a"
+    },
+    {
+      "path": "continuations/2026-11-08T151606Z/plan-role-expansion02-review.json",
+      "sha256": "f5447836316e7ce5361681ccd0f5b5108b05e8eb761d035a3db15899c16d6867"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch32.json",
+      "sha256": "fc055cdd66651e0ef7012952765a870f988707fd7d873c1d68af66e8d2903fd0"
+    },
+    {
+      "path": "A3-cn-batch32.md",
+      "sha256": "ff75fe5b3c7072538ebd15de68d346bed20202a8d0a73740eeccc181451f77a7"
+    }
+  ],
+  "all_receipt_hashes_match": true,
+  "receipt_hash_check_count": 11,
+  "actual_chinese_candidates": 0,
+  "actual_eligible_market_inputs": 0,
+  "actual_new_candidate_queries": 0,
+  "actual_new_chinese_queries": 0,
+  "actual_new_english_queries": 0,
+  "actual_new_scores": 0,
+  "actual_execution": "实际读上游素材/空候选/空评分/执行/root及已验计划，核固定SHA后确认真实零草案，未凭无输入虚构占用。",
+  "agent3_cumulative_candidate_queries": 553,
+  "agent3_cumulative_returned_candidate_results": 552,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 555,
+  "run_cumulative_returned_candidate_results": 554
+}

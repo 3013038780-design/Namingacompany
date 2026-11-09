@@ -1,0 +1,519 @@
+{
+  "date": "2026-11-07",
+  "agent": "/root/live_a1",
+  "completed_at": "2026-11-07T18:08:43.604767+08:00",
+  "protocol_version": "1.1",
+  "scope": "今日3组之后续跑：8个既有核心案例复用，6世界机制，3个相关核心来源本轮重读，1个Sony英文构词辅助来源重读；0新候选。",
+  "latest_feedback": "用户认可上一轮并要求继续向20推进：名字更自然好记，不全像物理术语；英文不能为避重硬改拼音，质量不降。",
+  "inputs_read": [
+    "README.md（全文）",
+    "AGENTS.md",
+    "research/preferences.json（尚为旧反馈，遵循主控传达最新用户偏好）",
+    "research/runs/2026-11-06-agent1-baseline105/cases.json（选定8案）",
+    "research/runs/2026-11-06-agent1-baseline105/taxonomy.json（上一实测已读，分类沿用）",
+    "research/runs/2026-11-06-agent1-expansion/cases.json（20案分析及短板全部重读；Stripe全文条目重读）"
+  ],
+  "cases": [
+    {
+      "id": "B002",
+      "name": "Google / 谷歌",
+      "original_category": "broad_tech",
+      "source_line": 24,
+      "primary_source": "S3",
+      "classification_basis": "数学大数的尺度",
+      "secondary_sources": [
+        "S5"
+      ],
+      "meaning_and_origin_from_seed": "来自googol的拼写变化，googol是10的100次方。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "数学大数的尺度，连接互联网信息规模",
+      "narrative_role": "R3",
+      "brand_story": "组织极大规模的信息。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "以知识对象表达信息组织雄心；谷与歌的中文联想不能倒写成英文词源",
+      "bilingual_relation": "英文数学词变形，中文同时接声音与独立意象",
+      "sources": [
+        {
+          "url": "https://about.google/company-info/our-story/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 24
+        },
+        {
+          "url": "https://about.google/company-info/our-story/",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "名称是 googol（1 后接100个0）的文字游戏，呼应组织全球信息的使命。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        },
+        {
+          "url": "https://blog.google/company-news/inside-google/company-announcements/google-fun-facts-25th-birthday/",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "名称是 googol（1 后接100个0）的文字游戏，呼应组织全球信息的使命。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "变形、短化或融合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B008",
+      "name": "阿里巴巴 / Alibaba",
+      "original_category": "broad_tech",
+      "source_line": 30,
+      "primary_source": "S4",
+      "classification_basis": "宝藏之门的故事",
+      "secondary_sources": [
+        "S1"
+      ],
+      "meaning_and_origin_from_seed": "来自《阿里巴巴与四十大盗》的既有人物名。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "宝藏之门的故事，连接打开商业机会的角色",
+      "narrative_role": "R1",
+      "brand_story": "打开机会与财富之门。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "借已有情节建立入口形象；文化熟悉度会跨地区变化",
+      "bilingual_relation": "同一故事人物的中英文称呼",
+      "sources": [
+        {
+          "url": "https://singjupost.com/jack-ma-alibaba-group-stanford-gsb-2015-entrepreneurial-company-of-the-year-transcript/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 30
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B013",
+      "name": "Apple / 苹果",
+      "original_category": "broad_tech",
+      "source_line": 35,
+      "primary_source": "S1",
+      "classification_basis": "普通水果的生活熟悉感",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "苹果这一日常水果。沃兹尼亚克的公开访谈谈到它带来的良好、亲近感受。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "普通水果的生活熟悉感，连接复杂计算的可亲近性",
+      "narrative_role": "R1",
+      "brand_story": "技术可以进入普通人的生活。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "先建立生活关系再赋予科技身份；不需要水果解释计算原理",
+      "bilingual_relation": "苹果与Apple为同一日常对象",
+      "sources": [
+        {
+          "url": "https://techbbq.dk/tech-arena-2024-a-conversation-with-steve-wozniak/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 35
+        },
+        {
+          "url": "https://techbbq.dk/tech-arena-2024-a-conversation-with-steve-wozniak/",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "原始访谈295–305",
+          "supports": "访谈包含Apple Records相关回忆及水果好感；不把牛顿/图灵故事硬当创始解释。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "既有词直接专名化",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B022",
+      "name": "OpenAI",
+      "original_category": "current_ai",
+      "source_line": 53,
+      "primary_source": "S6",
+      "classification_basis": "开放立场与AI领域直接成为组织承诺",
+      "secondary_sources": [],
+      "meaning_and_origin_from_seed": "Open是开放，AI是人工智能。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "开放立场与AI领域直接成为组织承诺",
+      "narrative_role": "R6",
+      "brand_story": "智能应当以更广泛有益的方式发展。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司把发展智能的价值位置写出；行为会持续受名字检验",
+      "bilingual_relation": "英文立场组合自立，无需另配中文自然意象",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-openai/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 53
+        },
+        {
+          "url": "https://openai.com/index/introducing-openai/",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "2015创立声明28–41",
+          "supports": "历史声明说明广泛人类利益、发表与共享；用于当时命名立场，不推断当前一切政策。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B025",
+      "name": "Anysphere / Cursor",
+      "original_category": "current_ai",
+      "source_line": 56,
+      "primary_source": "S1",
+      "classification_basis": "本组以Cursor的可见日常光标为主入口；Anysphere的宽空间作次来源，不因sphere一词就认定特定数学来源",
+      "secondary_sources": [
+        "S2"
+      ],
+      "meaning_and_origin_from_seed": "Any是任意，Sphere是球体或领域；Cursor是光标。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "电脑界面上每天可见的光标，成为人开始软件创造的位置；Anysphere另提供宽阔空间的母品牌层",
+      "narrative_role": "R1",
+      "brand_story": "让人从一个光标开始，完成更大范围的软件创造。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "手边物件能承载很大的创作能力；本组不是把几何词自动当科学出处，主码不能覆盖母产品两条来源",
+      "bilingual_relation": "Anysphere与Cursor是机构/产品分层，不是中英文对应；主分类以产品入口编码只是本次编辑选择",
+      "sources": [
+        {
+          "url": "https://cursor.com/en-US/terms-of-service",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 56
+        },
+        {
+          "url": "https://docs.cursor.com/en/inline-edit/overview",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "官方文档确认AI编程工具与编辑行为；旧文档说明可在光标位置生成代码。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        },
+        {
+          "url": "https://docs.cursor.com/ai-features/rules",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "官方文档确认AI编程工具与编辑行为；旧文档说明可在光标位置生成代码。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B037",
+      "name": "Imbue",
+      "original_category": "current_ai",
+      "source_line": 68,
+      "primary_source": "S5",
+      "classification_basis": "给已有对象赋予能力与价值",
+      "secondary_sources": [
+        "S6"
+      ],
+      "meaning_and_origin_from_seed": "使充满、赋予、浸润。命名顾问解释为给计算机赋予智能与人类价值。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "给已有对象赋予能力与价值，连接增强他者的作用",
+      "narrative_role": "R3",
+      "brand_story": "赋予机器能力，也赋予它应当服务的价值。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司讲对别人产生什么改变；宽动词需要真实对象承接",
+      "bilingual_relation": "英语关系动词独立，不强造逐字中文",
+      "sources": [
+        {
+          "url": "https://www.ahundredmonkeys.com/case-study/imbue/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 68
+        },
+        {
+          "url": "https://www.ahundredmonkeys.com/case-study/imbue/",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "命名顾问20/32",
+          "supports": "顾问确认Generally Intelligent改名及赋予智能/人类价值的解释。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B053",
+      "name": "月之暗面 / Moonshot AI",
+      "original_category": "current_ai",
+      "source_line": 89,
+      "primary_source": "S2",
+      "classification_basis": "中文未知月面与英文登月挑战",
+      "secondary_sources": [
+        "S6",
+        "S4"
+      ],
+      "meaning_and_origin_from_seed": "Moonshot指登月计划，也指高难度、宏大目标的尝试；与中文未知月面的意象主题呼应。",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "中文未知月面与英文登月挑战，连接未抵达空间",
+      "narrative_role": "R2",
+      "brand_story": "以宏大的挑战探索尚未照亮的空间。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "公司讲将去哪里；不把音乐联想或登月史当完整起名确认",
+      "bilingual_relation": "中文空间、英文挑战、Kimi产品称呼分层",
+      "sources": [
+        {
+          "url": "https://www.kimi.com/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 89
+        },
+        {
+          "url": "https://www.moonshot.ai/",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "首页品牌及页脚54、产品62",
+          "supports": "确认Moonshot AI与Kimi分层用名；不据此证明Pink Floyd音乐词源。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "学术概念短语",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    },
+    {
+      "id": "B076",
+      "name": "Sakana AI",
+      "original_category": "rsi_labs",
+      "source_line": 141,
+      "primary_source": "S2",
+      "classification_basis": "鱼群由简单互动形成复杂整体",
+      "secondary_sources": [
+        "S3"
+      ],
+      "meaning_and_origin_from_seed": "Sakana是日语“鱼”。公司公开借鱼群说明简单个体形成集体行为。  ·",
+      "meaning_status": "继承初始材料并重新审阅语义，未重开的来源不升级为已核实动机",
+      "crossing_worlds": "鱼群由简单互动形成复杂整体，连接智能的组织方式",
+      "narrative_role": "R5",
+      "brand_story": "智能可以从简单个体的相互作用中长出来。",
+      "story_status": "研究者命名解读，不当企业自述",
+      "naming_analysis_and_limit": "表层是生命、深层是生成机制；不能把群体现象泛化为性能证据",
+      "bilingual_relation": "日语鱼的称呼进入英文品牌，不要求新中文名日式化",
+      "sources": [
+        {
+          "url": "https://sakana.ai/series-a/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 141
+        },
+        {
+          "url": "https://sakana.ai/dgm/",
+          "access": "inherited_not_reopened",
+          "reader": "seed",
+          "supports": "初始行引用，本轮未逐链接重开，不据链接标签推定动机",
+          "source_line": 141
+        },
+        {
+          "url": "https://sakana.ai/seed-round/",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "Sakana在日语中意为鱼；公司明确鱼群由简单规则形成整体，连接演化与集体智能研究；逆向红鱼代表探索自己的方向。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        },
+        {
+          "url": "https://sakana.ai/company-info/",
+          "access": "prior_review",
+          "reader": "prior_A1",
+          "supports": "Sakana在日语中意为鱼；公司明确鱼群由简单规则形成整体，连接演化与集体智能研究；逆向红鱼代表探索自己的方向。",
+          "review_file": "research/runs/2026-11-06/cases.json",
+          "reopened_this_pass": false
+        },
+        {
+          "url": "https://sakana.ai/seed-round/",
+          "access": "body",
+          "reader": "coordinator",
+          "reading_scope": "官方起名说明5",
+          "supports": "日语鱼、鱼群简单规则形成整体和逆向红鱼的解释均明确。",
+          "checked_at": "2026-11-06",
+          "review_file": "source_review.json"
+        }
+      ],
+      "is_new_brand_case": false,
+      "new_name_proposal": false,
+      "construction": "普通词或语素组合",
+      "motive_boundary": "来源分类依据可解释词义/品牌自释，不等于已确认历史起名动机；企业直接解释须看sources的支持范围。",
+      "role_basis": "name_semantics_and_brand_context"
+    }
+  ],
+  "source_reads": [
+    {
+      "url": "https://about.google/company-info/our-story/",
+      "source_type": "official_origin",
+      "reading_scope": "Our story正文10–17，重点12命名和使命句",
+      "supports": "Google是googol的文字游戏，官方将其联系组织世界信息的使命。",
+      "tool_ref": "turn1031view1",
+      "reopened_this_round": true
+    },
+    {
+      "url": "https://sakana.ai/seed-round/",
+      "source_type": "official_origin",
+      "reading_scope": "开头4–5，重点鱼词义、群体组织及逆向红鱼说明",
+      "supports": "鱼的普通称呼、群体简单规则、差异化方向均有企业直接解释。",
+      "tool_ref": "turn1031view0",
+      "reopened_this_round": true
+    },
+    {
+      "url": "https://www.ahundredmonkeys.com/case-study/imbue/",
+      "source_type": "naming_supplier_primary",
+      "reading_scope": "What we did与The decision，20及32",
+      "supports": "Generally Intelligent旧名问题，Imbue第三轮选中，赋予机器智能与人类价值的解释。",
+      "tool_ref": "turn1031view2",
+      "reopened_this_round": true
+    },
+    {
+      "url": "https://www.sony.com.hk/aboutsony/html/en/history.jsp",
+      "source_type": "official_origin_auxiliary",
+      "reading_scope": "Sony history17–18",
+      "supports": "sonus与sonny融合，官方追求可读可发音的名称。用于英文构词执行边界，不另计核心案例。",
+      "tool_ref": "turn1032view0",
+      "reopened_this_round": true
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "CN1",
+      "source_world": "S1 日常物件与身体经验",
+      "case_ids": [
+        "B013",
+        "B025"
+      ],
+      "observation": "Apple先是人人能称呼的物；Cursor先是使用者反复遇见的行动位置。它们不靠解释一段算法才成为名字。",
+      "fact_boundary": "Apple水果和Cursor光标为既有词义；日常亲近与开始创造的位置是编辑解读，Cursor官方使用不等于已确认历史起名动机。",
+      "search_for": "日常技术与知识工作中能看见、能操作、已有自然称呼的对象和位置；寻找其让人开始、定位、组织或调用能力的真实作用。",
+      "why": "用户更要自然品牌，研究问题不应从艰深术语清单起步，而应从可反复称呼的对象进入。",
+      "preserve": "不读说明也能叫出，讲出处后有一层可靠关联；技术研究身份可由对象角色和后续业务承接。",
+      "discard": "只是家居环保物件且没有可信研究角色；为普通物件硬编智能原理；重复空格键、底稿等旧提案。"
+    },
+    {
+      "id": "CN2",
+      "source_world": "S2 自然、生命与天地空间",
+      "case_ids": [
+        "B076",
+        "B053"
+      ],
+      "observation": "Sakana用普通动物名容纳组织原理；月之暗面用一幅空间画面、Moonshot用行动挑战共享世界观。",
+      "fact_boundary": "Sakana命名原意本轮已读企业原文。月之暗面/Moonshot的语义联系是复用编辑分析，不把音乐联想升级为创始来源。",
+      "search_for": "中国可自然称呼的动物行为、夜空/地理/光影现象和空间关系；优先完整既有称呼或熟悉词的自然组合，不限生长。",
+      "why": "自然世界可以提供形象、行为和方向，名称本身不必是物理定理。中英文也可分别表达同一世界的不同侧面。",
+      "preserve": "一幅画面或一个可讲清的行为，第二层才进入原理；中文2–4字都可。",
+      "discard": "孤子雨、负熵流同家族再变形不算新增；用人人不识的术语当高级感；把任何自然对象都解释为学习。"
+    },
+    {
+      "id": "CN3",
+      "source_world": "S3 科学与计算世界",
+      "case_ids": [
+        "B002"
+      ],
+      "observation": "Google保留大数尺度这个真实锚点，但把学术词变成可发音、可称呼的专名；没有把完整定义塞入品牌。",
+      "fact_boundary": "文字游戏与信息使命本轮官方正文明确；不把所有新词都类比为拼写错误或任意改字母。",
+      "search_for": "科学计算中可感知的尺度、方法、表示及关系，先读原理，再寻找日常语言能自然承载的一层；必要时合成可读专名而非原封搬术语。",
+      "why": "科学来源必须留下意义，但用户不希望所有候选像论文题目，源头真实与表面自然要同时成立。",
+      "preserve": "能指出词的真实锚点，声音和字形不需依赖一串字母说明；不承诺对应数学能力。",
+      "discard": "先有怪拼写再反造词源；纯为查无结果改拼音；重做比特群岛等旧家族。"
+    },
+    {
+      "id": "CN4",
+      "source_world": "S4 文化历史与思想传承",
+      "case_ids": [
+        "B008"
+      ],
+      "observation": "Alibaba先是可称呼的角色和已有故事，打开门的情节可延伸到机会与连接；不是摘两个吉祥字。",
+      "fact_boundary": "既有故事人物为词义事实；本轮未重开创始访谈，商业机会是品牌分析。",
+      "search_for": "中国科学技术史、器物、游戏和现代文化中已有称呼的角色、场景、操作；古文只占小部分，不把整轮转成文学摘句。",
+      "why": "中国关联可来自普通文化记忆和真实生活，而不限诗经庄子。故事需简短可讲，名字自身先顺口。",
+      "preserve": "角色/场景/行动的完整内核，能跨产品延展；听见就有具体东西。",
+      "discard": "历史人名难读、需要先讲一页古文才能成立；两段出处机械拼接；古文超过15%。"
+    },
+    {
+      "id": "CN5",
+      "source_world": "S5 认知、行动与时间经验",
+      "case_ids": [
+        "B037"
+      ],
+      "observation": "Imbue命名的是公司对已有对象产生的作用，比Generally Intelligent的圈内双关更自然、有情感和人格。",
+      "fact_boundary": "顾问与团队实际命名过程、本轮重读第三轮选名解释；温暖活泼评价是该项目参与者判断，不是假称普遍用户测试。",
+      "search_for": "能在汉语日常句子中自然使用的认知/实践动作和关系；同时在心理、工程或计算资料中找可说明的真实关系。",
+      "why": "AI Lab增强他者，但不必写增强或自进化四字。关系动词能容纳多种算法与产品。",
+      "preserve": "有人或系统做什么，改变什么；口语自然且不落教育育儿。",
+      "discard": "Nurture近义翻新；为了贴连续学习只做下一轮/成长系列；动作只剩口号而无对象。"
+    },
+    {
+      "id": "CN6",
+      "source_world": "S6 使命、立场与未来主张",
+      "case_ids": [
+        "B022"
+      ],
+      "observation": "OpenAI把可理解的立场与领域组成机构称呼，故事由真实承诺而非外部典故承担。",
+      "fact_boundary": "Open和AI的语义及历史声明是复用资料；本轮不替公司当前政策作判断，也不替用户擅定立场。",
+      "search_for": "从用户已表达的研究使命中找普通语言能够自然表达的研究姿态、对象或边界；该方向若无明确团队认同则少产，不硬凑。",
+      "why": "自然好记也可来自一句清楚的研究主张，而不是必须神话、物理或生物。",
+      "preserve": "真实且团队愿意承担的长期取向；中文像名字，英文语法和语素自然。",
+      "discard": "未经用户认同承诺开放/安全/唯一最强；功能描述或标语替代品牌。"
+    }
+  ],
+  "language_gates": {
+    "chinese": "请把名字放进“我们是___”“___今天发布了一项研究”两句；这是定性口语检查，不是消费者实验。读解释前仍需能被自然称呼。不要只交原理名词或漂亮词拼接。",
+    "english": "有语义依据的自然词、完整短语、熟悉语素融合和可信音译均可；音译不是禁用，但不能因查重失败而随便换字母让它看起来像英文。先解释真实构词与建议读法，再交A3筛查。",
+    "source_vs_brand": "科学来源提供第二层，不补偿拗口。Stripe旧研究说明普通词不必强行有精密技术隐喻；Sony官方说明融合也应服务声音和称呼，不是掩盖拼接。",
+    "history": "已有3组及全部历史候选/同家族不算新增；用新英文配旧中文也不算新家族。"
+  },
+  "counterexamples": [
+    {
+      "case": "Generally Intelligent → Imbue",
+      "why": "圈内双关聪明仍可能太费处理；不能让解释负担代替称呼自然。",
+      "evidence": "本轮顾问正文20、32"
+    },
+    {
+      "case": "Stripe旧公司/产品名",
+      "why": "旧研究记载符号式机构名称带来口头沟通与拼写成本；不要把圈内人能解码当作日常好用。",
+      "evidence": "复用20补案例A1-05，不标本轮外部再读"
+    },
+    {
+      "case": "Sony",
+      "why": "真实语素融合不等于随意改拼音；本轮官方说明发音、阅读与品牌精神共同起作用。",
+      "evidence": "本轮官方历史17–18"
+    }
+  ],
+  "a2_handoff": "按六世界搜索，优先可称呼性；先短写内部搜索问题和case_ids，再阅读与创作，直接交中文草案+真实出处/范围/独特关系/释义/短板/家族去重。不要等待用户审批素材卡。每个世界提供不同研究姿态，不统一改写成长、第二次或自进化。先小批接续筛查，淘汰补新家族。"
+}

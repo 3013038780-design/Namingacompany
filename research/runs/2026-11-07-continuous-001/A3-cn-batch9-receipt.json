@@ -1,0 +1,64 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese screening",
+  "executed_at": "2026-11-07T23:10:07.920208+08:00",
+  "candidate_id": "C1-C19",
+  "candidate": "分身有别",
+  "decision": "public_use_screen_pass",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch8.json",
+      "sha256": "846cc81e69427062e8ad7b39a97c05520913cf25c23f728caa7bd425a6753324"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch8.md",
+      "sha256": "c150fcfd3d59053d558ff5419b174ef78d9b50242ee65b963598d092df705819"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch8.json",
+      "sha256": "d600f8d534a842b9339f233ff8615dfa68e74f04cc2cfb3ec5274eaeacc323d8"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch8.json",
+      "sha256": "2c2e5e6ba6e4ddddec282e5fe5a5429cc8fca0c5e26b4801002afff188da6efc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch8.json",
+      "sha256": "8eff341cd0f3a410ce5806a1054796bccb3e2a7d700f3411a44198f42f1f0914"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension7.json",
+      "sha256": "a839a21b7574701971769bb560d69e1cc2074b56b2336c7ce9bbf01e14352f59"
+    }
+  ],
+  "policy_inputs": [
+    {
+      "path": "README.md",
+      "sha256": "e3ac33611b2580d321a0434f7ac3a1b1da75678b1a7756ac38326d338b686257"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch9.md",
+      "sha256": "d42ea743e4246f549b42ca97b641b3a0d52baa0a4255fb6ef7362f46bd2e4411"
+    },
+    {
+      "path": "A3-cn-batch9.json",
+      "sha256": "a96a892a652654642fe4a7df0591ade4a7c936e5865429556cc62f1c2b6f60ff"
+    }
+  ],
+  "actual_new_candidate_queries": 10,
+  "actual_new_control_queries": 0,
+  "prior_candidate_queries": 194,
+  "cumulative_candidate_queries": 204,
+  "actual_execution": "本实例实际读规范/候选/两评审/materials-extension7，执行十次中文查询，打开并核对关键相关正文、英国逐名入口；未生成英文，不改总库或git。",
+  "registration_limits": "GSXT/CNIPA共同入口旧403复用非本次重查；英国本次Fenshenyoubie逐名入口不可访问。无商标或公司注册可用承诺。"
+}

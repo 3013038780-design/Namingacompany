@@ -1,0 +1,96 @@
+{
+  "protocol_version": "1.1",
+  "run_id": "2026-11-07-minimal-cycle",
+  "date": "2026-11-07",
+  "status": "incomplete",
+  "stage": "minimal_four_agent_cycle",
+  "profile": "user_authorized_minimal_cycle",
+  "coordinator_id": "/root",
+  "scope": "User requests cheapest real four-agent end-to-end test with outputs and handoffs recorded. Production quotas not claimed.",
+  "profile_limits": {
+    "A1_cases": 3,
+    "A2_chinese_draft_max": 3,
+    "A3_chinese_input_max": 2,
+    "A4_english_options_max_per_chinese": 1,
+    "A3_queries_minimum_per_screened_name": 5,
+    "creative_rework_max": 0,
+    "material_cards_separate_deliverable": false,
+    "new_planning_stage": false
+  },
+  "roles": {
+    "A1": {
+      "agent_id": "/root/agent1_baseline105",
+      "status": "completed",
+      "completed_at": "2026-11-07T16:11:27+08:00",
+      "execution_ref": "collaboration.followup_task to /root/agent1_baseline105, current Codex chat",
+      "output_files": [
+        "A1.json",
+        "A1.md"
+      ]
+    },
+    "A2": {
+      "agent_id": "/root/agent2_materials_cn",
+      "status": "completed",
+      "execution_ref": "Actual collaboration.followup_task in current chat; source A1.json/.md accepted for minimal sample",
+      "recorded_dispatch_at": "2026-11-07T16:12:28+08:00",
+      "completed_at": "2026-11-07T16:16:36+08:00",
+      "output_files": [
+        "A2.json",
+        "A2.md",
+        "A2-quality.json",
+        "A2-preview.json"
+      ]
+    },
+    "A3": {
+      "agent_id": "/root/minimal_screening",
+      "status": "completed",
+      "execution_ref": "Actual collaboration.spawn_agent with fork_turns none, current chat",
+      "recorded_dispatch_at": "2026-11-07T16:18:01+08:00",
+      "cn_completed_at": "2026-11-07T16:19:50+08:00",
+      "output_files": [
+        "A3-cn.json",
+        "A3-cn.md",
+        "A3-en.json",
+        "A3-en.md"
+      ],
+      "english_phase": "completed_zero_input",
+      "completed_at": "2026-11-07T16:21:56+08:00"
+    },
+    "A4": {
+      "agent_id": "/root/minimal_english",
+      "status": "completed",
+      "execution_ref": "Actual collaboration.spawn_agent, independent A4 instructed to verify zero eligible input",
+      "recorded_dispatch_at": "2026-11-07T16:20:43+08:00",
+      "completed_at": "2026-11-07T16:21:22+08:00",
+      "output_files": [
+        "A4.json",
+        "A4.md"
+      ]
+    }
+  },
+  "schedule_created": false,
+  "not_claimed": "Not the normal24-family production batch or daily20 delivery.",
+  "minimal_cycle_status": "completed_without_qualified_pairs",
+  "production_compliance": "not_claimed_user_authorized_minimum_profile",
+  "recorded_completed_at": "2026-11-07T16:23:02+08:00",
+  "actual_counts": {
+    "reused_A1_cases": 3,
+    "new_market_cases": 0,
+    "chinese_drafts": 3,
+    "chinese_quality_pass": 2,
+    "chinese_screened": 2,
+    "chinese_rejected_for_use": 1,
+    "chinese_held_for_evidence": 1,
+    "chinese_public_precheck_pass": 0,
+    "english_created": 0,
+    "english_screened": 0,
+    "qualified_pairs": 0
+  },
+  "tested_path": "A1→A2→root中文评审→A3中文否决/暂停→A4真实零输入检查→原A3真实英文零输入复查→root交付",
+  "not_exercised": [
+    "合格中文后的英文创作与双英文评分",
+    "有英文输入时的使用筛查",
+    "有合格配对后的登记核验与正式推荐"
+  ],
+  "incomplete_reason": "Only normal production quotas/schema not completed; authorized minimal execution and actual zero-input branch completed."
+}

@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-08T11:36:39.921877+08:00",
+  "independence": "Read producer preview batch13 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C26",
+      "name": "园丁鸟",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "已有完整三字动物称呼能直接说我们是园丁鸟",
+          "counter_association": "园丁可能带教育园艺联想"
+        },
+        "distinctiveness": {
+          "reason": "既有人物角色园丁又有鸟形象便于记忆",
+          "counter_association": "鸟类动物品牌不必然有商业独特性仍须查"
+        },
+        "lab_fit": {
+          "reason": "会组织环境的行动主体可承载感知建造与智能研究机构身份",
+          "counter_association": "可爱景观设计气质有风险不能拿科学背书抵消但整体角色仍成立"
+        },
+        "grounding": {
+          "reason": "原论文正文明确物件大小距离观看位置与重建关系且中文公开节选支持称呼",
+          "counter_association": "中文宽称呼不等于所有物种都有同实验行为"
+        },
+        "extension": {
+          "reason": "整只行动者可跨多个产品而非限定视觉算法",
+          "counter_association": "不能许诺持续优化或模型必然变强"
+        },
+        "semantic_coherence": {
+          "reason": "名称本身是完整自然主角多层围绕同一外部建造关系",
+          "counter_association": "错觉和求偶背景可能引出包装联想须披露"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

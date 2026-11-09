@@ -1,0 +1,131 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-08T16:19:34.978Z",
+  "completed_at": "2026-11-09T01:11:40.729455+08:00",
+  "status": "two_same_run_packages_closed_one_new_pair",
+  "new_A1_research_claimed": false,
+  "A1_basis_reused": [
+    "A1-role-expansion01.json",
+    "A1-role-expansion02.json",
+    "search-plan.json",
+    "search-plan-role-expansion02.json",
+    "continuations/2026-11-08T151606Z/plan-role-expansion02-review.json"
+  ],
+  "actual_A2": "/root/continuous_a2",
+  "actual_A3_same_cn_en": "/root/live_a3",
+  "actual_A4": "/root/continuous_a4",
+  "new_materials": 4,
+  "new_chinese_drafts": 3,
+  "new_chinese_families_explored": 3,
+  "chinese_quality_passed": 3,
+  "chinese_public_use_passed": 2,
+  "new_english_versions": 6,
+  "english_quality_passed": 6,
+  "english_public_use_passed": 1,
+  "new_retained_families": 1,
+  "retained_pairs": [
+    {
+      "chinese": "试飞员",
+      "english": "Trialnaut",
+      "chinese_id": "C1-C52",
+      "english_id": "C1-E46"
+    }
+  ],
+  "evidence_holds": 1,
+  "new_evidence_holds": 0,
+  "new_A3_candidate_query_executions": 64,
+  "new_A3_search_results_returned": 64,
+  "new_A3_failed_or_unreturned_attempts": 0,
+  "new_root_candidate_query_executions": 0,
+  "cumulative_A3_candidate_query_executions": 617,
+  "cumulative_A3_search_results_returned": 616,
+  "root_additional_queries_prior_packet": 2,
+  "cumulative_recorded_candidate_query_executions": 619,
+  "cumulative_recorded_results_returned": 618,
+  "cumulative_materials": 65,
+  "cumulative_chinese_drafts": 52,
+  "cumulative_english_versions": 45,
+  "catalog_counts": {
+    "discussion_candidates": 29,
+    "research_reserves": 1,
+    "total_unique_families": 30,
+    "withdrawn_families": 1,
+    "historical_unique_families": 31
+  },
+  "reason": "新增讨论备选：试飞员 / Trialnaut。共补4项真实关系、3个中文草案：陆行鱼中文8查过但三英文使用/风险返工耗尽；斑马线9查已有深圳斑马线科技核心用名；试飞员中文9查过，最后英文Trialnaut完成7查询及原A4复审/主控终审，新增讨论备选，保留临床/诉讼/科幻及首次听写、职业与近游戏风险，登记未清。夜航船仅原序素材，无硬配名字。原A1六世界及案例机制复用；NASA11/4新闻的首飞仍未来，CAAC2015文件明确废止，均不冒已完成成果/现行法。",
+  "source_sampling": {
+    "new_materials": 4,
+    "root_new_materials_body_read": 4,
+    "minimum_required": 1,
+    "scope": "root实际逐项读NParks19–48、张岱序123–133、英国指南148–159及日期法域、CAAC实体4–5/发布页废止、NASA244–266/282–284。新古文1，累计保守4/65；S3主类仍15/65。原序为转录未核底本，非整书；NASA是公布/计划的近90日新闻，不把生成图/首飞预期当已完成实验。"
+  },
+  "controls_and_registration": "原run两阳性对照与大陆GSXT/CNIPA旧403限制诚实复用，非新做对照/逐类核准。各名字UK搜索入口限制逐名保留；Intertidal具体英国官方公司详情本次可读并确证，不能泛称UK全部不可访问。正式公司核名/9与42清权未完成。",
+  "prior_evidence_hold": "活变量/Maymatter无新原证不重复403、不增已耗尽英语返工。",
+  "whole_production_compliance_claimed": false,
+  "evidence_refs": [
+    {
+      "path": "materials-extension29.json",
+      "sha256": "1865bfd97cd5b171d432fa351de6b724e6ab253c6cbe188082e3c38765bb461d"
+    },
+    {
+      "path": "A2-creation-execution-batch31.json",
+      "sha256": "8c694ee7041334a6669a7f345fcd7fd5eae5d6b5aa0d4e62fb43a17ca83550a6"
+    },
+    {
+      "path": "A3-cn-batch33.json",
+      "sha256": "c52519eca6ea430ea230ddf0ebb4bf02cd91a9eee2bb44328b079d0990211573"
+    },
+    {
+      "path": "A4-C50-final-closeout.json",
+      "sha256": "e9c3492d1cec881b3e4bea686287b9952b0c229a6d267f4c118405d0c89f1483"
+    },
+    {
+      "path": "materials-extension30.json",
+      "sha256": "c716bd12c909eaddfe8b59c8a5553e3d87ddbd2228244e16036b927e126e2fc6"
+    },
+    {
+      "path": "A2-creation-execution-batch32.json",
+      "sha256": "01f93f93bced5741a204d783e39cd3e51e9fd3a59abc9753e3e40a12b9ce912a"
+    },
+    {
+      "path": "A3-cn-batch34.json",
+      "sha256": "4c75c10ef5911955763946a0553d328c871d388a226bbf7eabc590cbda6b3e80"
+    },
+    {
+      "path": "A4-creation-execution-batch42.json",
+      "sha256": "86a5b6f53075ab22fffc1db80009994b0159a1afc6d17371586e5337c313701e"
+    },
+    {
+      "path": "A3-en-batch42.json",
+      "sha256": "5e350022ee8708bf195c6b66487e8df47b093c8c63bcefc21679469ba8e60d4a"
+    },
+    {
+      "path": "A4-creation-execution-batch43.json",
+      "sha256": "14c1d52240cf67f231c55abd45c0920f00e838df422bd784686901d5a945ccbf"
+    },
+    {
+      "path": "A3-en-batch43.json",
+      "sha256": "3f5d764845c94d54ae724cf16f9a21565b35e0f468d9f952eb649b779e972ea7"
+    },
+    {
+      "path": "A4-creation-execution-batch44.json",
+      "sha256": "b680af4fcc5bf438aa312c9b0a8c177db70956cdce803a05ac01dd3a3152c8b0"
+    },
+    {
+      "path": "A3-en-batch44.json",
+      "sha256": "10e591fc8146f4f91e25a31185b7e0271d9369ca26f1ce6a1a15218c63b190d4"
+    },
+    {
+      "path": "continuations/2026-11-08T161934Z/handoffs-batch31.json",
+      "sha256": "53abff0914198cbc4a15d9da392139f27861fcde507f160518a569f4536f9c7b"
+    },
+    {
+      "path": "continuations/2026-11-08T161934Z/handoffs-batch32.json",
+      "sha256": "0d5c8cdda490539ba3df326271deef8b57b6a13f1835226b1fefea5d43c5860d"
+    },
+    {
+      "path": "continuations/2026-11-08T161934Z/decisions-through-batch32.json",
+      "sha256": "d43201f0116544f9c19fe414bd40912f42ecbff51cbbff680860daaf35fbc21a"
+    }
+  ]
+}

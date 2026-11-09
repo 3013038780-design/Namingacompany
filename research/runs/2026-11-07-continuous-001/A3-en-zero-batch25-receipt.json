@@ -1,0 +1,52 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 actual English zero-input final check",
+  "executed_at": "2026-11-08T22:45:55.309064+08:00",
+  "inputs": [
+    {
+      "path": "A4-zero-input-batch25.json",
+      "sha256": "821294af2a1471a4a5a32e36e7f65769bd8ddf7eed070a548488dc8a949c76c2"
+    },
+    {
+      "path": "A4-zero-input-batch25.md",
+      "sha256": "1df7ae762b8e572dbd3d376cc912109a62494064a83d53f2e7d9c64d0e3d2dea"
+    },
+    {
+      "path": "A4-zero-input-batch25-receipt.json",
+      "sha256": "27fff45d3a7e7dd2e4e2d664e68aef9da6afdabd56b65f8fa60e12de82d0fa39"
+    },
+    {
+      "path": "A3-cn-batch30.json",
+      "sha256": "78f1ab56f0c90f14097937947339b9f055154f006a04db3d4c0eff9171efceed"
+    },
+    {
+      "path": "A3-cn-batch30.md",
+      "sha256": "d50290a3a9f1c5e04be43e992349053c4b7c879585d6471a2cbd294ecc540a62"
+    },
+    {
+      "path": "A3-cn-batch30-receipt.json",
+      "sha256": "1c13003a8610da8353c37a6d90c9f903401872f3374b4730b2257c3ce1fb241a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-zero-batch25.json",
+      "sha256": "e74739f9e64c5a349036a010bad6de99823829161bbd32a0281285ac461e5b49"
+    },
+    {
+      "path": "A3-en-zero-batch25.md",
+      "sha256": "30f055063c4235139ded12c59c79b1a54a80dbe167a51d55ebf287c83f331670"
+    }
+  ],
+  "all_receipt_hashes_match": true,
+  "receipt_hash_check_count": 17,
+  "eligible_english_inputs": 0,
+  "actual_english_outputs": 0,
+  "actual_new_english_queries": 0,
+  "actual_execution": "已实际读取并核固定引用，真实英语零终核完成；C46/E38独立非零包不改。",
+  "agent3_cumulative_candidate_queries": 530,
+  "agent3_cumulative_returned_candidate_results": 529,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 532,
+  "run_cumulative_returned_candidate_results": 531
+}

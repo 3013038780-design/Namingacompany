@@ -1,0 +1,1342 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-09T12:20:14.284357+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch33.json",
+      "sha256": "c8fad10d3c90da96b425d8a6c8dba8a967863eff6c443877419f335f62de24a7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch33.md",
+      "sha256": "f2c93bfaddd57442933177cce3f91fba2af3215724aba4c3a7aa015ae92cb114"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch33-receipt.json",
+      "sha256": "1573391fee297f20770c4ce698f476834a22c0c82479f0e4dd332e70161c7a75"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-C61-CN50-correction-acceptance.json",
+      "sha256": "34254776069ef7b8b7a590b3508865b7b1c93e89ca334e138610908b0e518ef9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-C61-CN50-correction-acceptance.md",
+      "sha256": "e1dae29759e71741ea81334e8dd1ac8d12b2950f98da54bce2d30bcaba633ec0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-C61-CN50-correction-acceptance-receipt.json",
+      "sha256": "a8e3c59f3dd5e6aa433910f245411fc489c25c12665df32f8ab9f86a841ba864"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-reading-scope-correction.json",
+      "sha256": "fcc3190f05fcf644553b0aa3adb971e4619fbe00a1e914e5fc4d7f5cad3be848"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-reading-scope-correction.md",
+      "sha256": "9ab5e63a822dc7ce1e8954c9628d8ab2817c7475f973c7807c6bfa0d33a291e7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-reading-scope-correction-receipt.json",
+      "sha256": "d31683a8649c8647bef51ebce480ceb26cf31e18c959aa304092e3fdcd7a7c04"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.json",
+      "sha256": "25a50f023beb4f1cd770600db26da8b8d98ef81098d7cee4acb25d0a387a9130"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.md",
+      "sha256": "4b51718a15451030c125f1221c52d15ced518a78fefc76b30eefbc28a5add66e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-receipt.json",
+      "sha256": "d65fb57b040f58c5ebe2cd8f65d1e039494f61f112711a6af8e030f5673f72df"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.md",
+      "sha256": "2a1cb5920d6f78b59050150e25f5faca7ee81197012c16ff8975e704cc456474"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch51.json",
+      "sha256": "cd242e8974d68314e854eacbc259ee4cbd81aa9738b4240c4e9394557acb5cd5"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch51.json",
+      "sha256": "c12181400b36403a7c78ba235dc49d173b0edeeecf186e9e89cdd792b5af9fee"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch51.json",
+      "sha256": "b5f94a46c9a75ef2d8a319a6d50510d664cbc6eed504e09aaa5fade4d725ac00"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-C61-terminal-input-review.json",
+      "sha256": "c79dea36d2211aa3d5c6354862067b3c47c98758ed19efe389397d886285381e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.json",
+      "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.md",
+      "sha256": "b6ad12aeabe9bb9901eafd52eb7c37f050d541f54115bb3a6fd03788265a87ac"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49-receipt.json",
+      "sha256": "ba15ec67c8d8dcfbec8f78ebd3a0ba6c192526b75e3f6c7104a52b3bf4536ca7"
+    }
+  ],
+  "hash_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.json",
+      "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.md",
+      "sha256": "b6ad12aeabe9bb9901eafd52eb7c37f050d541f54115bb3a6fd03788265a87ac",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49-receipt.json",
+      "sha256": "ba15ec67c8d8dcfbec8f78ebd3a0ba6c192526b75e3f6c7104a52b3bf4536ca7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.md",
+      "sha256": "2a1cb5920d6f78b59050150e25f5faca7ee81197012c16ff8975e704cc456474",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch51.json",
+      "sha256": "cd242e8974d68314e854eacbc259ee4cbd81aa9738b4240c4e9394557acb5cd5",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch51.json",
+      "sha256": "c12181400b36403a7c78ba235dc49d173b0edeeecf186e9e89cdd792b5af9fee",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch51.json",
+      "sha256": "b5f94a46c9a75ef2d8a319a6d50510d664cbc6eed504e09aaa5fade4d725ac00",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.json",
+      "sha256": "25a50f023beb4f1cd770600db26da8b8d98ef81098d7cee4acb25d0a387a9130",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.md",
+      "sha256": "4b51718a15451030c125f1221c52d15ced518a78fefc76b30eefbc28a5add66e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-receipt.json",
+      "sha256": "d65fb57b040f58c5ebe2cd8f65d1e039494f61f112711a6af8e030f5673f72df",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-cn49-return.json",
+      "sha256": "1329318db92d95a9db25af14a2aff23de642eea2b5037be13b16bf7f0065aec9",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-C61-terminal-input-review.json",
+      "sha256": "c79dea36d2211aa3d5c6354862067b3c47c98758ed19efe389397d886285381e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch50.json",
+      "sha256": "0dab66b8fe3cedeeb21ed44c64cd22e872769fc62596b496b3ea621aa960cf7d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch50.md",
+      "sha256": "b127b197796780dd45b1bd71b05e310b0366820921c44b0e212696a217a7989d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch50.json",
+      "sha256": "0dab66b8fe3cedeeb21ed44c64cd22e872769fc62596b496b3ea621aa960cf7d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch50.json",
+      "sha256": "56fad7b28fb70d720df950283c1ec164f1da2746fa9ede01c1cd110054a79c8a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch50-receipt.json",
+      "sha256": "99726db3c19a996a42a463610a22474948b8faf9e7ffdde7af637002858e0ed8",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch50.json",
+      "sha256": "11cf06b6763b51937b9fc6e21c66fbe23c5bcd39a6d1e9066d2fa7adfe5b6a5c",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension38.json",
+      "sha256": "74cb9092800e90dc8bb5ae246346e990b8c485b42aa39088b51c89bfe5b0a328",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch50.json",
+      "sha256": "2831ab46a723d5d0e20b332e2beb8558eb08f96f94e1c9077f099affee460122",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch50.json",
+      "sha256": "3ef38674e4368690244db726087d6292c4f31bcdc07538cc370473c6e852b8da",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/quality-comparison-batch50.json",
+      "sha256": "4d1da11e1a66bec85af56f87a039dc1a772c49e2dd19f941d89c0e0823c76a3f",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-M75-material-review.json",
+      "sha256": "d47c4ffe9977087184b7cc49c72dee330bde8a46af387d2915f9593de03c2f23",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.json",
+      "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.md",
+      "sha256": "b6ad12aeabe9bb9901eafd52eb7c37f050d541f54115bb3a6fd03788265a87ac",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.md",
+      "sha256": "2a1cb5920d6f78b59050150e25f5faca7ee81197012c16ff8975e704cc456474",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch51.json",
+      "sha256": "cd242e8974d68314e854eacbc259ee4cbd81aa9738b4240c4e9394557acb5cd5",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch51.json",
+      "sha256": "c12181400b36403a7c78ba235dc49d173b0edeeecf186e9e89cdd792b5af9fee",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch51.json",
+      "sha256": "b5f94a46c9a75ef2d8a319a6d50510d664cbc6eed504e09aaa5fade4d725ac00",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-C61-terminal-input-review.json",
+      "sha256": "c79dea36d2211aa3d5c6354862067b3c47c98758ed19efe389397d886285381e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.json",
+      "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.md",
+      "sha256": "b6ad12aeabe9bb9901eafd52eb7c37f050d541f54115bb3a6fd03788265a87ac",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49-receipt.json",
+      "sha256": "ba15ec67c8d8dcfbec8f78ebd3a0ba6c192526b75e3f6c7104a52b3bf4536ca7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.json",
+      "sha256": "25a50f023beb4f1cd770600db26da8b8d98ef81098d7cee4acb25d0a387a9130",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.md",
+      "sha256": "4b51718a15451030c125f1221c52d15ced518a78fefc76b30eefbc28a5add66e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.json",
+      "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.md",
+      "sha256": "b6ad12aeabe9bb9901eafd52eb7c37f050d541f54115bb3a6fd03788265a87ac",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49-receipt.json",
+      "sha256": "ba15ec67c8d8dcfbec8f78ebd3a0ba6c192526b75e3f6c7104a52b3bf4536ca7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-cn49-return.json",
+      "sha256": "1329318db92d95a9db25af14a2aff23de642eea2b5037be13b16bf7f0065aec9",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch50.json",
+      "sha256": "0dab66b8fe3cedeeb21ed44c64cd22e872769fc62596b496b3ea621aa960cf7d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension38.json",
+      "sha256": "74cb9092800e90dc8bb5ae246346e990b8c485b42aa39088b51c89bfe5b0a328",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.md",
+      "sha256": "2a1cb5920d6f78b59050150e25f5faca7ee81197012c16ff8975e704cc456474",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.json",
+      "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49-receipt.json",
+      "sha256": "ba15ec67c8d8dcfbec8f78ebd3a0ba6c192526b75e3f6c7104a52b3bf4536ca7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch50.json",
+      "sha256": "2831ab46a723d5d0e20b332e2beb8558eb08f96f94e1c9077f099affee460122",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch50.json",
+      "sha256": "3ef38674e4368690244db726087d6292c4f31bcdc07538cc370473c6e852b8da",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch51.json",
+      "sha256": "cd242e8974d68314e854eacbc259ee4cbd81aa9738b4240c4e9394557acb5cd5",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch51.json",
+      "sha256": "c12181400b36403a7c78ba235dc49d173b0edeeecf186e9e89cdd792b5af9fee",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch51.json",
+      "sha256": "b5f94a46c9a75ef2d8a319a6d50510d664cbc6eed504e09aaa5fade4d725ac00",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-cn49-return.json",
+      "sha256": "1329318db92d95a9db25af14a2aff23de642eea2b5037be13b16bf7f0065aec9",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.json",
+      "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.md",
+      "sha256": "b6ad12aeabe9bb9901eafd52eb7c37f050d541f54115bb3a6fd03788265a87ac",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49-receipt.json",
+      "sha256": "ba15ec67c8d8dcfbec8f78ebd3a0ba6c192526b75e3f6c7104a52b3bf4536ca7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.md",
+      "sha256": "2a1cb5920d6f78b59050150e25f5faca7ee81197012c16ff8975e704cc456474",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch51.json",
+      "sha256": "cd242e8974d68314e854eacbc259ee4cbd81aa9738b4240c4e9394557acb5cd5",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch51.json",
+      "sha256": "c12181400b36403a7c78ba235dc49d173b0edeeecf186e9e89cdd792b5af9fee",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch51.json",
+      "sha256": "b5f94a46c9a75ef2d8a319a6d50510d664cbc6eed504e09aaa5fade4d725ac00",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.json",
+      "sha256": "25a50f023beb4f1cd770600db26da8b8d98ef81098d7cee4acb25d0a387a9130",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.md",
+      "sha256": "4b51718a15451030c125f1221c52d15ced518a78fefc76b30eefbc28a5add66e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-receipt.json",
+      "sha256": "d65fb57b040f58c5ebe2cd8f65d1e039494f61f112711a6af8e030f5673f72df",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-cn49-return.json",
+      "sha256": "1329318db92d95a9db25af14a2aff23de642eea2b5037be13b16bf7f0065aec9",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-C61-terminal-input-review.json",
+      "sha256": "c79dea36d2211aa3d5c6354862067b3c47c98758ed19efe389397d886285381e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch33.json",
+      "sha256": "c8fad10d3c90da96b425d8a6c8dba8a967863eff6c443877419f335f62de24a7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch33.md",
+      "sha256": "f2c93bfaddd57442933177cce3f91fba2af3215724aba4c3a7aa015ae92cb114",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-reading-scope-correction.json",
+      "sha256": "fcc3190f05fcf644553b0aa3adb971e4619fbe00a1e914e5fc4d7f5cad3be848",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-reading-scope-correction.md",
+      "sha256": "9ab5e63a822dc7ce1e8954c9628d8ab2817c7475f973c7807c6bfa0d33a291e7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-reading-scope-correction-receipt.json",
+      "sha256": "d31683a8649c8647bef51ebce480ceb26cf31e18c959aa304092e3fdcd7a7c04",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch33.json",
+      "sha256": "c8fad10d3c90da96b425d8a6c8dba8a967863eff6c443877419f335f62de24a7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch33.md",
+      "sha256": "f2c93bfaddd57442933177cce3f91fba2af3215724aba4c3a7aa015ae92cb114",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch33-receipt.json",
+      "sha256": "1573391fee297f20770c4ce698f476834a22c0c82479f0e4dd332e70161c7a75",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.json",
+      "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.md",
+      "sha256": "b6ad12aeabe9bb9901eafd52eb7c37f050d541f54115bb3a6fd03788265a87ac",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49-receipt.json",
+      "sha256": "ba15ec67c8d8dcfbec8f78ebd3a0ba6c192526b75e3f6c7104a52b3bf4536ca7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.json",
+      "sha256": "25a50f023beb4f1cd770600db26da8b8d98ef81098d7cee4acb25d0a387a9130",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.md",
+      "sha256": "4b51718a15451030c125f1221c52d15ced518a78fefc76b30eefbc28a5add66e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-receipt.json",
+      "sha256": "d65fb57b040f58c5ebe2cd8f65d1e039494f61f112711a6af8e030f5673f72df",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.md",
+      "sha256": "2a1cb5920d6f78b59050150e25f5faca7ee81197012c16ff8975e704cc456474",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch51.json",
+      "sha256": "cd242e8974d68314e854eacbc259ee4cbd81aa9738b4240c4e9394557acb5cd5",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch51.json",
+      "sha256": "c12181400b36403a7c78ba235dc49d173b0edeeecf186e9e89cdd792b5af9fee",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch51.json",
+      "sha256": "b5f94a46c9a75ef2d8a319a6d50510d664cbc6eed504e09aaa5fade4d725ac00",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-C61-terminal-input-review.json",
+      "sha256": "c79dea36d2211aa3d5c6354862067b3c47c98758ed19efe389397d886285381e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-reading-scope-correction.json",
+      "sha256": "fcc3190f05fcf644553b0aa3adb971e4619fbe00a1e914e5fc4d7f5cad3be848",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-reading-scope-correction.md",
+      "sha256": "9ab5e63a822dc7ce1e8954c9628d8ab2817c7475f973c7807c6bfa0d33a291e7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.json",
+      "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.md",
+      "sha256": "b6ad12aeabe9bb9901eafd52eb7c37f050d541f54115bb3a6fd03788265a87ac",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49-receipt.json",
+      "sha256": "ba15ec67c8d8dcfbec8f78ebd3a0ba6c192526b75e3f6c7104a52b3bf4536ca7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.md",
+      "sha256": "2a1cb5920d6f78b59050150e25f5faca7ee81197012c16ff8975e704cc456474",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch51.json",
+      "sha256": "cd242e8974d68314e854eacbc259ee4cbd81aa9738b4240c4e9394557acb5cd5",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch51.json",
+      "sha256": "c12181400b36403a7c78ba235dc49d173b0edeeecf186e9e89cdd792b5af9fee",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch51.json",
+      "sha256": "b5f94a46c9a75ef2d8a319a6d50510d664cbc6eed504e09aaa5fade4d725ac00",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.json",
+      "sha256": "25a50f023beb4f1cd770600db26da8b8d98ef81098d7cee4acb25d0a387a9130",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.md",
+      "sha256": "4b51718a15451030c125f1221c52d15ced518a78fefc76b30eefbc28a5add66e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-receipt.json",
+      "sha256": "d65fb57b040f58c5ebe2cd8f65d1e039494f61f112711a6af8e030f5673f72df",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-cn49-return.json",
+      "sha256": "1329318db92d95a9db25af14a2aff23de642eea2b5037be13b16bf7f0065aec9",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-C61-terminal-input-review.json",
+      "sha256": "c79dea36d2211aa3d5c6354862067b3c47c98758ed19efe389397d886285381e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch33.json",
+      "sha256": "c8fad10d3c90da96b425d8a6c8dba8a967863eff6c443877419f335f62de24a7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch33.md",
+      "sha256": "f2c93bfaddd57442933177cce3f91fba2af3215724aba4c3a7aa015ae92cb114",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch33.json",
+      "sha256": "c8fad10d3c90da96b425d8a6c8dba8a967863eff6c443877419f335f62de24a7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch33.md",
+      "sha256": "f2c93bfaddd57442933177cce3f91fba2af3215724aba4c3a7aa015ae92cb114",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch33-receipt.json",
+      "sha256": "1573391fee297f20770c4ce698f476834a22c0c82479f0e4dd332e70161c7a75",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-reading-scope-correction.json",
+      "sha256": "fcc3190f05fcf644553b0aa3adb971e4619fbe00a1e914e5fc4d7f5cad3be848",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-reading-scope-correction.md",
+      "sha256": "9ab5e63a822dc7ce1e8954c9628d8ab2817c7475f973c7807c6bfa0d33a291e7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-reading-scope-correction-receipt.json",
+      "sha256": "d31683a8649c8647bef51ebce480ceb26cf31e18c959aa304092e3fdcd7a7c04",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch33.json",
+      "sha256": "c8fad10d3c90da96b425d8a6c8dba8a967863eff6c443877419f335f62de24a7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch33.md",
+      "sha256": "f2c93bfaddd57442933177cce3f91fba2af3215724aba4c3a7aa015ae92cb114",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch33-receipt.json",
+      "sha256": "1573391fee297f20770c4ce698f476834a22c0c82479f0e4dd332e70161c7a75",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-C61-CN50-correction-acceptance.json",
+      "sha256": "34254776069ef7b8b7a590b3508865b7b1c93e89ca334e138610908b0e518ef9",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-C61-CN50-correction-acceptance.md",
+      "sha256": "e1dae29759e71741ea81334e8dd1ac8d12b2950f98da54bce2d30bcaba633ec0",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.json",
+      "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.md",
+      "sha256": "b6ad12aeabe9bb9901eafd52eb7c37f050d541f54115bb3a6fd03788265a87ac",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49-receipt.json",
+      "sha256": "ba15ec67c8d8dcfbec8f78ebd3a0ba6c192526b75e3f6c7104a52b3bf4536ca7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.json",
+      "sha256": "25a50f023beb4f1cd770600db26da8b8d98ef81098d7cee4acb25d0a387a9130",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.md",
+      "sha256": "4b51718a15451030c125f1221c52d15ced518a78fefc76b30eefbc28a5add66e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-receipt.json",
+      "sha256": "d65fb57b040f58c5ebe2cd8f65d1e039494f61f112711a6af8e030f5673f72df",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.md",
+      "sha256": "2a1cb5920d6f78b59050150e25f5faca7ee81197012c16ff8975e704cc456474",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch51.json",
+      "sha256": "cd242e8974d68314e854eacbc259ee4cbd81aa9738b4240c4e9394557acb5cd5",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch51.json",
+      "sha256": "c12181400b36403a7c78ba235dc49d173b0edeeecf186e9e89cdd792b5af9fee",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch51.json",
+      "sha256": "b5f94a46c9a75ef2d8a319a6d50510d664cbc6eed504e09aaa5fade4d725ac00",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-C61-terminal-input-review.json",
+      "sha256": "c79dea36d2211aa3d5c6354862067b3c47c98758ed19efe389397d886285381e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.json",
+      "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.md",
+      "sha256": "b6ad12aeabe9bb9901eafd52eb7c37f050d541f54115bb3a6fd03788265a87ac",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49-receipt.json",
+      "sha256": "ba15ec67c8d8dcfbec8f78ebd3a0ba6c192526b75e3f6c7104a52b3bf4536ca7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.json",
+      "sha256": "25a50f023beb4f1cd770600db26da8b8d98ef81098d7cee4acb25d0a387a9130",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.md",
+      "sha256": "4b51718a15451030c125f1221c52d15ced518a78fefc76b30eefbc28a5add66e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-receipt.json",
+      "sha256": "d65fb57b040f58c5ebe2cd8f65d1e039494f61f112711a6af8e030f5673f72df",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.md",
+      "sha256": "2a1cb5920d6f78b59050150e25f5faca7ee81197012c16ff8975e704cc456474",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch51.json",
+      "sha256": "cd242e8974d68314e854eacbc259ee4cbd81aa9738b4240c4e9394557acb5cd5",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch51.json",
+      "sha256": "c12181400b36403a7c78ba235dc49d173b0edeeecf186e9e89cdd792b5af9fee",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch51.json",
+      "sha256": "b5f94a46c9a75ef2d8a319a6d50510d664cbc6eed504e09aaa5fade4d725ac00",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-C61-terminal-input-review.json",
+      "sha256": "c79dea36d2211aa3d5c6354862067b3c47c98758ed19efe389397d886285381e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-reading-scope-correction.json",
+      "sha256": "fcc3190f05fcf644553b0aa3adb971e4619fbe00a1e914e5fc4d7f5cad3be848",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-reading-scope-correction.md",
+      "sha256": "9ab5e63a822dc7ce1e8954c9628d8ab2817c7475f973c7807c6bfa0d33a291e7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.md",
+      "sha256": "2a1cb5920d6f78b59050150e25f5faca7ee81197012c16ff8975e704cc456474",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch51.json",
+      "sha256": "cd242e8974d68314e854eacbc259ee4cbd81aa9738b4240c4e9394557acb5cd5",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch51.json",
+      "sha256": "c12181400b36403a7c78ba235dc49d173b0edeeecf186e9e89cdd792b5af9fee",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch51.json",
+      "sha256": "b5f94a46c9a75ef2d8a319a6d50510d664cbc6eed504e09aaa5fade4d725ac00",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-C61-terminal-input-review.json",
+      "sha256": "c79dea36d2211aa3d5c6354862067b3c47c98758ed19efe389397d886285381e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.json",
+      "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.md",
+      "sha256": "b6ad12aeabe9bb9901eafd52eb7c37f050d541f54115bb3a6fd03788265a87ac",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49-receipt.json",
+      "sha256": "ba15ec67c8d8dcfbec8f78ebd3a0ba6c192526b75e3f6c7104a52b3bf4536ca7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.json",
+      "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.md",
+      "sha256": "b6ad12aeabe9bb9901eafd52eb7c37f050d541f54115bb3a6fd03788265a87ac",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49-receipt.json",
+      "sha256": "ba15ec67c8d8dcfbec8f78ebd3a0ba6c192526b75e3f6c7104a52b3bf4536ca7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-cn49-return.json",
+      "sha256": "1329318db92d95a9db25af14a2aff23de642eea2b5037be13b16bf7f0065aec9",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch50.json",
+      "sha256": "0dab66b8fe3cedeeb21ed44c64cd22e872769fc62596b496b3ea621aa960cf7d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension38.json",
+      "sha256": "74cb9092800e90dc8bb5ae246346e990b8c485b42aa39088b51c89bfe5b0a328",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.md",
+      "sha256": "2a1cb5920d6f78b59050150e25f5faca7ee81197012c16ff8975e704cc456474",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch51.json",
+      "sha256": "cd242e8974d68314e854eacbc259ee4cbd81aa9738b4240c4e9394557acb5cd5",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch51.json",
+      "sha256": "c12181400b36403a7c78ba235dc49d173b0edeeecf186e9e89cdd792b5af9fee",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch51.json",
+      "sha256": "b5f94a46c9a75ef2d8a319a6d50510d664cbc6eed504e09aaa5fade4d725ac00",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-cn49-return.json",
+      "sha256": "1329318db92d95a9db25af14a2aff23de642eea2b5037be13b16bf7f0065aec9",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch50.json",
+      "sha256": "0dab66b8fe3cedeeb21ed44c64cd22e872769fc62596b496b3ea621aa960cf7d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch50.md",
+      "sha256": "b127b197796780dd45b1bd71b05e310b0366820921c44b0e212696a217a7989d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch50.json",
+      "sha256": "0dab66b8fe3cedeeb21ed44c64cd22e872769fc62596b496b3ea621aa960cf7d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch50.json",
+      "sha256": "56fad7b28fb70d720df950283c1ec164f1da2746fa9ede01c1cd110054a79c8a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch50-receipt.json",
+      "sha256": "99726db3c19a996a42a463610a22474948b8faf9e7ffdde7af637002858e0ed8",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch50.json",
+      "sha256": "11cf06b6763b51937b9fc6e21c66fbe23c5bcd39a6d1e9066d2fa7adfe5b6a5c",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension38.json",
+      "sha256": "74cb9092800e90dc8bb5ae246346e990b8c485b42aa39088b51c89bfe5b0a328",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch50.json",
+      "sha256": "2831ab46a723d5d0e20b332e2beb8558eb08f96f94e1c9077f099affee460122",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch50.json",
+      "sha256": "3ef38674e4368690244db726087d6292c4f31bcdc07538cc370473c6e852b8da",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/quality-comparison-batch50.json",
+      "sha256": "4d1da11e1a66bec85af56f87a039dc1a772c49e2dd19f941d89c0e0823c76a3f",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-M75-material-review.json",
+      "sha256": "d47c4ffe9977087184b7cc49c72dee330bde8a46af387d2915f9593de03c2f23",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch50.json",
+      "sha256": "0dab66b8fe3cedeeb21ed44c64cd22e872769fc62596b496b3ea621aa960cf7d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch50.md",
+      "sha256": "b127b197796780dd45b1bd71b05e310b0366820921c44b0e212696a217a7989d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch50.json",
+      "sha256": "0dab66b8fe3cedeeb21ed44c64cd22e872769fc62596b496b3ea621aa960cf7d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch50.json",
+      "sha256": "56fad7b28fb70d720df950283c1ec164f1da2746fa9ede01c1cd110054a79c8a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch50-receipt.json",
+      "sha256": "99726db3c19a996a42a463610a22474948b8faf9e7ffdde7af637002858e0ed8",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch50.json",
+      "sha256": "11cf06b6763b51937b9fc6e21c66fbe23c5bcd39a6d1e9066d2fa7adfe5b6a5c",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension38.json",
+      "sha256": "74cb9092800e90dc8bb5ae246346e990b8c485b42aa39088b51c89bfe5b0a328",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch50.json",
+      "sha256": "2831ab46a723d5d0e20b332e2beb8558eb08f96f94e1c9077f099affee460122",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch50.json",
+      "sha256": "3ef38674e4368690244db726087d6292c4f31bcdc07538cc370473c6e852b8da",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/quality-comparison-batch50.json",
+      "sha256": "4d1da11e1a66bec85af56f87a039dc1a772c49e2dd19f941d89c0e0823c76a3f",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-M75-material-review.json",
+      "sha256": "d47c4ffe9977087184b7cc49c72dee330bde8a46af387d2915f9593de03c2f23",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.json",
+      "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.md",
+      "sha256": "b6ad12aeabe9bb9901eafd52eb7c37f050d541f54115bb3a6fd03788265a87ac",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.md",
+      "sha256": "2a1cb5920d6f78b59050150e25f5faca7ee81197012c16ff8975e704cc456474",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch51.json",
+      "sha256": "cd242e8974d68314e854eacbc259ee4cbd81aa9738b4240c4e9394557acb5cd5",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch51.json",
+      "sha256": "c12181400b36403a7c78ba235dc49d173b0edeeecf186e9e89cdd792b5af9fee",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch51.json",
+      "sha256": "b5f94a46c9a75ef2d8a319a6d50510d664cbc6eed504e09aaa5fade4d725ac00",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-C61-terminal-input-review.json",
+      "sha256": "c79dea36d2211aa3d5c6354862067b3c47c98758ed19efe389397d886285381e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.json",
+      "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.md",
+      "sha256": "b6ad12aeabe9bb9901eafd52eb7c37f050d541f54115bb3a6fd03788265a87ac",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49-receipt.json",
+      "sha256": "ba15ec67c8d8dcfbec8f78ebd3a0ba6c192526b75e3f6c7104a52b3bf4536ca7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.json",
+      "sha256": "25a50f023beb4f1cd770600db26da8b8d98ef81098d7cee4acb25d0a387a9130",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.md",
+      "sha256": "4b51718a15451030c125f1221c52d15ced518a78fefc76b30eefbc28a5add66e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.json",
+      "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.md",
+      "sha256": "b6ad12aeabe9bb9901eafd52eb7c37f050d541f54115bb3a6fd03788265a87ac",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49-receipt.json",
+      "sha256": "ba15ec67c8d8dcfbec8f78ebd3a0ba6c192526b75e3f6c7104a52b3bf4536ca7",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-cn49-return.json",
+      "sha256": "1329318db92d95a9db25af14a2aff23de642eea2b5037be13b16bf7f0065aec9",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch50.json",
+      "sha256": "0dab66b8fe3cedeeb21ed44c64cd22e872769fc62596b496b3ea621aa960cf7d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension38.json",
+      "sha256": "74cb9092800e90dc8bb5ae246346e990b8c485b42aa39088b51c89bfe5b0a328",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.md",
+      "sha256": "2a1cb5920d6f78b59050150e25f5faca7ee81197012c16ff8975e704cc456474",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch51.json",
+      "sha256": "ce6cca6f23fc86026a33e99945e3d5c98e1da403866540f59ec5a477de88d055",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch51.json",
+      "sha256": "cd242e8974d68314e854eacbc259ee4cbd81aa9738b4240c4e9394557acb5cd5",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch51.json",
+      "sha256": "c12181400b36403a7c78ba235dc49d173b0edeeecf186e9e89cdd792b5af9fee",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch51.json",
+      "sha256": "b5f94a46c9a75ef2d8a319a6d50510d664cbc6eed504e09aaa5fade4d725ac00",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-cn49-return.json",
+      "sha256": "1329318db92d95a9db25af14a2aff23de642eea2b5037be13b16bf7f0065aec9",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch50.json",
+      "sha256": "0dab66b8fe3cedeeb21ed44c64cd22e872769fc62596b496b3ea621aa960cf7d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch50.md",
+      "sha256": "b127b197796780dd45b1bd71b05e310b0366820921c44b0e212696a217a7989d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch50.json",
+      "sha256": "0dab66b8fe3cedeeb21ed44c64cd22e872769fc62596b496b3ea621aa960cf7d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch50.json",
+      "sha256": "56fad7b28fb70d720df950283c1ec164f1da2746fa9ede01c1cd110054a79c8a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch50-receipt.json",
+      "sha256": "99726db3c19a996a42a463610a22474948b8faf9e7ffdde7af637002858e0ed8",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch50.json",
+      "sha256": "11cf06b6763b51937b9fc6e21c66fbe23c5bcd39a6d1e9066d2fa7adfe5b6a5c",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension38.json",
+      "sha256": "74cb9092800e90dc8bb5ae246346e990b8c485b42aa39088b51c89bfe5b0a328",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch50.json",
+      "sha256": "2831ab46a723d5d0e20b332e2beb8558eb08f96f94e1c9077f099affee460122",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch50.json",
+      "sha256": "3ef38674e4368690244db726087d6292c4f31bcdc07538cc370473c6e852b8da",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/quality-comparison-batch50.json",
+      "sha256": "4d1da11e1a66bec85af56f87a039dc1a772c49e2dd19f941d89c0e0823c76a3f",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-M75-material-review.json",
+      "sha256": "d47c4ffe9977087184b7cc49c72dee330bde8a46af387d2915f9593de03c2f23",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch50.json",
+      "sha256": "0dab66b8fe3cedeeb21ed44c64cd22e872769fc62596b496b3ea621aa960cf7d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch50.md",
+      "sha256": "b127b197796780dd45b1bd71b05e310b0366820921c44b0e212696a217a7989d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch50.json",
+      "sha256": "0dab66b8fe3cedeeb21ed44c64cd22e872769fc62596b496b3ea621aa960cf7d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch50.json",
+      "sha256": "56fad7b28fb70d720df950283c1ec164f1da2746fa9ede01c1cd110054a79c8a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch50-receipt.json",
+      "sha256": "99726db3c19a996a42a463610a22474948b8faf9e7ffdde7af637002858e0ed8",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch50.json",
+      "sha256": "11cf06b6763b51937b9fc6e21c66fbe23c5bcd39a6d1e9066d2fa7adfe5b6a5c",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension38.json",
+      "sha256": "74cb9092800e90dc8bb5ae246346e990b8c485b42aa39088b51c89bfe5b0a328",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch50.json",
+      "sha256": "2831ab46a723d5d0e20b332e2beb8558eb08f96f94e1c9077f099affee460122",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch50.json",
+      "sha256": "3ef38674e4368690244db726087d6292c4f31bcdc07538cc370473c6e852b8da",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/quality-comparison-batch50.json",
+      "sha256": "4d1da11e1a66bec85af56f87a039dc1a772c49e2dd19f941d89c0e0823c76a3f",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-M75-material-review.json",
+      "sha256": "d47c4ffe9977087184b7cc49c72dee330bde8a46af387d2915f9593de03c2f23",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.json",
+      "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.md",
+      "sha256": "b6ad12aeabe9bb9901eafd52eb7c37f050d541f54115bb3a6fd03788265a87ac",
+      "match": true
+    }
+  ],
+  "candidate_id": "C1-C61",
+  "material_id": "C1-M75",
+  "version": 2,
+  "rework_attempt": 1,
+  "decision": "actual_EN_zero33_final_check_after_A4_original_zero_and_scope_correction_acceptance",
+  "selected_new_chinese_count": 0,
+  "eligible_chinese_count": 0,
+  "english_eligible_count": 0,
+  "english_candidate_count": 0,
+  "english_output_count": 0,
+  "catalog_insert_count": 0,
+  "query_count": 0,
+  "completed_search_result_count": 0,
+  "results": [],
+  "CN_reworks_actually_completed": 1,
+  "CN_rework_allowances_unused": 1,
+  "distinctions": {
+    "入微": "原双25及源关系保持，EXACT_TECH_USE基于具名公司/CRM软件/智能品牌公开使用，非普通词义或官方登记结论。",
+    "寻常深处/毫厘之间/微物之光": "仅原A2内部比较未选未查，不正式评分，不称已用或可用。微小对象之光不自动意味着低能微弱光，不将短语本身判科学错。"
+  },
+  "source_scope": "原M75论文/作者说明已读范围复用，本次无新科学正文阅读；入微为现成中文研究角色再选择，不倒写来源失效。",
+  "controls_registry": "本次0新对照/登记访问；旧实际控制及入口受限未冒新增。",
+  "scope_correction_acceptance": "实际读原CN50错误MD、另档纠正及A4后续接受；按真实时间保持三层，不假称最初无错。CN47模板句不能采用，本包真实CN49/C61/A2batch51链。",
+  "next": "ENzero33实际终验完成；EN46/E48未占，不自开批。"
+}

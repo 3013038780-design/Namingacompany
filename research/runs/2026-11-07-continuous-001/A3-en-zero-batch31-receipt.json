@@ -1,0 +1,112 @@
+{
+  "agent_id": "/root/live_a3",
+  "executed_at": "2026-11-09T05:14:07.974108+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch31.json",
+      "sha256": "af62855b29fbce3b559bcc374a81231aaef55fa128ff7858ce5cedd3c51cf300"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch31.md",
+      "sha256": "bbf25b14df67df2cf4114cf72e28a641e5c3d1cf501058202460ebe8af348d85"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch31-receipt.json",
+      "sha256": "8f3f18c288ef5155c42f55b07ff0396a149381ca6da562d2785449e6801fc1dc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch46.json",
+      "sha256": "3d348eaccc09f1e6990a8fc7f5d4776dbf003446840a48e2dc515ce0f344c375"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch46.md",
+      "sha256": "f95a50a291bdb49426874182d0586baf30065fe0207342cf25239e5ef90eb601"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch46-receipt.json",
+      "sha256": "7671ad47d85a4e50d6b05d0153561776ecfde8409439b27f68a8343fbdd84c74"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch46.json",
+      "sha256": "113965cc8d537528543a7693c26ca3b094f9ccf555e41309b5324f1c08c9fc36"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch46.json",
+      "sha256": "ba32747046cf6e7c4b1221e07eece83f909e9349303fb770097f3d9493284d3a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch46.md",
+      "sha256": "622515d38eb34eb6e3ec97f2a35c5c42c627e5ef620c7dae44a2bbeb1437840a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch46.json",
+      "sha256": "c514c14a566bad8635fa3dc91268465c93f03fa3bc825a402074b62aaa8031d1"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch46.json",
+      "sha256": "aa29db20c6655d0a40d9a494902dfee1d1dc92c7112a62071fbdb56bc9c05a76"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch46.json",
+      "sha256": "9c3d973a50a2fb21625998b4db146f5bb753b762804e0dd6a156a1d386164782"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T202508Z/root-C59-terminal-input-review.json",
+      "sha256": "1f7195630e52438676e50afa9c053e2f27e05fa194859db1c08768cf4058a607"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch45.json",
+      "sha256": "100117bbed7ead6344462435636980cae1f9a3e0ca161c045934ca0c80fee3a5"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch45.md",
+      "sha256": "c51a4f2face41711ba6dc137250fc56a6e534367dd463f8b29c068b2045dc56c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch45-receipt.json",
+      "sha256": "44e26b8408b561cde751eb3dcc04a68f0871f7a36f2f16f47f359569e9e1f744"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C59-name-boundary-clarification.json",
+      "sha256": "598fa5e9dd459e9012a0245aebf8b60d39fe62ac71f5781e0fa9655496fae63b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C59-name-boundary-clarification.md",
+      "sha256": "f43ec675e6744f7b06ab6e9aac4c8923eaa5486c7f7aedb91a34cd82b2fd7cd6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C59-name-boundary-clarification-receipt.json",
+      "sha256": "cf0ced2886e2188741f8fd6f12d664da996594cf7270a9b18572e7d8355f769e"
+    }
+  ],
+  "input_hash_check_count": 321,
+  "all_input_hashes_match": true,
+  "outputs": [
+    {
+      "path": "A3-en-zero-batch31.json",
+      "sha256": "4b01bc9c21af9011c972ac77f7468c9e3310d2e558bbc28b1d6616bdd5c09af9"
+    },
+    {
+      "path": "A3-en-zero-batch31.md",
+      "sha256": "6666325db288d87a5f38ce2b4df1a161ea38ed13488a0c3b014a760ee9e9e470"
+    }
+  ],
+  "actual_new_chinese_queries": 0,
+  "actual_new_english_queries": 0,
+  "actual_new_candidate_queries": 0,
+  "completed_candidate_search_results": 0,
+  "actual_new_control_queries": 0,
+  "actual_new_registry_accesses": 0,
+  "agent3_cumulative_candidate_queries": 709,
+  "agent3_cumulative_returned_candidate_results": 708,
+  "root_independent_queries_reported": 4,
+  "run_cumulative_candidate_queries": 713,
+  "run_cumulative_returned_candidate_results": 712,
+  "selected_new_chinese_count": 0,
+  "english_eligible_count": 0,
+  "remaining_CN_reworks": 0,
+  "status": "actual_zero_selection_checked_complete_not_unstarted",
+  "english_candidate_count": 0,
+  "english_output_count": 0,
+  "next": "work_segment_role_closeout_wait_authorized_handoff_EN46_E48_unconsumed"
+}

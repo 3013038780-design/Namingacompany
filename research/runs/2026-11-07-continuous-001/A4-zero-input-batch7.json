@@ -1,0 +1,43 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "checked_at": "2026-11-07T22:02:48.424789+08:00",
+  "work_packet": "A2-batch7 / A3-cn-batch8",
+  "execution": "真实读取上游唯一中文候选、主控质量放行与A3执行结果后进行零输入验收；不是未开始工作。",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch7.json",
+      "sha256": "8b7fe1e061566a166efffffaa814e148d38ae61502aca97fee46b0f3f4e1be87"
+    },
+    {
+      "path": "coordinator-cn-batch7.json",
+      "sha256": "bb621464276153ba3c28c708de5048de1605887d148e2a6cec7acc2fa7748c43"
+    },
+    {
+      "path": "A3-cn-batch8.json",
+      "sha256": "034dc9ac72b241b672332919dd8147cbe143e7d116cf58d67e980d80351a1994"
+    }
+  ],
+  "upstream_chinese_candidates": 1,
+  "chinese_quality_passed": 1,
+  "A3_chinese_queries_reported": 11,
+  "qualified_chinese_inputs_after_A3": 0,
+  "english_candidates_created": 0,
+  "english_scores_created": 0,
+  "A4_usage_queries": 0,
+  "A4_registration_queries": 0,
+  "decision": "zero_eligible_chinese_input_after_actual_upstream_rejection",
+  "excluded": [
+    {
+      "chinese_id": "C1-C18",
+      "chinese": "余光",
+      "reason": "原A3实际十一查询确证同核心独立专注计时软件及照明品牌，中文使用否决，不请求英文。",
+      "software_evidence": "Apple App Store正式名余光：极简的无感专注环，开发者Hangzhou Inkblaze AI Technology Co., Ltd.；开发者名称含AI不代表软件是AI模型。",
+      "hardware_evidence": "照明展商产品品牌字段为余光；不背书性能或资格。",
+      "not_relied_on_as_exact_match": "武汉余光讯通为较长字号，非唯一精确否决证据。"
+    }
+  ],
+  "reading_boundary": "本人本次实际读上述落盘报告正文，未重开App Store、展商网页或官方登记门户；实际网络核查署原/root/live_a3，未据公开使用证据声称9/42商标不可注册。",
+  "unchanged": "原两保留、旧失败、阶段索引、原稿及评分均未改。",
+  "next": "交原A3核对英文零输出；不新增英文候选。"
+}

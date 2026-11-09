@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-09T04:29:59.905810+08:00",
+  "independence": "Read producer preview batch41 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C58",
+      "name": "洋脊",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "现成地貌名是完整两字称呼不似拼接口号",
+          "counter_association": "脊字读写不如日常用字熟悉"
+        },
+        "distinctiveness": {
+          "reason": "海底长山系与脊线有清楚空间画面",
+          "counter_association": "近音洋基或洋鸡可能分散联想"
+        },
+        "lab_fit": {
+          "reason": "深部结构与地表形成可容纳地学及基础研究身份",
+          "counter_association": "海洋工程地勘首感仍明显需由团队定位承接"
+        },
+        "grounding": {
+          "reason": "边界山系新洋壳是同一自然对象的形态和形成关系",
+          "counter_association": "残留与活动洋脊不得混说熔体只是模型解释"
+        },
+        "extension": {
+          "reason": "大尺度完整世界可跨具体工具与模型",
+          "counter_association": "不代表实际经营深海勘探或必然增长"
+        },
+        "semantic_coherence": {
+          "reason": "深处形态与生成过程围绕同一对象",
+          "counter_association": "不能把脊另编能力支柱或地球不断膨胀"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "agent_id": "/root/live_a3",
+  "executed_at": "2026-11-09T01:56:56.262665+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch36.json",
+      "sha256": "ebefd70461b2e4faaa6a4c6f65be1d403c5632e018b04f4b3fb337d1ca9b228e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch36.md",
+      "sha256": "8d310d853d5b2c789d8ecc24f1b2782554b232997e8528591e8ca109b116e641"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch36.json",
+      "sha256": "e4eb0e62cae1e7c30b566aaab91c327230b7295e5312b8f82269c54c970a610a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch36.json",
+      "sha256": "3b6c937c692f0cb5a4e54c6942d6a2344770aabe3aebb1aafc4d9168ef1173a9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch36.json",
+      "sha256": "ae7fd290600b6dfde1f665e233f0d2a225f678c39853bb687cee171486de8939"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch36.json",
+      "sha256": "179f02eb6bb150c315373aa8d2b1d54de35cdc8ff67198a10d144b97636db904"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch36-receipt.json",
+      "sha256": "d6ca85ac05b6d1236bf34196ec338b221960dd8ff85a10bd5c4cb7a643bcf231"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch37.json",
+      "sha256": "3d05465594476990286f0b034c05aebc8610b81f9e5d3f279cf2a4f18855aee1"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch37-receipt.json",
+      "sha256": "9defb2212cf264aa7da7386035acde1af29f2b3021bde2bf9bccc982434d9096"
+    }
+  ],
+  "hash_check_count": 51,
+  "all_referenced_hashes_match": true,
+  "outputs": [
+    {
+      "path": "A3-cn-batch38.json",
+      "sha256": "e2568e86389e2fe8fe4856fb28ca2028ee35fc811a215bef4ffeff8a99d4bd6b"
+    },
+    {
+      "path": "A3-cn-batch38.md",
+      "sha256": "08b03642cfc49d3f65dcc0b4b1ea7f22126dbe53255384979f0f352080425274"
+    }
+  ],
+  "actual_new_candidate_queries": 0,
+  "completed_candidate_search_results": 0,
+  "actual_new_control_queries": 0,
+  "actual_new_registration_attempts": 0,
+  "eligible_chinese_count": 0,
+  "new_selected_names": 0,
+  "remaining_chinese_reworks": 0,
+  "agent3_cumulative_candidate_queries": 647,
+  "agent3_cumulative_returned_candidate_results": 646,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 649,
+  "run_cumulative_returned_candidate_results": 648,
+  "next": "等原A4zero28实际完成，再原A3英语零终核。"
+}

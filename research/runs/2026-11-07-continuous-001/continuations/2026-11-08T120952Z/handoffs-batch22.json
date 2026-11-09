@@ -1,0 +1,182 @@
+{
+  "accepted_at": "2026-11-08T20:46:34.808021+08:00",
+  "same_research_run": true,
+  "new_A1_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "accepted_at": "2026-11-08T20:46:34.808021+08:00",
+      "from": "existing_A1",
+      "to": "same_A2",
+      "status": "accepted",
+      "candidate_ids": [],
+      "reason": "原真实A1及已验收六向计划复用，不计新案例。",
+      "refs": [
+        {
+          "path": "A1-final-input-reacceptance.json",
+          "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+        },
+        {
+          "path": "A1-formation-feedback.json",
+          "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "accepted_at": "2026-11-08T20:46:34.808021+08:00",
+      "from": "same_A2",
+      "to": "coordinator",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C38",
+        "C1-C39"
+      ],
+      "reason": "先无分封存独评，两中文双25轴差0，完整器物/植物与旧卡孔织造/其他记忆关系具体区分，主控2/2新源实读。",
+      "refs": [
+        {
+          "path": "A2-preview-batch22.md",
+          "sha256": "0387a07d802e3314c99fac7346583d248ac7f4271f78981f094ad44a1fc6c1c6"
+        },
+        {
+          "path": "A2-candidates-batch22.json",
+          "sha256": "d1cbf13f48570bddc5fc99989682c42ea0c68c402b93ac6d5133015a3c964e7f"
+        },
+        {
+          "path": "A2-quality-batch22.json",
+          "sha256": "3716ffe4162f3fa1e7d04a487d6cbc4c0578b8f78f00b6aaec353565a1086774"
+        },
+        {
+          "path": "A2-creation-execution-batch22.json",
+          "sha256": "4161ee32fbdbf7ae0a5a9bb71ecba22d9fdebb74885ce091d697ae0fcab1e622"
+        },
+        {
+          "path": "coordinator-cn-batch22.json",
+          "sha256": "ae7b10cd9efbde9d2437d31dfeaf620784f8a66bcd323a358976b95a2ff915c2"
+        },
+        {
+          "path": "coordinator-family-review-batch22.json",
+          "sha256": "ade6687a88e08443f4992af11016587b8627e9f7f5d98bf9cc05ea85afffe931"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "accepted_at": "2026-11-08T20:46:34.808021+08:00",
+      "from": "coordinator",
+      "to": "same_A3",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C38",
+        "C1-C39"
+      ],
+      "reason": "原A3每名6有效查询，已有具名软件，非普通器物物种本身即占用。",
+      "refs": [
+        {
+          "path": "A3-cn-batch24.json",
+          "sha256": "be8d7ac04690afc479c44064d604f32f7abb52f8680c5e9c8551b595fa2736d2"
+        },
+        {
+          "path": "A3-cn-batch24-receipt.json",
+          "sha256": "f52795a1d970959832fe648f00f84a6532f7d25dcd2e9c4fb730ed726ce6b236"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "accepted_at": "2026-11-08T20:46:34.808021+08:00",
+      "from": "same_A3",
+      "to": "same_A4",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C38",
+        "C1-C39"
+      ],
+      "reason": "原A4实际读上游，合格中文0，不配英文救回。",
+      "refs": [
+        {
+          "path": "A4-zero-input-batch22.json",
+          "sha256": "48565cf2ae7a44fb022e623713afc2ee6e73fab42e22248edd7275276a2d5490"
+        },
+        {
+          "path": "A4-zero-input-batch22-receipt.json",
+          "sha256": "8b5fda307a92ed6ee07d8efa403f212610fa3cc0245a0cc1deb9ae531c119da0"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "accepted_at": "2026-11-08T20:46:34.808021+08:00",
+      "from": "same_A4",
+      "to": "same_A3",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C38",
+        "C1-C39"
+      ],
+      "reason": "无英文匹配/分数，实际英文batch30/E31未占。",
+      "refs": [
+        {
+          "path": "A4-zero-input-batch22.json",
+          "sha256": "48565cf2ae7a44fb022e623713afc2ee6e73fab42e22248edd7275276a2d5490"
+        },
+        {
+          "path": "A3-en-zero-batch22.json",
+          "sha256": "ef901b6171b0709f24aee3ec94b9b417b5bc2ec36feaab8b3a85e61ce869f020"
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "accepted_at": "2026-11-08T20:46:34.808021+08:00",
+      "from": "same_A3",
+      "to": "coordinator",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C38",
+        "C1-C39"
+      ],
+      "reason": "同一原A3实际读零输入与SHA核验，0查询终核。",
+      "refs": [
+        {
+          "path": "A3-en-zero-batch22.json",
+          "sha256": "ef901b6171b0709f24aee3ec94b9b417b5bc2ec36feaab8b3a85e61ce869f020"
+        },
+        {
+          "path": "A3-en-zero-batch22-receipt.json",
+          "sha256": "6d3767a4400b7e2e5454e97e7bf47fc8fe1f319988a2eaf4fa7caabd3cb9e78f"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "accepted_at": "2026-11-08T20:46:34.808021+08:00",
+      "from": "coordinator",
+      "to": "catalog",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C38",
+        "C1-C39"
+      ],
+      "reason": "没有合格配对不入库；root实际读网新官网发布与Apple同名游戏页证实否决，未称登记已核。",
+      "refs": [
+        {
+          "path": "continuations/2026-11-08T120952Z/root-source-review-batch22.json",
+          "sha256": "6cdcddbc91a2161a3bde8370a5ea676504816adc4f8c7e25b8418b421764db2d"
+        },
+        {
+          "path": "continuations/2026-11-08T120952Z/decisions-through-batch22.json",
+          "sha256": "0aedabee8e6bb61bb8877b39c80c98f8a4ac22259521c28ec985d5684417d28a"
+        }
+      ]
+    }
+  ]
+}

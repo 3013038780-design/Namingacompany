@@ -1,0 +1,33 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-09T05:15:54.939729+08:00",
+  "candidate_ids": [
+    "C1-C59"
+  ],
+  "decision": "no_admission_actual_final_CN_zero_and_original_A4_same_A3_EN_zero_complete",
+  "actual_root_read": "实际读原A4zero31与同原A3zeroEN31的MD及回执；原星/原恒星/星胚三性质保持，逐名名称边界纠正单列不改旧原稿。",
+  "remaining_CN_reworks": 0,
+  "new_EN": 0,
+  "refs": [
+    {
+      "path": "A3-cn-batch46.json",
+      "sha256": "3d348eaccc09f1e6990a8fc7f5d4776dbf003446840a48e2dc515ce0f344c375"
+    },
+    {
+      "path": "A4-zero-input-batch31.json",
+      "sha256": "af62855b29fbce3b559bcc374a81231aaef55fa128ff7858ce5cedd3c51cf300"
+    },
+    {
+      "path": "A4-zero-input-batch31-receipt.json",
+      "sha256": "8f3f18c288ef5155c42f55b07ff0396a149381ca6da562d2785449e6801fc1dc"
+    },
+    {
+      "path": "A3-en-zero-batch31.json",
+      "sha256": "4b01bc9c21af9011c972ac77f7468c9e3310d2e558bbc28b1d6616bdd5c09af9"
+    },
+    {
+      "path": "A3-en-zero-batch31-receipt.json",
+      "sha256": "31ee206710818384830a9b3409e594853dabfec8edb53e3bcb5f097da41dd840"
+    }
+  ]
+}

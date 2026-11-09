@@ -1,0 +1,73 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T04:28:59.172453+08:00",
+  "materials": [
+    {
+      "id": "C1-M71",
+      "family_id": "C1-MF-ocean-ridge-as-new-crust-formation-boundary",
+      "macro_id": "S2",
+      "plan_direction_id": "C1-D-S2",
+      "category": "whole_geological_world_and_formation_site",
+      "case_ids": [
+        "B001",
+        "B009",
+        "B015"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "NOAA Ocean Exploration: What is a mid-ocean ridge?",
+          "url": "https://oceanexplorer.noaa.gov/ocean-fact/mid-ocean-ridge/",
+          "reading_location": "实际读L59–67全部事实正文、地图图注文字、发布日期与更新日：全球山系尺度、板块分离处新洋壳形成、扩张速率与地貌关系。没有实看地图/影像或点击相关报告。",
+          "read_at": "2026-11-09T04:28:59.172453+08:00",
+          "access": "body",
+          "source_type": "government_geoscience_explanation",
+          "published_at": "2014-07-08",
+          "last_updated": "2024-08-21",
+          "reading_scope": "full_short_body_and_date",
+          "boundary": "是全球洋中脊系统的科普描述，不把每段都等同相同活动性，不把海底扩张说成地球整体半径不断增大或大陆凭空产生。"
+        },
+        {
+          "title": "南海海洋所：海底大地电磁揭示南海残留洋脊岩石圈-软流圈边界熔体长期保存机制",
+          "url": "https://scsio.cas.cn/news/kydt/202609/t20260902_8276482.html",
+          "reading_location": "实际读L2–15机构研究报道全部正文、L19–23图注文字；2022观测剖面、残留洋脊与活动洋脊区别、电性结构综合解释及所提熔体演化模型。未看图像或打开原论文；正文未返回发布日期，URL20260902不当已核新闻日期。",
+          "read_at": "2026-11-09T04:28:59.172453+08:00",
+          "access": "body",
+          "source_type": "research_institute_primary_news_body_date_unverified",
+          "published_at": null,
+          "reading_scope": "full_short_institution_body_and_caption_text",
+          "boundary": "成像和综合分析指示部分熔融，长期保存为研究解释/模型，不是直接观察19百万年。报道题名/引用有2026年不等于已核近90天发布日；原论文全文未读。",
+          "date_verification": "body_missing_date_metadata_fetch_SSL_certificate_failure_not_counted_recent_news"
+        }
+      ],
+      "source_urls": [
+        "https://oceanexplorer.noaa.gov/ocean-fact/mid-ocean-ridge/",
+        "https://scsio.cas.cn/news/kydt/202609/t20260902_8276482.html"
+      ],
+      "fact": "洋中脊系统沿板块分离边界延展，部分活动区域由上升岩浆形成新洋壳。另所读南海报道研究的是已停止扩张的残留洋脊，不能说所有洋脊永久活跃。",
+      "distinctive_relation": "一个看似完整的海底山系，同时包含新地表形成的场所；地貌轮廓与其深部过程有具体联系，活动性有条件。",
+      "mechanism_to_material": "寒武纪新核让自然知识提供研究时代的空间，DJI当前文化语境及大疆完整意象提示取整个世界而非器件；Sony反馈允许完整自然称呼，不强造词。沿原S2天地空间与地球变化问题，去找地貌为何出现及哪里形成新的结构，再用中国机构正文确认洋脊这一完整中文对象。不把大疆当前文化当最初命名史，也不把寒武纪愿景证明成AI地质规律。",
+      "history_difference": "历史逐文件扫描洋脊/洋中脊/海底扩张/板块/地幔/岩浆未发现旧材料或草案，但词面无命中不自动新族。旧相变及临界网络讨论物态/连通性质跨阈值，本项是具体整体地貌及板块边界的新洋壳形成；不泛化为突破/跃迁。旧横风借外部能量改变路径、雾针三级输运、菌缆/菌络营养输运和逆序猫信号界面均非此地表构造。用户曾拒深水来是名称气质问题，不把所有海洋空间一概封禁；本名若只剩水务/航运或泛深处探索，应质量退回，不凭一条新地学报道当新品牌。",
+      "naming_potential": "洋脊是两字可叫出的完整宏观对象，海面下的全球山系与新洋壳形成提供第二层；不是为每个字各编吉祥义。",
+      "shortcoming": "可能先像海洋工程、地勘、航运或户外品牌；脊字稍有读写成本，听感也可能像洋基/洋鸡。广义AI Lab身份需独立审，不能因地质出处真补分。",
+      "boundary": "不说地球整体膨胀、每条洋脊都一直生成新地表或AI在此机制下必然持续进化。南海残留洋脊熔体模型只是补充科学认识条件，不将其等同NOAA所述活动扩张。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft"
+    }
+  ],
+  "new_material_count": 1,
+  "new_chinese_draft_count": 1,
+  "coverage_note": "新增S2宏观地球构造，S3保守17/71，古文4/71；NOAA旧科普不计近期，南海所正文虽读但发布日期未核也不计近90天。无新书通读。",
+  "access_limits": [
+    {
+      "url": "https://scsio.cas.cn/news/kydt/202609/t20260902_8276482.html",
+      "operation": "urllib_metadata_date_fetch",
+      "result": "SSL_CERTIFICATE_VERIFY_FAILED，自签名链错误；未据URL补日期或反复入口。"
+    }
+  ]
+}

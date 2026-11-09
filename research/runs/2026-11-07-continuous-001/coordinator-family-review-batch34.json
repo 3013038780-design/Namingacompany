@@ -1,0 +1,70 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-08T17:42:00.060206+00:00",
+  "quality_comparison": {
+    "root": 25,
+    "producer": 25,
+    "max_axis_difference": 0,
+    "all_gates_pass": true,
+    "root_sealed_before_producer_read": true
+  },
+  "source_verification": {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17623638/",
+    "identity": "同一原论文Bebber et al., DOI10.1098/rspb.2007.0459/PMCID2288531",
+    "root_actual_scope": "实际179–194书目信息、245–249作者摘要、251–296图1–4文字说明，尤其262平行细菌丝聚束为cords、263模型阻力、248选择性强化/回收、273–296模型网络结果。只读摘要/图注文字，未看图像、通读方法证明、复现实验或直接测营养流。",
+    "original_A2_scope": "原A2在PMC首次实际读94–130正文，之后验证码；其首次阅读记录独立保留，不冒root也读同响应。",
+    "access_failures": "root PMC验证码；作者OxfordPDF web502与curl502、ORA403、EuropePMC API工具不可访问/curl500均失败并停止。改从可读PubMed原文作者摘要及原图注核实实际命名所用事实，不把失败或搜索摘要当全文已读。",
+    "additional_root_source_discovery_queries": 1
+  },
+  "family_verification": {
+    "decision": "distinct_internal_cord_transport_not_generic_living_infrastructure",
+    "finding": "root实际读M11/M15/M58原素材卡及相关候选：蚂蚁以多成员身体搭临时桥支持外部他者通过；新项是同一真菌体聚束成自身营养输运结构、选择性加粗回收，并非只换动物造活桥。黏菌是非活性外痕帮助后续导航，蜘蛛外网参与振动感知；新项不取感官、外部记忆或通信功能。主体与工程缆状形态同场，非活缆近义改写；如果只讲生命/网络/连接泛隐喻则无新家族。",
+    "old_materials_read": [
+      {
+        "id": "C1-M15",
+        "fact": "黏菌倾向避开已有细胞外黏液的区域；两个方向均有黏液时不再有相同避让选择。预先铺满黏液干扰自身路径标记的对照中，U型障碍任务表现下降。",
+        "relation": "行动留下的环境痕迹可以成为后续选择的外部依据；抹去痕迹与背景的差异会削弱这条可用信息。",
+        "file": "materials-extension2.json"
+      },
+      {
+        "id": "C1-M11",
+        "fact": "行军蚁以身体连接成桥，并随交通量与环境几何改变桥的位置、长度和宽度。缩短通路有收益，但投入桥体的工蚁也从觅食队伍中被占用；论文不认定观察到的位置必为理论全局最优。",
+        "relation": "行动者临时变成支撑别人行动的结构；结构大小与可活动成员数量存在代价。",
+        "file": "materials-extension1.json"
+      },
+      {
+        "id": "C1-M58",
+        "fact": "综述整理网丝张力与振动传输/觅食反应的关系，并据双向作用提出外部网参与感知系统的论证。",
+        "relation": "动物编织并调节的外部结构，会参与它接收何种信号，而不是只把已有信号原样传到体内。",
+        "file": "materials-extension26.json"
+      }
+    ]
+  },
+  "case_transfer_boundary": "Sakana/Sony沿已核机制；B010字节跳动只沿105语义分析，root实际读基线B010的继承/未重开标记，不冒本段新核历史选名动机。",
+  "refs": [
+    {
+      "path": "materials-extension32.json",
+      "sha256": "0ba06b759f12d13f3b3687e2bd39df0486b8a5f89a3216513a46769f66d09717"
+    },
+    {
+      "path": "A2-candidates-batch34.json",
+      "sha256": "fbe0a907fd636d02e82093a67bd795aa7fb5cf1195006feca2e02cad46d30b8e"
+    },
+    {
+      "path": "A2-preview-batch34.md",
+      "sha256": "fa27a14578fd5a0a1a8f147f77d29a5e183d4a194eade860870420e1b2838ed4"
+    },
+    {
+      "path": "A2-quality-batch34.json",
+      "sha256": "184f049f641de9eb79dbc864c5e006c8ff70e7ae0959a7d268b6154f0ca298ae"
+    },
+    {
+      "path": "A2-creation-execution-batch34.json",
+      "sha256": "e3b6f43b01ed9916ea1270e7a33d2f9e1a9927e14751f14a06526859d501bded"
+    },
+    {
+      "path": "coordinator-cn-batch34.json",
+      "sha256": "1327e31fbe1a05df1f83a26461ab4f0aef51f99544f4522c7c61d888874faa1b"
+    }
+  ]
+}

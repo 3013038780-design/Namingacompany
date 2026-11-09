@@ -1,0 +1,135 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T23:37:55.758893+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch36.json",
+      "sha256": "8bcfa86cecb21cdaf5b40d8c4ec6cf6c9656e0149d5dd94b5ddb4883987079f0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch36.md",
+      "sha256": "c1c9ae923ce7cd19cd7d5682111e25be79a9063219c0e74f5050cee0564c61a0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch36.json",
+      "sha256": "1b2334955667215bbbbd5de78351ed2446c783b94f7c51761d6dcd2b9331de45"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch36.json",
+      "sha256": "6ca0c3d714a744900acd2d447bf87fb45d6cb50526c996a3b95c716d1fece961"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch36.json",
+      "sha256": "b38a977ea641e3285879587dd051e5dab83c80c535cd22a1b06c6cfb10ac397b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch31.json",
+      "sha256": "5fbb8fadc893d38a198b045c0e553ed059814efebd6a2fc3deeea26506b61292"
+    }
+  ],
+  "query_count": 6,
+  "results": [
+    {
+      "candidate_id": "C1-E39",
+      "name": "Neither",
+      "query_logs": [
+        {
+          "query": "\"Neither\" company lab",
+          "executed_on": "2026-11-08",
+          "summary": "主要neither company否定语法及实验室普通句，无该组独立公司确证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Neither\" AI model",
+          "executed_on": "2026-11-08",
+          "summary": "LLM评测neither语句和Neither True nor False论文题名，不把标题或逻辑任务当独立模型。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Neither\" software product",
+          "executed_on": "2026-11-08",
+          "summary": "命中Neither MCP及官网示例页；实际官网和源码正文闭环明确产品。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Neither\" brand",
+          "executed_on": "2026-11-08",
+          "summary": "Neither Nor服饰完整品牌及第33类索引，Nor是有意义词不能随意去掉作本名；非本案主证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Nei Ther\" company",
+          "executed_on": "2026-11-08",
+          "summary": "拆写主要旧文OCR Nei ther拼词与普通否定句，非独立公司主证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Neither\"",
+          "executed_on": "2026-11-08",
+          "summary": "无行业精确主要词典语法/词义，普通词本身不能据此占用。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "return_for_alternative_existing_named_software_platform",
+      "reason": "Neither已有完整独立AI项目记忆/MCP软件平台，官网与源码README确证产品名和安装包。不是普通否定代词、源码变量或无名功能；不称官方商标或公司存续核准。",
+      "evidence": [
+        {
+          "url": "https://www.neither.online/demo/",
+          "access": "primary_platform_body_read",
+          "finding": "L16/24命名Neither，L35–44项目记忆及MCP产品，L33示例源虚构标注明确；核品牌不背书模型性能/示例事实。"
+        },
+        {
+          "url": "https://github.com/stonianua/neither-mcp",
+          "access": "primary_source_repository_readme_read",
+          "finding": "L140/222–239 Neither CLI/MCP公开源代码镜像、decision memory及安装包@neitherai/mcp-server，L242–255配置键使用neither；是具名软件非普通句法变量。未安装或运行。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403，本批未重访/未逐名逐类核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403，本批未重访/未逐名逐类核准。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Neither",
+          "scope": "2026-11-08实际逐名Neither入口不可访问，不代表无登记。"
+        }
+      },
+      "chinese_id": "C1-C48",
+      "chinese": "第三真值",
+      "rework_attempt": 0,
+      "remaining_reworks": 2,
+      "risks": [
+        "完整Neither已有AI辅助软件平台使用",
+        "注册/9与42未清，不凭普通词、Neither Nor长名判法律占用",
+        "中文第三真值初筛通过不倒写为中文占用"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "passed_english_candidate_ids": [],
+  "returned_english_candidate_ids": [
+    "C1-E39"
+  ],
+  "quality_rejected_not_searched_ids": [],
+  "completed_search_result_count": 6,
+  "new_failed_search_attempts": 0,
+  "controls_reused_not_new": "原run2阳性对照，本批0新对照。",
+  "rejected_english_candidate_ids": [],
+  "excluded_upstream_check": {
+    "chinese_id": "C1-C49",
+    "chinese": "同星",
+    "actual_eligible_english_inputs": 0,
+    "actual_english_outputs": 0,
+    "actual_english_queries": 0,
+    "actual_review": "已实际读A4batch36上游排除：CN31巨潮同核心使用拒绝，未用英语救回；整批仍E39有查询，不写全零。"
+  }
+}

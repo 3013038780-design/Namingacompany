@@ -1,0 +1,53 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T05:39:58.126316+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-C60",
+      "name": "火芯",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两个熟字形成可直接称呼的器物式整体，火焰和芯的关联直观",
+          "counter_association": "火芯不是本次核过的标准器件名称，火心同音有听写成本"
+        },
+        "distinctiveness": {
+          "reason": "火焰与内部供料芯给出可复述的具体形象，比泛增强/成长词有明确角色",
+          "counter_association": "火/芯在热与硬件行业常见，图像清楚不等于商业独有，尚未查"
+        },
+        "lab_fit": {
+          "reason": "整体有核心工程及能量活动的技术气质，可以承载研究系统作用条件的Lab身份",
+          "counter_association": "电子烟/点火器、芯片/电池产品或香薰器物首感同样存在，不因芯能让人想到芯片就直接过门"
+        },
+        "grounding": {
+          "reason": "实际读书中供料与毛细段，芯/火来自同一个装置关系，品牌凝练与原文词分清",
+          "counter_association": "历史演示不充现代完整化学模型或本角色实验，芯不凭空供能，原文无中文火芯"
+        },
+        "extension": {
+          "reason": "从组织内部作用条件的角色可研究多个系统，不限某芯片或燃烧制品",
+          "counter_association": "若只讲燃料输入越多输出越强会失真，也会退到旧星尘炉泛能量故事"
+        },
+        "semantic_coherence": {
+          "reason": "供料芯与火焰是同一物件作用关系，不拆火为流量/芯为芯片",
+          "counter_association": "不是芯是最热区域或材料无需燃料空气就能一直燃烧"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ],
+  "qualified_candidate_ids": [
+    "C1-C60"
+  ],
+  "boundary": "无分预览/素材/creation-execution已先封存并交主控，本数字独档后写；不读取root本包评分或源审文本再调整，不把书有名/词有芯片联想作为通过证据。"
+}

@@ -1,0 +1,134 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-08T19:25:36.768Z",
+  "completed_at": "2026-11-09T04:01:05.164697+08:00",
+  "status": "same_run_package_admitted_one_family_after_CN_rework_and_lexical_correction",
+  "new_A1_research_claimed": false,
+  "actual_A2": "/root/continuous_a2",
+  "actual_A3_same_cn_en": "/root/live_a3",
+  "actual_A4": "/root/continuous_a4",
+  "new_materials": 1,
+  "new_chinese_drafts": 1,
+  "new_chinese_families_explored": 1,
+  "new_selected_CN_revision_forms": 1,
+  "new_formally_submitted_literal_forms_including_revisions": 2,
+  "chinese_quality_passed": 1,
+  "chinese_revision_quality_passed": 1,
+  "chinese_public_use_passed": 1,
+  "new_english_versions": 1,
+  "english_lexical_source_corrections_not_new_versions": 1,
+  "english_quality_passed": 1,
+  "english_public_use_passed": 1,
+  "new_retained_families": 1,
+  "retained_pairs": [
+    "逆序猫 / Tailfirst"
+  ],
+  "evidence_holds": 1,
+  "new_evidence_holds": 0,
+  "new_A3_candidate_query_executions": 25,
+  "new_A3_search_results_returned": 25,
+  "new_A3_failed_or_unreturned_attempts": 0,
+  "new_root_candidate_query_executions": 0,
+  "cumulative_A3_candidate_query_executions": 680,
+  "cumulative_A3_search_results_returned": 679,
+  "root_additional_queries_prior_packet": 2,
+  "cumulative_recorded_candidate_query_executions": 682,
+  "cumulative_recorded_results_returned": 681,
+  "cumulative_materials": 70,
+  "cumulative_chinese_drafts": 57,
+  "cumulative_selected_chinese_literal_forms_including_revisions": 59,
+  "cumulative_english_versions": 46,
+  "catalog_counts": {
+    "discussion_candidates": 30,
+    "research_reserves": 1,
+    "total_unique_families": 31,
+    "withdrawn_families": 1,
+    "historical_unique_families": 32
+  },
+  "reason": "新增1组讨论备选：逆序猫 / Tailfirst。源于作者的猫形信号概念示意和时间界面关系，非活猫实验；中文8、英文8及近名补证1查询完成。原时镜另8查已有广州时镜科技同核心使用，中文R1同族不重计。Tailfirst原被误写新词，实际为既有副词，原A4纠正、root重新独评及同A3验源、原A4风险复审后终审。个人同拼写技术作品主页和E-TAIL FIRST历史近名照留，不假称精确软件占用或风险清空。官方公司/9与42商标未核准。总库30讨论+1储备。",
+  "query_breakdown": {
+    "original_shijing_CN": 8,
+    "inverse_cat_CN": 8,
+    "Tailfirst_EN": 8,
+    "E_TAIL_specific_entity_followup": 1
+  },
+  "source_sampling": {
+    "new_materials": 1,
+    "root_new_materials_core_read": 1,
+    "minimum_required": 1,
+    "scope": "root实读作者解释11–15/37–59和文字图注，未看图或原论文；Collins/MW词义、profile/README/Apex、Gazette历史名单及天河PDF/招聘正文具体位置见root记录。直接打开与PDF下载不当搜索次数。",
+    "classical_chinese_cards": 4,
+    "conservative_S3_primary_cards": 17,
+    "total_materials": 70,
+    "new_recent_news_body_read": 0,
+    "new_whole_books_read": 0
+  },
+  "registry_and_nearname_limits": "原两阳性和大陆旧403准确复用，英文/中文英国逐名入口实际不可访问；E-TAIL FIRST 2010完整名一手可读，当前业务/简称/状态未核。个人技术作品身份不冒独立同名软件，也不能说字符串没人使用。",
+  "whole_production_compliance_claimed": false,
+  "evidence_refs": [
+    {
+      "path": "materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462"
+    },
+    {
+      "path": "A2-creation-execution-batch39.json",
+      "sha256": "f7af25329efcb1708b39b73ee5205dc0c72d7878c7b79ce1c885f0ffd898d939"
+    },
+    {
+      "path": "A2-creation-execution-batch40.json",
+      "sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295"
+    },
+    {
+      "path": "A3-cn-batch41.json",
+      "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c"
+    },
+    {
+      "path": "A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5"
+    },
+    {
+      "path": "A4-creation-execution-batch45.json",
+      "sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3"
+    },
+    {
+      "path": "A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc"
+    },
+    {
+      "path": "A4-C57-source-correction-execution.json",
+      "sha256": "9b62d30b83abcfb3630c3c46810ae5ce0f0ecfc71c31f758786c635b8c74d05e"
+    },
+    {
+      "path": "A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982"
+    },
+    {
+      "path": "A3-E47-etail-addendum.json",
+      "sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099"
+    },
+    {
+      "path": "A3-E47-correction-closeout.json",
+      "sha256": "339878232d9b02b54873dba2c861c767acefa277ca64799621bdf175771bbab7"
+    },
+    {
+      "path": "A4-C57-postscreen-review.json",
+      "sha256": "6b2785c3b83b2673528285c106a75a70f701b7a73c91687af81273b2f21342c8"
+    },
+    {
+      "path": "delivery-C1-E47.json",
+      "sha256": "2c075f2575e5279e4f798792ee2a400d867b6394ec827574eb9d0996bce3d70a"
+    },
+    {
+      "path": "continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+      "sha256": "98edc2dacf195d987f95bbaba133acb292d13b762e1bcd994d5241c66e89660c"
+    },
+    {
+      "path": "continuations/2026-11-08T192536Z/handoffs-batch39.json",
+      "sha256": "53e119947e2cace4749dccdce35e5d1c1c8974bb06c0a1692c756946c6982bea"
+    },
+    {
+      "path": "continuations/2026-11-08T192536Z/decisions-through-batch40.json",
+      "sha256": "67fb89fd9fdd25c3ac41652aaa5ee0d9f909857d05fb43adc795097aa6497862"
+    }
+  ]
+}

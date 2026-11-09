@@ -1,0 +1,47 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-09T12:11:17.742790+08:00",
+  "candidate_id": "C1-C61",
+  "name": "入微",
+  "material_id": "C1-M75",
+  "family_id": "C1-BF-entering-microscopic-events-of-ordinary-interface",
+  "status": "accepted_for_CN_usage_screen_only",
+  "actual_read": "无分preview50先读先封分；源读UCLA/原论文指定段、旧察觉A2C11原稿及余光/沙阵谱系。producer数字在root封分之后读。",
+  "source_review": "M75中小尺度界面和短事件测量支持进入微观对象这一有限研究角色，名字没有直接出现原文，也不是科学原理名称；微不是微弱X射线、微服务或模型微调。并不要求名字逐字包含整项实验，但具体科学关系丢失的成本保留。",
+  "family_review": "旧察觉为小鼠感知检测/主观报告，余光为周边视野；本名取进入外部物件微观事件的研究角色，不认作另一个主观觉察/周边视觉或C60供料家族。若以后泛化为仅认真细致不能反借新论文无限续新名；单次C61只一族。",
+  "classification_if_later_admitted": {
+    "primary": "S5",
+    "cross": [
+      "S1",
+      "S3"
+    ],
+    "reason": "名的语义入口是研究者进入细部的认识行动，素材入口仍S1普通物件，不为分布把两者强作同一类别。"
+  },
+  "quality_limit": "双25是编辑判断；护理/咨询/文化首感、修饰语独立专名化及入围近音都在，未由市场或用户验证。",
+  "refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch50.json",
+      "sha256": "0dab66b8fe3cedeeb21ed44c64cd22e872769fc62596b496b3ea621aa960cf7d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch50.json",
+      "sha256": "11cf06b6763b51937b9fc6e21c66fbe23c5bcd39a6d1e9066d2fa7adfe5b6a5c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch50.json",
+      "sha256": "2831ab46a723d5d0e20b332e2beb8558eb08f96f94e1c9077f099affee460122"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch50.json",
+      "sha256": "56fad7b28fb70d720df950283c1ec164f1da2746fa9ede01c1cd110054a79c8a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension38.json",
+      "sha256": "74cb9092800e90dc8bb5ae246346e990b8c485b42aa39088b51c89bfe5b0a328"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-M75-material-review.json",
+      "sha256": "d47c4ffe9977087184b7cc49c72dee330bde8a46af387d2915f9593de03c2f23"
+    }
+  ]
+}

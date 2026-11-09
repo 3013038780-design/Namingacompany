@@ -1,0 +1,90 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English zero-input final verification",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T11:08:50.660245+08:00",
+  "inputs": [
+    {
+      "path": "A4-zero-batch12.json",
+      "sha256": "3d7653c1d87bf5b722ef75e0b47afbcdf7f597fa17602afe125e0fd56c368181"
+    },
+    {
+      "path": "A4-zero-batch12.md",
+      "sha256": "06d39c0362166bf8c159d501beb17d1bc82e7f8e056d51f89603075cdbc4722f"
+    },
+    {
+      "path": "A3-cn-batch14.json",
+      "sha256": "316327419ce0085a3ce5469f5c1d750b2c9aee904f21be1d8eb495bce41cd364"
+    },
+    {
+      "path": "A3-cn-batch14-receipt.json",
+      "sha256": "8dbed8de7e8337f77f1a81eb6c8646475393e02f8c5f6abca4b2f43a60ccea83"
+    }
+  ],
+  "actual_upstream_read": true,
+  "sha_checks": [
+    {
+      "path": "A2-candidates-batch12.json",
+      "expected_sha256": "321cc74ede8fd9bdd8ac62a089ead76ae3c122f9ada7d18e3b1600e994063542",
+      "actual_sha256": "321cc74ede8fd9bdd8ac62a089ead76ae3c122f9ada7d18e3b1600e994063542",
+      "matches": true
+    },
+    {
+      "path": "A2-quality-batch12.json",
+      "expected_sha256": "f05a00c1688d34060c58a1c008253ebb266cc325a720599312d9e86ffaa264f6",
+      "actual_sha256": "f05a00c1688d34060c58a1c008253ebb266cc325a720599312d9e86ffaa264f6",
+      "matches": true
+    },
+    {
+      "path": "coordinator-cn-batch12.json",
+      "expected_sha256": "d674ac35967022418211abc2662e16fb7c6252eb71ed0f81ec4bc3a98072317e",
+      "actual_sha256": "d674ac35967022418211abc2662e16fb7c6252eb71ed0f81ec4bc3a98072317e",
+      "matches": true
+    },
+    {
+      "path": "coordinator-family-review-batch12.json",
+      "expected_sha256": "33baa46d1ad253406aab14ac195e500e486ba950c7f9cef31bb41576c0e2da8b",
+      "actual_sha256": "33baa46d1ad253406aab14ac195e500e486ba950c7f9cef31bb41576c0e2da8b",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch14.json",
+      "expected_sha256": "316327419ce0085a3ce5469f5c1d750b2c9aee904f21be1d8eb495bce41cd364",
+      "actual_sha256": "316327419ce0085a3ce5469f5c1d750b2c9aee904f21be1d8eb495bce41cd364",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch14-receipt.json",
+      "expected_sha256": "8dbed8de7e8337f77f1a81eb6c8646475393e02f8c5f6abca4b2f43a60ccea83",
+      "actual_sha256": "8dbed8de7e8337f77f1a81eb6c8646475393e02f8c5f6abca4b2f43a60ccea83",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch14.json",
+      "expected_sha256": "316327419ce0085a3ce5469f5c1d750b2c9aee904f21be1d8eb495bce41cd364",
+      "actual_sha256": "316327419ce0085a3ce5469f5c1d750b2c9aee904f21be1d8eb495bce41cd364",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch14.md",
+      "expected_sha256": "58472871a195b6b00800bd4d853a5c8f497e7d8830a6f53146c28faedbd1e784",
+      "actual_sha256": "58472871a195b6b00800bd4d853a5c8f497e7d8830a6f53146c28faedbd1e784",
+      "matches": true
+    }
+  ],
+  "qualified_chinese_count": 0,
+  "english_inputs": 0,
+  "english_outputs": 0,
+  "actual_new_english_queries": 0,
+  "actual_new_candidate_queries": 0,
+  "actual_new_control_queries": 0,
+  "query_logs": [],
+  "decision": "zero_english_input_verified_after_A4_actual_zero_delivery",
+  "reason": "实际读并核A4完成回执与原中文关卡一致；C25补码质量拒绝未查，不能称占用或使用通过。非尚未开始伪记零。",
+  "agent3_cumulative_candidate_queries": 312,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 314,
+  "scope": "仅A2batch12/C25工作包闭环，不停止整个持续研究。",
+  "next": "主控H7零保留checkpoint，后续接续不同关系。",
+  "unchanged": "不改旧稿、总库、Git。"
+}

@@ -1,0 +1,33 @@
+{
+  "reviewed_at": "2026-11-09T02:35:23.797460+08:00",
+  "reviewer": "/root",
+  "candidate_id": "C1-C56",
+  "name": "遍历者",
+  "decision": "distinct_relation_and_source_accepted_pending_producer_quality",
+  "source_review": {
+    "url": "https://courses.cis.cornell.edu/courses/cs2110/2026sp/lectures/lec22/",
+    "actual_read": "root通过web实际读24–28/592–720/758–790修正代码/1115–1142示例文字；额外响应包括BFS概述1192–1203，不冒全讲义或运行代码/观看动画。",
+    "facts": "图中沿边发现邻点、可达性及DFS回溯；discovered集合避免重复访问有环点，访问次序取决于选择。",
+    "boundary": "有限图/源点可达对象，非保证最短、无限全覆盖、知识增加或AI自改进实验；2026sp学期不当近90日发表日期；英文正文不冒含中文字或词源首创。"
+  },
+  "family_review": {
+    "history_scan": "本段1596历史文件实际扫描、476名称串；并核新稿对历史谱系的对照。",
+    "distinct": "跳读是使用者选择文档地址/视图；此处算法沿给定图系统覆盖可达点。黏菌是物理外痕与导航背景，此处显式算法状态。因序是事件依赖偏序；由此及彼是约束反向求值，非图覆盖。",
+    "merge_boundary": "若后续仅讲一般探索/记住经验而丢失图结构覆盖关系，应并回旧上位家族，不凭讲义新即计新。"
+  },
+  "A1_transfer_review": "Recursive真实过程可作主体、Imbue角色关系和Sony整体凝练为已有A1机制；普通遍历+者是中文角色化创作，不继承别家选名历史，不把造词当第七来源。",
+  "input_refs": [
+    {
+      "path": "A2-preview-batch37.json",
+      "sha256": "a947604d128092d120bb8089a9bca995ec0ca55672747f199d0511fb270a4f83"
+    },
+    {
+      "path": "materials-extension33.json",
+      "sha256": "7eef1e417948f63399c4abe52d8d9a5656146b48da48bc332e4c4b55ee4c6ac3"
+    },
+    {
+      "path": "coordinator-cn-batch37.json",
+      "sha256": "7a6788164655d1c710ed06998ca5633cb36a795880ec3777966e9a6ae1f17687"
+    }
+  ]
+}

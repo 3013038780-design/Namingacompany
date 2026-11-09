@@ -1,0 +1,67 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-09T13:43:36.248424+08:00",
+  "stage": "C62_same_family_CN_R1_actual_comparison_zero_selection",
+  "input_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch51.json",
+      "sha256": "a9b2e8f269dee932b18fa749f250fc692fe8421472673b12d7a6e14d5a5739e4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch51.md",
+      "sha256": "7090c097c256bcd79ea1840c2ea5a6f87ea297d0af30850097b43d34e2db5267"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch51-receipt.json",
+      "sha256": "36099d7aa1a157e45dbc747df4869509ed535c88abef423abc40b747c3cea41c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T042642Z/root-cn51-return.json",
+      "sha256": "a18456b864351426d114161275ea2f7cd7a0f40ceca990b4bd3c90d05d09871f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch52.json",
+      "sha256": "de831a8c9e8f4e75aa5ea7be1e6a627cbf7e74ea1d9e77f0151f93b59ef4c567"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension39.json",
+      "sha256": "4615aa738af3daa85c81635107e9c70ce66a7dfe787230b3f447912b60b4c01b"
+    }
+  ],
+  "actual_work": [
+    "完整读本次CN51原A3三档与root退回，区分跨行业商业核心编辑避让、官方历史名称与未核现时状态。",
+    "沿同一实际关系比较完整四字互相回应画面、三字不拆台约束、三字参与角色，而非仅接/招替换。",
+    "内部比较独特关系保留和首要行业身份，未形成更好的正式修订，不以先前双评通过保证新版也过。"
+  ],
+  "new_material_count": 0,
+  "reused_material_ids": [
+    "C1-M76"
+  ],
+  "new_chinese_primary_id_count": 0,
+  "new_chinese_draft_count": 0,
+  "new_selected_surface_count": 0,
+  "new_family_count": 0,
+  "rework_attempt_executed": 1,
+  "remaining_chinese_reworks": 1,
+  "recommendation": "voluntarily_close_C62_with_one_unused_rework",
+  "name_usage_queries_performed": false,
+  "new_english_count": 0,
+  "output_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch53.json",
+      "sha256": "a7171d1dcdbe10424a0d91f72515da4a9700df344b6d07fa6516c875a17bd3ab"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch53.json",
+      "sha256": "a7171d1dcdbe10424a0d91f72515da4a9700df344b6d07fa6516c875a17bd3ab"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch53.md",
+      "sha256": "ae0876ef7634dfd6d9b0a82ff273a3f1db2f2be74c3224aa81c48c2182141615"
+    }
+  ],
+  "numeric_quality_status": "separate_zero_reviews_after_unscored",
+  "boundary": "请求version2不等于已有新版字面；内部取舍不计正式提案，不另开新族/下一批，不改旧稿分数SHA/库queueREADMEGit。"
+}

@@ -1,0 +1,116 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T04:38:36.050365+08:00",
+  "candidates": [
+    {
+      "id": "C1-C58",
+      "name": "洋中脊",
+      "pinyin": "yáng zhōng jǐ",
+      "material_id": "C1-M71",
+      "material_ids": [
+        "C1-M71"
+      ],
+      "family_id": "C1-BF-ocean-ridge-as-hidden-world-formation-site",
+      "plan_direction_id": "C1-D-S2",
+      "case_ids": [
+        "B001",
+        "B009",
+        "B015"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "NOAA Ocean Exploration: What is a mid-ocean ridge?",
+          "url": "https://oceanexplorer.noaa.gov/ocean-fact/mid-ocean-ridge/",
+          "reading_location": "实际读L59–67全部事实正文、地图图注文字、发布日期与更新日：全球山系尺度、板块分离处新洋壳形成、扩张速率与地貌关系。没有实看地图/影像或点击相关报告。",
+          "read_at": "2026-11-09T04:28:59.172453+08:00",
+          "access": "body",
+          "source_type": "government_geoscience_explanation",
+          "published_at": "2014-07-08",
+          "last_updated": "2024-08-21",
+          "reading_scope": "full_short_body_and_date",
+          "boundary": "是全球洋中脊系统的科普描述，不把每段都等同相同活动性，不把海底扩张说成地球整体半径不断增大或大陆凭空产生。"
+        },
+        {
+          "title": "南海海洋所：海底大地电磁揭示南海残留洋脊岩石圈-软流圈边界熔体长期保存机制",
+          "url": "https://scsio.cas.cn/news/kydt/202609/t20260902_8276482.html",
+          "reading_location": "实际读L2–15机构研究报道全部正文、L19–23图注文字；2022观测剖面、残留洋脊与活动洋脊区别、电性结构综合解释及所提熔体演化模型。未看图像或打开原论文；正文未返回发布日期，URL20260902不当已核新闻日期。",
+          "read_at": "2026-11-09T04:28:59.172453+08:00",
+          "access": "body",
+          "source_type": "research_institute_primary_news_body_date_unverified",
+          "published_at": null,
+          "reading_scope": "full_short_institution_body_and_caption_text",
+          "boundary": "成像和综合分析指示部分熔融，长期保存为研究解释/模型，不是直接观察19百万年。报道题名/引用有2026年不等于已核近90天发布日；原论文全文未读。",
+          "date_verification": "body_missing_date_metadata_fetch_SSL_certificate_failure_not_counted_recent_news"
+        }
+      ],
+      "source_urls": [
+        "https://oceanexplorer.noaa.gov/ocean-fact/mid-ocean-ridge/",
+        "https://scsio.cas.cn/news/kydt/202609/t20260902_8276482.html"
+      ],
+      "formation": "经主控明确指向原已读南海所正文中的完整称呼后，本角色重新比较并采用洋中脊。它是原文既有完整地貌名，中属于这个术语的组成，不是装饰科技字或避重插字。保留同一个海底山系/新洋壳生成场所对象，不要求修订变成另一新概念；不声称这是我未经反馈独立提出或全球首造。",
+      "relation_sentence": "板块分离边界上的洋中脊系统，是新洋壳形成的具体场所；活动区域与停止扩张后的残留单元各有条件。",
+      "condensation_path": "原C58洋脊→R1真实零选稿→root指明原文完整洋中脊→原A2重读原句并独立比较、选择完整词。名称不拆三个字各编寓意。",
+      "meaning": "在完整的世界里，研究新结构形成的地方。",
+      "crossing": "一个看似完整的海底山系，同时包含新地表形成的场所；地貌轮廓与其深部过程有具体联系，活动性有条件。",
+      "layers": [
+        "完整可进入的地球构造对象",
+        "活动边界可以是新洋壳形成的场所",
+        "研究表面世界及其形成条件，不给AI性能作自然必然论背书"
+      ],
+      "material_feature_retained": "保留完整地貌名称、海底大尺度山系及活动板块边界形成新洋壳的关系。",
+      "material_feature_lost": "名字不展示活动/残留状态及观测模型细节，也不承诺每段都永久生成新洋壳。",
+      "why_name_not_generic": "是原文明确地貌对象的完整称呼；同家族不计新增与能否采用完整术语是两件事。本稿没有改变原科学关系来伪造新的创意家族。",
+      "shortcoming": "仍可能像海洋工程、地勘、科普或户外品牌；脊有读写成本。三音节洋中脊与两音节洋基的称呼结构不同，但是否仍混淆必须由原A3独立查，不能自称已避开风险或可注册。",
+      "science_boundary": "不说地球整体膨胀、每条洋脊都一直生成新地表或AI在此机制下必然持续进化。南海残留洋脊熔体模型只是补充科学认识条件，不将其等同NOAA所述活动扩张。",
+      "history_check": {
+        "status": "same_family_rework_not_new_family",
+        "reason": "C58/M71/family原样。洋中脊此前作为M71源文中的地质词已出现，本次是首次正式选择此字面，不称字面此前从未出现，不新计主ID/家族。旧海底雪/相变等实质对照沿原稿。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是洋中脊，做人工智能研究。",
+        "洋中脊发布了一项研究。"
+      ],
+      "status": "chinese_rework_draft_not_screened",
+      "version": 3,
+      "rework_attempt": 2,
+      "replaces_name": "洋脊",
+      "rework_after_version": 2,
+      "prior_rework_selected_name": null,
+      "editorial_feedback_lineage": {
+        "origin": "root_source_pointing_feedback_not_independent_A2_first_proposal",
+        "feedback_ref": {
+          "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T202508Z/root-C58-R1-return.json",
+          "sha256": "8cb95fe53d547b99786b37143f06de0deaf930ad3dbbee1f09140fe5c7c305bf"
+        },
+        "actual_A2_action": "实际读root-C58-R1-return及coordinator-cn-batch42后，再开南海所原网页核L5完整词与L7–10条件；独立比较后采用。",
+        "reasoning_correction": "上次R1把同族近义改称一概视为没有新整体，容易误把返工要求成新概念。本次纠正该取舍，不改原R1零结果/分数。"
+      },
+      "source_reinspection": {
+        "url": "https://scsio.cas.cn/news/kydt/202609/t20260902_8276482.html",
+        "read_at": "2026-11-09T04:38:36.050365+08:00",
+        "location": "再次实际open返回L2–15，重点L5完整词、L7–10残留/活动区别。",
+        "new_material": false,
+        "boundary": "原对象重核，不新计来源/素材/近期新闻；仍未读原论文或图片。完整地质名称不意味着全球每段都在某海洋几何正中央；未核中文初译史。"
+      }
+    }
+  ],
+  "rework_of": "A2-candidates-batch42.json",
+  "new_material_count": 0,
+  "new_chinese_primary_id_count": 0,
+  "new_family_count": 0,
+  "selected_chinese_surface_revisions": 1,
+  "scope": "同C58最后R2，经root指明原文后原A2实际再核与独立选择，不掩反馈，不改R1原记录，不继承旧查询。"
+}

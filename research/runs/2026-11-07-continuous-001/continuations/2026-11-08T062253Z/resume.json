@@ -1,0 +1,11 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-08T06:22:53.376Z",
+  "resumed_at": "2026-11-08T15:52:03.758134+08:00",
+  "same_run": "2026-11-07-continuous-001",
+  "actual_A2": "/root/continuous_a2",
+  "new_A1_claimed": false,
+  "upstream_frozen_snapshot": "continuations/2026-11-08T051531Z/decisions-through-batch17.json",
+  "upstream_sha256": "d5055d8d4bb0f97fd5fdfafbb8024539723fdf4796a8e192fb6fa724a955f618",
+  "note": "Git干净，原A2/A3/A4上一段均完成，再续同001多关系小包，不并发另轮。"
+}

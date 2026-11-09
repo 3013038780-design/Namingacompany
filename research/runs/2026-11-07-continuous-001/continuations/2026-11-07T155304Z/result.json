@@ -1,0 +1,101 @@
+{
+  "automation_id": "automation",
+  "completed_at": "2026-11-08T00:27:25.728158+08:00",
+  "status": "research_packets_complete_zero_retained_one_evidence_hold",
+  "actual_A1_basis_reused": [
+    "A1-final-input-reacceptance.json",
+    "A1-formation-feedback.json",
+    "search-plan.json",
+    "plan-review.json"
+  ],
+  "new_A1_research_claimed": false,
+  "actual_A2": "/root/continuous_a2",
+  "actual_A3_same_cn_en": "/root/live_a3",
+  "actual_A4": "/root/continuous_a4",
+  "new_materials": 3,
+  "new_chinese_drafts": 4,
+  "new_chinese_families_researched": 4,
+  "chinese_quality_passed": 3,
+  "chinese_public_use_passed": 1,
+  "new_english_versions": 3,
+  "english_quality_passed": 3,
+  "english_public_use_passed": 0,
+  "evidence_holds": 1,
+  "new_retained_families": 0,
+  "new_A3_candidate_query_executions": 65,
+  "new_root_candidate_query_executions": 0,
+  "cumulative_A3_candidate_query_executions": 283,
+  "root_additional_queries_prior_packet": 2,
+  "cumulative_recorded_candidate_query_executions": 285,
+  "cumulative_materials": 31,
+  "cumulative_chinese_drafts": 23,
+  "cumulative_english_versions": 19,
+  "catalog_counts_unchanged": {
+    "discussion_candidates": 24,
+    "research_reserves": 1,
+    "total_unique_families": 25,
+    "withdrawn_families": 1,
+    "historical_unique_families": 26
+  },
+  "reason": "声入纹品牌质量未过；识局现有商业核心、伶伦现有AI系统。活变量中文过，三英文最终仍有具体未核证据，不假通过或假占用。",
+  "new_user_direction": "用户在本段要求固定网站按日展示；新网站搭建中，旧网站保持。",
+  "evidence_refs": [
+    {
+      "path": "A2-creation-execution-batch9.json",
+      "sha256": "dba7baeac5db44375072eb3962ea985daef494b3d672e63dcfd9f9269e50c245"
+    },
+    {
+      "path": "A2-creation-execution-batch10.json",
+      "sha256": "ff5761df8ba3bb246fd5772614b8a5b1f3ac0b9e2014236ed83bed2d2ecd9f71"
+    },
+    {
+      "path": "A2-creation-execution-batch10-supplement.json",
+      "sha256": "235226da9ccb47f2dfbd8260895edc851f29ba5882b57375ebba070e63aa3509"
+    },
+    {
+      "path": "A3-cn-batch10.json",
+      "sha256": "2179b9ba1b5c71277b1ced490d859f432f06ee4befd57ef3f4d30b549bcaf126"
+    },
+    {
+      "path": "A3-cn-batch11.json",
+      "sha256": "2eee223610ffab7d26c2a92a0a425829ac2450d9ea3db5a496db2d5edaabcc5d"
+    },
+    {
+      "path": "A3-cn-batch12.json",
+      "sha256": "2ee03dd9bd80253389874defab204f28195f5e65cf3ebfd144c9c0b525d46ac7"
+    },
+    {
+      "path": "A3-en-batch17.json",
+      "sha256": "508c6a7e2382292f8988aad6ecc85fbefad6b5e7307ee307be7263ffe45f5f03"
+    },
+    {
+      "path": "A3-en-batch18.json",
+      "sha256": "577c84f732ea94001b0538ba0bd62825d264dfcbacce1fc7171a0e7a20698425"
+    },
+    {
+      "path": "A3-en-batch19.json",
+      "sha256": "7c66cfe45dcedaaf1f25ddb84a587e14a86f92aa1f154a1e2351686abde7ba69"
+    },
+    {
+      "path": "A4-closeout-batch10-supplement.json",
+      "sha256": "28a72ef2949a23e515a05584b65fba864ef078434b7d8f8656c0cc5940105155"
+    },
+    {
+      "path": "A4-publication-input-reacceptance.json",
+      "sha256": "12846bd9383291a3f581b0c9273c5279fddc86764f03cdb46d78babacf9e718c"
+    },
+    {
+      "path": "continuations/2026-11-07T155304Z/handoffs.json",
+      "sha256": "4eb13efaec750f4ca01f57033461fe8a155d81a7dc0abcfa8c7bfa216f869376"
+    },
+    {
+      "path": "continuations/2026-11-07T155304Z/handoffs-batch10.json",
+      "sha256": "9be0e6a22833074a55859dd89758285969fa94118f451b969d9e28826002458a"
+    },
+    {
+      "path": "continuations/2026-11-07T155304Z/handoffs-batch10-supplement.json",
+      "sha256": "37efcff7d1e98026d505cf5a5045df7de9855ad1c6b0d50f977d6b48d8ede324"
+    }
+  ],
+  "whole_production_compliance_claimed": false
+}

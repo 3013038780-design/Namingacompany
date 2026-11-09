@@ -1,0 +1,67 @@
+{
+  "handoffs": [
+    {
+      "id": "H1",
+      "from": "A1",
+      "to": "A2",
+      "status": "accepted",
+      "timestamp": "2026-11-06T17:33:39+08:00",
+      "reason": "Actual A2 re-read current workflow/preferences and accepted v2 plan, specific cases and historical families. User now authorizes material pilot only; original A1 not re-executed.",
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "inputs/A1/cases.json",
+          "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746"
+        },
+        {
+          "path": "inputs/A1/taxonomy.json",
+          "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+        },
+        {
+          "path": "inputs/execution/README.md",
+          "sha256": "512fece26e7b753575eefaee7b4794429ebfa08d30d529df4837fc8f8c9c7099"
+        },
+        {
+          "path": "inputs/execution/AGENTS.md",
+          "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+        },
+        {
+          "path": "inputs/execution/preferences.json",
+          "sha256": "3d987140887d57591d1e9967355dba4cae70167b1b6f47eab379987ac13c71a0"
+        },
+        {
+          "path": "inputs/plan/search-plan.json",
+          "sha256": "8ad37583ad25a637de0701b3c90ee1682ceb91b63eafd0139d2993c0b888813a"
+        },
+        {
+          "path": "inputs/plan/plan-review.json",
+          "sha256": "ed0f153effc420f04436147ee68995ab07f5100977f8d281df3f5b654bc48ea3"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "inputs/A1/cases.json",
+          "sha256": "2f35fd8a32d49133e5c9851285e0bcbc65b28114fe00139d1e18d0c46d25a746"
+        },
+        {
+          "path": "inputs/plan/search-plan.json",
+          "sha256": "8ad37583ad25a637de0701b3c90ee1682ceb91b63eafd0139d2993c0b888813a"
+        },
+        {
+          "path": "inputs/plan/plan-review.json",
+          "sha256": "ed0f153effc420f04436147ee68995ab07f5100977f8d281df3f5b654bc48ea3"
+        }
+      ],
+      "execution_ref": "Actual collaboration message /root/agent2_materials_cn acknowledged current inputs and material-only scope in this chat"
+    }
+  ],
+  "not_started": [
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7"
+  ],
+  "note": "Material pilot is a checkpoint within A2, not complete H2 Chinese naming delivery. No names authorized."
+}

@@ -1,0 +1,132 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-08T03:33:48.752Z",
+  "completed_at": "2026-11-08T13:12:53.500697+08:00",
+  "status": "three_small_packets_closed_zero_retained",
+  "actual_A1_basis_reused": [
+    "A1-final-input-reacceptance.json",
+    "A1-formation-feedback.json",
+    "search-plan.json",
+    "plan-review.json"
+  ],
+  "new_A1_research_claimed": false,
+  "actual_A2": "/root/continuous_a2",
+  "actual_A3_same_cn_en": "/root/live_a3",
+  "actual_A4": "/root/continuous_a4",
+  "new_materials": 2,
+  "existing_materials_reused_for_first_draft": 1,
+  "new_chinese_drafts": 3,
+  "new_chinese_families_explored": 3,
+  "chinese_quality_passed": 2,
+  "chinese_public_use_passed": 0,
+  "new_english_versions": 0,
+  "english_public_use_passed": 0,
+  "evidence_holds": 1,
+  "new_evidence_holds": 0,
+  "new_retained_families": 0,
+  "new_A3_candidate_query_executions": 17,
+  "new_root_candidate_query_executions": 0,
+  "new_root_material_source_queries": 1,
+  "cumulative_A3_candidate_query_executions": 329,
+  "root_additional_queries_prior_packet": 2,
+  "cumulative_recorded_candidate_query_executions": 331,
+  "cumulative_materials": 35,
+  "cumulative_chinese_drafts": 28,
+  "cumulative_english_versions": 22,
+  "catalog_counts_unchanged": {
+    "discussion_candidates": 24,
+    "research_reserves": 1,
+    "total_unique_families": 25,
+    "withdrawn_families": 1,
+    "historical_unique_families": 26
+  },
+  "reason": "园丁鸟已有同核心公司及园丁鸟·巢集软件，八查询后淘汰；橡皮鸭已有GitHub官方中文具名Copilot代理，九查询后淘汰，南京公司历史名单层级另存。灵感之外从未命名旧素材凝练，但首感偏创意栏目/文化工作室，质量未过、未查使用。三包均由原A4和同一A3实际零输入收尾，无合格双语新增。",
+  "query_breakdown": {
+    "C26_Chinese": 8,
+    "C27_Chinese": 9,
+    "C28_quality_reject_not_searched": 0,
+    "English_zero_inputs": 0
+  },
+  "pending_prior_item": "活变量/Maymatter仍待核实，本段没有反复旧403入口、追加补查或增加R3。",
+  "controls_and_registration": "阳性对照与共同登记受限入口按原run已执行记录复用；逐名登记访问状态按A3分别披露，未新做的不能冒称本次已核准。",
+  "website": "同一固定研究台从本分支feed读取每日记录，不重新部署界面、不改旧站。",
+  "whole_production_compliance_claimed": false,
+  "evidence_refs": [
+    {
+      "path": "A2-creation-execution-batch13.json",
+      "sha256": "7f036708f0eff287b0dd291ada3b98eb868b2710ad8a369dd161ebd50745ebdf"
+    },
+    {
+      "path": "A2-creation-execution-batch14.json",
+      "sha256": "b566c6e39f0b544b8a260abffd534ce51aaee6ba39c04d0bb414c53abbc72937"
+    },
+    {
+      "path": "A2-creation-execution-batch15.json",
+      "sha256": "4afa0e819b5b1456700f5b8a4d1556c1e0daebbff86a266049de0d0c4925859c"
+    },
+    {
+      "path": "A3-cn-batch15.json",
+      "sha256": "aa82bfa8e497155d5bbd8f27f3fbbc52fe6777287d2d63bf92c51997c3afd7f4"
+    },
+    {
+      "path": "A3-cn-batch16.json",
+      "sha256": "ce5acf487a72937c44e186ee344c309c6ad83d74b671ad2c50a432488085faa3"
+    },
+    {
+      "path": "A3-cn-batch17.json",
+      "sha256": "4ffc60d10e23345475e65c82acd5818968d4068e307f9b74d233cb2aa252b6d4"
+    },
+    {
+      "path": "A4-zero-batch13.json",
+      "sha256": "14719474cd9185281b21559068857c1c86a618589ef5182f45b69c59398d31e4"
+    },
+    {
+      "path": "A4-zero-batch14.json",
+      "sha256": "e01072bf39b96359647a452fd94dec9eaa2189cd7213974270546e2e058f3346"
+    },
+    {
+      "path": "A4-zero-batch15.json",
+      "sha256": "be403dbfdab54a3d64bc87ea302ef68055729f12c19b6092565b161a8495252a"
+    },
+    {
+      "path": "A3-en-zero-batch13.json",
+      "sha256": "870277ec039b8a8ae9ab57579b4d40b78cbfcfdc500daf6803c7b9a7ba3f23b0"
+    },
+    {
+      "path": "A3-en-zero-batch14.json",
+      "sha256": "9c07eb64248d7f1c5cbe84c04b77d9f2115c104e477d093d9c9dbf92a3f31aba"
+    },
+    {
+      "path": "A3-en-zero-batch15.json",
+      "sha256": "8c423639865abbbcd7fdcb4a150333581fc2f6a6ec2d5fb0b4189a0d3dd7fa07"
+    },
+    {
+      "path": "continuations/2026-11-08T033348Z/handoffs-batch13.json",
+      "sha256": "25bb2dbbc805d38331a0c2da74e07f04f833b9f1d8b4b70bc4d9501d0b7a399d"
+    },
+    {
+      "path": "continuations/2026-11-08T033348Z/handoffs-batch14.json",
+      "sha256": "827e5352db33e0e9c345c356712435769156097c1d4ed537afb08c1ae80cce25"
+    },
+    {
+      "path": "continuations/2026-11-08T033348Z/handoffs-batch15.json",
+      "sha256": "472d6278cbba8b10ef7d9bbdc9ad0aa8f4f8e638191b23e00716cfd9bcfd69bc"
+    },
+    {
+      "path": "continuations/2026-11-08T033348Z/decisions-through-batch15.json",
+      "sha256": "3c3d6523597943b538eb8dfbb23df8098fa0d27e0626c30949b6700f37f17185"
+    },
+    {
+      "path": "continuations/2026-11-08T033348Z/root-C26-use-verification.json",
+      "sha256": "f57c406be8ce0649ca2a9cca4f90b717295503c089d5282915b95b2908ea7b1f"
+    },
+    {
+      "path": "continuations/2026-11-08T033348Z/root-C27-use-verification.json",
+      "sha256": "f2ae55213d1525dfd23405ec10dcb88472656f475696f345602e556d5c97ffbe"
+    },
+    {
+      "path": "continuations/2026-11-08T033348Z/stale-material-status-correction.json",
+      "sha256": "525a94dfc03f9b38486d8caf654b5ce59fc596695581c0d96b872fa9e02d96eb"
+    }
+  ]
+}

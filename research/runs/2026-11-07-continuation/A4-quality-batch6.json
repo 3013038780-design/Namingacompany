@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T18:21:48+08:00",
+  "reviews": [
+    {
+      "candidate_id": "CT-E09",
+      "chinese_id": "CT-C02",
+      "english": "Postmarked Earth",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个普通词可直接按词读，无怪拼音。",
+          "counter_association": "postmarked末尾辅音与Earth的th有发音成本。"
+        },
+        "spelling": {
+          "reason": "完整普通词，拼写有英语既有规范。",
+          "counter_association": "需要查PostmarkedEarth连写。"
+        },
+        "formation": {
+          "reason": "书信回信与来源标记组成一个完整场景。",
+          "counter_association": "邮戳为类比，不能声称光有邮戳。"
+        },
+        "bilingual_relation": {
+          "reason": "回信与地球来处的信息共同建立同一观测故事。",
+          "counter_association": "英文重点是来处，而非逐字回复。"
+        },
+        "distinctiveness": {
+          "reason": "完整画面有辨识，可容纳理解世界的机构身份。",
+          "counter_association": "可能像科幻/文化品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "编辑意见；待主控独评和原A3，不能以无输入或返工次数代替使用核查。"
+    }
+  ]
+}

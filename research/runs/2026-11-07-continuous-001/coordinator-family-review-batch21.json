@@ -1,0 +1,93 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-08T19:15:13.599271+08:00",
+  "blind_quality_sealed_before_numeric_comparison": true,
+  "reviews": [
+    {
+      "candidate_id": "C1-C36",
+      "decision": "family_pass_to_cn_screen",
+      "quality_root": 25,
+      "quality_producer": 25,
+      "max_axis_difference": 0,
+      "comparison": "与旧分身有别写时复制、异步等待暂停调度、合符合对凭证、复证研究重复不同，限定共享对象读取后以版本比较提交冲突，不退成泛可信或并行。"
+    },
+    {
+      "candidate_id": "C1-C37",
+      "decision": "family_pass_to_cn_screen",
+      "quality_root": 25,
+      "quality_producer": 25,
+      "max_axis_difference": 0,
+      "comparison": "与旧因序依赖偏序/逻辑时钟、异步调度、噪声种子随机初态再去噪、二周目重启不同；随机等待与鸣响节奏的整体器物不是单换概率论文或时间近义词。"
+    }
+  ],
+  "historical_samples": [
+    {
+      "file": "research/runs/2026-11-06-round2/candidates.json",
+      "sha256": "988c2b975769b1da82e528e0ee999f025f94a38af62ace9752259129329995cf",
+      "proposal": {
+        "id": "R2C03",
+        "name": "异步",
+        "family_id": "R2F03",
+        "material_ids": [
+          "R2M03"
+        ],
+        "source_urls": [
+          "https://doc.rust-lang.org/book/ch17-01-futures-and-syntax.html"
+        ],
+        "construction_type": "source_term",
+        "meaning": "不同进程按各自节奏前进，暂停不等于结束。",
+        "combination_reason": "技术从业者熟悉，两个字的节奏清楚，有机构气质。",
+        "technology_brand_fit": "技术从业者熟悉，两个字的节奏清楚，有机构气质。",
+        "weakness": "异步不是持续学习；已有软件公司使用。",
+        "editorial_status": "reject_existing_use",
+        "occupancy_status": "reject_existing_software_company_brand",
+        "new_recommendation": false,
+        "final_review_reason": "已有异步科技软件开发品牌及广州异步科技有限公司，按已有科技使用否决。"
+      }
+    },
+    {
+      "file": "research/runs/2026-11-07-continuation/A2-batch5.json",
+      "sha256": "67bec68ded5a23fa64a67fd22349ef1bba1adbb82a49ec67bc1d6e3c76418261",
+      "proposal": {
+        "id": "CT-C19",
+        "name": "噪声种子",
+        "pinyin": "zào shēng zhǒng zi",
+        "family_id": "CT-F-generative-noise-initialization",
+        "source_world": "S3 生成计算与随机表示",
+        "case_ids": [
+          "B002",
+          "B076"
+        ],
+        "mechanism_ids": [
+          "CN3",
+          "CN2"
+        ],
+        "source": {
+          "title": "Ho/Jain/Abbeel：Denoising Diffusion Probabilistic Models",
+          "url": "https://arxiv.org/pdf/2006.11239",
+          "read_scope": "论文第1–2页摘要、引言及Background式1–2，重点高斯初始分布与训练得到的反向链；非仅摘要",
+          "date": "2020-12-16"
+        },
+        "fact": "该扩散模型的反向生成链从高斯分布抽样开始，经过学习到的转移生成数据样本。随机数生成器另可用seed初始化状态；seed不是噪声本身，确定seed也不自动跨软件版本保证相同输出。",
+        "crossing": "从Google的CN3寻找生成计算里的真实起点，再把“随机初态能够进入生成过程”变成像Sakana一样可叫的完整物象；不只把Max或AI后缀拼进名字。",
+        "meaning": "看似没有内容的一团噪声，可以成为某种生成过程的开端。“种子”兼有计算里的初始化和日常的起点含义，属于品牌比喻；不是说噪声天然藏着所有知识。",
+        "layers": [
+          "随机初始状态",
+          "可复现计算的种子概念",
+          "经学习到的过程形成新的可见结果"
+        ],
+        "retained": "随机起点与有结构生成过程之间的真实计算关系",
+        "lost": "本案主要来自生成模型，不是持续学习；噪声本身不具有目标或智能",
+        "strength": "四字是完整名词，噪声与种子的反差有记点；科技背景在字面也能看出。",
+        "weakness": "噪声可能被理解为污染或低质量信息；种子容易带生成工具或模型参数名的感觉，公司延展性需判断。",
+        "history_check": "没有复用星尘炉、负熵流或孤子雨：该家族专指从随机初态开始的学习型生成过程，不把去噪/噪点变体再计新增。",
+        "additional_source": {
+          "url": "https://numpy.org/doc/stable/reference/random/generator.html",
+          "read_scope": "官方Generator文档108–179及189–191行，实际读初始化参数、复现示例、无跨版本兼容保证"
+        }
+      }
+    }
+  ],
+  "source_review": "root已实际读微软34–139与189–200及Oracle79–91；Waterloo同SHA本地205页论文封面及31–33页，未通读；骰子是概率品牌比喻不是原文装置/六面均匀变量精确实现。",
+  "registration_claimed": false
+}

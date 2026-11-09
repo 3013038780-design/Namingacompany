@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English screening",
+  "executed_at": "2026-11-07T23:15:16.358377+08:00",
+  "candidate_id": "C1-E15",
+  "chinese_id": "C1-C19",
+  "decision": "return_for_alternative",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch15.md",
+      "sha256": "aae67ca560793f88f3b3849191ebe1d7ca40397816e7d21b05bbfdbff19668c9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch15.json",
+      "sha256": "3c21d71f7a278bd278d595400c039e9617b2f705ccffc75e0003daae506eb16a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch15.json",
+      "sha256": "2cffd57a339003bddad722921b6f41d269d7b6e3bf047749e19e0474bed693ba"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch15.json",
+      "sha256": "a9f5252972777cdf2e4fdb3060bfc03088e3e9485d1894f9450597e8abd4f492"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch9.json",
+      "sha256": "a96a892a652654642fe4a7df0591ade4a7c936e5865429556cc62f1c2b6f60ff"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-batch15.md",
+      "sha256": "422a14468846fc98ab870071cfafc86ee9125d2eb1f2ab1a2bdece559bdaebff"
+    },
+    {
+      "path": "A3-en-batch15.json",
+      "sha256": "069c869d638135281888267320e9a184a05506e1b13016779622464772d95d46"
+    }
+  ],
+  "actual_new_candidate_queries": 6,
+  "actual_new_control_queries": 0,
+  "prior_candidate_queries": 204,
+  "cumulative_candidate_queries": 210,
+  "actual_execution": "实际读取A4预览/候选/两评分及原中文筛查，执行6组独立查询，打开RBC/作者Devpost/商业官网/英国官方企业记录并核对实际命名；退原A4最后返工1次。Ownwrite质量未过未查，不计搜索。",
+  "boundary": "不改中文、总库、旧稿或git；登记入口403旧记录复用，英国只核具体非科技主体，不称商标可用性完成。"
+}

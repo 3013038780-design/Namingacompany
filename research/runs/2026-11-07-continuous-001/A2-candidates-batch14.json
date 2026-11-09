@@ -1,0 +1,87 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T11:43:00.965295+08:00",
+  "candidates": [
+    {
+      "id": "C1-C27",
+      "name": "橡皮鸭",
+      "pinyin": "xiàng pí yā",
+      "material_id": "C1-M35",
+      "material_ids": [
+        "C1-M35"
+      ],
+      "family_id": "C1-BF-inert-explanation-partner",
+      "plan_direction_id": "C1-D-S1",
+      "case_ids": [
+        "B015",
+        "B025"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P4",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Hunt & Thomas, The Pragmatic Programmer, Debugging章大学课程节选",
+          "url": "https://courses.cs.duke.edu/compsci308/spring26/readings/pragmatic-programmer-debugging.pdf",
+          "published_at": null,
+          "reading_location": "实际下载11页课程节选，仅读PDF第8–9页（印刷94–95页）Rubber Ducking正文和脚注；未读完整Debugging章或整本书。版本版权页未在本次确认，不拿spring26课程路径当书籍出版日期。",
+          "reading_scope": "excerpt",
+          "access": "body_via_curl_after_web403",
+          "method": "curl_PDF_pypdf_text",
+          "local_path": "/tmp/continuous001-pragmatic-debugging.pdf",
+          "sha256": "2939e2160448acfdc0263e23148383dcc2df62ac742e844d5d4e6fe1127a3693",
+          "read_at": "2026-11-08T11:43:00.965295+08:00"
+        },
+        {
+          "title": "Keith Schwarz, Stanford CS106B: Debugging Your Code",
+          "url": "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1234/resources/debugging_guide.html",
+          "published_at": "2023-01-05 page last updated; 2023 winter archived course",
+          "reading_location": "实际读公开讲义L104–126，Step Three Rubber-Duck Debug及后续求助边界；未把作者经验比例当实验统计。",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body",
+          "read_at": "2026-11-08T11:43:00.965295+08:00"
+        }
+      ],
+      "source_urls": [
+        "https://courses.cs.duke.edu/compsci308/spring26/readings/pragmatic-programmer-debugging.pdf",
+        "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1234/resources/debugging_guide.html"
+      ],
+      "formation": "采用一个既有完整日常物件称呼，而不是把橡皮和鸭各编寓意。只保留同一对象的程序员文化角色，不为避重先改字或硬造新动物；本次没有提交不自然的动作句变体。",
+      "relation_sentence": "一个不回答的桌面对象，也能让解释者把默认假设讲清楚，发现自己忽略的问题。",
+      "condensation_path": "以能在桌面指出来的主体承担身份，把向它解释这一不寻常用法留作第二层；不是把鸭拟成天生聪明或会训练模型。",
+      "meaning": "让思考说得出来的桌边伙伴。",
+      "crossing": "洗澡玩具的日常形象与软件实践里的无言听众，是同一个真实物件，不是两个独立寓意拼接。",
+      "layers": [
+        "读得出、能画出、好复述的日常物件",
+        "程序员把默认假设讲出来的实践角色",
+        "技术可以通过改变思考条件而帮助人工作"
+      ],
+      "material_feature_retained": "保留听众不需要回答而解释者仍可能有所得的关系。",
+      "material_feature_lost": "名字不直接说明逐行解释，也不包含定位bug、构造输入或求助的完整调试流程。",
+      "why_name_not_generic": "不是把成长/理解换个同义词，也不是换鸟种讲群体；是完整日常主体在具体实践中获得另一角色。",
+      "shortcoming": "可能先像儿童玩具/洗浴用品，且英文对应词有很强既有技术文化色彩。广义Lab身份需独立审，不因出处或趣味性强加过线；也不能把公司只定位成调试工具。",
+      "science_boundary": "不证明鸭子有理解、代码解释必然正确或所有错误可自解；书中轶事不当命名历史普遍实验，Stanford的经验概率不作可复现统计。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "园丁鸟是活的动物组织外部展示环境，此处是桌面无生命玩具承接解释行为；不是换鸟种。会意依赖双方形成共同参照，这里听者可完全无理解或回复；旧反例/复证是逻辑或新数据检验，此处是说者外显自身假设。旧推理多一步若只剩泛化自我思考会有家族风险，因此保留向无言物件解释的具体对象和角色，不因新书名自动新族。 历史橡皮鸭/rubber duck检索未见既有候选；这不是市场使用筛查。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是橡皮鸭，做人工智能研究。",
+        "橡皮鸭发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened"
+    }
+  ],
+  "scope": "一个中文草案，未查使用/配英文；不强凑第二案。"
+}

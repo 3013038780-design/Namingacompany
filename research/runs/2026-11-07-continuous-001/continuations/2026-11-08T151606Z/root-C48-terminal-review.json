@@ -1,0 +1,53 @@
+{
+  "reviewed_at": "2026-11-08T23:46:06.220126+08:00",
+  "reviewer": "/root",
+  "chinese_id": "C1-C48",
+  "decision": "english_rework_exhausted_no_catalog_admission",
+  "reason": "中文双25、十查询公开初筛通过；Neither六查询已有同名AI/MCP软件，Undetermined主控20/作者21质量未过未查，最后R2实际无合格选稿，同一原A3真实零新英文验收。只提交两英文版，E41未用，无R3；不倒写中文占用，不作为待核实储备。",
+  "english_versions_submitted": 2,
+  "remaining_reworks": 0,
+  "root_independence": "先无分预览封存后看作者，E39各轴差<=1，E40各轴差<=1；没有>=2轴争议被跳过。",
+  "source_review": "实际固定PG18两章及CN筛查教材用法消歧范围见family/rootCN31；不把教材哲学或物理表述当命名科学来源。",
+  "refs": [
+    {
+      "path": "A2-candidates-batch29.json",
+      "sha256": "780d764e852ce7ad10b78f299763512d2079561557b928fdb553480d6acfa01e"
+    },
+    {
+      "path": "coordinator-cn-batch29.json",
+      "sha256": "057efaa78caeeb23cb4bf580e165b743134411987dde24dcb9463b76af42a299"
+    },
+    {
+      "path": "coordinator-family-review-batch29.json",
+      "sha256": "3cfbb2ddf9a3a1da24ea5c239e227e8e6678ecc6dfd8a28cfb81978fa0c4379a"
+    },
+    {
+      "path": "A3-cn-batch31.json",
+      "sha256": "5fbb8fadc893d38a198b045c0e553ed059814efebd6a2fc3deeea26506b61292"
+    },
+    {
+      "path": "coordinator-en-batch36.json",
+      "sha256": "b38a977ea641e3285879587dd051e5dab83c80c535cd22a1b06c6cfb10ac397b"
+    },
+    {
+      "path": "A3-en-batch36.json",
+      "sha256": "146267daf1e47ac557e3d52c66336d0159afe31bb99867a637207eae8c009b68"
+    },
+    {
+      "path": "coordinator-en-batch37.json",
+      "sha256": "b14f43c216e5c561c86940005ba9e2527fdf96a5bc96c9ea8e929e5ac82c4149"
+    },
+    {
+      "path": "A3-en-batch37.json",
+      "sha256": "6ddade83ade21283171176f0286daddea245e8dc4f3afb72c5cca28c49ec3332"
+    },
+    {
+      "path": "A4-creation-execution-batch38.json",
+      "sha256": "3e70b030e2c9458f7df298284d33df2145346badbf8bc3c5d42894415b1d9668"
+    },
+    {
+      "path": "A3-en-batch38.json",
+      "sha256": "d4abce763f9e9471b433c0ccf60682ff4cdd735ab707b43c269908e644feda6b"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "reviewed_at": "2026-11-07T18:47:09.013931+08:00",
+  "independence": "Read producer preview batch12 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C16",
+      "name": "Emberhand",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通词合成三个可读音节",
+          "counter_association": "h衔接需顺读"
+        },
+        "spelling": {
+          "reason": "ember和hand完整保留",
+          "counter_association": "需查分合写"
+        },
+        "grounding": {
+          "reason": "火种与帮助递交之手关系透明",
+          "counter_association": "不是原文英语译词"
+        },
+        "bilingual_relation": {
+          "reason": "中文动作与英文承担动作的角色同核",
+          "counter_association": "余烬非无限能量"
+        },
+        "distinctiveness": {
+          "reason": "有鲜明可称呼主角",
+          "counter_association": "像幻想角色或工艺品牌"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E20"
+    },
+    {
+      "candidate_id": "CT-C18",
+      "name": "Rayturn",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个单音节顺口",
+          "counter_association": "turn的r有口音差异"
+        },
+        "spelling": {
+          "reason": "完整词短而易拼",
+          "counter_association": "需查Ray Turn分写"
+        },
+        "grounding": {
+          "reason": "光路转向真实关系清楚",
+          "counter_association": "不是引力透镜标准术语"
+        },
+        "bilingual_relation": {
+          "reason": "两语同一传播路径变化",
+          "counter_association": "不是光有主动意图"
+        },
+        "distinctiveness": {
+          "reason": "整体简洁有技术画面",
+          "counter_association": "可能像光追工具"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E21"
+    }
+  ]
+}

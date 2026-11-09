@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-08T10:53:41.204535+08:00",
+  "independence": "Read producer preview batch20 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C24",
+      "name": "Reinquire",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "标准re和inquire音节可以正常叫出",
+          "counter_association": "元音交界及口音有三四音节差异"
+        },
+        "spelling": {
+          "reason": "完整前缀和动词无需任意改字",
+          "counter_association": "re-inquire和re-enquire拼写竞争"
+        },
+        "grounding": {
+          "reason": "再次调查的构词与原研究过程真实相接",
+          "counter_association": "不是报告正式术语或已核词典独立条目"
+        },
+        "bilingual_relation": {
+          "reason": "中文再检验与英文再调查指同一问题的继续认识",
+          "counter_association": "英文不独自包含新数据条件"
+        },
+        "distinctiveness": {
+          "reason": "整体可作研究机构称呼而不限一项工具",
+          "counter_association": "可能先像咨询调查或检索服务"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E20"
+    }
+  ]
+}

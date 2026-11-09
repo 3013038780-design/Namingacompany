@@ -1,0 +1,100 @@
+{
+  "reviewed_at": "2026-11-07T16:17:35+08:00",
+  "producer_scores_unsealed_after_coordinator_sha256": "79b5907e6f4708798ba227d0203710b437400708942ba42f9981773855bd69e5",
+  "axis_mapping": {
+    "memorability": "distinctiveness",
+    "technology_lab_fit": "lab_fit",
+    "longevity": "extension"
+  },
+  "rows": [
+    {
+      "candidate_id": "MC-A2-01",
+      "name": "原语",
+      "producer_scores_normalized": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 5,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 5,
+        "semantic_coherence": 4
+      },
+      "producer_total": 25,
+      "coordinator_total": 26,
+      "unresolved_differences": {},
+      "pass_both": true
+    },
+    {
+      "candidate_id": "MC-A2-02",
+      "name": "倍频",
+      "producer_scores_normalized": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "producer_total": 24,
+      "coordinator_total": 24,
+      "unresolved_differences": {},
+      "pass_both": false
+    },
+    {
+      "candidate_id": "MC-A2-03",
+      "name": "声子",
+      "producer_scores_normalized": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "coordinator_scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "producer_total": 25,
+      "coordinator_total": 25,
+      "unresolved_differences": {},
+      "pass_both": true
+    }
+  ],
+  "selected_for_A3": [
+    {
+      "id": "MC-A2-01",
+      "name": "原语"
+    },
+    {
+      "id": "MC-A2-03",
+      "name": "声子"
+    }
+  ],
+  "not_screened": [
+    {
+      "id": "MC-A2-02",
+      "name": "倍频",
+      "reason": "中文总分24且主控Lab身份3，不送查重；未作占用判断。"
+    }
+  ]
+}

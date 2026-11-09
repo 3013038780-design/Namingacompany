@@ -1,0 +1,2859 @@
+{
+  "scanned_at": "2026-11-07T19:45:18.458527+08:00",
+  "scope": "逐JSON解析name/chinese/english/family等字段；不是逐份全文人工重读",
+  "file_count": 283,
+  "unique_name_or_family_strings": 503,
+  "note": "含案例、字面版本及家族ID，不能当作候选数量。",
+  "files": [
+    "research/runs/2026-11-06/candidates.json",
+    "research/runs/2026-11-06/cases.json",
+    "research/runs/2026-11-06/decisions.json",
+    "research/runs/2026-11-06/editorial.json",
+    "research/runs/2026-11-06/english.json",
+    "research/runs/2026-11-06/final.json",
+    "research/runs/2026-11-06/history.json",
+    "research/runs/2026-11-06/materials.json",
+    "research/runs/2026-11-06/rejection-evidence.json",
+    "research/runs/2026-11-06/run.json",
+    "research/runs/2026-11-06/screening.json",
+    "research/runs/2026-11-06/source_review.json",
+    "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+    "research/runs/2026-11-06-agent1-baseline105/cases.json",
+    "research/runs/2026-11-06-agent1-baseline105/run.json",
+    "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+    "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+    "research/runs/2026-11-06-agent1-expansion/cases.json",
+    "research/runs/2026-11-06-agent1-expansion/inventory.json",
+    "research/runs/2026-11-06-agent1-expansion/run.json",
+    "research/runs/2026-11-06-agent1-expansion/source_review.json",
+    "research/runs/2026-11-06-agent2-material-pilot/format-storage.json",
+    "research/runs/2026-11-06-agent2-material-pilot/handoffs.json",
+    "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+    "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/taxonomy.json",
+    "research/runs/2026-11-06-agent2-material-pilot/inputs/execution/preferences.json",
+    "research/runs/2026-11-06-agent2-material-pilot/inputs/plan/plan-review.json",
+    "research/runs/2026-11-06-agent2-material-pilot/inputs/plan/search-plan.json",
+    "research/runs/2026-11-06-agent2-material-pilot/materials.json",
+    "research/runs/2026-11-06-agent2-material-pilot/pilot-review.json",
+    "research/runs/2026-11-06-agent2-material-pilot/producer-receipt.json",
+    "research/runs/2026-11-06-agent2-material-pilot/reading-log.json",
+    "research/runs/2026-11-06-agent2-material-pilot/revisions/v1/materials.json",
+    "research/runs/2026-11-06-agent2-material-pilot/revisions/v1/producer-receipt.json",
+    "research/runs/2026-11-06-agent2-material-pilot/revisions/v1/reading-log.json",
+    "research/runs/2026-11-06-agent2-material-pilot/rework.json",
+    "research/runs/2026-11-06-agent2-material-pilot/run.json",
+    "research/runs/2026-11-06-agent2-material-pilot/source-review.json",
+    "research/runs/2026-11-06-agent2-material-pilot/validation.json",
+    "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+    "research/runs/2026-11-06-agent2-materials-cn/editorial-first-impressions.json",
+    "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+    "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json",
+    "research/runs/2026-11-06-agent2-materials-cn/format-normalization.json",
+    "research/runs/2026-11-06-agent2-materials-cn/handoffs.json",
+    "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json",
+    "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/run.json",
+    "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/source_review.json",
+    "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/taxonomy.json",
+    "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+    "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json",
+    "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/names-preview.json",
+    "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/producer-quality.json",
+    "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/reading-log.json",
+    "research/runs/2026-11-06-agent2-materials-cn/inputs/execution/preferences.json",
+    "research/runs/2026-11-06-agent2-materials-cn/materials.json",
+    "research/runs/2026-11-06-agent2-materials-cn/names-preview.json",
+    "research/runs/2026-11-06-agent2-materials-cn/producer-quality.json",
+    "research/runs/2026-11-06-agent2-materials-cn/producer-rework.json",
+    "research/runs/2026-11-06-agent2-materials-cn/quality-comparison.json",
+    "research/runs/2026-11-06-agent2-materials-cn/reading-log.json",
+    "research/runs/2026-11-06-agent2-materials-cn/review-status.json",
+    "research/runs/2026-11-06-agent2-materials-cn/run.json",
+    "research/runs/2026-11-06-agent2-materials-cn/source-review.json",
+    "research/runs/2026-11-06-agent2-materials-cn/upstream.json",
+    "research/runs/2026-11-06-agent2-materials-cn/validation.json",
+    "research/runs/2026-11-06-agent2-search-plan/handoffs.json",
+    "research/runs/2026-11-06-agent2-search-plan/inputs/A1/cases.json",
+    "research/runs/2026-11-06-agent2-search-plan/inputs/A1/taxonomy.json",
+    "research/runs/2026-11-06-agent2-search-plan/inputs/execution/preferences.json",
+    "research/runs/2026-11-06-agent2-search-plan/plan-review.json",
+    "research/runs/2026-11-06-agent2-search-plan/reading-access-log.json",
+    "research/runs/2026-11-06-agent2-search-plan/reviews/v1.json",
+    "research/runs/2026-11-06-agent2-search-plan/revisions/v1/reading-access-log.json",
+    "research/runs/2026-11-06-agent2-search-plan/revisions/v1/search-plan.json",
+    "research/runs/2026-11-06-agent2-search-plan/rework.json",
+    "research/runs/2026-11-06-agent2-search-plan/run.json",
+    "research/runs/2026-11-06-agent2-search-plan/search-plan.json",
+    "research/runs/2026-11-06-agent2-search-plan/validation.json",
+    "research/runs/2026-11-06-round2/candidates.json",
+    "research/runs/2026-11-06-round2/editorial.json",
+    "research/runs/2026-11-06-round2/materials.json",
+    "research/runs/2026-11-06-round2/run.json",
+    "research/runs/2026-11-06-round2/screening.json",
+    "research/runs/2026-11-07-continuation/A1.json",
+    "research/runs/2026-11-07-continuation/A2-batch1.json",
+    "research/runs/2026-11-07-continuation/A2-batch2.json",
+    "research/runs/2026-11-07-continuation/A2-batch3.json",
+    "research/runs/2026-11-07-continuation/A2-batch4.json",
+    "research/runs/2026-11-07-continuation/A2-batch5.json",
+    "research/runs/2026-11-07-continuation/A2-batch6.json",
+    "research/runs/2026-11-07-continuation/A2-batch7.json",
+    "research/runs/2026-11-07-continuation/A2-batch8.json",
+    "research/runs/2026-11-07-continuation/A2-index32.json",
+    "research/runs/2026-11-07-continuation/A2-quality-batch1.json",
+    "research/runs/2026-11-07-continuation/A2-quality-batch2.json",
+    "research/runs/2026-11-07-continuation/A2-quality-batch3.json",
+    "research/runs/2026-11-07-continuation/A2-quality-batch4.json",
+    "research/runs/2026-11-07-continuation/A2-quality-batch5.json",
+    "research/runs/2026-11-07-continuation/A2-quality-batch6.json",
+    "research/runs/2026-11-07-continuation/A2-quality-batch7.json",
+    "research/runs/2026-11-07-continuation/A2-quality-batch8.json",
+    "research/runs/2026-11-07-continuation/A2-reading-preparation.json",
+    "research/runs/2026-11-07-continuation/A2-supplement8.json",
+    "research/runs/2026-11-07-continuation/A2.json",
+    "research/runs/2026-11-07-continuation/A3-cn-batch1.json",
+    "research/runs/2026-11-07-continuation/A3-cn-batch2.json",
+    "research/runs/2026-11-07-continuation/A3-cn-batch3.json",
+    "research/runs/2026-11-07-continuation/A3-cn-batch4.json",
+    "research/runs/2026-11-07-continuation/A3-cn-batch5.json",
+    "research/runs/2026-11-07-continuation/A3-cn-batch6.json",
+    "research/runs/2026-11-07-continuation/A3-cn-batch7.json",
+    "research/runs/2026-11-07-continuation/A3-cn-batch8.json",
+    "research/runs/2026-11-07-continuation/A3-controls.json",
+    "research/runs/2026-11-07-continuation/A3-en-batch1.json",
+    "research/runs/2026-11-07-continuation/A3-en-batch10.json",
+    "research/runs/2026-11-07-continuation/A3-en-batch11.json",
+    "research/runs/2026-11-07-continuation/A3-en-batch12.json",
+    "research/runs/2026-11-07-continuation/A3-en-batch13.json",
+    "research/runs/2026-11-07-continuation/A3-en-batch14.json",
+    "research/runs/2026-11-07-continuation/A3-en-batch15.json",
+    "research/runs/2026-11-07-continuation/A3-en-batch16.json",
+    "research/runs/2026-11-07-continuation/A3-en-batch17.json",
+    "research/runs/2026-11-07-continuation/A3-en-batch18.json",
+    "research/runs/2026-11-07-continuation/A3-en-batch19.json",
+    "research/runs/2026-11-07-continuation/A3-en-batch2.json",
+    "research/runs/2026-11-07-continuation/A3-en-batch20.json",
+    "research/runs/2026-11-07-continuation/A3-en-batch3.json",
+    "research/runs/2026-11-07-continuation/A3-en-batch4.json",
+    "research/runs/2026-11-07-continuation/A3-en-batch5.json",
+    "research/runs/2026-11-07-continuation/A3-en-batch6.json",
+    "research/runs/2026-11-07-continuation/A3-en-batch7.json",
+    "research/runs/2026-11-07-continuation/A3-en-batch8.json",
+    "research/runs/2026-11-07-continuation/A3-en-batch9.json",
+    "research/runs/2026-11-07-continuation/A3-index.json",
+    "research/runs/2026-11-07-continuation/A3-thoughtgear-registry.json",
+    "research/runs/2026-11-07-continuation/A4-batch1.json",
+    "research/runs/2026-11-07-continuation/A4-batch10.json",
+    "research/runs/2026-11-07-continuation/A4-batch11.json",
+    "research/runs/2026-11-07-continuation/A4-batch12.json",
+    "research/runs/2026-11-07-continuation/A4-batch13.json",
+    "research/runs/2026-11-07-continuation/A4-batch14.json",
+    "research/runs/2026-11-07-continuation/A4-batch15.json",
+    "research/runs/2026-11-07-continuation/A4-batch16.json",
+    "research/runs/2026-11-07-continuation/A4-batch17.json",
+    "research/runs/2026-11-07-continuation/A4-batch18.json",
+    "research/runs/2026-11-07-continuation/A4-batch19.json",
+    "research/runs/2026-11-07-continuation/A4-batch2.json",
+    "research/runs/2026-11-07-continuation/A4-batch20.json",
+    "research/runs/2026-11-07-continuation/A4-batch3.json",
+    "research/runs/2026-11-07-continuation/A4-batch4.json",
+    "research/runs/2026-11-07-continuation/A4-batch5.json",
+    "research/runs/2026-11-07-continuation/A4-batch6.json",
+    "research/runs/2026-11-07-continuation/A4-batch7.json",
+    "research/runs/2026-11-07-continuation/A4-batch8.json",
+    "research/runs/2026-11-07-continuation/A4-batch9.json",
+    "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json",
+    "research/runs/2026-11-07-continuation/A4-quality-batch1.json",
+    "research/runs/2026-11-07-continuation/A4-quality-batch10.json",
+    "research/runs/2026-11-07-continuation/A4-quality-batch11.json",
+    "research/runs/2026-11-07-continuation/A4-quality-batch12.json",
+    "research/runs/2026-11-07-continuation/A4-quality-batch13.json",
+    "research/runs/2026-11-07-continuation/A4-quality-batch14.json",
+    "research/runs/2026-11-07-continuation/A4-quality-batch15.json",
+    "research/runs/2026-11-07-continuation/A4-quality-batch16.json",
+    "research/runs/2026-11-07-continuation/A4-quality-batch17.json",
+    "research/runs/2026-11-07-continuation/A4-quality-batch18.json",
+    "research/runs/2026-11-07-continuation/A4-quality-batch19.json",
+    "research/runs/2026-11-07-continuation/A4-quality-batch2.json",
+    "research/runs/2026-11-07-continuation/A4-quality-batch20.json",
+    "research/runs/2026-11-07-continuation/A4-quality-batch3.json",
+    "research/runs/2026-11-07-continuation/A4-quality-batch4.json",
+    "research/runs/2026-11-07-continuation/A4-quality-batch5.json",
+    "research/runs/2026-11-07-continuation/A4-quality-batch6.json",
+    "research/runs/2026-11-07-continuation/A4-quality-batch7.json",
+    "research/runs/2026-11-07-continuation/A4-quality-batch8.json",
+    "research/runs/2026-11-07-continuation/A4-quality-batch9.json",
+    "research/runs/2026-11-07-continuation/A4.json",
+    "research/runs/2026-11-07-continuation/coordinator-cn-batch1.json",
+    "research/runs/2026-11-07-continuation/coordinator-cn-batch2.json",
+    "research/runs/2026-11-07-continuation/coordinator-cn-batch3.json",
+    "research/runs/2026-11-07-continuation/coordinator-cn-batch4.json",
+    "research/runs/2026-11-07-continuation/coordinator-cn-batch5.json",
+    "research/runs/2026-11-07-continuation/coordinator-cn-batch6.json",
+    "research/runs/2026-11-07-continuation/coordinator-cn-batch7.json",
+    "research/runs/2026-11-07-continuation/coordinator-cn-batch8.json",
+    "research/runs/2026-11-07-continuation/coordinator-en-batch1.json",
+    "research/runs/2026-11-07-continuation/coordinator-en-batch10.json",
+    "research/runs/2026-11-07-continuation/coordinator-en-batch11.json",
+    "research/runs/2026-11-07-continuation/coordinator-en-batch12.json",
+    "research/runs/2026-11-07-continuation/coordinator-en-batch13.json",
+    "research/runs/2026-11-07-continuation/coordinator-en-batch14.json",
+    "research/runs/2026-11-07-continuation/coordinator-en-batch15.json",
+    "research/runs/2026-11-07-continuation/coordinator-en-batch16.json",
+    "research/runs/2026-11-07-continuation/coordinator-en-batch17.json",
+    "research/runs/2026-11-07-continuation/coordinator-en-batch18.json",
+    "research/runs/2026-11-07-continuation/coordinator-en-batch19.json",
+    "research/runs/2026-11-07-continuation/coordinator-en-batch2.json",
+    "research/runs/2026-11-07-continuation/coordinator-en-batch20.json",
+    "research/runs/2026-11-07-continuation/coordinator-en-batch3.json",
+    "research/runs/2026-11-07-continuation/coordinator-en-batch4.json",
+    "research/runs/2026-11-07-continuation/coordinator-en-batch5.json",
+    "research/runs/2026-11-07-continuation/coordinator-en-batch6.json",
+    "research/runs/2026-11-07-continuation/coordinator-en-batch7.json",
+    "research/runs/2026-11-07-continuation/coordinator-en-batch8.json",
+    "research/runs/2026-11-07-continuation/coordinator-en-batch9.json",
+    "research/runs/2026-11-07-continuation/daily-20.json",
+    "research/runs/2026-11-07-continuation/delivery.json",
+    "research/runs/2026-11-07-continuation/handoffs.json",
+    "research/runs/2026-11-07-continuation/inputs/preferences-at-base.json",
+    "research/runs/2026-11-07-continuation/inputs/preferences.json",
+    "research/runs/2026-11-07-continuation/progress.json",
+    "research/runs/2026-11-07-continuation/quality-index.json",
+    "research/runs/2026-11-07-continuation/reserves.json",
+    "research/runs/2026-11-07-continuation/run.json",
+    "research/runs/2026-11-07-continuation/source-review.json",
+    "research/runs/2026-11-07-continuation/validation.json",
+    "research/runs/2026-11-07-live-delivery/A1.json",
+    "research/runs/2026-11-07-live-delivery/A2-batch1.json",
+    "research/runs/2026-11-07-live-delivery/A2-batch2.json",
+    "research/runs/2026-11-07-live-delivery/A2-quality-batch1.json",
+    "research/runs/2026-11-07-live-delivery/A2-quality-batch2.json",
+    "research/runs/2026-11-07-live-delivery/A2-receipt.json",
+    "research/runs/2026-11-07-live-delivery/A3-cn-batch1.json",
+    "research/runs/2026-11-07-live-delivery/A3-cn-batch2.json",
+    "research/runs/2026-11-07-live-delivery/A3-controls.json",
+    "research/runs/2026-11-07-live-delivery/A3-en-batch1.json",
+    "research/runs/2026-11-07-live-delivery/A3-en-batch2.json",
+    "research/runs/2026-11-07-live-delivery/A3-en-batch3.json",
+    "research/runs/2026-11-07-live-delivery/A3-en-batch4.json",
+    "research/runs/2026-11-07-live-delivery/A3-en-batch5.json",
+    "research/runs/2026-11-07-live-delivery/A3-en-batch6.json",
+    "research/runs/2026-11-07-live-delivery/A3-en-batch7.json",
+    "research/runs/2026-11-07-live-delivery/A3-receipt.json",
+    "research/runs/2026-11-07-live-delivery/A3-registration-access.json",
+    "research/runs/2026-11-07-live-delivery/A4-batch1.json",
+    "research/runs/2026-11-07-live-delivery/A4-batch2.json",
+    "research/runs/2026-11-07-live-delivery/A4-batch3.json",
+    "research/runs/2026-11-07-live-delivery/A4-batch4.json",
+    "research/runs/2026-11-07-live-delivery/A4-batch5.json",
+    "research/runs/2026-11-07-live-delivery/A4-batch6.json",
+    "research/runs/2026-11-07-live-delivery/A4-batch7.json",
+    "research/runs/2026-11-07-live-delivery/A4-followup.json",
+    "research/runs/2026-11-07-live-delivery/A4-quality-batch1.json",
+    "research/runs/2026-11-07-live-delivery/A4-quality-batch2.json",
+    "research/runs/2026-11-07-live-delivery/A4-quality-batch3.json",
+    "research/runs/2026-11-07-live-delivery/A4-quality-batch4.json",
+    "research/runs/2026-11-07-live-delivery/A4-quality-batch5.json",
+    "research/runs/2026-11-07-live-delivery/A4-quality-batch6.json",
+    "research/runs/2026-11-07-live-delivery/A4-quality-batch7.json",
+    "research/runs/2026-11-07-live-delivery/A4.json",
+    "research/runs/2026-11-07-live-delivery/coordinator-cn-batch1.json",
+    "research/runs/2026-11-07-live-delivery/coordinator-cn-batch2.json",
+    "research/runs/2026-11-07-live-delivery/coordinator-en-batch1.json",
+    "research/runs/2026-11-07-live-delivery/coordinator-en-batch2.json",
+    "research/runs/2026-11-07-live-delivery/coordinator-en-batch3.json",
+    "research/runs/2026-11-07-live-delivery/coordinator-en-batch4.json",
+    "research/runs/2026-11-07-live-delivery/coordinator-en-batch5.json",
+    "research/runs/2026-11-07-live-delivery/coordinator-en-batch6.json",
+    "research/runs/2026-11-07-live-delivery/coordinator-en-batch7.json",
+    "research/runs/2026-11-07-live-delivery/delivery.json",
+    "research/runs/2026-11-07-live-delivery/handoffs.json",
+    "research/runs/2026-11-07-live-delivery/inputs/preferences.json",
+    "research/runs/2026-11-07-live-delivery/rejections.json",
+    "research/runs/2026-11-07-live-delivery/run.json",
+    "research/runs/2026-11-07-live-delivery/source-review.json",
+    "research/runs/2026-11-07-live-delivery/validation.json",
+    "research/runs/2026-11-07-minimal-cycle/A1.json",
+    "research/runs/2026-11-07-minimal-cycle/A2-preview.json",
+    "research/runs/2026-11-07-minimal-cycle/A2-quality.json",
+    "research/runs/2026-11-07-minimal-cycle/A2.json",
+    "research/runs/2026-11-07-minimal-cycle/A3-cn.json",
+    "research/runs/2026-11-07-minimal-cycle/A3-en.json",
+    "research/runs/2026-11-07-minimal-cycle/A4.json",
+    "research/runs/2026-11-07-minimal-cycle/chinese-review.json",
+    "research/runs/2026-11-07-minimal-cycle/coordinator-cn-quality.json",
+    "research/runs/2026-11-07-minimal-cycle/coordinator-first-impressions.json",
+    "research/runs/2026-11-07-minimal-cycle/handoffs.json",
+    "research/runs/2026-11-07-minimal-cycle/inputs/preferences.json",
+    "research/runs/2026-11-07-minimal-cycle/results.json",
+    "research/runs/2026-11-07-minimal-cycle/run.json",
+    "research/runs/2026-11-07-minimal-cycle/source-review.json",
+    "research/runs/2026-11-07-minimal-cycle/validation.json"
+  ],
+  "strings": {
+    "AMI Labs": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Adobe": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "After Labs": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Afterleaf": [
+      "research/runs/2026-11-06/english.json"
+    ],
+    "Aftertell": [
+      "research/runs/2026-11-06/english.json"
+    ],
+    "Airsung": [
+      "research/runs/2026-11-07-continuation/A3-en-batch20.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch20.json",
+      "research/runs/2026-11-07-continuation/A4-quality-batch20.json"
+    ],
+    "Amazon / 亚马逊": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Another Way In": [
+      "research/runs/2026-11-07-continuation/A3-en-batch9.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch9.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "Anthropic": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "Anysphere / Cursor": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/plan/search-plan.json"
+    ],
+    "Apple / 苹果": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "Arm": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json",
+      "research/runs/2026-11-06-agent1-expansion/source_review.json"
+    ],
+    "Augment Code": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json",
+      "research/runs/2026-11-06-agent1-expansion/source_review.json"
+    ],
+    "Axiom Math": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "BIGAI / 北京通用人工智能研究院": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "BR-CT-C01": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C02": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C03": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C04": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C05": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C06": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C07": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C08": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C09": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C10": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C11": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C12": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C13": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C14": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C15": [
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C16": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C18": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C19": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C20": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C21": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C22": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C23": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C25": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C26": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C28": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C29": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C30": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C31": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-CT-C32": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-HISTORY-添一笔": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "BR-HISTORY-演算尺": [
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "Bipelago": [
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/daily-20.json"
+    ],
+    "Black Forest Labs": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json",
+      "research/runs/2026-11-06-agent1-expansion/source_review.json"
+    ],
+    "Borrowind": [
+      "research/runs/2026-11-06/english.json",
+      "research/runs/2026-11-06/final.json",
+      "research/runs/2026-11-06/screening.json",
+      "research/runs/2026-11-06/screening.json"
+    ],
+    "CT-F-Chinese-magnetized-fish-navigation": [
+      "research/runs/2026-11-07-continuation/A2-batch6.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/delivery.json"
+    ],
+    "CT-F-Chinese-rings-constraint-solving": [
+      "research/runs/2026-11-07-continuation/A2-batch3.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "CT-F-abstract-machine-symbol-manipulation": [
+      "research/runs/2026-11-07-continuation/A2-batch7.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "CT-F-cellular-automata-animated-patterns": [
+      "research/runs/2026-11-07-continuation/A2-batch3.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/delivery.json"
+    ],
+    "CT-F-complex-number-multiple-representations": [
+      "research/runs/2026-11-07-continuation/A2-batch3.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/delivery.json"
+    ],
+    "CT-F-configurable-code-switch": [
+      "research/runs/2026-11-07-continuation/A2-batch2.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/delivery.json"
+    ],
+    "CT-F-counterexample-universal-claim": [
+      "research/runs/2026-11-07-continuation/A2-batch7.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/delivery.json"
+    ],
+    "CT-F-curiosity-objective-limitations": [
+      "research/runs/2026-11-07-continuation/A2-batch8.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/reserves.json"
+    ],
+    "CT-F-directed-gaze-active-attention": [
+      "research/runs/2026-11-07-continuation/A2-batch7.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/delivery.json"
+    ],
+    "CT-F-document-footer-context": [
+      "research/runs/2026-11-07-continuation/A2-batch2.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "CT-F-earthshine-return-observation": [
+      "research/runs/2026-11-07-continuation/A2-batch1.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/delivery.json"
+    ],
+    "CT-F-engineered-point-defect-function": [
+      "research/runs/2026-11-07-continuation/A2-batch6.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "CT-F-engineered-self-monitoring-audio": [
+      "research/runs/2026-11-07-continuation/A2-batch4.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/delivery.json"
+    ],
+    "CT-F-fallible-explanation-open-questions": [
+      "research/runs/2026-11-07-continuation/A2-batch1.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "CT-F-french-curve-drafting-tool": [
+      "research/runs/2026-11-07-continuation/A2-batch6.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "CT-F-generative-noise-initialization": [
+      "research/runs/2026-11-07-continuation/A2-batch5.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/delivery.json"
+    ],
+    "CT-F-gnomon-shadow-measure": [
+      "research/runs/2026-11-07-continuation/A2-batch1.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/delivery.json"
+    ],
+    "CT-F-intermediate-reasoning-deliberation": [
+      "research/runs/2026-11-07-continuation/A2-batch2.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/delivery.json"
+    ],
+    "CT-F-internal-goal-steering-action": [
+      "research/runs/2026-11-07-continuation/A2-batch2.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/delivery.json"
+    ],
+    "CT-F-lazy-evaluation-demand": [
+      "research/runs/2026-11-07-continuation/A2-batch8.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/reserves.json"
+    ],
+    "CT-F-long-press-context-interaction": [
+      "research/runs/2026-11-07-continuation/A2-batch4.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/delivery.json"
+    ],
+    "CT-F-low-energy-space-portals": [
+      "research/runs/2026-11-07-continuation/A2-batch1.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/delivery.json"
+    ],
+    "CT-F-marine-snow-depth-transport": [
+      "research/runs/2026-11-07-continuation/A2-batch6.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/delivery.json"
+    ],
+    "CT-F-nonplayer-character-to-agent": [
+      "research/runs/2026-11-07-continuation/A2-batch8.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "CT-F-orographic-rain-shadow": [
+      "research/runs/2026-11-07-continuation/A2-batch5.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "CT-F-paper-rotor-controlled-experiment": [
+      "research/runs/2026-11-07-continuation/A2-batch4.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "CT-F-pigeon-whistle-motion-to-sound": [
+      "research/runs/2026-11-07-continuation/A2-batch7.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/reserves.json"
+    ],
+    "CT-F-spacetime-gravitational-lensing": [
+      "research/runs/2026-11-07-continuation/A2-batch5.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/delivery.json"
+    ],
+    "CT-F-structural-color-order": [
+      "research/runs/2026-11-07-continuation/A2-batch3.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "CT-F-supernumerary-motor-augmentation": [
+      "research/runs/2026-11-07-continuation/A2-batch5.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "CT-F-transmitted-fire-knowledge-enablement": [
+      "research/runs/2026-11-07-continuation/A2-batch4.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/delivery.json"
+    ],
+    "CT-F-world-model-imagined-behavior-practice": [
+      "research/runs/2026-11-07-continuation/A2-batch8.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json"
+    ],
+    "Call by Need": [
+      "research/runs/2026-11-07-continuation/A3-en-batch18.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch18.json",
+      "research/runs/2026-11-07-continuation/A4-quality-batch18.json"
+    ],
+    "Cartesia": [
+      "research/runs/2026-11-06-agent1-expansion/inventory.json"
+    ],
+    "Chai Discovery": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json",
+      "research/runs/2026-11-06-agent1-expansion/source_review.json"
+    ],
+    "Cisco / 思科": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "Codabitat": [
+      "research/runs/2026-11-07-live-delivery/A3-en-batch4.json",
+      "research/runs/2026-11-07-live-delivery/A4-batch4.json",
+      "research/runs/2026-11-07-live-delivery/A4-followup.json",
+      "research/runs/2026-11-07-live-delivery/A4-quality-batch4.json"
+    ],
+    "Cognition": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Cohere": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Compassfish": [
+      "research/runs/2026-11-07-continuation/A3-en-batch13.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch13.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "Confluence": [
+      "research/runs/2026-11-06/screening.json"
+    ],
+    "Core Automation": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Cursor": [
+      "research/runs/2026-11-06/cases.json",
+      "research/runs/2026-11-07-live-delivery/A3-controls.json",
+      "research/runs/2026-11-07-minimal-cycle/A3-cn.json"
+    ],
+    "Daimaji": [
+      "research/runs/2026-11-07-live-delivery/A3-en-batch7.json",
+      "research/runs/2026-11-07-live-delivery/A4-batch7.json",
+      "research/runs/2026-11-07-live-delivery/A4-quality-batch7.json",
+      "research/runs/2026-11-07-live-delivery/coordinator-en-batch7.json"
+    ],
+    "DarwinAI": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Deepborne": [
+      "research/runs/2026-11-06/english.json",
+      "research/runs/2026-11-06/rejection-evidence.json"
+    ],
+    "Deepborne by armadilliestairlines": [
+      "research/runs/2026-11-06/rejection-evidence.json"
+    ],
+    "Deepwelling": [
+      "research/runs/2026-11-06/english.json"
+    ],
+    "Deepwoken": [
+      "research/runs/2026-11-06/screening.json"
+    ],
+    "Depthborne": [
+      "research/runs/2026-11-06/english.json"
+    ],
+    "Depthspring": [
+      "research/runs/2026-11-06/english.json"
+    ],
+    "Discovery Loop": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Docker": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json",
+      "research/runs/2026-11-06-agent1-expansion/source_review.json"
+    ],
+    "Drawn from Chance": [
+      "research/runs/2026-11-07-continuation/A3-en-batch17.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch17.json",
+      "research/runs/2026-11-07-continuation/A4-quality-batch17.json"
+    ],
+    "Earth Replies": [
+      "research/runs/2026-11-07-continuation/A3-en-batch1.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch1.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "Elastic": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json",
+      "research/runs/2026-11-06-agent1-expansion/source_review.json"
+    ],
+    "ElevenLabs": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json",
+      "research/runs/2026-11-06-agent1-expansion/source_review.json"
+    ],
+    "Emberhand": [
+      "research/runs/2026-11-07-continuation/A3-en-batch12.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch12.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "Engram": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Eureka Labs": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "EvolutionaryScale": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json",
+      "research/runs/2026-11-06-agent1-expansion/source_review.json"
+    ],
+    "F01": [
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "F01-parallax": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F02": [
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "F02-alternative-explanation": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F03": [
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "F03-cognitive-fringe": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F04": [
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "F04-photogram": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F05": [
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "F05-closure-environment": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F06": [
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "F06-higher-order-method": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F07": [
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "F07-symmetry-invariance": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F08": [
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "F08-moire-relation": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F09": [
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "F09-fast-radio-burst": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F10": [
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "F10-stellar-outflow": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F11": [
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "F11-perception-context": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F12": [
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "F12-contour-representation": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F13-film-montage": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F14-exaptation": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F15-movable-type": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F16-parallel-script-decipherment": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F17-fermat-path": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F18-negative-space": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F19-punched-card-pattern": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F20-catalytic-barrier": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F21-dance-code": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F22-migration-stopover": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F23-spacebar-interface": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "F24-braille-tactile-code": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/materials.json"
+    ],
+    "FP01-signifier-action-cue": [
+      "research/runs/2026-11-06-agent2-material-pilot/materials.json",
+      "research/runs/2026-11-06-agent2-material-pilot/revisions/v1/materials.json"
+    ],
+    "FP02-slope-wind-thermal-reversal": [
+      "research/runs/2026-11-06-agent2-material-pilot/materials.json",
+      "research/runs/2026-11-06-agent2-material-pilot/revisions/v1/materials.json"
+    ],
+    "FP03-symbiosis-network-evolution": [
+      "research/runs/2026-11-06-agent2-material-pilot/materials.json",
+      "research/runs/2026-11-06-agent2-material-pilot/revisions/v1/materials.json"
+    ],
+    "FP04-bits-context-interpretation": [
+      "research/runs/2026-11-06-agent2-material-pilot/materials.json",
+      "research/runs/2026-11-06-agent2-material-pilot/revisions/v1/materials.json"
+    ],
+    "FP05-workflow-change-provenance": [
+      "research/runs/2026-11-06-agent2-material-pilot/materials.json",
+      "research/runs/2026-11-06-agent2-material-pilot/revisions/v1/materials.json"
+    ],
+    "FP06-fragment-reunion-provenance": [
+      "research/runs/2026-11-06-agent2-material-pilot/materials.json",
+      "research/runs/2026-11-06-agent2-material-pilot/revisions/v1/materials.json"
+    ],
+    "FP07-distributed-cockpit-task-reconfiguration": [
+      "research/runs/2026-11-06-agent2-material-pilot/materials.json",
+      "research/runs/2026-11-06-agent2-material-pilot/revisions/v1/materials.json"
+    ],
+    "FP08-objective-uncertainty-human-oversight": [
+      "research/runs/2026-11-06-agent2-material-pilot/materials.json",
+      "research/runs/2026-11-06-agent2-material-pilot/revisions/v1/materials.json"
+    ],
+    "Figma": [
+      "research/runs/2026-11-06-agent1-expansion/inventory.json"
+    ],
+    "Foldra": [
+      "research/runs/2026-11-06/screening.json"
+    ],
+    "Fundamental": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Furtherword": [
+      "research/runs/2026-11-06/english.json",
+      "research/runs/2026-11-06/rejection-evidence.json"
+    ],
+    "Furtherword（当前域名跳转Greetingswell）": [
+      "research/runs/2026-11-06/rejection-evidence.json"
+    ],
+    "Fushali": [
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/daily-20.json"
+    ],
+    "Gaze Anew": [
+      "research/runs/2026-11-07-continuation/A3-en-batch14.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch14.json",
+      "research/runs/2026-11-07-continuation/A4-quality-batch14.json"
+    ],
+    "General Intuition": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "GitHub Copilot": [
+      "research/runs/2026-11-07-continuation/A3-controls.json"
+    ],
+    "Glean": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json",
+      "research/runs/2026-11-06-agent1-expansion/source_review.json"
+    ],
+    "Goodfire": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Google / 谷歌": [
+      "research/runs/2026-11-06/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "Google DeepMind": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Granola": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json",
+      "research/runs/2026-11-06-agent1-expansion/source_review.json"
+    ],
+    "Gridfolk": [
+      "research/runs/2026-11-07-continuation/A3-en-batch8.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch8.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "Harmonic": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Hold to Open": [
+      "research/runs/2026-11-07-continuation/A3-en-batch11.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch11.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "Hugging Face": [
+      "research/runs/2026-11-06/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "HuiSuan Labs": [
+      "research/runs/2026-11-06/rejection-evidence.json"
+    ],
+    "Hume AI": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "Ideas Afoot": [
+      "research/runs/2026-11-07-continuation/A3-en-batch7.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch7.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "Imbue": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "Ineffable Intelligence": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "Inherent": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Inkforth": [
+      "research/runs/2026-11-06/english.json",
+      "research/runs/2026-11-06/screening.json"
+    ],
+    "Inscade": [
+      "research/runs/2026-11-07-live-delivery/A3-en-batch1.json",
+      "research/runs/2026-11-07-live-delivery/A4-batch1.json",
+      "research/runs/2026-11-07-live-delivery/A4-quality-batch1.json",
+      "research/runs/2026-11-07-live-delivery/A4.json"
+    ],
+    "Integral AI": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Intel / 英特尔": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Invercade": [
+      "research/runs/2026-11-07-live-delivery/A3-en-batch2.json",
+      "research/runs/2026-11-07-live-delivery/A4-batch2.json",
+      "research/runs/2026-11-07-live-delivery/A4-quality-batch2.json",
+      "research/runs/2026-11-07-live-delivery/A4.json"
+    ],
+    "Jiangsu Xubian Transformer Co., Ltd.": [
+      "research/runs/2026-11-06/rejection-evidence.json"
+    ],
+    "Jingora": [
+      "research/runs/2026-11-07-live-delivery/A3-en-batch6.json",
+      "research/runs/2026-11-07-live-delivery/A4-batch6.json",
+      "research/runs/2026-11-07-live-delivery/A4-followup.json",
+      "research/runs/2026-11-07-live-delivery/A4-quality-batch6.json"
+    ],
+    "Kyutai": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "LD-F-cantor-unbounded-cardinality": [
+      "research/runs/2026-11-07-live-delivery/A2-batch2.json"
+    ],
+    "LD-F-computational-island-model": [
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-live-delivery/A2-batch2.json",
+      "research/runs/2026-11-07-live-delivery/delivery.json"
+    ],
+    "LD-F-digital-organism-environment": [
+      "research/runs/2026-11-07-live-delivery/A2-batch2.json"
+    ],
+    "LD-F-inverse-cascade": [
+      "research/runs/2026-11-07-live-delivery/A2-batch1.json"
+    ],
+    "LD-F-magnetic-reconnection": [
+      "research/runs/2026-11-07-live-delivery/A2-batch1.json"
+    ],
+    "LD-F-negative-entropy-flux": [
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-live-delivery/A2-batch1.json",
+      "research/runs/2026-11-07-live-delivery/delivery.json"
+    ],
+    "LD-F-soliton-rain": [
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-live-delivery/A2-batch2.json",
+      "research/runs/2026-11-07-live-delivery/delivery.json"
+    ],
+    "LD-F-stromatolite": [
+      "research/runs/2026-11-07-live-delivery/A2-batch1.json"
+    ],
+    "Latent Labs": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json",
+      "research/runs/2026-11-06-agent1-expansion/source_review.json"
+    ],
+    "Latent Stage": [
+      "research/runs/2026-11-07-continuation/A3-en-batch19.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch19.json",
+      "research/runs/2026-11-07-continuation/A4-quality-batch19.json"
+    ],
+    "Letta": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "Liquid AI": [
+      "research/runs/2026-11-06/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "MCF-collective-vibration-quantum": [
+      "research/runs/2026-11-07-minimal-cycle/A2-preview.json",
+      "research/runs/2026-11-07-minimal-cycle/A2.json"
+    ],
+    "MCF-frequency-doubling": [
+      "research/runs/2026-11-07-minimal-cycle/A2-preview.json",
+      "research/runs/2026-11-07-minimal-cycle/A2.json"
+    ],
+    "MCF-primitive-composition": [
+      "research/runs/2026-11-07-minimal-cycle/A2-preview.json",
+      "research/runs/2026-11-07-minimal-cycle/A2.json"
+    ],
+    "Measured Light": [
+      "research/runs/2026-11-07-continuation/A3-en-batch5.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch5.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "Measured Wonder": [
+      "research/runs/2026-11-07-continuation/A3-en-batch19.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch19.json",
+      "research/runs/2026-11-07-continuation/A4-quality-batch19.json"
+    ],
+    "Mechanize": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json",
+      "research/runs/2026-11-06-agent1-expansion/source_review.json"
+    ],
+    "Midjourney": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "Mind Lab / Macaron": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "MiniMax": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "Mirendil": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "Mistral AI": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/plan/search-plan.json"
+    ],
+    "Mobius Intelligence": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Modal": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json",
+      "research/runs/2026-11-06-agent1-expansion/source_review.json"
+    ],
+    "Moreward": [
+      "research/runs/2026-11-06/english.json"
+    ],
+    "NVIDIA / 英伟达": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/plan/search-plan.json"
+    ],
+    "Ndea": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "Negaflux": [
+      "research/runs/2026-11-07-live-delivery/A3-en-batch1.json",
+      "research/runs/2026-11-07-live-delivery/A4-batch1.json",
+      "research/runs/2026-11-07-live-delivery/A4-quality-batch1.json",
+      "research/runs/2026-11-07-live-delivery/A4.json"
+    ],
+    "Negentia": [
+      "research/runs/2026-11-07-live-delivery/A3-en-batch2.json",
+      "research/runs/2026-11-07-live-delivery/A4-batch2.json",
+      "research/runs/2026-11-07-live-delivery/A4-quality-batch2.json",
+      "research/runs/2026-11-07-live-delivery/A4.json"
+    ],
+    "Nijila": [
+      "research/runs/2026-11-07-live-delivery/A3-en-batch5.json",
+      "research/runs/2026-11-07-live-delivery/A3-receipt.json",
+      "research/runs/2026-11-07-live-delivery/A4-batch5.json",
+      "research/runs/2026-11-07-live-delivery/A4-followup.json"
+    ],
+    "Noisebloom": [
+      "research/runs/2026-11-07-continuation/A3-en-batch13.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch13.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "Noontally": [
+      "research/runs/2026-11-07-continuation/A3-en-batch10.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch10.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "Notion": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json",
+      "research/runs/2026-11-06-agent1-expansion/source_review.json"
+    ],
+    "Nous Research": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "One More Thought": [
+      "research/runs/2026-11-07-continuation/A3-en-batch3.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch3.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "One Thought Further": [
+      "research/runs/2026-11-07-continuation/A3-en-batch7.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch7.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "OpenAI": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "Oracle / 甲骨文": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/plan/search-plan.json"
+    ],
+    "Otherframe": [
+      "research/runs/2026-11-07-continuation/A3-en-batch8.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch8.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "Ownsignal": [
+      "research/runs/2026-11-07-continuation/A3-en-batch11.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch11.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "Pass the Ember": [
+      "research/runs/2026-11-07-continuation/A3-en-batch16.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch16.json",
+      "research/runs/2026-11-07-continuation/A4-quality-batch16.json"
+    ],
+    "Periodic Labs": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Perplexity": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Pigeon Whistle": [
+      "research/runs/2026-11-07-continuation/A3-en-batch15.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch15.json",
+      "research/runs/2026-11-07-continuation/A4-quality-batch15.json"
+    ],
+    "PingCAP": [
+      "research/runs/2026-11-06-agent1-expansion/source_review.json"
+    ],
+    "Plastic Labs": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/plan/search-plan.json"
+    ],
+    "Postmarked Earth": [
+      "research/runs/2026-11-07-continuation/A3-en-batch6.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch6.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "Prime Intellect": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "R2F01": [
+      "research/runs/2026-11-06-round2/candidates.json"
+    ],
+    "R2F02": [
+      "research/runs/2026-11-06-round2/candidates.json"
+    ],
+    "R2F03": [
+      "research/runs/2026-11-06-round2/candidates.json"
+    ],
+    "R2F04": [
+      "research/runs/2026-11-06-round2/candidates.json"
+    ],
+    "R2F05": [
+      "research/runs/2026-11-06-round2/candidates.json"
+    ],
+    "R2F06": [
+      "research/runs/2026-11-06-round2/candidates.json"
+    ],
+    "R2F07": [
+      "research/runs/2026-11-06-round2/candidates.json"
+    ],
+    "R2F08": [
+      "research/runs/2026-11-06-round2/candidates.json"
+    ],
+    "R2F09": [
+      "research/runs/2026-11-06-round2/candidates.json"
+    ],
+    "R2F10": [
+      "research/runs/2026-11-06-round2/candidates.json"
+    ],
+    "R2F11": [
+      "research/runs/2026-11-06-round2/candidates.json"
+    ],
+    "R2F12": [
+      "research/runs/2026-11-06-round2/candidates.json"
+    ],
+    "Raspberry Pi": [
+      "research/runs/2026-11-06-agent1-expansion/source_review.json"
+    ],
+    "Raspberry Pi / 树莓派": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json"
+    ],
+    "Raspberry Pi=圆周率；Stripe=磁条": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json"
+    ],
+    "Rayturn": [
+      "research/runs/2026-11-07-continuation/A3-en-batch12.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch12.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "Reasonstride": [
+      "research/runs/2026-11-07-continuation/A3-en-batch10.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch10.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "Recursive": [
+      "research/runs/2026-11-06/cases.json"
+    ],
+    "Recursive Superintelligence": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Reflection": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Replit": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Returnlight": [
+      "research/runs/2026-11-07-continuation/A3-en-batch4.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch4.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "Ricursive Intelligence": [
+      "research/runs/2026-11-06/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "Rulefauna": [
+      "research/runs/2026-11-07-continuation/A3-en-batch10.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch10.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "Runway": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Safe Superintelligence / SSI": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "Sakana AI": [
+      "research/runs/2026-11-06/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json"
+    ],
+    "Selfhear": [
+      "research/runs/2026-11-07-continuation/A3-en-batch14.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch14.json",
+      "research/runs/2026-11-07-continuation/A4-quality-batch14.json"
+    ],
+    "Shadow Gauge": [
+      "research/runs/2026-11-07-continuation/A3-en-batch2.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch2.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "Single Witness": [
+      "research/runs/2026-11-07-continuation/A3-en-batch15.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch15.json",
+      "research/runs/2026-11-07-continuation/A4-quality-batch15.json"
+    ],
+    "Sky Detour": [
+      "research/runs/2026-11-07-continuation/A3-en-batch16.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch16.json",
+      "research/runs/2026-11-07-continuation/A4-quality-batch16.json"
+    ],
+    "SlashDevSlashFinance, Inc. / SlashDevSlashPayments": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json"
+    ],
+    "Snow Below": [
+      "research/runs/2026-11-07-continuation/A3-en-batch13.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch13.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "Solirain": [
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/daily-20.json"
+    ],
+    "Sony / 索尼": [
+      "research/runs/2026-11-06/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json"
+    ],
+    "Southward Fish": [
+      "research/runs/2026-11-07-continuation/A3-en-batch17.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch17.json",
+      "research/runs/2026-11-07-continuation/A4-quality-batch17.json"
+    ],
+    "SpaceX": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Standard Intelligence": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Starward Ferry": [
+      "research/runs/2026-11-07-continuation/A3-en-batch1.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch1.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "State Dial": [
+      "research/runs/2026-11-07-continuation/A3-en-batch5.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch5.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "Stillnext": [
+      "research/runs/2026-11-06/english.json"
+    ],
+    "Stripe": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json",
+      "research/runs/2026-11-06-agent1-expansion/source_review.json"
+    ],
+    "Tesla / 特斯拉": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Thinking Machines Lab": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Thoughtgear": [
+      "research/runs/2026-11-07-continuation/A3-en-batch3.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch3.json",
+      "research/runs/2026-11-07-continuation/A4-index-15cn-24en.json"
+    ],
+    "Trajectory": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Unconventional AI": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/plan/search-plan.json"
+    ],
+    "Unfinal": [
+      "research/runs/2026-11-06/english.json",
+      "research/runs/2026-11-06/rejection-evidence.json",
+      "research/runs/2026-11-06/rejection-evidence.json"
+    ],
+    "Woodwoken": [
+      "research/runs/2026-11-06/english.json",
+      "research/runs/2026-11-06/final.json",
+      "research/runs/2026-11-06/screening.json",
+      "research/runs/2026-11-06/screening.json"
+    ],
+    "World Labs": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "Worldside": [
+      "research/runs/2026-11-07-continuation/A3-en-batch18.json",
+      "research/runs/2026-11-07-continuation/A3-index.json",
+      "research/runs/2026-11-07-continuation/A4-batch18.json",
+      "research/runs/2026-11-07-continuation/A4-quality-batch18.json"
+    ],
+    "thoughtgear": [
+      "research/runs/2026-11-07-continuation/A3-thoughtgear-registry.json"
+    ],
+    "xinhuilu.com历史网页标题7E互联CDN系统": [
+      "research/runs/2026-11-06/rejection-evidence.json"
+    ],
+    "一点缺陷": [
+      "research/runs/2026-11-07-continuation/A2-batch6.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch6.json",
+      "research/runs/2026-11-07-continuation/coordinator-cn-batch6.json"
+    ],
+    "一种演算尺 CN2141919Y": [
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/screening.json"
+    ],
+    "一闪": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json"
+    ],
+    "七日世界社区攻略中的源质星尘炉称呼": [
+      "research/runs/2026-11-06/rejection-evidence.json"
+    ],
+    "三亚崖州知演科技有限公司": [
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/screening.json"
+    ],
+    "下一无穷": [
+      "research/runs/2026-11-07-live-delivery/A2-batch2.json",
+      "research/runs/2026-11-07-live-delivery/A2-quality-batch2.json",
+      "research/runs/2026-11-07-live-delivery/coordinator-cn-batch2.json",
+      "research/runs/2026-11-07-live-delivery/rejections.json"
+    ],
+    "下一镜": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json"
+    ],
+    "不变": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json"
+    ],
+    "专业入口和日常入口必须是同一个词的真实内容": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json"
+    ],
+    "中国知识载体与现代研究主题呼应": [
+      "research/runs/2026-11-07-live-delivery/A1.json"
+    ],
+    "临场集": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "云形尺": [
+      "research/runs/2026-11-07-continuation/A2-batch6.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch6.json",
+      "research/runs/2026-11-07-continuation/coordinator-cn-batch6.json"
+    ],
+    "交叉点优先找角色、动作和关系，不只找两个名词": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json"
+    ],
+    "代码生境": [
+      "research/runs/2026-11-07-live-delivery/A2-batch2.json",
+      "research/runs/2026-11-07-live-delivery/A2-quality-batch2.json",
+      "research/runs/2026-11-07-live-delivery/A3-cn-batch2.json",
+      "research/runs/2026-11-07-live-delivery/A3-en-batch4.json"
+    ],
+    "以对他者的作用建立公司角色": [
+      "research/runs/2026-11-07-live-delivery/A1.json"
+    ],
+    "伙伴与工具": [
+      "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-search-plan/inputs/A1/taxonomy.json"
+    ],
+    "余维": [
+      "research/runs/2026-11-07-live-delivery/A2-batch1.json"
+    ],
+    "余项": [
+      "research/runs/2026-11-06-round2/candidates.json",
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/screening.json"
+    ],
+    "使命、立场与未来主张": [
+      "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-search-plan/inputs/A1/taxonomy.json"
+    ],
+    "侧音": [
+      "research/runs/2026-11-07-continuation/A2-batch4.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch4.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch4.json"
+    ],
+    "倍频": [
+      "research/runs/2026-11-07-minimal-cycle/A2-preview.json",
+      "research/runs/2026-11-07-minimal-cycle/A2-quality.json",
+      "research/runs/2026-11-07-minimal-cycle/A2.json",
+      "research/runs/2026-11-07-minimal-cycle/A3-cn.json"
+    ],
+    "借长风": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/english.json"
+    ],
+    "借长风 / Borrowind": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json"
+    ],
+    "元环智能 / MetaCircle": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "元知进化 / CogEvol": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "先建立可持续的公司身份，再决定用多少业务解释": [
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-search-plan/inputs/A1/cases.json"
+    ],
+    "先选择科技在人的世界里处于什么位置": [
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-search-plan/inputs/A1/cases.json"
+    ],
+    "光的弯道": [
+      "research/runs/2026-11-07-continuation/A2-batch5.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch5.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch5.json"
+    ],
+    "光轮智能 / Lightwheel": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "公设之外": [
+      "research/runs/2026-11-06-round2/candidates.json",
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/screening.json"
+    ],
+    "具体自然现象承载力量和来处": [
+      "research/runs/2026-11-07-live-delivery/A1.json"
+    ],
+    "再成形": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "凸点": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json"
+    ],
+    "北京虚时科技有限公司": [
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/screening.json"
+    ],
+    "北京虚时科技有限公司 / Intime AI": [
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/screening.json"
+    ],
+    "千寻智能 / Spirit AI": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "原语": [
+      "research/runs/2026-11-07-minimal-cycle/A2-preview.json",
+      "research/runs/2026-11-07-minimal-cycle/A2-quality.json",
+      "research/runs/2026-11-07-minimal-cycle/A2.json",
+      "research/runs/2026-11-07-minimal-cycle/A3-cn.json"
+    ],
+    "双语共享身份或主线，不必共享每个字": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json"
+    ],
+    "双语可以共同建构世界，不必压成同一张词义表": [
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-search-plan/inputs/A1/cases.json"
+    ],
+    "反例": [
+      "research/runs/2026-11-07-continuation/A2-batch7.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch7.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch7.json"
+    ],
+    "叠层石": [
+      "research/runs/2026-11-07-live-delivery/A2-batch1.json",
+      "research/runs/2026-11-07-live-delivery/A2-quality-batch1.json",
+      "research/runs/2026-11-07-live-delivery/coordinator-cn-batch1.json",
+      "research/runs/2026-11-07-live-delivery/rejections.json"
+    ],
+    "另解": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-first-impressions.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json"
+    ],
+    "后续素材搜索应围绕多个知识世界并行展开": [
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-search-plan/inputs/A1/cases.json"
+    ],
+    "商汤 / SenseTime": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "噪声种子": [
+      "research/runs/2026-11-07-continuation/A2-batch5.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch5.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch5.json"
+    ],
+    "回算": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/rejection-evidence.json"
+    ],
+    "地球回信": [
+      "research/runs/2026-11-07-continuation/A2-batch1.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch1.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch1.json"
+    ],
+    "声子": [
+      "research/runs/2026-11-07-minimal-cycle/A2-preview.json",
+      "research/runs/2026-11-07-minimal-cycle/A2-quality.json",
+      "research/runs/2026-11-07-minimal-cycle/A2.json",
+      "research/runs/2026-11-07-minimal-cycle/A3-cn.json"
+    ],
+    "多想一步": [
+      "research/runs/2026-11-07-continuation/A2-batch2.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch2.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch2.json"
+    ],
+    "大疆 / DJI": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "奇点逃逸 / Antropy": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "好名称分析不等于成功原因证明，更不等于可采用": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json"
+    ],
+    "字节 Seed": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "字节跳动 / ByteDance": [
+      "research/runs/2026-11-06/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "孤子雨": [
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/daily-20.json"
+    ],
+    "寒武纪 / Cambricon": [
+      "research/runs/2026-11-06/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json"
+    ],
+    "察觉": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json"
+    ],
+    "对读": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json"
+    ],
+    "小米 / Xiaomi": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "局部互动与组织结构的可改变性": [
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/plan/search-plan.json",
+      "research/runs/2026-11-06-agent2-search-plan/search-plan.json"
+    ],
+    "幂级智能 / DenseAI": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "平凯星辰 / PingCAP": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json"
+    ],
+    "广州异步科技有限公司": [
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/screening.json"
+    ],
+    "广州留枝机械设备有限公司": [
+      "research/runs/2026-11-06/rejection-evidence.json"
+    ],
+    "底层单位获得可感动作": [
+      "research/runs/2026-11-07-live-delivery/A1.json"
+    ],
+    "底稿": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/rejection-evidence.json"
+    ],
+    "开集": [
+      "research/runs/2026-11-06-round2/candidates.json",
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/screening.json"
+    ],
+    "异步": [
+      "research/runs/2026-11-06-round2/candidates.json",
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/screening.json"
+    ],
+    "异步科技": [
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/screening.json",
+      "research/runs/2026-11-06-round2/screening.json"
+    ],
+    "弦外": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-first-impressions.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json"
+    ],
+    "影子刻度": [
+      "research/runs/2026-11-07-continuation/A2-batch1.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch1.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch1.json"
+    ],
+    "心智主体、人与他者关系以及行动经验": [
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/plan/search-plan.json",
+      "research/runs/2026-11-06-agent2-search-plan/revisions/v1/search-plan.json",
+      "research/runs/2026-11-06-agent2-search-plan/search-plan.json"
+    ],
+    "念头引擎": [
+      "research/runs/2026-11-07-continuation/A2-batch2.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch2.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch2.json"
+    ],
+    "懒函数": [
+      "research/runs/2026-11-07-continuation/A2-batch8.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch8.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch8.json"
+    ],
+    "成长与自我改进系统": [
+      "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-search-plan/inputs/A1/taxonomy.json"
+    ],
+    "把可称呼性和知识深度分成两层": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json"
+    ],
+    "抬眼": [
+      "research/runs/2026-11-07-continuation/A2-batch7.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch7.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch7.json"
+    ],
+    "拨码": [
+      "research/runs/2026-11-07-continuation/A2-batch2.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch2.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch2.json"
+    ],
+    "择径": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json"
+    ],
+    "指南鱼": [
+      "research/runs/2026-11-07-continuation/A2-batch6.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch6.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch6.json"
+    ],
+    "换坐标": [
+      "research/runs/2026-11-07-continuation/A2-batch3.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch3.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch3.json"
+    ],
+    "探索与发现者": [
+      "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-search-plan/inputs/A1/taxonomy.json"
+    ],
+    "接一拍": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "推演场": [
+      "research/runs/2026-11-06-round2/candidates.json",
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/screening.json"
+    ],
+    "故事应有主线，允许有支线但不无限加寓意": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json"
+    ],
+    "数学结构、科学方法与跨学科实在关系": [
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/plan/search-plan.json",
+      "research/runs/2026-11-06-agent2-search-plan/revisions/v1/search-plan.json",
+      "research/runs/2026-11-06-agent2-search-plan/search-plan.json"
+    ],
+    "文化历史与思想传承": [
+      "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-search-plan/inputs/A1/taxonomy.json"
+    ],
+    "文化历史与科学知识是长期身份资源，不能缩成古文和术语二选一": [
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-search-plan/inputs/A1/cases.json"
+    ],
+    "文化故事、人物与知识传承的完整前史": [
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/plan/search-plan.json",
+      "research/runs/2026-11-06-agent2-search-plan/revisions/v1/search-plan.json",
+      "research/runs/2026-11-06-agent2-search-plan/search-plan.json"
+    ],
+    "新回路": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/rejection-evidence.json"
+    ],
+    "方格动物": [
+      "research/runs/2026-11-07-continuation/A2-batch3.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch3.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch3.json"
+    ],
+    "无问芯穹 / Infinigence": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "无限镜元 / MirroS": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "日参省": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "日常物件、身体动作与可使用的界面": [
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/plan/search-plan.json",
+      "research/runs/2026-11-06-agent2-search-plan/revisions/v1/search-plan.json",
+      "research/runs/2026-11-06-agent2-search-plan/search-plan.json"
+    ],
+    "日常生活与身体经验": [
+      "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-search-plan/inputs/A1/taxonomy.json"
+    ],
+    "日行迹 / Analemma": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json"
+    ],
+    "时代与边界开拓者": [
+      "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-search-plan/inputs/A1/taxonomy.json"
+    ],
+    "时氪砹 / Moments AI": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "星动纪元 / RobotEra": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "星尘炉": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/rejection-evidence.json"
+    ],
+    "星海图 / Galaxea": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "星间": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json"
+    ],
+    "星际渡口": [
+      "research/runs/2026-11-07-continuation/A2-batch1.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch1.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch1.json"
+    ],
+    "星震": [
+      "research/runs/2026-11-07-live-delivery/A2-batch1.json"
+    ],
+    "显影": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-first-impressions.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json"
+    ],
+    "普通词获得科技身份需要承接，不需要先伪装成术语": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json"
+    ],
+    "晶泰科技 / XtalPi": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "智在无界 / BeingBeyond": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "智源 / BAAI": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "智谱 / Z.ai": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "曲处生": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "月之暗面 / Moonshot AI": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "有后文": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/english.json"
+    ],
+    "有界好奇": [
+      "research/runs/2026-11-07-continuation/A2-batch8.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch8.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch8.json"
+    ],
+    "有语义依据的自然词、完整短语、熟悉语素融合和可信音译均可；音译不是禁用，但不能因查重失败而随便换字母让它看起来像英文。先解释真实构词与建议读法，再交A3筛查。": [
+      "research/runs/2026-11-07-continuation/A1.json"
+    ],
+    "木上林": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/english.json"
+    ],
+    "木上林 / Woodwoken": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json"
+    ],
+    "未尽之问": [
+      "research/runs/2026-11-07-continuation/A2-batch1.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch1.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch1.json"
+    ],
+    "来源世界与公司角色需要分别选择": [
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-search-plan/inputs/A1/cases.json"
+    ],
+    "来源未确认的专名": [
+      "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-search-plan/inputs/A1/taxonomy.json"
+    ],
+    "柔而进": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "模思智能 / Mosi": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "比特群岛": [
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/daily-20.json"
+    ],
+    "江苏渐近线文化科技有限公司": [
+      "research/runs/2026-11-06/rejection-evidence.json"
+    ],
+    "沐曦 / MetaX": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json",
+      "research/runs/2026-11-06-agent1-expansion/source_review.json"
+    ],
+    "活版": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json"
+    ],
+    "海底雪": [
+      "research/runs/2026-11-07-continuation/A2-batch6.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch6.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch6.json"
+    ],
+    "涌养": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "深势科技 / DP Technology": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "深圳市渐近线科技有限公司": [
+      "research/runs/2026-11-06/rejection-evidence.json"
+    ],
+    "深圳开集科技有限公司": [
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/screening.json"
+    ],
+    "深度求索 / DeepSeek": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "深水来": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/english.json"
+    ],
+    "添一指": [
+      "research/runs/2026-11-07-continuation/A2-batch5.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch5.json",
+      "research/runs/2026-11-07-continuation/coordinator-cn-batch5.json"
+    ],
+    "添一笔": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/english.json"
+    ],
+    "添一笔变新字；开发/供应商dongyeming": [
+      "research/runs/2026-11-06/rejection-evidence.json"
+    ],
+    "渐近线": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/rejection-evidence.json"
+    ],
+    "演算尺": [
+      "research/runs/2026-11-06-round2/candidates.json",
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/screening.json"
+    ],
+    "火山引擎": [
+      "research/runs/2026-11-06-agent1-expansion/inventory.json"
+    ],
+    "火山引擎 / Volcengine": [
+      "research/runs/2026-11-06/cases.json"
+    ],
+    "燧原 / Enflame": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json",
+      "research/runs/2026-11-06-agent1-expansion/source_review.json"
+    ],
+    "生命中的组织与适应，而非育苗叙事": [
+      "research/runs/2026-11-06-agent2-search-plan/revisions/v1/search-plan.json"
+    ],
+    "生境里": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "生数科技 / GenSpi": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "留枝": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/rejection-evidence.json"
+    ],
+    "留白": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json"
+    ],
+    "百奥几何 / BioGeometry": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/plan/search-plan.json"
+    ],
+    "百川智能 / Baichuan": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "百度 / Baidu": [
+      "research/runs/2026-11-06/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "知演": [
+      "research/runs/2026-11-06-round2/candidates.json",
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/screening.json"
+    ],
+    "知演数智 / PathFinder": [
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/screening.json"
+    ],
+    "研究使命、立场与愿意承担的长期承诺": [
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/plan/search-plan.json",
+      "research/runs/2026-11-06-agent2-search-plan/revisions/v1/search-plan.json",
+      "research/runs/2026-11-06-agent2-search-plan/search-plan.json"
+    ],
+    "研究场域里的名字在回答不同层级的问题": [
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-search-plan/inputs/A1/cases.json"
+    ],
+    "研究机构名保留变化空间，产品名负责具体入口": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json"
+    ],
+    "硅基流动 / SiliconFlow": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/plan/search-plan.json"
+    ],
+    "磁重联": [
+      "research/runs/2026-11-07-live-delivery/A2-batch1.json",
+      "research/runs/2026-11-07-live-delivery/A2-quality-batch1.json",
+      "research/runs/2026-11-07-live-delivery/coordinator-cn-batch1.json",
+      "research/runs/2026-11-07-live-delivery/rejections.json"
+    ],
+    "科学与计算世界": [
+      "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-search-plan/inputs/A1/taxonomy.json"
+    ],
+    "科学对象或完整关系直接成为专名": [
+      "research/runs/2026-11-07-live-delivery/A1.json"
+    ],
+    "空格键": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json"
+    ],
+    "第四范式 / 4Paradigm": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "等高线": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json"
+    ],
+    "简单外壳承载组织机制": [
+      "research/runs/2026-11-07-live-delivery/A1.json"
+    ],
+    "素地生": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "纸上机器": [
+      "research/runs/2026-11-07-continuation/A2-batch7.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch7.json",
+      "research/runs/2026-11-07-continuation/coordinator-cn-batch7.json"
+    ],
+    "纸旋翼": [
+      "research/runs/2026-11-07-continuation/A2-batch4.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch4.json",
+      "research/runs/2026-11-07-continuation/coordinator-cn-batch4.json"
+    ],
+    "织数": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json"
+    ],
+    "续编": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json",
+      "research/runs/2026-11-06/rejection-evidence.json"
+    ],
+    "维度之门 / Dimension Gate": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "绿灯集": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "联想 / Lenovo": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "聚变纪": [
+      "research/runs/2026-11-06-round2/candidates.json",
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/screening.json"
+    ],
+    "聚而明": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "能力底座与连接者": [
+      "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-search-plan/inputs/A1/taxonomy.json"
+    ],
+    "腾讯 / Tencent": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "自变量 / X Square Robot": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "自然、生命与天地空间": [
+      "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-search-plan/inputs/A1/taxonomy.json"
+    ],
+    "自然力量、地域与尺度世界": [
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/plan/search-plan.json",
+      "research/runs/2026-11-06-agent2-search-plan/revisions/v1/search-plan.json",
+      "research/runs/2026-11-06-agent2-search-plan/search-plan.json"
+    ],
+    "色序": [
+      "research/runs/2026-11-07-continuation/A2-batch3.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch3.json",
+      "research/runs/2026-11-07-continuation/coordinator-cn-batch3.json"
+    ],
+    "莫尔纹": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json"
+    ],
+    "虚拟排练": [
+      "research/runs/2026-11-07-continuation/A2-batch8.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch8.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch8.json"
+    ],
+    "虚时": [
+      "research/runs/2026-11-06-round2/candidates.json",
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/screening.json"
+    ],
+    "行成岸": [
+      "research/runs/2026-11-06/candidates.json",
+      "research/runs/2026-11-06/decisions.json",
+      "research/runs/2026-11-06/editorial.json"
+    ],
+    "行话": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json"
+    ],
+    "观测之后": [
+      "research/runs/2026-11-06-round2/candidates.json",
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/screening.json"
+    ],
+    "视差": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-first-impressions.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json"
+    ],
+    "解环": [
+      "research/runs/2026-11-07-continuation/A2-batch3.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch3.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch3.json"
+    ],
+    "触媒": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json"
+    ],
+    "计算的基本元素、表示与可执行结构": [
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/plan/search-plan.json",
+      "research/runs/2026-11-06-agent2-search-plan/revisions/v1/search-plan.json",
+      "research/runs/2026-11-06-agent2-search-plan/search-plan.json"
+    ],
+    "认知、行动与时间经验": [
+      "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-search-plan/inputs/A1/taxonomy.json"
+    ],
+    "认知与智能主体": [
+      "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/taxonomy.json",
+      "research/runs/2026-11-06-agent2-search-plan/inputs/A1/taxonomy.json"
+    ],
+    "讯兔科技 / Alpha派报告底稿Agent": [
+      "research/runs/2026-11-06/rejection-evidence.json"
+    ],
+    "请把名字放进“我们是___”“___今天发布了一项研究”两句；这是定性口语检查，不是消费者实验。读解释前仍需能被自然称呼。不要只交原理名词或漂亮词拼接。": [
+      "research/runs/2026-11-07-continuation/A1.json"
+    ],
+    "负熵流": [
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/daily-20.json",
+      "research/runs/2026-11-07-continuation/daily-20.json"
+    ],
+    "超衍智能 / Apex Intelligence": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "转场": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json"
+    ],
+    "过境": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json"
+    ],
+    "追觅 / Dreame": [
+      "research/runs/2026-11-06-agent1-expansion/cases.json",
+      "research/runs/2026-11-06-agent1-expansion/source_review.json"
+    ],
+    "逆级联": [
+      "research/runs/2026-11-07-live-delivery/A2-batch1.json",
+      "research/runs/2026-11-07-live-delivery/A2-quality-batch1.json",
+      "research/runs/2026-11-07-live-delivery/A3-cn-batch1.json",
+      "research/runs/2026-11-07-live-delivery/A3-en-batch1.json"
+    ],
+    "递火": [
+      "research/runs/2026-11-07-continuation/A2-batch4.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch4.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch4.json"
+    ],
+    "通式": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json"
+    ],
+    "重整": [
+      "research/runs/2026-11-06-round2/candidates.json",
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/screening.json"
+    ],
+    "镜智格物 / EverMind": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "长按": [
+      "research/runs/2026-11-07-continuation/A2-batch4.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch4.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch4.json"
+    ],
+    "阜阳开集生物科技有限公司": [
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/screening.json"
+    ],
+    "阶跃星辰 / StepFun": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent1-baseline105/source_review.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json"
+    ],
+    "阿里巴巴 / Alibaba": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/plan/search-plan.json"
+    ],
+    "随行": [
+      "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-input-candidates.json",
+      "research/runs/2026-11-06-agent2-materials-cn/editorial-quality.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A2/candidates.json"
+    ],
+    "雨影": [
+      "research/runs/2026-11-07-continuation/A2-batch5.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch5.json",
+      "research/runs/2026-11-07-continuation/coordinator-cn-batch5.json"
+    ],
+    "零一万物 / 01.AI": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "非玩家": [
+      "research/runs/2026-11-07-continuation/A2-batch8.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch8.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch8.json"
+    ],
+    "非终态": [
+      "research/runs/2026-11-06-round2/candidates.json",
+      "research/runs/2026-11-06-round2/editorial.json",
+      "research/runs/2026-11-06-round2/screening.json"
+    ],
+    "面壁智能 / ModelBest": [
+      "research/runs/2026-11-06-agent1-baseline105/baseline-index.json",
+      "research/runs/2026-11-06-agent1-baseline105/cases.json",
+      "research/runs/2026-11-06-agent2-material-pilot/inputs/A1/cases.json",
+      "research/runs/2026-11-06-agent2-materials-cn/inputs/A1/cases.json"
+    ],
+    "页脚": [
+      "research/runs/2026-11-07-continuation/A2-batch2.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch2.json",
+      "research/runs/2026-11-07-continuation/coordinator-cn-batch2.json"
+    ],
+    "鸽哨": [
+      "research/runs/2026-11-07-continuation/A2-batch7.json",
+      "research/runs/2026-11-07-continuation/A2-index32.json",
+      "research/runs/2026-11-07-continuation/A2-quality-batch7.json",
+      "research/runs/2026-11-07-continuation/A3-cn-batch7.json"
+    ]
+  }
+}

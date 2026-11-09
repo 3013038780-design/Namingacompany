@@ -1,0 +1,170 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 actual non-numeric postscreen review after source correction",
+  "reviewed_at": "2026-11-09T03:56:54.883289+08:00",
+  "candidate_id": "C1-E47",
+  "chinese_id": "C1-C57",
+  "chinese": "逆序猫",
+  "chinese_version": 2,
+  "english": "Tailfirst",
+  "inputs": [
+    {
+      "path": "A4-C57-source-correction-preview.json",
+      "sha256": "4fcba2f09cfc4a6bc5557761992b39428ea2f874b4c51c6de91eb4d34eb4c68a"
+    },
+    {
+      "path": "A4-C57-source-correction-preview.md",
+      "sha256": "9a2fe11e898f32ae19c5ab8088709c0a6d5cb04918248d0b3ff7d9d6a7483f8a"
+    },
+    {
+      "path": "A4-C57-source-correction-quality.json",
+      "sha256": "c774538d3717dd51817e64d3703beb990c642d30552dc7efee4255e992c79b37"
+    },
+    {
+      "path": "A4-C57-source-correction-execution.json",
+      "sha256": "9b62d30b83abcfb3630c3c46810ae5ce0f0ecfc71c31f758786c635b8c74d05e"
+    },
+    {
+      "path": "A4-C57-postscreen-pending.json",
+      "sha256": "20f09bce2c1b92dd22660ba6e4c417e7ba4f13fe1e274a47a497691f089e6e02"
+    },
+    {
+      "path": "A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc"
+    },
+    {
+      "path": "A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5"
+    },
+    {
+      "path": "A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982"
+    },
+    {
+      "path": "A3-E47-profile-addendum.md",
+      "sha256": "12da5555c74a21b0cd461a3c45112b3ae9eeb4f1c4e680d326091f37e1d7adac"
+    },
+    {
+      "path": "A3-E47-profile-addendum-receipt.json",
+      "sha256": "1556c5f3048571b88e3fc1a721defb76191ada2792138095dd04d34bb2710804"
+    },
+    {
+      "path": "A3-E47-etail-addendum.json",
+      "sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099"
+    },
+    {
+      "path": "A3-E47-etail-addendum.md",
+      "sha256": "c5415b971e65dbee9b5ab51f70151768510e8fd4608acd141a0d423134d2bcd9"
+    },
+    {
+      "path": "A3-E47-etail-addendum-receipt.json",
+      "sha256": "17387a478a3c9beea3f7740f1e3dbcda816bdd3f42eb0ece64819fe006c1bcc6"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "receipt": "A3-E47-profile-addendum-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "match": true
+    },
+    {
+      "receipt": "A3-E47-profile-addendum-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45.md",
+      "sha256": "292dd12f1dffa0278d3d5018ce996e13754fbfef78cc63823e08c4e84be94dd9",
+      "match": true
+    },
+    {
+      "receipt": "A3-E47-profile-addendum-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "match": true
+    },
+    {
+      "receipt": "A3-E47-profile-addendum-receipt.json",
+      "path": "A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "match": true
+    },
+    {
+      "receipt": "A3-E47-profile-addendum-receipt.json",
+      "path": "A3-E47-profile-addendum.md",
+      "sha256": "12da5555c74a21b0cd461a3c45112b3ae9eeb4f1c4e680d326091f37e1d7adac",
+      "match": true
+    },
+    {
+      "receipt": "A3-E47-etail-addendum-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "match": true
+    },
+    {
+      "receipt": "A3-E47-etail-addendum-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134",
+      "match": true
+    },
+    {
+      "receipt": "A3-E47-etail-addendum-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982",
+      "match": true
+    },
+    {
+      "receipt": "A3-E47-etail-addendum-receipt.json",
+      "path": "A3-E47-etail-addendum.json",
+      "sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099",
+      "match": true
+    },
+    {
+      "receipt": "A3-E47-etail-addendum-receipt.json",
+      "path": "A3-E47-etail-addendum.md",
+      "sha256": "c5415b971e65dbee9b5ab51f70151768510e8fd4608acd141a0d423134d2bcd9",
+      "match": true
+    }
+  ],
+  "decision": "support_corrected_existing_word_pairing_for_coordinator_with_explicit_author_identity_and_historical_nearname_risks",
+  "review_conclusion": "来源修正后仍支持此配对交主控讨论库终审。该判断依据独立称呼和同场主题关系，不因A3过查询而自动接受；明确保留同AI场域作者展示身份与具体历史近名未知用法风险，不当已清查或无风险交付。若主控对同场作者身份采取更严编辑避让，应准确记风险退回而非伪称已证同名软件公司。",
+  "risk_reviews": [
+    {
+      "topic": "独立品牌身份",
+      "judgment": "仍支持作为供讨论的研究机构称呼。完整既有副词短、易称呼，反常动作图景可独立成立；选择既有词不损害资格，也不因存在词典自动变成好品牌。宠物/动画/游戏、倒退/退步首联想和tail/tale听写竞争仍是真实短板，需合伙人实际口头判断。"
+    },
+    {
+      "topic": "双语与来源关系",
+      "judgment": "中文点出逆序猫主体，英文选既有尾部先行副词作主题配对，同一个倒行示意可解释；不是逐字英译或完整时间反射定义。空间姿态不能证明信号时序反转，名字没有包含介质切换/频移；科学出处只支持第二层叙事，不充当品牌质量或AI增益证据。"
+    },
+    {
+      "topic": "同AI场域作者身份",
+      "judgment": "实际补证显示tailfirst不仅孤立用户名，还主动作为个人技术作品集合题头；应正面披露同拼写技术作者/搜索身份竞争，不能因个人就忽略。可读About明确profile用途，当前具名系统为Apex等，尚不足以确认一项独立Tailfirst公司/软件/模型；我不因此作精确使用否决。它仍可能使外界误认作者关联，故仅支持带此风险交主控，不称搜索身份干净。"
+    },
+    {
+      "topic": "历史近名E-TAIL FIRST",
+      "judgment": "原公告已核2010完整公司名成立记录，不再称只有第三方索引。本人新读Collins e-tail215–234，指线上零售，E-TAIL是完整有意义词，与tail不同，不能删E冒精确同名。历史近名的实际业务、现状、是否简称Tailfirst仍未知；不以语言区别宣告clear、不称Inactive已核。保留具体近名编辑风险，未发现足以令我把当前配对直接判作确证精确占用的证据。"
+    },
+    {
+      "topic": "普通词与注册边界",
+      "judgment": "既有词形来源已纠正，1885–90只是词典标时段，未核首用原证。普通词典、蠕虫方向参数、游戏标题版本修饰均不直接证明独立品牌。大陆工商/9与42和境外官方登记限制保持，本配对没有全球可注册保证。"
+    },
+    {
+      "topic": "概念猫与测量",
+      "judgment": "作者概念说明用猫，实际测量是脉冲。本人未看图片/原论文方法，不把Tailfirst说成作者命名、不把尾部先行说成实验另测结果；时空倒流、活猫/真实猫图像实验或模型变聪明均无此证据。"
+    }
+  ],
+  "actual_reading_scope": "实际读原A3 profile/etail两套JSON、MD及receipt全文，核引用SHA。本人本次只从固定A3报告采用GitHub/原Gazette阅读性质，不冒自己打开这些原页面；新实际打开Collins e-tail并读215–234词义/构成，系语言原义核验，不是市场查重。本人已读的其余科学/词典范围见来源修正新档，旧错误不覆盖。",
+  "new_dictionary_source": {
+    "url": "https://www.collinsdictionary.com/dictionary/english/e-tail",
+    "actual_scope": "215–234",
+    "supports": "线上零售的完整词，而非可剥离组织后缀",
+    "limits": "词义不证明E-TAIL FIRST实际业务、简称、存续或商标状态"
+  },
+  "source_correction_acceptance_status": "pending_same_A3_correction_acceptance_and_root_terminal_review",
+  "actual_new_english_candidates": 0,
+  "actual_new_scores": 0,
+  "actual_new_usage_queries": 0,
+  "actual_new_registration_queries": 0,
+  "english_rework_attempt": 0,
+  "remaining_english_reworks": 2,
+  "same_candidate_not_new_version": true,
+  "unchanged": "不修改旧pending/原EN45稿/原评审/修正评审或查询receipt，不入库/Git/队列；不把更正伪装原先一次通过。"
+}

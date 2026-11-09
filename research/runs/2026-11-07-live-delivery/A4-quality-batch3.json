@@ -1,0 +1,84 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T16:40:39+08:00",
+  "reviews": [
+    {
+      "candidate_id": "LD-E05",
+      "chinese_id": "LD-C08",
+      "english": "Solirain",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "三音节，rain结尾是熟悉拼读。",
+          "counter_association": "soli可能有短长元音差异。"
+        },
+        "spelling": {
+          "reason": "八字母可按soli/rain分段说明。",
+          "counter_association": "首次听写可能变成Solyrain。"
+        },
+        "formation": {
+          "reason": "从同一真实科学现象的短语内压缩，没有无关附会。",
+          "counter_association": "整体新词不等于通用科学术语。"
+        },
+        "bilingual_relation": {
+          "reason": "两语指向同一soliton rain对象。",
+          "counter_association": "英文省略ton，需要解释专业来源。"
+        },
+        "distinctiveness": {
+          "reason": "有清晰雨图像与实验室可称呼外壳。",
+          "counter_association": "可能被误联想太阳雨或天气产品。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独立评分与原A3英文使用复查。"
+    },
+    {
+      "candidate_id": "LD-E06",
+      "chinese_id": "LD-C05",
+      "english": "Bipelago",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "四音节重音在pel，可按词块自然读。",
+          "counter_association": "首音可能读bee而非bih。"
+        },
+        "spelling": {
+          "reason": "八字母，bi加pelago能口述说明。",
+          "counter_association": "不熟悉archipelago者需初次看拼写。"
+        },
+        "formation": {
+          "reason": "中文已有bit/群岛真实交叉，英文做同组声形压缩。",
+          "counter_association": "bi-可能先理解为二而非bit。"
+        },
+        "bilingual_relation": {
+          "reason": "共享数字媒介与独立岛屿交换的同一世界。",
+          "counter_association": "不看中文时bit只保留了声音线索。"
+        },
+        "distinctiveness": {
+          "reason": "整体具一个可探索世界的专名感，不限当前模型功能。",
+          "counter_association": "可能像游戏或元宇宙品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独立评分与原A3英文使用复查。"
+    }
+  ]
+}

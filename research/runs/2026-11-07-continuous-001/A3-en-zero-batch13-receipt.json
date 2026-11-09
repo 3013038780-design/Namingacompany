@@ -1,0 +1,41 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English zero-input receipt",
+  "executed_at": "2026-11-08T11:40:20.679830+08:00",
+  "inputs": [
+    {
+      "path": "A4-zero-batch13.json",
+      "sha256": "14719474cd9185281b21559068857c1c86a618589ef5182f45b69c59398d31e4"
+    },
+    {
+      "path": "A4-zero-batch13.md",
+      "sha256": "3be5d007c377ce9404ae8ea9163d4b1cc59497d30c0c3ce18602e96c9e3fc638"
+    },
+    {
+      "path": "A3-cn-batch15.json",
+      "sha256": "aa82bfa8e497155d5bbd8f27f3fbbc52fe6777287d2d63bf92c51997c3afd7f4"
+    },
+    {
+      "path": "A3-cn-batch15-receipt.json",
+      "sha256": "95afee81928b1722cf0996ae1f8a673d9e4817e0953e3c734185ceaf6ab92b93"
+    },
+    {
+      "path": "continuations/2026-11-08T033348Z/root-C26-use-verification.json",
+      "sha256": "f57c406be8ce0649ca2a9cca4f90b717295503c089d5282915b95b2908ea7b1f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-zero-batch13.json",
+      "sha256": "870277ec039b8a8ae9ab57579b4d40b78cbfcfdc500daf6803c7b9a7ba3f23b0"
+    },
+    {
+      "path": "A3-en-zero-batch13.md",
+      "sha256": "7cbd024ecca73f51a33a769d92fa1157b9002764cc2e7c727cbcee440a7d18db"
+    }
+  ],
+  "actual_read_and_hash_check": true,
+  "english_inputs": 0,
+  "english_outputs": 0,
+  "actual_new_queries": 0
+}

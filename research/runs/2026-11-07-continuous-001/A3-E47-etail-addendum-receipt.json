@@ -1,0 +1,37 @@
+{
+  "agent_id": "/root/live_a3",
+  "executed_at": "2026-11-09T03:54:38.212253+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch45-receipt.json",
+      "sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-E47-profile-addendum.json",
+      "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-E47-etail-addendum.json",
+      "sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099"
+    },
+    {
+      "path": "A3-E47-etail-addendum.md",
+      "sha256": "c5415b971e65dbee9b5ab51f70151768510e8fd4608acd141a0d423134d2bcd9"
+    }
+  ],
+  "actual_new_candidate_queries": 1,
+  "completed_candidate_search_results": 1,
+  "actual_direct_open_actions": 3,
+  "agent3_cumulative_candidate_queries": 680,
+  "agent3_cumulative_returned_candidate_results": 679,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 682,
+  "run_cumulative_returned_candidate_results": 681,
+  "decision": "historical_company_core_confirmed_near_name_risk_remains_unresolved"
+}

@@ -1,0 +1,88 @@
+{
+  "reviewed_at": "2026-11-08T00:00:33.924343+08:00",
+  "independence": "Read producer preview batch9 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C20",
+      "name": "声入纹",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 3,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "total": 22,
+      "notes": {
+        "naturalness": {
+          "reason": "三字有整幅声转纹画面",
+          "counter_association": "趋向表达略像诗句而非现成机构称呼"
+        },
+        "distinctiveness": {
+          "reason": "声音与纹路有鲜明感官转换",
+          "counter_association": "易先听成声入文"
+        },
+        "lab_fit": {
+          "reason": "可承载信息媒介研究但首感偏声音艺术",
+          "counter_association": "初见更像录音器材或艺术品牌"
+        },
+        "grounding": {
+          "reason": "已读NPS文字稿直接描述振动触针压痕和再读",
+          "counter_association": "不等于数字无损录音或机器理解"
+        },
+        "extension": {
+          "reason": "可延展记录与承载方式",
+          "counter_association": "过度延展会丢掉器物特征"
+        },
+        "semantic_coherence": {
+          "reason": "声入纹共同描述同一装置作用",
+          "counter_association": "三字本身没讲出再读过程"
+        }
+      },
+      "decision": "quality_reject"
+    },
+    {
+      "candidate_id": "C1-C21",
+      "name": "识局",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "动宾短词直接可称呼",
+          "counter_association": "时局市局同音影响听写"
+        },
+        "distinctiveness": {
+          "reason": "识别局面是可记忆的关系动作",
+          "counter_association": "熟词需要独立商业筛查不能假称新造"
+        },
+        "lab_fit": {
+          "reason": "认知与决策可容纳AI研究身份",
+          "counter_association": "可能偏棋类策略或咨询"
+        },
+        "grounding": {
+          "reason": "ChaseSimon三人棋局任务支持熟悉结构与任务编码关系",
+          "counter_association": "小样本原研究不支持普遍专家记忆定论"
+        },
+        "extension": {
+          "reason": "可以覆盖结构认识和多个研究产品",
+          "counter_association": "不能承诺看透所有局面"
+        },
+        "semantic_coherence": {
+          "reason": "识与局是同一认知动作及对象",
+          "counter_association": "不能泛化为经历越多必然越聪明"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

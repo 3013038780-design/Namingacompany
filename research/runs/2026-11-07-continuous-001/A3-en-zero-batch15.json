@@ -1,0 +1,97 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English zero-input final check",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T13:12:41.585339+08:00",
+  "candidate_id": "C1-C28",
+  "name": "灵感之外",
+  "inputs": [
+    {
+      "path": "A4-zero-batch15.json",
+      "sha256": "be403dbfdab54a3d64bc87ea302ef68055729f12c19b6092565b161a8495252a"
+    },
+    {
+      "path": "A4-zero-batch15.md",
+      "sha256": "e39f482e4285ab0ff5f68d172e14f9e460623a24b73cfca0a59ff56e77d5f48b"
+    },
+    {
+      "path": "A3-cn-batch17.json",
+      "sha256": "4ffc60d10e23345475e65c82acd5818968d4068e307f9b74d233cb2aa252b6d4"
+    },
+    {
+      "path": "A3-cn-batch17-receipt.json",
+      "sha256": "17e9f6abaca7b2050c6082b5bcac134c1ee7b56a29cb8215d02ed8c823423dee"
+    }
+  ],
+  "actual_upstream_read": true,
+  "hash_checks": [
+    {
+      "path": "A2-candidates-batch15.json",
+      "expected_sha256": "d3e818d6cfd59ed76c86f7efa21b81367f7147b9cf5398d11e6a213b013a9441",
+      "actual_sha256": "d3e818d6cfd59ed76c86f7efa21b81367f7147b9cf5398d11e6a213b013a9441",
+      "matches": true
+    },
+    {
+      "path": "A2-quality-batch15.json",
+      "expected_sha256": "0656d8aae6538853bf30245acffcc38785aeea10dc12b367a5e05239affa9b6b",
+      "actual_sha256": "0656d8aae6538853bf30245acffcc38785aeea10dc12b367a5e05239affa9b6b",
+      "matches": true
+    },
+    {
+      "path": "coordinator-cn-batch15.json",
+      "expected_sha256": "a2db87147c91dd2c3e2c99f0d1bc76fc16364167b19b41abe7afb568aafdd88b",
+      "actual_sha256": "a2db87147c91dd2c3e2c99f0d1bc76fc16364167b19b41abe7afb568aafdd88b",
+      "matches": true
+    },
+    {
+      "path": "coordinator-family-review-batch15.json",
+      "expected_sha256": "8a95dc4757c070e16148c1cb4c2d1762fb2c61843b41ca6c419cf5fe76c5e00b",
+      "actual_sha256": "8a95dc4757c070e16148c1cb4c2d1762fb2c61843b41ca6c419cf5fe76c5e00b",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch17.json",
+      "expected_sha256": "4ffc60d10e23345475e65c82acd5818968d4068e307f9b74d233cb2aa252b6d4",
+      "actual_sha256": "4ffc60d10e23345475e65c82acd5818968d4068e307f9b74d233cb2aa252b6d4",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch17.md",
+      "expected_sha256": "04670d12f2aef660f08f8bfb02c4670443ce713afcaded96a262c0d15ca84fe4",
+      "actual_sha256": "04670d12f2aef660f08f8bfb02c4670443ce713afcaded96a262c0d15ca84fe4",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch17-receipt.json",
+      "expected_sha256": "17e9f6abaca7b2050c6082b5bcac134c1ee7b56a29cb8215d02ed8c823423dee",
+      "actual_sha256": "17e9f6abaca7b2050c6082b5bcac134c1ee7b56a29cb8215d02ed8c823423dee",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch17.json",
+      "expected_sha256": "4ffc60d10e23345475e65c82acd5818968d4068e307f9b74d233cb2aa252b6d4",
+      "actual_sha256": "4ffc60d10e23345475e65c82acd5818968d4068e307f9b74d233cb2aa252b6d4",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch17.md",
+      "expected_sha256": "04670d12f2aef660f08f8bfb02c4670443ce713afcaded96a262c0d15ca84fe4",
+      "actual_sha256": "04670d12f2aef660f08f8bfb02c4670443ce713afcaded96a262c0d15ca84fe4",
+      "matches": true
+    }
+  ],
+  "qualified_chinese_inputs": 0,
+  "english_inputs": 0,
+  "english_outputs": 0,
+  "actual_new_candidate_queries": 0,
+  "actual_new_control_queries": 0,
+  "query_logs": [],
+  "decision": "zero_english_verified_after_quality_rejection",
+  "reason": "实际核A4已完成零匹配和原cn17一致；主控Lab身份未过，未查使用不称占用或通过。不是未开始伪记零。",
+  "material_accounting": "旧M22首次命名复用，新素材0；不恢复已闭M18/M20。",
+  "agent3_cumulative_candidate_queries": 329,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 331,
+  "next": "本工作段主控H7/网站feed/PR与检查点；研究队列下一次接续，A3本段不启动新查询。",
+  "old_records_catalog_git_unchanged": true
+}

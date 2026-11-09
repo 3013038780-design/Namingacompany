@@ -1,0 +1,105 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T04:59:45.261875+08:00",
+  "candidates": [
+    {
+      "id": "C1-C59",
+      "name": "原恒星",
+      "pinyin": "yuán héng xīng",
+      "material_id": "C1-M73",
+      "material_ids": [
+        "C1-M73"
+      ],
+      "family_id": "C1-BF-forming-star-as-whole-research-subject",
+      "plan_direction_id": "C1-D-S2",
+      "case_ids": [
+        "B001",
+        "B053",
+        "B015"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "NASA Science: Stars — Birth and Life",
+          "url": "https://science.nasa.gov/universe/stars/",
+          "reading_location": "实际读L278–294恒星概要、Birth、Life开头：分子云团块在引力下坍缩、原恒星形成、初期热源及稳定主序阶段说明。未读后面完整Death段、外链研究、图片或观测数据；网页无本段可核发布日期，不计近期新闻。",
+          "read_at": "2026-11-09T04:54:39.825002+08:00",
+          "access": "body",
+          "source_type": "research_agency_educational_body",
+          "published_at": null,
+          "reading_scope": "specified_birth_and_early_life_excerpt",
+          "boundary": "这里只取初期多数能量来自坍缩的限定描述，不把科普时标推广每一种质量天体；不说所有原恒星在所有时刻完全没有核反应，或肉眼都能看见。"
+        },
+        {
+          "title": "中国科学院/上海天文台：研究发现银河系中心极端环境下大质量恒星快速成长",
+          "url": "https://www.cas.cn/syky/202606/t20260609_5112114.shtml",
+          "reading_location": "实际读L376文章头日期2026-06-23、L386–395观测及建模报道、L399图注。盘/包层/吸积流来自该系统观测与模型分析；未读原论文、运行模型或观察图像。图注明确图由AI生成，不将它当真实观测照片。",
+          "read_at": "2026-11-09T04:54:39.825002+08:00",
+          "access": "body",
+          "source_type": "research_institute_primary_news_body",
+          "published_at": "2026-06-23",
+          "reading_scope": "full_short_news_body_and_caption_text",
+          "boundary": "虽URL含6月9日，按实际正文6月23日，不计近90天。研究对象为特定早期O型大质量原恒星，不与NASA一般初期科普合并成所有原恒星均同状态的结论。"
+        }
+      ],
+      "source_urls": [
+        "https://science.nasa.gov/universe/stars/",
+        "https://www.cas.cn/syky/202606/t20260609_5112114.shtml"
+      ],
+      "formation": "原稿把原恒星短化为原星，独立辨识不足。依据该具体反馈，本角色重新比较后采用原文已有的完整天体名称原恒星，恢复恒星这个完整词而不是插入象征永恒的美好字。不要求每次必须用长术语；这一次完整名称让人能指向一个确定天体类别，避免仅剩通行原/元/源加星构式。不是新造词、首造或新家族。",
+      "relation_sentence": "处在形成阶段的原恒星已有自身结构与物质条件，NASA概述其初期热源，中国报道则研究特定大质量系统的吸积结构。",
+      "condensation_path": "从原恒星这一个完整天体名凝练原星：保留早期状态与星体主体，不给原配原始智慧、给星配领先地位各自加吉祥义。它是本轮品牌短化，不冒称标准中文天文术语或NASA英文含汉字；也不宣称独创/可注册。",
+      "meaning": "把形成中的天体，也当作完整的研究对象。",
+      "crossing": "一个尚在形成的天体已经有可研究的结构、物质交换和能量来源；形成阶段本身也是完整研究对象。",
+      "layers": [
+        "完整可叫出的早期天体",
+        "形成阶段已经有可观测结构与作用条件",
+        "研究未稳定系统的具体机制，不将自然过程等同AI必然进步"
+      ],
+      "material_feature_retained": "恢复正式完整天体类别名，保留形成阶段、具体结构与能量/物质条件可研究的关系。",
+      "material_feature_lost": "名字不展示不同质量天体的具体能量状态、吸积盘、时标和观测模型条件；不说明任何AI训练方法或增益。",
+      "why_name_not_generic": "完整原恒星是既有天文学对象称呼，恢复恒星语素提供明确类别锚点；不是在弱短名后加智/元/AI或把恒拆成永远成长的愿望。",
+      "shortcoming": "专业对象认读有门槛，可能首先像天文科普、航天项目或科幻作品。完整术语增加一个音节，不自动证明品牌独特；未查使用，元恒/源恒等听写风险也未消除。科技Lab身份和记点仍需主控独立评，不借来源真强过。",
+      "science_boundary": "原星仅是本轮品牌凝练，不声称正式天文学类别、原文用词、全球首造或所有形成中的星都会按同一路径成主序星。",
+      "history_check": {
+        "status": "same_family_rework_not_new_family",
+        "reason": "原恒星此前已在M73源文/稿件说明中出现，这次才正式选作同C59字面。沿同一原恒星具体关系，不新增素材/主ID/家族，不重用泛成长/原力/地壳生成上位故事。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是原恒星，做人工智能研究。",
+        "原恒星发布了一项研究。"
+      ],
+      "status": "chinese_rework_draft_not_screened",
+      "version": 2,
+      "rework_attempt": 1,
+      "replaces_name": "原星",
+      "editorial_feedback_lineage": {
+        "feedback_ref": {
+          "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T202508Z/root-C59-quality-return.json",
+          "sha256": "60073d261cc763428a5e3aac8e86c88d8faf488631c290c606d9f8a7d0f5f35d"
+        },
+        "input_issue": "作者与主控均认为原星独立辨识未过，不是查重失败。",
+        "actual_A2_response": "原A2重新比较短称与原文完整类别名称，选择恢复原恒星；主控没有指定必须采用这个名称，本稿也不声称无反馈凭空独创。",
+        "unchanged": "原星自拒及原分数保留，来源仍M73，M72不强配名。"
+      }
+    }
+  ],
+  "rework_of": "A2-candidates-batch44.json",
+  "new_material_count": 0,
+  "new_chinese_primary_id_count": 0,
+  "new_family_count": 0,
+  "selected_chinese_surface_revisions": 1,
+  "scope": "同C59/M73中文R1，正式恢复完整对象名；不预判必须通过，不提前查用或配英文。"
+}

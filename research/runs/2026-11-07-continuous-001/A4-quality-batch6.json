@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-07T21:11:41.455369+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E06",
+      "chinese_id": "C1-C11",
+      "english": "Linewake",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "line与wake都是短普通词，两音节可顺读。",
+          "counter_association": "首次仍需按完整语素拆分介绍。"
+        },
+        "spelling": {
+          "reason": "两个完整词保留正常拼写，无无义字母。",
+          "counter_association": "初次可能分写Line Wake或写成其他line开头词。"
+        },
+        "grounding": {
+          "reason": "输入提交后进入执行与回应是原文交互关系，wake为受限品牌拟人。",
+          "counter_association": "不是已发表算法名、操作系统唤醒机制或意识证明。"
+        },
+        "bilingual_relation": {
+          "reason": "中文提交之后与英文输入激活过程共同保留同一交互边界。",
+          "counter_association": "英文更偏代码场景，中文可容纳更广的人机相遇。"
+        },
+        "distinctiveness": {
+          "reason": "短词给静态输入转为活动的画面，能形成独立研究称呼。",
+          "counter_association": "代码工具、通信线路或艺术品牌联想可能先出现。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；等待主控先读无分预览独评，再读本档并授权原A3。"
+    }
+  ]
+}

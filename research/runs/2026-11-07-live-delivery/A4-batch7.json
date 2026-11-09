@@ -1,0 +1,29 @@
+{
+  "agent_id": "/root/live_a4",
+  "role": "A4",
+  "recorded_at": "2026-11-07T16:47:15+08:00",
+  "input_authorization": "主控要求LD-C07第2次及最后一次英文返工，中文资格不变",
+  "candidates": [
+    {
+      "id": "LD-E11",
+      "chinese_id": "LD-C07",
+      "chinese": "代码生境",
+      "english": "Daimaji",
+      "suggested_pronunciation": "DYE-mah-jee /ˈdaɪmɑːdʒiː/",
+      "type": "根据中文声音压缩的新造专名；不声称现成英语词义",
+      "formation": "代码生境拼音daima-shengjing，保留代码的daima，再取境的ji-并去鼻尾，形成Daimaji。生境的“生”音节不保留，这是为三音节称呼所作的明确声音压缩，不给删掉的音编造额外含义。",
+      "bilingual_relation": "中文保存完整的数字程序与使适应发生的环境关系；英文用中文声音作为同一研究机构身份，不再依赖Code/Habitat/Agora这些拥挤组成词。不是另一种语言的科学术语。",
+      "meaning": "中文科学出处仍是程序在计算环境中行动、变化与适应；英文提供一个可称呼的国际专名，意义由同一中文品牌和长期研究承接。",
+      "shortcoming": "英文单看无法推出代码或生态含义，需要中文和简介建立认识；首个dai可能初次被读day而非dye，须固定建议读法。整体也可能先被当作人名。",
+      "source_urls": [
+        "https://www.caltech.edu/about/news/researchers-mutate-digital-organisms-348"
+      ],
+      "read_scope": "原理背景继承A2实际读Caltech报道与主控核验；英文仅为本轮中文声音变形，不虚称A4新读论文或发现公认英语词源。",
+      "rework_of": "LD-E10",
+      "rework_number_for_chinese": 2,
+      "rework_reason": "Jingora已由A3确认同名手机配件品牌实际使用，按主控指令主动避让；不升级为同名AI公司或已核准商标结论。",
+      "status": "english_quality_proposal_not_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

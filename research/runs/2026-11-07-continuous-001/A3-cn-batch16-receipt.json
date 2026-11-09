@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese screening",
+  "executed_at": "2026-11-08T11:45:47.708160+08:00",
+  "candidate_id": "C1-C27",
+  "decision": "reject_existing_core_company_and_named_ai_agent_use",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch14.md",
+      "sha256": "f5de64680fd451000ccdd579f587eb43ba3b9f3dc926835f619ec66e52cdc0c9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch14.json",
+      "sha256": "5c06e31638fd0f96e5cdc53fa2595baa64a9210b21808568bd46f141bfd15731"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch14.json",
+      "sha256": "7c7629f4e9d28dae03ff8913ddaad967187f0ffd8473e1a05f2649e278026eb5"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch14.json",
+      "sha256": "9f15fa57c0207ff257155fe455c6511bc6a44a0aef23e9893fdfd9c9282f88c4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch14.json",
+      "sha256": "86231769440843107b6540779e9ecaf882d3132588d07e773028daa7a0fd71f5"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch16.md",
+      "sha256": "723eb14be221e96fb209ed079115dddb053d79e22b1ba14cb4c707d116e49827"
+    },
+    {
+      "path": "A3-cn-batch16.json",
+      "sha256": "ce5acf487a72937c44e186ee344c309c6ad83d74b671ad2c50a432488085faa3"
+    }
+  ],
+  "actual_new_candidate_queries": 9,
+  "actual_new_chinese_queries": 9,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 320,
+  "agent3_cumulative_candidate_queries": 329,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 331,
+  "actual_execution": "实际候选双评/家族阅读，九中文检索，GitHub官方中文具名代理及科技企业名单镜像正文已读；官方名单本次超时披露。",
+  "next": "中文0通过交原A4真实零配对，再同A3英文零核；不擅配英文救回。",
+  "unchanged": "不改旧稿、总库、Git；不通知用户/不附外部网页全文。"
+}

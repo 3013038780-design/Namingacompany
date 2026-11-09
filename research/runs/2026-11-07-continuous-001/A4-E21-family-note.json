@@ -1,0 +1,20 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "reviewed_at": "2026-11-08T10:59:30.857223+08:00",
+  "english_id": "C1-E21",
+  "english": "Fresh Witness",
+  "decision": "history_family_rejected_after_quality_pass_not_usage_screened",
+  "inputs": [
+    {
+      "path": "coordinator-en-family-review-batch21.json",
+      "sha256": "5046775ff7238780f48ca9e4900b792505c27e7304804812c9e712c0d875ab3a"
+    },
+    {
+      "path": "continuations/2026-11-08T023853Z/inputs/Single-Witness-existing-family.json",
+      "sha256": "86469b03621fd9cc3640393400f98f8279f6baa8a5ed846b8b889803f73ae86d"
+    }
+  ],
+  "actual_read": "实际读不可变Single Witness条目构词、双语关系、反例家族及来源commit/SHA，再读主控家族决定。",
+  "reason": "Single到Fresh仍是同一Witness证据角色外壳；新数据机制不同不能免去命名家族去重。仅退英文，不否决复证中文；未查不称占用。",
+  "old_quality_and_proposal_unchanged": true
+}

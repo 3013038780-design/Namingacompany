@@ -1,0 +1,61 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English screening",
+  "executed_at": "2026-11-08T19:36:47.563306+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch29.json",
+      "sha256": "cc20675d09f0f818ebc24885704bab9b7d5b0a8b197a5189a20b761bd4b45ebb"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch29.json",
+      "sha256": "8c4c6db4d6d16ec77597aa11c73d00818b1cd2b74f51a56fef82653209cb8c6b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch29.json",
+      "sha256": "f9bc8beddabfd9c3c47b4c3236fbafcf99497e10b7626e1d5cb41a620ea89fc2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch29.json",
+      "sha256": "1ab3b1446a9d89c85deafe8b4ab6043b1bd4c74bc25456039d4211f6df5e6926"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch28.json",
+      "sha256": "ec1d20c9858545cdf2781a3d440d056c720da46f7310c459cb5e2fd7b13ed115"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch23.json",
+      "sha256": "6af294d33fa08604f58ec5749d41ce8325b84d0a68bfb2bbdd661bd142eed5c6"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-batch29.json",
+      "sha256": "992ddfad94c544a75a29034a53613f952dbcab4570ec5c7cf22dae6b2b8a8cc1"
+    },
+    {
+      "path": "A3-en-batch29.md",
+      "sha256": "e17a01aa1b91820f25b82464327d3128f804126fb85fe30fd192641c33db66ff"
+    }
+  ],
+  "actual_new_candidate_queries": 6,
+  "completed_candidate_search_results": 6,
+  "unreturned_search_attempts": 0,
+  "actual_new_chinese_queries": 0,
+  "actual_new_english_queries": 6,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 432,
+  "prior_agent3_returned_candidate_results": 431,
+  "agent3_cumulative_candidate_queries": 438,
+  "agent3_cumulative_returned_candidate_results": 437,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 440,
+  "run_cumulative_returned_candidate_results": 439,
+  "passed_english_candidate_ids": [],
+  "closed_chinese_family_ids": [
+    "C1-C36"
+  ],
+  "actual_execution": "实际读上游固定四档及原筛查，6有效查询；AI扩展官网、客户反馈软件主页/运营政策正文闭环。UK逐名失败，未新增大陆登记/对照，无旧失败重复查询。",
+  "next": "C36英文匹配额度耗尽关闭，无R3；E28骰子钟/Chancebell原终审通过不改。仅闭本家族非停止整个研究。",
+  "unchanged": "旧记录/库/队列/Git未改，无网页全文。"
+}

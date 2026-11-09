@@ -1,0 +1,51 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T00:10:14.911597+08:00",
+  "scope": "主控先封存补充稿独评再打开；producer数值不进入预览。",
+  "reviews": [
+    {
+      "candidate_id": "C1-C23",
+      "name": "活变量",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 5
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "三字完整名词，熟悉变量词读说可理解",
+          "counter_association": "仍有专业术语感"
+        },
+        "distinctiveness": {
+          "reason": "明确值/变量主角与存活状态，比泛化增强更具体",
+          "counter_association": "不把活泼独特等泛义拼上"
+        },
+        "lab_fit": {
+          "reason": "计算对象有工程研究身份",
+          "counter_association": "可能像编译工具或编程栏目，需主控首感独评"
+        },
+        "grounding": {
+          "reason": "live定义及保守近似边界有原讲义正文",
+          "counter_association": "中文是本轮称呼，不假称官方中译"
+        },
+        "extension": {
+          "reason": "可容纳信息用途研究，不仅一个程序功能",
+          "counter_association": "扩展太宽会丢掉后续用途条件"
+        },
+        "semantic_coherence": {
+          "reason": "活与变量在同一后续使用关系里成立",
+          "counter_association": "不等于数据在变化或AI有生命"
+        }
+      },
+      "decision": "quality_pass",
+      "independent_submission_ref": "A2-quality-batch10-supplement.json producer-only submission"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-08T10:53:07.105230+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E20",
+      "chinese_id": "C1-C24",
+      "english": "Reinquire",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "re-与inquire均有常规读音，整体可正常称呼，没有无义字母音。",
+          "counter_association": "re与inquire相接有两个连续元音，口音还可能使quire多一音节。"
+        },
+        "spelling": {
+          "reason": "完整前缀和常用调查词拼法，不靠改字母或拼音避重。",
+          "counter_association": "re-enquire英式变体、连字符与听写差异必须独立筛查。"
+        },
+        "grounding": {
+          "reason": "再次调查同一问题是复证过程的真实动作，既有inquire调查义有词典依据。",
+          "counter_association": "英文不直接等于新数据复核定义，若只重复问答则会失去来源独特关系。"
+        },
+        "bilingual_relation": {
+          "reason": "中文再求证与英文再调查属于同一研究动作；说明明确保留新数据检验旧发现而非自我附和。",
+          "counter_association": "英文与中文本身都未直接标出数据条件，需要真实研究背景说明，不是逐字官方翻译。"
+        },
+        "distinctiveness": {
+          "reason": "完整动词式称呼能承担研究机构身份，避免仅编码一个输出校验功能。",
+          "counter_association": "也可能首先像调查咨询/检索工具；已有使用未知，不借未查重提高质量。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "规范门槛未改，主观编辑自评；主控先读无分预览独评，再交原A3使用筛查。"
+    }
+  ]
+}

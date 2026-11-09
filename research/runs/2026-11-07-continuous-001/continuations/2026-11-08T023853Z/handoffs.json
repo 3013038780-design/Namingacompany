@@ -1,0 +1,294 @@
+{
+  "same_research_run": true,
+  "new_A1_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "status": "accepted",
+      "from": "existing_A1",
+      "to": "same_A2",
+      "reason": "复用已核A1案例/构词反馈及已验收计划，最新冻结23案交原A2继续，不重开计划或轮次。",
+      "refs": [
+        {
+          "path": "A1-final-input-reacceptance.json",
+          "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+        },
+        {
+          "path": "A1-formation-feedback.json",
+          "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        },
+        {
+          "path": "continuations/2026-11-07T155304Z/decisions-through-batch10.json",
+          "sha256": "c995a70b42f88345d1fd81857168e6c8c92e1d70b13658f79d6fef70044e1377"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "status": "accepted",
+      "from": "same_A2",
+      "to": "coordinator",
+      "candidate_ids": [
+        "C1-C24"
+      ],
+      "refs": [
+        {
+          "path": "A2-creation-execution-batch11.json",
+          "sha256": "1bb24101c08ea45bebe037313e031de64ed5fa0ab0beb6d30563e65f6b957850"
+        },
+        {
+          "path": "A2-candidates-batch11.json",
+          "sha256": "76af2b122af8c2f5dfd7e3ded9e08559393182082f0ebd8bb483092ef72a1eec"
+        },
+        {
+          "path": "materials-extension10.json",
+          "sha256": "46b79ce31367a23388ba13910cf7aaa15ce69c8a824b16f7f2039027d376090b"
+        },
+        {
+          "path": "coordinator-cn-batch11.json",
+          "sha256": "b6efc93956396ce283b8097ef55ad096ba9a651ef6a8075a61b1a960743c3911"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "status": "accepted",
+      "from": "coordinator",
+      "to": "same_A3",
+      "candidate_ids": [
+        "C1-C24"
+      ],
+      "reason": "主控先封存25后读producer25，六轴相同过门，原A3实际获中文筛查授权。",
+      "refs": [
+        {
+          "path": "A2-quality-batch11.json",
+          "sha256": "bd1113119914f52a398f9d634a1ae62c2f9278162bf096534aba1e6a24070209"
+        },
+        {
+          "path": "coordinator-cn-batch11.json",
+          "sha256": "b6efc93956396ce283b8097ef55ad096ba9a651ef6a8075a61b1a960743c3911"
+        },
+        {
+          "path": "coordinator-family-review-batch11.json",
+          "sha256": "9bfcaff9c15350ffffb5b005fd4aa70551aebe991ad64f43a77b9392e659c429"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "status": "accepted_with_reported_pinyin_risk",
+      "from": "same_A3",
+      "to": "same_A4",
+      "candidate_ids": [
+        "C1-C24"
+      ],
+      "reason": "原A3十二中文查询通过，富正FUZHENG为异字同音科技品牌，明确报告且不建议拼音英文；不能冒称复证已占用或全球无登记。原A4实际获独立英文授权，最终仍须审混淆风险。",
+      "refs": [
+        {
+          "path": "A3-cn-batch13.json",
+          "sha256": "e309200efff2c49126ce985443ec69d31bbf44e6dc75bca1ff4a57d6e598e5b4"
+        },
+        {
+          "path": "A3-cn-batch13-receipt.json",
+          "sha256": "03b22b6492ec0b57ce89420d3e7e451e7c198e5b92ecc46820e06dd629e96626"
+        }
+      ]
+    },
+    {
+      "id": "H5-initial",
+      "status": "accepted",
+      "from": "same_A4",
+      "to": "same_A3",
+      "candidate_ids": [
+        "C1-C24"
+      ],
+      "english_ids": [
+        "C1-E20"
+      ],
+      "reason": "Reinquire主控先封存21后读producer21，五轴差<=1达标，实际授权原A3英文。",
+      "refs": [
+        {
+          "path": "A4-preview-batch20.md",
+          "sha256": "e3191429ad1a1221d5393e46b202984f2347d969ab9027e8039424c430111ae8"
+        },
+        {
+          "path": "A4-candidates-batch20.json",
+          "sha256": "deff2b9c9f2b61958f7dd64cf88de87091ce6acc1085fd16ac3c731f4ef97303"
+        },
+        {
+          "path": "A4-quality-batch20.json",
+          "sha256": "3274d70c28f637e72ed305850cc2ec0df0f23f4931796d3b8266cd71f59ccbfa"
+        },
+        {
+          "path": "coordinator-en-batch20.json",
+          "sha256": "83fccad8f9c8569c155d0bf24b16a28874744ed72fac918f57c93417432bdf79"
+        },
+        {
+          "path": "A4-creation-execution-batch20.json",
+          "sha256": "bb1a914f1e1658d8f69de8d023b982dbd565f9d1064c9f03494379d6d107e6b8"
+        }
+      ]
+    },
+    {
+      "id": "H6-initial",
+      "status": "returned",
+      "from": "same_A3",
+      "to": "same_A4",
+      "english_ids": [
+        "C1-E20"
+      ],
+      "reason": "七实际查询中两个研究者正文明确同名广告软件应用，软件名与负面联想否决，非已核注册AI公司；原A4已实际首返授权。",
+      "refs": [
+        {
+          "path": "A3-en-batch20.json",
+          "sha256": "9fb02928fbb64dae722c776785e3fda72fb958aab34faa6dd94d8b52e0d8e024"
+        },
+        {
+          "path": "A3-en-batch20-receipt.json",
+          "sha256": "311c7419c3793d3001d097535542245ac3de0f2b7658194d38285a4e0a91ab51"
+        }
+      ]
+    },
+    {
+      "id": "H5-rework1",
+      "status": "returned_family_duplicate_not_usage_screened",
+      "from": "same_A4",
+      "to": "coordinator",
+      "english_ids": [
+        "C1-E21"
+      ],
+      "candidate_ids": [
+        "C1-C24"
+      ],
+      "reason": "双质量过线但与总库Single Witness为定语替换的Witness角色同根外壳，不送使用查询、不称占用；原A4已真实获最后返工授权。",
+      "refs": [
+        {
+          "path": "A4-preview-batch21.md",
+          "sha256": "ff91e504202caf910dcd96e5402af1a2bf22060c934625c75a1c09d5f6718aec"
+        },
+        {
+          "path": "A4-candidates-batch21.json",
+          "sha256": "165565a942d9d251d530f3b1ff2383d08e62f408b19ad24e90cd582595dd0d9c"
+        },
+        {
+          "path": "A4-quality-batch21.json",
+          "sha256": "88d1f7b8fb206604a2854d1b623c0cde1ba4cdeda42756071da61fa1369a2ca4"
+        },
+        {
+          "path": "coordinator-en-batch21.json",
+          "sha256": "19f9bb83a1707be3eccc76bf3244b2b7c675a1b9396a76d15cde1336eeaf0853"
+        },
+        {
+          "path": "coordinator-en-family-review-batch21.json",
+          "sha256": "5046775ff7238780f48ca9e4900b792505c27e7304804812c9e712c0d875ab3a"
+        },
+        {
+          "path": "continuations/2026-11-08T023853Z/inputs/Single-Witness-existing-family.json",
+          "sha256": "86469b03621fd9cc3640393400f98f8279f6baa8a5ed846b8b889803f73ae86d"
+        }
+      ]
+    },
+    {
+      "id": "H5-rework2",
+      "status": "accepted",
+      "from": "same_A4",
+      "to": "same_A3",
+      "candidate_ids": [
+        "C1-C24"
+      ],
+      "english_ids": [
+        "C1-E22"
+      ],
+      "reason": "Otherdata主控先封存21后读producer21，五轴差<=1过门，另已避旧Witness角色外壳；原A3实际获最后英文筛查授权。",
+      "refs": [
+        {
+          "path": "A4-preview-batch22.md",
+          "sha256": "02a850a4302b9547a920945ed849c0d7e118a757f43a0a24d52be74ff418c9c0"
+        },
+        {
+          "path": "A4-candidates-batch22.json",
+          "sha256": "0403943f7a21701f309d06915bf043f5de79af28ef3eb7536f47f4c20c02ae3e"
+        },
+        {
+          "path": "A4-quality-batch22.json",
+          "sha256": "4d9fbb04fc08346afecae1ec71903027da669031c77874ddafe32d240d88c124"
+        },
+        {
+          "path": "coordinator-en-batch22.json",
+          "sha256": "674a1ba091d239ae9396f3211816d1d247d590bcc9c6d9d5e8759d69d18c7391"
+        },
+        {
+          "path": "A4-creation-execution-batch22.json",
+          "sha256": "a83e35a3225cca39a884e8b499afc35ad12d620e4a7868723122725a1bc4834b"
+        },
+        {
+          "path": "A3-cn-batch13-traditional-supplement.json",
+          "sha256": "3e766ae0e01a0f64bab83d7a99a06a2c0d53633228f2636bf9a129de5b018de0"
+        }
+      ]
+    },
+    {
+      "id": "H6-rework2",
+      "status": "returned_final_software_use",
+      "from": "same_A3",
+      "to": "coordinator",
+      "english_ids": [
+        "C1-E22"
+      ],
+      "candidate_ids": [
+        "C1-C24"
+      ],
+      "reason": "六实际查询与官方软件条款正文确证OTHER DATA同核心软件，原A4真实完成收尾、最后额度尽。",
+      "refs": [
+        {
+          "path": "A3-en-batch22.json",
+          "sha256": "1f703a74c2286761f2114f81d2d592249d32bb6d84c7ffa90791e594a42cc15f"
+        },
+        {
+          "path": "A3-en-batch22-receipt.json",
+          "sha256": "82af89f8a0656fac1d86ef828c9daae9676ee04e43eb6f079abd6741f3740118"
+        },
+        {
+          "path": "A4-closeout-batch11.json",
+          "sha256": "c91105e2076902bc4aedc36e7df2c560bb863a2b695a75392c7285b650dd6cd6"
+        },
+        {
+          "path": "continuations/2026-11-08T023853Z/root-C24-last-english-verification.json",
+          "sha256": "e1cf9109c3239bac2c6037b2eebe923eb5ec7bf68bcdbb1c2660c953d308ee46"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "status": "zero_retained",
+      "from": "coordinator",
+      "to": "catalog",
+      "candidate_ids": [
+        "C1-C24"
+      ],
+      "reason": "该中文三英文未有完整过关配对；质量/家族/软件使用不同性质已分开保存，不能拿中文通过充双语。",
+      "refs": [
+        {
+          "path": "A4-closeout-batch11.json",
+          "sha256": "c91105e2076902bc4aedc36e7df2c560bb863a2b695a75392c7285b650dd6cd6"
+        },
+        {
+          "path": "A3-cn-batch13-traditional-supplement.json",
+          "sha256": "3e766ae0e01a0f64bab83d7a99a06a2c0d53633228f2636bf9a129de5b018de0"
+        },
+        {
+          "path": "coordinator-en-family-review-batch21.json",
+          "sha256": "5046775ff7238780f48ca9e4900b792505c27e7304804812c9e712c0d875ab3a"
+        }
+      ]
+    }
+  ]
+}

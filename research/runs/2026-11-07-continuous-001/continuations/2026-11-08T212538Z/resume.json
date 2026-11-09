@@ -1,0 +1,26 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-08T21:25:38.402Z",
+  "resumed_at": "2026-11-09T05:31:47.805270+08:00",
+  "protocol_version": "1.1",
+  "roles_actually_confirmed_idle": [
+    "/root/continuous_a2",
+    "/root/live_a3",
+    "/root/continuous_a4"
+  ],
+  "same_run": true,
+  "previous_result": {
+    "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T202508Z/result.json",
+    "sha256": "5ee9b8bd3f9c6d376c1ad2348551dbe229a11f2237de5fe6d63e5941a60cbf3c"
+  },
+  "frozen_previous_decisions": {
+    "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T202508Z/decisions-through-batch46.json",
+    "sha256": "d38263ba15370dc62fe71d6f0a265ba6b682eb7e320405da6646d4ef75a6ea7b"
+  },
+  "history_scan": {
+    "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/history-scan.json",
+    "sha256": "0197a084edc6665289fa378481f22f2643f7451ff93eaef647fc59de4ddb0424"
+  },
+  "next": "A2 batch47 M74+ C60+; source worlds broadened; original A1 verified mechanisms reused",
+  "no_new_A1_claimed": true
+}

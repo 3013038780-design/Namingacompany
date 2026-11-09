@@ -1,0 +1,232 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 actual non-numeric postscreen review",
+  "reviewed_at": "2026-11-09T01:09:09.506761+08:00",
+  "candidate_id": "C1-E46",
+  "chinese_id": "C1-C52",
+  "chinese": "试飞员",
+  "english": "Trialnaut",
+  "inputs": [
+    {
+      "path": "A3-en-batch44.json",
+      "sha256": "10e591fc8146f4f91e25a31185b7e0271d9369ca26f1ce6a1a15218c63b190d4"
+    },
+    {
+      "path": "A3-en-batch44.md",
+      "sha256": "f43357e5c5f03d5cf033d78564ecf3bfbf599c7aa6563748ad3190495e2b9cb8"
+    },
+    {
+      "path": "A3-en-batch44-receipt.json",
+      "sha256": "47018c7b90f114ddb852a6d963861b615ce5de46ec82679b71fc625c660117b8"
+    },
+    {
+      "path": "A3-cn-batch34.json",
+      "sha256": "4c75c10ef5911955763946a0553d328c871d388a226bbf7eabc590cbda6b3e80"
+    },
+    {
+      "path": "A3-cn-batch34-receipt.json",
+      "sha256": "c23c8f555fb8c8c347ecc4cedce9c2bf4a4e3e8fe95440ac9134ee9c5c5beac9"
+    },
+    {
+      "path": "continuations/2026-11-08T161934Z/root-cn34-review.json",
+      "sha256": "27107cf20e349ec7ccc200857dd8a331fdcbfa63c8fc71baa5700a740932c010"
+    },
+    {
+      "path": "A4-candidates-batch44.json",
+      "sha256": "eb7febaadcd744e49697ac8314db66e83e2d6c3ee5a2b4c69d5b8e178b6f6569"
+    },
+    {
+      "path": "A4-preview-batch44.md",
+      "sha256": "85aaa27bede091062e22495ec976a6ea5b83a86eb85e5bb8312242d65296672b"
+    },
+    {
+      "path": "A4-quality-batch44.json",
+      "sha256": "06469ffb12535905f963748e24412a21d43e64b8fc6307b02527245f58b62c0b"
+    },
+    {
+      "path": "A4-creation-execution-batch44.json",
+      "sha256": "b680af4fcc5bf438aa312c9b0a8c177db70956cdce803a05ac01dd3a3152c8b0"
+    },
+    {
+      "path": "A3-en-batch42.json",
+      "sha256": "5e350022ee8708bf195c6b66487e8df47b093c8c63bcefc21679469ba8e60d4a"
+    },
+    {
+      "path": "A3-en-batch43.json",
+      "sha256": "3f5d764845c94d54ae724cf16f9a21565b35e0f468d9f952eb649b779e972ea7"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "receipt": "A3-en-batch44-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch44.md",
+      "sha256": "85aaa27bede091062e22495ec976a6ea5b83a86eb85e5bb8312242d65296672b",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch44-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch44.json",
+      "sha256": "eb7febaadcd744e49697ac8314db66e83e2d6c3ee5a2b4c69d5b8e178b6f6569",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch44-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch44.json",
+      "sha256": "06469ffb12535905f963748e24412a21d43e64b8fc6307b02527245f58b62c0b",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch44-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch44.json",
+      "sha256": "b680af4fcc5bf438aa312c9b0a8c177db70956cdce803a05ac01dd3a3152c8b0",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch44-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch44.json",
+      "sha256": "c04b7bed0b1ac681ee0d3eaf82545809ea77d4658bc5a953a7d51119702b04f7",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch44-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch34.json",
+      "sha256": "4c75c10ef5911955763946a0553d328c871d388a226bbf7eabc590cbda6b3e80",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch44-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch42.json",
+      "sha256": "5e350022ee8708bf195c6b66487e8df47b093c8c63bcefc21679469ba8e60d4a",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch44-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch43.json",
+      "sha256": "3f5d764845c94d54ae724cf16f9a21565b35e0f468d9f952eb649b779e972ea7",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch44-receipt.json",
+      "path": "A3-en-batch44.json",
+      "sha256": "10e591fc8146f4f91e25a31185b7e0271d9369ca26f1ce6a1a15218c63b190d4",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch44-receipt.json",
+      "path": "A3-en-batch44.md",
+      "sha256": "f43357e5c5f03d5cf033d78564ecf3bfbf599c7aa6563748ad3190495e2b9cb8",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch34-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch32.md",
+      "sha256": "8588184b43a18f000e102190e9b600ebb6b0360cd0e9bf4707cc990605159a14",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch34-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch32.json",
+      "sha256": "3ae172436db41bda689c817caa38f68cbfee3af60c35193269ce7185a5f59a2e",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch34-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch32.json",
+      "sha256": "3f8dff77641476027aea5061b99c2af47077f00320e9af5a3cf59eb6b21b707d",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch34-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch32.json",
+      "sha256": "01f93f93bced5741a204d783e39cd3e51e9fd3a59abc9753e3e40a12b9ce912a",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch34-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension30.json",
+      "sha256": "c716bd12c909eaddfe8b59c8a5553e3d87ddbd2228244e16036b927e126e2fc6",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch34-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch32.json",
+      "sha256": "647cf2c26180875bc91049803a3eff9d53fa14ca46c94b18267c1a1c3f80aeef",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch34-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch32.json",
+      "sha256": "a13999f7acdbe8ba41e10001052efe57bf52a889897f8debee485ba6f7c8e31d",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch34-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-history-through-batch31.json",
+      "sha256": "061426cbba2f82711bad387a01cb48d3602318afe963eb91d5cc0ea32ffeacee",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch34-receipt.json",
+      "path": "A3-cn-batch34.json",
+      "sha256": "4c75c10ef5911955763946a0553d328c871d388a226bbf7eabc590cbda6b3e80",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch34-receipt.json",
+      "path": "A3-cn-batch34.md",
+      "sha256": "62ff9395a1e04625b7862c0726ad3c48074559970efa870846d5873c789ff60f",
+      "match": true
+    }
+  ],
+  "decision": "support_existing_pairing_for_coordinator_terminal_review_with_original_limits",
+  "review_conclusion": "确认既有边界与短板。未见所读新证据产生必须撤回的独立整体使用或额外不可解释语义问题，仍支持原配对交主控终审；不是已入库或法律可用结论。",
+  "risk_reviews": [
+    {
+      "topic": "trial诉讼/临床/试用",
+      "assessment": "仍是实际显著首联想。NAUT临床试验新线索使原临床联想更具体，但原A3已以一页原协议辨识trial为普通描述、短名NAUT，非Trialnaut整体。支持原配对同时保留临床/诉讼或试用工具误读，不把消歧当消除了词义。"
+    },
+    {
+      "topic": "-naut科幻与首次听写",
+      "assessment": "仍可能先像宇航员/科幻探索者，听成trial not/naught须首次展示拼写。原A3的Trialnot排版与Trialnaught无结果仅处理具体使用证据，不能证明真实受众不会写错；不调整原分。"
+    },
+    {
+      "topic": "中文职业与近名",
+      "assessment": "试飞员为通用职业，航空运营、招聘、培训、中国试飞员学院和同词书电影搜索噪声保留。雷电试飞员VR完整名的雷电有意义，不截成精确同名，但仍为近游戏与行业误读风险。"
+    },
+    {
+      "topic": "来源与研究边界",
+      "assessment": "仍支持由专业参与者把新机器放进实际条件、与工程团队记录评估数据的同一关系。CAAC原历史文件已废止，NASA报道是平台公布与未来首飞，不能冒已完成研究。Trialnaut为有据新拟称非正式职业英译，Lab延伸是比喻，不保证自动成长、成功或越冒险越好。"
+    },
+    {
+      "topic": "使用及登记限制",
+      "assessment": "CN9和EN7查询仅公开使用初筛；完整词未见确证并非全球无使用。GSXT与CNIPA9/42复用原2026-11-07入口403，本批未逐名核准；英国逐名入口不可访问，不推断无登记。"
+    }
+  ],
+  "actual_reading_scope": "本人实际读原A3 EN44 JSON/MD/receipt全部及CN34 JSON和root-cn34-review全文；固定SHA逐项核验。具体临床协议/HEGAY公开预览系原A3实际读后报告，本人此次没有另开网页，不冒自己临床研究/产品页面亲读。原词典与CAAC/NASA实际阅读保持batch44/42记录，不追加通读声称。",
+  "medical_boundary": "仅核临床协议短名与整体命名是否相同，不对医学方案、疗效、安全或合规作判断。Orphanet403不当已读。",
+  "version_history": [
+    {
+      "id": "C1-E44",
+      "english": "Sortie",
+      "result": "确证同名AI coding-agent编排软件使用否决，非注册核准"
+    },
+    {
+      "id": "C1-E45",
+      "english": "Flightback",
+      "result": "完整航空索赔商业品牌及另Coming Soon项目避让，不称后者已发售"
+    },
+    {
+      "id": "C1-E46",
+      "english": "Trialnaut",
+      "result": "公开初筛过，当前A4仍支持，待主控终审"
+    }
+  ],
+  "rework_attempt": 2,
+  "remaining_reworks": 0,
+  "no_R3": true,
+  "actual_new_english_candidates": 0,
+  "actual_new_scores": 0,
+  "actual_new_usage_queries": 0,
+  "actual_new_registration_queries": 0,
+  "unchanged": "原三版/分数/查询/receipt/库/队列/Git未改；本档不新增名称家族、不自行入库。"
+}

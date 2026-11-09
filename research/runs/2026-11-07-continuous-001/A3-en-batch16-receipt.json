@@ -1,0 +1,47 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English screening",
+  "executed_at": "2026-11-07T23:19:04.604933+08:00",
+  "candidate_id": "C1-E16",
+  "chinese_id": "C1-C19",
+  "decision": "cross_industry_exact_commercial_core_avoidance_exhausted",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch16.md",
+      "sha256": "8e08e1b85d9f0eb723820b08b8df8a50e7870b22b41c591ec145b4612809f1b7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch16.json",
+      "sha256": "e0dfd49d5c0c57cd2a318eb03a56ca8f48b921c8ba54838d08d7213cc9d9a4a5"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch16.json",
+      "sha256": "6e1d873aa79b6f74ac22cfd4df0010a86f9675ed5c5a34c304c5edd3400a9203"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch16.json",
+      "sha256": "1c707303de2235b026ed7aabc5622efb271b766e57ad011bd9a944398c11d2eb"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch9.json",
+      "sha256": "a96a892a652654642fe4a7df0591ade4a7c936e5865429556cc62f1c2b6f60ff"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-batch16.md",
+      "sha256": "016b40653eacd5295474bcc7b16cd700e2f1e32f55f0c9489b149a149a79b229"
+    },
+    {
+      "path": "A3-en-batch16.json",
+      "sha256": "979ba4531d02112074ecadc8953d697fda51421d35bb3bcffab23de2f836fe51"
+    }
+  ],
+  "actual_new_candidate_queries": 8,
+  "actual_new_control_queries": 0,
+  "prior_candidate_queries": 210,
+  "cumulative_candidate_queries": 218,
+  "actual_execution": "实际读A4候选预览/两评审与原中文状态，执行8实际英文查询、核同名实体/专利原申请人记录及近形电子官网、英国逐名入口不可访问；不同名义未混称。",
+  "next": "最后返工2/2用尽，C19中文仍历史通过但没有合格英文，本工作包关闭英文链；不生成第三返工。",
+  "unchanged": "旧稿、catalog、中文原记录均未改，未git。"
+}

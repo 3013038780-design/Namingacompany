@@ -1,0 +1,60 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "submitted_at": "2026-11-07T21:30:06.136853+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch4.json",
+      "sha256": "957bf8655fc641d800ed4929e7fcfc65e307d461c4ca379e068325b10b0fa813"
+    },
+    {
+      "path": "materials-extension4.json",
+      "sha256": "2b90619996a1920932e9dd0a261a4a6d8fa9bb3e20633f18bc310409c0257eba"
+    },
+    {
+      "path": "A3-cn-batch5.json",
+      "sha256": "68decdd14702ea14101fa2ed22e3c373328eeeb0db85c37d2ff9bccc9eeeeb08"
+    },
+    {
+      "path": "A4-batch9.json",
+      "sha256": "2539405d7bbf8245d762e4d59749a1ca1cd7632702ff02593d163f50d6bfce9e"
+    },
+    {
+      "path": "A3-en-batch9.json",
+      "sha256": "0a89691553492bce8ea7dca2f87a135ba5b15d7d0a4eb824fd21386cdc302625"
+    },
+    {
+      "path": "A1-formation-feedback.md",
+      "sha256": "9e2c1589037d9d564619fd8d9d861dffd13288087c4f7dec8e49d5ecbd702dde"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E12",
+      "chinese_id": "C1-C13",
+      "chinese": "跳读",
+      "english": "Linkroam",
+      "suggested_pronunciation": "LINK-roam，/ˈlɪŋk.roʊm/，两个音节。",
+      "type": "完整常见语素形成的品牌新合成",
+      "formation": "link（连接、链接）+ roam（在一个范围中自由移动，也有有目的地穿行的词典义）。完整保留两个词的声音和拼法，合成一个可以称呼的专名；它不是词典收录的机制名。本案的关系句是“读者沿着可连接的信息结构移动”，没有附加聪明、增长或跃迁结论。",
+      "bilingual_relation": "跳读从阅读动作出发，Linkroam从可连接的信息结构与其中移动的动作出发。两边都保留使用者不必按唯一线性顺序走下去，而能依据结构选择路径；英文不把跳解释为模型能力跃升。",
+      "meaning": "知识不是只能从头走到尾的一条线。连接使另一处信息能够成为下一站，而人可以在其中选择怎么走。实验室可以围绕知识如何被组织、进入和使用建立研究故事。",
+      "shortcoming": "link与roam同现会明显带出通信网络、漫游或路由工具印象，泛AI Lab身份需要实际研究支撑；roam还可表示无目的闲逛，与有任务的主动导航并不完全相同。口头末尾roam与ROM/rome近音，专名第一次需确认拼法。本案不是因为两个词都好听而相加，也不声称语素常见就没有近似品牌风险。",
+      "boundary": "NLS原文展示可操作信息结构和视图穿行，未给出Linkroam名称；人沿知识结构移动是品牌转用，不代表链路真的自己漫游，也不代表模型因此持久学习。英文既有单词及拼接新专名均未由本角色做使用检索，不以新合成宣称全球首创。",
+      "source_urls": [
+        "https://dougengelbart.org/content/view/374/",
+        "https://www.merriam-webster.com/dictionary/roam"
+      ],
+      "read_scope": "本人已实际curl读取NLS页面HTML并剔除脚本，读NLS Editing & View Control、NLS Hypermedia、NLS AS AN INSTRUMENT三段；本次实际读Merriam-Webster roam词条31–64行，区分无目的移动、有目的自由穿行与手机漫游三义。另实读原A1 A1-formation-feedback.md构词反馈，未据此声称本人核读全部品牌原网页。",
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "usage_screening_performed": false,
+  "rework": {
+    "attempt": 1,
+    "remaining_after_this": 1,
+    "previous_english_id": "C1-E09",
+    "reason": "同A3确证PassageWay SaaS与passageway MCP/RAG软件；回同一知识导航过程另构完整新专名。",
+    "not_new_chinese_family": true
+  }
+}

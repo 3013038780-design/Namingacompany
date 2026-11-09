@@ -1,0 +1,236 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "executed_at": "2026-11-09T03:53:39.785224+08:00",
+  "inputs": [
+    {
+      "path": "A4-candidates-batch45.json",
+      "sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f"
+    },
+    {
+      "path": "A4-preview-batch45.json",
+      "sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f"
+    },
+    {
+      "path": "A4-preview-batch45.md",
+      "sha256": "44857e134c5831fbf232b4e61825b33fade576c7f4056f7cc7093a19e4f75ad2"
+    },
+    {
+      "path": "A4-quality-batch45.json",
+      "sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a"
+    },
+    {
+      "path": "A4-creation-execution-batch45.json",
+      "sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3"
+    },
+    {
+      "path": "A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc"
+    },
+    {
+      "path": "A3-en-batch45.md",
+      "sha256": "292dd12f1dffa0278d3d5018ce996e13754fbfef78cc63823e08c4e84be94dd9"
+    },
+    {
+      "path": "A3-en-batch45-receipt.json",
+      "sha256": "d4cef67125d6bd16c3bb593e3ce1cfddd3ad8078532530f6faa059bc7ced5134"
+    },
+    {
+      "path": "A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5"
+    },
+    {
+      "path": "A3-cn-batch42-receipt.json",
+      "sha256": "bd6d5b42054cfeaae0f66b1e18f55e0fe1ad717667fd0b1bf303209ff4eaad9a"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "receipt": "A3-en-batch45-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.md",
+      "sha256": "44857e134c5831fbf232b4e61825b33fade576c7f4056f7cc7093a19e4f75ad2",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch45-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch45-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch45.json",
+      "sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch45-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch45-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch45.json",
+      "sha256": "7e70f23d75c51263848619352425ddaf350081a3068041acf257211efcde3fef",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch45-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-en45.json",
+      "sha256": "173bded2dad2ec8fa6693745e29ee3070631712d7f5b414fdfecb146718f54d6",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch45-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch45-receipt.json",
+      "path": "A3-en-batch45.json",
+      "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc",
+      "match": true
+    },
+    {
+      "receipt": "A3-en-batch45-receipt.json",
+      "path": "A3-en-batch45.md",
+      "sha256": "292dd12f1dffa0278d3d5018ce996e13754fbfef78cc63823e08c4e84be94dd9",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch42-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch40.json",
+      "sha256": "38c14c1a537752d8fe742cc1fbbe2717626b2dbbcf2aa846696fb23b04b50f0a",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch42-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch40.md",
+      "sha256": "c856111bc420fee34bc9bcdcaa2b5c8c341cdc573b807f69a6d95dc5a1e983fa",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch42-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch40.json",
+      "sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch42-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch40.json",
+      "sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch42-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch40.json",
+      "sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch42-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch40.json",
+      "sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch42-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch42-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch41.json",
+      "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch42-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/root-cn41-review.json",
+      "sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch42-receipt.json",
+      "path": "A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch42-receipt.json",
+      "path": "A3-cn-batch42.md",
+      "sha256": "c18b6c4bbae49e72019ffaab3405e87b6f5755653ed850598e3561c43d2f5644",
+      "match": true
+    }
+  ],
+  "actual_reading": [
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/tailfirst",
+      "actual_scope": "215–230",
+      "verified": "既有副词；尾/后部在前；记音(ˈteilˈfɜːrst)；构成tail+first及词典标1885–90",
+      "limit": "未核首用原证，不把普通词条等同公司品牌占用"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/tail",
+      "actual_scope": "31–44，89–103反义联想范围",
+      "verified": "动物身体后端/尾部义与原用义一致",
+      "limit": "另有臀部/粗俗义及尾端义，不把这些抹去或另编吉祥故事"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/first",
+      "actual_scope": "31–42、77–86",
+      "verified": "时间/空间/次序上在先，支持词义",
+      "limit": "本案不取成功领先第一之义"
+    },
+    {
+      "url": "https://communities.springernature.com/posts/observation-of-time-reflection-for-electromagnetic-waves",
+      "actual_scope": "11–15及37–59正文和图注文字",
+      "verified": "37–43同一猫形概念示意的时间反射和倒行；44–50实测脉冲次序反转",
+      "limit": "猫非活体/真实猫图像测量；尾部先行是品牌图景解释不是原文Tailfirst命名，未看图片；原论文未读，阻抗45/48差异不取"
+    }
+  ],
+  "corrected_claims": [
+    {
+      "original_field": "type",
+      "original_claim": "tail + first完整词组成的画面性新拟称",
+      "correction": "应定位既有副词的品牌再选择；原说法没有区分新品牌选择与新词创造，事实分类错误。"
+    },
+    {
+      "original_field": "suggested_pronunciation",
+      "original_claim": "品牌合写无公认独立词条读法",
+      "correction": "Collins已列完整词条并记音，原否定词条读法不成立；原建议音仅作者建议，不能作为不存在词条的事实。"
+    },
+    {
+      "original_field": "read_scope",
+      "original_claim": "不假称存在Tailfirst词条",
+      "correction": "原仅核两组成词，未核完整词便过早描述为新拟称；今实读已存在完整词条，必须补正，不倒写原来已知。"
+    }
+  ],
+  "actual_new_usage_queries": 0,
+  "actual_new_registration_queries": 0,
+  "new_english_versions": 0,
+  "new_family_count": 0,
+  "same_candidate": "C1-E47 Tailfirst",
+  "outputs": [
+    {
+      "path": "A4-C57-source-correction-preview.json",
+      "sha256": "4fcba2f09cfc4a6bc5557761992b39428ea2f874b4c51c6de91eb4d34eb4c68a"
+    },
+    {
+      "path": "A4-C57-source-correction-preview.md",
+      "sha256": "9a2fe11e898f32ae19c5ab8088709c0a6d5cb04918248d0b3ff7d9d6a7483f8a"
+    },
+    {
+      "path": "A4-C57-source-correction-quality.json",
+      "sha256": "c774538d3717dd51817e64d3703beb990c642d30552dc7efee4255e992c79b37"
+    },
+    {
+      "path": "A4-C57-postscreen-pending.json",
+      "sha256": "20f09bce2c1b92dd22660ba6e4c417e7ba4f13fe1e274a47a497691f089e6e02"
+    }
+  ],
+  "unchanged": "旧稿/分数/receipt及Git/库/队列不改，没有替换新名字或伪装一次通过。",
+  "next": "主控先无分修正独评，原A3profile系统addendum待核，不提前交付。"
+}

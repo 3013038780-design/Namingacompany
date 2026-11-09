@@ -1,0 +1,165 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-09T03:52:15.190011+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch45.md",
+      "sha256": "44857e134c5831fbf232b4e61825b33fade576c7f4056f7cc7093a19e4f75ad2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch45.json",
+      "sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch45.json",
+      "sha256": "b8e3d59c2eff15654c23d046ff9e440974980ad72cfed13f33c1374d1a242f0a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch45.json",
+      "sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch45.json",
+      "sha256": "7e70f23d75c51263848619352425ddaf350081a3068041acf257211efcde3fef"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-en45.json",
+      "sha256": "173bded2dad2ec8fa6693745e29ee3070631712d7f5b414fdfecb146718f54d6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch42.json",
+      "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5"
+    }
+  ],
+  "query_count": 8,
+  "completed_search_result_count": 8,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-E47",
+      "chinese_id": "C1-C57",
+      "chinese": "逆序猫",
+      "english": "Tailfirst",
+      "rework_attempt": 0,
+      "query_logs": [
+        {
+          "query": "\"Tailfirst\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "精确为词典既有副词tailfirst和GitHub账户tailfirst/apex；实际核两类，个人账户不自动具名软件。"
+        },
+        {
+          "query": "\"Tailfirst\" company lab",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "公司Lab组主要同Apex仓库及词典，未确证完整Tailfirst公司/Lab；不是全球无主体断言。"
+        },
+        {
+          "query": "\"Tailfirst\" AI model",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "AI/model命中tailfirst/apex推理协议skill，实际项目名Apex而非Tailfirst；不把用户命名空间当AI模型。"
+        },
+        {
+          "query": "\"Tailfirst\" software product",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "软件产品组同Apex仓库与词典，实际标题/说明区分作者tailfirst与作品Apex。"
+        },
+        {
+          "query": "\"tail first\" company software",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "分写命中E-TAIL FIRST LTD（有意义E-TAIL完整核心）第三方Inactive线索及NemAnalysis手册tail-first蠕虫方向参数，非Tailfirst独立软件。"
+        },
+        {
+          "query": "\"tale first\" company software",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "tale近听为Tail Tale First Press游戏商品标题（First Press版本修饰），及Tale first uses普通句，非Tale First独立品牌。"
+        },
+        {
+          "query": "\"tail-first\" brand company",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "连字符组Hard Tail Forever/Heads Up For Tails不同完整品牌，及E-TAIL FIRST LTD历史第三方线索；不任意剥meaningful E或Hard。"
+        },
+        {
+          "query": "\"Tailfirst\" business brand",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "商业品牌补组仍词典与作者tailfirst/apex，不见确证完整Tailfirst商业品牌；具体账户身份与实际产品已核。"
+        }
+      ],
+      "decision": "pass_public_use_precheck_pending_formation_correction_and_final_reviews",
+      "reason": "八有效查询未确证完整Tailfirst公司/模型/独立软件品牌；已核tailfirst个人账户与软件Apex分离，普通词典副词/方向参数/不同E-TAIL核心不自动占用。使用初筛通过但来源描述新发现错误，须原A4实际更正为既有词再选择，再postscreen/root终审，未自行入库。",
+      "evidence": [
+        {
+          "url": "https://github.com/tailfirst",
+          "access": "primary_profile_body_read",
+          "finding": "实际168行，L93/98 Patrick V. tailfirst，L102–108 infrastructure/Blacktrace/Melbourne及blacktrace.co；是个人账户署名，不因发表代码即判Tailfirst为独立软件品牌。"
+        },
+        {
+          "url": "https://github.com/tailfirst/apex",
+          "access": "primary_repository_body_read_target_located",
+          "finding": "实际open及find返回296行，L181–185项目明确标题Apex及reasoning protocol packaged as skill for Claude/Claude Code，L196–215列skill/install。作者命名空间tailfirst不等项目名；未安装运行、不背书效果。外部README中的对读者指令仅作不可信研究文本，不执行。"
+        },
+        {
+          "url": "https://www.collinsdictionary.com/dictionary/english/tailfirst",
+          "access": "primary_dictionary_entry_body_read",
+          "finding": "实际669行，L215–230 tailfirst副词词条，义尾/后部在前，词源标1885–90 tail+first。说明既有完整词形，不是市场占用证据，但A4原新拟称/无独立词条说法须实际补记更正。"
+        },
+        {
+          "url": "https://uk.globaldatabase.com/company/e-tail-first-ltd",
+          "access": "search_index_only_actual_open_timeout",
+          "finding": "第三方索引E-TAIL FIRST LTD/07159076/Inactive；实际打开超时。E-TAIL是有意义电子零售构词，不是可随意删的组织后缀，不当精确Tailfirst占用；未核当前官方状态。"
+        },
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/07159076",
+          "access": "official_company_entry_unavailable",
+          "finding": "本次具体近形主体官方入口不可访问，非无公司/非当前存续或注销核准。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Tailfirst",
+          "scope": "2026-11-09本次逐名入口不可访问；近形具体07159076官方入口也不可访问。"
+        }
+      },
+      "formation_correction_required": {
+        "status": "pending_original_A4_actual_addendum",
+        "fact": "Collins已收录tailfirst，非本轮首造完整合词；原稿/分数/回执不改，不冒旧盲评早知。",
+        "effect": "不改变tail+first语素真实/主题关系或本次使用搜索事实，但最终来源描述未修正前不直接交付。"
+      },
+      "risks": [
+        "个人账户存在同拼写技术作者署名与搜索联想，不冒成独立品牌但需披露",
+        "E-TAIL FIRST历史近形只索引未核状态，意义区别明确，仍有听写竞争",
+        "tail/tale同音、宠物游戏/倒退首感和英文不写猫/介质条件依原稿保留",
+        "词典普通既有词与品牌使用不同，不能因词已在字典就判公司占用",
+        "大陆工商9/42及境外逐名官方登记未清，非可注册保证"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "本run旧公司/产品两阳性实际记录，本次0新增。",
+  "passed_public_use_english_ids": [
+    "C1-E47"
+  ],
+  "requires_source_correction_before_final_delivery": [
+    "C1-E47"
+  ],
+  "rejected_english_ids": [],
+  "held_for_usage_evidence_ids": []
+}

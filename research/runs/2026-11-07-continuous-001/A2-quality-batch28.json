@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T22:39:20.798736+08:00",
+  "scope": "主控先独评封存再看作者，生物综述不替品牌身份补分。",
+  "reviews": [
+    {
+      "candidate_id": "C1-C47",
+      "name": "织觉",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两个熟字组成清楚的作用-感觉整体，读音自然",
+          "counter_association": "新组合仍须解释织字，同音知觉/智觉听写有成本"
+        },
+        "distinctiveness": {
+          "reason": "织与觉共享读音又给出编织感知的独特字面画面",
+          "counter_association": "不据辨识判断推定同音品牌没有商业风险"
+        },
+        "lab_fit": {
+          "reason": "感知及其环境条件具有认知/智能研究身份",
+          "counter_association": "可能先像艺术纺织感官装置，不能单靠论文增补行业印象"
+        },
+        "grounding": {
+          "reason": "综述正文支持结构调节与感知输入关系，品牌凝练明确区别作者原词",
+          "counter_association": "原实验方法未读，扩展认知理论非本包已证普遍定律"
+        },
+        "extension": {
+          "reason": "能谈主体与活动环境关系，不局限一根丝或某个传感器",
+          "counter_association": "不能泛化为任何外挂都使模型更强"
+        },
+        "semantic_coherence": {
+          "reason": "织的结构作用与觉的感觉在同一系统内相连",
+          "counter_association": "不是觉醒承诺，也不把认知完全移到网本身"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

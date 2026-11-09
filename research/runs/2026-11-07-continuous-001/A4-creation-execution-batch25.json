@@ -1,0 +1,117 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "executed_at": "2026-11-08T13:53:45.633540+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch17.json",
+      "sha256": "d51374c05140f2c05ea4acc5877f7c3ff47903a654fee4483d8a4eb1e6564fc3"
+    },
+    {
+      "path": "A2-quality-batch17.json",
+      "sha256": "6dce8c6b0f529882fdb36d93e9bdac29d55138f0fce9f66edeb1bd2b7c1e7369"
+    },
+    {
+      "path": "coordinator-cn-batch17.json",
+      "sha256": "9708f5d24f401197346a05624dbec732ee80e21fbf47f4a79948061bba30d043"
+    },
+    {
+      "path": "coordinator-family-review-batch17.json",
+      "sha256": "de44a10f5b3d1fa681cf8f1e442f875e45456dad2c936e65b165c923dbde7ae7"
+    },
+    {
+      "path": "A2-C30-formation-addendum.json",
+      "sha256": "bbe7c9a8d5906538676a5fb951c061c83b4a2e34bcb80a0dace8b7d5454bbc80"
+    },
+    {
+      "path": "A2-C30-formation-addendum.md",
+      "sha256": "67eb03c0c0af03aab626892551c577c4d3de7dd3ac0d3a6bfe7e1111633698ce"
+    },
+    {
+      "path": "A2-C30-formation-addendum-execution.json",
+      "sha256": "d28b02f393f6914b6cf164302429ab9d4e451f6f0e76dab249f75a5e77fcde81"
+    },
+    {
+      "path": "coordinator-C30-formation-reacceptance.json",
+      "sha256": "a0b99dcaecf3fef455c2c85f56cc4b8604bba80df28e82204ec19787618f6ecd"
+    },
+    {
+      "path": "A3-C30-formation-reacceptance.json",
+      "sha256": "ae6cf8dfd04f850162e3498a6d5c9527f943892ba2bf97068100bcceb39017f6"
+    },
+    {
+      "path": "A3-C30-formation-reacceptance.md",
+      "sha256": "b103c6a800152616e59665f7e95404d6274a76a45cf7d5282c57f051f39c7af7"
+    },
+    {
+      "path": "A3-cn-batch19.json",
+      "sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc"
+    },
+    {
+      "path": "A3-cn-batch19-receipt.json",
+      "sha256": "abb2fd8613f22685a3703043465c2f9ef6ff754f8e9d7e61b6fce8e015944637"
+    },
+    {
+      "path": "A4-candidates-batch23.json",
+      "sha256": "a51effd83f1d26652d77ea447e22ff3d4d8f5fb302312d9d9d8b3d15d134ba52"
+    },
+    {
+      "path": "A3-en-batch23.json",
+      "sha256": "6df2a3aa3f220bb088dc59102681caf876b0bb6716cef83b4b09f34639306e59"
+    },
+    {
+      "path": "A3-en-batch23.md",
+      "sha256": "78c2a5a32f22a0b4280035ec26cc5d9c89a19ee249234cc3aecfbefd3d4ccbbb"
+    },
+    {
+      "path": "A3-en-batch23-receipt.json",
+      "sha256": "d958bcdbf5c70f32e9b3cd027f7b9c99295a531ed1bed0380d0ba1eaeeb99b75"
+    },
+    {
+      "path": "A4-candidates-batch24.json",
+      "sha256": "37696a1e10e2790ad3b40315a633f9ea2f39d5b170a2b19c56f04dce7dcdb7e3"
+    },
+    {
+      "path": "A3-en-batch24.json",
+      "sha256": "e617f4d99d4c50b8908de1e3c7a90d18b41f29654b536dbc8418d7f90e1e2cff"
+    },
+    {
+      "path": "A3-en-batch24.md",
+      "sha256": "ea00806b8c1038f83e172dfff35e6836f7f520e5c38d54b0e77249e75198f399"
+    },
+    {
+      "path": "A3-en-batch24-receipt.json",
+      "sha256": "e288369017b690b3ccd195b4adca309e9fe720bdba4b708c60fe13d5c90ed6d9"
+    }
+  ],
+  "actual_new_source_reads": [
+    {
+      "url": "https://www.merriam-webster.com/dictionary/hereby",
+      "scope": "31–41行完整副词读法释义及词典例句；不附全文"
+    }
+  ],
+  "primary_source_reused_not_new": {
+    "url": "https://web.stanford.edu/class/ihum54/Austin_on_speech_acts.htm",
+    "scope": "此前已实际读49行，未声称全书"
+  },
+  "actual_A3_report_read": "en24正式决定/证据、MD、receipt并核输出SHA，真实产品品牌与Sedo近听区别记录。",
+  "local_history_query": "rg English/name字段Hereby或Here By，无本地命中；不是市场使用查询。",
+  "formation_disclosure": "C30保持既有中文学术表达再选择，事后中文样章未倒写起稿来源，相关教学出版风险照留。",
+  "relationship_used": "当前发言作为行为方式，依合适情境成立；不拼两个常词，不保证未来兑现或工具执行。",
+  "output_candidate_ids": [
+    "C1-E25"
+  ],
+  "new_chinese_names": 0,
+  "new_english_versions": 1,
+  "usage_queries": 0,
+  "registration_queries": 0,
+  "rework_attempt": 2,
+  "remaining_reworks": 0,
+  "outputs": [
+    "A4-preview-batch25.md",
+    "A4-candidates-batch25.json",
+    "A4-quality-batch25.json"
+  ],
+  "original_records_unchanged": true,
+  "on_failure": "结束C30英文，不继续第三次返工。"
+}

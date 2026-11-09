@@ -1,0 +1,55 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T11:05:40.440039+08:00",
+  "materials": [
+    {
+      "id": "C1-M33",
+      "family_id": "C1-MF-signed-integers-same-binary-addition",
+      "macro_id": "S3",
+      "plan_direction_id": "C1-D-S3",
+      "category": "computer_arithmetic_course_notes",
+      "case_ids": [
+        "B074",
+        "B002"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Douglas W. Jones, University of Iowa, CS:2630 Notes Chapter 2: Data Representation",
+          "url": "https://homepage.cs.uiowa.edu/~dwjones/assem/fall19/notes/02data.shtml",
+          "published_at": "2019 course path; precise publication day not established",
+          "reading_location": "本次实读章首L2–14以及two's complement所在L754–794：补码取负、单一零、负数范围边界、加减表示与溢出。没有通读该章其他小节；不用章首C语言局部变量/溢出段作为本名事实依据。",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body",
+          "read_at": "2026-11-08T11:05:40.440039+08:00"
+        }
+      ],
+      "source_urls": [
+        "https://homepage.cs.uiowa.edu/~dwjones/assem/fall19/notes/02data.shtml"
+      ],
+      "fact": "补码用固定位数表示有符号整数，取负操作是逐位取反再加一。加法可沿用二进制加法，减法可写成加上取负的操作数；需要区分溢出与丢弃最高进位，并有最负数无法在同位宽表示其相反正数的边界。",
+      "mechanism_to_material": "Recursive让一个具体计算关系承担研究身份，Google让可定义知识对象成为称呼；迁移到熟字能直接称呼的底层表示，不以原理复杂度或基础性证明品牌好。B074本轮A1重核，B002沿用基线、未再核词源。",
+      "distinctive_relation": "通过选择表示方式，使正负整数的加减能共用加法规则；并非多加一种模型或用更多算力。",
+      "naming_potential": "补码两字已是可叫的计算对象；第二层可谈表示怎样改变可操作性，不需机械拼两个好字。",
+      "shortcoming": "技术词气质明显，可能像编程教育或代码工具，补容易被误解为修Bug/补充代码。",
+      "history_difference": "FP04比特载体/解释约定为物理状态与意义的关系，01万物为信息基本单位，算筹为摆放方向/数位；本项是有符号整数怎样统一加减操作。余量是冗余容错，活变量是未来用途，均不是补码；这里的补不作补全缺失信息或补丁，不恢复旧恢复/修补家族。新术语不自动等于新品牌族，仍交主控保守审。",
+      "boundary": "运算结果受位宽约束，不宣称任意加减都无溢出；补码不是纠错码、加密、所有互补关系或模型自己提高能力。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft"
+    }
+  ],
+  "failed_access": [
+    {
+      "url": "https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BinMath/add2C.html",
+      "result": "web403，摘要不作正文依据；改读Iowa教师正文"
+    }
+  ],
+  "other_search_scope": "园丁鸟透视行为仅搜索发现入口，未读正文，不计素材或候选；预演/排练检出旧虚拟排练家族，未重复创作。",
+  "source_dates_note": "2019课程路径，精确发布日未知；不是近九十天新闻，没有新增古文。"
+}

@@ -1,0 +1,54 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-08T17:50:08.839776+00:00",
+  "candidate_id": "C1-C55",
+  "version": 2,
+  "rework_attempt": 1,
+  "name": "菌络",
+  "replaces_name": "菌缆",
+  "decision": "accept_same_family_revision_to_same_A3_new_name_screen",
+  "new_materials": 0,
+  "new_primary_chinese_ids": 0,
+  "new_independent_families": 0,
+  "new_literal_revision_forms": 1,
+  "quality_comparison": {
+    "root": 25,
+    "producer": 25,
+    "max_axis_difference": 0,
+    "all_axes_pass": true,
+    "root_sealed_before_producer_read": true
+  },
+  "source_verification": "完全复用M68同一论文与原A2实际首次94–130范围；root上段实际PubMed同DOI原作者摘要245–249/原图注251–296，分支融合、平行的细真菌菌丝聚束与输运/图模型估算支撑整体网络。root34简写细菌丝指细的真菌菌丝(fine hyphae)，不指细菌或新增细菌材料；物种仍Phanerochaete velutina。没有新增来源/实验或重读全方法。",
+  "family_verification": "主体由单束缆状对象换到同一细丝相连整体，有实际原文范围支持，是C55同族修订不是新创意。与活桥/黏菌外痕/蛛网的比较沿root34具体机制，不因字换成络就重新独立计数。",
+  "risk": "与菌落同音的听写成本及生物农业健康首感不消失；原菌缆9查询不能继承到菌络，新名必须完整独立查。原军缆为旧名同音近形混淆而非精确占用，原A3记录不改。",
+  "refs": [
+    {
+      "path": "A2-candidates-batch35.json",
+      "sha256": "7fe99aef11565c71be446605b2b99a57246d8a8818c4e38f204cebc1fde589bd"
+    },
+    {
+      "path": "A2-preview-batch35.md",
+      "sha256": "a913ceb29527e968bf75e46b9bb66c8e4e560001d7aaa7990020835e661836a7"
+    },
+    {
+      "path": "A2-quality-batch35.json",
+      "sha256": "0c42ba026d4796137dce7db7b2895bedfc9403b85cfedd58a4e363e0efdf8b8c"
+    },
+    {
+      "path": "A2-creation-execution-batch35.json",
+      "sha256": "6f9829d465fc4be5d4f34e8c6929c0b4bb2660d8dfc10e03da4f9506f833f37a"
+    },
+    {
+      "path": "coordinator-cn-batch35.json",
+      "sha256": "6f003292334ffc65914a7bf05c79587847ca429341f668813ad46ff7c523d3ce"
+    },
+    {
+      "path": "coordinator-family-review-batch34.json",
+      "sha256": "e5b7d9dc4938a02be2dd45baa1dab8a2bb03d5f2943559a52e5eaa9ebf9ca617"
+    },
+    {
+      "path": "continuations/2026-11-08T172307Z/root-cn36-review.json",
+      "sha256": "f3db387b7c28af7a2312f7cd91bcbbb6c7efa4d0ab901da85c2b43087f7734f5"
+    }
+  ]
+}

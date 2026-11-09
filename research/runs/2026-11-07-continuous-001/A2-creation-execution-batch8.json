@@ -1,0 +1,53 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "stage": "quiet_heartbeat_chinese_batch8",
+  "completed_at": "2026-11-07T23:03:18.784760+08:00",
+  "actually_read_input_refs": [
+    {
+      "path": "continuations/2026-11-07T135433Z/decisions-through-batch7.json",
+      "sha256": "131bdfc56cbc0f2a9950739744ca19d2f9c17e587321d5ea5f9d3fba4056a2ba"
+    },
+    {
+      "path": "A1-final-input-reacceptance.json",
+      "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+    },
+    {
+      "path": "A1-formation-feedback.md",
+      "sha256": "9e2c1589037d9d564619fd8d9d861dffd13288087c4f7dec8e49d5ecbd702dde"
+    },
+    {
+      "path": "search-plan.json",
+      "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+    }
+  ],
+  "new_material_count": 2,
+  "new_material_macro_directions": [
+    "S3",
+    "S1"
+  ],
+  "new_chinese_draft_count": 1,
+  "new_english_count": 0,
+  "name_usage_queries_performed": false,
+  "whole_production_batch_complete": false,
+  "output_refs": [
+    {
+      "path": "materials-extension7.json",
+      "sha256": "a839a21b7574701971769bb560d69e1cc2074b56b2336c7ce9bbf01e14352f59"
+    },
+    {
+      "path": "A2-candidates-batch8.json",
+      "sha256": "846cc81e69427062e8ad7b39a97c05520913cf25c23f728caa7bd425a6753324"
+    },
+    {
+      "path": "A2-preview-batch8.md",
+      "sha256": "c150fcfd3d59053d558ff5419b174ef78d9b50242ee65b963598d092df705819"
+    },
+    {
+      "path": "A2-quality-batch8.json",
+      "sha256": "d600f8d534a842b9339f233ff8615dfa68e74f04cc2cfb3ec5274eaeacc323d8"
+    }
+  ],
+  "boundary": "无重开A1/计划，无新书或近九十天新闻虚报。未改旧稿/原分/根文档/其他Actor，不git；安静heartbeat未向用户发进度。"
+}

@@ -1,0 +1,151 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T17:17:14.041799+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch26.md",
+      "sha256": "149ffcf979ee6bca81c5684fa3c43d59ef234c90fdc391143efd66906ebb9826"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch26.json",
+      "sha256": "79773c9389afba8e05b15a2230896cffbc56e9b12a8dfdfb8d1fe830b150e3f1"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch26.json",
+      "sha256": "8558a2c2201db8fc6ac154c6728d780f1c2f059d536f567fe7fc422825fe0f4e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch26.json",
+      "sha256": "12e2e4ff6c68b4aed74e84f761a9538a9dcf1d7fb8f937fbf6061e45b2d8e51e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch26.json",
+      "sha256": "7adb282526dc5f1047f228d2307770394f4c4eddf03af7e9bb0ade5df8fa3eab"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch20.json",
+      "sha256": "46fb678428531c7bbd0edc34489bb1e7d457b12aaf36c6a54711e63481016d99"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch20-receipt.json",
+      "sha256": "4144ad247fa67e6f33db4c233a1d48d4c61ccb932d30373136424267d908e3b6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T062253Z/root-C31-nearname-review.json",
+      "sha256": "0acc4b62241c19cdb3a68ccc3c8f186685698ac1dbd223eafab8a77d7b0288a8"
+    }
+  ],
+  "query_count": 9,
+  "results": [
+    {
+      "candidate_id": "C1-E26",
+      "name": "Supposal",
+      "query_logs": [
+        {
+          "query": "\"Supposal\"",
+          "executed_on": "2026-11-08",
+          "summary": "完整精确返回历史/现代词典及集体谈判文件标题；未确证Supposal公司或产品。"
+        },
+        {
+          "query": "\"Supposal\" company lab",
+          "executed_on": "2026-11-08",
+          "summary": "公司/Lab组合仍主要词典、航空论坛和工资谈判文件普通词用法；未确证独立机构品牌。"
+        },
+        {
+          "query": "\"Supposal\" AI model",
+          "executed_on": "2026-11-08",
+          "summary": "Latent Space AI访谈出现supposal，实际正文L228–242是谈话中一个词而非模型名称；其他多词典和机构谈判文件。"
+        },
+        {
+          "query": "\"Supposal\" software product",
+          "executed_on": "2026-11-08",
+          "summary": "OneWordDaily词条例句包含company/product，实际页面L8–38词义例句，L51运营方RJS另名；不是Supposal软件。"
+        },
+        {
+          "query": "\"Supposal\" brand startup",
+          "executed_on": "2026-11-08",
+          "summary": "supposal.md第三方域名估值索引，非公司/产品发布；打开超时未声称读站点或证实其运营使用。另有词典/个人评论/谈判文件。"
+        },
+        {
+          "query": "\"Sup Posal\" technology",
+          "executed_on": "2026-11-08",
+          "summary": "合理分词主要SUP-POSAL词典OCR与无关含sup/posal文字，未确证Sup Posal科技品牌；不把OCR断词当公司。"
+        },
+        {
+          "query": "\"Supposal\" app",
+          "executed_on": "2026-11-08",
+          "summary": "主要词典和劳资协议Appendix A/APP compensation等文本；APP语境并非Supposal应用命名。"
+        },
+        {
+          "query": "\"Supposal\" github software",
+          "executed_on": "2026-11-08",
+          "summary": "GitHub/software定向仍主要词典和课程/谈判文件，未确证具名Supposal仓库、独立软件或包；不是穷尽代码托管平台。"
+        },
+        {
+          "query": "\"Suppose\" \"Proposal\" AI software brand",
+          "executed_on": "2026-11-08",
+          "summary": "近听Suppose/Proposal边界查询命中假设语句、提案/RFP工具和论文，用法不同；不据共现认定Supposal品牌或与Proposal等义。"
+        }
+      ],
+      "decision": "public_use_screen_pass",
+      "reason": "2026-11-08本轮9组真实英文查询未确证Supposal完整核心已用于公司、AI模型或独立软件/产品；学术/词典/劳资谈判普通词及AI访谈转录不当品牌。低频正式语感、proposal/suppose听写与中文未然同行前缀风险保持；仅公开使用初筛，登记未清，不称全球未使用或可注册。",
+      "evidence": [
+        {
+          "url": "https://www.merriam-webster.com/dictionary/supposal",
+          "access": "primary_dictionary_body_read",
+          "finding": "L31–42完整现成名词及读法、假设过程/对象义；不是公司或软件命名使用证据。"
+        },
+        {
+          "url": "https://latent.space/p/axolotl/",
+          "access": "primary_transcript_body_read",
+          "finding": "实际核L228–242，L234 swyx谈话里like, supposal；上下文讨论模型评测污染，不把该词当独立模型名。未据转录评价词语正确性。"
+        },
+        {
+          "url": "https://oneworddaily.com/word/supposal",
+          "access": "primary_editorial_word_entry_body_read",
+          "finding": "L8–38词条和例句，L51运营RJS Tech Solutions LLP另名；Supposal是本页解释对象，不是软件品牌。"
+        },
+        {
+          "url": "https://domainindex.com/domains/supposal.md",
+          "access": "search_index_only_open_timeout",
+          "finding": "第三方域名评估摘要，仅列supposal.md，页面打开超时；没有实际公司/产品主体线索，不能据域名词条证明市场占用，也未核其域名登记/可购状态。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run A3-controls.json中2026-11-07共同入口403；本批未新访问，未逐名核名。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run A3-controls.json中2026-11-07共同入口403；本批未进入9/42逐名逐类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Supposal",
+          "scope": "2026-11-08本次实际逐名Supposal搜索URL不可访问，不是无公司结论。"
+        }
+      },
+      "chinese_id": "C1-C31",
+      "chinese": "未然机",
+      "rework_attempt": 0,
+      "remaining_reworks": 2
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "passed_english_candidate_ids": [
+    "C1-E26"
+  ],
+  "excluded_upstream": [
+    {
+      "candidate_id": "C1-C32",
+      "name": "借身",
+      "reason": "中文质量未过，实际英文输入0/输出0/新英文查询0；不救回"
+    }
+  ],
+  "controls_reused_not_new": "A3-controls.json本run真实2阳性对照，本批0新对照。"
+}

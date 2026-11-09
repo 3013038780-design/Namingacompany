@@ -1,0 +1,81 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-08T13:34:21.831414+08:00",
+  "stage": "C30_actual_source_formation_followup",
+  "input_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch19.json",
+      "sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch19.md",
+      "sha256": "3c210a50959e2341471b33b194da5964f19cb5097cfe716b21f23f1a96bdab08"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch19-receipt.json",
+      "sha256": "abb2fd8613f22685a3703043465c2f9ef6ff754f8e9d7e61b6fce8e015944637"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch17.md",
+      "sha256": "cb0e4b62dd78e2754c74402e7186e0e9121ca9b76293c6a111f64a289edc1dd2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch17.json",
+      "sha256": "d51374c05140f2c05ea4acc5877f7c3ff47903a654fee4483d8a4eb1e6564fc3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch17.json",
+      "sha256": "6dce8c6b0f529882fdb36d93e9bdac29d55138f0fce9f66edeb1bd2b7c1e7369"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch17.json",
+      "sha256": "09741e3f97088c8295924fe12ba5f2fbd419d03fc411dcc7d05726e636db8083"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension16.json",
+      "sha256": "569977557a7fd1019204cbb3dcab108444cf242990e01e949c31c842b29ca0cd"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch17.json",
+      "sha256": "9708f5d24f401197346a05624dbec732ee80e21fbf47f4a79948061bba30d043"
+    }
+  ],
+  "actual_readings": [
+    {
+      "url": "https://fltrp-gy.oss-cn-shanghai.aliyuncs.com/gykejianupload/20211027/files/%E8%A8%80%E8%AF%AD%E8%A1%8C%E4%B8%BA%E7%9A%84%E4%BC%9A%E8%AF%9D%E5%88%86%E6%9E%90%E7%A0%94%E7%A9%B6%E7%9B%AE%E5%BD%95%2B%E6%A0%B7%E7%AB%A0.pdf",
+      "title": "外研社《言语行为的会话分析研究》目录与样章",
+      "access": "publisher_sample_body",
+      "read_at": "2026-11-08T13:34:21.831414+08:00",
+      "reading_scope": "PDF第5–6页/印刷1–2页，L134–145；重点L138现成言有所为表述Austin施为句；未读全书、未核书版权页日期",
+      "finding": "四字不仅曾出现在出版物，且与本案属于同源Austin言语行动思想译述。不是无关巧合或科技公司使用。",
+      "date_boundary": "URL路径含20211027不当图书出版年，精确出版信息本次未确认。"
+    },
+    {
+      "url": "https://fls.hbut.edu.cn/info/1143/6542.htm",
+      "title": "湖北工业大学外国语学院：孙炳文",
+      "access": "university_author_bibliography_body",
+      "read_at": "2026-11-08T13:34:21.831414+08:00",
+      "reading_scope": "L2网页日期、L16/L37研究代表作、L41专著书名及2017出版年；未读书本",
+      "finding": "官方作者页列《从言有所为到译有所为-机构话语翻译中的目的等效研究》，外文出版社2017。标题含既有学术表达；并非同核心科技品牌的证明。",
+      "date_boundary": "页面发布时间2026-04-20；2017为该页所列书目年份，不是本次实际读书日期。"
+    }
+  ],
+  "output_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C30-formation-addendum.json",
+      "sha256": "bbe7c9a8d5906538676a5fb951c061c83b4a2e34bcb80a0dace8b7d5454bbc80"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C30-formation-addendum.md",
+      "sha256": "67eb03c0c0af03aab626892551c577c4d3de7dd3ac0d3a6bfe7e1111633698ce"
+    }
+  ],
+  "new_material_count": 0,
+  "new_chinese_draft_count": 0,
+  "new_english_count": 0,
+  "new_use_queries": 0,
+  "old_input_hashes_unchanged_verified": true,
+  "boundary": "仅原家族说明；不改旧稿/分数/回执，不查使用英文，不Git/catalog/feed，无用户通知；未读李秀蕾书或超时的人教PDF，未伪称其已核正文。"
+}

@@ -1,0 +1,97 @@
+{
+  "agent": "/root/live_a2",
+  "assessments": [
+    {
+      "id": "CT-C01",
+      "name": "星际渡口",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 5,
+        "semantic_coherence": 4
+      },
+      "total": 27,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "星际与渡口都是自然名词，句中能直接称呼",
+        "distinctiveness": "地点画面具体，空间尺度形成记忆",
+        "lab_fit": "天体动力学与探索身份适合科技实验室，非环保家具",
+        "grounding": "入口/通道确是原研究关系，明确星际为创作尺度",
+        "extension": "可延展多条研究和产品路径，不绑定持续学习功能",
+        "semantic_coherence": "出发、连接与取得路径均围绕同一个渡口角色"
+      },
+      "counter_association": "可能先被理解为航天或科幻品牌；英文应保留出发/连接的关系，不能硬译成某个航天术语。"
+    },
+    {
+      "id": "CT-C02",
+      "name": "地球回信",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 27,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "地球作主语、回信作行为，四字本身完整",
+        "distinctiveness": "行星寄信的拟人画面鲜明",
+        "lab_fit": "遥观测与世界信息提供科技底层，保留内容品牌误读短板",
+        "grounding": "地球→月球→地球的返回关系在作者论文中明确",
+        "extension": "不绑定某个模型或功能，但地球意象限制纯抽象平台延展",
+        "semantic_coherence": "光携带信息与回信共享一个返回消息的核心"
+      },
+      "counter_association": "可能像科学传播或文化内容品牌；不能让人误会这是地球环保公司，需AI Lab语境承接。"
+    },
+    {
+      "id": "CT-C03",
+      "name": "影子刻度",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "影子/刻度均为自然生活词，四字偏正组合顺口",
+        "distinctiveness": "软的影子与硬的刻度形成清楚视觉反差",
+        "lab_fit": "观测、测量、从迹象推断的角色适合研究公司",
+        "grounding": "故宫条目明确影子落在刻度上，组合关系直接",
+        "extension": "不限单一AI算法，观测身份仍可长期扩展",
+        "semantic_coherence": "可见痕迹转为度量这一核心承载所有含义"
+      },
+      "counter_association": "可能先像视觉测量或摄影品牌；影子有次要、模糊联想，需要刻度提供精确感。"
+    },
+    {
+      "id": "CT-C04",
+      "name": "未尽之问",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 5,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "未尽之问是可完整理解的名词短语，不是下一无穷式省略",
+        "distinctiveness": "问的研究姿态明确，四字有节奏但辨识度依赖后续使用",
+        "lab_fit": "可错知识与认识边界能容纳AI研究，需防文化栏目误读",
+        "grounding": "作者访谈明确持续问题与可错，未假称汉语原句",
+        "extension": "不绑定算法、模型或时间阶段，可长期承载研究",
+        "semantic_coherence": "未穷尽的问题与继续追问同核，未堆叠无关典故"
+      },
+      "counter_association": "文气较重，可能像播客/出版栏目；第一眼技术对象不明显。"
+    }
+  ]
+}

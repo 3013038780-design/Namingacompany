@@ -1,0 +1,22 @@
+{
+  "reviewed_at": "2026-11-08T15:42:30.833851+00:00",
+  "reviewer": "/root",
+  "candidate_id": "C1-E39",
+  "decision": "accept_rejection_return_original_A4_R1",
+  "evidence_ref": {
+    "path": "research/runs/2026-11-07-continuous-001/A3-en-batch36.json",
+    "sha256": "146267daf1e47ac557e3d52c66336d0159afe31bb99867a637207eae8c009b68"
+  },
+  "root_actual_reading": [
+    {
+      "url": "https://www.neither.online/demo/",
+      "scope": "实际正文16/24/33–44，Neither项目记忆及MCP独立产品，示例虚构不背书性能"
+    },
+    {
+      "url": "https://github.com/stonianua/neither-mcp",
+      "scope": "实际README安装/配置段，@neitherai/mcp-server、Neither CLI/MCP，未安装运行；当前网页行号与原A3响应不同"
+    }
+  ],
+  "reason": "完整同名AI软件公开使用明确，不能因neither为代词放过。第三真值中文初筛结果不倒写为中文占用。",
+  "new_usage_queries": 0
+}

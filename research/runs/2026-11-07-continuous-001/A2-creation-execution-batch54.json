@@ -1,0 +1,115 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-09T13:57:13.532590+08:00",
+  "stage": "same_run_computing_object_action_one_relation_one_CN",
+  "input_refs": [
+    {
+      "path": "README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/resume.json",
+      "sha256": "92f7731ee6ce7a0883e3715efbbc48db709a3b78bf824052387ccc4555c2dd90"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/history-scan.json",
+      "sha256": "1abbd7ade34ccb2f135ead1a19a71c58e2f4f31d3a813af8487160c2c829aa60"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/h1-existing-six-world-review.json",
+      "sha256": "932b5c3535c7822342385876ccf4e1ee817fb4fe6598cb81e86cc2293df3faef"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T042642Z/decisions-through-batch53.json",
+      "sha256": "1ea5fff0edaa0926a44fe0d4559d7012eaf0677fc75863da9e74a7adc389715c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.md",
+      "sha256": "9e2c1589037d9d564619fd8d9d861dffd13288087c4f7dec8e49d5ecbd702dde"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.json",
+      "sha256": "b3bbd78ef83733b79b7033404dc29727a7e0c749988d06218820850f4de520be"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+      "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch8.json",
+      "sha256": "846cc81e69427062e8ad7b39a97c05520913cf25c23f728caa7bd425a6753324"
+    },
+    {
+      "path": "research/runs/2026-11-06-round2/candidates.json",
+      "sha256": "988c2b975769b1da82e528e0ee999f025f94a38af62ace9752259129329995cf"
+    }
+  ],
+  "actual_input_boundary": "原规范此前完整读，当前SHA核对复用；本包实际读冻结resume/H1、新决策C62尾部与formation反馈；全历史冻结扫描并本角色全runs字节扫，旧C19、R2异步原对象关系实际抽取读。原A1具体案例已核关系复用，不冒新核企业外部词源。",
+  "questions_before_reading": [
+    "同一数据对象被多个使用者共享何时才实际分开？先读历史C19确认COW同族，未把新课程摘要计新阅读。",
+    "改问独立进程怎样交消息、不要求双方同时行动？选Erlang开发者手册，区分消息抵达、入队与receive择取。"
+  ],
+  "reading_evidence": [
+    {
+      "title": "Erlang/OTP System Documentation: Processes (page reports OTP29.1.2)",
+      "url": "https://www.erlang.org/doc/system/ref_man_processes.html",
+      "source_type": "language_developer_reference_manual",
+      "access": "body",
+      "read_at": "2026-11-09T13:57:13.532590+08:00",
+      "published_at": null,
+      "reading_scope": "specified_sections_not_whole_manual",
+      "reading_location": "实际web读L48–63进程别名、L80–89异步信号、L116–144接收/入队/receive与优先消息例外、L167–169延时/丢失/同发送者次序。另见页头版本；未读底层实现、运行代码或测试网络故障。",
+      "boundary": "信号抵达、消息入队和receive取出分层；不是所有信号都进消息队列。失效别名会使后到消息丢弃、已入队消息不随注销撤回；优先消息可改变队列次序，不能说全局FIFO或必定送达。版本页头不是发文日期，不计近90日新闻。"
+    }
+  ],
+  "actual_new_source_queries": [
+    "site.kernel.org copy on write fork pages parent child documentation",
+    "site.postgresql.org documentation write ahead logging WAL log before data pages",
+    "site.erlang.org doc system ref_man_processes message sending receiving mailbox"
+  ],
+  "source_query_boundary": "查询为资料发现不是名称使用筛查；COW/WAL仅搜索摘要且未计新资料，Erlang实际open指定段。",
+  "history_scan": {
+    "file_count": 1961,
+    "manifest_sha256": "2255e62be48efe3a4135cad1d323582ac71eb8e7bf61b9f4647abd7ed76cdc68",
+    "semantic_comparisons": "已实际读C19分身有别/M27：同一COW关系，不以2026课程索引翻新。本项不同：消息抵达/入队与接收进程稍后择取是不同环节。旧R2异步为Rust Future暂停/各自节奏，本项若只剩不用等即同族；需保留独立进程的消息队列与抵达不等于取用。旧因序是事件依赖的偏序，非信箱接收过程；C62接招是人际不抹去伙伴情境前提，本项不是立场接纳/合作技巧。C03应手是结构动作感知，不是通信入队。全runs精确串消息串门/串门/消息队列/Erlang无历史命中；这不等于市场未用。"
+  },
+  "new_material_count": 1,
+  "new_chinese_primary_id_count": 1,
+  "new_chinese_draft_count": 1,
+  "new_selected_family_count": 1,
+  "family_count_boundary": "主控仍须审消息队列/择取关系与旧异步是否足够不同，不以换语言名强算新。",
+  "new_book_count": 0,
+  "new_recent_news_count": 0,
+  "name_usage_queries_performed": false,
+  "new_english_count": 0,
+  "output_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension40.json",
+      "sha256": "46ed952561e3aac0dfdb22505bc1ce343ccad8469e8a29275366adafdd85eef3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch54.json",
+      "sha256": "044f7866381edc3232171f6edb878ed50896541e60f95d500d60c152154c2825"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch54.json",
+      "sha256": "044f7866381edc3232171f6edb878ed50896541e60f95d500d60c152154c2825"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch54.md",
+      "sha256": "93c1595f0ed4e403706aaf1201ca4a38f7921642cef7d53a21f5428f458a8d1d"
+    }
+  ],
+  "numeric_quality_status": "separate_file_after_unscored",
+  "boundary": "只新档，不改旧稿/原分/库queueREADMEGit；没有运行Erlang或审底层实现，不自行开下一批。"
+}

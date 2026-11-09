@@ -1,0 +1,216 @@
+{
+  "accepted_at": "2026-11-08T21:09:50.682361+08:00",
+  "same_research_run": true,
+  "new_A1_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "accepted_at": "2026-11-08T21:09:50.682361+08:00",
+      "from": "existing_A1",
+      "to": "same_A2",
+      "status": "accepted",
+      "candidate_ids": [],
+      "reason": "沿原A1案例及F1/F3/F5凝练规则，原A2直接复用未提案M07，不重开轮/计划，不把重读近新闻计新增。",
+      "refs": [
+        {
+          "path": "A1-final-input-reacceptance.json",
+          "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+        },
+        {
+          "path": "A1-formation-feedback.json",
+          "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        },
+        {
+          "path": "continuations/2026-11-08T120952Z/material-proposal-index-through-batch22.json",
+          "sha256": "7acef63a86693374af795d13ec9c8beadb1be16a51c42fb86ec3d80e7c70e42d"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "accepted_at": "2026-11-08T21:09:50.682361+08:00",
+      "from": "same_A2",
+      "to": "coordinator",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C40"
+      ],
+      "reason": "先无分独评封存再读作者，双25轴差0；原crossing沿整机背景需澄清，真实退原A2重读补记后实际验收，不暗改原稿/原分/旧SHA。",
+      "refs": [
+        {
+          "path": "A2-preview-batch23.md",
+          "sha256": "b828445c74e4361be78e796d10fc9acde702ca8038e50fb6645ad886b26fca64"
+        },
+        {
+          "path": "A2-candidates-batch23.json",
+          "sha256": "2ed9786614c8c7f38068d2417538708a47138f7afb324bf25084012814fb06e4"
+        },
+        {
+          "path": "A2-quality-batch23.json",
+          "sha256": "13fbd12fdca9d83d767da62668f93df5ff62ebd8406cdb7cde9dcb9650744b58"
+        },
+        {
+          "path": "A2-creation-execution-batch23.json",
+          "sha256": "3e0e0965d66046249d3d50a5f6af0d8e833a8dc4a049aae5c12da40fe592b8a9"
+        },
+        {
+          "path": "A2-material-reuse-batch23.json",
+          "sha256": "0ea3da91e277ce675e111b3956d1552650114c1108f567047235ba9aca229248"
+        },
+        {
+          "path": "A2-C40-source-scope-addendum.json",
+          "sha256": "0ab1e9325b0192f362b04646a23803ddc6d4bedaaf010b56face886655030119"
+        },
+        {
+          "path": "A2-C40-source-scope-addendum-execution.json",
+          "sha256": "df34b988a8579d1323792ca3bf8b2ecf8ad35d427d85c9d36e10e888fa9a79db"
+        },
+        {
+          "path": "coordinator-cn-batch23.json",
+          "sha256": "da5695d6f2cdc5f0d77d29eb2147e129d743635df8d42e2df4eb7dbabb59ad2a"
+        },
+        {
+          "path": "coordinator-family-review-batch23.json",
+          "sha256": "8bae13163b9559ecfe8eb04a30566659e01cf0e89b5e8eba244da4fddbf122dc"
+        },
+        {
+          "path": "continuations/2026-11-08T120952Z/root-C40-source-scope-acceptance.json",
+          "sha256": "8bae13163b9559ecfe8eb04a30566659e01cf0e89b5e8eba244da4fddbf122dc"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "accepted_at": "2026-11-08T21:09:50.682361+08:00",
+      "from": "coordinator",
+      "to": "same_A3",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C40"
+      ],
+      "reason": "同一原A3实际读补记三档，九有效查询通过；角色招式/仪器类别不冒独立公司/软件/模型。",
+      "refs": [
+        {
+          "path": "A3-cn-batch25.json",
+          "sha256": "cdfc1c430be3e97a00877caaad758c2d51f839a11ed876aa62f9e1417f562cdb"
+        },
+        {
+          "path": "A3-cn-batch25-receipt.json",
+          "sha256": "fd02073652004b2b07d11077f3259e1c74e1ba0ce7016c130f6b82fc5c4229d4"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "accepted_at": "2026-11-08T21:09:50.682361+08:00",
+      "from": "same_A3",
+      "to": "same_A4",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C40"
+      ],
+      "reason": "原A4实际读CN报告/源范围补记并独立配1英文，不继承中文为英文使用通过。",
+      "refs": [
+        {
+          "path": "A4-candidates-batch30.json",
+          "sha256": "6a54fd55a32cb6c0c496c1a8c796eed765f87c72431b783859ad39d53a325345"
+        },
+        {
+          "path": "A4-creation-execution-batch30.json",
+          "sha256": "ac552432dddd57c7dc03ad34be84ec80bd1efaecbd0d5f853d945333fa72701d"
+        },
+        {
+          "path": "continuations/2026-11-08T120952Z/root-C40-cn25-review.json",
+          "sha256": "48a00f6fdac7b8ad10c7a2deb90bba6ae7684928c9ee11ac6bcbbfe0dd829501"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "accepted_at": "2026-11-08T21:09:50.682361+08:00",
+      "from": "same_A4",
+      "to": "same_A3",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C40"
+      ],
+      "reason": "英文先无分独评21后读作者21，轴差0，植物刺/空气回旋完整词在同场；医疗/仿真首感保留，不用查重无命中补分。",
+      "refs": [
+        {
+          "path": "A4-preview-batch30.md",
+          "sha256": "e38bf3bc8ddd95033a35f87cc2cc398e949b2e94319b0d7e7094b1f7c9e10403"
+        },
+        {
+          "path": "A4-candidates-batch30.json",
+          "sha256": "6a54fd55a32cb6c0c496c1a8c796eed765f87c72431b783859ad39d53a325345"
+        },
+        {
+          "path": "A4-quality-batch30.json",
+          "sha256": "1396ecf23e9eb9d59456c9a9919ef63622b22f5355424bc207d828d6f43ea0b0"
+        },
+        {
+          "path": "coordinator-en-batch30.json",
+          "sha256": "af494e5f191a0a5d46e225c38a95ac30cea295596ea7a2a597d994dce072af09"
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "accepted_at": "2026-11-08T21:09:50.682361+08:00",
+      "from": "same_A3",
+      "to": "coordinator",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C40"
+      ],
+      "reason": "同一原A3六有效独立英文查询通过，具体命中为示例变量/医生专科，原A4实际非数字补审。",
+      "refs": [
+        {
+          "path": "A3-en-batch30.json",
+          "sha256": "3c1642b2cd458c7c704ca129048156e6fc2a5d14a19f13665c90549f1b61f7a4"
+        },
+        {
+          "path": "A3-en-batch30-receipt.json",
+          "sha256": "387dca350ea8dd02ec51cc943a68e8e52f3b55585793b621ee7839932b2909a8"
+        },
+        {
+          "path": "A4-C40-postscreen-review.json",
+          "sha256": "308339c54e3acd2646d2fa5719606c8b04b2bfaf20512e7e87be42e25ef1c28f"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "accepted_at": "2026-11-08T21:09:50.682361+08:00",
+      "from": "coordinator",
+      "to": "catalog",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C40"
+      ],
+      "reason": "来源、纠错补记、双评、中英查重及家族均实际过门仅C40入库，原带风险通过标签派生归一不改A3原字节，登记未核准。",
+      "refs": [
+        {
+          "path": "delivery-C1-E31.json",
+          "sha256": "9ff1e3217d6ea2315490aa4c39fa1146869a5f8648d69a82b4d276d9934e4d56"
+        },
+        {
+          "path": "continuations/2026-11-08T120952Z/root-C40-terminal-review.json",
+          "sha256": "647956e7d5f2d9ce3c740982dbeaaa3e5a3066b23ceafc956bb9824b166bcf88"
+        },
+        {
+          "path": "continuations/2026-11-08T120952Z/decisions-through-batch23.json",
+          "sha256": "434f359da193556d0fcb218a6c9a67f9c93cbef57e70ea9b820513041aaae23b"
+        }
+      ]
+    }
+  ]
+}

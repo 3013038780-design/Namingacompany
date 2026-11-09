@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-09T00:48:03.576689+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E43",
+      "chinese_id": "C1-C50",
+      "english": "Intertidal",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "完整词正常四音节，重音有词典支持，可连贯称呼。",
+          "counter_association": "四音节不短，初见tidal可能读错。"
+        },
+        "spelling": {
+          "reason": "完整inter+tidal结构可还原，不改字母。",
+          "counter_association": "未熟tidal者有学习成本，不能当普及基础词。"
+        },
+        "grounding": {
+          "reason": "原机构正文直接将该鱼放在潮间带，词典完整生态位置义真实。",
+          "counter_association": "潮间带本身不保证所有鱼水外活动，更不证明模型能力。"
+        },
+        "bilingual_relation": {
+          "reason": "中文行动主角与英文实际环境来自同一段支持条件，不逐字译。",
+          "counter_association": "英文未单独说鱼/运动，必须保留双语及来源。"
+        },
+        "distinctiveness": {
+          "reason": "有具体环境图景的完整单词可独立为研究称呼，区别临时状态标签。",
+          "counter_association": "海岸环保/潮汐能源或咨询首感明显，不因源直接出现而自动适合AI。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "原门槛未改，编辑判断非测试，不因最后机会抬分；主控先独评无分稿。"
+    }
+  ]
+}

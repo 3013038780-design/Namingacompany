@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-07T23:12:11.228721+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E14",
+      "chinese_id": "C1-C19",
+      "english": "Ownwrite",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个熟悉单音节词合成，正常读法顺畅。",
+          "counter_association": "完整发音与own right同音，需要语境区分。"
+        },
+        "spelling": {
+          "reason": "own和write标准完整拼写，未截词或换字母。",
+          "counter_association": "write/right同音，听写可能Ownright；必须首次说明写入之write。"
+        },
+        "grounding": {
+          "reason": "私有改写是COW源材料中的实际作用，own与write描述同一个动作归属。",
+          "counter_association": "不是正式术语，单独Ownwrite没有编码全部初始共享条件。"
+        },
+        "bilingual_relation": {
+          "reason": "中文同源分身各自变化，英文自己的写入，共同指向共享初始状态与私有修改共存。",
+          "counter_association": "英文更突出后半关系，且日常写作并不等于内存写入。"
+        },
+        "distinctiveness": {
+          "reason": "紧凑整体可作独立专名称呼，不是流程口号。",
+          "counter_association": "写作/版权产品首联想明显，Lab身份需内容支撑；未知使用不能提升此评分。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑自评，等待主控先读无分预览独评；不是使用或注册放行。"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 actual final English rework with zero selection",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-09T17:22:14.108847+08:00",
+  "inputs": [
+    {
+      "path": "A4-candidates-batch46.json",
+      "sha256": "61766414b1d46bc77f458da8ffef1e70de8398851f8d5f150e01a901887b0efd"
+    },
+    {
+      "path": "A4-quality-batch46.json",
+      "sha256": "5aa4545402a94e20c030f6e33524deb6d4934b5c58d89d409976aa4f4ce2eeb1"
+    },
+    {
+      "path": "A4-candidates-batch47.json",
+      "sha256": "ca1b6f5acf4627abe3bcc863481a7543a6e9e7e5dea565256f8fe822f39f4b30"
+    },
+    {
+      "path": "A4-quality-batch47.json",
+      "sha256": "ac87378f1a1b4b2d49192498355bfbbcd58ae55f4c52a87d8d9b0402d1899326"
+    },
+    {
+      "path": "A3-en-batch46.json",
+      "sha256": "8fde3f2b8f30cc9871f7dfd3019d499cc13b1267d99521acf5411dd407b9b837"
+    },
+    {
+      "path": "A3-en-batch47.json",
+      "sha256": "629b688fb473b09eedb1b610d0a24d22eb50e53bb6c234d6c87f7ec598801d73"
+    },
+    {
+      "path": "A3-en-batch47.md",
+      "sha256": "1ebac0c39b005027fe769eb8d89a71708a249391447ec0a17fdcbeb53fe394c9"
+    },
+    {
+      "path": "A3-en-batch47-receipt.json",
+      "sha256": "259a2b0f23966faf8afac40e79c7c077bc195afe9784cbe41152172d136f3db5"
+    },
+    {
+      "path": "A3-cn-batch54.json",
+      "sha256": "015776d140ea5fe30c25f24a325b4cebddd2d3a157008255d1d1c55802ab3530"
+    },
+    {
+      "path": "continuations/2026-11-09T052915Z/root-cn54-accepted-handoff.json",
+      "sha256": "c3c7a6aca04e5a31932a2af6229afd32c31f949997d12ed0e646db82e9064851"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch47.json",
+      "sha256": "ca1b6f5acf4627abe3bcc863481a7543a6e9e7e5dea565256f8fe822f39f4b30",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch47.md",
+      "sha256": "daab58d9b23ffd5858a84377771db39de8931ec2118de1a95f1eba8ea79056cd",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch47.json",
+      "sha256": "ca1b6f5acf4627abe3bcc863481a7543a6e9e7e5dea565256f8fe822f39f4b30",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch47.json",
+      "sha256": "ac87378f1a1b4b2d49192498355bfbbcd58ae55f4c52a87d8d9b0402d1899326",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch47.json",
+      "sha256": "b0efcae8e9dee2318fb53c2c1fd1bcf681923a7d4f737cdd0a0dfd29b3084773",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch47.json",
+      "sha256": "6b3832b1889c08ce3379114f5bceaa7e8f2993bb9a5b6a0024db9453794243e8",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch54.json",
+      "sha256": "015776d140ea5fe30c25f24a325b4cebddd2d3a157008255d1d1c55802ab3530",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch46.json",
+      "sha256": "8fde3f2b8f30cc9871f7dfd3019d499cc13b1267d99521acf5411dd407b9b837",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch47.json",
+      "sha256": "629b688fb473b09eedb1b610d0a24d22eb50e53bb6c234d6c87f7ec598801d73",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch47.md",
+      "sha256": "1ebac0c39b005027fe769eb8d89a71708a249391447ec0a17fdcbeb53fe394c9",
+      "match": true
+    }
+  ],
+  "actual_return_reading": "实际读原A3 EN47 JSON/MD/receipt全部，独立软件/个人开发身份及原站502范围准确保持；固定SHA均匹配。root同GitHub404由父任务披露，不冒相同响应，本人未重开软件站。",
+  "actual_creation": [
+    {
+      "expression": "If and When",
+      "status": "considered_not_submitted_not_usage_searched",
+      "reason": "尝试把匹配条件与取用时机合为一个正常英语条件句式，关系比纯等待宽。但首次独立称呼更像尚未决定/暂不承诺的项目或排期栏目，长解释才回到有规则的计算选择。可读字典全文未取得，不声称该整语已由词典核准或首造。即使语法与关系可解释，当前没有足够强的独立研究品牌身份，不选。"
+    },
+    {
+      "expression": "Cuebox",
+      "status": "considered_not_submitted_not_usage_searched",
+      "reason": "尝试用待触发的信息与容器构成一个整体对象。但cue偏行动提示/舞台发令，消息未必是指令，box偏工具容器，首感更像舞台/音频控制器或消息管理单功能。不能为了剩最后机会把两普通词拼成看似新公司而忽略对象与品牌身份的损失，不选；未核完整词典词形、不称新词或已被使用。"
+    }
+  ],
+  "eligible_english_inputs": 1,
+  "english_output_ids": [],
+  "actual_new_selected_english_versions": 0,
+  "unallocated_english_id": "C1-E50 unused",
+  "actual_new_chinese_names": 0,
+  "new_family_count": 0,
+  "rework_attempt": 2,
+  "remaining_reworks": 0,
+  "no_R3": true,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "actual_new_scientific_source_reads": 0,
+  "lexical_source_attempts": [
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/if-and-when",
+      "result": "inaccessible_internal_error_no_body"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/if%20and%20when",
+      "result": "inaccessible_internal_error_no_body"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/if-and-when",
+      "result": "403_no_body"
+    }
+  ],
+  "lexical_limit": "均非市场使用查询；未取得整语正文不冒词典已读，不以入口失败推不存在或被占用，未重复失败入口。",
+  "numeric_quality_status": "先封本无分零稿/执行，后另档空reviews质量理由，不伪造数值。",
+  "outputs": [
+    {
+      "path": "A4-candidates-batch48.json",
+      "sha256": "c80df79ce05db47fcec15a4426c118892c0602dea35206b84ccccaea0a6c9569"
+    },
+    {
+      "path": "A4-preview-batch48.json",
+      "sha256": "c80df79ce05db47fcec15a4426c118892c0602dea35206b84ccccaea0a6c9569"
+    },
+    {
+      "path": "A4-preview-batch48.md",
+      "sha256": "044e4a6fb042b55e2130d7d5a9edd000c926cdfc3a73e4743e29a59e5add118c"
+    }
+  ],
+  "next": "root验真实零稿，同原A3终核后闭此族英文；其他关系后续由主控派发。",
+  "unchanged": "旧稿/分数/raw/receipt/catalog/queue/delivery/README/Git不改。"
+}

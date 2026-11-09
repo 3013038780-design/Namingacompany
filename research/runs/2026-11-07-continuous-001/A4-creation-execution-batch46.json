@@ -1,0 +1,216 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 actual initial English matching unscored stage",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-09T17:02:55.231153+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch56.json",
+      "sha256": "8412aceed2d36bb701a986410cfb448ca956f5e9f3c4eb09b4672c10d09b48e7"
+    },
+    {
+      "path": "A2-preview-batch56.md",
+      "sha256": "c5595b6669584769fdcfc6eede643be516203f2bb711aae3196a416bc2950a7c"
+    },
+    {
+      "path": "A2-quality-batch56.json",
+      "sha256": "2e4846b58c932b064b5d7b92809dc204eeb45c559fbd5a058575bc7f967865b2"
+    },
+    {
+      "path": "A2-quality-batch56-receipt.json",
+      "sha256": "7a676215d56c352eecb334c9b0ace03c4cb64658c20d8781ede80c5b73f4d52a"
+    },
+    {
+      "path": "A2-creation-execution-batch56.json",
+      "sha256": "969f4f11af4804611c96b33addea1a88cc861b6194329c5d6bed69f79d4fed81"
+    },
+    {
+      "path": "coordinator-cn-batch56.json",
+      "sha256": "dae53eda4cc4d763c235f3720be420f905599b969d036de63f7e25bedf730eaa"
+    },
+    {
+      "path": "coordinator-family-review-batch56.json",
+      "sha256": "50117e275d310729ce4ef3aa242529cf7c45bced8db0ec2d11e5529b0b89ca5c"
+    },
+    {
+      "path": "A3-cn-batch54.json",
+      "sha256": "015776d140ea5fe30c25f24a325b4cebddd2d3a157008255d1d1c55802ab3530"
+    },
+    {
+      "path": "A3-cn-batch54.md",
+      "sha256": "e554ea28e5efcd125d2494ee4ce27634f42af19a0e10fd3d56e861617738e518"
+    },
+    {
+      "path": "A3-cn-batch54-receipt.json",
+      "sha256": "1abeb99bb25ac17cd079777893cfa3360e7dbdeba504646df9b36846df14a3ff"
+    },
+    {
+      "path": "continuations/2026-11-09T052915Z/root-cn54-accepted-handoff.json",
+      "sha256": "c3c7a6aca04e5a31932a2af6229afd32c31f949997d12ed0e646db82e9064851"
+    },
+    {
+      "path": "continuations/2026-11-09T052915Z/root-M77-source-review.json",
+      "sha256": "438e348cdffe97bc8aec20c34713f8f419dde120038daacb2f5fb456dd647c8e"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "source": "A2-quality-batch56-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch56.json",
+      "sha256": "8412aceed2d36bb701a986410cfb448ca956f5e9f3c4eb09b4672c10d09b48e7",
+      "match": true
+    },
+    {
+      "source": "A2-quality-batch56-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch56.json",
+      "sha256": "969f4f11af4804611c96b33addea1a88cc861b6194329c5d6bed69f79d4fed81",
+      "match": true
+    },
+    {
+      "source": "A2-quality-batch56-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch56.json",
+      "sha256": "2e4846b58c932b064b5d7b92809dc204eeb45c559fbd5a058575bc7f967865b2",
+      "match": true
+    },
+    {
+      "source": "A3-cn-batch54-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch56.json",
+      "sha256": "8412aceed2d36bb701a986410cfb448ca956f5e9f3c4eb09b4672c10d09b48e7",
+      "match": true
+    },
+    {
+      "source": "A3-cn-batch54-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch56.md",
+      "sha256": "c5595b6669584769fdcfc6eede643be516203f2bb711aae3196a416bc2950a7c",
+      "match": true
+    },
+    {
+      "source": "A3-cn-batch54-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch56.json",
+      "sha256": "8412aceed2d36bb701a986410cfb448ca956f5e9f3c4eb09b4672c10d09b48e7",
+      "match": true
+    },
+    {
+      "source": "A3-cn-batch54-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch56.json",
+      "sha256": "2e4846b58c932b064b5d7b92809dc204eeb45c559fbd5a058575bc7f967865b2",
+      "match": true
+    },
+    {
+      "source": "A3-cn-batch54-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch56-receipt.json",
+      "sha256": "7a676215d56c352eecb334c9b0ace03c4cb64658c20d8781ede80c5b73f4d52a",
+      "match": true
+    },
+    {
+      "source": "A3-cn-batch54-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch56.json",
+      "sha256": "969f4f11af4804611c96b33addea1a88cc861b6194329c5d6bed69f79d4fed81",
+      "match": true
+    },
+    {
+      "source": "A3-cn-batch54-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch56.json",
+      "sha256": "dae53eda4cc4d763c235f3720be420f905599b969d036de63f7e25bedf730eaa",
+      "match": true
+    },
+    {
+      "source": "A3-cn-batch54-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch56.json",
+      "sha256": "50117e275d310729ce4ef3aa242529cf7c45bced8db0ec2d11e5529b0b89ca5c",
+      "match": true
+    },
+    {
+      "source": "A3-cn-batch54-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/quality-comparison-batch56.json",
+      "sha256": "3e4d68d82c25dd32cea6a462cebf3aa0607a3ed6713652a796ef24c105d02840",
+      "match": true
+    },
+    {
+      "source": "A3-cn-batch54-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/root-M77-source-review.json",
+      "sha256": "438e348cdffe97bc8aec20c34713f8f419dde120038daacb2f5fb456dd647c8e",
+      "match": true
+    },
+    {
+      "source": "A3-cn-batch54-receipt.json",
+      "path": "A3-cn-batch54.json",
+      "sha256": "015776d140ea5fe30c25f24a325b4cebddd2d3a157008255d1d1c55802ab3530",
+      "match": true
+    },
+    {
+      "source": "A3-cn-batch54-receipt.json",
+      "path": "A3-cn-batch54.md",
+      "sha256": "e554ea28e5efcd125d2494ee4ce27634f42af19a0e10fd3d56e861617738e518",
+      "match": true
+    },
+    {
+      "source": "continuations/2026-11-09T052915Z/root-cn54-accepted-handoff.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch54.json",
+      "sha256": "015776d140ea5fe30c25f24a325b4cebddd2d3a157008255d1d1c55802ab3530",
+      "match": true
+    },
+    {
+      "source": "continuations/2026-11-09T052915Z/root-cn54-accepted-handoff.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch54-receipt.json",
+      "sha256": "1abeb99bb25ac17cd079777893cfa3360e7dbdeba504646df9b36846df14a3ff",
+      "match": true
+    },
+    {
+      "source": "continuations/2026-11-09T052915Z/root-cn54-accepted-handoff.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch56.json",
+      "sha256": "8412aceed2d36bb701a986410cfb448ca956f5e9f3c4eb09b4672c10d09b48e7",
+      "match": true
+    },
+    {
+      "source": "continuations/2026-11-09T052915Z/root-cn54-accepted-handoff.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch56.json",
+      "sha256": "2e4846b58c932b064b5d7b92809dc204eeb45c559fbd5a058575bc7f967865b2",
+      "match": true
+    },
+    {
+      "source": "continuations/2026-11-09T052915Z/root-cn54-accepted-handoff.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch56.json",
+      "sha256": "dae53eda4cc4d763c235f3720be420f905599b969d036de63f7e25bedf730eaa",
+      "match": true
+    },
+    {
+      "source": "continuations/2026-11-09T052915Z/root-cn54-accepted-handoff.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch56.json",
+      "sha256": "50117e275d310729ce4ef3aa242529cf7c45bced8db0ec2d11e5529b0b89ca5c",
+      "match": true
+    }
+  ],
+  "actual_reading": "本人本次实际读OTP29.1.2页头、48–63别名、80–89信号、116–144接收/队列/receive/优先例外、167–169及177–178丢失/次序/限流；未看图像、运行代码或通读全部手册。MW完整at hand31–46实际读两义，54–62只见词典first-known-use标十二世纪之前，不冒核首用原证，也不拿这一年代当品牌故事。",
+  "input_filename_resolution": "quality-receipt-batch56不存在；实际定位并读取A2-quality-batch56-receipt.json，不冒缺档已读。",
+  "full_form_before_selection": "已直接读完整at hand词条；准确标既有phrase再选择，未把组成词可解当完整新造。",
+  "local_history_check": "research JSON english/name字段At Hand/Athand精确无命中，rg exit1；仅本地历史不是市场使用查询。",
+  "eligible_english_inputs": 1,
+  "english_output_ids": [
+    "C1-E48"
+  ],
+  "actual_english_versions": 1,
+  "actual_new_chinese_names": 0,
+  "new_family_count": 0,
+  "rework_attempt": 0,
+  "remaining_reworks": 2,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "numeric_quality_status": "未包含本文件，先交无分预览/执行后另写A4-quality-batch46",
+  "outputs": [
+    {
+      "path": "A4-candidates-batch46.json",
+      "sha256": "61766414b1d46bc77f458da8ffef1e70de8398851f8d5f150e01a901887b0efd"
+    },
+    {
+      "path": "A4-preview-batch46.json",
+      "sha256": "61766414b1d46bc77f458da8ffef1e70de8398851f8d5f150e01a901887b0efd"
+    },
+    {
+      "path": "A4-preview-batch46.md",
+      "sha256": "34331406efc87a4f2cbe32ada02abdad470bb1628c8a7e66fb4a3b8e9257d214"
+    }
+  ],
+  "next": "先主控无分独评，producer数字另档；双过后同一A3 EN46独立筛。",
+  "unchanged": "只新档，未复用历史46英文为新名，旧E36 gap不占；旧稿/分/库queueREADMEGit不改，不开EN47。"
+}

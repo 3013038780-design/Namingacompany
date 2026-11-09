@@ -1,0 +1,114 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "updated_at": "2026-11-07T21:16:37.462062+08:00",
+  "scope": "本角色当前已提交版本索引，非最终推荐或A3执行回执。",
+  "existing_reserve_pairs_editorially_reviewed": 3,
+  "new_chinese_families_received": 4,
+  "english_versions_submitted": 7,
+  "entries": [
+    {
+      "english_id": "C1-E01",
+      "chinese_id": "C1-C01",
+      "chinese": "由此及彼",
+      "english": "Therefrom",
+      "proposal_ref": "A4-batch1.json",
+      "proposal_sha256": "c6914a78284cc97d58a22ae73785452e8bb9122e5894b369084e3257b63d0e58",
+      "preview_ref": "A4-preview-batch1.md",
+      "quality_ref": "A4-quality-batch1.json",
+      "rework_attempt": 0
+    },
+    {
+      "english_id": "C1-E02",
+      "chinese_id": "C1-C06",
+      "chinese": "余量",
+      "english": "Spare Signal",
+      "proposal_ref": "A4-batch2.json",
+      "proposal_sha256": "d937c1ebd13b25bbf085e88c32a3175520566248f8c45a3d5aaa104b5d446b54",
+      "preview_ref": "A4-preview-batch2.md",
+      "quality_ref": "A4-quality-batch2.json",
+      "rework_attempt": 0
+    },
+    {
+      "english_id": "C1-E03",
+      "chinese_id": "C1-C01",
+      "chinese": "由此及彼",
+      "english": "Either End",
+      "proposal_ref": "A4-batch3.json",
+      "proposal_sha256": "6732d399c2a91c8cf9993e51ee8cfe68d306560bbbe6a6b28f435aa6d28d7da8",
+      "preview_ref": "A4-preview-batch3.md",
+      "quality_ref": "A4-quality-batch3.json",
+      "rework_attempt": 1
+    },
+    {
+      "english_id": "C1-E04",
+      "chinese_id": "C1-C08",
+      "chinese": "活桥",
+      "english": "Antspan",
+      "proposal_ref": "A4-batch4.json",
+      "proposal_sha256": "cf7421fcd00d3ba846c91a9bdbbfb6ca733401495d9d09934209224ef43793d1",
+      "preview_ref": "A4-preview-batch4.md",
+      "quality_ref": "A4-quality-batch4.json",
+      "rework_attempt": 0
+    },
+    {
+      "english_id": "C1-E05",
+      "chinese_id": "C1-C01",
+      "chinese": "由此及彼",
+      "english": "What Follows",
+      "proposal_ref": "A4-batch5.json",
+      "proposal_sha256": "a94b81c013c6b796289081c95fc01a6b67cb938b8bcfaf626fac2646f4a9ec67",
+      "preview_ref": "A4-preview-batch5.md",
+      "quality_ref": "A4-quality-batch5.json",
+      "rework_attempt": 2
+    },
+    {
+      "english_id": "C1-E06",
+      "chinese_id": "C1-C11",
+      "chinese": "回车以后",
+      "english": "Linewake",
+      "proposal_ref": "A4-batch6.json",
+      "proposal_sha256": "907797ff13563e404ec202bfa3c006e920f26d3848ec0ec7cc18a8a537978b94",
+      "preview_ref": "A4-preview-batch6.md",
+      "quality_ref": "A4-quality-batch6.json",
+      "rework_attempt": 0
+    },
+    {
+      "english_id": "C1-E07",
+      "chinese_id": "C1-C11",
+      "chinese": "回车以后",
+      "english": "Replyrise",
+      "proposal_ref": "A4-batch7.json",
+      "proposal_sha256": "92d88995a96b4db108b157b412112b2309ccc5b8f27287dae441f3cc9f4a2bcd",
+      "preview_ref": "A4-preview-batch7.md",
+      "quality_ref": "A4-quality-batch7.json",
+      "rework_attempt": 1
+    }
+  ],
+  "rework_limits": {
+    "C1-C01": {
+      "initial": "C1-E01",
+      "attempt1": "C1-E03",
+      "attempt2": "C1-E05",
+      "remaining": 0,
+      "last_A3_decision": "return_for_alternative",
+      "outcome": "中文转无合格英文研究储备，不继续第三次英文返工；不是新增名字。",
+      "source_ref": "A3-en-batch5.json"
+    },
+    "C1-C11": {
+      "initial": "C1-E06",
+      "attempt1": "C1-E07",
+      "remaining": 1,
+      "status": "new_proposal_awaiting_coordinator_and_original_A3",
+      "source_ref": "A4-batch7.json"
+    }
+  },
+  "semantic_review_refs": [
+    "A4-E02-usage-note.json",
+    "A4-E04-usage-note.json"
+  ],
+  "new_usage_queries_by_A4": 0,
+  "new_registration_queries_by_A4": 0,
+  "original_proposals_and_scores_preserved": true,
+  "previous_index_snapshot": "A4-stage-index-6versions.json"
+}

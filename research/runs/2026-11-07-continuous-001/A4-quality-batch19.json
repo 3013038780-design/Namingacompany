@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-08T00:20:48.460194+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E19",
+      "chinese_id": "C1-C23",
+      "english": "Maymatter",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个标准英语词连接，三个音节自然，没有新造发音。",
+          "counter_association": "快速听仍可能只记成普通may matter一句话。"
+        },
+        "spelling": {
+          "reason": "完整may与matter保留常规拼法，不借改字母避重。",
+          "counter_association": "May Matter分写与Mae同音仍需首次说明，A3必须覆盖近形。"
+        },
+        "grounding": {
+          "reason": "可能后续需要所以保留，与may-analysis本有直接依据；matter现成动词义用于用途判断。",
+          "counter_association": "重要性比编译用途宽，属于明确标记的品牌转用，不是课程原术语。"
+        },
+        "bilingual_relation": {
+          "reason": "活变量保留当前值的理由与英文可能还有作用相接，并保留may的非必然性。",
+          "counter_association": "英文未独自包含变量、程序位置或先覆盖条件。"
+        },
+        "distinctiveness": {
+          "reason": "合写后是能独立叫出的称呼，有研究不确定信息价值的态度，可超出一项工具。",
+          "counter_association": "也可能像文创/咨询或弱自信口吻；实际使用未知不能替品牌加分。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，主控先读无分预览独立复评；未查不入库。"
+    }
+  ]
+}

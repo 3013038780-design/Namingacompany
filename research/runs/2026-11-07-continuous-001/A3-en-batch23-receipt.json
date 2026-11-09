@@ -1,0 +1,62 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English screening",
+  "executed_at": "2026-11-08T13:46:30.157913+08:00",
+  "candidate_id": "C1-E23",
+  "chinese_id": "C1-C30",
+  "decision": "return_for_historical_exact_software_project_and_near_ai_framework_avoidance",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch23.md",
+      "sha256": "202afecbb4e6a3f9c5eb30b247f9df630ed9be2479db89fbfb59277dc6e2c3be"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch23.json",
+      "sha256": "a51effd83f1d26652d77ea447e22ff3d4d8f5fb302312d9d9d8b3d15d134ba52"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch23.json",
+      "sha256": "816ed8822ca430b427e6d6c101a6570a0ad2049d9ed207a81d8b6e982511fb98"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch23.json",
+      "sha256": "d38e40e69633e73a64651ace06b65fcc2d36b314214fadacc8bef2c00dac802a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch23.json",
+      "sha256": "5fc3ad72d3846d6903be5500f7923384cf137e5646e384fe67b02775cbc2a10d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-family-review-batch23.json",
+      "sha256": "1e1d8c60622aa9cd32dc1a99058fbaa15c183506eb2f4a909e7db1193d7a2fd0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch19.json",
+      "sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-C30-formation-reacceptance.json",
+      "sha256": "ae6cf8dfd04f850162e3498a6d5c9527f943892ba2bf97068100bcceb39017f6"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-batch23.md",
+      "sha256": "78c2a5a32f22a0b4280035ec26cc5d9c89a19ee249234cc3aecfbefd3d4ccbbb"
+    },
+    {
+      "path": "A3-en-batch23.json",
+      "sha256": "6df2a3aa3f220bb088dc59102681caf876b0bb6716cef83b4b09f34639306e59"
+    }
+  ],
+  "actual_new_candidate_queries": 6,
+  "actual_new_english_queries": 6,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 347,
+  "agent3_cumulative_candidate_queries": 353,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 355,
+  "actual_execution": "实际读固定提案/创建回执/双评/家族/中文补记，六查询，项目开发者出售/发布正文与近形框架官方代码库已读。原站和英国逐名入口失败。",
+  "next": "原A4首返，尚余2次；仅同中文版本不算新家族。",
+  "unchanged": "旧稿/库/Git不改，无用户通知/外部网页全文。"
+}

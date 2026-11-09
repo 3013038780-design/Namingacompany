@@ -1,0 +1,99 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-08T10:46:46.094994+08:00",
+  "stage": "same_run_bounded_package_batch11",
+  "input_refs": [
+    {
+      "path": "README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567"
+    },
+    {
+      "path": "research/seed/README.md",
+      "sha256": "44cb357ed9db7edb5dc6c9a32ef1729e482ab3a9ef1f9dc6598dfbb3fc0d33b3"
+    },
+    {
+      "path": "research/seed/brand-naming-foundation.md",
+      "sha256": "92cb6c7cd36c201d35900528826a8aa9aca5a75c632df57d30dcaade5547f519"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.md",
+      "sha256": "50023a0d4970380ebd3afb8969343e6aaadab41c468ae7be66bf2da8f20dcda9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.md",
+      "sha256": "9e2c1589037d9d564619fd8d9d861dffd13288087c4f7dec8e49d5ecbd702dde"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-final-input-reacceptance.json",
+      "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+      "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/plan-review.json",
+      "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-07T155304Z/decisions-through-batch10.json",
+      "sha256": "c995a70b42f88345d1fd81857168e6c8c92e1d70b13658f79d6fef70044e1377"
+    }
+  ],
+  "history_scan": {
+    "method": "all non-input research/runs JSON parsed; exact Chinese draft strings checked, not manual rereading every field or a market check",
+    "file_count": 531,
+    "exact_draft_hits": [],
+    "manifest_sha256": "7019a56f826d98bfc6fed2507415c543c4d3eb9a4e14e8321f57eb7717d6b0dd"
+  },
+  "reading_evidence": [
+    {
+      "title": "National Academies of Sciences, Engineering, and Medicine: Reproducibility and Replicability in Science, Chapter 3",
+      "url": "https://www.nationalacademies.org/read/25303/chapter/6",
+      "published_at": "2019",
+      "reading_location": "本次实际读取HTML章首及正文L53–228，重点L120–228（纸本42–46页）：术语分歧、同数据重算与新数据研究、定义及测量条件边界；没有通读本章后半或整书。",
+      "reading_scope": "excerpt",
+      "access": "body",
+      "method": "web_HTML_body",
+      "read_at": "2026-11-08T10:46:46.094994+08:00"
+    }
+  ],
+  "new_material_count": 1,
+  "new_chinese_draft_count": 1,
+  "new_english_count": 0,
+  "name_usage_queries_performed": false,
+  "output_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension10.json",
+      "sha256": "46b79ce31367a23388ba13910cf7aaa15ce69c8a824b16f7f2039027d376090b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch11.json",
+      "sha256": "76af2b122af8c2f5dfd7e3ded9e08559393182082f0ebd8bb483092ef72a1eec"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch11.md",
+      "sha256": "aa769f6d5d00c599be624290f8cc900646834b5980e05d162c63c86b2cfe91cc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch11.json",
+      "sha256": "bd1113119914f52a398f9d634a1ae62c2f9278162bf096534aba1e6a24070209"
+    }
+  ],
+  "whole_production_batch_complete": false,
+  "boundary": "旧文件未改；未查使用/配英文/git/catalog/feed。已知README要求主控在本段全链完成后同步website feed；本角色不代执行。初始材料与部分原计划为同一实例先前已读，本次重接续核对并不宣称105全部外部重核。A1仍仅7实质新核，另5为沿用。"
+}

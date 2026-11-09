@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-08T23:42:51.454667+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E40",
+      "chinese_id": "C1-C48",
+      "english": "Undetermined",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "完整常规词，重音和四音节可正常连读。",
+          "counter_association": "比两音节首稿长，首次需要慢读确认。"
+        },
+        "spelling": {
+          "reason": "完整un+determined常见词形，不人为改字母。",
+          "counter_association": "词较长，弱读结尾仍可能漏写ed。"
+        },
+        "grounding": {
+          "reason": "未明确判定的真词义可表达未定而非假的状态，源区别保持。",
+          "counter_association": "不是SQL正式状态名，日常未定比SQL unknown范围宽。"
+        },
+        "bilingual_relation": {
+          "reason": "中文第三逻辑位置与英文该位置的未定状态同指unknown。",
+          "counter_association": "英文单独没有三态或数据库条件，不代表执行尚未完成。"
+        },
+        "distinctiveness": {
+          "reason": "完整单词可作为状态研究主体称呼。",
+          "counter_association": "像暂未命名/犹豫的项目，独立品牌辨识谨慎。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "主观编辑非测试，门槛不改；主控先无分独评，不以真实词典义补品牌不足。"
+    }
+  ]
+}

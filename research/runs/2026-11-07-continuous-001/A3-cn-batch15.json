@@ -1,0 +1,130 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T11:39:05.915115+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch13.md",
+      "sha256": "e3652acbec0c839a9b92309a9b3a40044651f50f0721ae85d95567d11d3e8659"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch13.json",
+      "sha256": "0e99febef4e281c06f2b9e49b4313e6dc44c3f9735c6cefd5b40bb7d7ce13098"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch13.json",
+      "sha256": "d4f30c51995daac1993de42b48169e5bc62de4d5ffb46e738e8086e8fcee86f7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension12.json",
+      "sha256": "e2d11c576bc35eebd1363856fcce9a378f7c35d633932aa1ff1763426bc9b986"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch13.json",
+      "sha256": "5c526472825a39c4a28805a25b915cc163f157e28a59b90d82234589b28c4caf"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch13.json",
+      "sha256": "6bf09eff4366ceabace708402f09f5575bdd4cc76fbefb9817fdfc686a575885"
+    }
+  ],
+  "query_count": 8,
+  "results": [
+    {
+      "candidate_id": "C1-C26",
+      "name": "园丁鸟",
+      "query_logs": [
+        {
+          "query": "\"园丁鸟\"",
+          "executed_on": "2026-11-08",
+          "summary": "主要真实鸟类及中国国家地理介绍，为自然物种称呼非商业使用证据。"
+        },
+        {
+          "query": "\"园丁鸟科技\"",
+          "executed_on": "2026-11-08",
+          "summary": "深圳市园丁鸟科技有限公司官网多个页面，后续正文核版权主体与保函业务。"
+        },
+        {
+          "query": "\"园丁鸟智能\"",
+          "executed_on": "2026-11-08",
+          "summary": "河南园丁鸟智能科技官方采购及安吉园丁鸟智能家具政府名单等线索，河南正文已核，算法词另分。"
+        },
+        {
+          "query": "\"园丁鸟\" 公司 软件",
+          "executed_on": "2026-11-08",
+          "summary": "深圳公司及App Store园丁鸟·巢集明确软件；另广州房屋科技官方名单索引及其他描述性文案。"
+        },
+        {
+          "query": "\"园丁鸟\" AI 模型",
+          "executed_on": "2026-11-08",
+          "summary": "App同名核心及年报智慧施工平台索引，真实鸟类科普/AI数学讨论不是独立模型品牌。"
+        },
+        {
+          "query": "\"園丁鳥\" 公司 軟體",
+          "executed_on": "2026-11-08",
+          "summary": "繁体出现家装软件百科、園丁鳥设计师商店与鸟类期刊；不凭百科/商店索引单独说已注册。"
+        },
+        {
+          "query": "\"yuandingniao\" company",
+          "executed_on": "2026-11-08",
+          "summary": "App版权yuandingniao及商品品牌目录；App正版平台正文已核，拼音不是未用。"
+        },
+        {
+          "query": "\"园丁鸟\" 动漫 教育 品牌",
+          "executed_on": "2026-11-08",
+          "summary": "童书品牌目录/绘本和动画园丁鸟求偶记标题；作品/类别不自动当科技公司。"
+        }
+      ],
+      "decision": "reject_existing_core_company_and_software_use",
+      "reason": "已有深圳市园丁鸟科技有限公司公开官网和河南园丁鸟智能科技有限公司官方采购主体记录；另有园丁鸟·巢集家庭物品管理App。地域/科技/智能后缀去除后核心园丁鸟相同，复合软件名也明确含该核心，否决本中文；不称已核公司实时登记、AI模型或9/42商标占用。",
+      "evidence": [
+        {
+          "url": "https://www.bwbird.com/",
+          "access": "primary_company_body_read",
+          "finding": "网页标题及L106版权深圳市园丁鸟科技有限公司、备案号粤ICP备20023942；L6–32展示投标/履约等保函服务，不能只凭科技后缀说其为AI研发公司。官网主体公开使用已核，未访问工商登记存续详情。"
+        },
+        {
+          "url": "https://bid.cncecyc.com/cms/channel/ywgg2gc/533933.htm",
+          "access": "primary_procurement_notice_body_read",
+          "finding": "中国化学电子采购平台2026-03-20，L29–55设备安装劳务工程候选公示第4名河南园丁鸟智能科技有限公司；确证完整企业名公开出现，不代替GSXT实时登记或AI业务证明。"
+        },
+        {
+          "url": "https://apps.apple.com/us/app/%E5%9B%AD%E4%B8%81%E9%B8%9F-%E5%B7%A2%E9%9B%86/id6775339052",
+          "access": "primary_app_listing_body_read",
+          "finding": "L21园丁鸟·巢集，L35开发者Hainan Qiban Technology Co.,Ltd，L49家庭物品管理软件；产品为复合名、相同园丁鸟核心，不谎称App完整名只有园丁鸟或AI模型。L122版权yuandingniao另证拼音使用。"
+        },
+        {
+          "url": "https://stock.tianyancha.com/Announcement/eastmoney/367bceea9ff0abb51efcb214b094e578.pdf",
+          "access": "issuer_report_mirror_partial_body_read_relevant_find_timeout",
+          "finding": "实际打开2022鸿基节能179页年报镜像，L4公司江苏鸿基节能新技术；索引有园丁鸟智慧施工平台，但目标find超时，未把该片段冒充已读目标正文，不作为必要主证。"
+        },
+        {
+          "url": "https://gdstc.gd.gov.cn/attachment/0/489/489808/3936953.pdf",
+          "access": "government_pdf_partial_body_read_target_find_timeout",
+          "finding": "打开2022拟入库名单章首；索引广州园丁鸟房屋科技，find目标超时，未将其宣称实时登记或最终核实主证。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run Nov7实际403共同入口，非本次逐名核名；官网和采购是公开使用证据。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run Nov7共同入口403，未逐名9/42检索，不能称商标已注册。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Yuandingniao",
+          "scope": "实际逐名搜索URL不可访问，不代表无公司"
+        }
+      },
+      "no_english_authorized": true
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "passed_chinese_candidate_ids": []
+}

@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-07T21:05:51.458317+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E04",
+      "chinese_id": "C1-C08",
+      "english": "Antspan",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "ant和span各一个短音节，组合后读法可直接解释。",
+          "counter_association": "中间ntsp辅音群对部分使用者有一次连读成本。"
+        },
+        "spelling": {
+          "reason": "两个完整普通语素直接相接，可还原拼写。",
+          "counter_association": "初次可能分写Ant Span，需A3另查。"
+        },
+        "grounding": {
+          "reason": "蚂蚁与桥跨同在原论文真实对象中，组合有完整关系。",
+          "counter_association": "Antspan是品牌造词，不是现成术语或论文命名。"
+        },
+        "bilingual_relation": {
+          "reason": "活的桥和蚂蚁形成的桥跨指向同一身体自组装。",
+          "counter_association": "英文比中文更绑定蚂蚁，需要接受具体自然形象。"
+        },
+        "distinctiveness": {
+          "reason": "短词有可画的主体与作用，能形成独立研究称呼。",
+          "counter_association": "昆虫、蚁群算法和土木工程联想可能更先出现。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；等待主控先读无分预览独评，再读本档并授权原A3。"
+    }
+  ]
+}

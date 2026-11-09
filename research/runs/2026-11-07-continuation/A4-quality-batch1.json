@@ -1,0 +1,94 @@
+{
+  "agent_id": "/root/live_a4",
+  "recorded_at": "2026-11-07T18:15:01+08:00",
+  "reviews": [
+    {
+      "candidate_id": "CT-E01",
+      "chinese_id": "CT-C01",
+      "english": "Starward Ferry",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个可分读普通词，语音无人为障碍。",
+          "counter_association": "四音节比单词品牌长。"
+        },
+        "spelling": {
+          "reason": "完整保留两个英语词，可直接口述。",
+          "counter_association": "starward可能被误听成starboard。"
+        },
+        "formation": {
+          "reason": "既有方向词加既有载体词，语法与语义完整。",
+          "counter_association": "不是科学现象正式名称。"
+        },
+        "bilingual_relation": {
+          "reason": "位置与渡运载体共同表达出发和跨越。",
+          "counter_association": "没有逐字翻译渡口。"
+        },
+        "distinctiveness": {
+          "reason": "一班驶向星辰的渡船有完整画面和研究空间。",
+          "counter_association": "可能先像科幻交通设定。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，未代替主控独立评分、A3英文使用筛查或注册核验。"
+    },
+    {
+      "candidate_id": "CT-E02",
+      "chinese_id": "CT-C02",
+      "english": "Earth Replies",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两普通词，主谓节奏自然。",
+          "counter_association": "Earth的th对部分读者需练习。"
+        },
+        "spelling": {
+          "reason": "词形无变体，可从英语正常还原。",
+          "counter_association": "动词reply的第三人称单数应写replies，少数人可能误写replys。"
+        },
+        "formation": {
+          "reason": "完整主谓短语，普通语言直接表达回应。",
+          "counter_association": "拟人不是地球有意识的事实主张。"
+        },
+        "bilingual_relation": {
+          "reason": "中文回信与英文回应共享地照光返回的信息关系。",
+          "counter_association": "英文不用letter，没有字面书信物件。"
+        },
+        "distinctiveness": {
+          "reason": "有可讲的双向认识角色，不限某算法。",
+          "counter_association": "可能像科普内容品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，未代替主控独立评分、A3英文使用筛查或注册核验。"
+    }
+  ],
+  "wording_corrections": [
+    {
+      "recorded_at": "2026-11-07T18:16:09+08:00",
+      "candidate_id": "CT-E02",
+      "field": "notes.spelling.counter_association",
+      "before": "reply复数样式会被少数人误写replys。",
+      "after": "动词reply的第三人称单数应写replies，少数人可能误写replys。",
+      "reason": "replies在Earth Replies中是动词第三人称单数，不是复数；preview构词原已正确，评分未改。"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English screening",
+  "executed_at": "2026-11-08T23:37:55.758893+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch36.json",
+      "sha256": "8bcfa86cecb21cdaf5b40d8c4ec6cf6c9656e0149d5dd94b5ddb4883987079f0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch36.md",
+      "sha256": "c1c9ae923ce7cd19cd7d5682111e25be79a9063219c0e74f5050cee0564c61a0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch36.json",
+      "sha256": "1b2334955667215bbbbd5de78351ed2446c783b94f7c51761d6dcd2b9331de45"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch36.json",
+      "sha256": "6ca0c3d714a744900acd2d447bf87fb45d6cb50526c996a3b95c716d1fece961"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch36.json",
+      "sha256": "b38a977ea641e3285879587dd051e5dab83c80c535cd22a1b06c6cfb10ac397b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch31.json",
+      "sha256": "5fbb8fadc893d38a198b045c0e553ed059814efebd6a2fc3deeea26506b61292"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-batch36.json",
+      "sha256": "146267daf1e47ac557e3d52c66336d0159afe31bb99867a637207eae8c009b68"
+    },
+    {
+      "path": "A3-en-batch36.md",
+      "sha256": "fe84342c25d4cda2b29b0729fb708cad6335283d80559b8ce4e39474721e733f"
+    }
+  ],
+  "actual_new_candidate_queries": 6,
+  "completed_candidate_search_results": 6,
+  "unreturned_search_attempts": 0,
+  "actual_new_chinese_queries": 0,
+  "actual_new_english_queries": 6,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 547,
+  "prior_agent3_returned_candidate_results": 546,
+  "agent3_cumulative_candidate_queries": 553,
+  "agent3_cumulative_returned_candidate_results": 552,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 555,
+  "run_cumulative_returned_candidate_results": 554,
+  "passed_english_candidate_ids": [],
+  "returned_english_candidate_ids": [
+    "C1-E39"
+  ],
+  "quality_rejected_not_searched_ids": [],
+  "actual_execution": "真实六有效英语查询、平台与源码正文闭环，普通句法/更长实义品牌分开；同星排除真实0英语，整体非零。",
+  "next": "退同原A4首返，余2次；不改中文初筛/旧记录。",
+  "unchanged": "旧记录/库/队列/Git未改，无网页全文。",
+  "rejected_english_candidate_ids": [],
+  "excluded_upstream_check": {
+    "chinese_id": "C1-C49",
+    "chinese": "同星",
+    "actual_eligible_english_inputs": 0,
+    "actual_english_outputs": 0,
+    "actual_english_queries": 0,
+    "actual_review": "已实际读A4batch36上游排除：CN31巨潮同核心使用拒绝，未用英语救回；整批仍E39有查询，不写全零。"
+  }
+}

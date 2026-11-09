@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "stage": "hourly_continuation_chinese_batch7",
+  "completed_at": "2026-11-07T21:58:55.414873+08:00",
+  "protocol_version": "1.1",
+  "actually_read_current_inputs": [
+    {
+      "path": "inputs/decisions-final-work-segment.json",
+      "sha256": "fed3a07ae01e5f1b84e009cca9db92f693673fc536b62cc1591fe1c48477ff37"
+    },
+    {
+      "path": "A1-final-input-reacceptance.json",
+      "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+    },
+    {
+      "path": "A1-formation-feedback.md",
+      "sha256": "9e2c1589037d9d564619fd8d9d861dffd13288087c4f7dec8e49d5ecbd702dde"
+    },
+    {
+      "path": "A1-formation-feedback.json",
+      "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+    }
+  ],
+  "new_material_count": 1,
+  "new_chinese_draft_count": 1,
+  "new_english_count": 0,
+  "name_usage_queries_performed": false,
+  "whole_production_batch_complete": false,
+  "source_scope": "两篇作者论文节选正文；新书正文/近九十天新闻新增为零，不拿2011/2019材料充新闻。",
+  "output_refs": [
+    {
+      "path": "materials-extension6.json",
+      "sha256": "352c8a436a64375034802466bb2502fca945d7d65c184527920adad41ce884e7"
+    },
+    {
+      "path": "A2-candidates-batch7.json",
+      "sha256": "8b7fe1e061566a166efffffaa814e148d38ae61502aca97fee46b0f3f4e1be87"
+    },
+    {
+      "path": "A2-preview-batch7.md",
+      "sha256": "b4e7bf249fc064e7fd575230ecc0ec9d7f62e0f67c7b2624bfc9e1ed25067ad5"
+    },
+    {
+      "path": "A2-quality-batch7.json",
+      "sha256": "0e263c789e07671063b64f6a667675d0078596f4bc9e75937a9a94da98b810c5"
+    }
+  ],
+  "boundary": "按当前冻结十七案状态续接，不重开计划；原稿/原分/占用否决保持。不改根文档/其他Actor/网站/自动任务，不git；安静heartbeat未向用户发进度。"
+}

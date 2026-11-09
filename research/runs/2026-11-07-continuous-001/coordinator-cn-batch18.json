@@ -1,0 +1,88 @@
+{
+  "reviewed_at": "2026-11-08T17:02:25.450613+08:00",
+  "independence": "Read producer preview batch18 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C31",
+      "name": "未然机",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "三个熟字构成完整想象机器称呼可口头叫出",
+          "counter_association": "未然略书面且可能被听成未来"
+        },
+        "distinctiveness": {
+          "reason": "未现实条件与可求解机器形成明确画面",
+          "counter_association": "容易先像科幻作品或单一产品"
+        },
+        "lab_fit": {
+          "reason": "机器作为条件计算/认识工具能承载计算研究机构身份",
+          "counter_association": "不能仅凭机字就给科技身份或预测能力加分"
+        },
+        "grounding": {
+          "reason": "实读书中同单位固定U替换结构方程再求解的反事实语义支持关系",
+          "counter_association": "不是作者原有装置/算法名或原文中文称呼"
+        },
+        "extension": {
+          "reason": "可容纳因果条件与模型推问的多年研究",
+          "counter_association": "不能扩成无证据任意平行世界"
+        },
+        "semantic_coherence": {
+          "reason": "未然与机同属未现实条件的模型化求问非吉祥字拼接",
+          "counter_association": "若只讲模拟未来就与旧虚拟排练族重合"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "C1-C32",
+      "name": "借身",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "两字完整动宾称呼可读写复述",
+          "counter_association": "口语不如借用身体常用且有近音"
+        },
+        "distinctiveness": {
+          "reason": "身体边界被借用有可感图像",
+          "counter_association": "记住的可能是怪谈和借尸还魂"
+        },
+        "lab_fit": {
+          "reason": "首感附身灵异或虚构身体转移较强须先读实验才回到认知研究",
+          "counter_association": "VR或机器人窄工具身份也可能盖过广义Lab"
+        },
+        "grounding": {
+          "reason": "实际读单页同步感觉与异步对照和归属报告支持具体关系",
+          "counter_association": "小样本早期结果不能推广或临床承诺"
+        },
+        "extension": {
+          "reason": "身体与环境自我边界可长期研究",
+          "counter_association": "不是有一项实验就能解释全部意识"
+        },
+        "semantic_coherence": {
+          "reason": "各层围绕外物纳入身体体验不等于实际借走身体",
+          "counter_association": "若只讲外挂能力会退回旧添一指家族"
+        }
+      },
+      "decision": "quality_reject"
+    }
+  ]
+}

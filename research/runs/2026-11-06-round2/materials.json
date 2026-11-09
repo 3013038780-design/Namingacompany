@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-06",
+  "source_seed": "../../seed/source-page.md",
+  "principles": [
+    "先检验能否自然成为AI研究机构的称呼，再读解释；解释不能挽救品牌气质。",
+    "科学与计算的张力来自真实动作、结构、尺度或思想，不靠堆砌智元启。",
+    "词义事实与品牌赋义分开，截取或改造术语必须明说。",
+    "日常物件与自然意象仍可使用，但若首要行业联想是木业、环保、育儿就淘汰。",
+    "机构名可留出研究宽度，不把产品功能写成口号。",
+    "熟字结合必须有同一条内部关系；同来源近义变化只算一族。"
+  ],
+  "materials": [
+    {
+      "id": "R2M01",
+      "title": "Taylor余项",
+      "source_urls": [
+        "https://mathworld.wolfram.com/TaylorRemainder.html"
+      ],
+      "reading_scope": "已打开来源正文并读取有关段落",
+      "fact_summary": "函数与有限阶Taylor多项式之差，可以用于度量近似误差。",
+      "source_family": "Taylor余项",
+      "source_to_brand_relation": "已有描述之外仍有尚待理解的部分。"
+    },
+    {
+      "id": "R2M02",
+      "title": "拓扑开集",
+      "source_urls": [
+        "https://mathworld.wolfram.com/OpenSet.html"
+      ],
+      "reading_scope": "已打开来源正文并读取有关段落",
+      "fact_summary": "度量空间中每一点都有包含在集合内部的邻域。",
+      "source_family": "拓扑开集",
+      "source_to_brand_relation": "开放的局部空间与继续探索的余地。"
+    },
+    {
+      "id": "R2M03",
+      "title": "异步程序与Future",
+      "source_urls": [
+        "https://doc.rust-lang.org/book/ch17-01-futures-and-syntax.html"
+      ],
+      "reading_scope": "已打开来源正文并读取有关段落",
+      "fact_summary": "异步块可以暂停和恢复，Future记录自己的进展。",
+      "source_family": "异步程序与Future",
+      "source_to_brand_relation": "不同进程按各自节奏前进，暂停不等于结束。"
+    },
+    {
+      "id": "R2M04",
+      "title": "重整化群",
+      "source_urls": [
+        "https://www.damtp.cam.ac.uk/user/tong/sft/sfthtml/S3.html"
+      ],
+      "reading_scope": "已打开来源正文并读取有关段落",
+      "fact_summary": "在不同尺度描述物理，经过粗粒化与重标度观察理论的变化。",
+      "source_family": "重整化群",
+      "source_to_brand_relation": "改变观察尺度，重新组织对系统的理解。"
+    },
+    {
+      "id": "R2M05",
+      "title": "计算尺",
+      "source_urls": [
+        "https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/calculating-devices/slide-rules"
+      ],
+      "reading_scope": "已读剑桥博物馆相关页面检索正文；史密森尼来源直开404，不作为已读全文",
+      "fact_summary": "对数刻度的相对移动将乘除转换成加减。",
+      "source_family": "计算尺",
+      "source_to_brand_relation": "让抽象计算成为可操纵的工具。"
+    },
+    {
+      "id": "R2M06",
+      "title": "形式语法nonterminal",
+      "source_urls": [
+        "https://web.stanford.edu/class/archive/cs/cs103/cs103.1252/guide_to_cfgs"
+      ],
+      "reading_scope": "已打开来源正文并读取有关段落",
+      "fact_summary": "非终结符承载尚可继续展开的结构，递归规则能够反复生成结构。",
+      "source_family": "形式语法nonterminal",
+      "source_to_brand_relation": "当前表达还可以继续生成新的结构。"
+    },
+    {
+      "id": "R2M07",
+      "title": "形式系统与公理独立性",
+      "source_urls": [
+        "https://plato.stanford.edu/entries/goedel-incompleteness/"
+      ],
+      "reading_scope": "已打开来源正文并读取有关段落",
+      "fact_summary": "满足条件的形式系统中存在不能在系统内证明或证伪的命题。",
+      "source_family": "形式系统与公理独立性",
+      "source_to_brand_relation": "既有假设之外仍有尚未解决的问题。"
+    },
+    {
+      "id": "R2M08",
+      "title": "贝叶斯更新",
+      "source_urls": [
+        "https://www.cs.ubc.ca/~poole/aibook/3e/html/ArtInt3e.Ch9.S1.html"
+      ],
+      "reading_scope": "已打开来源正文并读取有关段落",
+      "fact_summary": "智能体发现环境信息后，用新信息更新信念，得到后验。",
+      "source_family": "贝叶斯更新",
+      "source_to_brand_relation": "观察发生之后，理解仍继续改变。"
+    },
+    {
+      "id": "R2M09",
+      "title": "程序状态空间与抽象解释",
+      "source_urls": [
+        "https://courses.cs.cornell.edu/cs4120/2022sp/notes/absint/index.html"
+      ],
+      "reading_scope": "已打开来源正文并读取有关段落",
+      "fact_summary": "将可能的程序状态及历史映射为适合分析的抽象表示。",
+      "source_family": "程序状态空间与抽象解释",
+      "source_to_brand_relation": "让可能性进入可以推演与检验的空间。"
+    },
+    {
+      "id": "R2M10",
+      "title": "世界模型与模拟推理",
+      "source_urls": [
+        "https://blog.google/company-news/inside-google/googlers/ask-a-techspert/what-is-a-world-model-project-genie/"
+      ],
+      "reading_scope": "已打开来源正文并读取有关段落",
+      "fact_summary": "世界模型用内部表征预测或模拟环境，使人能探索可能发生的过程。",
+      "source_family": "世界模型与模拟推理",
+      "source_to_brand_relation": "把理解与推演放在同一认知动作中。"
+    },
+    {
+      "id": "R2M11",
+      "title": "轻核聚变",
+      "source_urls": [
+        "https://www.energy.gov/science/doe-explainsfusion-reactions"
+      ],
+      "reading_scope": "已打开来源正文并读取有关段落",
+      "fact_summary": "轻原子核结合为较重核，某些反应的质量差转为能量。",
+      "source_family": "轻核聚变",
+      "source_to_brand_relation": "连接产生新能力，并把研究放入一个长期时代。"
+    },
+    {
+      "id": "R2M12",
+      "title": "imaginary time",
+      "source_urls": [
+        "https://www.hawking.org.uk/in-words/lectures/the-beginning-of-time"
+      ],
+      "reading_scope": "已打开来源正文并读取有关段落",
+      "fact_summary": "霍金讲演讨论虚时间及宇宙起源，用数学视角重新理解时间。",
+      "source_family": "imaginary time",
+      "source_to_brand_relation": "熟悉世界仍有另一种可以描述的维度。"
+    }
+  ],
+  "reading_disclosure": "读到Rust开放书籍章节、David Tong开放讲义选定段落、AI Foundations开放书籍9.1及其他官方科普/大学资料。未通读整书。古文0张。"
+}

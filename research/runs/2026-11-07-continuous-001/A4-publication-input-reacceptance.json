@@ -1,0 +1,61 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "reaccepted_at": "2026-11-08T00:25:14.880086+08:00",
+  "action": "本次实际重读整理后的A3-en18/19公开JSON的查询、决定、证据与边界，以及两份发布整理说明；机器解析私存原字节并复算，未重述外部原文全文。",
+  "inputs": [
+    {
+      "path": "A3-en-batch18.json",
+      "sha256": "577c84f732ea94001b0538ba0bd62825d264dfcbacce1fc7171a0e7a20698425"
+    },
+    {
+      "path": "A3-en-batch19.json",
+      "sha256": "7c66cfe45dcedaaf1f25ddb84a587e14a86f92aa1f154a1e2351686abde7ba69"
+    },
+    {
+      "path": "A3-en18-publication-normalization.json",
+      "sha256": "b5e92a6aa580c4432e116a9f856e7774eacee85dd9e0a95c62206bcec9c431d3"
+    },
+    {
+      "path": "A3-en19-publication-normalization.json",
+      "sha256": "a1bf7da414ed6661a46b1d89cac7108f14e06dc7cae1f9d610a97dfa5aacde13"
+    }
+  ],
+  "checks": [
+    {
+      "public_path": "A3-en-batch18.json",
+      "public_sha256": "577c84f732ea94001b0538ba0bd62825d264dfcbacce1fc7171a0e7a20698425",
+      "normalization_ref": "A3-en18-publication-normalization.json",
+      "normalization_sha256": "b5e92a6aa580c4432e116a9f856e7774eacee85dd9e0a95c62206bcec9c431d3",
+      "private_original_path": "/Users/olivialee/Documents/ChatGPT/secretary/tmp/naming-private-raw/A3-en-batch18-original.json",
+      "private_original_sha256": "e6d2f4d9a20765896bb161efabaa04d30a1d0f606c4b85467fea35d9d8e6d83f",
+      "semantic_hash_original": "bf3af664b1faa026eca77c69d2006fa75f1c89728c4462cc554f00667273536e",
+      "semantic_hash_public": "bf3af664b1faa026eca77c69d2006fa75f1c89728c4462cc554f00667273536e",
+      "same_retained_semantic_object": true,
+      "queries_conclusions_evidence_and_inputs_unchanged": true
+    },
+    {
+      "public_path": "A3-en-batch19.json",
+      "public_sha256": "7c66cfe45dcedaaf1f25ddb84a587e14a86f92aa1f154a1e2351686abde7ba69",
+      "normalization_ref": "A3-en19-publication-normalization.json",
+      "normalization_sha256": "a1bf7da414ed6661a46b1d89cac7108f14e06dc7cae1f9d610a97dfa5aacde13",
+      "private_original_path": "/Users/olivialee/Documents/ChatGPT/secretary/tmp/naming-private-raw/A3-en-batch19-original.json",
+      "private_original_sha256": "882542666cd64d08bb07e92b2b8635d078294b65f104d016c094edb6ab9b567c",
+      "semantic_hash_original": "0df122b6c90fa63825bdc2c851770f3dffac6117368a2d142146b3dea96de749",
+      "semantic_hash_public": "0df122b6c90fa63825bdc2c851770f3dffac6117368a2d142146b3dea96de749",
+      "same_retained_semantic_object": true,
+      "queries_conclusions_evidence_and_inputs_unchanged": true
+    }
+  ],
+  "semantic_canonicalization": "递归移除raw_search_results及新增raw_payload_preservation元数据；json.dumps(ensure_ascii=False, sort_keys=True)后UTF-8 SHA256，与原A3整理回执语义哈希完全匹配。",
+  "historical_A4_E19_en18_input": {
+    "path": "A4-candidates-batch19.json",
+    "recorded_sha256": "e6d2f4d9a20765896bb161efabaa04d30a1d0f606c4b85467fea35d9d8e6d83f",
+    "matches_preserved_original": true,
+    "does_not_claim_match_current_public_sha": true
+  },
+  "reacceptance": "确认只移公开全文载荷并加保全元数据，原查询/结论/evidence/inputs语义不变；本次以当前公开输入重新验收，不追改原稿、分数或A3原receipt。",
+  "new_external_queries": 0,
+  "new_names": 0,
+  "original_artifacts_unchanged": true
+}

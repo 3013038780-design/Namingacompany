@@ -1,0 +1,67 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English screening",
+  "executed_at": "2026-11-09T00:38:08.199203+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch39.md",
+      "sha256": "5aadce6b3387e5385d88ed9fb8547196fc19993302e964fa5fc716595c2f4146"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch39.json",
+      "sha256": "583fb250f4bf87f926fce6f795186cd33c0699589b2f774a7a8a078d7a171f83"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch39.json",
+      "sha256": "70d9b1ed0328291a403b1ac0798d61e19ff1d174fe2af500f73b90ac6cf1f3e5"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch39.json",
+      "sha256": "2bf829940bddb54e36a80fd901f9553e5f8b1f9e83c74ef150b673d14fee175c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch39.json",
+      "sha256": "d8490a0281e563437267b8ab748c25223b78f389a49dd53001796e6190746e9e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch33.json",
+      "sha256": "c52519eca6ea430ea230ddf0ebb4bf02cd91a9eee2bb44328b079d0990211573"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch33-receipt.json",
+      "sha256": "5a2dd54f29cf0a96b2e867782cd093e017d68e6d8f5eb12caf59a289ac185da3"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-batch39.json",
+      "sha256": "b0df81dc104e991c3ca2f10251e1d6114af180525af652c04eb8d73d368736ca"
+    },
+    {
+      "path": "A3-en-batch39.md",
+      "sha256": "f9168d6a099abf2672aff0778acf96a69dbf8423a683b15b68917a00be006b25"
+    }
+  ],
+  "actual_new_candidate_queries": 6,
+  "completed_candidate_search_results": 6,
+  "unreturned_search_attempts": 0,
+  "actual_new_chinese_queries": 0,
+  "actual_new_english_queries": 6,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 570,
+  "prior_agent3_returned_candidate_results": 569,
+  "agent3_cumulative_candidate_queries": 576,
+  "agent3_cumulative_returned_candidate_results": 575,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 578,
+  "run_cumulative_returned_candidate_results": 577,
+  "passed_english_candidate_ids": [],
+  "returned_english_candidate_ids": [
+    "C1-E41"
+  ],
+  "rework_attempt": 0,
+  "remaining_reworks": 2,
+  "actual_execution": "实际6有效查询、历史商业记录初开正文与SureFin软件/公益研究一手页核验；后续历史页403如实，未假登记通过。",
+  "next": "退原A4首返，中文C50保持；C51无英文。",
+  "unchanged": "旧稿/库/队列/Git未改，无网页全文。"
+}

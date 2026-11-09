@@ -1,0 +1,105 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-08T20:40:02.269866+08:00",
+  "blind_quality_sealed_before_producer_numbers": true,
+  "chinese_quality": {
+    "C1-C38": [
+      25,
+      25
+    ],
+    "C1-C39": [
+      25,
+      25
+    ],
+    "max_axis_difference": 0
+  },
+  "family_reviews": [
+    {
+      "id": "C1-C38",
+      "decision": "family_pass_to_cn_screen",
+      "comparison": "实际读旧织数原稿：穿孔卡把代数模式控制为织造图样；飞梭为机械载线跨越手递臂展，同属织造不自动同品牌族。若退成算法织造复杂图样则归旧族。"
+    },
+    {
+      "id": "C1-C39",
+      "decision": "family_pass_to_cn_screen",
+      "comparison": "旧气孔为细胞谱系分化，黏菌为外部轨迹记忆，奖赏误差为奖赏时点差，随机钟为独立等待时刻。本项同叶刺激信号随时间衰减并累积，非另换植物物种讲泛成长。"
+    }
+  ],
+  "source_checks": [
+    {
+      "material": "C1-M49",
+      "url": "https://www.mylearning.org/resources/flying-shuttle-mechanism",
+      "actual_root_read": "web18–20完整短正文，木柄拉动梭横越、原手递臂展限制及供纱需求；未看视频/实操/全工业史。",
+      "boundary": "飞梭为通常译名，不说英文正文出现中文、无需人力或无限快。"
+    },
+    {
+      "material": "C1-M50",
+      "url": "https://www.nibb.ac.jp/en/press/2020/10/06.html",
+      "actual_root_read": "web116–137研究团队机构正文，2020/10/6、首刺激钙信号及衰减、时间窗第二刺激与闭合；未读付费论文全文或看图片/视频。",
+      "boundary": "报道条件约30秒，不说所有条件充分必要定律，非神经系统/人类思考/通用学习。"
+    }
+  ],
+  "sampling": {
+    "new_materials": 2,
+    "root_reviewed": 2,
+    "minimum_required": 1
+  },
+  "old_weaving_proposal": {
+    "path": "research/runs/2026-11-06-agent2-materials-cn/candidates.json",
+    "sha256": "ae6454d3c330698afa7d7844353f8709f59fb619500ae14cca10885864213ceb",
+    "proposal": {
+      "id": "A2C19",
+      "name": "织数",
+      "pinyin": "zhi shu",
+      "family_id": "F19-punched-card-pattern",
+      "material_ids": [
+        "M19"
+      ],
+      "principle_ids": [
+        "P1",
+        "P2",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "meaning": "将计算模式像织造那样组织起来的品牌表达。",
+      "combination_reason": "品牌造词，非书中原词。Lovelace确实以织造代数模式作类比；把该历史动作压缩为中文，不是任意把织和数字并列。",
+      "layers": [
+        "计算可以产生丰富形式",
+        "指令有可执行结构",
+        "技术有工业与文化的共同前史。"
+      ],
+      "weakness": "不看解释容易像纺织数字化公司；数的读音易混；两个字压缩仍显造词。",
+      "origin_kind": "品牌造词，非书中原词",
+      "source_origin": {
+        "source_id": "LOOM",
+        "url": "https://ceblog.sciencemuseumgroup.org.uk/2022/10/27/giving-voice-to-hidden-connections-insights-from-the-oral-history-investigation/",
+        "location": "正文95–110行，尤其101–104穿孔卡与代数模式；不将其简化为当时已造出现代计算机",
+        "short_anchor": "weaves algebraic patterns",
+        "anchor_note": "定位短语；不把短语当成中文名字历史词源"
+      },
+      "historical_check": {
+        "status": "no_exact_prior_draft_found",
+        "new_family_countable": true,
+        "scope": "seed/background既有名字及research/runs全部历史中文候选和24历史机制；非市场或商标筛查",
+        "note": "与旧24素材机制及全部历史草案比对；本卡机制独立，非同词根改写"
+      },
+      "history_check": "历史字面未命中；材料机制已人工比对，未做市场占用筛查",
+      "producer_editorial_disposition": "reject",
+      "producer_editorial_reason": "虽然跨域关系真实，中文自然度与行业误读仍未解决。",
+      "market_screening": "not_started_per_user_scope",
+      "is_formal_candidate": false,
+      "english_matching": "not_started_per_user_scope",
+      "self_assessment_file": "producer-quality.json",
+      "primary_role": "R3",
+      "principle_application": {
+        "P1": "先用名字决定机构与人的关系，首行业误读单独评价。",
+        "P2": "材料的来源世界不直接决定公司角色；本案主角色为R3。",
+        "P5": "从已读知识对象或实践取材，不以年代或专业含量代替审美。",
+        "P6": "短板里独立核对是长期机构称呼还是仅像栏目/产品。",
+        "P7": "独立家族按具体机制和历史去重计数，不以相近字或细分类凑数。"
+      }
+    }
+  },
+  "next": "两名可进入原A3中文使用筛查，来源通过非市场可用/登记保证。"
+}

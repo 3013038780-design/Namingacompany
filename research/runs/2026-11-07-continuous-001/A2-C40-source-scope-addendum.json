@@ -1,0 +1,56 @@
+{
+  "candidate_id": "C1-C40",
+  "name": "雾针",
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T20:51:58.700939+08:00",
+  "type": "source_scope_clarification_not_new_version_or_score",
+  "trigger": "主控发现crossing字段继承原M07整体装置关系，易使本名特征范围被扩大；作者承认此字段未同步收窄。",
+  "original_crossing": "同一个对象把分散的捕获、进入和排出步骤连接起来，而不是只增加一个更大的收集面。",
+  "original_crossing_scope": "这句描述的是整个BCF装置把捕获、吸入、排水串接的背景；不是针形结构独立完成三级，也不是雾针这个名字保留的全部特征。",
+  "candidate_specific_crossing": "在仿生圆柱装置的绕流条件下，径向锥形刺的形态参与形成背风侧局部微涡旋，使雾滴更易与收集表面碰撞；名字借的是这个捕获入口的形态与环境关系。",
+  "source_evidence": {
+    "title": "中国科学院：科研人员研发出仿生仙人掌集雾器",
+    "url": "https://www.cas.cn/syky/202609/t20260928_5121136.shtml",
+    "published_at": "2026-10-08",
+    "read_at": "2026-11-08T20:51:58.700939+08:00",
+    "method": "actual_web_HTML_body",
+    "reading_location": "本次重新实际读L376日期及L386–397科学正文，核心L390明确三级路径与径向锥形刺/背风微涡旋；L391/393区分主动/被动模式。没有读原论文全文或重新实验。"
+  },
+  "scope_distinction": {
+    "whole_apparatus": "报道的仿生刺捕获、非对称孔吸入与毛细沟槽排水组成三级路径；装置另有主动/被动模式。",
+    "name_retained_unchanged": "保留雾、锥形刺、局部流场与捕获相遇的共同场景",
+    "name_lost_unchanged": "只保留三级路径的捕获入口，名字不显示后续吸入和排水；不能据此说完整装置只靠一根针。",
+    "why_no_semantic_change": "原relation_sentence、形成、保留和损失已限于锥形刺影响雾滴绕流与捕获；本说明让crossing也按同一范围解释，不扩充新能力或新家族。"
+  },
+  "boundary": "雾针为本轮对雾中锥形仿生刺的品牌凝练，不是原报道正式器件名；以针描述刺的形态，不声称针灸。只读机构正文，未核原论文全部方法或独立复现实验；不把集水指标变成AI表现承诺，也不混主动制冷与被动模式。",
+  "new_names": 0,
+  "new_materials": 0,
+  "new_scores": false,
+  "original_files_unchanged": true,
+  "input_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch23.json",
+      "sha256": "2ed9786614c8c7f38068d2417538708a47138f7afb324bf25084012814fb06e4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch23.md",
+      "sha256": "b828445c74e4361be78e796d10fc9acde702ca8038e50fb6645ad886b26fca64"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch23.json",
+      "sha256": "13fbd12fdca9d83d767da62668f93df5ff62ebd8406cdb7cde9dcb9650744b58"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch23.json",
+      "sha256": "3e0e0965d66046249d3d50a5f6af0d8e833a8dc4a049aae5c12da40fe592b8a9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-material-reuse-batch23.json",
+      "sha256": "0ea3da91e277ce675e111b3956d1552650114c1108f567047235ba9aca229248"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-pilot.json",
+      "sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7"
+    }
+  ]
+}

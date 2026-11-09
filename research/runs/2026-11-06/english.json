@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-06",
+  "agent": "Agent4",
+  "claim_boundary": "英文为创作方案，需Agent3独立公开使用复查；无命中不等于全球可注册。",
+  "pairings": [
+    {
+      "candidate_id": "C21",
+      "chinese": "木上林",
+      "english": "Woodwoken",
+      "pronunciation": "WOOD-WOH-kuhn，3音节",
+      "formation": "wood（木）+ woken（wake的过去分词），本轮自造复合词；不是既有科学术语。",
+      "relationship": "与木上长出新林的素材共享‘旧有基底上醒来新的生命’主题，非逐字翻译。",
+      "meaning": "已有之物仍能成为新生的条件。",
+      "weakness": "有幻想文学或木业气质；woken容易被读者联想到woke，科技感需要品牌后续建立。；与既有游戏Deepwoken同尾及节奏相近，须披露近似风格，非完全同名。",
+      "source_urls": [
+        "https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.7786"
+      ],
+      "agent4_precheck": "精确及科技AI相关检索未见明确同名品牌。",
+      "agent3_status": "preliminary_clear",
+      "editorial_status": "用户否决，退出备选；公开使用初筛状态仅为历史筛查记录"
+    },
+    {
+      "candidate_id": "C17",
+      "chinese": "借长风",
+      "english": "Borrowind",
+      "pronunciation": "BOR-oh-wind，建议3音节；末尾wind读风的/wɪnd/",
+      "formation": "borrow（借）与wind（风）共享字母w融合，本轮构词动机；不声称发明了此前从未出现的字符串。",
+      "relationship": "同一动作意象：借外部条件走得更远。",
+      "meaning": "为已有模型增加独自没有的成长条件。",
+      "weakness": "容易听成borrowing，拼写需教一次；财务借款联想与风的寓意并存。",
+      "source_urls": [
+        "https://ctext.org/xunzi/quan-xue/zh"
+      ],
+      "agent4_precheck": "精确检索命中个人用户名与borrowing的OCR，不是科技品牌证据。",
+      "agent3_status": "public_search_preliminary_clear_with_existing_personal_handles",
+      "editorial_status": "用户否决，退出备选；公开使用初筛状态仅为历史筛查记录",
+      "agent3_note": "精确、Borrow Wind分词及AI/company/software/model/trademark检索未见明确科技品牌；已有个人用户名。未完成官方登记查询。",
+      "existing_personal_handle_url": "https://hypixel.net/members/borrowind.7258706/"
+    }
+  ],
+  "chinese_reserve": [
+    {
+      "candidate_id": "C09",
+      "chinese": "有后文",
+      "reason": "没有找到同时自然且未见占用的英文搭配，保留中文，不计完整中英文交付。"
+    },
+    {
+      "candidate_id": "C11",
+      "chinese": "深水来",
+      "reason": "直觉英文多已用于游戏，替代构词拗口，保留中文，不计完整交付。"
+    }
+  ],
+  "english_rejections": [
+    {
+      "english": "Afterleaf",
+      "reason": "已有iPhone应用品牌",
+      "evidence": "https://www.afterleaf.app/"
+    },
+    {
+      "english": "Furtherword",
+      "reason": "已有AI明信片产品目录证据，避免推荐",
+      "evidence": "https://huntscreens.com/products/furtherword"
+    },
+    {
+      "english": "Unfinal",
+      "reason": "已有写作平台",
+      "evidence": "https://unfinal.page/n"
+    },
+    {
+      "english": "Aftertell",
+      "reason": "已有同名在线服务，行业尚待核实，主动弃用",
+      "evidence": "https://www.aftertell.com/"
+    },
+    {
+      "english": "Deepborne",
+      "reason": "已有Windows游戏",
+      "evidence": "https://armadilliestairlines.itch.io/deepborne"
+    },
+    {
+      "english": "Depthborne",
+      "reason": "已有游戏",
+      "evidence": "https://i-pots.itch.io/depthborne"
+    },
+    {
+      "english": "Moreward",
+      "reason": "已有开发者公开软件组织，主动弃用",
+      "evidence": "https://github.com/moreward"
+    },
+    {
+      "english": "Stillnext",
+      "reason": "已有美国公司登记，行业未定；并非科技占用认定，主动弃用",
+      "evidence": "https://search.sunbiz.org/Inquiry/corporationsearch/SearchResults?inquiryType=EntityName&searchTerm=STILLNEXT"
+    }
+  ],
+  "not_recommended_for_quality": [
+    {
+      "english": "Depthspring",
+      "reason": "pthspr辅音簇读音不自然"
+    },
+    {
+      "english": "Deepwelling",
+      "reason": "有工业地下处置词义，且长度偏长"
+    }
+  ],
+  "excluded_pairing": {
+    "candidate_id": "C20",
+    "chinese": "添一笔",
+    "english": "Inkforth",
+    "formation": "ink+forth，本轮自造复合",
+    "pronunciation": "INK-forth",
+    "precheck": "Agent3精确及科技AI检索未见品牌；德国报纸OCR片段非品牌",
+    "reason": "主控将中文因近似游戏名称与写作工具局限转储备，不计完整交付"
+  },
+  "user_review": "两组讨论配对均已被用户否决，不再列入备选。"
+}

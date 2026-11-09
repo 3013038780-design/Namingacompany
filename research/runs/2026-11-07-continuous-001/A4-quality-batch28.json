@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-08T19:30:13.108860+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E29",
+      "chinese_id": "C1-C36",
+      "english": "Versionmark",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "version与mark完整自然音节，可连贯叫成一个三音节称呼。",
+          "counter_association": "version在口音中有zh/sh变化，首次可能需确认。"
+        },
+        "spelling": {
+          "reason": "两常用完整词直接合写，没有删改字母或非常规规则。",
+          "counter_association": "首次可能分写Version Mark，也可能听成版本加人名Mark。"
+        },
+        "grounding": {
+          "reason": "版本与用于识别它的记号是同一真实数据对象/标记关系；原文明确version令牌和比较。",
+          "counter_association": "Versionmark是本案专名，不是假称原文正式合写术语或性能认证。"
+        },
+        "bilingual_relation": {
+          "reason": "中文机制与英文其关键参照对象共享一个版本化提交事件。",
+          "counter_association": "英文单独未交代先工作后比较，需保留原理说明。"
+        },
+        "distinctiveness": {
+          "reason": "实体式名词可自然称呼研究主体，计算对象比泛赞美词明确。",
+          "counter_association": "版本工具/水印或标志服务首感，独立Lab气质只达谨慎讨论。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "规范原门槛未改，编辑自评非消费者测试；不以待查重代替质量，主控先看无分稿独评。"
+    }
+  ]
+}

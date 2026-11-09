@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-08T00:11:19.490926+08:00",
+  "independence": "Read producer preview batch10-supplement before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C23",
+      "name": "活变量",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "三字名词有明确计算对象可直接称呼",
+          "counter_association": "专业术语感仍在"
+        },
+        "distinctiveness": {
+          "reason": "活与变量形成有性格的对象",
+          "counter_association": "易被解释为经常变化的量"
+        },
+        "lab_fit": {
+          "reason": "计算分析主体适合AI研究机构外壳",
+          "counter_association": "可能先像编译工具或技术栏目"
+        },
+        "grounding": {
+          "reason": "Cornell定义明确当前值后续覆盖前用途",
+          "counter_association": "不能把保守估计说成精确预测未来"
+        },
+        "extension": {
+          "reason": "可承载数据与任务关系的长期研究",
+          "counter_association": "不得泛化成模型意识或必然成长"
+        },
+        "semantic_coherence": {
+          "reason": "活的日常感觉与技术仍有用途围绕同一对象",
+          "counter_association": "静态值也可活并非变化才活"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

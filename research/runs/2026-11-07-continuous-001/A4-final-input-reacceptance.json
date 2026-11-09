@@ -1,0 +1,55 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "reaccepted_at": "2026-11-07T21:51:38.073501+08:00",
+  "action": "实际完整读取最终十七案不可变快照后重新验收，本次不研究、不命名、不查重、不评分。",
+  "snapshot": {
+    "path": "inputs/decisions-final-work-segment.json",
+    "sha256": "fed3a07ae01e5f1b84e009cca9db92f693673fc536b62cc1591fe1c48477ff37",
+    "item_count": 17
+  },
+  "original_refs": [
+    {
+      "path": "A4-closeout.json",
+      "sha256": "af543a13eaa4fe7faa120e916fab4f34a39e1a4f03ef096f628cfbe3d68eeb8f"
+    },
+    {
+      "path": "A4-closeout.md",
+      "sha256": "0b4756aefc5fd825545d0406241d43b965a7db941e7387b7c2448a545623700e"
+    },
+    {
+      "path": "mutable-index-reacceptance.json",
+      "sha256": "e79aef3d07e8614368082edaab8ea139cd0ece09f90ec2a10305c2284c060500"
+    }
+  ],
+  "historical_input_integrity": {
+    "old_decisions_bytes_preserved": false,
+    "old_decisions_sha_still_matches_current": false,
+    "note": "原A4-closeout曾读的decisions.json版本未及时保存，历史SHA不冒称仍匹配；此次以真实已读的最终不可变快照重新确认结论，不假补旧字节。"
+  },
+  "conclusions": {
+    "retained_pairs": [
+      "活桥 / Antspan",
+      "作数 / Factborne"
+    ],
+    "withdrawn": [
+      "余量 / Spare Signal"
+    ],
+    "english_rework_exhausted": [
+      "由此及彼",
+      "回车以后",
+      "跳读"
+    ],
+    "C17": "因序由主控品牌辨识主动避让，不请求英文；不是精确AI公司占用或9/42法律驳回。",
+    "E07": "Replyrise质量未过，未送A3查询。",
+    "counting": "本A4接六个中文家族、十三个英文版本，当前两项完整双语讨论备选；不是十三个名字。"
+  },
+  "reacceptance": "原A4收尾的实质结论全部仍成立；确认既有边界与短板。",
+  "unchanged": [
+    "A4-closeout.md",
+    "A4-closeout.json",
+    "所有原稿与质量分数"
+  ],
+  "new_name_queries": 0,
+  "new_names": 0
+}

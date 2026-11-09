@@ -1,0 +1,109 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 actual zero-input check",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T20:43:01.022092+08:00",
+  "batch": "A2-batch22",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch22.json",
+      "sha256": "d1cbf13f48570bddc5fc99989682c42ea0c68c402b93ac6d5133015a3c964e7f"
+    },
+    {
+      "path": "A2-quality-batch22.json",
+      "sha256": "3716ffe4162f3fa1e7d04a487d6cbc4c0578b8f78f00b6aaec353565a1086774"
+    },
+    {
+      "path": "coordinator-cn-batch22.json",
+      "sha256": "ae7b10cd9efbde9d2437d31dfeaf620784f8a66bcd323a358976b95a2ff915c2"
+    },
+    {
+      "path": "coordinator-family-review-batch22.json",
+      "sha256": "ade6687a88e08443f4992af11016587b8627e9f7f5d98bf9cc05ea85afffe931"
+    },
+    {
+      "path": "A3-cn-batch24.json",
+      "sha256": "be8d7ac04690afc479c44064d604f32f7abb52f8680c5e9c8551b595fa2736d2"
+    },
+    {
+      "path": "A3-cn-batch24.md",
+      "sha256": "fa02c23514926bd369a5e27e4500394e56aa41e86ab87ce912b68c18eabd8af4"
+    },
+    {
+      "path": "A3-cn-batch24-receipt.json",
+      "sha256": "f52795a1d970959832fe648f00f84a6532f7d25dcd2e9c4fb730ed726ce6b236"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch22.json",
+      "sha256": "d1cbf13f48570bddc5fc99989682c42ea0c68c402b93ac6d5133015a3c964e7f",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch22.json",
+      "sha256": "3716ffe4162f3fa1e7d04a487d6cbc4c0578b8f78f00b6aaec353565a1086774",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch22.json",
+      "sha256": "4161ee32fbdbf7ae0a5a9bb71ecba22d9fdebb74885ce091d697ae0fcab1e622",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch22.json",
+      "sha256": "ae7b10cd9efbde9d2437d31dfeaf620784f8a66bcd323a358976b95a2ff915c2",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch22.json",
+      "sha256": "ade6687a88e08443f4992af11016587b8627e9f7f5d98bf9cc05ea85afffe931",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch24.json",
+      "sha256": "be8d7ac04690afc479c44064d604f32f7abb52f8680c5e9c8551b595fa2736d2",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch24.md",
+      "sha256": "fa02c23514926bd369a5e27e4500394e56aa41e86ab87ce912b68c18eabd8af4",
+      "match": true
+    }
+  ],
+  "upstream_chinese_drafts": 2,
+  "upstream_quality_passed": 2,
+  "upstream_usage_screen_passed": 0,
+  "eligible_english_inputs": 0,
+  "excluded": [
+    {
+      "chinese_id": "C1-C38",
+      "chinese": "飞梭",
+      "reason": "浙大网新官网具名AI/RPA数字员工平台、上海致景官方商店同名App，拒绝基于具名软件非普通器物。",
+      "evidence_urls": [
+        "https://www.insigma.com.cn/index.php/news/detail/5900.html",
+        "https://apps.apple.com/hk/app/%E9%A3%9E%E6%A2%AD/id1555665093"
+      ]
+    },
+    {
+      "chinese_id": "C1-C39",
+      "chinese": "捕蝇草",
+      "reason": "hap Inc. Apple/Google官方商店具名模拟游戏；同一软件两平台，不算两家冲突公司，不因植物物种真实就判占用。",
+      "evidence_urls": [
+        "https://apps.apple.com/cn/app/%E6%8D%95%E8%9D%87%E8%8D%89/id650748941",
+        "https://play.google.com/store/apps/details?hl=zh_TW&id=air.jp.ne.hap.haetori"
+      ]
+    }
+  ],
+  "decision": "zero_input_after_actual_upstream_review",
+  "english_candidates": [],
+  "actual_english_creation": 0,
+  "new_scores": 0,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "actual_read_scope": "本人实际读本批A2候选/自评、主控中文/家族审查、原A3 JSON/MD/回执并核固定SHA；市场正文阅读由原A3执行，本人本次未重新开商店或公司官网。",
+  "claim_boundary": "不背书AI性能/试玩/软件品质，不把官网或商店使用冒官方公司/商标登记。",
+  "english_batch30_E31_reserved_unused": true,
+  "next": "交同一原A3实际英文零输入终核；不配英文救回中文。",
+  "unchanged": "只写本次新回执，不改旧稿/分数/库/队列/Git；不占实际英文batch30/E31。"
+}

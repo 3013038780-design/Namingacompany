@@ -1,0 +1,101 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English zero-input final check",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T13:24:35.524650+08:00",
+  "candidate_id": "C1-C29",
+  "name": "失算",
+  "inputs": [
+    {
+      "path": "A4-zero-batch16.json",
+      "sha256": "113dfdf0f04f6f322b8c549e0c64c8de9fc407d9c813daaa93d9a41872c2c0fa"
+    },
+    {
+      "path": "A4-zero-batch16.md",
+      "sha256": "65a064cb51a94d43eab7fde6527cbb8e620f9266b09187dbf703f1a3e53a3a56"
+    },
+    {
+      "path": "A3-cn-batch18.json",
+      "sha256": "730fbfa05bfbc86f62787a1fc5fdeeb712aad7d34e4a47d934fd5d8a3ec94592"
+    },
+    {
+      "path": "A3-cn-batch18-receipt.json",
+      "sha256": "fd63305938e9ad5b42cf837742eff009f36bae32e1b10fdbfc1ba06b96cf9a6b"
+    },
+    {
+      "path": "continuations/2026-11-08T051531Z/root-C29-use-verification.json",
+      "sha256": "d1ab7a7b5c99a0687b102044a6d8e7b2c344f5887af457ebbd6be4e08707df27"
+    }
+  ],
+  "actual_upstream_read": true,
+  "hash_checks": [
+    {
+      "path": "A2-candidates-batch16.json",
+      "expected_sha256": "eee1500c74c7f4637e589f6196a4257d36c959d2daabdd4dab434ad5c8a65668",
+      "actual_sha256": "eee1500c74c7f4637e589f6196a4257d36c959d2daabdd4dab434ad5c8a65668",
+      "matches": true
+    },
+    {
+      "path": "A2-quality-batch16.json",
+      "expected_sha256": "6a48f596dad549e17c77949341bbe7041ffae26c6e4f0f8c8e0dce5d0977be83",
+      "actual_sha256": "6a48f596dad549e17c77949341bbe7041ffae26c6e4f0f8c8e0dce5d0977be83",
+      "matches": true
+    },
+    {
+      "path": "coordinator-cn-batch16.json",
+      "expected_sha256": "33e0866e4619f9e8ea7e19841b59233bf773536221ed854afbc75a95779b5801",
+      "actual_sha256": "33e0866e4619f9e8ea7e19841b59233bf773536221ed854afbc75a95779b5801",
+      "matches": true
+    },
+    {
+      "path": "coordinator-family-review-batch16.json",
+      "expected_sha256": "f654137e034211dc5ad9d097c2e46ad9fd591d88f141b21e3e5457f6d3f6cfee",
+      "actual_sha256": "f654137e034211dc5ad9d097c2e46ad9fd591d88f141b21e3e5457f6d3f6cfee",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch18.json",
+      "expected_sha256": "730fbfa05bfbc86f62787a1fc5fdeeb712aad7d34e4a47d934fd5d8a3ec94592",
+      "actual_sha256": "730fbfa05bfbc86f62787a1fc5fdeeb712aad7d34e4a47d934fd5d8a3ec94592",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch18.md",
+      "expected_sha256": "ae7ad78d57ef7a449152eae8d17b48caddfc9a4923db987f8969497c59577783",
+      "actual_sha256": "ae7ad78d57ef7a449152eae8d17b48caddfc9a4923db987f8969497c59577783",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch18-receipt.json",
+      "expected_sha256": "fd63305938e9ad5b42cf837742eff009f36bae32e1b10fdbfc1ba06b96cf9a6b",
+      "actual_sha256": "fd63305938e9ad5b42cf837742eff009f36bae32e1b10fdbfc1ba06b96cf9a6b",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch18.md",
+      "expected_sha256": "ae7ad78d57ef7a449152eae8d17b48caddfc9a4923db987f8969497c59577783",
+      "actual_sha256": "ae7ad78d57ef7a449152eae8d17b48caddfc9a4923db987f8969497c59577783",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch18.json",
+      "expected_sha256": "730fbfa05bfbc86f62787a1fc5fdeeb712aad7d34e4a47d934fd5d8a3ec94592",
+      "actual_sha256": "730fbfa05bfbc86f62787a1fc5fdeeb712aad7d34e4a47d934fd5d8a3ec94592",
+      "matches": true
+    }
+  ],
+  "qualified_chinese_inputs": 0,
+  "english_inputs": 0,
+  "english_outputs": 0,
+  "actual_new_candidate_queries": 0,
+  "actual_new_control_queries": 0,
+  "query_logs": [],
+  "decision": "zero_english_verified_after_exact_named_game_software_use",
+  "reason": "实际读原A4已完成零匹配与cn18一致；具名游戏软件中文已有用，不用英文救回。非未开始伪记零。",
+  "boundaries": "TapTap是开发者发布页/试玩DEMO，不称正式发售或实际试玩；现供应商chenbainian、工作室cbn522，缓存法人不当当前核准。非AI模型/官方工商/商标核验。",
+  "agent3_cumulative_candidate_queries": 337,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 339,
+  "next": "仅闭本小包，主控H7；后续等待不同关系正式交接，不预查。",
+  "old_records_catalog_git_unchanged": true
+}

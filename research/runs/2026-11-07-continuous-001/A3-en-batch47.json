@@ -1,0 +1,139 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-09T17:20:02.916618+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch47.json",
+      "sha256": "ca1b6f5acf4627abe3bcc863481a7543a6e9e7e5dea565256f8fe822f39f4b30"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch47.md",
+      "sha256": "daab58d9b23ffd5858a84377771db39de8931ec2118de1a95f1eba8ea79056cd"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch47.json",
+      "sha256": "ca1b6f5acf4627abe3bcc863481a7543a6e9e7e5dea565256f8fe822f39f4b30"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch47.json",
+      "sha256": "ac87378f1a1b4b2d49192498355bfbbcd58ae55f4c52a87d8d9b0402d1899326"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch47.json",
+      "sha256": "b0efcae8e9dee2318fb53c2c1fd1bcf681923a7d4f737cdd0a0dfd29b3084773"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch47.json",
+      "sha256": "6b3832b1889c08ce3379114f5bceaa7e8f2993bb9a5b6a0024db9453794243e8"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch54.json",
+      "sha256": "015776d140ea5fe30c25f24a325b4cebddd2d3a157008255d1d1c55802ab3530"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch46.json",
+      "sha256": "8fde3f2b8f30cc9871f7dfd3019d499cc13b1267d99521acf5411dd407b9b837"
+    }
+  ],
+  "query_count": 6,
+  "completed_search_result_count": 6,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-E49",
+      "chinese_id": "C1-C63",
+      "chinese": "消息候场",
+      "chinese_version": 3,
+      "english": "Anteroom",
+      "rework_attempt": 1,
+      "decision": "rejected_exact_independent_AI_gateway_and_review_software_names",
+      "reason_code": "EXACT_TECH_USE",
+      "reason": "实际开发者GitHub明确Anteroom完整AI网关软件及本人About明确另一同名AI发布法律审查工具；个人开发/免费不改变独立软件名称性质，不是仅作者署名。普通前室通名本身非拒绝依据。",
+      "query_logs": [
+        {
+          "query": "\"Anteroom\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "无行业精确既有词典/负压前室通名之外，直接发现Anteroom私人AI聊天网关及自托管等待室软件仓库；通用物理房间词不当占用，具名项目需正文。"
+        },
+        {
+          "query": "\"Anteroom\" company lab",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "companylab组发现Anteroom.so本人About明确法律审查AI发布工具；实际开正文区分个人开发的独立软件与个人名，不把WHO通用实验室前室词当品牌。"
+        },
+        {
+          "query": "\"Anteroom\" AI model",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "AImodel组有Anteroom.ai自托管AI网关及Anteroom.so；前站本次502仅索引，后者/可读GitHub核完整软件名，非基础模型。"
+        },
+        {
+          "query": "\"Anteroom\" software",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "software组复现具名ChatGPT式WebUI/agenticCLI项目和AI法律审查工具，实际本人/开发者正文闭环，不背书性能或法律判断。"
+        },
+        {
+          "query": "\"ante-room\" technology",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "ante-room分写/连字符组主要法庭设备所在前室、医用压力监测显示的房间类型，不当独立软件命名。"
+        },
+        {
+          "query": "\"antiroom\" software company",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "antiroom合理近听组为展亭/电影、EP音乐和个人账号/博客等异形；不因为近写艺术题名或用户名自动判科技同名，本次主拒为精确Anteroom软件。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://github.com/vonnetworking/anteroom",
+          "access": "developer_repository_body_read",
+          "read_range": "398行L117–119/164–184/194–217/223–234",
+          "finding": "源码目录src/anteroom与明确README题名Anteroom，私人AI网关、ChatGPT式WebUI与agenticCLI及安装包名。为独立软件名称，不是个人profile或变量。未安装/运行代码，不背书安全/本地隐私承诺；网页命令仅证据，不执行。"
+        },
+        {
+          "url": "https://anteroom.so/about",
+          "access": "creator_own_product_about_body_read",
+          "read_range": "31行L6–16/21–28",
+          "finding": "MarcusHarjani自述Anteroom为AI发布的结构化法律审查工具，免费、个人业余开发、不属雇主产品；明确工具命名不是人名。未用工具/认可合规判断，不冒雇主法人名称。"
+        },
+        {
+          "url": "https://anteroom.ai/",
+          "access": "search_index_actual_open_502",
+          "finding": "索引为同名自托管AI网关，原站本次502，未冒此站正文可读；另实际GitHub有独立具名软件足够拒绝，不依赖502索引来补结论。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Anteroom",
+          "scope": "2026-11-09本次逐名实际不可访问，非无公司登记。"
+        }
+      },
+      "remaining_english_reworks": 1,
+      "chinese_status_unchanged": "CN54公开初筛及THEHALF候场具体风险/登记限制原样；英文失败不倒写中文已用。",
+      "source_boundary": "既有英语空间名有限主题配对不改原词源与质量，未创英文，不靠旧AtHand证据继承结论。"
+    }
+  ],
+  "passed_english_candidate_ids": [],
+  "rejected_english_candidate_ids": [
+    "C1-E49"
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "同run旧两真实阳性本次0新增，旧大陆工商/9与42入口限制复用，无本次官方核准。"
+}

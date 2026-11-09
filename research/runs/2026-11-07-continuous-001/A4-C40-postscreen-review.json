@@ -1,0 +1,134 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "reviewed_at": "2026-11-08T21:05:35.758975+08:00",
+  "candidate_id": "C1-E31",
+  "chinese_id": "C1-C40",
+  "chinese": "雾针",
+  "english": "Spine Eddy",
+  "inputs": [
+    {
+      "path": "A3-en-batch30.json",
+      "sha256": "3c1642b2cd458c7c704ca129048156e6fc2a5d14a19f13665c90549f1b61f7a4"
+    },
+    {
+      "path": "A3-en-batch30.md",
+      "sha256": "9b193ac148f850aac5e6ae6e7f32485b265dbf6c6bbb66cb71b33ed055807316"
+    },
+    {
+      "path": "A3-en-batch30-receipt.json",
+      "sha256": "387dca350ea8dd02ec51cc943a68e8e52f3b55585793b621ee7839932b2909a8"
+    },
+    {
+      "path": "A3-cn-batch25.json",
+      "sha256": "cdfc1c430be3e97a00877caaad758c2d51f839a11ed876aa62f9e1417f562cdb"
+    },
+    {
+      "path": "A4-candidates-batch30.json",
+      "sha256": "6a54fd55a32cb6c0c496c1a8c796eed765f87c72431b783859ad39d53a325345"
+    },
+    {
+      "path": "A4-quality-batch30.json",
+      "sha256": "1396ecf23e9eb9d59456c9a9919ef63622b22f5355424bc207d828d6f43ea0b0"
+    },
+    {
+      "path": "A2-C40-source-scope-addendum.json",
+      "sha256": "0ab1e9325b0192f362b04646a23803ddc6d4bedaaf010b56face886655030119"
+    },
+    {
+      "path": "A2-C40-source-scope-addendum.md",
+      "sha256": "ee6601e1dd1bb56140880cf49a7eeeba246b3dd4779bf1a4ee0eca5ba4de88d2"
+    },
+    {
+      "path": "continuations/2026-11-08T120952Z/root-C40-cn25-review.json",
+      "sha256": "48a00f6fdac7b8ad10c7a2deb90bba6ae7684928c9ee11ac6bcbbfe0dd829501"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch30.json",
+      "sha256": "6a54fd55a32cb6c0c496c1a8c796eed765f87c72431b783859ad39d53a325345",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch30.json",
+      "sha256": "1396ecf23e9eb9d59456c9a9919ef63622b22f5355424bc207d828d6f43ea0b0",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch30.json",
+      "sha256": "ac552432dddd57c7dc03ad34be84ec80bd1efaecbd0d5f853d945333fa72701d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch30.json",
+      "sha256": "af494e5f191a0a5d46e225c38a95ac30cea295596ea7a2a597d994dce072af09",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch25.json",
+      "sha256": "cdfc1c430be3e97a00877caaad758c2d51f839a11ed876aa62f9e1417f562cdb",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch25-receipt.json",
+      "sha256": "fd02073652004b2b07d11077f3259e1c74e1ba0ce7016c130f6b82fc5c4229d4",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C40-source-scope-addendum.json",
+      "sha256": "0ab1e9325b0192f362b04646a23803ddc6d4bedaaf010b56face886655030119",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C40-source-scope-addendum-execution.json",
+      "sha256": "df34b988a8579d1323792ca3bf8b2ecf8ad35d427d85c9d36e10e888fa9a79db",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch30.json",
+      "sha256": "3c1642b2cd458c7c704ca129048156e6fc2a5d14a19f13665c90549f1b61f7a4",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch30.md",
+      "sha256": "9b193ac148f850aac5e6ae6e7f32485b265dbf6c6bbb66cb71b33ed055807316",
+      "match": true
+    }
+  ],
+  "review_type": "non_numeric_editorial_postscreen_review",
+  "decision": "support_existing_pair_for_coordinator_final_review_with_disclosed_risks",
+  "judgment": "确认既有边界与短板。新命中没有改变植物刺与局部回旋流的真实关系；医疗/人名搜索结果使原有行业首感风险更具体，未使配对出现新的语义矛盾。继续支持作为带明确成本的讨论方向交主控H7，不凭初筛通过抬高专名感。",
+  "specific_findings": [
+    {
+      "issue": "代码变量",
+      "judgment": "原A3实际CDN README把eddy作为Spine.from的局部变量，包名为@vf.js/spine；不是完整Spine Eddy软件。npm403、Socket不可访问保留，不能冒称本次已读登记页或全部代码。"
+    },
+    {
+      "issue": "医生与医疗",
+      "judgment": "Eddy Achkar是医生姓名，spine injuries为专科，非完整公司名。该真实上下文强化脊椎医疗首感，须明示，不因不是占用就说风险不存在。另一页面Account Suspended不推定主体停业。"
+    },
+    {
+      "issue": "独立品牌与听写",
+      "judgment": "两个常用词的自然读法保留，但像流体仿真课题、医疗软件而非广义Lab的可能性仍在；Eddy/Eddie听写风险需固定拼法。未重新打分，也不将来源真实性当身份补偿。"
+    },
+    {
+      "issue": "科学来源范围",
+      "judgment": "只采用原A2补记candidate_specific_crossing：圆柱绕流条件下径向锥形刺参与局部涡旋与捕获入口，不能将原crossing整机背景读为单针吸入排水，不混主动制冷/被动模式。原稿和分数不改，CAS机构报道不冒充原论文全文或独立复现。"
+    },
+    {
+      "issue": "中文使用与近音",
+      "judgment": "保留针具/医疗纹身/水务首感，霧針既有虚构魔法招式同词，Wuzhen地名/近音拥挤。招式不是独立模型/软件；不可读商页仅索引，既不证明占用也不证明清白。"
+    },
+    {
+      "issue": "登记",
+      "judgment": "当前仅公开使用初筛；大陆公司/第9和42类商标及境外登记访问限制仍在，不说可注册、全球未使用或权利已排除。"
+    }
+  ],
+  "actual_reading_boundary": "本人本次实际读原A3-en30固定JSON/MD/回执，重核全部SHA；来源与中文边界沿此前本人已实际读的CAS/词典、A2补记及root固定文件。本次未新打开医生官网/包源码，不把A3读取冒作本人新查。",
+  "actual_new_usage_queries": 0,
+  "actual_new_registration_queries": 0,
+  "new_scores": 0,
+  "old_artifacts_untouched": true,
+  "catalog_queue_git_untouched": true,
+  "next": "由主控独立最终核源、家族和品牌风险决定是否入讨论库；本补审不自行发布。"
+}

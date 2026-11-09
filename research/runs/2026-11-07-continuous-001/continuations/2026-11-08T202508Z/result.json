@@ -1,0 +1,169 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-08T20:25:08.842Z",
+  "completed_at": "2026-11-09T05:15:54.939729+08:00",
+  "status": "two_same_run_packages_complete_zero_admitted_one_new_evidence_hold",
+  "new_A1_research_claimed": false,
+  "actual_A2": "/root/continuous_a2",
+  "actual_A3_same_cn_en": "/root/live_a3",
+  "actual_A4": "/root/continuous_a4",
+  "new_materials": 3,
+  "new_chinese_drafts": 2,
+  "new_chinese_families_explored": 2,
+  "new_selected_CN_revision_forms": 2,
+  "new_formally_submitted_literal_forms_including_revisions": 4,
+  "internal_unselected_words": [
+    {
+      "name": "地脊",
+      "decision": "C58R1内部质量未选未查"
+    },
+    {
+      "name": "星胚",
+      "decision": "C59R2内部质量未选未查"
+    }
+  ],
+  "chinese_quality_passed": 1,
+  "chinese_revision_quality_passed": 2,
+  "chinese_public_use_passed": 0,
+  "new_english_versions": 0,
+  "english_quality_passed": 0,
+  "english_public_use_passed": 0,
+  "new_retained_families": 0,
+  "retained_pairs": [],
+  "evidence_holds": 2,
+  "new_evidence_holds": 1,
+  "new_A3_candidate_query_executions": 29,
+  "new_A3_search_results_returned": 29,
+  "new_A3_failed_or_unreturned_attempts": 0,
+  "new_root_candidate_query_executions": 2,
+  "new_root_results_returned": 2,
+  "cumulative_A3_candidate_query_executions": 709,
+  "cumulative_A3_search_results_returned": 708,
+  "root_cumulative_candidate_queries": 4,
+  "cumulative_recorded_candidate_query_executions": 713,
+  "cumulative_recorded_results_returned": 712,
+  "cumulative_materials": 73,
+  "cumulative_chinese_drafts": 59,
+  "cumulative_selected_chinese_literal_forms_including_revisions": 63,
+  "cumulative_english_versions": 46,
+  "catalog_counts": {
+    "discussion_candidates": 30,
+    "research_reserves": 1,
+    "total_unique_families": 31,
+    "withdrawn_families": 1,
+    "historical_unique_families": 32
+  },
+  "reason": "本段没有新增合格配对。洋脊因洋基科技工程品牌近音主动避让；同族完整称呼洋中脊经原A2再核独立选择，但OUC文化创意公司线索原文不可读，补查后仍证据暂停，不假占用或通过。原星两份质量审阅辨识不合格未查；同族原恒星恢复完整类别名称后8查发现实际乐队演出/周边品牌，跨行业同核心商业使用避让；最后无稿。3项阅读关系、2中文主案/2正式同族修订，31次新使用查询全部返回。两包均由原A4及同原A3真实零英文收尾，0新英语。M72现代思想引文只留资料不硬配名。总库30讨论+1储备不变，待核实独立2项。",
+  "query_breakdown": {
+    "C58_original_CN43": 9,
+    "C58_R2_CN44": 9,
+    "C58_A3_followup": 3,
+    "C58_root_followup": 2,
+    "C59_R1_CN45": 8
+  },
+  "source_sampling": {
+    "new_materials": 3,
+    "root_new_materials_core_read": 3,
+    "minimum_required": 1,
+    "scope": "NOAA59–67/南海所2–15/19–23，清华校史评论31–48的潘/费直接引文，NASA278–295与CAS376/386–399；原论文/地图/观测图像/整书未读。CAS图注AI示意不当照片。南海发布日期未核不以URL替代，CAS6/23非近90日。",
+    "classical_chinese_cards": 4,
+    "conservative_S3_primary_cards": 17,
+    "total_materials": 73,
+    "new_recent_news_body_read": 0,
+    "new_whole_books_read": 0,
+    "new_author_quote_excerpts": "现代评论转引潘光旦/费孝通片段，非原著整章或初版校勘。"
+  },
+  "source_scope_corrections_not_new_names": 1,
+  "controls_and_registration": "原两阳性和大陆旧403准确复用，境外逐名入口实际不可访问；品牌使用不冒公司/商标登记核准。OUC两旧PDF/0字节与培训超时已停止，不反复；活变量旧403无新原证不重查或英文R3。",
+  "whole_production_compliance_claimed": false,
+  "evidence_refs": [
+    {
+      "path": "materials-extension35.json",
+      "sha256": "0193ec2db76c08b6054e38188eb184b1379f0f95db1a6d4361f985c931147397"
+    },
+    {
+      "path": "materials-extension36.json",
+      "sha256": "a6b043c18c7ff96e00517f53c2e552e23c4d4afa4ba61b4216e62f22134f4f80"
+    },
+    {
+      "path": "A2-creation-execution-batch41.json",
+      "sha256": "a5bdd47922c5dafa6aca154acda3ecf7bec13a33613e434c5556b4ae0f74ad06"
+    },
+    {
+      "path": "A2-creation-execution-batch42.json",
+      "sha256": "e9a2da2bd01100b133dd84347f531bcbda1472653241137073071802523b34c7"
+    },
+    {
+      "path": "A2-creation-execution-batch43.json",
+      "sha256": "077d041f00294d4efa5e7c9d6a2a2e609ca65d36648b634fc22b6c65821ab98f"
+    },
+    {
+      "path": "A2-creation-execution-batch44.json",
+      "sha256": "38dd6b175e7061620c8ccf21811bc0f29e8e6fe7a31dc15862679842ce913035"
+    },
+    {
+      "path": "A2-creation-execution-batch45.json",
+      "sha256": "534e492a2c90b4e49fc419cb9d97fce33ae200f0ed6e2f520373a53452aab259"
+    },
+    {
+      "path": "A2-creation-execution-batch46.json",
+      "sha256": "aa29db20c6655d0a40d9a494902dfee1d1dc92c7112a62071fbdb56bc9c05a76"
+    },
+    {
+      "path": "A2-C59-name-boundary-clarification.json",
+      "sha256": "598fa5e9dd459e9012a0245aebf8b60d39fe62ac71f5781e0fa9655496fae63b"
+    },
+    {
+      "path": "A3-cn-batch43.json",
+      "sha256": "6fb6eaf6dcf020625e76adee1252cc25ec0f139d84ca77a878d3e4e9ab27691e"
+    },
+    {
+      "path": "A3-cn-batch44.json",
+      "sha256": "b95f96ac5877be12d4e05947a215b0dc26cc39dd4ff4622b17e55decdd0676bf"
+    },
+    {
+      "path": "A3-CN44-evidence-followup.json",
+      "sha256": "97519016f46a7ba0e29dde986a7a6011e170796a1bb5f1ed495c03a052bcc11e"
+    },
+    {
+      "path": "A4-zero-input-batch30.json",
+      "sha256": "ff826768a95d31b4da8b604e426294da3efb5700d729041047c09278f9e6f255"
+    },
+    {
+      "path": "A3-en-zero-batch30.json",
+      "sha256": "4a7f681bfb9363399e28522d8686fa7107b48b2b2b5589fcb4c28b4581e87044"
+    },
+    {
+      "path": "A3-cn-batch45.json",
+      "sha256": "100117bbed7ead6344462435636980cae1f9a3e0ca161c045934ca0c80fee3a5"
+    },
+    {
+      "path": "A3-cn-batch46.json",
+      "sha256": "3d348eaccc09f1e6990a8fc7f5d4776dbf003446840a48e2dc515ce0f344c375"
+    },
+    {
+      "path": "A4-zero-input-batch31.json",
+      "sha256": "af62855b29fbce3b559bcc374a81231aaef55fa128ff7858ce5cedd3c51cf300"
+    },
+    {
+      "path": "A3-en-zero-batch31.json",
+      "sha256": "4b01bc9c21af9011c972ac77f7468c9e3310d2e558bbc28b1d6616bdd5c09af9"
+    },
+    {
+      "path": "continuations/2026-11-08T202508Z/root-usage-followup-queries.json",
+      "sha256": "a775d4378d026351aadb037bd9c7df571f2e41c75df904c0307ef9d9b5c64100"
+    },
+    {
+      "path": "continuations/2026-11-08T202508Z/handoffs-batch41.json",
+      "sha256": "02f49e0f0cd32dfa2229fc2c48eec30c45f619f14e95af17f2e5fa6ae46b1c67"
+    },
+    {
+      "path": "continuations/2026-11-08T202508Z/handoffs-batch44.json",
+      "sha256": "b0fb26bcbadc9bf2be1fba0db5f3f15171522a18742299f426aaf5227e7842e1"
+    },
+    {
+      "path": "continuations/2026-11-08T202508Z/decisions-through-batch46.json",
+      "sha256": "d38263ba15370dc62fe71d6f0a265ba6b682eb7e320405da6646d4ef75a6ea7b"
+    }
+  ]
+}

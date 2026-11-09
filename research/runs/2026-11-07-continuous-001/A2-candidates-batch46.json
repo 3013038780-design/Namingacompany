@@ -1,0 +1,33 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T05:09:30.143644+08:00",
+  "candidates": [],
+  "rework_result": {
+    "candidate_id": "C1-C59",
+    "family_id": "C1-BF-forming-star-as-whole-research-subject",
+    "material_id": "C1-M73",
+    "version": 3,
+    "rework_attempt": 2,
+    "replaces_name": "原恒星",
+    "selected_name": null,
+    "decision": "no_qualified_revision_final_CN_rework_complete",
+    "reason": "最后取舍没有形成比原恒星更自然且有科技Lab身份的完整称呼。继续缩写容易回到原星的通行星名样式；只换星旁近义字或在原词后加字不会解决品牌辨识。可以存在有据的同族修订，但本次实际未选到合格实现，不把同族规则当禁止返工。",
+    "specific_formation_test": {
+      "expression": "星胚",
+      "status": "considered_not_submitted",
+      "reason": "可以从形成中天体作胚胎式比喻，但不是本次已核正式名称；首感更像儿童/育儿或科幻角色，广义科技Lab身份不比原恒星清楚。未选未查，不称已被使用，也不以NASA baby-star措辞作品牌质量背书。"
+    },
+    "prior_decision_distinction": {
+      "原星": "作者与主控品牌辨识未过，未查重，不称占用。",
+      "原恒星": "质量通过后因现实乐队的同核心演出/周边商业品牌主动避让，不冒科技公司或商标核准。"
+    },
+    "source_name_boundary": "原星为非标准品牌凝练，原恒星为CAS已有完整科学名称的品牌再选择；采用原A2-C59-name-boundary-clarification的逐名说明，不复制旧简称边界为当前科学名。",
+    "source_scope": "完全复用M73原实读：NASA一般初期说明与CAS特定大质量系统分开，不说每个团块同路径成星或所有原恒星零核反应；未新读原论文/图像。M72现代引文只留研究。",
+    "rework_budget_remaining": 0,
+    "closure_scope": "两次中文返工真实完成，到此无R3；只说明本次无合格选稿，不声称所有可能名字都被占用。"
+  },
+  "new_material_count": 0,
+  "new_chinese_primary_id_count": 0,
+  "new_family_count": 0,
+  "new_selected_chinese_revision_count": 0
+}

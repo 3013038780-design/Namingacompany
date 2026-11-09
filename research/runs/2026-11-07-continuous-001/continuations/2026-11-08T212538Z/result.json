@@ -1,0 +1,188 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-08T21:25:38.402Z",
+  "completed_at": "2026-11-09T12:22:59.930743+08:00",
+  "status": "two_families_actual_roles_complete_zero_admitted",
+  "actual_A1": "/root/continuous_a1",
+  "actual_A2": "/root/continuous_a2",
+  "actual_A3_same_cn_en": "/root/live_a3",
+  "actual_A4": "/root/continuous_a4",
+  "case_objects_reverified": 2,
+  "baseline_case_reverified": 1,
+  "seed_supplement_separate": 1,
+  "new_market_cases": 0,
+  "new_materials": 2,
+  "new_chinese_drafts": 2,
+  "new_chinese_families_explored": 2,
+  "new_selected_CN_revision_forms": 0,
+  "new_formally_submitted_literal_forms_including_revisions": 2,
+  "internal_unselected_words": [
+    {
+      "name": "烛芯",
+      "status": "C60R1内部未选未查"
+    },
+    {
+      "name": "翻掌",
+      "status": "Apple目标正文未读且近旧长按关系，内部未选未查/不计材料"
+    },
+    {
+      "name": "寻常深处",
+      "status": "C61R1内部未选未查"
+    },
+    {
+      "name": "毫厘之间",
+      "status": "C61R1内部未选未查"
+    },
+    {
+      "name": "微物之光",
+      "status": "C61R1内部未选未查，短语本身不判科学错误"
+    }
+  ],
+  "chinese_quality_passed": 2,
+  "chinese_public_use_passed": 0,
+  "new_english_versions": 0,
+  "english_quality_passed": 0,
+  "english_public_use_passed": 0,
+  "new_retained_families": 0,
+  "retained_pairs": [],
+  "evidence_holds": 2,
+  "new_evidence_holds": 0,
+  "new_A3_candidate_query_executions": 16,
+  "new_A3_search_results_returned": 16,
+  "new_A3_failed_or_unreturned_attempts": 0,
+  "new_root_candidate_query_executions": 0,
+  "new_root_results_returned": 0,
+  "cumulative_A3_candidate_query_executions": 725,
+  "cumulative_A3_search_results_returned": 724,
+  "root_cumulative_candidate_queries": 4,
+  "cumulative_recorded_candidate_query_executions": 729,
+  "cumulative_recorded_results_returned": 728,
+  "cumulative_materials": 75,
+  "cumulative_chinese_drafts": 61,
+  "cumulative_selected_chinese_literal_forms_including_revisions": 65,
+  "cumulative_english_versions": 46,
+  "catalog_counts": {
+    "discussion_candidates": 30,
+    "research_reserves": 1,
+    "total_unique_families": 31,
+    "withdrawn_families": 1,
+    "historical_unique_families": 32
+  },
+  "query_breakdown": {
+    "C60_CN47": 8,
+    "C61_CN49": 8
+  },
+  "reason": "本段没有新增合格配对。火芯8查有深圳市火芯科技/明确电子品牌及台湾本人商业站；入微8查有本人入微咨询/入微销售云CRM软件，另科技公司与智能酒店品牌资料。原A2分别首次返工实际无稿后主动闭族，各余1未用，不靠换英文救回。新增Faraday供料芯与UCLA胶带界面两个真实关系、两个正式中文，16次新使用查询全部返回。腾讯/火山引擎两案例仅补核命名史与构词机制，不计新市场公司；翻掌近旧长按且Apple目标正文未读，不计材料或新名。原A4与同原A3两包真实零英文收尾；入微包旧批次标签残留由原A3另档纠正、原A4再接受后终核。总库30讨论+1储备不变，2待核项独立保留。",
+  "source_sampling": {
+    "new_materials": 2,
+    "root_new_materials_core_read": 2,
+    "minimum_required": 1,
+    "scope": "Faraday1908印本第一讲指定供料段/第二讲燃料空气段；UCLA作者组指定研究段与2008原论文0–109。无图片/视频/实验/整书/完整Methods或临床验证。A1腾讯具名书籍转载节选与火山官网root另读，USGSroot一次超时与原A1成功范围分别记。",
+    "classical_chinese_cards": 4,
+    "conservative_S3_primary_cards": 17,
+    "total_materials": 75,
+    "new_recent_news_body_read": 0,
+    "new_whole_books_read": 0,
+    "new_A2_book_excerpt": "Faraday第一/二讲片段，非全书或新新闻；A1腾讯传转载节选不充A2新增阅读。"
+  },
+  "corrections": {
+    "A3_CN47_auxiliary_unreproduced_body": "原A3另档纠正鱼泡动态页面access，主证不依赖",
+    "A3_CN50_reading_scope_template": "原档/原A3重读纠正/原A4再接受/同A3终验均保留，无名字/分数/查询增加"
+  },
+  "controls_and_registration": "同001原两阳性/大陆旧403诚实复用，境外逐名入口按实际失败记录。使用证据不冒工商/第9与42商标核准，旧待核403无新原证不重复。",
+  "whole_production_compliance_claimed": false,
+  "evidence_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-role-expansion03.json",
+      "sha256": "eab7c0cd091de9a281b1ef9aacec0cde26f37cca555f30d2411f6ac795ce35f2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-role-expansion03-receipt.json",
+      "sha256": "1e02cce7191af34dc75bbe5b15c33b1402a18d76720e9e939a8a489b60e62566"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension37.json",
+      "sha256": "e3195eb7db4411f8d3fb33f9dc8bcbe348a26c4496a56e2d4e7838c4118430c0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension38.json",
+      "sha256": "74cb9092800e90dc8bb5ae246346e990b8c485b42aa39088b51c89bfe5b0a328"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch47.json",
+      "sha256": "ff2de85f62396175d6fa89ff2b4cd45fd304321e84344dcf1669f9eb7bde0f48"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch48.json",
+      "sha256": "c838e8775e400bc80c6887c3ca16577a2b39b17897938ad567f7d953599e1aea"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch49.json",
+      "sha256": "757b8963f0e6555ea54bed46cfb0427464e4a008c2353073b0ab77871a2a7cca"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch50.json",
+      "sha256": "11cf06b6763b51937b9fc6e21c66fbe23c5bcd39a6d1e9066d2fa7adfe5b6a5c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch51.json",
+      "sha256": "c12181400b36403a7c78ba235dc49d173b0edeeecf186e9e89cdd792b5af9fee"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch47.json",
+      "sha256": "5c170d1779c9673272c03586d189e5dc765d2bd602d6edd6b39a1a106279b27d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch47-auxiliary-scope-correction.json",
+      "sha256": "dead1fb0ac59f8ceba0973b510ba01ac45b8be2dd059cb7cb91e50882fc3382f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch48.json",
+      "sha256": "b6e3872256e18c821cbf5dc441cc6c8abedaf7bd6320ba3bf076f4e4c1aed213"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch32.json",
+      "sha256": "df0af83a4ca4bf09c4f04bf79c460eb488b6b4390e324214573e15985096f91f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch32.json",
+      "sha256": "b8973355c6c53d8d97dbe0c04bbe036ec30e0f2b4e8265128da3062447d54d66"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.json",
+      "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.json",
+      "sha256": "25a50f023beb4f1cd770600db26da8b8d98ef81098d7cee4acb25d0a387a9130"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-reading-scope-correction.json",
+      "sha256": "fcc3190f05fcf644553b0aa3adb971e4619fbe00a1e914e5fc4d7f5cad3be848"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch33.json",
+      "sha256": "c8fad10d3c90da96b425d8a6c8dba8a967863eff6c443877419f335f62de24a7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-C61-CN50-correction-acceptance.json",
+      "sha256": "34254776069ef7b8b7a590b3508865b7b1c93e89ca334e138610908b0e518ef9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch33.json",
+      "sha256": "0ff9afdf13315c3e59367465f06f23203f8bd44b6fc5c87ec8a4db18bd7c057f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/handoffs-batch47.json",
+      "sha256": "358b88dcf5e3e3e504407b12bfcb8191e111613d8a6f42ced2de87d117bbaeaa"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/handoffs-batch49-50.json",
+      "sha256": "7ef4d48ee239d0c0454bf6c4123ce287971e386dc38298c784cf253fbe8735ec"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/decisions-through-batch51.json",
+      "sha256": "7da30e91c3698de779e3dd04c739081fa782a59520d5aae0463c2eba09760dfe"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-08T16:50:40.145796+00:00",
+  "decision": "accept_to_same_A3_CN34",
+  "quality_comparison": {
+    "root": 26,
+    "producer": 25,
+    "max_axis_difference": 1,
+    "all_axes_pass": true,
+    "independence": "先无分稿封独评，再读作者分，编辑判断非消费者测试"
+  },
+  "source_verification": [
+    {
+      "url": "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/201511/P020151103347671915307.pdf",
+      "scope": "root实际PDF实体4–5/印刷1–2，40–69，局方试飞员和试飞工程师等对象、新/改装飞机真实试验、工程数据判断与记录。是指定历史职责，不将团队职责全归一人或泛所有试飞员。"
+    },
+    {
+      "url": "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/201511/t20151102_8381.html",
+      "scope": "root实际48–76发文2015-08-18/有效性废止；正文页亦有成文2023字段，记录不当2015文件为现行执业规范。"
+    },
+    {
+      "url": "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/",
+      "scope": "root实际244–266与282–284，11月4日公布/5日更新，载人可重构试验平台与未来首飞预期。近90日新闻，未称已有飞行结果，不把机构愿景或生成图当实机观测。"
+    }
+  ],
+  "family_verification": "root实际读旧熟手完整身份/意味：熟练者运用知识未必说尽；作数是机器人动作完成与科学结果有效性区别。此项给进入真实条件探索新机器的完整工程参与者身份，角色/对象/活动关系不同；若只剩测试工具或做得熟练则回旧族不计新。",
+  "shortcomings": "岗位通名、航空培训/招聘/游戏/单测试服务首感，AI Lab为品牌角色迁移不是当代技术结果。",
+  "refs": [
+    {
+      "path": "materials-extension30.json",
+      "sha256": "c716bd12c909eaddfe8b59c8a5553e3d87ddbd2228244e16036b927e126e2fc6"
+    },
+    {
+      "path": "A2-candidates-batch32.json",
+      "sha256": "3ae172436db41bda689c817caa38f68cbfee3af60c35193269ce7185a5f59a2e"
+    },
+    {
+      "path": "A2-quality-batch32.json",
+      "sha256": "3f8dff77641476027aea5061b99c2af47077f00320e9af5a3cf59eb6b21b707d"
+    },
+    {
+      "path": "A2-creation-execution-batch32.json",
+      "sha256": "01f93f93bced5741a204d783e39cd3e51e9fd3a59abc9753e3e40a12b9ce912a"
+    },
+    {
+      "path": "coordinator-cn-batch32.json",
+      "sha256": "647cf2c26180875bc91049803a3eff9d53fa14ca46c94b18267c1a1c3f80aeef"
+    },
+    {
+      "path": "A2-history-through-batch31.json",
+      "sha256": "061426cbba2f82711bad387a01cb48d3602318afe963eb91d5cc0ea32ffeacee"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T11:05:40.440039+08:00",
+  "scope": "主控先封存独评，再读取本作者数字",
+  "reviews": [
+    {
+      "candidate_id": "C1-C25",
+      "name": "补码",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "已有完整两字称呼，口语能直接说补码",
+          "counter_association": "补码也可能被听成不码"
+        },
+        "distinctiveness": {
+          "reason": "有明确短声音和计算对象，不是泛科技修饰",
+          "counter_association": "熟悉计算的人会先作普通术语理解"
+        },
+        "lab_fit": {
+          "reason": "底层数值表示自然具有计算研究身份",
+          "counter_association": "编程培训/代码工具行业联想也强"
+        },
+        "grounding": {
+          "reason": "教师正文支持表示、加减和范围边界，未伪造汉字原句",
+          "counter_association": "原页不直接使用中文，不能伪称官方中文命名"
+        },
+        "extension": {
+          "reason": "表示与操作可作为长期计算研究身份",
+          "counter_association": "若泛化所有互补能力就损失机制"
+        },
+        "semantic_coherence": {
+          "reason": "名字与各层均围绕一个计算表示对象",
+          "counter_association": "补不能再解释为修Bug或智能增长"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

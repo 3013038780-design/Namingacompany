@@ -1,0 +1,133 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-08T12:09:52.387Z",
+  "completed_at": "2026-11-08T21:09:50.682361+08:00",
+  "status": "two_same_run_packages_one_new_pair_admitted",
+  "actual_A1_basis_reused": [
+    "A1-final-input-reacceptance.json",
+    "A1-formation-feedback.json",
+    "search-plan.json",
+    "plan-review.json"
+  ],
+  "new_A1_research_claimed": false,
+  "actual_A2": "/root/continuous_a2",
+  "actual_A3_same_cn_en": "/root/live_a3",
+  "actual_A4": "/root/continuous_a4",
+  "new_materials": 2,
+  "reused_materials_for_new_draft": [
+    "C1-M07"
+  ],
+  "new_chinese_drafts": 3,
+  "new_chinese_families_explored": 3,
+  "chinese_quality_passed": 3,
+  "chinese_public_use_passed": 1,
+  "new_english_versions": 1,
+  "english_quality_passed": 1,
+  "english_public_use_passed": 1,
+  "evidence_holds": 1,
+  "new_evidence_holds": 0,
+  "new_retained_families": 1,
+  "retained_pairs": [
+    {
+      "chinese": "雾针",
+      "english": "Spine Eddy",
+      "chinese_id": "C1-C40",
+      "english_id": "C1-E31"
+    }
+  ],
+  "new_A3_candidate_query_executions": 27,
+  "new_A3_search_results_returned": 27,
+  "new_A3_failed_or_unreturned_attempts": 0,
+  "new_root_candidate_query_executions": 0,
+  "cumulative_A3_candidate_query_executions": 465,
+  "cumulative_A3_search_results_returned": 464,
+  "root_additional_queries_prior_packet": 2,
+  "cumulative_recorded_candidate_query_executions": 467,
+  "cumulative_recorded_results_returned": 466,
+  "cumulative_materials": 50,
+  "cumulative_chinese_drafts": 40,
+  "cumulative_english_versions": 31,
+  "catalog_counts": {
+    "discussion_candidates": 27,
+    "research_reserves": 1,
+    "total_unique_families": 28,
+    "withdrawn_families": 1,
+    "historical_unique_families": 29
+  },
+  "reason": "新增讨论备选雾针 / Spine Eddy：细小形态改变相遇条件，限定圆柱绕流下针形刺捕获入口。中文9/英文6查询及终审通过；原A2对旧crossing整机背景另留实际源范围补记，下游真实验收，原稿与分数不改。保留针具/纹身/水务、脊柱医疗/仿真、Eddy听写、虚构同词/近音及登记限制。飞梭已有网新AI平台/致景App，捕蝇草已有hap游戏，两名使用淘汰，原A4/同A3实际零英文。",
+  "query_breakdown": {
+    "C38_CN": 6,
+    "C39_CN": 6,
+    "C40_CN": 9,
+    "C40_EN": 6
+  },
+  "source_sampling": {
+    "new_materials": 2,
+    "root_new_materials_body_read": 2,
+    "minimum_required": 1,
+    "reused_candidate_source_root_body_read": 1,
+    "scope": "新飞梭馆藏短文及NIBB研究机构正文均实读；M07 CAS重新读实际正文，不计新增新闻/素材。未看图视频/实操或读付费原论文全文。"
+  },
+  "source_scope_correction": "旧crossing未随名称保留范围收窄，原A2承认并实读另补记；采用候选专属crossing，原稿/旧分/执行SHA保留，不伪称最初已写对。",
+  "controls_and_registration": "原run两阳性对照及大陆共同入口受限复用，本次逐名UK入口不可读，非公司核名或9/42商标核准。",
+  "prior_evidence_hold": "活变量/Maymatter无新可读原证未重复403、不R3。",
+  "whole_production_compliance_claimed": false,
+  "evidence_refs": [
+    {
+      "path": "A2-creation-execution-batch22.json",
+      "sha256": "4161ee32fbdbf7ae0a5a9bb71ecba22d9fdebb74885ce091d697ae0fcab1e622"
+    },
+    {
+      "path": "A2-creation-execution-batch23.json",
+      "sha256": "3e0e0965d66046249d3d50a5f6af0d8e833a8dc4a049aae5c12da40fe592b8a9"
+    },
+    {
+      "path": "A2-C40-source-scope-addendum-execution.json",
+      "sha256": "df34b988a8579d1323792ca3bf8b2ecf8ad35d427d85c9d36e10e888fa9a79db"
+    },
+    {
+      "path": "A3-cn-batch24.json",
+      "sha256": "be8d7ac04690afc479c44064d604f32f7abb52f8680c5e9c8551b595fa2736d2"
+    },
+    {
+      "path": "A4-zero-input-batch22.json",
+      "sha256": "48565cf2ae7a44fb022e623713afc2ee6e73fab42e22248edd7275276a2d5490"
+    },
+    {
+      "path": "A3-en-zero-batch22.json",
+      "sha256": "ef901b6171b0709f24aee3ec94b9b417b5bc2ec36feaab8b3a85e61ce869f020"
+    },
+    {
+      "path": "A3-cn-batch25.json",
+      "sha256": "cdfc1c430be3e97a00877caaad758c2d51f839a11ed876aa62f9e1417f562cdb"
+    },
+    {
+      "path": "A4-creation-execution-batch30.json",
+      "sha256": "ac552432dddd57c7dc03ad34be84ec80bd1efaecbd0d5f853d945333fa72701d"
+    },
+    {
+      "path": "A3-en-batch30.json",
+      "sha256": "3c1642b2cd458c7c704ca129048156e6fc2a5d14a19f13665c90549f1b61f7a4"
+    },
+    {
+      "path": "A4-C40-postscreen-review.json",
+      "sha256": "308339c54e3acd2646d2fa5719606c8b04b2bfaf20512e7e87be42e25ef1c28f"
+    },
+    {
+      "path": "delivery-C1-E31.json",
+      "sha256": "9ff1e3217d6ea2315490aa4c39fa1146869a5f8648d69a82b4d276d9934e4d56"
+    },
+    {
+      "path": "continuations/2026-11-08T120952Z/handoffs-batch22.json",
+      "sha256": "043b128969a291a2ff64afbe60cd1b42e9bdb586a1181f6ed3e8d561ad088506"
+    },
+    {
+      "path": "continuations/2026-11-08T120952Z/handoffs-batch23.json",
+      "sha256": "77f961e50ae587035c848167d4aa4da788cacacd1fb1304025c799279a72e8e4"
+    },
+    {
+      "path": "continuations/2026-11-08T120952Z/decisions-through-batch23.json",
+      "sha256": "434f359da193556d0fcb218a6c9a67f9c93cbef57e70ea9b820513041aaae23b"
+    }
+  ]
+}

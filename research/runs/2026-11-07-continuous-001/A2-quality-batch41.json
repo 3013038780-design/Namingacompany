@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T04:30:14.332701+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-C58",
+      "name": "洋脊",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "既有完整两字地貌称呼，洋与脊共同指同一海底山系，可直接叫出",
+          "counter_association": "脊稍有读写成本，声音近洋基/洋鸡"
+        },
+        "distinctiveness": {
+          "reason": "海面下的全球山系及板块边界形象明确，比泛深海/成长有辨别对象",
+          "counter_association": "地貌名仍可能被误当既有地名或海洋服务品牌，市场未查"
+        },
+        "lab_fit": {
+          "reason": "地球构造/深海科学的完整世界能承载深技术研究身份",
+          "counter_association": "海洋工程、地勘或户外首感较强，是否足够广义AI Lab由主控独判"
+        },
+        "grounding": {
+          "reason": "中文机构正文用洋脊，NOAA正文支持山系与活动边界新洋壳关系，条件性被明确保留",
+          "counter_association": "南海熔体为观测解释/模型，发布日期未核；不得把静止残留洋脊写永久活跃"
+        },
+        "extension": {
+          "reason": "可用完整自然世界承载长研究史，名字不用包办当前产品解释",
+          "counter_association": "若品牌只讲海洋工程便会局限字面行业"
+        },
+        "semantic_coherence": {
+          "reason": "海底山系、板块边界与新洋壳形成属于同一对象和过程",
+          "counter_association": "不是给洋宏大/脊支撑各编义，也不是所有边界或AI都必然产生更优结果"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ],
+  "boundary": "作者自评独档，无分JSON/MD已先交。完整地学对象仍须独立品牌身份评审，来源不补首感不足。"
+}

@@ -1,0 +1,52 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T04:56:04.983881+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-C59",
+      "name": "原星",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "两个常用字可连成星体式称呼，声音简洁，能用于机构自称",
+          "counter_association": "原恒星短化不是正式术语，可能需要解释才知道具体对象"
+        },
+        "distinctiveness": {
+          "reason": "可以看见星体与原初阶段的轮廓",
+          "counter_association": "脱离出处仍容易融入原/元/源加星的通行星名样式；相比具体原恒星关系，字面独立辨识偏弱，不能用故事真补到过线"
+        },
+        "lab_fit": {
+          "reason": "完整宇宙天体可承载科学与智能研究身份",
+          "counter_association": "航天科普、游戏或初生角色首感也强，需主控独判"
+        },
+        "grounding": {
+          "reason": "NASA初期条件与中国机构具体系统范围分开，品牌短化的实际来源清楚",
+          "counter_association": "原文没有直接使用原星，不冒标准术语、每团成星或普遍无核反应"
+        },
+        "extension": {
+          "reason": "完整自然天体形象不限模型功能，可容纳长研究方向",
+          "counter_association": "若只剩越来越强/未来明亮，就退为泛成长口号"
+        },
+        "semantic_coherence": {
+          "reason": "原与星属于同一个早期天体，不分拆原始智慧和领先地位",
+          "counter_association": "把原作原力超能力或星作必然成功会增加无据层次"
+        }
+      },
+      "decision": "quality_reject",
+      "reason": "独立辨识轴未达门槛，不能因科学对象真实或其他维度较高补过。"
+    }
+  ],
+  "qualified_candidate_ids": [],
+  "boundary": "这是一份实际中文草案的独立作者评审，不是可用备选；无分预览已先交供主控先封复评，原评分不随主控结果重打。"
+}

@@ -1,0 +1,182 @@
+{
+  "accepted_at": "2026-11-08T13:12:53.500697+08:00",
+  "same_research_run": true,
+  "new_A1_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "accepted_at": "2026-11-08T13:12:53.500697+08:00",
+      "from": "existing_A1",
+      "to": "same_A2",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C28"
+      ],
+      "reason": "原A2核最新冻结27案，识别旧M18/M20早已命名关闭；从确实未命名M22凝练，不重开已闭家族。",
+      "refs": [
+        {
+          "path": "A1-final-input-reacceptance.json",
+          "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+        },
+        {
+          "path": "A1-formation-feedback.json",
+          "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        },
+        {
+          "path": "continuations/2026-11-08T033348Z/decisions-through-batch14.json",
+          "sha256": "7392bc7aa94ac799f640a0253fc030067af608d8947acff74c3e7ec0e030b13a"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "accepted_at": "2026-11-08T13:12:53.500697+08:00",
+      "from": "same_A2",
+      "to": "coordinator",
+      "status": "returned",
+      "candidate_ids": [
+        "C1-C28"
+      ],
+      "reason": "主控先封存24后读producer25，Lab身份3<4，差1；关系真实不补品牌气质，质量淘汰未查。",
+      "refs": [
+        {
+          "path": "A2-preview-batch15.md",
+          "sha256": "8f4f8964a3b611199720845c5dcc2c22be08d6ef339b3fcc960e60057f31c5b8"
+        },
+        {
+          "path": "A2-candidates-batch15.json",
+          "sha256": "d3e818d6cfd59ed76c86f7efa21b81367f7147b9cf5398d11e6a213b013a9441"
+        },
+        {
+          "path": "A2-quality-batch15.json",
+          "sha256": "0656d8aae6538853bf30245acffcc38785aeea10dc12b367a5e05239affa9b6b"
+        },
+        {
+          "path": "A2-creation-execution-batch15.json",
+          "sha256": "4afa0e819b5b1456700f5b8a4d1556c1e0daebbff86a266049de0d0c4925859c"
+        },
+        {
+          "path": "materials-extension14.json",
+          "sha256": "76f42852813152f626d8a801705ea115305c81d2c98379fd5ee4f97a99ff8744"
+        },
+        {
+          "path": "coordinator-cn-batch15.json",
+          "sha256": "a2db87147c91dd2c3e2c99f0d1bc76fc16364167b19b41abe7afb568aafdd88b"
+        },
+        {
+          "path": "coordinator-family-review-batch15.json",
+          "sha256": "8a95dc4757c070e16148c1cb4c2d1762fb2c61843b41ca6c419cf5fe76c5e00b"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "accepted_at": "2026-11-08T13:12:53.500697+08:00",
+      "from": "coordinator",
+      "to": "same_A3",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C28"
+      ],
+      "reason": "原A3实际核上游合格0，中文查询0；不将未查说占用。",
+      "refs": [
+        {
+          "path": "A3-cn-batch17.json",
+          "sha256": "4ffc60d10e23345475e65c82acd5818968d4068e307f9b74d233cb2aa252b6d4"
+        },
+        {
+          "path": "A3-cn-batch17-receipt.json",
+          "sha256": "17e9f6abaca7b2050c6082b5bcac134c1ee7b56a29cb8215d02ed8c823423dee"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "accepted_at": "2026-11-08T13:12:53.500697+08:00",
+      "from": "same_A3",
+      "to": "same_A4",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C28"
+      ],
+      "reason": "原A4实际读上游，合格中文0；无英文/评分/查询。",
+      "refs": [
+        {
+          "path": "A4-zero-batch15.json",
+          "sha256": "be403dbfdab54a3d64bc87ea302ef68055729f12c19b6092565b161a8495252a"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "accepted_at": "2026-11-08T13:12:53.500697+08:00",
+      "from": "same_A4",
+      "to": "same_A3",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C28"
+      ],
+      "reason": "原A4实际零输出交同一原A3复核固定回执。",
+      "refs": [
+        {
+          "path": "A4-zero-batch15.json",
+          "sha256": "be403dbfdab54a3d64bc87ea302ef68055729f12c19b6092565b161a8495252a"
+        },
+        {
+          "path": "A3-en-zero-batch15.json",
+          "sha256": "8c423639865abbbcd7fdcb4a150333581fc2f6a6ec2d5fb0b4189a0d3dd7fa07"
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "accepted_at": "2026-11-08T13:12:53.500697+08:00",
+      "from": "same_A3",
+      "to": "coordinator",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C28"
+      ],
+      "reason": "同一原A3实际完成英文零输入终检，不冒称正常英文已查询。",
+      "refs": [
+        {
+          "path": "A3-en-zero-batch15.json",
+          "sha256": "8c423639865abbbcd7fdcb4a150333581fc2f6a6ec2d5fb0b4189a0d3dd7fa07"
+        },
+        {
+          "path": "A3-en-zero-batch15-receipt.json",
+          "sha256": "426d0ca85f7847db4b5347f5932e262b7ca30234d393e183dd6c524c62ccd4bf"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "accepted_at": "2026-11-08T13:12:53.500697+08:00",
+      "from": "coordinator",
+      "to": "catalog",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C28"
+      ],
+      "reason": "来源复用真实，质量未过，不入双语总库。",
+      "refs": [
+        {
+          "path": "coordinator-family-review-batch15.json",
+          "sha256": "8a95dc4757c070e16148c1cb4c2d1762fb2c61843b41ca6c419cf5fe76c5e00b"
+        },
+        {
+          "path": "continuations/2026-11-08T033348Z/decisions-through-batch15.json",
+          "sha256": "3c3d6523597943b538eb8dfbb23df8098fa0d27e0626c30949b6700f37f17185"
+        }
+      ]
+    }
+  ]
+}

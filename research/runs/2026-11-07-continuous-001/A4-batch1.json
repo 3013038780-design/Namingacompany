@@ -1,0 +1,41 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "submitted_at": "2026-11-07T20:50:47.849502+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch1.json",
+      "sha256": "de29716948169e218e2207fdb612e83e8d0a5e6dbed0e3bc5b92e623f9fae2d4"
+    },
+    {
+      "path": "materials-pilot.json",
+      "sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7"
+    },
+    {
+      "path": "A3-cn-batch1.json",
+      "sha256": "b143727967822d1fa6cb86fddfe18c40cd95bcc7685e7195ecc010e388bbe0b3"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E01",
+      "chinese_id": "C1-C01",
+      "chinese": "由此及彼",
+      "english": "Therefrom",
+      "suggested_pronunciation": "thair-FRUM /ˌðerˈfrʌm/，建议按词典读法、重音在后；有正常地域变体。",
+      "type": "existing_dictionary_word",
+      "formation": "Therefrom是现存英语副词，由there与from组成，Merriam-Webster释为从那个事物或来源而来；不是本轮为查重造出的字母串。把一个可发音的完整旧词作为研究称呼，使用其出处/推导的语义空间。",
+      "bilingual_relation": "中文说从已知此端走向彼端，英文说所得认识从那个已知出处而来：一个从行动方向说，一个从所得认识的来源说。共享真实关系使已知与未知相接的内核，不把there固定绑定某一物理端点，也非逐字翻译。",
+      "meaning": "已有信息可以成为认识别处的出发点。公司借此建立沿关系寻找依据、从已知接近未知的研究身份，英文自身不绑定某一种算法。",
+      "shortcoming": "比普通口语正式，可能先有法律或旧式书面英语联想；首次需要教一次读法，th对部分中文使用者有成本。它的含义宽于约束网络，单独一词不直接显示AI，需要研究身份承接；普通词真实不代表可独占使用。",
+      "boundary": "词典没有把它定义成约束传播算法。SICP关系网固定，已知量充分时可求另一端；不是自主学习新规则或任何问题都能双向求解的保证。",
+      "source_urls": [
+        "https://sicp.sourceacademy.org/chapters/3.3.5.html",
+        "https://www.merriam-webster.com/dictionary/therefrom"
+      ],
+      "read_scope": "A4实际读SICP 3.3.5正文L264–283，关系可从不同已知量计算与连接器传播；A2另已读撤销/反向例，本人此案未新读全章。实际读Merriam-Webster词条L31–44、71–85的读音、定义和例用；未执行公司、软件或登记查询。",
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

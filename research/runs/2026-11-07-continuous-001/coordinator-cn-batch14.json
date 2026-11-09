@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-08T11:43:52.145171+08:00",
+  "independence": "Read producer preview batch14 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C27",
+      "name": "橡皮鸭",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "既有三字物件顺口可直接称呼",
+          "counter_association": "第一眼仍可像儿童玩具"
+        },
+        "distinctiveness": {
+          "reason": "清晰桌面形象和程序员文化双层有记点",
+          "counter_association": "常用物件有大量潜在商业使用须查"
+        },
+        "lab_fit": {
+          "reason": "不回答却使人解释清假设的伙伴角色可承载智能与工具研究",
+          "counter_association": "可能被压缩成编程问答助手或玩具机构不是自动Lab身份"
+        },
+        "grounding": {
+          "reason": "实际核书节选印刷94–95与斯坦福讲义104–126支持对应关系",
+          "counter_association": "不是鸭懂代码也非百分之九十实验成效"
+        },
+        "extension": {
+          "reason": "伙伴与问题组织关系可跨多产品延展",
+          "counter_association": "必须避免把能力范围锁死在调试"
+        },
+        "semantic_coherence": {
+          "reason": "日常对象和软件实践中角色为同一物件并非字义拼贴",
+          "counter_association": "隐喻若变成真的会回答鸭则丢原本独特关系"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

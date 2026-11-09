@@ -1,0 +1,53 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese screening",
+  "executed_at": "2026-11-08T19:17:39.685446+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch21.json",
+      "sha256": "03c41e0e634c0454be18a12582bc8383183b5aeeb86abca08f54d16ea9bbfaf4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch21.json",
+      "sha256": "b2279af2ce4311012c1073a21b19159f0151f1648ef02e1cbbc26eced908df7e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch21.json",
+      "sha256": "8dc53ed028e8f10955a77e09cbe2a92ca6de5a47885a8cb3923aa12335b2c6e1"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch21.json",
+      "sha256": "cedb1897412ad5b45fa6c6d402d3dc56ead04ad7fb69e5ad9e53809d1913ac9d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch23.json",
+      "sha256": "6af294d33fa08604f58ec5749d41ce8325b84d0a68bfb2bbdd661bd142eed5c6"
+    },
+    {
+      "path": "A3-cn-batch23.md",
+      "sha256": "a9f5393d6e18a5937664381a138d9eaa59ef0924912d2b5a719a9694986d0a1e"
+    }
+  ],
+  "actual_new_candidate_queries": 15,
+  "completed_candidate_search_results": 15,
+  "unreturned_search_attempts": 0,
+  "actual_new_chinese_queries": 15,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 399,
+  "prior_agent3_returned_search_results": 398,
+  "agent3_cumulative_candidate_queries": 414,
+  "agent3_cumulative_returned_candidate_results": 413,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 416,
+  "run_cumulative_returned_candidate_results": 415,
+  "passed_chinese_candidate_ids": [
+    "C1-C36",
+    "C1-C37"
+  ],
+  "actual_execution": "两中文有效7/8查询；乐观锁内置功能官方正文核；骰子鐘历史设计描述和不同全称骰子-钟敏应用正文核，不伪称独立品牌。UK两名实际不可访问，登记未清。",
+  "next": "交主控确认骰子钟历史器物描述/品牌边界及质量来源终审，之后才原A4；未提前配英文。",
+  "unchanged": "旧记录/总库/队列/Git未改，无网页全文。"
+}

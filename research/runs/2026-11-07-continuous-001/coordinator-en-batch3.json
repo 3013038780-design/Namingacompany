@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T21:00:46.175525+08:00",
+  "independence": "Read producer preview batch3 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C01",
+      "name": "Either End",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "正常短语可直接读",
+          "counter_association": "either有两种标准读法"
+        },
+        "spelling": {
+          "reason": "两常用词可听写",
+          "counter_association": "普通词检索拥挤"
+        },
+        "grounding": {
+          "reason": "任一端源于双向约束例",
+          "counter_association": "不是任意网络皆可逆"
+        },
+        "bilingual_relation": {
+          "reason": "两语共享由已知端求另一端",
+          "counter_association": "英文更强调端点"
+        },
+        "distinctiveness": {
+          "reason": "完整称呼有画面",
+          "counter_association": "像连接器或工具"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E03"
+    }
+  ]
+}

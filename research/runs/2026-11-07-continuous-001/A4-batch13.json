@@ -1,0 +1,60 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "submitted_at": "2026-11-07T21:42:35.844766+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch4.json",
+      "sha256": "957bf8655fc641d800ed4929e7fcfc65e307d461c4ca379e068325b10b0fa813"
+    },
+    {
+      "path": "materials-extension4.json",
+      "sha256": "2b90619996a1920932e9dd0a261a4a6d8fa9bb3e20633f18bc310409c0257eba"
+    },
+    {
+      "path": "A3-cn-batch5.json",
+      "sha256": "68decdd14702ea14101fa2ed22e3c373328eeeb0db85c37d2ff9bccc9eeeeb08"
+    },
+    {
+      "path": "A4-batch12.json",
+      "sha256": "2bb3b6c7d2612b24acf8986c6db9c4298cfab4a88c7b9d7050f1970a6879ef94"
+    },
+    {
+      "path": "A3-en-batch12.json",
+      "sha256": "008cae78dacca0449f5cd50c3a23d17ac0214e607069351d931dd8017f90457d"
+    },
+    {
+      "path": "A1-formation-feedback.md",
+      "sha256": "9e2c1589037d9d564619fd8d9d861dffd13288087c4f7dec8e49d5ecbd702dde"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E13",
+      "chinese_id": "C1-C13",
+      "chinese": "跳读",
+      "english": "Textrove",
+      "suggested_pronunciation": "TEXT-rove，/ˈtekst.roʊv/，两个音节。",
+      "type": "完整常见语素形成的品牌新合成",
+      "formation": "text + rove，两个完整词原样连接：text是文字，rove作及物动词可以表示穿行于某处。关系句是“把文字当成可以走进去的信息结构”。没有从旧Linkroam字形换字母，也不靠后缀区分；Textrove不假称已有词典收录，亦不把trove宝藏当成另一个必须解码的词根。",
+      "bilingual_relation": "跳读是读者选择下一处信息的动作，Textrove把这一动作放在文字空间里：读者可以沿结构穿行，而不是只能逐行向下。中英文共享同一阅读者和同一可导航文字对象；不让文字自己增长或把跳解释成性能上升。",
+      "meaning": "文字可以被阅读，也可以被进入。NLS展示编辑、层级视图、在文字与图形表示间穿行；品牌保留其中“从线性读下去转为操作信息结构”的一面，作为研究人如何使用知识的入口。",
+      "shortcoming": "首先可能像阅读或文本工具公司，text也没有覆盖NLS图形视图及更广多模态对象。/kstr/辅音段需要清楚；首次可能分读成Tex-trove并听成宝藏相关名字，这不是本案的正式构词。rove确有无目的漫游义，与带目标阅读存在张力。以上是新专名的实际自然度成本，不能因有出处而忽略。",
+      "boundary": "Textrove为品牌合成，不是NLS原文词或算法名称。空间穿行是对可导航信息的比喻，不能推导出理解必然增强、路径必然正确或模型自动持续学习。本角色未对该完整新专名、分词或近似拼法做使用查询。",
+      "source_urls": [
+        "https://dougengelbart.org/content/view/374/",
+        "https://www.merriam-webster.com/dictionary/rove"
+      ],
+      "read_scope": "本人此前实际curl读取NLS网页HTML并读NLS Editing & View Control、NLS Hypermedia、NLS AS AN INSTRUMENT三段文字，未看完整视频；本次实际打开Merriam-Webster rove词条31–48行，确认穿行的及物义与无目的移动的义项，并读96–113行的有时带目的的游历辨析。没有查新品牌使用。",
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "usage_screening_performed": false,
+  "rework": {
+    "attempt": 2,
+    "remaining_after_this": 0,
+    "previous_english_id": "C1-E12",
+    "reason": "同A3未证Linkroam科技品牌，但精确搜索被同形域名第三方负面报告占据；主控主动编辑避让，不当成已注册或确证同名品牌。",
+    "not_new_chinese_family": true
+  }
+}

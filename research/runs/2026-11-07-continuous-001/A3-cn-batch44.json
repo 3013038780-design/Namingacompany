@@ -1,0 +1,178 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-09T04:42:51.897281+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch43.json",
+      "sha256": "6738731f2762505b53174c65e7d3065021270f0d49ef358111840047268f2181"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch43.md",
+      "sha256": "9aa7c598f64202907e95ffb33251892507354bbf6240ef6e6e1f81a4a48e1645"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch43.json",
+      "sha256": "ad0017d303f86388298132dcfaecf969224d39ae6af1b3ad7bc213942a07eaaf"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch43.json",
+      "sha256": "077d041f00294d4efa5e7c9d6a2a2e609ca65d36648b634fc22b6c65821ab98f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch43.json",
+      "sha256": "d93084d389baeebae2e8c353f6a4500dca1bb610c14820c50ea0ecadb586e9d9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch43.json",
+      "sha256": "ae52453fa5f0545dfc9630c6dac37b5d69779572e7e548980fa3ad5719fc3ac3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch43.json",
+      "sha256": "6fb6eaf6dcf020625e76adee1252cc25ec0f139d84ca77a878d3e4e9ab27691e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch42.json",
+      "sha256": "473e0eca5f912e57b14bd6c1515a28d76aff0e715dcd02ad5a75458057faf735"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T202508Z/root-cn43-review.json",
+      "sha256": "6244ea7d02821c8c3d527856334b029d24b62314452051a78300cfd46a555df1"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T202508Z/root-C58-R1-return.json",
+      "sha256": "8cb95fe53d547b99786b37143f06de0deaf930ad3dbbee1f09140fe5c7c305bf"
+    }
+  ],
+  "query_count": 9,
+  "completed_search_result_count": 9,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-C58",
+      "name": "洋中脊",
+      "version": 3,
+      "rework_attempt": 2,
+      "replaces_name": "洋脊",
+      "query_logs": [
+        {
+          "query": "\"洋中脊\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "精确主要地貌百科/极地调查/地学研究，通用科学对象不是独立软件占用。"
+        },
+        {
+          "query": "\"洋中脊公司\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "公司组合出现关键中国海洋大学原PDF索引：孙国栋创办洋中脊文化创意公司；另蓝海天公司洋中脊培训，须正文闭环，不能因非AI忽略核心。"
+        },
+        {
+          "query": "\"洋中脊科技\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "科技精确主要地学科研与科技奖项目，未确证洋中脊科技独立主体；不抵销公司组具体线索。"
+        },
+        {
+          "query": "\"洋中脊智能\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "智能精确是深海探测/智能地震学与数字生境研究中地貌对象，非同名AI模型或公司。"
+        },
+        {
+          "query": "\"洋中脊\" AI 模型 软件",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "AI软件组为ASPECT模拟对象、洋中脊磁异常专利方法/冷却模型，不把研究对象当模型产品名。"
+        },
+        {
+          "query": "\"洋中脊\" 公司 軟體 品牌",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "简繁同形已说明并另补繁体业务语境，结果主要地学文书/海洋装备应用地貌与分析测试分类，未确证完整同名软件。"
+        },
+        {
+          "query": "\"yangzhongji\" company software",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "拼音为历史yangzhongji.com域名统计页，实际读2017时间/博彩页面标题，未核中文对应/当前品牌，不能仅域名当洋中脊软件或公司。"
+        },
+        {
+          "query": "\"洋中基\" 科技",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "洋中基近形命中北京立洋中基教育科技，实际可读完整核心立洋中基含有意义立字，不截掉立当洋中脊精确同名；仅近形线索。"
+        },
+        {
+          "query": "\"洋中脊\" \"文化创意\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "具体文化创意补组复现两份中国海洋大学PDF明确公司/文化衫周边及营业额叙述，但实际两个原PDF403、一次curl0字节，未冒读正文；须保留证据暂停而不是假通过/确证占用。"
+        }
+      ],
+      "decision": "evidence_hold_specific_full_core_business_lead_unread",
+      "reason_code": "EVIDENCE_HOLD",
+      "reason": "新名九组独立查询发现完整洋中脊文化创意公司具体校方索引及公司培训用名，但关键正文均未可读，不能因非AI或完整名较长排除，也不能据摘要最终肯定占用。暂停不得推荐/配英文；不是把原洋基近音继承成新版同名。最后R2余0，无R3，保留待核实证据。",
+      "evidence": [
+        {
+          "url": "https://pgb.ouc.edu.cn/_upload/article/files/e7/49/9448bc6b4699b8108c8577b470cb/4c132daf-76a3-4504-92ea-aa8d0707e50e.pdf",
+          "access": "university_search_index_specific_company_actual_web403_curl_empty",
+          "finding": "原校方PDF索引印刷172页明确2015级孙国栋创办洋中脊文化创意公司、文化衫周边/两年营业额/公益。实际web403；curl一次退出0但/tmp/a3-yangzhongji-ouc.pdf为0字节，不能视下载成功/可读PDF，不据摘要判当前公司或登记。"
+        },
+        {
+          "url": "https://pgb.ouc.edu.cn/_upload/article/files/42/ee/b0a98593419e8f04bd2ada63d0b7/2fcfb458-5856-4a07-a60c-3f65f5a46ca9.pdf",
+          "access": "university_search_index_specific_company_actual_web403",
+          "finding": "同校第二份PDF索引复现同具体公司和创意文化衫；实际打开403，非第二份独立正文确认。"
+        },
+        {
+          "url": "https://www.lanhit.com/html/news/20260410/719.html",
+          "access": "primary_company_news_search_index_actual_open_timeout",
+          "finding": "蓝海天官网索引洋中脊优秀学员专场/培训，是可能公司培训项目用名，实际正文超时未读，未当独立软件或公司精确占用。"
+        },
+        {
+          "url": "https://www.job5156.com/gongsi/gs7e4fe7577846266ace063800b6d49e5f/",
+          "access": "third_party_company_profile_body_read",
+          "finding": "439行L45/65/86完整北京立洋中基教育科技有限责任公司，L59–66立洋教育身份，L98咨询推广服务；立为有意义核心字，非地域/组织后缀。不同完整品牌近形不冒洋中脊同名。"
+        },
+        {
+          "url": "https://yangzhongji.com.cutestat.com/",
+          "access": "historical_third_party_domain_statistics_body_read",
+          "finding": "191行L2域名，L8时间2017-01-23，L73–75网页标题千炮捕鱼赢钱的MG336；域名拼音不证明中文洋中脊品牌，未访问博彩目标/背书安全。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Yangzhongji",
+          "scope": "2026-11-09本次逐名入口不可访问，非无登记。"
+        }
+      },
+      "remaining_chinese_reworks": 0,
+      "core_boundary": "中是完整地貌术语有意义成分，不随意删除；三音节与洋基两音节有区别，旧洋基风险留历史背景不自动判新版否决。",
+      "editorial_lineage": "已实际读主控指明原文完整术语→原A2再核选择谱系，非新家族/不把这次修订说机械插字。",
+      "risks": [
+        "完整洋中脊文化创意公司核心线索未闭，不因非科技或公益营收用途忽略",
+        "培训名称可能内部课程而非独立品牌，正文不可读不预判",
+        "普通地貌、研究模型/方法不当软件命名",
+        "登记限制未清/历史域名不证明现实同名品牌"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "原run两实际阳性，本次0新增。",
+  "passed_chinese_candidate_ids": [],
+  "rejected_chinese_candidate_ids": [],
+  "held_chinese_candidate_ids": [
+    "C1-C58"
+  ]
+}

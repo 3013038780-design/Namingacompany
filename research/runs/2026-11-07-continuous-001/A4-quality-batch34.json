@@ -1,0 +1,54 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-08T21:42:52.333577+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E37",
+      "chinese_id": "C1-C42",
+      "english": "Double Veil",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个常规音节连贯，可作整体对象称呼。",
+          "counter_association": "veil需要清晰v音，首次可能混听vale。"
+        },
+        "spelling": {
+          "reason": "double和veil完整常见拼写，不改字母或截词。",
+          "counter_association": "veil/vale同音，不能假称听写零成本。"
+        },
+        "grounding": {
+          "reason": "双向角色与遮蔽的词义真实，源流程确有身份对彼此不展示。",
+          "counter_association": "帘幕是新拟物，不是指南真实器械或正式用语。"
+        },
+        "bilingual_relation": {
+          "reason": "双盲机制与英文双向遮蔽意象共享同一评价关系，作品仍可评价。",
+          "counter_association": "英文未独自包含编辑/利益披露及匿名可失效条件。"
+        },
+        "distinctiveness": {
+          "reason": "一个整体可感的意象比句中开场语更可作为称呼。",
+          "counter_association": "婚纱/舞台/奇幻与隐秘先于AI，专名感和行业身份谨慎。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "编辑自评非测试，门槛未改；保留行业/听写风险，主控先无分独评。"
+    }
+  ],
+  "no_candidate_assessments": [
+    {
+      "chinese_id": "C1-C41",
+      "decision": "no_quality_candidate_selected_last_rework_closed",
+      "numeric_scores_created": false,
+      "reason": "实际最后返工取舍后，不能选出既保留纤维加工/制造者关系、又比纸业工匠或育儿建巢更自然的独立Lab英文。材料加工词外壳首感仍像纸浆工厂，泛建巢角色又丢掉加工材料的独特关系；不用新拟物把同一个问题藏起来。"
+    }
+  ]
+}

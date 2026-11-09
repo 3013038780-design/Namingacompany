@@ -1,0 +1,47 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T20:48:53.332598+08:00",
+  "new_material_count": 0,
+  "reused_materials": [
+    {
+      "material_id": "C1-M07",
+      "original_file": "research/runs/2026-11-07-continuous-001/materials-pilot.json",
+      "original_sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7",
+      "reading_recheck": {
+        "title": "中科院理化所：科研人员研发出仿生仙人掌集雾器",
+        "url": "https://www.cas.cn/syky/202609/t20260928_5121136.shtml",
+        "source_type": "news",
+        "reading_scope": "excerpt",
+        "reading_location": "本包curl重新实际读原HTML发布日期2026年10月08日及完整科学正文，重点三级路径、径向锥形仿生刺背风侧局部微涡旋、碰撞概率与模式限制；无行号时以段落开头“团队突破传统平面与网状结构的局限”“粒子图像测速和流场分析显示”定位。",
+        "published_at": "2026-10-08",
+        "book_id": null,
+        "access": "body",
+        "method": "curl_HTML_tag_stripping_then_actual_body_read",
+        "checked_at": "2026-11-07",
+        "read_at": "2026-11-08T20:48:53.332598+08:00",
+        "local_path": "/tmp/continuous001-cactus-revisit.html",
+        "local_sha256": "8e7ebf3b113714fe3a13adfafea463283adb3d43e6892b3654742cc8a58c53e7"
+      },
+      "retained_feature": "保留雾、锥形刺、局部流场与捕获相遇的共同场景",
+      "lost_feature": "只保留三级路径的捕获入口，名字不显示后续吸入和排水；不能据此说完整装置只靠一根针。"
+    }
+  ],
+  "comparison_not_proposals": [
+    {
+      "material_id": "C1-M14",
+      "relation": "换壳时把海葵移至新壳口对应功能位置",
+      "reason_not_named": "随迁/守门角色首印象偏搬家、安防或儿童拟人；没有提交这些试想为正式新名。"
+    },
+    {
+      "material_id": "C1-M23",
+      "relation": "研究发表判断不因结果方向是否讨喜而改变",
+      "reason_not_named": "目前凝练容易成为出版口号或泛化不偏；不把独特制度关系当成品牌称呼已经自然。"
+    },
+    {
+      "material_id": "C1-M48",
+      "relation": "铅笔薄层材料转移留下书写痕迹",
+      "reason_not_named": "仍偏文具设计，未据此机械造词。"
+    }
+  ],
+  "coverage_note": "沿用50资料分类及古文比例；重读不计新近90天新闻或新增书籍/源类。"
+}

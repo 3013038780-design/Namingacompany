@@ -1,0 +1,160 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T19:12:46.560422+08:00",
+  "materials": [
+    {
+      "id": "C1-M46",
+      "family_id": "C1-MF-optimistic-concurrency-version-check",
+      "macro_id": "S3",
+      "plan_direction_id": "C1-D-S3",
+      "category": "computational_coordination",
+      "case_ids": [
+        "B025",
+        "B074"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Microsoft EF Core: Handling Concurrency Conflicts",
+          "url": "https://learn.microsoft.com/en-us/ef/core/saving/concurrency",
+          "reading_location": "实际读L34–139及L189–200：乐观并发、版本令牌与更新条件、冲突异常、显式重试/合并；L195出现optimistic locking。中文乐观锁为通常译名，不声称英文页逐字写中文。",
+          "read_at": "2026-11-08T19:12:46.560422+08:00",
+          "access": "body",
+          "published_at": "2023-07-05",
+          "source_type": "technical_documentation",
+          "reading_scope": "body_excerpt",
+          "boundary": "页头虽有授权提示，正文实际返回；不是近90天新闻。"
+        }
+      ],
+      "source_urls": [
+        "https://learn.microsoft.com/en-us/ef/core/saving/concurrency"
+      ],
+      "fact": "先读取并工作，保存时以版本令牌判断记录是否已被别人改过；冲突后由应用显式处理。",
+      "distinctive_relation": "不长期预占资源，而将竞争的核验放到提交处。",
+      "mechanism_to_material": "Cursor从具体可操作对象进入，Recursive从真实机制进入；本项用熟悉态度与器物在计算机制中已经形成的完整词，不把保持乐观这种道德态度当算法。两案为原A1新核，非本包重新访谈词源。",
+      "history_difference": "旧C19分身有别是复制写时分离实体页，本项是在共享记录更新时比较版本、检测读取以后发生的竞争；旧合符为凭证两半配对，旧复证为研究重复核验，均不等于并发更新冲突。不把通用核验/可信作为本项品牌叙事，否则可能落旧上位家族。历史锁字出现不自动所有锁同族，但本次不另报活锁变体。",
+      "naming_potential": "乐观与锁的表面张力，在真实术语内可以解释，不需另配吉祥字。",
+      "shortcoming": "开发教程/智能门锁首感；乐观不保证不冲突。",
+      "boundary": "不声称无锁算法、自动处理冲突、更快或更智能；数据库实现与应用策略有条件。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft"
+    },
+    {
+      "id": "C1-M47",
+      "family_id": "C1-MF-poisson-clock-independent-random-waits",
+      "macro_id": "S3",
+      "plan_direction_id": "C1-D-S3",
+      "category": "stochastic_event_timing",
+      "case_ids": [
+        "B002",
+        "B053"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Abbas Mehrabian: Diameter and Rumour Spreading in Real-World Network Models",
+          "url": "https://dspacemainprd01.lib.uwaterloo.ca/server/api/core/bitstreams/3bcb3ff9-fdd0-4605-9e83-5d4e5752eff0/content",
+          "reading_location": "实际下载原论文，读PDF31–33页、印刷21–23：Definition 2.15独立指数等待及累计鸣响时刻，随后无记忆性、叠加/抽稀关系。封面确认作者、博士论文和2015年；不称通读。",
+          "read_at": "2026-11-08T19:12:46.560422+08:00",
+          "access": "body",
+          "published_at": "2015",
+          "source_type": "doctoral_thesis",
+          "reading_scope": "definition_and_adjacent_excerpt",
+          "local_path": "/tmp/continuous001-mehrabian-thesis.pdf",
+          "sha256": "0708aa2ae82bbb22eaa97e4828f4f9ceb74c89e378777d268e9478b6b7386329"
+        }
+      ],
+      "source_urls": [
+        "https://dspacemainprd01.lib.uwaterloo.ca/server/api/core/bitstreams/3bcb3ff9-fdd0-4605-9e83-5d4e5752eff0/content"
+      ],
+      "fact": "泊松钟用独立指数等待定义相邻鸣响间隔，而非每次等固定长度。",
+      "distinctive_relation": "钟保持事件节奏角色，下一次何时响却由随机等待决定。",
+      "mechanism_to_material": "Google以可称呼科学对象带第二层，月之暗面以整体可进入意象承载故事；两案均继承基线未重新核词源。本项以随机等待关系形成一个整体器物画面，不只摘泊松术语。",
+      "history_difference": "旧因序/M20是事件因果偏序及逻辑时钟，本项是下次事件的随机等待分布，不作因果排序；二周目/之后旧族关乎阶段与重启，本项没有二次成长叙事；M36奖励预测误差不是等待过程。若只剩时间/随机这类泛上位词，不能以论文不同就认定新族。",
+      "naming_potential": "随机性用骰子呈现、事件发生用钟呈现，两个物件在同一个等待机制中相接。",
+      "shortcoming": "玩具钟/桌游或赌博联想；钟的技术身份须独立评估。",
+      "boundary": "骰子是概率意象，不称六面均匀骰子恰好产生指数分布；不称真实制造过这个钟，不将无记忆性等同模型失忆。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft"
+    },
+    {
+      "id": "C1-M48",
+      "family_id": "C1-MF-pencil-layer-transfer-writing-tool",
+      "macro_id": "S1",
+      "plan_direction_id": "C1-D-S1",
+      "category": "everyday_technical_object",
+      "case_ids": [
+        "B025",
+        "B015"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Hitachi High-Tech: Let’s learn the secrets of stationery!",
+          "url": "https://www.hitachi-hightech.com/global/en/science-edu/micro/content14/write_study.html",
+          "reading_location": "实际读L29–59铅笔段：石墨/黏土、层状碳结构、在纸面摩擦时薄层剥离附着留下痕迹。没有观察电镜图或做实验。",
+          "read_at": "2026-11-08T19:12:46.560422+08:00",
+          "access": "body",
+          "published_at": null,
+          "source_type": "science_outreach",
+          "reading_scope": "pencil_body_excerpt",
+          "boundary": "仅支持书写材料关系，不支持铅笔电子电路；页脚版权年不当发布日期。"
+        }
+      ],
+      "source_urls": [
+        "https://www.hitachi-hightech.com/global/en/science-edu/micro/content14/write_study.html"
+      ],
+      "fact": "熟悉铅笔通过薄层材料从笔芯转移到纸上而留下可读标记。",
+      "distinctive_relation": "一个普通书写器物，通过接触与材料转移，让动作留下稳定可见的形态。",
+      "mechanism_to_material": "Cursor让日常工具本身成为可称呼对象；Sony真实关系内融合的反馈也允许凝练新称呼，但本项读到的机制暂未形成比铅笔更好的自然机构称呼。两案原A1新核；本次不把工具栏目硬交作新名。",
+      "history_difference": "声入纹是声振动编码并回放，沙阵是颗粒受场排列，添一笔是额外输入/效应器；本项是日常书写器物材料剥层留迹。物理作用不同，但若只说外置记忆/留下痕迹会退回旧上位家族，本包不配名字。",
+      "naming_potential": "可从熟悉物件进入复杂关系，不必先学冷术语。",
+      "shortcoming": "铅笔及印迹容易偏文具/设计，普通记忆叙事又与旧族相近。",
+      "boundary": "本包不声称读过导电/可穿戴论文或做过显微观察。S1据日常物件入口分类，不将技术锁挪到此类。",
+      "is_classical": false,
+      "status": "material_only_no_name"
+    }
+  ],
+  "auxiliary_readings": [
+    {
+      "title": "Oracle Java Tutorials: Starvation and Livelock",
+      "url": "https://docs.oracle.com/javase/tutorial/essential/concurrency/starvelive.html",
+      "reading_location": "实际读L79–91，活锁线程未阻塞、持续互相响应却不前进；走廊互让例子。",
+      "read_at": "2026-11-08T19:12:46.560422+08:00",
+      "access": "body",
+      "published_at": null,
+      "source_type": "legacy_technical_tutorial",
+      "reading_scope": "body_excerpt",
+      "boundary": "明确JDK8旧教程；不是所有现行Java实现结论。只作锁机制对照，不拆新素材或新家族。"
+    }
+  ],
+  "failed_accesses": [
+    {
+      "url": "https://research.tue.nl/files/46910977/740151-1.pdf",
+      "result": "web与curl均403，摘要不算正文；改读Waterloo作者论文。"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7414167/",
+      "result": "前次返回作者列表；正文请求输出未能读取，重试验证码。未读电子功能正文，不能据此记铅笔电路材料。"
+    }
+  ],
+  "new_material_count": 3,
+  "new_chinese_draft_count": 2,
+  "coverage_note": "技术锁与随机钟按真实入口均S3；日常铅笔按器物入口S1。原保守S3为12/45，新增后14/48约29.2%，分类待主控核，不将锁伪挂日常类。古文不增，仍3/48。",
+  "date_note": "无新近90天新闻或新增整书通读；Waterloo只读论文节选，微软/Oracle为旧文档。"
+}

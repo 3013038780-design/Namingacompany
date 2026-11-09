@@ -1,0 +1,55 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T13:27:28.322340+08:00",
+  "materials": [
+    {
+      "id": "C1-M37",
+      "family_id": "C1-MF-utterance-constitutes-conventional-act",
+      "macro_id": "S4",
+      "plan_direction_id": "C1-D-S4",
+      "category": "modern_philosophy_primary_book_excerpts",
+      "case_ids": [
+        "B008",
+        "B021"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P4",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "J. L. Austin, How to Do Things with Words：Stanford教学网页所收作者原文节选",
+          "url": "https://web.stanford.edu/class/ihum54/Austin_on_speech_acts.htm",
+          "published_at": null,
+          "work_date": "页面标书1962；本页发布日期未知，不核准其编者/版本排印细节",
+          "reading_location": "实际读网页完整作者节选L4–48，所标书页5–8（定义、例子、情境与配套行为）及139（话语情境）；不是读全书或完整Lectures。",
+          "reading_scope": "primary_text_selected_excerpts",
+          "access": "body",
+          "method": "web_HTML_body",
+          "read_at": "2026-11-08T13:27:28.322340+08:00"
+        }
+      ],
+      "source_urls": [
+        "https://web.stanford.edu/class/ihum54/Austin_on_speech_acts.htm"
+      ],
+      "fact": "Austin区分只描述事情的句子与在适当情境中构成行动一部分的话语。原文同时强调语句并非充分条件，身份、情境及其他行为也需适合；后段节选将注意力转向具体话语情境。",
+      "mechanism_to_material": "Alibaba借完整文化角色与开门动作连接现实作用；Oracle基线借文化中的求问/知识角色。这次沿思想实践而非古文摘字，找语言与行动本来相接的现代哲学关系。Alibaba为A1本轮重新核验，Oracle仅沿用基线，不冒称新核词源。",
+      "distinctive_relation": "有些话不是报告行动已经发生，说出它本身就是在进行一种行动，但效力依赖所处情境。",
+      "naming_potential": "从同一关系凝出熟字完整称呼，语言不只作为生成内容，也能承担行动角色。",
+      "shortcoming": "哲学主张不等于可执行AI机制；中文容易像口号、语言培训或文化组织，机构身份须独立审。",
+      "history_difference": "旧会意是双方建立共同指代，橡皮鸭是向无言对象外显假设；本项是说出本身可构成约定性行动。旧回车以后是输入符号被解释器执行，作数是动作与实际成果的有效性；本项不是文本输入执行或保证承诺兑现，而是言语在合适情境中可建立承诺等行动。不能只剩说到做到/赋能的泛称，也不因换一本哲学书自动新族。",
+      "boundary": "只读作者节选，未据此总结全书最终理论。不是所有话语都自动产生期望结果，更不是法律效力/模型工具使用成功的保证；品牌转接是研究者解释。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft"
+    }
+  ],
+  "access_notes": [
+    {
+      "url": "https://pure.mpg.de/pubman/item/item_2271128/component/file_2271430/austin_1962_how-to-do-things-with-words.pdf",
+      "result": "web403、curl403，没有读PDF，不把检索摘要当书全文；改读Stanford真实作者原文节选。"
+    }
+  ],
+  "source_dates_note": "现代哲学，不是古文；本页日期未知，不计近九十天新闻；只计真实书籍节选，不冒充通读。"
+}

@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-08T22:28:27.499576+08:00",
+  "independence": "Read producer preview batch26 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C45",
+      "name": "千手稿",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "千手与手稿共一字的融合可以顺畅称呼",
+          "counter_association": "首次可能听成签手稿"
+        },
+        "distinctiveness": {
+          "reason": "多人之手共同作品画面清楚不泛美好字",
+          "counter_association": "千手神像或书稿活动联想"
+        },
+        "lab_fit": {
+          "reason": "共同作品能表达协作但首先像征稿出版或写作产品",
+          "counter_association": "AI Lab整体身份需长解释补足且太贴某类文档产品"
+        },
+        "grounding": {
+          "reason": "多贡献者与可接手资源在同一真实协作过程",
+          "counter_association": "不是原文中文命名或千人统计"
+        },
+        "extension": {
+          "reason": "角色能跨参与者和研究任务延展",
+          "counter_association": "不等于公司承诺开放许可证"
+        },
+        "semantic_coherence": {
+          "reason": "千为多人稿为作品的整体比喻同向",
+          "counter_association": "只剩不断重写会回旧底稿家族"
+        }
+      },
+      "decision": "quality_reject"
+    }
+  ]
+}

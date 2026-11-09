@@ -1,0 +1,97 @@
+{
+  "agent": "/root/live_a2",
+  "assessments": [
+    {
+      "id": "CT-C05",
+      "name": "拨码",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "拨码是已有器件常用简称，字音清楚",
+        "distinctiveness": "动作和代码共现，简短有操作感",
+        "lab_fit": "编码配置与系统能力关系可承载科技Lab，需防电子元件误读",
+        "grounding": "官方分类和输出码表直接支持组合关系",
+        "extension": "不绑定某模型算法，但配置隐喻比通用研究稍窄",
+        "semantic_coherence": "动作、编码与状态改变同一因果链"
+      },
+      "counter_association": "可能先像工业电子/编码器企业；“拨”与“博”的听写差异需关注。"
+    },
+    {
+      "id": "CT-C06",
+      "name": "页脚",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "pass": false,
+      "axis_reasons": {
+        "naturalness": "两字日常用词，完整称呼毫不费力",
+        "distinctiveness": "可视位置明确且有轻微拟人感",
+        "lab_fit": "网页设计/文档工具第一联想强，A2认为未达Lab定位门槛",
+        "grounding": "MDN直接说明真实上下文和相关文档作用",
+        "extension": "可延伸知识支持，但很难摆脱页面层印象",
+        "semantic_coherence": "主体与上下文辅助角色同核，未额外编智能机制"
+      },
+      "counter_association": "容易先被理解为网页设计或文档工具；“脚”有配角、底部的意味，可能缺少用户要的Lab气势。"
+    },
+    {
+      "id": "CT-C07",
+      "name": "念头引擎",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 5,
+        "semantic_coherence": 4
+      },
+      "total": 27,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "念头/引擎都是熟词，组合为可理解完整名词",
+        "distinctiveness": "心智与工程动势的反差提供记点",
+        "lab_fit": "目标变行动与AI智能体基础研究相容，不是培训育儿",
+        "grounding": "书中实际程序由内部目标与当前状态决定steering",
+        "extension": "可涵盖思考、行动、工具调用与多模型增强",
+        "semantic_coherence": "念头为内在目标、引擎为行动驱动，两个部分共享过程"
+      },
+      "counter_association": "可能像智能体产品或创意工具；“引擎”构词拥挤，须严格查完整名称。"
+    },
+    {
+      "id": "CT-C08",
+      "name": "多想一步",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "完全自然的日常句子，读音记忆成本低",
+        "distinctiveness": "可反复说出的动作态度，仍有口号风险",
+        "lab_fit": "推理展开是AI公司明确研究角色，非教育培育",
+        "grounding": "作者实证支持中间步骤研究，明确非普遍性能定理",
+        "extension": "比具体算法宽，但一步容易绑定推理产品",
+        "semantic_coherence": "多想与判断展开同核，没有附加互不相关神话"
+      },
+      "counter_association": "有口号或产品slogan的风险；“一步”可能让人误以为只做推理时计算。"
+    }
+  ]
+}

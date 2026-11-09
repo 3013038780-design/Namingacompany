@@ -1,0 +1,53 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 actual English zero-input final acceptance",
+  "executed_at": "2026-11-08T23:51:08.988371+08:00",
+  "inputs": [
+    {
+      "path": "A4-zero-input-batch26.json",
+      "sha256": "d2f95f7848462beb90784b52e09f83b70e6cc0f84e731a7d1f906a089821bd45"
+    },
+    {
+      "path": "A4-zero-input-batch26.md",
+      "sha256": "53eee06a727eb57787e284827be6246b2449ce7488dad80d00d87a68a34ebf61"
+    },
+    {
+      "path": "A4-zero-input-batch26-receipt.json",
+      "sha256": "9c6411150b80dc758ee9b90a80679d934599307310b7b2d3261258e872a7ac8a"
+    },
+    {
+      "path": "A3-cn-batch32.json",
+      "sha256": "fc055cdd66651e0ef7012952765a870f988707fd7d873c1d68af66e8d2903fd0"
+    },
+    {
+      "path": "A3-cn-batch32.md",
+      "sha256": "ff75fe5b3c7072538ebd15de68d346bed20202a8d0a73740eeccc181451f77a7"
+    },
+    {
+      "path": "A3-cn-batch32-receipt.json",
+      "sha256": "cc80483f5a3d7249791d13fb86775cb35dc8b63bc483331d628d54f45421eb0f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-zero-batch26.json",
+      "sha256": "e9ac7b0c35dbd3b3ad500042ac8266b468f2fcaf722ffbcb73f57ef259774369"
+    },
+    {
+      "path": "A3-en-zero-batch26.md",
+      "sha256": "25e7ee37cb84460cbfb64226fc08d7a20b2b8471e86c158f8965c0102d906892"
+    }
+  ],
+  "all_receipt_hashes_match": true,
+  "receipt_hash_check_count": 20,
+  "eligible_english_inputs": 0,
+  "actual_english_outputs": 0,
+  "actual_new_english_queries": 0,
+  "actual_new_scores": 0,
+  "actual_execution": "实际读上游固定回执及CN32后核SHA，完成真实英语零终验，与C48最后无稿分开。",
+  "agent3_cumulative_candidate_queries": 553,
+  "agent3_cumulative_returned_candidate_results": 552,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 555,
+  "run_cumulative_returned_candidate_results": 554
+}

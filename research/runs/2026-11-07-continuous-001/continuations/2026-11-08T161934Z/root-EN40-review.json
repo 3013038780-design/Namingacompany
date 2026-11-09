@@ -1,0 +1,44 @@
+{
+  "reviewed_at": "2026-11-08T16:47:05.642667+00:00",
+  "reviewer": "/root",
+  "english_id": "C1-E42",
+  "decision": "accept_existing_independent_software_rejection_return_original_A4_last_R2",
+  "actual_root_reading": [
+    {
+      "url": "https://sites.google.com/view/sandholterik/projects/landfish",
+      "scope": "实际12–23：2024 School Project、作者角色System & Engine Programmer、独立游戏LandFish及玩法/版本。是具名软件项目，未运行/下载，不冒公司或官方登记。"
+    }
+  ],
+  "secondary_evidence_scope": "原A3另读安卓第三方目录及Apple开发者版权；root本次未重开，不冒全部本人已读。学生作品也依本项目具名软件使用标准避让，非必须有公司登记才拒绝。",
+  "quality_comparison": {
+    "root": 22,
+    "producer": 22,
+    "max_axis_difference": 0,
+    "all_gates_pass": true,
+    "root_sealed_before_producer_read": true
+  },
+  "new_root_usage_queries": 0,
+  "remaining_english_reworks": 1,
+  "refs": [
+    {
+      "path": "A4-candidates-batch40.json",
+      "sha256": "5e5b5cf52459a7b38bdeb5ae87b34ed5f3ccba32c1ed8a2bc904bd4db05fff66"
+    },
+    {
+      "path": "A4-quality-batch40.json",
+      "sha256": "70370720d7748aa98f0230ea34a15cf91f35a3866fb89db3f4da12df0c3cf0a2"
+    },
+    {
+      "path": "coordinator-en-batch40.json",
+      "sha256": "8c9e1d56b5a5963c086511c3b3212e9d1009574a57e887ba07e73b8a0a38eeb2"
+    },
+    {
+      "path": "A3-en-batch40.json",
+      "sha256": "1d7351e42bf1bda6b58060f9bceba468cdfa855c90ec9eb1e22cc84ed2e7fa8a"
+    },
+    {
+      "path": "A3-en-batch40-receipt.json",
+      "sha256": "7930a01084c9b89fef62d5bbaeed6242d8c5d22cf3029baaf5452933ce6973a1"
+    }
+  ]
+}

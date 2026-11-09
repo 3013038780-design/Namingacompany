@@ -1,0 +1,295 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T21:31:40.433508+08:00",
+  "protocol_version": "1.1",
+  "plan_type": "additive_company_role_paths_same_run",
+  "no_new_names": true,
+  "no_new_materials": true,
+  "original_plan_ref": {
+    "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+    "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+  },
+  "role_expansion_ref": {
+    "path": "research/runs/2026-11-07-continuous-001/A1-role-expansion01.json",
+    "sha256": "bbb6c1f816e0942aa2ee0e5e7cca52437db41e909ceaa7a62fde0583a374dec4"
+  },
+  "acceptance_ref": {
+    "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T131434Z/A1-expansion-acceptance.json",
+    "sha256": "154b4909d979c24245cc95119aa98c5f28d189c497e48eab3b7402a66e35f0e8"
+  },
+  "frozen_history_ref": {
+    "path": "research/runs/2026-11-07-continuous-001/A2-history-role-expansion01.json",
+    "sha256": "3b25df736729f568067093b32c4ca77f457b7ffa479b202b65105b28e177129a"
+  },
+  "directions": [
+    {
+      "id": "C1-RX01-P1",
+      "macro_ids": [
+        "S1",
+        "S4",
+        "S5"
+      ],
+      "original_direction_refs": [
+        "C1-D-S1",
+        "C1-D-S4",
+        "C1-D-S5"
+      ],
+      "title": "让他者能够创造与参与的场所关系",
+      "case_refs": [
+        {
+          "case_id": "B028",
+          "name": "Runway",
+          "analysis_location": "A1-role-expansion01.json cases/B028",
+          "case_finding": "同一种关系在不同世界已有可想象的场所：公司是让能力被使用、作品得以出现的条件。新核说明比只说飞机起飞更贴近实际命名解释。",
+          "evidence_boundary": "创始人直接受访的命名解释。"
+        },
+        {
+          "case_id": "B029",
+          "name": "Hugging Face",
+          "analysis_location": "A1-role-expansion01.json cases/B029",
+          "case_finding": "熟悉的身体关系可以让深技术机构先以欢迎参与、共同做事的角色出现。这里从词义与公司语境归纳作用，不把标识存在升级成创始人为何选名。",
+          "evidence_boundary": "词义及当前品牌语境已读；历史命名动机本次未确认。"
+        },
+        {
+          "case_id": "B025",
+          "name": "Anysphere / Cursor",
+          "analysis_location": "A1.json cases/B025",
+          "case_finding": "日常操作入口能让复杂创造先有可感的接触点；这次从入口进一步看可参与的完整场景，不再找一个按钮。",
+          "evidence_boundary": "原A1已核，本步未再外开品牌原文；不据功能反推历史命名动机。"
+        }
+      ],
+      "transfer_mechanism": "Runway的关键是让他者已有能力被使用的条件，HF补上陌生参与者如何贡献与接手。寻找场所、参与者、可用资源和共同活动的完整关系，公司可以像为他者创造条件的组织，而不必等同其中一个器件。",
+      "questions": [
+        "什么实践让原本不能参与的人得以贡献、接手或维护，而不只是工具又多一个功能？",
+        "创造条件中的场所/约定/可共享对象怎样一起作用；移去其中一个条件后，什么活动会不再可行？"
+      ],
+      "queries": {
+        "zh": [
+          "协作知识实践 新参与者 接手 共同维护 作者 案例",
+          "创造工具 工作坊 参与条件 设计研究 原文"
+        ],
+        "en": [
+          "collaborative knowledge practice newcomer participation handoff primary study",
+          "Engelbart Augmenting Human Intellect conceptual framework language artifacts methodology"
+        ]
+      },
+      "planned_sources": [
+        {
+          "title": "Augmenting Human Intellect: A Conceptual Framework",
+          "author": "Douglas Engelbart",
+          "target": "拟读概念框架中人、语言、器物、方法共同作用的具体段落，先核正式目录及可读正文。",
+          "planned_entry": "Douglas Engelbart Institute公开原报告入口待定位",
+          "selection_reason": "从组织支持人的活动寻找条件，不重复NLS链接/跳读功能。",
+          "access_status": "planned_not_read",
+          "edition_page_status": "具体版本、目录/章页与合法正文可读性待实访，不预填实读页数或日期。"
+        },
+        {
+          "title": "Situated Learning: Legitimate Peripheral Participation",
+          "author": "Jean Lave / Etienne Wenger",
+          "target": "拟读合法边缘参与及具体实践案例节选；先核目录与可合法获得的正文，不凭书名断言熟练技能一定可转移。",
+          "planned_entry": "作者机构、出版社样章或图书馆合法节选入口待定位",
+          "selection_reason": "补HF的参与/接手关系；并非只从开放仓库界面找按钮。",
+          "access_status": "planned_not_read",
+          "edition_page_status": "具体版本、目录/章页与合法正文可读性待实访，不预填实读页数或日期。"
+        }
+      ],
+      "news_plan": "拟在大学/公共研究机构检索协作实验室、开放工具贡献或工作坊的具体实践正文；新闻先核作者、时间和实际关系，再决定是否属近90天。",
+      "selection_criteria": [
+        "至少能指出谁原先做不到什么、什么条件让活动发生，不只把平台作为商业口号。",
+        "从完整场景中找可称呼的角色/关系；亲近感与科技身份分别评。"
+      ],
+      "rejection_criteria": [
+        "照搬跑道/伸展台/拥抱/可爱词根，或把HF当前自述当初始选名史。",
+        "把共同维护自动等同开放许可、育儿陪伴或我方已作商业模式承诺。"
+      ],
+      "history_risks": [
+        "比M05/C05共同参照、旧协作驾驶舱、跳读/NLS入口、橡皮鸭外部听者与已知社区伙伴上位角色；不能仅把接手换词即新增。",
+        "单件工具真实但称呼仍像设备/栏目可止步；旧工具家族不扩成封禁全部实践。"
+      ],
+      "next_deliverable": "正文实读后先交一条完整参与关系及来源边界；有自然广义Lab称呼再作中文，无则只留研究，不要求每文配名。"
+    },
+    {
+      "id": "C1-RX01-P2",
+      "macro_ids": [
+        "S5",
+        "S6",
+        "S4"
+      ],
+      "original_direction_refs": [
+        "C1-D-S5",
+        "C1-D-S6",
+        "C1-D-S4"
+      ],
+      "title": "活动中目的与可能行动共同形成",
+      "case_refs": [
+        {
+          "case_id": "B027",
+          "name": "Midjourney",
+          "analysis_location": "A1-role-expansion01.json cases/B027",
+          "case_finding": "名字给公司一个可以长期处于其中的世界观位置，不把公司压成某项工具或一代模型。",
+          "evidence_boundary": "企业官网自释，不等同初次命名决策档案。"
+        },
+        {
+          "case_id": "B028",
+          "name": "Runway",
+          "analysis_location": "A1-role-expansion01.json cases/B028",
+          "case_finding": "同一种关系在不同世界已有可想象的场所：公司是让能力被使用、作品得以出现的条件。新核说明比只说飞机起飞更贴近实际命名解释。",
+          "evidence_boundary": "创始人直接受访的命名解释。"
+        },
+        {
+          "case_id": "B037",
+          "name": "Imbue",
+          "analysis_location": "A1.json cases/B037",
+          "case_finding": "研究机构可因对他者能力的作用建立身份，而非把某种机制写满名字。",
+          "evidence_boundary": "原A1已核，本步未再外开品牌原文；不据功能反推历史命名动机。"
+        }
+      ],
+      "transfer_mechanism": "Midjourney把想成为什么保留为研究问题，Runway说明工具和使用者的创造条件相连。去找人如何在真实创造活动中重新界定问题、形成目标和发现可做之事，而非把不变目标下的更快优化改写成成长。",
+      "questions": [
+        "作者描述的哪一个具体活动中，目的并非预先完全给定，而是在做与观察后被重新界定？",
+        "工具、行动者及情境各改变了什么；哪些是观察/访谈、作者解释，哪些只是规范性主张？"
+      ],
+      "queries": {
+        "zh": [
+          "设计实践 目标形成 问题重构 反思性对话 作者 正文",
+          "创造活动 情境行动 计划 目标 具体案例"
+        ],
+        "en": [
+          "Donald Schon design reflective conversation situation problem setting chapter",
+          "Lucy Suchman plans situated actions goal formation original study"
+        ]
+      },
+      "planned_sources": [
+        {
+          "title": "The Reflective Practitioner",
+          "author": "Donald Schön",
+          "target": "优先定位Design as a Reflective Conversation with the Situation相关章节及设计实例；拟章名仅用于定位，实际版本/编号待核。",
+          "planned_entry": "出版社样章/图书馆合法节选或作者机构正文入口待定位",
+          "selection_reason": "从具体设计反思看目标/问题重构，不把反思压成另一物理反射术语。",
+          "access_status": "planned_not_read",
+          "edition_page_status": "具体版本、目录/章页与合法正文可读性待实访，不预填实读页数或日期。"
+        },
+        {
+          "title": "Plans and Situated Actions",
+          "author": "Lucy Suchman",
+          "target": "拟读计划与情境行动区别的具体案例和论证节选；实际目录核后选段。",
+          "planned_entry": "出版社/作者机构/图书馆合法正文入口待定位",
+          "selection_reason": "检验已有计划与活动发展之间关系，防止任何变化都称自进化。",
+          "access_status": "planned_not_read",
+          "edition_page_status": "具体版本、目录/章页与合法正文可读性待实访，不预填实读页数或日期。"
+        }
+      ],
+      "news_plan": "拟找作者大学机构的当代设计、创造活动、人机共同制作研究新闻；仅以新鲜日期选文不够，需有目的/问题如何形成的具体关系。",
+      "selection_criteria": [
+        "能复述一个活动前后问题/目标变化的实例，区别目标给定下的路径选择。",
+        "公司可成为与使用者共同探索可能性的主体，名称不被一代工具或阶段绑定。"
+      ],
+      "rejection_criteria": [
+        "把之后/途中/下一阶段/二次成长再换近义说法。",
+        "把活动中形成目的升级为系统会无限学习或任何AI自主目标都更好。"
+      ],
+      "history_risks": [
+        "与C28灵感之外、旧有界好奇/预测误差、C33算着走部分结果决定路径、C31反事实排练及旧另解比较；新书名不自动独立。",
+        "与反思/Reflection既有品牌概念区分；若只有泛化探索态度，无独特关系与自然称呼就不产名。"
+      ],
+      "next_deliverable": "实际正文中的对象-行动-情境-目的变化关系及证据层级；不先用未完/未来词造名字。"
+    },
+    {
+      "id": "C1-RX01-P3",
+      "macro_ids": [
+        "S5",
+        "S6",
+        "S4"
+      ],
+      "original_direction_refs": [
+        "C1-D-S5",
+        "C1-D-S6",
+        "C1-D-S4"
+      ],
+      "title": "技能可掌握与语言可交付之间的关系",
+      "case_refs": [
+        {
+          "case_id": "B091",
+          "name": "Ineffable Intelligence",
+          "analysis_location": "A1-role-expansion01.json cases/B091",
+          "case_finding": "公司可以因其关于知识是什么、从何而来的认识立场而得名。名字不必等于一项算法，研究使命本身也能容纳多种未来技术。",
+          "evidence_boundary": "企业以同名belief明确解释；未把主张当作已实现能力。"
+        },
+        {
+          "case_id": "B029",
+          "name": "Hugging Face",
+          "analysis_location": "A1-role-expansion01.json cases/B029",
+          "case_finding": "熟悉的身体关系可以让深技术机构先以欢迎参与、共同做事的角色出现。这里从词义与公司语境归纳作用，不把标识存在升级成创始人为何选名。",
+          "evidence_boundary": "词义及当前品牌语境已读；历史命名动机本次未确认。"
+        },
+        {
+          "case_id": "B021",
+          "name": "Oracle / 甲骨文",
+          "analysis_location": "research/runs/2026-11-06-agent1-baseline105/cases.json#B021",
+          "case_finding": "知识实践可以给技术机构一种长期角色；此处只承接文化认识主题，不把神谕当预测能力。",
+          "evidence_boundary": "旧105语义分析，未在本run重开词源；只作参照，不算新核。"
+        }
+      ],
+      "transfer_mechanism": "Ineffable提供知识形成/表达边界的认识立场，HF使问题接到共同实践与参与。找人怎样通过示范、尝试、共同工作掌握技能，文本说明和实践条件分别提供什么；不是把神秘、默会、不言说词汇直接移植成名。",
+      "questions": [
+        "哪种技能或判断在具体任务中可被运用，却不能只靠逐字说明完整交付；作者凭什么提出这一点？",
+        "示范、练习、共同注意和表达各承担什么作用；知识未充分言说与根本不可检验如何区分？"
+      ],
+      "queries": {
+        "zh": [
+          "默会知识 技能 示范 实践 言语表达 作者 具体案例",
+          "科学实践 技艺 传授 复制 技能 原著 节选"
+        ],
+        "en": [
+          "Michael Polanyi The Tacit Dimension Tacit Knowing chapter excerpt",
+          "tacit knowledge skill demonstration scientific replication primary author text"
+        ]
+      },
+      "planned_sources": [
+        {
+          "title": "The Tacit Dimension",
+          "author": "Michael Polanyi",
+          "target": "优先找Tacit Knowing相关章的具体技能/识认例及作者论证；目录、版本、实际段落待核。",
+          "planned_entry": "出版社样章/作者档案/图书馆合法节选入口待定位",
+          "selection_reason": "从真正例证读会做与能说的关系，不把书名或名言当素材。",
+          "access_status": "planned_not_read",
+          "edition_page_status": "具体版本、目录/章页与合法正文可读性待实访，不预填实读页数或日期。"
+        },
+        {
+          "title": "Changing Order: Replication and Induction in Scientific Practice",
+          "author": "Harry Collins",
+          "target": "拟定位激光复现实践与实验技能传递的具体案例；先核章节和可读正文，不先把二手故事记成已读。",
+          "planned_entry": "作者机构或出版社合法节选入口待定位",
+          "selection_reason": "让认识立场接受具体科学实践检验；与旧复证逐事实比对，不只重复可复制性。",
+          "access_status": "planned_not_read",
+          "edition_page_status": "具体版本、目录/章页与合法正文可读性待实访，不预填实读页数或日期。"
+        }
+      ],
+      "news_plan": "拟检索研究者机构关于技能示范、具身实践或知识交接的原研究新闻，优先有实际任务和限制的正文；不为了凑AI题材改成机器人公司产品宣传。",
+      "selection_criteria": [
+        "作者实质讨论了能做/能表达/能传递至少两者的关系及具体例子。",
+        "可承担研究立场，但必须能自然称呼，不能以哲学厚度抵消生僻或行业误读。"
+      ],
+      "rejection_criteria": [
+        "复制Ineffable的神秘/不可言说/超智能词根。",
+        "把经验知识不能仅靠文字完全交付夸大成语言无用、无法验证或我方已超越人类。"
+      ],
+      "history_risks": [
+        "旧C24复证、M23结果方向独立评审、C42双盲身份分置、C05会意共同指代、橡皮鸭外显假设均需比具体关系；同谈知识不自动全同族，但只剩传授/认识的上位词也不算新。",
+        "不能借新作者或新哲学术语重开已耗尽中文/英文家族。"
+      ],
+      "next_deliverable": "有作者实例与明确限制的技能-表达关系；若只有抽象形容词，不产名，也不另加用户审批。"
+    }
+  ],
+  "coverage_policy": "本补充选择三条较宽公司角色路径，接入原S1–S6地图，不替换原六方向；S2/S3原任务仍在但本次优先从参与、创造与知识实践扩展，不为齐类别硬配。原单类≤30%、古文≤15%、书籍/新闻实读及全部质量查重标准不变。",
+  "unknown_name_policy": "本阶段不提出名字，未来来源不明词不编词源；例证、作者解释、公司信念与已实现能力分别记录。",
+  "pilot_plan": {
+    "next_action": "待主控内部验收本增补后，依原用户授权实际读少量不同关系并继续中文创作；不要求用户再审计划，不重开A1。",
+    "reading_status": "all_new_book_and_news_entries_planned_not_read",
+    "search_status": "queries_planned_not_executed",
+    "material_count": 0,
+    "chinese_count": 0,
+    "english_count": 0
+  },
+  "not_retroactive_to_batch24": true
+}

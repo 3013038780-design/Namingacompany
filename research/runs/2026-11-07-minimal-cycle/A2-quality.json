@@ -1,0 +1,143 @@
+{
+  "agent_id": "/root/agent2_materials_cn",
+  "completed_at": "2026-11-07T16:16:36+08:00",
+  "judgement_type": "作者编辑判断，非测试或客观测量",
+  "blind_preview_file": "A2-preview.json",
+  "candidates": [
+    {
+      "candidate_id": "MC-A2-01",
+      "name": "原语",
+      "dimensions": [
+        {
+          "axis": "naturalness",
+          "score": 4,
+          "reason": "原语是完整技术称呼，两音节直接叫得出。",
+          "negative_association": "近音源语，首次口头需辨字。"
+        },
+        {
+          "axis": "memorability",
+          "score": 4,
+          "reason": "原与语形成紧凑声音，指向语言与计算。",
+          "negative_association": "不是人人熟知的对象，可能只记成语言相关。"
+        },
+        {
+          "axis": "technology_lab_fit",
+          "score": 4,
+          "reason": "基本操作与表达可承载程序语言/智能研究机构。",
+          "negative_association": "圈外也可能像翻译或语言服务公司。"
+        },
+        {
+          "axis": "grounding",
+          "score": 4,
+          "reason": "基本构件—组合—抽象关系原文明确；中文采用概括性术语借用并披露。",
+          "negative_association": "所读英文没有中文原语，不能假称逐字摘录。"
+        },
+        {
+          "axis": "longevity",
+          "score": 5,
+          "reason": "基础操作、表达和复杂系统可覆盖多年基础研究。",
+          "negative_association": "发展到机器人硬件时需补机构介绍。"
+        },
+        {
+          "axis": "semantic_coherence",
+          "score": 4,
+          "reason": "计算操作与语言表达沿同一表达/执行核心增厚。",
+          "negative_association": "不借“原”额外讲宇宙起源，避免无关故事。"
+        }
+      ],
+      "total": 25,
+      "passes_producer_gate": true,
+      "disposition": "submit_for_independent_review"
+    },
+    {
+      "candidate_id": "MC-A2-02",
+      "name": "倍频",
+      "dimensions": [
+        {
+          "axis": "naturalness",
+          "score": 4,
+          "reason": "已有完整二字技术词，顺口。",
+          "negative_association": "普通人或只听成一个规格。"
+        },
+        {
+          "axis": "memorability",
+          "score": 4,
+          "reason": "倍与频的数量/节律画面清楚。",
+          "negative_association": "行业词而非独特专名。"
+        },
+        {
+          "axis": "technology_lab_fit",
+          "score": 4,
+          "reason": "明显科学工程身份。",
+          "negative_association": "更像射频光电元件商，AI Lab偏弱。"
+        },
+        {
+          "axis": "grounding",
+          "score": 5,
+          "reason": "中文术语与具体1030/515nm关系原机构正文直接支持。",
+          "negative_association": "转换不等于总能量或智能翻倍。"
+        },
+        {
+          "axis": "longevity",
+          "score": 3,
+          "reason": "能展开不同系统转换研究。",
+          "negative_association": "频率限定较强，像组件。"
+        },
+        {
+          "axis": "semantic_coherence",
+          "score": 4,
+          "reason": "转换既有输入、产生新输出是一致核心。",
+          "negative_association": "营销倍增联想会简化真实过程。"
+        }
+      ],
+      "total": 24,
+      "passes_producer_gate": false,
+      "disposition": "reject_at_A2_brand_scope"
+    },
+    {
+      "candidate_id": "MC-A2-03",
+      "name": "声子",
+      "dimensions": [
+        {
+          "axis": "naturalness",
+          "score": 4,
+          "reason": "已有完整科学词，两字可直接称呼。",
+          "negative_association": "生子同音带来口头误听。"
+        },
+        {
+          "axis": "memorability",
+          "score": 4,
+          "reason": "声的日常入口和子的粒子形象短且清楚。",
+          "negative_association": "看字后才排除生子。"
+        },
+        {
+          "axis": "technology_lab_fit",
+          "score": 4,
+          "reason": "准粒子与计算材料研究有科研Lab气质。",
+          "negative_association": "容易被当声学或语音企业。"
+        },
+        {
+          "axis": "grounding",
+          "score": 5,
+          "reason": "原机构定义支持集体激发；没有硬凑两个字。",
+          "negative_association": "不能将集体激发外推为智能必然涌现。"
+        },
+        {
+          "axis": "longevity",
+          "score": 4,
+          "reason": "多体组织的研究世界观宽于一个模型功能。",
+          "negative_association": "若大众始终理解为声音，会牺牲广度。"
+        },
+        {
+          "axis": "semantic_coherence",
+          "score": 4,
+          "reason": "声音、振动、集体激发始终沿同一物理核心。",
+          "negative_association": "不把子另说成种子或儿童。"
+        }
+      ],
+      "total": 25,
+      "passes_producer_gate": true,
+      "disposition": "submit_for_independent_review"
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "accepted_at": "2026-11-09T04:01:05.164697+08:00",
+  "same_research_run": true,
+  "whole_production_compliance_claimed": false,
+  "source_return_refs": [
+    {
+      "path": "continuations/2026-11-08T192536Z/root-E47-source-return.json",
+      "sha256": "9e69e29668b006d776be2b04949fa809b5ccedad9f353003c1a9541cf352b048"
+    }
+  ],
+  "handoffs": [
+    {
+      "id": "H1",
+      "from": "verified_existing_A1",
+      "to": "/root/continuous_a2",
+      "status": "accepted",
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "A1.json",
+          "sha256": "b3bbd78ef83733b79b7033404dc29727a7e0c749988d06218820850f4de520be"
+        },
+        {
+          "path": "A1-role-expansion02.json",
+          "sha256": "6a127ec64699a257e20f7959a2ce3309e8cefe7c2c117134c2220612a3dc3181"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "search-plan-role-expansion02.json",
+          "sha256": "f86b3c18c74f778d2a6fb4258fed662584879e5747bb0116e0cefc6288d98d1a"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A2-creation-execution-batch39.json",
+          "sha256": "f7af25329efcb1708b39b73ee5205dc0c72d7878c7b79ce1c885f0ffd898d939"
+        }
+      ],
+      "accepted_at": "2026-11-09T04:01:05.164697+08:00",
+      "reason": "原六世界/已验计划复用；界面对象、机制身份与整体凝练服务时间界面寻找，非重开105。"
+    },
+    {
+      "id": "H2",
+      "from": "/root/continuous_a2",
+      "to": "/root",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C57"
+      ],
+      "input_refs": [
+        {
+          "path": "materials-extension34.json",
+          "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462"
+        },
+        {
+          "path": "A2-preview-batch39.json",
+          "sha256": "78ac22e6579ac6b7add0896b6201d5fc63b9b290a6708b3bb90bbc4d1be6e935"
+        },
+        {
+          "path": "A2-quality-batch39.json",
+          "sha256": "776f7cffb2bfa6d71a6e45ad58d3b8b639fd37df787c3abb156413ac72f5f6ff"
+        },
+        {
+          "path": "A2-preview-batch40.json",
+          "sha256": "7a20e6a9705c8bc3483ea0debcac49c3311e2e50fada261c591c884e1ee06db2"
+        },
+        {
+          "path": "A2-quality-batch40.json",
+          "sha256": "3f8539c843ea1b78b9a33d035082a8d929accb41ea6efd4aef4377e0ea7e1103"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "coordinator-cn-batch39.json",
+          "sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee"
+        },
+        {
+          "path": "coordinator-family-review-batch39.json",
+          "sha256": "10f1be7e1525a3d554f177342838899b61d9dfb21fa91566b269762364b8ade8"
+        },
+        {
+          "path": "coordinator-cn-batch40.json",
+          "sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62"
+        },
+        {
+          "path": "coordinator-family-review-batch40.json",
+          "sha256": "153893dbf53b029a0d0d8a6abd7bf903e0c2a23be1e352c6da8c5de7752e5e1a"
+        }
+      ],
+      "accepted_at": "2026-11-09T04:01:05.164697+08:00",
+      "reason": "两版均先无分封root25再作者25、轴差<=1，出处/家族独立审，原时镜市场拒绝不回改质量分。"
+    },
+    {
+      "id": "H3",
+      "from": "/root",
+      "to": "/root/live_a3",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C57"
+      ],
+      "input_refs": [
+        {
+          "path": "coordinator-cn-batch39.json",
+          "sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee"
+        },
+        {
+          "path": "coordinator-cn-batch40.json",
+          "sha256": "f3ba82bdf507b7a3fa19e4d8e8a7cd0da2e103e791497d57b8b9732c1e04da62"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-cn-batch41.json",
+          "sha256": "c72e7eda743b39eddf281a85c844448cd2897a0edfb474bd9418065c5ba7223c"
+        },
+        {
+          "path": "A2-creation-execution-batch40.json",
+          "sha256": "c901c9675a46764e58b6c38925c178544550042510d84eef3273a0510eded295"
+        },
+        {
+          "path": "A3-cn-batch42.json",
+          "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5"
+        },
+        {
+          "path": "continuations/2026-11-08T192536Z/root-cn41-review.json",
+          "sha256": "e21f7b64e4d31eca544cfada28d2ccd6236f0249fec69829825ee5e1d5dcf759"
+        },
+        {
+          "path": "continuations/2026-11-08T192536Z/root-cn42-review.json",
+          "sha256": "55349d3005f4f5c74ba81bc0bde95df8eb86744f00f37e03a3cc19055032c040"
+        }
+      ],
+      "accepted_at": "2026-11-09T04:01:05.164697+08:00",
+      "reason": "原时镜8查拒绝沿原A2 R1返回，逆序猫另8查通过；两版同ID不计新家族，误中原正文root核。"
+    },
+    {
+      "id": "H4",
+      "from": "/root/live_a3",
+      "to": "/root/continuous_a4",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C57"
+      ],
+      "input_refs": [
+        {
+          "path": "A3-cn-batch42.json",
+          "sha256": "f0387d4e338b9ac473d0fb486c73a3ce7be9f68101339e2bd5f9b83850b9a2b5"
+        },
+        {
+          "path": "A3-cn-batch42-receipt.json",
+          "sha256": "bd6d5b42054cfeaae0f66b1e18f55e0fe1ad717667fd0b1bf303209ff4eaad9a"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A4-creation-execution-batch45.json",
+          "sha256": "7c908a3f75f8cf246a0207ba07d7780fa7172e68924a777c63376eb16da98da3"
+        },
+        {
+          "path": "A4-candidates-batch45.json",
+          "sha256": "9998e6e24ff5d9cc8351925f81fe10f946d82194d95d0a31b9265b59e186804f"
+        }
+      ],
+      "accepted_at": "2026-11-09T04:01:05.164697+08:00",
+      "reason": "原A4实际读合格新版，不继承原时镜资格或制造零输入。"
+    },
+    {
+      "id": "H5",
+      "from": "/root/continuous_a4",
+      "to": "/root/live_a3",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C57"
+      ],
+      "input_refs": [
+        {
+          "path": "A4-C57-source-correction-preview.json",
+          "sha256": "4fcba2f09cfc4a6bc5557761992b39428ea2f874b4c51c6de91eb4d34eb4c68a"
+        },
+        {
+          "path": "A4-C57-source-correction-quality.json",
+          "sha256": "c774538d3717dd51817e64d3703beb990c642d30552dc7efee4255e992c79b37"
+        },
+        {
+          "path": "coordinator-en-batch45-source2.json",
+          "sha256": "a1e8177d8a1100d86c43a660a3038c19d703433f4c2fcff167e8a9186e929832"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "A3-en-batch45.json",
+          "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc"
+        },
+        {
+          "path": "A3-E47-correction-closeout.json",
+          "sha256": "339878232d9b02b54873dba2c861c767acefa277ca64799621bdf175771bbab7"
+        }
+      ],
+      "accepted_at": "2026-11-09T04:01:05.164697+08:00",
+      "reason": "原盲评21/21后EN45发现词汇误述；真实退原A4纠正全部本包来源、root新封22后作者21，旧分保留，同A3验源。实际纠正不是一次通过，E47词形未改不增版本。"
+    },
+    {
+      "id": "H6",
+      "from": "/root/live_a3",
+      "to": "/root",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C57"
+      ],
+      "input_refs": [
+        {
+          "path": "A3-en-batch45.json",
+          "sha256": "6edd0219e46eb19b9719e140ad95afe609a5a8f7ad7d4d8ddc2b9496d79820cc"
+        },
+        {
+          "path": "A3-E47-profile-addendum.json",
+          "sha256": "bc5ab585d271bdfc0f44fe85244bee06124c6a9ca084ee6ef05ab6a48da82982"
+        },
+        {
+          "path": "A3-E47-etail-addendum.json",
+          "sha256": "ad700361d0b379b47479d99c5c96e193d78d345b5d9cef5f56f33b805873e099"
+        },
+        {
+          "path": "A3-E47-correction-closeout.json",
+          "sha256": "339878232d9b02b54873dba2c861c767acefa277ca64799621bdf175771bbab7"
+        },
+        {
+          "path": "A4-C57-postscreen-review.json",
+          "sha256": "6b2785c3b83b2673528285c106a75a70f701b7a73c91687af81273b2f21342c8"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+          "sha256": "98edc2dacf195d987f95bbaba133acb292d13b762e1bcd994d5241c66e89660c"
+        }
+      ],
+      "accepted_at": "2026-11-09T04:01:05.164697+08:00",
+      "reason": "英文8查询+1近名补证，root实读profile/具名Apex/政府历史名及词典差异；原A4实际非数字复审，同名个人技术身份和历史近名风险正面保留，不称清权。"
+    },
+    {
+      "id": "H7",
+      "from": "/root",
+      "to": "catalog",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C57"
+      ],
+      "input_refs": [
+        {
+          "path": "continuations/2026-11-08T192536Z/root-C57-terminal-review.json",
+          "sha256": "98edc2dacf195d987f95bbaba133acb292d13b762e1bcd994d5241c66e89660c"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "delivery-C1-E47.json",
+          "sha256": "2c075f2575e5279e4f798792ee2a400d867b6394ec827574eb9d0996bce3d70a"
+        },
+        {
+          "path": "continuations/2026-11-08T192536Z/decisions-through-batch40.json",
+          "sha256": "67fb89fd9fdd25c3ac41652aaa5ee0d9f909857d05fb43adc795097aa6497862"
+        }
+      ],
+      "accepted_at": "2026-11-09T04:01:05.164697+08:00",
+      "reason": "来源纠错/双评/双语独立筛查/原角色/家族终审完成，新增同一独立家族为讨论备选，非注册许可或用户审美已认可。"
+    }
+  ]
+}

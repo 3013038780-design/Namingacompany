@@ -1,0 +1,52 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-06T17:20:57+08:00",
+  "status": "returned",
+  "plan_version": "v1",
+  "plan_sha256": "6a6df48300390189c39959d2204b54d1f4bb4e277782ac7eb7ad80b188575670",
+  "execution_ref": "Actual coordinator read of all8 tasks and A1 relevant case fields; actual collaboration.followup_task to A2 for revision",
+  "direction_reviews": [
+    {
+      "direction_id": "D1",
+      "status": "accepted",
+      "reason": "具体案例、机制、阅读问题与取舍形成可执行链；定位路径修正后可继续。"
+    },
+    {
+      "direction_id": "D2A",
+      "status": "accepted",
+      "reason": "具体案例、机制、阅读问题与取舍形成可执行链；定位路径修正后可继续。"
+    },
+    {
+      "direction_id": "D2B",
+      "status": "returned",
+      "reason": "日行迹的观测形状与生命组织的问题/资料路径未连通；需改案例或实质修改问题和资料。"
+    },
+    {
+      "direction_id": "D3A",
+      "status": "accepted",
+      "reason": "具体案例、机制、阅读问题与取舍形成可执行链；定位路径修正后可继续。"
+    },
+    {
+      "direction_id": "D3B",
+      "status": "accepted",
+      "reason": "具体案例、机制、阅读问题与取舍形成可执行链；定位路径修正后可继续。"
+    },
+    {
+      "direction_id": "D4",
+      "status": "accepted",
+      "reason": "具体案例、机制、阅读问题与取舍形成可执行链；定位路径修正后可继续。"
+    },
+    {
+      "direction_id": "D5",
+      "status": "accepted",
+      "reason": "具体案例、机制、阅读问题与取舍形成可执行链；定位路径修正后可继续。"
+    },
+    {
+      "direction_id": "D6",
+      "status": "accepted",
+      "reason": "具体案例、机制、阅读问题与取舍形成可执行链；定位路径修正后可继续。"
+    }
+  ],
+  "cross_cutting_correction": "Case analysis_location must use research/seed/brand-naming-foundation.md; current text omitted research/.",
+  "downstream": "No material pilot or name creation authorized; no new names."
+}

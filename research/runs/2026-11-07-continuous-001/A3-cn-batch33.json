@@ -1,0 +1,256 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-09T00:33:27.888592+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch31.json",
+      "sha256": "4c076a6cf8abe2d5a81b895f4bd37d0fd297397aab8e580dd91e7a1afdb42eb9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch31.md",
+      "sha256": "2afc3d190b1cd98c0aaa0062ff2e0ad85ec3151410a4c16fc7d789cd12603f7c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch31.json",
+      "sha256": "b0e80e9736ce16c1be72516f5cfb40b1ee077127c60a0a50ca649d1ccaa81c9b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch31.json",
+      "sha256": "8c694ee7041334a6669a7f345fcd7fd5eae5d6b5aa0d4e62fb43a17ca83550a6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension29.json",
+      "sha256": "1865bfd97cd5b171d432fa351de6b724e6ab253c6cbe188082e3c38765bb461d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch31.json",
+      "sha256": "4c9760f15c0370e21108d3f4fc2e9ed2726222678377ca83862c746e6d7033f6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch31.json",
+      "sha256": "79e24923eba9adb07a08f32ad24671d2eabc21f5104d657d3b8b9055c00bdd38"
+    }
+  ],
+  "query_count": 17,
+  "completed_search_result_count": 17,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-C50",
+      "name": "陆行鱼",
+      "query_logs": [
+        {
+          "query": "\"陆行鱼\"",
+          "executed_on": "2026-11-09",
+          "summary": "主要Bilibili宽泛检索、TapTap玩家提问、泥跳鱼翻译和小说段落，未确证商业核心。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"陆行鱼科技\"",
+          "executed_on": "2026-11-09",
+          "summary": "科技精确独立查询主要无关ICP备案/目录，未确证本名公司。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"陆行鱼智能\"",
+          "executed_on": "2026-11-09",
+          "summary": "智能精确独立查询主要AI泛资讯及陆吾异名，不当本名。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"陆行鱼\" AI 模型 软件 公司",
+          "executed_on": "2026-11-09",
+          "summary": "AI模型软件组主要泛模型目录/水产企业，未确证本名软件模型。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"陸行魚\" 公司 軟體 品牌",
+          "executed_on": "2026-11-09",
+          "summary": "繁体命中陸行鳥多媒體及普通鱼类企业；鸟与鱼异字，不冒同名。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"luxingyu\" company software",
+          "executed_on": "2026-11-09",
+          "summary": "拼音主要卢星宇个人名/联系邮箱，不自动商业品牌。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"陆行鱼\" 品牌 游戏",
+          "executed_on": "2026-11-09",
+          "summary": "游戏组有鬼泣Boss类别陆行鱼类恶魔与玩家提问，正文核后不当独立软件名。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"陆行鱼\" 有限公司",
+          "executed_on": "2026-11-09",
+          "summary": "有限公司补搜有17173作者署名陆行鱼与小说章节，不把作者名自动当公司。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "pass_public_use_initial_screen_only",
+      "reason": "8有效实际查询未确证完整中文核心的独立公司/模型/软件。游戏类别、玩家提问与个人作者不自动品牌；可交原A4英文匹配，非双语成品或注册核准。",
+      "evidence": [
+        {
+          "url": "https://game.xiaomi.com/viewpoint/1248953675_1626162643168_13",
+          "access": "game_guide_body_read",
+          "finding": "L7–8游戏鬼泣-巅峰之战、Boss尼猡；陆行鱼类恶魔为类别，非独立游戏名。"
+        },
+        {
+          "url": "https://www.taptap.cn/moment/94023001124638169",
+          "access": "player_post_body_read",
+          "finding": "L13–19是偶遇搁浅的鱼帖及玩家提问这是新的陆行鱼吗，关联妄想山海测试服；游戏卡片页面已失效不等于正文不可读。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Luxingyu",
+          "scope": "2026-11-09实际逐名入口不可访问，不称无登记。"
+        }
+      },
+      "risks": [
+        "游戏怪物/钓鱼水产首感与陆行鸟近词风险",
+        "中文为凝练称呼，不是标准物种官方名称",
+        "大陆公司及9/42、境外登记未清；英文未配未筛"
+      ]
+    },
+    {
+      "candidate_id": "C1-C51",
+      "name": "斑马线",
+      "query_logs": [
+        {
+          "query": "\"斑马线\"",
+          "executed_on": "2026-11-09",
+          "summary": "道路设施常见词典/政府说明，不以通名本身拒绝。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"斑马线科技\"",
+          "executed_on": "2026-11-09",
+          "summary": "精确科技命中深圳市斑马线科技与香港历史公司；后续定向查并实际读企查查公司段。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"斑马线智能\"",
+          "executed_on": "2026-11-09",
+          "summary": "智能精确主要智能斑马线道路预警项目，为功能/设施，不当独立企业名。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"斑马线\" AI 模型 软件 公司",
+          "executed_on": "2026-11-09",
+          "summary": "AI软件组有斑马App与斑马AI课线索，但核心斑马不同，不将斑马线混同；低质下载站北京主体未独立确证，不依它拒绝。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"斑馬線\" 公司 軟體 品牌",
+          "executed_on": "2026-11-09",
+          "summary": "繁体命中斑馬線文庫有限公司，实际打开台湾官方详情：54836941核准设立、含出版/软件零售服务登记；不把经营项目当实营AI。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"banmaxian\" company software",
+          "executed_on": "2026-11-09",
+          "summary": "拼音有BANMAXIAN窗帘商品索引和Gitee用户名；未读品牌原页，非中文拒绝主证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"斑马线\" APP",
+          "executed_on": "2026-11-09",
+          "summary": "APP组有较长人行红绿灯应用功能描述及斑马线指挥官游戏线索；不随意删有意义标题词称精确斑马线。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"深圳市斑马线科技有限公司\"",
+          "executed_on": "2026-11-09",
+          "summary": "深圳主体独立精确补搜命中企查查分类企业段，实际开L56–66明确主体、安全光幕/检测光栅销售；第三方正文非官方工商现状核准。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"斑马线\" \"品牌\" 手机壳",
+          "executed_on": "2026-11-09",
+          "summary": "手机壳组有牛选店铺斑马线科技历史索引与普通斑马纹商品；未核淘宝原店，不以索引独立证明现营业。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "reject_existing_exact_core_technology_company_public_use_evidence",
+      "reason": "企查查可读正文完整列深圳市斑马线科技有限公司及安全光幕/光栅销售。地域和科技后缀不形成新核心，按既定公开商业使用口径拒绝，不称已核AI公司、官方存续或9/42商标。台湾出版主体与香港历史公司另列性质，不依道路通名或斑马App误杀。",
+      "evidence": [
+        {
+          "url": "https://top.qcc.com/tc/38ab2b66d3e1.html",
+          "access": "third_party_company_directory_body_read",
+          "finding": "L56–66完整深圳市斑马线科技有限公司、2013-07-03、销售安全光幕/检测光栅；第三方显示存续，不声称本次官方登记核准或AI研究。核心斑马线已有科技公司用名。"
+        },
+        {
+          "url": "https://findbiz.nat.gov.tw/fts/company/54836941",
+          "access": "official_company_detail_body_read",
+          "finding": "L20–35斑馬線文庫有限公司/54836941，页面显示核准设立及2021-11-30变更；L37–51列软件零售/软件服务/图书及软件出版项目，仅登记许可范围，不证明实营科技或AI。文库完整限定不作唯一精确科技主证。"
+        },
+        {
+          "url": "https://www.86hc.com/crossing-technology-limited",
+          "access": "third_party_historical_company_detail_body_read",
+          "finding": "L10–26斑马线科技有限公司/CROSSING TECHNOLOGY LIMITED，2014成立且页面称已解散，L53称2019公告；未访问香港原注册处/宪报，不作现时在册或存续证据。"
+        },
+        {
+          "url": "https://lawplayer.com/company/54836941",
+          "access": "third_party_company_detail_body_read",
+          "finding": "L42–46及78–81台湾主体及来源说明，与已读官方详情互证；不取其评论为法律结论。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Banmaxian",
+          "scope": "2026-11-09实际逐名入口不可访问。"
+        },
+        "taiwan_company": {
+          "status": "official_detail_read",
+          "url": "https://findbiz.nat.gov.tw/fts/company/54836941",
+          "scope": "本次仅该台湾主体详情可读，不等于大陆字号或9/42核准。"
+        },
+        "hong_kong_company": {
+          "status": "third_party_historical_record_only",
+          "url": "https://www.86hc.com/crossing-technology-limited",
+          "scope": "未读香港官方注册处/原宪报，第三方记已解散不冒当前在册。"
+        }
+      },
+      "risks": [
+        "普通道路设施与真正公司核心分开",
+        "北京App主体/淘宝店铺/窗帘索引不当已独立核实",
+        "不从软件经营许可推AI实际研发；工商9/42未清"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "本run2026-11-07两个真实阳性对照，本批0新对照。",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称全球无注册或公司与9/42法律核准。",
+  "quality_rejected_not_searched_ids": [],
+  "passed_chinese_candidate_ids": [
+    "C1-C50"
+  ],
+  "rejected_chinese_candidate_ids": [
+    "C1-C51"
+  ]
+}

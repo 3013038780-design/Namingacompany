@@ -1,0 +1,194 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T19:17:39.685446+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch21.json",
+      "sha256": "03c41e0e634c0454be18a12582bc8383183b5aeeb86abca08f54d16ea9bbfaf4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch21.json",
+      "sha256": "b2279af2ce4311012c1073a21b19159f0151f1648ef02e1cbbc26eced908df7e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch21.json",
+      "sha256": "8dc53ed028e8f10955a77e09cbe2a92ca6de5a47885a8cb3923aa12335b2c6e1"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch21.json",
+      "sha256": "cedb1897412ad5b45fa6c6d402d3dc56ead04ad7fb69e5ad9e53809d1913ac9d"
+    }
+  ],
+  "query_count": 15,
+  "results": [
+    {
+      "candidate_id": "C1-C36",
+      "name": "乐观锁",
+      "query_logs": [
+        {
+          "query": "\"乐观锁\"",
+          "executed_on": "2026-11-08",
+          "summary": "主要百科/教程和MyBatis-Plus乐观锁插件；后实际读官方说明以区分通用功能与独立品牌。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"乐观锁科技\"",
+          "executed_on": "2026-11-08",
+          "summary": "精确科技后缀返回招聘面试/技术文章中的乐观锁通名，未确认同核心企业。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"乐观锁智能\"",
+          "executed_on": "2026-11-08",
+          "summary": "精确智能后缀返回Agent版本控制与技术文章，名称实际阿里云百炼等，乐观锁作功能说明，未当其品牌。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"乐观锁\" AI 模型 软件 公司",
+          "executed_on": "2026-11-08",
+          "summary": "AI模型软件组合多专利/招股技术说明和课程，乐观锁是实现机制，不冒称已有同名基础模型。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"樂觀鎖\" 公司 軟體",
+          "executed_on": "2026-11-08",
+          "summary": "繁体结果数据库专利/开发文档与面试题；关键词技术用法，不按出现频次拒名称。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"leguansuo\" company",
+          "executed_on": "2026-11-08",
+          "summary": "拼音完整leguansuo company实际无结果，不能据此担保全球无登记。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"乐观锁\" 品牌 公司 名称",
+          "executed_on": "2026-11-08",
+          "summary": "品牌/公司组合主要华为Astro文档对象版本化功能与技术课程，没有确证独立品牌主体。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "public_use_screen_pass_with_generic_technical_use",
+      "reason": "7条有效查询未确证完整核心独立公司、模型或软件品牌；已读MyBatis-Plus官方插件文档，乐观锁为通用机制、内置功能类型，不因软件实现同名机制就误判具名独立商业品牌。技术通名/数据库功能联想和显著性风险保留，登记未清。",
+      "evidence": [
+        {
+          "url": "https://baomidou.com/plugins/optimistic-locker/",
+          "access": "primary_software_documentation_body_read",
+          "finding": "L88–110明确标题乐观锁插件，说明乐观锁为并发机制，MyBatis-Plus提供OptimisticLockerInnerInterceptor；内置技术功能而非另一个独立名为乐观锁的公司/软件品牌。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07 A3-controls.json共同入口403，本批未新访问，未做逐名/9与42类核验。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07 A3-controls.json共同入口403，本批未新访问，未做逐名/9与42类核验。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Leguansuo",
+          "scope": "2026-11-08本次实际逐名拼音搜索URL不可访问，不能解释为无登记。"
+        }
+      }
+    },
+    {
+      "candidate_id": "C1-C37",
+      "name": "骰子钟",
+      "query_logs": [
+        {
+          "query": "\"骰子钟\"",
+          "executed_on": "2026-11-08",
+          "summary": "精确返回骰宝/骰盅、骰子-钟敏模拟器及词典，钟敏字词需分开不能截断成骰子钟。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"骰子钟科技\"",
+          "executed_on": "2026-11-08",
+          "summary": "科技后缀多工具网站骰子与钟并列模块及商品噪声，未确认同核心公司。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"骰子钟智能\"",
+          "executed_on": "2026-11-08",
+          "summary": "智能后缀多工具模块/电商多商品混排，未将页面同时有骰子钟字当独立品牌。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"骰子钟\" AI 模型 软件 公司",
+          "executed_on": "2026-11-08",
+          "summary": "AI模型软件组合多骰子设备专利与随机工具，具体产品名不同，未确证本名公司/模型。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"骰子鐘\" 公司 軟體",
+          "executed_on": "2026-11-08",
+          "summary": "繁体命中港交所设计表，实际打开并定位页13骰子鐘(98-00366)描述；历史硬件同词如实保留，非软件品牌或现时登记。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"tou zhong\" \"dice\" software",
+          "executed_on": "2026-11-08",
+          "summary": "本条是近名骰钟tou zhong词典用法，不是完整骰子钟拼音；骰钟/骰盅通用品类不能直接当本名。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"touzizhong\" company software",
+          "executed_on": "2026-11-08",
+          "summary": "补完整touzizhong拼音结果主要投资者名单等无关噪声，未确证本名主体。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"骰子钟\" 品牌 产品 游戏",
+          "executed_on": "2026-11-08",
+          "summary": "品牌产品游戏补查为全民骰宝等不同完整名；第三方骰子-钟敏应用正文已核，非骰子钟精确同名。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "public_use_screen_pass_with_historical_design_description",
+      "reason": "8条有效查询未确证完整核心公司、AI模型或独立软件品牌。历史港交所草稿确列骰子鐘(98-00366)外观设计描述，不能声称词面首造或没有同词硬件；该描述本身尚不证明独立品牌，交主控编辑终审，不冒称现时专利/商标或登记可用。",
+      "evidence": [
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0130/a4563/etime-20150115-32.pdf",
+          "access": "primary_exchange_filing_text_excerpt_read",
+          "finding": "PDF第13页L620–626：Design Dice clock (98-00366)/(骰子鐘(98-00366))，设计号201230362252.0，主体Zhangzhou Hongyuan，列示期限2012-08-03至2022-08-02；当时申请版草稿非现时登记。实际读表格文本/发起页12截图工具调用，未声称目读实物设计或通读全稿。"
+        },
+        {
+          "url": "https://app-6449362276.appstor.io/",
+          "access": "third_party_app_page_body_read",
+          "finding": "L15/30/64实际名骰子-钟敏骰子模拟器,摇骰子&骰子游戏，provider博文杨，骰子通用物件与钟敏另一名字；不能删敏和标点拼成本候选来判精确同名。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07 A3-controls.json共同入口403，本批未新访问，未做逐名/9与42类核验。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07 A3-controls.json共同入口403，本批未新访问，未做逐名/9与42类核验。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Touzizhong",
+          "scope": "2026-11-08本次实际逐名拼音搜索URL不可访问，不能解释为无登记。"
+        }
+      }
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "passed_chinese_candidate_ids": [
+    "C1-C36",
+    "C1-C37"
+  ],
+  "controls_reused_not_new": "本run原2阳性对照，本批0新增；未重跑C23/海南失败查询。",
+  "completed_search_result_count": 15,
+  "new_failed_search_attempts": 0
+}

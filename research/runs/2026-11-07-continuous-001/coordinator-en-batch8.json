@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T21:24:03.690714+08:00",
+  "independence": "Read producer preview batch8 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C11",
+      "name": "At Runtime",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通短语读法清楚",
+          "counter_association": "at容易弱读"
+        },
+        "spelling": {
+          "reason": "完整常见介词和技术名词",
+          "counter_association": "runtime连写与大小写需统一"
+        },
+        "grounding": {
+          "reason": "运行时是实际计算阶段",
+          "counter_association": "运行不等于模型学习"
+        },
+        "bilingual_relation": {
+          "reason": "提交之后对应实际执行阶段",
+          "counter_association": "英文重阶段中文重动作以后"
+        },
+        "distinctiveness": {
+          "reason": "有明确技术身份",
+          "counter_association": "通用术语专名弱像开发专栏"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E08"
+    }
+  ]
+}

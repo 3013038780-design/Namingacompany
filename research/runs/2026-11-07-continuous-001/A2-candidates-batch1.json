@@ -1,0 +1,393 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-07T20:42:55.313107+08:00",
+  "scope": "六中文草案，材料M01–M06各一，尚非推荐或已查重名字；M07/08无名字。",
+  "candidates": [
+    {
+      "id": "C1-C01",
+      "name": "由此及彼",
+      "pinyin": "yóu cǐ jí bǐ",
+      "material_id": "C1-M01",
+      "family_id": "C1-BF-relation-network-known-to-unknown",
+      "formation": "采用现成汉语成语作品牌概括，不是把四个漂亮字拼起来，也不假称SICP有这句中文原文。",
+      "meaning": "从眼前已知的一个端点，沿着真实关系，获得对另一个端点的认识。",
+      "crossing": "SICP同一网络可以由C求F，也能撤销旧依据后由F求C；现成成语让这种“关系不变，已知端可换”的过程成为可称呼的研究姿态。",
+      "layers": [
+        "日常由一事推知另一事的完整表达",
+        "计算网络中同一关系可从不同已知量求解",
+        "公司帮助模型沿可检查关系接近尚未知对象的有限研究隐喻"
+      ],
+      "material_feature_retained": "保留沿真实关联由已知端取得另一端信息，且起点不必永远固定。",
+      "material_feature_lost": "名字不包含连接器实现、冲突报错或信息充分性的全部条件，必须在释义中保留这些边界。",
+      "why_name_not_generic": "四字本身是完整动作与认知关系，具有一个明确的此—彼方向画面；不是成长/智能等抽象词随意组合。",
+      "shortcoming": "像方法论或知识栏目，四字比短专名长；成语本身普遍，辨识度与实际使用必须另查。",
+      "science_boundary": "固定规则推导不等于模型自主学习，不能保证任意问题都能互逆求解。",
+      "history_check": {
+        "status": "new_proposal_pending_coordinator_family_review",
+        "reason": "旧换坐标改变同一对象的表示；本项沿同一约束关系交换已知/未知。与多想一步的中间推理步骤也不同；若主控认为最终品牌只剩泛化推知，应保守合并。"
+      },
+      "口语检验": [
+        "我们是由此及彼，正在研究智能。",
+        "由此及彼今天发布了一项研究。"
+      ],
+      "material_ids": [
+        "C1-M01"
+      ],
+      "plan_direction_id": "C1-D-S3",
+      "case_ids": [
+        "B074",
+        "B002"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "source_urls": [
+        "https://sicp.sourceacademy.org/chapters/3.3.5.html"
+      ],
+      "sources": [
+        {
+          "title": "SICP Comparison Edition 3.3.5 Propagation of Constraints",
+          "url": "https://sicp.sourceacademy.org/chapters/3.3.5.html",
+          "source_type": "book",
+          "reading_scope": "excerpt",
+          "reading_location": "L263–304关系、双向温标、撤销旧值与冲突；L305–326连接器/adder接口",
+          "published_at": null,
+          "book_id": "SICP",
+          "access": "body",
+          "method": "web_body",
+          "checked_at": "2026-11-07"
+        }
+      ],
+      "status": "chinese_draft_not_screened",
+      "source_note": "来自已实读材料的品牌表达；原文观察、作者解释与本轮命名创作分别说明。未执行任何名称使用或注册查询。"
+    },
+    {
+      "id": "C1-C02",
+      "name": "探形",
+      "pinyin": "tàn xíng",
+      "material_id": "C1-M02",
+      "family_id": "C1-BF-tactile-shape-before-action",
+      "formation": "普通动宾结构：探知形状。是本轮对实读关系的中文品牌创作，不冒称历史原词或学术术语。",
+      "meaning": "在行动中接近一个对象，弄清它是什么形状，再寻找可行的做法。",
+      "crossing": "Darwin以纸三角和洞口比较进入方式，并推测前端接触可能帮助蚯蚓获得物形认识；中文以“探形”保留对对象形状的主动探知，而不把虫或土放到招牌上。",
+      "layers": [
+        "可以直接理解的探知形状动作",
+        "接触、形状与任务可行性相连的具体历史观察问题",
+        "实验室主动认识世界结构的研究角色"
+      ],
+      "material_feature_retained": "保留与对象实际接触、探查形状及据此行动的关系。",
+      "material_feature_lost": "不保留蚯蚓、纸三角、洞口等具体实验材料；名字也不能把作者推测升级为已证机制。",
+      "why_name_not_generic": "探是动作、形是对象，二者构成同一可理解关系；不像泛化“探索未来”，也不是两个学科名词硬接。",
+      "shortcoming": "初听可能写成探型/探行；容易先像三维视觉、形态设计或检测产品，需研究内容承接更宽身份。新动宾表达是否自然仍交主控独评。",
+      "science_boundary": "作者对触觉判断及some intelligence保有推断性质；这里借研究问题和观察，不称现代普遍定律。",
+      "history_check": {
+        "status": "new_proposal_pending_coordinator_family_review",
+        "reason": "不走旧纸机器或纸旋翼核心画面；不同于视差的几何测距、察觉的视觉情境效应。本名若最终仅成一般感知动词，仍应复核家族而非以新动物论文算新增。"
+      },
+      "口语检验": [
+        "我们是探形，正在做智能研究。",
+        "探形今天发布了一项研究。"
+      ],
+      "material_ids": [
+        "C1-M02"
+      ],
+      "plan_direction_id": "C1-D-S2",
+      "case_ids": [
+        "B076",
+        "B053"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3"
+      ],
+      "source_urls": [
+        "https://www.gutenberg.org/files/2355/2355-h/2355-h.htm"
+      ],
+      "sources": [
+        {
+          "title": "Darwin: The Formation of Vegetable Mould, Chapter II Habits of Worms—continued",
+          "url": "https://www.gutenberg.org/files/2355/2355-h/2355-h.htm",
+          "source_type": "book",
+          "reading_scope": "excerpt",
+          "reading_location": "1904重印电子文本；ChapterII L300–357，纸三角塞洞实验、几何比较与作者解释",
+          "published_at": "原作1881；所读1904重印",
+          "book_id": "Darwin_Worms_1904",
+          "access": "body",
+          "method": "web_body",
+          "checked_at": "2026-11-07"
+        }
+      ],
+      "status": "chinese_draft_not_screened",
+      "source_note": "来自已实读材料的品牌表达；原文观察、作者解释与本轮命名创作分别说明。未执行任何名称使用或注册查询。"
+    },
+    {
+      "id": "C1-C03",
+      "name": "应手",
+      "pinyin": "yìng shǒu",
+      "material_id": "C1-M03",
+      "family_id": "C1-BF-action-readable-responsive-tool",
+      "formation": "采用现成汉语表达，有随手而应、用起来顺遂的语感；不是把传感术语剪成字母或把手与智能硬拼。",
+      "meaning": "人一动手，器物就能感知动作，让能力成为真正可以使用的东西。",
+      "crossing": "X-Hinges把柔性结构和传感配置一起做进器物，手部关节动作同时成为可记录的信号；“应手”由这个人—物—动作关系进入，而不是称器物有自觉。",
+      "layers": [
+        "日常得心应手的易用感",
+        "手部动作与感知结构之间有真实对应",
+        "让已有能力能够与真实使用场景相接的研究角色"
+      ],
+      "material_feature_retained": "保留动手和器物可读回应相接；在论文应用中是手套记录动作并使机器人模仿。",
+      "material_feature_lost": "名称不呈现三种材料、电导率设计和多自由度测量细节；不能替代校准/泛化限制说明。",
+      "why_name_not_generic": "先有自然称呼和完整使用关系，再有可讲的结构—动作—信息第二层；不靠加智能或Labs才成词。",
+      "shortcoming": "可能像工具、输入法或工业配件品牌；名字不直接说研究对象，且通用表达需要认真查重。",
+      "science_boundary": "结构传感及动作模仿不等于理解一切任务或拥有意识，论文有迟滞、校准和实例泛化限制。",
+      "history_check": {
+        "status": "new_proposal_pending_coordinator_family_review",
+        "reason": "旧侧音回送已有音频输出；此处结构形变原生进入传感信号并接手部操作。若最终只剩泛化“感知自己”，与侧音故事重合则不计新；不以换成手套图片绕过。"
+      },
+      "口语检验": [
+        "我们是应手，正在做智能研究。",
+        "应手今天发布了一项研究。"
+      ],
+      "material_ids": [
+        "C1-M03"
+      ],
+      "plan_direction_id": "C1-D-S1",
+      "case_ids": [
+        "B015",
+        "B025"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P5"
+      ],
+      "source_urls": [
+        "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+        "https://arxiv.org/html/2609.11077v1"
+      ],
+      "sources": [
+        {
+          "title": "MIT News: This design software reimagines everyday objects as self-aware devices",
+          "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+          "source_type": "news",
+          "reading_scope": "excerpt",
+          "reading_location": "L76–125标题/日期及器物、材料与传感应用正文",
+          "published_at": "2026-10-22",
+          "book_id": null,
+          "access": "body",
+          "method": "web_body",
+          "checked_at": "2026-11-07"
+        },
+        {
+          "title": "X-Hinges author manuscript",
+          "url": "https://arxiv.org/html/2609.11077v1",
+          "source_type": "other",
+          "reading_scope": "excerpt",
+          "reading_location": "L133–142三材料机制；L321–330校准、迟滞和泛化限制；另读摘要",
+          "published_at": "2026-09-10",
+          "book_id": null,
+          "access": "body",
+          "method": "web_body",
+          "checked_at": "2026-11-07"
+        }
+      ],
+      "status": "chinese_draft_not_screened",
+      "source_note": "来自已实读材料的品牌表达；原文观察、作者解释与本轮命名创作分别说明。未执行任何名称使用或注册查询。"
+    },
+    {
+      "id": "C1-C04",
+      "name": "合符",
+      "pinyin": "hé fú",
+      "material_id": "C1-M04",
+      "family_id": "C1-BF-paired-authority-fit-confirmation",
+      "formation": "把同一器物关系中的合与符连成动作称呼：合验符节。馆方原文说两半虎符勘合验真，本名为中文概括而非声称逐字摘原句。",
+      "meaning": "各自持有的部分，在一次真实的相合中得到确认。",
+      "crossing": "两半虎符分持、勘合生效，形与文字在同一器物中共同服务验真；今天可借为系统依据相互对照确认，而不冒充古代已有现代密码学。",
+      "layers": [
+        "可以想象两部分实际相合的动作",
+        "中国符节的分持和勘合知识实践",
+        "以有依据的对应建立判断的研究态度"
+      ],
+      "material_feature_retained": "保留分持、相合与确认的关系，而非泛化团结或美好寓意。",
+      "material_feature_lost": "不保留军令权力结构和具体铭文字形，现代品牌只借有限验合关系。",
+      "why_name_not_generic": "两个字原本在同一器物和动作中相接；符并非为了科技感随意取符号的符。",
+      "shortcoming": "会被听成和服，或先联想到符咒、文创与认证；也可能像安全产品而非广义AI Lab，需主控严审首要联想。",
+      "science_boundary": "两半匹配并非现代密码安全保证，也不等于模型输出必然正确。",
+      "history_check": {
+        "status": "new_proposal_pending_coordinator_family_review",
+        "reason": "旧残卷重逢重在失散出处复原；此项事先分持并验合授权，物件作用不同。若名字最终只剩“两片合一”的同一品牌画面，则保守合并。与鸽哨/圭表同属中国器物不足以判同家族。"
+      },
+      "口语检验": [
+        "我们是合符，正在做智能研究。",
+        "合符今天发布了一项研究。"
+      ],
+      "material_ids": [
+        "C1-M04"
+      ],
+      "plan_direction_id": "C1-D-S4",
+      "case_ids": [
+        "B008",
+        "B021"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P6"
+      ],
+      "source_urls": [
+        "https://www.dpm.org.cn/Uploads/File/pdf/29/80/62/2980629cbde6dc6ce987d74ab22b3424.pdf"
+      ],
+      "sources": [
+        {
+          "title": "故宫刊物页：战争与虎（虎符段）",
+          "url": "https://www.dpm.org.cn/Uploads/File/pdf/29/80/62/2980629cbde6dc6ce987d74ab22b3424.pdf",
+          "source_type": "other",
+          "reading_scope": "excerpt",
+          "reading_location": "实际curl下载、PyMuPDF读单页，印刷页015；虎符两半分持、文字形制与勘合验真段",
+          "published_at": null,
+          "book_id": null,
+          "access": "body",
+          "method": "curl_PyMuPDF_body",
+          "checked_at": "2026-11-07"
+        }
+      ],
+      "status": "chinese_draft_not_screened",
+      "source_note": "来自已实读材料的品牌表达；原文观察、作者解释与本轮命名创作分别说明。未执行任何名称使用或注册查询。"
+    },
+    {
+      "id": "C1-C05",
+      "name": "会意",
+      "pinyin": "huì yì",
+      "material_id": "C1-M05",
+      "family_id": "C1-BF-mutually-accepted-reference",
+      "formation": "采用现成认知动作词，意为领会对方意思；不把它伪称Clark论文中的中文原句或新算法。",
+      "meaning": "理解并不止于一个人说出来，而在彼此确认谈的是同一件事时发生。",
+      "crossing": "Clark等把参照看成双方共同修正、相互接受的过程，并研究伙伴形成可复用短称呼；“会意”让这种认识动作先成为自然中文，专业过程随后增加第二层。",
+      "layers": [
+        "人日常领会意思的自然动作",
+        "说话者与听者共同完成对对象的指称",
+        "公司研究模型、使用者与任务如何形成可用理解的长期角色"
+      ],
+      "material_feature_retained": "保留对他者意思的领会与双方确认同一对象的关系。",
+      "material_feature_lost": "不包含实验中图形、轮次和会话程序；不是声称机器已经拥有人的理解方式。",
+      "why_name_not_generic": "一个完整既有词承担认知角色，不加成长、未来、智能等前后缀，不因来源深就堆新字。",
+      "shortcoming": "容易像会议软件、写作助手或人文机构；听写与会议同音，通名独特性及科技使用必须实际筛查。",
+      "science_boundary": "人类协作实验与机器人团队讨论不证明机器意识；更多通信也不自动改善协作。",
+      "history_check": {
+        "status": "new_proposal_pending_coordinator_family_review",
+        "reason": "旧驾驶舱材料是任务和信息资源重配；此处核心是对象参照被共同接受。不同于旧好奇边界、多一步推理和第二次出发；若只剩泛化协同应合并。"
+      },
+      "口语检验": [
+        "我们是会意，正在研究智能。",
+        "会意今天发布了一项研究。"
+      ],
+      "material_ids": [
+        "C1-M05"
+      ],
+      "plan_direction_id": "C1-D-S5",
+      "case_ids": [
+        "B037",
+        "B027"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P4",
+        "C1-P5"
+      ],
+      "source_urls": [
+        "https://web.stanford.edu/~clark/1980s/Clark%2C%20H.H.%20_%20Wilkes-Gibbs%2C%20D.%20_Referring%20as%20a%20collaborative%20process_%201986.pdf",
+        "https://www.csiro.au/en/news/all/news/2026/august/human-robot-alignment"
+      ],
+      "sources": [
+        {
+          "title": "Clark & Wilkes-Gibbs: Referring as a collaborative process",
+          "url": "https://web.stanford.edu/~clark/1980s/Clark%2C%20H.H.%20_%20Wilkes-Gibbs%2C%20D.%20_Referring%20as%20a%20collaborative%20process_%201986.pdf",
+          "source_type": "other",
+          "reading_scope": "excerpt",
+          "reading_location": "实际curl+PyMuPDF读印刷页2–5、14–16、21；参照协作模型、对话修正、图形任务与重复描述",
+          "published_at": "1986",
+          "book_id": null,
+          "access": "body",
+          "method": "curl_PyMuPDF_body",
+          "checked_at": "2026-11-07"
+        },
+        {
+          "title": "CSIRO: Communication is key even in successful human–robot teams",
+          "url": "https://www.csiro.au/en/news/all/news/2026/august/human-robot-alignment",
+          "source_type": "news",
+          "reading_scope": "excerpt",
+          "reading_location": "L26–44日期、团队共同理解与通信负担正文",
+          "published_at": "2026-08-14",
+          "book_id": null,
+          "access": "body",
+          "method": "web_body",
+          "checked_at": "2026-11-07"
+        }
+      ],
+      "status": "chinese_draft_not_screened",
+      "source_note": "来自已实读材料的品牌表达；原文观察、作者解释与本轮命名创作分别说明。未执行任何名称使用或注册查询。"
+    },
+    {
+      "id": "C1-C06",
+      "name": "余量",
+      "pinyin": "yú liàng",
+      "material_id": "C1-M06",
+      "family_id": "C1-BF-redundancy-enabling-reconstruction",
+      "formation": "采用工程和日常都存在的完整词，指满足基本需要之外保留的量；不造一个省略得难读的编码术语。",
+      "meaning": "在恰好够用之外留出空间，让一个系统面对损失时仍有恢复的可能。",
+      "crossing": "Reed–Solomon以多于消息维度的正确采样编码同一对象，在规定条件下容许部分擦除；“余量”保留多出来的部分如何变成系统韧性的关系。",
+      "layers": [
+        "普通语言中的预留空间与从容",
+        "信息编码中冗余采样和可恢复性的真实联系",
+        "帮助已有系统获得更多应对真实使用条件的研究角色"
+      ],
+      "material_feature_retained": "保留超过最低需要的量与恢复能力之间的因果条件。",
+      "material_feature_lost": "不呈现有限域、多项式次数和k个正确采样等细节；释义不能去掉这些条件后说万能恢复。",
+      "why_name_not_generic": "词本身完整、有工程身份，“多出来”不是装饰，而在来源中承担可指出的恢复作用。",
+      "shortcoming": "可能像存储、通信或量化业务，声音也近雨量；单独名字不直接说明AI，需要长期研究赋予具体身份。",
+      "science_boundary": "可靠恢复依赖正确采样、已知位置等条件，不能推广为任意错误可恢复、无损压缩或凭空增加知识。",
+      "history_check": {
+        "status": "new_proposal_pending_coordinator_family_review",
+        "reason": "不同于旧余项的Taylor剩余误差：余量是编码冗余容许擦除。字面同有余字不自动同家族；若整体仍只是抽象余剩应交主控保守复核。也不以不同论文作为新家族证明。"
+      },
+      "口语检验": [
+        "我们是余量，正在做智能研究。",
+        "余量今天发布了一项研究。"
+      ],
+      "material_ids": [
+        "C1-M06"
+      ],
+      "plan_direction_id": "C1-D-S3",
+      "case_ids": [
+        "B074",
+        "B002"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "source_urls": [
+        "https://people.eecs.berkeley.edu/~venkatg/teaching/ECC-fall22/scribes/lecture05.pdf"
+      ],
+      "sources": [
+        {
+          "title": "UC Berkeley CS294-226 Lecture 5: RS, BCH and Concatenated Codes",
+          "url": "https://people.eecs.berkeley.edu/~venkatg/teaching/ECC-fall22/scribes/lecture05.pdf",
+          "source_type": "other",
+          "reading_scope": "excerpt",
+          "reading_location": "PDF第一页§1 Definition5.1、Lagrange插值段、Theorem5.2；未读后续BCH与级联证明",
+          "published_at": "2022-09-12",
+          "book_id": null,
+          "access": "body",
+          "method": "web_body",
+          "checked_at": "2026-11-07"
+        }
+      ],
+      "status": "chinese_draft_not_screened",
+      "source_note": "来自已实读材料的品牌表达；原文观察、作者解释与本轮命名创作分别说明。未执行任何名称使用或注册查询。"
+    }
+  ]
+}

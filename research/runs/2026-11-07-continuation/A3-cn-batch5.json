@@ -1,0 +1,165 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T18:34:30.019390+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A2-preview-batch5.md",
+      "sha256": "f307fb26780a60e13eb2ffa05f201f3d1982af92c162d5215a12aa0e57856fdb"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-cn-batch5.json",
+      "sha256": "56af67715ee59369a4e2ccf6f0d7489cd4fde2aecb22c0efbbb12982c49c4e3e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A2-quality-batch5.json",
+      "sha256": "02dce25f6cccff5f0e0d2980459b0ae7b7b3b7ccb3c9611a8938915dc96d1944"
+    }
+  ],
+  "query_count": 13,
+  "results": [
+    {
+      "candidate_id": "CT-C18",
+      "name": "光的弯道",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名科技/AI公司、模型或软件；返回科学新闻、车灯标准等不同完整标题，不把弯道/光两个词同时出现当品牌。",
+      "query_logs": [
+        {
+          "query": "\"光的弯道\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件；返回科学新闻、车灯标准等不同完整标题，不把弯道/光两个词同时出现当品牌。"
+        },
+        {
+          "query": "\"光的弯道\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件；返回科学新闻、车灯标准等不同完整标题，不把弯道/光两个词同时出现当品牌。"
+        },
+        {
+          "query": "\"光的弯道\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件；返回科学新闻、车灯标准等不同完整标题，不把弯道/光两个词同时出现当品牌。"
+        },
+        {
+          "query": "\"光的彎道\" 公司",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件；返回科学新闻、车灯标准等不同完整标题，不把弯道/光两个词同时出现当品牌。"
+        },
+        {
+          "query": "\"guangdew andao\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件；返回科学新闻、车灯标准等不同完整标题，不把弯道/光两个词同时出现当品牌。"
+        },
+        {
+          "query": "\"guangdewandao\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件；返回科学新闻、车灯标准等不同完整标题，不把弯道/光两个词同时出现当品牌。"
+        },
+        {
+          "query": "\"光的弯道科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件；返回科学新闻、车灯标准等不同完整标题，不把弯道/光两个词同时出现当品牌。"
+        }
+      ],
+      "evidence": [],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Guangdewandao",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    },
+    {
+      "candidate_id": "CT-C19",
+      "name": "噪声种子",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名科技/AI品牌。噪声种子为已有技术字段和参数语义，不是独立公司或软件产品名。",
+      "query_logs": [
+        {
+          "query": "\"噪声种子\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI品牌。噪声种子为已有技术字段和参数语义，不是独立公司或软件产品名。"
+        },
+        {
+          "query": "\"噪声种子\" 公司 科技",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI品牌。噪声种子为已有技术字段和参数语义，不是独立公司或软件产品名。"
+        },
+        {
+          "query": "\"噪声种子\" AI 模型 软件",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI品牌。噪声种子为已有技术字段和参数语义，不是独立公司或软件产品名。"
+        },
+        {
+          "query": "\"噪聲種子\" 公司",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI品牌。噪声种子为已有技术字段和参数语义，不是独立公司或软件产品名。"
+        },
+        {
+          "query": "\"zaoshengzhongzi\" company AI",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI品牌。噪声种子为已有技术字段和参数语义，不是独立公司或软件产品名。"
+        },
+        {
+          "query": "\"噪声种子科技\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI品牌。噪声种子为已有技术字段和参数语义，不是独立公司或软件产品名。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://p5js.org/zh-Hans/reference/p5/noiseSeed/",
+          "access": "official_docs_body_read",
+          "finding": "噪声种子值为noiseSeed函数参数解释，非独立品牌。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Zaoshengzhongzi",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    }
+  ],
+  "passed_candidate_ids": [
+    "CT-C18",
+    "CT-C19"
+  ],
+  "a4_input_candidate_ids": [
+    "CT-C18",
+    "CT-C19"
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛不等于登记或商标审核通过。字段、动作、器物与品牌区分；拼音已有主体不得直接配作英文。"
+}

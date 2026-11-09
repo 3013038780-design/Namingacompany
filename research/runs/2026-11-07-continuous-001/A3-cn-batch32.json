@@ -1,0 +1,130 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese actual zero-candidate acceptance",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T23:48:34.672555+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch30.json",
+      "sha256": "07b0ea9fd3daf8998a31ab7e0270062f694ebfdcd5e973ba21cac44e0c5964f9"
+    },
+    {
+      "path": "A2-preview-batch30.md",
+      "sha256": "1d733708a852d5dde823f4e45b6c66f4f070ae6b66d1d4bf57303d10b4d9a430"
+    },
+    {
+      "path": "A2-quality-batch30.json",
+      "sha256": "623d2e92c45fd092c95f3d6b7d2e85c2fad055d9cba85d204a650ef36f007c92"
+    },
+    {
+      "path": "A2-creation-execution-batch30.json",
+      "sha256": "7f8870fb3614668f65c40ae0d777383cc137358cae0c155d4c080a4d31bb1887"
+    },
+    {
+      "path": "materials-extension28.json",
+      "sha256": "34d889977d7269c2b89e40995820daf54ff966ab5edefd4116e3bec9b57076b5"
+    },
+    {
+      "path": "coordinator-cn-batch30.json",
+      "sha256": "9fc8f13efdd38e02c7d1c5ac32282e22a60300740fafae1288979c4984b69086"
+    },
+    {
+      "path": "search-plan-role-expansion02.json",
+      "sha256": "f86b3c18c74f778d2a6fb4258fed662584879e5747bb0116e0cefc6288d98d1a"
+    },
+    {
+      "path": "continuations/2026-11-08T151606Z/plan-role-expansion02-review.json",
+      "sha256": "f5447836316e7ce5361681ccd0f5b5108b05e8eb761d035a3db15899c16d6867"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension28.json",
+      "expected": "34d889977d7269c2b89e40995820daf54ff966ab5edefd4116e3bec9b57076b5",
+      "actual": "34d889977d7269c2b89e40995820daf54ff966ab5edefd4116e3bec9b57076b5",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch30.json",
+      "expected": "07b0ea9fd3daf8998a31ab7e0270062f694ebfdcd5e973ba21cac44e0c5964f9",
+      "actual": "07b0ea9fd3daf8998a31ab7e0270062f694ebfdcd5e973ba21cac44e0c5964f9",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch30.md",
+      "expected": "1d733708a852d5dde823f4e45b6c66f4f070ae6b66d1d4bf57303d10b4d9a430",
+      "actual": "1d733708a852d5dde823f4e45b6c66f4f070ae6b66d1d4bf57303d10b4d9a430",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch30.json",
+      "expected": "623d2e92c45fd092c95f3d6b7d2e85c2fad055d9cba85d204a650ef36f007c92",
+      "actual": "623d2e92c45fd092c95f3d6b7d2e85c2fad055d9cba85d204a650ef36f007c92",
+      "match": true
+    },
+    {
+      "path": "materials-extension28.json",
+      "expected": "34d889977d7269c2b89e40995820daf54ff966ab5edefd4116e3bec9b57076b5",
+      "actual": "34d889977d7269c2b89e40995820daf54ff966ab5edefd4116e3bec9b57076b5",
+      "match": true
+    },
+    {
+      "path": "A2-preview-batch30.md",
+      "expected": "1d733708a852d5dde823f4e45b6c66f4f070ae6b66d1d4bf57303d10b4d9a430",
+      "actual": "1d733708a852d5dde823f4e45b6c66f4f070ae6b66d1d4bf57303d10b4d9a430",
+      "match": true
+    },
+    {
+      "path": "A2-candidates-batch30.json",
+      "expected": "07b0ea9fd3daf8998a31ab7e0270062f694ebfdcd5e973ba21cac44e0c5964f9",
+      "actual": "07b0ea9fd3daf8998a31ab7e0270062f694ebfdcd5e973ba21cac44e0c5964f9",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/search-plan-role-expansion02.json",
+      "expected": "f86b3c18c74f778d2a6fb4258fed662584879e5747bb0116e0cefc6288d98d1a",
+      "actual": "f86b3c18c74f778d2a6fb4258fed662584879e5747bb0116e0cefc6288d98d1a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/search-plan-role-expansion02.md",
+      "expected": "f32c939a31450e05e6b855c986435853e0311f4da43290774313e031f8db0e16",
+      "actual": "f32c939a31450e05e6b855c986435853e0311f4da43290774313e031f8db0e16",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/search-plan-role-expansion02-execution.json",
+      "expected": "75ab2720fc576065f6de1baff5c0a502f42490f13f540f424196c876e679cb9a",
+      "actual": "75ab2720fc576065f6de1baff5c0a502f42490f13f540f424196c876e679cb9a",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-history-role-expansion02.json",
+      "expected": "7d8816a2ffdd9dd888ea1db39c9a2b1042c23a0e0f8f79456fd88a5e646a9e57",
+      "actual": "7d8816a2ffdd9dd888ea1db39c9a2b1042c23a0e0f8f79456fd88a5e646a9e57",
+      "match": true
+    }
+  ],
+  "actual_materials_reviewed_in_upstream_package": 1,
+  "actual_chinese_candidates": 0,
+  "eligible_chinese_usage_inputs": 0,
+  "passed_chinese_candidate_ids": [],
+  "results": [],
+  "actual_new_candidate_queries": 0,
+  "actual_new_chinese_queries": 0,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "actual_new_registration_queries": 0,
+  "new_scores": 0,
+  "no_C50_created": true,
+  "decision": "actual_zero_candidate_check_completed",
+  "reason": "实际读原A2四档、M61和root无分零草案验收，计划02及主控验收真实可追；只有Abbott作者章三页关系素材，未形成正式中文。无待查名字，不捏分数或称占用/通过；不是尚未开始而是上游实际创作零产出。",
+  "source_reading_boundary": "本人读上游所记书页/作者范围及root阅读说明，未外开或读原书PDF；不冒本人通读/书页阅读。P2失败入口未计材料；不扩研究。",
+  "agent3_cumulative_candidate_queries": 553,
+  "agent3_cumulative_returned_candidate_results": 552,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 555,
+  "run_cumulative_returned_candidate_results": 554,
+  "next": "原A4实际zero-input-batch26完成后再同原A3英语零终验，当前不预填。",
+  "unchanged": "仅本人新档，不改旧稿/分/库/队列/Git，无新外部访问。"
+}

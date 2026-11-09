@@ -1,0 +1,137 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T23:24:07.823388+08:00",
+  "materials": [
+    {
+      "id": "C1-M59",
+      "family_id": "C1-MF-third-logical-state-unknown-distinct-from-false",
+      "macro_id": "S3",
+      "plan_direction_id": "C1-D-S3",
+      "category": "computational_semantics_of_knowledge_state",
+      "case_ids": [
+        "B004",
+        "B074",
+        "B002"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "PostgreSQL 18 Documentation: Boolean Type",
+          "url": "https://www.postgresql.org/docs/18/datatype-boolean.html",
+          "reading_location": "实际读固定18页面L20–62，重点L20–28的true/false及由SQL null表示的unknown；先读current同版后复开固定版本。不运行数据库，不把页头新闻日期当文档发表日期。",
+          "read_at": "2026-11-08T23:24:07.823388+08:00",
+          "access": "body",
+          "source_type": "official_computing_documentation",
+          "reading_scope": "body_excerpt",
+          "published_at": null
+        },
+        {
+          "title": "PostgreSQL 18 Documentation: Comparison Functions and Operators",
+          "url": "https://www.postgresql.org/docs/18/functions-comparison.html",
+          "reading_location": "先实际读current解析为18的L49–115相关正文，后复开固定18同URL章节；重点普通比较遇NULL的unknown、IS UNKNOWN等谓词的二值结果。不是读取SQL标准原件。",
+          "read_at": "2026-11-08T23:24:07.823388+08:00",
+          "access": "body",
+          "source_type": "official_computing_documentation",
+          "reading_scope": "body_excerpt",
+          "published_at": null,
+          "boundary": "unknown为SQL逻辑状态，不是概率一半、客观第三真理或更高一级真；IS UNKNOWN等检测本身仍返回true/false。"
+        }
+      ],
+      "source_urls": [
+        "https://www.postgresql.org/docs/18/datatype-boolean.html",
+        "https://www.postgresql.org/docs/18/functions-comparison.html"
+      ],
+      "fact": "固定版本文档明确SQL布尔表达可有由null表示的unknown状态，普通含NULL比较不因未知而自动成为false。",
+      "distinctive_relation": "表达系统为未知保留一种不同于肯定和否定的逻辑状态。",
+      "mechanism_to_material": "第四范式基线示范完整知识对象可以承载机构身份；Recursive原A1核验示范真实计算关系直接成为称呼，Google基线显示知识对象无需包办业务说明。由原S3的问题进入可表达状态的区别，不从数字模板随意造第几。B004/B002本步只继承基线未重开历史词源，B074为原A1已核。",
+      "history_difference": "已读公设之外原稿，其为哥德尔边界/未解问题姿态；未尽之问为知识可错与问题无终态；反例为具体实例否定全称。这一项限定已有计算语义将unknown与false分开，不以尚未回答/未来可解或突破公理作叙事。旧补码是有符号整数表示，零/01单位词也不是三态逻辑。若品牌只剩对未知保持开放，应保守并回旧开放问题上位家族。",
+      "naming_potential": "一个有实际第三状态依据的四字整体，可以承载如何表达知识状态的研究角色。",
+      "shortcoming": "真值偏学术，第三可能被误解为第三种真理/神秘体系；不能用专业性弥补不自然。",
+      "boundary": "不是所有逻辑都三值、不是客观事实有第三种真理、更不证明AI知道自己不知道。未知与false的区别是具体SQL语义；第三不表示更高或更正确。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft"
+    },
+    {
+      "id": "C1-M60",
+      "family_id": "C1-MF-shared-planet-seen-from-orbital-viewpoint",
+      "macro_id": "S5",
+      "plan_direction_id": "C1-D-S5",
+      "category": "first_person_perspective_and_shared_world",
+      "case_ids": [
+        "B053",
+        "B027"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Linda E. Grimm / NASA Johnson: The Overview Effect: Astronaut Perspectives from 25 Years in Low Earth Orbit",
+          "url": "https://www.nasa.gov/centers-and-facilities/johnson/the-overview-effect-astronaut-perspectives-from-25-years-in-low-earth-orbit/",
+          "reading_location": "实际读L244–288标题日期及报道正文，重点Koch/Behnken/Stott等对同一星球、共同大气及家的陈述。未看NASA+视频、未读Frank White原书或心理学原论文，亦未自行观察太空。",
+          "read_at": "2026-11-08T23:24:07.823388+08:00",
+          "access": "body",
+          "source_type": "institutional_report_of_first_person_experience",
+          "reading_scope": "article_body",
+          "published_at": "2025-11-23",
+          "page_last_updated": "2025-11-21，页脚与发表日期先后不一致，照录不修补",
+          "boundary": "宇航员当事人叙述和机构报道，不是已证明太空观察提高认知的对照实验；旧新闻不计近90天。"
+        }
+      ],
+      "source_urls": [
+        "https://www.nasa.gov/centers-and-facilities/johnson/the-overview-effect-astronaut-perspectives-from-25-years-in-low-earth-orbit/"
+      ],
+      "fact": "报道中的宇航员从轨道视角描述同一星球、共同大气与家的意义；这是一组当事人的经验叙述。",
+      "distinctive_relation": "改变观看位置后，原来的地理局部被体验为同一共同家园中的部分。",
+      "mechanism_to_material": "月之暗面基线借完整空间世界，Midjourney新核借世界观位置给机构长期身份；本项从同一星球上的主体位置凝练，不复制月面、旅途或阶段词。Midjourney本轮角色补充已核，月之暗面仍是未重开词源的基线分析。",
+      "history_difference": "实际读旧地球回信原稿，作用是地照光返程与遥观测信息，不是从轨道看共同家园；星间为恒星外流塑造星际介质，两者也不是本项当事人共居位置的认识。月之暗面是基线参照，不以共用太空意象自动新增；与M05共同指代、P1可贡献参与条件也不同，若解释只剩泛化团结/伙伴或星际宏大，应保守合并，不把一条NASA报道当独立家族自证。",
+      "naming_potential": "共同星球是完整可想象的世界，可以承载研究机构如何定位自己与他者。",
+      "shortcoming": "航天/天文或社会公益首感可能更强；名字不直接说AI，也不能靠宇航叙事自动过门。",
+      "boundary": "不将主观报道当认知提升证据，不替公司承诺开放许可、世界统一或任何已实现技术；星在本名指星球，不把地球当恒星。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft",
+      "secondary_macro_ids": [
+        "S2",
+        "S6"
+      ]
+    }
+  ],
+  "auxiliary_readings": [
+    {
+      "title": "Berkeley Math Circle hosted: Proofs Without Words 单页图集",
+      "url": "https://mathcircle.berkeley.edu/sites/default/files/archivedocs/2015/lecture/NoWordProofs.pdf",
+      "reading_location": "实际web返回标题和链接后curl下载一页PDF并渲染目读整页版式，观察右上重排图与右下面积图等。图中未写足所有条件，未逐一核全部结论，不能凭图题认定每图均是完备证明。",
+      "read_at": "2026-11-08T23:24:07.823388+08:00",
+      "access": "body",
+      "source_type": "mathematical_visual_handout",
+      "reading_scope": "rendered_one_page_exploration_only",
+      "published_at": null,
+      "local_path": "/tmp/continuous001-pww.pdf",
+      "sha256": "9d1e79acebb10c19a67f5273d837398f884ab99278a3e678ba380e225fa43db4",
+      "rendered_path": "/tmp/continuous001-pww-1.png",
+      "rendered_sha256": "5b8081f6f596e1f8ae6e17c969b29bc03c4d40fa86676369a7941aa67c798e71",
+      "boundary": "来源不够承接一个有具体充分条件的证明关系，本包不加卡、不成正式中文，不将题目或图形当已读数学论证。"
+    }
+  ],
+  "failed_accesses": [
+    {
+      "url": "https://old.maa.org/press/periodicals/convergence/proofs-without-words-and-beyond-pwws-and-mathematical-proof",
+      "result": "521，未读正文，不以检索摘要充数学论证。"
+    },
+    {
+      "url": "https://www.whitman.edu/Documents/Academics/Mathematics/Miller.pdf",
+      "result": "502，未读论文正文。"
+    }
+  ],
+  "new_material_count": 2,
+  "new_chinese_draft_count": 2,
+  "coverage_note": "新增S3计算语义与S5观看位置经验，保守S3为15/60=25%，古文3/60；NASA旧文不计近90天，文档页头/页脚日期不冒充新研究新闻。伯克利单页只辅助，不凑第三卡。"
+}

@@ -1,0 +1,189 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T18:28:42.036095+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch20.json",
+      "sha256": "dd4ee1bd5620c11134f9864ba26d2dc339a3a468aa5d63ee9fff5b884706f2ed"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch20.json",
+      "sha256": "fb1843494b5503dde8f538bb2cd5b68b0162daec7f8ffb0e630cd6dca14cf96d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch20.json",
+      "sha256": "5d33fb60e1af7ecac73968630df9b372a916a717c4502b07a36fade4256b57f7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch20.json",
+      "sha256": "4deaabf9daa28c9ae68bbe8f8bd1130707aa0098944348fcb6d54500deaf671e"
+    }
+  ],
+  "query_count": 13,
+  "results": [
+    {
+      "candidate_id": "C1-C34",
+      "name": "沙阵",
+      "query_logs": [
+        {
+          "query": "\"沙阵\"",
+          "executed_on": "2026-11-08",
+          "summary": "精确结果主要沙包阵、固沙阵、游戏阵法等普通/较长名称；不是仅据此无命中通过。"
+        },
+        {
+          "query": "\"沙阵科技\"",
+          "executed_on": "2026-11-08",
+          "summary": "沙阵科技精确返回海心沙科技岛等拆词内容，未在该查询确证公司，不影响后续明确产品命中。"
+        },
+        {
+          "query": "\"沙阵智能\"",
+          "executed_on": "2026-11-08",
+          "summary": "沙阵智能精确返回面阵智能/沙地等拆词PDF与新闻，未确证同名主体；未宣称读完长清册。"
+        },
+        {
+          "query": "\"沙阵\" AI 模型 软件 公司",
+          "executed_on": "2026-11-08",
+          "summary": "直接命中数篷官网沙阵可信计算平台，实际产品正文闭环，作为主要否决依据。"
+        },
+        {
+          "query": "\"沙陣\" 公司 軟體",
+          "executed_on": "2026-11-08",
+          "summary": "繁体主要日文沙陣字词、飛沙陣词典及鼻沙陣药品近名；未将额外字或词典当本名品牌。"
+        },
+        {
+          "query": "\"shazhen\" company AI",
+          "executed_on": "2026-11-08",
+          "summary": "Shazhen目录海口网络科技、地名/作者/用户名等同音，目录有Dummy/占位代码，未核中文原名，不用来冒同名主体。"
+        }
+      ],
+      "decision": "reject_exact_named_software_product",
+      "reason": "数篷科技官网实际以沙阵命名可信计算平台，完整核心同名科技软件，不是普通阵形/游戏用语。网页™只是使用标志，不当官方商标注册证明。",
+      "evidence": [
+        {
+          "url": "https://www.datacloak.cn/products/base-station",
+          "access": "primary_product_body_read",
+          "finding": "L18/73/109–136明确沙阵可信计算平台；L163–177纯软件实现及适配大模型等场景；L227主体数篷科技英文全称。只核名称使用，不验证性能。"
+        },
+        {
+          "url": "https://www.datacloak.cn/blog/enterprise/all",
+          "access": "primary_company_news_excerpt_read",
+          "finding": "L118–122为2026-03-03动态，正文摘要再次提沙阵可信计算平台；非只搜索引擎摘要。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run A3-controls.json于2026-11-07共同入口403；本批无新大陆入口访问，未逐名逐类登记。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run A3-controls.json于2026-11-07共同入口403；本批无新大陆入口访问，未逐名逐类登记。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Shazhen",
+          "scope": "2026-11-08实际逐名拼音搜索URL不可访问，非无公司/登记可用结论。"
+        }
+      }
+    },
+    {
+      "candidate_id": "C1-C35",
+      "name": "隶首",
+      "query_logs": [
+        {
+          "query": "\"隶首\"",
+          "executed_on": "2026-11-08",
+          "summary": "主要古代人物与辞典说明，不将真实文化出处当可注册或无占用证据。"
+        },
+        {
+          "query": "\"隶首科技\"",
+          "executed_on": "2026-11-08",
+          "summary": "发现海南隶首科技有限公司目录线索，打开超时；记录未读边界，继续其他正文证据。"
+        },
+        {
+          "query": "\"隶首智能\"",
+          "executed_on": "2026-11-08",
+          "summary": "精确隶首智能主要无关聚合站，不据单个无命中排除隶首人工智能企业。"
+        },
+        {
+          "query": "\"隶首\" AI 模型 软件 公司",
+          "executed_on": "2026-11-08",
+          "summary": "命中并实际核安徽隶首AI公司目录；另华润隶首平台报道web502后curl成功读正文，确证科技命名。"
+        },
+        {
+          "query": "\"隸首\" 公司 軟體",
+          "executed_on": "2026-11-08",
+          "summary": "繁体主要古人物/隸首之學及异字企业，未将隸易/隸源作精确同名。"
+        },
+        {
+          "query": "\"lishou\" company AI",
+          "executed_on": "2026-11-08",
+          "summary": "拼音结果Lishou工业企业/减肥产品/应用等，拼音近名且中文未核，不当隶首精确品牌；已有中文主体证据独立成立。"
+        },
+        {
+          "query": "\"海南隶首科技有限公司\"",
+          "executed_on": "2026-11-08",
+          "summary": "海南精确主体查询实际发起后长时间无返回，等待多次后终止工具cell；本条未获得新结果，不借其他query摘要冒称本条返回。",
+          "status": "started_no_result_cell_terminated",
+          "usable_search_result": false
+        }
+      ],
+      "decision": "reject_exact_core_company_and_named_platform",
+      "reason": "已读安徽隶首人工智能科技有限公司第三方企业资料，且中国网2023报道正文确称华润电力共享数智管控平台隶首，完整核心同名。不能因地域/人工智能科技后缀把核心当不同名；目录不等于官方实时登记。",
+      "evidence": [
+        {
+          "url": "https://www.shuididp.cn/yp-205e4c5e2e8c57be38895c81785b5e01.html",
+          "access": "third_party_company_profile_body_read",
+          "finding": "L22/70公司全名及AI软件经营范围，L74代码91340202MAEXKGJA84；互联网资料而非GSXT核准。首次返回L121无锡隶首股东，后find未匹配，不以股东作为另一本次确证主体。"
+        },
+        {
+          "url": "https://business.china.com.cn/2023-12/28/content_42654155.html",
+          "access": "secondary_news_body_curl_read_after_web_502",
+          "finding": "web502、Python证书失败；curl -k最终HTTP200/20942字节，实际读2023-12-28标题与首段及自动化段，明确华润电力共享数智管控平台隶首、金蝶及润电参与。只核命名，不背书自动化性能。"
+        },
+        {
+          "url": "https://www.qiyeku.cn/tag/company8895e6-2.html",
+          "access": "search_index_only_open_timeout",
+          "finding": "搜索列海南隶首科技有限公司及AI软件范围；打开超时，不单凭该目录摘要当在营登记确证；另安徽资料与华润平台正文已足够否决。"
+        },
+        {
+          "url": "https://www.jzlog.cn/index.html",
+          "access": "primary_page_open_without_target",
+          "finding": "搜索索引曾有隶首字样，但实际打开旧版62行正文未出现该字；不当新主体证据。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run A3-controls.json于2026-11-07共同入口403；本批无新大陆入口访问，未逐名逐类登记。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run A3-controls.json于2026-11-07共同入口403；本批无新大陆入口访问，未逐名逐类登记。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Lishou",
+          "scope": "2026-11-08实际逐名拼音搜索URL不可访问，非无公司/登记可用结论。"
+        }
+      },
+      "local_evidence": {
+        "path": "/tmp/a3-lishou-china.html",
+        "sha256": "d4695339b111b46dc333cec4c46c7994bb9b3615a19ba5e40581c1f9716a80a1",
+        "bytes": 20942,
+        "method": "curl -k -L，网络证书问题绕过不改变原新闻来源；本地全文不入仓库"
+      }
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "completed_search_result_count": 12,
+  "failed_or_unreturned_search_attempts": 1,
+  "passed_chinese_candidate_ids": [],
+  "controls_reused_not_new": "沿本run原2阳性对照，本批新对照0"
+}

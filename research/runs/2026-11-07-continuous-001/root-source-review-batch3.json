@@ -1,0 +1,35 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-07T21:05:25.030440+08:00",
+  "items": [
+    {
+      "url": "https://sicp.sourceacademy.org/chapters/4.1.4.html",
+      "access": "body",
+      "scope": "L271–304全局环境及driver loop；实际读原文/JS对照，不把JS新增改写当Scheme逐字原文",
+      "finding": "程序读入完整表达式、环境中求值、输出并继续，定义后可再调用。不是按一次回车必成功，更不是学习新知识。"
+    },
+    {
+      "url": "https://docs.python.org/3/tutorial/interpreter.html",
+      "access": "body",
+      "scope": "L10–17、23–37交互与续行示例",
+      "finding": "交互读执行输入，多行结构可需要续行，按键动作是品牌经验概括。"
+    },
+    {
+      "url": "https://www.kahuer.com/",
+      "access": "body",
+      "scope": "L13、43–45、111及165",
+      "finding": "官方主体天津开合电力科技有限公司，工业物联网、边缘控制和软件系统，自称开合科技。"
+    },
+    {
+      "url": "https://www.mxindustrial.com/product/4-0-either-end-connector/",
+      "access": "primary_retail_body",
+      "scope": "L19–39标题、定价、商品描述、SKU",
+      "finding": "4/0 Eitherend connector，商品MX3515，Magnaflux p/n1238；实际科技商品使用，避让不等于在册商标判定。"
+    },
+    {
+      "url": "https://www.huahuitech.com/h-nd-73.html",
+      "access": "root_open_timeout",
+      "finding": "根代理重取超时，不冒称根代理读到正文；A3原真实正文读取范围另见A3-cn-batch3.json。"
+    }
+  ]
+}

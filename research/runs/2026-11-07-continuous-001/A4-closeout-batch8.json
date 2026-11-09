@@ -1,0 +1,64 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "completed_at": "2026-11-07T23:19:47.872192+08:00",
+  "chinese_id": "C1-C19",
+  "chinese": "分身有别",
+  "family_id": "C1-BF-shared-start-private-changes",
+  "inputs": [
+    {
+      "path": "coordinator-en-batch14.json",
+      "sha256": "eee1151c523c7c7edf831286ec1f32490533221840c84a113305b76f1698b613"
+    },
+    {
+      "path": "coordinator-en-batch15.json",
+      "sha256": "a9f5252972777cdf2e4fdb3060bfc03088e3e9485d1894f9450597e8abd4f492"
+    },
+    {
+      "path": "coordinator-en-batch16.json",
+      "sha256": "1c707303de2235b026ed7aabc5622efb271b766e57ad011bd9a944398c11d2eb"
+    },
+    {
+      "path": "A3-en-batch15.json",
+      "sha256": "069c869d638135281888267320e9a184a05506e1b13016779622464772d95d46"
+    },
+    {
+      "path": "A3-en-batch16.json",
+      "sha256": "979ba4531d02112074ecadc8953d697fda51421d35bb3bcffab23de2f836fe51"
+    }
+  ],
+  "actual_read_scope": "实际完整读上述主控评审及原A3正式证据/结论；本次未重查网页、公司登记或专利镜像，不冒称本人执行A3查询。",
+  "versions": [
+    {
+      "id": "C1-E14",
+      "english": "Ownwrite",
+      "attempt": 0,
+      "decision": "quality_reject_not_usage_screened",
+      "reason": "主控认常见own right听写竞争且写作版权工具首联想；质量未过，未送A3，不称已占用。"
+    },
+    {
+      "id": "C1-E15",
+      "english": "Branchwise",
+      "attempt": 1,
+      "decision": "exact_named_model_and_software_reject",
+      "reason": "原A3六查询确证RBC Borealis BranchWise命名机器学习模型及Devpost Branchwise独立选址软件；另商业团队证据。不仅普通branch-wise功能词。"
+    },
+    {
+      "id": "C1-E16",
+      "english": "Kinstate",
+      "attempt": 2,
+      "decision": "historical_exact_commercial_name_editorial_avoidance",
+      "reason": "专利公开记录历史申请人/转让名称Kinstate Inc及Salary同名企业资料构成同名商业使用线索，按项目口径避让。两个来源主体是否同一法人未证；不凭共享姓名推定合一。",
+      "limits": "非确证同名AI公司或模型，非现时官方登记/商标法律判断；专利Abandoned不推定企业注销或存续，Kingstate电子公司只是多g的近形品牌。"
+    }
+  ],
+  "qualified_english_output": 0,
+  "rework_attempts_used": 2,
+  "remaining_reworks": 0,
+  "final_family_status": "中文研究保留，本工作包无合格英文，不入完整双语备选，禁止R3。",
+  "project_scope": "只关闭C19该家族英文工作，不停止同run或未来命名研究。",
+  "new_name_queries": 0,
+  "new_scores": false,
+  "new_names": 0,
+  "unchanged": "原稿、分数、索引和总库均未改；无Git。"
+}

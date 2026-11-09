@@ -1,0 +1,255 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-07T20:58:18.169571+08:00",
+  "scope": "四个不同关系中文创作记录；并非全部值得送查，自评与主控独评分开，后续使用筛查尚未执行。",
+  "candidates": [
+    {
+      "id": "C1-C07",
+      "name": "开合",
+      "pinyin": "kāi hé",
+      "material_id": "C1-M10",
+      "family_id": "C1-BF-local-edit-kept-return-path",
+      "formation": "取现成动作词，不自称论文原有中文名称。作者确实用衣物拉链的打开与合上来解释树结构的上下导航。",
+      "meaning": "走进局部，也保留回到整体的路。",
+      "crossing": "日常器物的开合动作与计算结构中的焦点、路径相遇：处理眼前一部分时，周围关系没有因此丢失。这里的第二层不是给两个字补吉祥解释，而是作者已有的拉链比喻。",
+      "layers": [
+        "开与合是人人可理解的一对动作",
+        "Zipper以当前子树及周围上下文表示可导航的位置",
+        "实验室可以把复杂系统中的局部处理和整体组织作为长期研究问题"
+      ],
+      "material_feature_retained": "保留进入局部、携带周围结构、再返回整体的关系。",
+      "material_feature_lost": "名称不说明反向路径表示、兄弟节点或具体编辑操作的复杂度。",
+      "why_name_not_generic": "开与合本来构成同一动作体系，并在作者器物比喻中成对出现；并非“开放＋合作”的事后美化。",
+      "shortcoming": "首听可能是门窗、服装或机械品牌。名字短而普通，科技身份需要研究建立；不能只靠深奥出处替首印象辩护。",
+      "science_boundary": "并非每一个导航原语都为常数时间；保持上下文不等于模型已经能持续学习。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "旧闭包保存函数定义环境；本项是树中当前位置与返回路径的可导航结构。不同于旧开集的集合拓扑。若释义退化成泛化上下文保存，与FP04仅靠语境解释比特的故事仍应保守合并。"
+      },
+      "oral_test": [
+        "我们是开合，做人工智能研究。",
+        "开合发布了一项研究。"
+      ],
+      "material_ids": [
+        "C1-M10"
+      ],
+      "plan_direction_id": "C1-D-S3",
+      "case_ids": [
+        "B074",
+        "B002"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "source_urls": [
+        "https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/0C058890B8A9B588F26E6D68CF0CE204/S0956796897002864a.pdf/zipper.pdf",
+        "https://gallium.inria.fr/~huet/PUBLIC/zip.pdf"
+      ],
+      "sources": [
+        {
+          "title": "Gérard Huet: The Zipper, JFP 7(5),549–554",
+          "url": "https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/0C058890B8A9B588F26E6D68CF0CE204/S0956796897002864a.pdf/zipper.pdf",
+          "source_type": "other",
+          "reading_scope": "excerpt",
+          "reading_location": "PDF前3页，印刷549–551：引言、focus+path、导航原语及复杂度说明",
+          "published_at": "1997-09",
+          "access": "body",
+          "method": "web_body",
+          "checked_at": "2026-11-07"
+        },
+        {
+          "title": "Huet作者托管早期稿",
+          "url": "https://gallium.inria.fr/~huet/PUBLIC/zip.pdf",
+          "source_type": "other",
+          "reading_scope": "excerpt",
+          "reading_location": "前2页引言与位置/路径定义；标题页年份与最终发表版不一致，不据早稿头确认首发年代",
+          "published_at": null,
+          "access": "body",
+          "method": "web_PDF_body",
+          "checked_at": "2026-11-07"
+        }
+      ],
+      "status": "chinese_draft_not_screened",
+      "source_note": "实际正文阅读范围沿用materials-extension1.json；未做名称使用或注册查询，未配英文。"
+    },
+    {
+      "id": "C1-C08",
+      "name": "活桥",
+      "pinyin": "huó qiáo",
+      "material_id": "C1-M11",
+      "family_id": "C1-BF-members-become-adaptive-support",
+      "formation": "把论文实际研究的living bridges压成可称呼中文对象；这是本轮品牌表达，不冒称标准中文术语。",
+      "meaning": "连接并非预先建成；行动者本身也能成为新的支撑。",
+      "crossing": "桥通常是固定设施，论文中的桥却由活动的蚂蚁身体构成，并依使用条件改变形状和位置。活与桥之间的反差，来自同一个真实对象，而非两个好字硬拼。",
+      "layers": [
+        "一座会活起来的桥，有直接图景",
+        "成员临时成为结构，结构随交通与地形变化",
+        "研究群体、工具与智能系统怎样形成新的可用组织"
+      ],
+      "material_feature_retained": "保留成员既能行动、也能成为支撑结构，并受投入成员数量的代价约束。",
+      "material_feature_lost": "名字不包含具体物种、实验坡道和桥体工蚁与觅食工蚁的量化权衡。",
+      "why_name_not_generic": "活的结构是同一观察对象的完整反常性，不是单独取桥的连接寓意或蚂蚁的勤奋寓意。",
+      "shortcoming": "容易先被当成桥梁工程、城市更新或生态公司；活字也可能显轻。需主控独立判断它能否像真实研究机构称呼。",
+      "science_boundary": "观察中的调整不证明全局最优，更不直接证明AI能力提升；投入桥体不等于死亡牺牲。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "旧星际渡口以轨道/通道节点为出发或转路地点；本项为成员身体临时组成、可重构且有成员占用代价的结构。旧比特群岛是隔离种群迁移，不是成员成为基础设施。若最终仅剩泛化连接隐喻则不计新家族。"
+      },
+      "oral_test": [
+        "我们是活桥，做人工智能研究。",
+        "活桥今天发布了一项研究。"
+      ],
+      "material_ids": [
+        "C1-M11"
+      ],
+      "plan_direction_id": "C1-D-S2",
+      "case_ids": [
+        "B076",
+        "B053"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3"
+      ],
+      "source_urls": [
+        "https://www.thekaolab.com/papers/Reid_PNAS_2015.pdf"
+      ],
+      "sources": [
+        {
+          "title": "Reid et al.: Army ants dynamically adjust living bridges in response to a cost–benefit trade-off",
+          "url": "https://www.thekaolab.com/papers/Reid_PNAS_2015.pdf",
+          "source_type": "other",
+          "reading_scope": "excerpt",
+          "reading_location": "作者实验室托管原论文，PDF页1–2摘要/实验设计/结果；讨论段动态变位、成本与最优性限制",
+          "published_at": "2015-11-23",
+          "access": "body",
+          "method": "web_body",
+          "checked_at": "2026-11-07"
+        }
+      ],
+      "status": "chinese_draft_not_screened",
+      "source_note": "实际正文阅读范围沿用materials-extension1.json；未做名称使用或注册查询，未配英文。"
+    },
+    {
+      "id": "C1-C09",
+      "name": "横竖之间",
+      "pinyin": "héng shù zhī jiān",
+      "material_id": "C1-M12",
+      "family_id": "C1-BF-rod-orientation-and-place",
+      "formation": "本轮创作的完整空间短语。横、竖和其间的位置在同一算筹实践中各有作用，不假称这是古籍原句。",
+      "meaning": "最简单的东西，通过安排，获得表达复杂事物的能力。",
+      "crossing": "小棍无需更换材质，纵横交替、数位与空位就能参与表达不同数字。名称保留横竖可见的方向，以及方向之间需要读出的关系。",
+      "layers": [
+        "日常横与竖的简单方向感",
+        "中国算筹中纵横布筹、位值和空位的计算实践",
+        "研究表示方式与组织关系如何赋予简单构件表达能力"
+      ],
+      "material_feature_retained": "保留相同构件依方向和位置表达不同量的关系，以及空位也参与表示。",
+      "material_feature_lost": "名字无法单独表达十进位规则、每个数位的纵横约定或运算程序。",
+      "why_name_not_generic": "四字是一个可想象的完整空间关系，原始材料中方向与位置确实共同工作；未拼接两个无关科学名词。",
+      "shortcoming": "较长，第一联想可能是书法、字体或设计工作室。科技机构感偏弱；若不能在第一层站住，不能用中国计算史替它硬补。",
+      "science_boundary": "实读的是现代科技馆展品说明，不是《九章算术》正文；空位表示零不等于当时已有现代0字形。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "演算尺以连续尺度及对数关系运算；本项保留离散筹棍的纵横和位值。与FP04载体/解释语境在上位原理相邻，不能因换器物就自动计新增，需保留可见纵横数位画面并由主控保守判家族。"
+      },
+      "oral_test": [
+        "我们是横竖之间，做人工智能研究。",
+        "横竖之间发布了一项研究。"
+      ],
+      "material_ids": [
+        "C1-M12"
+      ],
+      "plan_direction_id": "C1-D-S4",
+      "case_ids": [
+        "B008",
+        "B021"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P6"
+      ],
+      "source_urls": [
+        "https://www.cdstm.cn/museum/zphc/hxzg2017x/art/2017/art_c0f5e1d55c3049499779b291424a7707.html"
+      ],
+      "sources": [
+        {
+          "title": "中国科学技术馆：算筹",
+          "url": "https://www.cdstm.cn/museum/zphc/hxzg2017x/art/2017/art_c0f5e1d55c3049499779b291424a7707.html",
+          "source_type": "other",
+          "reading_scope": "excerpt",
+          "reading_location": "L20–30纵横布筹、位值和空位表示零的展品正文；不复述最早起源断言",
+          "published_at": null,
+          "access": "body",
+          "method": "web_body",
+          "checked_at": "2026-11-07"
+        }
+      ],
+      "status": "chinese_draft_not_screened",
+      "source_note": "实际正文阅读范围沿用materials-extension1.json；未做名称使用或注册查询，未配英文。"
+    },
+    {
+      "id": "C1-C10",
+      "name": "开明兽",
+      "pinyin": "kāi míng shòu",
+      "material_id": "C1-M13",
+      "family_id": "C1-BF-kaiming-nonhuman-research-persona",
+      "formation": "直接取真实既有神话角色的三字专名，不造字、不更换动物部件或加智能后缀。",
+      "meaning": "用一个有来历的非人角色，容纳关于认识与未知世界的研究想象。",
+      "crossing": "原文角色在昆仑守门，虎身而九首皆人面；一个非人的身体与人的面貌共存。今天读到开明，也会联想到通达和理解，这是现代读者的第二层联想，不是古代词源结论。",
+      "layers": [
+        "已有姓名的主角，先能被称呼",
+        "中国神话中的非人身体、人面与昆仑场景",
+        "把实验室放在长期探索未知的世界观中，而非限定某一模型功能"
+      ],
+      "material_feature_retained": "保留角色原名、非人身体与人面共存及昆仑场景。",
+      "material_feature_lost": "不借用守门来宣称安全业务，也不把多首解释成算法并行能力。",
+      "why_name_not_generic": "本来就是有身份、场景和形象的完整角色；没有先拼开明两个吉字，再给兽字编科技寓意。",
+      "shortcoming": "可能像游戏、动画或文创品牌，兽带一点威猛感。九个人面也可能让人不适；品牌故事不能只挑开放、聪明等正面词而隐去原形象。",
+      "science_boundary": "神话不是动物学或AI机制证据。原文九首皆向东，不能改成九面看九个方向；不以古籍为团队宣布开放或安全承诺。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "取完整非人角色而非旧星际渡口地点、指南器具或群体动物机制。仅同属神话/生物不是同家族；也不是把Sakana鱼替换成兽来重新讲群体优化。实际名称使用交独立A3，本轮未查询。"
+      },
+      "oral_test": [
+        "我们是开明兽，做人工智能研究。",
+        "开明兽发布了一项研究。"
+      ],
+      "material_ids": [
+        "C1-M13"
+      ],
+      "plan_direction_id": "C1-D-S4",
+      "case_ids": [
+        "B008",
+        "B021"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P6"
+      ],
+      "source_urls": [
+        "https://zh.wikisource.org/zh-hant/山海經/海內西經"
+      ],
+      "sources": [
+        {
+          "title": "《山海经·海内西经》",
+          "url": "https://zh.wikisource.org/zh-hant/山海經/海內西經",
+          "source_type": "other",
+          "reading_scope": "excerpt",
+          "reading_location": "L126–170本篇短文，重点L147九门守者与L157九首人面；不声称读完整山海经",
+          "published_at": null,
+          "access": "body",
+          "method": "web_classical_text_body",
+          "checked_at": "2026-11-07"
+        }
+      ],
+      "status": "chinese_draft_not_screened",
+      "source_note": "实际正文阅读范围沿用materials-extension1.json；未做名称使用或注册查询，未配英文。"
+    }
+  ]
+}

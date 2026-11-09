@@ -1,0 +1,118 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T20:53:06.053593+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch1.md",
+      "sha256": "9616aa79f40f04ffe030328be001ec2bd03099feca7f82401b2706899ce16ead"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-batch1.json",
+      "sha256": "c6914a78284cc97d58a22ae73785452e8bb9122e5894b369084e3257b63d0e58"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch1.json",
+      "sha256": "45101ada89da032991358afa4376dbc9919e19e1439e9c2ba56d9e19eefdf280"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch1.json",
+      "sha256": "04c2d6a61f013fc50d979f814370b28d7b96a657acc87c86dc08fb5982c3331d"
+    }
+  ],
+  "query_count": 7,
+  "results": [
+    {
+      "candidate_id": "C1-E01",
+      "chinese_candidate_id": "C1-C01",
+      "chinese": "由此及彼",
+      "name": "Therefrom",
+      "query_logs": [
+        {
+          "query": "\"Therefrom\"",
+          "executed_on": "2026-11-07",
+          "summary": "主要辞书原词，不能当品牌"
+        },
+        {
+          "query": "\"Therefrom\" company lab technology",
+          "executed_on": "2026-11-07",
+          "summary": "合同/专利一般副词用法，不是所列公司名"
+        },
+        {
+          "query": "\"Therefrom\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "AI许可证中的informational content resulting therefrom为一般语言"
+        },
+        {
+          "query": "\"Therefrom\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "Therefore软件条款里的副词，不等于产品名；专利标题一般语言"
+        },
+        {
+          "query": "\"There From\" company software",
+          "executed_on": "2026-11-07",
+          "summary": "较长THERE FROM HERE LIMITED需区分；普通there公司也非同词"
+        },
+        {
+          "query": "\"therefrom\" startup brand -patent -agreement -license -terms -dictionary -site:sec.gov",
+          "executed_on": "2026-11-07",
+          "summary": "排除高噪声法律类后见Therefrom创意商业工作室，已开官网核实"
+        },
+        {
+          "query": "\"therefrom\" \"Ltd\" -therefore -agreement -license -terms -conditions -patent",
+          "executed_on": "2026-11-07",
+          "summary": "仍主要法律文书，未据此编造有限公司主体"
+        }
+      ],
+      "decision": "return_for_alternative",
+      "reason": "已确证精确同名商业创意品牌THEREFROM，官网销售印刷品并制作互动多媒体。按用户避已有商业公司品牌偏好主动避让；并非证实AI科技公司、独立软件或登记注册占用。中文由此及彼不因此否决，可交A4首返。",
+      "evidence": [
+        {
+          "url": "https://www.therefrom.co/about",
+          "access": "primary_studio_body_read",
+          "finding": "THEREFROM is a creative studio；印刷产品与互动多媒体、购买收益支持作者、官网Shop入口，独立商业品牌非个人用户名。"
+        },
+        {
+          "url": "https://www.therefrom.co/",
+          "access": "primary_commercial_landing_body_read",
+          "finding": "THEREFROM标题及Prints with Purpose销售叙述、Interactive Scavenger Hunts Coming Soon；不能把尚未上线QR活动冒充已发布软件。"
+        },
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/15018440",
+          "access": "official_company_body_read",
+          "finding": "较长THERE FROM HERE LIMITED15018440，视频制作，2026-01-06注销；不是精确Therefrom当前在营公司。"
+        },
+        {
+          "url": "https://therefore.net/online-tos/emea/",
+          "access": "primary_software_terms_body_read",
+          "finding": "主体Therefore Corporation GmbH、Therefore Online产品；therefrom是条款副词，不能误判完整Therefrom软件。"
+        },
+        {
+          "url": "https://www.merriam-webster.com/dictionary/therefrom",
+          "access": "primary_dictionary_body_read",
+          "finding": "副词从那/它而来，13世纪已有使用；词典事实正确不推论品牌未使用。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮controls新试403，未逐名查询"
+        },
+        "mainland_trademark_class_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口本轮403，未逐名逐类"
+        },
+        "uk_company_search": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Therefrom",
+          "scope": "本候选逐名搜索URL实际不可访问；具体较长公司记录可读不等于完整检索"
+        }
+      }
+    }
+  ],
+  "passed_english_candidate_ids": [],
+  "controls": "A3-controls.json",
+  "claim_limits": "商业实际使用/注册法律状态分开，不假称全球占用或未注册。"
+}

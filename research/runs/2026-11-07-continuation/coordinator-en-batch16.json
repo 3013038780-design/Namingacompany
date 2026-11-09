@@ -1,0 +1,80 @@
+{
+  "reviewed_at": "2026-11-07T18:56:03.250296+08:00",
+  "independence": "Read producer preview batch16 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C16",
+      "name": "Pass the Ember",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通动词短语顺口",
+          "counter_association": "可能像活动口号"
+        },
+        "spelling": {
+          "reason": "拼写常见",
+          "counter_association": "三个词较长"
+        },
+        "grounding": {
+          "reason": "火传场景有据但属于新表达",
+          "counter_association": "ember偏余烬"
+        },
+        "bilingual_relation": {
+          "reason": "递火与传递火种对应",
+          "counter_association": "不能承诺无限增长"
+        },
+        "distinctiveness": {
+          "reason": "完整行动画面可称呼",
+          "counter_association": "文化活动联想"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E29"
+    },
+    {
+      "candidate_id": "CT-C18",
+      "name": "Sky Detour",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个常用词自然",
+          "counter_association": "旅行联想"
+        },
+        "spelling": {
+          "reason": "字形易读",
+          "counter_association": "普通词可能已用"
+        },
+        "grounding": {
+          "reason": "天空中光路弯曲是真实锚点",
+          "counter_association": "不是科学标准术语"
+        },
+        "bilingual_relation": {
+          "reason": "天空与光的弯道共享路径画面",
+          "counter_association": "英文未直接说光"
+        },
+        "distinctiveness": {
+          "reason": "偏航画面有辨识度",
+          "counter_association": "航旅户外联想"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E30"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T12:35:47.806322+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-C62",
+      "name": "接招",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "现成中文完整动作，两字都熟悉，可顺口作为行动主体称呼，不是截断原理句或缩写生词",
+          "counter_association": "日常也用作向别人挑战的命令，入句可能被先听成口语动作而非品牌"
+        },
+        "distinctiveness": {
+          "reason": "来招与接手的具体成对画面有动态记点，发音短促明确，比泛学习/更聪明有独立动作姿态",
+          "counter_association": "武术与游戏语境常见，熟悉并不等于商业独有；未查使用"
+        },
+        "lab_fit": {
+          "reason": "完整回应者身份可容纳交互、行动与智能研究，名字不是戏剧物件或培训课程标题；不需要把研究限定为单一模型功能",
+          "counter_association": "格斗游戏/营销应战或对话产品联想强；主控若认为只能靠出处拉到Lab，应独立拒绝"
+        },
+        "grounding": {
+          "reason": "书中具体行动前提的承接支持该角色凝练，口头反对与阻断区别如实保存，非简单把接/招各配正向词",
+          "counter_association": "是现成汉语比喻的品牌再选择，原文无中文接招，且没有武术研究；不是实验普遍定律"
+        },
+        "extension": {
+          "reason": "对他者行动作出有用回应是长期角色，容纳不同工具/模型/研究，而非只描写今天的继续训练技术",
+          "counter_association": "若产品长期只表现为对话应答，会被锁成聊天功能；不承诺所有提案都接受"
+        },
+        "semantic_coherence": {
+          "reason": "接和招共同指一个动作接续关系，武术熟悉画面与场景承接由同一应对动作相接，不拼技术吉祥字",
+          "counter_association": "争胜/击败别人不是材料核心；不能把合作原理硬写成竞争越强越智能"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ],
+  "qualified_candidate_ids": [
+    "C1-C62"
+  ],
+  "boundary": "先封无分preview/素材/执行并通知主控，再写数字；未读本包主控评分，源真实不替代首要行业身份判断。家族独立性须另验，旧临场集若同族不得计新。"
+}

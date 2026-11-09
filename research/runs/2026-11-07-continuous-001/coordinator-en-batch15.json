@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-07T23:14:06.410712+08:00",
+  "independence": "Read producer preview batch15 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C19",
+      "name": "Branchwise",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个正常音节与常用后缀读音直接",
+          "counter_association": "不是所有听者熟悉计算中的fork"
+        },
+        "spelling": {
+          "reason": "完整branch和wise拼写不需异体字母",
+          "counter_association": "branch复数和空格形式需筛查"
+        },
+        "grounding": {
+          "reason": "fork同源分支与分别处理有真实机制",
+          "counter_association": "wise后缀不意味聪明或天然私有内存"
+        },
+        "bilingual_relation": {
+          "reason": "按分支对待状态和分身有别主题相连",
+          "counter_association": "名称不独自表达COW全部条件"
+        },
+        "distinctiveness": {
+          "reason": "结构视角能容纳共享底座与多主体研究",
+          "counter_association": "易先理解为Git工具或企业分部软件"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E15"
+    }
+  ]
+}

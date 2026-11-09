@@ -1,0 +1,182 @@
+{
+  "accepted_at": "2026-11-08T13:25:37.191625+08:00",
+  "same_research_run": true,
+  "new_A1_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "accepted_at": "2026-11-08T13:25:37.191625+08:00",
+      "from": "existing_A1",
+      "to": "same_A2",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C29"
+      ],
+      "reason": "原A1六方向及关系凝练复用，原A2读冻结28案，不计新案例、不重开计划。",
+      "refs": [
+        {
+          "path": "A1-final-input-reacceptance.json",
+          "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+        },
+        {
+          "path": "A1-formation-feedback.json",
+          "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        },
+        {
+          "path": "continuations/2026-11-08T033348Z/decisions-through-batch15.json",
+          "sha256": "3c3d6523597943b538eb8dfbb23df8098fa0d27e0626c30949b6700f37f17185"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "accepted_at": "2026-11-08T13:25:37.191625+08:00",
+      "from": "same_A2",
+      "to": "coordinator",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C29"
+      ],
+      "reason": "主控先封存25后读producer26、最大轴差1，源核奖励落空时点并与有界好奇角色对照；负面成本保留，不直接以负面否决或洗白。",
+      "refs": [
+        {
+          "path": "A2-candidates-batch16.json",
+          "sha256": "eee1500c74c7f4637e589f6196a4257d36c959d2daabdd4dab434ad5c8a65668"
+        },
+        {
+          "path": "A2-preview-batch16.md",
+          "sha256": "6e553c6779a0a2fb3dc0626ef0d302bc869180276bc90bd9e8f210faa45617d9"
+        },
+        {
+          "path": "A2-quality-batch16.json",
+          "sha256": "6a48f596dad549e17c77949341bbe7041ffae26c6e4f0f8c8e0dce5d0977be83"
+        },
+        {
+          "path": "A2-creation-execution-batch16.json",
+          "sha256": "dcfe33dc4eb91a5e916cb8489f3a4bc6960dfdc876a48cbd17c080f831d5f836"
+        },
+        {
+          "path": "materials-extension15.json",
+          "sha256": "ad5ea5eb8a063d85b91e08ea92a1457d00a4e86c375135b0c73b9e3e814bc432"
+        },
+        {
+          "path": "coordinator-cn-batch16.json",
+          "sha256": "33e0866e4619f9e8ea7e19841b59233bf773536221ed854afbc75a95779b5801"
+        },
+        {
+          "path": "coordinator-family-review-batch16.json",
+          "sha256": "f654137e034211dc5ad9d097c2e46ad9fd591d88f141b21e3e5457f6d3f6cfee"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "accepted_at": "2026-11-08T13:25:37.191625+08:00",
+      "from": "coordinator",
+      "to": "same_A3",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C29"
+      ],
+      "reason": "原A3八中文查询确证TapTap完整同名具名游戏DEMO。",
+      "refs": [
+        {
+          "path": "A3-cn-batch18.json",
+          "sha256": "730fbfa05bfbc86f62787a1fc5fdeeb712aad7d34e4a47d934fd5d8a3ec94592"
+        },
+        {
+          "path": "A3-cn-batch18-receipt.json",
+          "sha256": "fd63305938e9ad5b42cf837742eff009f36bae32e1b10fdbfc1ba06b96cf9a6b"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "accepted_at": "2026-11-08T13:25:37.191625+08:00",
+      "from": "same_A3",
+      "to": "same_A4",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C29"
+      ],
+      "reason": "中文实际使用淘汰，原A4核合格0，不配英文救回。",
+      "refs": [
+        {
+          "path": "A4-zero-batch16.json",
+          "sha256": "113dfdf0f04f6f322b8c549e0c64c8de9fc407d9c813daaa93d9a41872c2c0fa"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "accepted_at": "2026-11-08T13:25:37.191625+08:00",
+      "from": "same_A4",
+      "to": "same_A3",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C29"
+      ],
+      "reason": "原A4真实零输出，同一原A3真实终核。",
+      "refs": [
+        {
+          "path": "A4-zero-batch16.json",
+          "sha256": "113dfdf0f04f6f322b8c549e0c64c8de9fc407d9c813daaa93d9a41872c2c0fa"
+        },
+        {
+          "path": "A3-en-zero-batch16.json",
+          "sha256": "529b9fc450f50b48bf9faa0d392676d31e11ee1635b6b293a91a11301ab2abde"
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "accepted_at": "2026-11-08T13:25:37.191625+08:00",
+      "from": "same_A3",
+      "to": "coordinator",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C29"
+      ],
+      "reason": "英文输入/查询0，固定输入输出SHA核对完成。",
+      "refs": [
+        {
+          "path": "A3-en-zero-batch16.json",
+          "sha256": "529b9fc450f50b48bf9faa0d392676d31e11ee1635b6b293a91a11301ab2abde"
+        },
+        {
+          "path": "A3-en-zero-batch16-receipt.json",
+          "sha256": "eba4d27470eca58d3d55ea95fa87e3b311e86b8d7a651593d35e7120acbf02f1"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "accepted_at": "2026-11-08T13:25:37.191625+08:00",
+      "from": "coordinator",
+      "to": "catalog",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C29"
+      ],
+      "reason": "主控实际核同名DEMO软件，区分当前供应商与缓存法人，不列完整配对。",
+      "refs": [
+        {
+          "path": "continuations/2026-11-08T051531Z/root-C29-use-verification.json",
+          "sha256": "d1ab7a7b5c99a0687b102044a6d8e7b2c344f5887af457ebbd6be4e08707df27"
+        },
+        {
+          "path": "continuations/2026-11-08T051531Z/decisions-through-batch16.json",
+          "sha256": "01806e2dfee25e86c915254707833ce313b0f3ff355e0d61cde5c3cb61b1c9db"
+        }
+      ]
+    }
+  ]
+}

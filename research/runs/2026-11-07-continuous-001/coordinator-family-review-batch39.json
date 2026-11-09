@@ -1,0 +1,34 @@
+{
+  "reviewed_at": "2026-11-09T03:29:30.549498+08:00",
+  "reviewer": "/root",
+  "candidate_id": "C1-C57",
+  "name": "时镜",
+  "decision": "source_and_family_accepted_pending_dual_quality",
+  "source_review": {
+    "url": "https://communities.springernature.com/posts/observation-of-time-reflection-for-electromagnetic-waves",
+    "actual_root_read": "11–15作者/日期、37–59全部解释正文和图注、60–66参考文献仅作为入口；未看图像/论文方法/补充材料或复现实验。",
+    "source_type": "original_paper_author_explanation_not_full_paper_review",
+    "supports": "空间均匀的同步介质切换形成时间界面、反射部分信号时序反转与频移；作者叙述的实验而非本团队结果。",
+    "boundary": "45写阻抗倍增、48图注写下降有差异，不采用方向/倍数；原论文未核读，不把此释文当方法证明。不是时间倒流/记忆重播/AI增强实证；2023旧文不计近90日新闻。"
+  },
+  "family_review": {
+    "literal_history": "本段实际扫描1635文件478名称串，时镜无旧名称字段精确提案。",
+    "distinct": "Echo为空间普通回声，声入纹为刻录重放；本项在介质时间条件突变生成波反射而非录制后倒放。骰子钟为随机等待，因序为事件偏序，第三真值为逻辑状态，不以共有时字并族。相变若只借泛临界跃迁会并旧族，但这里保留时间界面与信号操作关系。",
+    "limit": "之后解释不可退化为更强/涌现/反思/回到过去；有据不代表品牌原创或无近用。"
+  },
+  "A1_to_A2": "Cursor的可称呼界面对象、Recursive的机制身份与Sony的有据整体构词转为研究条件而非堆字，延续原S3/RX02-P1已验计划。",
+  "input_refs": [
+    {
+      "path": "A2-preview-batch39.json",
+      "sha256": "78ac22e6579ac6b7add0896b6201d5fc63b9b290a6708b3bb90bbc4d1be6e935"
+    },
+    {
+      "path": "materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462"
+    },
+    {
+      "path": "coordinator-cn-batch39.json",
+      "sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee"
+    }
+  ]
+}

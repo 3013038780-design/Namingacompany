@@ -1,0 +1,44 @@
+{
+  "agent_id": "/root/live_a4",
+  "role": "A4",
+  "recorded_at": "2026-11-07T18:17:41+08:00",
+  "input_authorization": "主控明确CT-C07/08双中文质量及A3中文公开使用初筛通过",
+  "candidates": [
+    {
+      "id": "CT-E04",
+      "chinese_id": "CT-C07",
+      "chinese": "念头引擎",
+      "english": "Thoughtgear",
+      "suggested_pronunciation": "THAWT-geer /ˈθɔːtɡɪr/",
+      "type": "两个完整英语词构成的合成品牌词，无删拼音或伪造词根",
+      "formation": "thought是念头/思考，gear是齿轮、传动装置及使系统进入行动状态的工程意象。两词完整合成Thoughtgear，让想法开始带动行动；不是给每个任意字母另编寓意。",
+      "bilingual_relation": "中文引擎着重驱动力，英文gear着重让思考进入运转与传递作用；共同表达从内部目标到行动的机构角色，不声称引擎与齿轮是同一器件。",
+      "meaning": "为已有智能系统提供把想法、目标变成行动的条件。作者书中内部状态/目标/控制之间的关系提供科学第二层，名称不声称模型有人的主观念头。",
+      "shortcoming": "可能先像思维工具或智能体产品；thought的th和结尾辅音对部分非母语者有正常英语发音成本。thoughtgear本身是本轮品牌合成，不能称词典既有科学术语。",
+      "source_urls": [
+        "https://natureofcode.com/autonomous-agents/",
+        "https://dictionary.cambridge.org/us/dictionary/english/in-gear"
+      ],
+      "read_scope": "A4实际打开并读The Nature of Code第5章L39–51及L88–110；Cambridge检索结果说明in gear可指准备/开始行动并用brain举例，正文403，仅作词义辅助，不假称正文阅读。",
+      "status": "quality_proposal_not_screened"
+    },
+    {
+      "id": "CT-E05",
+      "chinese_id": "CT-C08",
+      "chinese": "多想一步",
+      "english": "One More Thought",
+      "suggested_pronunciation": "wun mor THAWT /wʌn mɔːr θɔːt/",
+      "type": "三个普通英语词构成的完整名词短语",
+      "formation": "one more thought是一条自然完整的表达：再一个念头/再多一点思考。保留正常英语词形，不改拼音，不给more附加虚构学术词源。",
+      "bilingual_relation": "中文用一步作为判断展开的动作，英文用一个念头作为继续思考的单位；共享在已有答案之后再给判断展开空间的姿态，非逐字算法翻译。",
+      "meaning": "研究不急于把第一次输出当作终点，为进一步判断留出空间。中间推理步骤的论文是具体锚点，不保证多一个步骤就一定更正确，也不把单次推理说成持续学习。",
+      "shortcoming": "可能像播客、写作专栏或品牌标语，三个词长于一词专名；thought有th发音门槛。机构身份需研究成果承接，而不是名字自带技术证明。",
+      "source_urls": [
+        "https://arxiv.org/abs/2201.11903"
+      ],
+      "read_scope": "A4实际读论文摘要L16–17，明确中间推理步骤及所测任务改进；未读所有实验。英文是本轮普通语言品牌表达，不是原文标题或结论逐字摘取。",
+      "status": "quality_proposal_not_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

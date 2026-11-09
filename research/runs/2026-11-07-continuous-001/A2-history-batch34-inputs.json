@@ -1,0 +1,37 @@
+{
+  "frozen_at": "2026-11-09T01:36:10.743117+08:00",
+  "scope": "67材料54中文以不可变旧索引及实际新增原稿引用，不复制全部全文，不推下游未见终态。",
+  "counts": {
+    "materials": 67,
+    "chinese_ids": 54
+  },
+  "base": {
+    "path": "research/runs/2026-11-07-continuous-001/A2-history-through-batch31.json",
+    "sha256": "061426cbba2f82711bad387a01cb48d3602318afe963eb91d5cc0ea32ffeacee"
+  },
+  "material_deltas": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension30.json",
+      "sha256": "c716bd12c909eaddfe8b59c8a5553e3d87ddbd2228244e16036b927e126e2fc6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension31.json",
+      "sha256": "03c8710f5a7025054e9420ab44041b5f63aaf91ae1d35764834d797c9e120d99"
+    }
+  ],
+  "chinese_deltas": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch32.json",
+      "sha256": "3ae172436db41bda689c817caa38f68cbfee3af60c35193269ce7185a5f59a2e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch33.json",
+      "sha256": "dff34d16663df235471ae77f7dc80a1f783fca115dd0660698403b84da1e9e70"
+    }
+  ],
+  "new_decision_evidence": {
+    "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch35.json",
+    "sha256": "9bdf67b4be90bc395f58f8811928bbee47d78fbc307f9418e3774541b5c0a7e2"
+  },
+  "boundary": "C53/C54因具名软件使用拒绝，而非质量失败；本角色不改原分/原稿，不变形复活。"
+}

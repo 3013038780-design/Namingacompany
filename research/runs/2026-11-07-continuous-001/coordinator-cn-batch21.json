@@ -1,0 +1,88 @@
+{
+  "reviewed_at": "2026-11-08T19:13:48.065676+08:00",
+  "independence": "Read producer preview batch21 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C36",
+      "name": "乐观锁",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "完整熟悉术语，三个字可直接称呼",
+          "counter_association": "也像教学章节标题"
+        },
+        "distinctiveness": {
+          "reason": "态度与器物的反差容易记",
+          "counter_association": "技术通用性使品牌独占感有限"
+        },
+        "lab_fit": {
+          "reason": "现成计算机制可承载工程及研究身份",
+          "counter_association": "门锁或数据库工具首感保留"
+        },
+        "grounding": {
+          "reason": "先工作再用版本判冲突为真实关系",
+          "counter_association": "非无锁算法或自动合并"
+        },
+        "extension": {
+          "reason": "可谈协作与协调而不只一数据库功能",
+          "counter_association": "需避免收窄为数据库课程"
+        },
+        "semantic_coherence": {
+          "reason": "乐观是冲突假设而非情绪，仍可讲同一协调态度",
+          "counter_association": "不能声称乐观必然更强"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "C1-C37",
+      "name": "骰子钟",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "三个字形成完整器物想象，语法自然",
+          "counter_association": "骰有读写成本及色子异称"
+        },
+        "distinctiveness": {
+          "reason": "骰子与钟构成鲜明随机节奏画面",
+          "counter_association": "可能像桌游或小说道具"
+        },
+        "lab_fit": {
+          "reason": "概率与事件节奏的科学器物可容纳随机计算研究",
+          "counter_association": "玩具赌博或时钟产品首感需明示"
+        },
+        "grounding": {
+          "reason": "随机等待与鸣响同属泊松钟关系，骰子是概率比喻并非实物六面实现",
+          "counter_association": "不得把离散均匀骰子等同指数等待"
+        },
+        "extension": {
+          "reason": "可承载概率探索和计算研究而不限闹钟功能",
+          "counter_association": "不能声称随机等于学习或性能提高"
+        },
+        "semantic_coherence": {
+          "reason": "随机何时响而非确定刻度增厚同一时间器物",
+          "counter_association": "原文并无骰子装置名称"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

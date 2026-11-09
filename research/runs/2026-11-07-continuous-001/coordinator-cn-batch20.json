@@ -1,0 +1,88 @@
+{
+  "reviewed_at": "2026-11-08T17:50:42.106320+08:00",
+  "independence": "Read producer preview batch20 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C34",
+      "name": "沙阵",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两字完整物象，能直接用作称呼",
+          "counter_association": "沙砂听写相混"
+        },
+        "distinctiveness": {
+          "reason": "沙粒成阵有清楚画面和短促声音",
+          "counter_association": "也会想到游戏军阵"
+        },
+        "lab_fit": {
+          "reason": "材料响应与结构排列能承载物理计算工程研究，非单一家具环保感",
+          "counter_association": "可能被误作砂石材料企业，需保留风险"
+        },
+        "grounding": {
+          "reason": "材料场与排列在同一真实实验场景",
+          "counter_association": "不是沙粒自主学习或磁场只有线状部分"
+        },
+        "extension": {
+          "reason": "结构与交互可延至多项研究",
+          "counter_association": "不能只剩磁性材料单品"
+        },
+        "semantic_coherence": {
+          "reason": "分散材料通过外部条件形成整体形状的含义一致",
+          "counter_association": "不应扩写为任意群体智能"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "C1-C35",
+      "name": "隶首",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "已有两字人名称呼读音稳定",
+          "counter_association": "隶字初读有成本"
+        },
+        "distinctiveness": {
+          "reason": "陌生但短，隶字与首音形有辨识",
+          "counter_association": "力首立守同音易混"
+        },
+        "lab_fit": {
+          "reason": "古数学知识人物可像科学文化人名承载研究机构",
+          "counter_association": "可能先有书法隶属联想"
+        },
+        "grounding": {
+          "reason": "原序所记作数人物是直接真实名字来源，非现代发明事实",
+          "counter_association": "记载存在不证明具体发明或时代史实"
+        },
+        "extension": {
+          "reason": "算术传统可容纳长期计算研究和多产品",
+          "counter_association": "不能夸称继承失传算法"
+        },
+        "semantic_coherence": {
+          "reason": "人物与算术前史主线统一",
+          "counter_association": "刘徽作者态度不是隶首人格"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T18:29:10.968027+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-preview-batch5.md",
+      "sha256": "6f250c974ae8c1ece2e59b7040caef0ece5171e3072cf62aa19326f38e683d70"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/coordinator-en-batch5.json",
+      "sha256": "1f8b82815c91abfffca1f448c018a472b09feb3cd94b126385a9639c52d11bb3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuation/A4-quality-batch5.json",
+      "sha256": "3846146ab097fef93b96d275480bb4a48f1777b9f83cf5438fdb114668011b0a"
+    }
+  ],
+  "query_count": 12,
+  "results": [
+    {
+      "candidate_id": "CT-E07",
+      "chinese_candidate_id": "CT-C05",
+      "chinese": "拨码",
+      "name": "State Dial",
+      "decision": "public_use_screen_pass",
+      "reason": "未见完整同名科技/AI公司、模型或软件。电话拨号状态代码、州疫情dial和Dial单词品牌不等同完整State Dial。",
+      "query_logs": [
+        {
+          "query": "\"State Dial\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。电话拨号状态代码、州疫情dial和Dial单词品牌不等同完整State Dial。"
+        },
+        {
+          "query": "\"State Dial\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。电话拨号状态代码、州疫情dial和Dial单词品牌不等同完整State Dial。"
+        },
+        {
+          "query": "\"State Dial\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。电话拨号状态代码、州疫情dial和Dial单词品牌不等同完整State Dial。"
+        },
+        {
+          "query": "\"State Dial\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。电话拨号状态代码、州疫情dial和Dial单词品牌不等同完整State Dial。"
+        },
+        {
+          "query": "\"StateDial\" OR \"State-Dial\"",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。电话拨号状态代码、州疫情dial和Dial单词品牌不等同完整State Dial。"
+        },
+        {
+          "query": "\"State Dial\" -site:reddit.com -site:mercury-cli.ai",
+          "executed_on": "2026-11-07",
+          "summary": "未见完整同名科技/AI公司、模型或软件。电话拨号状态代码、州疫情dial和Dial单词品牌不等同完整State Dial。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.cs.columbia.edu/~hgs/research/projects/cpl.html",
+          "access": "search_text_only",
+          "finding": "state dial是代码状态定义，非独立软件品牌。"
+        },
+        {
+          "url": "https://pitkincounty.com/CivicAlerts.aspx?AID=382&ARC=621",
+          "access": "search_text_open_restricted",
+          "finding": "州公共疫情分级工具报道，不是State Dial科技公司/软件品牌。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "observed": "本续跑批1新试入口403；本批沿用入口限制，未逐名查登记"
+        },
+        "mainland_trademark_class_9": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "mainland_trademark_class_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "observed": "本续跑入口403，未逐名逐类查询"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=State%20Dial",
+          "observed": "本批实际逐名URL打开不可访问"
+        }
+      }
+    },
+    {
+      "candidate_id": "CT-E08",
+      "chinese_candidate_id": "CT-C03",
+      "chinese": "影子刻度",
+      "name": "Measured Light",
+      "decision": "return_for_alternative",
+      "reason": "完整同名开源配色主题方案已被软件项目分发引用，不是仅measuredLight变量。按已有软件主题组件名避让；不说它是AI公司。",
+      "query_logs": [
+        {
+          "query": "\"Measured Light\"",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名开源配色主题方案已被软件项目分发引用，不是仅measuredLight变量。按已有软件主题组件名避让；不说它是AI公司。"
+        },
+        {
+          "query": "\"Measured Light\" company technology",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名开源配色主题方案已被软件项目分发引用，不是仅measuredLight变量。按已有软件主题组件名避让；不说它是AI公司。"
+        },
+        {
+          "query": "\"Measured Light\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名开源配色主题方案已被软件项目分发引用，不是仅measuredLight变量。按已有软件主题组件名避让；不说它是AI公司。"
+        },
+        {
+          "query": "\"Measured Light\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名开源配色主题方案已被软件项目分发引用，不是仅measuredLight变量。按已有软件主题组件名避让；不说它是AI公司。"
+        },
+        {
+          "query": "\"MeasuredLight\" OR \"Measured-Light\"",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名开源配色主题方案已被软件项目分发引用，不是仅measuredLight变量。按已有软件主题组件名避让；不说它是AI公司。"
+        },
+        {
+          "query": "\"MeasuredLight\" OR \"Measured-Light\"",
+          "executed_on": "2026-11-07",
+          "summary": "完整同名开源配色主题方案已被软件项目分发引用，不是仅measuredLight变量。按已有软件主题组件名避让；不说它是AI公司。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://github.com/tinted-theming/schemes/blob/spec-0.11/base16/measured-light.yaml",
+          "access": "primary_source_file_body_read",
+          "finding": "YAML明确name: Measured Light，作者Measured(measured.co)，variant: light，包含配色值。"
+        },
+        {
+          "url": "https://komorebi.lgug2z.com/reference/komorebi-windows/",
+          "access": "primary_software_docs_body_read",
+          "finding": "MeasuredLight主题选项与Measured Light名，实际软件配置主题；不是一般变量。"
+        },
+        {
+          "url": "https://tinted-theming.github.io/tinted-gallery/#base16-measured-light",
+          "access": "gallery_shell_only",
+          "finding": "动态图库打开无匹配渲染，不以此代替源文件证据。"
+        }
+      ],
+      "registration": {
+        "status": "not_checked_after_confirmed_use_or_active_avoidance",
+        "note": "依据公开使用，不称登记通过或当前已注册。"
+      }
+    }
+  ],
+  "passed_english_candidate_ids": [
+    "CT-E07"
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛不等于全球未使用、核名通过或第9/42类可注册。重复复核查询计入实际查询数。"
+}

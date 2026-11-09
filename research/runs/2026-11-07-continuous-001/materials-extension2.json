@@ -1,0 +1,87 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-07T20:59:32.774009+08:00",
+  "materials": [
+    {
+      "id": "C1-M14",
+      "family_id": "C1-MF-transferred-symbiotic-partner-position",
+      "macro_id": "S2",
+      "plan_direction_id": "C1-D-S2",
+      "case_ids": [
+        "B076",
+        "B053"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2"
+      ],
+      "source_urls": [
+        "https://www.jstage.jst.go.jp/article/crustacea/47/0/47_55/_pdf/-char/en"
+      ],
+      "sources": [
+        {
+          "title": "Yoshikawa, Goto & Asakura: Transfer of the gatekeeper sea anemone Verrillactis sp. between shells by the host hermit crab Dardanus deformis",
+          "url": "https://www.jstage.jst.go.jp/article/crustacea/47/0/47_55/_pdf/-char/en",
+          "published_at": "2018-07-26",
+          "reading_location": "PDF正文L0–317：摘要、方法、结果、讨论；不把文献表视为阅读原引文",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_PDF_body"
+        }
+      ],
+      "fact": "研究记录一只寄居蟹换壳时，通过拍击及夹持将海葵移动到新壳口；作者认为位置识别及行为灵活性值得进一步研究。",
+      "distinctive_relation": "外部住所可以更换，但共生伙伴被主动搬到新住所的对应功能位置。",
+      "A1_transfer": "不是再换一种群体动物；依Sakana借完整生命关系，把注意力转到跨异类伙伴、位置和功能保留。",
+      "boundary": "仅一只蟹的多次观察，不推广整个物种皆如此；海葵保护效益有本研究讨论与旧引用层级，不能说本次已直接完成捕食保护实验。",
+      "history_difference": "不是活桥成员成为基础设施，也不是探形识别物件形状；但仅用共生/伙伴等泛词会与既有Symbiotic命名案例重合，暂不造字填名。",
+      "status": "read_no_qualified_draft_yet",
+      "is_classical": false
+    },
+    {
+      "id": "C1-M15",
+      "family_id": "C1-MF-slime-trail-externalized-avoidance-memory",
+      "macro_id": "S2",
+      "plan_direction_id": "C1-D-S2",
+      "case_ids": [
+        "B076",
+        "B053"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2"
+      ],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3491460/"
+      ],
+      "sources": [
+        {
+          "title": "Reid et al.: Slime mold uses an externalized spatial memory to navigate in complex environments",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3491460/",
+          "published_at": "2012-10-08",
+          "issue_date": "2012-10-23",
+          "reading_location": "L95–141摘要、引言和结果：Y迷宫选择、U型障碍、覆盖黏液对照；尚未逐段阅读其后讨论及方法",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body"
+        }
+      ],
+      "fact": "黏菌倾向避开已有细胞外黏液的区域；两个方向均有黏液时不再有相同避让选择。预先铺满黏液干扰自身路径标记的对照中，U型障碍任务表现下降。",
+      "distinctive_relation": "行动留下的环境痕迹可以成为后续选择的外部依据；抹去痕迹与背景的差异会削弱这条可用信息。",
+      "A1_transfer": "从Sakana生命过程继续找具体不同的信息关系；不是再泛称生长、集群聪明或网络重构。",
+      "boundary": "外部空间记忆是作者对行为与对照的解释，不是脑内情景回忆、意识或所有黏菌都能解任意迷宫；新旧标记依赖背景可区分性。",
+      "history_difference": "历史真菌材料关注细胞/连边结构在演化尺度上的网络变化；本项为非活性外部痕迹参与导航。旧驾驶舱认知环境材料与此外部记忆在上位层面相近，若新名只剩记忆外挂不可算新家族。",
+      "status": "read_no_qualified_draft_yet",
+      "is_classical": false
+    }
+  ],
+  "scope": "继续实读两项不同关系，尚未形成有把握中文称呼，不为每源硬配一名。",
+  "cumulative_material_records": 15,
+  "qualified_brand_families_claimed": false,
+  "name_usage_queries_performed": false,
+  "failed_access": [
+    {
+      "url": "https://www.cs.princeton.edu/news/ai-great-math-does-it-know-how-do-research",
+      "result": "403，未将搜索摘要计作正文阅读或近90天新闻新增"
+    }
+  ]
+}

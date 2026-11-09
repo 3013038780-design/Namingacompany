@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-08T19:34:33.778414+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E30",
+      "chinese_id": "C1-C36",
+      "english": "Aftercheck",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "完整after和check按正常语音连读，三个音节可称呼。",
+          "counter_association": "口音after元音不同，首次需固定合写称呼。"
+        },
+        "spelling": {
+          "reason": "常用完整词直接合写，没有字母替换或截词。",
+          "counter_association": "可能被分写after check，读者也可能把它当普通操作。"
+        },
+        "grounding": {
+          "reason": "时间位置与核验动作属于同一保存事件，词义及微软原文支持。",
+          "counter_association": "合写是创作；不是所有after检查都等于乐观并发。"
+        },
+        "bilingual_relation": {
+          "reason": "抓工作之后保存时才核原版本这一顺序，中文机制与英文环节配对。",
+          "counter_association": "英文没单独保留令牌/共享对象，需要短释义。"
+        },
+        "distinctiveness": {
+          "reason": "过程名可作短称呼，兼容计算协作的研究主题。",
+          "counter_association": "后检查/售后审计工具首感及功能名感明显，仅谨慎讨论。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "编辑自评非消费者测试，原门槛未改；不因查重未知或最后返工给额外分，主控先看无分稿。"
+    }
+  ]
+}

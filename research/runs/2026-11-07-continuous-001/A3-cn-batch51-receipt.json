@@ -1,0 +1,78 @@
+{
+  "agent_id": "/root/live_a3",
+  "executed_at": "2026-11-09T13:35:38.266730+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch52.json",
+      "sha256": "de831a8c9e8f4e75aa5ea7be1e6a627cbf7e74ea1d9e77f0151f93b59ef4c567"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch52.md",
+      "sha256": "b0a8dda7d9d70459d6c6f31d8710c74b6c3cdb442a5b27bbde245be168c691cc"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch52.json",
+      "sha256": "de831a8c9e8f4e75aa5ea7be1e6a627cbf7e74ea1d9e77f0151f93b59ef4c567"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch52.json",
+      "sha256": "24fa65f23bda171bcf96a025ea414b54faaf77eaf063083659d7b05d2ade870f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch52-receipt.json",
+      "sha256": "8590bf83ef7dcc6bf59942f1943efb592594233227b6527fc4de718858438a16"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch52.json",
+      "sha256": "3e962b8458e25237ca36d6166d9ea2a27d1577e927c3bc50ef995663b346bb48"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension39.json",
+      "sha256": "4615aa738af3daa85c81635107e9c70ce66a7dfe787230b3f447912b60b4c01b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch52.json",
+      "sha256": "f0ad50f8243ab8b8086c03efd0a4562ede671be74962c85b2acdf56a0ff8a432"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch52.json",
+      "sha256": "a6608d6c5340472562f2925a5a87dc0e3c6a005d7fd3d6cabcc001a05a030872"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T042642Z/root-M76-source-review.json",
+      "sha256": "b0b1112a1b50fcbbe8fe817aeafa5cb06aab054582d42d4488bf156b4ba482ce"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T042642Z/quality-comparison-batch52.json",
+      "sha256": "921145edb146d65a207b578161b785998651e10d249d6d8318b420fb4ff30ed0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch51.json",
+      "sha256": "a9b2e8f269dee932b18fa749f250fc692fe8421472673b12d7a6e14d5a5739e4"
+    },
+    {
+      "path": "A3-cn-batch51.md",
+      "sha256": "7090c097c256bcd79ea1840c2ea5a6f87ea297d0af30850097b43d34e2db5267"
+    }
+  ],
+  "actual_new_candidate_queries": 8,
+  "completed_candidate_search_results": 8,
+  "actual_new_chinese_queries": 8,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 725,
+  "prior_agent3_returned_candidate_results": 724,
+  "agent3_cumulative_candidate_queries": 733,
+  "agent3_cumulative_returned_candidate_results": 732,
+  "root_independent_queries_reported": 4,
+  "run_cumulative_candidate_queries": 737,
+  "run_cumulative_returned_candidate_results": 736,
+  "passed_chinese_candidate_ids": [],
+  "editorially_avoided_chinese_candidate_ids": [
+    "C1-C62"
+  ],
+  "remaining_chinese_reworks": 2,
+  "next": "原A2同族中文返工；不配英文救回。"
+}

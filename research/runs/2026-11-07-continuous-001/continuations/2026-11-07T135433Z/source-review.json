@@ -1,0 +1,28 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-07T22:06:45.023916+08:00",
+  "sources": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6660188/",
+      "access": "body_read",
+      "scope": "L98–139摘要、引言、拥挤及池化候选模型边界",
+      "supports": "周边视觉丢失精确身份/空间细节，但存留信息仍足以支持部分判断及引导注视；候选模型不能冒称唯一已定机制。"
+    },
+    {
+      "url": "https://web.mit.edu/rruth/www/Papers/RosenholtzSPIE2011.pdf",
+      "access": "root_open_timeout",
+      "supports": "根代理未假称读到该PDF；A2实际实读另有原记录，根代理独立读2019作者论文。"
+    },
+    {
+      "url": "https://apps.apple.com/ci/app/%E4%BD%99%E5%85%89-%E6%9E%81%E7%AE%80%E7%9A%84%E6%97%A0%E6%84%9F%E4%B8%93%E6%B3%A8%E7%8E%AF/id6786253409?platform=watch",
+      "access": "official_product_body_read",
+      "scope": "L17标题、31开发者、44正文、87供应商",
+      "supports": "官方产品名及正文自称余光专注计时工具；足以确证软件使用，不背书性能或把开发商AI字样当模型。"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/id6786253409",
+      "access": "root_endpoint_inaccessible",
+      "supports": "不能据一个地区入口不可访问称无该软件，实际ci完整链接可读。"
+    }
+  ]
+}

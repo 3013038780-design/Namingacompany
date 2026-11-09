@@ -1,0 +1,239 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 actual zero-qualified-input acceptance",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-09T02:39:59.112660+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch37.json",
+      "sha256": "9af173ed19bd9695cc7dc8b9e8b774761037757e07885d9cadae3a6049d3ff94"
+    },
+    {
+      "path": "A2-candidates-batch38.json",
+      "sha256": "018ee9a7d33611cbb7c5f58640ddb0bba14f1af51a1413f83eb6de38f1c41236"
+    },
+    {
+      "path": "A2-preview-batch38.md",
+      "sha256": "ca0d433b33addf3a0192f7da309082092e984fe7523b0bebab12ebce5a112104"
+    },
+    {
+      "path": "A2-quality-batch38.json",
+      "sha256": "19e6fc0ed6f33efa6b2329364a3f3dfe532f247f3fdd22d218ccebca175742a5"
+    },
+    {
+      "path": "A2-creation-execution-batch38.json",
+      "sha256": "8f2a90f69d7d3b27649da4551d7feb8d3d19f53b09e52d59d4515a21291920a9"
+    },
+    {
+      "path": "coordinator-cn-batch37.json",
+      "sha256": "7a6788164655d1c710ed06998ca5633cb36a795880ec3777966e9a6ae1f17687"
+    },
+    {
+      "path": "coordinator-cn-batch38.json",
+      "sha256": "ba46f9866e89aaf1ccd6d31376a2e4b8da0a50d995cd736e6f8a96b229e0a8cc"
+    },
+    {
+      "path": "A3-cn-batch39.json",
+      "sha256": "31cd32460f02b2579a1193f49e2b1d497583c1d97c19c994791affed1aa05b85"
+    },
+    {
+      "path": "A3-cn-batch39.md",
+      "sha256": "cdb1a0f98361d8c6546c21f490a1dd0a7d3b00f278f826f6430882427e9c4c66"
+    },
+    {
+      "path": "A3-cn-batch39-receipt.json",
+      "sha256": "954e2ed50345e984e3284ee2452909cf7427fcd55b6ac53cc235810f9601de3c"
+    },
+    {
+      "path": "A3-cn-batch40.json",
+      "sha256": "ca8d57703951f0040255118f7d10c947093c432842b012eb9fd35e3a43ba43ef"
+    },
+    {
+      "path": "A3-cn-batch40.md",
+      "sha256": "2d27b4032807859697df63c0783e74ee99a720523fa6e30ef4278fdc01812c0f"
+    },
+    {
+      "path": "A3-cn-batch40-receipt.json",
+      "sha256": "add28491e1e1e42b7e4cc0dccc30090663034d5fcf8097330aac28a7ac808f69"
+    },
+    {
+      "path": "continuations/2026-11-08T182806Z/root-cn39-review.json",
+      "sha256": "960fc38af04e7358ab2f17556a5c3e0848a0eb0c2156ca25f0e68fbc82d6f86b"
+    },
+    {
+      "path": "continuations/2026-11-08T182806Z/root-C56-terminal-review.json",
+      "sha256": "9c16611485ebab3807f1f35f0883448e3341f67c9f1a45cf78a4d8a8cce244fa"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "receipt": "A3-cn-batch39-receipt.json",
+      "path": "README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch39-receipt.json",
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch39-receipt.json",
+      "path": "research/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch39-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch37.json",
+      "sha256": "9af173ed19bd9695cc7dc8b9e8b774761037757e07885d9cadae3a6049d3ff94",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch39-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch37.md",
+      "sha256": "ccd04465a123bb11ffd6c0397bd7e10b9551f6816485c9802ee5de204baf7a24",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch39-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch37.json",
+      "sha256": "8a023a08a64d75386668dd8c0e6d8672de252c8ec2a3207225c9939fd6f21f91",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch39-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch37.json",
+      "sha256": "e83089ce2b1cfaf7751fc46c107ee2b1a7e55b469300802d0452c38d61285fdd",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch39-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension33.json",
+      "sha256": "7eef1e417948f63399c4abe52d8d9a5656146b48da48bc332e4c4b55ee4c6ac3",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch39-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch37.json",
+      "sha256": "7a6788164655d1c710ed06998ca5633cb36a795880ec3777966e9a6ae1f17687",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch39-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch37.json",
+      "sha256": "ad0fd76956a96575637ab676d49b3ec0869ca08ef52644135cf0918cbc67b8a5",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch39-receipt.json",
+      "path": "A3-cn-batch39.json",
+      "sha256": "31cd32460f02b2579a1193f49e2b1d497583c1d97c19c994791affed1aa05b85",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch39-receipt.json",
+      "path": "A3-cn-batch39.md",
+      "sha256": "cdb1a0f98361d8c6546c21f490a1dd0a7d3b00f278f826f6430882427e9c4c66",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch40-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch38.json",
+      "sha256": "018ee9a7d33611cbb7c5f58640ddb0bba14f1af51a1413f83eb6de38f1c41236",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch40-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch38.md",
+      "sha256": "ca0d433b33addf3a0192f7da309082092e984fe7523b0bebab12ebce5a112104",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch40-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch38.json",
+      "sha256": "19e6fc0ed6f33efa6b2329364a3f3dfe532f247f3fdd22d218ccebca175742a5",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch40-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch38.json",
+      "sha256": "8f2a90f69d7d3b27649da4551d7feb8d3d19f53b09e52d59d4515a21291920a9",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch40-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch38.json",
+      "sha256": "ba46f9866e89aaf1ccd6d31376a2e4b8da0a50d995cd736e6f8a96b229e0a8cc",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch40-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T182806Z/root-C56-terminal-review.json",
+      "sha256": "9c16611485ebab3807f1f35f0883448e3341f67c9f1a45cf78a4d8a8cce244fa",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch40-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch39.json",
+      "sha256": "31cd32460f02b2579a1193f49e2b1d497583c1d97c19c994791affed1aa05b85",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch40-receipt.json",
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch39-receipt.json",
+      "sha256": "954e2ed50345e984e3284ee2452909cf7427fcd55b6ac53cc235810f9601de3c",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch40-receipt.json",
+      "path": "A3-cn-batch40.json",
+      "sha256": "ca8d57703951f0040255118f7d10c947093c432842b012eb9fd35e3a43ba43ef",
+      "match": true
+    },
+    {
+      "receipt": "A3-cn-batch40-receipt.json",
+      "path": "A3-cn-batch40.md",
+      "sha256": "2d27b4032807859697df63c0783e74ee99a720523fa6e30ef4278fdc01812c0f",
+      "match": true
+    }
+  ],
+  "candidate_id": "C1-C56",
+  "family_id": "C1-BF-traverser-as-systematic-reachable-world-participant",
+  "actual_chinese_families_reviewed": 1,
+  "submitted_chinese_spellings": [
+    "遍历者"
+  ],
+  "excluded_input": [
+    {
+      "name": "遍历者",
+      "nature": "近名编辑避让，非精确同名或登记驳回",
+      "reason": "合肥遍历科技具体第三方软件业务主体；者为有意义主体化字不能直接删掉冒完全同名，但同计算动作科技场域存在混淆，root主动避让。"
+    },
+    {
+      "name": null,
+      "stage": "R1",
+      "nature": "真实无合格选稿后root主动闭族",
+      "reason": "逐邻仅内部未选动作片段，关系与独立机构身份不足，未查询、不算新提交或已使用。"
+    }
+  ],
+  "final_new_selected_chinese_revisions": 0,
+  "qualified_chinese_input_count": 0,
+  "eligible_english_inputs": 0,
+  "actual_english_creation": 0,
+  "actual_new_scores": 0,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "english_candidates": [],
+  "decision": "completed_actual_zero_qualified_chinese_input_check_editorially_closed",
+  "completed_chinese_reworks": 1,
+  "unused_formal_chinese_rework_allowance": 1,
+  "R2_performed": false,
+  "not_exhaustion_claim": true,
+  "reading_boundary": "本人实际读原A2batch37原稿和batch38四档、主控中文37/38、原A3 CN39/40 JSON/MD/receipt、root近名与终止审核；逐项实际核两个receipt输入输出SHA。未另开网页，不冒第三方主体为官方登记或把教学角色/游戏内部物品当独立品牌。",
+  "registration_limits": "公开近名避让不等全球已注册/未注册；旧GSXT/CNIPA9/42不可用与英国逐名限制未由本次零核解决。",
+  "scope": "上游确实验收后0英文，不是尚未开始匹配的假零；不占实际英文batch45/E47，不用英文救闭中文，不新增家族。",
+  "unchanged": "旧字节/评分/receipt/库/队列/Git未改。",
+  "next": "same original live_a3 en-zero-batch29 actual final check"
+}

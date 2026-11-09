@@ -1,0 +1,149 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T21:03:33.365119+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch30.json",
+      "sha256": "6a54fd55a32cb6c0c496c1a8c796eed765f87c72431b783859ad39d53a325345"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch30.json",
+      "sha256": "1396ecf23e9eb9d59456c9a9919ef63622b22f5355424bc207d828d6f43ea0b0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch30.json",
+      "sha256": "ac552432dddd57c7dc03ad34be84ec80bd1efaecbd0d5f853d945333fa72701d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch30.json",
+      "sha256": "af494e5f191a0a5d46e225c38a95ac30cea295596ea7a2a597d994dce072af09"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch25.json",
+      "sha256": "cdfc1c430be3e97a00877caaad758c2d51f839a11ed876aa62f9e1417f562cdb"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch25-receipt.json",
+      "sha256": "fd02073652004b2b07d11077f3259e1c74e1ba0ce7016c130f6b82fc5c4229d4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C40-source-scope-addendum.json",
+      "sha256": "0ab1e9325b0192f362b04646a23803ddc6d4bedaaf010b56face886655030119"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-C40-source-scope-addendum-execution.json",
+      "sha256": "df34b988a8579d1323792ca3bf8b2ecf8ad35d427d85c9d36e10e888fa9a79db"
+    }
+  ],
+  "query_count": 6,
+  "results": [
+    {
+      "candidate_id": "C1-E31",
+      "name": "Spine Eddy",
+      "query_logs": [
+        {
+          "query": "\"Spine Eddy\"",
+          "executed_on": "2026-11-08",
+          "summary": "精确短语主要spine医疗与Eddy医生姓名共现、示例代码，未确证整体商业名；后核相关实际角色。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Spine Eddy\" company lab",
+          "executed_on": "2026-11-08",
+          "summary": "company/Lab仍医生/医疗机构和名单普通共现，不把人名当完整公司字号。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Spine Eddy\" AI model",
+          "executed_on": "2026-11-08",
+          "summary": "AI/model多脊柱医学AI论文，其具体模型另叫LVP等，未认定Spine Eddy模型。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Spine Eddy\" software product",
+          "executed_on": "2026-11-08",
+          "summary": "software/product命中@vf.js/spine中const eddy示例；实际curl原包README核变量用法，不是独立Spine Eddy软件。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"SpineEddy\"",
+          "executed_on": "2026-11-08",
+          "summary": "连写SpineEddy无结果，不能据此担保全球无登记；其他覆盖独立记录。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Spine-Eddy\" brand",
+          "executed_on": "2026-11-08",
+          "summary": "连字符结果为Chris Eddy从业资料、EDDY PROJECT等不同完整名及书目，不以单词分开出现判整体占用。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "public_use_screen_pass_with_medical_and_name_associations",
+      "reason": "2026-11-08本轮6有效查询未确证Spine Eddy/SpineEddy/Spine-Eddy完整核心用于公司、AI模型或独立软件品牌。具体命中为脊柱相关医生姓名及@vf.js/spine示例eddy变量，已核正文排除；不把单独Spine或Eddy项目都视作整体占用。保留脊椎医疗/仿真与Eddie听写、中文针具/虚构同词风险，登记未清。",
+      "evidence": [
+        {
+          "url": "https://cdn.jsdelivr.net/npm/@vf.js/spine@2.1.22/README.md",
+          "access": "package_readme_curl_body_read",
+          "finding": "web不可访问后curl实际HTTP200/1643字节，README示例const eddy = Spine.from(resources.eddyData,app)，eddy为变量/实例名；软件包@vf.js/spine，不是Spine Eddy独立品牌。"
+        },
+        {
+          "url": "https://www.npmjs.com/package/@vf.js/spine",
+          "access": "primary_registry_open_403",
+          "finding": "实际npm打开403，不假称读注册页；CDN README另实际核。"
+        },
+        {
+          "url": "https://socket.dev/npm/package/%40vf.js%2Fspine",
+          "access": "search_index_only_open_unavailable",
+          "finding": "索引同一示例代码，打开不可用；正文根据另成功CDN，不把索引冒成功打开。"
+        },
+        {
+          "url": "https://www.hsmc.ae/our-doctors/eddy-achkar/",
+          "access": "primary_doctor_profile_excerpt_read",
+          "finding": "L32–48姓名Eddy Achkar、physiotherapy及spine injuries专科；不是名为Spine Eddy公司/产品。仅核姓名/角色，不评价医疗能力。"
+        },
+        {
+          "url": "https://spineandbrainsurgery.co.zw/complex-spinal-surgery/",
+          "access": "original_page_redirected_to_account_suspended",
+          "finding": "搜索有Serge Eddy姓名，实际页转托管Account Suspended，未声称读当前原医生正文或推断公司停业。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；本批未新访问，未逐名逐类登记核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；本批未新访问，未逐名逐类登记核准。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=SpineEddy",
+          "scope": "2026-11-08实际逐名SpineEddy搜索URL不可访问，非无公司登记结论。"
+        }
+      },
+      "chinese_id": "C1-C40",
+      "chinese": "雾针",
+      "rework_attempt": 0,
+      "remaining_reworks": 2,
+      "source_scope_preserved": "原A2-C40-source-scope-addendum及CN25风险保持：只捕获入口形态/局部流场，不是针独自完成三级，不把英文通过当注册许可。",
+      "local_evidence": {
+        "path": "/tmp/a3-vf-spine-readme.txt",
+        "bytes": 1643,
+        "sha256": "1965cd4b6b0e3cc78e12c2519e6061fa11e5cb1d2845d238ebb9dc49cd62cc50",
+        "publication": "本地证据不提交全文，仅摘要与公开原链接"
+      }
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "passed_english_candidate_ids": [
+    "C1-E31"
+  ],
+  "completed_search_result_count": 6,
+  "new_failed_search_attempts": 0,
+  "controls_reused_not_new": "原run2真实阳性对照，本批0新增，不重复旧403。"
+}

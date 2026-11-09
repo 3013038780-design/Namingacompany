@@ -1,0 +1,11 @@
+# A4代码生境英文提案（尚未英文查重）
+
+实际角色 `/root/live_a4`。依据主控明确通过输入，数字自评分另档。
+
+## LD-E07 代码生境 · Codabitat
+- 建议读音：KOH-duh-bit-at /ˈkoʊdəbɪtæt/。
+- 构词：code与habitat融合，共用衔接声音d-uh，保留code的cod-与habitat的-abitat。它们在数字生命实验中本来共同出现：可执行程序及其发生资源竞争、复制变化与适应的计算环境。
+- 双语关系：中文代码生境与英文code/habitat同主题呼应；这不是给code任意加自然意象，而是命名同一个真实研究场景。
+- 寓意：为代码及智能系统提供能持续行动、试验和改变的环境；让公司扮演提供条件的机构，而非声称代码本身就是生物。
+- 短板：九字母四音节略长，初次可能先理解为开发者社区或代码沙盒；cod-不显写e，需固定拼写，不能因为有生境就声称现代LLM和Avida机制相同。
+- 来源与范围：https://www.caltech.edu/about/news/researchers-mutate-digital-organisms-348；本次使用A2实际阅读的Caltech机构报道及主控来源核验，不声称A4另行通读原Nature论文。

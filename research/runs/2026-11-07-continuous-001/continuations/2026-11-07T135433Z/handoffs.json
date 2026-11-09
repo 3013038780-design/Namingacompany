@@ -1,0 +1,131 @@
+{
+  "same_research_run": true,
+  "note": "本小包复用当前研究已实际完成的A1和已验收计划，不伪造新的A1活动或新规范轮次。",
+  "handoffs": [
+    {
+      "id": "H1",
+      "status": "accepted",
+      "from": "existing_A1",
+      "to": "same_A2",
+      "reason": "原A1最近实际构词反馈及当前冻结状态再验收仍有效；当前主体独立扫描新历史后继续。",
+      "refs": [
+        {
+          "path": "A1-final-input-reacceptance.json",
+          "sha256": "a2bf77c0b25c01c20b4e7e7237203bfee3c41c09d17d1e3eb0027fddec8cd556"
+        },
+        {
+          "path": "A1-formation-feedback.json",
+          "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+        },
+        {
+          "path": "search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "status": "accepted",
+      "from": "A2",
+      "to": "coordinator",
+      "refs": [
+        {
+          "path": "A2-candidates-batch7.json",
+          "sha256": "8b7fe1e061566a166efffffaa814e148d38ae61502aca97fee46b0f3f4e1be87"
+        },
+        {
+          "path": "materials-extension6.json",
+          "sha256": "352c8a436a64375034802466bb2502fca945d7d65c184527920adad41ce884e7"
+        },
+        {
+          "path": "coordinator-cn-batch7.json",
+          "sha256": "bb621464276153ba3c28c708de5048de1605887d148e2a6cec7acc2fa7748c43"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "status": "accepted",
+      "from": "coordinator",
+      "to": "same_A3",
+      "candidate_ids": [
+        "C1-C18"
+      ],
+      "reason": "先主控独评25，再比producer26，各轴差≤1，实际授权。",
+      "refs": [
+        {
+          "path": "A2-quality-batch7.json",
+          "sha256": "0e263c789e07671063b64f6a667675d0078596f4bc9e75937a9a94da98b810c5"
+        },
+        {
+          "path": "coordinator-cn-batch7.json",
+          "sha256": "bb621464276153ba3c28c708de5048de1605887d148e2a6cec7acc2fa7748c43"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "status": "zero_input",
+      "from": "same_A3",
+      "to": "same_A4",
+      "reason": "唯一中文实际使用否决，真实A4核后合格中文输入0。",
+      "refs": [
+        {
+          "path": "A3-cn-batch8.json",
+          "sha256": "034dc9ac72b241b672332919dd8147cbe143e7d116cf58d67e980d80351a1994"
+        },
+        {
+          "path": "A4-zero-input-batch7.json",
+          "sha256": "b2e251101e90b0fb8b59543839a90898eb0f39b10270cbed568bec473c2c30e2"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "status": "zero_input",
+      "from": "same_A4",
+      "to": "same_A3",
+      "reason": "实际A4输出英文0。",
+      "refs": [
+        {
+          "path": "A4-zero-input-batch7.json",
+          "sha256": "b2e251101e90b0fb8b59543839a90898eb0f39b10270cbed568bec473c2c30e2"
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "status": "zero_input",
+      "from": "same_A3",
+      "to": "coordinator",
+      "reason": "同A3实际核零英文及SHA一致，外部新查询0。",
+      "refs": [
+        {
+          "path": "A3-en-zero-batch7.json",
+          "sha256": "75d1665f8b26b0c832b7cd754b6dd87aa4f75aa34af428bcbd2c6ea82f65c374"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "status": "zero_input",
+      "from": "coordinator",
+      "to": "catalog",
+      "reason": "本包无合格双语，不改变总库；具体否决证据、原文与阅读边界已留档。",
+      "refs": [
+        {
+          "path": "A3-cn-batch8.json",
+          "sha256": "034dc9ac72b241b672332919dd8147cbe143e7d116cf58d67e980d80351a1994"
+        },
+        {
+          "path": "A3-en-zero-batch7.json",
+          "sha256": "75d1665f8b26b0c832b7cd754b6dd87aa4f75aa34af428bcbd2c6ea82f65c374"
+        }
+      ]
+    }
+  ]
+}

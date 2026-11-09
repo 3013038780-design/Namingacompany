@@ -1,0 +1,47 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "executed_at": "2026-11-09T12:19:22.445756+08:00",
+  "inputs": [
+    {
+      "path": "A3-cn-batch50-reading-scope-correction.json",
+      "sha256": "fcc3190f05fcf644553b0aa3adb971e4619fbe00a1e914e5fc4d7f5cad3be848"
+    },
+    {
+      "path": "A3-cn-batch50-reading-scope-correction.md",
+      "sha256": "9ab5e63a822dc7ce1e8954c9628d8ab2817c7475f973c7807c6bfa0d33a291e7"
+    },
+    {
+      "path": "A3-cn-batch50-reading-scope-correction-receipt.json",
+      "sha256": "d31683a8649c8647bef51ebce480ceb26cf31e18c959aa304092e3fdcd7a7c04"
+    },
+    {
+      "path": "A4-zero-input-batch33.json",
+      "sha256": "c8fad10d3c90da96b425d8a6c8dba8a967863eff6c443877419f335f62de24a7"
+    },
+    {
+      "path": "A4-zero-input-batch33.md",
+      "sha256": "f2c93bfaddd57442933177cce3f91fba2af3215724aba4c3a7aa015ae92cb114"
+    },
+    {
+      "path": "A4-zero-input-batch33-receipt.json",
+      "sha256": "1573391fee297f20770c4ce698f476834a22c0c82479f0e4dd332e70161c7a75"
+    }
+  ],
+  "all_referenced_hashes_match": true,
+  "actual_new_names": 0,
+  "actual_new_scores": 0,
+  "actual_new_queries": 0,
+  "new_zero_batch_count": 0,
+  "original_zero33_executed_at_unchanged": "2026-11-09T12:17:34.712660+08:00",
+  "outputs": [
+    {
+      "path": "A4-C61-CN50-correction-acceptance.json",
+      "sha256": "34254776069ef7b8b7a590b3508865b7b1c93e89ca334e138610908b0e518ef9"
+    },
+    {
+      "path": "A4-C61-CN50-correction-acceptance.md",
+      "sha256": "e1dae29759e71741ea81334e8dd1ac8d12b2950f98da54bce2d30bcaba633ec0"
+    }
+  ],
+  "next": "same original live_a3 EN-zero-batch33 terminal check once"
+}

@@ -1,0 +1,68 @@
+{
+  "agent": "/root/live_a2",
+  "recorded_at": "2026-11-07T18:47:26.708371+08:00",
+  "supplement_ids": [
+    "CT-C25",
+    "CT-C26",
+    "CT-C27",
+    "CT-C28",
+    "CT-C29",
+    "CT-C30",
+    "CT-C31",
+    "CT-C32"
+  ],
+  "raw_chinese_drafts_this_addendum": 8,
+  "cumulative_raw_chinese_drafts": 32,
+  "family_merges_accepted_from_parent": {
+    "CT-C17": "与历史添一笔共享添一X构式和新增资源故事，源素材可留，不计新增",
+    "CT-C24": "与历史演算尺共享限定词+尺及工具意象，源素材可留，不计新增",
+    "CT-C27": "与本轮纸旋翼核心纸制机器意象近似，源素材可留，不计新增"
+  },
+  "cumulative_independent_family_upper_bound_after_these_merges": 29,
+  "not_pass_count": true,
+  "read_scope_addendum": [
+    {
+      "title": "Mathematics for Computer Science (2004)",
+      "url": "https://web.mit.edu/broder/Public/6.042-lecture-notes/lecture-notes.pdf",
+      "actual_scope": "curl下载成功；PyMuPDF实际输出PDF第17、74页并阅读；网站find重取超时未冒读339页"
+    },
+    {
+      "title": "On Computable Numbers (1936)",
+      "url": "https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf",
+      "actual_scope": "浏览提取前1–4页定义和例子以及第20–24页手算/纸带模型相关段落，不通读证明"
+    },
+    {
+      "title": "Tobii eye movements",
+      "url": "https://www.tobii.com/resource-center/learn-articles/types-of-eye-movements",
+      "actual_scope": "实际读注视与扫视正文；NCBI书章验证码失败只计失败，不计阅读"
+    },
+    {
+      "title": "北京旅游网原创鸽哨报道",
+      "url": "https://www.visitbeijing.com.cn/article/47QloB45oRt",
+      "actual_scope": "实际读49–86行手艺人访谈与工艺正文，不延伸最早军事起源"
+    },
+    {
+      "title": "Generative Agents",
+      "url": "https://arxiv.org/pdf/2304.03442",
+      "actual_scope": "浏览PDF超大小上限；curl下载后PyMuPDF实际读PDF第1–3页，包含Intro和2.2 NPC背景；明确拟真不等于真实自主性"
+    },
+    {
+      "title": "SICP 4.2.1",
+      "url": "https://sicp.sourceacademy.org/chapters/4.2.1.html",
+      "actual_scope": "正文264–280行及try/unless实例，未读后续解释器实现"
+    },
+    {
+      "title": "Large-Scale Study of Curiosity-Driven Learning",
+      "url": "https://arxiv.org/pdf/1808.04355",
+      "actual_scope": "PDF前1–3页；重取超时后curl下载，用PyMuPDF实际读第10页Discussion/noisy-TV失效"
+    },
+    {
+      "title": "Dream to Control",
+      "url": "https://arxiv.org/pdf/1912.01603",
+      "actual_scope": "PDF第1–2页，原理与生命周期的三个环节；不冒读全实验"
+    }
+  ],
+  "english_created": 0,
+  "git_mutation": false,
+  "counts_note": "原始字面32；按已知三个家族合并后的上界29，若还有家族争议由主控继续下调。去留与最终交付数以原A3/原A4及主控记录为准。"
+}

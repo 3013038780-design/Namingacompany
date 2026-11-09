@@ -1,0 +1,150 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-09T17:15:33.613802+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch46.json",
+      "sha256": "61766414b1d46bc77f458da8ffef1e70de8398851f8d5f150e01a901887b0efd"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch46.md",
+      "sha256": "34331406efc87a4f2cbe32ada02abdad470bb1628c8a7e66fb4a3b8e9257d214"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch46.json",
+      "sha256": "61766414b1d46bc77f458da8ffef1e70de8398851f8d5f150e01a901887b0efd"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch46.json",
+      "sha256": "5aa4545402a94e20c030f6e33524deb6d4934b5c58d89d409976aa4f4ce2eeb1"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch46.json",
+      "sha256": "c14b5fe15202b71e1e60ed4d62324dcd5a0986e2a888d8e3b79677d01a9008e6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch46.json",
+      "sha256": "cc8f1f25754a4604b4c51c4a44d38e6a3594372f2f23b4971198cc03dff91c2c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch54.json",
+      "sha256": "015776d140ea5fe30c25f24a325b4cebddd2d3a157008255d1d1c55802ab3530"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch54.md",
+      "sha256": "e554ea28e5efcd125d2494ee4ce27634f42af19a0e10fd3d56e861617738e518"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch54-receipt.json",
+      "sha256": "1abeb99bb25ac17cd079777893cfa3360e7dbdeba504646df9b36846df14a3ff"
+    }
+  ],
+  "query_count": 6,
+  "completed_search_result_count": 6,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-E48",
+      "chinese_id": "C1-C63",
+      "chinese": "消息候场",
+      "chinese_version": 3,
+      "english": "At Hand",
+      "rework_attempt": 0,
+      "decision": "rejected_existing_same_core_AI_service_and_software_brand",
+      "reason_code": "EXACT_TECH_USE",
+      "reason": "本人AtHand.cloud与policy完整品牌/AI服务及HUMANMACHINE归属明确，另AtHandAI桌面软件、AtHandTecnologia技术公司自我品牌。空格连写或描述AI/技术后缀不构成不同核心。不因常用短语本身拒绝，依据具体具名技术使用；未称公司/商标登记核准。",
+      "query_logs": [
+        {
+          "query": "\"At Hand\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "精确无行业主要现存短语词典及普通句，短语常见本身不判占用，也不自动放行，后续行业组有实质主体。"
+        },
+        {
+          "query": "\"At Hand\" company lab",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "company/lab组有完整AtHand软件企业第三方索引，以及HandLab/HealthatHand等不同完整核心；不把句中at当品牌，不靠这些索引最终判。"
+        },
+        {
+          "query": "\"At Hand\" AI model",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "AI/model组命中AtHandAI，实际本人原文L206–219明确桌面AI软件而非基础模型；AI为领域描述后缀，同核心AtHand已用。"
+        },
+        {
+          "query": "\"At Hand\" software product",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "software/product组命中AtHand.cloud完整品牌与私人企业AI助手服务，实际官网和privacy读其自我身份/主体HUMANMACHINE，决定性完整同核心证据。"
+        },
+        {
+          "query": "\"AtHand\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "连写变体AtHand有本人privacy明确服务身份及SeriousGaming公司等；大小写/空格不构成独立新核心。后者第三方当前状态未核不冒官方。"
+        },
+        {
+          "query": "\"At-Hand\" technology",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "连字符变体组命中AtHandTecnologia本人技术咨询/云/AI服务博客，实际L26–42/110明品牌和技术业务；不是一般at-hand形容词出现。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.athand.cloud/",
+          "access": "service_own_site_body_read",
+          "read_range": "130行L0/9–14/45–53/100–106/121–129",
+          "finding": "AtHand为私人企业AI助手设计/托管服务完整品牌，底部明确服务归HUMAN/MACHINE。独立具名AI技术服务，不是普通句子/个人名；未测试软件或背书训练/数据隐私宣传。"
+        },
+        {
+          "url": "https://www.athand.cloud/privacy",
+          "access": "service_own_policy_body_read",
+          "read_range": "53行L13–19/30–32/44–48",
+          "finding": "自称AtHand运营athand.cloud，2026-07-07政策，明确为HUMAN/MACHINE服务与构建企业私人AI助手；与首页命名闭环，非公司法人登记核准。"
+        },
+        {
+          "url": "https://athandai.com/",
+          "access": "publisher_own_product_body_read",
+          "read_range": "249行L2/15–23/87–106/206–219/242–248",
+          "finding": "AtHandAI独立桌面AI工具，选择文本解释/总结/改写/翻译，Win/Mac下载与付费功能自述。AI后缀不使核心AtHand不同；未下载/测试，不背书毫秒速度/安全或所列模型版本。"
+        },
+        {
+          "url": "https://www.athand.inf.br/blog/",
+          "access": "technology_business_own_site_body_read",
+          "read_range": "113行L26–42/79–110",
+          "finding": "At Hand Tecnologia云/IT咨询/AI解决方案自我品牌及署名，完整AtHand核心，另一技术商业使用；未核其法人登记或资质宣传。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=At%20Hand",
+          "scope": "2026-11-09本次逐名入口实际不可访问，非无登记。"
+        }
+      },
+      "remaining_english_reworks": 2,
+      "chinese_status_unchanged": "CN54消息候场公开初筛及THEHALF候场近名/登记边界保持，不把英文失败倒写中文已用。",
+      "source_boundary": "现成短语再选择来源和双语主题对应不改，使用拒绝不改原质量分，不创作新英文。"
+    }
+  ],
+  "passed_english_candidate_ids": [],
+  "rejected_english_candidate_ids": [
+    "C1-E48"
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "原同run两实际阳性复用，本次0新增；大陆原403未重查，不冒本名9/42核准。"
+}

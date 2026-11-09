@@ -1,0 +1,134 @@
+{
+  "recorded_at": "2026-11-07T16:17:09+08:00",
+  "producer_numeric_scores_seen": false,
+  "input_note": "Read A2 meaning/source/weakness and qualitative dispositions, not numeric self ratings; not fully blinded consumer test.",
+  "input_sha256": "12ba9e69ac1d472f2d3387098af8c4f44b98edfb5c9977a3af353ef88ea795ab",
+  "reviews": [
+    {
+      "candidate_id": "MC-A2-01",
+      "name": "原语",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 5,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "现成专业称呼顺口",
+          "counter_association": "需辨原/源"
+        },
+        "distinctiveness": {
+          "reason": "基础表达单元形成清楚概念",
+          "counter_association": "通用术语独占性待查"
+        },
+        "lab_fit": {
+          "reason": "计算与语言研究可以承载Lab",
+          "counter_association": "可能像翻译公司"
+        },
+        "grounding": {
+          "reason": "教材基本构件/组合/抽象真实",
+          "counter_association": "中文非所读英文原文逐字词"
+        },
+        "extension": {
+          "reason": "可容纳长期基础能力研究",
+          "counter_association": "可能局限语言方向"
+        },
+        "semantic_coherence": {
+          "reason": "表达与执行相连",
+          "counter_association": "组合不必然带来智能"
+        }
+      },
+      "quality_pass": true,
+      "execution_ref": "Actual root independent review before opening A2-quality.json"
+    },
+    {
+      "candidate_id": "MC-A2-02",
+      "name": "倍频",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "技术词完整好叫",
+          "counter_association": "倍/被近音"
+        },
+        "distinctiveness": {
+          "reason": "频率转换有画面",
+          "counter_association": "常用器件词易混"
+        },
+        "lab_fit": {
+          "reason": "电子激光元件气质偏窄",
+          "counter_association": "不先想到广泛智能研究"
+        },
+        "grounding": {
+          "reason": "倍频系统案例有正文",
+          "counter_association": "不能说智能翻倍"
+        },
+        "extension": {
+          "reason": "易受单一频率过程限制",
+          "counter_association": "可能只适合组件"
+        },
+        "semantic_coherence": {
+          "reason": "输入转换输出关系连贯",
+          "counter_association": "不能省略转换条件"
+        }
+      },
+      "quality_pass": false,
+      "execution_ref": "Actual root independent review before opening A2-quality.json"
+    },
+    {
+      "candidate_id": "MC-A2-03",
+      "name": "声子",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两字称呼自然但需顾同音",
+          "counter_association": "生子同音"
+        },
+        "distinctiveness": {
+          "reason": "声音与准粒子构成鲜明对象",
+          "counter_association": "可能只被记成音频"
+        },
+        "lab_fit": {
+          "reason": "凝聚态科学有科研身份",
+          "counter_association": "声学硬件联想"
+        },
+        "grounding": {
+          "reason": "晶格集体激发的对象真实",
+          "counter_association": "不是智能涌现证明"
+        },
+        "extension": {
+          "reason": "可讲系统组织不局限模型功能",
+          "counter_association": "需介绍避免量子业务误读"
+        },
+        "semantic_coherence": {
+          "reason": "单个有效对象与集体运动一致",
+          "counter_association": "不代表聚合必然增强"
+        }
+      },
+      "quality_pass": true,
+      "execution_ref": "Actual root independent review before opening A2-quality.json"
+    }
+  ]
+}

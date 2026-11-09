@@ -1,0 +1,131 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 actual English matching",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T22:38:50.136840+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch27.json",
+      "sha256": "2cdc172cfe581bf798eabbd41a78b08d98d953a3586584e19fdd2ee63a54a1b4"
+    },
+    {
+      "path": "A2-quality-batch27.json",
+      "sha256": "8c88a41338d4c9f7296017dbb681c943a9cb6202f22a5f6c33fac04f2f6c739b"
+    },
+    {
+      "path": "A2-creation-execution-batch27.json",
+      "sha256": "f1cc179ca8dd63084f1e8c109d2747f816fcdf35a1f080db3d593f065c2e4fd8"
+    },
+    {
+      "path": "materials-extension25.json",
+      "sha256": "a910d37fd432d098fb7cdd36e7ea1ea09113e42e4fb027b1f0450e6702bc56bb"
+    },
+    {
+      "path": "coordinator-cn-batch27.json",
+      "sha256": "7e241761162a02b7be03cc0af2ec28ffe86a02462515912abeadcd73f53e5d05"
+    },
+    {
+      "path": "coordinator-family-review-batch27.json",
+      "sha256": "f0e7a7daba847189eb69ac53b9d218df760b9f8cd3822ce6305d9d60efa77d22"
+    },
+    {
+      "path": "A3-cn-batch29.json",
+      "sha256": "1b41cdbf9aa61e11da190d79d15e50f61c911addc3eda31c242ae805558193fa"
+    },
+    {
+      "path": "A3-cn-batch29.md",
+      "sha256": "8d6dce041a1a3a0284e51c69feb7793ed4f288d0b317121ad242183167a1b7f5"
+    },
+    {
+      "path": "A3-cn-batch29-receipt.json",
+      "sha256": "b2305a1b58182e83b617b5d047f4020f73a1ef4f2c9eb245e7909865016603a3"
+    },
+    {
+      "path": "continuations/2026-11-08T141904Z/root-C46-cn29-review.json",
+      "sha256": "0f7f6a8d50c5ca40b2cf9931b849d49abfddf411ef75f5d571d2d0fb53e2447f"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch27.json",
+      "sha256": "2cdc172cfe581bf798eabbd41a78b08d98d953a3586584e19fdd2ee63a54a1b4",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch27.json",
+      "sha256": "8c88a41338d4c9f7296017dbb681c943a9cb6202f22a5f6c33fac04f2f6c739b",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch27.json",
+      "sha256": "f1cc179ca8dd63084f1e8c109d2747f816fcdf35a1f080db3d593f065c2e4fd8",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension25.json",
+      "sha256": "a910d37fd432d098fb7cdd36e7ea1ea09113e42e4fb027b1f0450e6702bc56bb",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch27.json",
+      "sha256": "7e241761162a02b7be03cc0af2ec28ffe86a02462515912abeadcd73f53e5d05",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch27.json",
+      "sha256": "f0e7a7daba847189eb69ac53b9d218df760b9f8cd3822ce6305d9d60efa77d22",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch29.json",
+      "sha256": "1b41cdbf9aa61e11da190d79d15e50f61c911addc3eda31c242ae805558193fa",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch29.md",
+      "sha256": "8d6dce041a1a3a0284e51c69feb7793ed4f288d0b317121ad242183167a1b7f5",
+      "match": true
+    }
+  ],
+  "actual_sources": [
+    {
+      "url": "https://inkscape-manuals.readthedocs.io/en/1.3/selector-tool.html",
+      "scope": "本次实际web9–74，尤其11、54–69；固定1.3不推广为现行所有软件。"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/common",
+      "scope": "实际web31–71，尤其60共享义"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/grip",
+      "scope": "实际web31–117抓握/操持/把手义"
+    }
+  ],
+  "local_history_check": "research JSON english/name字段Common Grip/合写精确串无命中；仅本地字面，不是外部名称预查或最终家族核准。",
+  "actual_new_chinese_names": 0,
+  "new_family_count": 0,
+  "actual_english_versions": 1,
+  "english_output_ids": [
+    "C1-E38"
+  ],
+  "rework_attempt": 0,
+  "remaining_reworks": 2,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "outputs": [
+    {
+      "path": "A4-candidates-batch35.json",
+      "sha256": "ce2ba3e28805bc678d29fb8b8bee635973a5adbee014c807e76f2958a5672aa4"
+    },
+    {
+      "path": "A4-preview-batch35.md",
+      "sha256": "c59c7c927a5c9261828ab5f657483c865de151599e870afedf0643860de88237"
+    },
+    {
+      "path": "A4-quality-batch35.json",
+      "sha256": "642929fd73e77ae24a4c1c5f2ec79d78539847c7f33b1c17fe5bd2f30c5f6ce9"
+    }
+  ],
+  "next": "主控先无分独评再看producer，双过且家族门通过再原A3独立实际英文查询。",
+  "unchanged": "只写本批新四档，旧稿/分数/原查询/队列/库/Git未改，无网页全文。"
+}

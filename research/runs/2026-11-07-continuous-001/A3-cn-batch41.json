@@ -1,0 +1,156 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-09T03:41:46.456834+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch39.json",
+      "sha256": "c44651ba455f708c557c5bf60f39e65892ae0099d9501bb195cd426dd83571a4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch39.md",
+      "sha256": "f0a9a152192f925eb88deadf8eeb87d166a7c1afe7dcdbf18020296c6085b1bb"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch39.json",
+      "sha256": "776f7cffb2bfa6d71a6e45ad58d3b8b639fd37df787c3abb156413ac72f5f6ff"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch39.json",
+      "sha256": "f7af25329efcb1708b39b73ee5205dc0c72d7878c7b79ce1c885f0ffd898d939"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension34.json",
+      "sha256": "6f7a026656f4b7888aa128e8ae09c103da38aabf93e741f66f63e2fb67300462"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch39.json",
+      "sha256": "1a69317d8cf065b3deba1143b0cc7d2d34a62a8f62bc685bbefdeeacbc2a8fee"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch39.json",
+      "sha256": "10f1be7e1525a3d554f177342838899b61d9dfb21fa91566b269762364b8ade8"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T192536Z/quality-comparison-batch39.json",
+      "sha256": "4db6eee8ffbde2a04107736d5c4ee61971d7ccb3796f965e50f1033ff1eaac93"
+    }
+  ],
+  "query_count": 8,
+  "completed_search_result_count": 8,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-C57",
+      "name": "时镜",
+      "traditional": "時鏡",
+      "query_logs": [
+        {
+          "query": "\"时镜\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "精确主要作者时镜笔名/小说时镜及记时镜术语，个人署名/作品标题不当公司或软件占用。"
+        },
+        {
+          "query": "\"时镜科技\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "独立精确科技命中广州时镜科技有限公司，政府名单及招聘主体；后实际核正文。"
+        },
+        {
+          "query": "\"时镜智能\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "独立精确智能命中蝉镜AI/天镜等异字品牌及分散智能镜词，未作时镜完整同名。"
+        },
+        {
+          "query": "\"时镜\" 公司 AI 模型 软件",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "AI模型软件组主要蝉镜等异字及商汤等分散镜头用法，不据此推时镜模型已用。"
+        },
+        {
+          "query": "\"時鏡\" 公司 軟體 品牌",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "繁体有作者书目/商品搜索与台南2020時鏡商行就业PDF索引；后者仅历史未核目标，不作主证。"
+        },
+        {
+          "query": "\"shijing\" company AI software",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "Shijing拼音有多科技主体/个人；SayToWords自述索引Hangzhou Shijing但实际法语页面显示未翻译字段，未核中文对应；拾景不同字也不称时镜。"
+        },
+        {
+          "query": "\"时镜公司\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "公司组合精确主要历镜/时域/天镜等异字结果，不因公司短串无精确而忽略实际时镜科技核心。"
+        },
+        {
+          "query": "\"广州时镜科技有限公司\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "具体广州主体独立补搜复现政府序号155/927/2448与招聘多入口；实际读取2026-03-06政府名单实体3页155及招聘L31/39闭环。"
+        }
+      ],
+      "decision": "reject_existing_exact_core_technology_company_use",
+      "reason_code": "EXACT_TECH_USE",
+      "reason": "广州时镜科技有限公司去地区/科技/组织形式后核心时镜完全一致，招聘可读软件/游戏开发业务及政府历史名单列名闭环。按公开同核心科技使用避让，不声称官方工商/商标登记清查。",
+      "evidence": [
+        {
+          "url": "https://www.shushuqiuzhi.com/article/139042",
+          "access": "third_party_recruitment_body_read",
+          "finding": "实际84行：L31完整广州时镜科技有限公司，L33IT技术服务，L39软件信息服务业/数字技术/动漫游戏开发/软件开发，L49/59角色原画招聘。其成立和存续为第三方自述，不冒本次官方实时工商核验。"
+        },
+        {
+          "url": "https://www.thnet.gov.cn/attachment/7/7985/7985933/10721094.pdf",
+          "access": "official_government_pdf_actual_download_target_page_read",
+          "finding": "web初开16页前段，find时镜超时；后curl不同读取方式下载成功，用fitz实际读实体第3页序号155广州时镜科技有限公司。表头附件1：天河区一次性扩岗补助银行账号信息缺失企业名单（截至2026年3月6日）。确认历史政府列名，不证明本次工商存续/AI研发或9与42核准。",
+          "local_pdf": "/tmp/a3-shijing-list.pdf",
+          "local_pdf_sha256": "a410a9bdf4fb6d55af382ae6915956cec7929d3593ab3b0e25d59020f0e23941"
+        },
+        {
+          "url": "https://www.saytowords.com/fr/about/",
+          "access": "primary_site_body_read_company_name_unresolved_fields",
+          "finding": "实际131行，L19–23/58–70公司简介及公司名字段为about.companyIntroductionP1等未翻译占位；不能把搜索摘要Hangzhou Shijing对应中文时镜认作正文证实。"
+        },
+        {
+          "url": "https://job.tainan.gov.tw/wp-content/uploads/2020/01/826job.pdf",
+          "access": "historical_search_index_only_not_opened",
+          "finding": "繁体搜索历史時鏡商行线索，未打开目标正文/未核当前登记，不作独立主证。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Shijing",
+          "scope": "2026-11-09本次逐名拼音入口不可访问，非无登记。"
+        }
+      },
+      "risks": [
+        "作者笔名/小说名/物理术语不是本次公司否决依据",
+        "时境/石径/拾景/Shijing等近音异字性质不同，未混为精确同名",
+        "未读原论文方法；原作者释文范围和阻抗冲突边界保持，不冒科学全证",
+        "该政府表不是公司登记表/商标表"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "原run两实际阳性，本次0新增。",
+  "passed_chinese_candidate_ids": [],
+  "rejected_chinese_candidate_ids": [
+    "C1-C57"
+  ],
+  "held_chinese_candidate_ids": []
+}

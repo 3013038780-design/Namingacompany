@@ -1,0 +1,144 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 English first matching",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T23:34:33.006871+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch29.json",
+      "sha256": "780d764e852ce7ad10b78f299763512d2079561557b928fdb553480d6acfa01e"
+    },
+    {
+      "path": "A2-quality-batch29.json",
+      "sha256": "890f503487776dcac1915a85c2c8d5b2ee934266ebdc292c3020cb28d565a6bf"
+    },
+    {
+      "path": "A2-creation-execution-batch29.json",
+      "sha256": "a327fd3dc312db6e3f4a8749d2688b22fb1001f000de5ec0f3875a1e2361bbe3"
+    },
+    {
+      "path": "materials-extension27.json",
+      "sha256": "e6a46bceabc5d35190d2aabb0cbf02dedfbe3e7a68389e47e5542c8731ade31d"
+    },
+    {
+      "path": "coordinator-cn-batch29.json",
+      "sha256": "057efaa78caeeb23cb4bf580e165b743134411987dde24dcb9463b76af42a299"
+    },
+    {
+      "path": "coordinator-family-review-batch29.json",
+      "sha256": "3cfbb2ddf9a3a1da24ea5c239e227e8e6678ecc6dfd8a28cfb81978fa0c4379a"
+    },
+    {
+      "path": "A3-cn-batch31.json",
+      "sha256": "5fbb8fadc893d38a198b045c0e553ed059814efebd6a2fc3deeea26506b61292"
+    },
+    {
+      "path": "A3-cn-batch31.md",
+      "sha256": "f4e5dd60a1be17ceb5240bb632b9ad08eac13c198621e2697cf50eaed45733e3"
+    },
+    {
+      "path": "A3-cn-batch31-receipt.json",
+      "sha256": "8bc518e90e27c29de3a15492e10f6b0bf1ad0addd2f7dc10f6bca76b06025aab"
+    },
+    {
+      "path": "continuations/2026-11-08T151606Z/root-cn31-review.json",
+      "sha256": "cd30a38993ae1cf5164bd9767b371b511fa7851bf7e4bce6851d6fd321cafc4c"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch29.json",
+      "sha256": "780d764e852ce7ad10b78f299763512d2079561557b928fdb553480d6acfa01e",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch29.json",
+      "sha256": "890f503487776dcac1915a85c2c8d5b2ee934266ebdc292c3020cb28d565a6bf",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch29.json",
+      "sha256": "a327fd3dc312db6e3f4a8749d2688b22fb1001f000de5ec0f3875a1e2361bbe3",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension27.json",
+      "sha256": "e6a46bceabc5d35190d2aabb0cbf02dedfbe3e7a68389e47e5542c8731ade31d",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch29.json",
+      "sha256": "057efaa78caeeb23cb4bf580e165b743134411987dde24dcb9463b76af42a299",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch29.json",
+      "sha256": "3cfbb2ddf9a3a1da24ea5c239e227e8e6678ecc6dfd8a28cfb81978fa0c4379a",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch31.json",
+      "sha256": "5fbb8fadc893d38a198b045c0e553ed059814efebd6a2fc3deeea26506b61292",
+      "match": true
+    },
+    {
+      "path": "A3-cn-batch31.md",
+      "sha256": "f4e5dd60a1be17ceb5240bb632b9ad08eac13c198621e2697cf50eaed45733e3",
+      "match": true
+    }
+  ],
+  "input_reading_scope": "本次实际读取指定上游及CN31三档，最初合并输出截断后单独重读A2执行、C48完整素材及CN结果；C49按实际拒绝结果排除，不假读NASA或英国登记。",
+  "actual_sources": [
+    {
+      "url": "https://www.postgresql.org/docs/18/datatype-boolean.html",
+      "scope": "实际web20–62，unknown由SQL NULL表示"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/18/functions-comparison.html",
+      "scope": "实际web49–60/76–104，普通比较与IS UNKNOWN谓词二值结果区分"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/neither",
+      "scope": "实际web31–76、113–125，真义/双读音/独立代词用法"
+    }
+  ],
+  "local_history_check": "research JSON english/name字段Neither精确无命中，仅本地历史字面，不是外部使用预查或终局家族仲裁。",
+  "actual_chinese_drafts_reviewed": 2,
+  "eligible_chinese_inputs": 1,
+  "excluded_upstream": [
+    {
+      "chinese_id": "C1-C49",
+      "chinese": "同星",
+      "eligible_english_inputs": 0,
+      "actual_english_creation": 0,
+      "new_scores": 0,
+      "reason": "原A3七有效中文查询后巨潮公告完整浙江同星科技股份有限公司确证同核心使用；不靠童星异字或英国Tongxing拼音认同一主体。不配英文救回，非当前工商/9和42官方核准。"
+    }
+  ],
+  "actual_new_chinese_names": 0,
+  "new_family_count": 0,
+  "actual_english_versions": 1,
+  "english_output_ids": [
+    "C1-E39"
+  ],
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "rework_attempt": 0,
+  "remaining_reworks": 2,
+  "outputs": [
+    {
+      "path": "A4-candidates-batch36.json",
+      "sha256": "8bcfa86cecb21cdaf5b40d8c4ec6cf6c9656e0149d5dd94b5ddb4883987079f0"
+    },
+    {
+      "path": "A4-preview-batch36.md",
+      "sha256": "c1c9ae923ce7cd19cd7d5682111e25be79a9063219c0e74f5050cee0564c61a0"
+    },
+    {
+      "path": "A4-quality-batch36.json",
+      "sha256": "1b2334955667215bbbbd5de78351ed2446c783b94f7c51761d6dcd2b9331de45"
+    }
+  ],
+  "next": "主控先看无分稿封存独评后读producer，双过才原A3英文独立筛查；C49零匹配不扩大为全批零。",
+  "unchanged": "只本批新档，不改旧稿/分/原查询/队列/库/Git，无网页全文。"
+}

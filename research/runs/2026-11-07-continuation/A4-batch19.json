@@ -1,0 +1,43 @@
+{
+  "agent_id": "/root/live_a4",
+  "role": "A4",
+  "recorded_at": "2026-11-07T18:58:26+08:00",
+  "input_authorization": "主控明确CT-C31/CT-C32中文双质量及原A3公开使用初筛过",
+  "candidates": [
+    {
+      "id": "CT-E35",
+      "chinese_id": "CT-C31",
+      "chinese": "有界好奇",
+      "english": "Measured Wonder",
+      "suggested_pronunciation": "MEH-zherd WUN-der /ˈmɛʒərd ˈwʌndər/",
+      "type": "两个普通英语词的完整名词短语，态度型命名",
+      "formation": "measured在这里取审慎、有分寸的修饰意味，wonder取面对未知的好奇/惊叹；正常语义组成有尺度的好奇。不宣称可以把好奇数值测出数学上界，也不称论文已有此名算法。",
+      "bilingual_relation": "中文有界强调适用条件和辨别范围，英文Measured Wonder强调保持好奇同时保留审慎判断；共同回应探索目标与真正学习价值未必一致的研究问题。",
+      "meaning": "继续面向未知，也检验探索激励何时有效；不是所有新奇都值得追逐。属于公司愿意研究的问题与态度，不声称已经解决noisy-TV或拥有人的主观好奇。",
+      "shortcoming": "可能像科学传播、艺术或思想机构；measured可能被误读为已具严格定量边界，需要解释是研究态度而非结果声明。",
+      "source_urls": [
+        "https://arxiv.org/pdf/1808.04355"
+      ],
+      "read_scope": "A4实际curl下载并以PyMuPDF读PDF第1页摘要/引言与第10页Discussion/noisy-TV，见预测误差内在奖励、随机性限制及电视减慢学习；未读全实验附录。",
+      "status": "quality_proposal_not_screened"
+    },
+    {
+      "id": "CT-E36",
+      "chinese_id": "CT-C32",
+      "chinese": "虚拟排练",
+      "english": "Latent Stage",
+      "suggested_pronunciation": "LAY-tunt STAYJ /ˈleɪtənt steɪdʒ/",
+      "type": "技术形容词与日常舞台对象组成的完整名词短语",
+      "formation": "latent承接论文的潜空间，stage承接排练舞台；在潜在状态空间里让假设行动轨迹先被试演。stage是舞台的品牌比喻，不是将latent state错拼或冒称一种已发表算法名。",
+      "bilingual_relation": "中文说排练的实践，英文给出可进行这种内部试演的舞台；数学表示与日常上场前排练交叉，共同指向学得的世界模型中训练行为的真实关系。",
+      "meaning": "让经验形成内部模型，再在模型中学习行为、回到环境收集经验；把尚未执行的可能性变成可计算的演练空间。不等于人睡眠、不保证现实任务成功。",
+      "shortcoming": "可能像生成艺术/虚拟制作产品；latent对圈外人需一次解释，英文不逐字写rehearsal。模型错误会影响试演，不能将名字当作安全验证或离线RL保证。",
+      "source_urls": [
+        "https://arxiv.org/pdf/1912.01603"
+      ],
+      "read_scope": "A4实际curl下载并以PyMuPDF读论文第1–2页摘要、引言和Control with World Models，见潜空间假设轨迹、行为/价值学习与返回环境收集经验；未通读证明。",
+      "status": "quality_proposal_not_screened"
+    }
+  ],
+  "usage_screening_performed": false
+}

@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-11-09T05:17:44.065298+08:00",
+  "data_validation_exit_code": 0,
+  "whole_production_status": "INCOMPLETE_not_claimed",
+  "tests_passed": 29,
+  "report_renderer_exit_code": 0,
+  "new_resolvable_SHA_refs_checked": 1126,
+  "bad_references": 0,
+  "all_32_previous_catalog_entries_and_stable_IDs_unchanged": true,
+  "cumulative_actual_counts_verified": {
+    "material_ids": 73,
+    "Chinese_primary_ids": 59,
+    "Chinese_submitted_literal_forms": 63,
+    "English_ids": 46
+  },
+  "website_events": 19,
+  "website_research_rows": 59,
+  "pending_evidence_separate_from_library": 2,
+  "latest_event_current_segment": true,
+  "publication_verification": {
+    "research_commit": "f34e9e68e25be40f6e16567679fde59fcb9adfba",
+    "CI": "validate_completed_success",
+    "immutable_public_commit_feed": "verified_latest202508Z_59_research_rows_2_pending",
+    "public_branch_feed": "verified_latest202508Z_59_research_rows_2_pending",
+    "checked_at": "2026-11-09T05:19:12.142419+08:00"
+  }
+}

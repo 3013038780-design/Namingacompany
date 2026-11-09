@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-09T03:50:15.701728+08:00",
+  "independence": "Read producer preview batch45 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C57",
+      "name": "Tailfirst",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个完整熟词读音连贯清楚且两音节可直接叫出",
+          "counter_association": "合写重音为建议而非公认词条读法"
+        },
+        "spelling": {
+          "reason": "tail和first保留完整拼写便于拆解",
+          "counter_association": "tail与tale同音可能听成故事优先"
+        },
+        "grounding": {
+          "reason": "词典义支持尾部与先行的同一方向次序图景",
+          "counter_association": "尾部朝向是常识图景推演而非原实验术语"
+        },
+        "bilingual_relation": {
+          "reason": "猫形示意倒行主题可用尾部先行作品牌层配对",
+          "counter_association": "空间图景不等同信号时序逆转且英文未指明猫"
+        },
+        "distinctiveness": {
+          "reason": "熟悉元素组成反常进入次序有可复述画面",
+          "counter_association": "宠物游戏或倒退首感仍明显"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E47"
+    }
+  ]
+}

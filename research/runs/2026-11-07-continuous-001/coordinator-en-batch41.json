@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-09T00:48:57.773855+08:00",
+  "independence": "Read producer preview batch41 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C50",
+      "name": "Intertidal",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "完整既有词读音有据四音节较长仍可称呼",
+          "counter_association": "不熟悉tidal者需教重音"
+        },
+        "spelling": {
+          "reason": "完整intertidal拼写不硬改但tidal需首次确认",
+          "counter_association": "可能误拼intertital或分写"
+        },
+        "grounding": {
+          "reason": "原物种正文明确intertidal zone而非补编关联",
+          "counter_association": "不是所有该带鱼都能离水"
+        },
+        "bilingual_relation": {
+          "reason": "中文行动者与英文真实活动环境作主题配对不逐字译鱼",
+          "counter_association": "英文单看不包含鱼及陆行动作"
+        },
+        "distinctiveness": {
+          "reason": "一个具体交替环境能形成独立科学机构世界观称呼",
+          "counter_association": "海岸环保咨询和潮汐能源首感强"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E43"
+    }
+  ]
+}

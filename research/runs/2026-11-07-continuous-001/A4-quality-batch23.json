@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-08T13:43:47.614174+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E23",
+      "chinese_id": "C1-C30",
+      "english": "Wordact",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "word和act都是正常单音节词，组合后可叫成两个清楚音节。",
+          "counter_association": "word尾d与act相接需读清，不同口音弱化r后可能改变听感。"
+        },
+        "spelling": {
+          "reason": "两个完整高频词合写，没有更改字母或使用无义缩略。",
+          "counter_association": "Word Act分写和Worldact近听应交A3检查；第一次展示仍有成本。"
+        },
+        "grounding": {
+          "reason": "同一发言本身可以参与构成行动，直接来自已读Austin例子与情境限制；act行动义有词典依据。",
+          "counter_association": "是品牌合成，不是原理论正式术语，不保证每次话语都构成行动。"
+        },
+        "bilingual_relation": {
+          "reason": "中英同把言语与行动作为同一关系；准确保留中文既有学术表达再选择，不以字面首创撑质量。",
+          "counter_association": "英文未独自显示权限、约定和其他配套条件，必须完整保留释义。"
+        },
+        "distinctiveness": {
+          "reason": "紧凑对象式专名能承担语言行动研究身份，非四字口号硬译。",
+          "counter_association": "语言工具/演讲培训/表演文化第一联想明显，只到最低独立接受，不依赖未查重。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "规范门槛未改，主观编辑自评；主控先读无分稿，原A3另核实际品牌使用。"
+    }
+  ]
+}

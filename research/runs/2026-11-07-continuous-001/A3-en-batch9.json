@@ -1,0 +1,99 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-07T21:29:08.977484+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch9.md",
+      "sha256": "79562d5158f87a1d9785fa7687f9956f07e0e6d71a4de3abc2ff56fc8fb05f99"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-batch9.json",
+      "sha256": "2539405d7bbf8245d762e4d59749a1ca1cd7632702ff02593d163f50d6bfce9e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch9.json",
+      "sha256": "876055749f31f58d915c01c63b853f9282eef211f25ecbddfc9d96b7181b4109"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch9.json",
+      "sha256": "a14839b27737bab531105c9d42a388692f984a476362dd315c2d6f87cb482972"
+    }
+  ],
+  "query_count": 6,
+  "results": [
+    {
+      "candidate_id": "C1-E09",
+      "name": "Passageway",
+      "query_logs": [
+        {
+          "query": "\"Passageway\"",
+          "executed_on": "2026-11-07",
+          "summary": "整体同名已用于商业SaaS品牌及独立MCP/RAG检索软件包，均有主证正文。不是仅物理走廊文句、公司地址Passage Way或近似Passage软件。"
+        },
+        {
+          "query": "\"Passageway\" company lab",
+          "executed_on": "2026-11-07",
+          "summary": "整体同名已用于商业SaaS品牌及独立MCP/RAG检索软件包，均有主证正文。不是仅物理走廊文句、公司地址Passage Way或近似Passage软件。"
+        },
+        {
+          "query": "\"Passageway\" AI model",
+          "executed_on": "2026-11-07",
+          "summary": "整体同名已用于商业SaaS品牌及独立MCP/RAG检索软件包，均有主证正文。不是仅物理走廊文句、公司地址Passage Way或近似Passage软件。"
+        },
+        {
+          "query": "\"Passageway\" software product",
+          "executed_on": "2026-11-07",
+          "summary": "整体同名已用于商业SaaS品牌及独立MCP/RAG检索软件包，均有主证正文。不是仅物理走廊文句、公司地址Passage Way或近似Passage软件。"
+        },
+        {
+          "query": "\"Passage Way\" company software",
+          "executed_on": "2026-11-07",
+          "summary": "整体同名已用于商业SaaS品牌及独立MCP/RAG检索软件包，均有主证正文。不是仅物理走廊文句、公司地址Passage Way或近似Passage软件。"
+        },
+        {
+          "query": "\"Passageway\" technology",
+          "executed_on": "2026-11-07",
+          "summary": "整体同名已用于商业SaaS品牌及独立MCP/RAG检索软件包，均有主证正文。不是仅物理走廊文句、公司地址Passage Way或近似Passage软件。"
+        }
+      ],
+      "decision": "return_for_alternative",
+      "reason": "整体同名已用于商业SaaS品牌及独立MCP/RAG检索软件包，均有主证正文。不是仅物理走廊文句、公司地址Passage Way或近似Passage软件。",
+      "evidence": [
+        {
+          "url": "https://passage-way.com/about",
+          "access": "primary_company_body_read",
+          "finding": "L74–81英国伦敦PassageWay RTPI Smart City SaaS团队，软件开发与创始团队；L114–116 Digital Signs For Transport Ltd T/A PassageWay，公司号09832135为官网自述，未冒称Companies House逐名登记复核。"
+        },
+        {
+          "url": "https://pypi.org/project/passageway/",
+          "access": "primary_author_package_body_read",
+          "finding": "L37–58完整独立软件passageway，跨源检索、MCP recall工具、商业使用需许可；L69/L100标2026-11-05发布，有实际包文件信息。不是普通passageway通道名词。"
+        },
+        {
+          "url": "https://www.crunchbase.com/organization/passageway-tech-private-limited",
+          "access": "search_index_only",
+          "finding": "另印度Passageway Tech Private Limited数据分析/ML生成AI公司线索，未独立正文核读，主证已有两项无须据目录夸称已核登记。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "本轮实际入口403，未逐名检索"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "共同入口实际403，未进入逐名逐类检索"
+        }
+      },
+      "chinese_candidate_id": "C1-C13",
+      "chinese": "跳读",
+      "version": "first_english_proposal",
+      "precise_use_type": "same_core_saas_brand_and_independent_mcp_retrieval_software"
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。"
+}

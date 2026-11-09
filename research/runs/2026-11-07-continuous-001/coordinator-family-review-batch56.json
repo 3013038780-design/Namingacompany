@@ -1,0 +1,38 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-09T16:55:16.743546+08:00",
+  "candidate_id": "C1-C63",
+  "name": "消息候场",
+  "version": 3,
+  "rework_attempt": 2,
+  "family_id": "C1-BF-messages-as-visitors-at-another-process-door",
+  "material_id": "C1-M77",
+  "decision": "accepted_same_family_R2_for_fresh_CN_screening",
+  "source_review": "沿root已实读Erlang官方48–63/80–89/116–144/167–169，已入队与receive匹配择取分层。候场是有限状态比喻，不代表消息有意志、每项必执行、全局FIFO或实际舞台。",
+  "family_review": "同C63/M77不增家族；C62是人与人保留前提的戏剧规则，此处候场仅作程序消息等待选择的日常画面，不把两条原理混作一族或复活C62。",
+  "quality": "旧来信未开作者24/Lab3、root26分歧保留未查询；本R2root26/作者25均过、最大轴差1，不覆盖旧评。通知管理/演艺排队软件与消极等待联想仍列明，分数非消费者测试。",
+  "CN_reworks_completed": 2,
+  "remaining_CN_reworks": 0,
+  "refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch56.json",
+      "sha256": "8412aceed2d36bb701a986410cfb448ca956f5e9f3c4eb09b4672c10d09b48e7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch56.json",
+      "sha256": "969f4f11af4804611c96b33addea1a88cc861b6194329c5d6bed69f79d4fed81"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch56.json",
+      "sha256": "dae53eda4cc4d763c235f3720be420f905599b969d036de63f7e25bedf730eaa"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch56.json",
+      "sha256": "2e4846b58c932b064b5d7b92809dc204eeb45c559fbd5a058575bc7f967865b2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/root-M77-source-review.json",
+      "sha256": "438e348cdffe97bc8aec20c34713f8f419dde120038daacb2f5fb456dd647c8e"
+    }
+  ]
+}

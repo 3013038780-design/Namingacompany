@@ -1,0 +1,234 @@
+{
+  "accepted_at": "2026-11-09T12:22:59.930743+08:00",
+  "whole_production_compliance_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "from": "/root/continuous_a1",
+      "to": "/root/continuous_a2",
+      "status": "accepted",
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A1-role-expansion03.json",
+          "sha256": "eab7c0cd091de9a281b1ef9aacec0cde26f37cca555f30d2411f6ac795ce35f2"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A1-role-expansion03-receipt.json",
+          "sha256": "1e02cce7191af34dc75bbe5b15c33b1402a18d76720e9e939a8a489b60e62566"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/a1-expansion03-review.json",
+          "sha256": "2adbc4deaad1d2bf8c0efaa2a6c898afc53fafae6f631bd1008bb9bc13b6a011"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch49.json",
+          "sha256": "757b8963f0e6555ea54bed46cfb0427464e4a008c2353073b0ab77871a2a7cca"
+        }
+      ],
+      "accepted_at": "2026-11-09T12:22:59.930743+08:00",
+      "reason": "腾讯真实命名史/后设字义与火山当前角色/未知命名动机分开。补核先于新A2阅读，不反贴C60；原六世界计划复用，不另增用户审批。"
+    },
+    {
+      "id": "H2",
+      "from": "/root/continuous_a2",
+      "to": "/root",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C61"
+      ],
+      "input_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/materials-extension38.json",
+          "sha256": "74cb9092800e90dc8bb5ae246346e990b8c485b42aa39088b51c89bfe5b0a328"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch49.json",
+          "sha256": "76375bd0edea324b5d49ff67b352abea1cc7a0fc504f4089ca04688a8be79e24"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch49.json",
+          "sha256": "757b8963f0e6555ea54bed46cfb0427464e4a008c2353073b0ab77871a2a7cca"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch50.json",
+          "sha256": "0dab66b8fe3cedeeb21ed44c64cd22e872769fc62596b496b3ea621aa960cf7d"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch50.json",
+          "sha256": "56fad7b28fb70d720df950283c1ec164f1da2746fa9ede01c1cd110054a79c8a"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch50-receipt.json",
+          "sha256": "99726db3c19a996a42a463610a22474948b8faf9e7ffdde7af637002858e0ed8"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch50.json",
+          "sha256": "2831ab46a723d5d0e20b332e2beb8558eb08f96f94e1c9077f099affee460122"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch50.json",
+          "sha256": "3ef38674e4368690244db726087d6292c4f31bcdc07538cc370473c6e852b8da"
+        }
+      ],
+      "accepted_at": "2026-11-09T12:22:59.930743+08:00",
+      "reason": "先真实材料0名，主控源核后低成本同源观察才首次正式C61，不多算卡或中文返工。root先封25后读作者25，轴差0。普通中文研究角色不冒原文术语，泛化损失明确留。"
+    },
+    {
+      "id": "H3",
+      "from": "/root",
+      "to": "/root/live_a3",
+      "status": "returned",
+      "candidate_ids": [
+        "C1-C61"
+      ],
+      "input_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch50.json",
+          "sha256": "2831ab46a723d5d0e20b332e2beb8558eb08f96f94e1c9077f099affee460122"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch50.json",
+          "sha256": "3ef38674e4368690244db726087d6292c4f31bcdc07538cc370473c6e852b8da"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch49.json",
+          "sha256": "96ba0dd6a842e9646542edf96746df0f72d1ac77ded3d0bb935bae1076ccaa3a"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch51.json",
+          "sha256": "c12181400b36403a7c78ba235dc49d173b0edeeecf186e9e89cdd792b5af9fee"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.json",
+          "sha256": "25a50f023beb4f1cd770600db26da8b8d98ef81098d7cee4acb25d0a387a9130"
+        }
+      ],
+      "accepted_at": "2026-11-09T12:22:59.930743+08:00",
+      "reason": "8有效查询实际商业/软件同核心使用；原A2首次返工无稿主动闭族，余1未用，内部三表达未选未查。"
+    },
+    {
+      "id": "H4",
+      "from": "/root/live_a3",
+      "to": "/root/continuous_a4",
+      "status": "zero_input",
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50.json",
+          "sha256": "25a50f023beb4f1cd770600db26da8b8d98ef81098d7cee4acb25d0a387a9130"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-reading-scope-correction.json",
+          "sha256": "fcc3190f05fcf644553b0aa3adb971e4619fbe00a1e914e5fc4d7f5cad3be848"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch50-reading-scope-correction-receipt.json",
+          "sha256": "d31683a8649c8647bef51ebce480ceb26cf31e18c959aa304092e3fdcd7a7c04"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch33.json",
+          "sha256": "c8fad10d3c90da96b425d8a6c8dba8a967863eff6c443877419f335f62de24a7"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A4-C61-CN50-correction-acceptance.json",
+          "sha256": "34254776069ef7b8b7a590b3508865b7b1c93e89ca334e138610908b0e518ef9"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A4-C61-CN50-correction-acceptance-receipt.json",
+          "sha256": "a8e3c59f3dd5e6aa433910f245411fc489c25c12665df32f8ab9f86a841ba864"
+        }
+      ],
+      "accepted_at": "2026-11-09T12:22:59.930743+08:00",
+      "reason": "原A4实际核0中文并发现旧MD批号残留。原A3另档实际重读纠正后原A4真实另档接受；原zero33不覆盖，不回写成最初无错。"
+    },
+    {
+      "id": "H5",
+      "from": "/root/continuous_a4",
+      "to": "/root/live_a3",
+      "status": "zero_input",
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A4-zero-input-batch33.json",
+          "sha256": "c8fad10d3c90da96b425d8a6c8dba8a967863eff6c443877419f335f62de24a7"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A4-C61-CN50-correction-acceptance.json",
+          "sha256": "34254776069ef7b8b7a590b3508865b7b1c93e89ca334e138610908b0e518ef9"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch33.json",
+          "sha256": "0ff9afdf13315c3e59367465f06f23203f8bd44b6fc5c87ec8a4db18bd7c057f"
+        }
+      ],
+      "accepted_at": "2026-11-09T12:22:59.930743+08:00",
+      "reason": "同一原A3实际接原A4零匹配及纠正接受，不占EN46/E48。"
+    },
+    {
+      "id": "H6",
+      "from": "/root/live_a3",
+      "to": "/root",
+      "status": "zero_input",
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch33.json",
+          "sha256": "0ff9afdf13315c3e59367465f06f23203f8bd44b6fc5c87ec8a4db18bd7c057f"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch33-receipt.json",
+          "sha256": "582ec65b0cd3d906121c15db2046f6a312b5ec625dbd9b93fdf025b214d1bc08"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-C61-zero-closeout.json",
+          "sha256": "50bb44a41a832d2785eee8714b8d38b1b9e77b3456170066974e9247241c8645"
+        }
+      ],
+      "accepted_at": "2026-11-09T12:22:59.930743+08:00",
+      "reason": "root实际读完整零输入链与纠错记录，0英文/查询/入库。"
+    },
+    {
+      "id": "H7",
+      "from": "/root",
+      "to": "catalog",
+      "status": "zero_input",
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-C61-zero-closeout.json",
+          "sha256": "50bb44a41a832d2785eee8714b8d38b1b9e77b3456170066974e9247241c8645"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/decisions-through-batch51.json",
+          "sha256": "7da30e91c3698de779e3dd04c739081fa782a59520d5aae0463c2eba09760dfe"
+        }
+      ],
+      "accepted_at": "2026-11-09T12:22:59.930743+08:00",
+      "reason": "不入库；质量、来源、使用拒绝、内部未选及剩余额度分开。",
+      "terminal_decision": "no_admission"
+    }
+  ]
+}

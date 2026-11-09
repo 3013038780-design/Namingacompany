@@ -1,0 +1,132 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "Agent 4 C41 English rework",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T21:39:12.973347+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch24.json",
+      "sha256": "737968f781f98c11c77e781a4b4225ea4290a1ba3bdfe9cb993f4fd50cde871d"
+    },
+    {
+      "path": "materials-extension22.json",
+      "sha256": "beb5d4ecac9de295d9e07873e69bf296b95fce18fc504c14c42d4e12effb5967"
+    },
+    {
+      "path": "A3-cn-batch26.json",
+      "sha256": "adf5036918dcbeae58c224ecc83a0d79e320436390c86f14576df074a282ef8c"
+    },
+    {
+      "path": "A4-candidates-batch31.json",
+      "sha256": "714b90fa1a6ac106c726ffd35b810ab9506971df20e8d6baab860396d5422c93"
+    },
+    {
+      "path": "A4-quality-batch31.json",
+      "sha256": "c1ec5e04c67229fca5ac384620a78ee3a7e08297d0394965a5507f5b97dfd5b9"
+    },
+    {
+      "path": "coordinator-en-batch31.json",
+      "sha256": "eafdda15980fa42214182198c48abdccb9ed5945edd4e5ac51d094ccb4fa6cfe"
+    },
+    {
+      "path": "A3-en-batch31.json",
+      "sha256": "b2efa4f9b400d2563550981bb2461add061ab5bb01b4a72d1f6c47f447955b66"
+    },
+    {
+      "path": "A3-en-batch31.md",
+      "sha256": "a80022e0d98236c80dcb6ec1b7cbc3947a8ec6daf940242ae5ddecb9900ac95b"
+    },
+    {
+      "path": "A3-en-batch31-receipt.json",
+      "sha256": "a0076a40e0e2eb46c5ab7d3c2875ffc199e2928446129f7dc97b6926f349ac4f"
+    },
+    {
+      "path": "continuations/2026-11-08T131434Z/root-E32-review.json",
+      "sha256": "35081873e7f743cb26d95d4cb1fd498e469656139f59548e904f90ffe81fa759"
+    }
+  ],
+  "receipt_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch31.json",
+      "sha256": "714b90fa1a6ac106c726ffd35b810ab9506971df20e8d6baab860396d5422c93",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch31.json",
+      "sha256": "c1ec5e04c67229fca5ac384620a78ee3a7e08297d0394965a5507f5b97dfd5b9",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch31.json",
+      "sha256": "49a1e2fd0ceae371d64c3c497145f20bb8efc0d1403d1ab1b4fbd08721adae49",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch31.json",
+      "sha256": "eafdda15980fa42214182198c48abdccb9ed5945edd4e5ac51d094ccb4fa6cfe",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch26.json",
+      "sha256": "adf5036918dcbeae58c224ecc83a0d79e320436390c86f14576df074a282ef8c",
+      "match": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch26-receipt.json",
+      "sha256": "369c73ad1de4b63e8c662c59c434c7219f48030dd1f38c727e2b4012053f6d6c",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch31.json",
+      "sha256": "b2efa4f9b400d2563550981bb2461add061ab5bb01b4a72d1f6c47f447955b66",
+      "match": true
+    },
+    {
+      "path": "A3-en-batch31.md",
+      "sha256": "a80022e0d98236c80dcb6ec1b7cbc3947a8ec6daf940242ae5ddecb9900ac95b",
+      "match": true
+    }
+  ],
+  "actual_upstream_review": "实际读原A3-en31 JSON/MD/receipt及root-E32-review，按具体跨行业商业使用返工而非物种或AI模型误杀；C42 Unsigned另链不重写。",
+  "actual_source_reading": [
+    {
+      "url": "https://www.pubs.ext.vt.edu/content/pubs_ext_vt_edu/en/ENTO/ENTO-435/ENTO-435.html",
+      "scope": "本人batch31已实际读129–132纤维制巢，沿用不新增阅读数。"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/pulp",
+      "scope": "本次实际web31–85，尤其61造纸材料；其他歧义仅反联想。"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/wright",
+      "scope": "本次实际web31–50制造工匠/组合习惯；木工侧重明确披露。"
+    }
+  ],
+  "local_history_check": "research JSON检索pulpwright/pulp wright无命中，仅字面历史；不是市场预查或最终家族结论。wright是工匠语素，不将其与旧Ownwrite的copy-on-write程序写入角色混为同一出处；最终品牌家族仍由主控核。",
+  "actual_english_versions": 1,
+  "english_output_ids": [
+    "C1-E35"
+  ],
+  "actual_new_chinese_names": 0,
+  "new_family_count": 0,
+  "actual_usage_queries": 0,
+  "actual_registration_queries": 0,
+  "rework_attempt": 1,
+  "remaining_reworks": 1,
+  "outputs": [
+    {
+      "path": "A4-candidates-batch33.json",
+      "sha256": "f18a7f649a193a52004574839d82743f5dd04c91c7cca6c80736dc81cef2c5a3"
+    },
+    {
+      "path": "A4-preview-batch33.md",
+      "sha256": "603854c510ae06fa1214ab594e3a2902bbaa2ec42a24f20ae73b6564755bb960"
+    },
+    {
+      "path": "A4-quality-batch33.json",
+      "sha256": "e3c071c9ba79d206c50f4aee4ef30c08752e3689ed10eae18557234f143c5644"
+    }
+  ],
+  "next": "主控先无分独评再对隔离自评，双过后同一原A3实际英文筛查；不能因已有出处或英文返工就增新家族。",
+  "unchanged": "只写本人新四档；C42/旧稿/分数/原查询/队列/库/Git未改，无网页全文。"
+}

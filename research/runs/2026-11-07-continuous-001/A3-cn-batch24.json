@@ -1,0 +1,182 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T20:41:56.405194+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch22.json",
+      "sha256": "d1cbf13f48570bddc5fc99989682c42ea0c68c402b93ac6d5133015a3c964e7f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch22.json",
+      "sha256": "3716ffe4162f3fa1e7d04a487d6cbc4c0578b8f78f00b6aaec353565a1086774"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch22.json",
+      "sha256": "4161ee32fbdbf7ae0a5a9bb71ecba22d9fdebb74885ce091d697ae0fcab1e622"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch22.json",
+      "sha256": "ae7b10cd9efbde9d2437d31dfeaf620784f8a66bcd323a358976b95a2ff915c2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch22.json",
+      "sha256": "ade6687a88e08443f4992af11016587b8627e9f7f5d98bf9cc05ea85afffe931"
+    }
+  ],
+  "query_count": 12,
+  "results": [
+    {
+      "candidate_id": "C1-C38",
+      "name": "飞梭",
+      "query_logs": [
+        {
+          "query": "\"飞梭\"",
+          "executed_on": "2026-11-08",
+          "summary": "精确命中飞梭技术品牌/软件线索，后读公司与商店正文，不以常用器物自动通过。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"飞梭科技\"",
+          "executed_on": "2026-11-08",
+          "summary": "科技后缀含飞梭科技等公司目录线索；不凭摘要把登记状态写官方确证，具名软件已有独立主证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"飞梭智能\"",
+          "executed_on": "2026-11-08",
+          "summary": "智能后缀含飞梭智能RPA与德马飞梭机器人等线索；本案以可读网新平台正文为主要科技使用证据。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"飞梭\" AI 模型 软件 公司",
+          "executed_on": "2026-11-08",
+          "summary": "AI/模型/软件组合直接命中浙大网新飞梭数字员工平台及上海致景App；原发布及商店实际打开闭环。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"飛梭\" 公司 軟體",
+          "executed_on": "2026-11-08",
+          "summary": "繁体命中飛梭科技/精密/门等不同全称企业与商标目录；无须依摘要作现时登记结论，已有精确软件使用。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"feisuo\" company software",
+          "executed_on": "2026-11-08",
+          "summary": "拼音命中Feisuo软件和FEISUO TRADING英国记录；近音/音译主体中文未核不冒本名，UK逐名入口另实际失败。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "reject_exact_named_ai_platform_and_app",
+      "reason": "飞梭已有完整同名AI/RPA数字员工平台及工厂管理App，原公司发布页/官方商店正文闭环，非仅织造器物通名。无需靠近音或公司目录登记摘要推定。",
+      "evidence": [
+        {
+          "url": "https://www.insigma.com.cn/index.php/news/detail/5900.html",
+          "access": "primary_company_product_announcement_body_read",
+          "finding": "2025-07-23正文L41明确网新软件发布飞梭数字员工平台；L55–59独立平台名称及RPA+AI描述。仅核名称，不背书零差错/自主决策营销性能。"
+        },
+        {
+          "url": "https://apps.apple.com/hk/app/%E9%A3%9E%E6%A2%AD/id1555665093",
+          "access": "primary_store_listing_body_read",
+          "finding": "L21飞梭、L35开发者上海致景信息科技有限公司、L51织厂管理App用途；不是普通工具说明，也不以开发者自报隐私代替核验。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；本批未重访/未逐名逐类核准，不冒注册。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；本批未重访/未逐名逐类核准，不冒注册。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Feisuo",
+          "scope": "2026-11-08本次实际逐名拼音搜索URL不可访问，不等于无公司。"
+        }
+      }
+    },
+    {
+      "candidate_id": "C1-C39",
+      "name": "捕蝇草",
+      "query_logs": [
+        {
+          "query": "\"捕蝇草\"",
+          "executed_on": "2026-11-08",
+          "summary": "精确结果主要物种/词典/研究，不因真实物种存在认商业占用，后续具体游戏另证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"捕蝇草科技\"",
+          "executed_on": "2026-11-08",
+          "summary": "科技后缀主要球鞋捕蝇草结构测评与不同作品；功能绰号不自动公司品牌，未作拒绝唯一依据。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"捕蝇草智能\"",
+          "executed_on": "2026-11-08",
+          "summary": "智能后缀主要港科大仿生电子元件研究，植物名称为研究对象，不自动独立软件/模型名。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"捕蝇草\" AI 模型 软件 公司",
+          "executed_on": "2026-11-08",
+          "summary": "AI/模型软件组合发现官方App Store完整捕蝇草游戏，实际正文核开发者和游戏身份。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"捕蠅草\" 公司 軟體",
+          "executed_on": "2026-11-08",
+          "summary": "繁体命中同游戏官方Apple/Google商店，实际Google正文核捕蠅草名称，园艺植物商品类别不当独立品牌。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"buyingcao\" company software",
+          "executed_on": "2026-11-08",
+          "summary": "拼音buyingcao命中素材集合、旅游用户昵称等，不是同名公司确证；无需以个人名或词典当占用。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "reject_exact_named_game_software",
+      "reason": "捕蝇草/捕蠅草已为hap Inc.独立模拟游戏完整名称，Apple和Google官方商店正文核准命名，物种通用性不抹去真实具名软件。拒绝基于软件使用，非论文/植物本身或功能关键词，也不声称商标注册。",
+      "evidence": [
+        {
+          "url": "https://apps.apple.com/cn/app/%E6%8D%95%E8%9D%87%E8%8D%89/id650748941",
+          "access": "primary_store_game_listing_body_read",
+          "finding": "L19完整名称捕蝇草，L33开发者hap Inc.，L49实际游戏简介，L128–138版本记录；未试玩、不背书游戏质量，不声称新AI模型。"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?hl=zh_TW&id=air.jp.ne.hap.haetori",
+          "access": "primary_store_traditional_game_listing_body_read",
+          "finding": "L15捕蠅草、L17 hap Inc.、L54–69游戏介绍及更新时间；包名air.jp.ne.hap.haetori。同一软件两平台中文使用，不当两独立冲突公司计数。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；本批未重访/未逐名逐类核准，不冒注册。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；本批未重访/未逐名逐类核准，不冒注册。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Buyingcao",
+          "scope": "2026-11-08本次实际逐名拼音搜索URL不可访问，不等于无公司。"
+        }
+      }
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "passed_chinese_candidate_ids": [],
+  "completed_search_result_count": 12,
+  "new_failed_search_attempts": 0,
+  "controls_reused_not_new": "沿本run原2实际阳性对照，本批0新增，无C23等旧失败重复查询。"
+}

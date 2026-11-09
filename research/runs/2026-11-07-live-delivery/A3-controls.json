@@ -1,0 +1,27 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "accessed_on": "2026-11-07",
+  "controls": [
+    {
+      "type": "company",
+      "name": "OpenAI",
+      "query": "OpenAI company official about",
+      "source": "https://openai.com/about/",
+      "read_scope": "About, lines 11–20",
+      "observed": "Official body explicitly identifies OpenAI as an AI research and deployment company.",
+      "result": "positive"
+    },
+    {
+      "type": "software_product",
+      "name": "Cursor",
+      "query": "Cursor AI code editor official product",
+      "source": "https://cursor.com/product",
+      "read_scope": "Product title and Desktop/CLI sections, lines 7–17, 97–126",
+      "observed": "Official body identifies Cursor Desktop and its AI coding editor and agent functions.",
+      "result": "positive"
+    }
+  ],
+  "candidate_queries_performed": 0,
+  "note": "Controls executed before candidate receipt. They do not count as candidate screening."
+}

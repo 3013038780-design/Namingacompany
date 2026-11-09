@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T10:46:46.094994+08:00",
+  "scope": "producer独立自评；主控封存独评后再读",
+  "reviews": [
+    {
+      "candidate_id": "C1-C24",
+      "name": "复证",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两字动作可以直接称呼，复和证语法关系完整",
+          "counter_association": "复症近音，需要独立口语检查"
+        },
+        "distinctiveness": {
+          "reason": "重新求证收束为紧凑称呼，有反复检验的动作记忆",
+          "counter_association": "仍接近常用科研词，可能辨识不足"
+        },
+        "lab_fit": {
+          "reason": "先呈现实验/求证的科学研究身份，可放入AI研究机构语境",
+          "counter_association": "认证检测行业也明显，主控若首感偏此则不能以来源补救"
+        },
+        "grounding": {
+          "reason": "正文支持新数据复核关系，中文明确为本轮凝练",
+          "counter_association": "不是官方中文术语，名字本身未显示新数据"
+        },
+        "extension": {
+          "reason": "方法立场可跨多种研究和模型",
+          "counter_association": "若扩成所有二次成长会丢掉原关系"
+        },
+        "semantic_coherence": {
+          "reason": "复与证为再次检验同一动作，不堆叠寓意",
+          "counter_association": "不能据多次同意宣称永远正确"
+        }
+      },
+      "decision": "quality_pass_for_independent_coordinator_review"
+    }
+  ]
+}

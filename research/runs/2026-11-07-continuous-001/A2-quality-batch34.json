@@ -1,0 +1,50 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T01:36:46.857429+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-C55",
+      "name": "菌缆",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两个熟字在一束活体细丝的同场关系里构成可叫出的新主体，声音紧凑",
+          "counter_association": "不是日常固有词，可能需一次辨字或被听成军缆"
+        },
+        "distinctiveness": {
+          "reason": "生物丝束与工程缆的一个形象明确，区别泛智/元/进化搭配",
+          "counter_association": "菌类/缆线各自行业意象可能先占第一印象"
+        },
+        "lab_fit": {
+          "reason": "生物与网络工程交叉的主体可承载深技术/智能系统研究",
+          "counter_association": "菌材料、农业、线缆产品首感也强，若广义Lab不足主控应独判拒绝"
+        },
+        "grounding": {
+          "reason": "原研究实读方法与发育结果支持菌丝聚束及选择性结构变化，缆是披露的形态/作用比喻",
+          "counter_association": "没有把模型性能当直接测流，未读讨论或证明AI学习"
+        },
+        "extension": {
+          "reason": "可研究结构怎样承担作用、资源怎样影响结构，不限一种算法或制品",
+          "counter_association": "若只做实体菌材料或缆线服务将受字面行业限制"
+        },
+        "semantic_coherence": {
+          "reason": "菌与缆指同一活体丝束及输运角色，第二层增厚同一对象",
+          "counter_association": "不是传电信号的数据线，也不是生命力和连接各自吉祥解释"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ],
+  "boundary": "作者独立判断；预览先交，无分来源不能替自然度/研究品牌身份补偿。"
+}

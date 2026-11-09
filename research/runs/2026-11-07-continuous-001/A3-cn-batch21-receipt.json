@@ -1,0 +1,37 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 Chinese zero gate receipt",
+  "executed_at": "2026-11-08T17:41:06.185039+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch19.json",
+      "sha256": "19b096bb9387bff5ed5161f6172e06552e099d6ac0dc0561f45855a9ca182256"
+    },
+    {
+      "path": "A2-preview-batch19.md",
+      "sha256": "18efe48d70b4707abdfea15163a572d9b406621f2e468c5d66be54e6b1278682"
+    },
+    {
+      "path": "A2-quality-batch19.json",
+      "sha256": "6b11d60f4a1e461ddaea1b67bb0aa7e49f849496ab6d5e34e2731d577830817c"
+    },
+    {
+      "path": "coordinator-cn-batch19.json",
+      "sha256": "26a7936699967417e6298a0b28971a9291bffbb6699c9cd6c274cdb8ca8115a2"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch21.json",
+      "sha256": "83100580afd76a9d6e5cab68cabbafb3836c560a27c21cb033f017b2b25fece6"
+    },
+    {
+      "path": "A3-cn-batch21.md",
+      "sha256": "9be521c0b56ba6e9f75fa53834f18727940673e953e7c9b8951d988202b4f13d"
+    }
+  ],
+  "actual_upstream_read": true,
+  "chinese_screening_inputs": 0,
+  "actual_new_queries": 0,
+  "next": "原A4实际零匹配后同一A3英文零验收。"
+}

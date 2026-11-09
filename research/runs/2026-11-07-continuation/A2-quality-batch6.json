@@ -1,0 +1,97 @@
+{
+  "agent": "/root/live_a2",
+  "assessments": [
+    {
+      "id": "CT-C21",
+      "name": "海底雪",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "海底雪三字听写直接，熟词在意外位置形成称呼。",
+        "distinctiveness": "有具体景象，较抽象深海名字更容易记，但科普标题近似需查。",
+        "lab_fit": "未知探索与复杂生态能容纳Lab，不能保证人人第一眼认AI。",
+        "grounding": "NOAA实际全文短页说明构成与去向，非用想象写雪。",
+        "extension": "世界观可以承载长期研究，不只绑定一种AI方法。",
+        "semantic_coherence": "名字确实描述同一物质现象的形态与位置，未逐字配吉祥义。"
+      },
+      "counter_association": "海洋、文旅、饮品或科普内容首联想；真实颗粒包含排泄物与腐败残体，品牌故事不能只展示浪漫画面隐瞒这一面。"
+    },
+    {
+      "id": "CT-C22",
+      "name": "一点缺陷",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "完整四字口语，无生僻音和省略。",
+        "distinctiveness": "不直接喊智能与无限，负面反差带独立记忆也带接受度风险。",
+        "lab_fit": "从现有系统的局部差异寻找新能力有研究气质，质量公司误读扣分。",
+        "grounding": "NIST项目正文给出制备、磁场响应和光学读出，事实边界明确。",
+        "extension": "材料是入口，研究态度可跨系统，但不可淡化缺陷的日常负面义。",
+        "semantic_coherence": "一点与局部缺陷来自同一对象，不借点字另编无限小美学。"
+      },
+      "counter_association": "缺陷是负面词，可能被理解为自嘲、质检或咨询品牌；若创始人需要完全正面稳健的气质，应直接淘汰，不应靠科学故事辩护。"
+    },
+    {
+      "id": "CT-C23",
+      "name": "指南鱼",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "指南鱼是完整三字称呼，常用字即可辨认。",
+        "distinctiveness": "有具体动物化工具主角，较抽象指南品牌强，但指南同根拥挤。",
+        "lab_fit": "中国物理工具给科技来路，导航和教育误读使身份不是最高。",
+        "grounding": "国家科技馆实际展品正文，明确未冒读原典或优先权论文。",
+        "extension": "感知、工具与实践的品牌世界可容纳AI研究，不绑测向设备。",
+        "semantic_coherence": "鱼形与指南都属于同一真实工具，不分别编吉祥寓意。"
+      },
+      "counter_association": "可能像导航、旅游、儿童知识产品，指南相关科技商标和司南近义公司需要严格查；不能因鱼字可爱就忽略这些。"
+    },
+    {
+      "id": "CT-C24",
+      "name": "云形尺",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "云形尺为实际三字器具称呼，音节流畅且可听写。",
+        "distinctiveness": "云形与尺的张力来自既有形状，固定词也可能被文具产品占检索位。",
+        "lab_fit": "工具增强已有能力适合科技研究，但设计和云服务的误读需扣分。",
+        "grounding": "出版方试读的具体页实际阅读，区分固定曲线板与柔性尺。",
+        "extension": "可讲创造和工具研究，不锁定某种模型算法。",
+        "semantic_coherence": "自由曲线与辅助表达在同一个工具成立，不借云字硬挂云计算。"
+      },
+      "counter_association": "文具、设计软件或云服务企业首联想；尺的量测含义不能冒充这个工具具有高精度测量功能。需主控判断是否足够支撑基础AI Lab身份。"
+    }
+  ]
+}

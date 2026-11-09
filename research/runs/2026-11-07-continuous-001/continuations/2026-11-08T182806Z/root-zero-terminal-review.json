@@ -1,0 +1,47 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-09T02:41:51.798752+08:00",
+  "candidate_ids": [
+    "C1-C56"
+  ],
+  "decision": "no_admission_after_near_name_avoidance_and_voluntary_closure",
+  "actual_role_chain": "既核原A1复用→原A2新读M69/中文37→root先封评分→同原A3CN39→原A2中文R1无稿38→root主动闭族→同原A3CN40→原A4zero29→同原A3ENzero29→root实际核读",
+  "same_A3_cn_en": "/root/live_a3",
+  "new_pairs": 0,
+  "cn_reworks_completed": 1,
+  "unused_cn_rework_allowance": 1,
+  "not_exhausted": true,
+  "internal_word_not_selected_or_screened": "逐邻",
+  "source_review": "root实际讲义24–28/592–720/758–790及1115–1142指定代码/解释段，未运行代码或观看动画；有限图源点可达与状态记录，非全知/自改进/最优承诺。",
+  "market_review": "root实际读水滴公司正文6/16/64/89/97–99与142免责声明，第三方近名风险，非完全同名或工商商标核准。",
+  "refs": [
+    {
+      "path": "coordinator-family-review-batch37.json",
+      "sha256": "ad0fd76956a96575637ab676d49b3ec0869ca08ef52644135cf0918cbc67b8a5"
+    },
+    {
+      "path": "coordinator-cn-batch37.json",
+      "sha256": "7a6788164655d1c710ed06998ca5633cb36a795880ec3777966e9a6ae1f17687"
+    },
+    {
+      "path": "coordinator-cn-batch38.json",
+      "sha256": "ba46f9866e89aaf1ccd6d31376a2e4b8da0a50d995cd736e6f8a96b229e0a8cc"
+    },
+    {
+      "path": "A3-cn-batch39.json",
+      "sha256": "31cd32460f02b2579a1193f49e2b1d497583c1d97c19c994791affed1aa05b85"
+    },
+    {
+      "path": "A3-cn-batch40.json",
+      "sha256": "ca8d57703951f0040255118f7d10c947093c432842b012eb9fd35e3a43ba43ef"
+    },
+    {
+      "path": "A4-zero-input-batch29.json",
+      "sha256": "7c4c2a86db18fde9b6e77b4b4da525ec2723e727f6caac538660283971526af3"
+    },
+    {
+      "path": "A3-en-zero-batch29.json",
+      "sha256": "c5c0fc7601973eefff534912e31708fb4d7ac285465ecb45c1903bffeabb1a99"
+    }
+  ]
+}

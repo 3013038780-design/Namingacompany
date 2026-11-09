@@ -1,0 +1,89 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "executed_at": "2026-11-08T13:43:47.614174+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch17.json",
+      "sha256": "d51374c05140f2c05ea4acc5877f7c3ff47903a654fee4483d8a4eb1e6564fc3"
+    },
+    {
+      "path": "A2-quality-batch17.json",
+      "sha256": "6dce8c6b0f529882fdb36d93e9bdac29d55138f0fce9f66edeb1bd2b7c1e7369"
+    },
+    {
+      "path": "coordinator-cn-batch17.json",
+      "sha256": "9708f5d24f401197346a05624dbec732ee80e21fbf47f4a79948061bba30d043"
+    },
+    {
+      "path": "coordinator-family-review-batch17.json",
+      "sha256": "de44a10f5b3d1fa681cf8f1e442f875e45456dad2c936e65b165c923dbde7ae7"
+    },
+    {
+      "path": "A2-C30-formation-addendum.json",
+      "sha256": "bbe7c9a8d5906538676a5fb951c061c83b4a2e34bcb80a0dace8b7d5454bbc80"
+    },
+    {
+      "path": "A2-C30-formation-addendum.md",
+      "sha256": "67eb03c0c0af03aab626892551c577c4d3de7dd3ac0d3a6bfe7e1111633698ce"
+    },
+    {
+      "path": "A2-C30-formation-addendum-execution.json",
+      "sha256": "d28b02f393f6914b6cf164302429ab9d4e451f6f0e76dab249f75a5e77fcde81"
+    },
+    {
+      "path": "coordinator-C30-formation-reacceptance.json",
+      "sha256": "a0b99dcaecf3fef455c2c85f56cc4b8604bba80df28e82204ec19787618f6ecd"
+    },
+    {
+      "path": "A3-C30-formation-reacceptance.json",
+      "sha256": "ae6cf8dfd04f850162e3498a6d5c9527f943892ba2bf97068100bcceb39017f6"
+    },
+    {
+      "path": "A3-C30-formation-reacceptance.md",
+      "sha256": "b103c6a800152616e59665f7e95404d6274a76a45cf7d5282c57f051f39c7af7"
+    },
+    {
+      "path": "A3-cn-batch19.json",
+      "sha256": "90e5a91531cbc6406fb9690d1120a4a5bf29ecf5bc9ea1597c869faa769415cc"
+    },
+    {
+      "path": "A3-cn-batch19-receipt.json",
+      "sha256": "abb2fd8613f22685a3703043465c2f9ef6ff754f8e9d7e61b6fce8e015944637"
+    }
+  ],
+  "actual_upstream_check": "读原候选/双质量/家族及形成补记与三方再验收；核原cn19 receipt输出SHA及A3形成再验收引用输入SHA。",
+  "actual_new_source_reads": [
+    {
+      "url": "https://web.stanford.edu/class/ihum54/Austin_on_speech_acts.htm",
+      "scope": "49行完整教学节选，未读全书"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/act",
+      "scope": "31–56行act行动名词义"
+    }
+  ],
+  "local_history_query": "rg exact English/name fields for Wordact or Word Act in research JSON，无命中；不是商业使用查询。",
+  "formation_correction_accepted": "既有中文学术表达的再选择，明确实际起稿路径与事后中文发现分开；不宣传首次造词，不倒写来源。",
+  "current_risks_preserved": [
+    "教育翻译出版联想",
+    "PEP书目仅索引未核正文",
+    "不等同言出必行或模型成功保证"
+  ],
+  "relationship_used": "在适合情境中，话语本身可参与构成行动；不是先说再保证做到。",
+  "output_candidate_ids": [
+    "C1-E23"
+  ],
+  "new_chinese_names": 0,
+  "new_english_versions": 1,
+  "usage_queries": 0,
+  "registration_queries": 0,
+  "rework_attempt": 0,
+  "remaining_reworks": 2,
+  "outputs": [
+    "A4-preview-batch23.md",
+    "A4-candidates-batch23.json",
+    "A4-quality-batch23.json"
+  ],
+  "original_records_unchanged": true
+}

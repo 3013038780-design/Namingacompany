@@ -1,0 +1,94 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-09T05:00:22.429547+08:00",
+  "stage": "same_C59_CN_R1_restore_complete_existing_stellar_subject_name",
+  "input_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T202508Z/root-C59-quality-return.json",
+      "sha256": "60073d261cc763428a5e3aac8e86c88d8faf488631c290c606d9f8a7d0f5f35d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch44.json",
+      "sha256": "60073d261cc763428a5e3aac8e86c88d8faf488631c290c606d9f8a7d0f5f35d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch44.json",
+      "sha256": "84a4b07766f3f00b136604b41676d7b7fa9230ca080bf64057df316cbb25f2bd"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch44.json",
+      "sha256": "1ce78331f73ca0fbf5088cfef3f77e619909c8a718b63ed15eab4dd9134d2005"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch44.json",
+      "sha256": "da580b055d49b4de28beb8f86dcaaaf04ded18201a91d21921ad55ed0ebe8539"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch44.json",
+      "sha256": "38dd6b175e7061620c8ccf21811bc0f29e8e6fe7a31dc15862679842ce913035"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension36.json",
+      "sha256": "a6b043c18c7ff96e00517f53c2e552e23c4d4afa4ba61b4216e62f22134f4f80"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.json",
+      "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+    }
+  ],
+  "actual_actions": [
+    "实际读root-C59-quality-return与coordinator-family-review-batch44，确认原星两评辨识均不足、未查用，不倒写成占用。",
+    "回看M73原完整天体术语及科学条件，比较短称与完整原恒星：恢复恒星语素提供类别锚点而非只加科技字或褒义恒。",
+    "独立选为C59/M73/family中文R1，先交无分JSON/MD，再存新稿自评。原稿/自拒/分数不改。"
+  ],
+  "editorial_feedback_lineage": {
+    "feedback_ref": {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T202508Z/root-C59-quality-return.json",
+      "sha256": "60073d261cc763428a5e3aac8e86c88d8faf488631c290c606d9f8a7d0f5f35d"
+    },
+    "input_issue": "作者与主控均认为原星独立辨识未过，不是查重失败。",
+    "actual_A2_response": "原A2重新比较短称与原文完整类别名称，选择恢复原恒星；主控没有指定必须采用这个名称，本稿也不声称无反馈凭空独创。",
+    "unchanged": "原星自拒及原分数保留，来源仍M73，M72不强配名。"
+  },
+  "candidate_id": "C1-C59",
+  "family_id": "C1-BF-forming-star-as-whole-research-subject",
+  "material_id": "C1-M73",
+  "version": 2,
+  "rework_attempt": 1,
+  "replaces_name": "原星",
+  "new_material_count": 0,
+  "new_external_body_reads": 0,
+  "source_reading_reused_from": {
+    "path": "research/runs/2026-11-07-continuous-001/materials-extension36.json",
+    "sha256": "a6b043c18c7ff96e00517f53c2e552e23c4d4afa4ba61b4216e62f22134f4f80"
+  },
+  "new_chinese_primary_id_count": 0,
+  "new_family_count": 0,
+  "selected_chinese_surface_revisions": 1,
+  "new_english_count": 0,
+  "name_usage_queries_performed": false,
+  "remaining_formal_chinese_rework_allowance": 1,
+  "history_boundary": "原恒星早在M73源文与原稿说明中出现，非新发现字面；本次首次正式选为同C59名字，不加主ID/家族。M72仍为资料，原首稿的原力/二周目/地照等家族对照保持。",
+  "output_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch45.json",
+      "sha256": "8ae0a410b52854878dc9a2325e33b035496ea7b0e9d740ed8c2980168e0d4de6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch45.json",
+      "sha256": "f76e6763d3c157c095d0c3a8d903af72e73e3e7f7cd03911f5139adc458c1277"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch45.md",
+      "sha256": "d1a82eb78bad9ed965bae226979cd965abdd3824c7b0df57751365c093f1d791"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch45.json",
+      "sha256": "c0f74de159131ebe629b06adcfcef247e43be533c256298de34985f864e5c02e"
+    }
+  ],
+  "whole_production_batch_complete": false,
+  "boundary": "不要求因完整术语必须过门；需主控独评再送原A3，未查新名不能称可用。无新原论文/图片/书章阅读，NASA一般阶段与CAS特定大质量系统不合并成普遍结论。未改旧字节/库queue/Git，不开C60/新材料或后批。"
+}

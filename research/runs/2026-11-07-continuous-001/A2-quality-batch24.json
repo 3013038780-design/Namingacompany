@@ -1,0 +1,93 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T21:20:32.527031+08:00",
+  "scope": "主控先独立封存再看作者数字；真实出处与首印象分开判断。",
+  "reviews": [
+    {
+      "candidate_id": "C1-C41",
+      "name": "纸蜂",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两个熟字构成完整有主角的称呼",
+          "counter_association": "可能先像折纸小物"
+        },
+        "distinctiveness": {
+          "reason": "纸与蜂同场形成鲜明的小制造者画面",
+          "counter_association": "昆虫外壳不是新发明，不声称首创或市场空白"
+        },
+        "lab_fit": {
+          "reason": "自然材料加工与建造者可承担科学/创造工具的机构身份",
+          "counter_association": "文创、蜂蜜或环保首感也可能压过科技"
+        },
+        "grounding": {
+          "reason": "两所大学正文支持纤维加工纸状巢材，纸和蜂关系原本存在",
+          "counter_association": "不是蜜蜂，不声称正式中文分类名或人体造纸同机制"
+        },
+        "extension": {
+          "reason": "加工者身份可容纳不同研究和产品",
+          "counter_association": "不能仅靠群体聪明叙事滑回Sakana旧上位家族"
+        },
+        "semantic_coherence": {
+          "reason": "外壳、制造与材料第二层都围绕同一具体行为",
+          "counter_association": "纸不另拆为人类知识，蜂也不硬贴永远勤奋"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "C1-C42",
+      "name": "双盲",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "完整既有研究词，二音节可直接称呼",
+          "counter_association": "盲的日常负面联想明显"
+        },
+        "distinctiveness": {
+          "reason": "两边身份遮蔽的结构简洁可记",
+          "counter_association": "常用研究词可能非常拥挤，尚未使用查询"
+        },
+        "lab_fit": {
+          "reason": "第一联想有实验/科学评价方法，可承载AI研究身份",
+          "counter_association": "可能只像临床试验机构，或被听成盲目决策"
+        },
+        "grounding": {
+          "reason": "实际单页指南及机构博客相互支持身份按阶段分置",
+          "counter_association": "历史公告不证明全部现行规则，更不证明消除偏见"
+        },
+        "extension": {
+          "reason": "可研究评价、证据及作品和身份关系，不限一个工具",
+          "counter_association": "不能把组织使命说成已实现公平或安全"
+        },
+        "semantic_coherence": {
+          "reason": "双方身份与评审处于同一制度关系",
+          "counter_association": "不等于丢弃利益披露或永久不署名"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-09T13:31:39.132895+08:00",
+  "independence": "Read producer preview batch52 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C62",
+      "name": "接招",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "现成动宾词两个常用字可直接称呼且有主体动作",
+          "counter_association": "也像一句邀请对手挑战的命令"
+        },
+        "distinctiveness": {
+          "reason": "迎接对方行动并回应的画面清楚而非泛智慧赞词",
+          "counter_association": "武术和游戏常用词且搜索很泛"
+        },
+        "lab_fit": {
+          "reason": "应对他者行动的主体身份可容纳交互智能与行动研究",
+          "counter_association": "手游竞技或话术培训首感强于基础研究必须保留"
+        },
+        "grounding": {
+          "reason": "实际读原作者指定段落承接不等于口头同意的具体区别并明确中文是再选择",
+          "counter_association": "词本身不显示保留共同前提且原书非武术研究"
+        },
+        "extension": {
+          "reason": "回应者身份可跨对话工具和多个长期交互场景",
+          "counter_association": "若只讲接用户一句话就会退成客服或短功能产品"
+        },
+        "semantic_coherence": {
+          "reason": "来自动作的承接和后续回应是同一成对关系",
+          "counter_association": "对抗本义可能遮住作者所说演员之间仍合作的第二层"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

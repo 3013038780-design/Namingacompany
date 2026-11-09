@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-06",
+  "counting_correction": {
+    "raw_word_forms": 24,
+    "conservative_creative_families": 12,
+    "reason": "每张素材卡的两个草案按一个素材/意象家族保守合并，24不是24个独立新增创意。"
+  },
+  "reviews": [
+    {
+      "material_id": "M01",
+      "supported": true,
+      "actual_access": "Nature原论文摘要由检索返回；直开重定向失败。",
+      "qualification": "仅支持特定小鼠研究中的树突棘形成/消除/保留，不是人脑或AI全部学习机制的证明。"
+    },
+    {
+      "material_id": "M02",
+      "supported": true,
+      "actual_access": "剑桥出版社Materials for Engineers第6章公开Summary，章节付费全文未读。",
+      "qualification": "回火/退火不能混称；退火降低硬度、改善可加工性，不是反复加热必然变强。"
+    },
+    {
+      "material_id": "M03",
+      "supported": true,
+      "actual_access": "Rust Compiler Development Guide增量编译章已打开正文。",
+      "qualification": "缓存复用是编译机制；与智能学习只有品牌类比，不是同一机制。"
+    },
+    {
+      "material_id": "M04",
+      "supported": true,
+      "actual_access": "SciPy不动点API说明及Think Python 2e第7章Iteration正文。",
+      "qualification": "渐近线是相邻数学意象，不是假称原章节出现此术语；收敛有条件。",
+      "book_source": "https://greenteapress.com/thinkpython2/html/thinkpython2008.html"
+    },
+    {
+      "material_id": "M05",
+      "supported": true,
+      "actual_access": "HMML项目介绍已打开，定义为旧文本被刮洗后重用的羊皮纸本。",
+      "qualification": "有后文/底稿是创作类比，源文没有此中文品牌词；旧文擦除与持续保留目标有张力。"
+    },
+    {
+      "material_id": "M06",
+      "supported": true,
+      "actual_access": "NOAA What is upwelling全文。",
+      "qualification": "营养水上涌支持生产力；不是所有上涌永远有益，名字只取供给关系。"
+    },
+    {
+      "material_id": "M07",
+      "supported": true,
+      "actual_access": "Smithsonian两个官方页检索返回摘要与正文摘录；直开一页500、一页请求拒绝。",
+      "qualification": "应写读到公开摘录，不写已阅读全文。"
+    },
+    {
+      "material_id": "M08",
+      "supported": true,
+      "actual_access": "USGS Find-A-Feature Meander全文。",
+      "qualification": "外弯侵蚀/内弯沉积改变河道获直接支持，智能类比为作者推演。"
+    },
+    {
+      "material_id": "M09",
+      "supported": true,
+      "actual_access": "ctext检索返回荀子劝学多段原文；直接打开403。",
+      "qualification": "仅已读检索返回段落。借长风是创作新词，非荀子原句；参省读法与传播难度需保留。"
+    },
+    {
+      "material_id": "M10",
+      "supported": true,
+      "actual_access": "故宫描漆条目正文。",
+      "qualification": "只支持光素漆地上各色漆描纹及髹饰录分类，不能声称已读髹饰录全文或此条目讲层层打磨。"
+    },
+    {
+      "material_id": "M11",
+      "supported": true,
+      "actual_access": "Wiley直接打开返回论文页，题名核对一致；后续find403。最初检索返回摘要。",
+      "confirmed_title": "Plant–plant interactions change during succession on nurse logs in a northern temperate rainforest",
+      "doi": "10.1002/ece3.7786",
+      "source_url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.7786",
+      "qualification": "DOI确实对应nurse logs。166个1平方米样方，关系随演替由促进到竞争；不宜美化成始终互助。"
+    },
+    {
+      "material_id": "M12",
+      "supported": true,
+      "actual_access": "原NASA黑洞Anatomy页及新增NASA Stars相关正文、Chandra元素页正文。",
+      "qualification": "原源仅支持吸积盘的运动、加热与辐射，不能直接作为星尘炉=恒星元素合成的出处。新增背景必须标为审核后修正，而不是宣称最初就读到。",
+      "replacement_for_C24": {
+        "source_urls": [
+          "https://science.nasa.gov/universe/stars/",
+          "https://chandra.si.edu/elements/"
+        ],
+        "fact": "恒星核聚变形成更重元素并释放能量；恒星死亡抛出的物质富集未来分子云，进入下一代恒星。Chandra页直接使用恒星内部炉子的意象。",
+        "meaning": "宇宙里的分散物质进入恒星，经历转化；恒星释放的物质又参与下一代形成。",
+        "combination_reason": "星尘与炉的连接改用恒星形成、核聚变及元素代际循环，放弃吸积盘→核聚变的错误捷径。",
+        "disclosure": "星尘炉是本轮自造品牌词；上述官方材料提供机制背景，未出现该中文词。吸积盘加热不是恒星核聚变。"
+      }
+    }
+  ],
+  "book_reading_statement": "已读两种开放技术书的选定章节：Rust Compiler Development Guide增量编译章、Think Python 2e第7章（重点7.2与7.5）。Materials for Engineers只读公开章节摘要；荀子只读检索返回段落。没有整书通读。"
+}

@@ -1,0 +1,87 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-08T13:27:28.322340+08:00",
+  "stage": "same_run_bounded_package_batch17",
+  "input_refs": [
+    {
+      "path": "README.md",
+      "sha256": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567"
+    },
+    {
+      "path": "research/runs/2026-11-06-agent1-baseline105/taxonomy.json",
+      "sha256": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1.md",
+      "sha256": "50023a0d4970380ebd3afb8969343e6aaadab41c468ae7be66bf2da8f20dcda9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.md",
+      "sha256": "9e2c1589037d9d564619fd8d9d861dffd13288087c4f7dec8e49d5ecbd702dde"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+      "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/plan-review.json",
+      "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T051531Z/decisions-through-batch16.json",
+      "sha256": "01806e2dfee25e86c915254707833ce313b0f3ff355e0d61cde5c3cb61b1c9db"
+    }
+  ],
+  "history_scan": {
+    "method": "non-input research/runs JSON parsed and exact candidate/speech-act family terms searched; no market queries",
+    "file_count": 648,
+    "manifest_sha256": "504b5ec77a3a41055c5d60f8b6a8b7047e75e9eb92b8bd24d76f9e1dec093c7f"
+  },
+  "reading_evidence": [
+    {
+      "title": "J. L. Austin, How to Do Things with Words：Stanford教学网页所收作者原文节选",
+      "url": "https://web.stanford.edu/class/ihum54/Austin_on_speech_acts.htm",
+      "published_at": null,
+      "work_date": "页面标书1962；本页发布日期未知，不核准其编者/版本排印细节",
+      "reading_location": "实际读网页完整作者节选L4–48，所标书页5–8（定义、例子、情境与配套行为）及139（话语情境）；不是读全书或完整Lectures。",
+      "reading_scope": "primary_text_selected_excerpts",
+      "access": "body",
+      "method": "web_HTML_body",
+      "read_at": "2026-11-08T13:27:28.322340+08:00"
+    }
+  ],
+  "new_material_count": 1,
+  "new_chinese_draft_count": 1,
+  "new_english_count": 0,
+  "name_usage_queries_performed": false,
+  "output_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension16.json",
+      "sha256": "569977557a7fd1019204cbb3dcab108444cf242990e01e949c31c842b29ca0cd"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch17.json",
+      "sha256": "d51374c05140f2c05ea4acc5877f7c3ff47903a654fee4483d8a4eb1e6564fc3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch17.md",
+      "sha256": "cb0e4b62dd78e2754c74402e7186e0e9121ca9b76293c6a111f64a289edc1dd2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch17.json",
+      "sha256": "6dce8c6b0f529882fdb36d93e9bdac29d55138f0fce9f66edeb1bd2b7c1e7369"
+    }
+  ],
+  "whole_production_batch_complete": false,
+  "boundary": "原A1六方向/计划继续，未重开；不改旧稿/Git/catalog/feed，不查使用英文，无用户通知。"
+}

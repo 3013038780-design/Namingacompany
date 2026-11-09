@@ -1,0 +1,183 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-09T16:57:57.236476+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch56.json",
+      "sha256": "8412aceed2d36bb701a986410cfb448ca956f5e9f3c4eb09b4672c10d09b48e7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch56.md",
+      "sha256": "c5595b6669584769fdcfc6eede643be516203f2bb711aae3196a416bc2950a7c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch56.json",
+      "sha256": "8412aceed2d36bb701a986410cfb448ca956f5e9f3c4eb09b4672c10d09b48e7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch56.json",
+      "sha256": "2e4846b58c932b064b5d7b92809dc204eeb45c559fbd5a058575bc7f967865b2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch56-receipt.json",
+      "sha256": "7a676215d56c352eecb334c9b0ace03c4cb64658c20d8781ede80c5b73f4d52a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch56.json",
+      "sha256": "969f4f11af4804611c96b33addea1a88cc861b6194329c5d6bed69f79d4fed81"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch56.json",
+      "sha256": "dae53eda4cc4d763c235f3720be420f905599b969d036de63f7e25bedf730eaa"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch56.json",
+      "sha256": "50117e275d310729ce4ef3aa242529cf7c45bced8db0ec2d11e5529b0b89ca5c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/quality-comparison-batch56.json",
+      "sha256": "3e4d68d82c25dd32cea6a462cebf3aa0607a3ed6713652a796ef24c105d02840"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/root-M77-source-review.json",
+      "sha256": "438e348cdffe97bc8aec20c34713f8f419dde120038daacb2f5fb456dd647c8e"
+    }
+  ],
+  "query_count": 10,
+  "completed_search_result_count": 10,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-C63",
+      "name": "消息候场",
+      "pinyin": "xiāo xi hòu chǎng",
+      "version": 3,
+      "rework_attempt": 2,
+      "material_id": "C1-M77",
+      "family_id": "C1-BF-messages-as-visitors-at-another-process-door",
+      "decision": "public_use_precheck_pass_with_specific_different_full_name_commercial_risk",
+      "reason_code": null,
+      "reason": "十组新查询未确证完整有意义消息候场被公司/模型/独立软件采用。具体近名THEHALF候场为餐秀演出及其购票小程序，已核并披露；消息是计算对象主语而非组织后缀，整体语义/完整字面区别，未见足够依据把不同跨行业完整名称自动判同核心。仍交主控独立品牌风险终审，不保证注册或全球未用。",
+      "query_logs": [
+        {
+          "query": "\"消息候场\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "完整无行业命中考试系统消息通知/候场普通表达及IPO候场新闻等，未确证独立完整名品牌。"
+        },
+        {
+          "query": "\"消息候场公司\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "完整公司组主要股票资讯和公司候场上市文章，词在不同句段不拼接成消息候场公司。"
+        },
+        {
+          "query": "\"消息候场科技\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "完整科技组主要泛科技资讯/行情聚合，未证实本完整名科技主体。"
+        },
+        {
+          "query": "\"消息候场智能\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "完整智能组为AI信息门户/考试公告等普通消息与候场语境，未证实消息候场智能具名品牌。"
+        },
+        {
+          "query": "\"消息候场\" AI 模型 软件",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "AI软件模型组为Jev决策模型等不同名称及资讯，消息分类/候场文句不等于本名产品。"
+        },
+        {
+          "query": "\"消息候場\" 公司 軟體 品牌",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "繁体组为IPO排队候场、DAWNBLOOM和生活网等完整其他品牌，未确证消息候場主体。"
+        },
+        {
+          "query": "\"xiaoxihouchang\" company software",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "完整拼音无结果，有限搜索未命中不是可注册证明。"
+        },
+        {
+          "query": "\"候场\" 软件 公司",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "候场近名组发现THEHALF候场商业/商标索引以及真实边写代码边候场新闻，须进一步核具体性质；不凭百科商标自述断权利。"
+        },
+        {
+          "query": "\"THE HALF\" \"候场\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "补核THEHALF候场命中政府两新闻正文，实际打开闭环：餐秀剧场与TheHalf候场微信购票小程序，不是本名完整消息候场。"
+        },
+        {
+          "query": "\"候场科技\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "候场科技独立补组主要AI航天竞赛候场区/科技资讯普通词，无确证候场科技公司，不把候场区域当企业名字。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://sww.sh.gov.cn/swdt/20250630/a3ef7f24da644544b72107ad47aec73b.html",
+          "access": "government_culture_commerce_news_body_read",
+          "read_range": "169行L3日期2025-06-27/L76–80",
+          "finding": "THE HALF·候场为1862艺术中心与THE HALF联合出品外滩餐秀剧场，既有演出商业名称。网址6月30与页内发布日期6月27分开记录，不冒本名科技公司。"
+        },
+        {
+          "url": "https://english.shanghai.gov.cn/en-CulturalPerformances/20250605/5ceb5dd6f5e34061bcf4dda773f0662b.html",
+          "access": "government_portal_republished_reporting_body_read",
+          "read_range": "29行L2/5–13/18–28",
+          "finding": "2025-06-05ChinaDaily转载报道沉浸式餐秀，L28明确The Half候场微信购票小程序及票价，存在具名演出商业服务/票务工具；不是消息候场完整名。未核当下演出/小程序存续或登记。"
+        },
+        {
+          "url": "https://news.xinmin.cn/2023/12/01/32535155.html",
+          "access": "search_index_actual_open_timeout",
+          "finding": "边改代码边候场为演员职业新闻标题，原入口超时未冒正文，索引未显示独立软件名，本判断不依赖此辅助索引。"
+        },
+        {
+          "url": "https://bkso.baidu.com/item/上海世臣文化科技集团有限公司/68283311?fromModule=lemma_inlink",
+          "access": "search_index_only_not_original_registry",
+          "finding": "THEHALF候场商标索引线索已通过实际政府报道确认商业名称，但商标注册日期/类别/状态没有官方核验，不以百科替权利确证。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Xiaoxihouchang",
+          "scope": "2026-11-09本次逐名完整拼音入口实际不可访问，非无登记。"
+        }
+      },
+      "remaining_chinese_reworks": 0,
+      "specific_risks": [
+        "THE HALF候场具名演出/微信票务工具既有商业使用，应保留演艺/排队工具联想；不是本名精确AI软件证据",
+        "完整名初筛无确证不等全球无登记；大陆工商/9与42及英国受限未清",
+        "本名易像通知排队/消极等待功能，质量由原双评及root终审，不能靠无命中补分"
+      ],
+      "lineage_boundary": "C63最后R2，同M77不增家族。旧消息串门近串门AI不继承本版占用或清白；来信未开质量未过未查，不称市场占用。",
+      "source_boundary": "Erlang消息入队/receive择取分层，候场只是有限拟人，不保证每项执行/全局FIFO/自主意图；复用原源读不冒本次新读手册。"
+    }
+  ],
+  "passed_chinese_candidate_ids": [
+    "C1-C63"
+  ],
+  "rejected_chinese_candidate_ids": [],
+  "held_chinese_candidate_ids": [],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "本run旧两实际阳性本次0新增，原大陆403限制准确复用，未冒新输入本名。"
+}

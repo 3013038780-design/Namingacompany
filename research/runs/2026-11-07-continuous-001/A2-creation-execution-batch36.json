@@ -1,0 +1,89 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-09T01:55:15.214169+08:00",
+  "stage": "same_C55_final_chinese_rework_R2_actual_zero_selection",
+  "input_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch37.json",
+      "sha256": "3d05465594476990286f0b034c05aebc8610b81f9e5d3f279cf2a4f18855aee1"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch37.md",
+      "sha256": "1ea3321188cee0a5c6fdb431fdb72ecaf75623b63aecec3649503a3bb18c1a81"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch37-receipt.json",
+      "sha256": "9defb2212cf264aa7da7386035acde1af29f2b3021bde2bf9bccc982434d9096"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch34.json",
+      "sha256": "fbe0a907fd636d02e82093a67bd795aa7fb5cf1195006feca2e02cad46d30b8e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch35.json",
+      "sha256": "7fe99aef11565c71be446605b2b99a57246d8a8818c4e38f204cebc1fde589bd"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch34.json",
+      "sha256": "184f049f641de9eb79dbc864c5e006c8ff70e7ae0959a7d268b6154f0ca298ae"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch35.json",
+      "sha256": "0c42ba026d4796137dce7db7b2895bedfc9403b85cfedd58a4e363e0efdf8b8c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension32.json",
+      "sha256": "0ba06b759f12d13f3b3687e2bd39df0486b8a5f89a3216513a46769f66d09717"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-history-batch34-inputs.json",
+      "sha256": "b133a81a696f48dbcfa02fd61b7fb15026e481ac7754fb7ca7fa445df87f61c4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.json",
+      "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+    }
+  ],
+  "actual_actions": [
+    "实际读CN37说明及原两稿、M68：菌络具名游戏使用拒绝，菌缆同音近形科技风险，性质不混。",
+    "对同一菌丝聚束输运关系继续作主体/整体视角取舍，未形成足以独立称呼的更自然Lab名。",
+    "活络构词试探因保健/处事灵活的首感及关系偏移未选；不做市场查询，未称占用。",
+    "零选稿无分说明先交主控，再存独档零质量理由及实际执行SHA。"
+  ],
+  "source_reading_reused_from": {
+    "path": "research/runs/2026-11-07-continuous-001/materials-extension32.json",
+    "sha256": "0ba06b759f12d13f3b3687e2bd39df0486b8a5f89a3216513a46769f66d09717"
+  },
+  "new_external_body_reads": 0,
+  "root_source_reading_not_claimed": true,
+  "candidate_id": "C1-C55",
+  "family_id": "C1-BF-fungal-cable-as-living-transport-entity",
+  "version": 3,
+  "rework_attempt": 2,
+  "replaces_name": "菌络",
+  "new_material_count": 0,
+  "new_chinese_primary_id_count": 0,
+  "new_family_count": 0,
+  "new_selected_chinese_revision_count": 0,
+  "new_english_count": 0,
+  "name_usage_queries_performed": false,
+  "rework_budget_remaining": 0,
+  "output_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch36.json",
+      "sha256": "ebefd70461b2e4faaa6a4c6f65be1d403c5632e018b04f4b3fb337d1ca9b228e"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch36.md",
+      "sha256": "8d310d853d5b2c789d8ecc24f1b2782554b232997e8528591e8ca109b116e641"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch36.json",
+      "sha256": "e4eb0e62cae1e7c30b566aaab91c327230b7295e5312b8f82269c54c970a610a"
+    }
+  ],
+  "whole_production_batch_complete": false,
+  "boundary": "最后R2零选稿，不代表全部可想中文都被市场占用；只说明本次没有质量合格的进一步实现。不能R3或将同族重新编号。未新增材料或外部正文阅读、未冒主控PubMed阅读，不改旧字节/评分/库队列Git。"
+}

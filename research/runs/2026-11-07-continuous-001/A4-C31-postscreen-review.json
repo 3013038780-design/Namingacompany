@@ -1,0 +1,126 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "reviewed_at": "2026-11-08T17:19:56.150228+08:00",
+  "chinese_id": "C1-C31",
+  "english_id": "C1-E26",
+  "pair": "未然机 / Supposal",
+  "stage": "postscreen_non_numeric_editorial_review_before_root_final",
+  "inputs": [
+    {
+      "path": "A3-en-batch26.json",
+      "sha256": "4815c6d509a5f171f0ed39736ca56218f55c67ed3662e6c2d25edcc9034d45ef"
+    },
+    {
+      "path": "A3-en-batch26.md",
+      "sha256": "b0fcf000d19674958f0a667f408ab9b3f2ec8c80115513cd5e77457e76251fa1"
+    },
+    {
+      "path": "A3-en-batch26-receipt.json",
+      "sha256": "161da834e6b7455b9bf5f1aba1b74691532b569aa2a01e0ae7fedc625e9bee1b"
+    },
+    {
+      "path": "A3-cn-batch20.json",
+      "sha256": "46fb678428531c7bbd0edc34489bb1e7d457b12aaf36c6a54711e63481016d99"
+    },
+    {
+      "path": "continuations/2026-11-08T062253Z/root-C31-nearname-review.json",
+      "sha256": "0acc4b62241c19cdb3a68ccc3c8f186685698ac1dbd223eafab8a77d7b0288a8"
+    },
+    {
+      "path": "A4-candidates-batch26.json",
+      "sha256": "79773c9389afba8e05b15a2230896cffbc56e9b12a8dfdfb8d1fe830b150e3f1"
+    },
+    {
+      "path": "A4-quality-batch26.json",
+      "sha256": "8558a2c2201db8fc6ac154c6728d780f1c2f059d536f567fe7fc422825fe0f4e"
+    }
+  ],
+  "receipt_hash_checks": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch26.md",
+      "sha256": "149ffcf979ee6bca81c5684fa3c43d59ef234c90fdc391143efd66906ebb9826",
+      "matches_receipt": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch26.json",
+      "sha256": "79773c9389afba8e05b15a2230896cffbc56e9b12a8dfdfb8d1fe830b150e3f1",
+      "matches_receipt": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch26.json",
+      "sha256": "8558a2c2201db8fc6ac154c6728d780f1c2f059d536f567fe7fc422825fe0f4e",
+      "matches_receipt": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch26.json",
+      "sha256": "12e2e4ff6c68b4aed74e84f761a9538a9dcf1d7fb8f937fbf6061e45b2d8e51e",
+      "matches_receipt": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch26.json",
+      "sha256": "7adb282526dc5f1047f228d2307770394f4c4eddf03af7e9bb0ade5df8fa3eab",
+      "matches_receipt": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch20.json",
+      "sha256": "46fb678428531c7bbd0edc34489bb1e7d457b12aaf36c6a54711e63481016d99",
+      "matches_receipt": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch20-receipt.json",
+      "sha256": "4144ad247fa67e6f33db4c233a1d48d4c61ccb932d30373136424267d908e3b6",
+      "matches_receipt": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T062253Z/root-C31-nearname-review.json",
+      "sha256": "0acc4b62241c19cdb3a68ccc3c8f186685698ac1dbd223eafab8a77d7b0288a8",
+      "matches_receipt": true
+    },
+    {
+      "path": "A3-en-batch26.json",
+      "sha256": "4815c6d509a5f171f0ed39736ca56218f55c67ed3662e6c2d25edcc9034d45ef",
+      "matches_receipt": true
+    },
+    {
+      "path": "A3-en-batch26.md",
+      "sha256": "b0fcf000d19674958f0a667f408ab9b3f2ec8c80115513cd5e77457e76251fa1",
+      "matches_receipt": true
+    }
+  ],
+  "actual_reading": "本次实际读取固定A3英文JSON/MD/receipt、中文cn20及主控近名评审，核原提案/质量与上下游SHA；未重开公司官网、域名页、书籍或词典，也未新查使用。",
+  "decision": "support_same_proposal_for_root_final_with_disclosed_costs_not_delivered",
+  "editorial_reason": "新使用报告没有发现足以推翻原语义关系的材料：完整词典名词确有假设过程/对象义，与模型处理未现实条件能主题配对。仍支持交主控独立终审，但不把公开初筛当品牌质量证据。名字并非零成本：低频词、中文同行拥挤和形式化模型范围不能通过释义消除。",
+  "risks": [
+    {
+      "type": "low_frequency_english_spelling",
+      "assessment": "Supposal低频，双p和al词尾需首次展示；proposal/suppose近听误写的成本仍然存在。标准词典拼法和顺畅读音提供可称呼基础，但不是消费者验证，未宣称人人自然听写。"
+    },
+    {
+      "type": "chinese_near_competitor_names",
+      "assessment": "未然科技、未然图灵等同行前缀确实拥挤，完整机字拟物名可以区分，但不能由多一个核心字推断商业混淆或权利风险消失。主控此次珠海官网失败不冒充正文复核，原A3访问范围照存。"
+    },
+    {
+      "type": "causal_model_scope",
+      "assessment": "同一个体的实际证据先约束背景U，然后替换相应结构关系再求解；背景/结构不充分时不保证唯一识别。不是任意平行世界或准确预测未来，也不是虚拟排练练策略。Supposal的普通假设义比这个方法宽，配对关系依赖明确出处，不伪称词典定义已含反事实全流程。"
+    },
+    {
+      "type": "usage_and_domain_scope",
+      "assessment": "九英文查询未确证完整商业主体/模型/软件只是本次公开初筛。AI访谈转录和词条已经按原A3正文排除，不将其当品牌；supposal.md为第三方域名估值索引且没有主体线索，既不证占用也不证清白，未核域名登记或可购。"
+    },
+    {
+      "type": "registration_unresolved",
+      "assessment": "GSXT与CNIPA9/42仅复用Nov7共同入口403，未本次逐名逐类；英国Supposal逐名URL不可访问。不称全球未使用、可注册或已排除权利冲突。"
+    }
+  ],
+  "unresolved_fatal_semantic_problem_found": false,
+  "limits_to_support": "可以保留为主控终审中的研究讨论提案，不据此称最终交付/已入库；若主控把低频词的听写成本或中文同行区隔视为不足，应按既有标准退回，不以查重过门救品牌。",
+  "C32": "借身质量未过，继续零英文，不因C31通过而回放。",
+  "new_scores": false,
+  "old_scores_unchanged": true,
+  "new_names": 0,
+  "new_usage_queries": 0,
+  "new_registration_queries": 0,
+  "catalog_git_unchanged": true,
+  "next": "主控独立核来源/家族/质量和风险后决定是否进入讨论库；本回执不替代H7。"
+}

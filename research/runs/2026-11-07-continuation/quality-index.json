@@ -1,0 +1,4871 @@
+{
+  "normalization": "producer EN formation -> grounding，仅比较同轴语义；原文件不改",
+  "cn_producer": {
+    "CT-C01": {
+      "id": "CT-C01",
+      "name": "星际渡口",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 5,
+        "semantic_coherence": 4
+      },
+      "total": 27,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "星际与渡口都是自然名词，句中能直接称呼",
+        "distinctiveness": "地点画面具体，空间尺度形成记忆",
+        "lab_fit": "天体动力学与探索身份适合科技实验室，非环保家具",
+        "grounding": "入口/通道确是原研究关系，明确星际为创作尺度",
+        "extension": "可延展多条研究和产品路径，不绑定持续学习功能",
+        "semantic_coherence": "出发、连接与取得路径均围绕同一个渡口角色"
+      },
+      "counter_association": "可能先被理解为航天或科幻品牌；英文应保留出发/连接的关系，不能硬译成某个航天术语。"
+    },
+    "CT-C02": {
+      "id": "CT-C02",
+      "name": "地球回信",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 27,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "地球作主语、回信作行为，四字本身完整",
+        "distinctiveness": "行星寄信的拟人画面鲜明",
+        "lab_fit": "遥观测与世界信息提供科技底层，保留内容品牌误读短板",
+        "grounding": "地球→月球→地球的返回关系在作者论文中明确",
+        "extension": "不绑定某个模型或功能，但地球意象限制纯抽象平台延展",
+        "semantic_coherence": "光携带信息与回信共享一个返回消息的核心"
+      },
+      "counter_association": "可能像科学传播或文化内容品牌；不能让人误会这是地球环保公司，需AI Lab语境承接。"
+    },
+    "CT-C03": {
+      "id": "CT-C03",
+      "name": "影子刻度",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "影子/刻度均为自然生活词，四字偏正组合顺口",
+        "distinctiveness": "软的影子与硬的刻度形成清楚视觉反差",
+        "lab_fit": "观测、测量、从迹象推断的角色适合研究公司",
+        "grounding": "故宫条目明确影子落在刻度上，组合关系直接",
+        "extension": "不限单一AI算法，观测身份仍可长期扩展",
+        "semantic_coherence": "可见痕迹转为度量这一核心承载所有含义"
+      },
+      "counter_association": "可能先像视觉测量或摄影品牌；影子有次要、模糊联想，需要刻度提供精确感。"
+    },
+    "CT-C04": {
+      "id": "CT-C04",
+      "name": "未尽之问",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 5,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "未尽之问是可完整理解的名词短语，不是下一无穷式省略",
+        "distinctiveness": "问的研究姿态明确，四字有节奏但辨识度依赖后续使用",
+        "lab_fit": "可错知识与认识边界能容纳AI研究，需防文化栏目误读",
+        "grounding": "作者访谈明确持续问题与可错，未假称汉语原句",
+        "extension": "不绑定算法、模型或时间阶段，可长期承载研究",
+        "semantic_coherence": "未穷尽的问题与继续追问同核，未堆叠无关典故"
+      },
+      "counter_association": "文气较重，可能像播客/出版栏目；第一眼技术对象不明显。"
+    },
+    "CT-C05": {
+      "id": "CT-C05",
+      "name": "拨码",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "拨码是已有器件常用简称，字音清楚",
+        "distinctiveness": "动作和代码共现，简短有操作感",
+        "lab_fit": "编码配置与系统能力关系可承载科技Lab，需防电子元件误读",
+        "grounding": "官方分类和输出码表直接支持组合关系",
+        "extension": "不绑定某模型算法，但配置隐喻比通用研究稍窄",
+        "semantic_coherence": "动作、编码与状态改变同一因果链"
+      },
+      "counter_association": "可能先像工业电子/编码器企业；“拨”与“博”的听写差异需关注。"
+    },
+    "CT-C06": {
+      "id": "CT-C06",
+      "name": "页脚",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "pass": false,
+      "axis_reasons": {
+        "naturalness": "两字日常用词，完整称呼毫不费力",
+        "distinctiveness": "可视位置明确且有轻微拟人感",
+        "lab_fit": "网页设计/文档工具第一联想强，A2认为未达Lab定位门槛",
+        "grounding": "MDN直接说明真实上下文和相关文档作用",
+        "extension": "可延伸知识支持，但很难摆脱页面层印象",
+        "semantic_coherence": "主体与上下文辅助角色同核，未额外编智能机制"
+      },
+      "counter_association": "容易先被理解为网页设计或文档工具；“脚”有配角、底部的意味，可能缺少用户要的Lab气势。"
+    },
+    "CT-C07": {
+      "id": "CT-C07",
+      "name": "念头引擎",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 5,
+        "semantic_coherence": 4
+      },
+      "total": 27,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "念头/引擎都是熟词，组合为可理解完整名词",
+        "distinctiveness": "心智与工程动势的反差提供记点",
+        "lab_fit": "目标变行动与AI智能体基础研究相容，不是培训育儿",
+        "grounding": "书中实际程序由内部目标与当前状态决定steering",
+        "extension": "可涵盖思考、行动、工具调用与多模型增强",
+        "semantic_coherence": "念头为内在目标、引擎为行动驱动，两个部分共享过程"
+      },
+      "counter_association": "可能像智能体产品或创意工具；“引擎”构词拥挤，须严格查完整名称。"
+    },
+    "CT-C08": {
+      "id": "CT-C08",
+      "name": "多想一步",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "完全自然的日常句子，读音记忆成本低",
+        "distinctiveness": "可反复说出的动作态度，仍有口号风险",
+        "lab_fit": "推理展开是AI公司明确研究角色，非教育培育",
+        "grounding": "作者实证支持中间步骤研究，明确非普遍性能定理",
+        "extension": "比具体算法宽，但一步容易绑定推理产品",
+        "semantic_coherence": "多想与判断展开同核，没有附加互不相关神话"
+      },
+      "counter_association": "有口号或产品slogan的风险；“一步”可能让人误以为只做推理时计算。"
+    },
+    "CT-C09": {
+      "id": "CT-C09",
+      "name": "解环",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "两个常用字形成可直接执行的动作，口头称呼没有省略成分。",
+        "distinctiveness": "完整解环与通用解题不同，但环类游戏近似名会压缩区别。",
+        "lab_fit": "约束求解与规划给AI研究身份，仍需视觉和副标题避免游戏工具首联想。",
+        "grounding": "课件实读规则、格雷码表和组合逻辑，不使用传说充历史。",
+        "extension": "可扩展到智能体、推理与复杂系统，不绑定一种模型结构。",
+        "semantic_coherence": "从物件解开到问题求解是同一动作关系，没有为两个字分编故事。"
+      },
+      "counter_association": "可能先想到解谜游戏、解锁工具或加密业务；公开存在“解环大师”游戏的近似使用线索，需A3判断核心名字和同业近似，不能宣称未占用。"
+    },
+    "CT-C10": {
+      "id": "CT-C10",
+      "name": "换坐标",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "口语中换坐标完整自然，三字读出有明确动词。",
+        "distinctiveness": "较坐标或新坐标有独立动作，但同根商业名拥挤需严查。",
+        "lab_fit": "数学与表示学习叙事能承载Lab，也有测绘误读。",
+        "grounding": "SICP正文直接给出两种表示及运算便利性，品牌延伸明确分开。",
+        "extension": "不同模型和研究任务都需要表示，未局限后训练的一种实现。",
+        "semantic_coherence": "换的对象确实是坐标表示，数学事实和日常动作重叠。"
+      },
+      "counter_association": "可能被理解成导航、测绘工具；坐标类公司较拥挤，核心三字须查，不能靠加换字规避已有同业。"
+    },
+    "CT-C11": {
+      "id": "CT-C11",
+      "name": "色序",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "色序两音节可称呼，听感不像未经解释的四字术语。",
+        "distinctiveness": "字面有紧凑识别度，但色序显示通用语义明显扣去独创性优势。",
+        "lab_fit": "结构与系统性质给科技背景，仍可能被当色彩软件商。",
+        "grounding": "新闻正文说明周期排列和介导组装，不把科普句当人工智能定理。",
+        "extension": "组织与呈现可承载数据、模型和研究，不只做材料。",
+        "semantic_coherence": "色与序之间有材料中的真实关系，非两字各配愿望。"
+      },
+      "counter_association": "设计/色彩管理或显示器行业首联想强；“色序”本来也是显示技术中的通用组合，含义不同且拥挤，必须按相关科技行业严格查重。"
+    },
+    "CT-C12": {
+      "id": "CT-C12",
+      "name": "方格动物",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "四字是能画出的完整名词，口头无生僻音。",
+        "distinctiveness": "方格与动物的张力有记点，不能靠卡通外观掩盖儿童联想。",
+        "lab_fit": "人工生命有研究身份，但玩具和编程教育的误读需持续扣分。",
+        "grounding": "书中明确说明表观运动和局部更新，未误称固定规则会学习。",
+        "extension": "可容纳智能体和人工生命研究，不必限定一种网格算法。",
+        "semantic_coherence": "动物来自实际活动图案的形象而非随意选动物吉祥物。"
+      },
+      "counter_association": "可能像游戏工作室、儿童编程或玩具品牌；Lab定位只能给到中等，需主控独评，不能拿复杂科学背景替代品牌判断。"
+    },
+    "CT-C13": {
+      "id": "CT-C13",
+      "name": "长按",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "日常两字动词，书写发音都不需解释。",
+        "distinctiveness": "动作自身有鲜明记忆，但通用操作词的检索噪声降低独特性。",
+        "lab_fit": "能作为交互与智能工具研究主体；不像页脚只像文档边角，但仍非强Lab信号。",
+        "grounding": "Apple官方正文JSON实际解析，特别保留时间与压力的区别。",
+        "extension": "既能承载工具也能承载研究，不把品牌锁在长按功能。",
+        "semantic_coherence": "持续交互打开更多上下文是同一动作故事，未编造生物成长关系。"
+      },
+      "counter_association": "极常见的操作说明，网页搜索噪声大且难占搜索心智；偏交互产品而非基础模型，技术身份要靠公司表达建立。"
+    },
+    "CT-C14": {
+      "id": "CT-C14",
+      "name": "侧音",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "侧音两字好叫好写，但听写测音可能混淆。",
+        "distinctiveness": "设备里的具体细节较少成为泛AI称呼，仍有术语通用性。",
+        "lab_fit": "自监测关系适合AI研究叙事，音频垂直误读明显而未给满分。",
+        "grounding": "中国设备厂商官方正文说明用途与设置，未用维基作主要技术依据。",
+        "extension": "反馈通路可跨语音和智能体，只要不宣称实际实现了这种机制。",
+        "semantic_coherence": "寓意保持给主体额外反馈这一个关系，不把侧解释成侧翼力量。"
+      },
+      "counter_association": "可能被听成测音或当作音频公司；与已研究回响/Echo同属声音联想，若将家族界定为泛声音反馈则应合并，不以汉字不同强算新增。此处按“人为监听自身输出”与“环境回声”区分，交主控确认。"
+    },
+    "CT-C15": {
+      "id": "CT-C15",
+      "name": "纸旋翼",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "pass": false,
+      "axis_reasons": {
+        "naturalness": "纸旋翼是完整三字物件，不需重排语序才能理解。",
+        "distinctiveness": "轻纸与机械旋翼搭配有视觉记忆，但工程玩具并不罕见。",
+        "lab_fit": "儿童工程教育和航空首联想过强，不能靠实验精神补足基础Lab身份。",
+        "grounding": "NASA官方活动实际读取制作与对照步骤，能区分下降与起飞。",
+        "extension": "原型实验可跨行业，但纸物件对公司尺度仍有限制。",
+        "semantic_coherence": "材料、结构和试验在同一物件上成立，没有拼接不相关寓意。"
+      },
+      "counter_association": "儿童STEM、玩具或航空工作室首联想强；基础AI Lab身份偏弱，自评因此不送强推荐，保留真实淘汰依据供主控看。"
+    },
+    "CT-C16": {
+      "id": "CT-C16",
+      "name": "递火",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "两个常用字形成明确动作，发音利落而无生僻字。",
+        "distinctiveness": "比薪火口号更像一个短称呼，但传火近义品牌和游戏语言需严查。",
+        "lab_fit": "能量与增强他者的使命适合技术实验室，仍需防文化传播行业误读。",
+        "grounding": "古文原篇实际打开，明确品牌二字并非原文，哲学与科学分开。",
+        "extension": "不把公司锁在继续学习一种能力，可承载多个研究方向。",
+        "semantic_coherence": "把能力递给另一个载体的同一关系贯通动作与业务，不解释成免费能源。"
+      },
+      "counter_association": "游戏“传火”文化、火炬活动或文化传播行业联想；火也有灾害含义。科技身份更多来自公司研究和表达，不能只靠典籍加分。"
+    },
+    "CT-C17": {
+      "id": "CT-C17",
+      "name": "添一指",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "三字完整动作，添和指都能直接听写。",
+        "distinctiveness": "与第三拇指项目名有明显字面区别，但仍需查增强产品近似。",
+        "lab_fit": "用技术扩展已有能力的关系切合项目，具身行业误读扣分。",
+        "grounding": "直接作者访谈和实验室研究正文实际读到，保留适应代价。",
+        "extension": "能力外挂和共同适应能延伸多个模型系统，不必做真实手指。",
+        "semantic_coherence": "所添资源与已有主体共同工作，寓意来自一个可观察关系。"
+      },
+      "counter_association": "可能像康复、指法或机器人配件公司；若品牌特别排斥具身和硬件首联想，这个方向应舍弃。"
+    },
+    "CT-C18": {
+      "id": "CT-C18",
+      "name": "光的弯道",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "光的弯道是完整口语名词，读起来无需补词。",
+        "distinctiveness": "光通常被联想直行，弯道给明确记忆，但文化内容标题感存在。",
+        "lab_fit": "基础物理和未知观测能承载研究Lab，摄影误读使其非满分。",
+        "grounding": "NASA实际正文给出路径偏折与放大，不引申超光速。",
+        "extension": "研究世界观足够宽，不锁定持续学习一种产品。",
+        "semantic_coherence": "光与弯道间有真实传播关系，不是光明与成功两个愿望。"
+      },
+      "counter_association": "可能像摄影、展览或科普书名；四字含的字，注册字号与品牌完整写法需一致查重，不能去的字自动当另一新名。"
+    },
+    "CT-C19": {
+      "id": "CT-C19",
+      "name": "噪声种子",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "噪声种子是能直接读出的完整四字名词，不是推导式。",
+        "distinctiveness": "两个日常对象形成意外但真实的起点关系，现有参数用法需查。",
+        "lab_fit": "计算与生成语义明确，但偏生成工具而非综合Lab。",
+        "grounding": "论文正文与NumPy初始化文档均实读，区分噪声样本与随机种子。",
+        "extension": "生成只是一个入口，随机探索与研究可延展，仍有技术范式限制。",
+        "semantic_coherence": "随机开端转为有结构样本的关系真实，不宣称无中生有或噪声即知识。"
+      },
+      "counter_association": "噪声可能被理解为污染或低质量信息；种子容易带生成工具或模型参数名的感觉，公司延展性需判断。"
+    },
+    "CT-C20": {
+      "id": "CT-C20",
+      "name": "雨影",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "pass": false,
+      "axis_reasons": {
+        "naturalness": "两个熟字声音清晰，天然称呼。",
+        "distinctiveness": "现象本身有辨识度，但文艺名称同音易拥挤。",
+        "lab_fit": "气象与风景首身份明显，不能以严肃科学出处挽救Lab定位。",
+        "grounding": "NOAA存档正文实际读到，未把旧科普当新论文。",
+        "extension": "间接观察世界可延展，仍被天气与影像限制。",
+        "semantic_coherence": "雨和影是已有现象名称，交叉不是事后拼字。"
+      },
+      "counter_association": "摄影、文旅或生态项目的首联想过强；自评Lab身份未过，本案保留在研究淘汰栏，不送查重假装推荐。另已有雨水雨影网络公司包含式线索，未核核心品牌不冒称完全同名注册。"
+    },
+    "CT-C21": {
+      "id": "CT-C21",
+      "name": "海底雪",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "海底雪三字听写直接，熟词在意外位置形成称呼。",
+        "distinctiveness": "有具体景象，较抽象深海名字更容易记，但科普标题近似需查。",
+        "lab_fit": "未知探索与复杂生态能容纳Lab，不能保证人人第一眼认AI。",
+        "grounding": "NOAA实际全文短页说明构成与去向，非用想象写雪。",
+        "extension": "世界观可以承载长期研究，不只绑定一种AI方法。",
+        "semantic_coherence": "名字确实描述同一物质现象的形态与位置，未逐字配吉祥义。"
+      },
+      "counter_association": "海洋、文旅、饮品或科普内容首联想；真实颗粒包含排泄物与腐败残体，品牌故事不能只展示浪漫画面隐瞒这一面。"
+    },
+    "CT-C22": {
+      "id": "CT-C22",
+      "name": "一点缺陷",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "完整四字口语，无生僻音和省略。",
+        "distinctiveness": "不直接喊智能与无限，负面反差带独立记忆也带接受度风险。",
+        "lab_fit": "从现有系统的局部差异寻找新能力有研究气质，质量公司误读扣分。",
+        "grounding": "NIST项目正文给出制备、磁场响应和光学读出，事实边界明确。",
+        "extension": "材料是入口，研究态度可跨系统，但不可淡化缺陷的日常负面义。",
+        "semantic_coherence": "一点与局部缺陷来自同一对象，不借点字另编无限小美学。"
+      },
+      "counter_association": "缺陷是负面词，可能被理解为自嘲、质检或咨询品牌；若创始人需要完全正面稳健的气质，应直接淘汰，不应靠科学故事辩护。"
+    },
+    "CT-C23": {
+      "id": "CT-C23",
+      "name": "指南鱼",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "指南鱼是完整三字称呼，常用字即可辨认。",
+        "distinctiveness": "有具体动物化工具主角，较抽象指南品牌强，但指南同根拥挤。",
+        "lab_fit": "中国物理工具给科技来路，导航和教育误读使身份不是最高。",
+        "grounding": "国家科技馆实际展品正文，明确未冒读原典或优先权论文。",
+        "extension": "感知、工具与实践的品牌世界可容纳AI研究，不绑测向设备。",
+        "semantic_coherence": "鱼形与指南都属于同一真实工具，不分别编吉祥寓意。"
+      },
+      "counter_association": "可能像导航、旅游、儿童知识产品，指南相关科技商标和司南近义公司需要严格查；不能因鱼字可爱就忽略这些。"
+    },
+    "CT-C24": {
+      "id": "CT-C24",
+      "name": "云形尺",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "云形尺为实际三字器具称呼，音节流畅且可听写。",
+        "distinctiveness": "云形与尺的张力来自既有形状，固定词也可能被文具产品占检索位。",
+        "lab_fit": "工具增强已有能力适合科技研究，但设计和云服务的误读需扣分。",
+        "grounding": "出版方试读的具体页实际阅读，区分固定曲线板与柔性尺。",
+        "extension": "可讲创造和工具研究，不锁定某种模型算法。",
+        "semantic_coherence": "自由曲线与辅助表达在同一个工具成立，不借云字硬挂云计算。"
+      },
+      "counter_association": "文具、设计软件或云服务企业首联想；尺的量测含义不能冒充这个工具具有高精度测量功能。需主控判断是否足够支撑基础AI Lab身份。"
+    },
+    "CT-C25": {
+      "id": "CT-C25",
+      "name": "抬眼",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "现成两字动作，发音与书写成本低。",
+        "distinctiveness": "向上看一眼有明确姿态，但普通动词的搜索辨识度仍需查。",
+        "lab_fit": "动作能承载主动感知研究，视光行业误读使其不满分。",
+        "grounding": "专业原理与日常动作有关但不完全等同，主动降低来源精确性评分。",
+        "extension": "不绑定眼球追踪器或某种视觉模型，可作为认知研究入口。",
+        "semantic_coherence": "日常看向世界与主动获取信息是同一动作层，不附会向上即增长。"
+      },
+      "counter_association": "可能先想到眼镜、摄影或视觉应用；科技Lab可以承载感知与认知研究，但不是一眼就说明全栈AI。"
+    },
+    "CT-C26": {
+      "id": "CT-C26",
+      "name": "反例",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "现成两字词，口头可直接叫，音节清晰。",
+        "distinctiveness": "反例有鲜明反转记忆，通用词会使商业检索更难。",
+        "lab_fit": "数学、验证和边界有直接研究身份，质量测试业务误读扣分。",
+        "grounding": "MIT教材具体页实读支持全称断言与单一反例关系。",
+        "extension": "可覆盖数学、软件验证和系统研究，不局限一个失败样本集。",
+        "semantic_coherence": "名字、方法和研究态度围绕同一否定见证，未把反说成反重力。"
+      },
+      "counter_association": "反字偏负面，可能被理解为唱反调或测试咨询；源词是通用术语，独占与检索难度要查，不能以简短就假设无使用。"
+    },
+    "CT-C27": {
+      "id": "CT-C27",
+      "name": "纸上机器",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "纸上机器是完整日常短语，不需补词才成立。",
+        "distinctiveness": "纸与机器的尺度反差有记忆，读物命名近似需查。",
+        "lab_fit": "机器与计算史有明确技术身份，但可能像教育或纸上原型。",
+        "grounding": "原文明确纸的比拟、符号与状态，未冒称品牌中文原句。",
+        "extension": "规则与实现的关系能容纳多类计算研究，不限某种芯片。",
+        "semantic_coherence": "纸上描述与可执行过程的关系一致，并非纸代表环保、机器代表强大。"
+      },
+      "counter_association": "纸上谈兵的消极联想、教育读物/原型玩具首联想；与本轮纸旋翼共享纸字但构式和核心故事不同，仍交主控保守复核，不仅凭机制名不同自动判新家族。"
+    },
+    "CT-C28": {
+      "id": "CT-C28",
+      "name": "鸽哨",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "鸽哨是两字真实物件，发音自然并有响声记忆。",
+        "distinctiveness": "鸽与哨的关系独特，风物已有品类用法需查。",
+        "lab_fit": "器具、运动和感知可承载工程研究，但民俗首联想让其身份存在明显风险。",
+        "grounding": "原创现场报道实际读到制作与声音变化，不借传说补原理。",
+        "extension": "物件可承载人与环境互动的宽故事，不局限语音模型。",
+        "semantic_coherence": "飞行驱动气流经器物发声是同一关系，未把鸽解释和平、哨解释号令。"
+      },
+      "counter_association": "民俗工艺、音乐或养鸽行业的首联想强；若主控判断不足以承载Lab身份，应按定位淘汰，不能只因中国出处漂亮放行。"
+    },
+    "CT-C29": {
+      "id": "CT-C29",
+      "name": "非玩家",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "三个熟字可成角色称呼，但省略角色会带来两种日常理解。",
+        "distinctiveness": "非与玩家的身份反差清楚，NPC术语已有文化记忆。",
+        "lab_fit": "人工代理与模拟社会有直接AI研究背景，游戏公司误读需扣分。",
+        "grounding": "论文正文实际读到架构、NPC背景及作者对自主性的警告。",
+        "extension": "可从游戏角色拓展交互与代理研究，仍有游戏语境边界。",
+        "semantic_coherence": "控制身份、经历与行为围绕同一个角色故事，没有抽象加愿望。"
+      },
+      "counter_association": "可能首先被理解为“不玩游戏的人”或游戏工作室；网络NPC又有机械、没有主见的贬义，不能忽略。"
+    },
+    "CT-C30": {
+      "id": "CT-C30",
+      "name": "懒函数",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "懒函数是顺口的三字名词，有人格感而无生僻字。",
+        "distinctiveness": "日常懒与数学函数的张力有明确记忆，仍需查工具名近似。",
+        "lab_fit": "函数直接给计算身份，偏工具而非研究机构使其不满分。",
+        "grounding": "书章定义和不会求值参数的实例实际读到，不把懒当快的同义词。",
+        "extension": "需求驱动可延伸计算研究，函数对象也形成一定范围约束。",
+        "semantic_coherence": "懒的日常义与减少无需求计算共享节制动作，没有编造自成长。"
+      },
+      "counter_association": "懒字可能被理解为不努力或低可靠；函数也会偏开发者工具，无法包办全部AI Lab世界观。"
+    },
+    "CT-C31": {
+      "id": "CT-C31",
+      "name": "有界好奇",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "定语加名词语法完整，但有界是专业语感，不能给口语满分。",
+        "distinctiveness": "无限好奇的反向限定产生记点，也可能被听成保守。",
+        "lab_fit": "探索与目标函数边界是AI研究问题，科普品牌误读仍明显。",
+        "grounding": "论文第10页明确noisy-TV失效，没有假称存在同名算法。",
+        "extension": "不绑定某一种奖励方法，可作为研究风格容纳多产品。",
+        "semantic_coherence": "有效探索与条件边界属于同一关系，不把好奇和数学好看字硬拼。"
+      },
+      "counter_association": "有界较书面，好奇可能让人想到科普教育；也可能被误读为限制想象力。自然度只能给中档通过判断，须由主控独评，不用算法背景补拗口。"
+    },
+    "CT-C32": {
+      "id": "CT-C32",
+      "name": "虚拟排练",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "pass": true,
+      "axis_reasons": {
+        "naturalness": "四字日常短语，虚拟是方式、排练是动作，语法完整。",
+        "distinctiveness": "模型里先演练有明确画面，但通用产品描述可能压低商业辨识。",
+        "lab_fit": "世界模型与智能体行为学习有直接AI研究身份，培训平台误读扣分。",
+        "grounding": "论文前两页具体机制实际读到，未把算法梦想比作真实睡眠证据。",
+        "extension": "可覆盖规划、模拟和行动学习，但不像完全无业务限定的专名。",
+        "semantic_coherence": "内在试演与真实行动共享排练关系，不逐字添加无关价值。"
+      },
+      "counter_association": "可能像仿真产品、演艺软件或培训平台，Lab长期身份略偏功能性；若主控认为只是产品描述，应退回，不将资料真实当作通过。"
+    }
+  },
+  "cn_coordinator": {
+    "CT-C01": {
+      "candidate_id": "CT-C01",
+      "name": "星际渡口",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "星际与渡口形成完整四字称呼",
+          "counter_association": "像科幻或航天机构"
+        },
+        "distinctiveness": {
+          "reason": "可抵达换乘的宇宙场景可记",
+          "counter_association": "星际词根较常见"
+        },
+        "lab_fit": {
+          "reason": "探索入口与连接者可承载AI研究身份",
+          "counter_association": "首要联想偏航天"
+        },
+        "grounding": {
+          "reason": "论文真实存在低能通道和入口类比，品牌扩大尺度已披露",
+          "counter_association": "行星际不等于已证跨恒星通路"
+        },
+        "extension": {
+          "reason": "出发与通路容纳跨产品研究",
+          "counter_association": "初期需研究简介"
+        },
+        "semantic_coherence": {
+          "reason": "空间交通与能力通路围绕同一关系",
+          "counter_association": "品牌类比非已实现航天性能"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C02": {
+      "candidate_id": "CT-C02",
+      "name": "地球回信",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "四个熟字组成自然动作与主体",
+          "counter_association": "可能像科普栏目"
+        },
+        "distinctiveness": {
+          "reason": "地球回信反常而可理解，画面鲜明",
+          "counter_association": "拟人化可能显文艺"
+        },
+        "lab_fit": {
+          "reason": "世界观测与反馈足以承载研究身份",
+          "counter_association": "需要避免环保机构误读"
+        },
+        "grounding": {
+          "reason": "地照光返回信息有观测论文锚点",
+          "counter_association": "反射光不是学习机制"
+        },
+        "extension": {
+          "reason": "可讲系统与世界交互多个方向",
+          "counter_association": "不只一个模型反馈产品"
+        },
+        "semantic_coherence": {
+          "reason": "光的返回与回应共享清楚路径",
+          "counter_association": "不是地球具有认知意图"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C03": {
+      "candidate_id": "CT-C03",
+      "name": "影子刻度",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "对象与测量组成完整称呼",
+          "counter_association": "像摄影品牌"
+        },
+        "distinctiveness": {
+          "reason": "中国器物的可见影长刻度好想象",
+          "counter_association": "影子有次要模糊联想"
+        },
+        "lab_fit": {
+          "reason": "观测与判断的科学机构身份可信",
+          "counter_association": "第一联想视觉测量"
+        },
+        "grounding": {
+          "reason": "圭表上影子与刻度真实共存",
+          "counter_association": "不冒称古籍成句"
+        },
+        "extension": {
+          "reason": "可从观测推广经验与判断研究",
+          "counter_association": "非具体算法名称"
+        },
+        "semantic_coherence": {
+          "reason": "不同层均为痕迹成为可比较信息",
+          "counter_association": "不承诺AI准确率"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C04": {
+      "candidate_id": "CT-C04",
+      "name": "未尽之问",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 5,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "完整四字名词性短语可称呼",
+          "counter_association": "文气较重"
+        },
+        "distinctiveness": {
+          "reason": "未尽与问构成持续探究姿态",
+          "counter_association": "可能像出版播客栏目"
+        },
+        "lab_fit": {
+          "reason": "认识论与研究机构身份可成立",
+          "counter_association": "技术对象不直露"
+        },
+        "grounding": {
+          "reason": "作者可错知识观点是有来源立场而非定理",
+          "counter_association": "品牌中文不是原文摘句"
+        },
+        "extension": {
+          "reason": "不限定当前架构或产品，长期问答边界广",
+          "counter_association": "不能替团队接受作者全部哲学"
+        },
+        "semantic_coherence": {
+          "reason": "从问题到解释再生问题同一叙事",
+          "counter_association": "与旧未完成叙事有接近风险需后续家族复核"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C05": {
+      "candidate_id": "CT-C05",
+      "name": "拨码",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "现成器件简称，两音节清楚",
+          "counter_association": "听写可能博码"
+        },
+        "distinctiveness": {
+          "reason": "手动动作与机器码有可感对照",
+          "counter_association": "通用器件词需建立品牌"
+        },
+        "lab_fit": {
+          "reason": "具体配置器件能成为能力切换机构角色",
+          "counter_association": "首联想工业电子"
+        },
+        "grounding": {
+          "reason": "拨码开关与输出编码有制造商依据",
+          "counter_association": "不是自动学习算法"
+        },
+        "extension": {
+          "reason": "可容纳硬软配置与研究基础能力",
+          "counter_association": "不代表模型通过拨动即升级"
+        },
+        "semantic_coherence": {
+          "reason": "拨动位置改变读出状态贯穿同一故事",
+          "counter_association": "不能承诺两状态即智能跃迁"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C06": {
+      "candidate_id": "CT-C06",
+      "name": "页脚",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "两字现成软件界面称呼好叫",
+          "counter_association": "也像普通排版指令"
+        },
+        "distinctiveness": {
+          "reason": "熟悉位置有一定反差",
+          "counter_association": "边缘配角印象强"
+        },
+        "lab_fit": {
+          "reason": "配角与文档装饰身份压过研究主体",
+          "counter_association": "难建立用户期待的Lab气质"
+        },
+        "grounding": {
+          "reason": "HTML定义直接支撑上下文作用",
+          "counter_association": "不是模型记忆原理"
+        },
+        "extension": {
+          "reason": "易锁在文档网页工具而非机构",
+          "counter_association": "需要重造故事才能超出文档"
+        },
+        "semantic_coherence": {
+          "reason": "主内容的辅助上下文角色一致",
+          "counter_association": "不能把HTML元素包装智能增强"
+        }
+      },
+      "decision": "quality_reject"
+    },
+    "CT-C07": {
+      "candidate_id": "CT-C07",
+      "name": "念头引擎",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 5,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "念头与引擎组成可称呼机构角色",
+          "counter_association": "可能像创意产品"
+        },
+        "distinctiveness": {
+          "reason": "心智与工程驱动力形成清楚画面",
+          "counter_association": "引擎组合拥挤"
+        },
+        "lab_fit": {
+          "reason": "思考到行动的技术研究身份直接",
+          "counter_association": "可能先像单一Agent工具"
+        },
+        "grounding": {
+          "reason": "目标状态差到steering动作有书籍锚点",
+          "counter_association": "念头非主观意识事实"
+        },
+        "extension": {
+          "reason": "可承载智能体和更广研究",
+          "counter_association": "业务不能被限定生成想法"
+        },
+        "semantic_coherence": {
+          "reason": "内部目标变成行动贯穿各层",
+          "counter_association": "不代表模型任意意图皆可实现"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C08": {
+      "candidate_id": "CT-C08",
+      "name": "多想一步",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "完整口语动作，无省略残句",
+          "counter_association": "带slogan感"
+        },
+        "distinctiveness": {
+          "reason": "熟悉提醒有态度和节奏",
+          "counter_association": "属于常用短语"
+        },
+        "lab_fit": {
+          "reason": "审慎判断可支持AI研究角色",
+          "counter_association": "第一眼不像机构全称"
+        },
+        "grounding": {
+          "reason": "中间推理步骤论文支持特定任务观察",
+          "counter_association": "不是越长思考必正确定理"
+        },
+        "extension": {
+          "reason": "可讲更充分判断但不局限算法",
+          "counter_association": "一步可能缩窄到推理时计算"
+        },
+        "semantic_coherence": {
+          "reason": "展开思考与判断质量关系同核",
+          "counter_association": "单次推理不等于持续学习"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C09": {
+      "candidate_id": "CT-C09",
+      "name": "解环",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "完整两字解谜动作，音节清楚",
+          "counter_association": "也像解锁工具"
+        },
+        "distinctiveness": {
+          "reason": "相互约束的环与解开的动作可记",
+          "counter_association": "解环大师游戏近似需查"
+        },
+        "lab_fit": {
+          "reason": "复杂问题的状态规划研究身份可信",
+          "counter_association": "解谜或加密首联想"
+        },
+        "grounding": {
+          "reason": "中国九连环到编码电路为实际教学关系",
+          "counter_association": "不称古人发明格雷码"
+        },
+        "extension": {
+          "reason": "可承载推理规划与复杂系统研究",
+          "counter_association": "不是所有问题皆可求解"
+        },
+        "semantic_coherence": {
+          "reason": "从约束依赖到步骤推进始终一致",
+          "counter_association": "不证明模型自动改进"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C10": {
+      "candidate_id": "CT-C10",
+      "name": "换坐标",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "完整三字动宾句可以称呼",
+          "counter_association": "像建议而非正式全称"
+        },
+        "distinctiveness": {
+          "reason": "换表示再运算的动作明确",
+          "counter_association": "坐标类词拥挤"
+        },
+        "lab_fit": {
+          "reason": "表示学习和认识方式研究身份可成立",
+          "counter_association": "可能导航测绘品牌"
+        },
+        "grounding": {
+          "reason": "同一复数两表示的运算便利关系真实",
+          "counter_association": "并非变换总让题目变简单"
+        },
+        "extension": {
+          "reason": "不同表示支持多个研究场域",
+          "counter_association": "不能当模型万能升级"
+        },
+        "semantic_coherence": {
+          "reason": "对象不变而操作改变同一内核",
+          "counter_association": "不等同旧视差的观察位移"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C11": {
+      "candidate_id": "CT-C11",
+      "name": "色序",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "total": 23,
+      "notes": {
+        "naturalness": {
+          "reason": "两个熟字可叫",
+          "counter_association": "与显示技术通用词重合"
+        },
+        "distinctiveness": {
+          "reason": "色彩与秩序有画面",
+          "counter_association": "第一词色有歧义"
+        },
+        "lab_fit": {
+          "reason": "显示设计首要身份较强，研究主体不足",
+          "counter_association": "更像色彩管理机构"
+        },
+        "grounding": {
+          "reason": "粒子排列影响光学性质有机构研究锚点",
+          "counter_association": "非AI涌现证据"
+        },
+        "extension": {
+          "reason": "延展易被限定到显示材料",
+          "counter_association": "须额外故事才脱离显示"
+        },
+        "semantic_coherence": {
+          "reason": "可见色与不可见排列同一关系",
+          "counter_association": "有序非总优于无序"
+        }
+      },
+      "decision": "quality_reject"
+    },
+    "CT-C12": {
+      "candidate_id": "CT-C12",
+      "name": "方格动物",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "两个口语名词组成可想象对象",
+          "counter_association": "像工作室而非传统公司"
+        },
+        "distinctiveness": {
+          "reason": "格子里有动物行为的反差鲜明",
+          "counter_association": "有儿童编程或玩具联想"
+        },
+        "lab_fit": {
+          "reason": "人工生命与计算行为可承载研究身份",
+          "counter_association": "需用研究语境避免儿童产品定位"
+        },
+        "grounding": {
+          "reason": "固定元胞规则形成表观运动有书籍依据",
+          "counter_association": "格子本身未平移且规则不学习"
+        },
+        "extension": {
+          "reason": "可从规则行为拓展计算研究",
+          "counter_association": "并非生物或意识研究性能承诺"
+        },
+        "semantic_coherence": {
+          "reason": "方格状态与移动图样同一科学图景",
+          "counter_association": "不把全部群体现象归为同一成长故事"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C13": {
+      "candidate_id": "CT-C13",
+      "name": "长按",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "完全日常的两字动作",
+          "counter_association": "像操作说明"
+        },
+        "distinctiveness": {
+          "reason": "持续手势有可感画面",
+          "counter_association": "长安近音品牌需查"
+        },
+        "lab_fit": {
+          "reason": "交互扩展入口可支持研究身份",
+          "counter_association": "偏交互产品"
+        },
+        "grounding": {
+          "reason": "官方文档阈值与状态真实",
+          "counter_association": "不是更大按压力"
+        },
+        "extension": {
+          "reason": "可延展人机与能力调用",
+          "counter_association": "不等于持续学习"
+        },
+        "semantic_coherence": {
+          "reason": "同一表面因交互进入更多操作",
+          "counter_association": "非所有界面同样结果"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C14": {
+      "candidate_id": "CT-C14",
+      "name": "侧音",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "两常用字可称呼",
+          "counter_association": "可能听成测音"
+        },
+        "distinctiveness": {
+          "reason": "边发声边听自己的通路可记",
+          "counter_association": "音频行业较窄"
+        },
+        "lab_fit": {
+          "reason": "人机自监测角色可支持研究",
+          "counter_association": "可能先像耳机品牌"
+        },
+        "grounding": {
+          "reason": "工程侧音反馈有官方说明",
+          "counter_association": "不同自然声波回响"
+        },
+        "extension": {
+          "reason": "辅助既有主体调整可延展",
+          "counter_association": "不是记忆或模型更新"
+        },
+        "semantic_coherence": {
+          "reason": "监听自身输出贯穿各层",
+          "counter_association": "与旧回响大主题接近需家族界定"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C15": {
+      "candidate_id": "CT-C15",
+      "name": "纸旋翼",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "total": 23,
+      "notes": {
+        "naturalness": {
+          "reason": "完整三字物件名能叫",
+          "counter_association": "像课程项目"
+        },
+        "distinctiveness": {
+          "reason": "纸与旋翼有图像",
+          "counter_association": "已有纸飞机意象邻近"
+        },
+        "lab_fit": {
+          "reason": "STEM教具身份压过研究主体",
+          "counter_association": "用户排斥过家具环保等错行业"
+        },
+        "grounding": {
+          "reason": "NASA原型与变量实验真实",
+          "counter_association": "不是自主飞行设备"
+        },
+        "extension": {
+          "reason": "难脱教学玩具领域",
+          "counter_association": "不能靠原理书挽救定位"
+        },
+        "semantic_coherence": {
+          "reason": "结构实验与运动同一关系",
+          "counter_association": "不证明先进智能"
+        }
+      },
+      "decision": "quality_reject"
+    },
+    "CT-C16": {
+      "candidate_id": "CT-C16",
+      "name": "递火",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "动宾结构自然短促",
+          "counter_association": "会联想到递烟火"
+        },
+        "distinctiveness": {
+          "reason": "传递动作与能量画面清楚",
+          "counter_association": "与传火游戏文化接近"
+        },
+        "lab_fit": {
+          "reason": "让他者获得能力的机构角色",
+          "counter_association": "需研究语境避免文化活动"
+        },
+        "grounding": {
+          "reason": "火传古文意象与创作边界清楚",
+          "counter_association": "非原文二字摘句或物理定理"
+        },
+        "extension": {
+          "reason": "不限定某产品或当前模型",
+          "counter_association": "不承诺无限增长"
+        },
+        "semantic_coherence": {
+          "reason": "载体传递与能力使能同核",
+          "counter_association": "不是古文证明任意模型增强"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C17": {
+      "candidate_id": "CT-C17",
+      "name": "添一指",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "三字动作本身自然",
+          "counter_association": "像康复手指训练"
+        },
+        "distinctiveness": {
+          "reason": "与历史添一笔构式和加一资源故事重叠",
+          "counter_association": "不应凭不同论文把添一X计新家族"
+        },
+        "lab_fit": {
+          "reason": "增强已有主体有可信研究角色",
+          "counter_association": "偏具身硬件"
+        },
+        "grounding": {
+          "reason": "第三拇指适应及权衡有真实来源",
+          "counter_association": "不是无代价即插即用"
+        },
+        "extension": {
+          "reason": "可延展能力与控制关系",
+          "counter_association": "不能外推任意模型增强"
+        },
+        "semantic_coherence": {
+          "reason": "额外资源与适应同核",
+          "counter_association": "科学新素材不抵消名称家族重复"
+        }
+      },
+      "decision": "quality_reject"
+    },
+    "CT-C18": {
+      "candidate_id": "CT-C18",
+      "name": "光的弯道",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "完整名词短语可叫",
+          "counter_association": "像书名摄影"
+        },
+        "distinctiveness": {
+          "reason": "光与弯道的反直觉可记",
+          "counter_association": "自然光意象需控重复"
+        },
+        "lab_fit": {
+          "reason": "基础探索与可见性研究身份",
+          "counter_association": "第一眼仍像光学机构"
+        },
+        "grounding": {
+          "reason": "时空曲率与观测路径有NASA源",
+          "counter_association": "非超光速或弯道更快"
+        },
+        "extension": {
+          "reason": "容纳多方向认识方法",
+          "counter_association": "不是智能放大物理证明"
+        },
+        "semantic_coherence": {
+          "reason": "环境形状改变可见性同核",
+          "counter_association": "不等同视差或简单折射"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C19": {
+      "candidate_id": "CT-C19",
+      "name": "噪声种子",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "完整四字对象易读",
+          "counter_association": "负面噪声联想"
+        },
+        "distinctiveness": {
+          "reason": "噪声与起点反差有记点",
+          "counter_association": "像模型参数"
+        },
+        "lab_fit": {
+          "reason": "生成计算提供技术身份",
+          "counter_association": "生成工具首联想"
+        },
+        "grounding": {
+          "reason": "高斯初态与反向链真实",
+          "counter_association": "seed不等于噪声"
+        },
+        "extension": {
+          "reason": "可延展生成与表示研究",
+          "counter_association": "不代表持续学习"
+        },
+        "semantic_coherence": {
+          "reason": "随机起点到结构生成同核",
+          "counter_association": "不说噪声藏全知识"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C20": {
+      "candidate_id": "CT-C20",
+      "name": "雨影",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "两字自然现象易叫",
+          "counter_association": "像诗意文旅品牌"
+        },
+        "distinctiveness": {
+          "reason": "雨与山后干燥反差可记",
+          "counter_association": "阴影字义容易误解"
+        },
+        "lab_fit": {
+          "reason": "摄影文旅生态身份较重",
+          "counter_association": "用户需科技定位"
+        },
+        "grounding": {
+          "reason": "地形降水分布真实",
+          "counter_association": "不是光学投影"
+        },
+        "extension": {
+          "reason": "难独立支撑广义AI机构",
+          "counter_association": "不能用科学真填品牌空白"
+        },
+        "semantic_coherence": {
+          "reason": "由环境作用看分布同核",
+          "counter_association": "不证明智能涌现"
+        }
+      },
+      "decision": "quality_reject"
+    },
+    "CT-C21": {
+      "candidate_id": "CT-C21",
+      "name": "海底雪",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "三熟字完整自然景象",
+          "counter_association": "像科普或文旅"
+        },
+        "distinctiveness": {
+          "reason": "海底也有雪的反差鲜明",
+          "counter_association": "海底捞近似前缀需查"
+        },
+        "lab_fit": {
+          "reason": "未知深世界与系统联系可承载研究",
+          "counter_association": "需研究语境避免海洋公司"
+        },
+        "grounding": {
+          "reason": "NOAA颗粒沉降事实明确",
+          "counter_association": "不是冰雪且包含残体"
+        },
+        "extension": {
+          "reason": "可讲微小片段支持新系统",
+          "counter_association": "不等于经验学习"
+        },
+        "semantic_coherence": {
+          "reason": "景象和物质运输同一过程",
+          "counter_association": "不能只浪漫化原物质"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C22": {
+      "candidate_id": "CT-C22",
+      "name": "一点缺陷",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "四字口语完整",
+          "counter_association": "像自嘲或质检栏目"
+        },
+        "distinctiveness": {
+          "reason": "受控缺陷的反差易记",
+          "counter_association": "负面质量意味突出"
+        },
+        "lab_fit": {
+          "reason": "字面首先传递产品缺陷而非能力机构",
+          "counter_association": "不读说明难信任技术机构"
+        },
+        "grounding": {
+          "reason": "NV功能中心源真实",
+          "counter_association": "并非凡缺陷有益"
+        },
+        "extension": {
+          "reason": "需强解释才能扭转质量印象",
+          "counter_association": "科学故事不能抵消品牌弱项"
+        },
+        "semantic_coherence": {
+          "reason": "局部差异到功能同核",
+          "counter_association": "不鼓励软件缺陷"
+        }
+      },
+      "decision": "quality_reject"
+    },
+    "CT-C23": {
+      "candidate_id": "CT-C23",
+      "name": "指南鱼",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "现存三字物件称呼好叫",
+          "counter_association": "像导航儿童知识"
+        },
+        "distinctiveness": {
+          "reason": "亲近鱼形与定向功能反差",
+          "counter_association": "指南司南近似需查"
+        },
+        "lab_fit": {
+          "reason": "知识工具可作为能力辅助研究角色",
+          "counter_association": "不用可爱掩盖定位"
+        },
+        "grounding": {
+          "reason": "中国展品说明支持材料处理定向",
+          "counter_association": "鱼是器物不是活鱼磁感应"
+        },
+        "extension": {
+          "reason": "感知与行动参考可延展",
+          "counter_association": "工具非通用智能"
+        },
+        "semantic_coherence": {
+          "reason": "形态物理处理方向同核",
+          "counter_association": "不是古代自学习"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C24": {
+      "candidate_id": "CT-C24",
+      "name": "云形尺",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "完整工具名自然",
+          "counter_association": "像文具设计软件"
+        },
+        "distinctiveness": {
+          "reason": "与历史演算尺共享尺具称呼家族",
+          "counter_association": "不以换限定词算新尺家族"
+        },
+        "lab_fit": {
+          "reason": "辅助创造的工具角色可信",
+          "counter_association": "研究身份需要业务承接"
+        },
+        "grounding": {
+          "reason": "出版方试读的真实物件",
+          "counter_association": "不是任意弯折蛇形尺"
+        },
+        "extension": {
+          "reason": "可从表达工具展开",
+          "counter_association": "测量精度不在源范围"
+        },
+        "semantic_coherence": {
+          "reason": "云形与曲线描绘真实共存",
+          "counter_association": "科学不同机制不消除名称意象重复"
+        }
+      },
+      "decision": "quality_reject"
+    },
+    "CT-C25": {
+      "candidate_id": "CT-C25",
+      "name": "抬眼",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "现成两字日常动作",
+          "counter_association": "像视觉应用"
+        },
+        "distinctiveness": {
+          "reason": "主动重新看世界的画面可记",
+          "counter_association": "可能与台研泰研近音"
+        },
+        "lab_fit": {
+          "reason": "感知与认知研究可承载机构",
+          "counter_association": "不直说全栈智能"
+        },
+        "grounding": {
+          "reason": "注视取样与转移有实读依据",
+          "counter_association": "抬眼不等于全部扫视"
+        },
+        "extension": {
+          "reason": "不限某个视觉模型功能",
+          "counter_association": "不保证看更多即更聪明"
+        },
+        "semantic_coherence": {
+          "reason": "动作与选择信息同一关系",
+          "counter_association": "不能把抬高视线当算法"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C26": {
+      "candidate_id": "CT-C26",
+      "name": "反例",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "完整两字知识词可称呼",
+          "counter_association": "反字略负面"
+        },
+        "distinctiveness": {
+          "reason": "一个小例改变全称判断可记",
+          "counter_association": "通用术语检索拥挤"
+        },
+        "lab_fit": {
+          "reason": "逻辑验证与能力边界研究身份",
+          "counter_association": "可能像测试咨询"
+        },
+        "grounding": {
+          "reason": "严格全称命题的否定见证真实",
+          "counter_association": "不能直接套概率模型"
+        },
+        "extension": {
+          "reason": "可容纳检验纠错和推理研究",
+          "counter_association": "不要求模型零失误"
+        },
+        "semantic_coherence": {
+          "reason": "从具体失败修正断言同核",
+          "counter_association": "不是为了反对别人"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C27": {
+      "candidate_id": "CT-C27",
+      "name": "纸上机器",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "四字完整物象可叫",
+          "counter_association": "像教育书名"
+        },
+        "distinctiveness": {
+          "reason": "与已提纸旋翼共享纸制机器核心意象且有纸上谈兵联想",
+          "counter_association": "不凭不同论文重复纸上机器家族"
+        },
+        "lab_fit": {
+          "reason": "符号规则有科技研究身份",
+          "counter_association": "研究身份仍需业务承接"
+        },
+        "grounding": {
+          "reason": "图灵原文抽象计算真实",
+          "counter_association": "不把抽象模型当工程实现"
+        },
+        "extension": {
+          "reason": "可覆盖计算研究多个方向",
+          "counter_association": "不是纸张本身有算力"
+        },
+        "semantic_coherence": {
+          "reason": "符号使观念有操作性同核",
+          "counter_association": "科学史真实不挽救命名重复"
+        }
+      },
+      "decision": "quality_reject"
+    },
+    "CT-C28": {
+      "candidate_id": "CT-C28",
+      "name": "鸽哨",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "两字真实生活物件好叫",
+          "counter_association": "民俗养鸽首联想"
+        },
+        "distinctiveness": {
+          "reason": "城市天空中可听的飞行画面鲜明",
+          "counter_association": "不能只是可爱动物"
+        },
+        "lab_fit": {
+          "reason": "把过程转可感信息可建立研究角色",
+          "counter_association": "需研究语境避免音乐工艺误读"
+        },
+        "grounding": {
+          "reason": "气流哨口姿态成声有手艺报道",
+          "counter_association": "不采用未核军事起源"
+        },
+        "extension": {
+          "reason": "人环境联结可容纳跨产品研究",
+          "counter_association": "不是主体因此更聪明"
+        },
+        "semantic_coherence": {
+          "reason": "器物使已有运动产生新输出同核",
+          "counter_association": "不是侧音自反馈机制"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C29": {
+      "candidate_id": "CT-C29",
+      "name": "非玩家",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "三字角色类别能称呼",
+          "counter_association": "可能理解不玩游戏的人"
+        },
+        "distinctiveness": {
+          "reason": "玩家之外的行动主体可记",
+          "counter_association": "NPC有机械呆板贬义"
+        },
+        "lab_fit": {
+          "reason": "代理行为与记忆计划有研究身份",
+          "counter_association": "游戏工作室首联想"
+        },
+        "grounding": {
+          "reason": "生成式角色论文有实际结构依据",
+          "counter_association": "逼真行为不是真自主性"
+        },
+        "extension": {
+          "reason": "不局限单一游戏软件",
+          "counter_association": "不是所有NPC都用AI"
+        },
+        "semantic_coherence": {
+          "reason": "角色身份和行动来源同核",
+          "counter_association": "不声明角色觉醒"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C30": {
+      "candidate_id": "CT-C30",
+      "name": "懒函数",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "日常性格词与熟悉程序对象成称呼",
+          "counter_association": "懒有不努力联想"
+        },
+        "distinctiveness": {
+          "reason": "需要才做有程序员幽默",
+          "counter_association": "比专业术语略轻巧"
+        },
+        "lab_fit": {
+          "reason": "计算需求策略给科技身份",
+          "counter_association": "像开发者工具"
+        },
+        "grounding": {
+          "reason": "惰性求值原理真实",
+          "counter_association": "非简单全部放慢"
+        },
+        "extension": {
+          "reason": "可研究资源与选择计算",
+          "counter_association": "惰性不总更快"
+        },
+        "semantic_coherence": {
+          "reason": "需求决定计算同核",
+          "counter_association": "不证明AI自动省算力"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C31": {
+      "candidate_id": "CT-C31",
+      "name": "有界好奇",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 5,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "定语名词结构完整",
+          "counter_association": "有界偏书面"
+        },
+        "distinctiveness": {
+          "reason": "主动探索与边界形成反差",
+          "counter_association": "可能误听限制想象"
+        },
+        "lab_fit": {
+          "reason": "探索激励与学习价值研究身份清楚",
+          "counter_association": "好奇也像科普教育"
+        },
+        "grounding": {
+          "reason": "论文失效条件支持品牌态度非同名算法",
+          "counter_association": "未提供实际数学上界"
+        },
+        "extension": {
+          "reason": "长期研究不锁功能",
+          "counter_association": "不替用户作安全开源承诺"
+        },
+        "semantic_coherence": {
+          "reason": "探索目标与有效性边界同核",
+          "counter_association": "不是已经解决noisy-TV"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-C32": {
+      "candidate_id": "CT-C32",
+      "name": "虚拟排练",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 5,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "熟悉动作和场所组成完整说法",
+          "counter_association": "像产品功能名"
+        },
+        "distinctiveness": {
+          "reason": "先试演再行动有具体过程",
+          "counter_association": "仿真和培训联想"
+        },
+        "lab_fit": {
+          "reason": "世界模型与行为学习科技身份直接",
+          "counter_association": "可能缩窄到仿真工具"
+        },
+        "grounding": {
+          "reason": "Dreamer潜空间轨迹训练真实",
+          "counter_association": "不是睡眠研究或严格离线RL"
+        },
+        "extension": {
+          "reason": "可覆盖推理控制与内部试验",
+          "counter_association": "模型错误可误导练习"
+        },
+        "semantic_coherence": {
+          "reason": "经验和模型内演练同核",
+          "counter_association": "不保证现实安全成功"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  },
+  "en_producer": {
+    "CT-E01": {
+      "candidate_id": "CT-E01",
+      "chinese_id": "CT-C01",
+      "english": "Starward Ferry",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个可分读普通词，语音无人为障碍。",
+          "counter_association": "四音节比单词品牌长。"
+        },
+        "spelling": {
+          "reason": "完整保留两个英语词，可直接口述。",
+          "counter_association": "starward可能被误听成starboard。"
+        },
+        "formation": {
+          "reason": "既有方向词加既有载体词，语法与语义完整。",
+          "counter_association": "不是科学现象正式名称。"
+        },
+        "bilingual_relation": {
+          "reason": "位置与渡运载体共同表达出发和跨越。",
+          "counter_association": "没有逐字翻译渡口。"
+        },
+        "distinctiveness": {
+          "reason": "一班驶向星辰的渡船有完整画面和研究空间。",
+          "counter_association": "可能先像科幻交通设定。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，未代替主控独立评分、A3英文使用筛查或注册核验。"
+    },
+    "CT-E02": {
+      "candidate_id": "CT-E02",
+      "chinese_id": "CT-C02",
+      "english": "Earth Replies",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两普通词，主谓节奏自然。",
+          "counter_association": "Earth的th对部分读者需练习。"
+        },
+        "spelling": {
+          "reason": "词形无变体，可从英语正常还原。",
+          "counter_association": "动词reply的第三人称单数应写replies，少数人可能误写replys。"
+        },
+        "formation": {
+          "reason": "完整主谓短语，普通语言直接表达回应。",
+          "counter_association": "拟人不是地球有意识的事实主张。"
+        },
+        "bilingual_relation": {
+          "reason": "中文回信与英文回应共享地照光返回的信息关系。",
+          "counter_association": "英文不用letter，没有字面书信物件。"
+        },
+        "distinctiveness": {
+          "reason": "有可讲的双向认识角色，不限某算法。",
+          "counter_association": "可能像科普内容品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，未代替主控独立评分、A3英文使用筛查或注册核验。"
+    },
+    "CT-E03": {
+      "candidate_id": "CT-E03",
+      "chinese_id": "CT-C03",
+      "english": "Shadow Gauge",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个熟悉音节，可直接称呼。",
+          "counter_association": "gauge末尾是j音，非g音。"
+        },
+        "spelling": {
+          "reason": "两个现成完整词，无额外造词拼写。",
+          "counter_association": "gauge第一次听写可能写错au。"
+        },
+        "formation": {
+          "reason": "影子与测量在圭表观测场景中本就相连。",
+          "counter_association": "不把本轮品牌短语冒作标准器物译名。"
+        },
+        "bilingual_relation": {
+          "reason": "中文刻度与英文测量器具共享同一观察关系。",
+          "counter_association": "英文未逐字写出刻度线。"
+        },
+        "distinctiveness": {
+          "reason": "具体观测对象承载长期研究姿态。",
+          "counter_association": "可能先像测量软件产品。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑意见，待主控独评与A3独立使用筛查。"
+    },
+    "CT-E04": {
+      "candidate_id": "CT-E04",
+      "chinese_id": "CT-C07",
+      "english": "Thoughtgear",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个完整词的两音节合成，可直接称呼。",
+          "counter_association": "thought的th与结尾t接g有普通英语辅音成本。"
+        },
+        "spelling": {
+          "reason": "保留thought与gear正常拼写，没有变造字母。",
+          "counter_association": "听写可能分成Thought Gear，应接受空格变体并查重。"
+        },
+        "formation": {
+          "reason": "心智动作与工程传动共同构成让想法行动的清楚关系。",
+          "counter_association": "不把隐喻当作者原科学术语。"
+        },
+        "bilingual_relation": {
+          "reason": "驱动力/进入运转共同讲目标到行动。",
+          "counter_association": "engine和gear不是字面对译。"
+        },
+        "distinctiveness": {
+          "reason": "整体像具行动能力的研究/技术品牌，不限特定模型。",
+          "counter_association": "可能先像智能体产品。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评及原A3英文使用筛查。"
+    },
+    "CT-E05": {
+      "candidate_id": "CT-E05",
+      "chinese_id": "CT-C08",
+      "english": "One More Thought",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个普通单音节词，节奏可稳定读。",
+          "counter_association": "最后thought有th及t发音成本。"
+        },
+        "spelling": {
+          "reason": "正常英语短语，无自造拼写。",
+          "counter_association": "需查OneMoreThought连写变体。"
+        },
+        "formation": {
+          "reason": "完整名词短语，语义可直接理解。",
+          "counter_association": "不是科学标准术语。"
+        },
+        "bilingual_relation": {
+          "reason": "一步与一个念头都表达继续展开判断。",
+          "counter_association": "不逐字保留step。"
+        },
+        "distinctiveness": {
+          "reason": "有研究态度与可持续追问角色。",
+          "counter_association": "可能像栏目或标语。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评及原A3英文使用筛查。"
+    },
+    "CT-E06": {
+      "candidate_id": "CT-E06",
+      "chinese_id": "CT-C02",
+      "english": "Returnlight",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "return与light保持完整，三音节可直接读。",
+          "counter_association": "两个词合写仍可能被读者停顿分开。"
+        },
+        "spelling": {
+          "reason": "两完整常用词，无人为字母替换。",
+          "counter_association": "需要查Return Light空格变体。"
+        },
+        "formation": {
+          "reason": "返回与光来自同一真实观测关系。",
+          "counter_association": "不声称合成词为地照光公认英语术语。"
+        },
+        "bilingual_relation": {
+          "reason": "中文拟人回信与英文承载信息的返回光共享同一故事。",
+          "counter_association": "英文不显写Earth。"
+        },
+        "distinctiveness": {
+          "reason": "有完整可见对象及双向认识的研究意味。",
+          "counter_association": "可能先像光学照明品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；待主控独评与同一A3。该中文还余1次返工。"
+    },
+    "CT-E07": {
+      "candidate_id": "CT-E07",
+      "chinese_id": "CT-C05",
+      "english": "State Dial",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通单词相接，三音节顺读。",
+          "counter_association": "dial有读成一长音节或两音节的自然变体。"
+        },
+        "spelling": {
+          "reason": "两个完整常见词，无变造。",
+          "counter_association": "需查StateDial连写及State-Dial变体。"
+        },
+        "formation": {
+          "reason": "系统状态与调节对象共享配置这一真实关系。",
+          "counter_association": "不当拨码开关标准译名。"
+        },
+        "bilingual_relation": {
+          "reason": "可见操作与机器配置状态在两边一致。",
+          "counter_association": "英文不显写code。"
+        },
+        "distinctiveness": {
+          "reason": "有可操作技术对象和能力配置的研究意味。",
+          "counter_association": "可能先像设置界面工具。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3使用筛查。"
+    },
+    "CT-E08": {
+      "candidate_id": "CT-E08",
+      "chinese_id": "CT-C03",
+      "english": "Measured Light",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两普通词，三音节自然可读。",
+          "counter_association": "measured的zh音对部分人需学习。"
+        },
+        "spelling": {
+          "reason": "原样保留正常英语单词。",
+          "counter_association": "可能需要说明过去分词d结尾。"
+        },
+        "formation": {
+          "reason": "测量与光是同一观测场景内的完整表达。",
+          "counter_association": "圭表测投影而非光强，不能把词义读成测量原理。"
+        },
+        "bilingual_relation": {
+          "reason": "影子的位置长度与光的观测来自同一器具世界。",
+          "counter_association": "英文更宽，不逐字保留刻度。"
+        },
+        "distinctiveness": {
+          "reason": "可承载以观察理解变化的长期研究机构。",
+          "counter_association": "可能先像摄影/光学品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3使用筛查。"
+    },
+    "CT-E09": {
+      "candidate_id": "CT-E09",
+      "chinese_id": "CT-C02",
+      "english": "Postmarked Earth",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个普通词可直接按词读，无怪拼音。",
+          "counter_association": "postmarked末尾辅音与Earth的th有发音成本。"
+        },
+        "spelling": {
+          "reason": "完整普通词，拼写有英语既有规范。",
+          "counter_association": "需要查PostmarkedEarth连写。"
+        },
+        "formation": {
+          "reason": "书信回信与来源标记组成一个完整场景。",
+          "counter_association": "邮戳为类比，不能声称光有邮戳。"
+        },
+        "bilingual_relation": {
+          "reason": "回信与地球来处的信息共同建立同一观测故事。",
+          "counter_association": "英文重点是来处，而非逐字回复。"
+        },
+        "distinctiveness": {
+          "reason": "完整画面有辨识，可容纳理解世界的机构身份。",
+          "counter_association": "可能像科幻/文化品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "编辑意见；待主控独评和原A3，不能以无输入或返工次数代替使用核查。"
+    },
+    "CT-E10": {
+      "candidate_id": "CT-E10",
+      "chinese_id": "CT-C07",
+      "english": "Ideas Afoot",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个正常词，节奏可稳定读。",
+          "counter_association": "五音节比短专名长。"
+        },
+        "spelling": {
+          "reason": "完整普通词，无自造字母。",
+          "counter_association": "ideas复数s需要保留。"
+        },
+        "formation": {
+          "reason": "想法与正在发生/上路同在一个自然行动场景。",
+          "counter_association": "不把品牌短语称固定习语或算法。"
+        },
+        "bilingual_relation": {
+          "reason": "驱动与上路共享想法到行动的方向。",
+          "counter_association": "不逐字保留engine。"
+        },
+        "distinctiveness": {
+          "reason": "有活动主体和行动感，可承载研究机构。",
+          "counter_association": "可能先像创意活动品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3；各中文还余1次返工额度。"
+    },
+    "CT-E11": {
+      "candidate_id": "CT-E11",
+      "chinese_id": "CT-C08",
+      "english": "One Thought Further",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个正常词，节奏可稳定读。",
+          "counter_association": "thought/further相接有普通英语辅音成本。"
+        },
+        "spelling": {
+          "reason": "全是正常单词，不剪拼音。",
+          "counter_association": "需查连写/数字1等品牌变体。"
+        },
+        "formation": {
+          "reason": "一个可理解的距离比喻，结构完整。",
+          "counter_association": "不是固定成语，thought作单位有创作成分。"
+        },
+        "bilingual_relation": {
+          "reason": "两边把继续思考表达为进一步。",
+          "counter_association": "不是逐字论文方法名。"
+        },
+        "distinctiveness": {
+          "reason": "有可长期承担的审慎认识姿态。",
+          "counter_association": "可能像标语或出版题名。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3；各中文还余1次返工额度。"
+    },
+    "CT-E12": {
+      "candidate_id": "CT-E12",
+      "chinese_id": "CT-C10",
+      "english": "Otherframe",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个完整熟悉词，三音节自然顺读。",
+          "counter_association": "other的th对部分非母语者有普通发音成本。"
+        },
+        "spelling": {
+          "reason": "两个普通词保持完整，无任意字母替换。",
+          "counter_association": "需查Other Frame空格变体。"
+        },
+        "formation": {
+          "reason": "另一框架与同对象多种表示直接相接。",
+          "counter_association": "合成品牌词不是SICP术语。"
+        },
+        "bilingual_relation": {
+          "reason": "两边保留对象不变而表示可变的核心。",
+          "counter_association": "英文frame比坐标更宽。"
+        },
+        "distinctiveness": {
+          "reason": "可作为表示/认识研究机构的整体称呼。",
+          "counter_association": "可能像设计或框架产品。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3英文使用筛查。"
+    },
+    "CT-E13": {
+      "candidate_id": "CT-E13",
+      "chinese_id": "CT-C12",
+      "english": "Gridfolk",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个短音节，读音清楚。",
+          "counter_association": "folk的l不应强行发出。"
+        },
+        "spelling": {
+          "reason": "grid和folk两个完整词可直接说明。",
+          "counter_association": "需查Grid Folk分写。"
+        },
+        "formation": {
+          "reason": "方格与其中拟人居民处于同一人工生命场景。",
+          "counter_association": "不是科学术语，居民只是品牌拟人。"
+        },
+        "bilingual_relation": {
+          "reason": "格中动物/居民共享离散状态的活动形象。",
+          "counter_association": "英文不逐字写animal。"
+        },
+        "distinctiveness": {
+          "reason": "有可记住的计算世界及活动主角。",
+          "counter_association": "可能先像游戏或儿童编程。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3英文使用筛查。"
+    },
+    "CT-E14": {
+      "candidate_id": "CT-E14",
+      "chinese_id": "CT-C10",
+      "english": "Another Way In",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通词组可自然顺读，重音在另一条路径。",
+          "counter_association": "约五音节与三个词长于短专名。"
+        },
+        "spelling": {
+          "reason": "无变造的正常英语词。",
+          "counter_association": "需查连写AnotherWayIn等完整变体。"
+        },
+        "formation": {
+          "reason": "另一切入口是可直接理解的完整场景。",
+          "counter_association": "入口是本轮品牌比喻，不是原书术语。"
+        },
+        "bilingual_relation": {
+          "reason": "两边都保留同对象可用不同表示/切入方式。",
+          "counter_association": "英文不逐字显写坐标。"
+        },
+        "distinctiveness": {
+          "reason": "可容纳跨感知推理行动的研究探索身份。",
+          "counter_association": "可能像设计/创意机构。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑意见；待主控独评与原A3，中文还余1次英文返工。"
+    },
+    "CT-E15": {
+      "candidate_id": "CT-E15",
+      "chinese_id": "CT-C03",
+      "english": "Noontally",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个常见词的三音节合成，读法清楚。",
+          "counter_association": "首次重音可能在tally，需固定。"
+        },
+        "spelling": {
+          "reason": "noon/tally完整，不删字母。",
+          "counter_association": "须查Noon Tally分写。"
+        },
+        "formation": {
+          "reason": "正午观测与留下记录同属圭表知识实践。",
+          "counter_association": "合成词非标准仪器名。"
+        },
+        "bilingual_relation": {
+          "reason": "图像与实践分别承载同一观测关系。",
+          "counter_association": "英文不直接写影子。"
+        },
+        "distinctiveness": {
+          "reason": "具体实践可承载经验到认识的研究身份。",
+          "counter_association": "可能先像时间管理/记账工具。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；待主控独评与原A3，返工额度按中文独立记录。"
+    },
+    "CT-E16": {
+      "candidate_id": "CT-E16",
+      "chinese_id": "CT-C08",
+      "english": "Reasonstride",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个完整词合成，三音节可直接读。",
+          "counter_association": "reason末尾n接stride辅音略密。"
+        },
+        "spelling": {
+          "reason": "reason/stride普通词原样保留。",
+          "counter_association": "需查Reason Stride分写。"
+        },
+        "formation": {
+          "reason": "推理与迈步是分步展开的可理解比喻。",
+          "counter_association": "不是既有科学术语。"
+        },
+        "bilingual_relation": {
+          "reason": "两语共享判断继续展开的动作。",
+          "counter_association": "不能据名字主张每一步改善。"
+        },
+        "distinctiveness": {
+          "reason": "整体可作为认识/推理研究机构称呼。",
+          "counter_association": "可能像推理框架产品。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；待主控独评与原A3，返工额度按中文独立记录。"
+    },
+    "CT-E17": {
+      "candidate_id": "CT-E17",
+      "chinese_id": "CT-C12",
+      "english": "Rulefauna",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "rule与fauna保持正常读音，三音节顺读。",
+          "counter_association": "fauna对少数读者需说明。"
+        },
+        "spelling": {
+          "reason": "两个完整英语词可分段记。",
+          "counter_association": "fauna可能被听作fawna，须看一次拼写。"
+        },
+        "formation": {
+          "reason": "规则与拟动物整体行为有原理中的真实联系。",
+          "counter_association": "fauna为拟人，不宣称真实生物。"
+        },
+        "bilingual_relation": {
+          "reason": "格子图样与规则形成的活动共同构成同一计算世界。",
+          "counter_association": "英文未显写网格。"
+        },
+        "distinctiveness": {
+          "reason": "有具体人工生命形象与规则研究的身份。",
+          "counter_association": "可能像生物技术或游戏品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；待主控独评与原A3，返工额度按中文独立记录。"
+    },
+    "CT-E18": {
+      "candidate_id": "CT-E18",
+      "chinese_id": "CT-C13",
+      "english": "Hold to Open",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通动作短语，四音节自然顺读。",
+          "counter_association": "完整称呼长于单词品牌。"
+        },
+        "spelling": {
+          "reason": "三个正常英语词，无变造字母。",
+          "counter_association": "需查HoldToOpen连写。"
+        },
+        "formation": {
+          "reason": "持续保持接触与打开上下文内容同一真实场景。",
+          "counter_association": "open不等于任何界面都相同，更不代表开源立场。"
+        },
+        "bilingual_relation": {
+          "reason": "动作与动作带来展开分工明确。",
+          "counter_association": "不逐字保留long或press。"
+        },
+        "distinctiveness": {
+          "reason": "可称呼且具交互记忆，但独立机构专名感中等。",
+          "counter_association": "像操作提示语。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3。未宣称任何使用或注册可用。"
+    },
+    "CT-E19": {
+      "candidate_id": "CT-E19",
+      "chinese_id": "CT-C14",
+      "english": "Ownsignal",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "own与signal正常读音三音节。",
+          "counter_association": "词中n接s需要自然连读。"
+        },
+        "spelling": {
+          "reason": "完整英语词拼接，无随意字母。",
+          "counter_association": "需查Own Signal分词变体。"
+        },
+        "formation": {
+          "reason": "自身信号与工程自监听关系直接相接。",
+          "counter_association": "不是工程标准术语。"
+        },
+        "bilingual_relation": {
+          "reason": "侧音通路与自身输出共同承载同一反馈故事。",
+          "counter_association": "英文较宽，不只音频。"
+        },
+        "distinctiveness": {
+          "reason": "可容纳感知反馈与系统调整研究。",
+          "counter_association": "可能先像个人数据/音频产品。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3。未宣称任何使用或注册可用。"
+    },
+    "CT-E20": {
+      "candidate_id": "CT-E20",
+      "chinese_id": "CT-C16",
+      "english": "Emberhand",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个普通词，三个音节可顺读。",
+          "counter_association": "hand的尾辅音需保留。"
+        },
+        "spelling": {
+          "reason": "ember/hand完整保留，可直接介绍。",
+          "counter_association": "需查Ember Hand分写。"
+        },
+        "formation": {
+          "reason": "火种与传递/帮助之手构成同一角色画面。",
+          "counter_association": "手是本轮品牌形象，不假称原文直接描写。"
+        },
+        "bilingual_relation": {
+          "reason": "递火动作与传递者共同承接同一文化意象。",
+          "counter_association": "英文不是递火字面对译。"
+        },
+        "distinctiveness": {
+          "reason": "有可记的传递者身份和增强他者角色。",
+          "counter_association": "可能像幻想/工艺品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑意见；待主控独评与原A3使用筛查，不表示可注册。"
+    },
+    "CT-E21": {
+      "candidate_id": "CT-E21",
+      "chinese_id": "CT-C18",
+      "english": "Rayturn",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个短音节，声音清楚。",
+          "counter_association": "turn有正常地域卷舌差异。"
+        },
+        "spelling": {
+          "reason": "ray/turn完整词，无伪字母。",
+          "counter_association": "需查Ray Turn空格变体。"
+        },
+        "formation": {
+          "reason": "光线与转向属于原自然现象的同一真实关系。",
+          "counter_association": "品牌新词非标准物理术语。"
+        },
+        "bilingual_relation": {
+          "reason": "路径与转向共同构成光弯曲的画面。",
+          "counter_association": "不宣称光有主动意图。"
+        },
+        "distinctiveness": {
+          "reason": "短而可叫，有探索观察的研究身份。",
+          "counter_association": "可能像光学或渲染产品。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑意见；待主控独评与原A3使用筛查，不表示可注册。"
+    },
+    "CT-E22": {
+      "candidate_id": "CT-E22",
+      "chinese_id": "CT-C19",
+      "english": "Noisebloom",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个正常词的短音节合成，清楚可读。",
+          "counter_association": "noise的z接b需自然连读。"
+        },
+        "spelling": {
+          "reason": "noise/bloom完整词形，不变造。",
+          "counter_association": "需查Noise Bloom空格变体。"
+        },
+        "formation": {
+          "reason": "种子到展开的同一品牌比喻承接随机起点生成过程。",
+          "counter_association": "bloom是比喻不是物理机制。"
+        },
+        "bilingual_relation": {
+          "reason": "中文起点与英文形成可见结构共同讲同一生成关系。",
+          "counter_association": "不把种子等同噪声。"
+        },
+        "distinctiveness": {
+          "reason": "有反差画面与生成研究身份。",
+          "counter_association": "可能像艺术/音乐工具。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3完整英文公开使用筛查。"
+    },
+    "CT-E23": {
+      "candidate_id": "CT-E23",
+      "chinese_id": "CT-C21",
+      "english": "Snow Below",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个日常词三音节，可直接顺读。",
+          "counter_association": "below重音在后。"
+        },
+        "spelling": {
+          "reason": "正常英语拼写，不改字母。",
+          "counter_association": "需查SnowBelow连写。"
+        },
+        "formation": {
+          "reason": "深处的雪是一个完整而有惊讶感的真实景象改写。",
+          "counter_association": "非冰雪，不能掩盖物质成分。"
+        },
+        "bilingual_relation": {
+          "reason": "两语共享向通常看不见世界的雪景。",
+          "counter_association": "英文不显写海。"
+        },
+        "distinctiveness": {
+          "reason": "可称呼且有未知世界身份。",
+          "counter_association": "可能像文化/旅行品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3完整英文公开使用筛查。"
+    },
+    "CT-E24": {
+      "candidate_id": "CT-E24",
+      "chinese_id": "CT-C23",
+      "english": "Compassfish",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "compass/fish正常读音三音节。",
+          "counter_association": "compass首元音应按英语读。"
+        },
+        "spelling": {
+          "reason": "两个普通词原样完整，易介绍。",
+          "counter_association": "compass双s与分写需固定。"
+        },
+        "formation": {
+          "reason": "功能与鱼形本来同在中国器具，不是任意词拼接。",
+          "counter_association": "本合成词不声称标准英语译名。"
+        },
+        "bilingual_relation": {
+          "reason": "共享指南鱼完整对象和文化来处。",
+          "counter_association": "不继承Compass单词任何可用性。"
+        },
+        "distinctiveness": {
+          "reason": "有主角、功能与科技史，可以长期研究品牌承接。",
+          "counter_association": "可能像导航或儿童知识产品。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3完整英文公开使用筛查。"
+    },
+    "CT-E25": {
+      "candidate_id": "CT-E25",
+      "chinese_id": "CT-C14",
+      "english": "Selfhear",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "self/hear两短音节，清楚可读。",
+          "counter_association": "self尾f后需保留hear的h。"
+        },
+        "spelling": {
+          "reason": "完整前缀及动词，无怪字母。",
+          "counter_association": "须查Self Hear与Self-hear。"
+        },
+        "formation": {
+          "reason": "正常反身前缀与听觉动作有明确语义。",
+          "counter_association": "是品牌新词，不替代普通句子hear oneself。"
+        },
+        "bilingual_relation": {
+          "reason": "监听通路与自身输出的感知作用相接。",
+          "counter_association": "英文更宽，不只音频硬件。"
+        },
+        "distinctiveness": {
+          "reason": "短而可叫，容纳自监听/调节研究。",
+          "counter_association": "可能先像听觉或个人工具。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3。"
+    },
+    "CT-E26": {
+      "candidate_id": "CT-E26",
+      "chinese_id": "CT-C25",
+      "english": "Gaze Anew",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个正常词，三个音节自然顺读。",
+          "counter_association": "anew的重音在new。"
+        },
+        "spelling": {
+          "reason": "词形正常，不变造。",
+          "counter_association": "首次听写可能误分a new。"
+        },
+        "formation": {
+          "reason": "重新注视的完整动作，语义直接。",
+          "counter_association": "非眼动标准术语。"
+        },
+        "bilingual_relation": {
+          "reason": "举目与重新选择注视共享主动获取信息。",
+          "counter_association": "不逐字保留raise。"
+        },
+        "distinctiveness": {
+          "reason": "可作为感知/认知研究称呼。",
+          "counter_association": "可能像摄影/眼镜品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3。"
+    },
+    "CT-E27": {
+      "candidate_id": "CT-E27",
+      "chinese_id": "CT-C26",
+      "english": "Single Witness",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个普通词四音节，直接可读。",
+          "counter_association": "witness末尾s需正常保留。"
+        },
+        "spelling": {
+          "reason": "正常词形，无自造字母。",
+          "counter_association": "须查SingleWitness合写。"
+        },
+        "formation": {
+          "reason": "单个具体见证与全称断言边界有真实逻辑关系。",
+          "counter_association": "不是MIT原术语翻译。"
+        },
+        "bilingual_relation": {
+          "reason": "两边共享反例作为否定见证的作用。",
+          "counter_association": "英文法律义比学术义更直观。"
+        },
+        "distinctiveness": {
+          "reason": "有鲜明验证与认识边界的研究姿态。",
+          "counter_association": "可能像法律/调查品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑意见，待主控独评与原A3英文使用筛查。"
+    },
+    "CT-E28": {
+      "candidate_id": "CT-E28",
+      "chinese_id": "CT-C28",
+      "english": "Pigeon Whistle",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通词四音节，自然可读。",
+          "counter_association": "whistle的t不读。"
+        },
+        "spelling": {
+          "reason": "两个正常英语词可直接记。",
+          "counter_association": "pigeon/whistle各有常见听写拼错，需看一次。"
+        },
+        "formation": {
+          "reason": "功能器具与承载它的鸽子本来同处一对象。",
+          "counter_association": "不称品牌短语为新科学术语。"
+        },
+        "bilingual_relation": {
+          "reason": "共享完整中国器物与生活来处。",
+          "counter_association": "不是靠英文暗示AI机制。"
+        },
+        "distinctiveness": {
+          "reason": "有声音、主角和明确文化对象可记。",
+          "counter_association": "可能像民俗/音乐品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑意见，待主控独评与原A3英文使用筛查。"
+    },
+    "CT-E29": {
+      "candidate_id": "CT-E29",
+      "chinese_id": "CT-C16",
+      "english": "Pass the Ember",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通动作词组，四音节直接可读。",
+          "counter_association": "the在元音前通常读thee，也有弱读变体。"
+        },
+        "spelling": {
+          "reason": "三个完整普通词，无变形。",
+          "counter_association": "须查PassTheEmber连写。"
+        },
+        "formation": {
+          "reason": "传递火种的完整行动场景。",
+          "counter_association": "不是原典英文翻译引用。"
+        },
+        "bilingual_relation": {
+          "reason": "两语都保留火在载体之间继续相传。",
+          "counter_association": "不把文化意象当性能保证。"
+        },
+        "distinctiveness": {
+          "reason": "有可记行动和角色，但独立专名感中等。",
+          "counter_association": "可能像文化活动/标语。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；待主控独评和原A3，两个中文各还余1次返工。"
+    },
+    "CT-E30": {
+      "candidate_id": "CT-E30",
+      "chinese_id": "CT-C18",
+      "english": "Sky Detour",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "sky与detour正常三音节。",
+          "counter_association": "detour有地域重音/元音差异。"
+        },
+        "spelling": {
+          "reason": "两个完整词，无造字母。",
+          "counter_association": "须查SkyDetour与Sky-Detour。"
+        },
+        "formation": {
+          "reason": "天空与绕行路径组成同一完整场景。",
+          "counter_association": "detour为比喻，不是物理术语。"
+        },
+        "bilingual_relation": {
+          "reason": "光路与天空路径相接，锚点仍是透镜几何。",
+          "counter_association": "英文不直接显示light。"
+        },
+        "distinctiveness": {
+          "reason": "有未知路径与观察世界的机构想象。",
+          "counter_association": "可能像航旅/科幻品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；待主控独评和原A3，两个中文各还余1次返工。"
+    },
+    "CT-E31": {
+      "candidate_id": "CT-E31",
+      "chinese_id": "CT-C19",
+      "english": "Drawn from Chance",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个普通单音节词，容易顺读。",
+          "counter_association": "chance有英美元音差异。"
+        },
+        "spelling": {
+          "reason": "完整正常英语词，无变造。",
+          "counter_association": "须查DrawnFromChance连写。"
+        },
+        "formation": {
+          "reason": "抽样/绘制与随机起点构成可理解场景。",
+          "counter_association": "draw双义为品牌层，不能替代训练过程。"
+        },
+        "bilingual_relation": {
+          "reason": "起点与形成结果是同一生成过程不同侧面。",
+          "counter_association": "英文不直写noise或seed。"
+        },
+        "distinctiveness": {
+          "reason": "有可见反差与生成研究故事。",
+          "counter_association": "可能像艺术题名。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3，两个中文各还余1次返工。"
+    },
+    "CT-E32": {
+      "candidate_id": "CT-E32",
+      "chinese_id": "CT-C23",
+      "english": "Southward Fish",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个正常词，三个音节清楚。",
+          "counter_association": "southward有th/w连读成本。"
+        },
+        "spelling": {
+          "reason": "完整普通词，无微改。",
+          "counter_association": "需查SouthwardFish连写。"
+        },
+        "formation": {
+          "reason": "方向与鱼形本就同处同一器具。",
+          "counter_association": "不是唯一标准译名声明。"
+        },
+        "bilingual_relation": {
+          "reason": "两边保留指南鱼完整角色。",
+          "counter_association": "指向不等于鱼实际南行。"
+        },
+        "distinctiveness": {
+          "reason": "有可记主角和中国科技来处。",
+          "counter_association": "可能像导航/户外品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3，两个中文各还余1次返工。"
+    },
+    "CT-E33": {
+      "candidate_id": "CT-E33",
+      "chinese_id": "CT-C29",
+      "english": "Worldside",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个正常词合成，两音节清楚。",
+          "counter_association": "world结尾辅音接side略密。"
+        },
+        "spelling": {
+          "reason": "两个完整词，不变造字母。",
+          "counter_association": "需查World Side分词。"
+        },
+        "formation": {
+          "reason": "角色与世界两侧构成可理解机构位置。",
+          "counter_association": "新合成词非原论文术语。"
+        },
+        "bilingual_relation": {
+          "reason": "角色身份与在世界中行动的一侧共同承接交互。",
+          "counter_association": "不逐字译nonplayer。"
+        },
+        "distinctiveness": {
+          "reason": "可容纳世界交互与行动主体的长期研究。",
+          "counter_association": "可能像游戏或世界构建品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3；不因名词或术语真实推断注册/使用可用。"
+    },
+    "CT-E34": {
+      "candidate_id": "CT-E34",
+      "chinese_id": "CT-C30",
+      "english": "Call by Need",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个常见单音节词，直接可读。",
+          "counter_association": "call有正常英美元音差异。"
+        },
+        "spelling": {
+          "reason": "完整正常词组，圈内标准拼写。",
+          "counter_association": "需查连写和连字符术语形式。"
+        },
+        "formation": {
+          "reason": "真实术语且脚注给出严格适用范围。",
+          "counter_association": "仅是带记忆化的惰性策略，不能全称泛化。"
+        },
+        "bilingual_relation": {
+          "reason": "同一机制的宽称呼与具体策略分工明确。",
+          "counter_association": "英文范围更窄。"
+        },
+        "distinctiveness": {
+          "reason": "机构称呼可成立，术语识别强而独立性中等。",
+          "counter_association": "可能先像编程文章或库名。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断，待主控独评与原A3；不因名词或术语真实推断注册/使用可用。"
+    },
+    "CT-E35": {
+      "candidate_id": "CT-E35",
+      "chinese_id": "CT-C31",
+      "english": "Measured Wonder",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个正常词，四音节可直接读。",
+          "counter_association": "measured有zh音，wonder重音在前。"
+        },
+        "spelling": {
+          "reason": "正常词形，无拼音变造。",
+          "counter_association": "需查MeasuredWonder连写。"
+        },
+        "formation": {
+          "reason": "审慎与好奇在一个完整态度里相接。",
+          "counter_association": "measured非数学上界声明。"
+        },
+        "bilingual_relation": {
+          "reason": "适用边界与审慎探索共同回应同一研究问题。",
+          "counter_association": "英文不字面对译bounded。"
+        },
+        "distinctiveness": {
+          "reason": "可容纳长期面对未知的研究立场。",
+          "counter_association": "可能像科学传播/艺术机构。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；待主控独评与原A3公开使用筛查，不表示注册可用。"
+    },
+    "CT-E36": {
+      "candidate_id": "CT-E36",
+      "chinese_id": "CT-C32",
+      "english": "Latent Stage",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "formation": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个正常词，三个音节可按词读。",
+          "counter_association": "latent结尾t与stage的s需连读。"
+        },
+        "spelling": {
+          "reason": "完整词形，无改字母。",
+          "counter_association": "stage/state近形必须固定，不是错误拼写。"
+        },
+        "formation": {
+          "reason": "潜空间与排练舞台具有真实过程与日常实践的交叉。",
+          "counter_association": "stage为比喻，不是论文算法名。"
+        },
+        "bilingual_relation": {
+          "reason": "实践与实践发生的内部舞台分工明确。",
+          "counter_association": "英文不直写virtual/rehearsal。"
+        },
+        "distinctiveness": {
+          "reason": "有世界模型与行动学习的研究身份。",
+          "counter_association": "可能像生成艺术或虚拟制作工具。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；待主控独评与原A3公开使用筛查，不表示注册可用。"
+    },
+    "CT-E37": {
+      "candidate_id": "CT-E37",
+      "chinese_id": "CT-C28",
+      "english": "Airsung",
+      "reviewer": "producer",
+      "reviewer_id": "/root/live_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "formation": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "air/sung两个短音节，读法清楚。",
+          "counter_association": "sung的元音需按正常英语读而非松字音。"
+        },
+        "spelling": {
+          "reason": "两个完整英语词形相接，没有无意义字母。",
+          "counter_association": "首次可能分成Air Sung，须查变体。"
+        },
+        "formation": {
+          "reason": "空气奏出声音构成可理解被动图像。",
+          "counter_association": "是新合成品牌词，不冒称英语固定词。"
+        },
+        "bilingual_relation": {
+          "reason": "器具与气流转声的作用来自同一真实风物。",
+          "counter_association": "英文不直写pigeon。"
+        },
+        "distinctiveness": {
+          "reason": "短且有可感声音与转化作用的角色。",
+          "counter_association": "可能像音频/通风品牌。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "note": "主观编辑判断；待主控独评与原A3，该中文尚余1次返工。"
+    }
+  },
+  "en_coordinator": {
+    "CT-E01": {
+      "english_id": "CT-E01",
+      "candidate_id": "CT-C01",
+      "name": "Starward Ferry",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个熟悉英语词可直接读",
+          "counter_association": "四音节略长"
+        },
+        "spelling": {
+          "reason": "完整单词，无不规则删字母",
+          "counter_association": "需要保留空格或统一品牌写法"
+        },
+        "grounding": {
+          "reason": "starward方向加ferry渡运普通语义透明",
+          "counter_association": "不是新的科学术语"
+        },
+        "bilingual_relation": {
+          "reason": "渡口位置与渡船载体共享出发连接关系",
+          "counter_association": "先想到科幻运输品牌"
+        },
+        "distinctiveness": {
+          "reason": "全短语可区别但两部分均常见",
+          "counter_association": "Starward现有使用须整体近似查重"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-E02": {
+      "english_id": "CT-E02",
+      "candidate_id": "CT-C02",
+      "name": "Earth Replies",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "完整主谓短句可自然读",
+          "counter_association": "Earth有th成本"
+        },
+        "spelling": {
+          "reason": "两个基础英语词拼写稳定",
+          "counter_association": "Replies须保留第三人称单数词形，不是名词复数"
+        },
+        "grounding": {
+          "reason": "Earth主语与reply变化有正常语法",
+          "counter_association": "不是地球真有意识"
+        },
+        "bilingual_relation": {
+          "reason": "两语同一世界回应及返回信息关系",
+          "counter_association": "先像科普节目"
+        },
+        "distinctiveness": {
+          "reason": "拟人回应有完整声音和图像",
+          "counter_association": "常用语句需要建立品牌身份"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-E03": {
+      "english_id": "CT-E03",
+      "candidate_id": "CT-C03",
+      "name": "Shadow Gauge",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "shadow与gauge均正常英语可连续读",
+          "counter_association": "可能先像测量设备"
+        },
+        "spelling": {
+          "reason": "完整保留两个普通词",
+          "counter_association": "gauge不完全按发音拼写"
+        },
+        "grounding": {
+          "reason": "影子与测量器具的既有义清楚真实",
+          "counter_association": "不是圭表正式术语名"
+        },
+        "bilingual_relation": {
+          "reason": "共享圭表的投影测量关系，非伪装标准英译",
+          "counter_association": "不意味着AI计量已实现"
+        },
+        "distinctiveness": {
+          "reason": "整体具一件可观测变化器具的身份",
+          "counter_association": "工业测量而非研究机构联想"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-E04": {
+      "english_id": "CT-E04",
+      "candidate_id": "CT-C07",
+      "name": "Thoughtgear",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "thought与gear两个普通词读法稳定",
+          "counter_association": "th及辅音群有成本"
+        },
+        "spelling": {
+          "reason": "完整词无伪造字母或缩写",
+          "counter_association": "合写/分写需固定"
+        },
+        "grounding": {
+          "reason": "思考与传动装置提供清楚工程比喻",
+          "counter_association": "不把in gear短语偷换成gear精确定义"
+        },
+        "bilingual_relation": {
+          "reason": "引擎驱动与齿轮传递同样让目标进入行动",
+          "counter_association": "不称引擎和齿轮同一器件"
+        },
+        "distinctiveness": {
+          "reason": "整体形象具研究工具或机构称呼感",
+          "counter_association": "思维工具或Agent产品联想"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-E05": {
+      "english_id": "CT-E05",
+      "candidate_id": "CT-C08",
+      "name": "One More Thought",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通英语完整表达可顺读",
+          "counter_association": "thought有th门槛"
+        },
+        "spelling": {
+          "reason": "三个完整基础词可正确书写",
+          "counter_association": "三词略长"
+        },
+        "grounding": {
+          "reason": "再一念头语义与正常语言完全相符",
+          "counter_association": "不是论文术语逐字摘取"
+        },
+        "bilingual_relation": {
+          "reason": "多一步与再一念头共享审慎展开姿态",
+          "counter_association": "不能保证更多步骤更正确"
+        },
+        "distinctiveness": {
+          "reason": "完整短语可品牌化但为常用表达",
+          "counter_association": "像专栏或slogan需机构研究承接"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-E06": {
+      "english_id": "CT-E06",
+      "candidate_id": "CT-C02",
+      "name": "Returnlight",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "return与light为熟悉音节，连接自然",
+          "counter_association": "重音需固定在turn"
+        },
+        "spelling": {
+          "reason": "两个完整词合写，无任意拼写变化",
+          "counter_association": "首次可能分写Return Light"
+        },
+        "grounding": {
+          "reason": "返回与光本来在地照光光路中同一关系",
+          "counter_association": "不是地照光的标准词典名"
+        },
+        "bilingual_relation": {
+          "reason": "中文信息回信与英文承载信息的返回光同主题",
+          "counter_association": "英文没直接写地球"
+        },
+        "distinctiveness": {
+          "reason": "组合具体可想象，整体可称呼",
+          "counter_association": "可能先像照明或影像品牌"
+        }
+      },
+      "decision": "quality_pass"
+    },
+    "CT-E07": {
+      "candidate_id": "CT-C05",
+      "name": "State Dial",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个普通词三音节可顺读",
+          "counter_association": "dial可一或两音节"
+        },
+        "spelling": {
+          "reason": "完整词无假缩写",
+          "counter_association": "合分写要统一"
+        },
+        "grounding": {
+          "reason": "状态与可调器具关系直接",
+          "counter_association": "非拨码器标准译名"
+        },
+        "bilingual_relation": {
+          "reason": "两语共同连操作与配置",
+          "counter_association": "手动设定不等于自学习"
+        },
+        "distinctiveness": {
+          "reason": "可见控制对象能成机构称呼",
+          "counter_association": "像配置工具"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E07"
+    },
+    "CT-E08": {
+      "candidate_id": "CT-C03",
+      "name": "Measured Light",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "正常英语词形可读",
+          "counter_association": "measured末尾辅音有成本"
+        },
+        "spelling": {
+          "reason": "完整词拼写可还原",
+          "counter_association": "可有英美发音差异"
+        },
+        "grounding": {
+          "reason": "测量光影的角色比喻已披露",
+          "counter_association": "圭表量投影而非光强"
+        },
+        "bilingual_relation": {
+          "reason": "两语共享观察获得量度主题",
+          "counter_association": "不逐字保留影子和刻度"
+        },
+        "distinctiveness": {
+          "reason": "有克制精确的完整形象",
+          "counter_association": "先像摄影或光学品牌"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E08"
+    },
+    "CT-E09": {
+      "candidate_id": "CT-C02",
+      "name": "Postmarked Earth",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通词构成可读书信画面",
+          "counter_association": "postmarked结尾辅音密"
+        },
+        "spelling": {
+          "reason": "词形完整无任意拼写",
+          "counter_association": "两个词较长"
+        },
+        "grounding": {
+          "reason": "邮戳来处为清楚品牌比喻",
+          "counter_association": "光没有真实邮戳"
+        },
+        "bilingual_relation": {
+          "reason": "回信与来源信息共享光路",
+          "counter_association": "不是论文里的物理术语"
+        },
+        "distinctiveness": {
+          "reason": "完整科幻书信意象可记",
+          "counter_association": "像出版或邮政文化品牌"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E09"
+    },
+    "CT-E10": {
+      "candidate_id": "CT-C07",
+      "name": "Ideas Afoot",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "正常英语词组可以直接称呼",
+          "counter_association": "共五音节较长"
+        },
+        "spelling": {
+          "reason": "两个完整词读写稳定",
+          "counter_association": "afoot需少量词汇认知"
+        },
+        "grounding": {
+          "reason": "afoot双义有明确词典来源",
+          "counter_association": "不是作者算法名"
+        },
+        "bilingual_relation": {
+          "reason": "念头进入行动与引擎驱动同角色",
+          "counter_association": "不表示模型有意识"
+        },
+        "distinctiveness": {
+          "reason": "行动双关有轻快记点",
+          "counter_association": "像创意机构或活动"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E10"
+    },
+    "CT-E11": {
+      "candidate_id": "CT-C08",
+      "name": "One Thought Further",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "熟悉词汇组成可读表达",
+          "counter_association": "thought及further有th成本"
+        },
+        "spelling": {
+          "reason": "三个完整词无造假拼写",
+          "counter_association": "三词较长"
+        },
+        "grounding": {
+          "reason": "距离框架比喻明确为本轮创作",
+          "counter_association": "不是既有固定成语"
+        },
+        "bilingual_relation": {
+          "reason": "多一步与多一个念头同姿态",
+          "counter_association": "不表示多想必正确"
+        },
+        "distinctiveness": {
+          "reason": "完整短语有研究态度",
+          "counter_association": "像标题或slogan"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E11"
+    },
+    "CT-E12": {
+      "candidate_id": "CT-C10",
+      "name": "Otherframe",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "other与frame正常音节可读",
+          "counter_association": "other有th门槛"
+        },
+        "spelling": {
+          "reason": "两个词完整合写",
+          "counter_association": "需查Other Frame分词"
+        },
+        "grounding": {
+          "reason": "另一框架承接真实多表示关系",
+          "counter_association": "不是SICP原术语"
+        },
+        "bilingual_relation": {
+          "reason": "两语均同一对象换表示",
+          "counter_association": "不能保证计算复杂度下降"
+        },
+        "distinctiveness": {
+          "reason": "组合可长期承载研究身份",
+          "counter_association": "先像设计或框架软件"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E12"
+    },
+    "CT-E13": {
+      "candidate_id": "CT-C12",
+      "name": "Gridfolk",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "两音节短且顺读",
+          "counter_association": "folk的l不发音"
+        },
+        "spelling": {
+          "reason": "完整词易拼写",
+          "counter_association": "需查分合写"
+        },
+        "grounding": {
+          "reason": "格网与拟人居民关系透明",
+          "counter_association": "不是正式人工生命术语"
+        },
+        "bilingual_relation": {
+          "reason": "两语均离散格子中的行为主角",
+          "counter_association": "不称规则图案有意识"
+        },
+        "distinctiveness": {
+          "reason": "可见小世界有整体专名感",
+          "counter_association": "像独立游戏或儿童编程"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E13"
+    },
+    "CT-E14": {
+      "candidate_id": "CT-C10",
+      "name": "Another Way In",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通表达可直接读",
+          "counter_association": "约五音节较长"
+        },
+        "spelling": {
+          "reason": "三个完整词正常拼写",
+          "counter_association": "需固定全短语"
+        },
+        "grounding": {
+          "reason": "入口为明确品牌比喻非数学事实",
+          "counter_association": "不是SICP术语"
+        },
+        "bilingual_relation": {
+          "reason": "同对象不同表示与不同切入同姿态",
+          "counter_association": "不能把表示换成实际物理通道"
+        },
+        "distinctiveness": {
+          "reason": "完整表达有态度但常见",
+          "counter_association": "像顾问或栏目"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E14"
+    },
+    "CT-E15": {
+      "candidate_id": "CT-C03",
+      "name": "Noontally",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个熟悉音节简短好叫",
+          "counter_association": "需固定首音重读"
+        },
+        "spelling": {
+          "reason": "noon与tally完整保留",
+          "counter_association": "可能被分写"
+        },
+        "grounding": {
+          "reason": "正午观测与记录同一实践关系",
+          "counter_association": "不是圭表标准译名"
+        },
+        "bilingual_relation": {
+          "reason": "光影画面与正午记录互补",
+          "counter_association": "不把影长测量简化为只有计数"
+        },
+        "distinctiveness": {
+          "reason": "整体有可记物件和时间轮廓",
+          "counter_association": "像时间或记账工具"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E15"
+    },
+    "CT-E16": {
+      "candidate_id": "CT-C08",
+      "name": "Reasonstride",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个普通词可分读",
+          "counter_association": "辅音n接str有成本"
+        },
+        "spelling": {
+          "reason": "完整词形无随意改字母",
+          "counter_association": "词较长"
+        },
+        "grounding": {
+          "reason": "推理展开与迈步为清楚比喻",
+          "counter_association": "不是已发表算法术语"
+        },
+        "bilingual_relation": {
+          "reason": "中文多想一步与英文同核",
+          "counter_association": "多步骤不必然更准"
+        },
+        "distinctiveness": {
+          "reason": "整体可像研究机构或框架",
+          "counter_association": "可能像单一推理工具"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E16"
+    },
+    "CT-E17": {
+      "candidate_id": "CT-C12",
+      "name": "Rulefauna",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个音节整体可称呼",
+          "counter_association": "fauna对少数人陌生"
+        },
+        "spelling": {
+          "reason": "rule与fauna正常词形",
+          "counter_association": "需查分合写"
+        },
+        "grounding": {
+          "reason": "固定规则与拟动物群有真实关系",
+          "counter_association": "不把拟人当生物事实"
+        },
+        "bilingual_relation": {
+          "reason": "中文图像与英文形成方式互补",
+          "counter_association": "标准规则并不学习"
+        },
+        "distinctiveness": {
+          "reason": "整体有一个人工生命世界身份",
+          "counter_association": "像生物或独立游戏品牌"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E17"
+    },
+    "CT-E18": {
+      "candidate_id": "CT-C13",
+      "name": "Hold to Open",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通动作短语可直接读",
+          "counter_association": "四音节略长"
+        },
+        "spelling": {
+          "reason": "完整基础词无变形",
+          "counter_association": "需固定全短语"
+        },
+        "grounding": {
+          "reason": "持续接触展开内容为真实场景",
+          "counter_association": "open不代表开源立场"
+        },
+        "bilingual_relation": {
+          "reason": "中文动作与英文用途关系互补",
+          "counter_association": "不保证按住模型即增强"
+        },
+        "distinctiveness": {
+          "reason": "好记但属于常见提示句",
+          "counter_association": "机构辨识弱于专名"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E18"
+    },
+    "CT-E19": {
+      "candidate_id": "CT-C14",
+      "name": "Ownsignal",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "三个熟悉音节顺口",
+          "counter_association": "首遍可能分词"
+        },
+        "spelling": {
+          "reason": "两个正常词完整相接",
+          "counter_association": "需查Own Signal"
+        },
+        "grounding": {
+          "reason": "自身输出重新被监听关系清楚",
+          "counter_association": "非工程标准术语"
+        },
+        "bilingual_relation": {
+          "reason": "工程侧音与英文自身信号同核",
+          "counter_association": "own也可指数据所有权"
+        },
+        "distinctiveness": {
+          "reason": "整体有通信计算身份",
+          "counter_association": "可能先像音频工具"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E19"
+    },
+    "CT-E20": {
+      "candidate_id": "CT-C16",
+      "name": "Emberhand",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通词合成三个可读音节",
+          "counter_association": "h衔接需顺读"
+        },
+        "spelling": {
+          "reason": "ember和hand完整保留",
+          "counter_association": "需查分合写"
+        },
+        "grounding": {
+          "reason": "火种与帮助递交之手关系透明",
+          "counter_association": "不是原文英语译词"
+        },
+        "bilingual_relation": {
+          "reason": "中文动作与英文承担动作的角色同核",
+          "counter_association": "余烬非无限能量"
+        },
+        "distinctiveness": {
+          "reason": "有鲜明可称呼主角",
+          "counter_association": "像幻想角色或工艺品牌"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E20"
+    },
+    "CT-E21": {
+      "candidate_id": "CT-C18",
+      "name": "Rayturn",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个单音节顺口",
+          "counter_association": "turn的r有口音差异"
+        },
+        "spelling": {
+          "reason": "完整词短而易拼",
+          "counter_association": "需查Ray Turn分写"
+        },
+        "grounding": {
+          "reason": "光路转向真实关系清楚",
+          "counter_association": "不是引力透镜标准术语"
+        },
+        "bilingual_relation": {
+          "reason": "两语同一传播路径变化",
+          "counter_association": "不是光有主动意图"
+        },
+        "distinctiveness": {
+          "reason": "整体简洁有技术画面",
+          "counter_association": "可能像光追工具"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E21"
+    },
+    "CT-E22": {
+      "candidate_id": "CT-C19",
+      "name": "Noisebloom",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "noise和bloom两普通音节可读",
+          "counter_association": "z接bl普通辅音有成本"
+        },
+        "spelling": {
+          "reason": "完整词形没有怪拼法",
+          "counter_association": "需查Noise Bloom"
+        },
+        "grounding": {
+          "reason": "随机初态生成结构支持生长比喻",
+          "counter_association": "bloom非真实花或天然知识"
+        },
+        "bilingual_relation": {
+          "reason": "种子与展开同一生成意象",
+          "counter_association": "seed不等于噪声本体"
+        },
+        "distinctiveness": {
+          "reason": "噪声反差有整体记忆",
+          "counter_association": "像音乐或生成艺术工具"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E22"
+    },
+    "CT-E23": {
+      "candidate_id": "CT-C21",
+      "name": "Snow Below",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通三音节句景可直接读",
+          "counter_association": "可能需解释海底非冰雪"
+        },
+        "spelling": {
+          "reason": "两个基础完整词",
+          "counter_association": "需查合写"
+        },
+        "grounding": {
+          "reason": "下方世界的雪是明确景象比喻",
+          "counter_association": "不是海洋雪科学同义词"
+        },
+        "bilingual_relation": {
+          "reason": "中文海底与英文深处画面相接",
+          "counter_association": "不是颗粒运输等于学习"
+        },
+        "distinctiveness": {
+          "reason": "有意外空间和自然画面",
+          "counter_association": "像科普旅行品牌"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E23"
+    },
+    "CT-E24": {
+      "candidate_id": "CT-C23",
+      "name": "Compassfish",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "compass和fish三音节可读",
+          "counter_association": "compass重音需固定"
+        },
+        "spelling": {
+          "reason": "两个完整词正常合写",
+          "counter_association": "需查Compass Fish"
+        },
+        "grounding": {
+          "reason": "功能与鱼形原本属于同一器物",
+          "counter_association": "不是活鱼磁感"
+        },
+        "bilingual_relation": {
+          "reason": "两语共享中国定向知识工具",
+          "counter_association": "不冒称标准古代英语名称"
+        },
+        "distinctiveness": {
+          "reason": "有可亲近的技术主角",
+          "counter_association": "导航或儿童品牌近邻多"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E24"
+    },
+    "CT-E25": {
+      "candidate_id": "CT-C14",
+      "name": "Selfhear",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 23,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个熟悉语素可读",
+          "counter_association": "self接h需连读"
+        },
+        "spelling": {
+          "reason": "self与hear完整保留",
+          "counter_association": "需查Self Hear分写"
+        },
+        "grounding": {
+          "reason": "反身听觉与自身输出关系真实",
+          "counter_association": "不是hear oneself标准替代句式"
+        },
+        "bilingual_relation": {
+          "reason": "工程通路与主体作用两侧互补",
+          "counter_association": "非自我意识或持续学习证明"
+        },
+        "distinctiveness": {
+          "reason": "整体短有技术工具身份",
+          "counter_association": "也像个人发展品牌"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E25"
+    },
+    "CT-E26": {
+      "candidate_id": "CT-C25",
+      "name": "Gaze Anew",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "正常三音节表达顺口",
+          "counter_association": "anew稍有文气"
+        },
+        "spelling": {
+          "reason": "两个完整英语词可拼",
+          "counter_association": "需查合写"
+        },
+        "grounding": {
+          "reason": "重新注视为清楚自然作用",
+          "counter_association": "不等同所有扫视"
+        },
+        "bilingual_relation": {
+          "reason": "抬眼与选择信息同姿态",
+          "counter_association": "不保证看更多即聪明"
+        },
+        "distinctiveness": {
+          "reason": "轻巧动作可作机构称呼",
+          "counter_association": "像摄影或眼镜品牌"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E26"
+    },
+    "CT-E27": {
+      "candidate_id": "CT-C26",
+      "name": "Single Witness",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个普通词可稳定称呼",
+          "counter_association": "四音节略长"
+        },
+        "spelling": {
+          "reason": "完整词无造假拼写",
+          "counter_association": "witness有双s"
+        },
+        "grounding": {
+          "reason": "具体见证对全称断言作用清楚",
+          "counter_association": "不是数学书品牌原词"
+        },
+        "bilingual_relation": {
+          "reason": "中文知识词与英文实例角色同核",
+          "counter_association": "不能套成一失误否定概率模型"
+        },
+        "distinctiveness": {
+          "reason": "有一个小实例挑战大断言的记点",
+          "counter_association": "像法律调查品牌"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E27"
+    },
+    "CT-E28": {
+      "candidate_id": "CT-C28",
+      "name": "Pigeon Whistle",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 4,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通器物词能自然读",
+          "counter_association": "四音节比单词长"
+        },
+        "spelling": {
+          "reason": "正常拼写但有静音字母",
+          "counter_association": "pigeon和whistle首次听写需确认"
+        },
+        "grounding": {
+          "reason": "中国真实物件与飞行气流关系",
+          "counter_association": "不是鸽子自己的叫声"
+        },
+        "bilingual_relation": {
+          "reason": "两语同一器物不生硬绕译",
+          "counter_association": "不说有声即有智能"
+        },
+        "distinctiveness": {
+          "reason": "完整物象可建立机构角色",
+          "counter_association": "普通商品类别需分品牌"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E28"
+    },
+    "CT-E29": {
+      "candidate_id": "CT-C16",
+      "name": "Pass the Ember",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通动词短语顺口",
+          "counter_association": "可能像活动口号"
+        },
+        "spelling": {
+          "reason": "拼写常见",
+          "counter_association": "三个词较长"
+        },
+        "grounding": {
+          "reason": "火传场景有据但属于新表达",
+          "counter_association": "ember偏余烬"
+        },
+        "bilingual_relation": {
+          "reason": "递火与传递火种对应",
+          "counter_association": "不能承诺无限增长"
+        },
+        "distinctiveness": {
+          "reason": "完整行动画面可称呼",
+          "counter_association": "文化活动联想"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E29"
+    },
+    "CT-E30": {
+      "candidate_id": "CT-C18",
+      "name": "Sky Detour",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个常用词自然",
+          "counter_association": "旅行联想"
+        },
+        "spelling": {
+          "reason": "字形易读",
+          "counter_association": "普通词可能已用"
+        },
+        "grounding": {
+          "reason": "天空中光路弯曲是真实锚点",
+          "counter_association": "不是科学标准术语"
+        },
+        "bilingual_relation": {
+          "reason": "天空与光的弯道共享路径画面",
+          "counter_association": "英文未直接说光"
+        },
+        "distinctiveness": {
+          "reason": "偏航画面有辨识度",
+          "counter_association": "航旅户外联想"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E30"
+    },
+    "CT-E31": {
+      "candidate_id": "CT-C19",
+      "name": "Drawn from Chance",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "日常短语读音顺畅",
+          "counter_association": "艺术题名"
+        },
+        "spelling": {
+          "reason": "常用词拼写",
+          "counter_association": "较长"
+        },
+        "grounding": {
+          "reason": "抽样绘制双义有过程支撑",
+          "counter_association": "随机不代替学习"
+        },
+        "bilingual_relation": {
+          "reason": "噪声起点与生成过程相接",
+          "counter_association": "不是种子逐字翻译"
+        },
+        "distinctiveness": {
+          "reason": "短语画面成立",
+          "counter_association": "像作品名"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E31"
+    },
+    "CT-E32": {
+      "candidate_id": "CT-C23",
+      "name": "Southward Fish",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "正常词组但th连接有成本",
+          "counter_association": "户外气质"
+        },
+        "spelling": {
+          "reason": "单词规则",
+          "counter_association": "方向词较长"
+        },
+        "grounding": {
+          "reason": "鱼形指南器有真实出处",
+          "counter_association": "不是活鱼感磁"
+        },
+        "bilingual_relation": {
+          "reason": "保留鱼和南向功能",
+          "counter_association": "不是唯一标准英译"
+        },
+        "distinctiveness": {
+          "reason": "意象有中国科技史来源",
+          "counter_association": "民俗品牌联想"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E32"
+    },
+    "CT-E33": {
+      "candidate_id": "CT-C29",
+      "name": "Worldside",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "完整world和side可顺读",
+          "counter_association": "world尾辅音稍密"
+        },
+        "spelling": {
+          "reason": "完整普通词融合无拼音变形",
+          "counter_association": "普通词组合可能已用"
+        },
+        "grounding": {
+          "reason": "世界中行动角色有事实锚点",
+          "counter_association": "不是论文术语"
+        },
+        "bilingual_relation": {
+          "reason": "非玩家与世界这一侧共享视角",
+          "counter_association": "非玩家并不等于没有人参与"
+        },
+        "distinctiveness": {
+          "reason": "有世界构建画面",
+          "counter_association": "游戏品牌联想"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E33"
+    },
+    "CT-E34": {
+      "candidate_id": "CT-C30",
+      "name": "Call by Need",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "短常用词自然",
+          "counter_association": "可能像服务用语"
+        },
+        "spelling": {
+          "reason": "标准术语拼写",
+          "counter_association": "连字符形式需搜"
+        },
+        "grounding": {
+          "reason": "有真实求值策略原文",
+          "counter_association": "不等于全部惰性求值"
+        },
+        "bilingual_relation": {
+          "reason": "是懒函数的一种具体实现",
+          "counter_association": "英文比中文窄"
+        },
+        "distinctiveness": {
+          "reason": "圈内有概念认同",
+          "counter_association": "通用术语独特性有限"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E34"
+    },
+    "CT-E35": {
+      "candidate_id": "CT-C31",
+      "name": "Measured Wonder",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "正常词组可读",
+          "counter_association": "measured尾辅音稍密"
+        },
+        "spelling": {
+          "reason": "常用完整单词",
+          "counter_association": "词组可能已作题名"
+        },
+        "grounding": {
+          "reason": "好奇激励限制有论文支持",
+          "counter_association": "不是已发表算法"
+        },
+        "bilingual_relation": {
+          "reason": "审慎好奇与有界共享研究态度",
+          "counter_association": "不是数学量化界"
+        },
+        "distinctiveness": {
+          "reason": "态度明确但专名感中等",
+          "counter_association": "科学传播或艺术联想"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E35"
+    },
+    "CT-E36": {
+      "candidate_id": "CT-C32",
+      "name": "Latent Stage",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "圈内常见词读音清楚",
+          "counter_association": "圈外需理解latent"
+        },
+        "spelling": {
+          "reason": "完整单词",
+          "counter_association": "需区分latent state"
+        },
+        "grounding": {
+          "reason": "潜空间加排练舞台同一过程",
+          "counter_association": "stage不是论文术语"
+        },
+        "bilingual_relation": {
+          "reason": "中文实践和英文场所互补",
+          "counter_association": "模型模拟有误差"
+        },
+        "distinctiveness": {
+          "reason": "技术和舞台两世界自然相遇",
+          "counter_association": "生成艺术联想"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E36"
+    },
+    "CT-E37": {
+      "candidate_id": "CT-C28",
+      "name": "Airsung",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "air和sung顺口两音节",
+          "counter_association": "音频品牌联想"
+        },
+        "spelling": {
+          "reason": "两个完整语素字形清楚",
+          "counter_association": "可能与air-song近似"
+        },
+        "grounding": {
+          "reason": "空气转声有器具作用支持",
+          "counter_association": "air sung是品牌拟人非标准器物名"
+        },
+        "bilingual_relation": {
+          "reason": "中文器物与英文作用共同成画面",
+          "counter_association": "英文不直接指鸽"
+        },
+        "distinctiveness": {
+          "reason": "短新词能称呼",
+          "counter_association": "音乐通风身份风险"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E37"
+    }
+  }
+}

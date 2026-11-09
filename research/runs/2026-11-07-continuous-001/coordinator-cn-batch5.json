@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-07T21:24:03.691203+08:00",
+  "independence": "Read producer preview batch5 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C15",
+      "name": "同位素",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 3,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "三字科学名词自然好读",
+          "counter_association": "常被误当全放射性"
+        },
+        "distinctiveness": {
+          "reason": "身份与差别有鲜明反差",
+          "counter_association": "普通术语独占性需查"
+        },
+        "lab_fit": {
+          "reason": "具有直接科学研究身份",
+          "counter_association": "首听核医化不是通用AI"
+        },
+        "grounding": {
+          "reason": "同质子不同中子及示踪有来源",
+          "counter_association": "不能忽略动力学同位素效应"
+        },
+        "extension": {
+          "reason": "能谈经历标记但化学绑定强",
+          "counter_association": "超出化学需品牌长期赋义"
+        },
+        "semantic_coherence": {
+          "reason": "身份与可追溯差异同一对象",
+          "counter_association": "不等于模型身份可无损迁移"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

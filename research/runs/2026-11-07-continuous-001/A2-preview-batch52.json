@@ -1,0 +1,93 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T12:35:23.111324+08:00",
+  "candidates": [
+    {
+      "id": "C1-C62",
+      "name": "接招",
+      "pinyin": "jiē zhāo",
+      "material_id": "C1-M76",
+      "material_ids": [
+        "C1-M76"
+      ],
+      "family_id": "C1-BF-taking-up-another-action-without-erasing-its-premise",
+      "plan_direction_id": "C1-D-S5",
+      "case_ids": [
+        "B027",
+        "B037"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P4",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Keith Johnstone, Impro: Improvisation and the Theatre, Spontaneity chapter",
+          "url": "https://users.iit.demokritos.gr/~k.palaiologos/thymeli/pdf_files/Johnstone,%20Keith%20(1981),%20Impro_%20Improvisation%20and%20the%20Theatre,%20London_Methuen%20Drama.pdf",
+          "source_type": "book_author_text_university_hosted_copy",
+          "book_id": "Johnstone-Impro-1979-1981",
+          "published_at": "1979原硬皮/1981平装，所见版权页另列1989重印；不是近期新闻",
+          "access": "body",
+          "reading_scope": "selected_four_scanned_spreads_not_whole_chapter",
+          "reading_location": "web实际读书目/版权L1–76；后find三次超时。curl实际下载后fitz实读PDF物理46–49页（印刷92–99），包括Working Someone、Blocking and Accepting及场景对话。未目读图/观看演出/参与训练，未通读全章或全书。",
+          "read_at": "2026-11-09T12:35:23.111324+08:00",
+          "local_path": "/tmp/a2-johnstone-impro.pdf",
+          "sha256": "78e76f719b44f6ef6e9dec50c77800a7ab537e7d3c148ab0b5695705e5fd92cc",
+          "boundary": "作者的戏剧训练观察、例子与解释，不是控制实验或所有情境必须接受他人要求的普遍规则。书中accept指继续情境前提，不等于口头说Yes；不把拒绝现实有害要求说成错误。"
+        },
+        {
+          "title": "The Second City: Improv 1 Online",
+          "url": "https://www.secondcity.com/classes/virtual/improv/improv-1-online-vir",
+          "source_type": "practitioner_training_program",
+          "access": "body",
+          "reading_location": "web实际读L144–174概念与完整课程介绍；页面未示发文日期，课表2027不是新闻发布日期。",
+          "published_at": null,
+          "read_at": "2026-11-09T12:35:23.111324+08:00",
+          "boundary": "训练机构课程自述，只作并行实践语境，不当课程有效性实验、原著章节或近90日新闻。"
+        }
+      ],
+      "source_urls": [
+        "https://users.iit.demokritos.gr/~k.palaiologos/thymeli/pdf_files/Johnstone,%20Keith%20(1981),%20Impro_%20Improvisation%20and%20the%20Theatre,%20London_Methuen%20Drama.pdf",
+        "https://www.secondcity.com/classes/virtual/improv/improv-1-online-vir"
+      ],
+      "formation": "选择现成中文接招作为回应者的完整动作称呼：这里的招是对方已经给出的行动，接是在承认该行动所成条件后继续回应。不是从英文逐字翻译、原书中文原词或本轮首造；不把接当接口、招当招才各编好寓意。",
+      "relation_sentence": "不是一味同意，而是在回应时保留对方已经建立、双方可以继续行动的条件。",
+      "condensation_path": "伙伴已做出的动作/设定→另一方接住其前提并作出下一步→接招；动作有承接与回应，并非一味点头。",
+      "meaning": "让别人的行动在我们这里继续发生。",
+      "crossing": "戏剧角色可能对抗，但演员仍使对方的创造有后续；品牌借这一能回应、能接手的参与者身份，不把现实冲突都包装成合作。",
+      "layers": [
+        "熟悉的迎招、应对画面，短而有动作主体感",
+        "在回应里保留对方行动所成条件，既不抹掉输入也非照单全收",
+        "可容纳交互智能/行动研究，不把公司锁为写作工具或预定脚本执行器"
+      ],
+      "material_feature_retained": "保留来自他者的行动与承接回应这一成对关系，以及承接不等于口头同意的区别。",
+      "material_feature_lost": "省去现场训练规则和具体戏剧情境；名字有武术/应战本义联想，不能假称原书研究武术，也不完整呈现前提保留。",
+      "why_name_not_generic": "完整熟悉动作可自然成为有行动能力的主体称呼，不是接加某个美好名词；其第二层区别在回应如何保住后续可能，而非泛称变强。",
+      "shortcoming": "武术、竞技游戏、营销应战或单功能对话App首感；也可能像命令别人来挑战。若只像游戏/话术培训，不因原著有名或来源真实而补Lab分。",
+      "science_boundary": "作者的戏剧训练观察、例子与解释，不是控制实验或所有情境必须接受他人要求的普遍规则。书中accept指继续情境前提，不等于口头说Yes；不把拒绝现实有害要求说成错误。 接招是本轮品牌再选择，非书中中文术语。AI类比只是品牌角色，不证明模型具人格、情境理解已实现或无需服从用户边界。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "实际读旧2026-11-06 M07爵士与C13临场集：其核心为既有技能在现场产生表达、反馈积累，故本包不选无脚本/即兴生成当新族。新关系限于接手伙伴已经建立的情境前提与后续行动：哪怕人物口头反对，仍可保留前提；不同于单人现场出新。旧C03应手为手套形变传感/工具回应，不是两位参与者守住共同前提；C44构境为改变情境使问题重新成形，本项守住已给前提继续共同行动；千手稿为模块贡献/整合，不是现场一方接手另一方行为。家族计数仍待主控实质核，不因换了戏剧书就算新。 本次全runs名称及文本扫描接招无命中；内部无脚本/即兴生成因旧爵士族不正式选择。没有市场查询，不继承其他名查重。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ],
+      "a1_relay_refs": [
+        "RR04-2",
+        "RR04-3"
+      ],
+      "oral_test": [
+        "我们是接招，做人工智能研究。",
+        "接招今天发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened"
+    }
+  ],
+  "scope": "只交一个实际成形角色称呼，不为三案配额补弱稿；原同族C60/C61不复活。"
+}

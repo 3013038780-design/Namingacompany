@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-09T04:56:05.135635+08:00",
+  "independence": "Read producer preview batch44 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C59",
+      "name": "原星",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 3,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 23,
+      "notes": {
+        "naturalness": {
+          "reason": "两个常见字可顺口作为称呼",
+          "counter_association": "不是现成类别名第一次需解释"
+        },
+        "distinctiveness": {
+          "reason": "早期星体有基础画面但缩后类别辨别不够",
+          "counter_association": "与元星圆星同音且原加星易成泛科技称呼记点不足"
+        },
+        "lab_fit": {
+          "reason": "宇宙对象可承载空间与基础研究语境",
+          "counter_association": "航天科普或游戏项目首感强"
+        },
+        "grounding": {
+          "reason": "由原恒星短化有实际对象依据且没有拆字吉祥义",
+          "counter_association": "短称丢正式对象边界不能以长背景挽回辨识"
+        },
+        "extension": {
+          "reason": "可跨不同研究而非一个功能按钮",
+          "counter_association": "不应只剩泛成长愿景"
+        },
+        "semantic_coherence": {
+          "reason": "早期状态与天体仍围绕同一对象",
+          "counter_association": "不代表早期星都无核反应或必成同一路径"
+        }
+      },
+      "decision": "quality_reject"
+    }
+  ]
+}

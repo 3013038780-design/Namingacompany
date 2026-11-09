@@ -1,0 +1,57 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "completed_at": "2026-11-09T05:02:38.310431+08:00",
+  "candidate_id": "C1-C59",
+  "current_name": "原恒星",
+  "version": 2,
+  "rework_attempt": 1,
+  "clarification_type": "name_specific_source_boundary_correction_not_new_name_or_score",
+  "error_acknowledgement": "原角色复制候选对象时漏改science_boundary，把对原星简称正确的旧声明带入原恒星，造成当前名称范围错误。此处另档明确纠正，不能以formation里已说明完整词来掩盖该字段矛盾。",
+  "affected_original_fields": [
+    {
+      "ref": {
+        "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch45.json",
+        "sha256": "8ae0a410b52854878dc9a2325e33b035496ea7b0e9d740ed8c2980168e0d4de6"
+      },
+      "json_pointer": "/candidates/0/science_boundary"
+    },
+    {
+      "ref": {
+        "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch45.json",
+        "sha256": "f76e6763d3c157c095d0c3a8d903af72e73e3e7f7cd03911f5139adc458c1277"
+      },
+      "json_pointer": "/candidates/0/science_boundary"
+    }
+  ],
+  "original_stale_statement": "原星仅是本轮品牌凝练，不声称正式天文学类别、原文用词、全球首造或所有形成中的星都会按同一路径成主序星。",
+  "historical_name_boundary": {
+    "name": "原星",
+    "candidate_ref": {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch44.json",
+      "sha256": "84a4b07766f3f00b136604b41676d7b7fa9230ca080bf64057df316cbb25f2bd"
+    },
+    "statement": "原星仅是本轮品牌凝练，不声称正式天文学类别、原文用词、全球首造或所有形成中的星都会按同一路径成主序星。",
+    "status": "historical_statement_remains_valid_for_that_brand_condensation_only"
+  },
+  "adopted_science_boundary": "原恒星是所读中国科学院正文已有的完整天文学对象名称，本稿将该既有名称再选作品牌，不声称这个科学名称由本轮创造或已核最早商业使用。未核该词最初汉译史；NASA的一般初期科普与CAS特定大质量系统的观测建模范围保持分开，不对所有原恒星在所有时刻断言零核反应，不说每个团块必然形成同一种星或都按同一路径进入主序阶段。原论文全文和图像未读，CAS图注的AI示意图不当真实观测照片；天体形成不构成AI必然进步的证据。",
+  "actual_source_check": {
+    "url": "https://www.cas.cn/syky/202606/t20260609_5112114.shtml",
+    "read_at": "2026-11-09T05:02:38.310431+08:00",
+    "location": "再次实际open正文L386–399；L386和388–391直接使用原恒星，L399图注标AI生成。",
+    "finding": "完整中文科学名称本就在所读原文，不是此次短化造词。",
+    "boundary": "只核该表述与具体观测/图注范围，没有看图片、打开论文、核初译史或做名称使用/注册查询。"
+  },
+  "unchanged": [
+    "原星历史自拒与原分",
+    "原恒星当前名字/版本/家族/材料",
+    "两份已有数值质量判断",
+    "M73原实际阅读范围与源文日期",
+    "旧稿旧SHA及原返工计数"
+  ],
+  "new_material_count": 0,
+  "new_chinese_primary_id_count": 0,
+  "new_family_count": 0,
+  "new_surface_revision_count": 0,
+  "new_score_count": 0,
+  "name_usage_queries_performed": false
+}

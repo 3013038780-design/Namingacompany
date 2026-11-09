@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-08T10:57:12.143236+08:00",
+  "independence": "Read producer preview batch21 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C24",
+      "name": "Fresh Witness",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "普通三音节词组自然可称呼",
+          "counter_association": "语气有报道或法庭感"
+        },
+        "spelling": {
+          "reason": "两个常用词标准拼法",
+          "counter_association": "fresh快速口音可能听成flesh"
+        },
+        "grounding": {
+          "reason": "新数据作为新证据的角色转用成立",
+          "counter_association": "不是报告正式术语或真人人格"
+        },
+        "bilingual_relation": {
+          "reason": "中文再检验与新证据主题相连",
+          "counter_association": "名称不独自表示同问题新数据研究"
+        },
+        "distinctiveness": {
+          "reason": "整体角色画面可叫出但只达独立辨识下限",
+          "counter_association": "已与旧Single Witness共享见证角色及形容词加Witness外壳，家族门另行否决"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E21"
+    }
+  ]
+}

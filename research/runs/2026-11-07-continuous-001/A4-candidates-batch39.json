@@ -1,0 +1,79 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-09T00:35:43.895282+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch31.json",
+      "sha256": "4c076a6cf8abe2d5a81b895f4bd37d0fd297397aab8e580dd91e7a1afdb42eb9"
+    },
+    {
+      "path": "A2-quality-batch31.json",
+      "sha256": "b0e80e9736ce16c1be72516f5cfb40b1ee077127c60a0a50ca649d1ccaa81c9b"
+    },
+    {
+      "path": "materials-extension29.json",
+      "sha256": "1865bfd97cd5b171d432fa351de6b724e6ab253c6cbe188082e3c38765bb461d"
+    },
+    {
+      "path": "coordinator-cn-batch31.json",
+      "sha256": "4c9760f15c0370e21108d3f4fc2e9ed2726222678377ca83862c746e6d7033f6"
+    },
+    {
+      "path": "coordinator-family-review-batch31.json",
+      "sha256": "79e24923eba9adb07a08f32ad24671d2eabc21f5104d657d3b8b9055c00bdd38"
+    },
+    {
+      "path": "A3-cn-batch33.json",
+      "sha256": "c52519eca6ea430ea230ddf0ebb4bf02cd91a9eee2bb44328b079d0990211573"
+    },
+    {
+      "path": "A3-cn-batch33.md",
+      "sha256": "6ea00c322de2995bcd6d75c83a256233a5ed196fc2a37b9ccd5c644cbd69ad47"
+    },
+    {
+      "path": "A3-cn-batch33-receipt.json",
+      "sha256": "5a2dd54f29cf0a96b2e867782cd093e017d68e6d8f5eb12caf59a289ac185da3"
+    },
+    {
+      "path": "continuations/2026-11-08T161934Z/root-cn33-review.json",
+      "sha256": "aefe508444d9bc031250d8e4698d5cce08358963628996bf4f693e566e2c86dc"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E41",
+      "chinese_id": "C1-C50",
+      "chinese": "陆行鱼",
+      "english": "Shorefin",
+      "family_id": "C1-BF-terrestrial-fish-as-cross-medium-actor",
+      "material_id": "C1-M62",
+      "suggested_pronunciation": "建议 SHORE-fin，/ˈʃɔːrˌfɪn/，两个音节；按shore与fin完整读，不假称新合写词已有公认读法。",
+      "type": "shore + fin完整语素的生命意象称呼，非物种正式名",
+      "formation": "shore取水边陆地，fin取鱼鳍，组成在岸边仍能活动的带鳍主角。两者并非海岸远大与鱼鳍灵动各讲寓意：原生物在潮间带活动，胸鳍参与其特有移动，环境与身体结构在同一实际场景相遇。Shorefin是本案合写拟称，没给词根删字母，也不拿fin金融缩写或shore支撑动词义追加另一故事。",
+      "bilingual_relation": "中文呈现整条鱼在陆上行动；英文把水边陆地与仍属于鱼的鳍放在同一个主角里。两边都来自同一生物有条件跨水陆活动，英文没有硬译walking fish或宣称新物种。鳍只凸显运动，呼吸仍依赖所读鳃室与皮肤等条件，名字不说单靠鳍即可离水生存。",
+      "meaning": "活动的边界，可以与支持行动的条件一起被重新认识。Lab可借此研究主体如何在不同环境中行动，不把岸上等同更高级、成功或智能跃迁。",
+      "shortcoming": "可能像钓鱼水产、冲浪用品、沿海金融或游戏生物；shore与sure近听，fin也常见于金融品牌，首次需要确认拆分。英文少了中文明确的行走动作，未读故事时可能只是海边的鱼，不能靠科普真实补科技身份。",
+      "boundary": "原对象为Periophthalmodon schlosseri，陆行鱼与Shorefin均非官方物种命名；源所述胸鳍运动不是人类步态。不是训练后长器官、所有鱼可离水或任意环境生存，更无智力高低/模型持续成长证明。中文游戏怪物、水产/钓鱼、陆行鸟联想及登记未清照留，英文未做使用查询。",
+      "source_urls": [
+        "https://biodiversitysg.nparks.gov.sg/our-biodiversity/marine-fishes/giant-mudskipper/",
+        "https://www.merriam-webster.com/dictionary/shore",
+        "https://www.merriam-webster.com/dictionary/fin"
+      ],
+      "read_scope": "本人本次实际web读NParks19–48，重点34/45/48呼吸支持、潮间带生境与胸鳍运动；文头更新2026-05-31与全站脚注区分。未看图、外链研究或野外观察。另实际读shore31–60水边陆地义，fin31–42水生动物运动部位义，金融等仅反联想。中文游戏消歧仅据本次实际读A3/root固定报告，不冒本人新测试游戏。",
+      "rework_attempt": 0,
+      "remaining_reworks": 2,
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "excluded_upstream": [
+    {
+      "chinese_id": "C1-C51",
+      "chinese": "斑马线",
+      "eligible_english_inputs": 0,
+      "actual_english_creation": 0,
+      "reason": "原A3九查询后可读第三方深圳市斑马线科技有限公司同核心使用，原root接受；不是仅道路通名或斑马App异名。第三方非本次官方存续/9与42核准，不配英文救回。"
+    }
+  ],
+  "usage_screening_performed": false
+}

@@ -1,0 +1,170 @@
+{
+  "reviewed_at": "2026-11-07T16:38:35.441152+08:00",
+  "independence": "Read A2-preview-batch2.md before producer numeric file.",
+  "reviews": [
+    {
+      "candidate_id": "LD-C05",
+      "name": "比特群岛",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "notes": {
+        "naturalness": {
+          "reason": "四字可完整称呼，节奏均衡",
+          "counter_association": "比特常见"
+        },
+        "distinctiveness": {
+          "reason": "数字与群岛画面相接",
+          "counter_association": "群岛已有众多跨行业词用"
+        },
+        "lab_fit": {
+          "reason": "并行探索能支撑计算研究机构",
+          "counter_association": "可能先想到区块链"
+        },
+        "grounding": {
+          "reason": "岛屿模型有实际迁移设计",
+          "counter_association": "比特不指必须二进制编码"
+        },
+        "extension": {
+          "reason": "多模型多路径可长期展开",
+          "counter_association": "不能承诺演化总提升"
+        },
+        "semantic_coherence": {
+          "reason": "独立探索与交换同一组织关系",
+          "counter_association": "不能仅靠地理想象证明算法"
+        }
+      },
+      "total": 25,
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "LD-C06",
+      "name": "下一无穷",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 3,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "notes": {
+        "naturalness": {
+          "reason": "下一直接修饰无穷有省略残句感",
+          "counter_association": "可能误以为少一个字"
+        },
+        "distinctiveness": {
+          "reason": "不同尺度的无穷有反直觉记忆",
+          "counter_association": "下一与无穷都常见"
+        },
+        "lab_fit": {
+          "reason": "数学研究气质明确",
+          "counter_association": "泛无限口号风险"
+        },
+        "grounding": {
+          "reason": "集合论定理可支持层级概念",
+          "counter_association": "幂集不是必为紧邻后继基数"
+        },
+        "extension": {
+          "reason": "研究不预设上限可展开",
+          "counter_association": "容易被误听无限性能"
+        },
+        "semantic_coherence": {
+          "reason": "数学事实与未来姿态同主题",
+          "counter_association": "下一不应误解无穷加一"
+        }
+      },
+      "total": 24,
+      "decision": "quality_reject"
+    },
+    {
+      "candidate_id": "LD-C07",
+      "name": "代码生境",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "notes": {
+        "naturalness": {
+          "reason": "代码与环境组成完整称呼",
+          "counter_association": "生境是专业词"
+        },
+        "distinctiveness": {
+          "reason": "可执行程序与生境形成清晰画面",
+          "counter_association": "容易像开发社区"
+        },
+        "lab_fit": {
+          "reason": "能承载计算环境和实验室",
+          "counter_association": "生态类语气仍有"
+        },
+        "grounding": {
+          "reason": "数字生命实验真实有程序环境关系",
+          "counter_association": "人工生命不等于LLM机制"
+        },
+        "extension": {
+          "reason": "可容纳训练部署反馈基础设施",
+          "counter_association": "可能偏仿真平台"
+        },
+        "semantic_coherence": {
+          "reason": "提供条件而非硬说生物等于模型",
+          "counter_association": "不含具体模型改进指标"
+        }
+      },
+      "total": 25,
+      "decision": "quality_pass"
+    },
+    {
+      "candidate_id": "LD-C08",
+      "name": "孤子雨",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "notes": {
+        "naturalness": {
+          "reason": "三字完整科学现象好叫",
+          "counter_association": "孤子需一次科普"
+        },
+        "distinctiveness": {
+          "reason": "普通雨与孤子组合已有真实反差",
+          "counter_association": "孤可能有孤独联想"
+        },
+        "lab_fit": {
+          "reason": "非线性光学提供研究身份",
+          "counter_association": "首先可能光学实验室"
+        },
+        "grounding": {
+          "reason": "机构论文和专利原词可核验",
+          "counter_association": "不能误说自然降雨即孤子"
+        },
+        "extension": {
+          "reason": "光与相互作用可延展研究叙事",
+          "counter_association": "与持续学习是类比"
+        },
+        "semantic_coherence": {
+          "reason": "脉冲个体与整体图样始终同关系",
+          "counter_association": "不能把所有多体活动都说智能涌现"
+        }
+      },
+      "total": 26,
+      "decision": "quality_pass"
+    }
+  ]
+}

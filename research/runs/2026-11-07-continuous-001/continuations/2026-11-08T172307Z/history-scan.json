@@ -1,0 +1,978 @@
+{
+  "scope": "本次实际读取全部历史JSON/MD字节并递归扫描命名字段；完整当前清单=不可变base按path应用changed_or_new_files并移除removed_files；不是只扫描差量或重核所有外部来源。",
+  "base_manifest_ref": {
+    "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/history-scan.json",
+    "sha256": "7e36df7e6e167cd1e18bf0a8aa9bcf28a31b89b4de882a22ac6cf71bc4d7d3a1"
+  },
+  "changed_or_new_files": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch31.json",
+      "sha256": "4c076a6cf8abe2d5a81b895f4bd37d0fd297397aab8e580dd91e7a1afdb42eb9",
+      "bytes": 9394
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch32.json",
+      "sha256": "3ae172436db41bda689c817caa38f68cbfee3af60c35193269ce7185a5f59a2e",
+      "bytes": 6668
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch31.json",
+      "sha256": "8c694ee7041334a6669a7f345fcd7fd5eae5d6b5aa0d4e62fb43a17ca83550a6",
+      "bytes": 8111
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch32.json",
+      "sha256": "01f93f93bced5741a204d783e39cd3e51e9fd3a59abc9753e3e40a12b9ce912a",
+      "bytes": 7020
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-history-through-batch30.json",
+      "sha256": "c3bdb87b9e14f722671fa36fcc252f92a0670b93a1b85b64ab1e3b23f5b8624a",
+      "bytes": 221992
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-history-through-batch31.json",
+      "sha256": "061426cbba2f82711bad387a01cb48d3602318afe963eb91d5cc0ea32ffeacee",
+      "bytes": 232501
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch31.md",
+      "sha256": "2afc3d190b1cd98c0aaa0062ff2e0ad85ec3151410a4c16fc7d789cd12603f7c",
+      "bytes": 4697
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch32.md",
+      "sha256": "8588184b43a18f000e102190e9b600ebb6b0360cd0e9bf4707cc990605159a14",
+      "bytes": 3739
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch31.json",
+      "sha256": "b0e80e9736ce16c1be72516f5cfb40b1ee077127c60a0a50ca649d1ccaa81c9b",
+      "bytes": 3678
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch32.json",
+      "sha256": "3f8dff77641476027aea5061b99c2af47077f00320e9af5a3cf59eb6b21b707d",
+      "bytes": 2132
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch33-receipt.json",
+      "sha256": "5a2dd54f29cf0a96b2e867782cd093e017d68e6d8f5eb12caf59a289ac185da3",
+      "bytes": 2675
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch33.json",
+      "sha256": "c52519eca6ea430ea230ddf0ebb4bf02cd91a9eee2bb44328b079d0990211573",
+      "bytes": 12365
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch33.md",
+      "sha256": "6ea00c322de2995bcd6d75c83a256233a5ed196fc2a37b9ccd5c644cbd69ad47",
+      "bytes": 1764
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch34-receipt.json",
+      "sha256": "c23c8f555fb8c8c347ecc4cedce9c2bf4a4e3e8fe95440ac9134ee9c5c5beac9",
+      "bytes": 2840
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch34.json",
+      "sha256": "4c75c10ef5911955763946a0553d328c871d388a226bbf7eabc590cbda6b3e80",
+      "bytes": 7531
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch34.md",
+      "sha256": "62ff9395a1e04625b7862c0726ad3c48074559970efa870846d5873c789ff60f",
+      "bytes": 1323
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch39-receipt.json",
+      "sha256": "bff531b4ea91913442d6bdb40b41b729565d22533d5d8844b0523ecd268b48d7",
+      "bytes": 2674
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch39.json",
+      "sha256": "b0df81dc104e991c3ca2f10251e1d6114af180525af652c04eb8d73d368736ca",
+      "bytes": 6824
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch39.md",
+      "sha256": "f9168d6a099abf2672aff0778acf96a69dbf8423a683b15b68917a00be006b25",
+      "bytes": 1343
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch40-receipt.json",
+      "sha256": "7930a01084c9b89fef62d5bbaeed6242d8c5d22cf3029baaf5452933ce6973a1",
+      "bytes": 2687
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch40.json",
+      "sha256": "1d7351e42bf1bda6b58060f9bceba468cdfa855c90ec9eb1e22cc84ed2e7fa8a",
+      "bytes": 7345
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch40.md",
+      "sha256": "44aa8e225d6dc58d47d67f4b6c0288ce188e9215abf3fb05d73bdae0c2992148",
+      "bytes": 1437
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch41-receipt.json",
+      "sha256": "77b7009501a1325c3ce153ad293c1d62aaa611b603c7bb9d9fce2b68afe2568d",
+      "bytes": 2875
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch41.json",
+      "sha256": "7e92019aa2eaf91fa7b2b8e802a8f1798e1a5586676cee093b79a03ad2fe6d12",
+      "bytes": 7231
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch41.md",
+      "sha256": "beaa4a896949f907308545d48dbb98f7320e9227b75db490d1e3d6e3c99a1d90",
+      "bytes": 1466
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch42-receipt.json",
+      "sha256": "5a18a3de9997d5e62b4151b2a87da0abf03b944b68f3227c4f35c28557a9eb3b",
+      "bytes": 2457
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch42.json",
+      "sha256": "5e350022ee8708bf195c6b66487e8df47b093c8c63bcefc21679469ba8e60d4a",
+      "bytes": 6004
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch42.md",
+      "sha256": "908fd2a77e0b98920f62fb46ef19a772d58a87fd3e4a5e76e675d1176e2bb187",
+      "bytes": 1154
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch43-receipt.json",
+      "sha256": "528d96d7bd96b82339d47c83fe2e86338c9e6a09a3b5cabe2bc05c74745ef4a9",
+      "bytes": 2627
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch43.json",
+      "sha256": "3f5d764845c94d54ae724cf16f9a21565b35e0f468d9f952eb649b779e972ea7",
+      "bytes": 6146
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch43.md",
+      "sha256": "aa48422b616d0cc80adf44ae6712b66846cd99a060d1707c0af733ae5572db80",
+      "bytes": 1151
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch44-receipt.json",
+      "sha256": "47018c7b90f114ddb852a6d963861b615ce5de46ec82679b71fc625c660117b8",
+      "bytes": 2850
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch44.json",
+      "sha256": "10e591fc8146f4f91e25a31185b7e0271d9369ca26f1ce6a1a15218c63b190d4",
+      "bytes": 6674
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch44.md",
+      "sha256": "f43357e5c5f03d5cf033d78564ecf3bfbf599c7aa6563748ad3190495e2b9cb8",
+      "bytes": 1376
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-C50-final-closeout.json",
+      "sha256": "e9c3492d1cec881b3e4bea686287b9952b0c229a6d267f4c118405d0c89f1483",
+      "bytes": 10593
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-C50-final-closeout.md",
+      "sha256": "fad83a2f0df392877820201b9fba0a9d3972695dfb614b07b41312ed8abdd8d7",
+      "bytes": 919
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-C52-postscreen-review.json",
+      "sha256": "87e910d109584d3aea1243a207b40115d995e62b6d27e3ed997c067f1749577e",
+      "bytes": 10071
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-C52-postscreen-review.md",
+      "sha256": "972d0e15395f29dd1a97846045203a4cafb9ecd5bd5f062ae3f527c1050489de",
+      "bytes": 2130
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch39.json",
+      "sha256": "583fb250f4bf87f926fce6f795186cd33c0699589b2f774a7a8a078d7a171f83",
+      "bytes": 4746
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch40.json",
+      "sha256": "5e5b5cf52459a7b38bdeb5ae87b34ed5f3ccba32c1ed8a2bc904bd4db05fff66",
+      "bytes": 4600
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch41.json",
+      "sha256": "7850b643945b3972e19c64cab288595f34137aa7e707b476e436c298a4c68c13",
+      "bytes": 4703
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch42.json",
+      "sha256": "06b9c83322aeabf93451c6eb4a504a1d51283d5205e7be20bb3ddee1ce334598",
+      "bytes": 4812
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch43.json",
+      "sha256": "5c179540fb2be5700697673177a029d84f32eeb73c141cf3d90be8ca3769cadf",
+      "bytes": 4173
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch44.json",
+      "sha256": "eb7febaadcd744e49697ac8314db66e83e2d6c3ee5a2b4c69d5b8e178b6f6569",
+      "bytes": 5002
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch39.json",
+      "sha256": "2bf829940bddb54e36a80fd901f9553e5f8b1f9e83c74ef150b673d14fee175c",
+      "bytes": 5459
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch40.json",
+      "sha256": "3b204887a67a8b05781c5ff9ce88f3384a287af0c37df01d5eb0d7cbea9f0705",
+      "bytes": 4699
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch41.json",
+      "sha256": "46728be22aedf7dff953f0898849bc40d76c8908b807359b8521db08711a1bf7",
+      "bytes": 4833
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch42.json",
+      "sha256": "86a5b6f53075ab22fffc1db80009994b0159a1afc6d17371586e5337c313701e",
+      "bytes": 5608
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch43.json",
+      "sha256": "14c1d52240cf67f231c55abd45c0920f00e838df422bd784686901d5a945ccbf",
+      "bytes": 3967
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch44.json",
+      "sha256": "b680af4fcc5bf438aa312c9b0a8c177db70956cdce803a05ac01dd3a3152c8b0",
+      "bytes": 4893
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch39.md",
+      "sha256": "5aadce6b3387e5385d88ed9fb8547196fc19993302e964fa5fc716595c2f4146",
+      "bytes": 2640
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch40.md",
+      "sha256": "7d46435931da3a5f49e5eec57d7135e00241df692472c1f5a6d8bdf043f251aa",
+      "bytes": 2732
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch41.md",
+      "sha256": "0b93784ccf751de7be458534468c43d2eaf389351a40913774c1bfdef0914df2",
+      "bytes": 2740
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch42.md",
+      "sha256": "b87c4280a36adda0ad6bfd63b8571ad7964d16cc75ee441940dd05a255c1b27c",
+      "bytes": 2909
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch43.md",
+      "sha256": "871260689e64df1e33f2fad5950a43ce04c230de00b1734c2b2f84b3f96f701c",
+      "bytes": 2764
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch44.md",
+      "sha256": "85aaa27bede091062e22495ec976a6ea5b83a86eb85e5bb8312242d65296672b",
+      "bytes": 3633
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch39.json",
+      "sha256": "70d9b1ed0328291a403b1ac0798d61e19ff1d174fe2af500f73b90ac6cf1f3e5",
+      "bytes": 1839
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch40.json",
+      "sha256": "70370720d7748aa98f0230ea34a15cf91f35a3866fb89db3f4da12df0c3cf0a2",
+      "bytes": 1864
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch41.json",
+      "sha256": "ff207dd9092e742c79909a918d1d37ac2b66faff8dfb29cfd1232c6719dc49fb",
+      "bytes": 1879
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch42.json",
+      "sha256": "04b80d9c07a74a01531289f7e271bfeb02bbb6ba80c438cd5e4b07b070e87b4c",
+      "bytes": 1922
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch43.json",
+      "sha256": "5d8da1e565886547b51160529edc96d59a49c52f9dc9865957e8170a07c792e0",
+      "bytes": 1871
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch44.json",
+      "sha256": "06469ffb12535905f963748e24412a21d43e64b8fc6307b02527245f58b62c0b",
+      "bytes": 2099
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/README.md",
+      "sha256": "f673769f3ab1b430534fc38bd834f886294c9614a2c7929282804f00fe428f22",
+      "bytes": 54233
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/decisions-before-resume.json",
+      "sha256": "1ad15284a36129e13f97546ef47e98e04cf076d727d8e9e09a0d95b94be1d6e6",
+      "bytes": 25023
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/decisions-through-batch32.json",
+      "sha256": "d43201f0116544f9c19fe414bd40912f42ecbff51cbbff680860daaf35fbc21a",
+      "bytes": 27830
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/handoffs-batch31.json",
+      "sha256": "53abff0914198cbc4a15d9da392139f27861fcde507f160518a569f4536f9c7b",
+      "bytes": 6518
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/handoffs-batch32.json",
+      "sha256": "0d5c8cdda490539ba3df326271deef8b57b6a13f1835226b1fefea5d43c5860d",
+      "bytes": 7513
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/history-scan.json",
+      "sha256": "7e36df7e6e167cd1e18bf0a8aa9bcf28a31b89b4de882a22ac6cf71bc4d7d3a1",
+      "bytes": 301684
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/inputs/run-README-before-update.md",
+      "sha256": "6c5ab7fa8ca04697e567c832553d9d3fc13498359d08bbb9d2cccd10a13a7e7c",
+      "bytes": 49646
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/material-proposal-index-before-resume.json",
+      "sha256": "7d8816a2ffdd9dd888ea1db39c9a2b1042c23a0e0f8f79456fd88a5e646a9e57",
+      "bytes": 218062
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/queue-before-resume.json",
+      "sha256": "a321e74397f5cfd834aadb19abc088cba95011a0d26cb3463119afb32a3da31a",
+      "bytes": 12915
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/reference-verification.json",
+      "sha256": "8e332aea054cbdb5a6ab137149ec612e7889d3c699508d7800576f629f5032b4",
+      "bytes": 210731
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/result.json",
+      "sha256": "0d1d4b659594b26de207c3cf156225deb676cf5f341869a48ca478522261721a",
+      "bytes": 5672
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/resume.json",
+      "sha256": "1bdb7d64d27fc4aed6f3f506bda93f2e63d28f770fe4a4a6cce0beae164e21d2",
+      "bytes": 700
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/root-C50-terminal-review.json",
+      "sha256": "22f99975dcba887446530136559da752f53faf26c9f1bd6ba8b3933d09bfaac6",
+      "bytes": 2231
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/root-C52-terminal-review.json",
+      "sha256": "c2e3a9f384525aa6c3ba54f366a40d89da0c4ae713fec36c6cad1c0ad1872fb3",
+      "bytes": 5021
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/root-EN39-review.json",
+      "sha256": "e223e8544fa9a1ddae656cc2753ba047c64a066924f6d9f40ae01d22d69f43f8",
+      "bytes": 1989
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/root-EN40-review.json",
+      "sha256": "e0f17898a4cca4d204560b447c95cdd5e4520f105827df6011a5a9c6be0c1377",
+      "bytes": 1704
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/root-EN41-review.json",
+      "sha256": "b22140bb7ee61c76a795218f1862d9961df13e26974692d211d3551d1bb99df2",
+      "bytes": 1954
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/root-EN42-review.json",
+      "sha256": "81690dc28d58a39c087e7a49c192ccbf30b69afb4a7715a1a65da093f9642f43",
+      "bytes": 1653
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/root-EN43-review.json",
+      "sha256": "add9a0ba58febd216cc2dfa173581611b9b1b03888a1e9804c75600f4557c918",
+      "bytes": 1714
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/root-cn33-review.json",
+      "sha256": "aefe508444d9bc031250d8e4698d5cce08358963628996bf4f693e566e2c86dc",
+      "bytes": 1616
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T161934Z/root-cn34-review.json",
+      "sha256": "27107cf20e349ec7ccc200857dd8a331fdcbfa63c8fc71baa5700a740932c010",
+      "bytes": 1475
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch31.json",
+      "sha256": "4c9760f15c0370e21108d3f4fc2e9ed2726222678377ca83862c746e6d7033f6",
+      "bytes": 3248
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch32.json",
+      "sha256": "647cf2c26180875bc91049803a3eff9d53fa14ca46c94b18267c1a1c3f80aeef",
+      "bytes": 1726
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch39.json",
+      "sha256": "d8490a0281e563437267b8ab748c25223b78f389a49dd53001796e6190746e9e",
+      "bytes": 1505
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch40.json",
+      "sha256": "8c9e1d56b5a5963c086511c3b3212e9d1009574a57e887ba07e73b8a0a38eeb2",
+      "bytes": 1521
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch41.json",
+      "sha256": "fd6ef5a7f91742ec65c085f8db9e81644519a3a73c921028ece95f5d6a2b2786",
+      "bytes": 1492
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch42.json",
+      "sha256": "4cccacf4c9d9e93fe2fcfd908f845f7c3b25dff470626bbe3f0771691b45e06e",
+      "bytes": 1546
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch43.json",
+      "sha256": "28beb379158c822aa8ef357f54ead9e8dbdee967bb3725bb72d347bec89d9bc9",
+      "bytes": 1545
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch44.json",
+      "sha256": "c04b7bed0b1ac681ee0d3eaf82545809ea77d4658bc5a953a7d51119702b04f7",
+      "bytes": 1618
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch31.json",
+      "sha256": "79e24923eba9adb07a08f32ad24671d2eabc21f5104d657d3b8b9055c00bdd38",
+      "bytes": 3410
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch32.json",
+      "sha256": "a13999f7acdbe8ba41e10001052efe57bf52a889897f8debee485ba6f7c8e31d",
+      "bytes": 2677
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/delivery-C1-E46.json",
+      "sha256": "ec957a56d00cc3fd4e625139ead5f98645c0ff49047d483a4b6e6e541d6a7d75",
+      "bytes": 31223
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/delivery.json",
+      "sha256": "56bc91a857f9713916c8482f7d269cac45cae6f51e9e9a2fdf0896189c001743",
+      "bytes": 208647
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension29.json",
+      "sha256": "1865bfd97cd5b171d432fa351de6b724e6ab253c6cbe188082e3c38765bb461d",
+      "bytes": 9245
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension30.json",
+      "sha256": "c716bd12c909eaddfe8b59c8a5553e3d87ddbd2228244e16036b927e126e2fc6",
+      "bytes": 5600
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/run.json",
+      "sha256": "3db0dd3fc71b979156d514575266f6d0255095cf00f4d3c29602000833616146",
+      "bytes": 3498
+    }
+  ],
+  "removed_files": [],
+  "counts": {
+    "all_files_actually_scanned": 1532,
+    "changed_or_new_files": 98,
+    "unique_name_strings": 471
+  },
+  "unique_name_field_values": [
+    "AMI Labs",
+    "Adobe",
+    "After Labs",
+    "Aftercheck",
+    "Afterleaf",
+    "Aftertell",
+    "Airsung",
+    "Amazon / 亚马逊",
+    "Another Way In",
+    "Anthropic",
+    "Antspan",
+    "Anysphere / Cursor",
+    "Apple / 苹果",
+    "Arm",
+    "At Runtime",
+    "Augment Code",
+    "Axiom Math",
+    "BIGAI / 北京通用人工智能研究院",
+    "Bear Out",
+    "Bipelago",
+    "Black Forest Labs",
+    "Borrowind",
+    "Branchwise",
+    "Call by Need",
+    "Cartesia",
+    "Chai Discovery",
+    "Chancebell",
+    "Cisco / 思科",
+    "Codabitat",
+    "Cognition",
+    "Cohere",
+    "Common Grip",
+    "Compassfish",
+    "Confluence",
+    "Core Automation",
+    "Cursor",
+    "Daimaji",
+    "DarwinAI",
+    "Deepborne",
+    "Deepborne by armadilliestairlines",
+    "Deepwelling",
+    "Deepwoken",
+    "Depthborne",
+    "Depthspring",
+    "Discovery Loop",
+    "Docker",
+    "Double Veil",
+    "Drawn from Chance",
+    "Earth Replies",
+    "Either End",
+    "Elastic",
+    "ElevenLabs",
+    "Emberhand",
+    "Engram",
+    "Eureka Labs",
+    "EvolutionaryScale",
+    "Factborne",
+    "Figma",
+    "Flightback",
+    "Foldra",
+    "Fresh Witness",
+    "Fundamental",
+    "Furtherword",
+    "Furtherword（当前域名跳转Greetingswell）",
+    "Fushali",
+    "Gaze Anew",
+    "General Intuition",
+    "GitHub Copilot",
+    "Glean",
+    "Goodfire",
+    "Google / 谷歌",
+    "Google DeepMind",
+    "Granola",
+    "Gridfolk",
+    "Harmonic",
+    "Hereby",
+    "Hold to Open",
+    "Hugging Face",
+    "HuiSuan Labs",
+    "Hume AI",
+    "Ideas Afoot",
+    "Imbue",
+    "Ineffable Intelligence",
+    "Inherent",
+    "Inkforth",
+    "Inscade",
+    "Integral AI",
+    "Intel / 英特尔",
+    "Intertidal",
+    "Invercade",
+    "Jiangsu Xubian Transformer Co., Ltd.",
+    "Jingora",
+    "Kinstate",
+    "Kyutai",
+    "Landfish",
+    "Latent Labs",
+    "Latent Stage",
+    "Letta",
+    "Linewake",
+    "Linkroam",
+    "Liquid AI",
+    "Live Variable",
+    "Maymatter",
+    "Measured Light",
+    "Measured Wonder",
+    "Mechanize",
+    "Midjourney",
+    "Mind Lab / Macaron",
+    "MiniMax",
+    "Mirendil",
+    "Mistral AI",
+    "Mobius Intelligence",
+    "Modal",
+    "Moreward",
+    "NVIDIA / 英伟达",
+    "Names Aside",
+    "Ndea",
+    "Negaflux",
+    "Negentia",
+    "Neither",
+    "Nijila",
+    "Noisebloom",
+    "Noontally",
+    "Notion",
+    "Nous Research",
+    "One More Thought",
+    "One Thought Further",
+    "OpenAI",
+    "Oracle / 甲骨文",
+    "Otherdata",
+    "Otherframe",
+    "Ownsignal",
+    "Ownwrite",
+    "Paper Wasp",
+    "Pass the Ember",
+    "Passageway",
+    "Periodic Labs",
+    "Perplexity",
+    "Pigeon Whistle",
+    "PingCAP",
+    "Plastic Labs",
+    "Postmarked Earth",
+    "Prime Intellect",
+    "Pulpwright",
+    "Raspberry Pi",
+    "Raspberry Pi / 树莓派",
+    "Raspberry Pi=圆周率；Stripe=磁条",
+    "Rayturn",
+    "Reasonstride",
+    "Recursive",
+    "Recursive Superintelligence",
+    "Reflection",
+    "Reinquire",
+    "Replit",
+    "Replyrise",
+    "Returnlight",
+    "Ricursive Intelligence",
+    "Rulefauna",
+    "Runway",
+    "Safe Superintelligence / SSI",
+    "Sakana AI",
+    "Saydo",
+    "Selfhear",
+    "Shadow Gauge",
+    "Shorefin",
+    "Single Witness",
+    "Sky Detour",
+    "SlashDevSlashFinance, Inc. / SlashDevSlashPayments",
+    "Snow Below",
+    "Solirain",
+    "Sony / 索尼",
+    "Sortie",
+    "Southward Fish",
+    "SpaceX",
+    "Spare Signal",
+    "Spine Eddy",
+    "Standard Intelligence",
+    "Starward Ferry",
+    "State Dial",
+    "Still Current",
+    "Still in Play",
+    "Stillnext",
+    "Stripe",
+    "Supposal",
+    "Tesla / 特斯拉",
+    "Textrove",
+    "Therefrom",
+    "Thinking Machines Lab",
+    "Thoughtgear",
+    "Trajectory",
+    "Trialnaut",
+    "Unconventional AI",
+    "Undetermined",
+    "Unfinal",
+    "Unsigned",
+    "Versionmark",
+    "What Follows",
+    "Woodwoken",
+    "Wordact",
+    "World Labs",
+    "Worldside",
+    "pdf:pdf",
+    "thoughtgear",
+    "xinhuilu.com历史网页标题7E互联CDN系统",
+    "一点缺陷",
+    "一种演算尺 CN2141919Y",
+    "一闪",
+    "七日世界社区攻略中的源质星尘炉称呼",
+    "三亚崖州知演科技有限公司",
+    "下一无穷",
+    "下一镜",
+    "不变",
+    "专业入口和日常入口必须是同一个词的真实内容",
+    "中国知识载体与现代研究主题呼应",
+    "临场集",
+    "乐观锁",
+    "云形尺",
+    "交叉点优先找角色、动作和关系，不只找两个名词",
+    "代码生境",
+    "以对他者的作用建立公司角色",
+    "伙伴与工具",
+    "会意",
+    "伶伦",
+    "余光",
+    "余维",
+    "余量",
+    "余项",
+    "作数",
+    "使命、立场与未来主张",
+    "侧音",
+    "倍频",
+    "借身",
+    "借长风",
+    "借长风 / Borrowind",
+    "元环智能 / MetaCircle",
+    "元知进化 / CogEvol",
+    "先建立可持续的公司身份，再决定用多少业务解释",
+    "先选择科技在人的世界里处于什么位置",
+    "光的弯道",
+    "光轮智能 / Lightwheel",
+    "公设之外",
+    "具体自然现象承载力量和来处",
+    "再成形",
+    "凸点",
+    "分身有别",
+    "北京虚时科技有限公司",
+    "北京虚时科技有限公司 / Intime AI",
+    "千寻智能 / Spirit AI",
+    "千手稿",
+    "原语",
+    "双盲",
+    "双语共享身份或主线，不必共享每个字",
+    "双语可以共同建构世界，不必压成同一张词义表",
+    "反例",
+    "叠层石",
+    "另解",
+    "合符",
+    "同位素",
+    "同星",
+    "后续素材搜索应围绕多个知识世界并行展开",
+    "商汤 / SenseTime",
+    "噪声种子",
+    "回算",
+    "回车以后",
+    "因序",
+    "园丁鸟",
+    "地球回信",
+    "声入纹",
+    "声子",
+    "复证",
+    "多想一步",
+    "大疆 / DJI",
+    "失算",
+    "奇点逃逸 / Antropy",
+    "好名称分析不等于成功原因证明，更不等于可采用",
+    "字节 Seed",
+    "字节跳动 / ByteDance",
+    "孤子雨",
+    "寒武纪 / Cambricon",
+    "察觉",
+    "对读",
+    "小米 / Xiaomi",
+    "局部互动与组织结构的可改变性",
+    "幂级智能 / DenseAI",
+    "平凯星辰 / PingCAP",
+    "广州异步科技有限公司",
+    "广州留枝机械设备有限公司",
+    "应手",
+    "底层单位获得可感动作",
+    "底稿",
+    "开合",
+    "开明兽",
+    "开集",
+    "异步",
+    "异步科技",
+    "弦外",
+    "影子刻度",
+    "心智主体、人与他者关系以及行动经验",
+    "念头引擎",
+    "懒函数",
+    "成长与自我改进系统",
+    "把可称呼性和知识深度分成两层",
+    "抬眼",
+    "拨码",
+    "择径",
+    "指南鱼",
+    "捕蝇草",
+    "换坐标",
+    "探形",
+    "探索与发现者",
+    "接一拍",
+    "推演场",
+    "故事应有主线，允许有支线但不无限加寓意",
+    "数学结构、科学方法与跨学科实在关系",
+    "文化历史与思想传承",
+    "文化历史与科学知识是长期身份资源，不能缩成古文和术语二选一",
+    "文化故事、人物与知识传承的完整前史",
+    "斑马线",
+    "新回路",
+    "方格动物",
+    "无问芯穹 / Infinigence",
+    "无限镜元 / MirroS",
+    "日参省",
+    "日常物件、身体动作与可使用的界面",
+    "日常生活与身体经验",
+    "日行迹 / Analemma",
+    "时代与边界开拓者",
+    "时氪砹 / Moments AI",
+    "星动纪元 / RobotEra",
+    "星尘炉",
+    "星海图 / Galaxea",
+    "星间",
+    "星际渡口",
+    "星震",
+    "显影",
+    "普通词获得科技身份需要承接，不需要先伪装成术语",
+    "晶泰科技 / XtalPi",
+    "智在无界 / BeingBeyond",
+    "智源 / BAAI",
+    "智谱 / Z.ai",
+    "曲处生",
+    "月之暗面 / Moonshot AI",
+    "有后文",
+    "有界好奇",
+    "有语义依据的自然词、完整短语、熟悉语素融合和可信音译均可；音译不是禁用，但不能因查重失败而随便换字母让它看起来像英文。先解释真实构词与建议读法，再交A3筛查。",
+    "木上林",
+    "木上林 / Woodwoken",
+    "未尽之问",
+    "未然机",
+    "来源世界与公司角色需要分别选择",
+    "来源未确认的专名",
+    "构境",
+    "柔而进",
+    "模思智能 / Mosi",
+    "横竖之间",
+    "横风",
+    "橡皮鸭",
+    "比特群岛",
+    "江苏渐近线文化科技有限公司",
+    "沐曦 / MetaX",
+    "沙阵",
+    "活变量",
+    "活桥",
+    "活版",
+    "海底雪",
+    "涌养",
+    "深势科技 / DP Technology",
+    "深圳市渐近线科技有限公司",
+    "深圳开集科技有限公司",
+    "深度求索 / DeepSeek",
+    "深水来",
+    "添一指",
+    "添一笔",
+    "添一笔变新字；开发/供应商dongyeming",
+    "渐近线",
+    "演算尺",
+    "火山引擎",
+    "火山引擎 / Volcengine",
+    "灵感之外",
+    "熟手",
+    "燧原 / Enflame",
+    "生命中的组织与适应，而非育苗叙事",
+    "生境里",
+    "生数科技 / GenSpi",
+    "由此及彼",
+    "留枝",
+    "留白",
+    "百奥几何 / BioGeometry",
+    "百川智能 / Baichuan",
+    "百度 / Baidu",
+    "知演",
+    "知演数智 / PathFinder",
+    "研究使命、立场与愿意承担的长期承诺",
+    "研究场域里的名字在回答不同层级的问题",
+    "研究机构名保留变化空间，产品名负责具体入口",
+    "硅基流动 / SiliconFlow",
+    "磁重联",
+    "科学与计算世界",
+    "科学对象或完整关系直接成为专名",
+    "空格键",
+    "第三真值",
+    "第四范式 / 4Paradigm",
+    "等高线",
+    "简单外壳承载组织机制",
+    "算着走",
+    "素地生",
+    "纸上机器",
+    "纸旋翼",
+    "纸蜂",
+    "织数",
+    "织觉",
+    "续编",
+    "维度之门 / Dimension Gate",
+    "绿灯集",
+    "联想 / Lenovo",
+    "聚变纪",
+    "聚而明",
+    "能力底座与连接者",
+    "腾讯 / Tencent",
+    "自变量 / X Square Robot",
+    "自成一格",
+    "自然、生命与天地空间",
+    "自然力量、地域与尺度世界",
+    "色序",
+    "莫尔纹",
+    "虚拟排练",
+    "虚时",
+    "行成岸",
+    "行话",
+    "补码",
+    "观测之后",
+    "视差",
+    "解环",
+    "触媒",
+    "言有所为",
+    "计算的基本元素、表示与可执行结构",
+    "认知、行动与时间经验",
+    "认知与智能主体",
+    "讯兔科技 / Alpha派报告底稿Agent",
+    "识局",
+    "试飞员",
+    "请把名字放进“我们是___”“___今天发布了一项研究”两句；这是定性口语检查，不是消费者实验。读解释前仍需能被自然称呼。不要只交原理名词或漂亮词拼接。",
+    "负熵流",
+    "超衍智能 / Apex Intelligence",
+    "跳读",
+    "转场",
+    "过境",
+    "追觅 / Dreame",
+    "逆级联",
+    "选框",
+    "递火",
+    "通式",
+    "重整",
+    "镜智格物 / EverMind",
+    "长按",
+    "阜阳开集生物科技有限公司",
+    "阶跃星辰 / StepFun",
+    "阿里巴巴 / Alibaba",
+    "陆行鱼",
+    "随行",
+    "隶首",
+    "雨影",
+    "零一万物 / 01.AI",
+    "雾针",
+    "非玩家",
+    "非终态",
+    "面壁智能 / ModelBest",
+    "页脚",
+    "飞梭",
+    "骰子钟",
+    "鸽哨"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-09T05:47:10.226611+08:00",
+  "candidate_id": "C1-C60",
+  "decision": "accept_actual_R1_zero_selection_voluntary_close_one_allowance_unused",
+  "actual_read": "无分R1 preview/原角色完成消息，零quality/execution字段及冻结输出；无正式新中文名，不造分。",
+  "reason": "现成完整烛芯可合法作同族修订，未选是具体品牌首感偏香薰/耗材，不是禁止既有完整词或同族改称。未使用查询，不称已占用。原火芯因科技商业核心使用拒，质量双25仍保留。",
+  "CN_reworks_actually_completed": 1,
+  "CN_rework_allowances_unused": 1,
+  "new_CN_selected_forms": 0,
+  "eligible_CN_for_English": 0,
+  "refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch48.json",
+      "sha256": "bbcdb0863de8d653bbbc8f7266d025a7d5d9622ab048e5c5c77ce226e2c207a6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch48.json",
+      "sha256": "4a7cc292ead64b2caaf3729277bae0c4227511baaf0ddbb1358d97d56d965604"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch48.json",
+      "sha256": "c838e8775e400bc80c6887c3ca16577a2b39b17897938ad567f7d953599e1aea"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch48.json",
+      "sha256": "3518e1ffa7f53debbc387378eb0735b41d199a4f0176c058f582c34c0391920c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/root-cn47-return.json",
+      "sha256": "7b852bea5bafa9b8d90a93ef4895fc8c034d6e4dafcd41260c338917ce4c43b1"
+    }
+  ]
+}

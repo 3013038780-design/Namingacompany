@@ -1,0 +1,156 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T22:35:43.035866+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch27.json",
+      "sha256": "2cdc172cfe581bf798eabbd41a78b08d98d953a3586584e19fdd2ee63a54a1b4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch27.json",
+      "sha256": "8c88a41338d4c9f7296017dbb681c943a9cb6202f22a5f6c33fac04f2f6c739b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch27.json",
+      "sha256": "f1cc179ca8dd63084f1e8c109d2747f816fcdf35a1f080db3d593f065c2e4fd8"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension25.json",
+      "sha256": "a910d37fd432d098fb7cdd36e7ea1ea09113e42e4fb027b1f0450e6702bc56bb"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch27.json",
+      "sha256": "7e241761162a02b7be03cc0af2ec28ffe86a02462515912abeadcd73f53e5d05"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch27.json",
+      "sha256": "f0e7a7daba847189eb69ac53b9d218df760b9f8cd3822ce6305d9d60efa77d22"
+    }
+  ],
+  "query_count": 10,
+  "results": [
+    {
+      "candidate_id": "C1-C46",
+      "name": "选框",
+      "query_logs": [
+        {
+          "query": "\"选框\"",
+          "executed_on": "2026-11-08",
+          "summary": "主要复选框/框选控件与词典，功能词不等独立产品名。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"选框科技\"",
+          "executed_on": "2026-11-08",
+          "summary": "单独科技精确查询主要导航及分散词汇，未确证选框科技主体。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"选框智能\"",
+          "executed_on": "2026-11-08",
+          "summary": "单独智能精确主要西门子选择框/智能卡说明，非选框智能公司。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"选框\" AI 模型 软件 公司",
+          "executed_on": "2026-11-08",
+          "summary": "AI模型软件主要GUI框选功能/模型选择说明，未发现独立选框模型。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"選框\" 公司 軟體",
+          "executed_on": "2026-11-08",
+          "summary": "繁体主要软件手册、勾選框、界面操作，未确证選框商业主体。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"xuankuang\" company software",
+          "executed_on": "2026-11-08",
+          "summary": "拼音命中杭州Xuankuang科技具体公司线索，须后续中文核对；选矿行业罗马拼音不可当选框。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"选框\" 品牌 APP",
+          "executed_on": "2026-11-08",
+          "summary": "品牌APP命中Opteyes线上选框与嘉艺画框App配框功能，主体全名不同。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"杭州\" \"xuankuang\" 科技",
+          "executed_on": "2026-11-08",
+          "summary": "定向杭州拼音中文查询主要选矿行业，无本名确证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"2019-12-31\" \"杭州\" \"炫旷\"",
+          "executed_on": "2026-11-08",
+          "summary": "炫旷为尝试消歧的假设汉字，查询无该主体确证，不能作为已核公司名。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Hangzhou Xuankuang\" patent",
+          "executed_on": "2026-11-08",
+          "summary": "定向英文企业专利查到CN112516709A；实际打开中文镜像并下载PDF文本第一页申请人杭州轩旷科技有限公司，异字近音线索闭环。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "pass_public_use_initial_screen_only",
+      "reason": "本次10有效查询未确证选框为独立商业核心公司/软件/模型。大量选框是GUI或配镜动作，不能自动品牌占用；拼音具体公司核专利首页为轩旷而非选框。仅公开初筛，非注册核准。",
+      "evidence": [
+        {
+          "url": "https://www.iheima.com/article-312075.html",
+          "access": "publisher_body_read",
+          "finding": "L15/19/28完整品牌Opteyes App，选框为配镜动作，非名为选框的软件；未背书文章性能宣传。"
+        },
+        {
+          "url": "https://discovery.patsnap.com/company/hangzhou-xuankuang-technology/",
+          "access": "third_party_company_body_read",
+          "finding": "L6/41/126为英文Hangzhou Xuankuang主体，不能由拼音推定中文同名；后续专利原页已核轩旷。"
+        },
+        {
+          "url": "https://patents.google.com/patent/CN112516709A/zh",
+          "access": "patent_mirror_body_read",
+          "finding": "L25–35英文申请人及时间元数据；assignee和法律状态站方声明可能不准确，不据此核当前存续。"
+        },
+        {
+          "url": "https://patentimages.storage.googleapis.com/61/d8/ea/62ce4ff4630172/CN112516709A.pdf",
+          "access": "published_patent_pdf_first_page_text_read",
+          "finding": "PDF页1 L6–9 (71)申请人杭州轩旷科技有限公司及唐国苗，明确与选框异字。只读首页身份范围，不宣称读完整11页或核当前专利法律状态。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403，本批未重访/未逐名逐类核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403，本批未重访/未逐名逐类核准。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Xuankuang",
+          "scope": "2026-11-08实际逐名Xuankuang入口不可访问；不等于无登记。"
+        }
+      },
+      "risks": [
+        "选矿/轩旷近音，拼音不宜直接照搬既有企业Roman形式",
+        "GUI通名显著性弱、视觉控件或配镜首感",
+        "公司及9/42官方登记未清"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "quality_rejected_not_searched_ids": [],
+  "completed_search_result_count": 10,
+  "new_failed_search_attempts": 0,
+  "controls_reused_not_new": "原run2阳性对照，本批0新对照。",
+  "passed_chinese_candidate_ids": [
+    "C1-C46"
+  ],
+  "rejected_chinese_candidate_ids": []
+}

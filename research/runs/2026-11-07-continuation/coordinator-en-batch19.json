@@ -1,0 +1,80 @@
+{
+  "reviewed_at": "2026-11-07T18:58:58.113095+08:00",
+  "independence": "Read producer preview batch19 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "CT-C31",
+      "name": "Measured Wonder",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "正常词组可读",
+          "counter_association": "measured尾辅音稍密"
+        },
+        "spelling": {
+          "reason": "常用完整单词",
+          "counter_association": "词组可能已作题名"
+        },
+        "grounding": {
+          "reason": "好奇激励限制有论文支持",
+          "counter_association": "不是已发表算法"
+        },
+        "bilingual_relation": {
+          "reason": "审慎好奇与有界共享研究态度",
+          "counter_association": "不是数学量化界"
+        },
+        "distinctiveness": {
+          "reason": "态度明确但专名感中等",
+          "counter_association": "科学传播或艺术联想"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E35"
+    },
+    {
+      "candidate_id": "CT-C32",
+      "name": "Latent Stage",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 24,
+      "notes": {
+        "pronunciation": {
+          "reason": "圈内常见词读音清楚",
+          "counter_association": "圈外需理解latent"
+        },
+        "spelling": {
+          "reason": "完整单词",
+          "counter_association": "需区分latent state"
+        },
+        "grounding": {
+          "reason": "潜空间加排练舞台同一过程",
+          "counter_association": "stage不是论文术语"
+        },
+        "bilingual_relation": {
+          "reason": "中文实践和英文场所互补",
+          "counter_association": "模型模拟有误差"
+        },
+        "distinctiveness": {
+          "reason": "技术和舞台两世界自然相遇",
+          "counter_association": "生成艺术联想"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "CT-E36"
+    }
+  ]
+}

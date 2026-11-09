@@ -1,0 +1,60 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4",
+  "executed_at": "2026-11-08T10:53:07.105230+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch11.json",
+      "sha256": "76af2b122af8c2f5dfd7e3ded9e08559393182082f0ebd8bb483092ef72a1eec"
+    },
+    {
+      "path": "materials-extension10.json",
+      "sha256": "46b79ce31367a23388ba13910cf7aaa15ce69c8a824b16f7f2039027d376090b"
+    },
+    {
+      "path": "coordinator-cn-batch11.json",
+      "sha256": "b6efc93956396ce283b8097ef55ad096ba9a651ef6a8075a61b1a960743c3911"
+    },
+    {
+      "path": "coordinator-family-review-batch11.json",
+      "sha256": "9bfcaff9c15350ffffb5b005fd4aa70551aebe991ad64f43a77b9392e659c429"
+    },
+    {
+      "path": "A3-cn-batch13.json",
+      "sha256": "e309200efff2c49126ce985443ec69d31bbf44e6dc75bca1ff4a57d6e598e5b4"
+    },
+    {
+      "path": "A3-cn-batch13-receipt.json",
+      "sha256": "03b22b6492ec0b57ce89420d3e7e451e7c198e5b92ecc46820e06dd629e96626"
+    }
+  ],
+  "actual_input_check": "正式cn13及receipt已落，实际读取并核输出SHA；中文passed不继承英文。",
+  "actual_source_reads": [
+    {
+      "url": "https://www.nationalacademies.org/read/25303/chapter/6",
+      "scope": "实际读120–151行，后185行定位超时，不声称整书或该段后半已读"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/inquire",
+      "scope": "实际读31–64行词义"
+    }
+  ],
+  "relationship_used": "新数据再次调查同一问题并比较原发现，非同数据重算或输出自我重复。",
+  "pinyin_risk_not_used": "Fuzheng原A3已核富正异字显示模组品牌，本角色未重新外查。",
+  "output_candidate_ids": [
+    "C1-E20"
+  ],
+  "new_chinese_names": 0,
+  "new_english_versions": 1,
+  "usage_queries": 0,
+  "registration_queries": 0,
+  "rework_attempt": 0,
+  "remaining_reworks": 2,
+  "outputs": [
+    "A4-preview-batch20.md",
+    "A4-candidates-batch20.json",
+    "A4-quality-batch20.json"
+  ],
+  "original_records_unchanged": true,
+  "next": "主控独立质量复评，合格后原A3英文查重；未查不入库。"
+}

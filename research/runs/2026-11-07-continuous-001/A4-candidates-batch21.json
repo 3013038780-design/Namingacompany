@@ -1,0 +1,75 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-08T10:56:23.277054+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch11.json",
+      "sha256": "76af2b122af8c2f5dfd7e3ded9e08559393182082f0ebd8bb483092ef72a1eec"
+    },
+    {
+      "path": "materials-extension10.json",
+      "sha256": "46b79ce31367a23388ba13910cf7aaa15ce69c8a824b16f7f2039027d376090b"
+    },
+    {
+      "path": "coordinator-cn-batch11.json",
+      "sha256": "b6efc93956396ce283b8097ef55ad096ba9a651ef6a8075a61b1a960743c3911"
+    },
+    {
+      "path": "coordinator-family-review-batch11.json",
+      "sha256": "9bfcaff9c15350ffffb5b005fd4aa70551aebe991ad64f43a77b9392e659c429"
+    },
+    {
+      "path": "A3-cn-batch13.json",
+      "sha256": "e309200efff2c49126ce985443ec69d31bbf44e6dc75bca1ff4a57d6e598e5b4"
+    },
+    {
+      "path": "A3-cn-batch13-receipt.json",
+      "sha256": "03b22b6492ec0b57ce89420d3e7e451e7c198e5b92ecc46820e06dd629e96626"
+    },
+    {
+      "path": "A4-candidates-batch20.json",
+      "sha256": "deff2b9c9f2b61958f7dd64cf88de87091ce6acc1085fd16ac3c731f4ef97303"
+    },
+    {
+      "path": "A3-en-batch20.json",
+      "sha256": "9fb02928fbb64dae722c776785e3fda72fb958aab34faa6dd94d8b52e0d8e024"
+    },
+    {
+      "path": "A3-cn-batch13-traditional-supplement.json",
+      "sha256": "3e766ae0e01a0f64bab83d7a99a06a2c0d53633228f2636bf9a129de5b018de0"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E21",
+      "chinese_id": "C1-C24",
+      "chinese": "复证",
+      "english": "Fresh Witness",
+      "family_id": "C1-BF-recheck-with-new-evidence",
+      "suggested_pronunciation": "FRESH WIT-ness，/ˌfreʃ ˈwɪtnəs/，三个音节。",
+      "type": "正常完整英语名词短语，主题角色化配对",
+      "formation": "fresh（新的）+ witness（提供证据者，或作为证据的事物）。witness词典不只指法院证人，也指提供证据的事物；本案把新研究收集的数据当成面对旧问题的新见证。不是将两份好寓意相加，也不是改Reinquire拼写躲重；Fresh Witness不假称是原报告术语。",
+      "bilingual_relation": "复证说既有发现再受检验，Fresh Witness给出再次检验所需的新角色：新的数据带来另一份可比较的证据，而非让原输出自我作证。英文强调证据的更新，中文强调检验动作，主题共享同一新数据与旧发现的关系。",
+      "meaning": "让旧的认识，听到新的证据。新数据可以支持，也可以不支持原来的发现；品牌可以承载一间持续欢迎重新检验的研究机构，而非以证人角色承诺永远正确。",
+      "shortcoming": "第一印象偏法律服务、调查报道、纪录片或证据工具；并非一眼就指AI Lab。两个常用词的短语辨识有限，也可能把witness只读成人类证人。若故事退化成换个人再看一遍，而没有新数据研究，就丢掉本家族独特关系。",
+      "boundary": "证据是品牌拟物，不是宣称数据具有主观经验或法律证人资格；新数据不自动更正确，见证也不等于绝对证明。与同一数据重算/原回答重复不同，不强制换独立团队。词典仅支持witness现成词义，不能用来证明科学复核已成功。",
+      "source_urls": [
+        "https://www.nationalacademies.org/read/25303/chapter/6",
+        "https://www.merriam-webster.com/dictionary/witness"
+      ],
+      "read_scope": "本人前稿实际读NASEM第3章120–151行术语及同/新数据区别，后半定位超时的边界不变；本次实际读A3-en20命名软件报告性质及正确繁体復證两查询补档。另实际打开并find读Merriam-Webster witness词条34–63行，核提供证据者和作为证据的事物义；没有本人测试广告软件或重新查品牌。",
+      "rework_attempt": 1,
+      "remaining_reworks": 1,
+      "status": "english_quality_proposal_not_usage_screened"
+    }
+  ],
+  "usage_screening_performed": false,
+  "rework": {
+    "attempt": 1,
+    "remaining_after_this": 1,
+    "previous_english_id": "C1-E20",
+    "reason": "原A3研究者报告确证Reinquire应用命名及负面关联，避让；不背书报告所有危害说法，不称登记AI公司或商标占用。",
+    "not_new_chinese_family": true
+  }
+}

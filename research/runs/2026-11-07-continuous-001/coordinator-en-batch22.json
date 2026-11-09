@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-08T11:00:09.048235+08:00",
+  "independence": "Read producer preview batch22 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C24",
+      "name": "Otherdata",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 5,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "other与data均有正常读音",
+          "counter_association": "th及data口音有学习成本"
+        },
+        "spelling": {
+          "reason": "两个标准词完整合写可直接复述",
+          "counter_association": "分写Other Data和合写仍需查重"
+        },
+        "grounding": {
+          "reason": "另一份数据正是已读再研究的实际对象",
+          "counter_association": "other本身不保证新采集或同问题"
+        },
+        "bilingual_relation": {
+          "reason": "英文材料与中文再检验动作同场相接",
+          "counter_association": "名字不独自包含新数据采集和条件约束"
+        },
+        "distinctiveness": {
+          "reason": "完整对象称呼能容纳数据与研究机构",
+          "counter_association": "普通分类其他资料及咨询平台首感强，辨识仅最低接受"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E22"
+    }
+  ]
+}

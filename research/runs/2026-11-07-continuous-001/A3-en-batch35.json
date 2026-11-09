@@ -1,0 +1,132 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-08T22:42:22.020884+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch35.json",
+      "sha256": "ce2ba3e28805bc678d29fb8b8bee635973a5adbee014c807e76f2958a5672aa4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch35.md",
+      "sha256": "c59c7c927a5c9261828ab5f657483c865de151599e870afedf0643860de88237"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch35.json",
+      "sha256": "642929fd73e77ae24a4c1c5f2ec79d78539847c7f33b1c17fe5bd2f30c5f6ce9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch35.json",
+      "sha256": "17c09054d1c8cae22112e64dacaf5dccfabf9bcb98691b91f56280c778983eb3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch35.json",
+      "sha256": "cf383d6089fe70077288e8959cde39e127dfea3873d27a6d53cc4f368b93363f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch29.json",
+      "sha256": "1b41cdbf9aa61e11da190d79d15e50f61c911addc3eda31c242ae805558193fa"
+    }
+  ],
+  "query_count": 6,
+  "results": [
+    {
+      "candidate_id": "C1-E38",
+      "name": "Common Grip",
+      "query_logs": [
+        {
+          "query": "\"Common Grip\"",
+          "executed_on": "2026-11-08",
+          "summary": "主要高尔夫/乒乓常见握法，普通短语非独立品牌。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Common Grip\" company lab",
+          "executed_on": "2026-11-08",
+          "summary": "实验室手术刀握法及夹具行业通用描述，未确证完整公司。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Common Grip\" AI model",
+          "executed_on": "2026-11-08",
+          "summary": "AI回答网球握法及研究grip-types的通用对象，非名为Common Grip的模型。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Common Grip\" software product",
+          "executed_on": "2026-11-08",
+          "summary": "软件Grip Control及DuriFishing分类线索；均实际开正文辨产品名与分类/描述。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"CommonGrip\"",
+          "executed_on": "2026-11-08",
+          "summary": "合写命中2017McLane目录OCR把common与grip粘连，非新独立软件主证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Common-Grip\" brand",
+          "executed_on": "2026-11-08",
+          "summary": "命中HOUSE OF COMMON品牌握力器、普通冰球握把，开字段核品牌全称，不截作Common Grip。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "pass_public_use_initial_screen_only",
+      "reason": "六有效查询未确证完整独立公司/软件/产品品牌；软件Grip Control中的common grip为外观描述，DuriFishing为通用握把分类且供应商Rodcraft，多型号无独立Common Grip品牌确证；HOUSE OF COMMON为不同完整品牌。仅公开初筛，不假登记通过。",
+      "evidence": [
+        {
+          "url": "https://shareapp.net/grip_download/",
+          "access": "software_directory_body_read",
+          "finding": "L10产品Grip Control、L14开发AlterSourcing，L23–25 common grip只是控件外观描述。"
+        },
+        {
+          "url": "https://www.durifishing.com/collections/common-grip",
+          "access": "primary_seller_category_and_products_read",
+          "finding": "L97–124 Handles & Grips下Common Grip分类，L300–335/350–384/468–478多型号，VENDOR Rodcraft及general purpose描述；未见Common Grip独立品牌/专名系列证据，不因一般品类在售就否决。"
+        },
+        {
+          "url": "https://www.flipkart.com/house-common-grip-hand-gripper-strengthening-grip-fitness/p/itm7a4dbdaa1e704",
+          "access": "marketplace_product_fields_read",
+          "finding": "L114–124 Brand=HOUSE OF COMMON、Model=Grip Hand gripper for hand strengthening、Type=Hand Grip/Fitness Grip；完整品牌不是Common Grip。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403，本批未重访/未逐名逐类核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403，本批未重访/未逐名逐类核准。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=CommonGrip",
+          "scope": "2026-11-08实际逐名CommonGrip入口不可访问，非无登记。"
+        }
+      },
+      "chinese_id": "C1-C46",
+      "chinese": "选框",
+      "rework_attempt": 0,
+      "remaining_reworks": 2,
+      "risks": [
+        "运动握把/工业夹具/摄影器材第一联想与通用词显著性低",
+        "登记与9/42未清",
+        "中文选框通名与选矿/轩旷近音风险保持"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "claim_limits": "公开使用初筛/具体商业避让，不假称官方核名或9/42注册通过。",
+  "passed_english_candidate_ids": [
+    "C1-E38"
+  ],
+  "returned_english_candidate_ids": [],
+  "quality_rejected_not_searched_ids": [],
+  "completed_search_result_count": 6,
+  "new_failed_search_attempts": 0,
+  "controls_reused_not_new": "原run2阳性对照，本批0新对照。",
+  "rejected_english_candidate_ids": []
+}

@@ -1,0 +1,425 @@
+{
+  "protocol_version": "1.1",
+  "stage": "A3-cn",
+  "agent_id": "/root/minimal_screening",
+  "scope": "用户授权最小完整四Agent小样，仅2中文，不查英文、不改名",
+  "status": "completed_zero_pass",
+  "completed_at": "2026-11-07T16:19:50+08:00",
+  "input_refs": [
+    {
+      "path": "README.md",
+      "sha256": "cd8b811fb3e013630b4d77445a987caf9f0ff5d73adfdab60322e3d4a8c24828"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80"
+    },
+    {
+      "path": "research/preferences.json",
+      "sha256": "8f5eeb1278f4dfaa0d87927537caae459a7552069a5596982edafd06b44a4cd4"
+    },
+    {
+      "path": "research/seed/README.md",
+      "sha256": "44cb357ed9db7edb5dc6c9a32ef1729e482ab3a9ef1f9dc6598dfbb3fc0d33b3"
+    },
+    {
+      "path": "research/seed/brand-naming-foundation.md",
+      "sha256": "92cb6c7cd36c201d35900528826a8aa9aca5a75c632df57d30dcaade5547f519"
+    },
+    {
+      "path": "research/runs/2026-11-07-minimal-cycle/A1.json",
+      "sha256": "6b594f16918ea37b43ef911475387f9537a91e37692f41a885204da172119a55"
+    },
+    {
+      "path": "research/runs/2026-11-07-minimal-cycle/A2.json",
+      "sha256": "12ba9e69ac1d472f2d3387098af8c4f44b98edfb5c9977a3af353ef88ea795ab"
+    },
+    {
+      "path": "research/runs/2026-11-07-minimal-cycle/chinese-review.json",
+      "sha256": "bcbba11b3108eadccbfaa227ca49194650edf007d9c985648c24267b85d52e9a"
+    }
+  ],
+  "actual_execution": "此Agent实际读取授权和上游文件、执行13组候选查询（10组最低查询+3组定向补证）及2组阳性对照查询，共15组。不把同批去重返回结果视为单独登记。",
+  "history_scope": "扫描research/runs全部candidate/rejection JSON的名称及原因，核对原语/声子历史未提案；内部去重沿用A2，市场审核独立执行。",
+  "screened_count": 2,
+  "pass_count": 0,
+  "reject_count": 1,
+  "hold_count": 1,
+  "passed_candidate_ids": [],
+  "a4_input_candidate_ids": [],
+  "not_screened": [
+    {
+      "candidate_id": "MC-A2-02",
+      "name": "倍频",
+      "reason": "上游质量淘汰；未查市场使用"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "MC-A2-01",
+      "name": "原语",
+      "query_count": 5,
+      "query_logs": [
+        {
+          "query": "\"原语\"",
+          "category": "exact_no_industry",
+          "executed_on": "2026-11-07",
+          "tool": "web.run search_query",
+          "result_summary": "出现原语科技、深圳原语科技自然语言交互线索；通用原语词义不能单独作为占用。",
+          "result_urls": [
+            "https://pitchhub.36kr.com/project/1958583262090246",
+            "https://m.zhipin.com/companys/905850c5e06ee1c50HV839q8FA~~.html"
+          ],
+          "execution_reference": "turn940search0–1"
+        },
+        {
+          "query": "\"原语\" 公司 科技",
+          "category": "company_tech",
+          "executed_on": "2026-11-07",
+          "tool": "web.run search_query",
+          "result_summary": "北京原语科技与深圳原语科技为中文同字号线索。",
+          "result_urls": [
+            "https://pitchhub.36kr.com/project/1958583262090246"
+          ],
+          "execution_reference": "turn940search0–1"
+        },
+        {
+          "query": "\"原语\" AI 模型 软件",
+          "category": "AI_model_software",
+          "executed_on": "2026-11-07",
+          "tool": "web.run search_query",
+          "result_summary": "原语科技/原语AI平台线索；其余论文中的原语多为概念使用，未误判。",
+          "result_urls": [
+            "https://m.zhipin.com/companys/905850c5e06ee1c50HV839q8FA~~.html"
+          ],
+          "execution_reference": "turn940search1,4–11"
+        },
+        {
+          "query": "\"原語\" 科技 公司",
+          "category": "traditional",
+          "executed_on": "2026-11-07",
+          "tool": "web.run search_query",
+          "result_summary": "返回原語词典项及科技相关内容，未由无直接品牌结果推断清白。",
+          "result_urls": [
+            "https://www.chineseboost.com/cidian/%E5%8E%9F%E8%AA%9E/"
+          ],
+          "execution_reference": "turn940search2–3"
+        },
+        {
+          "query": "\"yuanyu\" \"科技\"",
+          "category": "pinyin",
+          "executed_on": "2026-11-07",
+          "tool": "web.run search_query",
+          "result_summary": "元宇科技香港、缘遇科技、元域寰宇及元佑等拼音相同或相近主体线索，不是原语中文完全同名证据。",
+          "result_urls": [
+            "https://hkg.databasesets.com/zh-hant/gongsimingdan/number/78750451",
+            "https://www.86hc.com/yuanyu-technology-limited"
+          ],
+          "execution_reference": "turn942search2,6,8,10"
+        }
+      ],
+      "conclusion": "reject",
+      "reason_code": "EXACT_TECH_USE",
+      "reason": "原语已作为科技公司核心字号和隐私计算软件品牌核心字样使用；开发者正文明确logoTitle为原语隐私计算平台。非仅英文词撞名，亦非技术术语一般使用。",
+      "entities": [
+        {
+          "company_full_name": "北京原语科技有限公司",
+          "product_name": "PrimiHub / 原语隐私计算平台",
+          "match_nature": "中文核心字号/品牌原语完全同名；公司全称与产品全称含地区及通用行业后缀，不声称全称只有原语两字",
+          "region": "中国大陆北京",
+          "current_status": "本次可读开发者软件文档仍呈现品牌使用；工商存续与商标权未官方实时核验"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://primihub.com/",
+          "source_level": "primary_website",
+          "opened_on": "2026-11-07",
+          "reading_scope": "仅L0 JavaScript提示，未读取业务正文",
+          "summary": "网页标题原语科技，正文不可用，不能独立作为决定证据。",
+          "match_nature": "未据壳页确证",
+          "region": "中国大陆",
+          "execution_reference": "turn942view0"
+        },
+        {
+          "url": "https://github.com/primihub/primihub-platform/blob/develop/primihub-webconsole/README.md",
+          "source_level": "primary_developer",
+          "opened_on": "2026-11-07",
+          "reading_scope": "项目概述L197–203及应用设置L394–404，重点logoTitle",
+          "summary": "开发者组织公开软件文档将界面品牌标成原语隐私计算平台。",
+          "match_nature": "中文核心品牌同名",
+          "region": "中国大陆",
+          "execution_reference": "turn944view0; turn945view3 L394–404"
+        },
+        {
+          "url": "https://pitchhub.36kr.com/project/1958583262090246",
+          "source_level": "secondary_business_profile",
+          "opened_on": "2026-11-07",
+          "reading_scope": "L19–27、42–56、100–105",
+          "summary": "将原语科技连接到primihub.com并列出北京原语科技有限公司及隐私计算业务。",
+          "match_nature": "中文字号同名，辅助主体关联",
+          "region": "中国大陆北京",
+          "execution_reference": "turn945view0"
+        }
+      ],
+      "registration": [
+        {
+          "region": "中国大陆",
+          "entry": "公司登记",
+          "status": "not_checked",
+          "detail": "公开使用已明确否决，无需做可用性推断；未查官方登记。"
+        },
+        {
+          "region": "中国大陆",
+          "entry": "商标第9类",
+          "status": "not_checked",
+          "detail": "公开使用已明确否决，无需做可用性推断；未查官方登记。"
+        },
+        {
+          "region": "中国大陆",
+          "entry": "商标第42类",
+          "status": "not_checked",
+          "detail": "公开使用已明确否决，无需做可用性推断；未查官方登记。"
+        },
+        {
+          "region": "英国",
+          "entry": "公司登记",
+          "status": "not_checked",
+          "detail": "公开使用已明确否决，无需做可用性推断；未查官方登记。"
+        }
+      ]
+    },
+    {
+      "candidate_id": "MC-A2-03",
+      "name": "声子",
+      "query_count": 5,
+      "query_logs": [
+        {
+          "query": "\"声子\"",
+          "category": "exact_no_industry",
+          "executed_on": "2026-11-07",
+          "tool": "web.run search_query",
+          "result_summary": "返回词典、历史人名、声子新材料/声子时代科技公司等；科学通名不是品牌占用。",
+          "result_urls": [
+            "https://www.shuididp.cn/yp-c6e40f2cedc9ea973baadc4cfdb45a01.html"
+          ],
+          "execution_reference": "turn941search0–1,12–19"
+        },
+        {
+          "query": "\"声子\" 公司 科技",
+          "category": "company_tech",
+          "executed_on": "2026-11-07",
+          "tool": "web.run search_query",
+          "result_summary": "东莞市声子新材料技术有限公司以及声子时代(嘉兴)智能科技有限责任公司线索；前者字号同名但仅第三方，后者完整字号近似。",
+          "result_urls": [
+            "https://www.shuididp.cn/yp-c6e40f2cedc9ea973baadc4cfdb45a01.html",
+            "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/SBGG/2025/2025-9/2025-09-19/11469513.PDF"
+          ],
+          "execution_reference": "turn941search1,12"
+        },
+        {
+          "query": "\"声子\" AI 模型 软件",
+          "category": "AI_model_software",
+          "executed_on": "2026-11-07",
+          "tool": "web.run search_query",
+          "result_summary": "结果以科学术语及材料模拟内容为主；未确认独立名为声子的AI模型/软件品牌。",
+          "result_urls": [
+            "https://zh.wikipedia.org/wiki/%E5%A3%B0%E5%AD%90"
+          ],
+          "execution_reference": "turn941search15–19"
+        },
+        {
+          "query": "\"聲子\" 科技 公司",
+          "category": "traditional",
+          "executed_on": "2026-11-07",
+          "tool": "web.run search_query",
+          "result_summary": "美商聲子科技有限公司台灣分公司第三方记录；另有声子乐集跨行业品牌。",
+          "result_urls": [
+            "https://info.technews.tw/company/56712874-%E7%BE%8E%E5%95%86%E8%81%B2%E5%AD%90%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%8F%B0%E7%81%A3%E5%88%86%E5%85%AC%E5%8F%B8",
+            "https://phononmusic.net/terms/user"
+          ],
+          "execution_reference": "turn941search2,4,7"
+        },
+        {
+          "query": "\"shengzi\" 公司 科技",
+          "category": "pinyin",
+          "executed_on": "2026-11-07",
+          "tool": "web.run search_query",
+          "result_summary": "出现香港勝姿生物科技有限公司官方名单线索和个人名；不是声子中文同名。",
+          "result_urls": [
+            "https://www.cr.gov.hk/docs/wrpt/wk_new%26changednamecoys_20170918.pdf"
+          ],
+          "execution_reference": "turn942search17,21"
+        }
+      ],
+      "conclusion": "hold",
+      "reason_code": "EVIDENCE_HOLD",
+      "additional_reason_codes": [
+        "NEAR_MATCH_HOLD"
+      ],
+      "reason": "存在同中文字号科技公司第三方记录，当前未核验其primary中文使用与实时主体状态；另有跨行业聲子樂集活跃官网。不能给出公开初筛通过，也不能将其夸大成已确认同名AI公司或商标占用。",
+      "entities": [
+        {
+          "company_full_name": "美商聲子科技有限公司台灣分公司",
+          "match_nature": "聲子与声子繁简完全对应；中文核心字号同名线索",
+          "region": "台湾；名称提示美国主体但本轮未核验其美国主体",
+          "current_status": "第三方列2017设立/2018变更；现状未官方核验"
+        },
+        {
+          "company_full_name": "东莞市声子新材料技术有限公司",
+          "match_nature": "中文核心字号同名线索",
+          "region": "中国大陆广东",
+          "current_status": "搜索返回第三方存续信息；打开正文超时，不能确认当前状态"
+        },
+        {
+          "company_full_name": "聲子樂集",
+          "match_nature": "含声子词根的跨行业近似活跃品牌，完整名不同",
+          "region": "台湾",
+          "current_status": "官网服务条款可读，页面自标2026-04-30更新"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://info.technews.tw/company/56712874-%E7%BE%8E%E5%95%86%E8%81%B2%E5%AD%90%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%8F%B0%E7%81%A3%E5%88%86%E5%85%AC%E5%8F%B8",
+          "source_level": "secondary_company_database",
+          "opened_on": "2026-11-07",
+          "reading_scope": "L14–35公司名/统编/设立日期及页面变更记录",
+          "summary": "显示美商聲子科技台湾分公司；非政府实时登记，未找到其可读中文官网正文。",
+          "match_nature": "核心字号同名线索",
+          "region": "台湾",
+          "execution_reference": "turn943view2"
+        },
+        {
+          "url": "https://www.shuididp.cn/yp-c6e40f2cedc9ea973baadc4cfdb45a01.html",
+          "source_level": "search_result_only_body_unavailable",
+          "opened_on": "2026-11-07",
+          "reading_scope": "打开超时；仅检索返回文本",
+          "summary": "结果列电子材料、仪表等业务；无primary佐证，保持未核实。",
+          "match_nature": "核心字号同名线索",
+          "region": "中国大陆广东",
+          "execution_reference": "turn941search1; turn945view1"
+        },
+        {
+          "url": "https://phononmusic.net/terms/user",
+          "source_level": "primary_website",
+          "opened_on": "2026-11-07",
+          "reading_scope": "使用者条款L0–21，日期/主体/场地、咖啡、售票、储值服务",
+          "summary": "声子乐集为活跃跨行业使用；不是声子两字同名科技公司证据。",
+          "match_nature": "近似/跨行业",
+          "region": "台湾",
+          "execution_reference": "turn944view1"
+        }
+      ],
+      "registration": [
+        {
+          "region": "中国大陆",
+          "entry": "国家企业信用信息公示系统",
+          "url": "https://www.gsxt.gov.cn/",
+          "status": "unavailable",
+          "attempted_on": "2026-11-07",
+          "query_name": "声子",
+          "query_executed": false,
+          "detail": "入口403；未完成逐名查询。",
+          "execution_reference": "turn944view2"
+        },
+        {
+          "region": "中国大陆",
+          "entry": "中国商标网查询 第9类",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "status": "unavailable",
+          "attempted_on": "2026-11-07",
+          "query_name": "声子",
+          "query_executed": false,
+          "detail": "入口403；未选择第9类、未完成逐名查询。",
+          "execution_reference": "turn944view3"
+        },
+        {
+          "region": "中国大陆",
+          "entry": "中国商标网查询 第42类",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "status": "unavailable",
+          "attempted_on": "2026-11-07",
+          "query_name": "声子",
+          "query_executed": false,
+          "detail": "与第9类同一实际失败入口；未选择第42类、未完成逐名查询，不计为第二次独立打开。",
+          "execution_reference": "turn944view3"
+        },
+        {
+          "region": "英国",
+          "entry": "Companies House",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=%E5%A3%B0%E5%AD%90",
+          "status": "unavailable",
+          "attempted_on": "2026-11-07",
+          "query_name": "声子",
+          "query_executed": false,
+          "detail": "尝试直接中文名搜索URL，工具报告不可访问；未取得官方逐名查询结果。",
+          "execution_reference": "turn944view4"
+        }
+      ]
+    }
+  ],
+  "supplemental_query_logs": [
+    {
+      "query": "原语科技 site:github.com/primihub",
+      "category": "targeted_primary",
+      "executed_on": "2026-11-07",
+      "tool": "web.run search_query",
+      "result_summary": "找到开发者组织项目及WebConsole说明，打开正文核对品牌字样。",
+      "result_urls": [
+        "https://github.com/primihub/primihub-platform/blob/develop/primihub-webconsole/README.md",
+        "https://github.com/primihub/primihub"
+      ],
+      "execution_reference": "turn943search0–1"
+    },
+    {
+      "query": "\"声子科技\" 官网",
+      "category": "targeted_primary",
+      "executed_on": "2026-11-07",
+      "tool": "web.run search_query",
+      "result_summary": "本批未得到可据其中文正文确认的同名科技主体官网；不把第三方记录提升为primary。",
+      "result_urls": [
+        "https://info.technews.tw/company/56712874-%E7%BE%8E%E5%95%86%E8%81%B2%E5%AD%90%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%8F%B0%E7%81%A3%E5%88%86%E5%85%AC%E5%8F%B8"
+      ],
+      "execution_reference": "turn943search batch"
+    },
+    {
+      "query": "\"声子\" \"软件\" 公司 官网",
+      "category": "targeted_primary",
+      "executed_on": "2026-11-07",
+      "tool": "web.run search_query",
+      "result_summary": "返回MedeA Phonon计算模块采购及声子计算技术内容，属于功能/术语或英文模块名，不当作声子中文独立品牌。",
+      "result_urls": [
+        "https://manage.gsei.com.cn/html/1664/2020-06-19/content-280065.html"
+      ],
+      "execution_reference": "turn943search2,5,8,15"
+    }
+  ],
+  "positive_controls": [
+    {
+      "name": "OpenAI",
+      "kind": "company",
+      "query": "OpenAI company official",
+      "executed_on": "2026-11-07",
+      "opened_url": "https://openai.com/about/",
+      "reading_scope": "L11–17公司与About正文",
+      "result": "官方正文明确AI研究和部署公司，阳性检出",
+      "execution_reference": "turn942search0; turn943view0"
+    },
+    {
+      "name": "Cursor",
+      "kind": "software_product",
+      "query": "Cursor AI editor official",
+      "executed_on": "2026-11-07",
+      "opened_url": "https://cursor.com/product",
+      "reading_scope": "产品正文L292–357及页尾L557–582",
+      "result": "官方正文说明代码编写/审查、编辑文件和命令等，产品阳性检出；页尾Anysphere。",
+      "execution_reference": "turn942search3–5; turn943view1; turn944view5"
+    }
+  ],
+  "registration_boundary": "无逐名官方登记核验完成；公开使用判断不等于注册权判断。没有全球未注册或可注册结论。",
+  "handoff": {
+    "to": "A4",
+    "status": "zero_input",
+    "reason": "原语reject、声子hold，合格中文0。需真实A4独立检查零输入；本Agent未冒充A4，英文复查尚待后续真实交接。"
+  }
+}

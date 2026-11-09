@@ -1,0 +1,133 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "completed_at": "2026-11-09T01:01:42.303189+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch43.md",
+      "sha256": "871260689e64df1e33f2fad5950a43ce04c230de00b1734c2b2f84b3f96f701c"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch43.json",
+      "sha256": "5c179540fb2be5700697673177a029d84f32eeb73c141cf3d90be8ca3769cadf"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch43.json",
+      "sha256": "5d8da1e565886547b51160529edc96d59a49c52f9dc9865957e8170a07c792e0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch43.json",
+      "sha256": "14c1d52240cf67f231c55abd45c0920f00e838df422bd784686901d5a945ccbf"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch43.json",
+      "sha256": "28beb379158c822aa8ef357f54ead9e8dbdee967bb3725bb72d347bec89d9bc9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch34.json",
+      "sha256": "4c75c10ef5911955763946a0553d328c871d388a226bbf7eabc590cbda6b3e80"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch42.json",
+      "sha256": "5e350022ee8708bf195c6b66487e8df47b093c8c63bcefc21679469ba8e60d4a"
+    }
+  ],
+  "query_count": 6,
+  "completed_search_result_count": 6,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-E45",
+      "chinese_id": "C1-C52",
+      "chinese": "试飞员",
+      "english": "Flightback",
+      "query_logs": [
+        {
+          "query": "\"Flightback\"",
+          "executed_on": "2026-11-09",
+          "summary": "精确组命中FlightBack意大利服务品牌及flightback.co具名项目，已开两一手正文核。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Flightback\" company lab",
+          "executed_on": "2026-11-09",
+          "summary": "公司Lab组返回flightback.co自动索赔项目与意大利服务，页面Coming Soon不能冒已正式发售/法人成立。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Flightback\" AI model",
+          "executed_on": "2026-11-09",
+          "summary": "AI模型组有Devpost FlightBack agent项目索引，实际open403未读正文，不称已核AI模型或用作主证。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Flightback\" software product",
+          "executed_on": "2026-11-09",
+          "summary": "软件产品组同完整项目及意大利品牌条款索引，拒绝依可读一手服务页与候补页；不背书其法律准确性/效果。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Flight Back\" company",
+          "executed_on": "2026-11-09",
+          "summary": "分写组主要返程机票普通句和其他品牌Flight Reclaim，普通flight back不自动品牌。",
+          "status": "completed_search_result"
+        },
+        {
+          "query": "\"Fightback\" software company",
+          "executed_on": "2026-11-09",
+          "summary": "近形Fightback组有教育软件/企业索引，但少l为不同拼写；不混同Flightback精确使用。",
+          "status": "completed_search_result"
+        }
+      ],
+      "decision": "reject_existing_exact_core_commercial_service_and_named_product",
+      "reason": "Flightback.it一手服务品牌完整同核心；Flightback.co另有Coming Soon具名自动索赔项目，不能当普通返程句。按既定跨行业商业避让拒首返，不依403Devpost或不同拼写Fightback。中文初筛保持，最后R2余1。",
+      "evidence": [
+        {
+          "url": "https://flightback.it/servizi/",
+          "access": "primary_commercial_service_body_read",
+          "finding": "L38–95列延误/取消/超售/行李赔偿服务，L91称FlightBack、L99/135版权及Part of GEIS。是现有完整商业核心使用；不冒本次法人/商标登记核准或评估索赔法律主张。"
+        },
+        {
+          "url": "https://flightback.co/",
+          "access": "primary_named_product_waitlist_body_read",
+          "finding": "L0 FlightBack，L2 Coming Soon，L8描述自动索赔、L14–16候补/launch；L41–66产品流程。仅确证公开具名项目及候补，未证明正式发售、已运行功能或与意大利主体同一。"
+        },
+        {
+          "url": "https://devpost.com/software/flight-delay",
+          "access": "search_index_only_open_403",
+          "finding": "检索摘要中具名FlightBack agent，实际open403；不作已读一手正文或唯一拒绝依据。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Flightback",
+          "scope": "2026-11-09本次逐名入口不可访问，不称无登记。"
+        }
+      },
+      "risks": [
+        "意大利与.co品牌是否同主体未核，不擅自归并",
+        "候补公开项目不冒正式发售或运行性能",
+        "Devpost403不冒正文，Fightback近形不同拼写",
+        "公司与9/42登记未清，中文不倒写占用"
+      ]
+    }
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "旧run两真实阳性对照，0新增。",
+  "claim_limits": "公开使用与编辑避让，不假工商/商标核准。",
+  "passed_english_candidate_ids": [],
+  "returned_english_candidate_ids": [
+    "C1-E45"
+  ]
+}

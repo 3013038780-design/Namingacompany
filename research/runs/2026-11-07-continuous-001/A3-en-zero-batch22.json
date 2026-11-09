@@ -1,0 +1,228 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English zero-input final check",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T20:43:57.348929+08:00",
+  "candidate_ids": [
+    "C1-C38",
+    "C1-C39"
+  ],
+  "names": [
+    "飞梭",
+    "捕蝇草"
+  ],
+  "inputs": [
+    {
+      "path": "A4-zero-input-batch22.json",
+      "sha256": "48565cf2ae7a44fb022e623713afc2ee6e73fab42e22248edd7275276a2d5490"
+    },
+    {
+      "path": "A4-zero-input-batch22.md",
+      "sha256": "f8262d61069e2866a75e972c439e7fe119cfd791799ecfab6497895fdad0befc"
+    },
+    {
+      "path": "A4-zero-input-batch22-receipt.json",
+      "sha256": "8b5fda307a92ed6ee07d8efa403f212610fa3cc0245a0cc1deb9ae531c119da0"
+    },
+    {
+      "path": "A3-cn-batch24.json",
+      "sha256": "be8d7ac04690afc479c44064d604f32f7abb52f8680c5e9c8551b595fa2736d2"
+    },
+    {
+      "path": "A3-cn-batch24.md",
+      "sha256": "fa02c23514926bd369a5e27e4500394e56aa41e86ab87ce912b68c18eabd8af4"
+    },
+    {
+      "path": "A3-cn-batch24-receipt.json",
+      "sha256": "f52795a1d970959832fe648f00f84a6532f7d25dcd2e9c4fb730ed726ce6b236"
+    }
+  ],
+  "actual_upstream_read": true,
+  "hash_checks": [
+    {
+      "path": "A2-candidates-batch22.json",
+      "expected_sha256": "d1cbf13f48570bddc5fc99989682c42ea0c68c402b93ac6d5133015a3c964e7f",
+      "actual_sha256": "d1cbf13f48570bddc5fc99989682c42ea0c68c402b93ac6d5133015a3c964e7f",
+      "matches": true
+    },
+    {
+      "path": "A2-quality-batch22.json",
+      "expected_sha256": "3716ffe4162f3fa1e7d04a487d6cbc4c0578b8f78f00b6aaec353565a1086774",
+      "actual_sha256": "3716ffe4162f3fa1e7d04a487d6cbc4c0578b8f78f00b6aaec353565a1086774",
+      "matches": true
+    },
+    {
+      "path": "coordinator-cn-batch22.json",
+      "expected_sha256": "ae7b10cd9efbde9d2437d31dfeaf620784f8a66bcd323a358976b95a2ff915c2",
+      "actual_sha256": "ae7b10cd9efbde9d2437d31dfeaf620784f8a66bcd323a358976b95a2ff915c2",
+      "matches": true
+    },
+    {
+      "path": "coordinator-family-review-batch22.json",
+      "expected_sha256": "ade6687a88e08443f4992af11016587b8627e9f7f5d98bf9cc05ea85afffe931",
+      "actual_sha256": "ade6687a88e08443f4992af11016587b8627e9f7f5d98bf9cc05ea85afffe931",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch24.json",
+      "expected_sha256": "be8d7ac04690afc479c44064d604f32f7abb52f8680c5e9c8551b595fa2736d2",
+      "actual_sha256": "be8d7ac04690afc479c44064d604f32f7abb52f8680c5e9c8551b595fa2736d2",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch24.md",
+      "expected_sha256": "fa02c23514926bd369a5e27e4500394e56aa41e86ab87ce912b68c18eabd8af4",
+      "actual_sha256": "fa02c23514926bd369a5e27e4500394e56aa41e86ab87ce912b68c18eabd8af4",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch24-receipt.json",
+      "expected_sha256": "f52795a1d970959832fe648f00f84a6532f7d25dcd2e9c4fb730ed726ce6b236",
+      "actual_sha256": "f52795a1d970959832fe648f00f84a6532f7d25dcd2e9c4fb730ed726ce6b236",
+      "matches": true
+    },
+    {
+      "path": "A2-candidates-batch22.json",
+      "expected_sha256": "d1cbf13f48570bddc5fc99989682c42ea0c68c402b93ac6d5133015a3c964e7f",
+      "actual_sha256": "d1cbf13f48570bddc5fc99989682c42ea0c68c402b93ac6d5133015a3c964e7f",
+      "matches": true
+    },
+    {
+      "path": "A2-quality-batch22.json",
+      "expected_sha256": "3716ffe4162f3fa1e7d04a487d6cbc4c0578b8f78f00b6aaec353565a1086774",
+      "actual_sha256": "3716ffe4162f3fa1e7d04a487d6cbc4c0578b8f78f00b6aaec353565a1086774",
+      "matches": true
+    },
+    {
+      "path": "coordinator-cn-batch22.json",
+      "expected_sha256": "ae7b10cd9efbde9d2437d31dfeaf620784f8a66bcd323a358976b95a2ff915c2",
+      "actual_sha256": "ae7b10cd9efbde9d2437d31dfeaf620784f8a66bcd323a358976b95a2ff915c2",
+      "matches": true
+    },
+    {
+      "path": "coordinator-family-review-batch22.json",
+      "expected_sha256": "ade6687a88e08443f4992af11016587b8627e9f7f5d98bf9cc05ea85afffe931",
+      "actual_sha256": "ade6687a88e08443f4992af11016587b8627e9f7f5d98bf9cc05ea85afffe931",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch24.json",
+      "expected_sha256": "be8d7ac04690afc479c44064d604f32f7abb52f8680c5e9c8551b595fa2736d2",
+      "actual_sha256": "be8d7ac04690afc479c44064d604f32f7abb52f8680c5e9c8551b595fa2736d2",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch24.md",
+      "expected_sha256": "fa02c23514926bd369a5e27e4500394e56aa41e86ab87ce912b68c18eabd8af4",
+      "actual_sha256": "fa02c23514926bd369a5e27e4500394e56aa41e86ab87ce912b68c18eabd8af4",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch24-receipt.json",
+      "expected_sha256": "f52795a1d970959832fe648f00f84a6532f7d25dcd2e9c4fb730ed726ce6b236",
+      "actual_sha256": "f52795a1d970959832fe648f00f84a6532f7d25dcd2e9c4fb730ed726ce6b236",
+      "matches": true
+    },
+    {
+      "path": "A4-zero-input-batch22.json",
+      "expected_sha256": "48565cf2ae7a44fb022e623713afc2ee6e73fab42e22248edd7275276a2d5490",
+      "actual_sha256": "48565cf2ae7a44fb022e623713afc2ee6e73fab42e22248edd7275276a2d5490",
+      "matches": true
+    },
+    {
+      "path": "A4-zero-input-batch22.md",
+      "expected_sha256": "f8262d61069e2866a75e972c439e7fe119cfd791799ecfab6497895fdad0befc",
+      "actual_sha256": "f8262d61069e2866a75e972c439e7fe119cfd791799ecfab6497895fdad0befc",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch22.json",
+      "expected_sha256": "d1cbf13f48570bddc5fc99989682c42ea0c68c402b93ac6d5133015a3c964e7f",
+      "actual_sha256": "d1cbf13f48570bddc5fc99989682c42ea0c68c402b93ac6d5133015a3c964e7f",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch22.json",
+      "expected_sha256": "3716ffe4162f3fa1e7d04a487d6cbc4c0578b8f78f00b6aaec353565a1086774",
+      "actual_sha256": "3716ffe4162f3fa1e7d04a487d6cbc4c0578b8f78f00b6aaec353565a1086774",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch22.json",
+      "expected_sha256": "4161ee32fbdbf7ae0a5a9bb71ecba22d9fdebb74885ce091d697ae0fcab1e622",
+      "actual_sha256": "4161ee32fbdbf7ae0a5a9bb71ecba22d9fdebb74885ce091d697ae0fcab1e622",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch22.json",
+      "expected_sha256": "ae7b10cd9efbde9d2437d31dfeaf620784f8a66bcd323a358976b95a2ff915c2",
+      "actual_sha256": "ae7b10cd9efbde9d2437d31dfeaf620784f8a66bcd323a358976b95a2ff915c2",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch22.json",
+      "expected_sha256": "ade6687a88e08443f4992af11016587b8627e9f7f5d98bf9cc05ea85afffe931",
+      "actual_sha256": "ade6687a88e08443f4992af11016587b8627e9f7f5d98bf9cc05ea85afffe931",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch22.json",
+      "expected_sha256": "d1cbf13f48570bddc5fc99989682c42ea0c68c402b93ac6d5133015a3c964e7f",
+      "actual_sha256": "d1cbf13f48570bddc5fc99989682c42ea0c68c402b93ac6d5133015a3c964e7f",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch22.json",
+      "expected_sha256": "3716ffe4162f3fa1e7d04a487d6cbc4c0578b8f78f00b6aaec353565a1086774",
+      "actual_sha256": "3716ffe4162f3fa1e7d04a487d6cbc4c0578b8f78f00b6aaec353565a1086774",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch22.json",
+      "expected_sha256": "4161ee32fbdbf7ae0a5a9bb71ecba22d9fdebb74885ce091d697ae0fcab1e622",
+      "actual_sha256": "4161ee32fbdbf7ae0a5a9bb71ecba22d9fdebb74885ce091d697ae0fcab1e622",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch22.json",
+      "expected_sha256": "ae7b10cd9efbde9d2437d31dfeaf620784f8a66bcd323a358976b95a2ff915c2",
+      "actual_sha256": "ae7b10cd9efbde9d2437d31dfeaf620784f8a66bcd323a358976b95a2ff915c2",
+      "matches": true
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch22.json",
+      "expected_sha256": "ade6687a88e08443f4992af11016587b8627e9f7f5d98bf9cc05ea85afffe931",
+      "actual_sha256": "ade6687a88e08443f4992af11016587b8627e9f7f5d98bf9cc05ea85afffe931",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch24.json",
+      "expected_sha256": "be8d7ac04690afc479c44064d604f32f7abb52f8680c5e9c8551b595fa2736d2",
+      "actual_sha256": "be8d7ac04690afc479c44064d604f32f7abb52f8680c5e9c8551b595fa2736d2",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch24.md",
+      "expected_sha256": "fa02c23514926bd369a5e27e4500394e56aa41e86ab87ce912b68c18eabd8af4",
+      "actual_sha256": "fa02c23514926bd369a5e27e4500394e56aa41e86ab87ce912b68c18eabd8af4",
+      "matches": true
+    }
+  ],
+  "qualified_chinese_inputs": 0,
+  "english_inputs": 0,
+  "english_outputs": 0,
+  "actual_new_candidate_queries": 0,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "query_logs": [],
+  "decision": "zero_english_verified_after_named_software_use_rejections",
+  "reason": "实际核原A4固定零匹配与cn24/receipt，各SHA匹配。拒绝是网新具名飞梭AI平台/上海致景App和hap具名捕蝇草游戏，不是器物或物种本身；不换英语救回。",
+  "agent3_cumulative_candidate_queries": 450,
+  "agent3_cumulative_returned_candidate_results": 449,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 452,
+  "run_cumulative_returned_candidate_results": 451,
+  "numbering_boundary": "实际英文batch30/E31未占用。",
+  "controls_registration_boundary": "本次0查询，0新门户/对照；不重复旧403或未读辅助主体。",
+  "old_records_catalog_queue_git_unchanged": true
+}

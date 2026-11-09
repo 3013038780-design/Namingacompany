@@ -1,0 +1,34 @@
+{
+  "automation_id": "automation",
+  "trigger_at": "2026-11-09T05:29:15.388Z",
+  "resumed_at": "2026-11-09T13:32:33.386482+08:00",
+  "same_run_and_same_existing_packet": true,
+  "interruption_observed": "原042642段在原A2阅读中被中断；此刻原A2batch52已实际完成但未做主控审阅/使用筛查，不另开研究。",
+  "original_A2_completion_actually_read": true,
+  "history": {
+    "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T042642Z/history-scan-after-batch52.json",
+    "sha256": "21da6b9791799c5cd01e3dff76c6fb7362d2330a6083fc0dd6df6049af0a56f5"
+  },
+  "norms": "本聊天上一段已逐字读最新README/AGENTS/preferences/catalog及105taxonomy，本次hash一致后复用，不冒新重读全部外部案例。",
+  "required_file_hashes": {
+    "README.md": "1e4b2094351eb346854939a02dc607f945a7687bd4fc24cb36466a24f6d019ba",
+    "AGENTS.md": "7259c9b0579fd38529e5f2758217808c722947182b707e14d657de1b9d940b80",
+    "research/preferences.json": "55da95ca8d927ae5c11f3a67fee6ecddbe9caffa2197ea0068c97b975dab2567",
+    "research/catalog/README.md": "0dedf9c0ff1b49867e7b434d16d5bffacfbcf6cb6ccc46e4366d9a8655ddc14b",
+    "research/runs/2026-11-06-agent1-baseline105/taxonomy.json": "ae45b65eb5e535c412daff88cd2a53f24878b167fc4b465bd625ecf936dcfd67"
+  },
+  "refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch52.json",
+      "sha256": "3e962b8458e25237ca36d6166d9ea2a27d1577e927c3bc50ef995663b346bb48"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch52.json",
+      "sha256": "de831a8c9e8f4e75aa5ea7be1e6a627cbf7e74ea1d9e77f0151f93b59ef4c567"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A1-reuse-relay04-receipt.json",
+      "sha256": "8fcbe02718f7b575341338b8f4126c9b09e9da6bf85e1e880ab5f0e1eede21b6"
+    }
+  ]
+}

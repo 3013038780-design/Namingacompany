@@ -1,0 +1,72 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English screening",
+  "executed_at": "2026-11-09T01:07:59.048833+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch44.md",
+      "sha256": "85aaa27bede091062e22495ec976a6ea5b83a86eb85e5bb8312242d65296672b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch44.json",
+      "sha256": "eb7febaadcd744e49697ac8314db66e83e2d6c3ee5a2b4c69d5b8e178b6f6569"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch44.json",
+      "sha256": "06469ffb12535905f963748e24412a21d43e64b8fc6307b02527245f58b62c0b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch44.json",
+      "sha256": "b680af4fcc5bf438aa312c9b0a8c177db70956cdce803a05ac01dd3a3152c8b0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch44.json",
+      "sha256": "c04b7bed0b1ac681ee0d3eaf82545809ea77d4658bc5a953a7d51119702b04f7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch34.json",
+      "sha256": "4c75c10ef5911955763946a0553d328c871d388a226bbf7eabc590cbda6b3e80"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch42.json",
+      "sha256": "5e350022ee8708bf195c6b66487e8df47b093c8c63bcefc21679469ba8e60d4a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch43.json",
+      "sha256": "3f5d764845c94d54ae724cf16f9a21565b35e0f468d9f952eb649b779e972ea7"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-batch44.json",
+      "sha256": "10e591fc8146f4f91e25a31185b7e0271d9369ca26f1ce6a1a15218c63b190d4"
+    },
+    {
+      "path": "A3-en-batch44.md",
+      "sha256": "f43357e5c5f03d5cf033d78564ecf3bfbf599c7aa6563748ad3190495e2b9cb8"
+    }
+  ],
+  "actual_new_candidate_queries": 7,
+  "completed_candidate_search_results": 7,
+  "unreturned_search_attempts": 0,
+  "actual_new_chinese_queries": 0,
+  "actual_new_english_queries": 7,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 610,
+  "prior_agent3_returned_candidate_results": 609,
+  "agent3_cumulative_candidate_queries": 617,
+  "agent3_cumulative_returned_candidate_results": 616,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 619,
+  "run_cumulative_returned_candidate_results": 618,
+  "passed_english_candidate_ids": [
+    "C1-E46"
+  ],
+  "returned_english_candidate_ids": [],
+  "rework_attempt": 2,
+  "remaining_reworks": 0,
+  "no_R3": true,
+  "actual_execution": "七有效查询，NAUT官方一页PDF/Trialnot排版拼接正文消歧；UK入口不可访问，未假全球无注册。",
+  "next": "交原A4非数字postscreen风险复审，再主控终审；未入库。",
+  "unchanged": "旧稿/库/队列/Git未改，无网页全文。"
+}

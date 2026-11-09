@@ -1,0 +1,53 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English screening",
+  "executed_at": "2026-11-08T00:23:45.857487+08:00",
+  "candidate_id": "C1-E19",
+  "chinese_id": "C1-C23",
+  "decision": "unresolved_specific_commercial_lead_not_delivered",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch19.md",
+      "sha256": "7ea231f543a6b6dfa61040308f440020da685764b98a308b55b1b8570ad28def"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-candidates-batch19.json",
+      "sha256": "14efb969052611be57891550b16ed3b9b88d638577c1ae57e5be82b6ab9f6bdf"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-quality-batch19.json",
+      "sha256": "382f4d53037bd4d0fbf09a043841d311c55a3b0ba11eb05da89589601701e44a"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch19.json",
+      "sha256": "a36b21c12f1c0a6577f2cfb7e230c0ef222e0f1b81c8a65aec18e78720c9a6b6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch19.json",
+      "sha256": "0d99d337219f64ba867c8107850200897c4274c95bd1acfcb6f9545749786773"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch12.json",
+      "sha256": "2ee03dd9bd80253389874defab204f28195f5e65cf3ebfd144c9c0b525d46ac7"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-en-batch19.md",
+      "sha256": "12a6cbb3a1fe1092649ad5a2ce0e7eac090895a6085b3a8d72f4897a01f7e442"
+    },
+    {
+      "path": "A3-en-batch19.json",
+      "sha256": "882542666cd64d08bb07e92b2b8635d078294b65f104d016c094edb6ab9b567c"
+    }
+  ],
+  "actual_new_candidate_queries": 19,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 264,
+  "agent3_cumulative_candidate_queries": 283,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 285,
+  "actual_execution": "实际读取英文预览/创建回执/两评审，19不同搜索及PeopleCoral正文、拍卖与英国入口访问尝试。拍卖具体线索补证仍受访问限制，无证不假通过。",
+  "next": "C23最后R2不交付，不第三返工；待主控记录关闭本中文英文额度。",
+  "unchanged": "原稿、总库、Git未改；不通知用户。"
+}

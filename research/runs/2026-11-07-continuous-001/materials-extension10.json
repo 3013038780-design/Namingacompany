@@ -1,0 +1,48 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-08T10:46:46.094994+08:00",
+  "materials": [
+    {
+      "id": "C1-M32",
+      "family_id": "C1-MF-new-data-testing-prior-finding",
+      "macro_id": "S6",
+      "plan_direction_id": "C1-D-S6",
+      "category": "scientific_methodology_book_excerpt",
+      "case_ids": [
+        "B077",
+        "B022"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P3",
+        "C1-P4",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "National Academies of Sciences, Engineering, and Medicine: Reproducibility and Replicability in Science, Chapter 3",
+          "url": "https://www.nationalacademies.org/read/25303/chapter/6",
+          "published_at": "2019",
+          "reading_location": "本次实际读取HTML章首及正文L53–228，重点L120–228（纸本42–46页）：术语分歧、同数据重算与新数据研究、定义及测量条件边界；没有通读本章后半或整书。",
+          "reading_scope": "excerpt",
+          "access": "body",
+          "method": "web_HTML_body",
+          "read_at": "2026-11-08T10:46:46.094994+08:00"
+        }
+      ],
+      "source_urls": [
+        "https://www.nationalacademies.org/read/25303/chapter/6"
+      ],
+      "fact": "报告区分同数据和代码重算，与另采数据研究同一问题；后者的一致性是其replicability定义。原文提醒学科术语不统一，条件差异会影响结果。",
+      "mechanism_to_material": "Core Automation以真实研究工作建立身份，OpenAI提供方法立场的基线参照：转向研究怎样接受外部检验，而不替公司承诺开放、安全或永远正确。前者本轮A1重新核验，后者仅沿用基线。",
+      "distinctive_relation": "让同一科学问题进入新数据研究，再比较结果；不是原输出自我重复就算第二次证明。",
+      "naming_potential": "再核实的动作能形成简短研究主体称呼，但不能把科学信誉当品牌分。",
+      "shortcoming": "检验措辞易落到检测机构、认证服务或医学；若行业首感如此则只保留素材。",
+      "history_difference": "作数（C14）是一次行动形成结果，不评价结果是否在新数据下成立；M23结果独立审稿改变发表评价，不是另采数据检验；旧反例以单个反面事实否定一般命题，本项问新研究与原研究的一致程度。旧未尽之问是承认认识未完，本项指定可做的复核动作。未因新书名自动认新家族，交主控保守审查。",
+      "boundary": "独立新团队是原文允许方式之一，不是所有replication的必要条件。相容结果不是绝对真理，结果不相容也不能只据本节认定原研究造假。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft"
+    }
+  ],
+  "scope": "同一001接续的一个新方法关系，不强凑三个名字；2019书籍节选不计近九十天新闻，未增加古文。"
+}

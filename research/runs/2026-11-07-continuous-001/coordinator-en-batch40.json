@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-09T00:44:13.749419+08:00",
+  "independence": "Read producer preview batch40 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C50",
+      "name": "Landfish",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个常用完整音节可直接称呼但ndf连读需清晰",
+          "counter_association": "可能先听成童话游戏"
+        },
+        "spelling": {
+          "reason": "land与fish完整拼写听后可还原而非硬改字母",
+          "counter_association": "也可能被理解成land a fish捕捞动作"
+        },
+        "grounding": {
+          "reason": "陆上与鱼主角对应实读机构正文但不是正式物种名",
+          "counter_association": "未声明所有鱼或任意陆地均可生存"
+        },
+        "bilingual_relation": {
+          "reason": "中文陆行鱼与英文陆上鱼共享完整有条件跨环境主体",
+          "counter_association": "不等于学习后长出支持结构"
+        },
+        "distinctiveness": {
+          "reason": "反常识的陆地鱼可形成直接图像不靠长解释句",
+          "counter_association": "水产钓鱼及少儿动物首感需保留"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E42"
+    }
+  ]
+}

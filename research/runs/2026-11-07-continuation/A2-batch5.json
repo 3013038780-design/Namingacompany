@@ -1,0 +1,142 @@
+{
+  "agent": "/root/live_a2",
+  "completed_at": "2026-11-07T18:24:53.293774+08:00",
+  "candidates": [
+    {
+      "id": "CT-C17",
+      "name": "添一指",
+      "pinyin": "tiān yī zhǐ",
+      "family_id": "CT-F-supernumerary-motor-augmentation",
+      "source_world": "S5 增强他者的关系",
+      "case_ids": [
+        "B037"
+      ],
+      "mechanism_ids": [
+        "CN5"
+      ],
+      "source": {
+        "title": "Royal College of Art：Dani Clode: The Third Thumb Project",
+        "url": "https://www.rca.ac.uk/news-and-events/news/dani-clode-ma-design-products-2017-is-using-her-third-thumb-design-to-show-how-the-brain-adapts-to-robotic-augmentation/",
+        "read_scope": "2022-01-27作者访谈36–49、63–92行；另读Plasticity Lab研究页50–58行，Cambridge 2024新闻入口403未当作已打开全文",
+        "date": "2022-01-27"
+      },
+      "fact": "Third Thumb把额外机器手指接到现有手上，由脚部传感器控制；使用者学习配合，部分原有手指协同方式及神经身体表征出现变化，也存在权衡，并非白加一个器件就全面变强。",
+      "crossing": "从Imbue的CN5继续寻找“增强已有主体”的真实关系，这次进入运动增强与人机共同适应，不把成长等同植物。",
+      "meaning": "给已有能力添一个可被学会、可被调用的自由度。名字是基于真实增强物件的新动宾称呼，不复用项目原名“第三拇指”，也不冒称身体研究证明了AI的能力提升。",
+      "layers": [
+        "可见的额外手指",
+        "主体学习使用新的能力",
+        "增强系统而非替换主体"
+      ],
+      "retained": "增加资源必须与原有控制能力一起适应",
+      "lost": "神经身体表征研究不能外推成任何模型即插即用变聪明",
+      "strength": "三个常用字构成自然动作，有手势画面；添一指可以直接说而不用先解释神经可塑性。",
+      "weakness": "可能像康复、指法或机器人配件公司；若品牌特别排斥具身和硬件首联想，这个方向应舍弃。",
+      "history_check": "旧添一笔是书写/编辑，本案机械增肢与主体学习配合有不同真实机制；不把加一指、再添指计另一家族。"
+    },
+    {
+      "id": "CT-C18",
+      "name": "光的弯道",
+      "pinyin": "guāng de wān dào",
+      "family_id": "CT-F-spacetime-gravitational-lensing",
+      "source_world": "S2 宇宙自然现象",
+      "case_ids": [
+        "B053",
+        "B076"
+      ],
+      "mechanism_ids": [
+        "CN2"
+      ],
+      "source": {
+        "title": "NASA Science：How Gravity Warps Light",
+        "url": "https://science.nasa.gov/universe/stories/quick-reads/how-gravity-warps-light/",
+        "read_scope": "正文272–281行及后续暗物质观测说明；未将通俗比喻当完整广义相对论推导",
+        "date": null
+      },
+      "fact": "大质量天体造成时空弯曲，背景光的观测路径因此偏折，可能形成放大、畸变或多个图像。引力透镜也帮助观测本来太暗太远的对象；不是让光速超过极限。",
+      "crossing": "按月之暗面/Sakana的CN2寻找完整可见景象，不直接照搬“引力透镜”专业名词。普通人知道光与弯道，第二层才进入时空几何与观测。",
+      "meaning": "连光也有不直行的路径；理解环境的形状，才能知道还有什么能被看见。名字容纳基础研究、未知探索和看问题的方法，不承诺通过弯路必然更快。",
+      "layers": [
+        "光与弯道的画面张力",
+        "时空几何对传播路径的影响",
+        "借自然条件看见原来难见的事物"
+      ],
+      "retained": "环境几何改变路径与可见性",
+      "lost": "不等于认知弯道超车，也不是智能或算力放大的物理依据",
+      "strength": "四字完整名词短语，画面能记住，解释之前也能称呼。",
+      "weakness": "可能像摄影、展览或科普书名；四字含的字，注册字号与品牌完整写法需一致查重，不能去的字自动当另一新名。",
+      "history_check": "不同于视差的观察位置差异、莫尔纹的图案叠加；本家族是时空曲率导致光路偏折，只计这一组。"
+    },
+    {
+      "id": "CT-C19",
+      "name": "噪声种子",
+      "pinyin": "zào shēng zhǒng zi",
+      "family_id": "CT-F-generative-noise-initialization",
+      "source_world": "S3 生成计算与随机表示",
+      "case_ids": [
+        "B002",
+        "B076"
+      ],
+      "mechanism_ids": [
+        "CN3",
+        "CN2"
+      ],
+      "source": {
+        "title": "Ho/Jain/Abbeel：Denoising Diffusion Probabilistic Models",
+        "url": "https://arxiv.org/pdf/2006.11239",
+        "read_scope": "论文第1–2页摘要、引言及Background式1–2，重点高斯初始分布与训练得到的反向链；非仅摘要",
+        "date": "2020-12-16"
+      },
+      "fact": "该扩散模型的反向生成链从高斯分布抽样开始，经过学习到的转移生成数据样本。随机数生成器另可用seed初始化状态；seed不是噪声本身，确定seed也不自动跨软件版本保证相同输出。",
+      "crossing": "从Google的CN3寻找生成计算里的真实起点，再把“随机初态能够进入生成过程”变成像Sakana一样可叫的完整物象；不只把Max或AI后缀拼进名字。",
+      "meaning": "看似没有内容的一团噪声，可以成为某种生成过程的开端。“种子”兼有计算里的初始化和日常的起点含义，属于品牌比喻；不是说噪声天然藏着所有知识。",
+      "layers": [
+        "随机初始状态",
+        "可复现计算的种子概念",
+        "经学习到的过程形成新的可见结果"
+      ],
+      "retained": "随机起点与有结构生成过程之间的真实计算关系",
+      "lost": "本案主要来自生成模型，不是持续学习；噪声本身不具有目标或智能",
+      "strength": "四字是完整名词，噪声与种子的反差有记点；科技背景在字面也能看出。",
+      "weakness": "噪声可能被理解为污染或低质量信息；种子容易带生成工具或模型参数名的感觉，公司延展性需判断。",
+      "history_check": "没有复用星尘炉、负熵流或孤子雨：该家族专指从随机初态开始的学习型生成过程，不把去噪/噪点变体再计新增。",
+      "additional_source": {
+        "url": "https://numpy.org/doc/stable/reference/random/generator.html",
+        "read_scope": "官方Generator文档108–179及189–191行，实际读初始化参数、复现示例、无跨版本兼容保证"
+      }
+    },
+    {
+      "id": "CT-C20",
+      "name": "雨影",
+      "pinyin": "yǔ yǐng",
+      "family_id": "CT-F-orographic-rain-shadow",
+      "source_world": "S2 自然气象关系",
+      "case_ids": [
+        "B076",
+        "B053"
+      ],
+      "mechanism_ids": [
+        "CN2"
+      ],
+      "source": {
+        "title": "NOAA Climate.gov：Rain Shadows on the Summits of Hawaii",
+        "url": "https://content-drupal.climate.gov/news-features/featured-images/rain-shadows-summits-hawaii",
+        "read_scope": "存档页实际读Details正文86–90行，含迎风上升降水、背风暖干与植被差异；网站已归档不是2026新研究",
+        "date": "2011-01-05"
+      },
+      "fact": "湿气流迎山上升冷却并降水，越山后的下沉空气暖干，造成背风侧降水较少。这里的“影”是气候分布形象，不是光被山遮挡形成的阴影。",
+      "crossing": "接CN2从自然中找有真实关系的普通称呼：短短两个字能连接看得见的降雨与看不见的地形—气流关系，不强行把天气解释成模型学习。",
+      "meaning": "有些形状不是靠看见本身，而是靠它改变了周围什么。雨影保留了自然世界的未知与间接线索，但基础AI公司的第一身份未必足够强。",
+      "layers": [
+        "山后的另一种天气",
+        "地形与气流共同造成的分布",
+        "由结果理解隐藏的条件"
+      ],
+      "retained": "环境关系可以产生大尺度差异",
+      "lost": "雨少不代表好，也不能把气象阴影当成智能涌现的证明",
+      "strength": "两字简洁自然，雨与影不是各配好寓意：现象本来就被这样称呼。",
+      "weakness": "摄影、文旅或生态项目的首联想过强；自评Lab身份未过，本案保留在研究淘汰栏，不送查重假装推荐。另已有雨水雨影网络公司包含式线索，未核核心品牌不冒称完全同名注册。",
+      "history_check": "与影子刻度的日影测量不同，本家族是山地降水分布；但不因换一个自然影字样就补同一品牌风格的数量。"
+    }
+  ]
+}

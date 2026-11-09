@@ -1,0 +1,50 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-09T04:46:09.465361+08:00",
+  "candidate_id": "C1-C58",
+  "chinese": "洋中脊",
+  "previous_name": "洋脊",
+  "decision": "EVIDENCE_HOLD_no_English_input_no_catalog_admission",
+  "reason": "同核心文化创意公司具体线索只在OUC评估PDF索引可见，两PDF原入口403/0字节；蓝海天另一培训线索超时。原A3针对新入口再3查询，root另2查询均无新可读主体正文，既不能推荐通过，也不凭索引判确证占用/注册。停止重复失败入口，待真正新可读原证再补核，不制造英语。",
+  "chinese_reworks_completed": 2,
+  "remaining_chinese_reworks": 0,
+  "selected_CN_literal_forms": 2,
+  "actual_new_english_versions": 0,
+  "internal_unselected_expression": "地脊",
+  "scope": "地脊R1内部未选未查，洋脊原名近音科技混淆编辑避让，洋中脊新版独立查到未闭精确商业核心线索，三种性质分开。root指出原文全称反馈与原A2再核选择谱系保留。",
+  "actual_queries_this_family": {
+    "A3_CN43": 9,
+    "A3_CN44": 9,
+    "A3_targeted_followup": 3,
+    "root_targeted_followup": 2
+  },
+  "counts": {
+    "A3": 701,
+    "A3_returned": 700,
+    "root": 4,
+    "all_recorded": 705,
+    "all_returned": 704
+  },
+  "refs": [
+    {
+      "path": "A3-cn-batch43.json",
+      "sha256": "6fb6eaf6dcf020625e76adee1252cc25ec0f139d84ca77a878d3e4e9ab27691e"
+    },
+    {
+      "path": "A3-cn-batch44.json",
+      "sha256": "b95f96ac5877be12d4e05947a215b0dc26cc39dd4ff4622b17e55decdd0676bf"
+    },
+    {
+      "path": "A3-CN44-evidence-followup.json",
+      "sha256": "97519016f46a7ba0e29dde986a7a6011e170796a1bb5f1ed495c03a052bcc11e"
+    },
+    {
+      "path": "A2-creation-execution-batch43.json",
+      "sha256": "077d041f00294d4efa5e7c9d6a2a2e609ca65d36648b634fc22b6c65821ab98f"
+    },
+    {
+      "path": "continuations/2026-11-08T202508Z/root-usage-followup-queries.json",
+      "sha256": "a775d4378d026351aadb037bd9c7df571f2e41c75df904c0307ef9d9b5c64100"
+    }
+  ]
+}

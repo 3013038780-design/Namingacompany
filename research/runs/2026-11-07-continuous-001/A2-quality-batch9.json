@@ -1,0 +1,95 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-07T23:59:39.707616+08:00",
+  "scope": "只属producer编辑判断；主控先独评封存后读此数值。",
+  "reviews": [
+    {
+      "candidate_id": "C1-C20",
+      "name": "声入纹",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 5
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "三字组成完整动作图景，熟字可叫",
+          "counter_association": "新整体略有诗句感"
+        },
+        "distinctiveness": {
+          "reason": "声音化为纹路有具体反差",
+          "counter_association": "也可能像声音艺术作品名"
+        },
+        "lab_fit": {
+          "reason": "信号、介质与再读具工程研究身份",
+          "counter_association": "第一行业可能偏录音工程"
+        },
+        "grounding": {
+          "reason": "NPS导览真实描述振膜/触针/锡箔关系",
+          "counter_association": "未独立考证发明优先权"
+        },
+        "extension": {
+          "reason": "可容纳表示与承载研究而非只卖录音机",
+          "counter_association": "若只讲音乐制作会太窄"
+        },
+        "semantic_coherence": {
+          "reason": "每层都围绕声振动和物理纹路相互转换",
+          "counter_association": "不泛化成任何痕迹都能完美恢复"
+        }
+      },
+      "decision": "quality_pass",
+      "independent_submission_ref": "A2-quality-batch9.json producer-only submission"
+    },
+    {
+      "candidate_id": "C1-C21",
+      "name": "识局",
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 5
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "动宾结构短清楚，识得局面无需教读",
+          "counter_association": "市局时局听写歧义"
+        },
+        "distinctiveness": {
+          "reason": "对象之间有局的整体画面",
+          "counter_association": "短熟词独占性需真查"
+        },
+        "lab_fit": {
+          "reason": "认知、结构与决策可承接AI研究",
+          "counter_association": "可能像棋类/咨询产品"
+        },
+        "grounding": {
+          "reason": "熟悉组块解释有原论文但样本边界保留",
+          "counter_association": "不把早期假设当全领域定论"
+        },
+        "extension": {
+          "reason": "不限棋类，可研究多种关系知识",
+          "counter_association": "不能靠延展承诺理解所有领域"
+        },
+        "semantic_coherence": {
+          "reason": "认出关系而非死记位置贯穿原义与品牌义",
+          "counter_association": "识局不是一眼看透且永不出错"
+        }
+      },
+      "decision": "quality_pass",
+      "independent_submission_ref": "A2-quality-batch9.json producer-only submission"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "reviewed_at": "2026-11-08T16:51:32.534919+00:00",
+  "reviewer": "/root",
+  "english_id": "C1-E43",
+  "decision": "accept_existing_exact_core_technical_company_rejection",
+  "root_actual_reading": [
+    {
+      "url": "https://www.intertidal.net/about",
+      "scope": "实际4–5科学工程气垫船测量工作、18 Intertidal Ltd公司号05451870，不冒性能和合作项目核验。"
+    },
+    {
+      "url": "https://find-and-update.company-information.service.gov.uk/company/05451870",
+      "scope": "实际13–15完整名INTERTIDAL LIMITED/号，27–33 Active/2005成立，48–50 SIC71200 Technical testing and analysis。此次该具体官方页可读，不能沿旧搜索入口失败写所有UK均不可访问；不等于本名全球或商标清权。"
+    }
+  ],
+  "quality_comparison": {
+    "root": 21,
+    "producer": 21,
+    "all_gates_pass": true,
+    "max_axis_difference": 0,
+    "root_sealed_before_producer_read": true
+  },
+  "reason": "完整同核心技术公司使用，有限责任后缀不是区别；非生态通词本身当占用。三个英文版、两次返工已用尽，原A4实际终结后关闭此族，陆行鱼中文通过不倒写占用。",
+  "remaining_reworks": 0,
+  "new_root_usage_queries": 0,
+  "refs": [
+    {
+      "path": "A4-candidates-batch41.json",
+      "sha256": "7850b643945b3972e19c64cab288595f34137aa7e707b476e436c298a4c68c13"
+    },
+    {
+      "path": "A4-quality-batch41.json",
+      "sha256": "ff207dd9092e742c79909a918d1d37ac2b66faff8dfb29cfd1232c6719dc49fb"
+    },
+    {
+      "path": "coordinator-en-batch41.json",
+      "sha256": "fd6ef5a7f91742ec65c085f8db9e81644519a3a73c921028ece95f5d6a2b2786"
+    },
+    {
+      "path": "A3-en-batch41.json",
+      "sha256": "7e92019aa2eaf91fa7b2b8e802a8f1798e1a5586676cee093b79a03ad2fe6d12"
+    },
+    {
+      "path": "A3-en-batch41-receipt.json",
+      "sha256": "77b7009501a1325c3ce153ad293c1d62aaa611b603c7bb9d9fce2b68afe2568d"
+    }
+  ]
+}

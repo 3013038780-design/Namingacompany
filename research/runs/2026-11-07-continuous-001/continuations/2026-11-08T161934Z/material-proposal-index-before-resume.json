@@ -1,0 +1,3632 @@
+{
+  "scope": "下一A2包输入冻结60资料49中文原提案谱系；追加batch29原稿而非市场/英文决策，不预判C48在途英语，不覆盖旧58/47索引。",
+  "materials": {
+    "C1-M01": {
+      "material": {
+        "id": "C1-M01",
+        "family_id": "C1-MF-constraint-network-nondirectionality",
+        "category": "computation_relation",
+        "macro_id": "S3",
+        "case_ids": [
+          "B074",
+          "B002"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "SICP Comparison Edition 3.3.5 Propagation of Constraints",
+            "url": "https://sicp.sourceacademy.org/chapters/3.3.5.html",
+            "source_type": "book",
+            "reading_scope": "excerpt",
+            "reading_location": "L263–304关系、双向温标、撤销旧值与冲突；L305–326连接器/adder接口",
+            "published_at": null,
+            "book_id": "SICP",
+            "access": "body",
+            "method": "web_body",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "fact": "书中用同一个约束网络，在已知摄氏温度时求华氏，也可先撤销旧输入后反向求值；值冲突会报错。连接器给出足够信息时唤醒相连约束。",
+        "mechanism_to_material": "Recursive让过程成为研究身份，Google让知识对象拥有可称呼外壳；沿计算中关系如何工作找到可从不同已知量求解的同一网络。",
+        "distinctive_relation": "规则关系不必预先固定一个输入方向；改动已知信息后，同一关系能支持另一方向计算。",
+        "naming_potential": "可探索关联、互相推知、从另一端进入的普通称呼；不必把“约束传播”原封不动当名字。",
+        "shortcoming": "直接用术语容易像工程库；若只说换角度容易与旧换坐标重叠。",
+        "history_difference": "旧换坐标是同一对象改变表示；本卡保持同一关系而交换已知/未知，不因都可换视角就先判同家族，但若草案最后只剩同一品牌画面需合并。",
+        "discard_conditions": [
+          "规则固定，不能声称网络自己学习新规则。",
+          "足够已知量和撤销旧依据是条件，不能承诺任意问题都可逆求解。",
+          "若与旧闭包、惰性、递归或换坐标只换字则不计新家族。"
+        ],
+        "status": "material_for_review",
+        "is_classical": false,
+        "plan_direction_id": "C1-D-S3",
+        "source_urls": [
+          "https://sicp.sourceacademy.org/chapters/3.3.5.html"
+        ],
+        "reading_scope": "excerpt",
+        "reading_location": "L263–304关系、双向温标、撤销旧值与冲突；L305–326连接器/adder接口",
+        "raw_fact_vs_brand": "fact为实读来源所述；naming_potential和机构角色是有限品牌分析，不冒充作者命名动机。"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-pilot.json",
+      "sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7"
+    },
+    "C1-M02": {
+      "material": {
+        "id": "C1-M02",
+        "family_id": "C1-MF-worm-shape-sensitive-burrow-plugging",
+        "category": "animal_behavior",
+        "macro_id": "S2",
+        "case_ids": [
+          "B076",
+          "B053"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3"
+        ],
+        "sources": [
+          {
+            "title": "Darwin: The Formation of Vegetable Mould, Chapter II Habits of Worms—continued",
+            "url": "https://www.gutenberg.org/files/2355/2355-h/2355-h.htm",
+            "source_type": "book",
+            "reading_scope": "excerpt",
+            "reading_location": "1904重印电子文本；ChapterII L300–357，纸三角塞洞实验、几何比较与作者解释",
+            "published_at": "原作1881；所读1904重印",
+            "book_id": "Darwin_Worms_1904",
+            "access": "body",
+            "method": "web_body",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "fact": "Darwin记录蚯蚓把叶柄与纸三角拖入洞口；进入方式并非均匀随机，而与对象形状及塞洞/取食用途有关。他用夹子和管口作几何比较，并谨慎推断其中可能有某种判断。",
+        "mechanism_to_material": "Sakana示范普通动物对象可以承载组织原理；这里不换鱼群物种，而看一个小主体如何利用身体接触与材料形状完成具体任务。",
+        "distinctive_relation": "相同材料的不同端部，在洞口几何约束下有不同进入难度；行为与形状、用途相接。",
+        "naming_potential": "可以寻找小动作、选取方式与解决实际问题的可感角色；目前不保证能产生合格Lab名字。",
+        "shortcoming": "直接取虫、土、叶容易首联想农业生态；从实验数字跳到现代智能理论也会失真。",
+        "history_difference": "不同于木上林的育苗基底、旧共生网络或群体鱼群规则；不是靠蚯蚓物种替换来算新家族。",
+        "discard_conditions": [
+          "some intelligence是Darwin作者解释，不是现代普遍结论。",
+          "未通读整书，未把塞洞保温用途等作者可能解释写成确证。",
+          "如只能产环保、园艺气质则只留阅读材料。"
+        ],
+        "status": "material_for_review",
+        "is_classical": false,
+        "plan_direction_id": "C1-D-S2",
+        "source_urls": [
+          "https://www.gutenberg.org/files/2355/2355-h/2355-h.htm"
+        ],
+        "reading_scope": "excerpt",
+        "reading_location": "1904重印电子文本；ChapterII L300–357，纸三角塞洞实验、几何比较与作者解释",
+        "raw_fact_vs_brand": "fact为实读来源所述；naming_potential和机构角色是有限品牌分析，不冒充作者命名动机。"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-pilot.json",
+      "sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7"
+    },
+    "C1-M03": {
+      "material": {
+        "id": "C1-M03",
+        "family_id": "C1-MF-printed-self-sensing-compliant-joint",
+        "category": "interaction_engineering",
+        "macro_id": "S1",
+        "case_ids": [
+          "B015",
+          "B025"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "MIT News: This design software reimagines everyday objects as self-aware devices",
+            "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+            "source_type": "news",
+            "reading_scope": "excerpt",
+            "reading_location": "L76–125标题/日期及器物、材料与传感应用正文",
+            "published_at": "2026-10-22",
+            "book_id": null,
+            "access": "body",
+            "method": "web_body",
+            "checked_at": "2026-11-07"
+          },
+          {
+            "title": "X-Hinges author manuscript",
+            "url": "https://arxiv.org/html/2609.11077v1",
+            "source_type": "other",
+            "reading_scope": "excerpt",
+            "reading_location": "L133–142三材料机制；L321–330校准、迟滞和泛化限制；另读摘要",
+            "published_at": "2026-09-10",
+            "book_id": null,
+            "access": "body",
+            "method": "web_body",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "fact": "作者把不同电导率的传感部分与走线打印到柔性结构中，让关节形变产生可分辨的电阻信号。实例包括手套、控制器与可感折叠灯；不同打印件仍需校准，迟滞与蠕变限制精度。",
+        "mechanism_to_material": "Sony从感官进入，Cursor从手边动作进入；找到原本只会动的器物怎样同时报告自己的运动，而非又列一串UI按钮。",
+        "distinctive_relation": "结构和感知在制作时一体形成；动作本身同时成为可读的信息。",
+        "naming_potential": "手指、关节、动作与知觉可以在一个完整角色中相遇，科技背景明确，又有生活入口。",
+        "shortcoming": "过度强调手或关节可能只像传感硬件；用“自觉”容易误成主观意识。",
+        "history_difference": "侧音是把音频输出送回监听通路；本卡是结构形变直接形成测量信号，材料与行为关系不同。若最后只是“听见/看见自己”的泛化画面，仍应合并。",
+        "discard_conditions": [
+          "新闻self-aware是拟人修辞，不能认定器物有意识。",
+          "不能称已实现无校准、任意几何或完美实时追踪。",
+          "旧手势长按或鸽哨作用换字不作新增。"
+        ],
+        "status": "material_for_review",
+        "is_classical": false,
+        "plan_direction_id": "C1-D-S1",
+        "source_urls": [
+          "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+          "https://arxiv.org/html/2609.11077v1"
+        ],
+        "reading_scope": "excerpt",
+        "reading_location": "L76–125标题/日期及器物、材料与传感应用正文；L133–142三材料机制；L321–330校准、迟滞和泛化限制；另读摘要",
+        "raw_fact_vs_brand": "fact为实读来源所述；naming_potential和机构角色是有限品牌分析，不冒充作者命名动机。"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-pilot.json",
+      "sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7"
+    },
+    "C1-M04": {
+      "material": {
+        "id": "C1-M04",
+        "family_id": "C1-MF-paired-tally-authentication",
+        "category": "chinese_knowledge_practice",
+        "macro_id": "S4",
+        "case_ids": [
+          "B008",
+          "B021"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P6"
+        ],
+        "sources": [
+          {
+            "title": "故宫刊物页：战争与虎（虎符段）",
+            "url": "https://www.dpm.org.cn/Uploads/File/pdf/29/80/62/2980629cbde6dc6ce987d74ab22b3424.pdf",
+            "source_type": "other",
+            "reading_scope": "excerpt",
+            "reading_location": "实际curl下载、PyMuPDF读单页，印刷页015；虎符两半分持、文字形制与勘合验真段",
+            "published_at": null,
+            "book_id": null,
+            "access": "body",
+            "method": "curl_PyMuPDF_body",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "fact": "馆方刊物说明虎符剖为两半、分别保管，调兵需两半勘合验真。部分形制的文字跨两半布置，合起来才能读通。",
+        "mechanism_to_material": "Alibaba把一个角色与完整开门作用接给商业，Oracle把知识实践接给信息；因此读中国实际验合器物，而非只摘两字吉祥话。",
+        "distinctive_relation": "一半不足以授权，形状/文字及双方持有关系共同构成一次验合。",
+        "naming_potential": "可沿成对、契合、共同确认的真实角色寻找中文称呼；中国知识实践本身就有工程味。",
+        "shortcoming": "虎符本名有明显军事和现成品牌联想；关系若被写得太抽象会变成金融合同品牌。",
+        "history_difference": "旧残卷重逢重在出处和知识复原；这里是预先分持的授权验合。不能因为都“两片合起来”就硬算不同，也不能因为都是中国器物就全部禁用。",
+        "discard_conditions": [
+          "不主张其等同现代密码学或不可伪造。",
+          "本文是现代机构文章，不假称已读古籍原卷或整本刊物。",
+          "若只剩古风、武侠或文创气质则不命名。"
+        ],
+        "status": "material_for_review",
+        "is_classical": false,
+        "plan_direction_id": "C1-D-S4",
+        "source_urls": [
+          "https://www.dpm.org.cn/Uploads/File/pdf/29/80/62/2980629cbde6dc6ce987d74ab22b3424.pdf"
+        ],
+        "reading_scope": "excerpt",
+        "reading_location": "实际curl下载、PyMuPDF读单页，印刷页015；虎符两半分持、文字形制与勘合验真段",
+        "raw_fact_vs_brand": "fact为实读来源所述；naming_potential和机构角色是有限品牌分析，不冒充作者命名动机。"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-pilot.json",
+      "sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7"
+    },
+    "C1-M05": {
+      "material": {
+        "id": "C1-M05",
+        "family_id": "C1-MF-collaborative-reference-mutual-acceptance",
+        "category": "cognitive_communication",
+        "macro_id": "S5",
+        "case_ids": [
+          "B037",
+          "B027"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P4",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Clark & Wilkes-Gibbs: Referring as a collaborative process",
+            "url": "https://web.stanford.edu/~clark/1980s/Clark%2C%20H.H.%20_%20Wilkes-Gibbs%2C%20D.%20_Referring%20as%20a%20collaborative%20process_%201986.pdf",
+            "source_type": "other",
+            "reading_scope": "excerpt",
+            "reading_location": "实际curl+PyMuPDF读印刷页2–5、14–16、21；参照协作模型、对话修正、图形任务与重复描述",
+            "published_at": "1986",
+            "book_id": null,
+            "access": "body",
+            "method": "curl_PyMuPDF_body",
+            "checked_at": "2026-11-07"
+          },
+          {
+            "title": "CSIRO: Communication is key even in successful human–robot teams",
+            "url": "https://www.csiro.au/en/news/all/news/2026/august/human-robot-alignment",
+            "source_type": "news",
+            "reading_scope": "excerpt",
+            "reading_location": "L26–44日期、团队共同理解与通信负担正文",
+            "published_at": "2026-08-14",
+            "book_id": null,
+            "access": "body",
+            "method": "web_body",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "fact": "Clark等把指称看成说话者与听者共同完成的过程：描述可被修正、扩展并达成相互接受；图形排列任务中，伙伴形成可复用的简短称呼。CSIRO近期研究讨论则提醒人机共同理解需随情境维护，更多通信不必更好。",
+        "mechanism_to_material": "Imbue给对他者的作用以身份，Midjourney给过程中的人以位置；这里看“你我确认说的是同一个对象”如何实际发生。",
+        "distinctive_relation": "参照不在单方说出词时自动完成，听者的反馈参与建立双方可复用的约定。",
+        "naming_potential": "可从共同所指、理解对方与达成约定的日常表达寻找自然称呼；不只重复好奇或成长。",
+        "shortcoming": "容易像社交、会议或沟通软件；若只剩互相理解的漂亮话，科技Lab身份不够。",
+        "history_difference": "旧分布式驾驶舱在任务与信息资源重组上；本卡是具体指称被共同接受并复用的关系。若名字最后只剩泛化“协同”，仍归同一泛化家族而不计新增。",
+        "discard_conditions": [
+          "人的对话实验不证明机器具有意识。",
+          "CSIRO文为研究讨论/机构发布，不能当已部署效果的独立验证。",
+          "未通读39页或Nature论文；后者访问重定向失败，未声称读过。"
+        ],
+        "status": "material_for_review",
+        "is_classical": false,
+        "plan_direction_id": "C1-D-S5",
+        "source_urls": [
+          "https://web.stanford.edu/~clark/1980s/Clark%2C%20H.H.%20_%20Wilkes-Gibbs%2C%20D.%20_Referring%20as%20a%20collaborative%20process_%201986.pdf",
+          "https://www.csiro.au/en/news/all/news/2026/august/human-robot-alignment"
+        ],
+        "reading_scope": "excerpt",
+        "reading_location": "实际curl+PyMuPDF读印刷页2–5、14–16、21；参照协作模型、对话修正、图形任务与重复描述；L26–44日期、团队共同理解与通信负担正文",
+        "raw_fact_vs_brand": "fact为实读来源所述；naming_potential和机构角色是有限品牌分析，不冒充作者命名动机。"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-pilot.json",
+      "sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7"
+    },
+    "C1-M06": {
+      "material": {
+        "id": "C1-M06",
+        "family_id": "C1-MF-redundant-evaluations-erasure-recovery",
+        "category": "information_theory",
+        "macro_id": "S3",
+        "case_ids": [
+          "B074",
+          "B002"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "UC Berkeley CS294-226 Lecture 5: RS, BCH and Concatenated Codes",
+            "url": "https://people.eecs.berkeley.edu/~venkatg/teaching/ECC-fall22/scribes/lecture05.pdf",
+            "source_type": "other",
+            "reading_scope": "excerpt",
+            "reading_location": "PDF第一页§1 Definition5.1、Lagrange插值段、Theorem5.2；未读后续BCH与级联证明",
+            "published_at": "2022-09-12",
+            "book_id": null,
+            "access": "body",
+            "method": "web_body",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "fact": "在有限域、不同采样位置等条件下，次数小于k的多项式可由至少k个正确采样值唯一确定；Reed–Solomon把消息编码为更多采样值，冗余使部分符号擦除后仍可恢复。",
+        "mechanism_to_material": "从Google的知识尺度与Recursive的运作关系，继续找信息不完整时仍能有可靠判断的真实机制，不靠“更强”二字。",
+        "distinctive_relation": "信息并非每片只装一个原始片段；足够的正确采样子集携带可恢复同一完整对象的关系。",
+        "naming_potential": "有余量、部分与整体、可靠恢复之间可形成完整研究角色；应寻找自然称呼而非直接搬编码名。",
+        "shortcoming": "直接叫编码/校验容易把公司锁在存储或通信；日常余量话语也可能偏金融、工程供应商。",
+        "history_difference": "不同于残卷考据复原和元胞图样；此处有明确的编码冗余与恢复条件，不借“缺一块补回来”把一切都说成同一个故事。",
+        "discard_conditions": [
+          "“任意k”指正确、位置已知的不同采样，不能外推为任意错误符号也可恢复。",
+          "不能声称无损压缩、无中生有或模型凭空增加知识。",
+          "若只产功能描述或旧数学名换字，则保留材料不配名。"
+        ],
+        "status": "material_for_review",
+        "is_classical": false,
+        "plan_direction_id": "C1-D-S3",
+        "source_urls": [
+          "https://people.eecs.berkeley.edu/~venkatg/teaching/ECC-fall22/scribes/lecture05.pdf"
+        ],
+        "reading_scope": "excerpt",
+        "reading_location": "PDF第一页§1 Definition5.1、Lagrange插值段、Theorem5.2；未读后续BCH与级联证明",
+        "raw_fact_vs_brand": "fact为实读来源所述；naming_potential和机构角色是有限品牌分析，不冒充作者命名动机。"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-pilot.json",
+      "sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7"
+    },
+    "C1-M07": {
+      "material": {
+        "id": "C1-M07",
+        "family_id": "C1-MF-cactus-inspired-three-stage-fog-transport",
+        "category": "bioinspired_transport",
+        "macro_id": "S2",
+        "case_ids": [
+          "B076",
+          "B053"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3"
+        ],
+        "sources": [
+          {
+            "title": "中科院理化所：科研人员研发出仿生仙人掌集雾器",
+            "url": "https://www.cas.cn/syky/202609/t20260928_5121136.shtml",
+            "source_type": "news",
+            "reading_scope": "excerpt",
+            "reading_location": "网页工具仅回导航；实际curl读原HTML题目/日期及正文“仿生刺捕获—非对称孔吸入—毛细沟槽排水”与模式限制段",
+            "published_at": "2026-10-08",
+            "book_id": null,
+            "access": "body",
+            "method": "curl_HTML_body",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "fact": "团队报道仿生柱状仙人掌装置把仿生刺捕获、非对称孔吸入和毛细沟槽排水组织成三级输运；圆柱结构降低来流方向依赖。文中另有主动冷凝和被动模式，不可混为无能耗产水。",
+        "mechanism_to_material": "Sakana让普通自然对象承载组织关系，月之暗面先有完整世界；这里找自然启发怎样组织捕获到输运的具体路径。",
+        "distinctive_relation": "同一个对象把分散的捕获、进入和排出步骤连接起来，而不是只增加一个更大的收集面。",
+        "naming_potential": "有从不可见小滴到可用流向的完整画面，可探索多步骤衔接角色；但不是必需命名。",
+        "shortcoming": "非常容易首联想节水农业、环保或园艺，可能在品牌定位阶段直接淘汰。",
+        "history_difference": "旧合流是多河汇聚，旧上升流是营养输送；此卡为形状与表面组成的定向三级路径。是否成新品牌仍需看最终画面，不因论文不同就计新。",
+        "discard_conditions": [
+          "不把所有实验模式写成被动零能耗，也不引用新闻性能数字作AI性能承诺。",
+          "本轮已读机构新闻正文，尚未读Advanced Functional Materials论文全文。",
+          "若没有Lab身份自然称呼，只留素材。"
+        ],
+        "status": "material_for_review",
+        "is_classical": false,
+        "plan_direction_id": "C1-D-S2",
+        "source_urls": [
+          "https://www.cas.cn/syky/202609/t20260928_5121136.shtml"
+        ],
+        "reading_scope": "excerpt",
+        "reading_location": "网页工具仅回导航；实际curl读原HTML题目/日期及正文“仿生刺捕获—非对称孔吸入—毛细沟槽排水”与模式限制段",
+        "raw_fact_vs_brand": "fact为实读来源所述；naming_potential和机构角色是有限品牌分析，不冒充作者命名动机。"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-pilot.json",
+      "sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7"
+    },
+    "C1-M08": {
+      "material": {
+        "id": "C1-M08",
+        "family_id": "C1-MF-stomatal-lineage-transcription-hormone-feedback",
+        "category": "plant_development",
+        "macro_id": "S2",
+        "case_ids": [
+          "B076",
+          "B053"
+        ],
+        "principle_ids": [
+          "C1-P2",
+          "C1-P3"
+        ],
+        "sources": [
+          {
+            "title": "中科院植物所：研究揭示气孔前体细胞分化的生长素反馈调控机制",
+            "url": "https://www.cas.cn/syky/202611/t20261102_5123232.shtml",
+            "source_type": "news",
+            "reading_scope": "excerpt",
+            "reading_location": "网页工具失败，实际curl读标题/2026年11月05日日期与拟南芥MED13/CKM/MUTE机制、干预及反馈模型正文",
+            "published_at": "2026-11-05",
+            "book_id": null,
+            "access": "body",
+            "method": "curl_HTML_body",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "fact": "机构报道在拟南芥气孔谱系中，CKM与MUTE相关复合体放大生长素响应，并维持MUTE表达；局部信号和通路条件参与从自我更新到分化的切换。文中称其为正反馈调控模型。",
+        "mechanism_to_material": "沿Sakana的具体生命关系和局部组织，看细胞如何在条件满足时改变行为；不把所有生物过程再概括成生长。",
+        "distinctive_relation": "局部反馈不是简单让数量变多，而是参与停止自我更新、进入另一种细胞角色的分化条件。",
+        "naming_potential": "有条件、角色切换与系统组织的研究意味；暂偏冷僻，未认定适合起名。",
+        "shortcoming": "基因缩写和发育术语不易称呼；阈值切换还容易撞用户已有相变意象或一般临界变化家族。",
+        "history_difference": "和相变智能存在品牌层接近风险，不能靠改成植物词就计新；本卡先留阅读，除非出现明显不同的自然称呼才考虑创作。",
+        "discard_conditions": [
+          "不是即时气孔开闭/抗旱行为；本报道重点为谱系分化。",
+          "只读机构新闻，不假称已读Plant Cell全文；PubMed打开仅页脚，未用其作正文。",
+          "不把正反馈解释为必然无限增长或持续学习已实现。"
+        ],
+        "status": "material_only_high_family_risk",
+        "is_classical": false,
+        "plan_direction_id": "C1-D-S2",
+        "source_urls": [
+          "https://www.cas.cn/syky/202611/t20261102_5123232.shtml"
+        ],
+        "reading_scope": "excerpt",
+        "reading_location": "网页工具失败，实际curl读标题/2026年11月05日日期与拟南芥MED13/CKM/MUTE机制、干预及反馈模型正文",
+        "raw_fact_vs_brand": "fact为实读来源所述；naming_potential和机构角色是有限品牌分析，不冒充作者命名动机。"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-pilot.json",
+      "sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7"
+    },
+    "C1-M19": {
+      "material": {
+        "id": "C1-M19",
+        "family_id": "C1-MF-linked-addressable-structural-views",
+        "macro_id": "S1",
+        "plan_direction_id": "C1-D-S1",
+        "category": "human_computer_information_tools",
+        "case_ids": [
+          "B025",
+          "B015"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Doug Engelbart Institute: 1968 Demo Interactive",
+            "url": "https://dougengelbart.org/content/view/374/",
+            "reading_location": "实际curl页面HTML正文，NLS Editing & View Control、NLS Hypermedia、NLS AS AN INSTRUMENT三节；未观看整场录像",
+            "published_at": null,
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "curl_HTML_body",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "source_urls": [
+          "https://dougengelbart.org/content/view/374/"
+        ],
+        "fact": "NLS演示可对层级信息结构采用不同视图，并在文本/图形等视图间跳转；工具支持人对复杂信息结构的组成、研究与修改，线性文字不是唯一组织方式。",
+        "A1_transfer": "Cursor将界面日常入口变为复杂创造的起点；Sony要求外壳易称呼。这里不再找按键或光标，而看可跳转的阅读怎样使复杂结构可以操作。",
+        "distinctive_relation": "同一知识结构可以按任务显示不同层次与相互关联的片段，阅读者不必只沿线性文页走。",
+        "history_difference": "旧蒙太奇是不同镜头经剪接生成关系；本项为可寻址链接及结构视图中的主动导航。M10 Zipper用焦点和路径保存树的局部更新位置，本项是使用者可选视图与非线性文档导航，不凭两者都能返回就判同。",
+        "boundary": "这是研究所对历史演示的分段说明，不冒称逐字原始讲稿或本次观看全录像；旁边bootstrapping段非本卡新家族，不重做旧自举。",
+        "status": "read_pending_internal_review_and_possible_creation",
+        "is_classical": false
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension4.json",
+      "sha256": "2b90619996a1920932e9dd0a261a4a6d8fa9bb3e20633f18bc310409c0257eba"
+    },
+    "C1-M20": {
+      "material": {
+        "id": "C1-M20",
+        "family_id": "C1-MF-event-partial-order-without-physical-clock",
+        "macro_id": "S3",
+        "plan_direction_id": "C1-D-S3",
+        "category": "distributed_computation",
+        "case_ids": [
+          "B074",
+          "B002"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Lamport: Time, Clocks, and the Ordering of Events in a Distributed System",
+            "url": "https://lamport.azurewebsites.net/pubs/time-clocks.pdf",
+            "reading_location": "PDF前3页，印刷558–560，事件偏序、逻辑时钟及Clock Condition/反方向不成立",
+            "published_at": "1978-07",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_body",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "source_urls": [
+          "https://lamport.azurewebsites.net/pubs/time-clocks.pdf"
+        ],
+        "fact": "同一进程中的先后、消息发送在接收之前、以及传递关系定义happened-before偏序；逻辑时钟满足因果先后则数值增大，但数值先后不能反推因果先后。",
+        "A1_transfer": "Recursive的明确计算过程与Google的可理解知识对象，引到不借精确物理时钟也能处理可观察先后关系的经典计算问题；Google词源仍是本轮未重新打开的背景案例。",
+        "distinctive_relation": "事件顺序可由发生的依赖关系组织；无法由此比较的事件，不必伪造唯一真实先后。",
+        "history_difference": "旧异步是任务可按不同节奏暂停与继续，旧来源Rust futures；本项为事件之间可比较性及逻辑计数，不是把异步改同义词。若名字只剩大家各走各的，退回旧家族。",
+        "boundary": "不把逻辑时钟当精确物理时间；C(a)<C(b)不推出a因果在b之前。仅实读前3页，未称通读8页全文。",
+        "status": "read_pending_internal_review_and_possible_creation",
+        "is_classical": false
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension4.json",
+      "sha256": "2b90619996a1920932e9dd0a261a4a6d8fa9bb3e20633f18bc310409c0257eba"
+    },
+    "C1-M21": {
+      "material": {
+        "id": "C1-M21",
+        "family_id": "C1-MF-attended-object-change-not-compared",
+        "macro_id": "S5",
+        "plan_direction_id": "C1-D-S5",
+        "category": "cognitive_behavior_experiment",
+        "case_ids": [
+          "B037",
+          "B027"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P4",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Simons & Levin: Failure to detect changes to people during a real-world interaction",
+            "url": "https://gwern.net/doc/psychology/cognitive-bias/illusion-of-depth/1998-simons.pdf",
+            "reading_location": "L0–165，原论文644–646页：引言、实验1方法/结果及作者初步解释",
+            "published_at": "1998",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_body",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "source_urls": [
+          "https://gwern.net/doc/psychology/cognitive-bias/illusion-of-depth/1998-simons.pdf"
+        ],
+        "fact": "给人指路时用门短暂遮挡并替换谈话者；实验1中只有部分行人报告发现变化。直接面对并注意对象，不保证保留或比较其前后每个细节。",
+        "A1_transfer": "Imbue强调作用于认识过程，Midjourney提示人在过程中的位置；据此寻找注意、比较与实际互动之间未必自动成立的关系，未把理解等同信息传入。",
+        "distinctive_relation": "持续交谈的场景意义可以保留，但作为同一对象的外观细节却未必被逐一比较。",
+        "history_difference": "不同于旧察觉的小鼠胡须刺激检测/反应偏差：本项是人类互动中跨遮挡时间的对象身份替换。也不是M09感官通道代偿。若只起察觉/看见同义名则不算新家族。",
+        "boundary": "实验1样本很小；原文社会分组解释为后续实验的问题，不把年龄效应一口写成普遍定律；本次未通读后半篇。",
+        "status": "read_pending_internal_review_and_possible_creation",
+        "is_classical": false
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension4.json",
+      "sha256": "2b90619996a1920932e9dd0a261a4a6d8fa9bb3e20633f18bc310409c0257eba"
+    },
+    "C1-M22": {
+      "material": {
+        "id": "C1-M22",
+        "family_id": "C1-MF-insight-confidence-vs-independent-merit",
+        "macro_id": "S5",
+        "plan_direction_id": "C1-D-S5",
+        "category": "cognitive_metacognition",
+        "case_ids": [
+          "B037",
+          "B027"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P4",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "McGuinness等: The Aha! Glow: Insight Experiences Bias Judgements of Idea Quality in Divergent Contexts",
+            "url": "https://metalab.psych.ucsb.edu/media/171",
+            "reading_location": "PDF页1–3摘要/引言L0–154，以及页20–21讨论L918–969；未逐段通读25页方法统计",
+            "published_at": "2026-08-01",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_body",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "source_urls": [
+          "https://metalab.psych.ucsb.edu/media/171"
+        ],
+        "fact": "论文以职业日记再分析及实验任务比较发散与收敛情境。灵感强度与创意自评分的关系可强于与独立评定的关系；作者讨论灵感可能同时具有激励作用。",
+        "A1_transfer": "从Imbue关于对认识产生作用、Midjourney关于过程身份出发，寻找从感觉想到好答案到真正评判答案之间的不同关系，避免只搜更多顿悟美词。",
+        "distinctive_relation": "一个让人确信的主观信号，可能有行动激励价值，却不是同等可靠的质量凭证。",
+        "history_difference": "不同于多想一步的增加中间推理，也不等于旧有界好奇的探索奖励失效；本项为洞见信号与自评/他评校准。若仅换灵感、闪念等词不计新。",
+        "boundary": "不是所有直觉都错误或所有Aha都不可靠；职业组被用作研究代理，不推出职业本质。独立评定也不等于绝对客观真理；“激励适应功能”为解释提议。",
+        "status": "read_pending_internal_review_and_possible_creation",
+        "is_classical": false
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension4.json",
+      "sha256": "2b90619996a1920932e9dd0a261a4a6d8fa9bb3e20633f18bc310409c0257eba"
+    },
+    "C1-M23": {
+      "material": {
+        "id": "C1-M23",
+        "family_id": "C1-MF-outcome-independent-method-acceptance",
+        "macro_id": "S6",
+        "plan_direction_id": "C1-D-S6",
+        "category": "scientific_publication_practice",
+        "case_ids": [
+          "B077",
+          "B022"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P4",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Center for Open Science: Registered Reports",
+            "url": "https://www.cos.io/initiatives/registered-reports",
+            "reading_location": "L14–54定义与接受条件；L525–536探索与确认的区分；未读参与期刊各自准则",
+            "published_at": null,
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_body",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "source_urls": [
+          "https://www.cos.io/initiatives/registered-reports"
+        ],
+        "fact": "注册报告先审研究问题和方法，给予有条件原则接受，最终不因结果是否符合预期而撤回；仍可因质量保证/按方案执行等问题拒绝，也允许明确标记的探索分析。",
+        "A1_transfer": "Core Automation以组织研究的方法作为身份，OpenAI把立场写成名字；这里研究一种能被具体实践约束的认识态度，并不替团队宣布开放、安全或必须采用某出版制度。",
+        "distinctive_relation": "让结果是否讨人喜欢与研究是否值得记录分开，使不如预期的发现仍可进入知识。",
+        "history_difference": "不同于旧反例以实例否定全称命题、旧未尽之问的知识可错/问题不穷尽；本项为发表决策与结果方向脱钩的具体制度关系。",
+        "boundary": "官网带倡导立场，不按其“消除偏差”宣传措辞当无条件效果定理；本卡为制度说明，不新增用户审批或论文工作流要求。",
+        "status": "read_pending_internal_review_and_possible_creation",
+        "is_classical": false
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension4.json",
+      "sha256": "2b90619996a1920932e9dd0a261a4a6d8fa9bb3e20633f18bc310409c0257eba"
+    },
+    "C1-M24": {
+      "material": {
+        "id": "C1-M24",
+        "family_id": "C1-MF-task-completion-vs-scientific-validity",
+        "macro_id": "S6",
+        "plan_direction_id": "C1-D-S6",
+        "category": "contemporary_research_programme",
+        "case_ids": [
+          "B077",
+          "B022"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P4",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "DOE Announces Four National Laboratory-Led Selections to Advance Robotics and Automation for Autonomous Scientific Discovery",
+            "url": "https://www.energy.gov/science/articles/doe-announces-four-national-laboratory-led-selections-advance-robotics-and",
+            "reading_location": "正文L7–30，重点DART L17–18、四项目角色L23–28与协商边界L29–30",
+            "published_at": "2026-10-08",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_body",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "source_urls": [
+          "https://www.energy.gov/science/articles/doe-announces-four-national-laboratory-led-selections-advance-robotics-and"
+        ],
+        "fact": "DOE选定协商的机器人科研项目，把可复用技能、跨仪器测试、实验科学有效性等列入目标。DART明确不仅看机器人是否完成动作，还要看物理与科学结果是否满足实验要求。",
+        "A1_transfer": "从Core Automation研究组织方法与OpenAI研究立场这个来源路径，追到当代自主科研怎样界定可用能力；不照搬项目缩写或使命宣传。",
+        "distinctive_relation": "动作完成是一层，所达成的结果能否作为有效实验结果是另一层；能力应由使用条件中的实际结果检验。",
+        "history_difference": "不同于原语基础构件、M04合符的凭证匹配及M06余量的擦除恢复；本项限定行动成功与实验效度之间的差别，不泛化成任何验真都有同家族。",
+        "boundary": "这是2026-10-08选定项目的目标，并非已完成成果；award negotiations不等于已获全部经费或团队已实现项目承诺。",
+        "status": "read_pending_internal_review_and_possible_creation",
+        "is_classical": false
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension4.json",
+      "sha256": "2b90619996a1920932e9dd0a261a4a6d8fa9bb3e20633f18bc310409c0257eba"
+    },
+    "C1-M35": {
+      "material": {
+        "id": "C1-M35",
+        "family_id": "C1-MF-inert-listener-prompts-explicit-explanation",
+        "macro_id": "S1",
+        "plan_direction_id": "C1-D-S1",
+        "category": "everyday_desk_object_in_programming_practice",
+        "case_ids": [
+          "B015",
+          "B025"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P4",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Hunt & Thomas, The Pragmatic Programmer, Debugging章大学课程节选",
+            "url": "https://courses.cs.duke.edu/compsci308/spring26/readings/pragmatic-programmer-debugging.pdf",
+            "published_at": null,
+            "reading_location": "实际下载11页课程节选，仅读PDF第8–9页（印刷94–95页）Rubber Ducking正文和脚注；未读完整Debugging章或整本书。版本版权页未在本次确认，不拿spring26课程路径当书籍出版日期。",
+            "reading_scope": "excerpt",
+            "access": "body_via_curl_after_web403",
+            "method": "curl_PDF_pypdf_text",
+            "local_path": "/tmp/continuous001-pragmatic-debugging.pdf",
+            "sha256": "2939e2160448acfdc0263e23148383dcc2df62ac742e844d5d4e6fe1127a3693",
+            "read_at": "2026-11-08T11:43:00.965295+08:00"
+          },
+          {
+            "title": "Keith Schwarz, Stanford CS106B: Debugging Your Code",
+            "url": "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1234/resources/debugging_guide.html",
+            "published_at": "2023-01-05 page last updated; 2023 winter archived course",
+            "reading_location": "实际读公开讲义L104–126，Step Three Rubber-Duck Debug及后续求助边界；未把作者经验比例当实验统计。",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_HTML_body",
+            "read_at": "2026-11-08T11:43:00.965295+08:00"
+          }
+        ],
+        "source_urls": [
+          "https://courses.cs.duke.edu/compsci308/spring26/readings/pragmatic-programmer-debugging.pdf",
+          "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1234/resources/debugging_guide.html"
+        ],
+        "fact": "书中把逐步向他者解释代码作为发现问题的实践：解释迫使说者把默认假设讲出来，听者不需要回答，也可以是鸭子等无生命物件。Stanford教学正文给出相同逐行解释建议，并保留无法解决时求助他人的下一步。",
+        "mechanism_to_material": "Sony从感官/日常体验建立可叫称呼，Cursor从手边物件成为更宽工具入口；迁移到程序员桌面玩具承担思考伙伴角色。不是继续寻找另一种动物的自然智能。两案均A1本轮实质核验，仍不假称知道Cursor创始起名动机。",
+        "distinctive_relation": "物件不需要思考或给答案；为了向它解释而改变的，是说者表达和检查自身假设的方式。",
+        "naming_potential": "熟悉有形的桌面对象与程序员文化有真实连接，轻松称呼背后有独特角色，不再搬冷僻计算术语。",
+        "shortcoming": "玩具、儿童、洗浴用品首联想，可能像编程助手而非广义实验室；实践建议不等同严谨效果实验。",
+        "history_difference": "园丁鸟是活的动物组织外部展示环境，此处是桌面无生命玩具承接解释行为；不是换鸟种。会意依赖双方形成共同参照，这里听者可完全无理解或回复；旧反例/复证是逻辑或新数据检验，此处是说者外显自身假设。旧推理多一步若只剩泛化自我思考会有家族风险，因此保留向无言物件解释的具体对象和角色，不因新书名自动新族。",
+        "boundary": "不证明鸭子有理解、代码解释必然正确或所有错误可自解；书中轶事不当命名历史普遍实验，Stanford的经验概率不作可复现统计。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension13.json",
+      "sha256": "c5f93ad9fbe2788ecb45ab428bba0e57660b1d3e00f84c990223c91cd5eb4a47"
+    },
+    "C1-M29": {
+      "material": {
+        "id": "C1-M29",
+        "family_id": "C1-MF-expertise-relational-chunks-not-general-memory",
+        "macro_id": "S5",
+        "plan_direction_id": "C1-D-S5",
+        "category": "cognitive_expertise_and_memory",
+        "case_ids": [
+          "B037",
+          "B027"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P3",
+          "C1-P4",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Chase & Simon: Perception in Chess",
+            "url": "https://gwern.net/doc/psychology/chess/1973-chase.pdf",
+            "published_at": "1973-01",
+            "reading_location": "PDF前10页L0–328，印刷55–64：引言、三人样本方法、真实/随机棋局结果、组块划分假设；未通读27页全文",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_PDF_body"
+          }
+        ],
+        "source_urls": [
+          "https://gwern.net/doc/psychology/chess/1973-chase.pdf"
+        ],
+        "fact": "作者比较三名不同棋力者重建棋局的表现：真实对局中的大师优势在其随机排列条件下不再呈现同样模式，并以复原顺序/停顿讨论有关系的棋子组块。组块解释是一种研究模型，而非所有人记忆容量的定论。",
+        "mechanism_to_material": "Imbue说明名称可以指向理解过程中对主体的作用；Midjourney让研究身份不被某一终点锁住。于是去读熟练者如何认识已有对象关系，不把经验积累写成泛化持续成长，也不从更多推理步骤继续变词。",
+        "distinctive_relation": "同样棋子数量，摆放是否形成熟悉关系会影响专家可用的结构；优势不等同一块对任何内容都更大的原始记忆。",
+        "naming_potential": "“识局”可称呼从散在对象中认出整体关系的动作，有认知与决策身份，不需要把chunking硬音译。",
+        "history_difference": "旧多想一步关注显式推理步骤，旧抬眼关注注视点选择，余光关注中心外信息有损表征；本项限定长期知识中的熟悉关系与当前任务编码之间的作用，不是另一个看/察觉近义词。若只讲经验越多越聪明则并回旧成长家族。",
+        "boundary": "仅三人实验，不能写成随机局面下所有专家总与新手毫无差别；其后研究未读正文，不追认原短时记忆容量假设为现代全领域结论。人类棋局研究不证明任一AI训练方案有效。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension8.json",
+      "sha256": "e5a7c03cc80309174129037f70812551ea67a99537f5d0b97350d84ee148577b"
+    },
+    "C1-M30": {
+      "material": {
+        "id": "C1-M30",
+        "family_id": "C1-MF-linglun-mythic-maker-of-musical-measures",
+        "macro_id": "S4",
+        "plan_direction_id": "C1-D-S4",
+        "category": "chinese_cultural_knowledge_persona",
+        "case_ids": [
+          "B008",
+          "B021"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P5",
+          "C1-P6"
+        ],
+        "sources": [
+          {
+            "title": "大钟寺古钟博物馆/北京市文物局：季冬之月，律中大吕",
+            "url": "https://wwj.beijing.gov.cn/bjww/wwjzzcslm/1729028/1729042/1729044/21220548/index.html",
+            "published_at": "2022-01-20",
+            "reading_location": "L70–159现代馆方短文，重点L78–104十二律介绍、L149–155古籍引句；未读所引古籍全章",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_HTML_body"
+          },
+          {
+            "title": "河南博物院：骨排箫（王歌扬）",
+            "url": "https://www.chnmus.net/ch/collection/appraise/details.html?id=512156636602363570",
+            "published_at": null,
+            "reading_location": "L10–18文物与演奏描述、L26–34文化解读、L69–90实物比较与测音；未逐段读全文所有历史推断或文献表所列原书",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_HTML_body"
+          }
+        ],
+        "source_urls": [
+          "https://wwj.beijing.gov.cn/bjww/wwjzzcslm/1729028/1729042/1729044/21220548/index.html",
+          "https://www.chnmus.net/ch/collection/appraise/details.html?id=512156636602363570"
+        ],
+        "fact": "现代馆方文化解说和引文将伶伦置于制定乐律、制作乐器的传统角色中。骨排箫作为实际文物则体现管长、管内有效空间及吹奏方式参与音高调节。传说人物身份与出土器物事实不能相互证明。",
+        "mechanism_to_material": "Alibaba借一个本来可称呼、带完整行动的文化角色，Oracle将古老知识实践带到当代机构身份。因此寻找中国知识传统里的制作者与建立尺度的角色，先保留名字而非拼“智/律/元”等字。Oracle词源背景未在本包重核企业动机。",
+        "distinctive_relation": "角色所做的并非只演奏一段乐曲，而是在传统叙事中把声音组织成可传授、可使用的律制；这是文化身份，不称现代科学实证。",
+        "naming_potential": "伶伦是完整人物专名，两个字读说简洁；可赋予研究机构一个来自中国知识实践的制作者角色，而不把竹木材料放在招牌上。",
+        "shortcoming": "可能被认作音乐教育/文创、人名或伶俐儿童品牌；不因文化典故深便自动达到AI Lab门槛。",
+        "history_difference": "不同于开明兽的非人守门神话、圭表/指南鱼等观察方位器具、鸽哨的运动转声音；此处为建立音律基准的文化人物角色。不同于声入纹压痕重放，不能再讲一条声音存储故事。",
+        "boundary": "原典入口本轮仍未取得全文，实际读的是两家馆方正文及其所引少量古文。不认定伶伦是可证实历史人物，不采用馆方对最早起源/十三管等推断为已核定论，不据古代月律对应推科学因果。",
+        "is_classical": true,
+        "classical_count_policy": "虽主要阅读现代馆方正文，但候选核心依赖古典传说，保守计一张古文相关卡；累计两张，远低于当前三十条记录的百分之十五。",
+        "status": "read_and_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension9.json",
+      "sha256": "cf709bf4993046c93991facc95fa170f9db074eac113e29558b5292b875d2a02"
+    },
+    "C1-M25": {
+      "material": {
+        "id": "C1-M25",
+        "family_id": "C1-MF-isotopic-label-preserves-identity-enables-tracing",
+        "macro_id": "S3",
+        "plan_direction_id": "C1-D-S3",
+        "category": "physical_identity_and_experimental_tracing",
+        "case_ids": [
+          "B074",
+          "B002"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "National Isotope Development Center: Isotope Basics",
+            "url": "https://www.isotopes.gov/isotope-basics",
+            "reading_location": "正文L8–22：质子/中子、元素身份和同位素性质；未采用过时数量统计",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_body",
+            "published_at": null
+          },
+          {
+            "title": "UW–Madison DAN Lab: Data Processing/Analysis — Isotope Tracers",
+            "url": "https://danlab.bact.wisc.edu/data-processing-analysis/",
+            "reading_location": "curl HTML实际读Isotope Tracers Introduction、Nomenclature前段以及末尾Kinetic Isotope Effect全节；未通读中部校正与计算各节",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "curl_HTML_body",
+            "published_at": null,
+            "updated_at": "2022-01-24"
+          }
+        ],
+        "source_urls": [
+          "https://www.isotopes.gov/isotope-basics",
+          "https://danlab.bact.wisc.edu/data-processing-analysis/"
+        ],
+        "fact": "同位素的质子数相同而中子数不同。稳定同位素标记可让分子在质量上可区分，并用于追踪代谢路径；动力学同位素效应等条件会影响行为与解释。",
+        "A1_transfer": "从Google已有知识对象与Recursive的具体计算关系，不找更强/再生近义词，而寻找身份相同与可区分性为何能共同存在及被实验使用；Google词源仍为继承背景未本段复核。",
+        "distinctive_relation": "保留元素身份而改变可测质量，让研究者能把原本不易分辨的流转联系起来；不是把物质换成完全不同的彩色标签。",
+        "history_difference": "旧显影以潜在影像经处理变可见，M18利用共同格栅自对准，M09回声定位由声认识形状；本项保留同元素身份又以质量区分的标记关系。若只讲揭示隐藏信息，应并回显影上位家族，不以新化学论文算新。",
+        "boundary": "同位素并非化学物理行为完全相同或都放射性；示踪存在KIE、标记纯度等边界，不拿质量增加比喻智能必增加。",
+        "status": "read_and_chinese_draft",
+        "is_classical": false
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension5.json",
+      "sha256": "cffb951fdcda9f3c0c1d890586ec8fe7d66adb86ab6bb4f2fd44c90147f0777f"
+    },
+    "C1-M34": {
+      "material": {
+        "id": "C1-M34",
+        "family_id": "C1-MF-bower-arranged-for-a-viewing-position",
+        "macro_id": "S2",
+        "plan_direction_id": "C1-D-S2",
+        "category": "animal_construction_original_experiment",
+        "case_ids": [
+          "B076",
+          "B053"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Kelley & Endler: How do great bowerbirds construct perspective illusions?",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5319334/",
+            "published_at": "2017-01-18",
+            "reading_location": "HTML L85–139摘要/引言/方法与首段结果；L153–165结果；L191–211讨论与认知解释限制。没有读取全部附录、原始录像或参考文献各论文。",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_HTML_body",
+            "read_at": "2026-11-08T11:36:00.363426+08:00"
+          },
+          {
+            "title": "中国国家地理：园丁鸟（作者韩奔、韩联宪）",
+            "url": "https://www.dili360.com/cng/article/p538190146486d19.htm",
+            "published_at": "2014-05 issue; exact day not given",
+            "reading_location": "公开题名、署名及L7–23导语/图片说明/第一段；L25–27提示其余需小程序，未读未开放全文。仅据此确认中文称呼与一般建亭语境，不用该导语证明原论文技术结果。",
+            "reading_scope": "public_excerpt",
+            "access": "partial_body",
+            "method": "web_HTML_body",
+            "read_at": "2026-11-08T11:36:00.363426+08:00"
+          }
+        ],
+        "source_urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5319334/",
+          "https://www.dili360.com/cng/article/p538190146486d19.htm"
+        ],
+        "fact": "雄性great bowerbird按物件大小与距离组织展示场地。从通道内观看会形成强迫透视。移走物件后重建实验中，前一小批物件已形成所需梯度；物件总数与本次配偶成功率、场地质量未见相关。",
+        "mechanism_to_material": "沿Sakana普通动物称呼背后的真实行为关系寻找单个行动者，不复制鱼群与集群智能；月之暗面基线提示完整场景也能承担身份。前者A1本轮重核，后者仅沿用分析。",
+        "distinctive_relation": "改变外部物件的大小—距离关系，让一个固定观看位置获得特定视觉场景；构筑的是供另一个行动者观看的环境。",
+        "naming_potential": "有一位可叫出名字的自然建造者，比硬摘透视术语更像有个性的主角。",
+        "shortcoming": "园丁会带教育、园艺、景观设计联想；原研究含求偶与视觉错觉，不能包装为诚实可靠或能力增强的科学证明。",
+        "history_difference": "Sakana是群体简单规则与组织，不是单鸟为观看者布置环境；活桥是个体身体成通路，园丁鸟则使用外部物件；余光是观察者周边信息压缩，探形是触觉/声学获得形状，算筹是离散表示规则。本项为物体大小、距离与指定观看位置共同形成显示场景。若最终只剩泛化造园/成长/装饰，不凭新物种另算品牌族。",
+        "boundary": "园丁鸟是较宽的中文称呼，本实验不是所有园丁鸟、雌雄或所有建亭行为的一般实验。内部模板、初次学习与试误是作者讨论的可能解释，未证明其懂人类几何或具有通用智能。梯度在重建中不持续单调变好。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension12.json",
+      "sha256": "e2d11c576bc35eebd1363856fcce9a378f7c35d633932aa1ff1763426bc9b986"
+    },
+    "C1-M44": {
+      "material": {
+        "id": "C1-M44",
+        "family_id": "C1-MF-responsive-grains-make-tactile-field-pattern",
+        "macro_id": "S2",
+        "plan_direction_id": "C1-D-S2",
+        "category": "hands_on_exhibit_and_scientific_artifact",
+        "case_ids": [
+          "B076",
+          "B053"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Royal Institution: Michael Faraday's iron filings",
+            "url": "https://www.rigb.org/explore-science/explore/collection/michael-faradays-iron-filings",
+            "published_at": null,
+            "object_date": "1851",
+            "reading_location": "L20–33，藏品年份/纸铁屑蜡材料、排列与加热蜡固定以保留研究结果；未实看馆藏、不将藏品年代当网页发布日期。",
+            "reading_scope": "collection_body",
+            "access": "body",
+            "method": "web_HTML_body",
+            "read_at": "2026-11-08T17:49:59.476814+08:00"
+          },
+          {
+            "title": "Exploratorium: Black Sand exhibit cross reference",
+            "url": "https://annex.exploratorium.edu/xref/exhibits/black_sand.html",
+            "published_at": null,
+            "reading_location": "公开展项完整短正文L9–11：磁铁矿黑沙/铁屑、随磁场排形及触觉互动；没有实际操作展项。",
+            "reading_scope": "exhibit_body",
+            "access": "body",
+            "method": "web_HTML_body",
+            "read_at": "2026-11-08T17:49:59.476814+08:00"
+          }
+        ],
+        "source_urls": [
+          "https://www.rigb.org/explore-science/explore/collection/michael-faradays-iron-filings",
+          "https://annex.exploratorium.edu/xref/exhibits/black_sand.html"
+        ],
+        "fact": "展项用磁性黑沙或铁屑产生可见、可触的磁响应图样；法拉第馆藏说明还记录用蜡固定铁屑排列以保存研究痕迹。",
+        "distinctive_relation": "分散材料本身响应外部磁场而形成可操作的阵形，观察痕迹也能被固定保存。",
+        "mechanism_to_material": "Sakana让熟悉自然对象与真实组织方式相接，月之暗面基线提示完整可进入场景。本次先保留可触沙粒排列这一完整对象，不照搬群体智能或光学显影。Sakana为A1新核，月之暗面仅继承基线。",
+        "naming_potential": "沙与阵在同一个真实材料场景相连，能够形成完整意象而非把科技字配美好字。",
+        "shortcoming": "沙场/军事游戏/砂石材料行业可能比研究机构更先浮现；不能拿物理原理替首印象加分。",
+        "history_difference": "旧显影为潜像经处理显出，NASA纹影是光路配准/折射成像；本项是沙粒本身受磁响应排成可拨弄、可触的结构，又可用蜡留存。M40随机图为连边阈值非材料受场排形；Sakana为动物局部规则与群体，不能将本项解释成另一种集群智能。若品牌只剩揭示不可见/众多粒子涌现，应保守并回旧上位家族。",
+        "boundary": "场线是表征，不说磁场只存在于沙粒排出的线，也不把颗粒排列说成自主学习或意识。没有实际操作或对材料作精密测量。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension19.json",
+      "sha256": "2c04a81472f4e75739b73041ac36c6e54f9addced87b1d17991755bc21ebc9b8"
+    },
+    "C1-M45": {
+      "material": {
+        "id": "C1-M45",
+        "family_id": "C1-MF-lishou-remembered-origin-of-arithmetic",
+        "macro_id": "S4",
+        "plan_direction_id": "C1-D-S4",
+        "category": "chinese_mathematical_cultural_persona",
+        "case_ids": [
+          "B008",
+          "B021"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "刘徽《九章算术注》原序（识典古籍原文）",
+            "url": "https://www.shidianguji.com/book/SK1544/chapter/1k00ioeirucyi",
+            "published_at": null,
+            "reading_location": "页面L6原序段落中开头至自述作注处，重点隶首作数记载和详情未闻；不以整篇已返回就宣称逐段通读后半重差测量。",
+            "reading_scope": "classical_text_excerpt",
+            "access": "body",
+            "method": "web_HTML_body",
+            "read_at": "2026-11-08T17:49:59.476814+08:00"
+          },
+          {
+            "title": "Harvard课程所存九章算术原序与现代解释扫描本",
+            "url": "https://people.math.harvard.edu/~knill/teaching/math22a2018/exhibits/ninechapters/ninechapters_with_explanations.pdf",
+            "published_at": null,
+            "reading_location": "web无可读行，curl实际下载371页扫描本，pypdf/PyMuPDF文本提取为空；渲染目读PDF6/8页（印刷1/3页）原序和现代[5]注的续文，并目读PDF1–3前言；缩略拼图只用于定位，不算正文阅读。未读全书或整条跨页[5]注，出版版次未核。",
+            "reading_scope": "rendered_book_excerpt",
+            "access": "body_local_render",
+            "method": "curl_PDF_fitz_render_view_image",
+            "local_path": "/tmp/continuous001-ninechapters.pdf",
+            "local_read_images": [
+              "/tmp/continuous001-ninechapters-6.png",
+              "/tmp/continuous001-ninechapters-8.png"
+            ],
+            "sha256": "e83e25cab326e8e13c5720a90e8f7b791671972dda6a94df1dd4e9ed5bd2ac84",
+            "read_at": "2026-11-08T17:49:59.476814+08:00"
+          }
+        ],
+        "source_urls": [
+          "https://www.shidianguji.com/book/SK1544/chapter/1k00ioeirucyi",
+          "https://people.math.harvard.edu/~knill/teaching/math22a2018/exhibits/ninechapters/ninechapters_with_explanations.pdf"
+        ],
+        "fact": "刘徽原序转述隶首作数的旧记载，并明确详情没有听闻。现代解释亦提到相关古籍传说；本次没有直接读取那些被引古书。",
+        "distinctive_relation": "一个已有姓名的算术传统人物被古数学著作记住，同时正文保留历史认识的边界。",
+        "mechanism_to_material": "Alibaba从已有完整文化角色借身份，Oracle基线从文化知识实践借主题；本次借中国数学传统中的具体专名，不把两字拆成吉祥意思。Alibaba为A1新核，Oracle未新核词源。",
+        "naming_potential": "两字专名先可叫出，计算传统提供第二层；不凭古代人物身份推定科学事实。",
+        "shortcoming": "隶会引书法/隶属/部属联想，可能需解释陌生人物；这类成本不能因古书提及就消除。",
+        "history_difference": "伶伦是音律制订文化角色，开明兽是多面守门神话；隶首是古数学文本追溯算术传统时提到的另一具体人物，不是把伶伦名字换两个字保留律制故事。与原语的现代语言构件、算筹的摆放工具也非同一对象。但若仅剩古代发明家/知识源头的套话，需主控保守判族，不能因历史人物多就无限新增。",
+        "boundary": "不宣称隶首确凿发明全部数字/算术、是某一已证实时代科学家，或把刘徽的谨慎态度归给隶首本人；旧记载的存在与内容真实性分开。",
+        "is_classical": true,
+        "status": "read_and_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension19.json",
+      "sha256": "2c04a81472f4e75739b73041ac36c6e54f9addced87b1d17991755bc21ebc9b8"
+    },
+    "C1-M14": {
+      "material": {
+        "id": "C1-M14",
+        "family_id": "C1-MF-transferred-symbiotic-partner-position",
+        "macro_id": "S2",
+        "plan_direction_id": "C1-D-S2",
+        "case_ids": [
+          "B076",
+          "B053"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2"
+        ],
+        "source_urls": [
+          "https://www.jstage.jst.go.jp/article/crustacea/47/0/47_55/_pdf/-char/en"
+        ],
+        "sources": [
+          {
+            "title": "Yoshikawa, Goto & Asakura: Transfer of the gatekeeper sea anemone Verrillactis sp. between shells by the host hermit crab Dardanus deformis",
+            "url": "https://www.jstage.jst.go.jp/article/crustacea/47/0/47_55/_pdf/-char/en",
+            "published_at": "2018-07-26",
+            "reading_location": "PDF正文L0–317：摘要、方法、结果、讨论；不把文献表视为阅读原引文",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_PDF_body"
+          }
+        ],
+        "fact": "研究记录一只寄居蟹换壳时，通过拍击及夹持将海葵移动到新壳口；作者认为位置识别及行为灵活性值得进一步研究。",
+        "distinctive_relation": "外部住所可以更换，但共生伙伴被主动搬到新住所的对应功能位置。",
+        "A1_transfer": "不是再换一种群体动物；依Sakana借完整生命关系，把注意力转到跨异类伙伴、位置和功能保留。",
+        "boundary": "仅一只蟹的多次观察，不推广整个物种皆如此；海葵保护效益有本研究讨论与旧引用层级，不能说本次已直接完成捕食保护实验。",
+        "history_difference": "不是活桥成员成为基础设施，也不是探形识别物件形状；但仅用共生/伙伴等泛词会与既有Symbiotic命名案例重合，暂不造字填名。",
+        "status": "read_no_qualified_draft_yet",
+        "is_classical": false
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension2.json",
+      "sha256": "833b912f5bb41ab1919c3472a78ed9911554183e7c8cc0f42c863ed133c9732c"
+    },
+    "C1-M15": {
+      "material": {
+        "id": "C1-M15",
+        "family_id": "C1-MF-slime-trail-externalized-avoidance-memory",
+        "macro_id": "S2",
+        "plan_direction_id": "C1-D-S2",
+        "case_ids": [
+          "B076",
+          "B053"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2"
+        ],
+        "source_urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3491460/"
+        ],
+        "sources": [
+          {
+            "title": "Reid et al.: Slime mold uses an externalized spatial memory to navigate in complex environments",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3491460/",
+            "published_at": "2012-10-08",
+            "issue_date": "2012-10-23",
+            "reading_location": "L95–141摘要、引言和结果：Y迷宫选择、U型障碍、覆盖黏液对照；尚未逐段阅读其后讨论及方法",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_HTML_body"
+          }
+        ],
+        "fact": "黏菌倾向避开已有细胞外黏液的区域；两个方向均有黏液时不再有相同避让选择。预先铺满黏液干扰自身路径标记的对照中，U型障碍任务表现下降。",
+        "distinctive_relation": "行动留下的环境痕迹可以成为后续选择的外部依据；抹去痕迹与背景的差异会削弱这条可用信息。",
+        "A1_transfer": "从Sakana生命过程继续找具体不同的信息关系；不是再泛称生长、集群聪明或网络重构。",
+        "boundary": "外部空间记忆是作者对行为与对照的解释，不是脑内情景回忆、意识或所有黏菌都能解任意迷宫；新旧标记依赖背景可区分性。",
+        "history_difference": "历史真菌材料关注细胞/连边结构在演化尺度上的网络变化；本项为非活性外部痕迹参与导航。旧驾驶舱认知环境材料与此外部记忆在上位层面相近，若新名只剩记忆外挂不可算新家族。",
+        "status": "read_no_qualified_draft_yet",
+        "is_classical": false
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension2.json",
+      "sha256": "833b912f5bb41ab1919c3472a78ed9911554183e7c8cc0f42c863ed133c9732c"
+    },
+    "C1-M36": {
+      "material": {
+        "id": "C1-M36",
+        "family_id": "C1-MF-signed-reward-mismatch-at-expected-time",
+        "macro_id": "S5",
+        "plan_direction_id": "C1-D-S5",
+        "category": "neuroscience_and_computational_learning_primary_authors",
+        "case_ids": [
+          "B037",
+          "B027"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P4"
+        ],
+        "sources": [
+          {
+            "title": "Schultz, Dayan & Montague: A Neural Substrate of Prediction and Reward",
+            "url": "https://www.gatsby.ucl.ac.uk/~dayan/papers/sdm97.pdf",
+            "published_at": "1997-03-14",
+            "reading_location": "作者机构托管7页论文PDF，本次实际读前3页（印刷1593–1595），L24–121背景与blocking、L130–265神经活动/图1、L272–391 TD定义及假设。未读后四页及原引实验；首24行是前篇参考文献，未误当本篇。",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_PDF_body",
+            "read_at": "2026-11-08T13:19:15.266477+08:00"
+          }
+        ],
+        "source_urls": [
+          "https://www.gatsby.ucl.ac.uk/~dayan/papers/sdm97.pdf"
+        ],
+        "fact": "文章将灵长类部分多巴胺神经活动与奖赏预期差联系：意外奖赏、已预测奖赏、预期奖赏未到对应不同反应。TD模型以相邻时点估值与奖赏构成误差信号，并在条件假设下更新估值。",
+        "mechanism_to_material": "沿Imbue对认识/行动发生作用、Midjourney过程身份，寻找实际得到的结果怎样改变预测；将日常失算重新读成可观测的预期差，而非直接摘TD/多巴胺科学名词。Imbue本轮A1重核，Midjourney沿用基线。",
+        "distinctive_relation": "没得到所料的奖赏不是没有信息：预期时点的缺失本身可以与既有预测比较，产生有方向的差异。",
+        "naming_potential": "熟悉口语的认知动作能连接计算估计与真实结果，不用拼智能/跃迁/无限。",
+        "shortcoming": "失算直接带错误/失败联想，可能使客户以为算法不可靠；能否承担长期研究品牌须与原理正确性分开。",
+        "history_difference": "旧有界好奇是状态预测误差作内在探索奖励，被随机电视吸引；本项是对奖赏的有符号预期差，预期的奖励没来时在预期时点出现负向信号。两者同属预测误差上位类，必须由主控保守判断品牌家族：若只剩算错带来学习这个泛义应合并，不靠不同论文另算。复证为新数据重复研究，不等于一次结果偏离预期；M22灵感之外为主观确定感与质量判断分离，本项不换之外词形救回。",
+        "boundary": "不把作者1997模型当今日所有多巴胺细胞的完整定论；神经结果与计算解释分层。不是所有错误都能学习，不把收敛条件推广到任意环境或宣称AI已有脑机制。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft_pending_family_review"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension15.json",
+      "sha256": "ad5ea5eb8a063d85b91e08ea92a1457d00a4e86c375135b0c73b9e3e814bc432"
+    },
+    "C1-M16": {
+      "material": {
+        "id": "C1-M16",
+        "family_id": "C1-MF-interactive-evaluation-submission-result",
+        "plan_direction_id": "C1-D-S1",
+        "case_ids": [
+          "B025",
+          "B015"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P3"
+        ],
+        "source_urls": [
+          "https://sicp.sourceacademy.org/chapters/4.1.4.html",
+          "https://docs.python.org/3/tutorial/interpreter.html",
+          "https://docs.python.org/3/tutorial/appendix.html"
+        ],
+        "sources": [
+          {
+            "title": "SICP 4.1.4 Running the Evaluator as a Program",
+            "url": "https://sicp.sourceacademy.org/chapters/4.1.4.html",
+            "reading_location": "正文L271–304及脚注L318：全局环境、driver loop、define append及下一次调用示例",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_body",
+            "published_at": null
+          },
+          {
+            "title": "Python官方教程：Using the Python Interpreter及Appendix",
+            "url": "https://docs.python.org/3/tutorial/interpreter.html",
+            "reading_location": "正文L10–17、23–37交互输入与多行结构；另读appendix L3–14错误后返回提示符",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_body",
+            "published_at": null
+          }
+        ],
+        "fact": "SICP的driver loop读入完整表达式、在环境中求值、输出并继续循环；示例先定义append，随后输入可以调用它。Python交互输入也有续行，按下单次回车不保证任意程序已完整或成功执行。",
+        "A1_transfer": "Cursor用手边界面动作作为创造入口；Sony说明自然可叫的外壳可以容纳技术故事。这里转到提交表达式后的执行与结果，而非再造另一种光标。",
+        "distinctive_relation": "文字从被输入的符号变成被执行的计算，结果再进入下一次互动。",
+        "history_difference": "旧惰性求值延迟到真正需要时才计算；此处是人与解释器提交/执行/回应的交互界面。旧二周目是完成一次游戏后携进度重开，不是输入表达式形成执行。若只剩循环升级，应并入旧家族。",
+        "boundary": "环境持续存在不等于模型学会新知识；不能把回车等同一切语言的执行键，不把现代页面JS改编细节伪称Scheme原文。",
+        "status": "read_and_chinese_draft",
+        "is_classical": false
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension3.json",
+      "sha256": "a549fff62266ddf31e61b34e8c8523b247927918903944bab48863a1bdaeac36"
+    },
+    "C1-M17": {
+      "material": {
+        "id": "C1-M17",
+        "family_id": "C1-MF-crosswind-shear-shallow-arc-energy",
+        "plan_direction_id": "C1-D-S2",
+        "case_ids": [
+          "B076",
+          "B039"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3"
+        ],
+        "source_urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5665832/"
+        ],
+        "sources": [
+          {
+            "title": "Bousquet, Triantafyllou & Slotine: Optimal dynamic soaring consists of successive shallow arcs",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5665832/",
+            "published_at": "2017-10-04",
+            "reading_location": "正文L81–113：摘要、引言、风剖面及轨迹图说明；未通读后续模型推导",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_body"
+          }
+        ],
+        "fact": "论文研究从非均匀水平风场提取飞行能量，结合数值与解析方法说明薄剪切层条件下小角度弧线的优势；以高频GPS轨迹为参照，重点是相对平均风的横风飞行。",
+        "A1_transfer": "Sakana以动物与组织方式提供真实关系，Mistral以可称呼自然风名提供身份。后一案例是基线背景，未在本段重新核查企业动机；本次新实读是动态滑翔原论文。",
+        "distinctive_relation": "不是沿一股风被吹走；飞行轨迹利用不同速度风层间的差异，横向行进也能取得维持飞行的能量。",
+        "history_difference": "旧上升流依赖上升气流，旧山坡风依赖温差密度及重力；本项为水平速度梯度与跨层轨迹。不能把全部缩成借风、向上、零成本成长；横风本身也不单独保证有可采能量。",
+        "boundary": "结论有风层厚度与模型条件，不说鸟无需任何代谢能；不是任何均匀横风都能无限续航，论文最优对象为最小所需风条件，不等于现实鸟每次全局最优。",
+        "status": "read_and_chinese_draft",
+        "is_classical": false
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension3.json",
+      "sha256": "a549fff62266ddf31e61b34e8c8523b247927918903944bab48863a1bdaeac36"
+    },
+    "C1-M18": {
+      "material": {
+        "id": "C1-M18",
+        "family_id": "C1-MF-single-grid-optical-self-alignment",
+        "plan_direction_id": "C1-D-S1",
+        "case_ids": [
+          "B025",
+          "B015"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P3"
+        ],
+        "source_urls": [
+          "https://technology.nasa.gov/patent/LAR-TOPS-348",
+          "https://www.nasa.gov/aeronautics/award-winning-nasa-camera-revolutionizes-how-we-see-the-invisible/"
+        ],
+        "sources": [
+          {
+            "title": "NASA技术转移：Assembly for Simplified Hi-Res Flow Visualization",
+            "url": "https://technology.nasa.gov/patent/LAR-TOPS-348",
+            "published_at": null,
+            "reading_location": "L15–33装置工作过程、单格栅双重角色及边界",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_body"
+          },
+          {
+            "title": "NASA: Award-Winning NASA Camera Revolutionizes How We See the Invisible",
+            "url": "https://www.nasa.gov/aeronautics/award-winning-nasa-camera-revolutionizes-how-we-see-the-invisible/",
+            "published_at": "2026-02-19",
+            "updated_at": "2026-06-22",
+            "reading_location": "L243–287正文及L298–300更新日期；非近90天新闻",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_body"
+          }
+        ],
+        "fact": "同一物理格栅参与出射光投影与回程截光，借偏振与反射形成自对准光路，减少原来两个格栅精确相互对齐的要求。",
+        "A1_transfer": "从Cursor手边可操作器物与Sony自然外壳进入：寻找工具怎样改变获得信息的条件，而非只给观测器改一个名字。",
+        "distinctive_relation": "以同一实体承担原来需要两个实体配准的角色，改变对齐条件。",
+        "history_difference": "若用看见风等称呼，只剩使不可见可读，会回到旧显影家族，所以不作为新中文。真正不同点是共用实体带来的配准简化，尚无自然Lab称呼。",
+        "boundary": "装置不是意识或完全免校准，宣传性分钟/周对比不推广到所有实验；未通读被链接专利和论文。",
+        "status": "material_only_no_qualified_name",
+        "is_classical": false
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension3.json",
+      "sha256": "a549fff62266ddf31e61b34e8c8523b247927918903944bab48863a1bdaeac36"
+    },
+    "C1-M41": {
+      "material": {
+        "id": "C1-M41",
+        "family_id": "C1-MF-user-agency-and-recoverable-collaboration-friction",
+        "macro_id": "S5",
+        "plan_direction_id": "C1-D-S5",
+        "category": "recent_institutional_news",
+        "case_ids": [
+          "B037",
+          "B027"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Stanford HAI: Humans and AI Engage in Meaningful Collaborations",
+            "url": "https://hai.stanford.edu/news/humans-and-ai-engage-in-meaningful-collaborations",
+            "published_at": "2026-10-12",
+            "reading_location": "L90–123日期及完整新闻主文：研究概述、正/负摩擦、恢复与建议。未读其链接论文方法或完整数据，不把新闻百分比当本角色独立统计验证。",
+            "reading_scope": "news_body_excerpt",
+            "access": "body",
+            "method": "web_HTML_body",
+            "read_at": "2026-11-08T17:39:33.179810+08:00",
+            "within_90_days_as_of": "2026-11-08"
+          }
+        ],
+        "source_urls": [
+          "https://hai.stanford.edu/news/humans-and-ai-engage-in-meaningful-collaborations"
+        ],
+        "fact": "新闻将人机协作中的质疑、澄清与修订，同被动接收输出区分；也报告负面摩擦及恢复尝试。",
+        "distinctive_relation": "协作不一定以全程顺从为好，分歧需要可继续澄清与恢复的条件。",
+        "mechanism_to_material": "Imbue以对他者作用建立角色，Midjourney基线以创造过程位置形成身份；寻找当代协作实践怎样改变认识，而非再说成长。后者未重新核词源。",
+        "history_difference": "旧另解是替换和检验解释，反例是逻辑否证，会意是共同参照；此新闻在过程层更具体，但若凝为异议/另一解释的品牌主角，仍与旧另解独立判断角色相邻。不同新闻不自动新品牌族。",
+        "naming_potential": "保留真实关系，但本包未找到既自然又能避开旧异议/替代解释上位角色的称呼，不强交名字。",
+        "boundary": "机构新闻中的观察性分析与作者建议不证明争论本身必然提高能力；本角色未独立核论文。",
+        "is_classical": false,
+        "status": "read_no_qualified_name_family_overlap_risk"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension18.json",
+      "sha256": "8846f4654ee5d3782297b11876b27ade8c541474d0b3c1d551a70c9b1ede42a9"
+    },
+    "C1-M42": {
+      "material": {
+        "id": "C1-M42",
+        "family_id": "C1-MF-partial-results-select-execution-path",
+        "macro_id": "S3",
+        "plan_direction_id": "C1-D-S3",
+        "category": "recent_institutional_news",
+        "case_ids": [
+          "B074",
+          "B002"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Pamela Tyers, CSIRO: Building Australia’s first computer",
+            "url": "https://www.csiro.au/en/news/all/articles/2026/september/history-of-computing",
+            "published_at": "2026-09-16",
+            "reading_location": "L27–84新闻日期/计算史与页面所附CSIRAC影片转录，重点L57–69设计者对程序路径、存储与操作的解释；没有观看1965影片，也未读全文末段网络发展史。机制属历史转录，新闻发布日期不当技术发明日期。",
+            "reading_scope": "news_body_excerpt",
+            "access": "body",
+            "method": "web_HTML_body",
+            "read_at": "2026-11-08T17:39:33.179810+08:00",
+            "within_90_days_as_of": "2026-11-08"
+          }
+        ],
+        "source_urls": [
+          "https://www.csiro.au/en/news/all/articles/2026/september/history-of-computing"
+        ],
+        "fact": "页面转录设计者解释：程序由指令序列网络组成，机器按部分计算答案决定如何穿行；新闻同时记载程序与数据同存。",
+        "distinctive_relation": "下一条执行路径可以由已经计算出的中间结果决定，而非每一步都需重新由人输入。",
+        "mechanism_to_material": "Recursive提示计算关系可承担机构身份，Google基线提示知识对象可成为称呼；本次不拿CSIRAC型号当名字、不摘存储术语，而把内部计算与继续行动压成自然动作。Google未重新核词源。",
+        "history_difference": "原语是基本构件及组合，自举为已有能力构造自身工具，元解释器为语言描述自身求值，回车以后为外部输入执行与下一交互；本项是程序内部按部分答案决定后续指令路径，不包含自己重写规则或学会新事。因序为分布事件的依赖偏序，不是执行条件分支；若泛化成运行一次更聪明，必须退旧成长族。",
+        "naming_potential": "从同一过程凝练算着走：计算与推进相接，没给算和走各添吉祥解释。",
+        "boundary": "新闻转录为历史一手讲述，不能据此证明最早发明优先权；固定程序条件分支不等于自主学习、改变算法或所有未来路径可知。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension18.json",
+      "sha256": "8846f4654ee5d3782297b11876b27ade8c541474d0b3c1d551a70c9b1ede42a9"
+    },
+    "C1-M43": {
+      "material": {
+        "id": "C1-M43",
+        "family_id": "C1-MF-personal-routes-to-shared-community-evidence",
+        "macro_id": "S4",
+        "plan_direction_id": "C1-D-S4",
+        "category": "recent_institutional_news",
+        "case_ids": [
+          "B008",
+          "B021"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Isabel Sacks, Stanford Report: Projects explore the role of joy in learning",
+            "url": "https://news.stanford.edu/stories/2026/10/accelerator-learning-joy-projects",
+            "published_at": "2026-10-28",
+            "reading_location": "L88–138日期/项目新闻正文，重点L122–125学生个体路线数据汇集与公开呈报；未读21个项目原论文、原方案或VR实验完整数据。",
+            "reading_scope": "news_body_excerpt",
+            "access": "body",
+            "method": "web_HTML_body",
+            "read_at": "2026-11-08T17:39:33.179810+08:00",
+            "within_90_days_as_of": "2026-11-08"
+          }
+        ],
+        "source_urls": [
+          "https://news.stanford.edu/stories/2026/10/accelerator-learning-joy-projects"
+        ],
+        "fact": "新闻回顾学生绘制个人路线，将匿名汇总的班级数据用于讨论并向公共机构呈报的项目。",
+        "distinctive_relation": "个体熟悉的路线，经共同记录和汇总成为可以向社区说明的问题依据。",
+        "mechanism_to_material": "由Alibaba完整角色场景及Oracle基线知识实践，转到中国古文之外的当代社区知识行动；学习社会实践关系，不把快乐学习的宣传语当普适机制。Oracle未重新核词源。",
+        "history_difference": "不同于M05共同指代，它聚合记录并向他者呈报；但若名字只剩共同有数/学习有趣会回到泛化协作或育儿培训。",
+        "naming_potential": "保留现代知识实践素材，本包不把教学项目强配广义AI Lab名字。",
+        "boundary": "项目新闻是回顾和参与者陈述，不能从前后变化推出VR因果疗效，也不把所有21项目说成同一实验。",
+        "is_classical": false,
+        "status": "read_no_qualified_name_brand_fit_risk"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension18.json",
+      "sha256": "8846f4654ee5d3782297b11876b27ade8c541474d0b3c1d551a70c9b1ede42a9"
+    },
+    "C1-M49": {
+      "material": {
+        "id": "C1-M49",
+        "family_id": "C1-MF-shuttle-crosses-manual-reach",
+        "macro_id": "S1",
+        "plan_direction_id": "C1-D-S1",
+        "category": "familiar_craft_tool_and_body_reach",
+        "case_ids": [
+          "B025",
+          "B015"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Colne Valley Museum / MyLearning: Flying Shuttle Mechanism",
+            "url": "https://www.mylearning.org/resources/flying-shuttle-mechanism",
+            "reading_location": "实际读藏品教学短正文L18–20：拉动木柄使梭越过布幅，突破原手递梭受臂展影响的布幅，亦提高速度；原文也提到纱线供给需求增加。没有实际操作、看视频或读取完整工业史。",
+            "read_at": "2026-11-08T20:37:57.320210+08:00",
+            "access": "body",
+            "published_at": null,
+            "source_type": "museum_object_teaching_resource",
+            "reading_scope": "complete_short_body",
+            "boundary": "版权年2026不作发布日期；飞梭为通常中文译名，不声称英文正文出现中文两字。"
+          }
+        ],
+        "source_urls": [
+          "https://www.mylearning.org/resources/flying-shuttle-mechanism"
+        ],
+        "fact": "机械驱动的飞梭将纬线从织机一侧送到另一侧，使织者不必以双手直接传梭跨过整个布幅。",
+        "distinctive_relation": "熟悉的梭仍运同一根纬线，改变的是人手如何让它越过身体可达范围。",
+        "mechanism_to_material": "Cursor借日常操作对象成为入口，Sony反馈强调熟悉经验可变成整体称呼；本项先保留完整可叫出的工具，不把梭拆成通信/飞拆成成功。两案原A1新核，本包不声称重新核过命名历史。",
+        "history_difference": "已实际读旧A2C19织数完整提案和M19材料：对象为提花穿孔卡、作用为指令控制图样，画面是代数模式被织出。本项对象是往复运载纬线的梭及其机械驱动，作用是越过原本手递的身体可达宽度；不使用卡孔/程序/算法织造故事。同属织造并不自动同族，但若释义只剩织造组织复杂结构，应退回旧族，不能换馆藏即新增。旧NASA配准、橡皮鸭说明假设都不是跨越手递宽度；不借导航意象。",
+        "naming_potential": "完整工具名兼有明确动势，能承担让行动超出原边界的技术身份。",
+        "shortcoming": "纺织配件、物流/航天产品可能先被想到；不能因工业史重要就保证Lab品牌好。",
+        "boundary": "不称首个自动计算机、无需人力或无限快；原手递限制不是所有古代织物都绝对不能更宽，供纱与生产组织条件也重要。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension21.json",
+      "sha256": "923ffb9d47a8b86440210d374ae0b32e82c5a7b6d10a8ae9baead0ff9de43270"
+    },
+    "C1-M50": {
+      "material": {
+        "id": "C1-M50",
+        "family_id": "C1-MF-flytrap-transient-calcium-stimulus-integration",
+        "macro_id": "S2",
+        "plan_direction_id": "C1-D-S2",
+        "category": "whole_organism_and_conditional_response",
+        "case_ids": [
+          "B076",
+          "B053"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "NIBB author institution: Memory of the Venus flytrap",
+            "url": "https://www.nibb.ac.jp/en/press/2020/10/06.html",
+            "reading_location": "实际读L116–137日期及研究新闻完整科学正文：触毛刺激、转基因钙传感器、首刺激后钙升高再衰减、时间窗内第二刺激抬高钙并与闭合相关。未看视频/图像或读取付费论文全文。",
+            "read_at": "2026-11-08T20:37:57.320210+08:00",
+            "access": "body",
+            "published_at": "2020-10-06",
+            "source_type": "author_institution_research_news",
+            "reading_scope": "complete_scientific_news_body",
+            "boundary": "本页为研究团队机构的一手报道，不冒充原论文方法全文；约30秒是报道实验语境，不能说任何条件下都只认两次。"
+          }
+        ],
+        "source_urls": [
+          "https://www.nibb.ac.jp/en/press/2020/10/06.html"
+        ],
+        "fact": "报道所述条件中，首刺激引起钙信号上升后逐渐下降，短时间内第二刺激可使信号进一步升高并伴随闭合；隔得太久则不足以达到相关阈值。",
+        "distinctive_relation": "同一片叶保留前一次触碰的短时内部状态，后一次触碰的结果取决于两次之间的时间。",
+        "mechanism_to_material": "Sakana把普通生命对象和真实组织方式连接，月之暗面基线鼓励整体可进入形象。本项借完整植物身份与条件性反应，不因它是另一物种便认定新，明确与旧植物材料作用不同。Sakana原A1新核；月之暗面仅继承未重开词源。",
+        "history_difference": "M08气孔为细胞谱系分化，不是孔的快开闭；M15黏菌为外部黏液痕迹影响路径，本项为同一植物内部短时钙状态影响后一次刺激的反应。M36奖励误差为神经奖赏时点不符，Chancebell为随机等待时间，不等于两次刺激的残留状态累积。不是泛化有记忆的植物，也不能换物种继续同一反馈故事算新；精确名称与触碰/短时记忆历史串及旧提案实查无同名，但不是市场核验。",
+        "naming_potential": "三字完整生命对象容易叫出，带意外的快速行动与短时状态关系。",
+        "shortcoming": "园艺/杀虫器材或捕猎监控第一联想明显，须独立评机构身份；不能以研究新闻替代品牌评价。",
+        "boundary": "不说植物有神经系统、人类式思考或持续自我提升；约30秒与重复刺激表述限于报道条件。原论文摘要提示阈值关联，本包不据机构新闻升级为所有条件的充分必要定律。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension21.json",
+      "sha256": "923ffb9d47a8b86440210d374ae0b32e82c5a7b6d10a8ae9baead0ff9de43270"
+    },
+    "C1-M31": {
+      "material": {
+        "id": "C1-M31",
+        "family_id": "C1-MF-value-live-through-possible-future-use",
+        "macro_id": "S3",
+        "plan_direction_id": "C1-D-S3",
+        "category": "compiler_dataflow_liveness",
+        "case_ids": [
+          "B074",
+          "B002"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Cornell CS4120（Andrew Myers课程）：Live Variable Analysis",
+            "url": "https://www.cs.cornell.edu/courses/cs4120/2023sp/notes/livevar/",
+            "published_at": "2023",
+            "reading_location": "正文L1–101：定义/寄存器例子、不可判定性/保守估计、use-def/控制流路径与数据流求解；只读本单篇讲义，未读其他课程各章或运行实现",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_HTML_body"
+          }
+        ],
+        "source_urls": [
+          "https://www.cs.cornell.edu/courses/cs4120/2023sp/notes/livevar/"
+        ],
+        "fact": "讲义将变量值在某程序位置是否可能在覆盖前继续被读取称为live；它用于寄存器分配等分析。真执行行为的精确判断可能不可判定，保守分析因此可高估需要保留的集合。",
+        "mechanism_to_material": "Recursive以明确计算关系承担研究身份，Google以知识对象而非整套技术说明成为称呼；再沿F1同一对象和作用凝练，找变量与后续用途的关系，不复用增长/智能更强或旧复制分身。",
+        "distinctive_relation": "一个值是否应保留，取决于它从当前位置往后是否还可能在被覆盖前使用；不是它看起来新鲜、经常变化或本身很大。",
+        "naming_potential": "用熟悉的变量作为主角，活在这里有实际计算含义；三字名词比动作诗句更像一个可叫的对象。",
+        "shortcoming": "术语气质仍强，可能只像编译工具或软件栏目，需独立判断机构延展，不能靠讲义精确性加品牌分。",
+        "history_difference": "旧原语为语言基本构件，惰性求值为计算发生时点，因序为事件可比较先后，分身有别为同源状态修改隔离。本项为一个值沿后续路径的用途状态；不以live的英文词面与活桥身体成设施合并，也不凭同字就自动判新。",
+        "boundary": "live variable不等于变量值正在变化；内容不变也可能live。分析不是预测所有未来真实执行的神谕，更不意味着模型自己有生命或必然能力增长。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension9-supplement.json",
+      "sha256": "b540d8dd81109c30db56bbc1953cbb9d5e24993503c0b6224ae829aab2db9e6c"
+    },
+    "C1-M38": {
+      "material": {
+        "id": "C1-M38",
+        "family_id": "C1-MF-same-unit-counterfactual-by-structural-intervention",
+        "macro_id": "S3",
+        "plan_direction_id": "C1-D-S3",
+        "category": "book_excerpt",
+        "case_ids": [
+          "B074",
+          "B002"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Pearl, Glymour & Jewell: Causal Inference in Statistics: A Primer",
+            "url": "https://web.cs.ucla.edu/~kaoru/BIB5/pearl-etal-2016-primer-text.pdf",
+            "published_at": "2016, copyright/edition page confirmed",
+            "reading_location": "实际curl下载并pypdf读PDF114/117/118页（纸本92/95/96页），反事实结构模型、Joe例子及§4.2.4三步；另核PDF版权页。未通读159页或其他章节；web检索Joe/Abduction超时，未冒充web成功。",
+            "reading_scope": "book_excerpt",
+            "access": "body",
+            "method": "curl_PDF_pypdf_text",
+            "local_path": "/tmp/continuous001-causal-primer.pdf",
+            "sha256": "1041d4522d8c458868d1e16617bf663cd9c3764cdf91df42d689798095d61d59",
+            "read_at": "2026-11-08T16:58:59.494650+08:00"
+          }
+        ],
+        "source_urls": [
+          "https://web.cs.ucla.edu/~kaoru/BIB5/pearl-etal-2016-primer-text.pdf"
+        ],
+        "fact": "书中给出由证据确定背景、修改目标结构关系、在改后模型中计算结果的反事实步骤；结论依赖模型及有关变量假设。",
+        "distinctive_relation": "用同一实际个体的证据固定背景，再改一项条件，询问没有实际经历的另一结果。",
+        "mechanism_to_material": "Recursive以计算过程承担研究身份，Google基线以知识对象作可称呼专名；这里不摘反事实术语，尝试把条件计算变成一个完整想象对象。Google沿用基线未重新核词源。",
+        "history_difference": "因序是事件偏序与逻辑时钟，非干预同一单位的反事实；虚拟排练是学得世界模型中练策略，反事实这里先由实际证据约束背景再改一条结构关系，不能仅因未发生都模拟就当然新族。旧未尽之问是可错/未完认识，本项是一个条件干预问题的模型语义。若最后只讲想象另一种未来，应与旧排练/之后家族合并。",
+        "naming_potential": "未现实的条件与可操作模型相接，可形成思考机器的完整意象。",
+        "boundary": "不等于预测未来或看见平行宇宙；因果模型和背景不充分时不能据观察唯一确定个体反事实。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension17.json",
+      "sha256": "f9e2e35ae9a0b2863c20001215e97eab573dfc6db3490e632b72ace96944a9aa"
+    },
+    "C1-M39": {
+      "material": {
+        "id": "C1-M39",
+        "family_id": "C1-MF-sensory-matching-external-limb-ownership",
+        "macro_id": "S5",
+        "plan_direction_id": "C1-D-S5",
+        "category": "one_page_article_body",
+        "case_ids": [
+          "B037",
+          "B027"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Botvinick & Cohen: Rubber hands ‘feel’ touch that eyes see",
+            "url": "https://www.psychology.mcmaster.ca/bennett/psy720/readings/m5/botvinick.pdf",
+            "published_at": "1998-02-19",
+            "reading_location": "单页原论文正文/实验与对照及解释，OCR L6–61和L82–113、图表问项L115–157。页面双栏OCR顺序倒置，按内容理解；未读参考文献内研究或后续复制文献。",
+            "reading_scope": "one_page_article_body",
+            "access": "body",
+            "method": "web_PDF_body",
+            "read_at": "2026-11-08T16:58:59.494650+08:00"
+          }
+        ],
+        "source_urls": [
+          "https://www.psychology.mcmaster.ca/bennett/psy720/readings/m5/botvinick.pdf"
+        ],
+        "fact": "小样本实验中同步触摸真手和所见假手可诱发身体归属体验；异步对照较弱。作者将其联系到多感觉匹配。",
+        "distinctive_relation": "外部假肢体可以在特定感觉匹配下被体验为身体的一部分，而非只是被看见的物件。",
+        "mechanism_to_material": "Imbue提供对认识产生作用的角色，Midjourney提示过程/行动位置；由它们进入自我身体边界怎样在具体条件下被体验，不把所有材料都说成长。后者是继承基线。",
+        "history_difference": "探形为获得物体形状，应手为传感结构，橡皮鸭为自我解释，均非身体归属体验；分身有别是同源内容修改隔离，本项不是复制或借他人记忆。与旧添一指/添一笔的增加能力也应区分：本研究不增加真实肢体或运动能力，若品牌只讲能力外挂则应并旧族。",
+        "naming_potential": "用借用身体的动作凝练主角，不原样摘橡胶手幻觉术语。",
+        "boundary": "单页早期小样本，不推广人人必然如此；归属感不等于假手能动、实际身体转移、机器意识或临床效果。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension17.json",
+      "sha256": "f9e2e35ae9a0b2863c20001215e97eab573dfc6db3490e632b72ace96944a9aa"
+    },
+    "C1-M40": {
+      "material": {
+        "id": "C1-M40",
+        "family_id": "C1-MF-random-graph-giant-component-threshold",
+        "macro_id": "S3",
+        "plan_direction_id": "C1-D-S3",
+        "category": "lecture_excerpt",
+        "case_ids": [
+          "B074",
+          "B002"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Alistair Sinclair: Berkeley CS271 Fall2024 Lecture15",
+            "url": "https://people.eecs.berkeley.edu/~sinclair/cs271/n15.pdf",
+            "published_at": "2024-10-24",
+            "reading_location": "本次只读PDF第1页L0–40，§15.1/Theorem15.1与图示、临界窗口说明；第2页仅出现分枝过程开头，未读完整证明。",
+            "reading_scope": "lecture_excerpt",
+            "access": "body",
+            "method": "web_PDF_body",
+            "read_at": "2026-11-08T16:58:59.494650+08:00"
+          }
+        ],
+        "source_urls": [
+          "https://people.eecs.berkeley.edu/~sinclair/cs271/n15.pdf"
+        ],
+        "fact": "指定随机图模型在参数跨过临界范围时，其最大连通分量有不同渐近尺度；讲义亦说明有限临界窗口的平滑变化。",
+        "distinctive_relation": "逐条连接与宏观连通规模之间有模型特定的阈值关系。",
+        "mechanism_to_material": "沿计算结构/知识对象找联结机制，不将图论直接改为智能涌现或增长。",
+        "history_difference": "旧元胞/共生网、用户既有相变与比特群岛均有邻近上位意象，未仅凭新讲义就判新品牌族。",
+        "naming_potential": "本次只有真实机制素材；突然成网容易夸大瞬时跃变，连野等凝练会丢掉阈值且接近旧群岛/网络画面，因此不交名字。",
+        "boundary": "不能说任意现实网络都如此或一条边必然造成巨变；渐近概率结论不是对单个有限图的确定保证。",
+        "is_classical": false,
+        "status": "read_no_qualified_name"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension17.json",
+      "sha256": "f9e2e35ae9a0b2863c20001215e97eab573dfc6db3490e632b72ace96944a9aa"
+    },
+    "C1-M37": {
+      "material": {
+        "id": "C1-M37",
+        "family_id": "C1-MF-utterance-constitutes-conventional-act",
+        "macro_id": "S4",
+        "plan_direction_id": "C1-D-S4",
+        "category": "modern_philosophy_primary_book_excerpts",
+        "case_ids": [
+          "B008",
+          "B021"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P4",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "J. L. Austin, How to Do Things with Words：Stanford教学网页所收作者原文节选",
+            "url": "https://web.stanford.edu/class/ihum54/Austin_on_speech_acts.htm",
+            "published_at": null,
+            "work_date": "页面标书1962；本页发布日期未知，不核准其编者/版本排印细节",
+            "reading_location": "实际读网页完整作者节选L4–48，所标书页5–8（定义、例子、情境与配套行为）及139（话语情境）；不是读全书或完整Lectures。",
+            "reading_scope": "primary_text_selected_excerpts",
+            "access": "body",
+            "method": "web_HTML_body",
+            "read_at": "2026-11-08T13:27:28.322340+08:00"
+          }
+        ],
+        "source_urls": [
+          "https://web.stanford.edu/class/ihum54/Austin_on_speech_acts.htm"
+        ],
+        "fact": "Austin区分只描述事情的句子与在适当情境中构成行动一部分的话语。原文同时强调语句并非充分条件，身份、情境及其他行为也需适合；后段节选将注意力转向具体话语情境。",
+        "mechanism_to_material": "Alibaba借完整文化角色与开门动作连接现实作用；Oracle基线借文化中的求问/知识角色。这次沿思想实践而非古文摘字，找语言与行动本来相接的现代哲学关系。Alibaba为A1本轮重新核验，Oracle仅沿用基线，不冒称新核词源。",
+        "distinctive_relation": "有些话不是报告行动已经发生，说出它本身就是在进行一种行动，但效力依赖所处情境。",
+        "naming_potential": "从同一关系凝出熟字完整称呼，语言不只作为生成内容，也能承担行动角色。",
+        "shortcoming": "哲学主张不等于可执行AI机制；中文容易像口号、语言培训或文化组织，机构身份须独立审。",
+        "history_difference": "旧会意是双方建立共同指代，橡皮鸭是向无言对象外显假设；本项是说出本身可构成约定性行动。旧回车以后是输入符号被解释器执行，作数是动作与实际成果的有效性；本项不是文本输入执行或保证承诺兑现，而是言语在合适情境中可建立承诺等行动。不能只剩说到做到/赋能的泛称，也不因换一本哲学书自动新族。",
+        "boundary": "只读作者节选，未据此总结全书最终理论。不是所有话语都自动产生期望结果，更不是法律效力/模型工具使用成功的保证；品牌转接是研究者解释。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension16.json",
+      "sha256": "569977557a7fd1019204cbb3dcab108444cf242990e01e949c31c842b29ca0cd"
+    },
+    "C1-M09": {
+      "material": {
+        "id": "C1-M09",
+        "family_id": "C1-MF-human-click-echo-shape-perception",
+        "category": "sensory_neuroscience",
+        "macro_id": "S5",
+        "case_ids": [
+          "B037",
+          "B027"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P4"
+        ],
+        "sources": [
+          {
+            "title": "Thaler, Arnott & Goodale: Neural Correlates of Natural Human Echolocation",
+            "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0020162",
+            "source_type": "other",
+            "reading_scope": "excerpt",
+            "reading_location": "L127–193摘要、研究对象、主动/被动任务、表面形状及脑成像结果",
+            "published_at": "2011-05-25",
+            "access": "body",
+            "method": "web_body",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "fact": "研究两位盲人回声定位专家及匹配对照，通过口部咔嗒声和返回回声区分表面或物体属性；在两位专家中，回声条件相较声学匹配对照招募通常与视觉相关的区域。",
+        "mechanism_to_material": "从A1对他者作用和认识过程寻找不同感官如何参与认识对象，而非只说聪明或成长。",
+        "distinctive_relation": "自发声与返回回声可携带环境形状信息，所用感觉输入与典型视觉区功能之间出现跨通道关系。",
+        "naming_potential": "有“声音获得空间形状”的通感画面，但与当前探形、历史回响/侧音接近，本轮先只留资料，不把换触觉为听觉算独立新品牌。",
+        "shortcoming": "研究样本很小，结果不能推出人人通过同样训练必获得相同能力。",
+        "history_difference": "部分与主动探形/回响相邻，未通过品牌家族差别审查，不拟新名。",
+        "discard_conditions": [
+          "不是超感官能力或机器意识证据。",
+          "fMRI时采用录音被动收听，不能把所有测量说成当场自由行动。"
+        ],
+        "status": "material_only_family_overlap_hold",
+        "is_classical": false,
+        "plan_direction_id": "C1-D-S5",
+        "source_urls": [
+          "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0020162"
+        ],
+        "reading_scope": "excerpt",
+        "reading_location": "L127–193摘要、研究对象、主动/被动任务、表面形状及脑成像结果"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension1.json",
+      "sha256": "65637d73a0b0c75c893165eac38466ec7615b67daa4ccbbb9bd102a944bb96df"
+    },
+    "C1-M10": {
+      "material": {
+        "id": "C1-M10",
+        "family_id": "C1-MF-zipper-focus-and-context-navigation",
+        "category": "functional_data_structure",
+        "macro_id": "S3",
+        "case_ids": [
+          "B074",
+          "B002"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Gérard Huet: The Zipper, JFP 7(5),549–554",
+            "url": "https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/0C058890B8A9B588F26E6D68CF0CE204/S0956796897002864a.pdf/zipper.pdf",
+            "source_type": "other",
+            "reading_scope": "excerpt",
+            "reading_location": "PDF前3页，印刷549–551：引言、focus+path、导航原语及复杂度说明",
+            "published_at": "1997-09",
+            "access": "body",
+            "method": "web_body",
+            "checked_at": "2026-11-07"
+          },
+          {
+            "title": "Huet作者托管早期稿",
+            "url": "https://gallium.inria.fr/~huet/PUBLIC/zip.pdf",
+            "source_type": "other",
+            "reading_scope": "excerpt",
+            "reading_location": "前2页引言与位置/路径定义；标题页年份与最终发表版不一致，不据早稿头确认首发年代",
+            "published_at": null,
+            "access": "body",
+            "method": "web_PDF_body",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "fact": "Zipper把当前子树与朝上的路径/周围上下文一并保留，把编辑把手从原树根转到当前位置。作者直接用衣物拉链的打开/合上解释上下导航；给出的实现中go_up并非全部常数时间。",
+        "mechanism_to_material": "Recursive的过程身份与Google的知识对象层次，使搜索从计算关系转到一个能同时看见局部与保留整体的具体结构。作者本来就在日常器物与计算结构间作比。",
+        "distinctive_relation": "进入局部时不丢掉回到整体所需的上下文；焦点和其余结构一起组成可导航位置。",
+        "naming_potential": "可从开合动作和局部/整体衔接寻找称呼，不直接照抄既有Zipper词或随机改字母。",
+        "shortcoming": "服装拉链或门窗机械的行业联想明显，必须独立检查Lab身份，技术来源不能单独救品牌。",
+        "history_difference": "旧闭包为函数与定义时环境一同保存；本卡为树中焦点和反向路径的导航/局部更新。不同于旧留枝的生物突触筛选。若名字只剩泛化上下文，则需与FP04比特解释语境合并。",
+        "discard_conditions": [
+          "不能称所有操作恒定时间或所有结构都无代价更新。",
+          "不能把树中局部修改说成模型自主学习。"
+        ],
+        "status": "material_ready_for_internal_review_and_creation",
+        "is_classical": false,
+        "plan_direction_id": "C1-D-S3",
+        "source_urls": [
+          "https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/0C058890B8A9B588F26E6D68CF0CE204/S0956796897002864a.pdf/zipper.pdf",
+          "https://gallium.inria.fr/~huet/PUBLIC/zip.pdf"
+        ],
+        "reading_scope": "excerpt",
+        "reading_location": "PDF前3页，印刷549–551：引言、focus+path、导航原语及复杂度说明；前2页引言与位置/路径定义；标题页年份与最终发表版不一致，不据早稿头确认首发年代"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension1.json",
+      "sha256": "65637d73a0b0c75c893165eac38466ec7615b67daa4ccbbb9bd102a944bb96df"
+    },
+    "C1-M11": {
+      "material": {
+        "id": "C1-M11",
+        "family_id": "C1-MF-army-ant-body-bridge-cost-benefit",
+        "category": "collective_self_assembly",
+        "macro_id": "S2",
+        "case_ids": [
+          "B076",
+          "B053"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3"
+        ],
+        "sources": [
+          {
+            "title": "Reid et al.: Army ants dynamically adjust living bridges in response to a cost–benefit trade-off",
+            "url": "https://www.thekaolab.com/papers/Reid_PNAS_2015.pdf",
+            "source_type": "other",
+            "reading_scope": "excerpt",
+            "reading_location": "作者实验室托管原论文，PDF页1–2摘要/实验设计/结果；讨论段动态变位、成本与最优性限制",
+            "published_at": "2015-11-23",
+            "access": "body",
+            "method": "web_body",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "fact": "行军蚁以身体连接成桥，并随交通量与环境几何改变桥的位置、长度和宽度。缩短通路有收益，但投入桥体的工蚁也从觅食队伍中被占用；论文不认定观察到的位置必为理论全局最优。",
+        "mechanism_to_material": "学习Sakana普通动物与真实组织关系，而不把鱼换成另一群动物：这里个体直接成为基础设施，并按使用条件调整结构。",
+        "distinctive_relation": "行动者临时变成支撑别人行动的结构；结构大小与可活动成员数量存在代价。",
+        "naming_potential": "“活的桥”是完整且反常的对象，能说组织与能力条件，不只说成长。",
+        "shortcoming": "桥会带出基建或景观联想，生命场景也不能直接当AI提升证明。",
+        "history_difference": "旧星际渡口是轨道通道的出发/换路地点；本卡是个体身体临时组成可调整结构。旧比特群岛为种群分隔与迁移，也不是成员直接成为支撑结构；若最终只剩连接者泛称仍应合并。",
+        "discard_conditions": [
+          "局部规则与成本平衡不证明任意群体都最优或更聪明。",
+          "不能把工蚁加入桥体描述成死亡牺牲的价值主张。"
+        ],
+        "status": "material_ready_for_internal_review_and_creation",
+        "is_classical": false,
+        "plan_direction_id": "C1-D-S2",
+        "source_urls": [
+          "https://www.thekaolab.com/papers/Reid_PNAS_2015.pdf"
+        ],
+        "reading_scope": "excerpt",
+        "reading_location": "作者实验室托管原论文，PDF页1–2摘要/实验设计/结果；讨论段动态变位、成本与最优性限制"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension1.json",
+      "sha256": "65637d73a0b0c75c893165eac38466ec7615b67daa4ccbbb9bd102a944bb96df"
+    },
+    "C1-M12": {
+      "material": {
+        "id": "C1-M12",
+        "family_id": "C1-MF-counting-rods-direction-place-value",
+        "category": "chinese_computational_practice",
+        "macro_id": "S4",
+        "case_ids": [
+          "B008",
+          "B021"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P6"
+        ],
+        "sources": [
+          {
+            "title": "中国科学技术馆：算筹",
+            "url": "https://www.cdstm.cn/museum/zphc/hxzg2017x/art/2017/art_c0f5e1d55c3049499779b291424a7707.html",
+            "source_type": "other",
+            "reading_scope": "excerpt",
+            "reading_location": "L20–30纵横布筹、位值和空位表示零的展品正文；不复述最早起源断言",
+            "published_at": null,
+            "access": "body",
+            "method": "web_body",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "fact": "算筹是小棍式计数工具；计数时不同数位的筹式纵横相间，个位/百位等用纵式，十位/千位等用横式，零以空位表示。",
+        "mechanism_to_material": "Alibaba让完整角色实践有故事，Oracle连接文化记录与信息；从中国计算实践中找同一物件的安排怎样成为信息，不靠古风装饰。",
+        "distinctive_relation": "相同小棍通过方向、数位和空位表达不同数字，布置本身参与意义。",
+        "naming_potential": "横竖与其间的位置都是日常可感对象，有中国计算史与现代表示问题两层。",
+        "shortcoming": "容易像排版、书法或设计工作室，不能因数字工具出自古代就自动判为高科技好名。",
+        "history_difference": "旧演算尺通过连续尺度/对数关系，算筹是离散摆布与位值；旧FP04讨论比特载体需解释约定。本项若最终仅剩泛化“布局决定意义”应保守合并，具体品牌画面须保留纵横与空位，不凭新器物就计新增。",
+        "discard_conditions": [
+          "不自称读取《九章算术》原本；本次只读现代馆方说明。",
+          "不复述古代最早发明优先权或说空位等同现代0字形。"
+        ],
+        "status": "material_ready_for_internal_review_and_creation",
+        "is_classical": false,
+        "plan_direction_id": "C1-D-S4",
+        "source_urls": [
+          "https://www.cdstm.cn/museum/zphc/hxzg2017x/art/2017/art_c0f5e1d55c3049499779b291424a7707.html"
+        ],
+        "reading_scope": "excerpt",
+        "reading_location": "L20–30纵横布筹、位值和空位表示零的展品正文；不复述最早起源断言"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension1.json",
+      "sha256": "65637d73a0b0c75c893165eac38466ec7615b67daa4ccbbb9bd102a944bb96df"
+    },
+    "C1-M13": {
+      "material": {
+        "id": "C1-M13",
+        "family_id": "C1-MF-kaiming-mythic-nonhuman-persona",
+        "category": "mythic_cultural_role",
+        "macro_id": "S4",
+        "case_ids": [
+          "B008",
+          "B021"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P6"
+        ],
+        "sources": [
+          {
+            "title": "《山海经·海内西经》",
+            "url": "https://zh.wikisource.org/zh-hant/山海經/海內西經",
+            "source_type": "other",
+            "reading_scope": "excerpt",
+            "reading_location": "L126–170本篇短文，重点L147九门守者与L157九首人面；不声称读完整山海经",
+            "published_at": null,
+            "access": "body",
+            "method": "web_classical_text_body",
+            "checked_at": "2026-11-07"
+          }
+        ],
+        "fact": "古籍描写昆仑有九门，门有开明兽守之；开明兽类虎而九首，皆人面，向东立于昆仑。属于神话，不是动物学事实。",
+        "mechanism_to_material": "由Alibaba既有角色与完整场景、Oracle文化知识主题，寻找一个已能被称呼的中国非人角色，不拼吉祥字或科学字。",
+        "distinctive_relation": "一个非人身体具有多个人面，并处在一个超日常世界的门槛；这是原文已有的角色场景。",
+        "naming_potential": "直接使用既有三字角色名，表层有主角、第二层有非人认识世界的想象；开明的现代通达义是今日语义联想，不是古籍解释词源。",
+        "shortcoming": "兽字可能偏游戏或动画；神话威猛与守门可被误作安全承诺，需主控严审。",
+        "history_difference": "不同于旧渡口地点或指南器具，是有身份和人格的既有角色；与Sakana同属生物外壳也不自动同家族，但不是换动物模仿群体算法。未改已有名称的单字绕过查重。",
+        "discard_conditions": [
+          "不可称古籍证明智能、多头并行算法或预知未来。",
+          "不替团队宣布开放/安全承诺，也不说原文九面各朝一个方向。",
+          "古文只此一项，不扩大整池比例。"
+        ],
+        "status": "material_ready_for_internal_review_and_creation",
+        "is_classical": true,
+        "plan_direction_id": "C1-D-S4",
+        "source_urls": [
+          "https://zh.wikisource.org/zh-hant/山海經/海內西經"
+        ],
+        "reading_scope": "excerpt",
+        "reading_location": "L126–170本篇短文，重点L147九门守者与L157九首人面；不声称读完整山海经"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension1.json",
+      "sha256": "65637d73a0b0c75c893165eac38466ec7615b67daa4ccbbb9bd102a944bb96df"
+    },
+    "C1-M46": {
+      "material": {
+        "id": "C1-M46",
+        "family_id": "C1-MF-optimistic-concurrency-version-check",
+        "macro_id": "S3",
+        "plan_direction_id": "C1-D-S3",
+        "category": "computational_coordination",
+        "case_ids": [
+          "B025",
+          "B074"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Microsoft EF Core: Handling Concurrency Conflicts",
+            "url": "https://learn.microsoft.com/en-us/ef/core/saving/concurrency",
+            "reading_location": "实际读L34–139及L189–200：乐观并发、版本令牌与更新条件、冲突异常、显式重试/合并；L195出现optimistic locking。中文乐观锁为通常译名，不声称英文页逐字写中文。",
+            "read_at": "2026-11-08T19:12:46.560422+08:00",
+            "access": "body",
+            "published_at": "2023-07-05",
+            "source_type": "technical_documentation",
+            "reading_scope": "body_excerpt",
+            "boundary": "页头虽有授权提示，正文实际返回；不是近90天新闻。"
+          }
+        ],
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/ef/core/saving/concurrency"
+        ],
+        "fact": "先读取并工作，保存时以版本令牌判断记录是否已被别人改过；冲突后由应用显式处理。",
+        "distinctive_relation": "不长期预占资源，而将竞争的核验放到提交处。",
+        "mechanism_to_material": "Cursor从具体可操作对象进入，Recursive从真实机制进入；本项用熟悉态度与器物在计算机制中已经形成的完整词，不把保持乐观这种道德态度当算法。两案为原A1新核，非本包重新访谈词源。",
+        "history_difference": "旧C19分身有别是复制写时分离实体页，本项是在共享记录更新时比较版本、检测读取以后发生的竞争；旧合符为凭证两半配对，旧复证为研究重复核验，均不等于并发更新冲突。不把通用核验/可信作为本项品牌叙事，否则可能落旧上位家族。历史锁字出现不自动所有锁同族，但本次不另报活锁变体。",
+        "naming_potential": "乐观与锁的表面张力，在真实术语内可以解释，不需另配吉祥字。",
+        "shortcoming": "开发教程/智能门锁首感；乐观不保证不冲突。",
+        "boundary": "不声称无锁算法、自动处理冲突、更快或更智能；数据库实现与应用策略有条件。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension20.json",
+      "sha256": "d7bc23a3392897e047569c8608a0d6c711eb52333dddc499602adcbd988c5e5b"
+    },
+    "C1-M47": {
+      "material": {
+        "id": "C1-M47",
+        "family_id": "C1-MF-poisson-clock-independent-random-waits",
+        "macro_id": "S3",
+        "plan_direction_id": "C1-D-S3",
+        "category": "stochastic_event_timing",
+        "case_ids": [
+          "B002",
+          "B053"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Abbas Mehrabian: Diameter and Rumour Spreading in Real-World Network Models",
+            "url": "https://dspacemainprd01.lib.uwaterloo.ca/server/api/core/bitstreams/3bcb3ff9-fdd0-4605-9e83-5d4e5752eff0/content",
+            "reading_location": "实际下载原论文，读PDF31–33页、印刷21–23：Definition 2.15独立指数等待及累计鸣响时刻，随后无记忆性、叠加/抽稀关系。封面确认作者、博士论文和2015年；不称通读。",
+            "read_at": "2026-11-08T19:12:46.560422+08:00",
+            "access": "body",
+            "published_at": "2015",
+            "source_type": "doctoral_thesis",
+            "reading_scope": "definition_and_adjacent_excerpt",
+            "local_path": "/tmp/continuous001-mehrabian-thesis.pdf",
+            "sha256": "0708aa2ae82bbb22eaa97e4828f4f9ceb74c89e378777d268e9478b6b7386329"
+          }
+        ],
+        "source_urls": [
+          "https://dspacemainprd01.lib.uwaterloo.ca/server/api/core/bitstreams/3bcb3ff9-fdd0-4605-9e83-5d4e5752eff0/content"
+        ],
+        "fact": "泊松钟用独立指数等待定义相邻鸣响间隔，而非每次等固定长度。",
+        "distinctive_relation": "钟保持事件节奏角色，下一次何时响却由随机等待决定。",
+        "mechanism_to_material": "Google以可称呼科学对象带第二层，月之暗面以整体可进入意象承载故事；两案均继承基线未重新核词源。本项以随机等待关系形成一个整体器物画面，不只摘泊松术语。",
+        "history_difference": "旧因序/M20是事件因果偏序及逻辑时钟，本项是下次事件的随机等待分布，不作因果排序；二周目/之后旧族关乎阶段与重启，本项没有二次成长叙事；M36奖励预测误差不是等待过程。若只剩时间/随机这类泛上位词，不能以论文不同就认定新族。",
+        "naming_potential": "随机性用骰子呈现、事件发生用钟呈现，两个物件在同一个等待机制中相接。",
+        "shortcoming": "玩具钟/桌游或赌博联想；钟的技术身份须独立评估。",
+        "boundary": "骰子是概率意象，不称六面均匀骰子恰好产生指数分布；不称真实制造过这个钟，不将无记忆性等同模型失忆。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension20.json",
+      "sha256": "d7bc23a3392897e047569c8608a0d6c711eb52333dddc499602adcbd988c5e5b"
+    },
+    "C1-M48": {
+      "material": {
+        "id": "C1-M48",
+        "family_id": "C1-MF-pencil-layer-transfer-writing-tool",
+        "macro_id": "S1",
+        "plan_direction_id": "C1-D-S1",
+        "category": "everyday_technical_object",
+        "case_ids": [
+          "B025",
+          "B015"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Hitachi High-Tech: Let’s learn the secrets of stationery!",
+            "url": "https://www.hitachi-hightech.com/global/en/science-edu/micro/content14/write_study.html",
+            "reading_location": "实际读L29–59铅笔段：石墨/黏土、层状碳结构、在纸面摩擦时薄层剥离附着留下痕迹。没有观察电镜图或做实验。",
+            "read_at": "2026-11-08T19:12:46.560422+08:00",
+            "access": "body",
+            "published_at": null,
+            "source_type": "science_outreach",
+            "reading_scope": "pencil_body_excerpt",
+            "boundary": "仅支持书写材料关系，不支持铅笔电子电路；页脚版权年不当发布日期。"
+          }
+        ],
+        "source_urls": [
+          "https://www.hitachi-hightech.com/global/en/science-edu/micro/content14/write_study.html"
+        ],
+        "fact": "熟悉铅笔通过薄层材料从笔芯转移到纸上而留下可读标记。",
+        "distinctive_relation": "一个普通书写器物，通过接触与材料转移，让动作留下稳定可见的形态。",
+        "mechanism_to_material": "Cursor让日常工具本身成为可称呼对象；Sony真实关系内融合的反馈也允许凝练新称呼，但本项读到的机制暂未形成比铅笔更好的自然机构称呼。两案原A1新核；本次不把工具栏目硬交作新名。",
+        "history_difference": "声入纹是声振动编码并回放，沙阵是颗粒受场排列，添一笔是额外输入/效应器；本项是日常书写器物材料剥层留迹。物理作用不同，但若只说外置记忆/留下痕迹会退回旧上位家族，本包不配名字。",
+        "naming_potential": "可从熟悉物件进入复杂关系，不必先学冷术语。",
+        "shortcoming": "铅笔及印迹容易偏文具/设计，普通记忆叙事又与旧族相近。",
+        "boundary": "本包不声称读过导电/可穿戴论文或做过显微观察。S1据日常物件入口分类，不将技术锁挪到此类。",
+        "is_classical": false,
+        "status": "material_only_no_name"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension20.json",
+      "sha256": "d7bc23a3392897e047569c8608a0d6c711eb52333dddc499602adcbd988c5e5b"
+    },
+    "C1-M33": {
+      "material": {
+        "id": "C1-M33",
+        "family_id": "C1-MF-signed-integers-same-binary-addition",
+        "macro_id": "S3",
+        "plan_direction_id": "C1-D-S3",
+        "category": "computer_arithmetic_course_notes",
+        "case_ids": [
+          "B074",
+          "B002"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Douglas W. Jones, University of Iowa, CS:2630 Notes Chapter 2: Data Representation",
+            "url": "https://homepage.cs.uiowa.edu/~dwjones/assem/fall19/notes/02data.shtml",
+            "published_at": "2019 course path; precise publication day not established",
+            "reading_location": "本次实读章首L2–14以及two's complement所在L754–794：补码取负、单一零、负数范围边界、加减表示与溢出。没有通读该章其他小节；不用章首C语言局部变量/溢出段作为本名事实依据。",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_HTML_body",
+            "read_at": "2026-11-08T11:05:40.440039+08:00"
+          }
+        ],
+        "source_urls": [
+          "https://homepage.cs.uiowa.edu/~dwjones/assem/fall19/notes/02data.shtml"
+        ],
+        "fact": "补码用固定位数表示有符号整数，取负操作是逐位取反再加一。加法可沿用二进制加法，减法可写成加上取负的操作数；需要区分溢出与丢弃最高进位，并有最负数无法在同位宽表示其相反正数的边界。",
+        "mechanism_to_material": "Recursive让一个具体计算关系承担研究身份，Google让可定义知识对象成为称呼；迁移到熟字能直接称呼的底层表示，不以原理复杂度或基础性证明品牌好。B074本轮A1重核，B002沿用基线、未再核词源。",
+        "distinctive_relation": "通过选择表示方式，使正负整数的加减能共用加法规则；并非多加一种模型或用更多算力。",
+        "naming_potential": "补码两字已是可叫的计算对象；第二层可谈表示怎样改变可操作性，不需机械拼两个好字。",
+        "shortcoming": "技术词气质明显，可能像编程教育或代码工具，补容易被误解为修Bug/补充代码。",
+        "history_difference": "FP04比特载体/解释约定为物理状态与意义的关系，01万物为信息基本单位，算筹为摆放方向/数位；本项是有符号整数怎样统一加减操作。余量是冗余容错，活变量是未来用途，均不是补码；这里的补不作补全缺失信息或补丁，不恢复旧恢复/修补家族。新术语不自动等于新品牌族，仍交主控保守审。",
+        "boundary": "运算结果受位宽约束，不宣称任意加减都无溢出；补码不是纠错码、加密、所有互补关系或模型自己提高能力。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension11.json",
+      "sha256": "b8467ca302575cc9c68d065f2ebd3544d53d687abec142150ad3aa035c55a9d7"
+    },
+    "C1-M26": {
+      "material": {
+        "id": "C1-M26",
+        "family_id": "C1-MF-peripheral-lossy-gist-guides-observation",
+        "macro_id": "S5",
+        "plan_direction_id": "C1-D-S5",
+        "category": "cognitive_peripheral_representation",
+        "case_ids": [
+          "B037",
+          "B027"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P4",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Ruth Rosenholtz: What your visual system sees where you are not looking",
+            "url": "https://web.mit.edu/rruth/www/Papers/RosenholtzSPIE2011.pdf",
+            "published_at": "2011",
+            "reading_location": "PDF前4页L0–134：摘要、1.1视觉瓶颈、1.2表征策略与图3/4说明；未通读14页全文",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_PDF_body"
+          },
+          {
+            "title": "Rosenholtz, Yu & Keshvari: Challenges to pooling models of crowding: Implications for visual mechanisms",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6660188/",
+            "published_at": "2019-07-26",
+            "reading_location": "正文L98–140：摘要、拥挤定义、引言与池化模型说明；未读其后模型挑战逐项论证",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_HTML_body"
+          }
+        ],
+        "source_urls": [
+          "https://web.mit.edu/rruth/www/Papers/RosenholtzSPIE2011.pdf",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6660188/"
+        ],
+        "fact": "周边视觉并非只是模糊的中央视觉：杂乱背景会使相邻对象的精确身份和位置难辨，但仍保有场景与统计线索，能支持部分判断并引导下一次注视。作者研究以摘要统计池化解释其中一些现象。",
+        "mechanism_to_material": "从Imbue关注对认识主体的实际作用、Midjourney关注人在过程中的位置，追问不处在当前观察中心的信息是否仍在参与行动；不是再找一个提高注意力的漂亮词。后者为继承基线语义，本步未重开其企业词源页面。",
+        "distinctive_relation": "精确细节可能损失，但中心之外保留的信息仍可帮助判断下一步该看哪里；局部精确与周边概括不是同等精度的重复采样。",
+        "naming_potential": "日常“余光”已经能称呼这种中心之外的视觉经验，专业材料提供关于何种信息保留、何种信息损失的第二层。",
+        "shortcoming": "余光还可被理解成残照或灯光，初听可能像眼镜、摄影或文学机构；不能把诗意当科技身份的充分条件。",
+        "history_difference": "旧抬眼CT-F-directed-gaze-active-attention以改变注视点获得中央凹高分辨率输入；本项关注未成为注视中心的表征保留/损失及其作用。旧察觉为刺激检测/报告偏差，M21为遮挡前后变化比较；若最终只讲看看周围或发现被忽略之物，应并回旧感知家族，不因新论文题目而独立。",
+        "discard_conditions": [
+          "不能声称周边视觉看得比中心清楚或无损保留全部场景。",
+          "池化是候选模型，不写成人类视觉机制已获唯一最终解释。",
+          "不把非中央凹观察与完全不注意或无意识相等同。"
+        ],
+        "boundary": "只实读列明节选；作者2019文仍要求分开编码与决策效应并保留定量检验工作。本文不证明机器具有人的视觉经验或必然变得更聪明。",
+        "status": "read_and_chinese_draft",
+        "is_classical": false
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension6.json",
+      "sha256": "352c8a436a64375034802466bb2502fca945d7d65c184527920adad41ce884e7"
+    },
+    "C1-M32": {
+      "material": {
+        "id": "C1-M32",
+        "family_id": "C1-MF-new-data-testing-prior-finding",
+        "macro_id": "S6",
+        "plan_direction_id": "C1-D-S6",
+        "category": "scientific_methodology_book_excerpt",
+        "case_ids": [
+          "B077",
+          "B022"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P3",
+          "C1-P4",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "National Academies of Sciences, Engineering, and Medicine: Reproducibility and Replicability in Science, Chapter 3",
+            "url": "https://www.nationalacademies.org/read/25303/chapter/6",
+            "published_at": "2019",
+            "reading_location": "本次实际读取HTML章首及正文L53–228，重点L120–228（纸本42–46页）：术语分歧、同数据重算与新数据研究、定义及测量条件边界；没有通读本章后半或整书。",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_HTML_body",
+            "read_at": "2026-11-08T10:46:46.094994+08:00"
+          }
+        ],
+        "source_urls": [
+          "https://www.nationalacademies.org/read/25303/chapter/6"
+        ],
+        "fact": "报告区分同数据和代码重算，与另采数据研究同一问题；后者的一致性是其replicability定义。原文提醒学科术语不统一，条件差异会影响结果。",
+        "mechanism_to_material": "Core Automation以真实研究工作建立身份，OpenAI提供方法立场的基线参照：转向研究怎样接受外部检验，而不替公司承诺开放、安全或永远正确。前者本轮A1重新核验，后者仅沿用基线。",
+        "distinctive_relation": "让同一科学问题进入新数据研究，再比较结果；不是原输出自我重复就算第二次证明。",
+        "naming_potential": "再核实的动作能形成简短研究主体称呼，但不能把科学信誉当品牌分。",
+        "shortcoming": "检验措辞易落到检测机构、认证服务或医学；若行业首感如此则只保留素材。",
+        "history_difference": "作数（C14）是一次行动形成结果，不评价结果是否在新数据下成立；M23结果独立审稿改变发表评价，不是另采数据检验；旧反例以单个反面事实否定一般命题，本项问新研究与原研究的一致程度。旧未尽之问是承认认识未完，本项指定可做的复核动作。未因新书名自动认新家族，交主控保守审查。",
+        "boundary": "独立新团队是原文允许方式之一，不是所有replication的必要条件。相容结果不是绝对真理，结果不相容也不能只据本节认定原研究造假。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension10.json",
+      "sha256": "46b79ce31367a23388ba13910cf7aaa15ce69c8a824b16f7f2039027d376090b"
+    },
+    "C1-M27": {
+      "material": {
+        "id": "C1-M27",
+        "family_id": "C1-MF-shared-origin-private-write-divergence",
+        "macro_id": "S3",
+        "plan_direction_id": "C1-D-S3",
+        "category": "operating_system_memory",
+        "case_ids": [
+          "B074",
+          "B002"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "MIT 6.1810：Lab Copy-on-Write Fork for xv6（2024课程）",
+            "url": "https://pdos.csail.mit.edu/6.1810/2024/labs/cow.html",
+            "published_at": "2024",
+            "reading_location": "L0–16问题与解决方案，L44–56写保护、原只读页、引用计数与内存不足边界；未实现实验",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_HTML_body"
+          },
+          {
+            "title": "Linux man-pages：fork(2)",
+            "url": "https://man7.org/linux/man-pages/man2/fork.2.html",
+            "published_at": "2026-06-05",
+            "reading_location": "L25–42父子进程内存与标识，L99–122线程/文件描述符例外，L194–199 Linux COW说明；未运行系统调用实验",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_HTML_body"
+          }
+        ],
+        "source_urls": [
+          "https://pdos.csail.mit.edu/6.1810/2024/labs/cow.html",
+          "https://man7.org/linux/man-pages/man2/fork.2.html"
+        ],
+        "fact": "fork产生具有独立内存空间和独立进程标识的父子进程，初始内容相同。写时复制可让初始物理页被共享，写入时才为需要修改的一方复制页面，保留另一方内存内容；并非所有资源都完全独立。",
+        "mechanism_to_material": "Recursive提供具体计算过程可以承载身份、Google提供知识对象与称呼相分离的参照。沿此寻找“一开始同源，却能各自改写”的状态关系，不再从导航、输入或排序取字。Google词源仍为已存背景，本步未重核企业命名过程。",
+        "distinctive_relation": "同源与独立并不矛盾：最初可共享相同物理内容，但某一方的内存修改不必改坏另一方。",
+        "naming_potential": "可凝成有多个人格/行动主体的完整形象，重点保留彼此变化有界，不宣称分出来就更聪明。",
+        "history_difference": "旧懒函数以需要时才求值为核心；本项不是把延迟换名，而是共享起点与私有改写并存。旧异步关于调度暂停继续，也不同于进程状态修改的隔离。若名字只说多开或延迟便失去独特关系。",
+        "boundary": "此为用户内存语义，不把fork说成文件/外部世界也完全隔离；文档明确文件描述符可指同一open file description，文件偏移等可共享。不是无限分身、无开销复制或模型能力增长定理。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension7.json",
+      "sha256": "a839a21b7574701971769bb560d69e1cc2074b56b2336c7ce9bbf01e14352f59"
+    },
+    "C1-M28": {
+      "material": {
+        "id": "C1-M28",
+        "family_id": "C1-MF-mechanical-sound-pattern-replay",
+        "macro_id": "S1",
+        "plan_direction_id": "C1-D-S1",
+        "category": "everyday_recording_instrument",
+        "case_ids": [
+          "B015",
+          "B025"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "National Park Service：Tinfoil Phonographs 310音频导览文字稿",
+            "url": "https://www.nps.gov/media/video/view.htm?id=B9DCD826-E87F-4798-87EE-10111AA0BF81",
+            "published_at": "2007-01-01",
+            "reading_location": "L32–43完整导览文字稿；读文字，未播放或声学测量录音",
+            "reading_scope": "excerpt",
+            "access": "body",
+            "method": "web_HTML_body"
+          }
+        ],
+        "source_urls": [
+          "https://www.nps.gov/media/video/view.htm?id=B9DCD826-E87F-4798-87EE-10111AA0BF81"
+        ],
+        "fact": "早期锡箔留声机中，声音引起振膜与触针运动，在旋转锡箔上压出形状；改用播放触针沿形状运动后，能重现可识别的声音。",
+        "mechanism_to_material": "Sony从真实声音经验得到可叫称呼，Cursor从手边器物连接复杂操作；因此追到声音如何成为可触形状、形状再成为声音的日常技术器物。",
+        "distinctive_relation": "瞬时振动经机械形变留下空间轨迹，之后通过逆向机械读取转回声学输出。",
+        "naming_potential": "有“声音获得物理形状”的完整画面，但若只剩记忆、回响或声纹联想，会与旧听觉/痕迹家族靠近，本次先留研究。",
+        "history_difference": "旧侧音是自身声音的即时返听，旧鸽哨是运动气流发声；本项包含持久形状与再读取。若仅称声音被保存，仍与旧经验痕迹/记忆家族接近，不因新博物馆网页计新品牌。",
+        "boundary": "读的是博物馆导览，不把其中发明优先权或Mary Had a Little Lamb原话当本次档案考证；只用装置工作关系，不说机械重放等于理解或学习。",
+        "is_classical": false,
+        "status": "read_only_no_qualified_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension7.json",
+      "sha256": "a839a21b7574701971769bb560d69e1cc2074b56b2336c7ce9bbf01e14352f59"
+    },
+    "C1-M51": {
+      "material": {
+        "id": "C1-M51",
+        "family_id": "C1-MF-wasp-fiber-paste-to-paper-nest",
+        "macro_id": "S2",
+        "plan_direction_id": "C1-D-S2",
+        "category": "animal_material_processing",
+        "case_ids": [
+          "B076",
+          "B053"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Cornell IPM: Paper Wasps",
+            "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/bees-and-wasps/identifying-bees-and-wasps/paper-wasps",
+            "reading_location": "实际读L149–176物种与巢概况，L189–217辨识/行为正文，核心L207/211纤维和唾液加工为纸状巢。未观察实物或读其外链研究。",
+            "read_at": "2026-11-08T21:20:02.228734+08:00",
+            "access": "body",
+            "source_type": "university_extension",
+            "reading_scope": "body_excerpt",
+            "published_at": null
+          },
+          {
+            "title": "Virginia Tech: Paper Wasps, ENTO-435NP",
+            "url": "https://www.pubs.ext.vt.edu/content/pubs_ext_vt_edu/en/ENTO/ENTO-435/ENTO-435.html",
+            "reading_location": "实际读L118–136作者/辨识/生活史，重点L129–132嚼碎植物纤维、纸状巢材与结构；L147–157核修订及发表日期。L138后控制建议不作为本卡研究证据或本次重点阅读。",
+            "read_at": "2026-11-08T21:20:02.228734+08:00",
+            "access": "body",
+            "source_type": "university_extension_publication",
+            "reading_scope": "body_excerpt_and_dates",
+            "published_at": "2026-09-09",
+            "revised_at": "2026-08-31",
+            "boundary": "本页为推广出版资料近期更新，不计最新研究新闻；未由更新日期推定发现刚发生。"
+          }
+        ],
+        "source_urls": [
+          "https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/bees-and-wasps/identifying-bees-and-wasps/paper-wasps",
+          "https://www.pubs.ext.vt.edu/content/pubs_ext_vt_edu/en/ENTO/ENTO-435/ENTO-435.html"
+        ],
+        "fact": "Paper wasps收集并嚼碎植物纤维，与唾液等混为纸状材料，用来形成巢的墙与育幼小室。",
+        "distinctive_relation": "蜂并非只搬现成建筑块，而把环境纤维加工成适合建巢的材料。",
+        "mechanism_to_material": "Sakana使普通生命对象和真实作用进入同一品牌身份，月之暗面基线提示完整可想象画面。本包借材料与加工者同场，而非再给集群换物种。Sakana原A1新核；月之暗面只承接基线未重新核词源。",
+        "history_difference": "与Sakana借群居组织不同，本项主角作用是采集/嚼碎纤维并以唾液形成可建巢材料，不以群体更聪明或女王分工为品牌叙事。旧橡皮鸭是把假设讲清的外部听者，旧纸旋翼为纸的飞行原型，旧纸鸢/活字/织数为图样载体，M48铅笔为材料转移留迹；均非动物加工环境材料成巢。纸与蜂构成新品牌层后仍需与历史物种/建筑图景保守比对，不能因新昆虫就自动算新。",
+        "naming_potential": "纸和蜂本来由材料加工相连，完整称呼先能看见对象，再讲工程式关系。",
+        "shortcoming": "剪纸手工/蜂蜜或害虫防治首联想；蜂有蜇人风险，不包装成温顺工蜂。",
+        "boundary": "Paper wasps属胡蜂而非蜜蜂；纸指其纸状巢材，不是身体由纸做成。只读机构推广正文，不声称本包证明其智能/学习或材料性能。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension22.json",
+      "sha256": "beb5d4ecac9de295d9e07873e69bf296b95fce18fc504c14c42d4e12effb5967"
+    },
+    "C1-M52": {
+      "material": {
+        "id": "C1-M52",
+        "family_id": "C1-MF-double-anonymized-review-identity-separation",
+        "macro_id": "S6",
+        "plan_direction_id": "C1-D-S6",
+        "category": "scientific_evaluation_stance_and_practice",
+        "case_ids": [
+          "B077",
+          "B022"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Nature Research: Double-anonymized peer review guidelines",
+            "url": "https://www.nature.com/documents/nr-double-blind-peer-review.pdf",
+            "reading_location": "实际读单页PDF全部L0–22：正文、图、元数据不留姓名/机构，自引用中性说法，部分信息放cover letter，发表后可转回；不把该指南当匿名效果实验。",
+            "read_at": "2026-11-08T21:20:02.228734+08:00",
+            "access": "body",
+            "source_type": "publisher_practice_guideline",
+            "reading_scope": "one_page_complete",
+            "published_at": null
+          },
+          {
+            "title": "Brooke LaFlamme, Nature Blogs: Double-blind peer review",
+            "url": "https://blogs.nature.com/blog/double-blind-peer-review/",
+            "reading_location": "实际读L27–34日期和全部短主文：2015年可选双盲机制，匿名评审者不接触作者身份，作者负责移除身份；未读评论及打不开的外链社论。",
+            "read_at": "2026-11-08T21:20:02.228734+08:00",
+            "access": "body",
+            "source_type": "publisher_editorial_blog",
+            "reading_scope": "complete_short_body",
+            "published_at": "2015-02-25"
+          }
+        ],
+        "source_urls": [
+          "https://www.nature.com/documents/nr-double-blind-peer-review.pdf",
+          "https://blogs.nature.com/blog/double-blind-peer-review/"
+        ],
+        "fact": "所读出版实践让评审者与作者身份相互不向对方展示，并要求稿件/图/元数据清理身份线索；编辑仍接收必要信息。",
+        "distinctive_relation": "评审时先接触作品本身，身份信息按角色和阶段另置，而不是永久取消署名。",
+        "mechanism_to_material": "Core Automation以研究组织/方法角色命名，OpenAI基线把态度直接写进称呼。本项把一种可被实际流程约束的评价立场作为命名入口，不替团队承诺已经公平或要求采用新审批。Core原A1新核；OpenAI基线未重新核词源。",
+        "history_difference": "M23为方法先审与结果方向脱钩，C24复证为新数据复核，旧反例为逻辑否证，旧盲点/察觉为检测或注意问题；本项是作者与评审者身份在评审阶段相互隐去、稿件信息与身份线索分开。对象同属研究评价不自动同族，若名字只剩公平可信的泛角色则应合并风险；不声称所有匿名类词都新。",
+        "naming_potential": "双盲是完整研究用语，可直接借来科学评价身份；不是拆两个字作吉祥组合。",
+        "shortcoming": "盲可能被听成盲目或视力障碍，也可能只像临床试验服务；需要独立评长期AI研究身份。",
+        "boundary": "只读出版指南和历史机制公告，不称双盲消除偏见、完全无法识别作者或研究结论因此正确；不以2015历史选择证明所有现行期刊规则。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension22.json",
+      "sha256": "beb5d4ecac9de295d9e07873e69bf296b95fce18fc504c14c42d4e12effb5967"
+    },
+    "C1-M53": {
+      "id": "C1-M53",
+      "family_id": "C1-MF-practiced-knowing-not-exhausted-by-verbal-account",
+      "macro_id": "S4",
+      "plan_direction_id": "C1-D-S4",
+      "category": "modern_epistemology_author_book_excerpt",
+      "case_ids": [
+        "B091",
+        "B029",
+        "B021"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Michael Polanyi, The Tacit Dimension, Tacit Knowing（TACK转载原著节选）",
+          "url": "https://tacit-knowledge-architecture.com/object/the-tacit-dimension-excerpt/",
+          "reading_location": "本次实际读L31–45原著节选：识认、说明、演示与接收者配合，实践/理论认识的联系。页面称整节选原书p4–13，但本次不据此声称读全p4–13，更未读全书；未采用L46后的旧实验论据。",
+          "read_at": "2026-11-08T21:41:11.063341+08:00",
+          "access": "body",
+          "source_type": "book_author_excerpt_reproduced_by_research_project",
+          "reading_scope": "book_excerpt",
+          "book_id": "Polanyi-The-Tacit-Dimension",
+          "published_at": null,
+          "book_original_year_attribution": "1966，页面所引书；具体转载依据版本/页界尚未核",
+          "boundary": "读到的是Polanyi本人论述的转载，不是TACK介绍代替正文；不采该页关于首版出版社的未核说法。作者的认识论解释不是本包独立实验定理。"
+        }
+      ],
+      "source_urls": [
+        "https://tacit-knowledge-architecture.com/object/the-tacit-dimension-excerpt/"
+      ],
+      "fact": "作者用识认与实践教学讨论所会与所能完整说明并非同一范围，并把实践与理论认识放在相连结构中。",
+      "distinctive_relation": "能作为熟练实践者运用知识，不等于能把运用过程逐项说尽；传达还需要接收者参与。",
+      "mechanism_to_material": "Ineffable新核使公司可因知识形成/表达立场得名；HF新核引向共同实践与可参与关系，Oracle旧基线只是知识传统参照。本名选择一种能做事的主体角色，不照抄不可言说形容词。HF不宣称已核emoji命名史，Oracle未重核。",
+      "history_difference": "旧C05会意是参与者共同指代对象，旧C03应手是打印铰链与传感机制可操作反馈，旧橡皮鸭是说出步骤暴露隐含假设；本项为会运用实践判断的主体与可充分说出的知识并不等同。C32借身是同步感觉引起身体归属，不是熟练主体。若后续只剩有人经验更熟/后天成长，须对旧后天/成长家族合并风险，不能靠哲学新书另计；名字不说熟手天生全知。",
+      "naming_potential": "可以先让公司像一个能实际运用知识的伙伴，再解释认识不被说明书穷尽。",
+      "shortcoming": "熟练工派遣/维修平台首感；有出处不能消除服务平台误读。",
+      "boundary": "不称所有技能完全不可传授、不需要语言或实践熟练即保证正确；本次不验证原书后面的历史心理实验。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft",
+      "role_path_id": "C1-RX01-P3",
+      "secondary_macro_ids": [
+        "S5",
+        "S6"
+      ]
+    },
+    "C1-M54": {
+      "id": "C1-M54",
+      "family_id": "C1-MF-designing-reframes-problem-and-coherent-situation",
+      "macro_id": "S5",
+      "plan_direction_id": "C1-D-S5",
+      "category": "creative_practice_author_book_chapter",
+      "case_ids": [
+        "B027",
+        "B028",
+        "B037"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Donald A. Schön, The Reflective Practitioner, Design as a Reflective Conversation with the Situation",
+          "url": "https://andymatuschak.org/files/papers/Schon%20-%20The%20Reflective%20Practitioner.pdf",
+          "reading_location": "web因文件过大失败后实际curl下载380页PDF；实读PDF86–89、98、102页（印刷79–82、91、95）：Quist/Petra设计片段与作者分析；另读PDF2–4/6题名版权及部分目录。未连续通读整章或整书，未将扫描全书当已读全书。",
+          "read_at": "2026-11-08T21:41:11.063341+08:00",
+          "access": "body",
+          "source_type": "book_author_text_scanned_copy",
+          "reading_scope": "book_chapter_selected_pages",
+          "book_id": "Schon-The-Reflective-Practitioner",
+          "published_at": null,
+          "book_copyright_year": "1983，PDF4版权页；扫描具体重印年未核",
+          "local_path": "/tmp/continuous001-schon.pdf",
+          "sha256": "6adda281532849a26a41a663f99a648759d6be3e6a61a97966b5c82e548ab707",
+          "boundary": "具体设计教学记录与作者分析，不是普遍证明所有活动目标都必须改变。只读文字提取，不声称目读图形或观看现场。"
+        }
+      ],
+      "source_urls": [
+        "https://andymatuschak.org/files/papers/Schon%20-%20The%20Reflective%20Practitioner.pdf"
+      ],
+      "fact": "书中导师与学生一边画一边谈，提出布局后重新评价问题和构成良好整体的条件；原来次要的通行部分获得新的中心作用。",
+      "distinctive_relation": "创造行动不只是填入既定解，情境变化也使行动者重新界定正在解决的问题。",
+      "mechanism_to_material": "Midjourney新核把想成为什么留为研究问题，Runway新核让公司是他者创造条件的场所；Imbue原案例从作用于认识建立角色。本名借能构成探索情境的组织身份，不把公司等同描图纸/一根线，也不拿旅途词根续写。",
+      "history_difference": "C16自成一格为光学单格配准，旧织数为执行既定图样，C31未然机为固定个体背景下改变方程作反事实；本项不以器件/仿真等同公司，而是在创造活动中重新界定问题和整体价值。旧另解是提出并检验替代解释，M05会意是把既有指代对齐；本项是在动作与情境互相作用时共同形成待解问题。若只剩一般反馈/反思或模拟场景，不能计独立新族。",
+      "naming_potential": "从整体情境与创造者作用凝练机构称呼，不必复刻书中物件。",
+      "shortcoming": "建筑/景观设计或游戏场景制作公司首感；对一般AI Lab仍有行业收窄风险。",
+      "boundary": "源为一个设计教学案例及作者分析，不证明任意改目标都更好；不是授权AI自行修改用户目标，也不是承诺已实现世界模型。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft",
+      "role_path_id": "C1-RX01-P2",
+      "secondary_macro_ids": [
+        "S4",
+        "S6"
+      ]
+    },
+    "C1-M55": {
+      "material": {
+        "id": "C1-M55",
+        "family_id": "C1-MF-peer-contribution-roles-through-shared-access",
+        "macro_id": "S4",
+        "plan_direction_id": "C1-D-S4",
+        "category": "modern_collaborative_knowledge_practice",
+        "case_ids": [
+          "B028",
+          "B029",
+          "B025"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Yochai Benkler, The Wealth of Networks, Chapter 3: Peer Production and Sharing",
+            "url": "https://cyber.harvard.edu/wealth_of_networks/Sentence-sliced_Text_Chapter_3",
+            "reading_location": "实际web读L12–219及L259–295，命名重点L259–280三角色接手、共同论坛/源码/许可，以及L285–293规模与层级限制。邻近返回的NASA/Wikipedia段只作阅读背景，不另拆卡，不称读完整章或本书。",
+            "read_at": "2026-11-08T22:27:04.877043+08:00",
+            "access": "body",
+            "source_type": "author_book_text_on_Harvard_book_site",
+            "reading_scope": "book_chapter_excerpt",
+            "published_at": null,
+            "book_year_attributed": "2006；本段未另核印刷版权页",
+            "discovery_provenance": "root提供该HTML入口但明确未读；A2收到入口后真实web打开并读所记正文，未把root索引摘要当阅读。",
+            "boundary": "作者的社会生产论述与案例，不证明任何群体都有效、越多人越正确或从不需要层级；不提供现行GPL法律意见。"
+          }
+        ],
+        "source_urls": [
+          "https://cyber.harvard.edu/wealth_of_networks/Sentence-sliced_Text_Chapter_3"
+        ],
+        "fact": "作者用初版作者、提出问题的使用者、修复者说明共享论坛、源码与许可怎样使不同角色能够接手贡献；又指出大项目组织更复杂。",
+        "distinctive_relation": "作品能被使用、问题能被看见、后来的人能参与修复，来自可接手的共同条件。",
+        "mechanism_to_material": "Runway使公司可以是让他者能力得以出现的条件，HF把参与/接手/贡献变成寻找问题，Cursor保留熟悉可用入口。由三者进入共同知识作品与参与条件，而非再找单件器材；Runway有创始命名问答，HF仅词义和现有社区语境，不假称历史释名。",
+        "history_difference": "实际读旧C10底稿全文：其重写本/当前版本是下一轮基础，主角为同一文本的再修改；本项主角是不同作者、使用者和修复者怎样通过共同资源得以接手，不以版本未终稿/二次成长叙事成立。旧C19写时复制是页共享后隔离写入，M05会意是共同指代，橡皮鸭是说出假设，C43熟手是实践认识主体，均不是这种参与条件和角色接力。稿字相同不自动同族；若后续释义只讲不断重写文本，应退回底稿家族，不能因换书就新增。",
+        "naming_potential": "可以把组织看成让多种贡献接得上的共同作品/空间；不必把公司压成某个技术部件。",
+        "shortcoming": "容易像文档协作产品、出版项目或众包平台，需单独评完整研究机构身份。",
+        "boundary": "千与稿若用于品牌，只是多人贡献与共同作品的意象；不是千人规模统计、物理手稿或原书命名，也不表示本公司已承诺特定开放许可。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft",
+        "role_path_id": "C1-RX01-P1",
+        "secondary_macro_ids": [
+          "S1",
+          "S5"
+        ]
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension24.json",
+      "sha256": "c991853695eee27b440649404d1fc297fd10c50541aff498a5bbad7714124c23"
+    },
+    "C1-M56": {
+      "material": {
+        "id": "C1-M56",
+        "family_id": "C1-MF-participation-in-practice-not-itemized-instruction",
+        "macro_id": "S5",
+        "plan_direction_id": "C1-D-S5",
+        "category": "social_learning_author_book_excerpt",
+        "case_ids": [
+          "B029",
+          "B028"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Jean Lave / Etienne Wenger, Situated Learning: Legitimate Peripheral Participation，扫描节选",
+            "url": "https://se4n.org/papers/lave-wenger-1991.pdf",
+            "reading_location": "webtimeout后实际curl下载8页扫描节选，pypdf无文字；按pdf技能用PyMuPDF渲染，实际目读PDF1–2页，印刷29–31（第一PDF页左面为空、右面29；第二页30–31）。只读第一章引入与作者论述，未读第三章裁缝个案或全书。",
+            "read_at": "2026-11-08T22:27:04.877043+08:00",
+            "access": "body",
+            "source_type": "book_author_scanned_excerpt",
+            "reading_scope": "rendered_book_excerpt",
+            "published_at": null,
+            "local_path": "/tmp/continuous001-lave-wenger.pdf",
+            "sha256": "016fb96292606e03a6abcdf3d37770a8264db2f6b77c1760280ac9893c4566f1",
+            "rendered_pages": [
+              {
+                "path": "/tmp/continuous001-lave-wenger-1.png",
+                "sha256": "2d59e4cb948927806d09cbef7ea452a55fd49196a2afe75e084fba6b20c7bab4"
+              },
+              {
+                "path": "/tmp/continuous001-lave-wenger-2.png",
+                "sha256": "195bee4a843637c966340dacf039c0321e0db577e581867ff3d33ce2080875dc"
+              }
+            ],
+            "boundary": "作者将学习视为参与共同实践的概念论述，不能说本次读到独立裁缝实验数据或人人自动获得成员资格。Cambridge目录只核书/章入口，未充正文。"
+          }
+        ],
+        "source_urls": [
+          "https://se4n.org/papers/lave-wenger-1991.pdf"
+        ],
+        "fact": "作者讨论新参与者与实践、身份和共同活动的关系，并区别其理论与简单的做中学/学徒万能解。",
+        "distinctive_relation": "参与关系不只是将知识条目从教师交给学习者，也涉及获得并实践一个成员位置。",
+        "mechanism_to_material": "HF使寻找从可爱外壳转向能否参与、接手、共同维护；Runway提供使别人能够行动的条件。此书所读概念可以补参与关系，但不能直接推出一个自然Lab称呼。",
+        "history_difference": "与熟手的实践能力主体不同，本项论共同实践中的参与位置；但如果只把师徒/学习伙伴改词，仍很像教育服务或旧共同参照上位角色，暂不认为已经有新品牌。",
+        "naming_potential": "先保留参与条件研究，不硬配名。",
+        "shortcoming": "本次尚无能避开培训/招工第一联想的完整机构称呼。",
+        "boundary": "只读所记原著扫描页；不把共同实践理论当用户公司的现有制度或AI具备社会成员身份的实证。",
+        "is_classical": false,
+        "status": "material_only_no_qualified_name",
+        "role_path_id": "C1-RX01-P1",
+        "secondary_macro_ids": [
+          "S4"
+        ]
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension24.json",
+      "sha256": "c991853695eee27b440649404d1fc297fd10c50541aff498a5bbad7714124c23"
+    },
+    "C1-M57": {
+      "material": {
+        "id": "C1-M57",
+        "family_id": "C1-MF-visible-selection-scope-for-joint-transformation",
+        "macro_id": "S1",
+        "plan_direction_id": "C1-D-S1",
+        "category": "familiar_computer_interaction_scope",
+        "case_ids": [
+          "B025",
+          "B028",
+          "B015"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Inkscape Beginners’ Guide 1.3: The Selector Tool",
+            "url": "https://inkscape-manuals.readthedocs.io/en/1.3/selector-tool.html",
+            "reading_location": "实际读L9–74正文，命名核心L54–69：多对象选择、矩形框、各对象边界与围绕整体选择的变换把手、包含/接触模式。未实际运行软件或目读示例图，不把当前最新版本行为混入固定1.3文档。",
+            "read_at": "2026-11-08T22:32:24.126265+08:00",
+            "access": "body",
+            "source_type": "official_software_user_guide",
+            "reading_scope": "body_excerpt",
+            "published_at": null,
+            "boundary": "选框为selection box的通常中文缩合称呼，不声称英文文档逐字出现中文。选中多个对象不等于永久编组或几何合并。"
+          }
+        ],
+        "source_urls": [
+          "https://inkscape-manuals.readthedocs.io/en/1.3/selector-tool.html"
+        ],
+        "fact": "手册以选框和可见边界标示当前选中的多个对象，变换把手围绕整体选择，后续变换有明确作用范围。",
+        "distinctive_relation": "把动作将作用于哪些对象先变为可看见、可改变的范围，使多个对象可以共同操作。",
+        "mechanism_to_material": "Cursor提供日常电脑称呼进入深技术的入口，Runway新核把公司理解为使创造可发生的条件，Sony反馈允许熟悉经验成为完整称呼。本项从选择范围如何使操作成为可能进入，不照搬光标或跑道；Runway创始命名证据与本包语言机制分析分开。",
+        "history_difference": "C16自成一格/M18为物理纹影光路单格配准，不是选择可操作对象；C44构境为行动中重定问题，本项不是借框比喻问题定义。C13跳读/NLS为视图链接寻址，C03应手为材料关节与传感，M05会意为共同指代，均非屏幕对象集的可见选择与共同变换范围。选框/框选/选取等全历史名称字段无精确提案；常用字框或界面大类未被整体禁用。若只剩更好控制/可操作这一泛角色而不保留对象范围关系，不能自动认新族。",
+        "naming_potential": "选与框原本就在同一日常动作关系中，是可直接叫出的完整电脑对象。",
+        "shortcoming": "可能只是图形软件控件/视觉工具，广义Lab延展需独立判断；不因亲手常用就自动好品牌。",
+        "boundary": "固定1.3文档支持多选与边界，不承诺所有软件相同，也不把选框本身当已实现智能增强。变换范围与永久编组不同。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft",
+        "role_path_id": "original-S1-with-role-expansion-P1",
+        "secondary_macro_ids": [
+          "S5"
+        ]
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension25.json",
+      "sha256": "a910d37fd432d098fb7cdd36e7ea1ea09113e42e4fb027b1f0450e6702bc56bb"
+    },
+    "C1-M58": {
+      "id": "C1-M58",
+      "family_id": "C1-MF-tunable-web-structure-participates-in-sensing",
+      "macro_id": "S2",
+      "plan_direction_id": "C1-D-S2",
+      "category": "animal_environment_sensory_relationship",
+      "case_ids": [
+        "B076",
+        "B053",
+        "B091"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Hilton F. Japyassú / Kevin N. Laland: Extended spider cognition",
+          "url": "https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/10466/Japyass_2017_Extended_AnimalCog_CC.pdf?isAllowed=y&sequence=1",
+          "reading_location": "实际web读作者库21页PDF的摘要L0–35，及Case 1 L475–617（PDF6–7页）：网丝张力调节/传输与作者扩展感知论证，含脚注7对网不可独立解释意义的限定。没有通读21页、阅读全部参考文献原文或复现实验。",
+          "read_at": "2026-11-08T22:38:45.770512+08:00",
+          "access": "body",
+          "source_type": "author_review_article_in_institutional_repository",
+          "reading_scope": "abstract_and_case_section",
+          "published_at": "2017",
+          "boundary": "这是作者综述，引用Watanabe/Nakata等实验；本包没有读到那些原实验方法，不将综述叙述伪称本包实读原始实验。扩展认知是作者论证立场，不写成无争议普遍定律。"
+        }
+      ],
+      "source_urls": [
+        "https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/10466/Japyass_2017_Extended_AnimalCog_CC.pdf?isAllowed=y&sequence=1"
+      ],
+      "fact": "综述整理网丝张力与振动传输/觅食反应的关系，并据双向作用提出外部网参与感知系统的论证。",
+      "distinctive_relation": "动物编织并调节的外部结构，会参与它接收何种信号，而不是只把已有信号原样传到体内。",
+      "mechanism_to_material": "沿Sakana的真实生命关系、原S2问题中的环境与行动调节，寻找系统怎样改变接触世界的条件；月之暗面基线支持完整世界，Ineffable新核仅帮助提出认识范围可被研究的问题，不拿其超智能信念作蜘蛛科学证据。材料本身来自生物关系，不因认识论主题改挂哲学类。Sakana/Ineffable已核，月之暗面未重开词源。",
+      "history_difference": "旧织数是穿孔卡指令与代数模式被织造，旧飞梭为工具跨越臂展，纸蜂为把植物纤维加工成巢材；本项是可调外部结构参与同一动物的感觉输入，并非再换织造对象。M15黏菌外部痕迹提供此前走过哪里的依据，而蛛网张力改变当前振动传输；M09回声定位、侧音与声入纹分别为声学定位/自我反馈/记录回放，不是此结构可调的感知系统。M26余光是外围信息汇总，C32借身是身体归属错觉，均不是外部网结构调节输入。若只剩外脑/感官外挂/有反馈的泛角色，需要保守合并，不凭蜘蛛物种或新论文标题计新。",
+      "naming_potential": "织造与感知来自同一个生物系统，可凝为自然熟字的新整体，而非只摘物种或微小部件名。",
+      "shortcoming": "织/知/智的同音与纺织/觉醒误读；微观机制真实不替公司身份加分。",
+      "boundary": "不说网独自有意识、蜘蛛脑无用或任意模型外挂即更聪明。张力作用为综述所引研究，扩展认知归作者观点；品牌的织概括编织并可调的结构，不将意识觉醒强加给觉字。",
+      "is_classical": false,
+      "status": "read_and_chinese_draft",
+      "secondary_macro_ids": [
+        "S5"
+      ],
+      "role_path_note": "回原S2六世界任务，借新B091认识问题补问，不重开角色计划或沿旧写作/GUI家族。"
+    },
+    "C1-M59": {
+      "material": {
+        "id": "C1-M59",
+        "family_id": "C1-MF-third-logical-state-unknown-distinct-from-false",
+        "macro_id": "S3",
+        "plan_direction_id": "C1-D-S3",
+        "category": "computational_semantics_of_knowledge_state",
+        "case_ids": [
+          "B004",
+          "B074",
+          "B002"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "PostgreSQL 18 Documentation: Boolean Type",
+            "url": "https://www.postgresql.org/docs/18/datatype-boolean.html",
+            "reading_location": "实际读固定18页面L20–62，重点L20–28的true/false及由SQL null表示的unknown；先读current同版后复开固定版本。不运行数据库，不把页头新闻日期当文档发表日期。",
+            "read_at": "2026-11-08T23:24:07.823388+08:00",
+            "access": "body",
+            "source_type": "official_computing_documentation",
+            "reading_scope": "body_excerpt",
+            "published_at": null
+          },
+          {
+            "title": "PostgreSQL 18 Documentation: Comparison Functions and Operators",
+            "url": "https://www.postgresql.org/docs/18/functions-comparison.html",
+            "reading_location": "先实际读current解析为18的L49–115相关正文，后复开固定18同URL章节；重点普通比较遇NULL的unknown、IS UNKNOWN等谓词的二值结果。不是读取SQL标准原件。",
+            "read_at": "2026-11-08T23:24:07.823388+08:00",
+            "access": "body",
+            "source_type": "official_computing_documentation",
+            "reading_scope": "body_excerpt",
+            "published_at": null,
+            "boundary": "unknown为SQL逻辑状态，不是概率一半、客观第三真理或更高一级真；IS UNKNOWN等检测本身仍返回true/false。"
+          }
+        ],
+        "source_urls": [
+          "https://www.postgresql.org/docs/18/datatype-boolean.html",
+          "https://www.postgresql.org/docs/18/functions-comparison.html"
+        ],
+        "fact": "固定版本文档明确SQL布尔表达可有由null表示的unknown状态，普通含NULL比较不因未知而自动成为false。",
+        "distinctive_relation": "表达系统为未知保留一种不同于肯定和否定的逻辑状态。",
+        "mechanism_to_material": "第四范式基线示范完整知识对象可以承载机构身份；Recursive原A1核验示范真实计算关系直接成为称呼，Google基线显示知识对象无需包办业务说明。由原S3的问题进入可表达状态的区别，不从数字模板随意造第几。B004/B002本步只继承基线未重开历史词源，B074为原A1已核。",
+        "history_difference": "已读公设之外原稿，其为哥德尔边界/未解问题姿态；未尽之问为知识可错与问题无终态；反例为具体实例否定全称。这一项限定已有计算语义将unknown与false分开，不以尚未回答/未来可解或突破公理作叙事。旧补码是有符号整数表示，零/01单位词也不是三态逻辑。若品牌只剩对未知保持开放，应保守并回旧开放问题上位家族。",
+        "naming_potential": "一个有实际第三状态依据的四字整体，可以承载如何表达知识状态的研究角色。",
+        "shortcoming": "真值偏学术，第三可能被误解为第三种真理/神秘体系；不能用专业性弥补不自然。",
+        "boundary": "不是所有逻辑都三值、不是客观事实有第三种真理、更不证明AI知道自己不知道。未知与false的区别是具体SQL语义；第三不表示更高或更正确。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft"
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension27.json",
+      "sha256": "e6a46bceabc5d35190d2aabb0cbf02dedfbe3e7a68389e47e5542c8731ade31d"
+    },
+    "C1-M60": {
+      "material": {
+        "id": "C1-M60",
+        "family_id": "C1-MF-shared-planet-seen-from-orbital-viewpoint",
+        "macro_id": "S5",
+        "plan_direction_id": "C1-D-S5",
+        "category": "first_person_perspective_and_shared_world",
+        "case_ids": [
+          "B053",
+          "B027"
+        ],
+        "principle_ids": [
+          "C1-P1",
+          "C1-P2",
+          "C1-P3",
+          "C1-P5"
+        ],
+        "sources": [
+          {
+            "title": "Linda E. Grimm / NASA Johnson: The Overview Effect: Astronaut Perspectives from 25 Years in Low Earth Orbit",
+            "url": "https://www.nasa.gov/centers-and-facilities/johnson/the-overview-effect-astronaut-perspectives-from-25-years-in-low-earth-orbit/",
+            "reading_location": "实际读L244–288标题日期及报道正文，重点Koch/Behnken/Stott等对同一星球、共同大气及家的陈述。未看NASA+视频、未读Frank White原书或心理学原论文，亦未自行观察太空。",
+            "read_at": "2026-11-08T23:24:07.823388+08:00",
+            "access": "body",
+            "source_type": "institutional_report_of_first_person_experience",
+            "reading_scope": "article_body",
+            "published_at": "2025-11-23",
+            "page_last_updated": "2025-11-21，页脚与发表日期先后不一致，照录不修补",
+            "boundary": "宇航员当事人叙述和机构报道，不是已证明太空观察提高认知的对照实验；旧新闻不计近90天。"
+          }
+        ],
+        "source_urls": [
+          "https://www.nasa.gov/centers-and-facilities/johnson/the-overview-effect-astronaut-perspectives-from-25-years-in-low-earth-orbit/"
+        ],
+        "fact": "报道中的宇航员从轨道视角描述同一星球、共同大气与家的意义；这是一组当事人的经验叙述。",
+        "distinctive_relation": "改变观看位置后，原来的地理局部被体验为同一共同家园中的部分。",
+        "mechanism_to_material": "月之暗面基线借完整空间世界，Midjourney新核借世界观位置给机构长期身份；本项从同一星球上的主体位置凝练，不复制月面、旅途或阶段词。Midjourney本轮角色补充已核，月之暗面仍是未重开词源的基线分析。",
+        "history_difference": "实际读旧地球回信原稿，作用是地照光返程与遥观测信息，不是从轨道看共同家园；星间为恒星外流塑造星际介质，两者也不是本项当事人共居位置的认识。月之暗面是基线参照，不以共用太空意象自动新增；与M05共同指代、P1可贡献参与条件也不同，若解释只剩泛化团结/伙伴或星际宏大，应保守合并，不把一条NASA报道当独立家族自证。",
+        "naming_potential": "共同星球是完整可想象的世界，可以承载研究机构如何定位自己与他者。",
+        "shortcoming": "航天/天文或社会公益首感可能更强；名字不直接说AI，也不能靠宇航叙事自动过门。",
+        "boundary": "不将主观报道当认知提升证据，不替公司承诺开放许可、世界统一或任何已实现技术；星在本名指星球，不把地球当恒星。",
+        "is_classical": false,
+        "status": "read_and_chinese_draft",
+        "secondary_macro_ids": [
+          "S2",
+          "S6"
+        ]
+      },
+      "file": "research/runs/2026-11-07-continuous-001/materials-extension27.json",
+      "sha256": "e6a46bceabc5d35190d2aabb0cbf02dedfbe3e7a68389e47e5542c8731ade31d"
+    }
+  },
+  "chinese_proposals": {
+    "C1-C25": {
+      "name": "补码",
+      "material_ids": [
+        "C1-M33"
+      ],
+      "family_id": "C1-BF-signed-operation-through-representation",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch12.json",
+      "sha256": "321cc74ede8fd9bdd8ac62a089ead76ae3c122f9ada7d18e3b1600e994063542"
+    },
+    "C1-C16": {
+      "name": "自成一格",
+      "material_ids": [
+        "C1-M18"
+      ],
+      "family_id": "C1-BF-one-reference-serves-two-alignment-roles",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch6.json",
+      "sha256": "2a2bc175926974875de931b184d7c9d8100562be23a5deec3a6655d569f20d36"
+    },
+    "C1-C17": {
+      "name": "因序",
+      "material_ids": [
+        "C1-M20"
+      ],
+      "family_id": "C1-BF-dependency-determines-comparable-order",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch6.json",
+      "sha256": "2a2bc175926974875de931b184d7c9d8100562be23a5deec3a6655d569f20d36"
+    },
+    "C1-C23": {
+      "name": "活变量",
+      "material_ids": [
+        "C1-M31"
+      ],
+      "family_id": "C1-BF-variable-with-still-possible-use",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch10-supplement.json",
+      "sha256": "f9c9f0348c2725fa5471ef6fdcea0e936d301973ef2d42cf56f0a5762d315312"
+    },
+    "C1-C18": {
+      "name": "余光",
+      "material_ids": [
+        "C1-M26"
+      ],
+      "family_id": "C1-BF-information-beyond-central-fixation",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch7.json",
+      "sha256": "8b7fe1e061566a166efffffaa814e148d38ae61502aca97fee46b0f3f4e1be87"
+    },
+    "C1-C26": {
+      "name": "园丁鸟",
+      "material_ids": [
+        "C1-M34"
+      ],
+      "family_id": "C1-BF-animal-builder-of-perceptual-environment",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch13.json",
+      "sha256": "0e99febef4e281c06f2b9e49b4313e6dc44c3f9735c6cefd5b40bb7d7ce13098"
+    },
+    "C1-C31": {
+      "name": "未然机",
+      "material_ids": [
+        "C1-M38"
+      ],
+      "family_id": "C1-BF-machine-for-unrealized-conditions",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch18.json",
+      "sha256": "6c404de20de01d7590b8f10ec5f7f409b7450cd8173872dd982ae05dba3a48b0"
+    },
+    "C1-C32": {
+      "name": "借身",
+      "material_ids": [
+        "C1-M39"
+      ],
+      "family_id": "C1-BF-temporarily-borrowed-body-boundary",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch18.json",
+      "sha256": "6c404de20de01d7590b8f10ec5f7f409b7450cd8173872dd982ae05dba3a48b0"
+    },
+    "C1-C38": {
+      "name": "飞梭",
+      "material_ids": [
+        "C1-M49"
+      ],
+      "family_id": "C1-BF-flying-shuttle-extends-body-reach",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch22.json",
+      "sha256": "d1cbf13f48570bddc5fc99989682c42ea0c68c402b93ac6d5133015a3c964e7f"
+    },
+    "C1-C39": {
+      "name": "捕蝇草",
+      "material_ids": [
+        "C1-M50"
+      ],
+      "family_id": "C1-BF-flytrap-whole-organism-short-state",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch22.json",
+      "sha256": "d1cbf13f48570bddc5fc99989682c42ea0c68c402b93ac6d5133015a3c964e7f"
+    },
+    "C1-C27": {
+      "name": "橡皮鸭",
+      "material_ids": [
+        "C1-M35"
+      ],
+      "family_id": "C1-BF-inert-explanation-partner",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch14.json",
+      "sha256": "5c06e31638fd0f96e5cdc53fa2595baa64a9210b21808568bd46f141bfd15731"
+    },
+    "C1-C01": {
+      "name": "由此及彼",
+      "material_ids": [
+        "C1-M01"
+      ],
+      "family_id": "C1-BF-relation-network-known-to-unknown",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch1.json",
+      "sha256": "de29716948169e218e2207fdb612e83e8d0a5e6dbed0e3bc5b92e623f9fae2d4"
+    },
+    "C1-C02": {
+      "name": "探形",
+      "material_ids": [
+        "C1-M02"
+      ],
+      "family_id": "C1-BF-tactile-shape-before-action",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch1.json",
+      "sha256": "de29716948169e218e2207fdb612e83e8d0a5e6dbed0e3bc5b92e623f9fae2d4"
+    },
+    "C1-C03": {
+      "name": "应手",
+      "material_ids": [
+        "C1-M03"
+      ],
+      "family_id": "C1-BF-action-readable-responsive-tool",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch1.json",
+      "sha256": "de29716948169e218e2207fdb612e83e8d0a5e6dbed0e3bc5b92e623f9fae2d4"
+    },
+    "C1-C04": {
+      "name": "合符",
+      "material_ids": [
+        "C1-M04"
+      ],
+      "family_id": "C1-BF-paired-authority-fit-confirmation",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch1.json",
+      "sha256": "de29716948169e218e2207fdb612e83e8d0a5e6dbed0e3bc5b92e623f9fae2d4"
+    },
+    "C1-C05": {
+      "name": "会意",
+      "material_ids": [
+        "C1-M05"
+      ],
+      "family_id": "C1-BF-mutually-accepted-reference",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch1.json",
+      "sha256": "de29716948169e218e2207fdb612e83e8d0a5e6dbed0e3bc5b92e623f9fae2d4"
+    },
+    "C1-C06": {
+      "name": "余量",
+      "material_ids": [
+        "C1-M06"
+      ],
+      "family_id": "C1-BF-redundancy-enabling-reconstruction",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch1.json",
+      "sha256": "de29716948169e218e2207fdb612e83e8d0a5e6dbed0e3bc5b92e623f9fae2d4"
+    },
+    "C1-C28": {
+      "name": "灵感之外",
+      "material_ids": [
+        "C1-M22"
+      ],
+      "family_id": "C1-BF-beyond-insight-as-verdict",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch15.json",
+      "sha256": "d3e818d6cfd59ed76c86f7efa21b81367f7147b9cf5398d11e6a213b013a9441"
+    },
+    "C1-C40": {
+      "name": "雾针",
+      "material_ids": [
+        "C1-M07"
+      ],
+      "family_id": "C1-BF-fog-capture-conical-spine",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch23.json",
+      "sha256": "2ed9786614c8c7f38068d2417538708a47138f7afb324bf25084012814fb06e4"
+    },
+    "C1-C33": {
+      "name": "算着走",
+      "material_ids": [
+        "C1-M42"
+      ],
+      "family_id": "C1-BF-computation-guides-next-program-step",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch19.json",
+      "sha256": "19b096bb9387bff5ed5161f6172e06552e099d6ac0dc0561f45855a9ca182256"
+    },
+    "C1-C34": {
+      "name": "沙阵",
+      "material_ids": [
+        "C1-M44"
+      ],
+      "family_id": "C1-BF-sand-as-responsive-field-formation",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch20.json",
+      "sha256": "dd4ee1bd5620c11134f9864ba26d2dc339a3a468aa5d63ee9fff5b884706f2ed"
+    },
+    "C1-C35": {
+      "name": "隶首",
+      "material_ids": [
+        "C1-M45"
+      ],
+      "family_id": "C1-BF-lishou-arithmetic-cultural-persona",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch20.json",
+      "sha256": "dd4ee1bd5620c11134f9864ba26d2dc339a3a468aa5d63ee9fff5b884706f2ed"
+    },
+    "C1-C07": {
+      "name": "开合",
+      "material_ids": [
+        "C1-M10"
+      ],
+      "family_id": "C1-BF-local-edit-kept-return-path",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch2.json",
+      "sha256": "a6edfe841b0c674cf075ca8f5b3333632cb70e12c210047233bae14ec6a00419"
+    },
+    "C1-C08": {
+      "name": "活桥",
+      "material_ids": [
+        "C1-M11"
+      ],
+      "family_id": "C1-BF-members-become-adaptive-support",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch2.json",
+      "sha256": "a6edfe841b0c674cf075ca8f5b3333632cb70e12c210047233bae14ec6a00419"
+    },
+    "C1-C09": {
+      "name": "横竖之间",
+      "material_ids": [
+        "C1-M12"
+      ],
+      "family_id": "C1-BF-rod-orientation-and-place",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch2.json",
+      "sha256": "a6edfe841b0c674cf075ca8f5b3333632cb70e12c210047233bae14ec6a00419"
+    },
+    "C1-C10": {
+      "name": "开明兽",
+      "material_ids": [
+        "C1-M13"
+      ],
+      "family_id": "C1-BF-kaiming-nonhuman-research-persona",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch2.json",
+      "sha256": "a6edfe841b0c674cf075ca8f5b3333632cb70e12c210047233bae14ec6a00419"
+    },
+    "C1-C29": {
+      "name": "失算",
+      "material_ids": [
+        "C1-M36"
+      ],
+      "family_id": "C1-BF-miscalculation-as-comparable-outcome",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch16.json",
+      "sha256": "eee1500c74c7f4637e589f6196a4257d36c959d2daabdd4dab434ad5c8a65668"
+    },
+    "C1-C30": {
+      "name": "言有所为",
+      "material_ids": [
+        "C1-M37"
+      ],
+      "family_id": "C1-BF-language-as-situated-action",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch17.json",
+      "sha256": "d51374c05140f2c05ea4acc5877f7c3ff47903a654fee4483d8a4eb1e6564fc3"
+    },
+    "C1-C11": {
+      "name": "回车以后",
+      "material_ids": [
+        "C1-M16"
+      ],
+      "family_id": "C1-BF-submission-becomes-interaction",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch3.json",
+      "sha256": "b0849a393c3e66ae37a7dd9406cfc5b5b90531cc21c556e7b17974bf9fd347d3"
+    },
+    "C1-C12": {
+      "name": "横风",
+      "material_ids": [
+        "C1-M17"
+      ],
+      "family_id": "C1-BF-crosswind-trajectory-harvesting-gradient",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch3.json",
+      "sha256": "b0849a393c3e66ae37a7dd9406cfc5b5b90531cc21c556e7b17974bf9fd347d3"
+    },
+    "C1-C36": {
+      "name": "乐观锁",
+      "material_ids": [
+        "C1-M46"
+      ],
+      "family_id": "C1-BF-optimistic-lock-versioned-commit",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch21.json",
+      "sha256": "03c41e0e634c0454be18a12582bc8383183b5aeeb86abca08f54d16ea9bbfaf4"
+    },
+    "C1-C37": {
+      "name": "骰子钟",
+      "material_ids": [
+        "C1-M47"
+      ],
+      "family_id": "C1-BF-dice-clock-random-waiting",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch21.json",
+      "sha256": "03c41e0e634c0454be18a12582bc8383183b5aeeb86abca08f54d16ea9bbfaf4"
+    },
+    "C1-C13": {
+      "name": "跳读",
+      "material_ids": [
+        "C1-M19"
+      ],
+      "family_id": "C1-BF-active-nonlinear-knowledge-navigation",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch4.json",
+      "sha256": "957bf8655fc641d800ed4929e7fcfc65e307d461c4ca379e068325b10b0fa813"
+    },
+    "C1-C14": {
+      "name": "作数",
+      "material_ids": [
+        "C1-M24"
+      ],
+      "family_id": "C1-BF-real-outcome-counts-as-valid",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch4.json",
+      "sha256": "957bf8655fc641d800ed4929e7fcfc65e307d461c4ca379e068325b10b0fa813"
+    },
+    "C1-C22": {
+      "name": "伶伦",
+      "material_ids": [
+        "C1-M30"
+      ],
+      "family_id": "C1-BF-linglun-maker-of-usable-order",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch10.json",
+      "sha256": "dac3fad4d578088af37f3daefa42fb863ad081cd708711869be0d2bf922b80c3"
+    },
+    "C1-C19": {
+      "name": "分身有别",
+      "material_ids": [
+        "C1-M27"
+      ],
+      "family_id": "C1-BF-shared-start-private-changes",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch8.json",
+      "sha256": "846cc81e69427062e8ad7b39a97c05520913cf25c23f728caa7bd425a6753324"
+    },
+    "C1-C20": {
+      "name": "声入纹",
+      "material_ids": [
+        "C1-M28"
+      ],
+      "family_id": "C1-BF-vibration-inscribed-as-replayable-form",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch9.json",
+      "sha256": "2e61ef00000f7a47980999f4c3c240c5c335df4d683bc6ebcf95c4606e9dfa9f"
+    },
+    "C1-C21": {
+      "name": "识局",
+      "material_ids": [
+        "C1-M29"
+      ],
+      "family_id": "C1-BF-recognizing-learned-relational-configuration",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch9.json",
+      "sha256": "2e61ef00000f7a47980999f4c3c240c5c335df4d683bc6ebcf95c4606e9dfa9f"
+    },
+    "C1-C24": {
+      "name": "复证",
+      "material_ids": [
+        "C1-M32"
+      ],
+      "family_id": "C1-BF-recheck-with-new-evidence",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch11.json",
+      "sha256": "76af2b122af8c2f5dfd7e3ded9e08559393182082f0ebd8bb483092ef72a1eec"
+    },
+    "C1-C15": {
+      "name": "同位素",
+      "material_ids": [
+        "C1-M25"
+      ],
+      "family_id": "C1-BF-same-identity-distinguishable-trace",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch5.json",
+      "sha256": "b3daeb385244cb879fe509c0f0cdd3863b10c04ccec1e19a213370a9766f6959"
+    },
+    "C1-C41": {
+      "name": "纸蜂",
+      "material_ids": [
+        "C1-M51"
+      ],
+      "family_id": "C1-BF-paper-wasp-material-maker",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch24.json",
+      "sha256": "737968f781f98c11c77e781a4b4225ea4290a1ba3bdfe9cb993f4fd50cde871d"
+    },
+    "C1-C42": {
+      "name": "双盲",
+      "material_ids": [
+        "C1-M52"
+      ],
+      "family_id": "C1-BF-double-anonymized-review-identity-separation",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch24.json",
+      "sha256": "737968f781f98c11c77e781a4b4225ea4290a1ba3bdfe9cb993f4fd50cde871d"
+    },
+    "C1-C43": {
+      "id": "C1-C43",
+      "name": "熟手",
+      "pinyin": "shú shǒu",
+      "material_id": "C1-M53",
+      "material_ids": [
+        "C1-M53"
+      ],
+      "family_id": "C1-BF-practiced-knower-as-company-role",
+      "plan_direction_id": "C1-D-S4",
+      "case_ids": [
+        "B091",
+        "B029",
+        "B021"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Michael Polanyi, The Tacit Dimension, Tacit Knowing（TACK转载原著节选）",
+          "url": "https://tacit-knowledge-architecture.com/object/the-tacit-dimension-excerpt/",
+          "reading_location": "本次实际读L31–45原著节选：识认、说明、演示与接收者配合，实践/理论认识的联系。页面称整节选原书p4–13，但本次不据此声称读全p4–13，更未读全书；未采用L46后的旧实验论据。",
+          "read_at": "2026-11-08T21:41:11.063341+08:00",
+          "access": "body",
+          "source_type": "book_author_excerpt_reproduced_by_research_project",
+          "reading_scope": "book_excerpt",
+          "book_id": "Polanyi-The-Tacit-Dimension",
+          "published_at": null,
+          "book_original_year_attribution": "1966，页面所引书；具体转载依据版本/页界尚未核",
+          "boundary": "读到的是Polanyi本人论述的转载，不是TACK介绍代替正文；不采该页关于首版出版社的未核说法。作者的认识论解释不是本包独立实验定理。"
+        }
+      ],
+      "source_urls": [
+        "https://tacit-knowledge-architecture.com/object/the-tacit-dimension-excerpt/"
+      ],
+      "formation": "选用普通中文中可直接称呼一种人的完整词熟手，借能实际运用知识的主体身份；不是原书中文原词，更不是声称公司已无所不能。熟与手在熟练实践者这个既有整体里成立，不拆成增长与工具两个好意。",
+      "relation_sentence": "一个人能在实践中运用判断，却未必能逐项言说自己所用的一切。",
+      "condensation_path": "选用普通中文中可直接称呼一种人的完整词熟手，借能实际运用知识的主体身份；不是原书中文原词，更不是声称公司已无所不能。熟与手在熟练实践者这个既有整体里成立，不拆成增长与工具两个好意。",
+      "meaning": "不只说得出，也在乎做得到。",
+      "crossing": "能作为熟练实践者运用知识，不等于能把运用过程逐项说尽；传达还需要接收者参与。",
+      "layers": [
+        "不只说得出，也在乎做得到。",
+        "能作为熟练实践者运用知识，不等于能把运用过程逐项说尽；传达还需要接收者参与。"
+      ],
+      "material_feature_retained": "保留实际掌握与完整言说之间的差别、实践者角色",
+      "material_feature_lost": "名字不显示作者的认识论结构，也不区分各类实践/理论知识；不保证经验多就对。",
+      "why_name_not_generic": "选用普通中文中可直接称呼一种人的完整词熟手，借能实际运用知识的主体身份；不是原书中文原词，更不是声称公司已无所不能。熟与手在熟练实践者这个既有整体里成立，不拆成增长与工具两个好意。",
+      "shortcoming": "像熟练工招聘、维修或上门服务；手也可能被误解为只做机器人。应按第一机构身份独评，不能由哲学出处补分。",
+      "science_boundary": "不称所有技能完全不可传授、不需要语言或实践熟练即保证正确；本次不验证原书后面的历史心理实验。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "旧C05会意是参与者共同指代对象，旧C03应手是打印铰链与传感机制可操作反馈，旧橡皮鸭是说出步骤暴露隐含假设；本项为会运用实践判断的主体与可充分说出的知识并不等同。C32借身是同步感觉引起身体归属，不是熟练主体。若后续只剩有人经验更熟/后天成长，须对旧后天/成长家族合并风险，不能靠哲学新书另计；名字不说熟手天生全知。 全历史名称字段精确扫描无同名提案，不是市场查询。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是熟手，做人工智能研究。",
+        "熟手发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened",
+      "role_path_id": "C1-RX01-P3",
+      "a1_role_expansion_ref": "A1-role-expansion01.json"
+    },
+    "C1-C44": {
+      "id": "C1-C44",
+      "name": "构境",
+      "pinyin": "gòu jìng",
+      "material_id": "C1-M54",
+      "material_ids": [
+        "C1-M54"
+      ],
+      "family_id": "C1-BF-creating-situations-where-problems-take-form",
+      "plan_direction_id": "C1-D-S5",
+      "case_ids": [
+        "B027",
+        "B028",
+        "B037"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Donald A. Schön, The Reflective Practitioner, Design as a Reflective Conversation with the Situation",
+          "url": "https://andymatuschak.org/files/papers/Schon%20-%20The%20Reflective%20Practitioner.pdf",
+          "reading_location": "web因文件过大失败后实际curl下载380页PDF；实读PDF86–89、98、102页（印刷79–82、91、95）：Quist/Petra设计片段与作者分析；另读PDF2–4/6题名版权及部分目录。未连续通读整章或整书，未将扫描全书当已读全书。",
+          "read_at": "2026-11-08T21:41:11.063341+08:00",
+          "access": "body",
+          "source_type": "book_author_text_scanned_copy",
+          "reading_scope": "book_chapter_selected_pages",
+          "book_id": "Schon-The-Reflective-Practitioner",
+          "published_at": null,
+          "book_copyright_year": "1983，PDF4版权页；扫描具体重印年未核",
+          "local_path": "/tmp/continuous001-schon.pdf",
+          "sha256": "6adda281532849a26a41a663f99a648759d6be3e6a61a97966b5c82e548ab707",
+          "boundary": "具体设计教学记录与作者分析，不是普遍证明所有活动目标都必须改变。只读文字提取，不声称目读图形或观看现场。"
+        }
+      ],
+      "source_urls": [
+        "https://andymatuschak.org/files/papers/Schon%20-%20The%20Reflective%20Practitioner.pdf"
+      ],
+      "formation": "先写创造行动改变情境、情境使问题重新成形，再凝为构境：构是这一组织/创造动作，境是同一活动中被构成并反过来影响判断的情境。是同场关系的熟字新整体，不把构当科技、境当宏大各讲一套；不宣称原书有中文构境或全球首造。",
+      "relation_sentence": "创造者改变一种情境，又从新情境中发现问题和整体可能性该怎样重定。",
+      "condensation_path": "先写创造行动改变情境、情境使问题重新成形，再凝为构境：构是这一组织/创造动作，境是同一活动中被构成并反过来影响判断的情境。是同场关系的熟字新整体，不把构当科技、境当宏大各讲一套；不宣称原书有中文构境或全球首造。",
+      "meaning": "为可能发生的创造，构成情境。",
+      "crossing": "创造行动不只是填入既定解，情境变化也使行动者重新界定正在解决的问题。",
+      "layers": [
+        "为可能发生的创造，构成情境。",
+        "创造行动不只是填入既定解，情境变化也使行动者重新界定正在解决的问题。"
+      ],
+      "material_feature_retained": "保留行动者与情境相互作用、问题可在活动中重构的关系",
+      "material_feature_lost": "舍去具体建筑布局和师生教学条件；名字不直接表示哪一目标改变，不等于造一个虚拟世界。",
+      "why_name_not_generic": "先写创造行动改变情境、情境使问题重新成形，再凝为构境：构是这一组织/创造动作，境是同一活动中被构成并反过来影响判断的情境。是同场关系的熟字新整体，不把构当科技、境当宏大各讲一套；不宣称原书有中文构境或全球首造。",
+      "shortcoming": "容易先像建筑、景观或3D场景制作，构/境近音常用字也需辨；若广义研究身份不足，不因故事完整而保留。",
+      "science_boundary": "源为一个设计教学案例及作者分析，不证明任意改目标都更好；不是授权AI自行修改用户目标，也不是承诺已实现世界模型。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "C16自成一格为光学单格配准，旧织数为执行既定图样，C31未然机为固定个体背景下改变方程作反事实；本项不以器件/仿真等同公司，而是在创造活动中重新界定问题和整体价值。旧另解是提出并检验替代解释，M05会意是把既有指代对齐；本项是在动作与情境互相作用时共同形成待解问题。若只剩一般反馈/反思或模拟场景，不能计独立新族。 全历史名称字段精确扫描无同名提案，不是市场查询。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是构境，做人工智能研究。",
+        "构境发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened",
+      "role_path_id": "C1-RX01-P2",
+      "a1_role_expansion_ref": "A1-role-expansion01.json"
+    },
+    "C1-C45": {
+      "name": "千手稿",
+      "material_ids": [
+        "C1-M55"
+      ],
+      "family_id": "C1-BF-many-contributors-shared-work-as-platform",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch26.json",
+      "sha256": "0b7d5d65810296c3b6d6b883207dc603c2020cd5e467b4dadf19507538f81783"
+    },
+    "C1-C46": {
+      "name": "选框",
+      "family_id": "C1-BF-selection-frame-as-operable-scope",
+      "material_ids": [
+        "C1-M57"
+      ],
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch27.json",
+      "sha256": "2cdc172cfe581bf798eabbd41a78b08d98d953a3586584e19fdd2ee63a54a1b4"
+    },
+    "C1-C47": {
+      "id": "C1-C47",
+      "name": "织觉",
+      "pinyin": "zhī jué",
+      "material_id": "C1-M58",
+      "material_ids": [
+        "C1-M58"
+      ],
+      "family_id": "C1-BF-woven-structure-and-perception-as-one-system",
+      "plan_direction_id": "C1-D-S2",
+      "case_ids": [
+        "B076",
+        "B053",
+        "B091"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Hilton F. Japyassú / Kevin N. Laland: Extended spider cognition",
+          "url": "https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/10466/Japyass_2017_Extended_AnimalCog_CC.pdf?isAllowed=y&sequence=1",
+          "reading_location": "实际web读作者库21页PDF的摘要L0–35，及Case 1 L475–617（PDF6–7页）：网丝张力调节/传输与作者扩展感知论证，含脚注7对网不可独立解释意义的限定。没有通读21页、阅读全部参考文献原文或复现实验。",
+          "read_at": "2026-11-08T22:38:45.770512+08:00",
+          "access": "body",
+          "source_type": "author_review_article_in_institutional_repository",
+          "reading_scope": "abstract_and_case_section",
+          "published_at": "2017",
+          "boundary": "这是作者综述，引用Watanabe/Nakata等实验；本包没有读到那些原实验方法，不将综述叙述伪称本包实读原始实验。扩展认知是作者论证立场，不写成无争议普遍定律。"
+        }
+      ],
+      "source_urls": [
+        "https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/10466/Japyass_2017_Extended_AnimalCog_CC.pdf?isAllowed=y&sequence=1"
+      ],
+      "formation": "先写编织并可调的外部网参与接收信号，再凝为织觉：织对应构成这种外部结构的作用，觉对应同一系统的感觉关系。两熟字共享真实对象/作用，读音让人联想到知觉，但并非为了避重改同音字；不声称原文已有中文织觉或本轮全球首造。",
+      "relation_sentence": "编织并调节一个外部结构，也在改变自身接触和感受世界的条件。",
+      "condensation_path": "先写编织并可调的外部网参与接收信号，再凝为织觉：织对应构成这种外部结构的作用，觉对应同一系统的感觉关系。两熟字共享真实对象/作用，读音让人联想到知觉，但并非为了避重改同音字；不声称原文已有中文织觉或本轮全球首造。",
+      "meaning": "感知的条件，也可以被构成。",
+      "crossing": "动物编织并调节的外部结构，会参与它接收何种信号，而不是只把已有信号原样传到体内。",
+      "layers": [
+        "熟字形成可想象的编织与感知关系",
+        "外部结构不只被动承载，而可参与接收条件",
+        "研究智能与其活动环境如何共同构成感知条件的角色联想，非AI能力证据"
+      ],
+      "material_feature_retained": "保留织出的外部结构、调节和感知相连这一整体关系",
+      "material_feature_lost": "不显示蜘蛛物种、不同振动模式、张力参数和实验条件，也不等同神经意识形成。",
+      "why_name_not_generic": "先写编织并可调的外部网参与接收信号，再凝为织觉：织对应构成这种外部结构的作用，觉对应同一系统的感觉关系。两熟字共享真实对象/作用，读音让人联想到知觉，但并非为了避重改同音字；不声称原文已有中文织觉或本轮全球首造。",
+      "shortcoming": "与知觉、智觉同音，口头介绍需解释织字；可能像纺织感官或艺术装置，觉也可能被读成觉醒。若独立Lab身份不足，不能靠论文给它补分。",
+      "science_boundary": "不说网独自有意识、蜘蛛脑无用或任意模型外挂即更聪明。张力作用为综述所引研究，扩展认知归作者观点；品牌的织概括编织并可调的结构，不将意识觉醒强加给觉字。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "旧织数是穿孔卡指令与代数模式被织造，旧飞梭为工具跨越臂展，纸蜂为把植物纤维加工成巢材；本项是可调外部结构参与同一动物的感觉输入，并非再换织造对象。M15黏菌外部痕迹提供此前走过哪里的依据，而蛛网张力改变当前振动传输；M09回声定位、侧音与声入纹分别为声学定位/自我反馈/记录回放，不是此结构可调的感知系统。M26余光是外围信息汇总，C32借身是身体归属错觉，均不是外部网结构调节输入。若只剩外脑/感官外挂/有反馈的泛角色，需要保守合并，不凭蜘蛛物种或新论文标题计新。 已实际扫描织觉/知觉/蛛/外脑等名称字段并复用此前实读织数原稿，未命中同名提案；不是市场查询。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是织觉，做人工智能研究。",
+        "织觉发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened"
+    },
+    "C1-C48": {
+      "name": "第三真值",
+      "material_ids": [
+        "C1-M59"
+      ],
+      "family_id": "C1-BF-third-truth-value-unknown-state",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch29.json",
+      "sha256": "780d764e852ce7ad10b78f299763512d2079561557b928fdb553480d6acfa01e"
+    },
+    "C1-C49": {
+      "name": "同星",
+      "material_ids": [
+        "C1-M60"
+      ],
+      "family_id": "C1-BF-inhabitants-of-one-shared-planet",
+      "file": "research/runs/2026-11-07-continuous-001/A2-candidates-batch29.json",
+      "sha256": "780d764e852ce7ad10b78f299763512d2079561557b928fdb553480d6acfa01e"
+    }
+  },
+  "counts": {
+    "materials": 60,
+    "chinese_ids": 49
+  },
+  "frozen_at": "2026-11-08T23:39:54.721908+08:00",
+  "input_refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T151606Z/material-proposal-index.json",
+      "sha256": "c9b777a166f5d9e3d847a650449ae8f2e07ed7167740f26157538892864328d5"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension27.json",
+      "sha256": "e6a46bceabc5d35190d2aabb0cbf02dedfbe3e7a68389e47e5542c8731ade31d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch29.json",
+      "sha256": "780d764e852ce7ad10b78f299763512d2079561557b928fdb553480d6acfa01e"
+    }
+  ]
+}

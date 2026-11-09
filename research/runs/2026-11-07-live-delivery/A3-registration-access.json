@@ -1,0 +1,13 @@
+{
+  "role": "Agent 3",
+  "agent_id": "/root/live_a3",
+  "accessed_on": "2026-11-07",
+  "entrypoint_checks_only": true,
+  "candidate_registry_searches": 0,
+  "entrypoints": [
+    {"jurisdiction": "mainland_china", "scope": "company_registry", "url": "https://www.gsxt.gov.cn/", "status": "unavailable", "observed": "403 Forbidden from web fetch; no name query executed"},
+    {"jurisdiction": "mainland_china", "scope": "trademark_classes_9_and_42", "url": "https://wcjs.sbj.cnipa.gov.cn/", "status": "unavailable", "observed": "403 Forbidden from web fetch; neither class received a name query"},
+    {"jurisdiction": "united_kingdom", "scope": "company_registry", "url": "https://find-and-update.company-information.service.gov.uk/", "status": "entrypoint_accessible", "observed": "Search form body read; no candidate name query yet"}
+  ],
+  "note": "An accessible entrypoint does not establish a completed name search. Registry limitations do not establish trademark or company-name availability."
+}

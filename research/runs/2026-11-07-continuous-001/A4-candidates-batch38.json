@@ -1,0 +1,82 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-08T23:44:44.138980+08:00",
+  "inputs": [
+    {
+      "path": "A4-candidates-batch36.json",
+      "sha256": "8bcfa86cecb21cdaf5b40d8c4ec6cf6c9656e0149d5dd94b5ddb4883987079f0"
+    },
+    {
+      "path": "A4-candidates-batch37.json",
+      "sha256": "f78bcf1907bd75c76f39b2e77bf456f23cfd8c13458755cafc5b59b4a9ae9a20"
+    },
+    {
+      "path": "A4-quality-batch37.json",
+      "sha256": "022e65d4d870dd7c4540ca4a11fc06fb39bc7b673a3297da8c85f78ca05ba326"
+    },
+    {
+      "path": "coordinator-en-batch37.json",
+      "sha256": "b14f43c216e5c561c86940005ba9e2527fdf96a5bc96c9ea8e929e5ac82c4149"
+    },
+    {
+      "path": "A3-en-batch36.json",
+      "sha256": "146267daf1e47ac557e3d52c66336d0159afe31bb99867a637207eae8c009b68"
+    },
+    {
+      "path": "A3-en-batch37.json",
+      "sha256": "6ddade83ade21283171176f0286daddea245e8dc4f3afb72c5cca28c49ec3332"
+    },
+    {
+      "path": "A3-en-batch37.md",
+      "sha256": "9214a1247048b9424c3a6f844bbbcf2b384c4eb6b506d414607da6589a0240b3"
+    },
+    {
+      "path": "A3-en-batch37-receipt.json",
+      "sha256": "6b258496baec0c50c4f52bf1399266f234651e4e454d605f6cbe13ad92601c30"
+    },
+    {
+      "path": "A3-cn-batch31.json",
+      "sha256": "5fbb8fadc893d38a198b045c0e553ed059814efebd6a2fc3deeea26506b61292"
+    }
+  ],
+  "candidates": [],
+  "no_output_families": [
+    {
+      "chinese_id": "C1-C48",
+      "chinese": "第三真值",
+      "decision": "last_rework_completed_no_quality_proposal_selected",
+      "eligible_chinese_input": true,
+      "rework_attempt": 2,
+      "remaining_reworks": 0,
+      "reason": "最后返工实际取舍后未选出能自然独立成立且保留unknown与false区别的更好英文。改用一般开放问题/未完成类称呼，会重现未定临时项目首感并退回旧未知问题上位家族；给第三个位置附一个普通物件，虽能解释序数，却需虚构原源并未支持的实体机制或只剩数字拼词。未以最后机会或出处真实抬分，不提交弱案。",
+      "actual_new_english_versions": 0,
+      "new_scores": 0,
+      "no_R3": true,
+      "reserved_E41_unused": true,
+      "prior_submitted_versions": [
+        {
+          "id": "C1-E39",
+          "english": "Neither",
+          "result": "existing_named_ai_mcp_software_use_rejection"
+        },
+        {
+          "id": "C1-E40",
+          "english": "Undetermined",
+          "result": "quality_reject_not_searched"
+        }
+      ],
+      "chinese_status": "原中文公开初筛不倒写为占用；本轮未得到完整双语配对。"
+    }
+  ],
+  "excluded_upstream": [
+    {
+      "chinese_id": "C1-C49",
+      "chinese": "同星",
+      "eligible_english_inputs": 0,
+      "actual_english_creation": 0,
+      "reason": "原中文同核心科技公司使用拒绝，不配英文救回。"
+    }
+  ],
+  "usage_screening_performed": false
+}

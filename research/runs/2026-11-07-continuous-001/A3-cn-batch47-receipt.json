@@ -1,0 +1,70 @@
+{
+  "agent_id": "/root/live_a3",
+  "executed_at": "2026-11-09T05:42:13.994876+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch47.json",
+      "sha256": "3995f2002467cab2ea185ba1839f76015e3bda76b3f778a3d48a6343f7e1e2a9"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch47.md",
+      "sha256": "1c89fcffd2e2f82c8288e36ab076675813014b312cd0e3fc2de93c0d030bdfb1"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch47.json",
+      "sha256": "035605bef8159438bf6b38a56767b129a76d6629b1c0436b00fecb72941177d3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch47-receipt.json",
+      "sha256": "2a4214fa702ecf3384338b2109263cb68fdf1d0d00560a84bfa4b0dfb1b91342"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch47.json",
+      "sha256": "ff2de85f62396175d6fa89ff2b4cd45fd304321e84344dcf1669f9eb7bde0f48"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension37.json",
+      "sha256": "e3195eb7db4411f8d3fb33f9dc8bcbe348a26c4496a56e2d4e7838c4118430c0"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch47.json",
+      "sha256": "bfcafae2f5d914201c0117f576f61118c7bf60ac2871fa20f4bc200af504b73b"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch47.json",
+      "sha256": "537d9b41d91aa18dc956a45e40b189685ed775adde785affdf54b1c11673dd01"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-08T212538Z/quality-comparison-batch47.json",
+      "sha256": "8e2d6206e3e57642871ebbfcc886693cf427927112c192fe17da69268465c8e9"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A3-cn-batch47.json",
+      "sha256": "5c170d1779c9673272c03586d189e5dc765d2bd602d6edd6b39a1a106279b27d"
+    },
+    {
+      "path": "A3-cn-batch47.md",
+      "sha256": "90324abe9b28e8430572ac7731e0285ebe0bae189c49a9135352c17e6e569f2d"
+    }
+  ],
+  "actual_new_candidate_queries": 8,
+  "completed_candidate_search_results": 8,
+  "actual_new_chinese_queries": 8,
+  "actual_new_english_queries": 0,
+  "actual_new_control_queries": 0,
+  "prior_agent3_candidate_queries": 709,
+  "prior_agent3_returned_candidate_results": 708,
+  "agent3_cumulative_candidate_queries": 717,
+  "agent3_cumulative_returned_candidate_results": 716,
+  "root_independent_queries_reported": 4,
+  "run_cumulative_candidate_queries": 721,
+  "run_cumulative_returned_candidate_results": 720,
+  "passed_chinese_candidate_ids": [],
+  "rejected_chinese_candidate_ids": [
+    "C1-C60"
+  ],
+  "next": "原A2中文返工，剩2次；无英语资格，不自配英文。",
+  "unchanged": "旧字节/库READMEqueue/Git不改，无网页全文。"
+}

@@ -1,0 +1,19 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-08T22:44:30.017610+08:00",
+  "candidate_id": "C1-C47",
+  "decision": "accept_exact_core_tech_use_rejection",
+  "actual_source_read": "root web weavevision.com/about.html 0/4/31–34及158–188，完整杭州织觉智能科技有限公司、关于织觉智能和AI纺织质检/机器视觉自述。只核命名公开使用，不为专利、认证、性能、当前工商存续作保证。",
+  "core_rule": "智能/科技/公司均组织行业后缀；织觉为完整同核心，不可因较长全称改称不同名。智觉/知觉近音另记不能代替主证。",
+  "next": "原A4实际零匹配→同原A3零英文；不换英文或同音字救回，不混入C46英文通过。",
+  "refs": [
+    {
+      "path": "A3-cn-batch30.json",
+      "sha256": "78f1ab56f0c90f14097937947339b9f055154f006a04db3d4c0eff9171efceed"
+    },
+    {
+      "path": "A3-cn-batch30-receipt.json",
+      "sha256": "1c13003a8610da8353c37a6d90c9f903401872f3374b4730b2257c3ce1fb241a"
+    }
+  ]
+}

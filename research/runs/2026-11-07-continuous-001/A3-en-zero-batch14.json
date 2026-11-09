@@ -1,0 +1,101 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3 English zero-input final check",
+  "protocol_version": "1.1",
+  "executed_at": "2026-11-08T11:47:00.615061+08:00",
+  "candidate_id": "C1-C27",
+  "name": "橡皮鸭",
+  "inputs": [
+    {
+      "path": "A4-zero-batch14.json",
+      "sha256": "e01072bf39b96359647a452fd94dec9eaa2189cd7213974270546e2e058f3346"
+    },
+    {
+      "path": "A4-zero-batch14.md",
+      "sha256": "fdc8e89964e7f61a9483238cd79af011effa970365a4c4b599e43f4957c8ebeb"
+    },
+    {
+      "path": "A3-cn-batch16.json",
+      "sha256": "ce5acf487a72937c44e186ee344c309c6ad83d74b671ad2c50a432488085faa3"
+    },
+    {
+      "path": "A3-cn-batch16-receipt.json",
+      "sha256": "e4f293f6e28b26888f6b0d065367f19ed3321a1adc37cccc53366c6223d6f70f"
+    },
+    {
+      "path": "continuations/2026-11-08T033348Z/root-C27-use-verification.json",
+      "sha256": "f2ae55213d1525dfd23405ec10dcb88472656f475696f345602e556d5c97ffbe"
+    }
+  ],
+  "actual_read": true,
+  "hash_checks": [
+    {
+      "path": "A2-candidates-batch14.json",
+      "expected_sha256": "5c06e31638fd0f96e5cdc53fa2595baa64a9210b21808568bd46f141bfd15731",
+      "actual_sha256": "5c06e31638fd0f96e5cdc53fa2595baa64a9210b21808568bd46f141bfd15731",
+      "matches": true
+    },
+    {
+      "path": "A2-quality-batch14.json",
+      "expected_sha256": "7c7629f4e9d28dae03ff8913ddaad967187f0ffd8473e1a05f2649e278026eb5",
+      "actual_sha256": "7c7629f4e9d28dae03ff8913ddaad967187f0ffd8473e1a05f2649e278026eb5",
+      "matches": true
+    },
+    {
+      "path": "coordinator-cn-batch14.json",
+      "expected_sha256": "9f15fa57c0207ff257155fe455c6511bc6a44a0aef23e9893fdfd9c9282f88c4",
+      "actual_sha256": "9f15fa57c0207ff257155fe455c6511bc6a44a0aef23e9893fdfd9c9282f88c4",
+      "matches": true
+    },
+    {
+      "path": "coordinator-family-review-batch14.json",
+      "expected_sha256": "86231769440843107b6540779e9ecaf882d3132588d07e773028daa7a0fd71f5",
+      "actual_sha256": "86231769440843107b6540779e9ecaf882d3132588d07e773028daa7a0fd71f5",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch16.json",
+      "expected_sha256": "ce5acf487a72937c44e186ee344c309c6ad83d74b671ad2c50a432488085faa3",
+      "actual_sha256": "ce5acf487a72937c44e186ee344c309c6ad83d74b671ad2c50a432488085faa3",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch16.md",
+      "expected_sha256": "723eb14be221e96fb209ed079115dddb053d79e22b1ba14cb4c707d116e49827",
+      "actual_sha256": "723eb14be221e96fb209ed079115dddb053d79e22b1ba14cb4c707d116e49827",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch16-receipt.json",
+      "expected_sha256": "e4f293f6e28b26888f6b0d065367f19ed3321a1adc37cccc53366c6223d6f70f",
+      "actual_sha256": "e4f293f6e28b26888f6b0d065367f19ed3321a1adc37cccc53366c6223d6f70f",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch16.md",
+      "expected_sha256": "723eb14be221e96fb209ed079115dddb053d79e22b1ba14cb4c707d116e49827",
+      "actual_sha256": "723eb14be221e96fb209ed079115dddb053d79e22b1ba14cb4c707d116e49827",
+      "matches": true
+    },
+    {
+      "path": "A3-cn-batch16.json",
+      "expected_sha256": "ce5acf487a72937c44e186ee344c309c6ad83d74b671ad2c50a432488085faa3",
+      "actual_sha256": "ce5acf487a72937c44e186ee344c309c6ad83d74b671ad2c50a432488085faa3",
+      "matches": true
+    }
+  ],
+  "qualified_chinese_inputs": 0,
+  "english_inputs": 0,
+  "english_outputs": 0,
+  "actual_new_candidate_queries": 0,
+  "actual_new_control_queries": 0,
+  "query_logs": [],
+  "decision": "zero_english_verified_after_named_ai_agent_use_rejection",
+  "reason": "实际核A4零匹配与cn16一致；中文已有具名Copilot代理使用，不配英文救回。不是未开始伪记零。",
+  "source_boundaries": "root实际核GitHub中文具名代理，未冒称读南京企业名单；A3历史名单镜像非实时登记。具名代理不是独立基础模型，未称商标已核。",
+  "agent3_cumulative_candidate_queries": 329,
+  "root_independent_queries_reported": 2,
+  "run_cumulative_candidate_queries": 331,
+  "next": "主控H7关闭本包，后续其他关系继续。",
+  "old_records_catalog_git_unchanged": true
+}

@@ -1,0 +1,44 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-08T17:03:11.211813+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-C31",
+      "name": "未然机",
+      "decision": "distinct_relation_and_quality_pass_for_original_A3",
+      "quality": {
+        "coordinator": 25,
+        "producer": 25,
+        "maximum_axis_difference": 0
+      },
+      "actual_source_review": {
+        "url": "https://web.cs.ucla.edu/~kaoru/BIB5/pearl-etal-2016-primer-text.pdf",
+        "sha256": "1041d4522d8c458868d1e16617bf663cd9c3764cdf91df42d689798095d61d59",
+        "read": "主控直接pypdf实读PDF114/117/118页，即纸本92/95/96，同一单位U固定、最小替换方程和Joe三步反事实例；未读159页全书或其他章节。"
+      },
+      "family_review": "与虚拟排练用学得动态模型前瞻轨迹练策略不同，本案由同一事实对象的证据约束背景后改条件，再问未实现结果；非偏序因序，亦非一般未尽问题。若退成任意模拟未来则合并旧排练族，不据换书另算。",
+      "brand_boundary": "完整想象机器有计算研究身份；书面/科幻单产品和未然被当未来预测风险保留，不宣传已有装置或准确预言。"
+    },
+    {
+      "candidate_id": "C1-C32",
+      "name": "借身",
+      "decision": "quality_reject_before_usage_screen",
+      "quality": {
+        "coordinator": 24,
+        "producer": 25,
+        "maximum_axis_difference": 1,
+        "blocking_axis": "lab_fit",
+        "coordinator_axis_score": 3,
+        "minimum_axis_score": 4
+      },
+      "actual_source_review": {
+        "url": "https://www.psychology.mcmaster.ca/bennett/psy720/readings/m5/botvinick.pdf",
+        "read": "主控实际读原单页L6–61与82–113及问卷文字，核同步感觉/异步对照、归属体验与位置判断；未读引文或后续研究，未由图表自行补结果。"
+      },
+      "family_review": "与添一指实际增加效应器/学习运动协作不同，但身体表征/外物纳入的品牌上位关系接近；本案先被质量关挡住，未批准独立家族，不以新实验保证新品牌族。",
+      "reason": "借身首感附身/灵异与借尸还魂较强，也有具身VR产品窄化；要先读实验才拉回研究身份，真实出处不能补Lab3，未查不称占用或可用。"
+    }
+  ],
+  "comparison_snapshot": "continuations/2026-11-08T062253Z/inputs/prior-body-and-simulation-families.json",
+  "new_root_candidate_queries": 0
+}

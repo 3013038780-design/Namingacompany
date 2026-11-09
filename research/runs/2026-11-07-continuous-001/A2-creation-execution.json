@@ -1,0 +1,51 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "role": "A2",
+  "stage": "chinese_creation_batch1",
+  "completed_at": "2026-11-07T20:42:55.313107+08:00",
+  "new_chinese_draft_count": 6,
+  "new_english_count": 0,
+  "name_usage_queries_performed": false,
+  "upstream_acceptance": "本聊天主控实际消息以及materials-review.json允许M01–M06创作；M07/08只阅读。",
+  "input_refs": [
+    {
+      "path": "A1-relay.md",
+      "sha256": "c2109bb0ab32f5ea90b09ad92377ccf581f41645fb49a65c443f96387ad10697"
+    },
+    {
+      "path": "A1-relay.json",
+      "sha256": "ee69955d24c76bbc1c6aed076fb83f3422fee63d4e984e46eac666c088c0198f"
+    },
+    {
+      "path": "search-plan.json",
+      "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+    },
+    {
+      "path": "plan-review.json",
+      "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+    },
+    {
+      "path": "materials-pilot.json",
+      "sha256": "d8423b8811d0b8769d53d2505af9b3c391e8556f4c3da2f8f1ec91b2c2246cf7"
+    },
+    {
+      "path": "materials-review.json",
+      "sha256": "aca278383d931198091757c67e7d6f87bb78c3d7bd06dfcc8d41471a45499a09"
+    }
+  ],
+  "output_refs": [
+    {
+      "path": "A2-candidates-batch1.json",
+      "sha256": "de29716948169e218e2207fdb612e83e8d0a5e6dbed0e3bc5b92e623f9fae2d4"
+    },
+    {
+      "path": "A2-preview-batch1.md",
+      "sha256": "d87c287021b3259660e742121471cfc689118926b5ae8684ec44f008a23f4ff7"
+    },
+    {
+      "path": "A2-quality-batch1.json",
+      "sha256": "e1a05ad992652744001c7cf6a2659c4eb8ae85034dccc9460a893f94cf0a976d"
+    }
+  ],
+  "boundary": "旧计划、旧A2-execution及材料阅读回执均未覆盖；不改其他Actor、不git。"
+}

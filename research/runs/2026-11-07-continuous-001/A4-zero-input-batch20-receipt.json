@@ -1,0 +1,47 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "role": "A4 zero matching receipt",
+  "executed_at": "2026-11-08T18:31:07.010812+08:00",
+  "inputs": [
+    {
+      "path": "A2-candidates-batch20.json",
+      "sha256": "dd4ee1bd5620c11134f9864ba26d2dc339a3a468aa5d63ee9fff5b884706f2ed"
+    },
+    {
+      "path": "coordinator-cn-batch20.json",
+      "sha256": "5d33fb60e1af7ecac73968630df9b372a916a717c4502b07a36fade4256b57f7"
+    },
+    {
+      "path": "coordinator-family-review-batch20.json",
+      "sha256": "4deaabf9daa28c9ae68bbe8f8bd1130707aa0098944348fcb6d54500deaf671e"
+    },
+    {
+      "path": "A3-cn-batch22.json",
+      "sha256": "cb947eaff7237c2bb83c5651e7da33f6addc3a18741ce630a7d7ccbe08014572"
+    },
+    {
+      "path": "A3-cn-batch22.md",
+      "sha256": "c8ed3a33d42898f5ab4895e76c31389f89da7296526630d79b50e6bf1d6707e9"
+    },
+    {
+      "path": "A3-cn-batch22-receipt.json",
+      "sha256": "dcdcbd2a733386d81c7ded58b2fd79fa284303bea223baa2c5543a672cdb0305"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A4-zero-input-batch20.json",
+      "sha256": "bde296fa5b03e117199ce882c890f3e9fa1794920cb148a139f9f6fdd71169ec"
+    },
+    {
+      "path": "A4-zero-input-batch20.md",
+      "sha256": "c1e31706d479d72e89fd61651a35ceacd33e274ef8afc2528bb4d9c33d84d1ac"
+    }
+  ],
+  "actual_upstream_read": true,
+  "qualified_chinese_inputs": 0,
+  "actual_new_english_candidates": 0,
+  "actual_new_english_scores": 0,
+  "actual_new_queries": 0,
+  "next": "同一原A3实际英文零终核，未提前记已执行。"
+}

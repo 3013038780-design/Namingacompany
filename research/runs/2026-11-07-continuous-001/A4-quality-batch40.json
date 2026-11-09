@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "submitted_at": "2026-11-09T00:43:43.676249+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-E42",
+      "chinese_id": "C1-C50",
+      "english": "Landfish",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 4,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 5,
+        "distinctiveness": 4
+      },
+      "total": 22,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个常用音节可直接组合称呼，无人为发音规则。",
+          "counter_association": "land末nd与fish的f连读需清楚，不说零发音成本。"
+        },
+        "spelling": {
+          "reason": "land和fish原样保留，可用两个完整常用词还原。",
+          "counter_association": "首次可能分写Land Fish，需固定品牌展示。"
+        },
+        "grounding": {
+          "reason": "陆上与鱼主体在同一机构事实中相接，不靠新编字源。",
+          "counter_association": "合写是拟称，非官方物种名，也不在名字中说尽条件。"
+        },
+        "bilingual_relation": {
+          "reason": "完整主体回到中文同一跨水陆行动者，配对直接且无额外能力。",
+          "counter_association": "英文省略动作，land也可能误作捕捞动词。"
+        },
+        "distinctiveness": {
+          "reason": "整体生命主角有反差，短完整称呼能成为专名外壳。",
+          "counter_association": "水产/游戏/少儿动物首感强，AI身份需长期建立，未查不保证独占。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "原门槛不改，编辑判断非测试；主控先独评无分稿，不以物种真实补品牌身份。"
+    }
+  ]
+}
