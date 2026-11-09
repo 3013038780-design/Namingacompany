@@ -24,5 +24,20 @@
   },
   "new_query_groups_checked": 8,
   "registration_boundary": "使用/历史登记与现时商标和工商核准分开；不声称可注册。",
-  "public_after_push": "not_yet_checked"
+  "public_after_push": {
+    "research_commit": "de8abd67ddaa4738d05357abd3678948d3b8f9bf",
+    "checked_at": "2026-11-09T14:06:44.651236+08:00",
+    "immutable_commit_feed_latest_confirmed": true,
+    "branch_feed_latest_confirmed": true,
+    "latest_event": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T042642Z/result.json",
+    "events": 21,
+    "research_rows": 62,
+    "pending_rows": 2
+  },
+  "research_commit_CI": {
+    "commit": "de8abd67ddaa4738d05357abd3678948d3b8f9bf",
+    "name": "validate",
+    "status": "completed",
+    "conclusion": "success"
+  }
 }

@@ -1,0 +1,79 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T14:13:25.007644+08:00",
+  "candidates": [
+    {
+      "id": "C1-C63",
+      "name": "消息候场",
+      "pinyin": "xiāo xi hòu chǎng",
+      "material_id": "C1-M77",
+      "material_ids": [
+        "C1-M77"
+      ],
+      "family_id": "C1-BF-messages-as-visitors-at-another-process-door",
+      "plan_direction_id": "C1-D-S3",
+      "case_ids": [
+        "B010",
+        "B074"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Erlang/OTP System Documentation: Processes (page reports OTP29.1.2)",
+          "url": "https://www.erlang.org/doc/system/ref_man_processes.html",
+          "source_type": "language_developer_reference_manual",
+          "access": "body",
+          "read_at": "2026-11-09T13:57:13.532590+08:00",
+          "published_at": null,
+          "reading_scope": "specified_sections_not_whole_manual",
+          "reading_location": "实际web读L48–63进程别名、L80–89异步信号、L116–144接收/入队/receive与优先消息例外、L167–169延时/丢失/同发送者次序。另见页头版本；未读底层实现、运行代码或测试网络故障。",
+          "boundary": "信号抵达、消息入队和receive取出分层；不是所有信号都进消息队列。失效别名会使后到消息丢弃、已入队消息不随注销撤回；优先消息可改变队列次序，不能说全局FIFO或必定送达。版本页头不是发文日期，不计近90日新闻。"
+        }
+      ],
+      "source_urls": [
+        "https://www.erlang.org/doc/system/ref_man_processes.html"
+      ],
+      "formation": "保留原计算对象消息，动作从串门的来访转到已抵达之后等待被择取这一状态，以候场凝成完整四字画面。它不是来访的同义动词，也不为科技感添加后缀。消息与候场共享同一信息在队列中等待取用的关系，未说消息有意志、必然登场或真的在舞台表演。",
+      "relation_sentence": "消息已在接收方队列里，是否在此刻被取出，要由后续receive的匹配条件决定。",
+      "condensation_path": "消息已到→队列保存，receive选择适配项→以尚待行动开始的候场状态凝练→消息候场。",
+      "meaning": "信息已经就位，下一步由作用条件决定。",
+      "crossing": "程序消息的已到而待择取，与候场者已到现场却尚未进入行动的有限画面相接。保留的是等待与被选择的条件，不借戏剧合作规则或他人前提的接纳解释本名。",
+      "layers": [
+        "计算对象消息成为一个候场的主角，直接有信息系统身份",
+        "到达不等于已经执行，系统可按规则决定何时取用何项信息",
+        "研究信息与行动的衔接，不承诺自动学习、所有信息都有效或每项最终必被使用"
+      ],
+      "material_feature_retained": "消息这一计算对象与已在队列、尚待receive择取的状态共同保留；候场将等待/选择条件变成可感形象，不只是泛异步节奏。",
+      "material_feature_lost": "省去alias有效性、优先级与消息匹配规则；候场比喻不表示队列必定按统一顺序轮到每项，也不保证消息最后都会被取出或执行。",
+      "why_name_not_generic": "信息主角和候场动作来自同一已到但未取用状态，构成可复述的单幅画面；不是消息配上聪明/成长等好字。相比来信未开的书信场景，本名保留计算里的信息对象，不改变旧稿原有自评分。",
+      "shortcoming": "可能像推送消息排队/内容发布管理产品，或让人误解为演艺候场软件；轻巧拟人也可能不够严肃。若读成永远排队、迟迟不办事，会有消极执行联想。不是因增加消息二字就自然变成广义Lab。",
+      "science_boundary": "复用原Erlang正文已读范围：信号接收、消息入队与receive取出分开；并非所有信号都是排队消息，alias失效可丢弃后到消息，已入队不随注销撤回，优先消息/选择性匹配不等于全局FIFO。候场为有限状态比喻，无人的意志、舞台、保证等到/必达/必执行之意；原文没有消息候场这一汉字名字。未新读手册/运行程序。",
+      "history_check": {
+        "status": "same_family_last_revision_pending_coordinator_review",
+        "reason": "仍同C63/M77消息到达/入队与取用分层，保留原主ID/family，最后R2，不增素材或家族。消息候场/候场全runs精确扫描无命中，非市场查询。旧R2异步是Future暂停/各自节奏，若本名仅剩等待即不能独立；需保留消息作为被队列保存、由receive选择的对象。C62/M76虽然是舞台实践，但其核心是演员回应不抹去伙伴情境前提，本名仅借日常候场图像，不引该旧规则作词源、不复活旧族。旧因序/调度不能拿全FIFO说明本项。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是消息候场，做人工智能研究。",
+        "消息候场今天发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened",
+      "version": 3,
+      "rework_attempt": 2,
+      "replaces_name": "来信未开",
+      "usage_return_boundary": "原消息串门完整名未确证精确占用，因串门AI同领域近名主动避让；R1来信未开是作者24且Lab身份3不合格，主控26并不一致拒绝，旧评分/取舍原样保留。此R2是不同字面独立评价，不继承旧查重或主控高分，尚未查使用。"
+    }
+  ],
+  "scope": "C63/M77最后中文R2 version3，同源不同呈现焦点；不新增主ID/材料/家族，无R3。"
+}

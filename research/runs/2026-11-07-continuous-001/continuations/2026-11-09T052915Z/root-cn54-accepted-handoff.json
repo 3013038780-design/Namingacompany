@@ -1,0 +1,61 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-09T17:00:31.622426+08:00",
+  "candidate_id": "C1-C63",
+  "name": "消息候场",
+  "version": 3,
+  "decision": "accept_CN_public_precheck_with_disclosed_specific_near_name_risk_for_A4_only",
+  "raw_A3_decision": "public_use_precheck_pass_with_specific_different_full_name_commercial_risk",
+  "actual_root_read": "CN54完整MD、JSON结果/登记/10条查询及原A3完成回执；上海商务委78–80及市英文门户28正文均实际打开读。",
+  "near_name_closed": [
+    {
+      "name": "THE HALF·候场 / The Half候场微信票务小程序",
+      "urls": [
+        "https://sww.sh.gov.cn/swdt/20250630/a3ef7f24da644544b72107ad47aec73b.html",
+        "https://english.shanghai.gov.cn/en-CulturalPerformances/20250605/5ceb5dd6f5e34061bcf4dda773f0662b.html"
+      ],
+      "actual_nature": "2025报道的餐秀演出与微信票务商业品牌/工具，非消息候场完整名、科技Lab或已核当前公司登记。",
+      "root_independent_assessment": "不能删除有意义的计算主语消息，也不能任意删既有品牌THE HALF等实义部分。完整语义和称呼不同、领域不同；本轮未见足够具体依据把该跨行业完整品牌判本名同核心或必然混淆。允许带此风险进入英文匹配，不忽略演艺/排队工具联想或保证商标清白。"
+    }
+  ],
+  "unread_secondary_boundaries": "百科候场商标索引未作官方核验，新民原页超时不作本名科技品牌证据。不反复失败入口。",
+  "registration": "大陆/第9与42旧403准确复用未逐名官方核准，英国完整拼音入口本次不可访问，均非无登记。",
+  "query_counts": {
+    "new_A3": 10,
+    "A3_cumulative": 751,
+    "A3_returned_cumulative": 750,
+    "root_cumulative_separate": 4,
+    "combined": 755,
+    "combined_returned": 754
+  },
+  "CN_reworks_used": 2,
+  "CN_reworks_remaining": 0,
+  "English_new_created": 0,
+  "not_final_catalog_admission": true,
+  "refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch54.json",
+      "sha256": "015776d140ea5fe30c25f24a325b4cebddd2d3a157008255d1d1c55802ab3530"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch54-receipt.json",
+      "sha256": "1abeb99bb25ac17cd079777893cfa3360e7dbdeba504646df9b36846df14a3ff"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch56.json",
+      "sha256": "8412aceed2d36bb701a986410cfb448ca956f5e9f3c4eb09b4672c10d09b48e7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch56.json",
+      "sha256": "2e4846b58c932b064b5d7b92809dc204eeb45c559fbd5a058575bc7f967865b2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch56.json",
+      "sha256": "dae53eda4cc4d763c235f3720be420f905599b969d036de63f7e25bedf730eaa"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch56.json",
+      "sha256": "50117e275d310729ce4ef3aa242529cf7c45bced8db0ec2d11e5529b0b89ca5c"
+    }
+  ]
+}

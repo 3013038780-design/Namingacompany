@@ -1,0 +1,165 @@
+{
+  "agent_id": "/root/live_a3",
+  "role": "Agent 3",
+  "protocol_version": "1.1",
+  "completed_at": "2026-11-09T14:02:56.181052+08:00",
+  "inputs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch54.json",
+      "sha256": "044f7866381edc3232171f6edb878ed50896541e60f95d500d60c152154c2825"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch54.md",
+      "sha256": "93c1595f0ed4e403706aaf1201ca4a38f7921642cef7d53a21f5428f458a8d1d"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-candidates-batch54.json",
+      "sha256": "044f7866381edc3232171f6edb878ed50896541e60f95d500d60c152154c2825"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch54.json",
+      "sha256": "4353cdf90632471de6f36679f539ed499963438731f09cf0fe77613dc98e47c6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch54-receipt.json",
+      "sha256": "88a2b99cedf170612d374276b66fe8a84dfb8cc59df40ef2d6d4aa3f185612b2"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch54.json",
+      "sha256": "6ce2cdb7dc48f13bb4c0807fa568e9fbd7d8282fb918916d59fd5755ebe5d6f7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension40.json",
+      "sha256": "46ed952561e3aac0dfdb22505bc1ce343ccad8469e8a29275366adafdd85eef3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch54.json",
+      "sha256": "dcfcd5c1f67c4a23f381af4772729b2b3dfa01851b5e622568e24419df30b107"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch54.json",
+      "sha256": "04da86015cb01fc00211b0d8f01fd3f5a2f374a384e62133d89432cc166475b1"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/quality-comparison-batch54.json",
+      "sha256": "326fdb40d328f6baa7531597f0b1291a96602a08f81dafaa8d3dfb85b06ec3c7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/root-M77-source-review.json",
+      "sha256": "438e348cdffe97bc8aec20c34713f8f419dde120038daacb2f5fb456dd647c8e"
+    }
+  ],
+  "query_count": 8,
+  "completed_search_result_count": 8,
+  "new_failed_search_attempts": 0,
+  "results": [
+    {
+      "candidate_id": "C1-C63",
+      "name": "消息串门",
+      "pinyin": "xiāo xi chuàn mén",
+      "version": 1,
+      "rework_attempt": 0,
+      "material_id": "C1-M77",
+      "family_id": "C1-BF-messages-as-visitors-at-another-process-door",
+      "decision": "near_match_hold_specific_existing_AI_social_product_core_risk",
+      "reason_code": "NEAR_MATCH_HOLD",
+      "reason": "完整有意义消息串门未确证精确同名；但本人原文明确串门AI社交软件与海南串门科技，领域/访客社交画面和消息语境紧邻，新名可能被理解为既有串门的软件消息功能或子品牌，交主控独立品牌混淆判断，不自行保证可用或任意剥主语。",
+      "core_boundary": "消息是主语并非地区/组织/行业后缀；消息串门与串门AI为不同完整名称，不称EXACT_TECH_USE。本风险来自可读具体同领域产品而非仅通用动词相同。",
+      "query_logs": [
+        {
+          "query": "\"消息串门\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "完整名精确主要普通发消息串门句、消息聚合和NEKO功能PR索引；未确证完整名为独立公司或软件。NEKO原GitHub正文超时/API证书失败，未冒读正文。"
+        },
+        {
+          "query": "\"消息串门公司\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "完整公司组主要资讯/公司新闻散串匹配，未返回可确证的消息串门公司；无命中不是登记清白。"
+        },
+        {
+          "query": "\"消息串门科技\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "完整科技组为神策科技博客/行情等散串匹配，不把消息与串门分处文本拼成科技主体名称。"
+        },
+        {
+          "query": "\"消息串门智能\"",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "完整智能组主要飞书群消息机制材料和科技博客功能描述，未见本完整名独立品牌；功能词本身不当占用。"
+        },
+        {
+          "query": "\"消息串门\" AI 模型 软件",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "AI模型软件组实际搜索摘要为ReasonNetwork让Agent串门/传消息及项目日报等，产品本名另有其名，不叫消息串门；未把技术比喻当品牌。"
+        },
+        {
+          "query": "\"消息串門\" 公司 軟體 品牌",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "繁体消息串門组为主理人串门计划、数据在钉钉金蝶间串门等普通句和较长活动标题，未确证本完整主谓名。"
+        },
+        {
+          "query": "\"xiaoxichuanmen\" company software",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "完整拼音xiaoxichuanmen结果为空，保留有限搜索范围，不称全球无同名或可注册。"
+        },
+        {
+          "query": "\"串门\" 软件 公司",
+          "executed_on": "2026-11-09",
+          "status": "completed_search_result",
+          "summary": "近名串门组明确串门AI/海南串门科技，实际本人隐私政策和产品页闭环；这是不同完整核心的强相关AI社交软件近名，不随意删有意义消息主语判精确同名。"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.chuanmenlive.com/privacy_policy.html",
+          "access": "software_publisher_own_policy_body_read",
+          "read_range": "239行L0–4/21–29/139–154/223–233",
+          "finding": "明确海南串门科技制定并适用于串门AI社交App/小程序；AI对话与语音消息等命名语境。同AI社交/消息交互领域已存在串门核心，不背书隐私合规、性能或官方登记。"
+        },
+        {
+          "url": "https://chuanmenlive.com/products.html",
+          "access": "publisher_own_product_page_body_read",
+          "read_range": "74行L16–20/36–44",
+          "finding": "完整产品名串门AI，数字分身/社区/聊天/内容分享/推荐功能自述。这是独立软件品牌近名主证；并非消息串门精确同名，不冒基础模型或使用效果。"
+        },
+        {
+          "url": "https://github.com/Project-N-E-K-O/N.E.K.O/pull/3544",
+          "access": "search_index_feature_PR_actual_open_timeout_API_SSL_error",
+          "finding": "索引题名为N.E.K.O的cat-form friend visits功能PR，有普通串门协议/消息等描述；实际原页面超时，API证书验证失败，未读正文。未见索引指称独立消息串门软件，不能据功能关键词当精确品牌，也不能冒闭环成功。该辅助线索范围保留，不是本次主要近名判断依据。"
+        }
+      ],
+      "registration": {
+        "mainland_company": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://www.gsxt.gov.cn/",
+          "scope": "复用本run2026-11-07入口403；本批未重访、未逐名工商核准。"
+        },
+        "mainland_trademark_9_42": {
+          "status": "unavailable_reused_not_revisited",
+          "url": "https://wcjs.sbj.cnipa.gov.cn/",
+          "scope": "复用本run2026-11-07共同入口403；未输入本名或完成9/42类检索。"
+        },
+        "uk_company": {
+          "status": "unavailable",
+          "url": "https://find-and-update.company-information.service.gov.uk/search?q=Xiaoxichuanmen",
+          "scope": "2026-11-09本次完整拼音逐名入口实际不可访问，非无登记。"
+        }
+      },
+      "remaining_chinese_reworks": 2,
+      "science_boundary": "Erlang消息到达/入队/receive择取分层原范围保持；非广播/越界或必达承诺。本人此阶段实读上游源审记录，不冒新读官方手册或运行程序。"
+    }
+  ],
+  "passed_chinese_candidate_ids": [],
+  "rejected_chinese_candidate_ids": [],
+  "held_chinese_candidate_ids": [
+    "C1-C63"
+  ],
+  "controls": "A3-controls.json",
+  "controls_reused_not_new": "同run原两实际阳性本次0新增；大陆原403限制复用非新执行。"
+}

@@ -1,0 +1,55 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T14:13:53.134650+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-C63",
+      "name": "消息候场",
+      "version": 3,
+      "rework_attempt": 2,
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 4,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 25,
+      "notes": {
+        "naturalness": {
+          "reason": "消息候场是主角加动作状态的完整四字图像，语序自然，候场是熟悉动词，无拗口缩写或科技后缀",
+          "counter_association": "不是现成词典词，拟人感需要接受；口语中也可能被听成一条等待中的功能说明"
+        },
+        "distinctiveness": {
+          "reason": "消息像候场者一样已就位，具体小画面容易复述，区别于泛信息科技或抽象开放未来",
+          "counter_association": "候场在娱乐服务中常见，尚未查商业使用；画面清楚不代表独家"
+        },
+        "lab_fit": {
+          "reason": "消息这一信息系统对象直接在场，候场引出运行状态与行动条件，整体可作为计算/交互研究主体而非纯书信作品名",
+          "counter_association": "也可能先像内容发布管理、通知工具或演艺排队软件；不能因用了消息二字就泛称一切技术，主控须独立判断"
+        },
+        "grounding": {
+          "reason": "实际开发者文档明确入队与receive选择不同步，消息加候场保留同一真实对象的已在而待取用关系，例外边界详细分开",
+          "counter_association": "候场非正式Erlang术语，不保证按统一次序等到每项；只有普通入队消息情境可借，不能涵盖全部信号"
+        },
+        "extension": {
+          "reason": "信息进入系统后如何进入行动是长期研究问题，可覆盖多模型/多进程/交互系统，不只当前通知功能",
+          "counter_association": "若长期只演成排队提醒产品会收窄；等待本身没有成长或性能提高保证"
+        },
+        "semantic_coherence": {
+          "reason": "消息和候场同属信息就位但尚待选择的一个状态，无附会两个美好意思，也不借旧戏剧合作机制补故事",
+          "counter_association": "候场的人有表演意图，程序消息无人的意志；名字的自主行动只能作有限拟人"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ],
+  "qualified_candidate_ids": [
+    "C1-C63"
+  ],
+  "boundary": "本版无分预览/执行先封并交主控后写本数字，未读本版主控预评分。旧来信未开作者24/Lab3与主控26保留原样；本版因信息对象前台化作新字面独立判断，不靠改旧分保活。最后R2，无额外中文返工。"
+}

@@ -1,0 +1,73 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "protocol_version": "1.1",
+  "submitted_at": "2026-11-09T17:17:07.843601+08:00",
+  "inputs": [
+    {
+      "path": "A4-candidates-batch46.json",
+      "sha256": "61766414b1d46bc77f458da8ffef1e70de8398851f8d5f150e01a901887b0efd"
+    },
+    {
+      "path": "A4-preview-batch46.json",
+      "sha256": "61766414b1d46bc77f458da8ffef1e70de8398851f8d5f150e01a901887b0efd"
+    },
+    {
+      "path": "A4-quality-batch46.json",
+      "sha256": "5aa4545402a94e20c030f6e33524deb6d4934b5c58d89d409976aa4f4ce2eeb1"
+    },
+    {
+      "path": "A4-creation-execution-batch46.json",
+      "sha256": "c14b5fe15202b71e1e60ed4d62324dcd5a0986e2a888d8e3b79677d01a9008e6"
+    },
+    {
+      "path": "A3-en-batch46.json",
+      "sha256": "8fde3f2b8f30cc9871f7dfd3019d499cc13b1267d99521acf5411dd407b9b837"
+    },
+    {
+      "path": "A3-en-batch46.md",
+      "sha256": "e6e95c98d69873d402d56dae2feb279fdeb5882a045335716da00c7b5867c95d"
+    },
+    {
+      "path": "A3-en-batch46-receipt.json",
+      "sha256": "0e192a607e66867a4c9df8d879a87d1f8245f80fe18167582cc4b5fd12589eac"
+    },
+    {
+      "path": "A3-cn-batch54.json",
+      "sha256": "015776d140ea5fe30c25f24a325b4cebddd2d3a157008255d1d1c55802ab3530"
+    },
+    {
+      "path": "continuations/2026-11-09T052915Z/root-cn54-accepted-handoff.json",
+      "sha256": "c3c7a6aca04e5a31932a2af6229afd32c31f949997d12ed0e646db82e9064851"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1-E49",
+      "chinese_id": "C1-C63",
+      "chinese": "消息候场",
+      "chinese_version": 3,
+      "english": "Anteroom",
+      "family_id": "C1-BF-messages-as-visitors-at-another-process-door",
+      "material_id": "C1-M77",
+      "suggested_pronunciation": "建议 AN-ti-room，三个音节；Collins英式记 /ˈæntɪˌruːm/（另有末音/ʊ/变体），美式有/ˈæntiˌrum/。品牌沿现成词读法，不冒新词公认读音；未进行受众听测。",
+      "type": "既有完整英语名词的品牌主题再选择，不是新造词或AtHand变体",
+      "formation": "本次先直接核Anteroom完整词条。它是通向另一间房的外间/前室，常用作等候室；Collins并列ante-room拼法及ante-+room构成。本次采用正常合写Anteroom，创作在于把已就位而尚未进入下一行动的状态凝到一个完整场所，不是首次造出词形，也不把房间解释成神秘核心或保证更高智慧。",
+      "bilingual_relation": "中文是消息已到、正在候场的主角，英文用已进入外间、还未进入另一空间的场所承载同一已在但尚未取用的关系。队列保存消息和receive按条件择取仍是原计算事实；把这个过程比作前室不是文档正式命名，不主张房间真的执行匹配算法。英文可以独立命名一个研究空间，中文保留计算对象，属于同一主题分工，不借C62戏剧合作规则。",
+      "meaning": "把进入行动之前的条件，也变成研究对象。一个已能被找到的信息，何时以何种关系被取用，仍是可以设计与理解的问题；场所意象给长期研究留空间，不把等待本身当进步。",
+      "shortcoming": "可能先像酒店、室内设计、会客空间、展览或文学场所；也有候诊、官僚等候/被挡在门外的消极联想。比普通room略生僻，ante容易被误写anti，听成anti-room；不把字典有词条当人人都会拼。英文没写消息或选择规则，延伸为计算研究空间是品牌类比，需要团队定位支撑，不能仅靠解释强认Lab。",
+      "boundary": "Anteroom既有词义只支持场所与等候的有限画面，不保证所有人最终进入主室、更不对应所有信号必送达/入队/执行或全局FIFO。Erlang入队/receive、alias和优先消息条件沿原已读范围，不是门禁/登录系统技术主张。CN54 THE HALF·候场演出与票务工具近名风险及登记限制保留；中文不再返工。英文尚未使用筛查，前案At Hand因实际AI服务/软件同核心拒绝，不是普通词或质量失效。",
+      "source_urls": [
+        "https://www.erlang.org/doc/system/ref_man_processes.html",
+        "https://www.merriam-webster.com/dictionary/anteroom",
+        "https://www.collinsdictionary.com/dictionary/english/anteroom"
+      ],
+      "read_scope": "Erlang沿本人EN46实际页头OTP29.1.2、48–63/80–89/116–144/167–169/177–178，不冒本次新读全手册/运行程序。本次实际读MW Anteroom31–40/48–56与Collins215–230/240–285完整词义、拼法、发音与构成；MW标1668与Collins标1755–65并不一致，不借其断言绝对首用或补年代故事，未核原始历史文献。",
+      "rework_attempt": 1,
+      "remaining_reworks": 1,
+      "status": "english_quality_proposal_not_usage_screened",
+      "replaces_candidate_id": "C1-E48",
+      "return_reason": "原A3 EN46六查询、本人站与政策确证AtHand私人企业AI服务及AtHandAI软件，同核心正常连写/空格/AI后缀不能分名。本次换完整场所主题，非旧名字母或拼音微改；原稿/评分/查询保持。"
+    }
+  ],
+  "usage_screening_performed": false
+}

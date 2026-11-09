@@ -1,0 +1,75 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T13:57:13.532590+08:00",
+  "candidates": [
+    {
+      "id": "C1-C63",
+      "name": "消息串门",
+      "pinyin": "xiāo xi chuàn mén",
+      "material_id": "C1-M77",
+      "material_ids": [
+        "C1-M77"
+      ],
+      "family_id": "C1-BF-messages-as-visitors-at-another-process-door",
+      "plan_direction_id": "C1-D-S3",
+      "case_ids": [
+        "B010",
+        "B074"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Erlang/OTP System Documentation: Processes (page reports OTP29.1.2)",
+          "url": "https://www.erlang.org/doc/system/ref_man_processes.html",
+          "source_type": "language_developer_reference_manual",
+          "access": "body",
+          "read_at": "2026-11-09T13:57:13.532590+08:00",
+          "published_at": null,
+          "reading_scope": "specified_sections_not_whole_manual",
+          "reading_location": "实际web读L48–63进程别名、L80–89异步信号、L116–144接收/入队/receive与优先消息例外、L167–169延时/丢失/同发送者次序。另见页头版本；未读底层实现、运行代码或测试网络故障。",
+          "boundary": "信号抵达、消息入队和receive取出分层；不是所有信号都进消息队列。失效别名会使后到消息丢弃、已入队消息不随注销撤回；优先消息可改变队列次序，不能说全局FIFO或必定送达。版本页头不是发文日期，不计近90日新闻。"
+        }
+      ],
+      "source_urls": [
+        "https://www.erlang.org/doc/system/ref_man_processes.html"
+      ],
+      "formation": "先写消息抵达另一进程、可先在队列中等待择取，再把消息作为同一主角、串门作为去到他处门口的有限拟人动作，凝成四字整体。两个熟悉词共享一个动作场景，不拆消息为商业消息灵通、串门为人脉广泛各写好运。不是原文中文术语或首次造词声明。",
+      "relation_sentence": "信息已到对方门口，不等于对方正在取用它；抵达和择取之间有一个真实存放/选择环节。",
+      "condensation_path": "消息是主角→它可去到另一个进程的接收处→消息串门；到门口不等于获准读取内部状态，也不等于收件人已打开来信。",
+      "meaning": "让信息去到别处，让各自行动的系统发生联系。",
+      "crossing": "进程通信的消息抵达/等待择取，与日常有人登门、主人稍后回应的有限画面相接；只是称呼比喻，不主张通信有人的意愿。",
+      "layers": [
+        "一个能直接想象、复述的信息行动画面",
+        "消息可以已到，而另一方仍按自己的执行状态与规则取用",
+        "研究系统怎样通信与组织行动，不限定某个聊天产品，也不说通信一次就更聪明"
+      ],
+      "material_feature_retained": "保留消息主动抵达另一方接收处与稍后择取的分层关系，不把一切通信压成双方同步执行。",
+      "material_feature_lost": "名字不呈现别名有效性、消息优先级与选择性匹配，也不表示消息在进程间任意游走/广播；串门不是正式协议术语。",
+      "why_name_not_generic": "同一信息主角与一个可感动作构成完整小场景，不是消息配智慧/进化字；不用消息队列术语全名也可保留真实第二层。",
+      "shortcoming": "先像社交/聊天工具、内容社区或快递服务，轻巧甚至有点顽皮；消息两字同一般资讯行业拥挤。串门也可能被误解为越界访问，须明确边界；品牌身份需独立审，不能靠开发者手册抬分。",
+      "science_boundary": "信号抵达、消息入队和receive取出分层；不是所有信号都进消息队列。失效别名会使后到消息丢弃、已入队消息不随注销撤回；优先消息可改变队列次序，不能说全局FIFO或必定送达。版本页头不是发文日期，不计近90日新闻。 本轮品牌比喻没有在源文出现中文消息串门；不是AI主动游走他人设备的产品承诺，也不把通信理解为模型必然学习。",
+      "history_check": {
+        "status": "pending_coordinator_family_review",
+        "reason": "已实际读C19分身有别/M27：同一COW关系，不以2026课程索引翻新。本项不同：消息抵达/入队与接收进程稍后择取是不同环节。旧R2异步为Rust Future暂停/各自节奏，本项若只剩不用等即同族；需保留独立进程的消息队列与抵达不等于取用。旧因序是事件依赖的偏序，非信箱接收过程；C62接招是人际不抹去伙伴情境前提，本项不是立场接纳/合作技巧。C03应手是结构动作感知，不是通信入队。全runs精确串消息串门/串门/消息队列/Erlang无历史命中；这不等于市场未用。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是消息串门，做人工智能研究。",
+        "消息串门今天发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened"
+    }
+  ],
+  "scope": "一个真实新关系先交，不等凑满三项；消息串门为新主案C63，C60/C61/C62不复活。"
+}

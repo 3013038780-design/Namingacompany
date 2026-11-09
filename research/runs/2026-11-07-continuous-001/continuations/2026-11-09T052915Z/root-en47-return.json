@@ -1,0 +1,32 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-09T17:20:42.635812+08:00",
+  "chinese_id": "C1-C63",
+  "english_id": "C1-E49",
+  "english": "Anteroom",
+  "decision": "returned",
+  "reason": "Anteroom本人About具名AI发布法律审查工具，独立开发或免费仍属于实际软件使用。不是前室通词本身当占用。",
+  "actual_root_read": [
+    {
+      "url": "https://anteroom.so/about",
+      "lines": "0,6–14,23",
+      "scope": "开发者本人完整具名工具/个人开发而非雇主产品"
+    }
+  ],
+  "separate_access_observation": {
+    "url": "https://github.com/vonnetworking/anteroom",
+    "root": "404，未收到正文",
+    "original_A3": "实际读到README194–217；双方观察分开，不冒root亲读，不重复失败入口"
+  },
+  "reading_boundary": "未测试工具或核法律正确性/AI性能，未核法人及商标登记。anteroom.ai原A3只索引原站502，不作可读主证。",
+  "CN54_unchanged": true,
+  "English_reworks_used": 1,
+  "English_reworks_remaining": 1,
+  "next": "original_A4_R2_batch48_E50_if_selected",
+  "refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-en-batch47.json",
+      "sha256": "629b688fb473b09eedb1b610d0a24d22eb50e53bb6c234d6c87f7ec598801d73"
+    }
+  ]
+}

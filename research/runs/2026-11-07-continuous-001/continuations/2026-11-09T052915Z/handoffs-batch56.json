@@ -1,0 +1,265 @@
+{
+  "accepted_at": "2026-11-09T17:27:43.008793+08:00",
+  "whole_production_compliance_claimed": false,
+  "handoffs": [
+    {
+      "id": "H1",
+      "from": "/root/continuous_a1",
+      "to": "/root/continuous_a2",
+      "status": "accepted",
+      "candidate_ids": [],
+      "input_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A1.json",
+          "sha256": "b3bbd78ef83733b79b7033404dc29727a7e0c749988d06218820850f4de520be"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A1-formation-feedback.json",
+          "sha256": "58a5a30d092f4dd6b300d052da1d1e1c390e960515bcf0386e8d14c4b55e3132"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/search-plan.json",
+          "sha256": "7d239732f0364a57a50748dc8b29673bdd8d6c381e87f622b755c3ecf1126b9f"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/plan-review.json",
+          "sha256": "680caf20e5aaa010edfbec9f0dc79b84b2bd69e45b3ef43a3d0dba8e4425a896"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/h1-existing-six-world-review.json",
+          "sha256": "932b5c3535c7822342385876ccf4e1ee817fb4fe6598cb81e86cc2293df3faef"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch54.json",
+          "sha256": "6ce2cdb7dc48f13bb4c0807fa568e9fbd7d8282fb918916d59fd5755ebe5d6f7"
+        }
+      ],
+      "accepted_at": "2026-11-09T17:27:43.008793+08:00",
+      "reason": "复用既核ByteDance/Recursive具体问题后再读Erlang，0新案例；不事后贴标签。"
+    },
+    {
+      "id": "H2",
+      "from": "/root/continuous_a2",
+      "to": "/root",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C63"
+      ],
+      "input_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/materials-extension40.json",
+          "sha256": "46ed952561e3aac0dfdb22505bc1ce343ccad8469e8a29275366adafdd85eef3"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch54.json",
+          "sha256": "044f7866381edc3232171f6edb878ed50896541e60f95d500d60c152154c2825"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch55.json",
+          "sha256": "8a632a76633692edde19ea3ba39359f4324f3924f58b3147c0df996821bf35f1"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch56.json",
+          "sha256": "8412aceed2d36bb701a986410cfb448ca956f5e9f3c4eb09b4672c10d09b48e7"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch54.json",
+          "sha256": "dcfcd5c1f67c4a23f381af4772729b2b3dfa01851b5e622568e24419df30b107"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch55.json",
+          "sha256": "a38684ec357baa8d3c279bb8228f8c81407abea12a5819283cd995c82a352d94"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch56.json",
+          "sha256": "dae53eda4cc4d763c235f3720be420f905599b969d036de63f7e25bedf730eaa"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch56.json",
+          "sha256": "50117e275d310729ce4ef3aa242529cf7c45bced8db0ec2d11e5529b0b89ca5c"
+        }
+      ],
+      "accepted_at": "2026-11-09T17:27:43.008793+08:00",
+      "reason": "原稿近名退回、R1作者质量未全过、R2双评过；三写法同一主ID。"
+    },
+    {
+      "id": "H3",
+      "from": "/root",
+      "to": "/root/live_a3",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C63"
+      ],
+      "input_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch56.json",
+          "sha256": "dae53eda4cc4d763c235f3720be420f905599b969d036de63f7e25bedf730eaa"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch56.json",
+          "sha256": "2e4846b58c932b064b5d7b92809dc204eeb45c559fbd5a058575bc7f967865b2"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch53.json",
+          "sha256": "e0a29847ebc41df177fbf314629b12d84aea4d3ef4953792d5c3f676b3d5dd89"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch54.json",
+          "sha256": "015776d140ea5fe30c25f24a325b4cebddd2d3a157008255d1d1c55802ab3530"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/root-cn54-accepted-handoff.json",
+          "sha256": "c3c7a6aca04e5a31932a2af6229afd32c31f949997d12ed0e646db82e9064851"
+        }
+      ],
+      "accepted_at": "2026-11-09T17:27:43.008793+08:00",
+      "reason": "原稿8查询近名编辑避让，R2另10查过且披露THEHALF具体不同完整名风险。"
+    },
+    {
+      "id": "H4",
+      "from": "/root/live_a3",
+      "to": "/root/continuous_a4",
+      "status": "accepted",
+      "candidate_ids": [
+        "C1-C63"
+      ],
+      "input_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch54.json",
+          "sha256": "015776d140ea5fe30c25f24a325b4cebddd2d3a157008255d1d1c55802ab3530"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch54-receipt.json",
+          "sha256": "1abeb99bb25ac17cd079777893cfa3360e7dbdeba504646df9b36846df14a3ff"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch46.json",
+          "sha256": "c14b5fe15202b71e1e60ed4d62324dcd5a0986e2a888d8e3b79677d01a9008e6"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch47.json",
+          "sha256": "b0efcae8e9dee2318fb53c2c1fd1bcf681923a7d4f737cdd0a0dfd29b3084773"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A4-creation-execution-batch48.json",
+          "sha256": "ef8000ee19c2cef522014280d8ee8199c0dd2e2225d225220bab4ed8a003c71a"
+        }
+      ],
+      "accepted_at": "2026-11-09T17:27:43.008793+08:00",
+      "reason": "实际中文资格1；2英语正式版本及最后实际0选稿，不冒上游零。"
+    },
+    {
+      "id": "H5",
+      "from": "/root/continuous_a4",
+      "to": "/root/live_a3",
+      "status": "returned",
+      "candidate_ids": [
+        "C1-C63"
+      ],
+      "input_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch46.json",
+          "sha256": "61766414b1d46bc77f458da8ffef1e70de8398851f8d5f150e01a901887b0efd"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch46.json",
+          "sha256": "cc8f1f25754a4604b4c51c4a44d38e6a3594372f2f23b4971198cc03dff91c2c"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch47.json",
+          "sha256": "ca1b6f5acf4627abe3bcc863481a7543a6e9e7e5dea565256f8fe822f39f4b30"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/coordinator-en-batch47.json",
+          "sha256": "6b3832b1889c08ce3379114f5bceaa7e8f2993bb9a5b6a0024db9453794243e8"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A4-preview-batch48.json",
+          "sha256": "c80df79ce05db47fcec15a4426c118892c0602dea35206b84ccccaea0a6c9569"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-en-batch46.json",
+          "sha256": "8fde3f2b8f30cc9871f7dfd3019d499cc13b1267d99521acf5411dd407b9b837"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-en-batch47.json",
+          "sha256": "629b688fb473b09eedb1b610d0a24d22eb50e53bb6c234d6c87f7ec598801d73"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch35.json",
+          "sha256": "4bb117eacbaa0b858e236438c88847b16c0ea00e853897dfa7e053f2e4e504db"
+        }
+      ],
+      "accepted_at": "2026-11-09T17:27:43.008793+08:00",
+      "reason": "两正式英语各6实际查询均同核心技术使用拒绝；原A4R2后同A3真实0新稿终核。"
+    },
+    {
+      "id": "H6",
+      "from": "/root/live_a3",
+      "to": "/root",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C63"
+      ],
+      "input_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-en-batch46.json",
+          "sha256": "8fde3f2b8f30cc9871f7dfd3019d499cc13b1267d99521acf5411dd407b9b837"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-en-batch47.json",
+          "sha256": "629b688fb473b09eedb1b610d0a24d22eb50e53bb6c234d6c87f7ec598801d73"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch35.json",
+          "sha256": "4bb117eacbaa0b858e236438c88847b16c0ea00e853897dfa7e053f2e4e504db"
+        },
+        {
+          "path": "research/runs/2026-11-07-continuous-001/A3-en-zero-batch35-receipt.json",
+          "sha256": "2fd3735e80357510147c5e944263bffbb5b69a08c1d015eca5c9ecb22cf677cf"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/root-C63-terminal-review.json",
+          "sha256": "ba5e18cc642e9cd65a8863a75256ef2715fbd451cebebf98acc747292f4b7015"
+        }
+      ],
+      "accepted_at": "2026-11-09T17:27:43.008793+08:00",
+      "reason": "原A3中英同角色，root读真实最终回执，无幸存配对。"
+    },
+    {
+      "id": "H7",
+      "from": "/root",
+      "to": "catalog",
+      "status": "zero_input",
+      "candidate_ids": [
+        "C1-C63"
+      ],
+      "input_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/root-C63-terminal-review.json",
+          "sha256": "ba5e18cc642e9cd65a8863a75256ef2715fbd451cebebf98acc747292f4b7015"
+        }
+      ],
+      "output_refs": [
+        {
+          "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/decisions-through-batch56.json",
+          "sha256": "fbfde365ff4d701a70b1335fd7c56fafd2bba484881b7edccc9d4328b648bd03"
+        }
+      ],
+      "accepted_at": "2026-11-09T17:27:43.008793+08:00",
+      "reason": "0入库；总库32旧条及稳定ID不变，待核旧两项不混入讨论。"
+    }
+  ]
+}

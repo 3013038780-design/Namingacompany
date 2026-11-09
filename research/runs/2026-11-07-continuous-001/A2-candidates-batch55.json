@@ -1,0 +1,79 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T14:06:45.354834+08:00",
+  "candidates": [
+    {
+      "id": "C1-C63",
+      "name": "来信未开",
+      "pinyin": "lái xìn wèi kāi",
+      "material_id": "C1-M77",
+      "material_ids": [
+        "C1-M77"
+      ],
+      "family_id": "C1-BF-messages-as-visitors-at-another-process-door",
+      "plan_direction_id": "C1-D-S3",
+      "case_ids": [
+        "B010",
+        "B074"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Erlang/OTP System Documentation: Processes (page reports OTP29.1.2)",
+          "url": "https://www.erlang.org/doc/system/ref_man_processes.html",
+          "source_type": "language_developer_reference_manual",
+          "access": "body",
+          "read_at": "2026-11-09T13:57:13.532590+08:00",
+          "published_at": null,
+          "reading_scope": "specified_sections_not_whole_manual",
+          "reading_location": "实际web读L48–63进程别名、L80–89异步信号、L116–144接收/入队/receive与优先消息例外、L167–169延时/丢失/同发送者次序。另见页头版本；未读底层实现、运行代码或测试网络故障。",
+          "boundary": "信号抵达、消息入队和receive取出分层；不是所有信号都进消息队列。失效别名会使后到消息丢弃、已入队消息不随注销撤回；优先消息可改变队列次序，不能说全局FIFO或必定送达。版本页头不是发文日期，不计近90日新闻。"
+        }
+      ],
+      "source_urls": [
+        "https://www.erlang.org/doc/system/ref_man_processes.html"
+      ],
+      "formation": "回到同一个消息抵达与取用分开的关系，改取已经到达、尚未被取出的完整场景，而不是给串门换一个到访动词。来信是抵达这一方的信息对象，未开是尚未取用状态，两者共指同一封来信。四字是本轮场景凝练，不冒原文汉字、既有科学名称或全球首造。",
+      "relation_sentence": "一条消息可以已经进入接收方队列，接收进程仍待之后执行receive才择取它。",
+      "condensation_path": "消息已经抵达→进入队列但尚待择取→以一封已经来而尚未打开的信作有限比喻→来信未开。",
+      "meaning": "信息已经来到，行动还保留着下一步的空间。",
+      "crossing": "收信与拆信不是同一个时刻，正如程序消息入队与后续receive择取分开。名称让这段中间状态成为完整可想象场景；不是声称运行时尚未解码消息内容。",
+      "layers": [
+        "一封已经来到但尚未打开的信，完整而带一点悬念的画面",
+        "信息抵达并不要求对方立刻处理；接收与行动可以分层",
+        "研究者面对已来到、还待取用的信息，品牌层保留开放性，但不宣称算法必然从任何消息学到东西"
+      ],
+      "material_feature_retained": "把本族的抵达不等于取用这一核心放到前台，来与未开共同限定同一条已在接收队列、尚待择取的消息。",
+      "material_feature_lost": "省略不同信号类型、alias有效性与选择性匹配；信封/拆信是比喻，不是Erlang实际有信封对象或语义理解过程。并非所有已发送信息都已抵达，也非消息永不处理。",
+      "why_name_not_generic": "四字给出一个有主角、已发生动作和尚未发生动作的完整场景，未靠更换来访近义词或加科技后缀；两部分来自同一消息状态关系。",
+      "shortcoming": "可能先像书信、小说/播客栏目或邮件管理产品，也有故意不回应/未读堆积的消极联想。机构首感仍须独立评审，不能因四字场景自然或技术源准确就自动过门。",
+      "science_boundary": "复用原Erlang实读：信号到达、消息入队与receive择取分开；不是所有信号都入队，也不保证必达/全局FIFO。未开仅映射尚未被receive取出的状态，不是尚未解码、没有权限读取内容、语义理解或人的意愿；不是原文中文名称，不承诺永不处理。未新读手册或执行程序。",
+      "history_check": {
+        "status": "same_family_revision_pending_coordinator_review",
+        "reason": "同C63/M77原消息入队与后续取用关系，保留原family_id不计新；不是新发现的书信/记忆机制。历史精确串来信未开/未开信/未读消息未命中，不代表使用清白。旧有后文取后续反馈/解释空间、回车以后取交互继续，均不能泛化成只要未发生下一步就是新族；本修订必须保留消息已入队而未取用。未尽之问等开放研究主题不作为本名词源；若脱离具体消息关系只讲未知/未来将失去独特性。"
+      },
+      "formation_feedback_refs": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "oral_test": [
+        "我们是来信未开，做人工智能研究。",
+        "来信未开今天发布了一项研究。"
+      ],
+      "status": "chinese_draft_not_screened",
+      "version": 2,
+      "rework_attempt": 1,
+      "replaces_name": "消息串门",
+      "usage_return_boundary": "原消息串门完整四字未确证精确使用；串门AI同领域软件近名风险由主控主动避让，原NEAR_MATCH_HOLD而非精确占用。本名不能继承原查询，尚未查使用。"
+    }
+  ],
+  "scope": "C63/M77同族R1 version2，首次正式修订字面来信未开；不新增主ID/素材/家族，未查使用或配英文。"
+}

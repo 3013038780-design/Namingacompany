@@ -1,0 +1,53 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T14:07:22.086078+08:00",
+  "reviews": [
+    {
+      "candidate_id": "C1-C63",
+      "name": "来信未开",
+      "version": 2,
+      "rework_attempt": 1,
+      "language": "zh",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a2",
+      "scores": {
+        "naturalness": 4,
+        "distinctiveness": 4,
+        "lab_fit": 3,
+        "grounding": 5,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 24,
+      "notes": {
+        "naturalness": {
+          "reason": "四字给出已来的信尚未开启这一完整场景，熟悉语序可直接叫出，没有术语缩写或机械拼字",
+          "counter_association": "仍是一个状态短句，放入机构称呼需要品牌约定，不能因读起来通顺就认同是好公司名"
+        },
+        "distinctiveness": {
+          "reason": "一封未开的来信有清楚悬念与可复述画面，已发生和未发生的动作关系紧凑，不只是未来/成长泛赞词",
+          "counter_association": "书信意象广泛，类似书名/歌曲/播客命名气质强；没有市场查询"
+        },
+        "lab_fit": {
+          "reason": "信息接收与取用可作为研究第二层，但不读解释时首先仍像书信作品、情感栏目或邮件工具，广义科技Lab身份不够独立",
+          "counter_association": "需要先讲程序队列，才能把来信转为计算关系；不能用原源准确或四字画面为身份补分"
+        },
+        "grounding": {
+          "reason": "已入队与后续receive择取的原运行关系真实，来与未开限定同一对象，不把未开写成未解码/理解，边界准确",
+          "counter_association": "信封与拆信只是品牌比喻，手册无此中文；不能推广所有已发消息必已到或所有信号均入队"
+        },
+        "extension": {
+          "reason": "信息抵达之后的可行动空间不限单一模型/通知功能，容纳长期研究主题",
+          "counter_association": "长期可能被锁为邮件未读管理或不回应形象，开放性不是任意等待都有效"
+        },
+        "semantic_coherence": {
+          "reason": "来信与未开是一封信的同一状态关系，对应入队与尚未择取，没有给字各编寓意",
+          "counter_association": "未开带保密/情感回避联想，不应解释成更聪明或完全安全的因果承诺"
+        }
+      },
+      "decision": "quality_reject"
+    }
+  ],
+  "qualified_candidate_ids": [],
+  "boundary": "无分预览/执行先封并交主控，数字独档后写；未读本版主控评分。完整自然场景并不保证公司身份，作者保留本次正式修订字面与真实自拒，不为使返工幸存调门槛。"
+}

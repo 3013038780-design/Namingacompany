@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-09T13:59:35.771301+08:00",
+  "independence": "Read producer preview batch54 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C63",
+      "name": "消息串门",
+      "reviewer": "coordinator",
+      "scores": {
+        "naturalness": 5,
+        "distinctiveness": 5,
+        "lab_fit": 4,
+        "grounding": 4,
+        "extension": 4,
+        "semantic_coherence": 4
+      },
+      "total": 26,
+      "notes": {
+        "naturalness": {
+          "reason": "两个熟悉双音词构成完整主谓小场景顺口可直接叫出",
+          "counter_association": "日常也像消息去串门这一句口语"
+        },
+        "distinctiveness": {
+          "reason": "没有只堆科技赞词而是让信息成为到别人门口的访客画面独立易复述",
+          "counter_association": "拟人画面轻巧可能像内容社区名称"
+        },
+        "lab_fit": {
+          "reason": "消息的计算通信身份与能按自己节奏行动的系统可承载交互智能研究",
+          "counter_association": "聊天软件或快递通知首感比基础模型更强"
+        },
+        "grounding": {
+          "reason": "官方原文有消息抵达入队与receive择取分开的事实有限拟人关系明确",
+          "counter_association": "文字不直接说明别名优先消息和匹配规则也不是真正自主游走"
+        },
+        "extension": {
+          "reason": "可跨通信协议智能体与不同产品不限定聊天按钮",
+          "counter_association": "若只产品化为消息通知可能被锁为聊天服务"
+        },
+        "semantic_coherence": {
+          "reason": "同一消息主角的抵达动作与接收方稍后处理构成一致场景",
+          "counter_association": "串门若被解释成任意越界读取他人状态就偏离原文"
+        }
+      },
+      "decision": "quality_pass"
+    }
+  ]
+}

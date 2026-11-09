@@ -1,0 +1,40 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-09T14:01:02.553841+08:00",
+  "candidate_id": "C1-C63",
+  "name": "消息串门",
+  "material_id": "C1-M77",
+  "family_id": "C1-BF-messages-as-visitors-at-another-process-door",
+  "decision": "accepted_for_CN_screening_only",
+  "actual_read": "无分preview54和材料40、官方指定段、旧round2异步R2C03原稿，以及已读C19/C62谱系。",
+  "family_reason": "旧异步原材料是Rust Future暂停/恢复的执行节奏；本项具体对象是进程之间的消息，抵达入队不等执行receive择取。COW同族已剔除未新读、不计卡；C62戏剧前提承接不同于通信队列。只说彼此不用等不能另算新族；本项限定消息访客/接收队列/取用三者关系，后续同物件换动词不重复计。",
+  "case_to_material": "ByteDance的同一信息主角与可感动作、Recursive的具体过程身份先于阅读选择；没有把品牌比喻当字节物理舞蹈或论文原名。",
+  "quality": "root26/作者25，最大轴差1，两份均过门槛，分数为编辑判断非市场验证。轻巧社交工具/快递/越界误读仍保留。",
+  "naming_boundary": "消息是完整主语而非组织/行业后缀，消息串门应按完整有意义核心查；若有串门等近名也报告具体风险，不随意删主语就冒精确同名。",
+  "refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch54.json",
+      "sha256": "044f7866381edc3232171f6edb878ed50896541e60f95d500d60c152154c2825"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch54.json",
+      "sha256": "6ce2cdb7dc48f13bb4c0807fa568e9fbd7d8282fb918916d59fd5755ebe5d6f7"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch54.json",
+      "sha256": "dcfcd5c1f67c4a23f381af4772729b2b3dfa01851b5e622568e24419df30b107"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch54.json",
+      "sha256": "4353cdf90632471de6f36679f539ed499963438731f09cf0fe77613dc98e47c6"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/materials-extension40.json",
+      "sha256": "46ed952561e3aac0dfdb22505bc1ce343ccad8469e8a29275366adafdd85eef3"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/continuations/2026-11-09T052915Z/root-M77-source-review.json",
+      "sha256": "438e348cdffe97bc8aec20c34713f8f419dde120038daacb2f5fb456dd647c8e"
+    }
+  ]
+}

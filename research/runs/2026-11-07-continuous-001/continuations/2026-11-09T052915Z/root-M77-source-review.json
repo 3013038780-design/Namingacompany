@@ -1,0 +1,16 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-09T14:01:02.553841+08:00",
+  "material_id": "C1-M77",
+  "url": "https://www.erlang.org/doc/system/ref_man_processes.html",
+  "version_actually_observed": "OTP29.1.2",
+  "root_actual_read": "页头、48–63、80–89、116–144与find返回167–169；另读177–180发送限流说明。未运行程序/读底层实现或看Figure1，不冒全手册。",
+  "fact": "信号接收/消息入队/receive择取不同层；alias失效后到消息丢弃而不撤已入队者；优先消息可以改变消息队列相对次序；同发送者信号顺序不等消息都保证送达。异步概念不保证所有分布式send都不被限流挂起。",
+  "brand_boundary": "串门是有限拟人，消息无自主意愿、无越权读取含义，名字不显示完整协议；官方版本页头非文章日期，不计近90日新闻。",
+  "source_sampling": {
+    "new_cards": 1,
+    "root_card_source_read": 1,
+    "minimum_required": 1
+  },
+  "new_root_usage_queries": 0
+}

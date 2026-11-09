@@ -1,0 +1,60 @@
+{
+  "agent_id": "/root/continuous_a4",
+  "reviewed_at": "2026-11-09T17:17:30.320099+08:00",
+  "unscored_stage_refs": [
+    {
+      "path": "A4-preview-batch47.json",
+      "sha256": "ca1b6f5acf4627abe3bcc863481a7543a6e9e7e5dea565256f8fe822f39f4b30"
+    },
+    {
+      "path": "A4-preview-batch47.md",
+      "sha256": "daab58d9b23ffd5858a84377771db39de8931ec2118de1a95f1eba8ea79056cd"
+    },
+    {
+      "path": "A4-creation-execution-batch47.json",
+      "sha256": "b0efcae8e9dee2318fb53c2c1fd1bcf681923a7d4f737cdd0a0dfd29b3084773"
+    }
+  ],
+  "reviews": [
+    {
+      "candidate_id": "C1-E49",
+      "chinese_id": "C1-C63",
+      "english": "Anteroom",
+      "reviewer": "producer",
+      "reviewer_id": "/root/continuous_a4",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 4,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 4
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "既有词AN-ti-room三音节节奏清楚、无难接辅音，按词典读法可独立称呼。",
+          "counter_association": "这不是已做听测，陌生听者仍可能听作anti-room。"
+        },
+        "spelling": {
+          "reason": "完整词形两部词典均有，ante-room可帮助还原，未任意改字母。",
+          "counter_association": "ante与anti辨写成本真实；不因词典收录给满分。"
+        },
+        "grounding": {
+          "reason": "完整前室/等候室字义已核，与已到且暂未进入下一作用的真实状态能作有限类比。",
+          "counter_association": "词典不证明房间有receive算法，历史首用年代不一致不作断言。"
+        },
+        "bilingual_relation": {
+          "reason": "中文消息候场和英文等候前室共享已就位而未开始下一行动的状态。",
+          "counter_association": "英文用场所换主体、没写消息或选择规则，主题配对非机制逐译。"
+        },
+        "distinctiveness": {
+          "reason": "完整有边界的空间形象比泛服务短语更可称呼，研究空间可容纳长期议题。",
+          "counter_association": "酒店/设计/展览或官僚等候第一印象强；独立Lab身份须root另判，出处不保证品牌合格。"
+        }
+      },
+      "status": "pass_quality_gate",
+      "decision": "quality_pass",
+      "note": "无分稿/执行先封并交root后实际写本数字；未读root本版分。按原门槛判断，不因首返或有词典就降低标准。"
+    }
+  ]
+}

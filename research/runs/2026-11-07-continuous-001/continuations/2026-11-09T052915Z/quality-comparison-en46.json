@@ -1,0 +1,17 @@
+{
+  "chinese_id": "C1-C63",
+  "english_id": "C1-E48",
+  "producer_ref": "A4-quality-batch46.json",
+  "coordinator_ref": "coordinator-en-batch46.json",
+  "root_sealed_before_producer_read": true,
+  "producer_total": 21,
+  "coordinator_total": 21,
+  "max_axis_difference": 0,
+  "decision": "accepted",
+  "next": "same_original_A3_EN46",
+  "source_verification": {
+    "url": "https://www.merriam-webster.com/dictionary/at%20hand",
+    "actual_read_lines": "31–46,54–62",
+    "scope": "first sense near in time or place / within reach; secondary attention sense distinguished; dictionary first-use label is not original earliest text"
+  }
+}

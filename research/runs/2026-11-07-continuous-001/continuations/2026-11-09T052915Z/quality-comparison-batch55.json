@@ -1,0 +1,36 @@
+{
+  "reviewed_at": "2026-11-09T14:12:01.517549+08:00",
+  "candidate_id": "C1-C63",
+  "version": 2,
+  "name": "来信未开",
+  "root_sealed_before_producer_numeric_read": true,
+  "root_total": 26,
+  "producer_total": 24,
+  "max_axis_difference": 1,
+  "decision": "not_eligible_producer_quality_reject_return_original_A2_last_R2",
+  "reason": "作者总24且lab_fit3未达4；主控26认为可承载知识/交互研究，但任一双评不过就不能送A3，不能用主控高分覆盖。最大轴差1不触发>=2强制复评，保留不同审美理由和旧分，原名字未做使用查重，不称占用或可用。",
+  "CN_reworks_actually_used": 1,
+  "remaining_CN_reworks": 1,
+  "refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-preview-batch55.json",
+      "sha256": "8a632a76633692edde19ea3ba39359f4324f3924f58b3147c0df996821bf35f1"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch55.json",
+      "sha256": "53a9bc9f2cfc7b12c48499a2060c90edceaa01db0e2d779c29c932399df56506"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-quality-batch55-receipt.json",
+      "sha256": "cfb3b5ab8c307d6ab657914e6a86844488ac2fd4f652ab89ba8af5064852c92f"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A2-creation-execution-batch55.json",
+      "sha256": "3fd9a111cde311e3780a4872b710fd48670709f0645b420724de176902503792"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch55.json",
+      "sha256": "a38684ec357baa8d3c279bb8228f8c81407abea12a5819283cd995c82a352d94"
+    }
+  ]
+}

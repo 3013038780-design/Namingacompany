@@ -1,0 +1,66 @@
+{
+  "agent_id": "/root/continuous_a2",
+  "submitted_at": "2026-11-09T13:57:13.532590+08:00",
+  "materials": [
+    {
+      "id": "C1-M77",
+      "family_id": "C1-MF-message-arrival-and-selective-receive-as-separate-stages",
+      "macro_id": "S3",
+      "secondary_macro_ids": [
+        "S1"
+      ],
+      "plan_direction_id": "C1-D-S3",
+      "category": "process_message_object_delivery_and_queue",
+      "case_ids": [
+        "B010",
+        "B074"
+      ],
+      "principle_ids": [
+        "C1-P1",
+        "C1-P2",
+        "C1-P3",
+        "C1-P5"
+      ],
+      "sources": [
+        {
+          "title": "Erlang/OTP System Documentation: Processes (page reports OTP29.1.2)",
+          "url": "https://www.erlang.org/doc/system/ref_man_processes.html",
+          "source_type": "language_developer_reference_manual",
+          "access": "body",
+          "read_at": "2026-11-09T13:57:13.532590+08:00",
+          "published_at": null,
+          "reading_scope": "specified_sections_not_whole_manual",
+          "reading_location": "实际web读L48–63进程别名、L80–89异步信号、L116–144接收/入队/receive与优先消息例外、L167–169延时/丢失/同发送者次序。另见页头版本；未读底层实现、运行代码或测试网络故障。",
+          "boundary": "信号抵达、消息入队和receive取出分层；不是所有信号都进消息队列。失效别名会使后到消息丢弃、已入队消息不随注销撤回；优先消息可改变队列次序，不能说全局FIFO或必定送达。版本页头不是发文日期，不计近90日新闻。"
+        }
+      ],
+      "source_urls": [
+        "https://www.erlang.org/doc/system/ref_man_processes.html"
+      ],
+      "fact": "Erlang进程以异步信号通信，普通消息符合条件时先入目标消息队列，进程执行receive才按匹配规则取出；接收信号并不等待该表达式。",
+      "distinctive_relation": "信息已到对方门口，不等于对方正在取用它；抵达和择取之间有一个真实存放/选择环节。",
+      "mechanism_to_material": "先依B010同一信息主角获得可感动作，问数据在独立使用者间如何共享/分开；实际读旧C19后发现COW同族不再新读。随后保留信息主角、改问独立进程如何交消息而不要求同步行动，选择Erlang官方进程正文。B074迁移的是具体运作关系可承载身份，不抄递归或承诺智能递增。B010企业后来释名与本研究动作分析、B074公司自述仍分层，没有本角色重核它们外部词源。",
+      "history_difference": "已实际读C19分身有别/M27：同一COW关系，不以2026课程索引翻新。本项不同：消息抵达/入队与接收进程稍后择取是不同环节。旧R2异步为Rust Future暂停/各自节奏，本项若只剩不用等即同族；需保留独立进程的消息队列与抵达不等于取用。旧因序是事件依赖的偏序，非信箱接收过程；C62接招是人际不抹去伙伴情境前提，本项不是立场接纳/合作技巧。C03应手是结构动作感知，不是通信入队。全runs精确串消息串门/串门/消息队列/Erlang无历史命中；这不等于市场未用。",
+      "naming_potential": "可把消息作为可抵达他处的主角，形成消息串门的日常场景；不是把计算术语全名贴公司或用异步换字。",
+      "shortcoming": "容易退成聊天/通知/快递服务品牌；串门的拟人感不能解释成未经授权读取别人的状态或随意进出进程。",
+      "boundary": "信号抵达、消息入队和receive取出分层；不是所有信号都进消息队列。失效别名会使后到消息丢弃、已入队消息不随注销撤回；优先消息可改变队列次序，不能说全局FIFO或必定送达。版本页头不是发文日期，不计近90日新闻。",
+      "is_classical": false,
+      "status": "candidate_proposed_pending_coordinator_review",
+      "classification_reason": "对象和真实运行关系直接来自进程通信手册，主S3；日常门口/收信仅品牌比喻属次S1，不改标签凑比例。"
+    }
+  ],
+  "new_material_count": 1,
+  "new_chinese_draft_count": 1,
+  "reading_only_or_excluded": [
+    {
+      "topic": "COW与WAL搜索入口",
+      "actual_scope": "搜索结果摘要；COW与旧C19同关系，WAL未打开正文，两者都不计本包新资料/阅读。",
+      "urls": [
+        "https://pdos.lcs.mit.edu/6.828/2026/labs/cow.html",
+        "https://www.postgresql.org/docs/16/wal-intro.html"
+      ],
+      "counted_as_new_material": false
+    }
+  ],
+  "coverage_note": "新增1开发者正文关系；没有新书/近90日新闻，不拿抓取时间或版本当发布日期。古文未加，4/77；六世界仍开放，本包不是全生产研究达标声明。"
+}

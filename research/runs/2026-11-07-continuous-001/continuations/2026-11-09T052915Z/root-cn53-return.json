@@ -1,0 +1,46 @@
+{
+  "reviewer": "/root",
+  "reviewed_at": "2026-11-09T14:05:06.846587+08:00",
+  "candidate_id": "C1-C63",
+  "name": "消息串门",
+  "decision": "editorial_avoid_specific_same_field_core_brand_return_original_A2_R1",
+  "raw_A3_reason_code": "NEAR_MATCH_HOLD",
+  "not_exact_same_name": true,
+  "actual_root_sources": [
+    {
+      "url": "https://www.chuanmenlive.com/privacy_policy.html",
+      "scope": "0–4产品/主体标题，21–29对话/语音消息场景，225公司署名；未对其余隐私/合规或技术效果作核准。",
+      "finding": "海南串门科技自称串门AI社交App/小程序，为具体同领域软件商业用名。"
+    },
+    {
+      "url": "https://chuanmenlive.com/products.html",
+      "scope": "18–20完整串门AI名称，36–44实时聊天/社区及推荐文字",
+      "finding": "具名软件而非串门普通动词；官网自述不冒实际效果/用户数据或官方工商状态。"
+    }
+  ],
+  "core_name_reason": "消息作为有意义主语不能被删成精确同名；但在现有串门AI的消息/社交领域，消息串门容易被理解成其消息功能或子品牌，具体领域与词核重合，主控主动避让，不声称完整四字已用。",
+  "secondary_leads": "NEKO串门功能PR原页/API未读闭，不据索引当同名独立软件；root不重复失败入口。",
+  "CN_reworks_used_before_return": 0,
+  "CN_reworks_available": 2,
+  "English_eligible": false,
+  "new_A3_queries": 8,
+  "new_root_candidate_queries": 0,
+  "refs": [
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch53.json",
+      "sha256": "e0a29847ebc41df177fbf314629b12d84aea4d3ef4953792d5c3f676b3d5dd89"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/A3-cn-batch53-receipt.json",
+      "sha256": "6447bf2fb27b462b1aa2b014087f8b9ebe33a8638bed698e3fc7ccfd989626c4"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-cn-batch54.json",
+      "sha256": "dcfcd5c1f67c4a23f381af4772729b2b3dfa01851b5e622568e24419df30b107"
+    },
+    {
+      "path": "research/runs/2026-11-07-continuous-001/coordinator-family-review-batch54.json",
+      "sha256": "04da86015cb01fc00211b0d8f01fd3f5a2f374a384e62133d89432cc166475b1"
+    }
+  ]
+}

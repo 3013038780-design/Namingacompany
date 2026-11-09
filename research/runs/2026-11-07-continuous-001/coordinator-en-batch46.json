@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-09T17:13:24.122210+08:00",
+  "independence": "Read producer preview batch46 before numeric assessment.",
+  "reviews": [
+    {
+      "candidate_id": "C1-C63",
+      "name": "At Hand",
+      "reviewer": "coordinator",
+      "scores": {
+        "pronunciation": 5,
+        "spelling": 5,
+        "grounding": 4,
+        "bilingual_relation": 4,
+        "distinctiveness": 3
+      },
+      "total": 21,
+      "notes": {
+        "pronunciation": {
+          "reason": "两个常见词读音顺畅可直接称呼",
+          "counter_association": "介词短语不像独立名词"
+        },
+        "spelling": {
+          "reason": "正常英语短语无需解释拼写",
+          "counter_association": "连写与连字符需保持品牌一致"
+        },
+        "grounding": {
+          "reason": "词典原义在身边或触手可及支持可用状态但不是消息队列术语",
+          "counter_association": "不能据此声称立即处理或可靠送达"
+        },
+        "bilingual_relation": {
+          "reason": "与中文已经到达等待选择共享主题但不是逐字翻译",
+          "counter_association": "英文省略消息与等待需说明"
+        },
+        "distinctiveness": {
+          "reason": "短语易记但通用度高搜索辨识度弱",
+          "counter_association": "可能先联想生活助理照护工具用品"
+        }
+      },
+      "decision": "quality_pass",
+      "english_id": "C1-E48"
+    }
+  ]
+}
